@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "company": "Rhoda AI",
+    "role": "Robot Perception Engineer",
+    "company_slug": "rhoda-ai",
+    "job_slug": "robot-perception-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY focused on real-time perception for robotics on embedded and edge compute platforms. Built and calibrated multi-sensor pipelines (ToF, camera, IMU) integrated with ROS2 kinematics and TensorRT-optimized object detection on NVIDIA Jetson, achieving a 5.2x inference speedup for closed-loop robotic perception. Comfortable debugging across the full stack, from I2C/UART driver-level sensor issues to detection behavior on live hardware.",
+  "skills": {
+    "Robotics & Perception": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "YOLO",
+      "Visual servoing",
+      "Forward kinematics",
+      "DH parameters"
+    ],
+    "Sensors & Embedded": [
+      "NVIDIA Jetson",
+      "STM32 (Bare-Metal C)",
+      "ToF (VL53L0X)",
+      "IMU (ADXL345)",
+      "UART/I2C/SPI",
+      "Raspberry Pi",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Edge AI / Computer Vision": [
+      "OpenCV",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Depth estimation (ZoeDepth)",
+      "Object detection (YOLO)"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "ROS2",
+      "Bash"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction.",
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for edge deployment."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition sensor system integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system across a three-layer pipeline: Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller over a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO (5.2x speedup: 56.7\u219210.9 ms) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); integrated into an adaptive control stack with lane-following and waypoint fallback, validated across Town02 with zero collisions."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Random Signal Analysis",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

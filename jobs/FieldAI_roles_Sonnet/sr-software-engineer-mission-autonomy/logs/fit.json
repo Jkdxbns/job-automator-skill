@@ -1,0 +1,134 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Sr. Software Engineer - Mission Autonomy",
+  "job_slug": "sr-software-engineer-mission-autonomy",
+  "match_pct": 46.7,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.062,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python programming (COFFIN arm (Flask-SocketIO backend, faster-whisper, Gemini intent), SLM Compression (bitsandbytes), CUDA Kernel Optimization, CARLA autonomous driving, Python Developer Intern (BARC: PyQt/Matplotlib GUI), AI/ML Intern (IIT Bombay: PyTorch/HuggingFace))",
+    "C++ programming (CUDA Kernel Optimization for VGG16 (custom CUDA C++ kernels, memory coalescing), STM32 Bare-Metal Temperature Monitor (embedded C), skills list includes C/C++)",
+    "ROS (ROS-Based Robotic Arm (AL5B & UR5e): ROS2 Humble + ROS Noetic, MoveIt, RViz, DH parameters, forward kinematics)",
+    "Linux (COFFIN arm: systemd deployment (unit files, auto-restart, non-root isolation, static IP/network config); skills list includes Linux admin)",
+    "Git (Python Developer Intern (BARC): GitLab; skills list includes Git)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Effective and efficient communication with all teams",
+      "you_have": "Agnel Robotics Club General Secretary (led 25-member team); Teesside Univ Research Fellowship (led 7-person team)"
+    },
+    {
+      "jd_skill": "LLM-based decision-making frameworks in robotic systems",
+      "you_have": "COFFIN arm: Gemini intent classification + faster-whisper STT pipeline + SocketIO feedback for language-driven mission execution"
+    },
+    {
+      "jd_skill": "Natural language-driven robotic navigation / Navigation",
+      "you_have": "COFFIN arm: dual VL53L0X ToF sensors, TCA9548A I2C mux, real-time spatial sensing for pick/place; ROS arm: MoveIt path planning"
+    },
+    {
+      "jd_skill": "C++ programming (preferred)",
+      "you_have": "Same as required C++ backing above \u2014 CUDA C++ kernels and embedded C"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "PhD in Computer Science or related field",
+      "reason": "Candidate holds M.S. Computer Engineering (RIT), not PhD"
+    },
+    {
+      "jd_skill": "5+ years experience with product level AI software (e.g. state machines, behavior trees)",
+      "reason": "Candidate is new-grad (0 years full-time); profile has no state machines or behavior trees"
+    },
+    {
+      "jd_skill": "Experience with simulation environments (e.g. Gazebo, Isaac Sim)",
+      "reason": "Profile mentions CARLA simulator but no Gazebo or Isaac Sim"
+    },
+    {
+      "jd_skill": "Semantic Scene Graph world model",
+      "reason": "No semantic scene graph, world model, or graph-based spatial reasoning mentioned"
+    },
+    {
+      "jd_skill": "Unit and integration tests / robotics testing framework maintenance",
+      "reason": "Profile lists integration failures resolved but no framework-level test development"
+    },
+    {
+      "jd_skill": "State machines / behavior trees (explicit product-level examples)",
+      "reason": "Not mentioned in any project or internship"
+    }
+  ],
+  "top_ats_keywords": [
+    "semantic scene graph",
+    "spatial reasoning",
+    "context-aware mission planning",
+    "natural language-driven navigation",
+    "LLM API",
+    "mission execution",
+    "feedback handling",
+    "unit tests",
+    "integration tests",
+    "robotics testing framework",
+    "Python",
+    "C++",
+    "ROS",
+    "Linux",
+    "Git",
+    "state machines",
+    "behavior trees",
+    "autonomy",
+    "simulation",
+    "Gazebo",
+    "Isaac Sim"
+  ],
+  "required_skills": [
+    "PhD in Computer Science or related field",
+    "Python programming",
+    "C++ programming",
+    "ROS",
+    "Linux",
+    "Git",
+    "5+ years experience with product level AI software (e.g. state machines, behavior trees)",
+    "Effective and efficient communication with all teams"
+  ],
+  "preferred_skills": [
+    "Proficiency in C++ programming",
+    "Experience with simulation environments (e.g. Gazebo, Isaac Sim)",
+    "Experience with LLM-based decision-making frameworks in robotic systems"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop and integrate semantic scene graph world model for real-time spatial reasoning, context-aware mission planning, and natural language-driven robotic navigation",
+    "Design and implement API frameworks allowing LLMs to interface with robotic autonomy stacks for language-based mission execution and feedback handling",
+    "Maintain and expand robotics testing framework via unit and integration tests for reliability, safety, and performance"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

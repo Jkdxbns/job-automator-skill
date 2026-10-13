@@ -1,0 +1,20 @@
+{
+  "company": "BrightAI Corporation",
+  "company_slug": "brightai",
+  "role": "Staff Embedded Software Engineer",
+  "job_slug": "staff-embedded-software-engineer",
+  "match_pct": 67,
+  "missing_skills": ["Yocto Project / OpenEmbedded", "BSP / bootloader (U-Boot) / kernel config / device trees", "Linux debugging tools (GDB, strace, dmesg, perf, ftrace)", "USB"],
+  "adjacent_skills": ["Embedded system constraints (bare-metal STM32 experience, not Linux boot time work)", "CI/CD pipelines (Git experience, no explicit CI/CD)"],
+  "top_ats_keywords": ["Yocto", "OpenEmbedded", "BSP", "U-Boot", "device tree", "kernel", "C/C++", "Python", "Bash", "GDB", "strace", "I2C", "SPI", "UART", "GPIO", "USB", "Git", "CI/CD"],
+  "key_responsibilities": [
+    "Support and maintain an existing Yocto-based embedded Linux distribution",
+    "Improve and extend BSPs, Yocto layers, recipes, images",
+    "Board bring-up: bootloader configuration, kernel updates, device tree changes",
+    "Debug complex issues across bootloader, kernel, userspace, hardware boundaries",
+    "Provide technical leadership and mentor engineers on Yocto/system-level software"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

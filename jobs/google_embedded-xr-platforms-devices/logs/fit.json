@@ -1,0 +1,75 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, Embedded Systems, XR, Platforms and Devices",
+  "job_slug": "embedded-xr-platforms-devices",
+  "match_pct": 100,
+  "missing_skills": [
+    "Gerrit (specific tool)"
+  ],
+  "adjacent_skills": [
+    "data structures and algorithms (academic/MS coursework, no dedicated project keyword)",
+    "performance/large-scale systems data analysis (CUDA kernel optimization, benchmarking, profiling present; distributed/large-scale systems scope is different)",
+    "Gerrit (Git/GitLab present, not Gerrit specifically)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "embedded operating systems",
+    "FreeRTOS",
+    "RTOS",
+    "Git",
+    "Gerrit",
+    "code review",
+    "data structures",
+    "algorithms",
+    "debugging",
+    "performance analysis",
+    "XR",
+    "systems programming"
+  ],
+  "key_responsibilities": [
+    "Participate in or lead design reviews to decide amongst available technologies",
+    "Review code from other engineers for style, correctness, testability, efficiency",
+    "Contribute to and adapt documentation/educational content",
+    "Triage and debug product/system issues affecting hardware, network, or service quality",
+    "Write product or system development code"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 60,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4 with direct register-level GPIO/TIM2/ADC1/I2C1 programming (STM32 Bare-Metal Temperature Monitor) directly backs the 'low level systems programming' minimum qual, not just a C/C++ keyword hit.",
+      "FreeRTOS with mutexes and shared-memory task coordination (Object Tracking Turret) is real embedded-OS experience, matching the second minimum qual concretely rather than by keyword adjacency.",
+      "Documented debugging/triage under pressure: 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' on the COFFIN capstone maps directly onto the JD's 'triage product or system issues... debug/track/resolve' responsibility.",
+      "Performance optimization instincts are real and quantified (CUDA kernel work: 35% speedup via memory coalescing; TensorRT YOLO: 5.2x speedup) which is the kind of evidence a 'performance... debugging' preferred qual is actually checking for.",
+      "MS Computer Engineering from RIT satisfies the preferred degree qualification outright."
+    ],
+    "real_gaps": [
+      "Zero full-time years against a stated '2 years experience' minimum. The bachelor's line explicitly allows 'or equivalent practical experience' but the two technical-experience lines don't carry that same qualifier.",
+      "RTOS depth is one hobby project (FreeRTOS on the Object Tracking Turret) \u2014 mutexes and task coordination, real but small in scope, not 2 years of production RTOS work.",
+      "DSA is coursework-only, not demonstrated anywhere (no LeetCode, no DSA-specific project) \u2014 matches the standing feedback-resume-defensibility note that DSA prep is an active, unresolved gap.",
+      "'Large scale systems data analysis' doesn't match your actual scale: CUDA/TensorRT/MPI-SLURM work is edge-device and academic-HPC scale, not production distributed systems.",
+      "Gerrit: zero exposure anywhere (Git/GitLab experience exists, Gerrit specifically does not).",
+      "'Visualization tools' evidence is thin \u2014 only a single-user PyQt/Matplotlib lab GUI at BARC, not large-scale systems observability tooling.",
+      "No code review experience anywhere in the profile, despite the JD explicitly naming 'review code developed by other engineers... style guidelines, checking code in, accuracy, testability, efficiency.'",
+      "No testing/testability evidence anywhere \u2014 no unit tests, CI, or QA process in any project; everything is single-developer work.",
+      "'Design reviews... deciding amongst available technologies' leadership evidence (Robotics Club GS, BraTS team lead) is academic/extracurricular, not a professional engineering-org context.",
+      "Documentation experience is thin and dated (2022-2023 internship bullets only, not engineering-org scale).",
+      "XR is the team's actual product and the job title itself; the only touchpoint is a 2022 internship bullet describing a Mixed Reality headset CONCEPT (documentation + BOM), not shipped XR software or device firmware. Single biggest domain gap; keyword match never scored it.",
+      "C++ depth is a repeat interview failure mode (NVIDIA: couldn't answer 'what did you use from C++17', failed 2 other C++ questions) \u2014 same risk surfaces again on a C++-heavy embedded role. See feedback-resume-defensibility.",
+      "STM32/FreeRTOS project framing has caused confusion before (COFFIN=Arduino vs Turret/drone=STM32/FreeRTOS) \u2014 current tailored resume keeps this straight, but be ready to defend which project used which MCU under direct questioning. See project-coffin-repo-landmines.",
+      "Sensor-tradeoff reasoning under live questioning is a named, learnable gap (TBC R3 GPS-denied sensor-selection question), not bad luck \u2014 worth drilling before any embedded/robotics-adjacent screen."
+    ],
+    "overstated_by_keywords": [
+      "'Embedded operating systems' was marked a clean Have \u2014 accurate for skill presence, but the underlying evidence is one university project, not 2 years of production RTOS work the JD line is nominally asking for.",
+      "'Performance / large-scale systems data analysis' was marked Adjacent-with-good-coverage by the keyword pass, but the actual gap in scale (embedded/edge and academic-HPC vs. production distributed systems) is larger than 'adjacent' suggests."
+    ],
+    "reasoning": "The core technical bar (low-level C on bare metal, real RTOS experience, debugging discipline) is genuinely met with concrete project evidence, not just keyword presence, which is stronger than a typical new-grad match. But the keyword-only 100% score hides two real risks: this posting sits on Google's XR team specifically and Justin has no hands-on XR work, and the '2 years experience' line has no full-time backing, resting entirely on internship-equivalence that isn't guaranteed to read favorably at screen."
+  }
+}

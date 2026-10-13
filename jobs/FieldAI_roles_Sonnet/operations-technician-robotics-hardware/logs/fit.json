@@ -1,0 +1,124 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Operations Technician, Robotics Hardware",
+  "job_slug": "operations-technician-robotics-hardware",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 16,
+    "req_cov": 0.214,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Familiarity with embedded compute systems, sensors, robotics hardware (Embedded Systems Intern (Planctech): wearable gesture glove with ADXL345 IMU, Raspberry Pi, HC-05 Bluetooth; Object Tracking Turret: YOLOv8 on Jetson + STM32 + VL53L0X ToF; ROS-Based Robotic Arm (AL5B & UR5e): ROS2 Humble + ROS Noetic, MoveIt/RViz; Voice-Controlled Robotic Arm: Jetson + Arduino + I2C mux + ToF sensors)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Build wire harnesses; work with low-voltage electrical systems",
+      "you_have": "Embedded Systems Intern (Planctech): ADXL345 + Raspberry Pi + HC-05 Bluetooth, UART/I2C sensor comms; PCB fabrication (EAGLE) and UART/I2C/SPI embedded experience \u2014 electrical integration present but no explicit wire-harness or harness-routing bullet"
+    },
+    {
+      "jd_skill": "Read and follow wiring diagrams, mechanical drawings, and assembly instructions",
+      "you_have": "ROS/embedded projects use engineering specs and integration instructions, but no explicit bullet naming mechanical-drawing or wiring-diagram interpretation for assembly"
+    },
+    {
+      "jd_skill": "2+ years hands-on technician experience in robotics/electronics/electro-mechanical assembly",
+      "you_have": "7 internships/research roles (new-grad, 0 years full-time) spanning embedded, robotics, ML; hands-on assembly/tool experience not documented in profile"
+    },
+    {
+      "jd_skill": "Experience with perception systems (LiDAR, cameras, radar, IMUs)",
+      "you_have": "YOLOv8 camera perception (Object Tracking Turret, Autonomous Driving in CARLA, Deep Learning Intern at Tusk); ADXL345 IMU (Planctech embedded intern); no LiDAR or radar experience in profile"
+    },
+    {
+      "jd_skill": "Familiarity with Linux, ROS2, embedded system bring-up",
+      "you_have": "Voice-Controlled Robotic Arm: systemd deployment (auto-restart, non-root isolation, static IP) + Linux admin; ROS-Based Arm: ROS2 Humble + ROS Noetic + ROS2 driver; Embedded Intern: Raspberry Pi/STM32 bare-metal; no explicit Linux/ROS2 embedded bring-up workflow bullet but closely related"
+    },
+    {
+      "jd_skill": "Validate communication links across Ethernet, USB, CAN, GMSL, and other interfaces",
+      "you_have": "UART/I2C/SPI, Bluetooth BLE/Classic, I2C mux (TCA9548A) used in projects; no CAN, GMSL, Ethernet, or USB bring-up specifically mentioned"
+    }
+  ],
+  "missing_skills": [
+    "Proficiency with hand tools, power tools, torque drivers, and basic machine-shop tools",
+    "Soldering",
+    "LiDAR (explicitly not in profile)",
+    "GPS receivers / GPS-based navigation",
+    "CAN bus interface experience",
+    "GMSL interface experience",
+    "Specific mechanical-assembly/build-documentation discipline for technician production workflows",
+    "Ability to lift up to 50 lbs / workshop/field environment readiness (not addressed)",
+    "Production-scale distributed systems / company-scale hardware deployment experience"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "hardware assembly",
+    "electro-mechanical",
+    "wire harness",
+    "embedded compute",
+    "ROS2",
+    "LiDAR",
+    "IMU",
+    "GPS",
+    "calibration",
+    "soldering",
+    "power-rail validation",
+    "CAN",
+    "GMSL",
+    "Linux",
+    "mechanical drawing",
+    "thermal characterization",
+    "vibration"
+  ],
+  "required_skills": [
+    "2+ years hands-on technician experience in robotics/electronics/electro-mechanical assembly",
+    "Proficiency with hand/power/torque drivers and machine-shop tools",
+    "Read and follow wiring diagrams, mechanical drawings, and assembly instructions",
+    "Build wire harnesses; work with low-voltage electrical systems",
+    "Familiarity with embedded compute systems, sensors, robotics hardware",
+    "Attention to detail and documentation discipline",
+    "Ability to lift 50 lbs and work in workshop/lab/field"
+  ],
+  "preferred_skills": [
+    "Experience with perception systems (LiDAR, cameras, radar, IMUs)",
+    "Familiarity with Linux, ROS2, embedded system bring-up",
+    "Soldering"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Assemble/integrate perception payloads (LiDAR, cameras, IMUs, GPS, compute modules)",
+    "Build/rout wire harnesses; install mounts/enclosures/thermal components",
+    "Perform continuity/grounding/power-rail validation; validate Ethernet/USB/CAN/GMSL links",
+    "Bring up Linux/ROS2 embedded compute; verify pinouts and harness strain-relief",
+    "Run functional tests (sensor bring-up, calibration, boot/health, network verification)",
+    "Document test results, deviations, rework; support vibration/thermal/alignment tests",
+    "Diagnose wiring/mechanical/communication/thermal faults; root-cause with engineers",
+    "Prepare/stage/service payloads for deployment; rapid repair/reconfiguration in field"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,17 @@
+{
+  "company": "Rise Technical (recruiting for Mentor, OH industrial power electronics employer)",
+  "company_slug": "risetechnical",
+  "role": "Embedded Controls Engineer",
+  "job_slug": "embedded-controls-engineer",
+  "match_pct": 75,
+  "missing_skills": ["IGBT", "SCR", "Power Conversion Systems", "TI C2000", "PID / Closed Loop Control", "Industrial Power Electronics", "Digital Filtering (DSP-specific)"],
+  "adjacent_skills": ["DSP (digital signal processing, no TI C2000 specifically)", "RTOS (FreeRTOS) -> generic RTOS exp", "Cortex-M4 firmware -> ARM Cortex-M microcontroller exp"],
+  "top_ats_keywords": ["Embedded C/C++", "RTOS", "Microcontrollers", "ARM Cortex-M", "PWM", "ADC", "Oscilloscope", "Real-Time Systems"],
+  "key_responsibilities": [
+    "Develop embedded C/C++ firmware for industrial power electronics (SCR/IGBT power conversion systems)",
+    "Implement real-time control algorithms, diagnostics and protection features",
+    "Test, validate and debug embedded systems using lab equipment (oscilloscope, logic analyzer)"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"}
+}

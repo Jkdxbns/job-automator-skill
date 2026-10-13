@@ -1,0 +1,22 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Computer Vision Engineer candidate, Jetson deployment experience",
+    "greeting": "Hi Julie,",
+    "body": "My name is Justin Mascarenhas and I have an M.S. in Computer Engineering from Rochester Institute of Technology. I recently applied for the Computer Vision Engineer role at Pano AI and wanted to introduce myself.\n\nWhat I would bring is deployment experience. I have taken vision models through TensorRT conversion and quantization and run them on NVIDIA Jetson hardware, and I have done the debugging that follows, false positive detections, dropped camera frames, and power problems that only appear under load. That is usually where edge projects stall, and it is the part I am most comfortable with.\n\nWildfire detection is a problem where the model only matters if the system around it survives real conditions outdoors. That is the work I want to be doing.\n\nI would appreciate the opportunity to discuss the role further, if your time allows. I can share my resume if that would be helpful.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: https://www.linkedin.com/in/justinmascarenhas/",
+    "word_count": 150,
+    "hook_used": "Deployment differentiator: hardware integration debugging most CV applicants at this level lack",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Julie Feldman",
+    "current_title": "Senior Talent Partner",
+    "current_company": "Pano AI",
+    "target_email": null
+  },
+  "meta": {
+    "company": "Pano AI",
+    "role": "Computer Vision Engineer"
+  }
+}

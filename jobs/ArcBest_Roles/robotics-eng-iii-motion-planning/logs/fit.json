@@ -1,0 +1,169 @@
+{
+  "company": "ArcBest",
+  "company_slug": "arcbest",
+  "role": "Robotics Engineer III - Motion Planning - FS/BOS",
+  "job_slug": "robotics-engineer-iii-motion-planning-fs-bos",
+  "match_pct": 41.4,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 9,
+    "missing_count": 16,
+    "jd_ask_size": 35,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS2 (ROS-Based Robotic Arm AL5B & UR5e project \u2014 ROS2 Humble, MoveIt, RViz; Languages & Systems skills)",
+    "Python (Languages & Systems; used across multiple projects)",
+    "C/C++ (Languages & Systems; CUDA Kernel Optimization project, embedded STM32)",
+    "Advanced math / optimization foundation (MS courses: Machine Intelligence, Deep Learning, Principles of Robotics; CUDA kernel optimization shows optimization work)",
+    "Perception / vision (COFFIN Voice-Controlled Robotic Arm \u2014 YOLO visual servoing, OpenCV, faster-whisper, Object Tracking Turret \u2014 YOLOv8 on Jetson, visual servoing)",
+    "Real-time / embedded control (Object Tracking Turret \u2014 FreeRTOS, UART, PWM motor control, STM32 bare-metal; Robocon \u2014 closed-loop heading correction, interrupt-driven quadrature decoding, 15kHz PWM)",
+    "Forward kinematics / DH parameters (ROS-Based Robotic Arm project \u2014 hand-computed forward kinematics for 6-DoF UR5e and 5-DoF AL5B, MoveIt validation)",
+    "Collision-free trajectory planning (ROS-Based Robotic Arm \u2014 collision-free pick-and-place trajectories via UR ROS2 driver; AL5B repeatability <2mm over 10 trials)",
+    "CUDA / high-performance optimization (CUDA Kernel Optimization for VGG16 \u2014 custom CUDA C++, memory coalescing, constant memory, 1.5-2x speedup; HPC/Parallel skills: MPI, SLURM)",
+    "Simulation / 3D visualization (Frame Simulator \u2014 PySide6/Qt + OpenGL-backed VisPy, SE(3) math engine; CARLA autonomous driving \u2014 semantic segmentation, YOLO11n mAP50~0.85)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hybrid A* / RRT* / graph-search motion planners",
+      "you_have": "MoveIt / ROS2 trajectory planning with DH/forward kinematics and collision-free pick-and-place (not graph-search or sampling-based planners)"
+    },
+    {
+      "jd_skill": "ILQR / optimization-based planners",
+      "you_have": "CUDA kernel optimization and QAT (PyTorch optimization, not trajectory optimization with convex/non-convex solvers)"
+    },
+    {
+      "jd_skill": "CasADi / ACADOS / convex-nonconvex solvers",
+      "you_have": "No evidence of CasADi, ACADOS, or convex/non-convex solver use; optimization is kernel-level and training-level, not MPC-level"
+    },
+    {
+      "jd_skill": "RL / imitation learning / deep MPC for motion",
+      "you_have": "No RL motion-planning or MPC experience; RL/imitation learning is not listed in skills or projects (only standard DL training)"
+    },
+    {
+      "jd_skill": "Behavior trees design",
+      "you_have": "No evidence \u2014 not in skills, not in any project description"
+    },
+    {
+      "jd_skill": "Multi-agent fleet planning / large-scale AMR coordination",
+      "you_have": "Single-robot ROS/MoveIt and single-robot turret tracking only; no multi-agent, no fleet, no large-scale deployment"
+    },
+    {
+      "jd_skill": "Real-time MPC with CasADi/ACADOS",
+      "you_have": "Real-time embedded control exists (STM32, FreeRTOS, PWM), but not MPC, not with CasADi/ACADOS"
+    },
+    {
+      "jd_skill": "Production-scale motion control / CI-CD for motion systems",
+      "you_have": "No production deployment, CI/CD, or industrial/logistics experience; all work is capstone/research/internship scope"
+    },
+    {
+      "jd_skill": "Fail-safe / recovery primitives / redundant checks",
+      "you_have": "Some reliability evidence (100% pick reliability over 10 trials; <2mm repeatability) but no explicit fail-safe/recovery/redundancy architecture"
+    }
+  ],
+  "missing_skills": [
+    "Hybrid A* planner experience",
+    "RRT* planner experience",
+    "ILQR planner experience",
+    "CasADi solver experience",
+    "ACADOS solver experience",
+    "Convex/non-convex optimization solvers for MPC",
+    "Behavior trees design experience",
+    "RL / imitation learning for motion planning",
+    "Deep MPC / real-time MPC experience",
+    "Multi-agent fleet planning / large-scale AMR navigation",
+    "Production industrial/logistics deployment of motion planning",
+    "CI/CD for fault-tolerant motion control",
+    "4+ years full-time robotics motion planning experience (candidate is new-grad, 0 full-time years)",
+    "Robotics Engineer II-level experience or equivalent",
+    "Mentoring / leadership in large-scale motion planning (candidate is new-grad)",
+    "Real-world industrial deployment experience"
+  ],
+  "top_ats_keywords": [
+    "motion planning",
+    "Hybrid A*",
+    "RRT*",
+    "ILQR",
+    "CasADi",
+    "ACADOS",
+    "ROS2",
+    "multi-agent",
+    "RL",
+    "MPC",
+    "behavior trees",
+    "C++",
+    "Python",
+    "real-time control",
+    "fleet",
+    "AMR"
+  ],
+  "required_skills": [
+    "Hybrid A*",
+    "RRT*",
+    "ILQR",
+    "CasADi",
+    "ACADOS",
+    "convex/non-convex solvers",
+    "ROS2",
+    "multi-agent fleet planning",
+    "RL/imitation learning/deep MPC",
+    "behavior trees",
+    "real-time control",
+    "perception integration",
+    "advanced C++",
+    "advanced Python",
+    "graph search",
+    "optimization-based planners"
+  ],
+  "preferred_skills": [
+    "AI-driven planning",
+    "fail-safe/recovery primitives",
+    "behavior trees design",
+    "large-scale simulation",
+    "industrial/logistics deployment",
+    "strong math foundation (optimization, graph theory, control systems)"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Leads development/optimization/large-scale deployment of motion planning architectures for fleet-wide AMR navigation",
+    "High-performance optimization, AI-driven behavioral planning, fail-safe recovery, large-scale robotic coordination",
+    "Graph search, optimization-based planners, RL-based motion strategies",
+    "Integration with perception/real-time control",
+    "Architect scalable motion planning frameworks for fleet-level AMR",
+    "RL/imitation learning/deep MPC",
+    "Real-time MPC with CasADi/ACADOS/convex solvers",
+    "Fail-safe strategies: re-routing, recovery primitives, redundant checks",
+    "Multi-agent coordination/collision avoidance",
+    "Behavior trees",
+    "Large-scale simulation and on-robot validation",
+    "CI/CD, fault-tolerant motion control",
+    "Mentor junior engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fort Smith, Arkansas / Boston, Massachusetts",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

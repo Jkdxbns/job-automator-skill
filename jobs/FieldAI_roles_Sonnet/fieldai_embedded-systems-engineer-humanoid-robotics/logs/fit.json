@@ -1,0 +1,161 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Embedded Systems Engineer, Humanoid Robotics",
+  "job_slug": "embedded-systems-engineer-humanoid-robotics",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 29,
+    "req_cov": 0.154,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++ embedded programming",
+    "Python embedded/application",
+    "Bare-metal firmware (STM32 Cortex-M4)",
+    "RTOS (FreeRTOS)",
+    "Linux embedded/admin (systemd, Jetson, Linux services)",
+    "ARM/SoC/microcontroller platforms (STM32, Jetson, Raspberry Pi)",
+    "Camera/perception sensor integration (YOLO vision, OpenCV, ToF sensors)",
+    "IMU and state sensor use (ADXL345, VL53L0X)",
+    "Motor and joint control (ROS MoveIt, PWM servos, Arduino)",
+    "Real-time protocols: UART, I2C, SPI, Bluetooth/BLE",
+    "ROS/ROS2 (ROS2 Humble, ROS Noetic, MoveIt, RViz, DDS exposure)",
+    "CUDA C++ (custom kernels, memory coalescing)",
+    "TensorRT / edge ML acceleration (YOLOv8 ONNX/TFLite export, faster-whisper)",
+    "GPU/NPU offload familiarity (Jetson, CUDA profiling with pynvml)",
+    "SWaP-aware embedded design (wearable glove, Jetson payloads)",
+    "Embedded health/diagnostics (watchdog concepts via FreeRTOS/mutexes, thermal awareness)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux kernel-level device driver / BSP bring-up at production scale",
+      "you_have": "Embedded Linux administration (systemd, static IP, services) and Jetson/ARM Linux work; no production kernel module or BSP customization experience"
+    },
+    {
+      "jd_skill": "CAN / CAN-FD and PTP deterministic timing",
+      "you_have": "UART/I2C/SPI and Bluetooth real-time links; CAN and PTP not explicitly covered"
+    },
+    {
+      "jd_skill": "Tactile sensor drivers",
+      "you_have": "ToF (VL53L0X) and IMU sensor integration; tactile/sensor-actuator feedback drivers not explicitly developed"
+    },
+    {
+      "jd_skill": "Ethernet / PCIe / GMSL / wireless real-time interfaces",
+      "you_have": "Basic wireless (HC-05 Bluetooth, BLE); high-speed Ethernet/GMSL/PCIe not covered"
+    },
+    {
+      "jd_skill": "Safety / functional-safety / e-stop circuitry production experience",
+      "you_have": "Safety-conscious design awareness in robotics projects; no formal functional-safety/ISO certification or production e-stop circuit design"
+    }
+  ],
+  "missing_skills": [
+    "Minimum 3+ years hands-on embedded systems experience (new-grad: 0 full-time years, 7 internships)",
+    "Production-scale BSP and bootloader customization experience",
+    "CAN/CAN-FD protocol hands-on experience",
+    "PTP / PPS deterministic timing protocol experience",
+    "Tactile sensor driver development",
+    "PCIe / GMSL / high-speed Ethernet real-time driver experience",
+    "Technical leadership / architecture decision experience at production scale",
+    "Functional safety / ISO certification experience"
+  ],
+  "top_ats_keywords": [
+    "embedded systems",
+    "humanoid robotics",
+    "ARM",
+    "SoC",
+    "microcontroller",
+    "firmware",
+    "BSP",
+    "bootloader",
+    "Linux kernel",
+    "device driver",
+    "LiDAR",
+    "IMU",
+    "tactile",
+    "motor",
+    "joint",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "Ethernet",
+    "PTP",
+    "PPS",
+    "ROS2",
+    "DDS",
+    "CUDA",
+    "TensorRT",
+    "edge inference",
+    "real-time",
+    "SWaP",
+    "safety",
+    "e-stop"
+  ],
+  "required_skills": [
+    "C/C++ embedded programming",
+    "Python embedded/application",
+    "Bare-metal firmware and RTOS customization",
+    "BSP and bootloader development",
+    "Linux kernel and device driver development",
+    "ARM/SoC/microcontroller platform design",
+    "Camera/LiDAR/IMU sensor driver development",
+    "Motor/joint/tactile actuator driver development",
+    "Real-time communication protocols: Ethernet, CAN/CAN-FD, SPI, I2C, UART, USB, PCIe, PTP, PPS",
+    "ROS2 / DDS middleware",
+    "CUDA / TensorRT / GPU-NPU edge inference",
+    "SWaP-constrained embedded design",
+    "Safety/e-stop and health-check implementation"
+  ],
+  "preferred_skills": [
+    "Experience across diverse humanoid robot platforms",
+    "Cross-functional collaboration with mechanical/electrical/sensor teams",
+    "Production field deployment of robotics compute platforms",
+    "Functional safety and safety-monitoring design"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design/select ARM/SoC/microcontroller compute platforms for humanoid payload",
+    "Write/customize bare-metal and RTOS firmware, BSPs, and bootloaders",
+    "Linux kernel-level development for real-time compute stack performance",
+    "Integrate/adapt drivers for camera, LiDAR, IMU, and tactile sensors",
+    "Integrate/adapt drivers for motors, joint actuators, and tactile sensors",
+    "Bring up wired (Ethernet, CAN, GMSL, SPI, I2C) and wireless interfaces with deterministic timing (PTP, PPS)",
+    "Partner with ML team to meet latency, memory, throughput needs",
+    "Build data pipeline from raw sensor capture to actuator control",
+    "Enable accelerated edge inference (GPU/TPU/NPU, CUDA/TensorRT)",
+    "Expose data through ROS2/DDS interfaces",
+    "Design cross-platform architecture generalizing across humanoid platforms",
+    "Implement e-stop circuitry and safety monitoring"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

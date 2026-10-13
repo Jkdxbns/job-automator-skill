@@ -1,0 +1,134 @@
+{
+  "company": "Hunter Douglas",
+  "company_slug": "hunter-douglas",
+  "role": "Embedded Hardware Engineer",
+  "job_slug": "embedded-hardware-engineer",
+  "match_pct": 35.4,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 14,
+    "jd_ask_size": 24,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "I2C",
+    "SPI",
+    "PWM",
+    "quadrature encoder",
+    "PCB layout",
+    "BLE"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Altium",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "DC motor drive",
+      "you_have": "PWM Motor Control"
+    },
+    {
+      "jd_skill": "mixed-signal design",
+      "you_have": "ADC/DAC"
+    }
+  ],
+  "missing_skills": [
+    "RF design",
+    "antenna design",
+    "Wi-Fi",
+    "Zigbee",
+    "FCC certification",
+    "UL certification",
+    "battery management",
+    "SMBus",
+    "CAN",
+    "Hall-effect sensor",
+    "flex and harness design",
+    "Altium 365",
+    "AVL management",
+    "EVT/DVT"
+  ],
+  "top_ats_keywords": [
+    "Altium",
+    "RF",
+    "antenna",
+    "FCC",
+    "UL",
+    "battery",
+    "motor drive",
+    "mixed-signal",
+    "PCB",
+    "BLE",
+    "Zigbee",
+    "I2C",
+    "SPI",
+    "CAN",
+    "PWM",
+    "C/C++"
+  ],
+  "required_skills": [
+    "Altium",
+    "PCB layout",
+    "mixed-signal design",
+    "RF design",
+    "antenna design",
+    "BLE",
+    "Wi-Fi",
+    "Zigbee",
+    "FCC certification",
+    "UL certification",
+    "battery management",
+    "DC motor drive",
+    "Hall-effect sensor",
+    "quadrature encoder",
+    "I2C",
+    "SPI",
+    "SMBus",
+    "CAN",
+    "PWM",
+    "C/C++",
+    "flex and harness design"
+  ],
+  "preferred_skills": [
+    "Altium 365",
+    "AVL management",
+    "EVT/DVT"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "schematics and PCB layout",
+    "antenna and RF certification",
+    "battery systems",
+    "DC motor drive",
+    "Altium owner",
+    "EVT/DVT to production"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Broomfield, CO",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

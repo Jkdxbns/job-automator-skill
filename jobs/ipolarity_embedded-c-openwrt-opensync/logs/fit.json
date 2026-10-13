@@ -1,0 +1,128 @@
+{
+  "company": "IPolarity LLC",
+  "company_slug": "ipolarity",
+  "role": "Embedded C Developer - OpenWrt/OpenSync",
+  "job_slug": "embedded-c-openwrt-opensync",
+  "match_pct": 27.5,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 13,
+    "jd_ask_size": 20,
+    "req_cov": 0.208,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C",
+    "Linux",
+    "Git",
+    "GitLab"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux networking (IPv4/IPv6, routing, DHCP)",
+      "you_have": "Static IP / network configuration"
+    },
+    {
+      "jd_skill": "Kernel-level debugging / serial console",
+      "you_have": "Serial, UART"
+    },
+    {
+      "jd_skill": "PCIe/USB",
+      "you_have": "USB"
+    }
+  ],
+  "missing_skills": [
+    "OpenWrt (UCI, build system, packages)",
+    "OpenSync/OVSDB/MQTT",
+    "LTE/5G modem integration (AT Commands, QMI/MBIM)",
+    "WiFi drivers (Qualcomm/Broadcom/Atheros)",
+    "GDB",
+    "tcpdump",
+    "Cross-compilation",
+    "TLS/mTLS/X.509",
+    "Router/gateway/CPE firmware experience",
+    "Qualcomm IPQ",
+    "DOCSIS",
+    "TR-069/TR-369",
+    "GRE/IPsec"
+  ],
+  "top_ats_keywords": [
+    "OpenWrt",
+    "UCI",
+    "OpenSync",
+    "OVSDB",
+    "MQTT",
+    "AT Commands",
+    "QMI",
+    "MBIM",
+    "IPv4/IPv6",
+    "DHCP",
+    "routing",
+    "Qualcomm",
+    "Broadcom",
+    "Atheros",
+    "GDB",
+    "tcpdump",
+    "serial console",
+    "GitLab",
+    "cross-compilation",
+    "TLS",
+    "mTLS",
+    "X.509",
+    "CPE firmware",
+    "router",
+    "gateway"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "Linux",
+    "OpenWrt (UCI, build system, packages)",
+    "OpenSync/OVSDB/MQTT",
+    "LTE/5G modem integration (AT Commands, QMI/MBIM)",
+    "Linux networking (IPv4/IPv6, routing, DHCP)",
+    "WiFi drivers (Qualcomm/Broadcom/Atheros)",
+    "Kernel-level debugging (GDB, tcpdump, serial console)",
+    "Git/GitLab",
+    "Cross-compilation",
+    "TLS/mTLS/X.509",
+    "Router/gateway/CPE firmware experience"
+  ],
+  "preferred_skills": [
+    "Qualcomm IPQ",
+    "Broadcom",
+    "DOCSIS",
+    "PCIe/USB",
+    "TR-069/TR-369",
+    "GRE/IPsec"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop firmware for WiFi routers with LTE/5G cellular backup",
+    "OpenWrt/OpenSync router firmware development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Englewood, CO (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

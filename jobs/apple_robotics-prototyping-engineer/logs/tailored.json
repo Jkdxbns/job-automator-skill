@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "company": "Apple",
+    "role": "Robotics Prototyping Engineer (Special Projects)",
+    "company_slug": "apple",
+    "job_slug": "robotics-prototyping-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience across mechanical design, PCB fabrication, and embedded firmware, from CAD-modeled fixtures and EAGLE PCB layouts to bare-metal STM32 control loops. Built and integrated robot platforms end to end, deriving kinematic models in ROS 2 and MoveIt, driving servo actuation over UART/I2C/SPI, and validating with ToF and IMU sensing in Python and C++.",
+  "skills": {
+    "Mechanical & CAD": ["SolidWorks", "CAD-Modeled Fixtures", "Mechanical Design", "PCB Fabrication (EAGLE)"],
+    "Embedded & Electronics": ["STM32 (Bare-Metal C, Cortex-M4)", "GPIO/ADC/I2C/SPI/UART", "FreeRTOS", "PWM/Servo Control", "Sensor Integration (ToF, IMU)"],
+    "Robotics & Controls": ["ROS2 (Humble/Noetic)", "MoveIt", "RViz", "Forward/Inverse Kinematics", "DH Parameters", "RAPID (ABB RobotStudio)"],
+    "Programming & Tools": ["Python", "C/C++", "Arduino", "Git/GitLab"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and hardware integration end to end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands; integrated VL53L0X ToF sensing and OLED distance display.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination between vision and control loops."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Designed and simulated a full ABB RobotStudio workcell for an end-to-end press-to-packing assembly pipeline, including CAD-modeled fixtures.",
+        "Programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic; validated full-cycle repeatability."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at under 2mm."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link IK on Arduino in C++ driving five servos with range-gated contact detection in a voice-controlled pick-and-place system.",
+        "Resolved 11 hardware integration failures (servo brown-out, false positives, stale-frame capture); achieved 100% pick reliability (10/10 trials)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Multiple Processor Systems", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

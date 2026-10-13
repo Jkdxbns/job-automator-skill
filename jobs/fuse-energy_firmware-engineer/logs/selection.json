@@ -1,0 +1,147 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 4.26,
+      "matched": [
+        "closed-loop control",
+        "hardware/software integration",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 3.57,
+      "matched": [
+        "Git",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 3.21,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Research Fellowship",
+      "name": "Research Fellowship",
+      "score": 0,
+      "matched": []
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 8.77,
+      "matched": [
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 4.61,
+      "matched": [
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "score": 2.61,
+      "matched": [
+        "closed-loop control",
+        "peripheral programming"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 2.43,
+      "matched": [
+        "serial protocols",
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:Parallel Ray Tracer with MPI Task Scheduling",
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "score": 1.13,
+      "matched": [
+        "RTOS"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "microcontroller firmware",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "JTAG/SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "JTAG",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "real-time control software",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "GNU toolchain",
+      "for_skill": "build systems"
+    },
+    {
+      "use_jd_wording": "IAR",
+      "for_skill": "build systems"
+    },
+    {
+      "use_jd_wording": "board bring-up",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "power electronics",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "control systems",
+      "for_skill": "closed-loop control"
+    },
+    {
+      "use_jd_wording": "DSP",
+      "for_skill": "speech and audio"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "DMA",
+    "Flash",
+    "CAN",
+    "Docker",
+    "CI pipelines",
+    "bootloaders",
+    "linker scripts"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Software Developer - Devices I/O",
+  "job_slug": "software-developer-devices-io",
+  "match_pct": 38.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 12,
+    "jd_ask_size": 25,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "C++",
+    "Python",
+    "linear algebra",
+    "kinematics",
+    "SSH remote ops"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning",
+      "you_have": "MoveIt"
+    },
+    {
+      "jd_skill": "sockets",
+      "you_have": "WebSocket, Flask-SocketIO"
+    },
+    {
+      "jd_skill": "TCP/UDP",
+      "you_have": "static IP config, WebSocket"
+    },
+    {
+      "jd_skill": "RS-232/RS-485",
+      "you_have": "UART"
+    },
+    {
+      "jd_skill": "Gazebo",
+      "you_have": "RViz, CARLA"
+    },
+    {
+      "jd_skill": "real-time systems",
+      "you_have": "FreeRTOS, STM32 bare-metal"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "pytest",
+    "ZeroMQ",
+    "MQTT",
+    "Wireshark",
+    "PLC",
+    "EtherCAT",
+    "EtherNet/IP",
+    "Modbus",
+    "OPC-UA",
+    "MuJoCo",
+    "Isaac Sim",
+    "industrial automation"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "EtherCAT",
+    "Modbus",
+    "OPC-UA",
+    "ZeroMQ",
+    "MQTT",
+    "pytest",
+    "Wireshark",
+    "PLC",
+    "kinematics",
+    "motion planning"
+  ],
+  "required_skills": [
+    "Linux",
+    "C++",
+    "Python",
+    "motion planning",
+    "kinematics",
+    "pytest",
+    "sockets",
+    "ZeroMQ",
+    "MQTT",
+    "linear algebra",
+    "TCP/UDP",
+    "Wireshark",
+    "PLC",
+    "EtherCAT",
+    "EtherNet/IP",
+    "Modbus",
+    "OPC-UA",
+    "RS-232/RS-485"
+  ],
+  "preferred_skills": [
+    "Gazebo",
+    "Isaac Sim",
+    "MuJoCo",
+    "real-time systems",
+    "CI/CD",
+    "SSH remote ops",
+    "industrial automation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "fieldbus/PLC protocols",
+    "motion planning and kinematics",
+    "device I/O layer",
+    "40% travel"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "company": "Centraprise",
+    "role": "AI/ML Developer",
+    "company_slug": "centraprise",
+    "job_slug": "aiml_developer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience across the full AI/ML project lifecycle \u2014 data pipeline design, model training, evaluation, and production integration. Built and deployed models for computer vision, speech recognition, and document understanding using PyTorch, TensorFlow, and Hugging Face Transformers.",
+  "skills": {
+    "Languages": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Bash"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Hugging Face Transformers",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "Model evaluation"
+    ],
+    "Computer Vision & NLP": [
+      "OpenCV",
+      "YOLO",
+      "faster-whisper",
+      "ASR pipelines",
+      "Tokenization"
+    ],
+    "Data & Tools": [
+      "Linux",
+      "Git",
+      "Flask",
+      "JupyterHub",
+      "GitLab",
+      "Google Colab"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset for text extraction using PyTorch; improved validation accuracy from 55% to 93%.",
+        "Built preprocessing and training pipelines to standardize evaluation workflows aligned with production requirements."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained and evaluated YOLOv8 models on Google Colab, improving classification accuracy from 78% to 97.5%; model deployed in a consumer mobile app.",
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection AI pipeline (custom image stitching, wavelet denoising, monocular depth estimation); achieved PSNR of 86 and \u00b18% error on 3D crack profiling.",
+        "Deployed ZoeDepth for production surface reconstruction; designed concurrent processing to meet real-time throughput requirements."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 MRI dataset; evaluated on Dice Score and IoU with accuracy-latency trade-off analysis.",
+        "Led a cross-cultural team of 7 as sole ML-experienced member; restructured task distribution to deliver full pipeline within 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline in PyTorch: 80-channel mel spectrogram encoder, 6-block causal Transformer decoder with cross-attention; achieved training loss ~0.51 and 15% WER on Hindi-English evaluation.",
+        "Designed a Cython-accelerated BPE tokenizer achieving 4\u20135.5\u00d7 speedup over pure Python, processing 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer in PyTorch \u2014 multi-head self-attention, MLP blocks, residual connections, weight tying \u2014 with a custom TikToken training loop and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via structured pruning and 8-bit quantization; benchmarked across HellaSwag, GSM8K, and ARC.",
+        "Evaluated accuracy-efficiency trade-offs: ~7% accuracy drop and +6.3 perplexity increase under full compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

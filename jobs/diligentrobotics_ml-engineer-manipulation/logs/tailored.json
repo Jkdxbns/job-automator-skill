@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "company": "Diligent Robotics",
+    "role": "ML Engineer, Manipulation",
+    "company_slug": "diligentrobotics",
+    "job_slug": "ml-engineer-manipulation"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience building vision-guided robotic manipulation and pick-and-place systems on ROS2 and Jetson platforms. Built a contact-aware grasping pipeline combining visual servoing, ToF sensing, and TensorRT-optimized perception models, and derived full forward and inverse kinematics for 6-DoF and 5-DoF robotic arms validated in MoveIt and RViz. Skilled in PyTorch training and evaluation pipelines, model quantization, and edge deployment (ONNX/TensorRT) for reliable, low-latency robot control.",
+  "skills": {
+    "Robotics & Manipulation": [
+      "ROS2",
+      "Visual servoing",
+      "Forward & inverse kinematics",
+      "DH parameters",
+      "MoveIt",
+      "RViz",
+      "Pick-and-place trajectory planning",
+      "UR5e / AL5B"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Model evaluation",
+      "Training pipelines",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "ONNX"
+    ],
+    "Edge AI / Perception": [
+      "YOLO",
+      "OpenCV",
+      "NVIDIA Jetson",
+      "TensorRT-optimized inference"
+    ],
+    "Simulation & Synthetic Data": [
+      "CARLA",
+      "Synthetic data generation",
+      "Semantic segmentation"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for edge deployment.",
+        "Curated and annotated a custom object detection dataset for health-level classification."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Built PyTorch preprocessing and training pipelines using HuggingFace VisionEncoderDecoder for a transformer document understanding model.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency in a vision-guided robotic manipulation pipeline, resolving 11 integration failures (false-positive detections, servo brown-out, stale-frame capture).",
+        "Integrated TensorRT-optimized YOLO (5.2x speedup, 17.6 to 92 FPS) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping via TCA9548A I2C mux.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz in ROS 2.",
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated synthetic data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with <1% accuracy degradation \u2014 near-lossless compression for edge deployment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Principles of Robotics",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

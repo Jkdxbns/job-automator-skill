@@ -1,0 +1,132 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "ML Infrastructure Engineer",
+  "job_slug": "ml-infrastructure-engineer",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.042,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "ML/DL frameworks (TensorFlow, Keras)",
+    "ML concepts (training, evaluation, optimization, quantization, statistics)",
+    "ML pipelines (ASR pipeline, model fine-tuning)",
+    "Robotics/autonomy/drone hardware experience (Jetson, ROS2, YOLO edge deployment)",
+    "APIs/services (Flask, WebSocket)",
+    "Git/GitLab",
+    "Production engineering habits (systemd services, env-based secrets/config)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "reproducible data pipelines",
+      "you_have": "ASR data pipelines, SLURM-managed batch jobs"
+    },
+    {
+      "jd_skill": "distributed training",
+      "you_have": "MPI / SLURM cluster computing"
+    },
+    {
+      "jd_skill": "monitoring data/system/pipeline signals",
+      "you_have": "pynvml profiling, benchmarking"
+    },
+    {
+      "jd_skill": "cloud services / data platforms",
+      "you_have": "embedded/robotics generalist, no cloud"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "Git/GitLab only, no pipeline automation shown"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes / container orchestration",
+    "AWS",
+    "Terraform / CloudFormation",
+    "Docker",
+    "Model registry / experiment tracking",
+    "Feature stores / versioned artifact stores",
+    "Annotation systems / dataset inspection / active-learning tooling",
+    "Large-scale training systems infra"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "Kubernetes",
+    "AWS",
+    "Terraform",
+    "CloudFormation",
+    "data pipelines",
+    "ML infrastructure",
+    "distributed training",
+    "model evaluation",
+    "data platform",
+    "container orchestration",
+    "robotics",
+    "autonomy",
+    "experiment tracking",
+    "model registry"
+  ],
+  "required_skills": [
+    "3+ years professional software engineering",
+    "Python in production",
+    "reproducible data pipelines",
+    "reproducible ML pipelines",
+    "monitoring data/system/pipeline/eval signals",
+    "ML concepts (datasets, training, evaluation, optimization, statistics, DL)",
+    "cloud services",
+    "data platforms",
+    "PyTorch or similar",
+    "Kubernetes/container orchestration",
+    "AWS",
+    "Terraform/CloudFormation"
+  ],
+  "preferred_skills": [
+    "ML on robots/AVs/drones/hardware",
+    "large-scale training systems",
+    "feature stores",
+    "versioned artifact stores",
+    "model registries",
+    "experiment tracking",
+    "annotation systems",
+    "dataset inspection tooling",
+    "active-learning workflows"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build/operate ML infra for fleet data flywheel",
+    "Design dataset creation/validation/training/eval/deployment infra",
+    "Own data pipelines feeding ML dev loop",
+    "Remove orchestration/performance/reproducibility bottlenecks"
+  ],
+  "role_category": "ml_systems",
+  "location": "South San Francisco, CA, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

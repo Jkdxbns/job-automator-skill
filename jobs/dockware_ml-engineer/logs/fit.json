@@ -1,0 +1,57 @@
+{
+  "company": "Dockware",
+  "company_slug": "dockware",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 23.5,
+  "missing_skills": [
+    "MLflow",
+    "DVC",
+    "Docker",
+    "AWS (Lambda/SQS/ECS)",
+    "Serverless Compute",
+    "CI/CD",
+    "GitHub Actions",
+    "K8s/K3s",
+    "Vertex AI",
+    "Terraform",
+    "Pydantic",
+    "Postgres",
+    "SQLite"
+  ],
+  "adjacent_skills": [
+    "MLOps pipelines (has model training/eval/quantization, no named versioning tool)",
+    "Ultralytics (heavy YOLOv8/YOLO11n use, not the platform itself)",
+    "FastAPI (has Flask experience)"
+  ],
+  "top_ats_keywords": [
+    "MLOps",
+    "Docker",
+    "AWS",
+    "CI/CD",
+    "Kubernetes",
+    "Terraform",
+    "FastAPI",
+    "Postgres",
+    "MLflow",
+    "DVC",
+    "Ultralytics",
+    "ONNX",
+    "TensorRT",
+    "computer vision",
+    "production ML"
+  ],
+  "key_responsibilities": [
+    "Design and own scalable ML pipelines: data versioning, labeling, training, evaluation, deployment",
+    "Build infrastructure for Vision (autonomous sensor suite CV models) and Scan (mobile app freight dimensioning)",
+    "Own backend/infra: APIs, data pipelines, deployment systems on AWS + serverless compute",
+    "Maintain production systems shipping CV models to warehouse floors"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null,
+  "notes": "Prescreen flagged 'authorized to work in the US' as a No-Sponsorship hard blocker \u2014 this is a FALSE POSITIVE. It's the standard EEO screening question on the application form (Yes/No), not a JD statement of no-sponsorship policy. JD body has zero visa/citizenship/clearance language. Overridden; full analysis run."
+}

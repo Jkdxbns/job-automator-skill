@@ -1,0 +1,136 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Validation and Characterization Engineer",
+  "job_slug": "validation-and-characterization-engineer",
+  "match_pct": 59.3,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 27,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Image processing / computer vision",
+    "Sensor and imaging vision tools",
+    "Object detection / vision pipelines",
+    "Embedded systems / bare-metal C",
+    "Embedded firmware / RTOS",
+    "Sensor interfaces and data acquisition",
+    "Sensor hardware (ADC, IMU, ToF)",
+    "Lab instrumentation (oscilloscopes, multimeters, spectrum analyzers)",
+    "Robotics / autonomous sensing",
+    "Visual servoing / robot perception",
+    "Statistical / analysis libraries",
+    "Embedded hardware integration (I2C, SPI, UART, GPIO)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Thermal imaging, infrared sensors, electro-optical systems, cameras, or image sensors",
+      "you_have": "Vision / image processing and sensor experience (not thermal/IR specifically)"
+    },
+    {
+      "jd_skill": "Characterizing sensor or imaging performance",
+      "you_have": "Vision and sensor measurement work (YOLO, ADC, ToF)"
+    },
+    {
+      "jd_skill": "Automated data acquisition systems and laboratory instrumentation",
+      "you_have": "Data acquisition and lab instrument familiarity"
+    },
+    {
+      "jd_skill": "Optical testing, calibration, radiometry, photonics",
+      "you_have": "Calibration-related work (not optical/radiometric)"
+    },
+    {
+      "jd_skill": "Embedded systems, firmware, or hardware/software integration",
+      "you_have": "Embedded C/C++ bare-metal firmware and RTOS"
+    },
+    {
+      "jd_skill": "Automotive, ADAS, autonomous vehicles, robotics, drones, or sensing applications",
+      "you_have": "Robotics, ROS2, and autonomous sensing experience"
+    }
+  ],
+  "missing_skills": [
+    "Thermal imaging / infrared / LWIR / electro-optical domain experience (explicit in preferred and role focus)",
+    "Radiometric or non-radiometric thermal imaging characterization",
+    "MATLAB or similar technical computing (only Python is present)",
+    "Statistical analysis / DOE / uncertainty analysis / statistical process analysis (explicit keywords not present)",
+    "Large sensor or image dataset experience (explicit phrase not present)",
+    "Formal requirements management and V&V process experience",
+    "Quality management system / controlled engineering environment experience",
+    "2+ years full-time professional experience (candidate is new-grad with 7 internships, 0 full-time years)"
+  ],
+  "top_ats_keywords": [
+    "Bachelor's degree in EE/ME/Optical/Physics/Computer Engineering/Systems Engineering or related",
+    "Design and execute engineering experiments and structured test plans",
+    "Measurement principles, experimental methodology, data analysis",
+    "Collect, analyze, and interpret engineering test data",
+    "Identify trends and sources of variation",
+    "Clear technical documentation and engineering reports",
+    "Hands-on with lab equipment, prototypes, sensors, test setups",
+    "Troubleshoot complex multi-component technical problems",
+    "Written and verbal communication",
+    "Fast-paced multidisciplinary engineering environment"
+  ],
+  "required_skills": [
+    "Bachelor's degree in EE/ME/Optical/Physics/Computer Engineering/Systems Engineering or related",
+    "Design and execute engineering experiments and structured test plans",
+    "Measurement principles, experimental methodology, data analysis",
+    "Collect, analyze, and interpret engineering test data",
+    "Identify trends and sources of variation",
+    "Clear technical documentation and engineering reports",
+    "Hands-on with lab equipment, prototypes, sensors, test setups",
+    "Troubleshoot complex multi-component technical problems",
+    "Written and verbal communication",
+    "Fast-paced multidisciplinary engineering environment"
+  ],
+  "preferred_skills": [
+    "Thermal imaging, infrared sensors, electro-optical systems, cameras, image sensors",
+    "Characterizing sensor or imaging performance",
+    "Radiometric or non-radiometric thermal imaging systems",
+    "Measurement methodologies for imaging/sensing systems",
+    "Optical testing, calibration, radiometry, photonics",
+    "Automated data acquisition systems and laboratory instrumentation",
+    "Oscilloscopes, multimeters, power supplies, electronic loads, data acquisition equipment",
+    "Python, MATLAB, or similar technical computing language",
+    "Python/similar for data analysis, visualization, automated test/measurement",
+    "Statistical analysis, design of experiments (DOE), uncertainty analysis, statistical process analysis",
+    "Working with large sensor or image datasets",
+    "Image processing or computer vision",
+    "Embedded systems, firmware, or hardware/software integration",
+    "Automotive, ADAS, autonomous vehicles, robotics, drones, or sensing applications",
+    "Reliability, qualification, or environmental testing",
+    "Formal requirements management and verification/validation processes",
+    "Quality management system or controlled engineering environment"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Fairport, NY \u2013 Hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Posting states position could be subject to contractual requirements requiring successful candidate to be a U.S. Citizen; candidate is F-1 OPT and requires sponsorship/work authorization, which conflicts with potential citizenship/ITAR requirement."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

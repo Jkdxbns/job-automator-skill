@@ -1,0 +1,63 @@
+{
+  "company": "Dockware",
+  "company_slug": "dockware",
+  "role": "Software Operations Engineer",
+  "job_slug": "software-operations-engineer",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "Control theory (PID tuning, filtering, state-space modeling, trajectory optimization)"
+  ],
+  "adjacent_skills": [
+    "LiDAR (has ToF/depth sensor + RGB camera experience, not LiDAR specifically)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "computer vision",
+    "edge computing",
+    "sensor integration",
+    "control systems",
+    "machine learning pipeline",
+    "PID tuning",
+    "state-space modeling",
+    "trajectory optimization",
+    "LiDAR",
+    "depth sensors",
+    "RGB cameras"
+  ],
+  "key_responsibilities": [
+    "Design, implement, and maintain production-grade C++/Python software for a Vision sensor system in ROS2",
+    "Design, simulate, and optimize control systems for sensor positioning, feedback loops, hardware-software sync",
+    "Improve and scale computer vision ML pipelines for data collection, model training, and model performance",
+    "Optimize code efficiency and scalability for edge computing hardware in harsh dock environments",
+    "Cross-functional collaboration with hardware, frontend, and backend teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 65,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "ROS2 + robot kinematics depth: derived DH tables and forward kinematics for a UR5e and AL5B, validated against MoveIt/RViz/URDF in ROS 2 Humble and Noetic ('ROS-Based Robotic Arm' project)",
+      "Computer vision ML pipeline work: trained and TensorRT-optimized YOLO for visual servoing (5.2x speedup, 56.7ms to 10.9ms) in the COFFIN capstone, plus separate YOLOv8 training and 8-bit quantization projects",
+      "Edge hardware deployment under constraints: Jetson+Arduino integration, STM32 bare-metal firmware with deterministic timing, achieving real-time behavior on constrained compute",
+      "Cross-layer hardware/software integration: COFFIN capstone spans a Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller over one WebSocket fabric, showing genuine multi-team-style system integration"
+    ],
+    "real_gaps": [
+      "Control theory: no bullet anywhere in the profile touches PID tuning, filtering, state-space modeling, or trajectory optimization \u2014 this is one of the JD's five explicit qualification bullets, not a soft preference",
+      "Production/ownership scope: every robotics and CV bullet comes from a capstone, internship, or coursework project. The JD wants someone who ships to paying customers, owns deployments end to end, and works in a high-ownership, revenue-impacting environment \u2014 nothing in the profile demonstrates that scope",
+      "LiDAR specifically absent \u2014 the closest analog, VL53L0X ToF, is a single-point short-range IR rangefinder chip, a materially different engineering problem than the LiDAR likely used for freight dimensioning at a distance"
+    ],
+    "overstated_by_keywords": [
+      "Sensor integration (RGB/depth/LiDAR) was scored Have/Adjacent off ZoeDepth and VL53L0X ToF, but VL53L0X is a $2 point sensor, not LiDAR-class hardware \u2014 the keyword match overstates how close this is to what Dockware likely needs",
+      "ROS2 'production-grade software' \u2014 the profile has real ROS2 kinematics and MoveIt validation work, but it is one validation project, not shipped software with packages, launch files, or deployment concerns"
+    ],
+    "reasoning": "The surface skill list lines up well and the 85.7% keyword score is fair on paper, but the JD's two hardest asks, control theory and ownership of a revenue-critical deployed system, have no backing anywhere in the profile, and the sensor overlap is weaker once ToF chip work is separated from actual LiDAR."
+  },
+  "location": "Tulsa, OK preferred (exceptional remote candidates considered); periodic travel to Tulsa HQ and customer sites required",
+  "last_analyzed": "2026-09-09"
+}

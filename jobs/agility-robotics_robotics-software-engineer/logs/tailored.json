@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Agility Robotics",
+    "role": "Robotics Software Engineer I/II",
+    "company_slug": "agility-robotics",
+    "job_slug": "robotics-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Built and validated robot manipulation systems on real hardware: a voice-controlled pick-and-place arm with 10/10 pick reliability after root-causing 11 integration failures, and collision-free motion planning with MoveIt on a physical UR5e. Write Python daily on Linux, from ROS 2 arm drivers to systemd-deployed Jetson services.",
+  "skills": {
+    "Robotics & Manipulation": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "Motion planning",
+      "Forward kinematics",
+      "DH parameters",
+      "Visual servoing",
+      "State machines",
+      "Odometry (Dead Reckoning)"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Bash"
+    ],
+    "Linux & Deployment": [
+      "Linux",
+      "Git",
+      "GitLab",
+      "systemd service management (unit files, auto-restart, non-root isolation)",
+      "Static IP / network configuration"
+    ],
+    "Embedded & Hardware": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Closed-Loop Feedback Control",
+      "PWM Motor Control",
+      "Quadrature Encoders"
+    ],
+    "Perception": [
+      "YOLO",
+      "TensorRT"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place motion plans on a physical UR5e via the UR ROS 2 driver; measured AL5B repeatability at <2mm over 10 trials.",
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF simulation models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a vision-guided pick-and-place system: Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms) for visual servoing and gripper ToF sensing (close at 25 mm) for contact-aware grasping; implemented two-link IK on Arduino in C++.",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart with backoff, non-root isolation) with static IP networking for reliable multi-device registration."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a 4-wheel holonomic robot on Arduino Due using dual-axis quadrature encoder odometry (2400 CPR); drove four motor channels at 15 kHz PWM.",
+        "Added a fail-safe state machine halting all motors on controller disconnect; led the coding team to Stage 3 of DD Robocon 2023, scoring 99/100 in Stage 1."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

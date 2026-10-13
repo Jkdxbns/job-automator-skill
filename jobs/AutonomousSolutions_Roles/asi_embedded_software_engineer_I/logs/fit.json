@@ -1,0 +1,53 @@
+{
+  "company": "Autonomous Solutions Inc (ASI Robots)",
+  "company_slug": "asi",
+  "role": "Embedded Software Engineer I - Project Based",
+  "job_slug": "embedded_software_engineer_I",
+  "match_pct": 100,
+  "missing_skills": [
+    "CAN bus (exact)",
+    "GPS sensor interfacing",
+    "LiDAR",
+    "RADAR",
+    "ultrasonics"
+  ],
+  "adjacent_skills": [
+    "CAN/RS232 (via UART/I2C/SPI serial protocol experience)",
+    "TCP/UDP (via WebSocket/Flask-SocketIO networking)",
+    "GPS/LiDAR/RADAR/ultrasonics (via ToF/VL53L0X distance sensing, depth estimation)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "RTOS",
+    "embedded real-time systems",
+    "multithreaded",
+    "SPI",
+    "ROS/ROS2",
+    "CAN",
+    "TCP",
+    "UDP",
+    "RS232",
+    "GPS",
+    "LiDAR",
+    "RADAR",
+    "ultrasonics",
+    "SOLID principles",
+    "unit testing",
+    "version control"
+  ],
+  "key_responsibilities": [
+    "Develop and maintain features for embedded applications on autonomous compactor platforms",
+    "Diagnose and resolve reported defects across vehicle control, actuator, and sensor systems",
+    "Participate in systems engineering to support smooth software integration",
+    "Write clean, reusable C/C++ following SOLID principles and design patterns",
+    "Build and maintain unit, integration, and system simulation tests (test-first)",
+    "Contribute to continuous refactoring; use distributed version control",
+    "Support fielded systems and collaborate on integration issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": "STRONGEST REAL FIT of the ASI cluster. Core ask (embedded C/C++, RTOS, multithreaded, SPI, ROS2, SOLID, unit testing, version control) maps directly onto STM32 bare-metal/FreeRTOS + ROS2 background. Missing items (CAN bus, GPS, LiDAR, RADAR, ultrasonics) are sensor-exposure gaps, not skill gaps -- learnable on the job since this is a 'develop and maintain' Level I role, not greenfield design. Level I + 0-2 yrs stated experience matches a new grad exactly. Recommend: apply first, highest-confidence ASI role."
+}

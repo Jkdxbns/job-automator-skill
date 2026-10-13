@@ -1,0 +1,38 @@
+{
+  "company": "Cohere",
+  "company_slug": "cohere",
+  "role": "Applied AI Engineer, Agents & Automations",
+  "job_slug": "applied-ai-agents-automations",
+  "match_pct": 18.0,
+  "missing_skills": [
+    "Production LLM/agent-powered product shipping",
+    "Agent/workflow builder UI",
+    "Eval frameworks for multi-step agent workflows",
+    "Observability/instrumentation systems",
+    "Prompt engineering & context construction (product-grade)",
+    "Tool-use strategy design",
+    "Proactive intelligence features",
+    "Enterprise SaaS backend engineering"
+  ],
+  "adjacent_skills": [
+    "Model evaluation (GSM8K, HellaSwag benchmark evals) -> adjacent to eval frameworks",
+    "Fine-tuned TinyLlama / GPT-2 / Hugging Face Transformers -> adjacent to LLM work",
+    "Tokenization / BPE / LLM.int8 quantization -> adjacent to model internals, not product",
+    "Flask, Flask-SocketIO, WebSocket, PyQt GUI -> adjacent to user-facing product engineering",
+    "ASR pipelines (faster-whisper, WER) -> adjacent to AI product feature, not agents"
+  ],
+  "top_ats_keywords": ["LLM", "agents", "evals", "observability", "prompting", "workflow builder", "product engineering", "tool-use", "human-AI collaboration"],
+  "key_responsibilities": [
+    "Build AI-powered product experiences (workflow builders, eval frameworks, proactive intelligence)",
+    "Design and ship new interfaces for human-AI collaboration",
+    "Build eval, observability, and feedback systems for enterprise agent workflows",
+    "Improve AI reliability via prompting, context construction, tool-use strategies",
+    "Turn production failures and user feedback into product/eval improvements"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

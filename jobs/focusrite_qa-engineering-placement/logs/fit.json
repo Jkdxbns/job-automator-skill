@@ -1,0 +1,133 @@
+{
+  "company": "Focusrite Group",
+  "company_slug": "focusrite",
+  "role": "QA Engineering Placement (Audio & MIDI Hardware, Software, Firmware Testing)",
+  "job_slug": "qa-engineering-placement",
+  "match_pct": 47.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 23,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Command Line Interface",
+    "Scripting",
+    "Programming",
+    "Firmware Testing",
+    "Hardware Testing",
+    "Digital Signal Processing",
+    "USB",
+    "Degree in Science/Engineering/Technology"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Test Automation",
+      "you_have": "Python/Bash automation + benchmark harnesses"
+    },
+    {
+      "jd_skill": "Automated Test Rigs",
+      "you_have": "Jetson/Arduino bench bring-up with oscilloscopes and logic analyzers"
+    },
+    {
+      "jd_skill": "Log Analysis",
+      "you_have": "pynvml profiling and benchmark/latency log analysis"
+    },
+    {
+      "jd_skill": "Software Testing",
+      "you_have": "Model evaluation and accuracy/latency validation"
+    },
+    {
+      "jd_skill": "Audio Technology",
+      "you_have": "ASR pipelines (faster-whisper, Indian-English STT)"
+    },
+    {
+      "jd_skill": "Test Coverage",
+      "you_have": "Benchmark sweeps across model/backend configurations"
+    }
+  ],
+  "missing_skills": [
+    "Quality Assurance",
+    "Functional Testing",
+    "Non-Functional Testing",
+    "Exploratory Testing",
+    "Issue Reporting",
+    "Third-Party Compatibility Testing",
+    "Audio Interfaces",
+    "MIDI",
+    "Music / Recording Knowledge"
+  ],
+  "top_ats_keywords": [
+    "QA",
+    "Quality Assurance",
+    "Functional Testing",
+    "Exploratory Testing",
+    "Test Automation",
+    "Test Coverage",
+    "Log Analysis",
+    "Command Line Interface",
+    "Scripting",
+    "Firmware Testing",
+    "Hardware Testing",
+    "Software Testing",
+    "Audio Interfaces",
+    "MIDI",
+    "Audio Technology",
+    "Issue Reporting"
+  ],
+  "required_skills": [
+    "Quality Assurance",
+    "Functional Testing",
+    "Non-Functional Testing",
+    "Exploratory Testing",
+    "Test Result and Log Analysis",
+    "Issue Reporting",
+    "Command Line Interface",
+    "Degree in Science/Engineering/Technology",
+    "Audio Technology Knowledge",
+    "Music / Recording Knowledge"
+  ],
+  "preferred_skills": [
+    "Scripting",
+    "Programming",
+    "Test Automation",
+    "Automated Test Rigs",
+    "Hardware Testing",
+    "Software Testing",
+    "Firmware Testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Test maintenance updates and third-party software/hardware compatibility",
+    "Functional, non-functional and exploratory testing on products under development",
+    "Keep automated test rigs running and maximise uptime and test coverage",
+    "Analyse test results and logs, report issues and patterns to dev teams",
+    "Validate new technologies and product concepts are fit for purpose"
+  ],
+  "role_category": "embedded_systems",
+  "location": "High Wycombe, Buckinghamshire, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

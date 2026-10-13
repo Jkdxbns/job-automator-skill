@@ -1,0 +1,60 @@
+{
+  "company": "General Motors",
+  "company_slug": "gm",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 82,
+  "missing_skills": [
+    "QNX (no direct exp)",
+    "Rust",
+    "OTA/firmware update systems",
+    "SomeIP/UDS/DoIP automotive protocols"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "QNX",
+      "you_have": "RTOS, FreeRTOS, Linux \u2014 QNX is a POSIX RTOS; Linux/RTOS experience transfers"
+    },
+    {
+      "jd_term": "communication protocols (SomeIP/UDS)",
+      "you_have": "CAN, TCP/IP, UART, SPI, I2C, ROS middleware"
+    },
+    {
+      "jd_term": "OTA update systems",
+      "you_have": "firmware, embedded Linux, build systems"
+    }
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded systems",
+    "Linux",
+    "RTOS",
+    "QNX",
+    "CAN",
+    "TCP/IP",
+    "Git",
+    "CMake",
+    "Python",
+    "OTA",
+    "software debugging"
+  ],
+  "key_responsibilities": [
+    "Develop embedded C/C++/Rust software for vehicle OTA update functions on Android/QNX/Linux",
+    "Requirements, design, code, and test case reviews",
+    "Bench and verification testing",
+    "Debug and resolve vehicle software update issues",
+    "Collaborate with System Engineers on requirements and architecture"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": "No sponsorship language in JD; GM not on known_sponsors list but is a major US employer with significant H-1B filing history",
+  "location": "Austin, TX / Warren, MI \u2014 Hybrid 3x/week; relocation benefits eligible",
+  "remote_ok": false,
+  "required_experience_years": 2,
+  "hard_blocker_triggered": false
+}

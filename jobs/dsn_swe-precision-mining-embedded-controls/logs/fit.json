@@ -1,0 +1,184 @@
+{
+  "company": "Diversified Services Network, Inc. (DSN)",
+  "company_slug": "dsn",
+  "role": "Software Engineer - Precision Mining (Embedded Controls)",
+  "job_slug": "swe-precision-mining-embedded-controls",
+  "match_pct": 72.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 6,
+    "missing_count": 4,
+    "jd_ask_size": 25,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Embedded C++",
+    "Python",
+    "ROS1",
+    "ROS2",
+    "OpenCV",
+    "Machine Learning",
+    "Linux",
+    "GitHub",
+    "Git",
+    "Robotics",
+    "Autonomy",
+    "Embedded electronic controls",
+    "Triage / hardware troubleshooting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN",
+      "you_have": "UART / I2C / SPI bare-metal bus work"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "WebSocket + static IP / network configuration"
+    },
+    {
+      "jd_skill": "Hyperspectral analysis",
+      "you_have": "Image processing / multi-band CV segmentation (BraTS MRI, microscopic images)"
+    },
+    {
+      "jd_skill": "AWS Batch",
+      "you_have": "SLURM batch job scheduling on HPC cluster"
+    },
+    {
+      "jd_skill": "Validation plans",
+      "you_have": "Benchmarking + model evaluation methodology"
+    },
+    {
+      "jd_skill": "Integration and testing",
+      "you_have": "Bench/hardware integration testing with logic analyzers and oscilloscopes"
+    }
+  ],
+  "missing_skills": [
+    "AWS S3",
+    "AWS EC2",
+    "Agile / Sprint",
+    "Systems requirements decomposition"
+  ],
+  "top_ats_keywords": [
+    "embedded C++",
+    "C",
+    "C++",
+    "Python",
+    "ROS2",
+    "ROS1",
+    "OpenCV",
+    "Machine Learning",
+    "Linux",
+    "GitHub",
+    "CAN",
+    "Ethernet",
+    "AWS",
+    "S3",
+    "EC2",
+    "AWS Batch",
+    "robotics",
+    "autonomy",
+    "hyperspectral",
+    "Agile",
+    "validation plans",
+    "requirements decomposition",
+    "integration and testing",
+    "embedded controls"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Embedded C++",
+    "Python",
+    "ROS1 or ROS2",
+    "OpenCV",
+    "Machine Learning",
+    "Linux",
+    "GitHub",
+    "CAN",
+    "Ethernet",
+    "AWS S3",
+    "AWS EC2",
+    "AWS Batch"
+  ],
+  "preferred_skills": [
+    "Robotics",
+    "Autonomy"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Develop precision mining features using embedded C++, Linux, and GitHub",
+    "Resolve issues through triage and troubleshooting",
+    "Work within an Agile Sprint environment",
+    "Develop validation plans",
+    "Coordinate with a global team of machine, systems, software and validation teams",
+    "Systems requirements decomposition, design, development, reviews, integration, testing",
+    "Participate in design reviews and daily stand-ups in a 12-14 person global team"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pittsburgh, PA (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 73,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "All three of the JD's stated Top Skills are genuinely deep, not surface mentions: C/C++ and Python across CUDA C++ VGG16 kernels, Arduino C++ two-link IK, and bare-metal C on Cortex-M4 (GPIO/TIM2/ADC1/I2C1, 3.68 KB Flash)",
+      "ROS1 AND ROS2 both backed with hardware, not tutorials: DH tables and 0T6 forward kinematics for UR5e/AL5B validated against MoveIt and RViz in ROS 2 Humble and ROS Noetic, with collision-free pick-and-place executed on a physical UR5e",
+      "OpenCV / ML development is the strongest area in the profile: custom image stitching with wavelet denoising (PSNR 65 to 86), ZoeDepth crack-depth profiling at +/-8% error, YOLOv8/YOLO11n training, and TensorRT YOLO at 5.2x speedup (56.7 to 10.9 ms)",
+      "Embedded Linux deployment is real, not claimed: Jetson arm bridge shipped as a systemd service with auto-restart backoff, non-root user/group isolation, env-file config, and static IP networking, plus XRDP administration of a headless device",
+      "Triage and troubleshooting, which the JD lists as a named responsibility, is explicitly evidenced: 11 integration failures root-caused (false-positive detections, servo brown-out, stale-frame capture), sensor jitter resolved by calibration, MPI load imbalance characterized at 65% degradation",
+      "Global, culturally diverse team collaboration maps directly: led a cross-cultural team of 7 at Teesside University (UK) as sole ML-experienced member, took over as lead mid-project; led a 25-member robotics club across national competitions"
+    ],
+    "real_gaps": [
+      "AWS S3, EC2 and Batch: listed as Required and absent from the entire profile. SLURM cluster workloads are the only batch-compute analog and involve no AWS APIs, IAM, or object storage",
+      "CAN bus: zero exposure. For precision mining embedded controls the datalink is almost certainly CAN/J1939 on the machine backbone; UART/I2C/SPI and WebSocket are not the same layer or the same tooling",
+      "Hyperspectral analysis, the stated technical core of this group: no spectral-band work anywhere. BraTS 2020 multi-modal MRI (4 modalities as input channels) is the closest transferable structure, but it is channel-stacked imaging, not spectral signature analysis",
+      "Agile Sprint process, requirements decomposition, and formal validation-plan authorship: no evidence of operating inside a documented SDLC on a shipping product. Closest analogs are internship delivery and self-directed benchmarking",
+      "Production scope: every entry is capstone, research, internship or club scope. The JD is a 12-14 person global team shipping features on Fortune-100 mining machines, where field failure has cost and safety consequences",
+      "1-2 years of post-M.S. industry experience: 0 full-time years against 7 internships"
+    ],
+    "overstated_by_keywords": [
+      "Embedded C++ counted as Have, but the embedded work is predominantly bare-metal C (STM32) and Arduino-dialect C++. There is no evidence of modern C++ (C++11/17/20 idioms, RAII, templates, STL discipline) on embedded Linux, which is what this role means by embedded C++",
+      "Ethernet counted as Adjacent on the strength of WebSocket and static IP configuration, which is application and host-config layer, not datalink bring-up, PHY, or deterministic machine networking",
+      "AWS Batch counted as Adjacent via SLURM: the scheduling concept transfers, but none of the cloud surface (job definitions, queues, S3 staging, IAM) does",
+      "Autonomy counted as Have, but the autonomous-driving stack ran only in CARLA simulation in Town02. No autonomy deployed on physical machinery in the field"
+    ],
+    "understated_by_keywords": [
+      "Systems integration debugging under hardware constraints, which is effectively the JD's 'resolve issues through triage and troubleshooting' bullet. 11 documented integration failures root-caused to 100% pick reliability never string-matched anything",
+      "Validation methodology depth that the keyword pass only logged as 'adjacent': golden test vectors with 99.996% fixed-point match to the float reference, AL5B repeatability measured at <2 mm over 10 trials, zero-collision validation laps with 30 vehicles and 10 pedestrians. This is closer to 'develop validation plans' than the keyword score implies",
+      "Global and cross-cultural team leadership, which the JD lists twice as a responsibility and the keyword pass scored at zero",
+      "Sensor and bus integration breadth on a single system: dual VL53L0X ToF through a TCA9548A I2C mux with a camera range-gate, interrupt-driven quadrature decoding written as a 4-bit A/B state machine, 15 kHz PWM across four motor channels. That is machine-controls work in everything but name"
+    ],
+    "screening_gaps": [
+      "AWS (S3, EC2, Batch) is a Required line item with zero profile evidence. A screener filtering on 'AWS' drops this application before a human reads the ROS or OpenCV depth",
+      "No CAN experience on a heavy-equipment embedded-controls team, where CAN/J1939 is the machine backbone. UART/I2C/SPI will not read as equivalent to a machine-controls hiring manager",
+      "0 years full-time against 1-2 years post-M.S. industry experience, with no Agile Sprint or requirements-decomposition track record on a shipping production system"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The day-to-day of this role (embedded C++ perception and control features on Linux, ROS1/ROS2, OpenCV/ML, Git, integration debugging on real hardware) is the closest alignment to Justin's actual profile of any embedded role analyzed recently, and the JD's own Top Skills list is covered three for three with demonstrable depth. The exposure is in the second tier: AWS is a hard Required miss, CAN is the one bus a mining-controls team will assume you have, and hyperspectral analysis is the group's technical core with no analog beyond multi-modal MRI channel stacking. Worth applying, but the resume has to lead with the ROS plus OpenCV plus embedded-Linux triad and the integration-failure debugging record, because those are what survive the AWS and CAN gaps.",
+    "calibration_delta": -1.0
+  },
+  "semantic_pending": false
+}

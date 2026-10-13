@@ -1,0 +1,117 @@
+{
+  "company": "OpenAI",
+  "company_slug": "openai",
+  "role": "Machine Learning Engineer, Implicit Signals",
+  "job_slug": "mle-implicit-signals",
+  "match_pct": 52.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 17,
+    "req_cov": 0.708,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Supervised learning",
+    "Model evaluation",
+    "Fine-tuning",
+    "Inference optimization",
+    "Python",
+    "Software engineering",
+    "Efficient inference"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Knowledge distillation",
+      "you_have": "Quantization / pruning model compression"
+    },
+    {
+      "jd_skill": "Model serving",
+      "you_have": "TensorRT / Jetson deployment"
+    },
+    {
+      "jd_skill": "Production ML deployment",
+      "you_have": "Edge AI deployment (Jetson + TensorRT + YOLO)"
+    },
+    {
+      "jd_skill": "Observability",
+      "you_have": "systemd auto-restart / monitoring"
+    }
+  ],
+  "missing_skills": [
+    "Statistics",
+    "Experimental design",
+    "Calibration",
+    "Representation learning",
+    "Imperfect labels / label noise",
+    "Batching and caching at scale"
+  ],
+  "top_ats_keywords": [
+    "classifier",
+    "supervised fine-tuning",
+    "distillation",
+    "model evaluation",
+    "inference",
+    "model serving",
+    "latency",
+    "calibration",
+    "observability",
+    "production ML",
+    "statistics",
+    "experimental design"
+  ],
+  "required_skills": [
+    "Supervised learning",
+    "Model evaluation",
+    "Fine-tuning",
+    "Knowledge distillation",
+    "Inference optimization",
+    "Model serving",
+    "Python",
+    "Software engineering",
+    "Production ML deployment",
+    "Statistics",
+    "Experimental design",
+    "Observability"
+  ],
+  "preferred_skills": [
+    "Model distillation",
+    "Representation learning",
+    "Calibration",
+    "Efficient inference"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and operate production classification/evaluation systems",
+    "Optimize production inference (serving, batching, caching, latency, cost)",
+    "Train classifiers via SFT and distillation",
+    "Own reliability and observability of deployed classifiers",
+    "Design rigorous evaluations"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

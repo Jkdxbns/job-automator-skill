@@ -1,0 +1,224 @@
+{
+  "company": "JPMorganChase",
+  "company_slug": "jpmorganchase",
+  "role": "Applied AI ML - Payments Machine Learning (Associate)",
+  "job_slug": "applied-ai-ml-payments-ml-associate",
+  "match_pct": 46.6,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 7,
+    "missing_count": 20,
+    "jd_ask_size": 44,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Machine learning fundamentals",
+    "Deep Learning",
+    "Python",
+    "PyTorch",
+    "NLP",
+    "Generative AI",
+    "LLMs",
+    "Transformers",
+    "Model evaluation",
+    "Evaluation harnesses",
+    "Benchmarking / measuring impact",
+    "Applied data analysis (Pandas, NumPy)",
+    "Master's degree in a quantitative field",
+    "Git / versioning",
+    "Linux",
+    "Performance awareness and optimization",
+    "Model quantization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Deploying and operating ML models in production with monitoring",
+      "you_have": "Edge AI deployment on Jetson (TensorRT/ONNX) with systemd service management"
+    },
+    {
+      "jd_skill": "Feature engineering pipelines",
+      "you_have": "Pandas/NumPy preprocessing for ASR and CV data pipelines"
+    },
+    {
+      "jd_skill": "Cost/latency/performance/scaling of ML workloads",
+      "you_have": "CUDA kernel and TensorRT latency optimization (1.5x speedup)"
+    },
+    {
+      "jd_skill": "Scalable data processing",
+      "you_have": "MPI parallel processing on SLURM HPC cluster"
+    },
+    {
+      "jd_skill": "Orchestration",
+      "you_have": "SLURM job scheduling"
+    },
+    {
+      "jd_skill": "Batch vs real-time serving",
+      "you_have": "Real-time 30 FPS edge inference pipelines"
+    },
+    {
+      "jd_skill": "Agentic engineering / LLM-powered workflows",
+      "you_have": "GPT-2 from scratch, TinyLlama fine-tuning, HuggingFace Transformers"
+    }
+  ],
+  "missing_skills": [
+    "MLOps tooling (training vs serving, model/prompt versioning, governance)",
+    "Containerization / Docker",
+    "CI/CD",
+    "Automated testing",
+    "Production monitoring and rollback procedures",
+    "Cloud infrastructure",
+    "AWS",
+    "SageMaker",
+    "Bedrock",
+    "RAG",
+    "Tool / function calling",
+    "Agentic orchestration frameworks",
+    "Context and memory patterns",
+    "LLM guardrails and safety evaluation",
+    "Regulated / control-conscious environment experience",
+    "Model risk, privacy, security, audit-ready documentation",
+    "Human-in-the-loop review, labelling strategies, preference signals",
+    "SQL",
+    "Full-time industry ML experience",
+    "Payments / banking domain"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "generative AI",
+    "LLM",
+    "agentic workflows",
+    "Python",
+    "MLOps",
+    "containerization",
+    "CI/CD",
+    "monitoring",
+    "feature engineering",
+    "evaluation harness",
+    "orchestration",
+    "AWS",
+    "SageMaker",
+    "Bedrock",
+    "RAG",
+    "NLP",
+    "model cards",
+    "model risk",
+    "guardrails",
+    "human-in-the-loop",
+    "PyTorch",
+    "deep learning",
+    "model evaluation",
+    "SQL"
+  ],
+  "required_skills": [
+    "Applied machine learning industry experience",
+    "Bachelor's or Master's degree in a quantitative field",
+    "Machine learning fundamentals",
+    "Applied data analysis",
+    "Designing evaluations and measuring impact",
+    "Deploying and operating ML models in production with monitoring and troubleshooting",
+    "Python software engineering",
+    "MLOps concepts (training vs serving, batch vs real-time, orchestration, scalable data processing, model/prompt versioning and governance)",
+    "Evaluation and guardrails aligned to business goals",
+    "Regulated environment experience (model risk, privacy, security, audit-ready documentation)"
+  ],
+  "preferred_skills": [
+    "NLP",
+    "Generative AI",
+    "LLMs",
+    "RAG",
+    "Tool/function calling",
+    "Agentic workflows",
+    "Orchestration frameworks",
+    "Context and memory patterns",
+    "AWS",
+    "SageMaker",
+    "Bedrock",
+    "Cost/latency/performance/scaling of production ML workloads",
+    "Human-in-the-loop review",
+    "Labelling strategies",
+    "Preference signals"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Deliver ML and AI solutions for payments and banking operations from discovery to production rollout",
+    "Apply agentic engineering practices to build LLM-powered workflows and evaluate quality, safety, reliability",
+    "Contribute to deployment workflows: containerization, CI/CD, automated testing, versioning, monitoring, rollback",
+    "Develop scalable and secure ML/LLM services integrated with strategic platforms",
+    "Partner with product, operations, risk and control, and technology teams",
+    "Build reusable components: feature engineering pipelines, evaluation harnesses, orchestration patterns",
+    "Participate in code and design reviews",
+    "Communicate with technical and non-technical stakeholders",
+    "Maintain model cards, runbooks, experiment notes, operational procedures"
+  ],
+  "role_category": "ml_systems",
+  "location": "25 Bank Street, Canary Wharf, London, Greater London, E14 5JP, GB",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep, from-scratch transformer/LLM understanding rather than API-surface familiarity: GPT-2 implemented from scratch in PyTorch (multi-head attention, MLP blocks, residuals, layer norm, weight tying), a Whisper-style ASR encoder-decoder built from scratch to 15% WER, and a custom BPE tokenizer with a Cython backend (4-5.5x speedup, 6M chars in 15 min)",
+      "Evaluation harness work is a direct hit on 'build reusable components such as evaluation harnesses': SLM benchmarking across HellaSwag, GSM8K and ARC with pynvml/psutil profiling of peak VRAM and per-prompt-type latency, quantified as <1% accuracy degradation and +0.09 perplexity at ~55% memory reduction",
+      "Genuine breadth of applied ML metric discipline across four separate roles: Dice/IoU on BraTS U-Net with VGG-16/VGG-19/ResNet-50 backbones, 83% mAP@50 on YOLOv8n, validation accuracy 55% to 93% on DONUT fine-tuning, PSNR 65 to 86 on image stitching",
+      "Performance and latency engineering well above the level this JD asks for: 5.2x TensorRT YOLO speedup (56.7 to 10.9 ms), custom CUDA kernels at 49.2 vs 73.3 ms via memory coalescing, 10.49x MPI speedup with documented 65% load-imbalance degradation",
+      "Feature engineering and data pipeline construction is repeatedly evidenced: BraTS multi-modal MRI pipeline with augmentation and batch-loading memory management for 3D volumetric inputs, LeRobot-structured multiprocessing capture pipeline, CARLA auto-annotation generating ~5,000 YOLO and ~3,000 UFLD frames with zero manual labelling",
+      "Modular Python software engineering with real architectural intent: Frame Simulator decouples data model, SE(3) math, visuals and UI into separate modules with a mix-in pattern centralizing transform-apply and refresh logic; custom DSL parser and math engine",
+      "Cross-functional delivery under constraint: took over as team lead mid-project at Teesside as the sole ML-experienced member of a 7-person cross-cultural team and shipped the full pipeline inside a 6-week window; led a 25-member club across mechanical, PCB and ML workstreams"
+    ],
+    "real_gaps": [
+      "No cloud platform experience of any kind. Every system in the profile runs on local hardware, a Jetson, or a SLURM cluster. The JD's opening line is 'deploy machine learning applications on cloud infrastructure' and the preferred list names SageMaker and Bedrock specifically",
+      "No containerization, CI/CD, automated testing, or production monitoring/rollback. Responsibility 3 of 9 is that list verbatim, and the required Python bullet names testing explicitly; there is no pytest or test suite anywhere in the profile",
+      "No GenAI application-layer engineering: no RAG, no tool/function calling, no agentic orchestration framework, no context/memory patterns. He has built LLMs, not LLM products, and the JD is shaped around agentic engineering practices",
+      "No LLM guardrails, safety or reliability evaluation. His evaluation vocabulary is accuracy/latency/perplexity, not quality-safety-reliability of an LLM workflow, and 'align evaluation and guardrails to business goals' has no analogue in the profile",
+      "No model risk, privacy, security or audit-ready documentation practice. Model cards, runbooks and operational procedures are named deliverables here and nothing in the profile resembles them",
+      "No SQL and no large-scale tabular or statistical analysis. 'Applied data analysis skills' in a payments context means warehouse-scale transactional data; the profile's data analysis is PyQt/Matplotlib visualization and Pandas preprocessing",
+      "No business-impact measurement. 'Designing evaluations and measuring impact in real-world settings' means moving a business metric; every number in the profile is a model or systems metric, never a business outcome",
+      "Zero payments, banking or financial services domain exposure",
+      "Track record, noted as prose only and deliberately excluded from the score above: zero full-time industry experience against a JD asking for 'relevant industry experience', and JPMC's Associate band typically sits 2+ years post-degree, so this is an early-career candidate applying one band up"
+    ],
+    "overstated_by_keywords": [
+      "'Applied data analysis (Pandas, NumPy)' counted as HAVE, but the actual evidence is array preprocessing and plotting, not the exploratory/statistical analysis of transactional data this role means",
+      "'Deploying and operating ML models in production with monitoring' counted as ADJACENT, but the real backing is a single systemd unit on one Jetson with 10 trial runs; there is no monitoring stack, no alerting, no on-call, no rollback path",
+      "'Orchestration' counted as ADJACENT via SLURM, which is batch job submission on an HPC cluster and shares almost nothing with the ML/LLM workflow orchestration the JD means",
+      "'Scalable data processing' counted as ADJACENT via MPI, which is tightly-coupled numerical parallelism, not the distributed data processing (Spark-class) a payments platform runs",
+      "'Agentic engineering / LLM-powered workflows' counted as ADJACENT, but GPT-2 and TinyLlama work is model-building; only the Gemini intent-classification node is an actual LLM-in-a-workflow, and it is one call in one pipeline"
+    ],
+    "understated_by_keywords": [
+      "Regulated / control-conscious environment was marked flatly MISSING, but two of the seven internships sit in exactly that kind of setting: Bhabha Atomic Research Centre (national nuclear research institute, two separate stints) and Teesside's BraTS clinical MRI data. Not banking model risk, but not zero either",
+      "Training vs serving was folded into a MISSING MLOps bucket, yet the profile does this repeatedly and explicitly: TorchScript to custom CUDA kernels, PyTorch eager to TensorRT, and YOLOv8n exported to ONNX and TFLite for mobile deployment. Those are train-then-serve conversions with measured before/after latency",
+      "Production monitoring and rollback was marked MISSING, but the COFFIN systemd deployment has auto-restart with backoff, non-root user/group isolation, environment-file-based config separation and static IP networking for reliable multi-device registration. That is real service-reliability engineering, just at one-node scale",
+      "Labelling strategies (a preferred qual) was marked MISSING, yet the CARLA pipeline is a deliberate labelling strategy: semantic segmentation plus raycast occlusion filtering to generate ~8,000 labelled frames with zero manual annotation, and he hand-curated and annotated the Tusk detection dataset",
+      "Batch vs real-time serving is genuinely understood, not adjacent-by-luck: 17.6 to 92 FPS real-time perception on one side, MPI batch cluster workloads on the other",
+      "Debugging depth is invisible to a keyword pass: 'resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' to 100% reliability is the kind of production troubleshooting the JD's required bullet asks for"
+    ],
+    "screening_gaps": [
+      "Zero cloud experience against a JD whose first sentence is deploying ML on cloud infrastructure, with AWS/SageMaker/Bedrock named in preferred. A screener filtering on cloud will not see a single line to match, and for a production ML seat at a bank this is the hardest single filter to survive",
+      "No containerization, CI/CD, automated testing or monitoring/rollback evidence, which is one entire required responsibility bullet and part of the required Python-engineering bullet. Absence of any test suite in the whole profile is the specific thing an interviewer will probe and find hollow",
+      "No GenAI application layer (RAG, tool/function calling, agentic orchestration, guardrails) in a role explicitly built around agentic engineering practices. From-scratch transformer depth reads as academic rather than product experience to a hiring manager staffing LLM workflows"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The modelling half of this role is genuinely well covered and the keyword pass undersold it: from-scratch GPT-2 and ASR transformers, a real benchmarking harness across HellaSwag/GSM8K/ARC, quantization trade-off analysis, and stronger latency profiling than most Associate hires bring. The other half of the role, the MLOps and cloud spine plus the GenAI application layer, has no evidence at all, and that half is where JPMC's Associate pool will be strongest. Worth an application because the cost is low and the from-scratch depth is a real differentiator in interview, but expect the cloud and containerization filters to screen it out before a human reads it.",
+    "calibration_delta": -10.4
+  }
+}

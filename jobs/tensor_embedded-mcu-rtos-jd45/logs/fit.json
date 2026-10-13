@@ -1,0 +1,134 @@
+{
+  "company": "Tensor",
+  "company_slug": "tensor",
+  "role": "Embedded Software Engineer: MCU (RTOS)",
+  "job_slug": "embedded-mcu-rtos-jd45",
+  "match_pct": 71.9,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 16,
+    "req_cov": 0.773,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "data structures and algorithms",
+    "oscilloscopes",
+    "SPI",
+    "serial ports",
+    "MCU debugging",
+    "FreeRTOS",
+    "peripheral drivers",
+    "integration testing",
+    "version management"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "automotive Ethernet",
+      "you_have": "networking / Ethernet (TCP/IP)"
+    },
+    {
+      "jd_skill": "NXP S32G/K",
+      "you_have": "STM32 Cortex-M4"
+    },
+    {
+      "jd_skill": "circuit principles",
+      "you_have": "PCB design / hardware debugging"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "automotive electronics",
+    "protocol analyzers"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "MCU",
+    "RTOS",
+    "FreeRTOS",
+    "CAN",
+    "automotive Ethernet",
+    "SPI",
+    "oscilloscope",
+    "NXP S32",
+    "ECU"
+  ],
+  "required_skills": [
+    "C/C++",
+    "data structures and algorithms",
+    "circuit principles",
+    "oscilloscopes",
+    "protocol analyzers",
+    "automotive electronics",
+    "CAN",
+    "automotive Ethernet",
+    "SPI",
+    "serial ports",
+    "MCU debugging"
+  ],
+  "preferred_skills": [
+    "FreeRTOS",
+    "NXP S32G/K"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "MCU software development",
+    "ECU peripheral drivers",
+    "integration testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA, US (also Barcelona, Singapore, Dubai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware: timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver in C (STM32 project)",
+      "FreeRTOS with mutexes plus UART/PWM/ToF integration (Object Tracking Turret)",
+      "Bench debugging with oscilloscopes and logic analyzers; UART/I2C/SPI across turret, COFFIN and ARC PCB work"
+    ],
+    "real_gaps": [
+      "No CAN or CAN-FD anywhere in the profile",
+      "No automotive Ethernet, ECU or automotive-electronics context",
+      "No NXP S32 or production MCU firmware with version management at team scale",
+      "FreeRTOS is backed by one hobby-scale project"
+    ],
+    "overstated_by_keywords": [
+      "Ethernet counted as adjacent via TCP/IP and static-IP work, which is not automotive Ethernet",
+      "FreeRTOS counted Have, but backing is one turret project"
+    ],
+    "understated_by_keywords": [
+      "Cortex-M ADC/timer/interrupt driver work is direct evidence for 'ECU peripheral driver development'"
+    ],
+    "screening_gaps": [
+      "No CAN / automotive bus experience (the role's core protocol)",
+      "No automotive ECU or safety-process context",
+      "No production-scale MCU firmware ownership"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The MCU and peripheral-driver half of the role is genuinely backed by the STM32 and turret work. The automotive half (CAN, automotive Ethernet, ECU integration) has no evidence, so this is a credible try with one clear protocol gap that a small CAN project could close.",
+    "calibration_delta": 8.9
+  }
+}

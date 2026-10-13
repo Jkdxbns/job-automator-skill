@@ -1,0 +1,115 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Backend Software Engineer II",
+  "job_slug": "backend-software-engineer-ii",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ / systems programming",
+    "Linux / low-level interactions",
+    "embedded / bare-metal systems",
+    "robotics / perception",
+    "edge AI / GPU optimization",
+    "Python / ML pipelines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Rust (required)",
+      "you_have": "C/C++ and bare-metal systems programming"
+    },
+    {
+      "jd_skill": "safety-critical / autonomous vehicles (preferred)",
+      "you_have": "embedded robotics + edge AI + ROS2"
+    },
+    {
+      "jd_skill": "memory management / low-level system interactions",
+      "you_have": "embedded C, CUDA memory coalescing, bare-metal"
+    }
+  ],
+  "missing_skills": [
+    "Rust (required primary language \u2014 not in keyword list)",
+    "3+ years backend/systems-level experience (candidate has 0 full-time years; 7 internships but no full-time production backend scope)",
+    "production backend / distributed train control software",
+    "rail control / PTC / movement authority domain knowledge",
+    "Docker / Kubernetes (not in keyword list)",
+    "safety-critical production systems at organization scale (candidate has capstone/internship/research scope)"
+  ],
+  "top_ats_keywords": [
+    "Rust",
+    "C",
+    "C++",
+    "backend",
+    "systems-level",
+    "Linux",
+    "memory management",
+    "safety-critical",
+    "autonomous vehicles",
+    "rail",
+    "Docker",
+    "Kubernetes",
+    "Positive Train Control",
+    "PTC",
+    "movement authorities",
+    "motion rules",
+    "Parallel blocks"
+  ],
+  "required_skills": [
+    "Rust",
+    "C",
+    "C++",
+    "systems programming languages",
+    "Linux environments",
+    "low-level system interactions",
+    "memory management",
+    "backend software",
+    "train control concepts (movement authorities, bulletins, switches, signals)"
+  ],
+  "preferred_skills": [
+    "Rust (production/strong desire)",
+    "safety critical application spaces (autonomous vehicles, industrial control, aerospace)",
+    "rail control systems",
+    "cloud-based architectures",
+    "containerized environments (Docker, Kubernetes)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Implement and extend backend train control features",
+    "Develop and maintain system-level Rust software",
+    "Fix edge cases in train control logic for reliability/correctness",
+    "Write/test code meeting safety, security, compliance standards",
+    "Debug in simulation and real hardware; participate in code reviews and specs"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

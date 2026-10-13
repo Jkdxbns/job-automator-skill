@@ -1,0 +1,142 @@
+{
+  "company": "XPENG",
+  "company_slug": "xpeng",
+  "role": "Senior Machine Learning Engineer - LLM Quantization & Deployment",
+  "job_slug": "senior-machine-learning-engineer-llm-quantization-deployment",
+  "match_pct": 55.4,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 7,
+    "missing_count": 9,
+    "jd_ask_size": 28,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python programming (skills list + Flask/GitLab/CMake usage across projects)",
+    "PyTorch / PyTorch-based fine-tuning (skills + DONUT document fine-tuning, TinyLlama quantization, ASR Transformer, GPT-2 scratch)",
+    "Transformer architectures / LLM inference (GPT-2 scratch in PyTorch; DONUT VisionEncoderDecoder; TinyLlama 1.1B; ASR multi-head attention + 4-block causal Transformer decoder)",
+    "8-bit / INT8 quantization (skills: '8-bit Quantization'; project: TinyLlama 1.1B bitsandbytes LLM.int8())",
+    "TensorRT (skills: TensorRT; project: TensorRT-optimized YOLO on Jetson, 5.2x speedup)",
+    "CUDA / CUDA C++ (skills + custom VGG16 CUDA kernels with memory coalescing and constant memory)",
+    "Cython (skills + custom Cython-accelerated BPE tokenizer in ASR pipeline)",
+    "ONNX export / ONNX Runtime (YOLOv8n exported to ONNX; skills reference ONNX-related inference)",
+    "Model benchmarking / evaluation (skills: 'model evaluation'; project: YOLO mAP@50 83%, TinyLlama HellaSwag/GSM8K/ARC benchmarks, ASR 15% WER on NPTEL 2020)",
+    "Model export (YOLOv8n exported to ONNX/TFLite)",
+    "System-level deployment (systemd service deployment, static IP/network config, XRDP, WebSocket-based robot stack)",
+    "Numerical optimization (custom CUDA kernels ~35% speedup, memory coalescing, constant memory; ASR numerical accuracy + custom tokenizer)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PTQ / QAT quantization methods",
+      "you_have": "TinyLlama 1.1B 8-bit quantization via bitsandbytes LLM.int8() (quantization performed, but PTQ/QAT framework not named); also fine-tuned DONUT and UFLD models"
+    },
+    {
+      "jd_skill": "Mixed-precision inference / lower-bit techniques",
+      "you_have": "8-bit Quantization (bitsandbytes LLM.int8()) and CUDA numerical optimization; FP4 not explicitly shown"
+    },
+    {
+      "jd_skill": "LLM runtime / inference stack (TensorRT-LLM, vLLM, SGLang, ONNX Runtime, TVM, MLIR)",
+      "you_have": "TensorRT (inference optimization) and ONNX export; CUDA C++ custom kernels; no TensorRT-LLM / vLLM / TVM / MLIR explicitly mentioned"
+    },
+    {
+      "jd_skill": "Resource-constrained / heterogeneous hardware deployment",
+      "you_have": "NVIDIA Jetson + Arduino deployment (YOLO TensorRT-optimized, faster-whisper STT, dual ToF via I2C mux); embedded STM32/FreeRTOS; not the exact heterogeneous inference runtime context"
+    },
+    {
+      "jd_skill": "Model calibration and deployment pipeline construction",
+      "you_have": "Built model benchmarking (YOLO, TinyLlama, CUDA kernels) and systemd deployment; no explicit calibration pipeline or production-scale deployment pipeline stated"
+    },
+    {
+      "jd_skill": "Cross-functional collaboration (research, systems, infrastructure, product) in industry",
+      "you_have": "Led 25-member robotics team (Agnel Robotics Club) and 7-member research team (Teesside); coordinated sensors/hardware; academic not industry cross-functional"
+    },
+    {
+      "jd_skill": "Production-scale quantized LLM deployment experience",
+      "you_have": "Quantized TinyLlama 1.1B and optimized YOLO on Jetson; both are project/student-level, not production-shipped LLM quantization"
+    }
+  ],
+  "missing_skills": [
+    "1-3 years full-time industry ML/deployment experience (profile: new-grad with 7 internships, 0 full-time years)",
+    "Production-shipped quantized LLM deployment at scale (only student/project-level deployments shown)",
+    "FP4 quantization (skills show 8-bit only; no FP4 mentioned)",
+    "AWQ, GPTQ, SmoothQuant explicitly (not in profile; only generic bitsandbytes 8-bit used)",
+    "KV-cache / activation / weight-only / dynamic / static quantization methods specifically named (profile mentions only generic 8-bit via bitsandbytes)",
+    "Explicit model calibration pipeline or validation framework in production (benchmarking done but calibration not named)",
+    "Industry cross-functional interface role with field-testing / simulation / autonomous-driving sign-off (only personal CARLA simulation project; no field-testing collaboration stated)",
+    "Publications at NeurIPS / ICML / ICLR / ACL (not mentioned in profile)",
+    "Hands-on experience quantizing/deploying deep learning models specifically in a production environment (project-level only)"
+  ],
+  "top_ats_keywords": [
+    "LLM quantization",
+    "PTQ",
+    "QAT",
+    "INT8",
+    "FP4",
+    "TensorRT-LLM",
+    "vLLM",
+    "ONNX Runtime",
+    "PyTorch",
+    "VLA",
+    "autonomous driving",
+    "numerical consistency",
+    "model deployment",
+    "calibration",
+    "benchmarking"
+  ],
+  "required_skills": [
+    "LLM fine-tuning (PTQ, QAT, mixed-precision, INT8, FP4, lower-bit quantization)",
+    "Transformer architectures and LLM inference knowledge",
+    "Hands-on quantizing/deploying deep learning models in production",
+    "PyTorch + at least one inference/compilation stack (TensorRT-LLM, vLLM, SGLang, llama.cpp, ONNX Runtime, TVM, MLIR, custom runtime)",
+    "Production-quality Python (testing, observability, reproducibility, failure handling)",
+    "Model export, calibration, benchmarking, validation, deployment pipelines",
+    "Cross-functional collaboration (research, systems, infrastructure, product)"
+  ],
+  "preferred_skills": [
+    "Weight-only / activation / KV-cache / dynamic / static / mixed-precision quantization methods",
+    "AWQ, GPTQ, SmoothQuant, or related quantization methods",
+    "Numerical analysis and systems engineering skills",
+    "LLM runtime experience (TensorRT-LLM, vLLM, SGLang, llama.cpp, ONNX Runtime, TVM, MLIR, custom runtimes)",
+    "Deployment on resource-constrained / heterogeneous hardware",
+    "Contributions to model optimization, inference, compiler, or serving projects",
+    "Publications at NeurIPS, ICML, ICLR, ACL"
+  ],
+  "required_experience_years": 1.5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop VLA inference models with numerical consistency to training",
+    "Productionize LLM quantization (PTQ, QAT, mixed-precision, INT8, FP4, lower-bit)",
+    "Build model export, calibration, benchmarking, validation, deployment pipelines",
+    "Engage VLA research team for performance estimates / feasibility",
+    "Curate evaluation datasets and benchmark VLA performance",
+    "Analyze numerical errors, accuracy regressions, performance trade-offs",
+    "Develop PTQ/QAT orchestration workflows",
+    "Serve as primary interface with field-testing/simulation teams for autonomous driving sign-off",
+    "Collaborate with in-vehicle software on latency analysis and issue triage",
+    "Collaborate with training infrastructure on QAT and model distillation"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

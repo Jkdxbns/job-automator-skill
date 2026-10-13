@@ -1,0 +1,129 @@
+{
+  "experience": [
+    {
+      "label": "experience:Research Intern (Capstone)",
+      "name": "Research Intern (Capstone)",
+      "score": 3.02,
+      "matched": [
+        "MPI",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 2.59,
+      "matched": [
+        "Python",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 1.47,
+      "matched": [
+        "Python"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 1.13,
+      "matched": [
+        "RTOS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 6.36,
+      "matched": [
+        "ARM Cortex-M",
+        "C",
+        "RTOS",
+        "peripheral programming"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 5.2,
+      "matched": [
+        "ARM Cortex-M",
+        "GPU optimization",
+        "RTOS",
+        "peripheral programming"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 3.66,
+      "matched": [
+        "GPU optimization",
+        "profiling and benchmarking",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 3.6,
+      "matched": [
+        "CUDA",
+        "GPU optimization",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "project:Parallel Ray Tracer with MPI Task Scheduling",
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "score": 2.5,
+      "matched": [
+        "MPI",
+        "RTOS"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Device Drivers",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "Performance Analysis",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "Performance Optimization",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "Profiling Tools",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "ARM Architecture",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "Real-Time Programming",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "Debugging/Tuning System Software Stacks",
+      "for_skill": "hardware debugging"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Computer Architecture",
+    "Multicore Hardware",
+    "Operating Systems Design",
+    "Virtual Memory",
+    "Caching",
+    "Data Analysis"
+  ]
+}

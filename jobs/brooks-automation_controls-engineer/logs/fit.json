@@ -1,0 +1,158 @@
+{
+  "company": "Brooks Automation",
+  "company_slug": "brooks-automation",
+  "role": "Controls Engineer",
+  "job_slug": "controls-engineer",
+  "match_pct": 53.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 7,
+    "missing_count": 4,
+    "jd_ask_size": 16,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Real-Time Systems",
+    "Interrupt-Driven Programming",
+    "Lab Equipment",
+    "Robotics Theory"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Control Theory",
+      "you_have": "Closed-Loop Feedback Control"
+    },
+    {
+      "jd_skill": "Digital Filtering",
+      "you_have": "Digital Signal Processing (coursework)"
+    },
+    {
+      "jd_skill": "Dynamic Systems",
+      "you_have": "Closed-Loop Feedback Control"
+    },
+    {
+      "jd_skill": "Motion Control",
+      "you_have": "PWM Motor Control + Quadrature Encoders"
+    },
+    {
+      "jd_skill": "Multithreaded Programming",
+      "you_have": "FreeRTOS tasks and mutexes"
+    },
+    {
+      "jd_skill": "Signal Analyzers",
+      "you_have": "Spectrum Analyzers"
+    },
+    {
+      "jd_skill": "Backend Software Development",
+      "you_have": "Flask services"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "MATLAB Controls Toolbox",
+    "Vibration Analysis",
+    "Java"
+  ],
+  "top_ats_keywords": [
+    "Control Theory",
+    "MATLAB",
+    "C/C++",
+    "Real-Time",
+    "Robotics",
+    "Vibration Analysis",
+    "Digital Filtering",
+    "Multithreaded",
+    "Interrupt",
+    "Signal Analyzer",
+    "Dynamic Systems",
+    "Motion Control"
+  ],
+  "required_skills": [
+    "Control Theory",
+    "Digital Filtering",
+    "Robotics Theory",
+    "Dynamic Systems",
+    "Vibration Analysis",
+    "MATLAB",
+    "C/C++",
+    "Real-Time Systems",
+    "Multithreaded Programming",
+    "Interrupt-Driven Programming",
+    "Signal Analyzers",
+    "Lab Equipment"
+  ],
+  "preferred_skills": [
+    "MATLAB Controls Toolbox",
+    "Java",
+    "Backend Software Development"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design motion control algorithms",
+    "Tune feedback parameters on robot hardware",
+    "Characterize stability, throughput, payload vibration",
+    "Design verification testing",
+    "Documentation/release"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Chelmsford, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Interrupt-driven real-time C: Robocon robot decodes quadrature encoders from first principles via a 4-bit A/B state machine on hardware interrupts and drives 4 motors at 15 kHz PWM; STM32 bare-metal timer/ADC/I2C firmware",
+      "Closed-loop feedback on real hardware: Robocon heading correction feeds encoder-derived angular error back into rotation PWM (the closest thing to the JD's 'tune feedback on robot hardware')",
+      "Robotics theory: hand-derived DH tables and FK chains for 6-DoF UR5e and 5-DoF AL5B, two-link IK on Arduino, SE(3) math engine, measured <2mm repeatability",
+      "Concurrency primitives in embedded code: FreeRTOS mutexes in the turret project; multiprocessing frame capture; MPI workers",
+      "Lab equipment: oscilloscopes, logic and spectrum analyzers, multimeters; DSP coursework"
+    ],
+    "real_gaps": [
+      "No MATLAB/Simulink anywhere in the profile, and it is a named core tool of the role",
+      "No classical control design evidence: no PID tuning method, loop shaping, Bode/stability margins, state-space or observer work",
+      "No vibration analysis, payload vibration, or structural dynamics work",
+      "No system identification or dynamic performance characterization (step/frequency response measurements)",
+      "No Java, no production robot-controller experience, no customer-site integration; seniority is capstone/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "Control Theory and Dynamic Systems counted Adjacent via 'Closed-Loop Feedback Control' but that is simple heading-error P-style correction, not designed or analyzed control",
+      "Signal Analyzers counted Adjacent via 'Spectrum Analyzers' listed as a tool, with no bullet showing dynamic signal analyzer use for frequency-response work",
+      "Motion Control counted Adjacent but is open-loop servo PWM and IK, not trajectory or servo-loop design"
+    ],
+    "understated_by_keywords": [
+      "Digital filtering: custom sym6+bior3.5 wavelet bank for low-frequency noise suppression at BARC (PSNR 65 to 86) is real filter design, though on images rather than motion signals",
+      "Encoder odometry plus fixed-point QAT work shows comfort with sampled-data, fixed-point numerics relevant to controller firmware"
+    ],
+    "screening_gaps": [
+      "No MATLAB or controls toolbox experience for a MATLAB-centred role",
+      "No demonstrated control design or loop tuning with stability analysis (Bode, margins, state-space)",
+      "No vibration analysis or dynamic characterization of a mechanical system"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role's core is classical motion-control design, tuning and vibration characterization in MATLAB, and the profile has almost none of that. What it does have is strong real-time interrupt-driven C/C++, robotics kinematics and one genuine encoder-feedback loop, which covers the firmware and robotics-theory slice only. The posting is entry-compatible (MS plus 1 year), so this is a skills-depth gap rather than a seniority one; it is a long shot, not a clear no.",
+    "calibration_delta": 7.1
+  },
+  "semantic_pending": false
+}

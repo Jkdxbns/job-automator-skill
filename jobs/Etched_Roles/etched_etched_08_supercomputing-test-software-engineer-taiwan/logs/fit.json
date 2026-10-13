@@ -1,0 +1,128 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Supercomputing Test Software Engineer (Taiwan)",
+  "job_slug": "etched_08_supercomputing-test-software-engineer-taiwan",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 18,
+    "req_cov": 0.778,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Bash",
+    "Linux / operating systems",
+    "Git / version control",
+    "Scripting languages (Python / Bash / C/C++)",
+    "Low-level hardware protocols (I2C)",
+    "Data analysis / performance metrics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Software testing methodologies / test frameworks",
+      "you_have": "Performance profiling / benchmarking / evaluation"
+    },
+    {
+      "jd_skill": "Server hardware architectures",
+      "you_have": "Embedded / edge device hardware (STM32, Jetson, Raspberry Pi, Arduino)"
+    },
+    {
+      "jd_skill": "Reading/interpreting hardware logs",
+      "you_have": "Embedded hardware debugging / failure analysis"
+    },
+    {
+      "jd_skill": "Performance testing / benchmarking tools",
+      "you_have": "Performance profiling / inference benchmarking"
+    },
+    {
+      "jd_skill": "Hardware diagnostic tools / techniques",
+      "you_have": "Embedded diagnostic / measurement tools"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Server hardware architectures (supercomputing/server scale)",
+    "Formal software testing frameworks / test automation frameworks",
+    "Hardware burn-in / reliability testing",
+    "CI/CD pipelines",
+    "Performance testing and benchmarking tools (dedicated server-level)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Go",
+    "Bash",
+    "test suites",
+    "supercomputing",
+    "AI accelerators",
+    "boot sequences",
+    "root-of-trust",
+    "workload deployment",
+    "fault injection",
+    "burn-in",
+    "performance benchmarking",
+    "hardware logs",
+    "CI/CD",
+    "I2C",
+    "Pod-level dashboards",
+    "cross-socket memory"
+  ],
+  "required_skills": [
+    "Python",
+    "Bash",
+    "Go",
+    "Software testing methodologies",
+    "Linux / operating systems",
+    "Server hardware architectures",
+    "Git",
+    "Reading/interpreting hardware logs",
+    "Scripting languages"
+  ],
+  "preferred_skills": [
+    "Hardware burn-in / reliability testing",
+    "Performance testing / benchmarking tools",
+    "Hardware diagnostic tools",
+    "CI/CD pipelines",
+    "Low-level hardware protocols (I2C)",
+    "Data analysis tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design/develop automated supercomputing test suites (Python, Go, Bash)",
+    "Execute tests on server hardware; monitor system performance and health",
+    "Investigate/debug hardware and software failures; provide reports and mitigation plans",
+    "Collaborate with internal/external engineering teams on root-cause analysis",
+    "Build/test infrastructure (portable environments, automation tools runnable anywhere)",
+    "Create/maintain documentation for test plans, cases, and results",
+    "Analyze performance metrics (CPU, cross-socket memory, network latency)",
+    "Participate in continuous improvement of testing process"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Taipei",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "company": "Microchip Technology Inc.",
+    "role": "Engineer II-Software (AI/ML, FPGA Division)",
+    "company_slug": "microchip-technology",
+    "job_slug": "engineer-ii-software-ai-ml"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Work centers on hardware-aware model optimization and AI/ML benchmarking: 8-bit quantization cutting GPU memory ~55% at under 1% accuracy loss, TensorRT inference delivering a 5.2x speedup, and custom CUDA C++ kernels beating naive GPU convolution by ~35%. Builds training and inference pipelines in Python, C/C++, and PyTorch across heterogeneous compute, from GPU accelerators to embedded processors on Linux.",
+  "skills": {
+    "Languages & Systems": ["Python", "C/C++", "CUDA C++", "Bash", "Linux"],
+    "ML / Deep Learning": ["PyTorch", "Hugging Face Transformers", "U-Net", "YOLOv8 / YOLO11", "Training & inference pipelines"],
+    "Model Optimization & Acceleration": ["TensorRT", "8-bit Quantization (LLM.int8)", "CUDA kernel optimization", "Memory coalescing", "ONNX", "TFLite", "Inference & VRAM profiling (pynvml)"],
+    "Benchmarking, Simulation & Hardware": ["HellaSwag / GSM8K / ARC", "CARLA", "NVIDIA Jetson", "Arduino", "GPU accelerators", "Embedded processors"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free visual document understanding transformer, on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch with the HuggingFace VisionEncoderDecoder API, adding domain-specific special tokens and resizing the decoder embedding layer.",
+        "Improved validation accuracy from 55% to 93% through improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for deployment under constrained-hardware budgets."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 multi-modal MRI; evaluated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with under 1% accuracy degradation and a +0.09 perplexity increase."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights and biases, and preallocated global buffers.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms uncoalesced and 77.5ms CPU TorchScript, a ~35% speedup over naive GPU with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines in the CARLA simulation environment using semantic segmentation and raycast occlusion filtering, producing ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18) for an adaptive control stack."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO achieving a 5.2x inference speedup (56.7 → 10.9ms; 17.6 → 92 FPS vs eager PyTorch) for real-time visual servoing.",
+        "Deployed across heterogeneous compute elements, pairing a Jetson GPU accelerator with an Arduino embedded processor over a unified WebSocket fabric."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Random Signal Analysis", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

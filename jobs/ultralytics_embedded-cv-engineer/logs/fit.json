@@ -1,0 +1,175 @@
+{
+  "company": "Ultralytics",
+  "company_slug": "ultralytics",
+  "role": "Embedded Computer Vision Engineer",
+  "job_slug": "embedded-cv-engineer",
+  "match_pct": 69.6,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 6,
+    "missing_count": 4,
+    "jd_ask_size": 23,
+    "req_cov": 0.868,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "YOLO",
+    "Computer Vision",
+    "Python",
+    "PyTorch",
+    "ONNX",
+    "TensorRT",
+    "INT8 quantization",
+    "NVIDIA Jetson",
+    "Raspberry Pi",
+    "Linux",
+    "Git",
+    "C++",
+    "edge"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "OpenVINO",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "ONNX Runtime",
+      "you_have": "ONNX + TensorRT"
+    },
+    {
+      "jd_skill": "NPU SDK",
+      "you_have": "TensorRT / Jetson"
+    },
+    {
+      "jd_skill": "calibration",
+      "you_have": "8-bit quantization"
+    },
+    {
+      "jd_skill": "CI self-hosted runners",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "microcontrollers",
+      "you_have": "STM32 / Cortex-M4"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "open-source contributions",
+    "silicon vendor partnerships",
+    "code review at team scale"
+  ],
+  "top_ats_keywords": [
+    "YOLO",
+    "PyTorch",
+    "ONNX",
+    "TensorRT",
+    "OpenVINO",
+    "ONNX Runtime",
+    "INT8",
+    "quantization",
+    "Jetson",
+    "Raspberry Pi",
+    "NPU",
+    "Docker",
+    "Linux",
+    "CI",
+    "C++",
+    "edge"
+  ],
+  "required_skills": [
+    "YOLO",
+    "Computer Vision",
+    "Machine Learning",
+    "Python",
+    "PyTorch",
+    "ONNX",
+    "TensorRT",
+    "OpenVINO",
+    "ONNX Runtime",
+    "NPU SDK",
+    "INT8 quantization",
+    "calibration",
+    "NVIDIA Jetson",
+    "Raspberry Pi",
+    "Linux",
+    "Docker",
+    "Git",
+    "code review",
+    "technical writing"
+  ],
+  "preferred_skills": [
+    "C++",
+    "microcontrollers",
+    "CI self-hosted runners",
+    "open-source contributions",
+    "silicon vendor partnerships"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "YOLO export/inference integrations",
+    "INT8 accuracy debugging",
+    "partner integrations AMD/Google/Nvidia",
+    "hardware CI + Docker images",
+    "benchmarks and docs"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Madrid, Spain (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 61,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "YOLO to TensorRT on Jetson with measured result: COFFIN capstone, 5.2x speedup (56.7 to 10.9 ms, 17.6 to 92 FPS) vs eager PyTorch",
+      "YOLOv8n exported to ONNX and TFLite after training on 1,133 images, 83% mAP@50 (Tusk)",
+      "Quantization depth: LLM.int8 on TinyLlama (~55% VRAM cut, <1% accuracy drop, profiled with pynvml) and QAT with an EMA calibration observer and fixed-point requantization verified against a float reference on 99.996% of values",
+      "Constrained-hardware deployment: Jetson arm bridge as a systemd service with static IP and headless XRDP, Raspberry Pi glove, Jetson+STM32 turret",
+      "Benchmark and profiling habit across several projects (latency, FPS, VRAM, accuracy-vs-latency tradeoffs)"
+    ],
+    "real_gaps": [
+      "No Docker or deployment image work in any bullet",
+      "No OpenVINO, ONNX Runtime or vendor NPU SDK (AMD, Hailo, Rockchip, etc.) experience, only TensorRT",
+      "INT8 accuracy debugging on a conv detector (PTQ calibration, per-layer sensitivity on YOLO) is not shown; QAT was an MLP and LLM.int8 was weight-only on an LLM",
+      "No hardware CI, self-hosted runners or GitHub PR/code-review workflow at package scale",
+      "No partner or silicon-vendor engagement, no public docs, community support or developer-content track record",
+      "Role is senior and owns integrations with minimal oversight; profile is capstone and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "NPU SDK and ONNX Runtime counted adjacent via TensorRT/ONNX, but the vendor-toolchain side (compilers, op coverage, calibration flows) is unevidenced",
+      "Calibration counted adjacent via 8-bit quantization, but the evidence is MLP QAT and LLM weight quantization, not detector PTQ"
+    ],
+    "understated_by_keywords": [
+      "Benchmarking and profiling depth (pynvml, latency/FPS tables, accuracy-vs-latency reports) maps directly to the benchmark-pages responsibility",
+      "Systemd service plus headless Jetson administration maps to flashing, configuring and debugging constrained devices"
+    ],
+    "screening_gaps": [
+      "No Docker, hardware CI or self-hosted runner experience, which is a named core and nice-to-have area",
+      "Only TensorRT shown: no OpenVINO, ONNX Runtime or vendor NPU toolchain for a role about supporting many silicon targets",
+      "Senior ownership of partner integrations end to end with no prior open-source, package maintenance or vendor-facing track record"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The core technical loop of this role (YOLO, PyTorch, ONNX, TensorRT on Jetson, INT8, benchmarking) is backed by real shipped work with numbers. The gaps are the infrastructure and partner side (Docker, CI, multi-runtime, vendor SDKs) and the senior-ownership framing, which makes it a stretch rather than a clean match.",
+    "calibration_delta": 8.6
+  },
+  "semantic_pending": false
+}

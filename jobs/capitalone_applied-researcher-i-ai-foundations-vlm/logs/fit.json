@@ -1,0 +1,119 @@
+{
+  "company": "Capital One",
+  "company_slug": "capitalone",
+  "role": "Applied Researcher I (AI Foundations, VLM)",
+  "job_slug": "applied-researcher-i-ai-foundations-vlm",
+  "req_id": "R999796",
+  "match_pct": 39.7,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 9,
+    "missing_count": 16,
+    "jd_ask_size": 34,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "HuggingFace / Transformers",
+    "Quantization (8-bit, LLM.int8)",
+    "Fine-tuning / supervised finetuning",
+    "Transfer learning & model adaptation",
+    "Deep learning fundamentals",
+    "Python",
+    "Transformer / attention internals",
+    "Model evaluation & benchmarking"
+  ],
+  "adjacent_skills": [
+    "PyTorch Lightning -> raw PyTorch training loops",
+    "Building large deep learning models -> GPT-2 + ASR transformers from scratch, small scale",
+    "VLM (vision-language models) -> DONUT VisionEncoderDecoder finetune; SmolVLA inference work",
+    "Training optimization -> inference/kernel optimization (TensorRT, CUDA), not training",
+    "Model compression / sparsification -> 8-bit quantization only",
+    "Deploying a fine-tuned LLM -> edge deployment of quantized TinyLlama",
+    "Industrial NLP research -> ASR + tokenizer + LLM eval work",
+    "Library / platform-level code -> CUDA kernels, custom inference engine",
+    "Cloud computing platforms -> SLURM HPC cluster, not AWS"
+  ],
+  "missing_skills": [
+    "AWS Ultraclusters",
+    "VectorDBs",
+    "Foundation model / LLM pre-training",
+    "Self-supervised learning",
+    "RLHF",
+    "Robustness research",
+    "Explainability research",
+    "Training parallelism / partitioning design",
+    "Gradient checkpointing",
+    "Compiler design",
+    "First-author publications",
+    "Publications at ACL/NAACL/EMNLP/NeurIPS/ICML/ICLR",
+    "Deep learning theory publications",
+    "Delivering models at production scale",
+    "Training a 10B+ parameter model",
+    "Distributed training"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "HuggingFace",
+    "foundation models",
+    "VLM",
+    "LLM",
+    "pre-training",
+    "fine-tuning",
+    "quantization",
+    "self-supervised learning",
+    "RLHF",
+    "distributed training",
+    "AWS",
+    "model compression",
+    "transfer learning",
+    "applied research"
+  ],
+  "key_responsibilities": [
+    "Build AI foundation models through design, training, evaluation, validation, implementation",
+    "Applied research pushing SOTA AI into customer products",
+    "Work across PyTorch, AWS Ultraclusters, HuggingFace, Lightning, VectorDBs",
+    "Deliver libraries and platform-level code",
+    "Own and pursue a long-running research agenda"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false,
+    "note": "match_pct 39.7 fell below min_match_for_can_try (40); semantic read run anyway and confirmed No"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 41,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "DONUT VisionEncoderDecoder finetune at IIT Bombay, 55% to 93% val accuracy - a real vision-language finetune on HuggingFace, the single closest thing to the VLM in the title",
+      "GPT-2 style transformer implemented from scratch in PyTorch (MHA, MLP, residuals, layer norm, weight tying) - genuine architecture-level understanding",
+      "TinyLlama 1.1B int8 quantization with ~55% VRAM reduction and <1% accuracy loss, benchmarked on HellaSwag/GSM8K/ARC - real compression + rigorous eval",
+      "Whisper-style ASR transformer from scratch with custom Cython BPE tokenizer - end-to-end model building, not just API calls"
+    ],
+    "real_gaps": [
+      "Zero publications anywhere, let alone first-author at ACL/NeurIPS/ICML/ICLR - the JD names publications as the primary evidence of the required 'high quality ideas' track record, and every one of the three preferred-qual tracks is publication-gated",
+      "No pre-training experience of any kind; every LLM/VLM item in the profile is a finetune or a toy-scale from-scratch build. The role is explicitly 'build AI foundation models through all phases from design through training'",
+      "No distributed/large-scale training: no parallelism, partitioning, gradient checkpointing, or anything close to 10B params / 500B tokens",
+      "No AWS or Ultracluster experience; HPC exposure is SLURM only",
+      "Basic qualification is PhD, or M.S. plus 2 years of applied research. 0 full-time years post-M.S. means the minimum bar is not met on paper, and an ATS will likely filter on it",
+      "No production-scale model delivery - all work is capstone, internship, or research-fellowship scope"
+    ],
+    "overstated_by_keywords": [
+      "'VLM' - one DONUT document-understanding finetune is not vision-language foundation model research",
+      "'Training optimization' - the optimization work is all inference-side (TensorRT, CUDA kernels), the JD means training-side",
+      "'Model compression' - quantization only, no sparsification or pruning at scale"
+    ],
+    "understated_by_keywords": [
+      "Building transformers from scratch (GPT-2 + ASR encoder-decoder) does back the 'deep understanding of AI foundations' line better than a keyword pass shows",
+      "The custom CUDA inference engine work is genuine platform/library-level code, which the JD explicitly asks for"
+    ],
+    "reasoning": "The profile has real, hands-on transformer and VLM finetuning depth at small scale, plus strong quantization and evaluation rigor. But this role's actual core - pre-training foundation models at cluster scale and owning a published research agenda - has essentially no backing anywhere in the profile, and the basic qualification (PhD, or M.S. plus 2 years applied research) is not met.",
+    "calibration_delta": -1.3
+  }
+}

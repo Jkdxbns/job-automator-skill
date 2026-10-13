@@ -1,0 +1,121 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Robotics Software Engineer, Simulation & Evaluation",
+  "job_slug": "senior-robotics-software-engineer-simulation-evaluation",
+  "match_pct": 53.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 16,
+    "req_cov": 0.091,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Robotics (ROS/ROS2, MoveIt, RViz, DH kinematics, arm control)",
+    "Perception (YOLO, OpenCV, depth estimation, visual servoing)",
+    "Embedded / Sensors (STM32 bare-metal, Jetson, I2C/UART, ToF, Bluetooth)",
+    "ML / Deep Learning (PyTorch, TensorFlow, quantization, vision transformers, ASR)",
+    "CUDA / GPU optimization (custom C++ kernels, memory coalescing)",
+    "Software Engineering (Python, C/C++, Linux, systemd, Git)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Planning (autonomy/planning systems)",
+      "you_have": "Robotic arm motion planning via MoveIt, DH parameters, forward kinematics"
+    },
+    {
+      "jd_skill": "Localization",
+      "you_have": "Depth estimation (ZoeDepth, \u00b18% error), ToF sensor fusion, I2C multiplexing"
+    },
+    {
+      "jd_skill": "Manipulation",
+      "you_have": "Robotic arm pick/place (AL5B/UR5e), 100% pick reliability on Jetson+Arduino"
+    },
+    {
+      "jd_skill": "Embodied AI",
+      "you_have": "Integrated AI + robotics systems: faster-whisper STT, Gemini intent, TensorRT YOLO on Jetson"
+    },
+    {
+      "jd_skill": "Cross-disciplinary collaboration",
+      "you_have": "Led 7-person research team, 7 internships spanning ML/embedded/robotics"
+    }
+  ],
+  "missing_skills": [
+    "Simulation (core role: Simulation & Evaluation team/function)",
+    "Evaluation pipelines / metrics at production scale",
+    "Safety / Reliability / Explainability (formal engineering/certification)",
+    "Field deployment at company/production scale",
+    "Deep senior-level industry experience (0 full-time years)"
+  ],
+  "top_ats_keywords": [
+    "Robotics",
+    "Simulation",
+    "Evaluation",
+    "Perception",
+    "Planning",
+    "Localization",
+    "Manipulation",
+    "Embodied AI",
+    "Sensors",
+    "Hardware",
+    "Safety",
+    "Reliability",
+    "AI",
+    "Software Engineer",
+    "Field Deployment"
+  ],
+  "required_skills": [
+    "Simulation",
+    "Evaluation",
+    "Robotics Software Engineering",
+    "Perception",
+    "Planning",
+    "Localization",
+    "Manipulation",
+    "Embodied AI systems",
+    "Real-world / hardware deployment",
+    "Safety / Reliability / Explainability",
+    "Sensors / Hardware integration"
+  ],
+  "preferred_skills": [
+    "Field deployment experience",
+    "Cross-disciplinary collaboration",
+    "Deep industry experience (top robotics/AI orgs)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build and evaluate simulation pipelines for embodied AI robotics systems",
+    "Integrate perception, planning, localization, and manipulation on real robots with real sensors",
+    "Ship field-ready, reliable, explainable autonomy systems",
+    "Collaborate across AI, robotics engineering, and field deployment teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

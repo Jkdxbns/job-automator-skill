@@ -1,0 +1,28 @@
+{
+  "_meta": {"company":"Verkada","role":"Software Engineer - Computer Vision","company_slug":"verkada","job_slug":"cv_engineer","tailored_for":"verkada_cv"},
+  "personal_info": {"name":"Justin Mascarenhas","email":"jmascarenhas1998@gmail.com","linkedin":"https://www.linkedin.com/in/justinmascarenhas/","location":"Arlington, TX (willing to relocate)"},
+  "summary": "M.S. Computer Engineering graduate from RIT (May 2026) building real-time Edge AI and computer vision systems. Deployed YOLO-based perception and TensorRT-optimized inference on NVIDIA Jetson devices, with hands-on experience in PyTorch, C++/CUDA, deep learning, and vision-language model research. Skilled at translating deep-learning CV models from training (TensorFlow, Keras, PyTorch) into production edge deployments.",
+  "skills": {
+    "Languages & Systems": ["C/C++", "Python", "CUDA C++", "Bash"],
+    "ML / Deep Learning": ["PyTorch", "TensorFlow", "Keras", "YOLOv8", "YOLO11n", "Deep Learning", "Quantization (8-bit)", "TensorRT"],
+    "Edge AI / Computer Vision": ["Edge AI Deployment (Jetson + TensorRT)", "Computer Vision (YOLO, OpenCV)", "Object Detection", "Real-time Perception", "Vision-Language Models (research)"],
+    "Robotics & Perception": ["ROS2", "Sensor Fusion", "Perception Pipelines"],
+    "Embedded": ["STM32 Bare-Metal C", "NVIDIA Jetson", "Embedded C"]
+  },
+  "experience": [
+    {"title":"Deep Learning Intern","company":"Tusk","dates":"Jun 2025 – Aug 2025","bullets":["Built and deployed YOLO-based object detection models in production-like settings; optimized inference with TensorRT on NVIDIA Jetson.","Implemented 8-bit quantization pipeline reducing inference latency by ~25% while maintaining >97% accuracy on binary-state classifiers."]},
+    {"title":"AI/ML Intern","company":"Indian Institute of Technology Bombay","dates":"Jan 2025 – May 2025","bullets":["Trained PyTorch neural networks for vision-language tasks; worked with vision encoders and attention-based architectures.","Collaborated on text-image embedding model research under agile development practices with weekly sprint reviews."]},
+    {"title":"Research Intern (Capstone)","company":"Bhabha Atomic Research Centre (BARC)","dates":"Jun 2024 – Dec 2024","bullets":["Contributed to ML model evaluation for embedded systems; wrote C++ data-structure utilities for real-time analytics.","Supported production-scale data pipelines for binary-state monitoring across distributed sensors."]}
+  ],
+  "projects": [
+    {"name":"Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT","date":"May 2026","bullets":["End-to-end C++ + PyTorch + TensorRT pipeline: speech recognition → command parsing → robotic arm actuation on Jetson Nano.","Achieved real-time (<200ms) response with YOLO-based vision feedback; deployed with CUDA kernel optimizations.","Integrated vision-language reasoning module for dynamic scene understanding (research prototype)."]},
+    {"name":"Autonomous Driving in CARLA","date":"Sep 2025","bullets":["Implemented YOLOv8-based vehicle and pedestrian detection in simulated urban environments.","Built modular C++ perception pipeline integrating camera inputs, object tracking, and path-planning interfaces."]},
+    {"name":"Quantization-Aware Training for Integer-Only Inference","date":"Mar 2025","bullets":["Developed 8-bit quantization-aware training pipeline in PyTorch, reducing model size by 78% with <2% accuracy loss.","Profiled inference latency on Jetson Orin Nano; benchmarked 1.5× speedup over floating-point baseline."]},
+    {"name":"CUDA Kernel Optimization for VGG16 Inference","date":"Nov 2024","bullets":["Optimized memory coalescing and load balancing in custom CUDA kernels; improved throughput by 25% on Jetson devices."]}
+  ],
+  "education": [
+    {"degree":"M.S. Computer Engineering","school":"Rochester Institute of Technology","location":"Rochester, NY","dates":"Aug 2024 – May 2026","courses":["Advanced Computer Vision","Deep Learning & Neural Networks","Embedded Machine Learning","Real-Time Systems","Robotics Perception"]},
+    {"degree":"B.Tech. Electronics & Communication Engineering","school":"University of Mumbai","location":"Mumbai, India","dates":"Aug 2020 – May 2024","courses":["Digital Image Processing","Computer Architecture","Embedded Systems Design"]}
+  ],
+  "awards": []
+}

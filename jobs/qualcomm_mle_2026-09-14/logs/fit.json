@@ -1,0 +1,169 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 28,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA",
+    "TensorFlow",
+    "Keras",
+    "PyTorch",
+    "Deep Learning",
+    "Machine Learning",
+    "quantization",
+    "TensorRT",
+    "Jetson",
+    "Linux",
+    "Embedded C/C++ bare-metal (STM32)",
+    "ROS2",
+    "Statistics / Probability basics",
+    "ASR pipelines",
+    "Model optimization (pruning, quantization)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded system development + ML optimization (NLP / multi-media)",
+      "you_have": "Embedded C/C++ bare-metal (STM32) + Edge AI (Jetson) \u2014 ML embedded but not specifically NLP/multi-media domain"
+    },
+    {
+      "jd_skill": "Low-level OS/Hardware interaction (Linux, Android, QNX)",
+      "you_have": "Linux + embedded OS/hardware interaction (STM32, I2C, SPI, UART, GPIO) \u2014 no Android or QNX"
+    },
+    {
+      "jd_skill": "Large matrixed organization experience",
+      "you_have": "Collaborated across teams on research/internship projects but no formal large-corporate matrix experience"
+    },
+    {
+      "jd_skill": "Machine learning kernels / compiler tools / model efficiency tools",
+      "you_have": "ML model optimization (quantization, pruning); CUDA kernel optimization; no compiler/ML-compiler tool development"
+    }
+  ],
+  "missing_skills": [
+    "Caffe / Caffe 2 (explicitly listed)",
+    "R (explicit preferred programming language)",
+    "QNX",
+    "Android (low-level interaction)",
+    "NLP / multi-media domain specialization in embedded ML",
+    "Formal ML framework internals / training-runtime framework development (kernels, compiler tools, model efficiency software)",
+    "Large matrixed organization (corporate scale)"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Keras",
+    "embedded",
+    "embedded optimization",
+    "C++",
+    "Python",
+    "Linux",
+    "Android",
+    "QNX",
+    "machine learning kernels",
+    "compiler",
+    "model efficiency",
+    "training framework",
+    "runtime framework",
+    "inference",
+    "hardware co-design",
+    "statistics",
+    "probability",
+    "NLP",
+    "multi-media",
+    "matrixed organization",
+    "model optimization"
+  ],
+  "required_skills": [
+    "Machine Learning frameworks (TensorFlow, PyTorch, Keras)",
+    "Embedded system development and optimization (ML domain: NLP, multi-media)",
+    "Programming language for ML (Python, C, C++)",
+    "Statistics and probability",
+    "Large matrixed organization experience",
+    "Low-level OS/Hardware interaction (Linux, Android, QNX)"
+  ],
+  "preferred_skills": [
+    "Master's degree in CS/Engineering",
+    "1+ year ML frameworks",
+    "1+ year embedded ML optimization",
+    "1+ year ML programming (Python/C/C++)",
+    "1+ year statistics/probability",
+    "1+ year large matrixed organization",
+    "6+ months OS/Hardware interaction"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Extend training/runtime frameworks with new features/optimizations",
+    "Model/architecture/development of ML hardware co-designed with software",
+    "Develop optimized software to enable AI models on hardware (kernels, compiler tools, model efficiency)",
+    "Apply ML techniques to products/AI solutions",
+    "Develop/adapt/prototype ML algorithms/models in alignment with product roadmap"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Diego, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real depth in ML optimization: 8-bit quantization (TinyLlama, ~55% VRAM reduction), CUDA C++ kernel optimization (~35% speedup over TorchScript VGG16), TensorRT-optimized YOLO on Jetson, model benchmarking across HellaSwag/GSM8K/ARC.",
+      "Embedded systems depth backed by concrete work: STM32 bare-metal C (timer-synced ADC, custom I2C driver, 3.68KB flash), FreeRTOS multi-servo UART control, Jetson systemd deployment with static IP/networking.",
+      "Deployment pipeline experience: PyTorch training (DONUT 55\u219293%, YOLOv8 83% mAP), ONNX/TFLite export, faster-whisper ASR (15% WER), custom BPE tokenizer (Cython 4-5.5x speedup).",
+      "Real-time latency engineering: COFFIN tracks end-to-end voice-to-pick latency (~11.5s); CUDA coalescing profiling (pynvml); inference optimization with measured tradeoffs \u2014 shows the engineering discipline the JD demands."
+    ],
+    "real_gaps": [
+      "JD's primary responsibility \u2014 extending training/runtime frameworks or building ML-compiler / model-efficiency software (kernels, compiler tools, efficiency tools) \u2014 has almost no profile backing. Profile's CUDA work is a single inference-level VGG16 kernel, not framework/compiler/tool development.",
+      "ML hardware co-design (modeling/architecture/development of ML hardware co-designed with software) \u2014 profile deploys on existing Jetson/STM32; zero ASIC, FPGA, or co-design architecture evidence.",
+      "Embedded ML optimization specifically in NLP or multi-media domain \u2014 profile has vision (YOLO, depth estimation) and basic ASR, but no NLP specialization or multimedia encoding/domain optimization.",
+      "Large matrixed organization \u2014 profile is 7 internships/research fellowships (1-6 months) plus personal/research projects; no corporate-scale matrix experience.",
+      "Statistics/probability depth \u2014 only one undergrad course mentioned (Random Signal Analysis); no statistical modeling demonstrated in projects."
+    ],
+    "overstated_by_keywords": [
+      "\"CUDA\" / \"TensorFlow\" / \"PyTorch\" \u2014 counted as Have, but JD requires framework internals / compiler-level work; profile uses these at user/deployment level (training loop, quantization wrapper, inference export).",
+      "\"Embedded optimization\" \u2014 present at device/inference level (Jetson TensorRT, STM32 bare-metal), not at the JD's \"embedded system development + optimization with application to NLP/multi-media ML domain\" specificity.",
+      "\"Machine learning kernels\" / \"model efficiency tools\" \u2014 closest is VGG16 CUDA inference kernel + quantization script; no compiler-tool or efficiency-software-tool development."
+    ],
+    "understated_by_keywords": [
+      "Production-quality embedded deployment (systemd Type=simple with non-root isolation, env-file secrets, auto-restart backoff, static IP, multi-device WebSocket fabric) \u2014 closer to production reliability engineering than \"Linux\" / \"Embedded C/C++\" keywords suggest.",
+      "ASR pipeline depth (custom 80-channel mel encoder, 4-block causal Transformer decoder, BPE tokenizer, WER evaluation) \u2014 undersold by \"ASR pipelines\" keyword."
+    ],
+    "screening_gaps": [
+      "No framework / compiler / model-efficiency software development (training/runtime framework extension, ML kernels as framework/compiler components) \u2014 the JD's central responsibility; profile only uses/builds at user level.",
+      "No ML hardware co-design or architecture experience \u2014 profile deploys on existing hardware, does not co-design it.",
+      "No embedded ML domain specialization in NLP or multi-media (vision + basic ASR only) \u2014 preferred qualifications explicitly ask for this domain."
+    ],
+    "recommend_apply": false,
+    "reasoning": "Keyword score (60%) clears the apply bar by counting broad have/adjacent terms (Python, CUDA, PyTorch, embedded C, quantization) without requiring the framework/compiler/tool-development depth the JD's core responsibilities center on. The profile demonstrates strong inference/deployment and embedded work, but almost no backing for the three defining duties: (1) extending training/runtime frameworks or building compiler/model-efficiency tools, (2) ML hardware co-design, and (3) embedded ML optimization in NLP/multi-media domain. Production-scope ownership gap compounds this. Verdict: Partial Fit \u2014 apply only with targeted resume that clearly frames adjacent work and prepares for screening questions on framework internals and hardware co-design.",
+    "calibration_delta": 8.0
+  }
+}

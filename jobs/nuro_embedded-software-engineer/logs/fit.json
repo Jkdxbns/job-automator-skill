@@ -1,0 +1,180 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 47.6,
+  "score_detail": {
+    "have_count": 19,
+    "adjacent_count": 1,
+    "missing_count": 21,
+    "jd_ask_size": 41,
+    "req_cov": 0.769,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C programming",
+    "RTOS",
+    "Data structures",
+    "Concurrency",
+    "Algorithm design",
+    "Microcontroller internals and peripherals",
+    "Device driver development",
+    "Vehicle-level integration and test",
+    "Debug probes, oscilloscopes, logic analyzers",
+    "FreeRTOS",
+    "Multicore microcontrollers",
+    "Unit testing",
+    "Hardware-in-the-loop",
+    "Git",
+    "C++",
+    "STM32 / ARM Cortex-M",
+    "I2C/SPI/UART",
+    "ADC",
+    "Sensor integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Automotive Ethernet",
+      "you_have": "general networking (no automotive-specific Ethernet)"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "CAN tools",
+    "Bootloaders and software update",
+    "Embedded security",
+    "ISO 26262 functional safety",
+    "DO-178C",
+    "IEC 62304",
+    "AURIX TC3xx",
+    "SafeRTOS",
+    "AUTOSAR Classic / MCAL / communication stacks",
+    "DBC and ARXML",
+    "UDS diagnostics",
+    "E2E protection",
+    "Time synchronization",
+    "Vehicle dynamics and control theory",
+    "Scheduler (RTOS-level)",
+    "Middleware / inter-component messaging",
+    "Power management",
+    "Fault management",
+    "Actuator interface",
+    "Body controls"
+  ],
+  "top_ats_keywords": [
+    "Embedded C",
+    "RTOS",
+    "CAN",
+    "Automotive Ethernet",
+    "ISO 26262",
+    "AUTOSAR",
+    "bootloader",
+    "device drivers",
+    "multicore microcontrollers",
+    "safety-critical",
+    "functional safety",
+    "vehicle integration",
+    "hardware-in-the-loop",
+    "oscilloscope",
+    "FreeRTOS",
+    "scheduler",
+    "middleware"
+  ],
+  "required_skills": [
+    "Embedded C programming",
+    "RTOS",
+    "Data structures",
+    "Concurrency",
+    "Algorithm design",
+    "Microcontroller internals and peripherals",
+    "Device driver development",
+    "CAN",
+    "Automotive Ethernet",
+    "Bootloaders and software update",
+    "Embedded security",
+    "Vehicle-level integration and test",
+    "Debug probes, oscilloscopes, logic analyzers, CAN tools"
+  ],
+  "preferred_skills": [
+    "ISO 26262 functional safety",
+    "DO-178C",
+    "IEC 62304",
+    "AURIX TC3xx",
+    "SafeRTOS",
+    "FreeRTOS",
+    "AUTOSAR Classic MCAL communication stacks",
+    "DBC and ARXML",
+    "UDS diagnostics",
+    "E2E protection",
+    "Time synchronization",
+    "Vehicle dynamics and control theory"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, implement, test embedded C for safety-critical multicore automotive microcontrollers (RTOS, drivers, scheduler, bootloader, middleware, actuator interface, body controls, power/fault management)",
+    "Integrate Nuro Driver with new vehicle platforms via CAN and Ethernet interfaces with OEM ECUs",
+    "Hands-on device and vehicle bring-up, prototyping, debugging on multiple vehicle platforms",
+    "Build/maintain verification infrastructure: unit tests, hardware-in-the-loop benches, vehicle test procedures",
+    "Work within ISO 26262 process: requirements to verification with full traceability",
+    "Collaborate with systems, safety, hardware, controls, autonomy engineers and OEM/supplier partners"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mountain View, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 42,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4 (STM32 Temperature Monitor): GPIO/TIM/ADC/I2C driven directly, timer-triggered ADC scans, interrupt-driven sampling",
+      "FreeRTOS in a real project (Object Tracking Turret): mutex-protected shared-memory task coordination, multi-servo PWM plus interrupt-driven UART command handling",
+      "Serial peripheral bus experience (UART/I2C/SPI) recurring across four separate projects, including a custom I2C driver and a TCA9548A I2C mux",
+      "Systems-level integration debugging under real hardware constraints (COFFIN: 11 named integration failures resolved -- false-positive detections, servo brown-out, stale-frame capture -- to reach 100% reliability)",
+      "Closed-loop sensor-to-actuator control (ToF range-gated grasping, tap-detection thresholding, PWM servo control) showing real device bring-up instinct"
+    ],
+    "real_gaps": [
+      "No CAN bus exposure anywhere in the profile -- no project, coursework, or internship touches CAN, DBC, or CAN tooling",
+      "No automotive Ethernet, AUTOSAR, MCAL, AURIX TC3xx, or SafeRTOS exposure",
+      "No functional-safety process experience (ISO 26262, DO-178C, IEC 62304) -- every project is unregulated hobbyist/capstone work with no requirements-traceability discipline",
+      "No bootloader or firmware-update development",
+      "No vehicle-level or OEM ECU integration -- CARLA project is simulation-only, not physical vehicle bring-up",
+      "All embedded work is single-core (STM32 Cortex-M4/M0, Arduino) -- no multicore automotive-grade microcontroller experience",
+      "No UDS diagnostics, E2E protection, or time-synchronization protocol experience",
+      "No vehicle dynamics or control-theory coursework/project evidence"
+    ],
+    "overstated_by_keywords": [
+      "Vehicle-level integration and test -- keyword pass matched this via the CARLA autonomous-driving project, which is a simulation stack (YOLO/UFLD perception + lane-following in CARLA), not physical vehicle or OEM ECU integration",
+      "Multicore microcontrollers -- keyword pass credited this from generic microcontroller-firmware evidence, but every real project uses a single-core MCU (Cortex-M4 or Arduino), never a multicore automotive part",
+      "Device driver development -- real, but at bare-metal hobbyist scope (GPIO/ADC/I2C on one STM32 board), a different tier from safety-critical automotive driver stacks with AUTOSAR-style layering"
+    ],
+    "understated_by_keywords": [],
+    "screening_gaps": [
+      "Zero CAN bus / automotive network protocol experience -- a baseline automotive embedded skill with no evidence anywhere in the profile",
+      "No functional-safety background (ISO 26262 / DO-178C / IEC 62304) -- the role is explicitly built around a safety-critical, requirements-traceable process the profile has never touched",
+      "No automotive domain experience at all -- no OEM ECU work, no vehicle bring-up, no AUTOSAR; every project is lab-scale robotics/embedded, not a vehicle platform"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The general embedded fundamentals transfer well -- bare-metal C, FreeRTOS, serial protocols, and hands-on debugging are all real and specific. But the role's actual core is automotive-safety embedded work (CAN, ISO 26262, AUTOSAR, vehicle-level ECU integration), and none of that exists anywhere in the profile, not even adjacently. This reads as a strong generalist embedded candidate applying into a domain-specific automotive-safety role with no domain evidence to point to in an interview.",
+    "calibration_delta": 5.6
+  }
+}

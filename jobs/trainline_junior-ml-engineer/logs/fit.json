@@ -1,0 +1,148 @@
+{
+  "company": "Trainline",
+  "company_slug": "trainline",
+  "role": "Junior Machine Learning Engineer",
+  "job_slug": "junior-ml-engineer",
+  "match_pct": 37.5,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 7,
+    "missing_count": 14,
+    "jd_ask_size": 28,
+    "req_cov": 0.406,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "TensorFlow",
+    "Classification",
+    "LLMs (fine-tuning)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Productionising ML models",
+      "you_have": "TensorRT/ONNX edge deployment on Jetson"
+    },
+    {
+      "jd_skill": "MLOps",
+      "you_have": "model quantization + TensorRT deployment pipeline"
+    },
+    {
+      "jd_skill": "NLP",
+      "you_have": "ASR pipelines, tokenization, Transformers"
+    },
+    {
+      "jd_skill": "Cloud infrastructure (AWS)",
+      "you_have": "SLURM HPC cluster"
+    },
+    {
+      "jd_skill": "Statistics",
+      "you_have": "Random Signal Analysis coursework"
+    },
+    {
+      "jd_skill": "Data manipulation",
+      "you_have": "Pandas"
+    },
+    {
+      "jd_skill": "Feature engineering",
+      "you_have": "Model evaluation / data acquisition"
+    }
+  ],
+  "missing_skills": [
+    "Spark / PySpark",
+    "Docker",
+    "Terraform",
+    "MLflow",
+    "Airflow",
+    "CI/CD",
+    "Agile",
+    "AWS (EMR/ECS/Athena)",
+    "LightGBM",
+    "Regression / predictive modeling",
+    "Recommendation systems",
+    "Reinforcement Learning",
+    "Graph algorithms",
+    "NewRelic"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "TensorFlow",
+    "LightGBM",
+    "PySpark",
+    "AWS",
+    "Docker",
+    "Terraform",
+    "MLflow",
+    "Airflow",
+    "CI/CD",
+    "MLOps",
+    "Feature Engineering",
+    "Reinforcement Learning",
+    "LLM",
+    "NLP",
+    "Recommendation Systems"
+  ],
+  "required_skills": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "Productionising ML models",
+    "Classification / regression / predictive modeling",
+    "Spark",
+    "Docker",
+    "Terraform",
+    "MLOps",
+    "MLflow",
+    "Agile",
+    "CI/CD",
+    "Feature engineering",
+    "Data manipulation",
+    "Statistics"
+  ],
+  "preferred_skills": [
+    "Reinforcement Learning",
+    "Cloud infrastructure (AWS)",
+    "LLMs (fine-tuning, RAG, agents)",
+    "Graph algorithms",
+    "NLP"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Design and deliver ML models at scale",
+    "Own end-to-end ML lifecycle: data exploration, feature engineering, model selection/tuning, offline+online evaluation, deployment, maintenance",
+    "Build internal ML tools, frameworks and libraries",
+    "Work in cross-functional teams with DS, SWE, DE, PMs"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK (hybrid, 60% in office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

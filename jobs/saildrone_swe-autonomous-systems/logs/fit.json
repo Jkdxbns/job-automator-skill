@@ -1,0 +1,161 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Software Engineer, Autonomous Systems",
+  "job_slug": "swe-autonomous-systems",
+  "match_pct": 59.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.731,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "robotics",
+    "autonomous systems",
+    "perception",
+    "simulation",
+    "sensor integration",
+    "real hardware",
+    "real-time systems",
+    "resource-constrained systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "planning",
+      "you_have": "MoveIt collision-free trajectory planning on UR5e"
+    },
+    {
+      "jd_skill": "navigation",
+      "you_have": "CARLA lane-following with waypoint fallback"
+    },
+    {
+      "jd_skill": "controls",
+      "you_have": "closed-loop servo feedback, two-link IK"
+    },
+    {
+      "jd_skill": "vehicle behavior",
+      "you_have": "CARLA adaptive control stack"
+    },
+    {
+      "jd_skill": "telemetry",
+      "you_have": "data acquisition GUI (BARC)"
+    }
+  ],
+  "missing_skills": [
+    "localization",
+    "state estimation",
+    "decision-making",
+    "field testing",
+    "maritime systems",
+    "defense"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "autonomous systems",
+    "perception",
+    "localization",
+    "state estimation",
+    "planning",
+    "navigation",
+    "simulation",
+    "telemetry",
+    "Python",
+    "real-time",
+    "sensors",
+    "field testing"
+  ],
+  "required_skills": [
+    "C++",
+    "autonomous systems",
+    "robotics",
+    "perception",
+    "localization",
+    "state estimation",
+    "planning",
+    "navigation",
+    "controls",
+    "decision-making",
+    "sensor integration",
+    "real hardware",
+    "debugging with real-world data"
+  ],
+  "preferred_skills": [
+    "maritime systems",
+    "defense",
+    "real-time systems",
+    "resource-constrained systems",
+    "simulation",
+    "field testing",
+    "Python"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "production autonomy software in C++",
+    "perception/localization/planning/navigation algorithms",
+    "sensor and vehicle integration",
+    "simulation, telemetry and field validation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 56,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Perception with real deployment depth: TensorRT-optimized YOLO on Jetson (56.7 to 10.9 ms, 5.2x) driving visual servoing in COFFIN, plus ZoeDepth crack-depth profiling and CARLA YOLO/UFLD lane pipelines",
+      "Sensor and hardware integration: dual VL53L0X ToF gating the camera, Jetson+Arduino over WebSocket, 11 integration failures diagnosed (servo brown-out, stale frames), 10/10 pick reliability",
+      "Simulation-driven autonomy: CARLA Town02 with 30 vehicles and 10 pedestrians, lane-following with waypoint fallback, zero collisions",
+      "Accuracy-latency-compute tradeoff reasoning is a repeated theme: quantization (55% VRAM cut, <1% accuracy loss), CUDA kernel work, edge deployment"
+    ],
+    "real_gaps": [
+      "No localization or state estimation: no Kalman/EKF, GPS/IMU fusion, or SLAM anywhere in the profile",
+      "No production C++ autonomy codebase; C++ is CUDA kernels, Arduino IK and coursework-scale firmware",
+      "No autonomy on a fielded vehicle: everything is simulation or a lab arm; no field testing, long-duration operation or telemetry-driven failure diagnosis",
+      "No decision-making or behavior layer beyond a CARLA control stack; no maritime, aerospace or defense exposure",
+      "Seniority note: JD wants production, org-scale ownership; profile is capstone, research and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted Have but it is working depth, not production-quality software",
+      "autonomous systems counted Have but backed only by CARLA simulation and a tabletop arm, no vehicle",
+      "planning counted Adjacent but is MoveIt library use on a UR5e, not a planner you wrote for a vehicle",
+      "telemetry counted Adjacent but the BARC GUI is lab data acquisition, not vehicle telemetry"
+    ],
+    "understated_by_keywords": [
+      "Frame Simulator (SE(3) pose chaining, coordinate-frame transforms) is real groundwork for pose and frame handling in localization, though it never string-matched",
+      "COFFIN's 11-failure debugging log is direct evidence for diagnosing behavior on real hardware, which the JD asks for"
+    ],
+    "screening_gaps": [
+      "No localization or state estimation experience, the area the JD calls deep expertise, and perception on your side is ML/edge-inference rather than an autonomy stack",
+      "No autonomy software running on a fielded vehicle or in field validation; only simulation and lab hardware",
+      "No production-quality C++ autonomy code to point at; C++ evidence is CUDA kernels and Arduino firmware"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Perception, sensor integration, simulation and latency-tradeoff work are backed by concrete projects, roughly half the core responsibilities. The role's centre of gravity is localization, planning and fielded, production C++, where the profile has nothing direct, so the perception angle is the only credible way in.",
+    "calibration_delta": 3.5
+  }
+}

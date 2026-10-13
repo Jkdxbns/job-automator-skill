@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "company": "Keysight Technologies",
+    "role": "Robotics Engineering Lead",
+    "company_slug": "keysight",
+    "job_slug": "robotics-engineering-lead"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience programming and integrating collaborative robots and vision guided pick-and-place systems, spanning ABB RobotStudio and RAPID workcell simulation, Universal Robots UR5e trajectory planning in ROS2 and MoveIt, and gripper and end-effector integration with real-time vision. Combines mechanical design in SolidWorks and PCB fabrication with embedded and software engineering across STM32, Jetson, and ROS2 platforms, and has led robotics teams of up to 25 members from concept through delivery.",
+  "skills": {
+    "Robotics & Cobot Programming": [
+      "ROS2",
+      "MoveIt",
+      "RViz",
+      "ABB RobotStudio",
+      "RAPID",
+      "UR ROS2 Driver",
+      "Forward Kinematics / DH Parameters",
+      "Visual Servoing"
+    ],
+    "Vision & Sensing": [
+      "OpenCV",
+      "YOLO",
+      "TensorRT",
+      "ToF Sensing (VL53L0X)",
+      "I2C Multiplexing"
+    ],
+    "Mechanical & CAD": [
+      "SolidWorks",
+      "CAD-Modeled Fixtures",
+      "PCB Design (EAGLE)"
+    ],
+    "Embedded & Hardware": [
+      "STM32 (Bare-Metal C)",
+      "Arduino",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "UART / I2C / SPI"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Organized 10+ exhibitions and technical workshops covering Arduino, PCB design, and SolidWorks."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Designed and simulated a full ABB RobotStudio workcell for an end-to-end press-to-packing assembly pipeline including CAD-modeled fixtures.",
+        "Programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic; validated full-cycle repeatability."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2x speedup: 56.7\u219210.9 ms) for visual servoing and dual VL53L0X ToF sensors (camera range-gate plus gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Implemented two-link IK on Arduino in C++, driving five servos with range-gated contact detection.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 over UART for multi-servo PWM actuation; integrated VL53L0X ToF sensing for distance gating."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

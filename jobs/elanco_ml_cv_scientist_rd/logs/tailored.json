@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "company": "Elanco",
+    "role": "Machine Learning & Computer Vision Scientist – R&D (Junior/Associate)",
+    "company_slug": "elanco",
+    "job_slug": "ml_cv_scientist_rd"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on applied machine learning and computer vision experience across scientific and medical imaging data. Trained and evaluated PyTorch models on multi modal MRI (U-Net segmentation scored on Dice and IoU) and microscopic surface imagery, and built synthetic data generation and augmentation pipelines to train YOLO and UFLD models on sparse datasets. Comfortable owning the full modeling loop: dataset cleaning and annotation, feature engineering, GPU model training, and documented evaluation with error analysis.",
+  "skills": {
+    "Machine Learning / Deep Learning": ["PyTorch", "Transformer Architectures", "HuggingFace Transformers", "Model Evaluation", "8-bit Quantization", "pynvml/psutil Profiling"],
+    "Computer Vision & Scientific Imaging": ["U-Net", "VGG-16/VGG-19", "ResNet-50/ResNet-18", "YOLOv8/YOLO11n", "UFLD", "Dice Score", "IoU", "PSNR", "Semantic Segmentation", "Depth Estimation", "Image Stitching & Wavelet Denoising"],
+    "Dataset & Evaluation": ["Dataset Curation & Annotation", "Synthetic Data Generation & Augmentation", "Train/Validation/Test Design", "mAP / WER / Perplexity Metrics"],
+    "Languages & Systems": ["Python"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi modal MRI dataset with medical imaging augmentation and batch loading for large scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Developed a custom image stitching pipeline for high resolution generation using bit manipulation and averaging, achieving a PSNR of 65 versus a homography based baseline; a wavelet denoising redesign raised PSNR to 86.",
+        "Deployed ZoeDepth monocular depth estimation for microscopic crack depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine tuned DONUT, an OCR free document understanding transformer, on a custom medical billing dataset.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API.",
+        "Improved validation accuracy from 55% to 93% through preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held out validation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated synthetic data generation pipelines using CARLA's semantic segmentation and occlusion filtering, producing ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine tuned UFLD (ResNet-18) with SoftmaxFocalLoss and ParsingRelationLoss."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with <1% accuracy degradation, evaluating efficiency versus task performance trade offs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Image Processing", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

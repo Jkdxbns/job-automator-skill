@@ -1,0 +1,57 @@
+{
+  "company": "Willow Dynamics",
+  "company_slug": "willow-dynamics",
+  "role": "Computer Vision & Spatial Intelligence Engineer (Biomechanics & AI)",
+  "job_slug": "cv-spatial-engineer",
+  "match_pct": 76.5,
+  "missing_skills": [
+    "AWS serverless (CloudFormation, Lambda, DynamoDB, API Gateway, Fargate, AWS Batch, SQS)",
+    "Docker / Kubernetes container deployment",
+    "Occlusion bridging / parallax cancellation / world-space & metric-space tracking",
+    "Neuro-Symbolic AI architectures",
+    "Synthetic FBX data"
+  ],
+  "adjacent_skills": [
+    "MediaPipe -> YOLO/OpenCV pose & detection pipelines",
+    "Pose estimation models -> YOLO object detection, depth estimation, visual servoing",
+    "JS/TS web stack -> Flask, Flask-SocketIO, WebSocket, Flutter",
+    "Human biomechanics/kinematics -> robot kinematics (DH parameters, forward/inverse kinematics)",
+    "LIDAR point clouds -> ToF sensing, ZoeDepth depth estimation, CARLA",
+    "Multi-camera setups -> single-camera CV pipelines, image mosaicing"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision",
+    "Python",
+    "C++",
+    "YOLO",
+    "MediaPipe",
+    "pose estimation",
+    "object tracking",
+    "signal processing",
+    "NumPy",
+    "SciPy",
+    "AWS serverless",
+    "Lambda",
+    "kinematics",
+    "spatial intelligence",
+    "LLMs",
+    "Docker",
+    "Kubernetes",
+    "LIDAR",
+    "point clouds"
+  ],
+  "key_responsibilities": [
+    "Extract spatial/biomechanical insight from 2D video via signal processing and geometric heuristics",
+    "Constrain raw YOLO/MediaPipe neural network output with physics (kinematics, virtual inertia)",
+    "Occlusion bridging, parallax cancellation, relational tracking",
+    "Build/deploy in a customized AWS serverless pipeline",
+    "Production Python and C++, some JS/TS"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "notes": "Source: Joel Ownby (founder) LinkedIn post, 3d old as of 2026-08-31. He complains about mass spam from candidates \u2014 application route is a direct message showing 'something cool you've built'; generic outreach will be binned. Apply via personalized message, not volume."
+}

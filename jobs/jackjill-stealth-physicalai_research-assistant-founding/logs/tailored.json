@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "company": "Stealth Physical AI Startup (via Jack & Jill)",
+    "role": "Research Assistant (Founding Team)",
+    "company_slug": "jackjill-stealth-physicalai",
+    "job_slug": "research-assistant-founding"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience fine-tuning vision-language models and deploying real-time perception systems on physical hardware. Fine-tuned DONUT (VLM) at IIT Bombay achieving 55%\u219293% accuracy; built a physical AI pipeline\u2014voice intent, TensorRT YOLO at ~18 FPS, robotic actuation\u2014on NVIDIA Jetson as MS capstone.",
+  "skills": {
+    "ML / Vision-Language": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "DONUT (VLM)",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Structured Pruning"
+    ],
+    "Perception & Robotics": [
+      "OpenCV",
+      "YOLO",
+      "Depth estimation",
+      "Visual servoing",
+      "ROS/ROS2",
+      "MoveIt",
+      "Forward kinematics"
+    ],
+    "Edge AI & Deployment": [
+      "NVIDIA Jetson",
+      "TensorRT",
+      "faster-whisper",
+      "ASR pipelines",
+      "Real-time inference"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Bash"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "Flask",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free vision-language model) on a custom dataset; improved validation accuracy from 55% to 93% via preprocessing and model tuning.",
+        "Built PyTorch training pipelines to standardize VLM fine-tuning and evaluation workflows."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error; architected a full surface inspection perception pipeline with image stitching, wavelet denoising, and PSNR 86 output."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Architected a Mixed Reality headset concept using AI-based real-time chroma keying without a green screen; produced full claims documentation.",
+        "Developed a wearable gesture-recognition glove with ADXL345 and Raspberry Pi Pico, translating 3-DoF hand motion into HID commands."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a full physical AI pipeline: voice \u2192 intent (Gemini) \u2192 TensorRT YOLO visual servoing at ~18 FPS \u2192 robotic actuation on NVIDIA Jetson.",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency; resolved 11 integration failures across perception, servo, and depth sensing."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Generated ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation via semantic segmentation and raycast occlusion filtering.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); validated zero collisions across multiple laps with 30 vehicles and 10 pedestrians."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Executed collision-free pick-and-place on physical UR5e; AL5B repeatability <2mm over 10 trials.",
+        "Derived DH tables and forward kinematic chains (0T6); validated against MoveIt and RViz."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time tracking; FreeRTOS task coordination with VL53L0X ToF for distance-aware targeting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Deep Learning",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Principles of Robotics",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

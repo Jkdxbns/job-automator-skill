@@ -1,0 +1,102 @@
+{
+  "company": "Unnamed (Austin, Ed Bluestein site; req R-10066752)",
+  "company_slug": "unnamed-austin-fab",
+  "role": "Device / Process Integration Engineer",
+  "job_slug": "device-process-integration-engineer",
+  "match_pct": 7.1,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 14,
+    "req_cov": 0.136,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "data analysis",
+      "you_have": "Pandas / NumPy / Matplotlib"
+    },
+    {
+      "jd_skill": "troubleshooting",
+      "you_have": "Oscilloscopes / Logic Analyzers (hardware debug)"
+    }
+  ],
+  "missing_skills": [
+    "semiconductor device physics",
+    "process integration",
+    "Design of Experiments",
+    "Statistical Process Control",
+    "JMP",
+    "Excel",
+    "Word",
+    "PowerPoint",
+    "yield enhancement",
+    "wafer test",
+    "New Product Introduction",
+    "defect reduction"
+  ],
+  "top_ats_keywords": [
+    "Design of Experiments",
+    "Statistical Process Control",
+    "JMP",
+    "Excel",
+    "PowerPoint",
+    "process integration",
+    "device physics",
+    "yield enhancement",
+    "wafer test",
+    "New Product Introduction",
+    "data analysis",
+    "troubleshooting"
+  ],
+  "required_skills": [
+    "semiconductor device physics",
+    "process integration",
+    "Design of Experiments",
+    "Statistical Process Control",
+    "JMP",
+    "Excel",
+    "Word",
+    "PowerPoint",
+    "data analysis",
+    "troubleshooting",
+    "yield enhancement"
+  ],
+  "preferred_skills": [
+    "MS in Electrical/Chemical engineering",
+    "device or process engineering experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own product/part from substrate through wafer test",
+    "Yield and cost improvement via process integration and defect reduction",
+    "NPI with Product Engineering",
+    "Resolve factory excursions and customer returns"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX (Ed Bluestein, on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

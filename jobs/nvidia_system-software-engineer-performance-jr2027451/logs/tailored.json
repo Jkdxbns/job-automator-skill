@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "System Software Engineer - Performance",
+    "company_slug": "nvidia",
+    "job_slug": "system-software-engineer-performance-jr2027451"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "website_root": "justinmascarenhas.com",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. I drive performance analysis and optimization end to end: benchmarking MPI workloads to a 30x speedup, isolating load imbalance that cost up to 65% throughput, and rewriting CUDA C++ kernels for a 35% speedup. Backed by real-time programming on ARM Cortex-M4 (bare-metal C, interrupts, FreeRTOS) and TensorRT tuning on NVIDIA Jetson under Linux.",
+  "skills": {
+    "Performance & Parallel Computing": [
+      "Performance Analysis",
+      "Performance Optimization",
+      "Benchmarking",
+      "CUDA C++",
+      "MPI",
+      "SLURM",
+      "Memory Coalescing",
+      "TensorRT"
+    ],
+    "Embedded & Real-Time": [
+      "ARM Cortex-M4 (STM32)",
+      "Bare-Metal C",
+      "Interrupts",
+      "FreeRTOS",
+      "Peripheral Device Drivers (I2C, UART, ADC)",
+      "NVIDIA Jetson"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Linux",
+      "systemd",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) combined with optimized homography stitching and concurrency, raising PSNR from 65 to 86 over the baseline pipeline."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Built a Python GUI (PyQt, Matplotlib) for real-time data acquisition and experimental visualization; ran data analysis and technical documentation in JupyterHub with GitLab version control."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Benchmarked four parallel work distribution strategies (static strip, block, cyclic, dynamic task queue) rendering 5000x5000 scenes over MPI, achieving up to 30x speedup across 55 processes; dynamic queue won under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Distributed dendrite computations across MPI workers on a SLURM-managed cluster for up to 10.49x speedup with 12 processes; identified load imbalance as a performance bottleneck causing up to 65% degradation."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Wrote custom CUDA C++ conv kernels with memory coalescing, constant memory and preallocated buffers: 49.2ms vs 73.3ms uncoalesced and 77.5ms CPU, a ~35% speedup at identical accuracy."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built ARM Cortex-M4 firmware in bare-metal C at 3.68 KB Flash / 1.58 KB RAM with a deterministic 1 Hz real-time update rate.",
+        "Wrote a low-level I2C device driver and programmed GPIO, TIM2 and ADC1 directly, with timer-triggered ADC scan conversions and interrupt-driven sample capture."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on an STM32 (ARM Cortex-M4), with interrupt-driven UART commands from a YOLOv8 tracker on NVIDIA Jetson driving multi-servo PWM control."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO with TensorRT on NVIDIA Jetson for a 5.2x speedup (56.7 to 10.9 ms, 17.6 to 92 FPS vs eager PyTorch), reaching 100% pick reliability over 10 trials.",
+        "Deployed the Jetson-side bridge as a Linux systemd service with auto-restart, non-root isolation and static IP networking."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

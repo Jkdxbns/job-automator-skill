@@ -1,0 +1,134 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 53.7,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 27,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "ROS / ROS2 development",
+    "OpenCV",
+    "PyTorch",
+    "NumPy",
+    "NVIDIA Jetson / edge deployment",
+    "TensorRT optimization",
+    "CUDA / GPU acceleration",
+    "Real-time edge computing",
+    "Embedded bare-metal C",
+    "Computer vision / object detection"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "VIO / SLAM pipelines",
+      "you_have": "ROS2 perception / robotics pipelines"
+    },
+    {
+      "jd_skill": "Sensor integration (camera, LiDAR, IMU, radar)",
+      "you_have": "Multi-sensor vision / ToF systems"
+    },
+    {
+      "jd_skill": "Camera-based imaging in robotics / embedded",
+      "you_have": "Computer vision / YOLO / OpenCV"
+    },
+    {
+      "jd_skill": "Sensor fusion / multi-modal perception",
+      "you_have": "ROS2 robotics / multi-rate work"
+    },
+    {
+      "jd_skill": "GPU acceleration / image processing optimization",
+      "you_have": "CUDA kernel optimization / GPU profiling"
+    }
+  ],
+  "missing_skills": [
+    "Thermal imaging / infrared sensing exposure",
+    "Hands-on VIO/SLAM development with modern framework (e.g. VINS-Mono/Fusion, ORB-SLAM3)",
+    "State estimation (factor graphs, manifold optimization)",
+    "IMU pre-integration",
+    "Camera-IMU calibration",
+    "Multi-sensor time synchronization",
+    "SLAM/odometry evaluation metrics (ATE/RPE) and standard dataset benchmarking",
+    "5+ years software development experience in robotics / autonomy",
+    "Failure modes (degenerate motion, low-texture, thermal-only fallback)",
+    "GPS-denied or degraded environments experience"
+  ],
+  "top_ats_keywords": [
+    "Master's degree in CS / Robotics / EE (or equivalent)",
+    "Robotics / autonomy / embedded software development",
+    "Sensor integration and multi-sensor data processing (camera, LiDAR, IMU, radar)",
+    "Thermal imaging / infrared sensing exposure",
+    "Real-time / edge computing systems",
+    "C++ (latency-critical)",
+    "Python",
+    "Hands-on VIO/SLAM development (modern framework)",
+    "State estimation (factor graphs, manifold optimization)",
+    "IMU pre-integration",
+    "Camera-IMU calibration",
+    "Multi-sensor time synchronization"
+  ],
+  "required_skills": [
+    "Master's degree in CS / Robotics / EE (or equivalent)",
+    "Robotics / autonomy / embedded software development",
+    "Sensor integration and multi-sensor data processing (camera, LiDAR, IMU, radar)",
+    "Thermal imaging / infrared sensing exposure",
+    "Real-time / edge computing systems",
+    "C++ (latency-critical)",
+    "Python",
+    "Hands-on VIO/SLAM development (modern framework)",
+    "State estimation (factor graphs, manifold optimization)",
+    "IMU pre-integration",
+    "Camera-IMU calibration",
+    "Multi-sensor time synchronization"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "NumPy",
+    "Camera-based imaging systems in robotics / embedded",
+    "Valid driver's license",
+    "Sensor fusion / multi-modal perception",
+    "ROS1 / ROS2 robotics development",
+    "GPU acceleration / image processing optimization",
+    "Cross-functional multidisciplinary team experience",
+    "5+ years software development in robotics / autonomy",
+    "SLAM/odometry evaluation metrics (ATE/RPE) and standard dataset benchmarking",
+    "Failure modes understanding (degenerate motion, low-texture, thermal-only fallback)",
+    "GPS-denied / degraded environments"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Fairport, NY \u2013 Hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Position may require U.S. citizenship due to contractual requirements; candidate is F-1 OPT (non-citizen)."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

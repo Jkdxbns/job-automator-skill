@@ -1,0 +1,122 @@
+{
+  "company": "Schweitzer Engineering Laboratories",
+  "company_slug": "sel",
+  "role": "Firmware/Embedded Software Engineer",
+  "job_slug": "firmware-embedded-software-engineer",
+  "match_pct": 56.2,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 16,
+    "req_cov": 0.55,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Real-time firmware development",
+    "Object oriented design",
+    "Python",
+    "Other scripting languages (Bash)",
+    "Digital and analog circuitry",
+    "Digital communications and signal processing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GUI applications in Windows environment",
+      "you_have": "PyQt/PySide6/Qt GUI apps (cross-platform, not Windows-targeted)"
+    },
+    {
+      "jd_skill": "Modern communications protocols",
+      "you_have": "UART/I2C/SPI/Bluetooth embedded comms protocols"
+    }
+  ],
+  "missing_skills": [
+    "Assembly",
+    "C#",
+    "Perl",
+    "Industrial controls",
+    "3-phase electric power systems",
+    "Project management"
+  ],
+  "top_ats_keywords": [
+    "Firmware",
+    "Embedded systems",
+    "Real-time",
+    "C",
+    "C++",
+    "Assembly",
+    "GUI",
+    "Windows",
+    "Object oriented design",
+    "C#",
+    "Python",
+    "Perl",
+    "Scripting",
+    "Industrial controls",
+    "3-phase power systems",
+    "Communications protocols",
+    "Digital circuitry",
+    "Analog circuitry",
+    "Signal processing",
+    "Project management"
+  ],
+  "required_skills": [
+    "Real-time firmware development",
+    "C",
+    "Assembly",
+    "C++",
+    "GUI applications in Windows environment",
+    "Object oriented design",
+    "C#",
+    "Python",
+    "Perl",
+    "Other scripting languages"
+  ],
+  "preferred_skills": [
+    "Industrial controls",
+    "3-phase electric power systems",
+    "Modern communications protocols",
+    "Digital and analog circuitry",
+    "Digital communications and signal processing",
+    "Project management"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, implement, and test firmware/software systems",
+    "Collaborate with Hardware Engineers",
+    "Prepare and maintain design and test documentation",
+    "Mentor Associate Engineers and Technicians"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Charlotte, NC",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-20",
+    "channel": "application",
+    "notes": "Form rejection (Firmware/Embedded Software Engineer, Workday): continuing search with other candidates. No feedback."
+  }
+}

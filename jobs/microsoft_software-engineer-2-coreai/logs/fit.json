@@ -1,0 +1,105 @@
+{
+  "company": "Microsoft",
+  "company_slug": "microsoft",
+  "role": "Software Engineer 2 - CoreAI",
+  "job_slug": "software-engineer-2-coreai",
+  "match_pct": 18.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 1,
+    "missing_count": 15,
+    "jd_ask_size": 19,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "GitHub/source control (Git)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems at scale",
+      "you_have": "MPI (HPC parallel/distributed computing)"
+    }
+  ],
+  "missing_skills": [
+    "C#",
+    "Java",
+    "JavaScript",
+    "CI/CD",
+    "Azure DevOps",
+    "developer tooling (inventory/governance platforms)",
+    "telemetry",
+    "monitoring",
+    "workflow automation/governance",
+    "security/compliance tooling",
+    "on-call/DRI",
+    "durable state management",
+    "Service Tree",
+    "PR-based approval workflows",
+    "Inventory-as-Code"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C#",
+    "Java",
+    "JavaScript",
+    "Python",
+    "distributed systems",
+    "CI/CD",
+    "Azure DevOps",
+    "GitHub",
+    "developer tooling",
+    "telemetry",
+    "monitoring",
+    "automation",
+    "governance",
+    "on-call",
+    "durable state management"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "C#",
+    "Java",
+    "JavaScript",
+    "Python"
+  ],
+  "preferred_skills": [
+    "distributed services at scale",
+    "4+ years engineering experience"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "design/build/operate inventory + ownership services",
+    "Inventory-as-Code workflows: validation, reconciliation, governance",
+    "CI/CD and source-control integrations",
+    "on-call DRI rotation",
+    "PR-based approval/audit workflows"
+  ],
+  "role_category": "ml_systems",
+  "location": "Redmond, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

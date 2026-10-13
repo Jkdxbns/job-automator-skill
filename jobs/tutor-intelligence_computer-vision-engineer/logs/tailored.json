@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "company": "Tutor Intelligence",
+    "role": "Computer Vision Engineer",
+    "company_slug": "tutor-intelligence",
+    "job_slug": "computer-vision-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, building computer vision for robot manipulation: TensorRT-optimized YOLO object detection driving visual servoing on a physical pick-and-place arm (92 FPS, 10/10 picks). Background in geometric vision and depth estimation (homography stitching, ZoeDepth 3D surface reconstruction at \u00b18% error) and in building reproducible datasets and evaluations in Python and C++.",
+  "skills": {
+    "Computer Vision & Perception": [
+      "Computer vision",
+      "Object detection",
+      "YOLO",
+      "OpenCV",
+      "Depth estimation",
+      "Visual servoing",
+      "Image Processing"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorRT",
+      "ONNX",
+      "Model evaluation",
+      "NumPy",
+      "Pandas",
+      "scikit-learn"
+    ],
+    "Languages & GPU": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Bash"
+    ],
+    "Robotics & Systems": [
+      "Multi-camera data capture",
+      "SE(3) transforms",
+      "Forward/inverse kinematics",
+      "NVIDIA Jetson",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction.",
+        "Developed a custom image-stitching pipeline for high-resolution generation using bit manipulation and averaging, achieving a PSNR of 65 compared to homography-based stitching baseline.",
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API to fine-tune DONUT on a custom medical billing dataset.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system on a Jetson+Arduino controller; TensorRT-optimized YOLO object detection (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) drives visual servoing, with dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation."
+      ]
+    },
+    {
+      "name": "Frame Simulator \u2014 Desktop 3D Coordinate-Frame Visualizer",
+      "date": "Oct 2025",
+      "bullets": [
+        "Built a PySide6/Qt desktop GUI with an OpenGL-backed VisPy 3D viewport to visualize coordinate-frame hierarchies, parent-child transform chains, and SE(3) poses in real time.",
+        "Wrote a custom DSL parser and SE(3) math engine (math_se3.py) supporting local/world rotation and translation composition, recursive world-transform chaining, and live 4x4 matrix inspection per frame."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Principles of Robotics",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

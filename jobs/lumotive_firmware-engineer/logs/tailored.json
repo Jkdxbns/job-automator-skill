@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "company": "Lumotive",
+    "role": "Engineer, Firmware",
+    "company_slug": "lumotive",
+    "job_slug": "firmware-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with embedded firmware experience across STM32, Raspberry Pi, and NVIDIA Jetson. Proficient in bare-metal C and direct memory-mapped register programming \u2014 the same model as ASIC/SoC driver development \u2014 with FreeRTOS, UART/I2C/SPI/GPIO/ADC, and hardware-level debug using logic analyzers and oscilloscopes.",
+  "skills": {
+    "Embedded Systems": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "GPIO",
+      "ADC",
+      "PWM",
+      "EAGLE PCB Design"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Linux",
+      "Git",
+      "Proteus"
+    ],
+    "Lab & Debug": [
+      "Logic Analyzers",
+      "Oscilloscopes"
+    ],
+    "Vision (On-Device)": [
+      "TensorRT",
+      "YOLOv8"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team; owned PCB fabrication, board bring-up, and embedded firmware integration across national-level competitions.",
+        "Designed custom single-layer PCBs in EAGLE; validated UART and I2C bus timing using logic analyzers and oscilloscopes; implemented closed-loop sensor feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Configured peripherals via direct memory-mapped register writes (GPIO, TIM2, ADC1, I2C1) on Cortex-M4 \u2014 same programming model as ASIC/SoC vendor register maps.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a hand-written I2C driver; achieved 3.68 KB Flash / 1.58 KB RAM; validated in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on STM32; integrated VL53L0X ToF sensing with interrupt-driven UART command parsing and PWM servo control.",
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time detection; routed control commands to STM32 over UART at ~30 Hz."
+      ]
+    },
+    {
+      "name": "COFFIN \u2014 Voice-Controlled Robotic Arm, RIT Capstone",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors via TCA9548A I2C mux; implemented two-link IK on Arduino in C++ driving five servos with range-gated contact detection.",
+        "Resolved 11 integration failures through systematic firmware validation; achieved 100% pick reliability (10/10 trials) at ~11.5s latency with TensorRT YOLO at ~18 FPS."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic; validated full-cycle motion repeatability across a complete assembly pipeline."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

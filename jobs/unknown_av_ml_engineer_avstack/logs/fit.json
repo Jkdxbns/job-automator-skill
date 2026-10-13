@@ -1,0 +1,102 @@
+{
+  "company": "Unknown (company name not provided in JD)",
+  "company_slug": "unknown_av",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml_engineer_avstack",
+  "match_pct": 63.2,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 9,
+    "missing_count": 8,
+    "jd_ask_size": 34,
+    "req_cov": 0.737,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python", "PyTorch", "TensorFlow", "C/C++",
+    "ML workflow (curation, training, evaluation, deployment)",
+    "Real-time embedded/robotics deployment (Jetson, STM32, ROS2)",
+    "Quantization (8-bit)", "Profiling (pynvml)", "CUDA kernel/latency optimization",
+    "System-level debugging (UART/I2C/SPI, oscilloscopes, logic analyzers)",
+    "CUDA", "TensorRT", "Transformers (HuggingFace, GPT-2 from scratch)",
+    "Autonomous driving perception + control (CARLA, YOLO11n, UFLD)",
+    "Perception (Robot Perception, YOLO, OpenCV)",
+    "Simulation and evaluation (CARLA, Town02)",
+    "Data workflows/tooling (dataset curation, annotation, benchmarking)"
+  ],
+  "adjacent_skills": [
+    "Production ML system integration → embedded/edge deployment (Jetson+TensorRT), not fleet-scale production",
+    "Efficient architecture design → TFLite export, Cython-accelerated tokenizer",
+    "Software architecture → multi-service distributed pipeline (Flutter/Flask/Jetson/Arduino via WebSocket)",
+    "Data flow analysis → pipeline design across ASR/vision systems",
+    "Multimodal models → VisionEncoderDecoder/DONUT document AI",
+    "Publications/technical contributions → 1st Prize poster presentation",
+    "Planning (AV-specific) → IK/DH kinematics, CARLA adaptive control with waypoint fallback",
+    "Scene understanding → depth estimation (ZoeDepth), YOLO detection",
+    "Scalable ML infra → SLURM-managed HPC cluster workloads"
+  ],
+  "missing_skills": [
+    "Pruning", "Compression (beyond quantization)", "Cloud ML training (Azure)",
+    "Diffusion models", "World models", "End-to-end driving models",
+    "Prediction (trajectory/behavior)",
+    "Large-scale production ML systems deployed at company scale"
+  ],
+  "top_ats_keywords": [
+    "Python", "PyTorch", "C++", "CUDA", "TensorRT", "quantization",
+    "perception", "planning", "autonomous vehicle", "real-time deployment",
+    "transformers", "Azure"
+  ],
+  "key_responsibilities": [
+    "End-to-end model development (data through deployment and monitoring)",
+    "Autonomous driving models (perception, prediction, planning, scene understanding)",
+    "Efficient neural network design (quantization, pruning, sparsification, compression)",
+    "Real-time deployment into C++-based autonomy systems on vehicle hardware",
+    "Model optimization with CUDA and TensorRT",
+    "Simulation and evaluation using sim + real-world driving data",
+    "Scalable ML infrastructure for training/eval/offline inference",
+    "Data workflows and tooling (curation, annotation, benchmarking, field feedback)",
+    "Cross-functional integration with autonomy/systems/hardware/infra teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Autonomous Driving in CARLA project: YOLO11n perception, UFLD lane detection, adaptive control stack with waypoint fallback, validated across multiple closed-loop laps in Town02 with zero collisions — this is directly on-domain AV perception+control depth, rare for a candidate at this level",
+      "CUDA/TensorRT optimization: custom CUDA C++ kernels for VGG16 (1.5-2x speedup), TensorRT-optimized YOLO (5.2x speedup, 56.7->10.9ms) — matches the JD's specific 'profile and optimize using CUDA, TensorRT' ask concretely",
+      "Quantization: 8-bit quantization on TinyLlama 1.1B with <1% accuracy degradation — real, benchmarked model compression work",
+      "Real-time embedded deployment: Jetson, STM32, ROS2 experience covers the 'real-time, embedded, robotics' deployment constraint directly",
+      "End-to-end ML lifecycle shown repeatedly across projects: data curation/annotation (YOLOv8 toothbrush dataset), training, evaluation, export, deployment"
+    ],
+    "real_gaps": [
+      "No C++-based production autonomy stack experience — ML work is overwhelmingly Python/PyTorch; C++ shows up at the embedded/kernel level (Arduino IK, CUDA kernels), not as an integrated autonomy software stack",
+      "No real-world driving/fleet sensor data experience — the AV project is entirely CARLA simulation, never real-world driving data as the JD explicitly asks for",
+      "No trajectory/behavior prediction experience anywhere in the profile",
+      "Pruning and sparsification not demonstrated — quantization is the only compression technique shown",
+      "No cloud ML training pipeline experience (Azure specifically, or any cloud) — SLURM/JupyterHub work is on-prem HPC cluster, a different skill",
+      "No large-scale production ML system shipped — 0 full-time years, strongest system (COFFIN capstone) serves one robotic arm, not a fleet-scale deployment"
+    ],
+    "overstated_by_keywords": [
+      "Production ML system integration counted as Adjacent in the keyword pass but is really edge/embedded deployment scope, not production vehicle fleet scale"
+    ],
+    "understated_by_keywords": [
+      "The CARLA project is a coherent, closed-loop AV perception+planning+control pipeline (detection, lane understanding, adaptive control, multi-lap validation) that the keyword pass only credited as isolated 'perception'/'simulation' terms rather than recognizing as directly on-domain AV systems work"
+    ],
+    "screening_gaps": [
+      "No C++ production autonomy-system experience against a JD that explicitly asks for integrating models into 'C++-based autonomy systems'",
+      "Zero full-time years and no large-scale production ML system shipped, against a role that lists 'prior contributions to large-scale ML systems deployed in production' as a plus",
+      "No real-world driving/fleet data or prediction experience — the AV project is entirely simulated, and prediction is a named core responsibility with no backing anywhere"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong, specific technical overlap on the optimization and perception side (CUDA/TensorRT, quantization, CARLA-based AV perception and control) that keyword matching actually undersold. The real gaps are concentrated in three JD-central asks: shipping inside a C++ autonomy stack, real-world (vs simulated) driving data, and production-scale deployment experience. Worth applying given the role is open to all experience levels, but expect those three gaps to come up directly in screening.",
+    "calibration_delta": -4.8
+  }
+}

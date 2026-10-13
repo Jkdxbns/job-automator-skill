@@ -1,0 +1,59 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Planning and Control",
+  "job_slug": "planning-control",
+  "match_pct": 83.3,
+  "missing_skills": [
+    "Algorithm development for wheeled/legged/humanoid robotic systems (mobile robot locomotion)",
+    "Optimization/numerical methods for trajectory planning (preferred)",
+    "Learning-based or hybrid planning approaches (preferred)",
+    "Open-source planning/control framework contributions (preferred)",
+    "Safety-critical autonomy / industrial robotics (preferred)"
+  ],
+  "adjacent_skills": [
+    "Motion planning & trajectory generation (have MoveIt, forward/inverse kinematics, DH parameters, visual servoing from arm-robotics work, but not mobile-robot locomotion planning)",
+    "Robot sensors (have depth camera / ToF sensor experience via ZoeDepth, VL53L0X; missing explicit LiDAR, IMU, GPS, wheel encoder work)"
+  ],
+  "top_ats_keywords": [
+    "motion planning",
+    "trajectory generation",
+    "control systems",
+    "C++",
+    "Python",
+    "Linux",
+    "ROS/ROS2",
+    "LiDAR",
+    "IMU",
+    "GPS",
+    "wheel encoders",
+    "legged/humanoid robots",
+    "optimization",
+    "simulation",
+    "telemetry"
+  ],
+  "key_responsibilities": [
+    "Design, develop, and refine motion and navigation planning algorithms for real-world scenarios (narrow passages, dynamic obstacles)",
+    "Design optimization-driven approaches for path and trajectory generation across modalities",
+    "Develop and tune control algorithms for precise trajectory tracking and stable operation",
+    "Coordinate across perception, planning, and control autonomy layers",
+    "Build and maintain testing pipelines from unit-level validation to full robot deployment",
+    "Use simulation/testing environments for algorithm evaluation, benchmarking, regression",
+    "Analyze real-world telemetry to diagnose issues and improve algorithm robustness",
+    "Diagnose and resolve field deployment issues while maintaining general-case reliability"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "llm_analysis": null,
+  "constraint_flags": {
+    "sponsorship": "Not mentioned in JD; Field AI not on known-sponsors list — unconfirmed, verify before applying",
+    "experience": "No explicit years-of-experience requirement stated in JD; no mismatch vs 3-year threshold",
+    "location": "Fully onsite, Irvine, CA listing / Mission Viejo, CA office — no remote option, but compatible with willingness to relocate",
+    "clearance": false
+  }
+}

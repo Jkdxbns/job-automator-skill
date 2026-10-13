@@ -1,0 +1,137 @@
+{
+  "company": "Intrinsic",
+  "company_slug": "intrinsic",
+  "role": "Robotics Software Engineer - Grasping",
+  "job_slug": "robotics-swe-grasping",
+  "match_pct": 63.3,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 3,
+    "jd_ask_size": 15,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "kinematics",
+    "hardware experience with physical robots",
+    "Master's degree in Robotics/CS",
+    "algorithm development",
+    "production-quality software"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "linear algebra",
+      "you_have": "DH parameters / forward & inverse kinematics coursework"
+    },
+    {
+      "jd_skill": "spatial transformations",
+      "you_have": "DH parameters / forward kinematics"
+    },
+    {
+      "jd_skill": "motion planning",
+      "you_have": "IK / visual servoing / ROS2 perception pipelines"
+    },
+    {
+      "jd_skill": "grasping/manipulation",
+      "you_have": "Visual servoing + UR5e robot arm work"
+    },
+    {
+      "jd_skill": "full-stack robotics",
+      "you_have": "kinematics + ROS2 system integration"
+    }
+  ],
+  "missing_skills": [
+    "rigid body dynamics",
+    "controls / control systems",
+    "PhD in Robotics"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "robotics",
+    "motion planning",
+    "grasping",
+    "manipulation",
+    "kinematics",
+    "algorithm development",
+    "production-quality software"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "linear algebra",
+    "spatial transformations",
+    "kinematics",
+    "rigid body dynamics",
+    "hardware experience with physical robots",
+    "Master's degree in Robotics/CS"
+  ],
+  "preferred_skills": [
+    "PhD in Robotics",
+    "motion planning",
+    "controls",
+    "grasping/manipulation experience",
+    "full-stack robotics"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design production-ready grasping algorithms",
+    "Transform partner requirements into reliable technical outcomes",
+    "Improve core robotics software framework"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Mountain View, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hand-derived DH tables and full forward kinematic chains for 6-DoF UR5e and 5-DoF AL5B, validated against MoveIt/RViz URDF in ROS2 (ROS-Based Robotic Arm project)",
+      "Built a contact-aware physical grasping system: dual VL53L0X ToF sensors for range-gate + gripper-close, two-link IK in C++ on Arduino, 100% pick reliability over 10/10 trials (COFFIN capstone)",
+      "Hands-on physical hardware iteration with real integration debugging (resolved 11 integration failures: false positives, servo brown-out, stale-frame capture)"
+    ],
+    "real_gaps": [
+      "No professional (post-degree) robotics experience; all robotics work is academic/capstone/student-team scope, not industrial production systems",
+      "No evidence of rigid body dynamics or dynamics-based/force/torque control; work shown is kinematics-only (DH/FK/IK)",
+      "No formal control-systems work (PID, impedance control, force control) evidenced anywhere in the profile",
+      "Motion planning exposure is limited to validating FK against MoveIt, not building or tuning planners/trajectory optimizers"
+    ],
+    "overstated_by_keywords": [
+      "\"Motion planning\" keyword-matched via IK/visual servoing, but the JD's industrial motion-planning context (planner design, collision-free trajectory optimization at scale) is only lightly touched"
+    ],
+    "understated_by_keywords": [
+      "Contact-aware grasping engineering (ToF-triggered gripper close via TCA9548A I2C mux, closed-loop grasp confirmation) is real grasping-system depth the keyword pass only captured as generic \"visual servoing\""
+    ],
+    "screening_gaps": [
+      "2+ years of professional robotics experience required; candidate is a new grad with internships only, no full-time robotics role",
+      "Rigid body dynamics / dynamics-based control not evidenced anywhere in the profile (kinematics-only depth)",
+      "All robotics/grasping work is capstone or student-team scope, not a production system at industrial/Google scale"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Kinematics and grasping-system depth are genuinely strong and align directly with the role's algorithmic core (UR5e/AL5B DH derivation, COFFIN's contact-aware pick-and-place), but the 2+ years professional experience bar, missing rigid-body-dynamics/force-control evidence, and capstone-vs-production scope gap are real, disqualifying-risk gaps against an industrial-scale grasping team.",
+    "calibration_delta": 1.3
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Autonomous Science Lead",
+  "job_slug": "autonomous-science-lead",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2/ROS2",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4)",
+    "CUDA / GPU kernel optimization",
+    "Edge AI deployment (Jetson + TensorRT + YOLO)",
+    "ML model optimization (pruning, quantization, ASR)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "reinforcement learning",
+      "you_have": "PyTorch / ML pipelines"
+    },
+    {
+      "jd_skill": "model evaluation / scientific assessment",
+      "you_have": "benchmarking / evaluation experience"
+    },
+    {
+      "jd_skill": "robotics in lab automation",
+      "you_have": "robotics / perception / ROS"
+    },
+    {
+      "jd_skill": "automated instruments / hardware-software troubleshooting",
+      "you_have": "embedded hardware / sensors / instrumentation"
+    }
+  ],
+  "missing_skills": [
+    "substantial hands-on experimental / wet-lab methods ownership (not robotics/instrumentation)",
+    "automated laboratory operations at production/org scale",
+    "scientific validity / reproducibility in a bio/chem/physical-sciences context",
+    "reinforcement learning environments specifically for scientific tasks",
+    "lab staffing/operating procedures / training documentation (production scope)"
+  ],
+  "top_ats_keywords": [
+    "autonomous science",
+    "laboratory automation",
+    "reinforcement learning",
+    "model evaluation",
+    "robotic benchmarks",
+    "experimental methods",
+    "reproducibility",
+    "instrument qualification",
+    "lab operations",
+    "scientific validity"
+  ],
+  "required_skills": [
+    "hands-on experimental work with ownership of methods/controls/reproducibility/interpretation",
+    "running automated laboratory operations (instruments, staffing, quality)",
+    "practical AI and robotics in lab automation",
+    "reinforcement learning and model evaluation",
+    "bench and instrument troubleshooting",
+    "scientific validity / experimental design"
+  ],
+  "preferred_skills": [
+    "building RL environments / robotic benchmarks / model-evaluation tools",
+    "scientific leadership in CRO/research core/shared instrumentation",
+    "improving reliability/turnaround/cost across operators/instruments"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own experimental methods and controls",
+    "Develop automated lab workflows with instruments",
+    "Establish scientific validity and evaluate results",
+    "Lead lab operations (staffing, equipment, documentation)",
+    "Hands-on troubleshooting at bench and across systems"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

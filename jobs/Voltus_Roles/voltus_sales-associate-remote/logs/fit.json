@@ -1,0 +1,97 @@
+{
+  "company": "Voltus",
+  "company_slug": "voltus",
+  "role": "Sales Associate (Remote)",
+  "job_slug": "sales-associate-remote",
+  "match_pct": 4.2,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 11,
+    "jd_ask_size": 12,
+    "req_cov": 0.125,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "communication / presentations",
+      "you_have": "Poster Presentation"
+    }
+  ],
+  "missing_skills": [
+    "cold calling / prospecting",
+    "inside sales experience (6 months - 1 year)",
+    "PowerPoint",
+    "Salesforce",
+    "Google Suite",
+    "sales objectives / hitting goals",
+    "time management / prioritization / self-motivation / networking / rapport",
+    "energy markets interest",
+    "technology explanation to diverse audiences",
+    "clean energy / sustainability passion",
+    "feedback / networking culture"
+  ],
+  "top_ats_keywords": [
+    "Sales Associate",
+    "cold call",
+    "prospect",
+    "sales meeting",
+    "Salesforce",
+    "energy",
+    "PowerPoint",
+    "inside sales",
+    "sales objectives",
+    "prospecting",
+    "clean energy"
+  ],
+  "required_skills": [
+    "cold calling / prospecting / sales meeting setup",
+    "inside sales experience (6 months - 1 year)",
+    "communication (in person, written, presentations)",
+    "PowerPoint",
+    "Salesforce",
+    "Google Suite",
+    "sales objectives / hitting goals",
+    "time management / prioritization / self-motivation / networking / rapport"
+  ],
+  "preferred_skills": [
+    "technology-minded / explain high-tech info",
+    "energy markets interest",
+    "clean energy / sustainability passion",
+    "feedback culture"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Work closely with Sales Managers/Directors to set sales meetings",
+    "Prospect for new business, develop relationships with decision-makers, understand customer needs, report account activity",
+    "Identify and develop new business prospects from lists, discovery, individual research",
+    "Meet or exceed sales objectives for energy market",
+    "Accept inbound and perform outbound telephone calls to identify sales opportunities"
+  ],
+  "role_category": "other",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Category (a): JD states 'Please note that at this time, we do not sponsor visas or transfers for new hires. Voltus teammates need to be authorized to work from their home location (in the US or Canada, unless otherwise indicated on the role description).' Candidate is F-1 OPT and requires long-term sponsorship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

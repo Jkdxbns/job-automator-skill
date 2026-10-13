@@ -1,0 +1,144 @@
+{
+  "company": "Focusrite",
+  "company_slug": "focusrite",
+  "role": "Embedded Software Placement",
+  "job_slug": "embedded-software-placement",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 14,
+    "req_cov": 0.95,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Embedded Software Development",
+    "Firmware Development",
+    "Hardware Debugging",
+    "Version Control",
+    "Scripting and Tooling Automation",
+    "Build Automation",
+    "Bare-metal Microcontrollers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Continuous Integration",
+      "you_have": "Git/GitLab workflows"
+    },
+    {
+      "jd_skill": "Test Automation",
+      "you_have": "Python/Bash benchmark and validation scripts"
+    },
+    {
+      "jd_skill": "Audio and Music Technology",
+      "you_have": "Digital Signal Processing coursework + ASR pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Production Engineering",
+    "QA process experience"
+  ],
+  "top_ats_keywords": [
+    "Embedded Software",
+    "Firmware",
+    "C",
+    "C++",
+    "Python",
+    "Debugging",
+    "Version Control",
+    "Git",
+    "Build Automation",
+    "Test Automation",
+    "Continuous Integration",
+    "Scripting",
+    "Hardware",
+    "Audio"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Embedded Software Development",
+    "Firmware Development",
+    "Hardware Debugging",
+    "Version Control",
+    "Build Automation",
+    "Test Automation",
+    "Continuous Integration",
+    "Audio and Music Technology"
+  ],
+  "preferred_skills": [
+    "Scripting and Tooling Automation",
+    "Production Engineering",
+    "QA and Testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Deliver embedded software features in current projects",
+    "Develop tools, scripts and automation to improve engineering workflows",
+    "Investigate, debug and test software running on real hardware",
+    "Contribute to maintenance of products and systems",
+    "Own your learning and adapt quickly to feedback"
+  ],
+  "role_category": "embedded_systems",
+  "location": "High Wycombe, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 79,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Bare-metal firmware in C on real silicon: STM32 Cortex-M4 temperature monitor programmed directly at register level (GPIO, TIM2, ADC1, I2C1), 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz rate",
+      "Debugging software on real hardware is the single strongest match: resolved 11 integration failures on the COFFIN capstone (false-positive detections, servo brown-out, stale-frame capture) to 10/10 pick reliability; sensor jitter resolved by calibration on the gesture glove; oscilloscopes and logic analyzers listed as working tools",
+      "Tools, scripts and automation for engineering workflow: CARLA pipeline generated ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation; Cython-accelerated BPE tokenizer at 4-5.5x over pure Python; pynvml/psutil benchmark harnesses across HellaSwag, GSM8K and ARC",
+      "C++ on embedded targets: two-link IK on Arduino in C++, interrupt-driven 4-bit quadrature state machine on Arduino Due, custom CUDA C++ kernels for VGG16",
+      "Python is the primary working language across every project, which matches the JD's 'some familiarity of Python' with room to spare",
+      "Exactly the 'tell us what you built' profile the posting asks for: capstone, club robotics, from-scratch ASR and GPT-2, CanSat, Robocon - all self-driven builds with stated challenges and outcomes"
+    ],
+    "real_gaps": [
+      "No continuous integration evidence anywhere in the profile - no Jenkins, GitHub Actions, GitLab CI pipeline, or automated build server work; Git and GitLab appear only as version control",
+      "No automated test suite or test-harness work; testing in the profile is manual bench validation and benchmark scripts, not a regression suite",
+      "No audio or music technology product work - DSP coursework and the mel-spectrogram ASR encoder are the only audio-adjacent signal processing, and neither touches real-time audio interfaces, USB audio, or audio codecs",
+      "No production engineering or QA process exposure; all hardware work is prototype-scale, single-unit",
+      "Seniority and eligibility mismatch, stated as prose not scored: this is a 12-month UK industrial placement year aimed at an undergraduate who returns to university afterwards. Justin has already completed an M.S., which makes him structurally ineligible for most placement schemes regardless of skill"
+    ],
+    "overstated_by_keywords": [
+      "Build automation - CMake is listed in the skills block but no project shows a build system being designed, maintained, or automated",
+      "Continuous integration was counted as adjacent via Git/GitLab; that is version control, not CI, and a hiring manager would not accept the substitution"
+    ],
+    "understated_by_keywords": [
+      "Audio signal processing depth: the from-scratch ASR built an 80-channel mel spectrogram encoder, which is real audio DSP the keyword pass scored only as 'adjacent'",
+      "The 'developing tools and automation to improve engineering workflows' responsibility is one of the best-evidenced things in the profile but string-matched on almost nothing",
+      "Cross-team collaboration with hardware, QA and production: ARC general secretary owned wiring, interfacing and integration across mechanical and design teams on Robocon"
+    ],
+    "screening_gaps": [
+      "Placement-year eligibility: the scheme targets an undergraduate on a sandwich year who returns to university afterwards. An M.S. graduate is filtered out at the first screen no matter how the skills read.",
+      "UK right to work: no UK visa, and at 26,250 GBP the salary sits far below the 38,290 GBP Skilled Worker new-entrant floor, so this role cannot be sponsored even if the team wanted to.",
+      "No continuous integration, build automation or automated testing evidence - the JD names all three explicitly and the profile answers only with Git."
+    ],
+    "recommend_apply": false,
+    "reasoning": "On pure engineering substance this is one of the cleanest matches in the pipeline: the JD asks for C/C++, Python, curiosity-driven personal builds, and hands-on debugging of software running on real hardware, and Justin has concrete, specific evidence for every one of those. The gap is not skill, it is structure. A 12-month UK placement year at 26,250 GBP is an undergraduate sandwich-year scheme, unsponsorable at that salary and normally restricted to students returning to university, so an M.S. graduate applying from Texas is rejected on eligibility long before anyone reads the project list.",
+    "calibration_delta": -4.0
+  }
+}

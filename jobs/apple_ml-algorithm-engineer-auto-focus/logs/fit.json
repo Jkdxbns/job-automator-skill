@@ -1,0 +1,120 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Algorithm Engineer - Auto Focus",
+  "job_slug": "ml-algorithm-engineer-auto-focus",
+  "match_pct": 45.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 20,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "TFLite",
+    "Python",
+    "C",
+    "Computer Vision",
+    "Depth Estimation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LiteRT",
+      "you_have": "TFLite"
+    },
+    {
+      "jd_skill": "Dataset curation and data augmentation",
+      "you_have": "Medical imaging dataset work (BraTS segmentation)"
+    },
+    {
+      "jd_skill": "Low-level vision tasks",
+      "you_have": "Depth estimation, image processing pipelines"
+    },
+    {
+      "jd_skill": "Temporal network dataset design",
+      "you_have": "ASR/transformer sequence modeling"
+    }
+  ],
+  "missing_skills": [
+    "Auto-focus algorithms",
+    "Stereo disparity/depth estimation",
+    "Optical flow estimation",
+    "Sensor fusion",
+    "Defocus/blur estimation",
+    "Optics knowledge (PSF/MTF/SFR/Acutance)",
+    "Publications (CVPR/ICCV/ECCV) or patents",
+    "Apple Neural Engine (ANE)",
+    "ISP pipeline design"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "TensorFlow",
+    "TFLite",
+    "LiteRT",
+    "Python",
+    "C",
+    "depth estimation",
+    "optical flow",
+    "sensor fusion",
+    "dataset curation",
+    "data augmentation",
+    "computer vision",
+    "auto-focus",
+    "publications",
+    "patents"
+  ],
+  "required_skills": [
+    "MS in CS/ML/EE",
+    "Dataset definition for ML training on low-level vision tasks",
+    "Dataset curation and data augmentation strategies",
+    "PyTorch or TensorFlow/TFLite/LiteRT",
+    "Python",
+    "C"
+  ],
+  "preferred_skills": [
+    "Auto-focus algorithms",
+    "Stereo disparity/depth estimation",
+    "Defocus/blur estimation",
+    "Optical flow estimation",
+    "Sensor fusion",
+    "Temporal network dataset design",
+    "Optics knowledge (PSF, DoF, MTF, SFR, Acutance)",
+    "Publications (CVPR/ICCV/ECCV) or patents"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own end-to-end architecture and productization of ML-based auto-focus algorithms",
+    "Drive long-term ML roadmap for AF",
+    "Architect solutions using ANE, ISP pipelines, TrueDepth, LiDAR",
+    "Lead cross-functional work with SOC architecture, camera hardware, firmware teams",
+    "Act as technical pillar/mentor"
+  ],
+  "role_category": "ml_systems",
+  "location": "Cupertino, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

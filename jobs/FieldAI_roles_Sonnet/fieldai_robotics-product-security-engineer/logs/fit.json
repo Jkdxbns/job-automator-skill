@@ -1,0 +1,102 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Product Security Engineer",
+  "job_slug": "robotics-product-security-engineer",
+  "match_pct": 53.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "robotics platforms (ROS2, MoveIt, RViz, YOLO)",
+    "perception / computer vision pipelines (YOLO, OpenCV, visual servoing)",
+    "embedded systems / bare-metal C (STM32 Cortex-M4, FreeRTOS, UART/I2C/SPI)",
+    "edge AI deployment (NVIDIA Jetson, TensorRT, faster-whisper, ASR)",
+    "real hardware / sensor deployments (ToF sensors, I2C mux, Bluetooth, Arduino/Jetson integration)",
+    "autonomous / robotics software (DH kinematics, forward kinematics, ROS2 Humble/Noetic)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "secure system design",
+      "you_have": "embedded/robotics system design (ROS2 architecture, STM32 bare-metal, sensor integration, Jetson pipelines) \u2014 no security-focused design"
+    },
+    {
+      "jd_skill": "deployment security",
+      "you_have": "hardware deployment experience (capstone, internships) with some Linux/network config (systemd, static IP), but no security-hardened deployment or adversarial testing"
+    },
+    {
+      "jd_skill": "security of deployed autonomous systems",
+      "you_have": "built deployed robotics/autonomy systems (COFFIN arm, tracking turret, CARLA driving), but from a functionality/performance angle, not security"
+    }
+  ],
+  "missing_skills": [
+    "security engineering / cybersecurity specialization",
+    "threat modeling (formal or informal)",
+    "adversarial assessment / red-team testing",
+    "penetration testing of embedded or robotic systems",
+    "security-focused secure design practices (encryption, access control, secure boot, integrity)"
+  ],
+  "top_ats_keywords": [
+    "security engineer",
+    "robotics security",
+    "threat modeling",
+    "autonomous systems",
+    "secure design",
+    "deployment security",
+    "adversarial assessment",
+    "field deployment",
+    "embedded security"
+  ],
+  "required_skills": [
+    "security engineering for autonomous/robotic platforms",
+    "threat modeling",
+    "secure system design",
+    "deployment security",
+    "adversarial assessment of robotic platforms",
+    "security of deployed autonomous systems"
+  ],
+  "preferred_skills": [
+    "robotics / autonomy systems experience",
+    "security assessment / penetration testing of embedded/autonomous systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "secure autonomous robotic platforms in complex real-world environments",
+    "design, assess, and improve security of deployed robotic systems",
+    "secure system design and threat modeling",
+    "deployment security for field systems",
+    "adversarial assessment of robotic platforms"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship/clearance/ITAR/citizenship block mentioned; location conflict possible (Irvine CA in-office implied, candidate in Arlington TX willing to relocate/remote OK \u2014 not a hard blocker). Main gap is domain (security engineering), not a procedural blocker."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

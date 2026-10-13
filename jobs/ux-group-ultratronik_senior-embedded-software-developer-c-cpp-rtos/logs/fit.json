@@ -1,0 +1,212 @@
+{
+  "company": "UX Group (Ultratronik GmbH)",
+  "company_slug": "ux-group-ultratronik",
+  "role": "Senior Embedded Software Developer / Embedded Software Engineer (m/f/d) C/C++ & RTOS",
+  "job_slug": "senior-embedded-software-developer-c-cpp-rtos",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 6,
+    "missing_count": 4,
+    "jd_ask_size": 28,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "FreeRTOS",
+    "ARM Cortex-M",
+    "embedded application development",
+    "device and interface driver development",
+    "UART",
+    "USB",
+    "SPI",
+    "I2C",
+    "control algorithms",
+    "Git",
+    "Linux development environment",
+    "CMake",
+    "circuit diagram reading",
+    "performance optimization",
+    "system integration",
+    "state machines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Modern C++ (C++11/14/17)",
+      "you_have": "C++ / CUDA C++ (no modern-C++ idiom depth)"
+    },
+    {
+      "jd_skill": "ThreadX",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "JTAG/SWD debugging",
+      "you_have": "Logic analyzers / oscilloscopes / ST-Link bring-up"
+    },
+    {
+      "jd_skill": "cross-compilation",
+      "you_have": "ARM bare-metal STM32 toolchain builds"
+    },
+    {
+      "jd_skill": "STM32CubeMX",
+      "you_have": "STM32 bare-metal register-level peripheral config"
+    },
+    {
+      "jd_skill": "Embedded GUI (TouchGFX/LVGL/uGFX)",
+      "you_have": "PyQt / PySide6 GUIs, OLED display driving"
+    }
+  ],
+  "missing_skills": [
+    "unit testing",
+    "static code analysis",
+    "continuous integration",
+    "Scrum/Kanban"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "FreeRTOS",
+    "ThreadX",
+    "RTOS",
+    "ARM Cortex-M",
+    "embedded software",
+    "firmware",
+    "device drivers",
+    "UART",
+    "USB",
+    "SPI",
+    "I2C",
+    "STM32CubeMX",
+    "TouchGFX",
+    "LVGL",
+    "control algorithms",
+    "JTAG",
+    "SWD",
+    "CMake",
+    "cross-compilation",
+    "Git",
+    "Linux",
+    "unit tests",
+    "static code analysis",
+    "continuous integration",
+    "Scrum"
+  ],
+  "required_skills": [
+    "C",
+    "Modern C++",
+    "FreeRTOS",
+    "ARM Cortex-M",
+    "embedded application development",
+    "device and interface driver development",
+    "UART",
+    "USB",
+    "SPI",
+    "I2C",
+    "control algorithms",
+    "Git",
+    "Linux development environment",
+    "CMake",
+    "cross-compilation",
+    "JTAG/SWD debugging",
+    "circuit diagram reading",
+    "performance optimization",
+    "system integration"
+  ],
+  "preferred_skills": [
+    "ThreadX",
+    "STM32CubeMX",
+    "TouchGFX",
+    "LVGL",
+    "uGFX",
+    "Scrum",
+    "Kanban",
+    "unit testing",
+    "static code analysis",
+    "continuous integration"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop hardware-related embedded applications on FreeRTOS/ThreadX for ARM Cortex-M",
+    "Design and implement backend functionality and software interfaces to subsystems and UIs in C and C++",
+    "Design and implement device and interface drivers (UART, USB, SPI, I2C)",
+    "Model and implement control algorithms for embedded systems",
+    "Contribute to embedded GUI implementation with TouchGFX, LVGL or uGFX",
+    "Run code reviews and enforce code quality and maintainability",
+    "Analyze and optimize runtime behaviour, memory requirements and system performance",
+    "Work agile on client projects with the customer embedded in the team (Jira, reviews, retros)"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Gilching, Bavaria, Germany",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal driver development on Cortex-M is concretely backed: STM32 Bare-Metal Temperature Monitor programs GPIO, TIM2, ADC1 and a low-level I2C driver directly at register level, at 3.68 KB Flash / 1.58 KB RAM and a deterministic 1 Hz update rate - exactly the 'device and interface drivers' plus 'memory requirements' asks.",
+      "FreeRTOS on ARM Cortex-M is real, not a listing: Object Tracking Turret runs FreeRTOS with mutexes for shared-memory task coordination on STM32, with interrupt-driven UART command handling and multi-servo PWM.",
+      "Control engineering is the strongest single match: Robocon holonomic drive derives heading from dual-axis quadrature encoder odometry (2400 CPR) and feeds angular error back into rotation PWM, with atan2 angle-weighted joystick-to-wheel mixing to kill PWM saturation - modelled and implemented control, not library calls.",
+      "Hardware interfaces span the JD list with working evidence: UART Jetson-to-STM32 bridge, I2C via TCA9548A mux and VL53L0X ToF, SPI in the embedded stack, USB Host Shield for Xbox control, plus BLE/Classic.",
+      "Circuit-diagram and EE understanding exceeds what a software req usually needs: custom single-layer PCBs fabricated in EAGLE, Proteus verification, oscilloscopes and logic analyzers.",
+      "Git and Linux-based development are solid: GitLab version control, systemd unit files with auto-restart and non-root isolation, static IP networking, XRDP administration of a headless Jetson.",
+      "Interrupt-driven, from-first-principles firmware work recurs across projects (4-bit A/B quadrature state machine on hardware interrupts, 15 kHz PWM via DuePWM, fail-safe state machine on controller disconnect)."
+    ],
+    "real_gaps": [
+      "Modern C++ (C++11/14/17) - C++ appears only as two-link IK on Arduino and CUDA C++ kernels; nothing in the profile evidences STL, RAII, templates, or object-oriented application/backend design in C++.",
+      "ThreadX - no exposure; only FreeRTOS.",
+      "Embedded GUI frameworks (TouchGFX, LVGL, uGFX) - the closest evidence is an OLED distance display and PySide6/PyQt desktop GUIs, which is a different discipline from embedded graphics on Cortex-M.",
+      "Unit testing, static code analysis and continuous integration - no test suite, no linting/analysis tooling, no CI pipeline anywhere in the profile.",
+      "USB as a designed interface/driver (device classes, stacks) - USB shows up only as host-side Xbox controller input.",
+      "JTAG/SWD debugger-driven analysis - measurement tools are listed (oscilloscopes, logic analyzers) but no debug-probe workflow, watchpoints or trace analysis is evidenced.",
+      "Senior-level scope: 0 years full-time professional development, 7 internships, no billable client-project delivery or ownership of a shipped production embedded product - the JD centres on senior ownership inside client projects.",
+      "Agile delivery practice (Scrum/Kanban, Jira on client engagements) - team leadership is evidenced, formal agile ceremonies are not."
+    ],
+    "overstated_by_keywords": [
+      "Modern C++ - counted as Adjacent off 'C/C++' and 'CUDA C++', but the JD wants 'very good knowledge of modern C++' for application and backend logic, which the profile does not demonstrate.",
+      "Performance optimization - the strong numbers (5.2x TensorRT, 1.5-2x CUDA kernels, 35% coalescing gain) are GPU-side; embedded runtime/footprint optimization is evidenced only by the 3.68 KB Flash temperature monitor.",
+      "Embedded GUI counted as Adjacent - PyQt/PySide6 and an OLED readout do not transfer to TouchGFX/LVGL widget, framebuffer and rendering work.",
+      "System integration counted as Have at senior scope - COFFIN integration is real (11 failures resolved, 100% pick reliability) but it is capstone scope, not architecture ownership across a client product."
+    ],
+    "understated_by_keywords": [
+      "Control algorithm design and implementation - the keyword pass sees 'Closed-Loop Feedback Control' as one term, but Robocon shows derived odometry-based heading correction, atan2 mixing derivation, and 4-bit quadrature decoding written from first principles.",
+      "Memory-constrained firmware engineering - an explicit 3.68 KB Flash / 1.58 KB RAM figure directly answers the JD's 'optimize memory requirements' ask and no keyword captures it.",
+      "Hardware bring-up and debugging judgement - 11 documented integration failures (false positives, servo brown-out, stale-frame capture) resolved end to end, which is the analysis skill the debugging bullet is really screening for.",
+      "Cross-compilation and toolchain work is implicit in every STM32/Arduino/Jetson build but never named as a skill."
+    ],
+    "screening_gaps": [
+      "Senior-level track record: the title and the 'Senior Software Developer (m/f/d) Application (RTOS)' framing means billable client-project seniority, and the profile has 0 years full-time - this is the first filter a German consultancy applies.",
+      "Modern C++ depth: the req names C and modern C++ as the core programming ask, and the profile cannot defend C++11/14/17 idiom, STL or OO embedded application design under a technical screen.",
+      "Embedded GUI plus the QA stack (TouchGFX/LVGL, unit tests, static analysis, CI): four listed asks with no backing at all, and the GUI integration bullet is a named responsibility, not a nice-to-have."
+    ],
+    "recommend_apply": true,
+    "reasoning": "On skill and domain fit this is one of the closer embedded reqs in the funnel: FreeRTOS on Cortex-M, register-level driver work, the full UART/SPI/I2C interface set, real control-algorithm derivation, PCB/schematic literacy and Linux/Git are all concretely backed. The gaps are narrow but they sit exactly where the JD puts weight - modern C++ for application and backend logic, embedded GUI frameworks, and the test/static-analysis/CI discipline a service provider sells to clients. Worth an application because the technical core genuinely overlaps and Gilching is a Blue Card shortage-occupation market with up to 80% remote, but expect the senior framing and the C++ depth probe to be where it is decided.",
+    "calibration_delta": 7.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-05",
+    "channel": "application",
+    "notes": "Form rejection (German email): not shortlisted."
+  }
+}

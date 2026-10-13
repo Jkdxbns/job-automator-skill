@@ -1,0 +1,155 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff MLOps Engineer",
+  "job_slug": "staff-mlops-engineer",
+  "match_pct": 47.4,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 4,
+    "missing_count": 18,
+    "jd_ask_size": 38,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "ROS2 / ROS",
+    "TensorRT",
+    "PyTorch / model evaluation / training",
+    "YOLO / object detection / visual servoing",
+    "Embedded / STM32 bare-metal C / FreeRTOS",
+    "NVIDIA Jetson / embedded deployment",
+    "ONNX / TFLite packaging (mobile/embedded export)",
+    "Linux / systemd / static IP / environment-based config / XRDP",
+    "Git",
+    "Flask",
+    "OpenCV",
+    "Cython",
+    "Quantization / 8-bit quantization / model compression",
+    "Model evaluation / accuracy-latency tradeoff analysis",
+    "Distributed / service-oriented pipeline design (project-level)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Service-oriented architecture / cross-system contracts (production scale)",
+      "you_have": "Project-level distributed service architecture (COFFIN WebSocket pipeline; Frame Simulator modular decoupled architecture)"
+    },
+    {
+      "jd_skill": "Dataset pipeline / data lifecycle work (not versioning/lineage)",
+      "you_have": "Custom dataset pipeline and preprocessing (BraTS 2020 augmentation/batch-loading; medical billing dataset preprocessing; toothbrush dataset curation/annotation; data-generation pipeline in CARLA (~5,000 YOLO / ~3,000 UFLD frames with zero manual annotation)"
+    },
+    {
+      "jd_skill": "Cross-functional technical leadership / mentoring student/research teams",
+      "you_have": "Led 7-person research team (Teesside \u2014 took over as team lead mid-project to restructure and deliver within 6-week window) and 25-member robotics team (ARC \u2014 mechanical, PCB, AI/ML integration end-to-end); authored/taught Python course"
+    },
+    {
+      "jd_skill": "Evaluation framework / metrics that gate releases",
+      "you_have": "Medical imaging evaluation framework (Dice Score, IoU) and accuracy-latency trade-off reporting; training/evaluation loops (perplexity, accuracy, WER) \u2014 but no formal simulation-evaluation harness or policy-gating framework"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes / service-oriented production systems (no profile evidence \u2014 no Kubernetes, no service mesh)",
+    "Go / Rust / C++ at systems-level for production MLOps platforms (profile has C/C++/CUDA but not Go/Rust and not production systems-level code)",
+    "Production MLOps platform ownership (dataset lifecycle, experiment tracking, model registry, evaluation, serving) \u2014 candidate has 0 years full-time, internships/research only",
+    "Dataset versioning / lineage tools (DVC, LakeFS, Delta) \u2014 not mentioned in profile",
+    "Experiment tracking platforms (MLflow, Weights & Biases, Determined) \u2014 not mentioned",
+    "Model registry / promotion path (trained -> qualified -> deployed) \u2014 not mentioned",
+    "Formal evaluation and qualification harnesses (offline benchmarks, simulation rollout, policy-gating framework) \u2014 profile has evaluation metrics but no harness framework",
+    "Cloud infrastructure (AWS / GCP / Azure) \u2014 not mentioned",
+    "Docker \u2014 not mentioned",
+    "Modern CI/CD workflows \u2014 not mentioned",
+    "Robot fleet deployment, rollback, on-robot versioning, observability of deployed policy \u2014 profile has single-device embedded deployment but no fleet-level rollback/versioning/observability",
+    "RL training / evaluation infrastructure (rollout workers, replay buffers, sim-eval harnesses) \u2014 profile has supervised learning only; no RL infrastructure",
+    "Humanoid robotics / dexterous manipulation / teleoperation data domain \u2014 profile has 6-DoF arm and pick-and-place but not humanoid/dexterous manipulation",
+    "Simulation-in-the-loop evaluation (IsaacSim, MuJoCo) \u2014 profile uses ROS/MoveIt/RViz/CARLA but not IsaacSim/MuJoCo",
+    "Policy gating / shadow deployments / staged rollout strategies \u2014 not mentioned",
+    "Production-scale MLOps experience (4+ years owning a production MLOps platform) \u2014 profile is new-grad with internships/research roles only",
+    "Mentorship of mid-level and senior engineers \u2014 profile led student/research teams only",
+    "Open-source contributions to MLOps tooling \u2014 not mentioned"
+  ],
+  "top_ats_keywords": [
+    "MLOps",
+    "dataset versioning",
+    "experiment tracking",
+    "model registry",
+    "evaluation harness",
+    "policy gating",
+    "Kubernetes",
+    "Python",
+    "C++",
+    "ONNX",
+    "TensorRT",
+    "robot",
+    "autonomy",
+    "humanoid robotics",
+    "teleoperation",
+    "simulation",
+    "IsaacSim",
+    "MuJoCo",
+    "cloud",
+    "Docker",
+    "CI/CD",
+    "RL"
+  ],
+  "required_skills": [
+    "Python",
+    "Go or Rust or C++ (systems-level language)",
+    "MLOps platform end-to-end (dataset lifecycle/versioning/lineage, experiment tracking, model registry, evaluation, serving/packaging/deployment)",
+    "Kubernetes / service-oriented systems design",
+    "Dataset versioning and lineage (DVC, LakeFS, Delta, or equivalent)",
+    "Experiment tracking (MLflow, Weights & Biases, Determined)",
+    "Model registry with promotion path (trained -> qualified -> deployed)",
+    "Evaluation and qualification harnesses (offline benchmarks, simulation rollouts, policy-gating)",
+    "Cloud infrastructure (AWS / GCP / Azure)",
+    "Docker",
+    "Git",
+    "Modern CI/CD workflows"
+  ],
+  "preferred_skills": [
+    "ONNX packaging / ONNX Runtime",
+    "TensorRT",
+    "torch.compile",
+    "Edge / embedded / on-device inference (robot targets)",
+    "Robot fleet deployment, rollback, on-robot versioning, observability",
+    "RL training and evaluation infrastructure (rollout workers, replay buffers, sim-eval)",
+    "Humanoid robotics / dexterous manipulation / teleoperation data domains",
+    "Simulation-in-the-loop evaluation (IsaacSim, MuJoCo, or equivalent)",
+    "Policy gating / shadow deployments / staged rollout strategies",
+    "Open-source contributions to MLOps platform tooling (MLflow, BentoML, KServe, Ray Serve)"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own technical direction for MLOps platform: dataset lifecycle, experiment tracking, model registry, evaluation harnesses, serving/packaging/deployment to robot",
+    "Cross-team technical point of contact (Autonomy, Data Platform, TeleOp) for model lifecycle and platform contracts",
+    "Design dataset layer: versioning, lineage, splits, labeling-integration handoff; ensure reproducibility (data + code traceability)",
+    "Build model registry: versioned artifacts, metadata, evaluation results, lineage, approval workflows; define promotion path",
+    "Own evaluation/qualification harnesses and metrics framework that gates releases to Apollo",
+    "Own serving/deployment path to robot: packaging (ONNX / TensorRT / torch.compile), on-robot versioning, rollback, observability of deployed policy behavior; coordinate telemetry seam",
+    "Mentor mid-level and senior engineers; lead by influence across teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Onsite - Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

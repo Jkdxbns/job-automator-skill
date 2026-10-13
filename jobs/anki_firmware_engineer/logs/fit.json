@@ -1,0 +1,71 @@
+{
+  "company": "Anki (Digital Dream Labs)",
+  "company_slug": "anki",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware_engineer",
+  "match_pct": 60.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["Embedded firmware development", "C/C++", "FreeRTOS/RTOS", "I2C", "SPI", "PCB design/reading", "Hardware debug tools (oscilloscope/logic analyzer)"],
+  "missing_skills": ["ESP-IDF", "WiFi communication", "Protobuf", "I2S"],
+  "adjacent_skills": [
+    {"jd_skill": "Memory management for low-memory devices", "you_have": "Flash/RAM-budget tracking on STM32 bare-metal firmware (3.68KB/1.58KB)"},
+    {"jd_skill": "Unit testing of firmware modules", "you_have": "General software testing, no embedded-specific unit test bullets"},
+    {"jd_skill": "Architecture diagrams/documentation", "you_have": "General technical documentation across research/capstone work"}
+  ],
+  "top_ats_keywords": ["ESP32", "ESP-IDF", "FreeRTOS", "C/C++", "I2C", "I2S", "SPI", "WiFi", "Protobuf", "PCB", "memory management", "unit testing", "test fixtures", "factory firmware"],
+  "key_responsibilities": [
+    "Design and architect robot firmware with other firmware engineers",
+    "Own modules and deliver readable code",
+    "Document code and visualize architecture with engineering diagrams",
+    "Debug existing code",
+    "Create a test plan to deploy factory firmware using test fixtures",
+    "Perform unit testing on firmware modules"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "FreeRTOS with mutexes for real-time task coordination, directly on point for the RTOS basic qualification (Object Tracking Turret)",
+      "Bare-metal C firmware on STM32 Cortex-M4: register-level GPIO/timer/ADC/I2C work with measured Flash/RAM budget, showing real low-memory firmware discipline",
+      "I2C hands-on across multiple projects (VL53L0X, TCA9548A mux, custom low-level I2C driver) and UART protocol experience",
+      "PCB design and fabrication in EAGLE plus sensor wiring, which covers the 'reading PCB diagrams' preferred qualification"
+    ],
+    "real_gaps": [
+      "Zero ESP32/ESP-IDF experience anywhere in the profile, despite ESP32 being the named chip family for this exact role",
+      "No WiFi communication or Protobuf experience",
+      "No I2S experience (I2C and SPI are present, I2S is not)",
+      "No production/factory firmware shipping experience — everything embedded is academic or capstone scope, not a released product with test fixtures",
+      "No explicit unit-testing-of-firmware-modules evidence",
+      "0 full-time years against a 3+ year (5+ preferred) experience bar"
+    ],
+    "overstated_by_keywords": [
+      "SPI — appears in the keyword list but no project bullet demonstrates an actual SPI driver or peripheral",
+      "Hardware debug tools (oscilloscope/logic analyzer) — listed as a skill but not backed by a specific bullet"
+    ],
+    "understated_by_keywords": [],
+    "screening_gaps": [
+      "No ESP32/ESP-IDF experience at all, the platform the job is literally named after",
+      "No professional/production firmware experience — 3+ years required, resume shows 0 full-time years and no shipped factory firmware",
+      "No WiFi or Protobuf experience, both named preferred quals for the wireless/comms side of the role"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The RTOS, bare-metal C, I2C, and PCB fundamentals are real and would let him pick up ESP-IDF quickly, but the role is named after a specific chip family and SDK he has zero exposure to, and every embedded credential he has is academic rather than shipped-product firmware. Worth a Can Try application, not a strong match.",
+    "calibration_delta": 8.7
+  }
+}

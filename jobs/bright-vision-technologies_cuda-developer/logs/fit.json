@@ -1,0 +1,141 @@
+{
+  "company": "Bright Vision Technologies",
+  "company_slug": "bright-vision-technologies",
+  "role": "CUDA Developer",
+  "job_slug": "cuda-developer",
+  "match_pct": 55.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 10,
+    "missing_count": 4,
+    "jd_ask_size": 20,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "CUDA C/C++",
+    "GPU architecture",
+    "memory hierarchy",
+    "MPI",
+    "C++",
+    "TensorRT"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NCCL",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "GPU profiling",
+      "you_have": "pynvml profiling"
+    },
+    {
+      "jd_skill": "custom kernels in ML frameworks",
+      "you_have": "Custom CUDA conv kernels replacing TorchScript layers (VGG16)"
+    },
+    {
+      "jd_skill": "numerical methods",
+      "you_have": "MPI Hodgkin-Huxley simulation"
+    },
+    {
+      "jd_skill": "linear algebra",
+      "you_have": "Convolution kernels, robot kinematics (DH)"
+    },
+    {
+      "jd_skill": "Triton",
+      "you_have": "CUDA C++ kernels"
+    },
+    {
+      "jd_skill": "CUTLASS",
+      "you_have": "CUDA C++ kernels"
+    },
+    {
+      "jd_skill": "vLLM",
+      "you_have": "TensorRT / inference engine"
+    },
+    {
+      "jd_skill": "FasterTransformer",
+      "you_have": "TensorRT / inference engine"
+    },
+    {
+      "jd_skill": "distributed training",
+      "you_have": "MPI / SLURM cluster"
+    }
+  ],
+  "missing_skills": [
+    "LLVM",
+    "MLIR",
+    "open-source contributions",
+    "high-performance interconnect (InfiniBand/NVLink)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "GPU",
+    "NCCL",
+    "MPI",
+    "C++",
+    "TensorRT",
+    "Triton",
+    "CUTLASS",
+    "vLLM",
+    "LLVM",
+    "MLIR",
+    "profiling",
+    "linear algebra",
+    "distributed training"
+  ],
+  "required_skills": [
+    "CUDA C/C++",
+    "GPU architecture",
+    "memory hierarchy",
+    "GPU profiling",
+    "NCCL",
+    "MPI",
+    "custom kernels in ML frameworks",
+    "C++",
+    "linear algebra",
+    "numerical methods"
+  ],
+  "preferred_skills": [
+    "Triton",
+    "CUTLASS",
+    "TensorRT",
+    "FasterTransformer",
+    "vLLM",
+    "LLVM",
+    "MLIR",
+    "open-source contributions",
+    "distributed training"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "optimize compute-intensive GPU workloads",
+    "profile and tune production GPU systems",
+    "integrate custom kernels into ML frameworks",
+    "code/design review and mentor juniors"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Remote (U.S.)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

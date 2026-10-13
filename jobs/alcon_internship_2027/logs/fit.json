@@ -1,0 +1,107 @@
+{
+  "company": "Alcon",
+  "company_slug": "alcon",
+  "role": "Electrical & Computer Engineering Intern (2027 Summer)",
+  "job_slug": "eceng_intern_2027",
+  "job_id": "R-2026-49479",
+  "match_pct": 87.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 3,
+    "missing_count": 0,
+    "jd_ask_size": 15,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Real-time operating systems (FreeRTOS)",
+    "Embedded systems (STM32, Jetson, Raspberry Pi)",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "Microcontroller programming (32-bit ARM)",
+    "Debugging methodology",
+    "Robotics (ROS2, forward kinematics, control)",
+    "Machine vision (YOLO, OpenCV)",
+    "CAD (SolidWorks)",
+    "Python",
+    "Git version control"
+  ],
+  "adjacent_skills": [
+    "Embedded Linux (Linux + embedded systems background)",
+    "3D printing/Rapid prototyping (design/prototyping mindset)",
+    "Manufacturing automation (robotics/control systems basis)"
+  ],
+  "missing_skills": [
+    "Cobot-specific programming (UR RobotScript/ABB RAPID mentioned but not collaborative robotics)",
+    "Industrial PLC/SCADA experience",
+    "Medical device domain knowledge"
+  ],
+  "top_ats_keywords": [
+    "embedded systems",
+    "C/C++",
+    "microcontroller",
+    "firmware",
+    "RTOS",
+    "real-time",
+    "robotics",
+    "machine vision",
+    "debugging",
+    "oscilloscope",
+    "logic analyzer",
+    "CAD"
+  ],
+  "key_responsibilities": [
+    "Design and enhance custom laboratory and research equipment using CAD, 3D printing, rapid prototyping, and controls",
+    "Develop embedded software and firmware for 32-bit microcontrollers using C/C++, RTOS, and embedded Linux",
+    "Debug electronic and embedded systems using oscilloscopes, logic analyzers, multimeters",
+    "Support manufacturing automation projects involving cobots, programming, machine-vision systems",
+    "Develop robotics applications for patient positioning, simulation-to-real training, and deployment"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false
+  },
+  "hard_blockers": {
+    "triggered": false,
+    "reason": null,
+    "f1_sponsorship_allowed": true
+  },
+  "constraint_flags": {
+    "sponsorship": "No explicit requirement; internship doesn't require H1B sponsorship. F-1 CPT explicitly accommodated.",
+    "experience": "Internship role, no years required. Student/new-grad candidate. ALIGNED.",
+    "location": "Multiple US locations (TX, CA, GA). Willing to relocate. OK.",
+    "clearance": "None required. CLEAR.",
+    "ead_pending": "Yes, EAD not yet approved. Notice period: 4 weeks. May affect fast-track hiring timelines, but not a blocker."
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Strong Fit",
+    "calibration_delta": 9,
+    "strengths": [
+      "Embedded firmware development on 32-bit microcontrollers (STM32 Cortex-M4, bare-metal C, FreeRTOS with interrupt-driven UART and I2C protocols)",
+      "Real hardware debugging skills explicitly demonstrated (oscilloscopes, logic analyzers listed in skills; used in Object Tracking Turret and COFFIN projects)",
+      "Robotics and control systems foundation (ROS2, forward kinematics, UR5e/AL5B integration, vision-guided pick-and-place with servo control)",
+      "Vision systems integration (YOLO for real-time object detection, TensorRT optimization for edge deployment, multi-camera pipelines)"
+    ],
+    "real_gaps": [
+      "No cobot-specific programming (ABB RAPID and UR RobotScript mentioned in projects, but not collaborative robotics domain)",
+      "No industrial manufacturing automation or PLC/SCADA experience",
+      "No medical device domain knowledge (Alcon is eye-care medical device company)"
+    ],
+    "overstated_by_keywords": [
+      "CUDA/HPC background — strong but not relevant to this internship role"
+    ],
+    "understated_by_keywords": [
+      "Robotics work is comprehensive but may not surface as directly applicable to patient positioning (though control and kinematics transfer directly)",
+      "Integration of computer vision with real-time embedded systems (COFFIN TensorRT+YOLO+servo control) demonstrates the exact skill set for this role"
+    ],
+    "reasoning": "Justin's embedded systems and robotics foundation are exceptionally strong for this role. Core firmware development, debugging, and hardware integration are all backed by capstone and prior internship work. Gaps in cobots and medical device domain are learnable and expected for an intern; they're not blockers."
+  },
+  "application_notes": "This is a strong fit for an internship. The role aligns perfectly with Justin's M.S. capstone (COFFIN) and prior embedded/robotics work. Medical device domain is new but not a skill blocker at internship level. Strong recommendation to apply."
+}

@@ -1,0 +1,129 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Product Engineer, Labs",
+  "job_slug": "product-engineer-labs",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "UI / interface development",
+    "API / backend service",
+    "AI-enabled products",
+    "Robotics / embodied AI domain",
+    "Computer vision / perception",
+    "GPU / CUDA optimization",
+    "Edge / embedded deployment",
+    "Embedded / bare-metal C",
+    "Python engineering"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Frontend / interactive web applications",
+      "you_have": "Desktop / light web frameworks"
+    },
+    {
+      "jd_skill": "Data-intensive / media / document processing",
+      "you_have": "Image processing"
+    },
+    {
+      "jd_skill": "Production reliability / deploy / monitor",
+      "you_have": "System-level service / restart"
+    },
+    {
+      "jd_skill": "Integration across unfamiliar systems",
+      "you_have": "Embedded hardware / sensor interfaces"
+    },
+    {
+      "jd_skill": "Data models / database / storage",
+      "you_have": "Data acquisition / signal"
+    }
+  ],
+  "missing_skills": [
+    "Engineering experience (4+ years full-time / shipped products in production)",
+    "Full-stack web product development (frontend framework + backend data model + DB)",
+    "Data model / database design and storage troubleshooting",
+    "Production monitoring / testing infrastructure at scale",
+    "Direct user observation / ambiguous-to-release product judgment",
+    "Early-stage product scope / small-team release decisions",
+    "Document / media processing workflows",
+    "Human-review workflow design"
+  ],
+  "top_ats_keywords": [
+    "Product Engineer",
+    "Frontend",
+    "Backend",
+    "API",
+    "Data model",
+    "Database",
+    "Deploy",
+    "Monitor",
+    "Production",
+    "Web application",
+    "UI",
+    "Interactive",
+    "User-facing",
+    "AI-enabled",
+    "Robotics",
+    "Embodied AI",
+    "Integration",
+    "Full-stack",
+    "Ship products",
+    "Engineering experience"
+  ],
+  "required_skills": [
+    "Frontend / interactive web applications",
+    "Backend / API design",
+    "Data models / database / storage",
+    "Production deployment / reliability / monitoring",
+    "Direct user interaction / ambiguous requirements to release",
+    "Product judgment / scope decisions",
+    "Integration across unfamiliar systems"
+  ],
+  "preferred_skills": [
+    "Data-intensive applications",
+    "Media or document processing",
+    "AI-enabled products",
+    "Early-stage product development / small-team scope",
+    "Practical robotics / embodied AI domain knowledge"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build end-to-end product workflows (UI, APIs, data models, deploy)",
+    "Work directly with users and translate feedback into clear product requirements",
+    "Integrate and import/export across unfamiliar external systems",
+    "Own reliability: test, deploy, monitor, and improve production performance",
+    "Make product scope and judgment calls with a small team in ambiguous domains"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

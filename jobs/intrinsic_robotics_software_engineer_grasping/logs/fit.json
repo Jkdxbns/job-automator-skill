@@ -1,0 +1,93 @@
+{
+  "company": "Intrinsic",
+  "company_slug": "intrinsic",
+  "role": "Robotics Software Engineer - Grasping",
+  "job_slug": "robotics_software_engineer_grasping",
+  "match_pct": 64.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linear algebra",
+    "Spatial transformations",
+    "Kinematics",
+    "Hardware testing/deployment",
+    "Full-stack robotics systems",
+    "Master's degree"
+  ],
+  "adjacent_skills": [
+    "Grasping (COFFIN gripper control, not grasp planning)",
+    "Control systems (servo-level, not advanced controls)"
+  ],
+  "missing_skills": [
+    "2+ years professional robotics experience",
+    "Rigid body dynamics",
+    "Motion planning algorithms",
+    "PhD in robotics"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "robotics",
+    "grasping",
+    "manipulation",
+    "kinematics",
+    "motion planning",
+    "production code",
+    "hardware integration"
+  ],
+  "key_responsibilities": [
+    "Algorithm Development: Design, implement, maintain grasping algorithms",
+    "Problem Solving: Apply SOTA advances to real-world industrial problems",
+    "Technical Execution: Transform requirements into reliable, scalable solutions",
+    "System Reliability: Improve core robotics software, code quality"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": true
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Full-stack robotics architecture (COFFIN is production-grade end-to-end pipeline: mobile client → edge server → Jetson + Arduino)",
+      "C++ and Python production code across real hardware (CUDA kernels, ROS drivers, embedded systems)",
+      "Hardware integration and debugging (Jetson, Arduino, STM32, multiple robotic platforms)",
+      "Kinematics and forward kinematics (hand-computed DH tables, validated in ROS 2)",
+      "Real-time inference optimization (CUDA, TensorRT, 5.2× speedup demonstrations)"
+    ],
+    "real_gaps": [
+      "0 professional robotics years vs 2+ required — new grad to mid-level gap is high-friction at screen",
+      "No grasping algorithm or grasp planning projects — COFFIN is binary pick/place, not manipulation research",
+      "No motion planning algorithm development — MoveIt kinematics used but not trajectory planning algorithms",
+      "No rigid body dynamics or dynamics modeling — required for grasp force analysis and control",
+      "No industrial-scale robotics experience — all work is capstone/research scope, not production manufacturing"
+    ],
+    "overstated_by_keywords": [
+      "Robotics keyword doesn't distinguish between automation (COFFIN gripper) and grasping algorithm R&D"
+    ],
+    "understated_by_keywords": [
+      "CUDA + kinematics combination is relevant to grasping algorithm optimization (grasp quality metrics, multi-finger coordination)"
+    ],
+    "screening_gaps": [
+      "Does not meet 2+ years professional robotics requirement",
+      "No grasping algorithm or grasp planning background",
+      "No motion planning or trajectory optimization experience"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Strong fundamentals in robotics systems and hardware integration, but lacks the two anchors this role requires: professional depth (2+ FT years) and grasping-algorithm R&D. The role is mid-level; you're new grad. Better positioned after 1–2 years in robotics.",
+    "calibration_delta": 16.3
+  }
+}

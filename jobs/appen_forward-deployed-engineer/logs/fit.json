@@ -1,0 +1,105 @@
+{
+  "company": "Appen",
+  "company_slug": "appen",
+  "role": "Forward Deployed Engineer",
+  "job_slug": "forward-deployed-engineer",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 15,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Machine Learning",
+    "Model evaluation",
+    "Computer Science / Engineering degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLM training / evaluation workflows",
+      "you_have": "TinyLlama 8-bit quantization benchmarking, GPT-2 / SLM fine-tuning with perplexity evaluation"
+    },
+    {
+      "jd_skill": "annotation",
+      "you_have": "Curated and annotated 1,133-image YOLOv8 dataset"
+    },
+    {
+      "jd_skill": "reproducible scalable pipelines",
+      "you_have": "ASR and perception pipelines, SLURM-managed jobs"
+    },
+    {
+      "jd_skill": "GenAI",
+      "you_have": "SLM / GPT-2 fine-tuning"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "customer-facing technical role",
+    "solutions engineering / technical consulting",
+    "consultative client communication",
+    "data operations",
+    "data quality / validation frameworks",
+    "annotation guidelines"
+  ],
+  "top_ats_keywords": [
+    "GenAI",
+    "LLM",
+    "annotation",
+    "model evaluation",
+    "Python",
+    "SQL",
+    "data operations",
+    "solutions engineering",
+    "data quality"
+  ],
+  "required_skills": [
+    "customer-facing technical role",
+    "solutions engineering / technical consulting",
+    "GenAI / ML / model evaluation data",
+    "LLM training / annotation / evaluation workflows",
+    "consultative client communication",
+    "client engineering / ML team collaboration",
+    "Computer Science / Engineering degree"
+  ],
+  "preferred_skills": [
+    "Python",
+    "SQL"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "define client requirements and success criteria",
+    "shape annotation guidelines",
+    "deliver GenAI datasets meeting quality criteria",
+    "define validation and automation requirements",
+    "partner with engineering on reproducible observable pipelines",
+    "build reusable quality frameworks and validators"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (hybrid, 2 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

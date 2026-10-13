@@ -1,0 +1,205 @@
+{
+  "company": "Camlin",
+  "company_slug": "camlin",
+  "role": "Junior Firmware Engineer",
+  "job_slug": "junior-firmware-engineer",
+  "match_pct": 60.3,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 5,
+    "missing_count": 11,
+    "jd_ask_size": 34,
+    "req_cov": 0.643,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "C",
+    "Python",
+    "Bash",
+    "FreeRTOS",
+    "RTOS",
+    "microcontroller firmware",
+    "I2C",
+    "SPI",
+    "UART",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "CMake",
+    "Git",
+    "GitLab",
+    "Digital Electronics",
+    "hardware debugging",
+    "PCB design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FFT / digital filters / re-sampling",
+      "you_have": "Digital Signal Processing (coursework)"
+    },
+    {
+      "jd_skill": "DSP firmware (SHARC-class)",
+      "you_have": "STM32 Cortex-M4 bare-metal C"
+    },
+    {
+      "jd_skill": "Zephyr",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "RS485 / RS232",
+      "you_have": "UART"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "SHARC",
+    "RGMII",
+    "DNP",
+    "IEEE 1588",
+    "MQTT",
+    "TCL",
+    "Artifactory",
+    "Docker",
+    "signal generators",
+    "Agile",
+    "regulatory compliance"
+  ],
+  "top_ats_keywords": [
+    "DSP",
+    "microcontroller",
+    "real-time",
+    "C++",
+    "C",
+    "FreeRTOS",
+    "Zephyr",
+    "RTOS",
+    "FFT",
+    "digital filters",
+    "oscilloscope",
+    "logic analyzer",
+    "I2C",
+    "SPI",
+    "UART",
+    "RS485",
+    "RS232",
+    "RGMII",
+    "SHARC",
+    "CMake",
+    "GitLab",
+    "Docker",
+    "CI/CD",
+    "MQTT",
+    "DNP",
+    "1588"
+  ],
+  "required_skills": [
+    "DSP and microcontroller firmware",
+    "C++",
+    "C",
+    "FreeRTOS",
+    "Zephyr",
+    "RTOS",
+    "FFT",
+    "digital filters",
+    "re-sampling",
+    "digital electronics",
+    "oscilloscope",
+    "logic analyzer",
+    "signal generator",
+    "I2C",
+    "SPI",
+    "UART",
+    "RS485",
+    "RS232",
+    "RGMII",
+    "Bash",
+    "Python"
+  ],
+  "preferred_skills": [
+    "SHARC",
+    "CMake",
+    "GitLab",
+    "Docker",
+    "CI/CD",
+    "Artifactory",
+    "Git",
+    "Agile",
+    "DNP",
+    "IEEE 1588",
+    "MQTT",
+    "PCB rework",
+    "TCL"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "DSP/MCU firmware design and debug",
+    "Real-time latency/throughput constraints",
+    "Signal processing optimization",
+    "Code reviews and testing",
+    "Hardware/software root-cause debugging",
+    "Regulatory-compliant design",
+    "Technical documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Lisburn, Northern Ireland, UK (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware: timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver in 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz (STM32 Temperature Monitor)",
+      "Interrupt-driven real-time control: quadrature decoding state machine on hardware interrupts, 15 kHz PWM, closed-loop heading correction (Robocon); FreeRTOS + mutexes + UART on STM32 (Turret)",
+      "Serial protocols and hardware bring-up: UART/I2C/SPI, EAGLE PCBs, oscilloscope and logic analyzer use",
+      "Fixed-point integer arithmetic: QAT requantization multiplier+shift, pure-integer reference model, 99.996% match vs float",
+      "Toolchain basics: CMake, Git, GitLab, Bash, Python scripting"
+    ],
+    "real_gaps": [
+      "No FFT, digital-filter or resampling implementation running on an MCU/DSP; DSP is coursework plus offline wavelet denoising",
+      "No SHARC or any dedicated DSP-core firmware, no cycle-budget/latency profiling on a DSP",
+      "No RS485/RS232/RGMII, and no DNP3, IEEE 1588 or MQTT application-layer work",
+      "No Zephyr; FreeRTOS use is one mutex-level project",
+      "No formal real-time V&V or regulatory-standard design (power/rail), no Docker/CI-CD/Artifactory, no TCL",
+      "No signal generator use on record"
+    ],
+    "overstated_by_keywords": [
+      "Digital Signal Processing counted adjacent but is undergrad coursework, not firmware DSP",
+      "CMake and GitLab are thin (BARC GitLab for version control only; CMake mention only)"
+    ],
+    "understated_by_keywords": [
+      "BARC custom sym6+bior3.5 wavelet bank is genuine filter-design work, though offline Python, not real-time",
+      "Mel-spectrogram front end for ASR is signal-processing exposure",
+      "Timer-driven ADC sampling at a fixed rate in the STM32 project is the closest evidence to real-time DSP acquisition"
+    ],
+    "screening_gaps": [
+      "No real-time DSP implementation (FFT/filters/resampling on an MCU or DSP core, SHARC-class), the role's core",
+      "No industrial/power communications experience: RS485/RS232/RGMII and DNP/1588/MQTT",
+      "Thin RTOS and V&V depth: FreeRTOS in one project, no Zephyr, no formal verification or regulated-design record"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The MCU firmware, interrupt-driven peripheral work and lab-equipment base line up with a junior firmware role, and junior seniority fits. The DSP half of the title is unevidenced in firmware: filters and FFT exist only as coursework and offline Python. Reasonable as a junior stretch, expect to be probed on real-time signal processing.",
+    "calibration_delta": 3.3
+  }
+}

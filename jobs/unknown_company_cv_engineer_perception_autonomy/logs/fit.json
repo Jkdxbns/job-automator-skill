@@ -1,0 +1,61 @@
+{
+  "company": "Unknown (Drone Infrastructure Inspection)",
+  "company_slug": "unknown_company",
+  "role": "Computer Vision Engineer \u2014 Perception for Autonomy",
+  "job_slug": "cv_engineer_perception_autonomy",
+  "match_pct": 34.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 12,
+    "jd_ask_size": 23,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "C++",
+    "ROS2",
+    "Robotics",
+    "Depth Estimation"
+  ],
+  "adjacent_skills": [
+    "SLAM",
+    "Visual-Inertial Odometry",
+    "SfM",
+    "Sim-to-Real Transfer",
+    "Reconstruction Simulation"
+  ],
+  "missing_skills": [
+    "3DGS",
+    "NeRF",
+    "Bundle Adjustment",
+    "PX4/ArduPilot",
+    "Multi-view Geometry",
+    "Thermal/Lidar Fusion"
+  ],
+  "top_ats_keywords": [
+    "multi-view geometry",
+    "SLAM",
+    "SfM",
+    "PyTorch",
+    "bundle adjustment",
+    "ROS2",
+    "C++"
+  ],
+  "key_responsibilities": [
+    "3D reconstruction (Gaussian splatting, photogrammetry) from drone imagery",
+    "Pose and state estimation (bundle adjustment, RTK/GNSS/IMU fusion, VIO)",
+    "Simulation for autonomy training and evaluation",
+    "Change detection across time-separated reconstructions",
+    "Detection and auto-labeling models under latency/power constraints"
+  ],
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "hard_blocker": false
+  },
+  "llm_analysis": null
+}

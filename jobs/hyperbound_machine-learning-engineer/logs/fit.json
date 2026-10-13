@@ -1,0 +1,41 @@
+{
+  "company": "Hyperbound",
+  "company_slug": "hyperbound",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 71.4,
+  "missing_skills": ["distillation", "production-scale model serving infra", "agentic/sales domain experience"],
+  "adjacent_skills": ["model evaluation frameworks/benchmarks (research scale, not production regression suites)", "running open source models in production (has inference/research deployment, not live production ownership)"],
+  "top_ats_keywords": ["fine-tuning", "open source models", "on-device", "quantization", "distillation", "evaluation frameworks", "benchmarks", "regression suites", "model training", "production deployment"],
+  "key_responsibilities": [
+    "Fine-tune and deploy open source models to control cost, latency, and capability",
+    "Deploy models on-device under latency/privacy constraints (quantization, distillation)",
+    "Build evaluation frameworks, benchmarks, and regression suites",
+    "Own full model lifecycle end to end: training through production, and keeping it working"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Fine-tuning depth with real tradeoff analysis: TinyLlama 1.1B 8-bit quantization (bitsandbytes LLM.int8) cut GPU memory ~55% with <1% accuracy loss across HellaSwag/GSM8K/ARC (SLM Compression and Benchmarking project)",
+      "On-device deployment with measured latency wins: TensorRT-optimized YOLO on Jetson, 5.2x speedup (56.7ms to 10.9ms) in the COFFIN capstone; YOLOv8n exported to ONNX/TFLite for mobile at Tusk internship",
+      "Habit of building evaluation harnesses before trusting a change: perplexity + benchmark-suite tracking on the quantization project, WER tracking on the ASR-from-scratch build, DONUT fine-tune validated 55% to 93% accuracy at IIT Bombay"
+    ],
+    "real_gaps": [
+      "Distillation is entirely absent from the profile — quantization is well covered but no project touches student-teacher distillation, which the JD names as a distinct required technique",
+      "No evidence of live production model ownership: every project is a single-run academic, capstone, or internship deliverable with no continuous monitoring, rollback, or regression-gating discipline — the JD's 'before a customer finds out for us' framing implies exactly that discipline",
+      "No multi-tenant/cloud LLM serving experience — the 'production' deployment on record is single-device edge inference (Jetson), not concurrent request serving under real traffic, which is a different scaling problem",
+      "Zero adjacency to the sales/agentic/conversational domain — profile is vision, robotics, ASR, and embedded heavy; the only LLM-specific work (TinyLlama quant, GPT-2 from scratch, DONUT fine-tune) never touches roleplay scoring or conversation analysis",
+      "Seniority mismatch beyond keyword scope: JD wants autonomous end-to-end ownership with no management layer at senior-IC comp; the profile's only ownership/leadership experience is in student team contexts, not professional production engineering"
+    ],
+    "overstated_by_keywords": [
+      "On-device deployment was scored as a clean Have, but the real depth is single-device capstone/prototype work (Jetson dev kits), not fleet-scale customer devices with OTA model updates under varying privacy/latency constraints as the JD describes"
+    ],
+    "reasoning": "The technical fundamentals are genuinely there and backed by real metrics: fine-tuning, quantization, and edge inference optimization all show up with measured results, not just keyword mentions. But the JD is asking for someone to independently run production ML for a live customer-facing product, in an unfamiliar conversational domain, using a technique (distillation) that never appears in the profile — that combination of production-ops gap, domain gap, and seniority framing is a bigger fit problem than the 71% keyword score suggests."
+  }
+}

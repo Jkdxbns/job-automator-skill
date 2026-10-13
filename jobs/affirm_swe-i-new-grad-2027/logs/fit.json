@@ -1,0 +1,85 @@
+{
+  "company": "Affirm",
+  "company_slug": "affirm",
+  "role": "Software Engineer I (New Grad 2027)",
+  "job_slug": "swe-i-new-grad-2027",
+  "match_pct": 37.5,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 8,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Git",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "debugging",
+      "you_have": "hardware/firmware debugging (logic analyzers, oscilloscopes)"
+    },
+    {
+      "jd_skill": "software design",
+      "you_have": "C/C++ and Python systems projects"
+    }
+  ],
+  "missing_skills": [
+    "unit testing",
+    "code review",
+    "large code base navigation",
+    "extensible code"
+  ],
+  "top_ats_keywords": [
+    "unit testing",
+    "code review",
+    "debugging",
+    "software design",
+    "extensible code",
+    "large code base",
+    "communication"
+  ],
+  "required_skills": [
+    "Python",
+    "Git",
+    "unit testing",
+    "code review",
+    "debugging",
+    "software design",
+    "communication"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Contribute to team projects",
+    "Communicate risks and trade-offs",
+    "Balance speed and quality"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York, NY (hybrid 3 days/wk) or San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

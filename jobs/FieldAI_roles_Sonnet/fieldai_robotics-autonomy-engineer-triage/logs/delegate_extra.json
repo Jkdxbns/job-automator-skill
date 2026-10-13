@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "Edge AI + embedded deployment (Jetson + TensorRT + YOLO + faster-whisper, real hardware tested)",
+    "ROS2 robotics + perception + manipulation (capstone arm, turret, MoveIt, RViz, DH/kinematics)",
+    "CUDA/GPU kernel optimization (custom kernels, memory coalescing, 35% speedup)",
+    "Embedded C / bare-metal (STM32 Cortex-M4, FreeRTOS, interrupt-driven, UART/I2C/SPI)",
+    "ML model optimization + ASR (quantization ~55% VRAM reduction, custom BPE tokenizer, 15% WER ASR)",
+    "Real sensor integration (VL53L0X ToF, ADXL345 accelerometer, HC-05 Bluetooth, multi-servo PWM)"
+  ],
+  "real_gaps": [
+    "Localization / SLAM (missing from all listed experience and projects)",
+    "Production global-scale field deployment (internships only; no full-time company-scale deployment)",
+    "Formal safety / explainability / functional-safety certification (no ISO26262 or explainable-AI framework)",
+    "Enterprise-scale distributed/cloud infrastructure (limited to personal project exposure)",
+    "Full-time industry experience (new-grad; 0 years)"
+  ],
+  "reasoning": "Candidate profile (M.S. Computer Engineering, new-grad, 7 internships) is strongly aligned with an entry-level 'Triage' autonomy engineer role focused on embodied AI + robotics + edge deployment. Hard skills in ROS2, YOLO/OpenCV perception, manipulation (MoveIt/kinematics), embedded hardware (STM32/Jetson/sensors), CUDA, and ML optimization map closely to the JD's required perception/planning/manipulation/embedded/learning stack. The 'Triage' title and absence of a year requirement make this level-appropriate for a new-grad despite 0 full-time years. Key missing items are localization/SLAM, formal safety/explainability, and production global-scale deployment \u2014 none of which trigger a hard blocker for this entry-level role. No sponsorship, citizenship, ITAR, clearance, or senior-level conflict detected.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/1f75d9aa-0411-4f29-805d-a62720cbdeb2",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

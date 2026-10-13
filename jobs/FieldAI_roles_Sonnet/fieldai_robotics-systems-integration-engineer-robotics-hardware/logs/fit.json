@@ -1,0 +1,144 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Systems Integration Engineer, Robotics Hardware",
+  "job_slug": "robotics-systems-integration-engineer-robotics-hardware",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.1,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2 middleware (ROS2 Humble, ROS Noetic, MoveIt, RViz)",
+    "Python",
+    "C/C++",
+    "robotics software spanning controls, navigation, perception, kinematics",
+    "sim-to-real exposure (CARLA autonomous driving simulation, real robot deployment)",
+    "multi-platform robot integration (AL5B, UR5e, conceptual quadruped/wheeled)",
+    "embedded/electrical integration (STM32 bare-metal C, I2C/UART/SPI, sensors, PCB design)",
+    "cross-functional systems integration (Flutter+Flask+Jetson+Arduino full-stack robotics)",
+    "edge AI deployment (TensorRT-optimized YOLO, faster-whisper, Jetson)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "sim-to-real with RL-based autonomy policies (Isaac, Gazebo, MuJoCo)",
+      "you_have": "sim-to-real with CARLA (semantic segmentation, YOLO11n+UFLD), no RL policy validation specifically"
+    },
+    {
+      "jd_skill": "functional safety / ISO 26262 / ASIL / SOTIF",
+      "you_have": "awareness of safety/e-stop concepts via robotics projects; no formal certification or production safety-critical experience"
+    },
+    {
+      "jd_skill": "advanced controls (whole-body control, MPC, impedance/admittance, trajectory optimization)",
+      "you_have": "forward kinematics, DH parameters, visual servoing, basic trajectory planning; no MPC or whole-body control"
+    },
+    {
+      "jd_skill": "cross-functional hardware (BLDC motor controllers, power distribution, electrical systems)",
+      "you_have": "embedded C (STM32), I2C/SPI/UART, sensor integration, bare-metal drivers; not specifically BLDC controllers or industrial power distribution"
+    },
+    {
+      "jd_skill": "CAN bus / EtherCAT / real-time robotics protocols",
+      "you_have": "UART/I2C/SPI, Bluetooth BLE/Classic; no CAN or EtherCAT experience"
+    }
+  ],
+  "missing_skills": [
+    "3-9 years of industry experience (candidate: 0 years full-time, 7 internships)",
+    "formal functional safety / ISO 26262 / ASIL certification or production experience",
+    "CAN bus",
+    "EtherCAT",
+    "RL policy sim-to-real validation specifically (Isaac, Gazebo with RL autonomy)",
+    "production-scale fleet deployment in industrial field environments (construction, mining, oil & gas)",
+    "advanced controls: MPC, trajectory optimization, whole-body control, impedance/admittance",
+    "formal multi-platform integration with Unitree / Boston Dynamics / Clearpath platforms"
+  ],
+  "top_ats_keywords": [
+    "ROS/ROS2",
+    "robotics integration",
+    "autonomy stack",
+    "sim-to-real",
+    "Isaac",
+    "Gazebo",
+    "MUJOCO",
+    "legged robot",
+    "quadruped",
+    "humanoid",
+    "wheeled UGV",
+    "platform abstraction",
+    "electro-mechanical",
+    "SIL",
+    "HIL",
+    "functional safety",
+    "ISO 26262",
+    "ASIL",
+    "CAN bus",
+    "EtherCAT",
+    "e-stop",
+    "field deployment",
+    "multi-robot",
+    "RL policy"
+  ],
+  "required_skills": [
+    "ROS/ROS2 middleware",
+    "Python",
+    "C++",
+    "robotics software generalist (controls, navigation, integration)",
+    "sim-to-real validation (Isaac, Gazebo, MuJoCo)",
+    "multi-platform robot integration (legged, quadruped, humanoid, wheeled)",
+    "electro-mechanical integration (saddles, power distribution boards)",
+    "cross-functional collaboration with autonomy/mechanical/electrical teams",
+    "safety systems (e-stop, redundancy, fault tolerance)",
+    "field deployment logistics"
+  ],
+  "preferred_skills": [
+    "multi-platform experience (Unitree, Boston Dynamics, Clearpath)",
+    "field environments (construction, mining, oil & gas)",
+    "functional safety (ISO 26262, ASIL, SOTIF/ISO 21448)",
+    "advanced controls (whole-body control, MPC, impedance/admittance, trajectory optimization)",
+    "fleet operations / auto-docking / charging infrastructure / teleoperation",
+    "CAN bus",
+    "EtherCAT",
+    "real-time robotics communication protocols"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Platform integration and software abstraction layers for new robot platforms",
+    "Robot controls and navigation on physical hardware across quadruped, humanoid, wheeled platforms",
+    "Electro-mechanical integration of saddles and power distribution boards",
+    "Sim-to-real validation of RL autonomy policies from Isaac/Gazebo/MuJoCo",
+    "Cross-functional coordination with Autonomy/RL, Manipulation, Mechanical, Electrical",
+    "SIL/HIL testing, safety qualification, e-stop and redundancy layers",
+    "Procurement, testing, and integration of diverse new robotic systems",
+    "Field deployment across industrial environments (construction, mining, oil & gas)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

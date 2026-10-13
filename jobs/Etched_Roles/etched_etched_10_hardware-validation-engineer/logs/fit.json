@@ -1,0 +1,124 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Hardware Validation Engineer",
+  "job_slug": "etched_10_hardware-validation-engineer",
+  "match_pct": 45.2,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 21,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "I2C",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "Spectrum Analyzers",
+    "Microcontroller-based systems",
+    "C/C++",
+    "PCB design / EAGLE"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hardware validation / lab testing / PCB-level debugging",
+      "you_have": "Embedded hardware integration and PCB design"
+    },
+    {
+      "jd_skill": "Root cause analysis / hardware debugging",
+      "you_have": "Embedded and robotics debugging"
+    },
+    {
+      "jd_skill": "Power-related debugging",
+      "you_have": "Embedded power/brown-out debugging"
+    }
+  ],
+  "missing_skills": [
+    "PCIe",
+    "Signal integrity (formal measurement: eye opening, BER)",
+    "Power integrity (formal principles and measurement techniques)",
+    "Power sequencing (hardware-level)",
+    "Matlab",
+    "Post-silicon validation / PVT / thermal characterization",
+    "DOE experiment design (hardware debug context)",
+    "Bit error rate (BER) measurement",
+    "Eye opening measurement (EOM)",
+    "PCB-level functional verification as professional discipline"
+  ],
+  "top_ats_keywords": [
+    "Hardware Validation",
+    "PCB",
+    "signal integrity",
+    "power integrity",
+    "PCIe",
+    "I2C",
+    "post-silicon",
+    "PVT",
+    "power sequencing",
+    "microcontroller",
+    "root cause analysis",
+    "DOE",
+    "oscilloscopes",
+    "logic analyzers",
+    "spectrum analyzers"
+  ],
+  "required_skills": [
+    "Hardware validation / PCB functional verification",
+    "Power integrity principles",
+    "Signal integrity principles",
+    "PCIe",
+    "I2C",
+    "Lab equipment (oscilloscopes, logic analyzers, spectrum analyzers, power supplies)",
+    "Root cause analysis / hardware debugging",
+    "Power sequencing",
+    "Microcontroller-based systems",
+    "Python / Matlab scripting"
+  ],
+  "preferred_skills": [
+    "Cross-functional collaboration",
+    "Post-silicon validation (PVT, thermal, characterization)",
+    "DOE experiment design"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Perform system hardware and PCB functional verification",
+    "Validate power and signal integrity margins",
+    "Collect and analyze lab data for power delivery and signal robustness",
+    "Support post-silicon validation (PVT, power, thermal characterization)",
+    "Evaluate PCIe performance (signal integrity, EOM, BER)",
+    "Identify hardware issues, perform root cause analysis, drive resolution",
+    "Design and execute DOE experiments",
+    "Validate power sequencing and microcontroller functionality",
+    "Characterize I2C bus systems",
+    "Track and document PCB issues and validation results",
+    "Collaborate with design, firmware, and system engineering teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,161 @@
+{
+  "company": "Thales",
+  "company_slug": "thales",
+  "role": "Embedded Software Integrator and Validator",
+  "job_slug": "embedded-sw-integrator-validator",
+  "match_pct": 55.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Bash",
+    "RTOS",
+    "FreeRTOS",
+    "Linux",
+    "embedded software integration",
+    "testing and validation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JTAG",
+      "you_have": "hardware debugging (oscilloscope, logic analyzer, STM32 bring-up)"
+    },
+    {
+      "jd_skill": "GDB",
+      "you_have": "hardware debugging (embedded debug)"
+    },
+    {
+      "jd_skill": "test automation",
+      "you_have": "testing and validation (golden test vectors)"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab version control"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux on Jetson/Raspberry Pi/BBB"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Zephyr",
+    "Embassy",
+    "RTIC",
+    "Robot Framework",
+    "Agile/Scrum"
+  ],
+  "top_ats_keywords": [
+    "embedded software",
+    "integration",
+    "verification",
+    "validation",
+    "test automation",
+    "Python",
+    "Robot Framework",
+    "CI/CD",
+    "C/C++",
+    "Rust",
+    "JTAG",
+    "GDB",
+    "FreeRTOS",
+    "Zephyr",
+    "Linux"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Bash",
+    "RTOS",
+    "FreeRTOS",
+    "Linux",
+    "JTAG",
+    "GDB",
+    "Rust",
+    "embedded software integration",
+    "test automation",
+    "CI/CD"
+  ],
+  "preferred_skills": [
+    "Zephyr",
+    "Embassy",
+    "RTIC",
+    "Robot Framework",
+    "Agile/Scrum"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Integrate embedded SW into MCU/embedded Linux targets",
+    "Design and run verification tests, track defects",
+    "Build test automation and result-analysis tooling",
+    "Support CI/CD for embedded SW",
+    "Agile/Scrum"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Tubize, Belgium (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Multi-component integration on real hardware: COFFIN capstone integrated Flutter client, Flask-SocketIO server, Jetson and Arduino over WebSocket and resolved 11 integration failures (false positives, servo brown-out, stale frames) to reach 10/10 pick reliability",
+      "Bare-metal and RTOS firmware on microcontrollers: STM32 Cortex-M4 temperature monitor (GPIO, TIM2, ADC1, I2C1) and the Turret's FreeRTOS tasks with mutexes and UART",
+      "Embedded Linux deployment: Jetson arm bridge as a systemd service with auto-restart, non-root isolation, static IP and env-file config",
+      "Verification mindset: QAT project built a pure-integer reference model with 100 golden test vectors and 99.996% match to the float reference",
+      "Hardware-level debugging with oscilloscopes and logic analyzers; Python and Bash scripting"
+    ],
+    "real_gaps": [
+      "No Rust, Zephyr, Embassy or RTIC anywhere in the profile",
+      "No Robot Framework or automated test harness or result-analysis tooling as the main deliverable",
+      "No CI/CD pipeline work; GitLab is version control only",
+      "No Agile/Scrum team delivery evidence",
+      "No JTAG/GDB use stated in any bullet",
+      "No dedicated integration/validation role; no French or Dutch"
+    ],
+    "overstated_by_keywords": [
+      "JTAG and GDB counted Adjacent via hardware debugging, but no bullet shows a debugger session",
+      "test automation counted Adjacent via testing and validation, but evidence is one-off golden vectors, not an automated test framework",
+      "CI/CD counted Adjacent via GitLab, which was only version control"
+    ],
+    "understated_by_keywords": [
+      "Defect root-causing: the 11 resolved COFFIN integration failures directly demonstrate the find, root-cause, verify-fix loop this role centres on",
+      "Cross-discipline integration with mechanical and design teams (Robocon, ARC) maps to the multidisciplinary team requirement"
+    ],
+    "screening_gaps": [
+      "No Rust or Zephyr/Embassy/RTIC, which the JD names across its language and RTOS lines",
+      "No test automation framework or CI/CD for embedded (Robot Framework, pipelines), the core of the Automation and Tooling mission",
+      "No professional embedded integration or validation experience; JD prefers 3 years and no debugger (JTAG/GDB) evidence"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Hands-on integration, FreeRTOS and bare-metal STM32 work map to the role's core, and the COFFIN failure-resolution story is a real verification narrative. The distinctive asks (Rust, test automation tooling, CI/CD, Robot Framework) have no backing, so about half of the responsibilities are evidenced.",
+    "calibration_delta": 3.3
+  },
+  "semantic_pending": false
+}

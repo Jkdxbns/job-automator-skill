@@ -1,0 +1,73 @@
+{
+  "company": "Netic",
+  "company_slug": "netic",
+  "role": "Forward Deployed Engineer",
+  "job_slug": "forward-deployed-engineer",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 20,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Fine-tuning",
+    "Model evaluation",
+    "Deployment (edge)",
+    "Performance optimization (CUDA)"
+  ],
+  "adjacent_skills": [
+    "LLM APIs (PyTorch/HuggingFace Transformers)",
+    "Speech APIs (faster-whisper ASR)",
+    "Cloud infrastructure (Jetson remote deployment)",
+    "Monitoring & profiling (pynvml, benchmarking)",
+    "Multi-modal systems (voice + vision integration)",
+    "Distributed architecture (Flask-SocketIO, WebSocket)"
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "TTS (text-to-speech APIs)",
+    "Vector databases (Pinecone, Weaviate, etc.)",
+    "RAG (retrieval-augmented generation)",
+    "FastAPI",
+    "asyncio / async Python",
+    "Node.js",
+    "React",
+    "A/B testing frameworks"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "LLM APIs",
+    "FastAPI",
+    "asyncio",
+    "Vector databases",
+    "RAG",
+    "fine-tuning",
+    "deployment",
+    "cloud infrastructure"
+  ],
+  "key_responsibilities": [
+    "Architect and build multi-modal AI agents",
+    "Deploy agents to production at scale (thousands of concurrent interactions)",
+    "Co-build with enterprise customers, map workflows, unlock revenue",
+    "Own end-to-end lifecycle: design → implementation → deployment → measurement → iteration",
+    "Run rapid experiments: evaluate models, fine-tune, A/B test, iterate",
+    "Troubleshoot issues, resolve edge cases, deliver fast solutions",
+    "Surface patterns across customers to inform product roadmaps"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "notes": "Keyword match: 40% (5 HAVE + 3 adjacent at 0.5 credit = 8/20). Seniority gate: 2+ years required; Justin graduated May 2026 (0 years production). Role has hard production scope requirement (thousands of concurrent interactions, enterprise deployment, customer-facing ownership). Match score below apply threshold, seniority mismatch overrides any score consideration."
+}

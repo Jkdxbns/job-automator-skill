@@ -1,0 +1,77 @@
+{
+  "company": "Kelly (staffing agency; client = consumer/cooking appliance manufacturer)",
+  "company_slug": "kelly",
+  "role": "Embedded Software Engineer (Embedded Systems Technician / Junior Embedded SW Engineer)",
+  "job_slug": "embedded_software_engineer",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "consumer appliances domain",
+    "cooking appliances / ranges",
+    "production lab root-cause workflow"
+  ],
+  "adjacent_skills": [
+    "root cause analysis",
+    "technical specification writing",
+    "appliance control board schematics"
+  ],
+  "top_ats_keywords": [
+    "C programming",
+    "embedded systems",
+    "microcontroller",
+    "software debugging",
+    "troubleshooting",
+    "root cause analysis",
+    "electronic schematics",
+    "circuit diagrams",
+    "wiring diagrams",
+    "Python scripting",
+    "technical documentation",
+    "Git",
+    "firmware",
+    "lab testing",
+    "diagnostic tools",
+    "hardware/software integration",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "key_responsibilities": [
+    "Support development, testing, and maintenance of embedded software applications",
+    "Program, modify, and debug software written in C",
+    "Analyze, troubleshoot, and resolve hardware and software issues in embedded systems",
+    "Read and interpret electronic schematics, wiring diagrams, circuit diagrams, block diagrams",
+    "Perform root cause analysis distinguishing hardware vs software faults",
+    "Support hardware teams through software investigation in a lab environment",
+    "Write technical specifications and documentation from product requirements"
+  ],
+  "role_category": "embedded_systems",
+  "employment_type": "W2 contract, 6 months to start, possible extension/conversion",
+  "location": "Springfield, TN 37172 - fully onsite",
+  "pay": "$85k-$95k",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor - register-level C on Cortex-M4 (GPIO, TIM2, ADC1, I2C1), timer-triggered ADC scan conversions, interrupt-driven capture, custom low-level I2C driver, 3.68 KB Flash / 1.58 KB RAM, verified in Proteus. This is a near-exact match for the JD's core.",
+      "COFFIN capstone - 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)'. Servo brown-out is a textbook hardware-vs-software isolation story, which is the JD's stated key focus.",
+      "Agnel Robotics Club - designed and fabricated single-layer PCBs in EAGLE, sensor comms over UART and I2C with closed-loop feedback. Backs the schematic-reading and hands-on-hardware requirements.",
+      "BARC Python Developer Intern - PyQt/Matplotlib real-time data acquisition GUI in a laboratory environment, GitLab version control, technical documentation. Hits Python-preferred + docs-required + lab-environment in one entry.",
+      "B.E. Electronics & Telecommunication + M.S. Computer Engineering exceeds the preferred diploma/associate/bachelor's bar."
+    ],
+    "real_gaps": [
+      "Zero consumer appliance / white goods domain exposure. Cooking ranges are safety-adjacent (gas valves, heating elements, certification constraints); the JD lists this as a plus but it shapes the day job.",
+      "Production lab troubleshooting at scale. Debugging experience is project-scale and self-owned, not sustaining-engineering on shipped hardware with formal RCA process and defect tracking.",
+      "Schematic reading is inferred from hobby-tier single-layer club PCBs, never claimed directly. Appliance control board schematics are a different density.",
+      "Test equipment listed as a tool line (oscilloscopes, logic analyzers) with no bullet demonstrating measurement-driven fault isolation."
+    ],
+    "overstated_by_keywords": [
+      "FreeRTOS and STM32 on the Object Tracking Turret - per repo landmine notes the turret's embedded side is Arduino, not STM32/FreeRTOS. Do not lead with this under a depth probe.",
+      "Root cause analysis - counted as adjacent but never labeled as a process anywhere in the profile.",
+      "Technical specification writing - backed only by the Planctech claims documentation + BOM bullet."
+    ],
+    "reasoning": "On stated qualifications this is the cleanest match in the pipeline so far; every required bullet maps to real, defensible work, and the STM32 bare-metal project plus the COFFIN brown-out debugging story answer the JD's two hardest lines directly. The risk is not skill, it is structure: a 6-month W2 staffing contract in rural Tennessee against a pending EAD and a 90-day OPT unemployment cap, with a staffing-agency-to-appliance-manufacturer path that almost never produces H1B sponsorship. Overqualification is also a live screening risk - an M.S. CE profile heavy on CUDA and TensorRT reads as flight risk on a technician req unless the resume deliberately leads embedded."
+  }
+}

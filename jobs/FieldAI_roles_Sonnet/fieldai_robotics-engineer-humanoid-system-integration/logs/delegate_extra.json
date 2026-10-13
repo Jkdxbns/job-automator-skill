@@ -1,0 +1,23 @@
+{
+  "strengths": [
+    "ROS2 + MoveIt + RViz robotics pipeline",
+    "embedded C/C++ bare-metal STM32 + FreeRTOS",
+    "edge AI deployment: Jetson + TensorRT + YOLO + faster-whisper",
+    "sensor integration (ToF, accelerometer, I2C mux)",
+    "full-stack robotics build (mechanical, electronics, software, ML)",
+    "ML model optimization (quantization, pruning, custom CUDA kernels)",
+    "hardware-software integration experience across multiple platforms"
+  ],
+  "real_gaps": [
+    "no humanoid robot experience (only arms)",
+    "no locomotion / walking robot experience",
+    "no production-scale field deployment at company scale",
+    "0 full-time years; all experience is internships/research/projects",
+    "no formal safety/reliability certification",
+    "enterprise-scale robot networking/diagnostics/release pipelines not demonstrated"
+  ],
+  "reasoning": "FieldAI's JD asks for humanoid system integration across perception, localization, planning, locomotion, manipulation, controls, sensors, compute, networking, diagnostics, and release \u2014 a broad, production-level robotics stack. The candidate (Justin Mascarenhas, M.S. Computer Engineering RIT 2026, new-grad, 0 full-time years, 7 internships) has strong adjacent skills: ROS2/MoveIt robotics, embedded STM32 bare-metal C, Jetson+TensorRT edge AI, YOLO perception, robotic arm manipulation, sensor integration, and full-stack hardware-software builds. However, there is no humanoid body experience, no locomotion, no production fleet deployment, no full-time industry experience, and no formal safety certification. JD mentions no sponsorship, clearance, citizenship, or ITAR constraints, and does not state a minimum experience year threshold. The role is clearly production-scope (team includes DeepMind/NASA/Boston Dynamics alumni, field deployments globally) \u2014 a gap for a new-grad, but not an automatic hard blocker given adjacent strengths. Sponsorship is not blocked by JD text, and the candidate requires long-term sponsorship (F-1 OPT/EAD pending). Recommend applying with a tailored resume emphasizing ROS2, embedded, edge-AI integration, and hardware-software integration, while being transparent about humanoid/locomotion gaps.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/95ff2df3-4408-47f3-a2c5-295d8067bb30",
+  "team": "Product Engineering",
+  "location": "Irvine, CA"
+}

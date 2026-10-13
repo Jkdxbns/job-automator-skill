@@ -1,0 +1,41 @@
+{
+  "company": "Sunday",
+  "company_slug": "sunday",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 29,
+  "missing_skills": [
+    "Yocto/Buildroot BSP development",
+    "Linux kernel driver development",
+    "Devicetree",
+    "Bootloader (U-Boot etc.)",
+    "JTAG debugging",
+    "Power management / secure boot / watchdogs",
+    "CI pipelines for embedded Linux images",
+    "PCIe/USB/MIPI CSI-DSI/Ethernet/CAN high-speed interconnects",
+    "GMSL camera driver integration",
+    "OTA (RAUC/Mender/SWUpdate)",
+    "Rust",
+    "Qualcomm Snapdragon bringup"
+  ],
+  "adjacent_skills": [
+    "NVIDIA Jetson (used for AI/TensorRT inference, not BSP/kernel bringup)",
+    "Oscilloscopes/logic analyzers (from PCB/embedded hobby projects, not production HW bringup)",
+    "GPIO/I2C/SPI/UART (low-level peripherals, but MCU bare-metal scope not embedded Linux)",
+    "RTOS/FreeRTOS (opposite stack from embedded Linux systems work)"
+  ],
+  "top_ats_keywords": ["embedded linux", "yocto", "buildroot", "bootloader", "kernel drivers", "bsp", "jetson", "jtag", "ota", "rauc", "ci pipelines", "power management", "secure boot"],
+  "key_responsibilities": [
+    "Own embedded Linux stack (bootloader, kernel, devicetree, BSP, drivers) for Jetson/Qualcomm SoCs",
+    "Develop kernel drivers and userspace integration for sensors, GMSL cameras, PCIe/USB/MIPI/Ethernet/CAN",
+    "Own Yocto/Buildroot build system and BSP layers",
+    "Bring up custom carrier boards with EE team",
+    "Design OTA end-to-end (RAUC/Mender/SWUpdate)"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

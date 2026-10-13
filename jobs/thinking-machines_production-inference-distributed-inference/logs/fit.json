@@ -1,0 +1,144 @@
+{
+  "company": "Thinking Machines Lab",
+  "company_slug": "thinking-machines",
+  "role": "Software Engineer, Production Inference (Distributed Inference)",
+  "job_slug": "production-inference-distributed-inference",
+  "match_pct": 29.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 20,
+    "jd_ask_size": 32,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "CUDA / GPU programming",
+    "GPU kernels",
+    "quantization",
+    "networking",
+    "profiling / low-level performance optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems (production)",
+      "you_have": "MPI (HPC parallel/distributed computing)"
+    },
+    {
+      "jd_skill": "concurrency / high-concurrency serving systems",
+      "you_have": "MPI concurrent programming"
+    },
+    {
+      "jd_skill": "LLM inference engines (vLLM, SGLang, TensorRT-LLM)",
+      "you_have": "TensorRT edge-inference optimization on Jetson"
+    },
+    {
+      "jd_skill": "Kubernetes / GPU workload orchestration",
+      "you_have": "CUDA/GPU kernel optimization, no orchestration layer"
+    },
+    {
+      "jd_skill": "latency/throughput optimization at production scale",
+      "you_have": "model-level latency optimization (ASR, edge AI)"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "production infrastructure reliability/observability at scale",
+    "model parallelism",
+    "tensor parallelism",
+    "pipeline parallelism",
+    "distributed inference techniques",
+    "large-scale production systems operations",
+    "uptime SLAs",
+    "Kubernetes",
+    "open-source ML systems contributions",
+    "KV cache management",
+    "continuous batching",
+    "speculative decoding",
+    "request routing",
+    "load balancing",
+    "multi-node coordination",
+    "tail latency",
+    "on-call rotation",
+    "vLLM",
+    "SGLang"
+  ],
+  "top_ats_keywords": [
+    "distributed systems",
+    "Python",
+    "C++",
+    "Rust",
+    "concurrency",
+    "networking",
+    "GPU",
+    "CUDA",
+    "Kubernetes",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "KV cache",
+    "continuous batching",
+    "speculative decoding",
+    "quantization",
+    "tensor parallelism",
+    "pipeline parallelism",
+    "model parallelism",
+    "observability",
+    "latency",
+    "throughput",
+    "on-call",
+    "production infrastructure",
+    "reliability",
+    "uptime"
+  ],
+  "required_skills": [
+    "3+ years building and operating distributed systems in production",
+    "systems programming (Python, C++, Rust)",
+    "production infrastructure at scale: reliability, observability, performance under real-world load",
+    "networking, concurrency, and distributed systems fundamentals"
+  ],
+  "preferred_skills": [
+    "LLM inference engines (vLLM, SGLang, TensorRT-LLM)",
+    "GPU programming (CUDA) / low-level performance optimization",
+    "model parallelism, tensor/pipeline parallelism, distributed inference techniques",
+    "track record operating large-scale production systems with strict latency/uptime requirements",
+    "Kubernetes or similar orchestration for GPU workloads",
+    "contributions to open-source ML systems or inference infrastructure"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, build, operate distributed infrastructure for large-scale model serving",
+    "Optimize inference latency/throughput: KV cache, continuous batching, speculative decoding, quantization",
+    "Build/maintain high-concurrency serving systems with strong uptime, low tail latency, observability",
+    "Benchmark/tune/extend inference engines for new model architectures",
+    "Build tracing/debugging tooling across the serving stack down to GPU kernels",
+    "Participate in on-call rotation"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

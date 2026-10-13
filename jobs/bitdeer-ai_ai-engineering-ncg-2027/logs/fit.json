@@ -1,0 +1,150 @@
+{
+  "company": "Bitdeer AI",
+  "company_slug": "bitdeer-ai",
+  "role": "AI Engineering - New College Graduate 2027",
+  "job_slug": "ai-engineering-ncg-2027",
+  "match_pct": 24.2,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 22,
+    "jd_ask_size": 31,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "CUDA",
+    "distributed systems",
+    "LLM serving",
+    "inference acceleration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GPU resource scheduling",
+      "you_have": "GPU optimization (CUDA kernel-level)"
+    },
+    {
+      "jd_skill": "distributed training",
+      "you_have": "MPI parallel compute"
+    },
+    {
+      "jd_skill": "multimodal models",
+      "you_have": "SmolVLA vision-language-action exposure"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Java",
+    "Rust",
+    "Kubernetes",
+    "Docker",
+    "Helm",
+    "Terraform",
+    "OpenStack",
+    "Prometheus",
+    "Grafana",
+    "Argo",
+    "Istio",
+    "PostgreSQL",
+    "Redis",
+    "message queues",
+    "distributed storage",
+    "cloud-native technologies",
+    "model fine-tuning",
+    "retrieval-augmented generation",
+    "MLOps",
+    "LLMOps",
+    "AI Agent platform"
+  ],
+  "top_ats_keywords": [
+    "Go",
+    "Python",
+    "C++",
+    "Java",
+    "Rust",
+    "Kubernetes",
+    "Docker",
+    "Helm",
+    "Terraform",
+    "OpenStack",
+    "Prometheus",
+    "Grafana",
+    "Argo",
+    "Istio",
+    "PostgreSQL",
+    "Redis",
+    "message queues",
+    "distributed storage",
+    "cloud-native technologies",
+    "distributed training",
+    "model fine-tuning",
+    "inference acceleration",
+    "LLM serving",
+    "multimodal models",
+    "retrieval-augmented generation",
+    "MLOps",
+    "LLMOps",
+    "GPU resource scheduling",
+    "distributed systems",
+    "AI Agent platform",
+    "CUDA"
+  ],
+  "required_skills": [
+    "Go",
+    "Python",
+    "C++",
+    "Java",
+    "Rust"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "Docker",
+    "Helm",
+    "Terraform",
+    "OpenStack",
+    "Prometheus",
+    "Grafana",
+    "Argo",
+    "Istio",
+    "PostgreSQL",
+    "Redis",
+    "message queues",
+    "distributed storage",
+    "cloud-native technologies"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "large-scale AI cloud platform development",
+    "managed Kubernetes services",
+    "distributed training/inference platforms",
+    "AI Agent platform engineering",
+    "GPU scheduling and distributed systems infra"
+  ],
+  "role_category": "ml_systems",
+  "location": "US / Singapore / Europe hubs",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

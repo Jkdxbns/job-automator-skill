@@ -1,0 +1,126 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Compiler Engineer, Agentic Compilation Systems - New College Grad 2027",
+  "job_slug": "compiler-engineer-agentic-compilation-ncg-2027",
+  "match_pct": 45.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 20,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA",
+    "GPU programming",
+    "parallel computing",
+    "performance optimization",
+    "high-performance computing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "compilers",
+      "you_have": "custom DSL parser + SE(3) engine (coursework-level)"
+    },
+    {
+      "jd_skill": "evaluation and verification for agentic workflows",
+      "you_have": "model evaluation / benchmarking"
+    },
+    {
+      "jd_skill": "AI systems",
+      "you_have": "Edge AI, TensorRT, SLM compression"
+    },
+    {
+      "jd_skill": "developer tools",
+      "you_have": "Git, CMake, GitLab"
+    }
+  ],
+  "missing_skills": [
+    "LLVM",
+    "MLIR",
+    "Triton",
+    "PTX",
+    "Rust",
+    "coding agents",
+    "program analysis",
+    "code generation",
+    "open-source contributions"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Rust",
+    "LLVM",
+    "MLIR",
+    "Triton",
+    "PTX",
+    "CUDA",
+    "GPU",
+    "compilers",
+    "code generation",
+    "program analysis",
+    "coding agents",
+    "parallel computing",
+    "performance optimization"
+  ],
+  "required_skills": [
+    "Python",
+    "C/C++",
+    "coding agents",
+    "AI systems",
+    "developer tools",
+    "compilers",
+    "high-performance computing"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "LLVM",
+    "MLIR",
+    "program analysis",
+    "code generation",
+    "CUDA",
+    "GPU programming",
+    "parallel computing",
+    "performance optimization",
+    "Triton",
+    "PTX",
+    "evaluation and verification for agentic workflows",
+    "open-source contributions"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "coding-agent systems",
+    "agent workflows (tool use, planning, memory, feedback loops)",
+    "training/eval/verification environments",
+    "reason about source code and IR",
+    "collaborate with compiler/CUDA/runtime teams"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

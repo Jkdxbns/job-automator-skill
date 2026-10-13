@@ -1,0 +1,133 @@
+{
+  "company": "Together AI",
+  "company_slug": "together-ai",
+  "role": "Software Engineer, New Grad (2027)",
+  "job_slug": "swe-new-grad-2027",
+  "match_pct": 60.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 3,
+    "jd_ask_size": 14,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Git",
+    "Performance Optimization",
+    "Low-level Systems",
+    "Machine Learning",
+    "Inference",
+    "Fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Data Structures",
+      "you_have": "C/C++ (coursework/implementation depth, no DSA-specific keyword)"
+    },
+    {
+      "jd_skill": "Algorithms",
+      "you_have": "C/C++, CUDA kernel optimization"
+    },
+    {
+      "jd_skill": "Web Development",
+      "you_have": "Flask, WebSocket, Flutter, PyQt"
+    },
+    {
+      "jd_skill": "Distributed Systems",
+      "you_have": "MPI, SLURM, 3-layer distributed pipeline"
+    },
+    {
+      "jd_skill": "Infrastructure",
+      "you_have": "Linux, systemd service management"
+    }
+  ],
+  "missing_skills": [
+    "Databases",
+    "Cloud Platforms",
+    "Open Source Contributions"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "Inference",
+    "Infrastructure",
+    "Fine-tuning",
+    "Distributed Systems",
+    "Cloud"
+  ],
+  "required_skills": [
+    "Data Structures",
+    "Algorithms",
+    "Git",
+    "Performance Optimization",
+    "Low-level Systems"
+  ],
+  "preferred_skills": [
+    "Web Development",
+    "Databases",
+    "Distributed Systems",
+    "Cloud Platforms",
+    "Open Source Contributions"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, develop, maintain software from low-level systems to customer-facing UIs",
+    "Own projects end to end",
+    "Code review, debugging, performance optimization"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66.3,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Inference: TensorRT YOLO 56.7 to 10.9 ms (5.2x) and custom CUDA VGG16 kernels with memory coalescing map directly to the Inference team",
+      "ML from scratch: GPT-2 style transformer in PyTorch, Whisper-style ASR with Cython BPE tokenizer, 8-bit quantization of TinyLlama",
+      "Parallel and distributed compute: MPI Hodgkin-Huxley (10.49x on 12 procs), MPI ray tracer (30x on 55 procs), SLURM",
+      "End to end ownership: COFFIN capstone spans Flutter client, Flask-SocketIO server, Jetson and Arduino, systemd deployment"
+    ],
+    "real_gaps": [
+      "No database, SQL or storage work anywhere in the profile",
+      "No cloud platform, container or orchestration experience (no AWS/GCP, Docker, Kubernetes)",
+      "No open source contributions or public code review history",
+      "DSA and algorithm depth is coursework-level with no explicit evidence",
+      "Web work is Flask/Flutter scale, no customer-facing production UI or backend service at scale"
+    ],
+    "overstated_by_keywords": [
+      "Distributed Systems counted adjacent, but MPI is HPC parallelism, not networked service distribution",
+      "Infrastructure counted adjacent on Linux and systemd only"
+    ],
+    "understated_by_keywords": [
+      "Quantization and CUDA kernel work back the Inference and performance responsibilities more strongly than the Have list shows"
+    ],
+    "screening_gaps": [
+      "No evidence of DSA or algorithmic problem solving to pass a generalist SWE coding screen",
+      "No cloud, database or backend service experience for the Platform and Infrastructure teams",
+      "No public or open source footprint to back the own-projects-end-to-end claim"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong domain match for the Inference and ML teams through CUDA, TensorRT and from-scratch transformer work. Gaps are the bonus items (databases, cloud, OSS) plus unevidenced DSA depth, which a generalist SWE loop will probe. Worth applying; the risk is the coding screen, not the domain.",
+    "calibration_delta": -5.6
+  }
+}

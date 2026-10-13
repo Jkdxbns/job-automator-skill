@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "company": "Lila Sciences",
+    "role": "Co-Op, Robotics Skills for Automating Science",
+    "company_slug": "lila-sciences",
+    "job_slug": "robotics-coop"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on robotics software experience spanning ROS 2 manipulation, motion planning, and the boundary between software and physical hardware. Built and debugged vision-guided pick-and-place skills on physical UR5e and AL5B arms, validated motion plans against MoveIt/RViz, and integrated robotic behaviors end to end across sensors, actuators, and embedded controllers. Strong in Python and C++ with a track record of shipping well-tested code and iterating quickly on real hardware.",
+  "skills": {
+    "Robotics & Motion Planning": [
+      "ROS 2 (Humble)",
+      "ROS Noetic",
+      "MoveIt",
+      "RViz",
+      "URDF",
+      "Forward Kinematics",
+      "DH Parameters",
+      "Inverse Kinematics",
+      "Visual Servoing",
+      "Pick-and-Place"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "Bash"
+    ],
+    "Hardware & Embedded": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "Raspberry Pi",
+      "UART/I2C/SPI",
+      "PWM/ESC Control",
+      "Sensors & Actuators",
+      "Bluetooth",
+      "EAGLE PCB Design"
+    ],
+    "Edge AI & Perception": [
+      "YOLO",
+      "TensorRT",
+      "OpenCV",
+      "faster-whisper STT",
+      "Depth Estimation"
+    ],
+    "Tools & Systems": [
+      "Linux",
+      "Git",
+      "Flask/WebSocket",
+      "systemd",
+      "CMake",
+      "SolidWorks",
+      "Multiprocessing"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline for microscopic crack analysis, combining custom image stitching, wavelet denoising, and monocular depth estimation on physical inspection hardware."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end to end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Built a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (UR5e & AL5B)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at <2 mm over 10 trials.",
+        "Derived DH tables and hand-computed full forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided robotic pick-and-place system achieving 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency; debugged 11 integration failures on physical hardware (false detections, servo brown-out, stale-frame capture).",
+        "Integrated TensorRT-optimized YOLO for visual servoing (5.2x speedup vs eager PyTorch) and dual VL53L0X ToF sensors for contact-aware grasping via a TCA9548A I2C mux."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Delivery Drone",
+      "date": null,
+      "bullets": [
+        "Architected a distributed robotics stack \u2014 Flask/Socket.IO server, Jetson Orin Nano (ROS 2 Humble), and Arduino flight controller over Bluetooth \u2014 for voice-activated autonomous flight."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

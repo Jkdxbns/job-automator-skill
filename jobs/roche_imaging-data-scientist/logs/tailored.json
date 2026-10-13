@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "Roche",
+    "role": "AI/ML Imaging Data Scientist - Personalized Healthcare (Medical Imaging)",
+    "company_slug": "roche",
+    "job_slug": "imaging-data-scientist"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Built a medical imaging pipeline for the BraTS 2020 multi-modal MRI dataset with U-Net segmentation evaluated on Dice and IoU, and a microscopic image analysis pipeline reaching PSNR 86. Experienced in machine learning, computer vision and transformer fine-tuning in Python and PyTorch, with Git, GitLab, JupyterHub and SLURM workflows.",
+  "skills": {
+    "Machine Learning & Imaging": [
+      "Machine learning",
+      "Computer vision",
+      "Medical imaging",
+      "Image analysis",
+      "U-Net segmentation",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Hugging Face Transformers",
+      "OpenCV",
+      "Model evaluation"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "Bash (shell scripting)",
+      "C/C++",
+      "Git",
+      "GitLab",
+      "JupyterHub",
+      "Linux"
+    ],
+    "HPC & Optimization": [
+      "SLURM",
+      "MPI",
+      "Quantization (8-bit)",
+      "pynvml Profiling"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation.",
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression.",
+        "Evaluated trade-offs between model efficiency and task performance for edge deployment constraints."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49\u00d7 speedup with 12 slave processes; characterized scaling behavior across dendrite counts and compartment depths."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

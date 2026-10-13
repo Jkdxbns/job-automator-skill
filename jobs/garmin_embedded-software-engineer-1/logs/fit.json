@@ -1,0 +1,152 @@
+{
+  "company": "Garmin",
+  "company_slug": "garmin",
+  "role": "Embedded Software Engineer 1",
+  "job_slug": "embedded-software-engineer-1",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 16,
+    "req_cov": 0.65,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "debuggers",
+    "logic analyzers",
+    "troubleshooting and defect resolution",
+    "design documentation",
+    "networking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "emulators/simulators",
+      "you_have": "Proteus, CARLA simulation"
+    },
+    {
+      "jd_skill": "streaming audio/video",
+      "you_have": "ASR audio pipelines, Jetson camera perception"
+    },
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Bluetooth, WebSocket/static-IP networking"
+    },
+    {
+      "jd_skill": "consumer product design experience",
+      "you_have": "wearable gesture glove internship"
+    }
+  ],
+  "missing_skills": [
+    "C#",
+    "Java",
+    "assembly",
+    "LTE"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "C#",
+    "Java",
+    "assembly",
+    "Python",
+    "debuggers",
+    "logic analyzers",
+    "emulators",
+    "simulators",
+    "Wi-Fi",
+    "LTE",
+    "networking",
+    "streaming"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "C#",
+    "Java",
+    "assembly",
+    "debuggers",
+    "logic analyzers",
+    "emulators/simulators",
+    "troubleshooting and defect resolution",
+    "design documentation"
+  ],
+  "preferred_skills": [
+    "Python",
+    "networking",
+    "streaming audio/video",
+    "Wi-Fi",
+    "LTE",
+    "consumer product design experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop and maintain production embedded software",
+    "Troubleshoot and reproduce issue reports",
+    "Debug with debuggers, emulators, simulators, logic analyzers",
+    "Document designs to standards",
+    "Rotating on-call for 24/7 operations"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cary, North Carolina",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 64,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C firmware on Cortex-M4: timer-triggered ADC, interrupt-driven capture, low-level I2C driver in 3.68 KB Flash / 1.58 KB RAM (STM32 Temperature Monitor)",
+      "Troubleshooting and defect resolution: resolved 11 integration failures (servo brown-out, stale-frame capture, false positives) in the COFFIN capstone; oscilloscope and logic analyzer listed in Tools",
+      "Python scripting is deep and varied: Planctech gesture glove via Python, BARC PyQt acquisition GUI, taught a Python course at ARC",
+      "Consumer-style hardware with wireless: wearable gesture glove over HC-05 Bluetooth with ADXL345 and jitter calibration (Planctech)",
+      "Networked systems: WebSocket fabric across Flutter, Flask-SocketIO and Jetson, static IP, systemd auto-restart service"
+    ],
+    "real_gaps": [
+      "No Java, C# or assembly anywhere in the profile",
+      "No Wi-Fi or LTE stack work; wireless exposure is Bluetooth only",
+      "No streaming audio/video over the internet; audio and camera work is local pipelines",
+      "No professional maintenance of shipped production firmware; all embedded work is capstone, club or internship scope",
+      "C++ evidence is Arduino and CUDA, not large-codebase embedded C++",
+      "GPA 3.3 clears the 3.0 basic bar but not the 3.5 desired bar",
+      "On-site Cary NC with rotating on-call support"
+    ],
+    "overstated_by_keywords": [
+      "emulators/simulators counted adjacent from Proteus and CARLA, which are not firmware emulators",
+      "Wi-Fi counted adjacent from Bluetooth; different stack and different failure modes"
+    ],
+    "understated_by_keywords": [
+      "Design documentation: Planctech claims documentation and BOM, plus JupyterHub technical documentation at BARC",
+      "Cross-board hardware debugging: ToF range-gate and I2C mux (TCA9548A) integration shows real bring-up and debug depth"
+    ],
+    "screening_gaps": [
+      "No shipped or production embedded software, so no maintenance or defect-fix history on a live product",
+      "No Java, C# or assembly in a posting that lists them first",
+      "No Wi-Fi, LTE or internet streaming experience for the networking and wireless preferred quals"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role is an entry level C/C++ embedded position and the profile backs the core: bare-metal C, peripheral drivers, debugging tools, Python, and Bluetooth in a consumer-style wearable. The gaps are the non-C languages and Wi-Fi/LTE/streaming, which are listed as other-language and preferred items, so they read as learnable rather than disqualifying.",
+    "calibration_delta": -1.5
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "company": "Viridien",
+  "company_slug": "viridien",
+  "role": "Forward Deployed AI Engineer",
+  "job_slug": "forward-deployed-ai-engineer",
+  "match_pct": 22.9,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 24,
+    "jd_ask_size": 35,
+    "req_cov": 0.467,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "API",
+    "Linux",
+    "Git",
+    "Model evaluation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Model serving",
+      "you_have": "TensorRT/ONNX edge deployment"
+    },
+    {
+      "jd_skill": "Data pipelines",
+      "you_have": "ASR/perception pipelines"
+    },
+    {
+      "jd_skill": "Troubleshooting",
+      "you_have": "embedded/robotics debugging"
+    },
+    {
+      "jd_skill": "Vision-language models",
+      "you_have": "SLM/GPT-2 work"
+    },
+    {
+      "jd_skill": "Secrets management",
+      "you_have": "env-based secrets/config separation"
+    },
+    {
+      "jd_skill": "Monitoring",
+      "you_have": "pynvml profiling"
+    }
+  ],
+  "missing_skills": [
+    "Agentic AI",
+    "Tool calling",
+    "RAG",
+    "Docker",
+    "Cloud deployment",
+    "Authentication",
+    "Networking",
+    "Access control",
+    "Logging",
+    "Kubernetes",
+    "Helm",
+    "Terraform",
+    "CI/CD",
+    "Azure/AWS/GCP",
+    "LangGraph",
+    "AutoGen",
+    "smolagents",
+    "MCP",
+    "Vector databases",
+    "LLM gateways",
+    "Observability",
+    "Tracing",
+    "Autoscaling",
+    "Load testing"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "LLM",
+    "Agentic AI",
+    "RAG",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "MCP",
+    "LangGraph",
+    "observability",
+    "Azure"
+  ],
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "Agentic AI",
+    "Tool calling",
+    "RAG",
+    "APIs",
+    "Data pipelines",
+    "Docker",
+    "Cloud deployment",
+    "Authentication",
+    "Networking",
+    "Access control",
+    "Monitoring",
+    "Logging",
+    "Troubleshooting"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "Helm",
+    "Terraform",
+    "CI/CD",
+    "Azure/AWS/GCP",
+    "LangGraph",
+    "AutoGen",
+    "smolagents",
+    "Model Context Protocol",
+    "Model serving",
+    "Vector databases",
+    "LLM gateways",
+    "AI evaluation",
+    "Observability",
+    "Tracing",
+    "Autoscaling",
+    "Load testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Production agentic AI/LLM/VLM architectures",
+    "Enterprise integrations, MCP connectors",
+    "CI/CD and deployment",
+    "Auth, secrets, auditability",
+    "Monitoring, tracing, evaluation",
+    "Troubleshoot production"
+  ],
+  "role_category": "ml_systems",
+  "location": "Crawley, United Kingdom (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

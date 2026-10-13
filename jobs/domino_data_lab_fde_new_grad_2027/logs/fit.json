@@ -1,0 +1,88 @@
+{
+  "company": "Domino Data Lab",
+  "company_slug": "domino_data_lab",
+  "role": "Forward Deployed Engineer - New Grad, 2027",
+  "job_slug": "fde_new_grad_2027",
+  "match_pct": 71.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 9,
+    "req_cov": 0.67,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "AI/ML (PyTorch, TensorFlow, Keras, quantization)",
+    "Real-world edge deployment (Jetson, inference optimization)",
+    "Problem-solving (capstone projects, research leadership)"
+  ],
+  "adjacent_skills": [
+    "Data science (ML/data pipeline engineering, not traditional statistics/analytics)",
+    "Communication (research team leadership, not customer-facing)"
+  ],
+  "missing_skills": [
+    "R",
+    "Customer-facing work / customer support experience",
+    "Data science platform domain experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "AI/ML",
+    "Data Science",
+    "Real-world applications",
+    "Problem-solving",
+    "Communication"
+  ],
+  "key_responsibilities": [
+    "Work directly with customers to realize value from Domino platform",
+    "Develop custom AI solutions for mission-critical business operations",
+    "Partner with experienced FDEs to solve meaningful problems",
+    "Enhance legacy workflows with AI capabilities",
+    "Get hands-on experience writing code, designing solutions, delivering impact",
+    "Contribute to critical and high-visibility projects from day one"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": true
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep inference optimization and model profiling (TensorRT, quantization, pynvml) — demonstrates real-world edge deployment capability",
+      "End-to-end problem ownership from research fellowship (led team of 7, restructured mid-project) and capstone (full inference engine design)",
+      "Python proficiency across ML, data pipelines, and systems work"
+    ],
+    "real_gaps": [
+      "Zero customer-facing experience — FDE role is 50% direct customer empathy, support, and solution design for customer workflows",
+      "Not a data scientist — background is ML engineering/embedded systems, lacks statistics, analytics, SQL, data-warehouse exposure needed to support data-science workflows",
+      "No platform or enterprise domain experience — steep ramp on Domino platform specifics and data-science-team support patterns"
+    ],
+    "overstated_by_keywords": [
+      "Data science (keyword adjacent) — actually ML engineering and data pipeline work, not data science as traditionally defined",
+      "Communication (keyword adjacent) — research leadership demonstrated, but not customer communication or customer-empathy development"
+    ],
+    "understated_by_keywords": [
+      "Real-world applications — keyword HAVE is solid, but the depth of inference optimization (latency reduction, quantization tradeoffs, Jetson deployment constraints) is stronger signal than 'real-world' suggests",
+      "Problem-solving — multiple capstone projects at scale (image stitching with wavelet banks, inference engine on Jetson, 3D vision), demonstrates problem decomposition"
+    ],
+    "screening_gaps": [
+      "No customer-facing or customer-support experience; FDE mandate is customer empathy and direct solution ownership",
+      "Background is embedded robotics/edge AI, not data science platform — domain ramp may be steep for early-career engineer in a customer-facing role",
+      "Graduated May 2026, not Spring 2027; outside hiring cohort target and may be screened as overqualified or past hiring window"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Strong technical foundation and real-world edge deployment experience, but FDE role centers on customer empathy and platform domain support. Your robotics/embedded AI background is adjacent to the role's needs, not core. The 'learnable on the job' argument applies to domain knowledge (can learn Domino platform), but not to customer-facing skills—those are table stakes in FDE hiring. The cohort mismatch (May 2026 vs Spring 2027) adds additional risk of screening out. Tailoring effort is better spent on roles that value your technical depth more directly."
+  },
+  "constraint_flags": {
+    "sponsorship": "Conditional — 'may be available depending on business considerations.' Not guaranteed. F-1 OPT status acceptable but subject to business review.",
+    "cohort": "Role targets Spring 2027 graduating class. You graduated May 2026 (16 months past cohort window). May be screened out as overqualified or outside hiring timeline."
+  }
+}

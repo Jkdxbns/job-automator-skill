@@ -1,0 +1,143 @@
+{
+  "company": "Comsys AB",
+  "company_slug": "comsys",
+  "role": "Embedded Software Engineer (C/C++, Linux & RTOS)",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "debugging",
+    "low-level programming",
+    "automated testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Linux + BBB/Jetson exposure"
+    },
+    {
+      "jd_skill": "embedded networking",
+      "you_have": "TCP/IP, UART/I2C/SPI, CAN"
+    },
+    {
+      "jd_skill": "control systems",
+      "you_have": "Closed-loop feedback control"
+    }
+  ],
+  "missing_skills": [
+    "IEC 62443",
+    "Rust",
+    "FPGA",
+    "CI/CD",
+    "power electronics",
+    "Scrum"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Embedded Linux",
+    "RTOS",
+    "networking",
+    "IEC 62443",
+    "Rust",
+    "FPGA",
+    "CI/CD",
+    "automated tests",
+    "Scrum",
+    "debugging"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Embedded Linux",
+    "RTOS",
+    "embedded networking",
+    "low-level programming",
+    "debugging",
+    "IEC 62443 secure embedded software",
+    "professional embedded experience"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "FPGA",
+    "automated testing",
+    "CI/CD",
+    "industrial/power electronics/control systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "low-level software",
+    "Embedded Linux build/customize",
+    "networking",
+    "HW/FPGA collaboration",
+    "debugging",
+    "test automation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Lund, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4 and FreeRTOS/RTOS coursework projects (CMPE 663), UART/I2C/SPI, ADC, PWM, closed-loop control, scope/logic analyzer debugging: real low-level firmware depth",
+      "Linux admin on Jetson (systemd units, static IP, non-root isolation) and edge deployment give a base for embedded Linux work",
+      "Git/GitLab, CMake, Python/Bash tooling cover the development tools and test scripting side"
+    ],
+    "real_gaps": [
+      "IEC 62443 / secure embedded software: no backing anywhere",
+      "No Yocto/Buildroot embedded Linux build or customization, no kernel or driver work",
+      "C++ is working depth, not strong, and mostly in CUDA/ML context",
+      "No FPGA, Rust, power electronics, or CI/CD pipeline evidence",
+      "Embedded networking is serial protocols and WebSocket/TCP at app level, not protocol stacks",
+      "No professional embedded role: embedded work is internship, coursework and capstone scope; no Scrum/agile team record"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted as Have but working depth only",
+      "Automated testing counted as Have but evidence is light",
+      "RTOS counted as Have but is coursework scope, not production"
+    ],
+    "understated_by_keywords": [
+      "Telemetry gateway work (C driver plus epoll TCP/IP) would back embedded networking once built; COFFIN control loop partially backs control systems"
+    ],
+    "screening_gaps": [
+      "No IEC 62443 / embedded cybersecurity experience on a required line",
+      "No professional embedded software experience and no embedded Linux build (Yocto/Buildroot) work",
+      "Missing the stated plus items: Rust, FPGA, CI/CD, power electronics"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core C/RTOS/firmware skills are real, but the role's centre is production embedded Linux with security compliance and industrial context, which the profile does not evidence. Realistic as a stretch application; the Swedish work permit question is a bigger practical hurdle than the skill gaps.",
+    "calibration_delta": 3.0
+  },
+  "semantic_pending": false
+}

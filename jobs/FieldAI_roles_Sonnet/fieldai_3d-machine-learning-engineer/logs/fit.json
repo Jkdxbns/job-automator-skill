@@ -1,0 +1,128 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "3D Machine Learning Engineer",
+  "job_slug": "3d-machine-learning-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 22,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embodied AI / 3D ML (COFFIN robotic arm, Jetson+YOLO perception, 3D vision projects)",
+    "Perception with real sensors (YOLOv8, OpenCV, VL53L0X ToF, visual servoing, monocular depth estimation)",
+    "Planning / localization / manipulation (MoveIt, forward kinematics, DH parameters, ROS2, visual servoing, robotic arm control)",
+    "Field deployment / real-world deployment (Jetson+STM32+sensor hardware deployments across multiple projects)",
+    "Hardware + robot integration (STM32 bare-metal, Arduino, NVIDIA Jetson, UART/I2C/SPI, Bluetooth BLE/Classic, FreeRTOS)",
+    "Edge ML optimization / deployment (TensorRT optimization, 8-bit quantization, CUDA C++, ONNX/TFLite, faster-whisper ASR)",
+    "Python / C / C++ / CUDA",
+    "ROS / ROS2 (ROS2 Humble, ROS Noetic, MoveIt, RViz)",
+    "ML / DL frameworks (PyTorch, TensorFlow, Keras, Hugging Face)",
+    "Computer vision / object detection (YOLO, segmentation, depth estimation)",
+    "Real-time embedded systems (bare-metal STM32 Cortex-M4, interrupt-driven, timer-triggered ADC, I2C driver)",
+    "Cross-disciplinary collaboration (led 7-person research team, multi-domain internships)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Risk-aware / reliable AI frameworks",
+      "you_have": "Reliable embedded/robotics design and real-time systems; no formal risk-aware AI framework"
+    },
+    {
+      "jd_skill": "Explainability / interpretability",
+      "you_have": "Model evaluation and explainable components; no formal SHAP/LIME/explainability framework experience"
+    },
+    {
+      "jd_skill": "Safety / risk-aware frameworks (functional safety)",
+      "you_have": "Robust embedded reliability; no ISO26262 or formal functional-safety certification"
+    },
+    {
+      "jd_skill": "Cloud infra / production-scale distributed deployment",
+      "you_have": "Some Docker/k3s/CI-CD via personal projects; not enterprise production scale"
+    },
+    {
+      "jd_skill": "Production-scale field deployment at company scale",
+      "you_have": "Multiple real-world robotics deployments at intern/research scale (0 full-time years)"
+    }
+  ],
+  "missing_skills": [
+    "Full-time industry experience at production / company scale",
+    "Formal functional-safety / ISO26262 certification",
+    "Formal explainability / interpretability framework experience",
+    "Enterprise-scale cloud / production distributed systems experience",
+    "Experience from top-tier robotics/AI organizations (DeepMind, NASA JPL, etc.) \u2014 preferred, not hard"
+  ],
+  "top_ats_keywords": [
+    "embodied AI",
+    "3D machine learning",
+    "perception",
+    "planning",
+    "localization",
+    "manipulation",
+    "robotics",
+    "real sensors",
+    "field deployment",
+    "real-world deployment",
+    "hardware integration",
+    "edge ML",
+    "TensorRT",
+    "YOLO",
+    "ROS2",
+    "explainability",
+    "safety",
+    "field-ready"
+  ],
+  "required_skills": [
+    "Embodied AI / 3D machine learning",
+    "Perception with real sensors",
+    "Planning / localization / manipulation",
+    "Field deployment / real-world deployment",
+    "Hardware + robot integration",
+    "Edge ML optimization / deployment",
+    "Risk-aware / reliable AI"
+  ],
+  "preferred_skills": [
+    "Explainability / interpretability",
+    "Safety / risk-aware frameworks",
+    "Cross-disciplinary collaboration",
+    "Production-scale field experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build risk-aware, reliable AI systems for real robots and sensors",
+    "Field deploy and test systems on hardware in unstructured environments",
+    "Work across perception, planning, localization, and manipulation",
+    "Ship systems that improve through real-world deployments",
+    "Collaborate across AI, robotics engineering, product, and field deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

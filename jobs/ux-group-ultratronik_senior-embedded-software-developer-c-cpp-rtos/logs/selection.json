@@ -1,0 +1,163 @@
+{
+  "experience": [
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 5.01,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware",
+        "software engineering fundamentals"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 3.5,
+      "matched": [
+        "Git",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Research Intern (Capstone)",
+      "name": "Research Intern (Capstone)",
+      "score": 1.61,
+      "matched": [
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 1.61,
+      "matched": [
+        "serial protocols"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 9.78,
+      "matched": [
+        "ARM Cortex-M",
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 6.11,
+      "matched": [
+        "ARM Cortex-M",
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 4.56,
+      "matched": [
+        "ARM Cortex-M",
+        "C++",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 2.95,
+      "matched": [
+        "C++",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 2.83,
+      "matched": [
+        "profiling and benchmarking",
+        "testing and validation"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "ARM Cortex-M",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "device and interface driver development",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "device drivers",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "Linux development environment",
+      "for_skill": "Linux"
+    },
+    {
+      "use_jd_wording": "JTAG/SWD debugging",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "JTAG",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "performance optimization",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "embedded software",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "C++",
+      "for_skill": "C++",
+      "instead_of": "Modern C++",
+      "note": "JD wording is over-specific; claim the skill, skip the version/standard"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "control algorithms",
+      "for_skill": "software engineering fundamentals"
+    },
+    {
+      "use_jd_wording": "cross-compilation",
+      "for_skill": "build systems"
+    },
+    {
+      "use_jd_wording": "unit tests",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "unit testing",
+      "for_skill": "testing and validation"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "embedded application development",
+    "USB",
+    "circuit diagram reading",
+    "system integration"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 4.83,
+      "matched": [
+        "PCB design",
+        "hardware/software integration",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 3.06,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 1.07,
+      "matched": [
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Research Fellowship",
+      "name": "Research Fellowship",
+      "score": 0,
+      "matched": []
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 8.98,
+      "matched": [
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 4.99,
+      "matched": [
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 3.06,
+      "matched": [
+        "serial protocols",
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 1.49,
+      "matched": [
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:Parallel Ray Tracer with MPI Task Scheduling",
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "score": 1.07,
+      "matched": [
+        "RTOS"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "MCU/processor evaluation and selection",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "Real-time firmware development",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "MCU",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "microcontroller",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "Hardware debugging",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "Power electronics",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "Hardware-software integration",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "Signal-processing algorithm porting",
+      "for_skill": "speech and audio"
+    },
+    {
+      "use_jd_wording": "Real-time control systems",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "Soldering",
+      "for_skill": "PCB design"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Sensor interfaces",
+    "Signal conditioning",
+    "Safety-critical system architecture",
+    "Motor/actuator control"
+  ]
+}

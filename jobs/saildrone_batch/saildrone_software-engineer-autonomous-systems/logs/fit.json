@@ -1,0 +1,168 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Software Engineer, Autonomous Systems",
+  "job_slug": "software-engineer-autonomous-systems",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 20,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "software engineering fundamentals",
+    "autonomous systems",
+    "robotics",
+    "Python",
+    "RTOS / real-time systems",
+    "testing and validation",
+    "hardware/software integration",
+    "computer vision"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "localization",
+      "you_have": "computer vision"
+    },
+    {
+      "jd_skill": "navigation",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "controls / control systems",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "state estimation",
+      "you_have": "autonomous systems"
+    },
+    {
+      "jd_skill": "resource-constrained optimization",
+      "you_have": "model optimization"
+    },
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "autonomous systems"
+    }
+  ],
+  "missing_skills": [
+    "telemetry systems",
+    "aerospace domain",
+    "defense contractor experience",
+    "maritime systems",
+    "safety-critical domain expertise"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "autonomy",
+    "autonomous systems",
+    "robotics",
+    "perception",
+    "localization",
+    "planning",
+    "navigation",
+    "controls",
+    "decision-making",
+    "algorithms",
+    "sensor integration",
+    "simulation",
+    "testing",
+    "telemetry",
+    "Python",
+    "autonomous vehicles",
+    "aerospace",
+    "defense",
+    "maritime",
+    "safety-critical",
+    "real-time systems"
+  ],
+  "required_skills": [
+    "C++",
+    "production software engineering",
+    "autonomous systems development",
+    "robotics or complex physical systems",
+    "algorithm development and integration",
+    "sensor system integration",
+    "testing and validation with real-world data",
+    "system behavior and reliability reasoning"
+  ],
+  "preferred_skills": [
+    "autonomous vehicles",
+    "aerospace/defense/maritime systems",
+    "safety-critical applications",
+    "real-time systems",
+    "resource-constrained systems",
+    "simulation and field testing",
+    "Python"
+  ],
+  "required_experience_years": null,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, implement, and deploy production autonomy software in C++",
+    "Develop and integrate algorithms for perception, localization, planning, navigation, decision-making, or vehicle behavior",
+    "Evaluate algorithmic approaches and make practical tradeoffs (accuracy, robustness, cost, latency, reliability)",
+    "Integrate autonomy software with sensors, vehicle systems, and other components",
+    "Use simulation, testing, telemetry, and real-world vehicle data to validate behavior",
+    "Improve robustness and performance of autonomous capabilities in fielded systems",
+    "Contribute to architecture and evolution of autonomy stack"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Exceptional C++ and production software engineering with systemd service management, networking, and real deployment reliability",
+      "Multiple end-to-end autonomous systems (COFFIN robotic arm, Turret, CARLA driving) with real hardware integration and validation",
+      "Outstanding system integration and debugging expertise - resolved 11 integration failures in COFFIN, systematic real-world data optimization",
+      "Deep perception/computer vision expertise with real-time optimization (5.2x TensorRT speedup) and accuracy-latency tradeoff analysis",
+      "Strong real-time systems (FreeRTOS) and resource-constrained optimization (Jetson, quantization) directly applicable to edge maritime platforms",
+      "Demonstrated system behavior reasoning about performance/reliability across CUDA, MPI, and multi-component orchestration"
+    ],
+    "real_gaps": [
+      "No maritime systems or naval operations domain knowledge (USV propulsion, ocean hydrodynamics, marine sensors, maritime navigation)",
+      "No safety-critical systems or defense contractor experience (formal verification, certification, failure mode analysis, defense standards)",
+      "Limited telemetry infrastructure or large-scale data systems experience (streaming architecture, cloud logging, operational analytics)"
+    ],
+    "overstated_by_keywords": [
+      "Autonomous systems marked as direct 'Have' - profile has strong robotics/driving autonomy but Saildrone is maritime-specific; principles transfer but platform domain is unknown"
+    ],
+    "understated_by_keywords": [
+      "System integration and debugging expertise - COFFIN's 11-failure resolution and real-world data optimization is core production autonomy skill, buried in 'testing and validation'",
+      "Edge deployment optimization for constrained platforms - TensorRT speedup analysis, quantization impact, latency profiling are understated as just 'RTOS'",
+      "Multi-component system orchestration - Flutter+Flask+Jetson+Arduino coordination, service management, and networking synchronization understated"
+    ],
+    "screening_gaps": [
+      "No maritime systems or naval operations background - Saildrone is maritime defense company; lacks domain knowledge of USV propulsion, ocean dynamics, marine sensors, and maritime-specific navigation",
+      "No safety-critical or defense industry experience - Missing formal verification, certification standards, failure mode analysis, and organizational/regulatory compliance mindset for defense contractor",
+      "Limited telemetry infrastructure experience - No demonstrated streaming data, cloud logging, or operational analytics pipeline experience; JD emphasizes 'telemetry and real-world vehicle data'"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong technical foundation across all core autonomy requirements: C++, production software engineering, multi-system integration, real-time constraints, and system-level reasoning about performance/reliability. Gap is domain knowledge (maritime, safety-critical, defense context) rather than technical capability. The robotics and autonomous systems expertise transfers well to maritime autonomy with onboarding.",
+    "calibration_delta": -22.0
+  }
+}

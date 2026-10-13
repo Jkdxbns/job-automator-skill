@@ -1,0 +1,90 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer II",
+  "job_slug": "software-engineer-ii",
+  "match_pct": 54.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 11,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Linux",
+    "embedded systems (STM32 bare-metal)",
+    "low-level peripheral drivers (I2C/SPI/UART/GPIO)",
+    "debugging/testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux Driver Architecture",
+      "you_have": "bare-metal peripheral driver code (non-Linux)"
+    },
+    {
+      "jd_skill": "Embedded Operating Systems",
+      "you_have": "FreeRTOS"
+    }
+  ],
+  "missing_skills": [
+    "Networking (TCP/IP stack dev)",
+    "Compilers",
+    "Databases",
+    "2-4 yrs professional experience"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "networking",
+    "Linux driver architecture",
+    "embedded operating systems",
+    "low-level software"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "software systems design",
+    "2-4 years software engineering experience",
+    "testing methodologies",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "Embedded Operating Systems",
+    "Linux Driver Architecture",
+    "Networking",
+    "Low-level Software Development"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Design/implement software for OS, compilers, networking, databases, utilities subsystems",
+    "Testing/debugging",
+    "Collaborate with internal/external teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Roseville, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

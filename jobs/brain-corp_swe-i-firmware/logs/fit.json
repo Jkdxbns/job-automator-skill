@@ -1,0 +1,169 @@
+{
+  "company": "Brain Corp",
+  "company_slug": "brain-corp",
+  "role": "Software Engineer I, Firmware",
+  "job_slug": "swe-i-firmware",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 24,
+    "req_cov": 0.842,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "ARM Cortex MCUs",
+    "RTOS",
+    "I2C",
+    "SPI",
+    "GPIO",
+    "interrupts",
+    "timers",
+    "PWM",
+    "Linux",
+    "Makefile/CMake",
+    "oscilloscope",
+    "DMM",
+    "GitHub",
+    "Python",
+    "GitLab CI/CD"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multithreading",
+      "you_have": "RTOS tasks / MPI"
+    },
+    {
+      "jd_skill": "pytest",
+      "you_have": "Python testing and validation"
+    },
+    {
+      "jd_skill": "continuous integration",
+      "you_have": "GitLab / GitHub"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "Agile",
+    "Jenkins",
+    "JIRA"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "ARM Cortex",
+    "RTOS",
+    "CAN",
+    "I2C",
+    "SPI",
+    "GPIO",
+    "PWM",
+    "CMake",
+    "CI/CD",
+    "pytest",
+    "Linux",
+    "GitHub",
+    "oscilloscope",
+    "Jenkins",
+    "GitLab",
+    "JIRA",
+    "Python"
+  ],
+  "required_skills": [
+    "C/C++",
+    "ARM Cortex MCUs",
+    "RTOS",
+    "multithreading",
+    "CAN",
+    "I2C",
+    "SPI",
+    "GPIO",
+    "interrupts",
+    "timers",
+    "PWM",
+    "Agile",
+    "continuous integration",
+    "Linux",
+    "Makefile/CMake",
+    "pytest",
+    "oscilloscope",
+    "DMM",
+    "GitHub"
+  ],
+  "preferred_skills": [
+    "Jenkins",
+    "GitLab CI/CD",
+    "JIRA",
+    "CI/CD"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "embedded C/C++ and Python for robots",
+    "MCU peripheral integration via CAN/I2C/SPI",
+    "code review on GitHub",
+    "CMake/Make and CI/CD",
+    "documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 73,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Cortex-M4 bare-metal firmware in embedded C with timer-synchronized sensing (Bare-Metal Temperature Monitor project)",
+      "FreeRTOS with mutexes for shared-memory task coordination, ToF sensing and OLED output (Turret / RTOS work)",
+      "UART/I2C/SPI plus interrupt-driven PWM servo control across STM32, Pi and Jetson",
+      "Bench lab tools in the profile: oscilloscopes, multimeters, logic analyzers",
+      "Python, Linux, Git, Make/CMake, systemd deployment on Jetson"
+    ],
+    "real_gaps": [
+      "No CAN bus work in any project or internship",
+      "No CI/CD pipeline authorship: GitLab was used for version control only, no Jenkins, no GitHub Actions",
+      "No Agile/JIRA team workflow",
+      "No pytest-driven test automation evidenced",
+      "Embedded work is capstone, coursework and internship scope, no shipped fleet firmware"
+    ],
+    "overstated_by_keywords": [
+      "GitLab CI/CD counted Have, but the backing is GitLab for version control only",
+      "Continuous integration and CI/CD counted adjacent, evidence is version control not pipelines"
+    ],
+    "understated_by_keywords": [
+      "I2C, SPI, ADC and timer work plus RTOS mutex use cover most of the MCU peripheral list in depth"
+    ],
+    "screening_gaps": [
+      "No CAN experience, and CAN is named in both the duties and the required list",
+      "No hands-on CI/CD or pytest test automation despite two duties built on it",
+      "No Jenkins/JIRA/Agile team tooling evidence"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role is core MCU firmware with RTOS and serial peripherals, which is the strongest part of the profile. The missing pieces, CAN and CI/CD, are learnable and CAN is one protocol among several that are covered. This is a good match on domain and level.",
+    "calibration_delta": 2.0
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,134 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Hardware Lead, Tactile Gloves",
+  "job_slug": "hardware-lead-tactile-gloves",
+  "match_pct": 47.5,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C / bare-metal (STM32, Cortex-M4)",
+    "PCB / electronics design",
+    "BOM / cost awareness",
+    "ROS / ROS2 robotics",
+    "Sensor analog / data acquisition exposure",
+    "Wearable (keyword match only)",
+    "Edge AI / embedded inference (Jetson, TensorRT, YOLO)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hardware / mechanical design (SolidWorks-adjacent)",
+      "you_have": "SolidWorks (mechanical CAD); PCB design experience"
+    },
+    {
+      "jd_skill": "Wearables / gloves / tactile / force-pressure sensors",
+      "you_have": "wearable (only); no tactile / haptic / glove / pressure keywords"
+    },
+    {
+      "jd_skill": "Calibration / validation / signal quality",
+      "you_have": "Calibrated (exposure-level); no pipeline / fixture / audit keywords"
+    },
+    {
+      "jd_skill": "Manufacturing / supplier / CM / scale (BOM-level only)",
+      "you_have": "BOM, PCB production knowledge; no supplier, CM, yield, DFM, tooling, or PVT keywords"
+    },
+    {
+      "jd_skill": "Program management / schedule-cost / decision cadence",
+      "you_have": "Planned, Organized (soft); no PM / program-lead keywords"
+    }
+  ],
+  "missing_skills": [
+    "0\u21921 hardware product through EVT/DVT/PVT production ramp (no production-scale keywords)",
+    "tactile / force-pressure / glove / haptic sensor design (only 'wearable')",
+    "DFM / DFT / yield / reliability / durability (sweat, abrasion, flex, drops)",
+    "industrial design / mechanical architecture / ergonomic serviceability",
+    "supplier selection / CM communications / lead times / MOQ / tooling / escalation",
+    "calibration pipeline + production test fixtures + acceptance criteria + audit trails",
+    "schedule-cost discipline / aggressive iteration cadence / weekly execution",
+    "field ops / pilot deployment validation / failure-mode tracking"
+  ],
+  "top_ats_keywords": [
+    "Hardware Lead",
+    "Tactile Gloves",
+    "Program Lead",
+    "0\u21921",
+    "EVT",
+    "DVT",
+    "PVT",
+    "manufacturing",
+    "supplier",
+    "CM",
+    "calibration",
+    "sensor stack",
+    "reliability",
+    "production test",
+    "wearable",
+    "haptic",
+    "tactile",
+    "force pressure",
+    "program management",
+    "BOM",
+    "DFM",
+    "DFT",
+    "yield",
+    "tooling",
+    "test fixtures",
+    "pilot deployment",
+    "volume production",
+    "data quality"
+  ],
+  "required_skills": [
+    "0\u21921 hardware product through EVT/DVT/PVT production ramp",
+    "industrial design + mechanical architecture",
+    "DFM / DFT / yield / reliability",
+    "supplier / CM selection + manufacturing scale-up",
+    "tactile / force-pressure sensor stack + calibration",
+    "production test fixtures + QA / audit trails",
+    "BOM / cost discipline / schedule management",
+    "wearable / glove design + ergonomics"
+  ],
+  "preferred_skills": [
+    "wearables / gloves / haptics / tactile sensors / force-pressure sensing",
+    "calibration pipelines + production test infrastructure",
+    "China-based supplier / CM experience"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own tactile glove program from concept \u2192 prototype \u2192 EVT/DVT/PVT \u2192 volume production",
+    "Drive mechanical/industrial design, supplier/CM selection, DFM, tooling, and yield targets",
+    "Define tactile sensor stack, calibration, signal quality bar, and validation approach",
+    "Own BOM, cost, schedule, reliability, and production QA/test fixtures",
+    "Coordinate pilot deployments and enforce learnings into each build iteration"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

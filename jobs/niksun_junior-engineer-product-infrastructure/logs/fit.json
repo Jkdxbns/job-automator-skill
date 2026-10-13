@@ -1,0 +1,63 @@
+{
+  "company": "NIKSUN",
+  "company_slug": "niksun",
+  "role": "Junior Engineer, Product Infrastructure",
+  "job_slug": "junior-engineer-product-infrastructure",
+  "match_pct": 100,
+  "missing_skills": [
+    "Kubernetes",
+    "Helm",
+    "Docker",
+    "Perl"
+  ],
+  "adjacent_skills": [
+    "real-time/high-throughput/low-latency systems (via FreeRTOS embedded, ROS2 perception pipelines, CUDA kernel optimization)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Linux/Unix",
+    "object-oriented",
+    "real-time",
+    "high throughput",
+    "low latency",
+    "Python",
+    "Shell",
+    "Kubernetes",
+    "Docker",
+    "Helm"
+  ],
+  "key_responsibilities": [
+    "Architecture, design, development, deployment of high-volume business-critical systems",
+    "Software architecture for robust, performant, scalable systems",
+    "Develop OOP C++ following best practices for reusability/maintainability/scalability",
+    "Analyze business needs and design technical solutions"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Genuine low-level C/C++ skill: hand-written CUDA C++ kernels, bare-metal STM32 firmware, and MPI worker code show real comfort writing and optimizing C/C++ rather than just using it as a secondary language.",
+      "Direct performance-engineering experience transferable to NIKSUN-style high-throughput systems: memory coalescing, kernel optimization, profiling (pynvml), and benchmarked speedups (e.g. 30x via MPI work-distribution, 1.5-2x via CUDA memory layout) on the Parallel Ray Tracer and CUDA VGG16 projects.",
+      "Demonstrated work on distributed/parallel systems (MPI + SLURM cluster) that involves the same load-balancing and work-distribution thinking NIKSUN would want for scalable business-critical systems.",
+      "Solid Linux comfort across Jetson, SLURM clusters, and a deployed systemd service (SIGTERM/SIGINT handling, auto-reconnect, Restart=always) on the Voice-Controlled Delivery Drone project -- closer to production ops thinking than most academic profiles."
+    ],
+    "real_gaps": [
+      "No professional/full-time software engineering experience at all (0 yrs full-time, all 7 internships are research- or ML-flavored, not production systems engineering) -- the JD explicitly wants someone shipping and owning 'high-volume, business-critical systems,' which nothing in the profile demonstrates.",
+      "Zero cloud-native exposure: no Kubernetes, Helm, or Docker anywhere in the profile -- this is a hard, complete gap, not a partial one, despite being only 'desired' in the JD.",
+      "No domain experience adjacent to network security/forensics/packet processing, which is what NIKSUN actually builds -- the 'high throughput, low latency' experience that exists is HPC/scientific-computing throughput (cluster jobs, ray tracing), a different engineering problem from network-appliance or transaction-style low latency.",
+      "No evidence of OOP C++ design (classes, interfaces, inheritance) -- the C/C++ work shown (MPI workers, CUDA kernels, bare-metal C) is largely procedural/HPC-style, not object-oriented architecture, which the JD calls out by name.",
+      "No team software engineering process signals (code review, CI/CD, sprint/agile work) from a company setting -- only academic team leadership."
+    ],
+    "overstated_by_keywords": [
+      "Linux/Unix marked Have -- true technically, but the context is research compute environments (SLURM, Jetson) not production server/ops Linux, which is a meaningfully different skill in practice.",
+      "real-time/high-throughput/low-latency systems marked Adjacent -- this conflates HPC cluster throughput with the low-latency, always-on systems engineering NIKSUN likely means; the underlying engineering problem is different even though both involve 'speed.'",
+      "Object-Oriented Programming marked Have by inference from 'C/C++' -- no specific bullet in the profile actually demonstrates OOP class design; this was assumed rather than evidenced."
+    ],
+    "reasoning": "The 100% keyword score is real but shallow: the candidate has genuine, well-evidenced low-level C/C++ and performance-optimization chops that would transfer well, but has never worked a professional software engineering job, has zero cloud/container exposure the JD explicitly wants, and the closest throughput/latency experience is from HPC research rather than production systems -- making this a Partial Fit rather than the slam-dunk the keyword match suggests."
+  }
+}

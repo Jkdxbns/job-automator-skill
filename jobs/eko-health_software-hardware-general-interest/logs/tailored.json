@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Eko Health",
+    "role": "Software & Hardware General Interest - Algorithm Engineer",
+    "company_slug": "eko-health",
+    "job_slug": "software-hardware-general-interest"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Build and validate signal processing and machine learning algorithms in Python and PyTorch, from a custom wavelet denoising bank for microscopic crack inspection to a from-scratch mel-spectrogram ASR pipeline at 15% WER. Experience spans medical imaging segmentation on multi-modal MRI, deep learning model optimization, and algorithm deployment to production edge devices.",
+  "skills": {
+    "Algorithms & Signal Processing": [
+      "Signal processing algorithms",
+      "Algorithm development",
+      "Mel spectrogram front ends",
+      "Wavelet denoising",
+      "Monocular depth estimation",
+      "Data analysis",
+      "Model evaluation"
+    ],
+    "Machine Learning & Deep Learning": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "NumPy",
+      "Pandas",
+      "Hugging Face Transformers",
+      "OpenCV"
+    ],
+    "Algorithm Development & Deployment": [
+      "C/C++",
+      "Cython",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "NVIDIA Jetson",
+      "systemd services"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "GitLab",
+      "CMake",
+      "Bash"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on multi-modal MRI; validated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment.",
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with +/-8% error on 3D surface reconstruction, completing a full metal surface inspection pipeline."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document understanding transformer, on a custom medical billing dataset for structured field extraction; improved validation accuracy from 55% to 93%.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API with domain-specific special tokens and a resized decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end speech recognition pipeline from first principles: 80-channel mel spectrogram encoder and 4-block causal Transformer decoder with cross-attention, achieving 15% WER on the NPTEL 2020 Indian-English dataset.",
+        "Designed a custom BPE tokenizer with a Cython-accelerated backend achieving 4-5.5x speedup over pure Python, processing 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper speech recognition (1.0-1.4s), Gemini intent classification (<500ms), and TensorRT-optimized YOLO (5.2x speedup: 56.7 to 10.9 ms) for visual servoing across a three-layer distributed pipeline.",
+        "Handled production deployment of the Jetson-side inference bridge as a systemd service with auto-restart backoff, non-root isolation, and static IP networking; achieved 100% pick reliability over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Random Signal Analysis",
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": []
+}

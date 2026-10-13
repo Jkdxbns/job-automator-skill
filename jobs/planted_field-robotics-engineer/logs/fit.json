@@ -1,0 +1,113 @@
+{
+  "company": "Planted",
+  "company_slug": "planted",
+  "role": "Field Robotics Engineer",
+  "job_slug": "field-robotics-engineer",
+  "match_pct": 46.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 15,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Robotics",
+    "Testing and validation",
+    "Data collection",
+    "Debugging / diagnostics",
+    "Technical documentation",
+    "Analytical problem solving"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Diagnostic equipment",
+      "you_have": "Logic analyzers, oscilloscope-level bench debugging"
+    },
+    {
+      "jd_skill": "Field testing tools",
+      "you_have": "Jetson/ROS2 benchmarking and data acquisition"
+    }
+  ],
+  "missing_skills": [
+    "Construction equipment operation",
+    "Field deployment experience",
+    "Fleet reliability/uptime ops",
+    "Partner/customer training",
+    "Project scheduling",
+    "Solar/construction/agriculture domain",
+    "Heavy outdoor physical work"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "field testing",
+    "validation",
+    "diagnostics",
+    "troubleshooting",
+    "data collection",
+    "reliability",
+    "uptime",
+    "technical documentation",
+    "training",
+    "project schedules",
+    "skid steer",
+    "telehandler",
+    "excavator",
+    "solar"
+  ],
+  "required_skills": [
+    "field diagnostics and troubleshooting",
+    "robotics testing and validation",
+    "data collection",
+    "diagnostic and test equipment",
+    "technical documentation",
+    "training external partners",
+    "project scheduling",
+    "construction equipment operation",
+    "analytical problem solving",
+    "field experience",
+    "outdoor work",
+    "75% travel"
+  ],
+  "preferred_skills": [
+    "robotics",
+    "construction/energy infrastructure/agriculture",
+    "outdoor operations",
+    "ground-mount solar construction"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "uptime of deployed robots",
+    "field testing and validation",
+    "diagnostics tooling",
+    "cross-team updates",
+    "documentation",
+    "partner training",
+    "project schedules"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Oakland, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

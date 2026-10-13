@@ -1,0 +1,98 @@
+{
+  "company": "Alarm.com",
+  "company_slug": "alarmcom",
+  "role": "Software Engineer II",
+  "job_slug": "swe-ii",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 12,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Object-Oriented Programming (C/C++, Python)",
+    "IoT and hardware experience (embedded systems, sensors, Jetson)",
+    "AI-assisted development tool integration (Claude Code workflow)",
+    "Debugging/troubleshooting across environments"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed systems / messaging",
+      "you_have": "MPI / SLURM-managed distributed compute"
+    },
+    {
+      "jd_skill": "Observability, logging, monitoring",
+      "you_have": "systemd service management, logging in Telemetry Gateway project"
+    }
+  ],
+  "missing_skills": [
+    "C#/.NET",
+    "Front-end framework (Ember/Angular/Vue/React)",
+    "SQL databases (DML, stored procedures, indexing/batching)",
+    "Unit testing",
+    "Microservices architecture",
+    "Event-driven architecture / messaging"
+  ],
+  "top_ats_keywords": [
+    "C#",
+    ".NET",
+    "SQL",
+    "React",
+    "Angular",
+    "Vue",
+    "Ember",
+    "unit tests",
+    "microservices",
+    "IoT",
+    "observability"
+  ],
+  "required_skills": [
+    "C#/.NET",
+    "Object-Oriented Programming",
+    "Front-end framework (Ember/Angular/Vue/React)",
+    "SQL databases (DML, stored procedures, query performance/indexing/batching)",
+    "Unit testing"
+  ],
+  "preferred_skills": [
+    "Microservices architecture",
+    "Distributed systems / event-driven architecture / messaging",
+    "IoT and hardware experience",
+    "Observability, logging, error handling, monitoring in production",
+    "AI-assisted development tool integration"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Write/maintain C#/.NET back-end code and web UIs for Video domain",
+    "Own features end-to-end",
+    "Design discussions and code reviews",
+    "Debug/troubleshoot across environments",
+    "Use AI-assisted dev tools, validate AI-generated code"
+  ],
+  "role_category": "web_backend_iot",
+  "location": "Tysons, Virginia",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

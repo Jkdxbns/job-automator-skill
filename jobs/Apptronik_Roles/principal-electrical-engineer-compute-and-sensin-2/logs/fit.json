@@ -1,0 +1,152 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Principal Electrical Engineer - Compute and Sensing",
+  "job_slug": "principal-electrical-engineer-compute-and-sensin",
+  "match_pct": 42.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 26,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Custom PCB design / hardware fabrication",
+    "Embedded / bare-metal C firmware and real-time control",
+    "ROS / ROS2 robotics system integration",
+    "Multi-sensor integration (ToF depth, camera, vision, accelerometer) with embedded interfaces",
+    "C/C++, CUDA, Python programming for embedded and ML systems",
+    "M.S. in Computer Engineering (related field)",
+    "System-level architecture for embedded / robotics pipelines",
+    "Vision / perception (YOLO, OpenCV) and depth sensing",
+    "GPU optimization / CUDA performance"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "High-bandwidth interface protocols (GigE, GMSL2, USB 3.0, MIPI)",
+      "you_have": "Embedded interfaces (UART/I2C/SPI) and USB / WebSocket data transport"
+    },
+    {
+      "jd_skill": "Multi-modal perception sensors (LiDAR specifically, tactile sensors)",
+      "you_have": "Depth cameras / ToF, vision (YOLO), accelerometer; no LiDAR or tactile sensor experience"
+    },
+    {
+      "jd_skill": "Cross-functional technical authority / mentorship at senior/principal level",
+      "you_have": "Team leadership and teaching (25-member robotics team, Python course, cross-cultural team of 7)"
+    },
+    {
+      "jd_skill": "DFM / DFR for high-vibration mobile robot compute modules",
+      "you_have": "PCB fabrication and embedded design for mobile/competition robots"
+    }
+  ],
+  "missing_skills": [
+    "Custom NVIDIA Jetson carrier board design specifically for high-performance modules (profile has Jetson use but not custom carrier board architecture)",
+    "Mastery of high-speed digital design: PCIe, DDR4/5, GMSL interfaces (profile has UART/I2C/SPI, CUDA, no PCIe/DDR/GMSL)",
+    "Hardware-level time synchronization for multi-sensor fusion (profile has software/WebSocket coordination, no PTP/gPTP/GMSL sync protocol design)",
+    "Functional Safety architecture: ISO 26262, ASIL, SIL compliance design (no mention in profile)",
+    "Fail-safe / hardware redundancy / Built-In Test (BIT) architecture (profile has software fail-safe only)",
+    "Power delivery network (PDN) design and thermal dissipation strategy (not mentioned)",
+    "High-speed signal integrity design / validation (not mentioned)",
+    "Altium Designer (specifically; profile has EAGLE and Proteus)",
+    "SPICE / Ansys / HyperLynx simulation tools (not mentioned)",
+    "Experience integrating LiDAR sensors (not in profile \u2014 only ToF and vision)",
+    "Tactile sensor electrical integration (not in profile)",
+    "12+ years of high-performance hardware design experience (profile: 0 years full-time; 7 internships/research roles)",
+    "Production-scale manufacturing / DFM-DFR for commercial humanoid volume (profile work is research/prototype/competition scale)"
+  ],
+  "top_ats_keywords": [
+    "Principal Electrical Engineer",
+    "Compute",
+    "Sensing",
+    "NVIDIA Jetson",
+    "Carrier board",
+    "PCB design",
+    "PDN",
+    "Signal integrity",
+    "Functional Safety",
+    "ISO 26262",
+    "ASIL",
+    "SIL",
+    "Fail-safe",
+    "Redundancy",
+    "BIT",
+    "LiDAR",
+    "Depth camera",
+    "IMU",
+    "Tactile sensor",
+    "GigE",
+    "GMSL2",
+    "USB 3.0",
+    "MIPI",
+    "Sensor fusion",
+    "Synchronization",
+    "DFM",
+    "DFR",
+    "Robotics",
+    "Humanoid",
+    "Embedded systems",
+    "Altium Designer",
+    "SPICE",
+    "Ansys",
+    "HyperLynx",
+    "High-speed digital design",
+    "PCIe",
+    "DDR4",
+    "DDR5"
+  ],
+  "required_skills": [
+    "Custom carrier board design for NVIDIA Jetson / high-performance compute modules",
+    "High-speed digital design (PCIe, DDR4/5, GMSL, 10GbE)",
+    "Multi-sensor suite integration with hardware-level time synchronization",
+    "Functional Safety architecture (ISO 26262 / ASIL / SIL)",
+    "DFM and DFR for compute / embedded modules",
+    "Power delivery networks (PDN), thermal dissipation, high-speed signal integrity",
+    "Fail-safe / redundancy / Built-In Test (BIT) hardware design",
+    "High-bandwidth data pipelines (GigE, GMSL2, USB 3.0, MIPI)",
+    "Multi-modal perception sensors (LiDAR, depth cameras, IMUs, tactile sensors)",
+    "Altium Designer (or equivalent) and hardware simulation (SPICE / Ansys / HyperLynx)",
+    "M.S. or Ph.D. in Electrical Engineering, Computer Engineering, or related field",
+    "12+ years high-performance hardware design (robotics / autonomous vehicles / aerospace)"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 12,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own end-to-end design of Apollo's safe compute architecture (SoC/FPGA/MCU selection, redundancy, real-time performance)",
+    "Lead custom carrier board design for high-performance modules (Jetson) with PDN, thermal, signal integrity",
+    "Drive DFM / DFR for mobile humanoid compute modules under vibration and dynamic thermal load",
+    "Define electrical architecture for multi-modal perception stack (LiDAR, depth cameras, IMUs, tactile sensors)",
+    "Architect high-bandwidth sensor-fusion pipelines and sync protocols (GigE, GMSL2, USB 3.0, MIPI)",
+    "Drive Functional Safety architecture to meet ISO 26262 / ASIL-SIL for human-occupied operation",
+    "Design hardware-level redundancy, fail-safe mechanisms, and Built-In Tests (BIT)",
+    "Implement real-time hardware diagnostics",
+    "Define multi-generational compute/sensing roadmap",
+    "Act as ultimate technical authority during cross-functional design reviews",
+    "Provide deep technical mentorship to electrical and embedded engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

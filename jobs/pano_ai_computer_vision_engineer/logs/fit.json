@@ -1,0 +1,139 @@
+{
+  "company": "Pano AI",
+  "company_slug": "pano_ai",
+  "role": "Computer Vision Engineer",
+  "job_slug": "computer_vision_engineer",
+  "job_url": "https://www.linkedin.com/jobs/view/4446278297/",
+  "date_analyzed": "2026-08-04",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "SAM / Grounding DINO / DINO (vision foundation models)",
+    "Cloud platforms (AWS/GCP/Azure)",
+    "MLOps",
+    "CI/CD workflows"
+  ],
+  "adjacent_skills": [
+    "Multi-object tracking -> YOLOv8 detection + visual servoing tracking loop (no ByteTrack/DeepSORT/Kalman tracker)",
+    "Video understanding -> per-frame CV pipelines (CARLA, turret, COFFIN); no temporal modeling",
+    "CI/CD -> Git, GitLab, SLURM job orchestration",
+    "Outdoor vision systems -> CARLA sim + indoor robot perception only"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision",
+    "PyTorch",
+    "Python",
+    "NVIDIA Jetson",
+    "TensorRT",
+    "CUDA",
+    "ONNX",
+    "OpenCV",
+    "edge AI",
+    "object detection",
+    "instance segmentation",
+    "semantic segmentation",
+    "image classification",
+    "model optimization",
+    "quantization",
+    "inference acceleration",
+    "Linux",
+    "deep learning",
+    "benchmarking",
+    "model evaluation",
+    "embedded systems",
+    "deployment",
+    "scene understanding",
+    "multi-object tracking",
+    "video understanding"
+  ],
+  "key_responsibilities": [
+    "Develop CV models for smoke detection, vegetation detection, asset detection, instance/semantic segmentation, scene understanding, spatial reasoning",
+    "Implement and maintain ML/CV pipelines",
+    "Deploy and optimize AI models on NVIDIA Jetson and other edge platforms",
+    "Model optimization: TensorRT conversion, quantization, inference acceleration",
+    "Build tools for data processing, visualization, benchmarking, evaluation, monitoring",
+    "Run experiments, analyze model performance, present findings",
+    "Debug inference, deployment, networking, and hardware integration issues",
+    "Collaborate with AI researchers, software, hardware, and product teams",
+    "Document experiments and engineering decisions"
+  ],
+  "required_skills": [
+    "BS or MS in CS, EE, Robotics or related",
+    "1-3 years experience including internships or research in SWE/ML/CV",
+    "Python",
+    "PyTorch / deep learning frameworks",
+    "ML fundamentals",
+    "Modern computer vision techniques",
+    "Linux development environments",
+    "Problem-solving and curiosity",
+    "Communication and teamwork"
+  ],
+  "preferred_skills": [
+    "NVIDIA Jetson",
+    "CUDA",
+    "TensorRT",
+    "ONNX",
+    "embedded AI platforms",
+    "OpenCV",
+    "object detection",
+    "instance/semantic segmentation",
+    "image classification",
+    "multi-object tracking",
+    "video understanding",
+    "SAM / Grounding DINO / DINO",
+    "cloud platforms",
+    "MLOps",
+    "CI/CD",
+    "outdoor vision systems"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "United States (hybrid-remote across North America; HQ San Francisco)",
+  "remote_ok": true,
+  "clearance_required": false,
+  "compensation": "$141,000 - $184,000 base + equity",
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "hard_blocker_triggered": false,
+  "llm_analysis": {
+    "llm_match_pct": 84,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "TensorRT + Jetson deployment is real and measured, not a resume word: COFFIN capstone shows TensorRT-optimized YOLO at 5.2x speedup (56.7 -> 10.9 ms, 17.6 -> 92 FPS vs eager PyTorch) on a Jetson+Arduino controller. The JD lists 'TensorRT conversion, quantization, and inference acceleration' as a core responsibility and Jetson under preferred - this is the strongest single overlap.",
+      "Quantization depth is genuine: SLM Compression project did 8-bit bitsandbytes LLM.int8() for ~55% VRAM reduction with <1% accuracy degradation, profiled with pynvml/psutil. That is the exact accuracy-vs-latency tradeoff analysis the JD asks for under 'analyze model performance, present findings'.",
+      "Object detection end-to-end ownership across three separate efforts: YOLOv8n trained on 1,133 annotated images to 83% mAP@50 with ONNX/TFLite export (Tusk); YOLO11n at mAP50 ~0.85 plus UFLD lane model in CARLA; YOLOv8 on Jetson driving an STM32 turret over UART. Covers dataset curation, training, export, and edge deployment - the full loop the JD describes.",
+      "Segmentation is backed by real work, not a keyword: U-Net with VGG-16/VGG-19/ResNet-50 backbones on BraTS 2020 multi-modal MRI, evaluated on Dice and IoU with reported accuracy-latency tradeoffs (Teesside). Also CARLA semantic segmentation used to auto-generate ~5,000 labeled frames with zero manual annotation - that is directly the 'data quality improvement workflows' and 'build tools for data processing' bullet.",
+      "Hardware-integration debugging is a stated JD responsibility ('debug inference, deployment, networking, and hardware integration issues') and Justin has a concrete, unusual credential here: 11 documented integration failures resolved on COFFIN (false-positive detections, servo brown-out, stale-frame capture) reaching 10/10 pick reliability. Most 1-3 YOE CV candidates have never touched this.",
+      "CUDA depth exceeds what the JD needs: custom CUDA C++ conv kernels replacing TorchScript in VGG16 with memory coalescing and constant memory, 49.2ms vs 73.3ms uncoalesced vs 77.5ms CPU. CUDA is only 'preferred' here, so this is surplus - useful as a differentiator against other entry-level applicants.",
+      "Experience bar is met on the JD's own terms: it says '1-3 years of experience (including internships or research)'. Six internships plus a research fellowship plus an MS capstone clears this explicitly, so the usual new-grad experience objection does not apply."
+    ],
+    "real_gaps": [
+      "Zero cloud experience. The JD's first line is 'cloud/edge-based vision systems' and cloud platforms / MLOps / CI/CD appear under preferred. There is no AWS, GCP, Azure, Docker, Kubernetes, MLflow, W&B, or CI pipeline anywhere in the profile. SLURM and GitLab are the closest analogues and they are not the same thing. This is the single largest hole and it maps to half the role's stated system scope.",
+      "No vision foundation model exposure. SAM, Grounding DINO, and DINO are named explicitly as a plus. Nothing in the profile touches promptable segmentation, open-vocabulary detection, or self-supervised ViT features. All CV work is closed-set supervised (YOLO, U-Net, VGG/ResNet).",
+      "No true multi-object tracking. The turret and COFFIN do single-target detect-and-servo, not identity-preserving multi-target tracking. No ByteTrack, SORT/DeepSORT, Kalman filtering, or re-ID work. Smoke detection over a 360-degree camera network is a tracking-heavy problem and this would be learned on the job.",
+      "No video/temporal understanding. Every CV pipeline in the profile is per-frame. Wildfire smoke detection is fundamentally a temporal-change problem (smoke plumes are detected by motion and growth over time, not a single frame), and there is no temporal modeling, optical flow, or background subtraction work to point at.",
+      "No instance segmentation specifically. The JD separates instance from semantic segmentation. The profile has semantic segmentation (U-Net on BraTS, CARLA semantic masks) but no Mask R-CNN, YOLACT, or YOLO-seg instance work.",
+      "No outdoor / uncontrolled-environment vision. All CV work is lab, medical, simulation, or indoor robotics. The JD explicitly flags interest in 'outdoor vision systems' - weather, haze, variable lighting, long-range small-object detection at scale. CARLA is simulated outdoors, which is not the same as real sensor noise.",
+      "No large-scale production data or monitoring work. 1,133 images (Tusk) and ~5,000 synthetic frames (CARLA) are small. Pano monitors 50M+ acres across three countries with continuous camera streams - the data volume and the 'continuous learning, model evaluation, monitoring' workflows are a different regime."
+    ],
+    "overstated_by_keywords": [
+      "'Multi-object tracking' counted as adjacent via visual servoing - in reality that is single-target closed-loop control, not tracking. Do not claim MOT in the resume or an interview.",
+      "'Video understanding' counted as adjacent - the profile has no temporal modeling at all. Per-frame inference on a video stream is not video understanding.",
+      "'CI/CD' counted as adjacent via Git/GitLab/SLURM - version control is not CI/CD. Do not stretch this one.",
+      "'Scene understanding and spatial reasoning' - the closest real backing is ZoeDepth monocular depth for crack profiling and the CARLA control stack. Defensible but thinner than the keyword implies.",
+      "STM32/FreeRTOS framing on COFFIN is a known landmine: COFFIN's microcontroller is Arduino, not STM32, and the drone work is ChibiOS not FreeRTOS. Keep those claims attached to the correct projects only."
+    ],
+    "reasoning": "This is the closest role-to-profile alignment in the pipeline so far - the JD's core loop (train CV model, convert to TensorRT, quantize, deploy to Jetson, benchmark, debug hardware integration) is almost a description of the COFFIN capstone plus the CUDA and SLM projects. The edge half of 'cloud/edge' is a genuine strength with measured numbers behind it. The cloud half is a real void, and the wildfire-specific problem shape (temporal smoke detection, multi-camera tracking, outdoor conditions, production-scale monitoring) sits outside everything he has built. Verdict is Strong Fit rather than higher because the gaps are concentrated in one coherent area rather than scattered, which is both the risk and the honest talking point: he is a deep edge-deployment hire who would need to pick up cloud and MLOps on the job."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-08-20",
+    "channel": "application",
+    "notes": "Form rejection; moved forward with other candidates. Came after outreach to 3 Pano contacts, none replied."
+  }
+}

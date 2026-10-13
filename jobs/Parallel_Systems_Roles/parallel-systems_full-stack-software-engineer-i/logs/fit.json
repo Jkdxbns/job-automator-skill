@@ -1,0 +1,118 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Full Stack Software Engineer I",
+  "job_slug": "full-stack-software-engineer-i",
+  "match_pct": 38.9,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 18,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Backend / APIs",
+    "Operating systems",
+    "Computer science / engineering degree",
+    "Networks / protocols"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Rust (systems programming)",
+      "you_have": "C/C++ and CUDA C++"
+    },
+    {
+      "jd_skill": "Track record of rapid learning",
+      "you_have": "Multi-domain breadth (embedded, robotics, edge AI, ML)"
+    },
+    {
+      "jd_skill": "Distributed systems / backend middleware",
+      "you_have": "ROS2 distributed node architecture"
+    },
+    {
+      "jd_skill": "Networks / distributed systems coursework",
+      "you_have": "Robotics and embedded networking stack"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "React / component-based web UI",
+    "Electron / desktop wrappers",
+    "Tauri",
+    "Rust (exact match - not C/C++)",
+    "databases / SQL / DB",
+    "AI coding tool pairing (e.g., Copilot)",
+    "full-stack web/electron product experience",
+    "operator / rail / freight domain knowledge"
+  ],
+  "top_ats_keywords": [
+    "TypeScript",
+    "React",
+    "Rust",
+    "Electron",
+    "APIs",
+    "backend",
+    "data models",
+    "desktop wrappers",
+    "full-stack",
+    "operator application",
+    "interfaces",
+    "enterprise software"
+  ],
+  "required_skills": [
+    "TypeScript",
+    "Rust",
+    "component-based UI / React",
+    "Bachelor's degree (CS/CE) or equivalent",
+    "track record picking up new tools/domains"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "React",
+    "TypeScript",
+    "Python",
+    "Electron / Tauri",
+    "backend development",
+    "databases",
+    "networks",
+    "operating systems",
+    "distributed systems",
+    "pairing with AI coding tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Build/improve operator and customer product platform (TypeScript, React, Rust)",
+    "Ship features in Electron operator application",
+    "Translate operational needs into reliable interfaces with product/vehicle engineers",
+    "Own features end-to-end (understand user, implement, test, document, follow-up)",
+    "Expand into full-stack enterprise work (data models, APIs, performance/reliability)"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

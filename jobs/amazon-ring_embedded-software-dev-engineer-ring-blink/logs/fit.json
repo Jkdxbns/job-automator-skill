@@ -1,0 +1,173 @@
+{
+  "company": "Amazon (Ring)",
+  "company_slug": "amazon-ring",
+  "role": "Embedded Software Dev Engineer, Ring and Blink Devices",
+  "job_slug": "embedded-software-dev-engineer-ring-blink",
+  "match_pct": 65.9,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 7,
+    "missing_count": 4,
+    "jd_ask_size": 22,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ embedded",
+    "ARM CPUs",
+    "low-level drivers",
+    "interrupt service routines",
+    "hardware debugging",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "FreeRTOS",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "computer architecture",
+      "you_have": "High Performance Architecture / Multiple Processor Systems coursework"
+    },
+    {
+      "jd_skill": "embedded wireless systems",
+      "you_have": "HC-05 Bluetooth (BLE/Classic listed, working depth)"
+    },
+    {
+      "jd_skill": "GenAI user",
+      "you_have": "LLM/ASR/transformer project work"
+    },
+    {
+      "jd_skill": "BLE",
+      "you_have": "Bluetooth (HC-05 classic)"
+    },
+    {
+      "jd_skill": "software testing",
+      "you_have": "testing and validation (working)"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux + systemd on Jetson (exposure)"
+    },
+    {
+      "jd_skill": "GenAI applications",
+      "you_have": "voice-controlled arm with TinyLlama/ASR"
+    }
+  ],
+  "missing_skills": [
+    "WiFi",
+    "battery powered firmware",
+    "IAR/Keil",
+    "AWS"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "ARM",
+    "ISR",
+    "drivers",
+    "BLE",
+    "WiFi",
+    "SPI",
+    "I2C",
+    "UART",
+    "FreeRTOS",
+    "embedded Linux",
+    "Python",
+    "Git",
+    "AWS",
+    "GenAI",
+    "IAR",
+    "Keil"
+  ],
+  "required_skills": [
+    "C/C++ embedded",
+    "ARM CPUs",
+    "low-level drivers",
+    "interrupt service routines",
+    "hardware debugging",
+    "computer architecture",
+    "embedded wireless systems",
+    "GenAI user"
+  ],
+  "preferred_skills": [
+    "BLE",
+    "WiFi",
+    "battery powered firmware",
+    "IAR/Keil",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "software testing",
+    "embedded Linux",
+    "FreeRTOS",
+    "Python",
+    "GenAI applications",
+    "AWS"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop firmware for Ring and Blink cameras",
+    "Embedded wireless / IoT product development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Gdansk, Poland (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4: timer-triggered ADC scans, interrupt-driven sample capture and a low-level I2C driver (smart_fan / temperature monitor firmware)",
+      "Interrupt-driven quadrature decoding on hardware interrupts and interrupt-driven UART servo control (Robocon, Object Tracking Turret)",
+      "FreeRTOS with mutexes for task coordination plus SPI/I2C/UART peripherals (Object Tracking Turret)",
+      "Embedded Systems Intern role with Bluetooth and hardware debugging using logic analyzers, oscilloscopes and multimeters",
+      "GenAI/LLM depth well past a day-to-day user: transformer from scratch, TinyLlama quantization, voice-controlled arm pipeline"
+    ],
+    "real_gaps": [
+      "No Wi-Fi or true BLE stack work (only HC-05 classic Bluetooth), so the wireless core of the role is thin",
+      "No battery-powered or low-power firmware, no power-state design",
+      "No commercial camera, video or SoC firmware; ARM work is Cortex-M only, no Cortex-A or embedded Linux BSP",
+      "No IAR/Keil toolchain, no AWS/cloud IoT, no formal unit/regression test frameworks for firmware",
+      "Seniority: 5+ years and 'extensive' on every core ask against 0 full-time years"
+    ],
+    "overstated_by_keywords": [
+      "BLE (HC-05 is Bluetooth classic over UART, not a BLE stack)",
+      "computer architecture (coursework, not hardware-level design work)",
+      "embedded Linux (systemd on Jetson is deployment, not kernel or driver work)"
+    ],
+    "understated_by_keywords": [
+      "GenAI building: COFFIN and the from-scratch transformer exceed the 'GenAI user' ask"
+    ],
+    "screening_gaps": [
+      "No embedded wireless depth (Wi-Fi, real BLE stack) when it is the headline required skill",
+      "0 full-time years vs 5+ years 'extensive' experience and technical leadership expectation",
+      "No battery-powered, low-power or shipped-product firmware experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core low-level skills (C, ARM Cortex-M, ISRs, drivers, FreeRTOS, SPI/I2C/UART) are genuinely backed, but the role's wireless, battery-power and shipped-camera-firmware centre is not. Reasonable to try given the strong GenAI angle and an EU role with a clean visa picture; expect the seniority bar to be the main filter.",
+    "calibration_delta": 8.9
+  },
+  "semantic_pending": false
+}

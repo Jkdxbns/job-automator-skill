@@ -1,0 +1,121 @@
+{
+  "company": "Cambium Learning Group",
+  "company_slug": "cambium_learning_group",
+  "role": "Software Engineer Intern - AI Applications",
+  "job_slug": "software_engineer_intern_ai_applications",
+  "req_id": "REQ-4610",
+  "match_pct": 67.6,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 17,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "LLMs (GPT-2 from scratch, TinyLlama)",
+    "Generative AI",
+    "NLP",
+    "Machine learning / deep learning",
+    "AI/LLM evaluation & benchmarking",
+    "APIs",
+    "Backend systems (Flask-SocketIO)",
+    "Advanced AI/ML coursework",
+    "Postgraduate CS/CE degree"
+  ],
+  "missing_skills": [
+    "Cloud platforms (AWS/Azure/GCP)",
+    "JavaScript/TypeScript or C#",
+    "Responsible AI / safety evaluation",
+    "EdTech / learning sciences domain"
+  ],
+  "adjacent_skills": [
+    "Prompt design -> Gemini intent classification in COFFIN",
+    "AI agent workflows / tool integration -> LLM intent -> tool dispatch pipeline",
+    "Web development -> Flask-SocketIO server + Flutter client"
+  ],
+  "top_ats_keywords": [
+    "Large Language Models",
+    "LLM",
+    "Generative AI",
+    "AI agent",
+    "prompt design",
+    "tool integration",
+    "orchestration",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "C#",
+    "APIs",
+    "backend systems",
+    "web development",
+    "machine learning",
+    "NLP",
+    "model evaluation",
+    "AI safety",
+    "responsible AI",
+    "AWS",
+    "Azure",
+    "GCP",
+    "cloud"
+  ],
+  "key_responsibilities": [
+    "Develop AI-powered features using Large Language Models",
+    "Support AI agent workflows: prompt design, tool integration, basic orchestration logic",
+    "Integrate generative AI capabilities into educational platforms",
+    "Evaluate and test AI systems for quality, safety, and performance",
+    "Collaborate with engineers, product managers, and researchers",
+    "Explore responsible AI practices"
+  ],
+  "role_category": "ml_systems",
+  "constraint_flags": {
+    "enrollment_required": "JD requires 'currently pursuing a postgraduate degree'; M.S. completed May 2026",
+    "sponsorship_mentioned": false,
+    "location": "Remote US - must reside and work in US (OK)"
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 76,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Built a GPT-2 style Transformer from scratch in PyTorch (attention, MLP, layer norm, weight tying) plus a TikToken-based tokenizer - LLM internals depth well above intern bar",
+      "SLM Compression project: 8-bit LLM.int8 quantization of TinyLlama 1.1B, benchmarked on HellaSwag/GSM8K/ARC with <1% degradation - this is exactly 'evaluation and testing of AI systems for quality and performance'",
+      "COFFIN capstone integrates the Gemini API for intent classification under 500ms inside a live pipeline - real generative-AI integration, not a notebook demo",
+      "Flask-SocketIO edge server + Flutter client + WebSocket fabric covers 'familiarity with web development, APIs, or backend systems'",
+      "Cross-functional collaboration is genuinely evidenced: led a 7-person cross-cultural research team and a 25-member robotics club"
+    ],
+    "real_gaps": [
+      "No AI agent orchestration work - no function calling schemas, no tool-use loops, no RAG, no LangChain/LangGraph or equivalent",
+      "No cloud platform exposure; SLURM/JupyterHub is HPC, not AWS/Azure/GCP",
+      "No responsible-AI or safety evaluation work (content safety, jailbreak/red-team evals) - unusually important for a K-12 product",
+      "No JavaScript/TypeScript; Flutter is Dart",
+      "No EdTech or learning-science domain exposure",
+      "Eligibility: JD says 'currently pursuing a postgraduate degree' and the M.S. finished May 2026"
+    ],
+    "overstated_by_keywords": [
+      "'Web development' - Flask-SocketIO on an edge device is thin next to platform integration work",
+      "'APIs' - mostly consuming HuggingFace/Gemini APIs rather than designing or serving them"
+    ],
+    "understated_by_keywords": [
+      "Keyword pass never string-matched 'prompt design', but Gemini intent classification in COFFIN is a prompt-to-structured-output-to-tool-dispatch loop",
+      "'LLM evaluation' undersold - HellaSwag/GSM8K/ARC + perplexity + WER is standard LLM eval practice"
+    ],
+    "screening_gaps": [
+      "Not currently enrolled - the JD requires 'currently pursuing a postgraduate degree' and the M.S. completed May 2026; this is the most likely auto-reject",
+      "No AI agent workflow experience - prompt design, tool integration and orchestration logic are the second responsibility bullet and there is no framework-level backing",
+      "No cloud platform exposure (AWS/Azure/GCP) and no production web/backend deployment - all work is local, edge, or on an HPC cluster"
+    ],
+    "recommend_apply": true,
+    "reasoning": "He clears every stated minimum qualification and most preferred ones, with LLM depth (transformer from scratch, quantization, standard benchmarks) that is well above the intern bar. The real gaps are agent orchestration, cloud, and responsible-AI evaluation, all of which the posting frames as things an intern learns. The one genuine risk is eligibility, not skill: the posting asks for a candidate currently enrolled.",
+    "calibration_delta": -8.4
+  }
+}

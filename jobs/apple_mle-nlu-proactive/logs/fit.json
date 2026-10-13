@@ -1,0 +1,132 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Engineer, Natural Language Understanding, Proactive",
+  "job_slug": "mle-nlu-proactive",
+  "match_pct": 55.6,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 27,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Python",
+    "C/C++",
+    "Advanced degree MS/PhD",
+    "SLM (TinyLlama)",
+    "Model compression/quantization",
+    "TensorFlow",
+    "LLM",
+    "on-device",
+    "generative AI",
+    "PyTorch"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Deployment to production",
+      "you_have": "Jetson/TensorRT edge deployment"
+    },
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "Build infra/release mgmt/CI-CD",
+      "you_have": "GitLab, systemd service mgmt, SLURM"
+    },
+    {
+      "jd_skill": "NLU",
+      "you_have": "NLP (transformer/tokenizer/ASR/GPT-2)"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Swift",
+    "Objective-C",
+    "Large-scale query/search/recommendation/personal assistant systems",
+    "XGBoost",
+    "Personalization/data-driven decision making",
+    "query understanding",
+    "intent resolution",
+    "retrieval",
+    "ranking"
+  ],
+  "top_ats_keywords": [
+    "NLU",
+    "LLM",
+    "query understanding",
+    "intent resolution",
+    "retrieval",
+    "ranking",
+    "on-device",
+    "personalization",
+    "search",
+    "generative AI",
+    "quantization",
+    "SLM",
+    "PyTorch"
+  ],
+  "required_skills": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Python",
+    "Go",
+    "C/C++",
+    "Swift",
+    "Objective-C",
+    "Bachelor's degree CS/related"
+  ],
+  "preferred_skills": [
+    "Advanced degree MS/PhD",
+    "Small Language Models (SLM) / on-device LLM training",
+    "Model compression/quantization",
+    "Deployment to production",
+    "Large-scale query understanding/search/recommendation/personal assistant systems",
+    "JAX",
+    "TensorFlow",
+    "XGBoost",
+    "Personalization/data-driven decision making",
+    "Swift/Apple platform development",
+    "Build infrastructure/release management/CI-CD"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "query understanding modeling",
+    "intent resolution",
+    "retrieval and ranking",
+    "NLU/LLM techniques for grounded responses",
+    "define technical vision/roadmap",
+    "cross-functional collaboration"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

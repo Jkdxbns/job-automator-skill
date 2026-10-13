@@ -1,0 +1,164 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Machine Learning Perception Engineer",
+  "job_slug": "machine-learning-perception-engineer",
+  "match_pct": 46.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 11,
+    "jd_ask_size": 25,
+    "req_cov": 0.542,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python and C++ development",
+    "PyTorch and/or TensorFlow",
+    "Computer vision (detection, 3D vision, object detection)",
+    "OpenCV and image processing",
+    "GPU optimization / edge deployment",
+    "Lightweight / real-time models",
+    "MS in related field",
+    "Robotics/autonomy / sensor fusion exposure",
+    "ROS1/ROS2 or similar frameworks"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-object tracking (Kalman/EKF, data association, track management)",
+      "you_have": "Perception / tracking-related experience"
+    },
+    {
+      "jd_skill": "Multi-modal data (RGB, thermal, LiDAR, radar, IMU, etc.)",
+      "you_have": "Some multi-sensor / depth / ToF exposure"
+    },
+    {
+      "jd_skill": "Dataset building / labeling / schema",
+      "you_have": "Limited data-preparation / acquisition background"
+    },
+    {
+      "jd_skill": "Camera geometry / calibration / imaging fundamentals",
+      "you_have": "Basic imaging/calibration exposure"
+    },
+    {
+      "jd_skill": "Production-scale software systems",
+      "you_have": "Internship-level only; 0 full-time years"
+    }
+  ],
+  "missing_skills": [
+    "3+ years of software development experience (seniority gap, not blocker)",
+    "Explicit multi-object tracking with Kalman/EKF filtering",
+    "Perception evaluation metrics (mAP, MOTA/MOTP/IDF1)",
+    "Familiarity with dataset building (labeling, schema design, QA, taxonomy) in depth",
+    "Deep camera geometry, calibration, and imaging fundamentals",
+    "Experience working in Agile environments",
+    "Ability to translate ambiguous product needs into working systems",
+    "MATLAB or similar tooling",
+    "Valid driver\u2019s license",
+    "Experience building systems that scale across environments or customers",
+    "Technical leadership or ownership experience in production systems"
+  ],
+  "top_ats_keywords": [
+    "Python and C++ development",
+    "PyTorch and/or TensorFlow",
+    "Technical communication / translating complex concepts",
+    "Computer vision (detection, classification, 3D vision, point clouds)",
+    "Multi-object tracking (Kalman/EKF filtering, data association, track management; 3D/BEV tracking a plus)",
+    "Perception evaluation metrics (mAP, MOTA/MOTP/IDF1)",
+    "Strong OpenCV and image processing skills",
+    "Multi-modal data (RGB, thermal, LiDAR, radar, IMU, etc.)",
+    "Dataset building (labeling, schema design, QA, taxonomy)",
+    "Camera geometry, calibration, and imaging fundamentals",
+    "Agile environments",
+    "Ability to translate ambiguous product needs into working systems"
+  ],
+  "required_skills": [
+    "Python and C++ development",
+    "PyTorch and/or TensorFlow",
+    "Technical communication / translating complex concepts",
+    "Computer vision (detection, classification, 3D vision, point clouds)",
+    "Multi-object tracking (Kalman/EKF filtering, data association, track management; 3D/BEV tracking a plus)",
+    "Perception evaluation metrics (mAP, MOTA/MOTP/IDF1)",
+    "Strong OpenCV and image processing skills",
+    "Multi-modal data (RGB, thermal, LiDAR, radar, IMU, etc.)",
+    "Dataset building (labeling, schema design, QA, taxonomy)",
+    "Camera geometry, calibration, and imaging fundamentals",
+    "Agile environments",
+    "Ability to translate ambiguous product needs into working systems"
+  ],
+  "preferred_skills": [
+    "MS in ML, Computer Vision, Robotics, or related field",
+    "GPU optimization or edge deployment constraints",
+    "Lightweight models for real-time systems",
+    "MATLAB or similar tooling",
+    "Valid driver\u2019s license",
+    "Exposure to robotics/autonomy systems or sensor fusion",
+    "ROS1/ROS2 or similar frameworks",
+    "Experience building systems that scale across environments or customers",
+    "Technical leadership or ownership experience in production systems"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Fairport, NY \u2013 Hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 56.8,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Detection: YOLOv8n 83% mAP@50 on a self-annotated 1,133-image set (Tusk), YOLO11n mAP50~0.85 on CARLA-generated data",
+      "Segmentation: U-Net with VGG/ResNet backbones on BraTS 3D MRI, Dice/IoU evaluation (Teesside)",
+      "Monocular depth: ZoeDepth crack-depth profiling at +/-8% error (BARC)",
+      "Dataset building: automated CARLA labelling with occlusion filtering (~5,000 YOLO + ~3,000 UFLD frames), manual annotation at Tusk, LeRobot-structured multi-camera capture",
+      "Real-time/edge deployment: TensorRT YOLO 5.2x speedup, CUDA kernels, ONNX/TFLite export, 8-bit quantization",
+      "PyTorch and OpenCV in Python/C++, ROS2 and robot perception coursework"
+    ],
+    "real_gaps": [
+      "No multi-object tracking: no Kalman/EKF, data association or track lifecycle, 3D/BEV tracking",
+      "No RGB-thermal fusion or any multi-modal fusion; only RGB camera + ToF range gating",
+      "No LiDAR/radar/point-cloud work",
+      "No perception tracking metrics (MOTA/MOTP/IDF1); only mAP, Dice, IoU",
+      "No failure-case/hard-example mining pipelines or BEV tensors",
+      "No Agile or production-shipped ML software; 3+ years Python/C++ asked, 0 full-time (noted, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "'Computer vision' and 'object detection' are Have, but depth is single-frame detection; the role's centre is temporal tracking and fusion",
+      "'Image processing' counts, but the BARC work is offline stitching/denoising, not real-time multi-sensor pipelines",
+      "'ROS2' is arm kinematics/MoveIt, not perception or autonomy middleware"
+    ],
+    "understated_by_keywords": [
+      "BARC homography-based stitching evidences camera geometry/imaging fundamentals; the keyword pass missed 'camera geometry'",
+      "CARLA pipeline (detection + lane model + control stack) is real autonomy/ADAS-adjacent integration",
+      "COFFIN visual servoing shows end-to-end perception-to-action work"
+    ],
+    "screening_gaps": [
+      "No multi-object tracking (Kalman/EKF, data association), the role's named core responsibility",
+      "No RGB-thermal or other multi-modal sensor fusion",
+      "No professional production ML experience (3+ years asked, 0 full-time)"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Detection, segmentation, depth, dataset building and edge optimisation are genuinely backed, but 3D tracking, thermal fusion and multi-sensor data are the headline duties and have no evidence. It is a stretch role you could grow into rather than a clean match; apply only if willing to be screened out on tracking, and note the 'could be subject to U.S. citizen' eligibility line.",
+    "calibration_delta": -10.8
+  },
+  "semantic_pending": false
+}

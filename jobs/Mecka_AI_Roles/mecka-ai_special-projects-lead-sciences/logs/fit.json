@@ -1,0 +1,111 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Special Projects Lead, Sciences",
+  "job_slug": "special-projects-lead-sciences",
+  "match_pct": 32.1,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 14,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "robotics",
+    "AI/ML",
+    "hardware-enabled / embedded"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embodied AI",
+      "you_have": "Edge AI / robotics deployment"
+    },
+    {
+      "jd_skill": "direct execution / problem resolution",
+      "you_have": "experienced / skilled engineering execution"
+    },
+    {
+      "jd_skill": "operating performance (quality, throughput)",
+      "you_have": "benchmarking / optimization measurement"
+    }
+  ],
+  "missing_skills": [
+    "Scientific fluency / laboratory experience (no lab science, experimental, lab operations keywords)",
+    "Programme/operations delivery (no program management, operations, delivery, scheduling keywords)",
+    "Partnership management (no partnership, vendor, stakeholder, agreement, onboarding keywords)",
+    "Prioritizing / tradeoffs / decisions under uncertainty (no management, prioritization, decision-making keywords)",
+    "Scientific or laboratory operations background (CanSat Workshop is closest but is a student workshop, not sustained lab ops)",
+    "Founder / early startup experience (no startup, founder, company-building keywords)",
+    "Multi-site / international operations (no logistics, multi-site, international, global-team keywords)",
+    "Data capture / data labeling (no data-labeling, annotation, capture-pipeline keywords)"
+  ],
+  "top_ats_keywords": [
+    "Special Projects Lead",
+    "robotics",
+    "embodied AI",
+    "data capture",
+    "data labeling",
+    "hardware-enabled workflows",
+    "scientific programmes",
+    "laboratory experience",
+    "programme delivery",
+    "quality",
+    "throughput",
+    "schedule",
+    "cost",
+    "partnership management",
+    "vendor coordination",
+    "logistics",
+    "multi-site operations",
+    "experimental scientists",
+    "startup experience",
+    "operating responsibility"
+  ],
+  "required_skills": [
+    "Scientific fluency / laboratory experience",
+    "Programme/operations delivery (quality, cost, schedule)",
+    "Partnership management (external partners, vendors, coordination)",
+    "Prioritizing work, evaluating tradeoffs, sound decisions under uncertainty",
+    "Direct execution and practical problem resolution"
+  ],
+  "preferred_skills": [
+    "Scientific or laboratory operations background",
+    "Founder or early startup experience with substantial operating responsibility",
+    "Building and improving operations across multiple sites or international partner teams"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Translate scientific/commercial objectives into programme plans, milestones and operating requirements",
+    "Launch new initiatives: establish workflows, coordinate equipment/resources, train teams, resolve readiness gaps",
+    "Own operating performance: manage quality, throughput, schedules, cost; identify bottlenecks and improve delivery",
+    "Build and manage partnerships with scientific organisations: agreements, onboarding, ongoing performance",
+    "Coordinate people and resources across locations: partner teams, vendors, logistics; make direct operating decisions"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

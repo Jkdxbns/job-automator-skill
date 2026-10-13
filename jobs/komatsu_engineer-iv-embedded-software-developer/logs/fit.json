@@ -1,0 +1,59 @@
+{
+  "company": "Komatsu",
+  "company_slug": "komatsu",
+  "role": "Engineer IV, Embedded Software Developer",
+  "job_slug": "engineer-iv-embedded-software-developer",
+  "match_pct": 80.0,
+  "missing_skills": [
+    "System failure mode analysis / risk assessment (formal FMEA)"
+  ],
+  "adjacent_skills": [
+    "Digital circuit schematics reading / multimeter troubleshooting (has PCB/oscilloscope experience, not on vehicle systems)",
+    "Technical documentation (has written project docs/specs, not formal engineering-standard docs)"
+  ],
+  "top_ats_keywords": [
+    "Real-time operating systems",
+    "Linux",
+    "C programming",
+    "Circuit board schematics",
+    "Oscilloscope",
+    "Multimeter",
+    "Technical documentation",
+    "Failure mode analysis",
+    "Risk assessment",
+    "Electrical engineering"
+  ],
+  "key_responsibilities": [
+    "Lead or perform embedded software development for vehicle chassis/components/systems",
+    "Architect, develop, install, troubleshoot custom applications on RTOS and Linux",
+    "Read schematics, write control software, troubleshoot circuits with multimeter/oscilloscope",
+    "Create technical documentation for system design and test",
+    "Perform system failure mode analysis and risk assessments",
+    "Provide technical support to manufacturing, sales, and service teams",
+    "Visit customer/mine sites for product issue resolution"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Real-time OS + Linux depth is genuine, not surface: FreeRTOS with mutex-based task coordination (Object Tracking Turret), a flagship custom RTOS build on STM32 L476RG, and Jetson Linux work running a multi-process edge server (COFFIN capstone).",
+      "Hands-on hardware/software integration is real: designed and fabricated custom PCBs in EAGLE for locomotive robots, wrote bare-metal C directly against GPIO/TIM2/ADC1/I2C1 registers (STM32 Temperature Monitor), and lists Oscilloscopes/Logic Analyzers as working tools, not just theory.",
+      "C is a consistent thread across nearly every embedded project, not a one-off mention."
+    ],
+    "real_gaps": [
+      "The 6-year post baccalaureate experience requirement is not a paperwork technicality here. Engineer IV reporting to a Lead Engineer II, with language like guidance only in controversial circumstances and lead or perform in engineering projects, describes a role assuming independent engineering judgment built over years, not academic-project judgment. Nothing in the profile substitutes for that.",
+      "Zero domain exposure to vehicles, chassis systems, or heavy equipment. All embedded work is robotics/arms/turrets at hobbyist or research scale. No CAN bus, no vehicle network protocols, nothing that signals familiarity with how software integrates into an actual machine chassis.",
+      "Formal system failure mode analysis and risk assessment (FMEA style, applying EE principles to predict system behavior under failure scenarios) is completely absent. This is not adjacent to anything in the profile. it is a distinct engineering discipline usually learned on the job in regulated/safety-conscious industries, and there is no proxy for it here.",
+      "The documentation this JD wants (compliance-grade design and test documentation to Engineering Standards) is a different rigor than the BOM/claims doc from the Planctech internship or JupyterHub notes from BARC. those are informal by comparison."
+    ],
+    "overstated_by_keywords": [
+      "Real-time/Linux and schematics/PCB read as clean Have/Adjacent matches on keywords alone, but the underlying scale is single-board, single-developer, academic-project embedded systems. not a production vehicle ECU built to Engineering Standards with cross-team compliance. The keyword match overstates production readiness for this specific industrial context."
+    ],
+    "reasoning": "The technical vocabulary overlaps well (RTOS, Linux, C, PCB, oscilloscopes) which is why the keyword match came out at 80%. But read against what this specific req actually is, a senior individual-contributor role on vehicle chassis systems at a heavy equipment manufacturer, requiring 6 years of engineering judgment and formal FMEA/risk assessment, the fit is weak. The skills are real, the seniority and domain are not there, and one required skill category (FMEA) has no backing anywhere in the profile."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "company": "Handshake AI",
+  "company_slug": "handshake_ai",
+  "role": "AI Red Teamer (LLM Generalist)",
+  "job_slug": "red_teamer_llm",
+  "match_pct": 4.3,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 21,
+    "jd_ask_size": 23,
+    "req_cov": 0.0,
+    "cap_applied": "zero_have"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [],
+  "missing_skills": [
+    "adversarial prompts", "jailbreak", "evasion", "prompt injection",
+    "red teaming", "content moderation", "trust and safety",
+    "harm taxonomy", "rubric-based scoring", "jailbreak techniques",
+    "model safety evaluation", "regulatory compliance (AI safety)",
+    "security research (red teaming focus)", "CBRN domain knowledge",
+    "persuasion / influence ops analysis", "multi-turn adversarial design",
+    "adversarial testing", "structured harm annotation"
+  ],
+  "adjacent_skills": [
+    {"term": "Python", "why_adjacent": "Profile has Python for embedded/ML scripts; not red-teaming scripting"},
+    {"term": "LLM / model evaluation", "why_adjacent": "Profile has basic LLM awareness (Gemini, GPT-2) but no adversarial/evaluation work"}
+  ],
+  "top_ats_keywords": [
+    "red teaming", "adversarial prompts", "jailbreak", "evasion",
+    "prompt injection", "guardrails", "harm taxonomy", "CBRN",
+    "content moderation", "trust and safety"
+  ],
+  "key_responsibilities": [
+    "Craft creative adversarial prompts and multi-turn scenarios",
+    "Discover ways around safety filters using jailbreak/evasion/prompt injection",
+    "Explore edge cases to provoke disallowed/harmful outputs",
+    "Evaluate model responses against structured harm taxonomies and severity rubrics",
+    "Document experiments clearly",
+    "Collaborate with engineers/data scientists/researchers"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "constraint_flags": {
+    "sponsorship_mentioned": false,
+    "clearance_required": false,
+    "citizenship_required": false,
+    "location_match": false,
+    "remote_ok_profile": true,
+    "remote_ok_jd": false,
+    "experience_level_stated": "not_stated",
+    "experience_years_required": 0
+  },
+  "notes": "Role requires hands-on red teaming / adversarial testing experience; profile is embedded AI / robotics with 0 full-time years. Extremely low keyword overlap (4.3%) and seniority mismatch. Not recommended for tailoring or application."
+}

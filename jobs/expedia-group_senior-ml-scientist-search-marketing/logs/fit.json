@@ -1,0 +1,127 @@
+{
+  "company": "Expedia Group",
+  "company_slug": "expedia-group",
+  "role": "Senior Machine Learning Scientist - Search Marketing & Tech",
+  "job_slug": "senior-ml-scientist-search-marketing",
+  "match_pct": 45.7,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 23,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "pandas",
+    "NumPy",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "deep learning",
+    "Git",
+    "LLM fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "model deployment",
+      "you_have": "TensorRT/Jetson edge deployment"
+    },
+    {
+      "jd_skill": "CI/CD for ML",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "constrained optimization",
+      "you_have": "quantization/pruning optimization"
+    }
+  ],
+  "missing_skills": [
+    "gradient-boosted trees",
+    "SQL",
+    "Spark",
+    "A/B testing",
+    "causal inference",
+    "statistics",
+    "calibration",
+    "monitoring and drift detection",
+    "bandits/RL",
+    "ads bidding",
+    "feature stores"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "SQL",
+    "Spark",
+    "A/B testing",
+    "causal inference",
+    "gradient-boosted trees",
+    "bandits",
+    "reinforcement learning",
+    "bidding",
+    "feature store",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "Python",
+    "pandas",
+    "NumPy",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "deep learning",
+    "gradient-boosted trees",
+    "SQL",
+    "Spark",
+    "A/B testing",
+    "causal inference",
+    "statistics",
+    "feature engineering",
+    "calibration",
+    "model deployment",
+    "monitoring and drift detection",
+    "Git"
+  ],
+  "preferred_skills": [
+    "bandits/RL",
+    "ads bidding",
+    "constrained optimization",
+    "feature stores",
+    "CI/CD for ML",
+    "LLM fine-tuning"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "own end-to-end ML solutions",
+    "lead multi-quarter initiatives",
+    "mentor scientists"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

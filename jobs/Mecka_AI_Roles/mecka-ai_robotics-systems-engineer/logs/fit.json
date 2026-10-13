@@ -1,0 +1,141 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Robotics Systems Engineer",
+  "job_slug": "robotics-systems-engineer",
+  "match_pct": 80.8,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 1,
+    "missing_count": 2,
+    "jd_ask_size": 13,
+    "req_cov": 0.95,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "Linux",
+    "robotics / mechatronic integration and debugging",
+    "kinematics and coordinate transforms",
+    "sensor calibration",
+    "robot interfaces, control loops, software-to-hardware communication",
+    "perception / ML model integration into running robot",
+    "systematic failure diagnosis (electronics / sensors / software)",
+    "mechanics-related system understanding"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "time synchronization",
+      "you_have": "real-time control / timing-related embedded work"
+    }
+  ],
+  "missing_skills": [
+    "time synchronization (no direct match in candidate keywords)",
+    "3+ years hands-on experience (experience gap, not skill gap)"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "mechatronics",
+    "Python",
+    "C++",
+    "Linux",
+    "kinematics",
+    "coordinate transforms",
+    "sensor calibration",
+    "time synchronization",
+    "robot interfaces",
+    "control loops",
+    "communication between software and hardware",
+    "perception",
+    "machine learning",
+    "calibration",
+    "diagnostic",
+    "hardware debugging",
+    "electronics",
+    "sensors",
+    "mechanics",
+    "data collection",
+    "teleoperation",
+    "evaluation",
+    "demonstration",
+    "policy deployment"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "Linux",
+    "robotics or mechatronic systems integration/debugging",
+    "kinematics and coordinate transforms",
+    "sensor calibration",
+    "time synchronization",
+    "robot interfaces and control loops",
+    "perception or machine-learning model integration",
+    "systematic failure diagnosis across software/electronics/sensors/mechanics"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Integrate robotics hardware and software for data collection and repeatable experiments",
+    "Develop calibration and diagnostic tools for coordinate frames, timing, and sensor quality",
+    "Deploy perception models and learned policies on robots and investigate real-task performance",
+    "Build recording, teleoperation, and evaluation workflows with robot-learning researchers",
+    "Make systems more reliable through hardware debugging, software improvements, and clear recovery procedures"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 74,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Hardware/software integration and failure diagnosis: COFFIN capstone 'resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' across Flutter, Flask-SocketIO, Jetson and Arduino, with 10/10 pick reliability.",
+      "Deploying perception on robots: COFFIN 'TensorRT-optimized YOLO (5.2x speedup: 56.7->10.9 ms)' driving visual servoing, plus Object Tracking Turret (YOLOv8 on Jetson commanding an STM32 over UART).",
+      "Kinematics and coordinate transforms: ROS arm project 'derived DH tables and hand-computed full forward kinematic chains (0T6)' for UR5e and AL5B, validated in MoveIt/RViz; Frame Simulator built an SE(3) transform-chain engine.",
+      "Control loops and robot interfaces: Robocon 'closed-loop heading correction' from quadrature-encoder odometry fed into PWM; COFFIN two-link IK on Arduino C++ driving five servos.",
+      "Data collection workflows: COFFIN 'LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture'."
+    ],
+    "real_gaps": [
+      "Time synchronization across sensors or clocks: nothing in the profile addresses timestamps, clock sync or latency alignment between devices.",
+      "Sensor calibration as a discipline (intrinsics/extrinsics, hand-eye): only ADXL345 jitter/threshold tuning in the Planctech glove, which is a different thing.",
+      "Deploying learned policies and teleoperation: no policy-rollout or teleop system; the LeRobot-structured pipeline is data capture only.",
+      "Seniority: JD asks 3+ years hands-on; profile is internships, a capstone and club work (noted only, not scored)."
+    ],
+    "overstated_by_keywords": [
+      "'coordinate transforms' as HAVE: backed by DH/FK and SE(3) visualization, which is geometry, not the sensor-frame calibration the role means."
+    ],
+    "understated_by_keywords": [
+      "COFFIN's ToF range-gating and contact-triggered grasp is real sensor-in-the-loop integration the keyword pass counted only as 'ToF'.",
+      "LeRobot-structured multi-camera capture maps directly to the role's 'recording and evaluation workflows' even though neither term string-matched."
+    ],
+    "screening_gaps": [
+      "No time synchronization experience",
+      "No sensor calibration (extrinsics/intrinsics) experience",
+      "No learned-policy deployment or teleoperation experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Most core responsibilities (integration, perception deployment, debugging, kinematics, control loops) have concrete backing in COFFIN, the ROS arm work and Robocon. The real holes are timing/calibration and learned-policy deployment, which are the role's stated differentiators; the 3+ years bar is a seniority matter noted separately.",
+    "calibration_delta": 6.8
+  },
+  "semantic_pending": false
+}

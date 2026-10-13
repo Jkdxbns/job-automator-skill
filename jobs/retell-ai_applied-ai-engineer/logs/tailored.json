@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Retell AI",
+    "role": "Applied AI Engineer (Customer Facing)",
+    "company_slug": "retell-ai",
+    "job_slug": "applied-ai-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built and deployed production voice AI applications in Python, integrating streaming ASR, LLM intent classification, and REST/WebSocket APIs across a distributed three-layer pipeline. Experienced debugging live integration failures end to end, from API and network layers through model behavior, and leading technical teams to ship on deadline.",
+  "skills": {
+    "Languages & Core": [
+      "Python",
+      "Bash",
+      "Git",
+      "Linux",
+      "CMake"
+    ],
+    "AI / LLM": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Gemini API",
+      "LLM prompting & intent classification",
+      "Transformer fine-tuning",
+      "8-bit quantization",
+      "Benchmarking & evaluation"
+    ],
+    "Voice & Speech AI": [
+      "faster-whisper",
+      "ASR pipelines",
+      "Streaming STT",
+      "BPE tokenization",
+      "WER evaluation",
+      "Mel spectrogram processing"
+    ],
+    "APIs & Distributed Systems": [
+      "REST APIs",
+      "WebSocket",
+      "Flask",
+      "Flask-SocketIO",
+      "Real-time streaming",
+      "Multiprocessing",
+      "TensorRT",
+      "NVIDIA Jetson"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% on a structured field-extraction task through preprocessing redesign and model tuning.",
+        "Fine-tuned DONUT, an OCR-free document-understanding transformer, building preprocessing and training pipelines in PyTorch on the HuggingFace VisionEncoderDecoder API with domain-specific special tokens."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Led a cross-cultural team of 7 as the sole ML-experienced member; took over as team lead mid-project to restructure task distribution and deliver a full U-Net segmentation pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI (PyQt, Matplotlib) for real-time data acquisition and visualization in a live laboratory environment; used GitLab and JupyterHub for collaborative analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member technical team across national-level competitions and organized 10+ exhibitions and hands-on workshops, teaching technical tooling to non-specialist audiences."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a production voice AI application over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson controller linked by a unified WebSocket fabric.",
+        "Integrated faster-whisper streaming STT (1.0–1.4s) and Gemini API intent classification (<500ms) with TensorRT-optimized YOLO vision (5.2x speedup, 56.7 to 10.9 ms) for closed-loop visual servoing.",
+        "Debugged and resolved 11 integration failures spanning false-positive detections, power brown-out, and stale-frame capture; achieved 100% task reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "Whisper-Style ASR Engine from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline with an 80-channel mel spectrogram encoder and 4-block causal Transformer decoder with cross-attention; achieved 15% WER on an accented Hindi-English dataset.",
+        "Designed a custom BPE tokenizer with a Cython-accelerated backend achieving 4-5.5x speedup over pure Python, processing 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "LLM Compression and Benchmarking for Production Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml.",
+        "Benchmarked on HellaSwag, GSM8K, and ARC with under 1% accuracy loss, establishing near-lossless compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

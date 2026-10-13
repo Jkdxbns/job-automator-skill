@@ -1,0 +1,83 @@
+{
+  "jd": {
+    "company_name": "TYLsemi, Inc.",
+    "company_slug": "tylsemi",
+    "job_title": "Lead SoC Performance & Power Engineer",
+    "job_slug": "lead-soc-performance-power-engineer",
+    "required_skills": [
+      "BS/MS in Electrical Engineering or related field",
+      "6+ years in computer architecture, performance modeling, or microarchitecture configuration",
+      "Direct hands-on experience with commercial ESL tools (Platform Architect, Virtualizer, or comparable)",
+      "Solid working knowledge of PCIe (Gen 5/6/7), UCIe, or AMBA NoC protocols (AXI/CHI)",
+      "Strong Python for automating large-scale simulation sweeps, parsing performance reports, and analyzing results",
+      "Familiarity with SystemC and transaction-level modeling (TLM) paradigms"
+    ],
+    "preferred_skills": [
+      "Power modeling or floor-planning trade-offs",
+      "Prior work on multi-die/chiplet program or hands-on UCIe die-to-die",
+      "Experience taking architectural models through to real tape-out"
+    ],
+    "all_keywords": [
+      "ESL tools", "Platform Architect", "Virtualizer", "SystemC", "TLM", "transaction-level modeling",
+      "computer architecture", "performance modeling", "microarchitecture configuration",
+      "PCIe", "UCIe", "AMBA", "AXI", "CHI", "NoC", "interconnect",
+      "Python", "simulation", "performance analysis", "power modeling", "floor-planning",
+      "chiplet", "multi-die", "tape-out", "silicon", "PPA optimization"
+    ],
+    "required_experience_years": 6,
+    "experience_level_stated": "senior",
+    "sponsorship_mentioned": false,
+    "sponsorship_offered": null,
+    "sponsorship_raw_text": null,
+    "location": "San Jose, CA",
+    "remote_ok": true,
+    "clearance_required": false,
+    "key_responsibilities": [
+      "Own PPA exploration and trade-offs between peak performance, silicon area, and thermal/power budgets",
+      "Build transaction-level models (TLM) using commercial ESL suites to integrate third-party IPs (PCIe, UCIe, NoC)",
+      "Define, sweep, and validate hardware configuration parameters (buffer sizes, queue depths, clock-domain crossings, routing tables)",
+      "Characterize traffic across internal NoC and UCIe die-to-die interface to find congestion points and rule out protocol deadlocks",
+      "Work directly with IP vendors to debug model/behavioral mismatches and integrate new IP deliverables"
+    ],
+    "ats_keywords": [
+      "performance architecture", "SoC design", "PPA optimization", "ESL tools", "system-level simulation",
+      "PCIe", "UCIe", "NoC fabric", "transaction-level modeling", "SystemC",
+      "Python", "performance modeling", "simulation", "tape-out", "chiplet", "multi-die architecture"
+    ],
+    "role_category": "hardware_asic"
+  },
+  "have": [
+    "Python"
+  ],
+  "adjacent": [
+    {
+      "jd_skill": "BS/MS in Electrical Engineering or related field",
+      "you_have": "M.S. Computer Engineering (related but not EE specifically)"
+    }
+  ],
+  "missing": [
+    "6+ years in computer architecture, performance modeling, or microarchitecture configuration",
+    "Direct hands-on experience with Platform Architect ESL tool",
+    "Direct hands-on experience with Virtualizer ESL tool",
+    "Solid working knowledge of PCIe (Gen 5/6/7)",
+    "Solid working knowledge of UCIe",
+    "Solid working knowledge of AMBA NoC protocols (AXI/CHI)",
+    "SystemC",
+    "Transaction-level modeling (TLM) paradigms",
+    "Power modeling or floor-planning trade-offs",
+    "Prior work on multi-die/chiplet program",
+    "Hands-on UCIe die-to-die experience",
+    "Experience taking architectural models through to real tape-out"
+  ],
+  "hard_blocker": {
+    "triggered": false,
+    "reason": null
+  },
+  "flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "production_scope_required": true,
+  "semantic": null
+}

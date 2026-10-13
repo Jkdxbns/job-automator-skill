@@ -1,0 +1,145 @@
+{
+  "company": "Tensor",
+  "company_slug": "tensor",
+  "role": "Embedded Software Engineer: Compute Platform",
+  "job_slug": "embedded-compute-platform-jd73",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 20,
+    "req_cov": 0.792,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "data structures and algorithms",
+    "oscilloscopes",
+    "SPI",
+    "serial ports",
+    "MCU bring up",
+    "MCU debugging",
+    "RTOS",
+    "Nvidia platforms",
+    "Linux",
+    "driver development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "automotive Ethernet",
+      "you_have": "networking / Ethernet (TCP/IP)"
+    },
+    {
+      "jd_skill": "NXP S32G/K",
+      "you_have": "STM32 Cortex-M4"
+    },
+    {
+      "jd_skill": "circuit principles",
+      "you_have": "PCB design / hardware debugging"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "automotive electronics",
+    "protocol analyzers",
+    "QNX",
+    "AutoSAR",
+    "Yocto"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "MCU",
+    "CAN",
+    "automotive Ethernet",
+    "SPI",
+    "RTOS",
+    "QNX",
+    "AutoSAR",
+    "Yocto",
+    "NXP S32",
+    "Nvidia"
+  ],
+  "required_skills": [
+    "C/C++",
+    "data structures and algorithms",
+    "circuit principles",
+    "oscilloscopes",
+    "protocol analyzers",
+    "automotive electronics",
+    "CAN",
+    "automotive Ethernet",
+    "SPI",
+    "serial ports",
+    "MCU bring up",
+    "MCU debugging"
+  ],
+  "preferred_skills": [
+    "NXP S32G/K",
+    "TI/Nvidia platforms",
+    "RTOS",
+    "QNX",
+    "AutoSAR",
+    "driver development",
+    "Yocto",
+    "Linux"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "MCU software development",
+    "ECU peripheral drivers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA, US (also Barcelona, Singapore, Dubai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Same MCU and peripheral-driver backing as jd45 (STM32 bare-metal, FreeRTOS turret)",
+      "NVIDIA Jetson is real depth across turret, COFFIN and SLM work, matching the 'Nvidia platforms' preference",
+      "Linux daily use plus systemd deployment on a headless Jetson"
+    ],
+    "real_gaps": [
+      "No CAN or automotive Ethernet",
+      "No QNX, AUTOSAR or Yocto exposure",
+      "No Linux driver development; drivers so far are bare-metal only",
+      "No NXP S32 or TI platform work"
+    ],
+    "overstated_by_keywords": [
+      "driver development counted Have, but the evidence is bare-metal, not Linux drivers",
+      "RTOS counted Have on one FreeRTOS project"
+    ],
+    "understated_by_keywords": [
+      "Jetson work covers the Nvidia-platform preference better than the keyword match shows"
+    ],
+    "screening_gaps": [
+      "No CAN / automotive protocol experience",
+      "No QNX, AUTOSAR or Yocto (three preferences all unbacked)",
+      "No Linux driver or BSP work"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Required skills are the same as jd45 and are backed at the MCU level. The preferences (QNX, AUTOSAR, Yocto, Linux drivers) are all unbacked, so it is a slightly weaker fit than jd45 for the same team.",
+    "calibration_delta": 5.5
+  }
+}

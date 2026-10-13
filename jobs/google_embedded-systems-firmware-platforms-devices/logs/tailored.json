@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "company": "Google",
+    "role": "Software Engineer, Embedded Systems/Firmware, Platforms and Devices",
+    "company_slug": "google",
+    "job_slug": "embedded-systems-firmware-platforms-devices"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on firmware experience writing bare-metal C on STM32 and coordinating tasks under FreeRTOS. Built register-level embedded systems on resource constrained hardware, diagnosed integration failures through iterative testing across sensor, servo, and communication layers, and characterized performance and scaling behavior in distributed C/C++ systems.",
+  "skills": {
+    "Embedded": ["STM32 (Bare-Metal C)", "FreeRTOS", "NVIDIA Jetson", "Raspberry Pi", "UART/I2C/SPI", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"],
+    "Languages & Systems": ["C/C++", "Python"],
+    "HPC / Parallel": ["MPI", "SLURM"],
+    "Edge AI / CV": ["YOLO"],
+    "Tools": ["Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; debugged and resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1) on a Cortex-M4 target on resource constrained hardware; achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on an STM32 embedded operating system; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override; used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Diagnosed and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through iterative testing across a three-layer distributed embedded pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Implemented two-link inverse kinematics on Arduino in C++, driving five servos with range-gated contact detection over I2C."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster, achieving up to 10.49x speedup with 12 processes.",
+        "Characterized scaling behavior across dendrite counts and compartment depths; diagnosed load imbalance effects causing up to 65% performance degradation under uneven work distribution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

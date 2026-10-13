@@ -1,0 +1,153 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Senior Machine Learning Engineer - Perception",
+  "job_slug": "senior-ml-engineer-perception",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 1,
+    "jd_ask_size": 14,
+    "req_cov": 0.773,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "Python",
+    "C++",
+    "object detection",
+    "TensorRT",
+    "ROS 2",
+    "computer vision",
+    "embedded systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "segmentation",
+      "you_have": "BraTS/Dice medical segmentation"
+    },
+    {
+      "jd_skill": "multi-view geometry",
+      "you_have": "depth estimation, visual servoing, image mosaicing"
+    },
+    {
+      "jd_skill": "3D vision DL",
+      "you_have": "ZoeDepth depth estimation"
+    },
+    {
+      "jd_skill": "multi-head DL architectures",
+      "you_have": "UFLD row-anchor heads"
+    },
+    {
+      "jd_skill": "cloud training pipelines",
+      "you_have": "SLURM-managed training"
+    }
+  ],
+  "missing_skills": [
+    "unit testing"
+  ],
+  "top_ats_keywords": [
+    "object detection",
+    "segmentation",
+    "multi-view geometry",
+    "PyTorch",
+    "C++",
+    "Python",
+    "ROS 2",
+    "TensorRT",
+    "computer vision",
+    "3D vision",
+    "embedded systems",
+    "unit tests"
+  ],
+  "required_skills": [
+    "object detection",
+    "segmentation",
+    "classical CV",
+    "multi-view geometry",
+    "multi-head DL architectures",
+    "3D vision DL",
+    "cloud training pipelines",
+    "PyTorch",
+    "C++",
+    "Python",
+    "embedded deployment"
+  ],
+  "preferred_skills": [
+    "ROS 2",
+    "TensorRT"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "develop CV/ML algorithms for robotics",
+    "train and deploy ML models on embedded systems",
+    "integrate with cross-functional teams",
+    "research and custom algorithms",
+    "docs and unit tests"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Detection training to edge deployment: YOLOv8n trained on 1,133 annotated images (83% mAP@50, ONNX/TFLite export) and TensorRT YOLO on Jetson, 56.7 to 10.9 ms (COFFIN capstone)",
+      "Real segmentation work: U-Net with VGG-16/19 and ResNet-50 backbones on BraTS 2020 3D volumetric MRI, Dice/IoU evaluation (Teesside)",
+      "Classical CV with measured results: homography plus wavelet-bank stitching pipeline reaching PSNR 86 (BARC capstone), plus Image Processing and Robot Perception coursework",
+      "Synthetic training-data pipeline: CARLA semantic segmentation and raycast occlusion filtering producing ~5,000 YOLO and ~3,000 UFLD frames with zero manual labels",
+      "PyTorch depth: fine-tuned DONUT, GPT-2 from scratch, QAT, custom training loops",
+      "ROS 2 and Jetson integration through COFFIN and the UR5e/AL5B work"
+    ],
+    "real_gaps": [
+      "No multi-view geometry: no camera calibration, stereo, SfM, triangulation, bundle adjustment or SLAM. Homography stitching is two-view and 2D only",
+      "No 3D vision DL architecture work (BEV, point cloud, NeRF, multi-view depth). ZoeDepth was used off the shelf as monocular depth",
+      "No multi-head or multi-task architecture designed; UFLD was fine-tuned, not built",
+      "No cloud training pipelines (AWS/GCP, distributed PyTorch); only SLURM cluster work for MPI",
+      "No unit-test or CI evidence",
+      "C++ evidence is CUDA kernels and Arduino firmware, not a production C++ perception codebase",
+      "Seniority: 0 years full-time against a Sr. title; no production-scale perception ownership"
+    ],
+    "overstated_by_keywords": [
+      "multi-view geometry (adjacent): homography stitching and monocular depth are not multi-view geometry in the JD's sense",
+      "3D vision DL (adjacent): single off-the-shelf monocular model",
+      "multi-head DL architectures (adjacent): fine-tuned existing UFLD heads",
+      "cloud training pipelines (adjacent): SLURM MPI jobs are not cloud ML training",
+      "C++ (have): mostly CUDA and Arduino code"
+    ],
+    "understated_by_keywords": [
+      "Segmentation is more than adjacent: U-Net on 3D MRI volumes with Dice/IoU evaluation is real, defensible depth",
+      "CARLA auto-labeling pipeline shows dataset engineering the JD's training-pipeline ask would value",
+      "Classical CV: homography plus wavelet denoising is concrete classical work, counted only as generic CV by the keyword pass"
+    ],
+    "screening_gaps": [
+      "Multi-view geometry and 3D vision DL: the JD's core technical ask, with only monocular and 2D-homography evidence",
+      "Senior scope: Sr. title with no production perception ownership and no cloud-scale training pipelines or multi-head architecture experience",
+      "Production C++ and testing: no C++ perception code or unit-test evidence for a role that lists tests and documentation as duties"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Detection, segmentation, TensorRT edge deployment and PyTorch training are backed by concrete work, so roughly half the role is covered. The geometry and 3D-vision half is not: the evidence is monocular depth and 2D homography stitching. It is a reasonable stretch application, with the geometry gap and the Senior title as the likely screen-out points.",
+    "calibration_delta": 17.0
+  }
+}

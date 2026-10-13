@@ -1,0 +1,235 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 5.2,
+      "matched": [
+        "Python",
+        "hardware/software integration",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 4.94,
+      "matched": [
+        "Bluetooth",
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Deep Learning Intern",
+      "name": "Deep Learning Intern",
+      "score": 4.63,
+      "matched": [
+        "TensorFlow",
+        "model optimization",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 3.01,
+      "matched": [
+        "PyTorch",
+        "testing and validation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 8.57,
+      "matched": [
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 8.33,
+      "matched": [
+        "NVIDIA Jetson",
+        "PyTorch",
+        "model optimization",
+        "serial protocols",
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 7.19,
+      "matched": [
+        "GPU optimization",
+        "NVIDIA Jetson",
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 7.13,
+      "matched": [
+        "GPU optimization",
+        "NVIDIA Jetson",
+        "model optimization",
+        "profiling and benchmarking",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 3.32,
+      "matched": [
+        "Python",
+        "speech and audio"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "embedded AI/ML deployment on edge devices",
+      "for_skill": "NVIDIA Jetson"
+    },
+    {
+      "use_jd_wording": "embedded AI/ML",
+      "for_skill": "NVIDIA Jetson"
+    },
+    {
+      "use_jd_wording": "Embedded AI/ML Engineering certification",
+      "for_skill": "NVIDIA Jetson"
+    },
+    {
+      "use_jd_wording": "pruning",
+      "for_skill": "model optimization"
+    },
+    {
+      "use_jd_wording": "model compression",
+      "for_skill": "model optimization"
+    },
+    {
+      "use_jd_wording": "latency optimization",
+      "for_skill": "model optimization"
+    },
+    {
+      "use_jd_wording": "edge inference",
+      "for_skill": "model optimization"
+    },
+    {
+      "use_jd_wording": "embedded firmware integration",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "MCU",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "firmware interfaces",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "production-quality embedded software practices",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "device drivers",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "datasheets",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "embedded debugging",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "JTAG",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "memory footprint optimization",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "thermal optimization",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "DSP",
+      "for_skill": "speech and audio"
+    },
+    {
+      "use_jd_wording": "audio pipelines",
+      "for_skill": "speech and audio"
+    },
+    {
+      "use_jd_wording": "wireless modules",
+      "for_skill": "Bluetooth"
+    },
+    {
+      "use_jd_wording": "schematics",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "build systems",
+      "for_skill": "build systems"
+    },
+    {
+      "use_jd_wording": "automated testing",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "regression testing",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "model benchmarking",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "sensor fusion",
+      "for_skill": "autonomous systems"
+    },
+    {
+      "use_jd_wording": "GPU offload",
+      "for_skill": "GPU optimization"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "ML inference pipelines",
+    "inference runtime integration",
+    "Windows system software",
+    "SoC",
+    "NPU",
+    "AI accelerators",
+    "USB",
+    "PCIe",
+    "Wi-Fi",
+    "sensor input handling",
+    "data preprocessing",
+    "feature extraction",
+    "power management"
+  ]
+}

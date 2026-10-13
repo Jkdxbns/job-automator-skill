@@ -1,0 +1,47 @@
+{
+  "company": "Motional",
+  "company_slug": "motional",
+  "role": "Machine Learning Systems Engineer",
+  "job_slug": "ml-systems-engineer",
+  "match_pct": 71.4,
+  "missing_skills": [
+    "Distributed training (PyTorch Distributed, multi-GPU/multi-node)",
+    "Data pipeline engineering for large-scale training throughput"
+  ],
+  "adjacent_skills": [
+    "Triton kernel development",
+    "Performance profiling (Nsight/PyTorch Profiler)",
+    "ML model optimization for training"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "CUDA",
+    "Triton",
+    "distributed training",
+    "GPU kernels",
+    "kernel fusion",
+    "Nsight",
+    "PyTorch Profiler",
+    "data pipeline"
+  ],
+  "key_responsibilities": [
+    "Performance profiling and optimization (Nsight, PyTorch Profiler) to fix bottlenecks in data loading, gradient computation, communication",
+    "Kernel fusion, sharding, tiling to improve step time",
+    "Distributed training pipeline optimization using PyTorch Distributed",
+    "Design/maintain high-performance GPU kernels in Triton or CUDA",
+    "Data pipeline engineering to maximize training throughput"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-08-13",
+    "channel": "application",
+    "notes": "Form rejection; offered feedback on request. No feedback given."
+  }
+}

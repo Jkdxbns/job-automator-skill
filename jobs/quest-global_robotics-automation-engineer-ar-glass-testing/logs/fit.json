@@ -1,0 +1,184 @@
+{
+  "company": "Quest Global",
+  "company_slug": "quest-global",
+  "role": "Robotics Automation Engineer \u2013 AR Glass Testing",
+  "job_slug": "robotics-automation-engineer-ar-glass-testing",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 10,
+    "missing_count": 14,
+    "jd_ask_size": 38,
+    "req_cov": 0.611,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "ROS/ROS2",
+    "OpenCV",
+    "computer vision",
+    "object detection",
+    "Linux",
+    "Bash",
+    "Git",
+    "C/C++",
+    "UART",
+    "USB",
+    "Bluetooth",
+    "oscilloscopes",
+    "data acquisition"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Universal Robots",
+      "you_have": "UR5e kinematics in ROS 2/MoveIt (simulation)"
+    },
+    {
+      "jd_skill": "motion planning",
+      "you_have": "MoveIt, IK"
+    },
+    {
+      "jd_skill": "trajectory planning",
+      "you_have": "MoveIt, forward kinematics"
+    },
+    {
+      "jd_skill": "robot coordinate systems",
+      "you_have": "DH parameters, 0T6 FK chains"
+    },
+    {
+      "jd_skill": "TCP/IP",
+      "you_have": "WebSocket, static IP config"
+    },
+    {
+      "jd_skill": "REST APIs",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "fiducial markers",
+      "you_have": "visual servoing"
+    },
+    {
+      "jd_skill": "test automation frameworks",
+      "you_have": "Python pipelines"
+    },
+    {
+      "jd_skill": "camera testing",
+      "you_have": "multi-camera capture pipeline"
+    },
+    {
+      "jd_skill": "calibration",
+      "you_have": "sensor calibration"
+    }
+  ],
+  "missing_skills": [
+    "URScript",
+    "URX",
+    "RTDE",
+    "force/torque control",
+    "TCP calibration",
+    "ADB",
+    "regression automation",
+    "CI/CD",
+    "AR/VR/XR",
+    "optical validation",
+    "eye-tracking",
+    "DAQ systems",
+    "programmable power supplies",
+    "manufacturing test / NPI"
+  ],
+  "top_ats_keywords": [
+    "Universal Robots",
+    "URScript",
+    "RTDE",
+    "URX",
+    "ROS2",
+    "Python",
+    "TCP calibration",
+    "force/torque",
+    "motion planning",
+    "OpenCV",
+    "ADB",
+    "UART",
+    "USB",
+    "Bluetooth",
+    "REST APIs",
+    "DAQ",
+    "oscilloscopes",
+    "CI/CD",
+    "Linux",
+    "Bash",
+    "Git",
+    "C/C++"
+  ],
+  "required_skills": [
+    "Python",
+    "Universal Robots",
+    "URScript",
+    "URX",
+    "RTDE",
+    "ROS/ROS2",
+    "TCP/IP",
+    "TCP calibration",
+    "trajectory planning",
+    "force/torque control",
+    "motion planning",
+    "robot coordinate systems",
+    "test automation frameworks",
+    "regression automation",
+    "instrumentation integration",
+    "Linux",
+    "Bash",
+    "Git"
+  ],
+  "preferred_skills": [
+    "AR/VR/XR",
+    "optical validation",
+    "camera testing",
+    "OpenCV",
+    "computer vision",
+    "fiducial markers",
+    "object detection",
+    "IMU",
+    "eye-tracking",
+    "DAQ",
+    "oscilloscopes",
+    "CI/CD",
+    "hardware validation",
+    "manufacturing test",
+    "C/C++"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Program UR robots via URScript/RTDE/ROS",
+    "Python automation frameworks for DUTs, cameras, sensors",
+    "AR glass validation automation",
+    "Calibration and coordinate transforms",
+    "Instrument integration",
+    "Root-cause analysis"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

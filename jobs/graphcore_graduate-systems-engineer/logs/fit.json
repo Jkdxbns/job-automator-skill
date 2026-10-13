@@ -1,0 +1,156 @@
+{
+  "company": "Graphcore",
+  "company_slug": null,
+  "role": "Graduate Systems Engineer",
+  "job_slug": null,
+  "match_pct": 63.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Computer architecture / digital systems \u2014 M.S. Computer Engineering (RIT); 'High Performance Architecture' coursework; CUDA C++ kernel optimization for VGG16 (custom kernels, memory coalescing, constant memory)",
+    "Embedded systems / hardware-software interaction \u2014 Skills list 'Embedded' (STM32 Bare-Metal C, FreeRTOS, Jetson, UART/I2C/SPI, Bluetooth); projects: STM32 Bare-Metal Temperature Monitor (timer-triggered ADC, I2C driver), Object Tracking Turret (FreeRTOS, UART, PWM, STM32+Jetson), Voice-Controlled Robotic Arm (Jetson+Arduino controller, I2C mux, WebSocket fabric)",
+    "Python / C / C++ programming \u2014 Skills: Python, C/C++, CUDA C++, Cython; used in BraTS pipeline, COFFIN ASR, CUDA kernels, embedded firmware, ROS scripts",
+    "Laboratory testing / measurement \u2014 Skills: 'Oscilloscopes, Logic Analyzers'; embedded lab work with VL53L0X ToF sensors, signal verification over UART/I2C; experimental measurement in BARC and RIT capstone projects",
+    "Root-cause investigation / structured troubleshooting \u2014 COFFIN project: 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' with structured debugging",
+    "System-level validation / evidence-based documentation \u2014 ROS arm validated against MoveIt/RViz (<2mm repeatability); COFFIN validated at 100% pick reliability (10/10); image-stitching evaluated on PSNR; U-Net evaluated on Dice/IoU; BARC reports with measurement evidence",
+    "Cross-disciplinary collaboration / system integration \u2014 COFFIN three-layer distributed system (Flutter + Flask-SocketIO + Jetson+Arduino); Object Tracking Turret (Jetson + STM32 + UART); Autonomous Driving pipeline (CARLA + YOLO + adaptive control); led 25-member robotics team end-to-end",
+    "Test automation / data-analysis scripts \u2014 Automated BraTS data pipeline; CARLA automated data generation (~5,000 YOLO + ~3,000 UFLD frames); COFFIN systemd service with auto-restart; PyQt/Matplotlib real-time visualization scripts; PyTorch training/evaluation pipelines",
+    "Performance characterization / profiling \u2014 CUDA kernel benchmarks (49.2ms coalesced vs 73.3ms uncoalesced / 77.5ms CPU); SLM compression profiling with pynvml (VRAM, latency, accuracy); inference latency profiling (Whisper 1.0\u20131.4s, YOLO 5.2\u00d7 speedup)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CPU subsystems / platform integration",
+      "you_have": "M.S. Computer Engineering with 'High Performance Architecture' coursework; CUDA C++ kernel optimization (custom kernels, memory coalescing, preallocated buffers) and MPI HPC simulation demonstrate low-level CPU/GPU interaction, but direct CPU-subsystem design (motherboard/power-delivery) not cited"
+    },
+    {
+      "jd_skill": "PCIe / Ethernet / high-speed interfaces",
+      "you_have": "Embedded protocols UART/I2C/SPI and Bluetooth (BLE/Classic) across STM32, Jetson, and Arduino projects; specific PCIe 6.0 or 800G Ethernet experience not cited"
+    },
+    {
+      "jd_skill": "Oscilloscopes, logic analyzers, protocol analyzers",
+      "you_have": "Skills list explicitly includes 'Oscilloscopes, Logic Analyzers'; embedded measurement and UART/I2C protocol verification in STM32/COFFIN projects; 'protocol analyzers' as a named instrument not specifically cited"
+    },
+    {
+      "jd_skill": "Configuration control / engineering change processes",
+      "you_have": "Git/GitLab version control (BARC); BOM creation and claims documentation (Planctech); engineering notes and requirements tracking (COFFIN, BARC); not formal industry design-verification/change-control process experience"
+    },
+    {
+      "jd_skill": "Power delivery / thermal / energy efficiency (platform-level)",
+      "you_have": "Performance profiling and optimization focus (CUDA speedup, SLM memory reduction, quantization); embedded sensor/power interaction indirect; liquid-cooling and platform thermal design not cited"
+    }
+  ],
+  "missing_skills": [
+    "PCIe 6.0",
+    "800G Ethernet",
+    "Liquid-cooling systems for high-performance processors",
+    "Power meters (specific instrument \u2014 only oscilloscopes/logic analyzers listed)"
+  ],
+  "top_ats_keywords": [
+    "Systems Engineer",
+    "Hardware Platform Development",
+    "CPU Subsystems",
+    "PCIe",
+    "Ethernet",
+    "800G",
+    "Embedded Systems",
+    "Validation",
+    "Test Automation",
+    "Performance Analysis",
+    "Laboratory Testing",
+    "Power Meters",
+    "Oscilloscopes",
+    "Root Cause",
+    "Design Verification",
+    "Configuration Control",
+    "Cross-functional Collaboration"
+  ],
+  "required_skills": [
+    "Computer architecture / digital systems",
+    "Embedded systems / hardware-software interaction",
+    "Python / C / C++",
+    "Laboratory testing / measurement",
+    "Structured problem-solving / root-cause investigation",
+    "Clear technical documentation / evidence-based conclusions",
+    "Cross-disciplinary collaboration"
+  ],
+  "preferred_skills": [
+    "CPU subsystems",
+    "PCIe / Ethernet / high-speed interfaces",
+    "Power meters / oscilloscopes / logic analyzers / protocol analyzers",
+    "Test automation / data-analysis scripts",
+    "Performance characterization / power / thermal / liquid cooling",
+    "Design verification / configuration control",
+    "Technical presentation / review"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/integration/testing of CPU and high-speed I/O subsystems",
+    "Own engineering tasks from requirements through execution/analysis/review",
+    "Develop system-level validation plans/procedures/scripts",
+    "Evaluate platform performance/power/signal/reliability/interoperability",
+    "Investigate emerging I/O technologies (PCIe 6.0, 800G Ethernet)",
+    "Support power/cooling/energy-efficiency (liquid cooling)",
+    "Use lab equipment (power meters, oscilloscopes, logic analyzers)",
+    "Root-cause analysis and corrective verification",
+    "Cross-functional collaboration (hardware/firmware/software/mechanical/thermal/manufacturing/systems)",
+    "Accurate requirements/test docs/engineering notes/change records",
+    "Present progress/results/risks/recommendations"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, Texas, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded hardware bring-up and debugging is genuinely demonstrated: STM32 Bare-Metal Temperature Monitor (direct GPIO/TIM2/ADC1/I2C1 programming) and Object Tracking Turret (FreeRTOS task coordination, UART, PWM) are real system-level firmware and hardware integration work, matching the JD's 'design, integration, and testing' language even though it's board-level, not server-level.",
+      "Root-cause investigation is concretely evidenced: COFFIN's 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' is a structured debugging narrative across a full hardware-software stack, directly matching 'Analyze unexpected behavior, reproduce issues, perform structured root-cause investigations'.",
+      "Performance characterization is real and quantified: CUDA kernel benchmarks (49.2ms vs 73.3ms vs 77.5ms), TensorRT YOLO (5.2x speedup), and MPI cluster scaling (10.49x, 30x) show the candidate actually measures and reports performance data, not just claims familiarity with the concept.",
+      "Cross-disciplinary collaboration and documentation habits are shown through the 25-member ARC robotics team leadership and COFFIN's multi-layer distributed system spanning mobile, edge server, and embedded controller."
+    ],
+    "real_gaps": [
+      "Zero server-class or rack-level hardware experience \u2014 the JD's core subject (CPU and high-speed I/O subsystems for AI compute platforms) has no precedent; everything in the profile is single-board embedded or GPU workstation scale.",
+      "No PCIe 6.0 or 800G Ethernet exposure, both explicitly named as things the candidate would investigate on the job \u2014 the profile's fastest interfaces are UART/I2C/SPI and WebSocket networking.",
+      "No liquid-cooling, platform power delivery, or thermal engineering experience.",
+      "No named lab instrument beyond oscilloscopes and logic analyzers \u2014 the JD specifically calls out power meters, which aren't mentioned anywhere in the profile."
+    ],
+    "overstated_by_keywords": [
+      "The keyword pass credits 'CPU subsystems' as an adjacent match via 'High Performance Architecture' coursework and CUDA kernel work, but that is GPU/software performance work, not physical CPU subsystem design or platform integration \u2014 a real gap the adjacency framing understates."
+    ],
+    "understated_by_keywords": [],
+    "screening_gaps": [
+      "No data-center or server-hardware platform experience at all, which is the literal subject of the role (advanced AI compute platforms, CPU and high-speed I/O subsystems).",
+      "No PCIe 6.0 or 800G Ethernet exposure, both named directly in the JD's core responsibilities.",
+      "The JD's 'Start: September, 2027' is unusually far out for a graduate role \u2014 worth confirming it's accurate before treating this as a near-term option."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The transferable engineering method, hands-on bring-up, structured debugging, quantified performance measurement, and cross-team collaboration, is genuinely there and well evidenced across multiple embedded and HPC projects. But the specific subject matter of this role, server-class CPU and high-speed I/O subsystems for AI compute platforms, has no real precedent in the profile, so roughly half the core responsibilities would be learned entirely on the job rather than built on existing depth.",
+    "calibration_delta": 16.9
+  }
+}

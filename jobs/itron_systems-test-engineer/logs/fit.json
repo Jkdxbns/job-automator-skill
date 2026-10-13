@@ -1,0 +1,107 @@
+{
+  "company": "Itron",
+  "company_slug": "itron",
+  "role": "Systems Test Engineer",
+  "job_slug": "systems-test-engineer",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 14,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "C/C++",
+    "Git/version control",
+    "network configuration (static IP)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C/C#",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "Networking/VPN",
+      "you_have": "TCP/IP socket networking (epoll, static IP config)"
+    },
+    {
+      "jd_skill": "1+ yrs Systems Test Engineer experience",
+      "you_have": "embedded systems debugging/test across COFFIN and telemetry gateway projects"
+    },
+    {
+      "jd_skill": "test plans/test cases/defect analysis",
+      "you_have": "project-based integration testing and debugging"
+    }
+  ],
+  "missing_skills": [
+    "IPv6",
+    "SQL",
+    "Oracle",
+    "Azure DevOps",
+    "RF mesh network domain experience",
+    "AMI (Advanced Metering Infrastructure) domain experience"
+  ],
+  "top_ats_keywords": [
+    "RF mesh network",
+    "test plans",
+    "test cases",
+    "defect analysis",
+    "AMI",
+    "network testing",
+    "IPv6",
+    "VPN",
+    "SQL",
+    "Oracle",
+    "C#",
+    "Linux",
+    "Azure DevOps"
+  ],
+  "required_skills": [
+    "Bachelor's degree in related field (EE/CE/CS/Telecom)",
+    "1+ years experience as Systems Test Engineer or related"
+  ],
+  "preferred_skills": [
+    "IPv6",
+    "Networking/VPN",
+    "SQL",
+    "Oracle",
+    "C/C#",
+    "Linux",
+    "Azure DevOps"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "test plan/design/case development",
+    "defect analysis and documentation",
+    "code reviews with dev engineers",
+    "test environment troubleshooting",
+    "large-scale network test execution and reporting"
+  ],
+  "role_category": "embedded_systems",
+  "location": "West Union, SC, USA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

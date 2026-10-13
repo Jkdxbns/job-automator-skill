@@ -1,0 +1,118 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Software Developer - Grippers",
+  "job_slug": "software-developer-grippers",
+  "match_pct": 46.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 5,
+    "jd_ask_size": 16,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Linux",
+    "C++",
+    "Python",
+    "robot kinematics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning",
+      "you_have": "MoveIt"
+    },
+    {
+      "jd_skill": "robotics math and physics",
+      "you_have": "DH, FK, linear algebra"
+    },
+    {
+      "jd_skill": "industrial robot arms",
+      "you_have": "UR5e"
+    },
+    {
+      "jd_skill": "grasp planning",
+      "you_have": "vision-guided pick-and-place"
+    },
+    {
+      "jd_skill": "statistical modeling",
+      "you_have": "ML model evaluation"
+    },
+    {
+      "jd_skill": "real-time systems",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "fluid mechanics",
+    "pneumatics",
+    "lumped-parameter models",
+    "industrial automation",
+    "gripper calibration"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "motion planning",
+    "kinematics",
+    "grasp planning",
+    "pneumatics",
+    "CI/CD",
+    "real-time"
+  ],
+  "required_skills": [
+    "Linux",
+    "C++",
+    "Python",
+    "motion planning",
+    "robot kinematics",
+    "robotics math and physics",
+    "industrial robot arms"
+  ],
+  "preferred_skills": [
+    "grasp planning",
+    "fluid mechanics",
+    "pneumatics",
+    "lumped-parameter models",
+    "statistical modeling",
+    "real-time systems",
+    "industrial automation",
+    "CI/CD"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "gripper control, calibration, fault diagnosis",
+    "bench experiments",
+    "60% travel"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

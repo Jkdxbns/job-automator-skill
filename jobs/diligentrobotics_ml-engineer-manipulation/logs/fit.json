@@ -1,0 +1,44 @@
+{
+  "company": "Diligent Robotics",
+  "company_slug": "diligentrobotics",
+  "role": "ML Engineer, Manipulation",
+  "job_slug": "ml-engineer-manipulation",
+  "match_pct": 100,
+  "missing_skills": ["VLA models", "behavior cloning", "diffusion/transformer policies for control", "sim-to-real (Isaac Sim/Mujoco)", "domain randomization", "safety-critical robotics integration"],
+  "adjacent_skills": ["visuomotor control/manipulation (via visual servoing, UR5e/RobotStudio, forward-inverse kinematics)", "sim-to-real (via CARLA, different domain)"],
+  "top_ats_keywords": ["PyTorch", "Python", "manipulation", "visuomotor control", "VLA", "diffusion policies", "behavior cloning", "sim-to-real", "Isaac Sim", "Mujoco", "domain randomization", "ONNX", "TensorRT", "quantization", "edge deployment", "robotics"],
+  "key_responsibilities": [
+    "Develop learning-based manipulation models for sensor-driven interaction",
+    "Build/maintain manipulation training pipelines (dataset creation, action representations, distributed training)",
+    "Design evaluation metrics and regression tests for manipulation reliability/safety",
+    "Develop sim-to-real workflows (domain randomization, failure-mode testing)",
+    "Optimize/distill models for edge deployment; benchmark latency/memory/stability",
+    "Integrate policies with control and safety systems",
+    "Analyze field performance and drive retraining"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 50,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Edge deployment optimization directly backs 'optimize and distill models for edge deployment; benchmark latency, memory use, and stability' — TensorRT-optimized YOLO on Jetson, 8-bit quantization, pynvml profiling",
+      "Real robot arm and kinematics work (UR5e/RobotStudio/ABB RAPID, DH parameters, forward/inverse kinematics) plus visual servoing on the object-tracking turret build backs classical manipulation-adjacent responsibilities",
+      "ML pipeline experience (PyTorch, model evaluation, training pipelines across ASR and vision projects) backs 'build and maintain training/evaluation pipelines' at a general level"
+    ],
+    "real_gaps": [
+      "No behavior cloning, imitation learning, reinforcement learning, VLA, or diffusion policy project — the core 'learning-based manipulation' ask has zero direct backing",
+      "No sim-to-real workflow for manipulation (Isaac Sim/Mujoco, domain randomization); CARLA experience is autonomous-driving simulation, a different domain",
+      "3+ years full-time experience is explicit in the JD; candidate has 0 full-time years, only internships — a real seniority gap for a role framed as owning production manipulation pipelines end to end",
+      "No safety-critical robotics integration or fallback/recovery behavior design experience"
+    ],
+    "overstated_by_keywords": [
+      "Visuomotor control/manipulation matched as Adjacent via visual servoing and UR5e kinematics, but that is classical/industrial robot arm programming, not the learned-policy manipulation (behavior cloning/RL) the JD is actually asking for",
+      "Sim-to-real matched as Adjacent via CARLA, but CARLA is driving simulation, not manipulation sim-to-real (Isaac Sim/Mujoco) — the adjacency is weak"
+    ],
+    "reasoning": "Keyword match hits 100% because PyTorch, Python, edge deployment, and general robotics terms are all present, but the role is specifically about learned manipulation policies at a 3+ year experience level. The candidate's manipulation exposure is classical/kinematic rather than learned-policy based, and there is zero full-time experience behind it. Real fit is closer to Partial, carried mainly by strong edge deployment overlap rather than core manipulation-ML depth."
+  }
+}

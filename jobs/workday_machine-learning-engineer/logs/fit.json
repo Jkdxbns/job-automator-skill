@@ -1,0 +1,115 @@
+{
+  "company": "Workday",
+  "company_slug": "workday",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Model evaluation",
+    "Model fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLMs / RAG",
+      "you_have": "GPT-2/TinyLlama fine-tuning, HuggingFace Transformers"
+    },
+    {
+      "jd_skill": "NLP for IR/recommendation",
+      "you_have": "ASR pipelines, tokenization/BPE"
+    }
+  ],
+  "missing_skills": [
+    "ETL pipelines with LLM inference in production",
+    "ML products at scale (3+ yrs full-time)",
+    "Pandas",
+    "PySpark",
+    "Kubernetes",
+    "Docker",
+    "AWS/GCP cloud platforms",
+    "Information retrieval systems",
+    "Sklearn",
+    "Agentic AI",
+    "RAG"
+  ],
+  "top_ats_keywords": [
+    "LLMs",
+    "RAG",
+    "Agentic AI",
+    "ETL pipelines",
+    "Python",
+    "PySpark",
+    "Pandas",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "GCP",
+    "PyTorch",
+    "TensorFlow",
+    "Sklearn",
+    "NLP",
+    "information retrieval",
+    "model fine-tuning",
+    "model deployment",
+    "model evaluation"
+  ],
+  "required_skills": [
+    "ML products at scale",
+    "ETL pipelines with LLM inference in production",
+    "Python in production",
+    "Pandas",
+    "PySpark",
+    "Kubernetes",
+    "Docker",
+    "AWS/GCP cloud platforms"
+  ],
+  "preferred_skills": [
+    "Information retrieval systems",
+    "PyTorch",
+    "TensorFlow",
+    "Sklearn",
+    "Statistical analysis / supervised & unsupervised ML",
+    "NLP for IR/recommendation"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Develop tailored UX with Agentic AI, LLMs, RAG",
+    "ML lifecycle: train/deploy/manage models",
+    "Build/deploy APIs on Docker/Kubernetes at scale",
+    "Analyze HR/Finance text data with ML"
+  ],
+  "role_category": "ml_systems",
+  "location": "Pleasanton, CA (Flex remote)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

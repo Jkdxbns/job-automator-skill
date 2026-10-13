@@ -1,0 +1,125 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Triage",
+  "job_slug": "robotics-autonomy-engineer-triage",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 16,
+    "req_cov": 0.091,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "robotics autonomy engineering (ROS2 Humble/Noetic, MoveIt, RViz, capstone arm + turret)",
+    "perception / vision (YOLOv8, OpenCV, faster-whisper STT, visual servoing, ToF sensors)",
+    "manipulation (6DOF arm capstone, 100% pick reliability, DH/forward kinematics, MoveIt)",
+    "real hardware + sensor deployment (Jetson, STM32 Cortex-M4, Arduino, Raspberry Pi, VL53L0X ToF, I2C/UART/SPI, BLE/HC-05)",
+    "learning systems / ML (PyTorch, TensorFlow, Keras, HuggingFace, fine-tuning, 8-bit quantization, ASR from scratch)",
+    "embedded / sensor integration (bare-metal C, FreeRTOS, UART/I2C/SPI, interrupt-driven ADC, EAGLE PCB)",
+    "CUDA / GPU optimization (custom CUDA C++ kernels, 35% speedup, TensorRT YOLO 5.2x speedup)",
+    "edge AI deployment (TensorRT + YOLO on Jetson, ONNX/TFLite export, faster-whisper STT)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "planning / motion planning",
+      "you_have": "MoveIt + forward kinematics + DH parameters (not full autonomy motion/planning stack)"
+    },
+    {
+      "jd_skill": "localization",
+      "you_have": "visual perception + ToF depth + sensor fusion (no SLAM / MCL / localization pipeline shown)"
+    },
+    {
+      "jd_skill": "field-ready / unstructured environment deployment at global scale",
+      "you_have": "multiple real-hardware deployments (glove, turret, arm, CARLA sim) but not globally deployed field systems"
+    },
+    {
+      "jd_skill": "safety / explainability / risk-aware AI",
+      "you_have": "reliable pick (100%) and controlled deployments; no formal explainable-AI or functional-safety framework"
+    }
+  ],
+  "missing_skills": [
+    "localization / SLAM (no SLAM, MCL, or localization algorithm shown in profile)",
+    "production-scale globally deployed field autonomy (0 full-time years; internships only)",
+    "formal functional-safety / explainability framework (no ISO26262, safety-certification, or explainable-AI project)",
+    "distributed systems / cloud infra at enterprise scale (only personal Docker/k3s/CI exposure)"
+  ],
+  "top_ats_keywords": [
+    "robotics autonomy engineer",
+    "embodied AI",
+    "field deployment",
+    "perception",
+    "planning",
+    "localization",
+    "manipulation",
+    "YOLO",
+    "ROS",
+    "ROS2",
+    "TensorRT",
+    "Jetson",
+    "CUDA",
+    "embedded sensors",
+    "deep learning",
+    "real-world deployment",
+    "safety",
+    "explainability"
+  ],
+  "required_skills": [
+    "robotics autonomy engineering",
+    "perception (vision/depth/sensors)",
+    "planning / motion planning",
+    "localization",
+    "manipulation / grasping",
+    "real hardware + real sensor deployment",
+    "learning systems / deep learning",
+    "embedded / sensor integration",
+    "ROS / robotics middleware",
+    "field-ready / unstructured environment deployment",
+    "rigorous software engineering"
+  ],
+  "preferred_skills": [
+    "TensorRT / NVIDIA Jetson edge deployment",
+    "CUDA / GPU optimization",
+    "YOLO / OpenCV computer vision",
+    "safety / explainability / risk-aware AI",
+    "global-scale field deployment experience",
+    "cross-disciplinary collaboration (AI + software + robotics)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Build risk-aware, reliable, field-ready AI autonomy systems on real robots and sensors",
+    "Develop perception, planning, localization, and manipulation pipelines for unstructured environments",
+    "Ship globally deployed solutions that improve through real field deployments",
+    "Combine rigorous engineering with learning systems (not pure data or pure transformer-only)",
+    "Collaborate across AI, software, robotics engineering, product, and field deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship block (not mentioned), no citizenship/ITAR/clearance requirement, title is entry-level ('Triage'), required years = 0; candidate is new-grad (0 full-time, 7 internships) \u2014 level-appropriate."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

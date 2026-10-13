@@ -1,0 +1,121 @@
+{
+  "company": "Adobe",
+  "company_slug": "adobe",
+  "role": "Forward Deployed AI Engineer, Marketing Intelligence & Consumer Insights",
+  "job_slug": "forward-deployed-ai-engineer-gmi",
+  "match_pct": 12.5,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 20,
+    "jd_ask_size": 24,
+    "req_cov": 0.219,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "API integrations"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI application development",
+      "you_have": "LLM/ASR/SLM projects (PyTorch, HuggingFace)"
+    },
+    {
+      "jd_skill": "segmentation",
+      "you_have": "image segmentation (BraTS)"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "agent frameworks",
+    "Claude Code",
+    "GitHub Copilot",
+    "Azure",
+    "AWS",
+    "marketing analytics",
+    "consumer insights",
+    "customer journeys",
+    "attribution",
+    "incrementality",
+    "customer data platforms",
+    "Adobe Experience Platform",
+    "Adobe Analytics",
+    "Adobe Journey Optimizer",
+    "GenStudio",
+    "Workfront",
+    "forecasting",
+    "consulting / solutions engineering",
+    "coaching/enablement"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "agentic AI",
+    "marketing analytics",
+    "API",
+    "Azure",
+    "AWS",
+    "segmentation",
+    "forecasting"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "AI application development",
+    "agent frameworks",
+    "API integrations",
+    "Claude Code",
+    "GitHub Copilot",
+    "Azure",
+    "AWS",
+    "marketing analytics",
+    "consumer insights",
+    "customer journeys",
+    "attribution",
+    "incrementality",
+    "coaching/enablement",
+    "stakeholder communication"
+  ],
+  "preferred_skills": [
+    "customer data platforms",
+    "Adobe Experience Platform",
+    "Adobe Analytics",
+    "Adobe Journey Optimizer",
+    "GenStudio",
+    "Workfront",
+    "forecasting",
+    "segmentation",
+    "consulting / solutions engineering"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "embed with marketing analytics teams",
+    "build AI tools and automations",
+    "share playbooks across GMI"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose / Seattle / San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

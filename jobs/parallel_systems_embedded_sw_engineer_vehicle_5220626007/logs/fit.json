@@ -1,0 +1,46 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel_systems",
+  "role": "Embedded Software Engineer - Vehicle Software",
+  "job_slug": "embedded_sw_engineer_vehicle_5220626007",
+  "match_pct": 85,
+  "missing_skills": ["Rust", "CAN bus"],
+  "adjacent_skills": ["state machines", "memory management", "PID / motion control"],
+  "top_ats_keywords": ["bare-metal", "RTOS", "FreeRTOS", "STM32", "SPI", "I2C", "UART", "interrupts", "GPIO", "state machines", "embedded C/C++", "hardware debugging", "oscilloscope", "logic analyzer"],
+  "key_responsibilities": [
+    "Develop and maintain embedded software for bare-metal and RTOS-based systems",
+    "Implement and test digital communication protocols (SPI, I2C, UART, CAN)",
+    "Contribute to state machines and command/control software for autonomous vehicle systems",
+    "Write reliable, memory-conscious embedded software, primarily in Rust",
+    "Integrate, debug, and validate hardware-software interfaces with hardware engineers",
+    "Develop unit and integration tests using hardware test stands"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 70,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal + RTOS depth is real, not surface: STM32 Bare-Metal Temperature Monitor programs GPIO/TIM2/ADC1/I2C1 directly in C with interrupt-driven sampling, and Object Tracking Turret runs FreeRTOS with mutexes for shared-memory task coordination.",
+      "Hardware-software integration is demonstrated end to end, not just claimed: Turret sends YOLO detections from Jetson to STM32 over UART to drive servo PWM; COFFIN capstone wires Jetson+Arduino to dual ToF sensors over an I2C mux and resolved 11 real integration failures (servo brown-out, stale frames) to hit 100% pick reliability.",
+      "Command/control software for autonomous vehicle-adjacent systems has a direct analog: the CARLA project implements an actual control stack (lane-following, waypoint fallback) validated across multiple laps with zero collisions, closer to 'command/control for autonomous vehicles' than most early-career embedded resumes.",
+      "Robotics/automotive/aerospace-hardware domain fit is a genuine standout for an early-career candidate given the breadth (STM32, Jetson, ROS2 arms, CARLA, PCB fabrication) — this is explicitly called out as a preferred qualification, not just basic."
+    ],
+    "real_gaps": [
+      "Zero Rust exposure anywhere in the profile — every embedded bullet is C or C++. The JD names Rust as the primary language for this specific role ('write reliable, memory-conscious embedded software, primarily in Rust'), which is more central than a simple checkbox skill even though the basic requirement only asks for willingness to learn it.",
+      "CAN bus is completely absent — no project or internship bullet mentions CAN anywhere, unlike SPI/I2C/UART which all have real project backing.",
+      "No demonstrated formal test practice for embedded systems — every project is verified by ad hoc trial counts ('10/10 trials', 'verified in Proteus') rather than unit/integration tests against hardware test stands, which is an explicit JD responsibility.",
+      "No explicit state machine design work — FreeRTOS task/mutex coordination and UART command handling are state-machine-adjacent, but no bullet actually describes designing or implementing a state machine.",
+      "No classical control theory (PID, closed-loop control laws) despite kinematics-heavy robotics experience — the arm projects are forward/inverse kinematics and trajectory planning, not feedback control tuning, so 'control systems, PID controllers, motion control' in the preferred quals isn't really backed."
+    ],
+    "overstated_by_keywords": [
+      "SPI — listed in the skills section ('UART/I2C/SPI') and counted as Have in the keyword match, but no single project or internship bullet actually describes implementing or debugging an SPI interface. I2C and UART both have concrete bullet-level backing; SPI does not.",
+      "Oscilloscopes/Logic Analyzers — listed as tools and counted toward the 'hardware debugging' match, but no bullet narrates an actual debugging session using them (e.g., diagnosing a timing issue or signal fault). The STM32 temperature monitor was 'verified in Proteus' (simulation), not bench-debugged with a scope.",
+      "State machines — classified as Adjacent in the keyword pass on the assumption that FreeRTOS/embedded work implies it, but there's no direct evidence in any bullet."
+    ],
+    "reasoning": "The keyword match (85%) overstates readiness because it credits SPI, oscilloscope/logic-analyzer debugging, and state machines on the strength of adjacent embedded work rather than direct bullet evidence, and it doesn't weight Rust heavily since the JD phrases it as a soft 'willingness to learn.' The real profile is strong on bare-metal/RTOS fundamentals and genuinely differentiated on autonomous-systems domain fit, but has a real, not cosmetic, gap on the one thing the JD is most specific about: writing production embedded software in Rust with formal hardware test practices, plus no CAN or PID experience at all."
+  }
+}

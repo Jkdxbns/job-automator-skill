@@ -1,0 +1,166 @@
+{
+  "company": "ALL.SPACE",
+  "company_slug": "all-space",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 60.5,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.735,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Linux",
+    "git",
+    "SPI",
+    "Serial",
+    "on-hardware debugging",
+    "embedded real-time systems",
+    "unit and integration testing",
+    "performance characterisation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FreeRTOS",
+      "you_have": "RTOS (custom RTOS, ChibiOS, CMPE 663 coursework)"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "TCP/IP networking, static IP config"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab, Git"
+    },
+    {
+      "jd_skill": "REST API",
+      "you_have": "Flask, WebSocket"
+    },
+    {
+      "jd_skill": "simulation",
+      "you_have": "CARLA, ROS2 sim"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "Jira",
+    "Confluence",
+    "Agile",
+    "design patterns"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "FreeRTOS",
+    "Linux",
+    "SPI",
+    "CAN",
+    "Ethernet",
+    "Serial",
+    "git",
+    "CI/CD",
+    "REST API",
+    "Jira",
+    "Confluence",
+    "Agile",
+    "real-time"
+  ],
+  "required_skills": [
+    "C++",
+    "embedded real-time systems",
+    "Linux",
+    "FreeRTOS",
+    "Serial",
+    "Ethernet",
+    "SPI",
+    "CAN",
+    "on-hardware debugging",
+    "performance characterisation",
+    "git",
+    "CI/CD",
+    "unit and integration testing",
+    "REST API",
+    "Agile",
+    "Jira",
+    "Confluence"
+  ],
+  "preferred_skills": [
+    "design patterns",
+    "web interfaces",
+    "simulation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Embedded real-time terminal control software in C++",
+    "Automated unit and integration tests",
+    "Debug in simulation and on target hardware",
+    "Architecture and design documentation",
+    "Web interface and REST API"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Reading, England, UK (hybrid, on-site at Reading)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded C on Cortex-M4 with timer/ADC/I2C drivers and interrupt-driven capture (STM32 Bare-Metal Temperature Monitor)",
+      "UART/I2C/SPI plus on-bench debugging with oscilloscopes and logic analyzers (Skills: Tools, Embedded)",
+      "Real-time task coordination with FreeRTOS mutexes on STM32 plus Jetson UART link (Object Tracking Turret)",
+      "Linux deployment: systemd services, static IP, WebSocket/Flask server (COFFIN)",
+      "Interrupt-driven state machines and fail-safe halting (Robocon quadrature decoding)",
+      "Performance characterisation with measured numbers (CUDA 49.2 vs 73.3 ms, TensorRT 56.7 to 10.9 ms)"
+    ],
+    "real_gaps": [
+      "No production-grade C++ on an embedded target: C++ evidence is Arduino IK and CUDA kernels, not RTOS-hosted C++ with design patterns",
+      "CAN bus has no backing anywhere in the profile",
+      "No Ethernet or network stack work on an embedded target",
+      "No CI/CD pipeline authored (only GitLab usage at BARC)",
+      "No automated unit or integration test framework on firmware",
+      "No Jira, Confluence, or Agile team delivery; peer review not evidenced",
+      "FreeRTOS is a single coursework-scale turret project, not full-lifecycle delivery of a real-time product",
+      "No beam-steering, RF, or satcom domain exposure"
+    ],
+    "overstated_by_keywords": [
+      "FreeRTOS counted as adjacent to RTOS but backed by one coursework project",
+      "C++ counted as Have but depth is working-level and mostly non-embedded",
+      "REST API counted adjacent via Flask but it was WebSocket edge server work"
+    ],
+    "understated_by_keywords": [
+      "Systemd/Linux deployment and multi-device networking in COFFIN shows real Linux integration depth",
+      "Simulation-based validation (CARLA, Proteus, ROS2 sim) backs the simulation and on-target debugging responsibility"
+    ],
+    "screening_gaps": [
+      "No demonstrated C++ delivery on a real-time embedded target with design patterns and unit/integration tests",
+      "No CAN or embedded Ethernet protocol experience, both named in the requirements",
+      "No CI/CD or Agile (Jira/Confluence) team workflow evidence for a full-lifecycle role"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Embedded C, RTOS, serial buses, Linux and hardware debugging are genuinely backed, but the role's core of C++ real-time delivery with CAN, Ethernet, CI/CD and automated tests is only thinly evidenced. Worth applying as a new-grad stretch; expect depth probes on C++ and CAN.",
+    "calibration_delta": 8.5
+  },
+  "semantic_pending": false
+}

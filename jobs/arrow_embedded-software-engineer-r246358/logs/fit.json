@@ -1,0 +1,65 @@
+{
+  "company": "Arrow (Safran facility)",
+  "company_slug": "arrow",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer-r246358",
+  "match_pct": 63.6,
+  "missing_skills": [
+    "CAN",
+    "SVN",
+    "JIRA",
+    "SW V&V / formal testing process"
+  ],
+  "adjacent_skills": [
+    "complex embedded software architecture and design",
+    "RS232"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "CAN",
+    "I2C",
+    "SPI",
+    "RS232",
+    "GIT",
+    "SVN",
+    "JIRA",
+    "embedded firmware",
+    "software V&V",
+    "DO178"
+  ],
+  "key_responsibilities": [
+    "SW verification & validation: unit, functional, system level testing (manual + automated)",
+    "Design and development of embedded software/firmware",
+    "Participate in software design",
+    "Debugging embedded systems",
+    "Configuration management (GIT, SVN, JIRA; DOORS/Jama preferred)"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 38,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Register-level embedded C on STM32 (Cortex-M4 Temperature Monitor: direct GPIO/TIM2/ADC1/I2C1 programming, bare-metal, no HAL) directly backs 'C, C++ for various embedded controllers and processors.'",
+      "Custom low-level I2C driver (Temperature Monitor) plus I2C multiplexing via TCA9548A (COFFIN capstone) genuinely backs the I2C 'must have' protocol, not just a keyword mention.",
+      "Hands-on hardware debugging with real instrumentation (oscilloscopes, logic analyzers in tools list; 'resolved 11 integration failures' on COFFIN) supports 'excellent debugging skills.'",
+      "FreeRTOS with mutex-based task coordination and interrupt-driven UART on STM32 (Object Tracking Turret) shows real RTOS-level firmware design, one step toward 'embedded software architecture.'"
+    ],
+    "real_gaps": [
+      "Zero CAN bus experience anywhere in the profile \u2014 one of four explicitly named protocols, with no adjacent project to lean on (unlike I2C/SPI).",
+      "No formal SW verification & validation experience: no test plans, requirements-based test cases, or manual/automated system-level test process anywhere in the profile. This is listed first in the JD, meaning it is likely the primary daily function, not a side duty. All embedded work in the profile is prototype/research scale with ad hoc debugging, not a documented V&V lifecycle.",
+      "No SVN or JIRA \u2014 GIT is well covered but these specific named tools are entirely absent, and JIRA doubles as the referenced project-management tool.",
+      "No DO-178 or DOORS/Jama exposure. DO178 signals an airborne/safety-critical software lifecycle (requirements traceability, certification artifacts) \u2014 a different engineering discipline from research or hobby embedded work. Combined with the Safran facility location, this points to a regulated aerospace SDLC the profile has no exposure to.",
+      "Scale/seniority mismatch: the profile's embedded work is single-engineer, single-board projects (temperature monitor, turret, capstone arm). 'Complex embedded software architecture' alongside formal V&V and DOORS/Jama implies a multi-engineer, requirements-driven codebase, a different scope than anything in the profile."
+    ],
+    "overstated_by_keywords": [
+      "SPI was marked Have by the keyword matcher but has no project-level backing anywhere \u2014 it appears only inside a skills-list bullet ('UART/I2C/SPI'), never in a bullet describing actual SPI implementation work. Weaker than I2C in practice.",
+      "'Complex embedded software architecture and design' was marked Adjacent via the FreeRTOS turret project, but that is a single-board mutex/task-coordination setup, not the large-scale, formally architected, safety-critical software the JD's phrasing plus DO178 implies."
+    ],
+    "reasoning": "The profile has real, register-level embedded C and I2C depth from STM32 and FreeRTOS projects, which genuinely backs part of the JD. But the job's actual center of gravity, formal SW V&V with manual and automated testing at unit, functional, and system level, plus DO-178/DOORS-style configuration management, is a regulated aerospace software discipline the profile has zero exposure to, and CAN bus is a flat miss. The keyword match overstates fit because it credits protocol adjacency and small-scale RTOS work as if they were the requirements-driven, process-heavy engineering the JD is actually asking for."
+  }
+}

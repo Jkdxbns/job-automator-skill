@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "System Software Engineer - GPU Power and Performance Management",
+    "company_slug": "nvidia",
+    "job_slug": "gpu-power-perf-sse-jr2026396"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with hands-on embedded C firmware experience: interrupt handling, peripheral drivers and real-time systems on STM32 and Jetson. Profiled and optimized GPU performance with CUDA, TensorRT and pynvml, cutting inference latency 5.2\u00d7 and GPU memory ~55%. Debugged across firmware, hardware and Linux software layers on a multi-device robotics system.",
+  "skills": {
+    "Embedded & Low-Level": [
+      "Embedded C",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "Interrupt handling",
+      "UART/I2C/SPI",
+      "Peripheral drivers",
+      "Closed-Loop Feedback Control",
+      "PWM Motor Control",
+      "NVIDIA Jetson",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ],
+    "GPU / Performance": [
+      "CUDA C++",
+      "Memory coalescing",
+      "Kernel optimization",
+      "TensorRT",
+      "pynvml Profiling",
+      "MPI",
+      "SLURM"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) \u2014 ~35% speedup over naive GPU with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Machine Intelligence",
+        "Robot Perception",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

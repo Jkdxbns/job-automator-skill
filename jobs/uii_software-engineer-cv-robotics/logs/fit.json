@@ -1,0 +1,45 @@
+{
+  "company": "United Imaging Intelligence",
+  "company_slug": "uii",
+  "role": "Software Engineer (Computer Vision & Robotics)",
+  "job_slug": "software-engineer-cv-robotics",
+  "match_pct": 80,
+  "missing_skills": [
+    "Docker",
+    "GStreamer/DeepStream",
+    "camera calibration / multi view geometry / SLAM"
+  ],
+  "adjacent_skills": [
+    "data structures & algorithms (coursework, not a standalone project keyword)",
+    "stereo/depth camera integration (ToF/VL53L0X sensor work, ZoeDepth monocular depth)",
+    "3D reconstruction (image mosaicing project)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "NVIDIA Jetson",
+    "TensorRT",
+    "ONNX",
+    "quantization",
+    "CUDA",
+    "ROS2",
+    "GitLab",
+    "Linux",
+    "computer vision",
+    "deep learning"
+  ],
+  "key_responsibilities": [
+    "Design/implement CV and perception software in C++ and Python for real time apps",
+    "Integrate and calibrate camera systems (RGB, depth, stereo) with embedded hardware (Jetson)",
+    "Optimize deep learning models with TensorRT (quantization, layer fusion, profiling)",
+    "Productize vision models for detection, segmentation, tracking, 3D understanding",
+    "Build/maintain CI/CD with GitLab and Docker",
+    "Debug/profile full stack vision pipelines"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

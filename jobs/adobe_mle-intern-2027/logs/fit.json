@@ -1,0 +1,60 @@
+{
+  "company": "Adobe",
+  "company_slug": "adobe",
+  "role": "2027 Intern - Machine Learning Engineer",
+  "job_slug": "mle-intern-2027",
+  "match_pct": 100,
+  "missing_skills": [
+    "LangChain",
+    "scikit-learn",
+    "AWS/Azure/GCP cloud platforms"
+  ],
+  "adjacent_skills": [
+    "Java (have C/C++)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Machine Learning",
+    "Deep Learning",
+    "Generative AI",
+    "LLM",
+    "Hugging Face",
+    "Model evaluation",
+    "Model deployment"
+  ],
+  "key_responsibilities": [
+    "Build/improve ML systems: LLM apps, recommendation models, search/retrieval, multimodal AI",
+    "Design, train, evaluate, iterate models across full ML lifecycle",
+    "Contribute to applied AI projects: generative AI features, agentic workflows",
+    "Collaborate with engineers, PMs, researchers"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "eligibility_flag": "JD requires expected graduation Dec 2027 - June 2028 (currently enrolled full time). Justin already completed M.S. May 2026 and is on F-1 OPT (EAD pending), not currently enrolled. Structural eligibility mismatch independent of skill fit.",
+  "llm_analysis": {
+    "llm_match_pct": 60,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "GPT-2 style Transformer built from scratch in PyTorch (attention, MLP, residual, layer norm, weight tying) \u2014 real architecture-level LLM depth, not just API usage",
+      "TinyLlama 1.1B 8-bit quantization project with benchmark-based evaluation across HellaSwag/GSM8K/ARC \u2014 directly matches designing evaluation frameworks for LLMs",
+      "DONUT fine-tuning via HuggingFace VisionEncoderDecoder for document understanding \u2014 genuine multimodal (vision+language) transformer experience",
+      "Whisper-style ASR built from scratch with a causal Transformer decoder and cross-attention \u2014 another from-scratch transformer build, reinforces the depth claim"
+    ],
+    "real_gaps": [
+      "No agentic workflow or LLM-orchestration framework experience \u2014 COFFIN uses a single Gemini API call for intent classification, not multi-step tool-calling or agent loops; JD explicitly names agentic workflows and LangChain",
+      "Zero search, retrieval, or recommendation systems experience anywhere in the profile, despite JD listing these as core team tracks",
+      "No cloud platform experience (AWS/Azure/GCP) \u2014 all deployment work is edge/on-device (Jetson, STM32, Raspberry Pi); JD role deploys production models at Adobe scale (hundreds of millions of users), which implies cloud serving, monitoring, and MLOps that have no analog in the profile",
+      "All project scope is capstone/research/solo-intern scale \u2014 no experience shipping or maintaining a production system used at scale"
+    ],
+    "overstated_by_keywords": [
+      "LLM/GenAI \u2014 keyword match treats this as a clean Have, but the depth is architecture/compression research (building and quantizing models), not application-layer LLM development (RAG, agents, prompt engineering) that the JD role actually centers on",
+      "Model deployment \u2014 Have via TensorRT/ONNX/Jetson, but this is single-device edge inference optimization, a different skill from cloud-scale production serving"
+    ],
+    "reasoning": "Justin has unusually strong low-level transformer and evaluation fundamentals for an intern (built two transformer architectures from scratch, ran real benchmark-driven LLM evaluation), which will read well to an ML-literate interviewer. But the JD role is about building applications on top of LLMs at production scale (agents, search/recommendation, cloud-served models for hundreds of millions of users), and none of his experience touches agent frameworks, retrieval systems, or cloud deployment \u2014 the keyword match overstates fit because it can not see that his LLM work is research-depth rather than application-layer."
+  }
+}

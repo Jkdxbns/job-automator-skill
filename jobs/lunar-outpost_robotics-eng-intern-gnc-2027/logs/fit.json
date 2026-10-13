@@ -1,0 +1,131 @@
+{
+  "company": "Lunar Outpost",
+  "company_slug": "lunar-outpost",
+  "role": "Robotics Engineering Intern - Summer 2027 (GNC)",
+  "job_slug": "robotics-eng-intern-gnc-2027",
+  "match_pct": 70.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 1,
+    "jd_ask_size": 10,
+    "req_cov": 0.688,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS/ROS2",
+    "sensor integration",
+    "real-time systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning",
+      "you_have": "forward/inverse kinematics, visual servoing (UR5e)"
+    },
+    {
+      "jd_skill": "path planning",
+      "you_have": "kinematics/trajectory work, no explicit path-planning algorithm project"
+    },
+    {
+      "jd_skill": "state estimation",
+      "you_have": "IMU/sensor fusion groundwork (MPU6050, ADXL345), no Kalman/EKF project"
+    },
+    {
+      "jd_skill": "simulation",
+      "you_have": "CARLA simulation experience"
+    }
+  ],
+  "missing_skills": [
+    "SLAM"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "SLAM",
+    "motion planning",
+    "path planning",
+    "state estimation",
+    "sensor integration",
+    "real-time systems",
+    "simulation"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "ROS/ROS2",
+    "SLAM",
+    "motion planning",
+    "path planning",
+    "sensor integration",
+    "state estimation"
+  ],
+  "preferred_skills": [
+    "ROS2"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "real-time robotic systems software",
+    "motion control, path planning, sensor integration algorithms",
+    "coding/testing/debugging in C++, Python, ROS",
+    "simulation and testing of robotic systems",
+    "collaborate with mechanical/electrical teams",
+    "document design and testing"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Golden, Colorado",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "ROS2 Humble + ROS Noetic depth on real hardware (UR5e/AL5B): derived DH tables, full forward-kinematic chains validated against MoveIt/RViz, executed collision-free pick-and-place via the UR ROS2 driver",
+      "Real-time embedded control under hard timing constraints: COFFIN robotic arm (two-link IK in C++, servo control, ToF contact-aware grasping) and Object Tracking Turret (FreeRTOS mutex-coordinated multi-servo PWM)",
+      "Direct simulation-to-control-stack experience: CARLA autonomous driving project built an adaptive control stack with lane-following and waypoint fallback, validated across multiple simulated laps with zero collisions",
+      "Extensive sensor integration (I2C, UART, SPI, ToF, IMU) across STM32, Jetson, and Arduino platforms, plus cross-team hardware/software integration from the ARC robotics club and Planctech internship"
+    ],
+    "real_gaps": [
+      "No SLAM project of any kind (visual, lidar, or otherwise) anywhere in the profile",
+      "No formal path/motion-planning algorithm work (A*, RRT, trajectory optimization) \u2014 kinematics work is execution of pre-specified pick-and-place trajectories, not planning under constraints",
+      "No state-estimation/sensor-fusion project (Kalman filter, EKF, complementary filter) \u2014 IMU work (ADXL345 tap detection) is raw signal thresholding, not estimation theory",
+      "No spacecraft/rover-specific GNC context (no prior space, planetary, or off-road mobility work)"
+    ],
+    "overstated_by_keywords": [
+      "motion planning and state estimation were scored ADJACENT off kinematics/IMU keywords, but the actual project depth is control execution and raw sensing, not the planning/estimation algorithms the title implies"
+    ],
+    "understated_by_keywords": [
+      "CARLA autonomous driving project (simulation + adaptive control stack + waypoint following) is a strong, specific match for 'simulation and testing to validate software functionality' that the keyword pass barely credited",
+      "ROS2 depth is stronger than a keyword hit suggests: real hardware execution (UR5e) plus Humble/Noetic dual-distro validation against MoveIt/RViz"
+    ],
+    "screening_gaps": [
+      "No SLAM experience, despite it being named explicitly in a GNC-titled role",
+      "No formal path/motion-planning algorithm project (A*, RRT, trajectory optimization) beyond kinematics execution",
+      "No state-estimation or sensor-fusion project (Kalman/EKF) despite extensive raw sensor integration"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong practical ROS2, real-time embedded control, and simulation-to-control-stack fit, but the profile is missing the three algorithmic pillars a GNC-titled role names directly: SLAM, path/motion planning, and state estimation. These are learnable on the job for an internship and the surrounding robotics stack (kinematics, real-time control, sensor integration) is genuinely deep, so this is a worthwhile apply with clear-eyed gaps.",
+    "calibration_delta": 2.0
+  }
+}

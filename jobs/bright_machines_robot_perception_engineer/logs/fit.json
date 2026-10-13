@@ -1,0 +1,32 @@
+{
+  "company": "Bright Machines",
+  "company_slug": "bright_machines",
+  "role": "Robot Perception Engineer - Smart Robotics",
+  "job_slug": "robot_perception_engineer",
+  "match_pct": 85,
+  "missing_skills": ["imaging systems (optics/lighting)"],
+  "adjacent_skills": [
+    {"jd_skill": "image acquisition", "profile_has": "BARC image stitching pipeline, data capture workflows"},
+    {"jd_skill": "camera systems", "profile_has": "COFFIN visual servoing with YOLO+camera, BARC imaging"},
+    {"jd_skill": "imaging systems", "profile_has": "ZoeDepth monocular depth, BARC nuclear imaging pipeline"}
+  ],
+  "top_ats_keywords": ["computer vision", "deep learning", "PyTorch", "CUDA", "TensorRT", "ROS2", "visual servoing", "pose estimation", "YOLO", "sensor integration", "C++", "Python", "GPU inference optimization", "data annotation", "3D geometry"],
+  "key_responsibilities": [
+    "Develop CV and deep learning algorithms for visual inspection and vision-based navigation",
+    "Design data capture strategies and train/fine-tune models",
+    "Build and maintain data pipelines and MLOps workflows",
+    "Support model inference optimization for GPU deployment using CUDA, TensorRT",
+    "Harden perception solutions for production reliability"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "sponsorship_status": "H1B Sponsor Likely — Bright Machines has track record (7 sponsorships in 2024-2025)",
+  "location": "San Francisco, CA (Hybrid)",
+  "experience_required": "1-3 years",
+  "experience_level": "entry",
+  "clearance_required": false,
+  "hard_blocker_triggered": false
+}

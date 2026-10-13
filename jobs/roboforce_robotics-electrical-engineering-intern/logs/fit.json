@@ -1,0 +1,152 @@
+{
+  "company": "RoboForce",
+  "company_slug": "roboforce",
+  "role": "Robotics Electrical Engineering Intern",
+  "job_slug": "robotics-electrical-engineering-intern",
+  "match_pct": 90.0,
+  "score_detail": {
+    "have_count": 21,
+    "adjacent_count": 3,
+    "missing_count": 1,
+    "jd_ask_size": 25,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Arduino",
+    "STM32",
+    "C",
+    "C++",
+    "Linux",
+    "Python",
+    "SMD soldering",
+    "Git",
+    "motor control",
+    "sensor fusion",
+    "I2C",
+    "SPI",
+    "UART",
+    "firmware",
+    "embedded systems",
+    "circuit validation",
+    "continuity testing",
+    "oscilloscope",
+    "multimeter",
+    "logic analyzer",
+    "robotics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Altium/KiCad",
+      "you_have": "Eagle PCB design"
+    },
+    {
+      "jd_skill": "function generator",
+      "you_have": "oscilloscope/multimeter lab experience"
+    },
+    {
+      "jd_skill": "signal integrity",
+      "you_have": "hardware debugging (general)"
+    }
+  ],
+  "missing_skills": [
+    "CAN bus"
+  ],
+  "top_ats_keywords": [
+    "Arduino",
+    "STM32",
+    "CAN bus",
+    "I2C",
+    "SPI",
+    "UART",
+    "Linux",
+    "C++",
+    "Python",
+    "PCB",
+    "Git"
+  ],
+  "required_skills": [
+    "Arduino",
+    "STM32",
+    "CAN bus",
+    "oscilloscope",
+    "multimeter",
+    "C/C++",
+    "Linux",
+    "Python"
+  ],
+  "preferred_skills": [
+    "PCB design (Altium/KiCad/Eagle)",
+    "SMD soldering",
+    "Git",
+    "motor control",
+    "sensor fusion",
+    "robotics"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Circuit validation: power-on tests, signal integrity, continuity testing",
+    "Troubleshoot hardware with oscilloscopes, multimeters, logic analyzers",
+    "Develop/maintain embedded firmware for Arduino (C++) and STM32 (C)",
+    "Implement/debug CAN bus, I2C, SPI, UART",
+    "Validate communication protocols with Linux-based environments",
+    "End-to-end documentation of debugging and firmware details"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Milpitas, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Multiple from-scratch STM32 bare-metal C firmware builds (Temperature Monitor: GPIO/TIM2/ADC1/I2C1 direct register programming; Object Tracking Turret: FreeRTOS + UART command handling)",
+      "Real UART/I2C/SPI protocol implementation depth beyond 'familiarity' \u2014 custom I2C drivers, TCA9548A I2C multiplexer on COFFIN, sensor comms over UART/I2C on club PCBs",
+      "PWM motor control and closed-loop feedback across two robotics platforms (Robocon holonomic drive with quadrature-encoder heading correction; COFFIN servo IK)",
+      "Linux systems depth exceeding the JD's 'basic operations' ask \u2014 systemd service hardening, static IP/network config, XRDP admin on a headless Jetson",
+      "EAGLE PCB fabrication experience (single-layer boards for locomotive robots) directly relevant to the hardware side"
+    ],
+    "real_gaps": [
+      "No CAN bus experience anywhere in the profile \u2014 zero evidence",
+      "No Altium or KiCad experience \u2014 only Eagle",
+      "No bench-level analog validation work described (power-on tests, signal integrity checks with a function generator, continuity testing) \u2014 profile shows firmware/logic debugging, not analog circuit validation",
+      "No explicit hands-on SMD soldering bullet \u2014 inferred only from PCB fabrication"
+    ],
+    "overstated_by_keywords": [
+      "SMD soldering (no explicit bullet, inferred from PCB fab)",
+      "sensor fusion (multi-sensor integration via ToF/IMU, not classical fusion algorithms)",
+      "oscilloscope/multimeter (listed as tools, no bullet narrates a scope-debugging session)"
+    ],
+    "understated_by_keywords": [
+      "Linux depth (systemd hardening, network config \u2014 beyond the JD's basic-ops ask)",
+      "UART/I2C/SPI depth (multiple from-scratch drivers and a hardware I2C mux, not just protocol familiarity)"
+    ],
+    "screening_gaps": [
+      "No CAN bus experience \u2014 the JD names it as a core protocol to implement and debug",
+      "No Altium/KiCad exposure \u2014 Eagle-only PCB background",
+      "No described bench-level circuit validation (power-on/signal-integrity/continuity procedures) \u2014 profile skews firmware-side, not analog-validation-side"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin's embedded/EE background is unusually deep for an intern posting \u2014 multiple bare-metal STM32 and Arduino firmware builds, real UART/I2C/SPI driver work, and closed-loop motor control directly cover the JD's firmware and debugging core. The genuine gaps are CAN bus (unused) and Altium/KiCad (Eagle only), plus the analog bench-validation tasks are less directly evidenced than the firmware side.",
+    "calibration_delta": 8.0
+  }
+}

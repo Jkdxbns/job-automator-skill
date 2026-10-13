@@ -1,0 +1,75 @@
+{
+  "_meta": {"company": "Hewlett Packard Enterprise", "role": "Software Engineer", "company_slug": "hpe", "job_slug": "software-engineer"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience building AI-assisted distributed systems in Python and C++. Designed a three-layer WebSocket architecture (Flutter client, Flask-SocketIO server, Jetson controller) deployed as a systemd Linux service, and integrated LLM-based intent classification (Gemini) with optimized ML inference (PyTorch, TensorRT). Comfortable across the full software development lifecycle, from OOP system design to Git-based collaboration.",
+  "skills": {
+    "Languages & AI": ["Python", "C/C++", "PyTorch", "TensorRT", "OOP design"],
+    "Systems & Networking": ["Linux", "WebSocket networking", "systemd service management", "Static IP / network configuration"],
+    "Tools": ["Git", "GitLab", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2× speedup: 56.7→10.9 ms, 17.6→92 FPS vs eager PyTorch) for visual servoing.",
+        "Deployed the Jetson-side arm bridge as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable multi-device WebSocket registration."
+      ]
+    },
+    {
+      "name": "Frame Simulator — Desktop 3D Coordinate-Frame Visualizer",
+      "date": "Oct 2025",
+      "bullets": [
+        "Built a PySide6/Qt desktop GUI with an OpenGL-backed VisPy 3D viewport to visualize coordinate-frame hierarchies and SE(3) poses in real time.",
+        "Decoupled data model, math, visuals, and UI into separate modules with a mix-in pattern centralizing transform-apply, matrix-refresh, and animation logic."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,121 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Cloud Infrastructure Engineer",
+  "job_slug": "senior-cloud-infrastructure-engineer",
+  "match_pct": 16.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 15,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (automation/tooling language)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Familiarity with GPU compute / data processing workloads on AWS",
+      "you_have": "CUDA / GPU kernel optimization (local, not AWS-hosted)"
+    },
+    {
+      "jd_skill": "Hybrid or edge networking (connecting physical sites/hardware to cloud)",
+      "you_have": "Embedded Edge AI deployment (Jetson, ROS2, TensorRT, YOLO)"
+    },
+    {
+      "jd_skill": "Infrastructure-as-code / CI/CD practice",
+      "you_have": "Version control and build tooling"
+    }
+  ],
+  "missing_skills": [
+    "AWS (production environments, networking, storage at scale)",
+    "VPC design, routing, Transit Gateway, VPN/Direct Connect, Route 53 DNS, load balancing",
+    "S3 (large-scale, lifecycle policies, storage classes, replication, performance tuning)",
+    "Terraform / infrastructure-as-code",
+    "IAM / security fundamentals (least-privilege, encryption, network segmentation, audit readiness)",
+    "CI/CD ownership (infrastructure-specific)",
+    "Kubernetes / EKS / container platforms",
+    "GPU compute / data processing on AWS (candidate GPU/CUDA is local, not AWS-hosted)",
+    "Hybrid / edge networking (site-to-cloud connectivity)",
+    "Data residency / PII handling / SOC 2 compliance",
+    "AWS certifications (Advanced Networking, Solutions Architect Professional)"
+  ],
+  "top_ats_keywords": [
+    "AWS",
+    "VPC",
+    "S3",
+    "Terraform",
+    "CI/CD",
+    "IAM",
+    "networking",
+    "storage",
+    "Python",
+    "Go",
+    "Kubernetes",
+    "EKS",
+    "GPU",
+    "data residency",
+    "SOC 2",
+    "load balancing",
+    "Route 53",
+    "Direct Connect",
+    "Transit Gateway",
+    "VPN",
+    "replication",
+    "lifecycle policies",
+    "encryption"
+  ],
+  "required_skills": [
+    "6+ years infrastructure/cloud engineering",
+    "AWS production environments",
+    "Deep AWS networking (VPC, routing, Transit Gateway, VPN/Direct Connect, Route 53 DNS, load balancing)",
+    "AWS large-scale storage (S3 at scale, lifecycle, storage classes, replication, performance tuning)",
+    "Infrastructure-as-code (Terraform preferred)",
+    "CI/CD ownership",
+    "IAM and security (least-privilege, encryption, network segmentation, audit readiness)",
+    "Automation/tooling language (Python, Go, or similar)"
+  ],
+  "preferred_skills": [
+    "High-throughput data transfer / multi-region replication / bulk ingest-export",
+    "Hybrid or edge networking (site/hardware to cloud)",
+    "Kubernetes / EKS or container platform experience",
+    "Familiarity with GPU compute or data processing workloads on AWS",
+    "Compliance (data residency, PII handling, SOC 2)",
+    "AWS certifications (Advanced Networking, Solutions Architect Professional)"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, build, and operate core AWS environment (networking, storage, IAM)",
+    "Build and maintain network: VPCs, subnets, routing, Transit Gateway, VPN/Direct Connect, DNS, load balancing",
+    "Implement and tune petabyte-scale video/sensor data storage layer on S3",
+    "Manage infrastructure as code (Terraform) through CI/CD and contribute to reliability (monitoring, alerting, incident response)",
+    "Deliver cost savings, design reviews, and mentor engineers"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

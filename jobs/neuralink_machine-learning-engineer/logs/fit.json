@@ -1,0 +1,59 @@
+{
+  "company": "Neuralink",
+  "company_slug": "neuralink",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 87.5,
+  "missing_skills": [
+    "Rust"
+  ],
+  "adjacent_skills": [
+    "real-time ML systems (shipped) \u2192 you have Edge AI deployment / Jetson+TensorRT real-time inference pipelines"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "Rust",
+    "signal processing",
+    "algorithms",
+    "neural networks",
+    "deep learning",
+    "real-time ML",
+    "software engineering",
+    "robotics"
+  ],
+  "key_responsibilities": [
+    "Develop and refine models that decode neural data (typing, robotic arm control) for the Telepathy product",
+    "Formulate research questions guiding neural network / signal processing development for the Blindsight (vision restoration) product",
+    "Build ML models as the foundation for BCI applications",
+    "Set technical standard/bar for how the team builds and operates systems",
+    "Inform hardware roadmap from user understanding and product feature impact"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real-time inference optimization on embedded/edge hardware: TensorRT-optimized YOLO for visual servoing, 5.2x speedup (56.7 to 10.9ms), 17.6 to 92 FPS, in the COFFIN capstone directly answers the shipping real-time ML products ask at a systems level.",
+      "Genuine signal processing depth, not just coursework: custom wavelet bank (sym6+bior3.5) for noise suppression and ZoeDepth-based crack profiling at the BARC internship, plus DSP/Random Signal Analysis coursework.",
+      "From-scratch ML engineering rigor (GPT-2 style Transformer, Whisper-style ASR with custom BPE tokenizer) matches the JD line we value simple solutions grounded in first principles better than any framework-only project would.",
+      "Direct robotic arm control precedent: forward kinematics, visual servoing, and closed-loop grasping (COFFIN, UR5e/AL5B project) maps closely onto the Telepathy responsibility of controlling robotic arms for activities of daily living.",
+      "Low-level C/C++ production-style code: STM32 bare-metal firmware (interrupt-driven ADC, GPIO, I2C) and custom CUDA C++ kernels with memory coalescing show real systems-level C/C++, not just application scripting."
+    ],
+    "real_gaps": [
+      "Rust: zero evidence anywhere in the profile, not even an adjacent systems language beyond C/C++. This is a real, unhedged gap against a named required language.",
+      "Production/safety-critical scale: every real-time ML result in the profile is academic, capstone, or internship scale (a robotics capstone, benchmark projects). Neuralink BCI decoders run continuously on an implanted device in an actual patient, a different reliability and scale bar than what proven track record of shipping is asking for here.",
+      "Org-level technical leadership: Lead the team... setting the bar implies setting engineering standards for other engineers at a company. Justins leadership (Agnel Robotics Club, Teesside research team) is academic/club leadership, not industry engineering leadership.",
+      "No full-time industry experience: 6 internships plus research/capstone work, but no full-time shipped-product role, which is what a proven track record of shipping typically signals to a hiring team."
+    ],
+    "overstated_by_keywords": [
+      "real-time ML systems (shipped) was scored Adjacent/Have via Edge AI deployment, but the specific bar Neuralink means (continuously operating, safety-critical, production BCI decoder) is meaningfully higher than a demoed capstone project, even a well-executed one.",
+      "software engineering principles was scored Have generically, but theres no evidence in the profile of large-scale production practices (testing at scale, CI/CD, on-call, code review across a team) \u2014 the work is research and academic in nature."
+    ],
+    "reasoning": "The technical substrate is a strong match: real signal processing depth, from-scratch ML engineering, real-time inference optimization on embedded hardware, and direct robotic-arm-control precedent all read as genuine, not surface-level. But two things the keyword match cannot see pull this down from the 87.5% keyword score: Rust is a true zero, not a near-miss, and the JD leans senior in its language (proven track record, shipping, setting the bar) in a way that assumes production-scale, safety-critical delivery experience the profile does not have. Worth applying given the strong technical fit, but go in expecting depth questions about production reliability and ownership at scale, not just algorithms."
+  }
+}

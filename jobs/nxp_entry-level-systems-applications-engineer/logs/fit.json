@@ -1,0 +1,136 @@
+{
+  "company": "NXP Semiconductors",
+  "company_slug": "nxp",
+  "role": "Entry Level - Systems & Applications Engineer",
+  "job_slug": "entry-level-systems-applications-engineer",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 1,
+    "missing_count": 8,
+    "jd_ask_size": 18,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ARM Cortex-M",
+    "C",
+    "Linux",
+    "device drivers",
+    "technical documentation",
+    "hardware/software integration (board bring-up)",
+    "hardware/software integration (PCB reference design)",
+    "testing and validation",
+    "software engineering fundamentals (embedded software development)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "software debugging tools / processor registers",
+      "you_have": "hardware debugging (register-level via ARM Cortex-M / STM32 work)"
+    }
+  ],
+  "missing_skills": [
+    "Android",
+    "kernel modules",
+    "u-boot",
+    "OpenGL",
+    "3D graphics",
+    "video decode",
+    "GStreamer",
+    "SoC design (chip-level)"
+  ],
+  "top_ats_keywords": [
+    "ARM Cortex",
+    "C",
+    "Linux",
+    "Android",
+    "kernel modules",
+    "device drivers",
+    "u-boot",
+    "OpenGL",
+    "GStreamer",
+    "board bring-up",
+    "technical writing"
+  ],
+  "required_skills": [
+    "ARM Cortex architecture",
+    "C programming language",
+    "embedded Systems on Chip",
+    "software debugging tools / processor registers",
+    "Linux or Android kernel modules and device drivers",
+    "Technical writing"
+  ],
+  "preferred_skills": [
+    "OpenGL",
+    "3D graphics",
+    "video decode",
+    "GStreamer",
+    "PCB reference design",
+    "board bring-up",
+    "SoC design"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Customer support for i.MX processor board bring-up, software dev, system-level debug",
+    "Build application/demo/driver code for multimedia, connectivity, infotainment on i.MX",
+    "Technical writing: application notes, white papers, developer guides",
+    "Work with marketing/SoC design/architecture/validation teams on PCB reference designs"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX (Office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Genuine register-level bare-metal C on ARM Cortex-M4 (STM32 Temperature Monitor: direct GPIO/TIM2/ADC1/I2C1 programming, verified via oscilloscope/Proteus) \u2014 directly answers 'software debugging tools to view and program processor registers'.",
+      "Applied embedded Linux administration on a Jetson (systemd unit files, static IP config, XRDP remote desktop) from the COFFIN capstone \u2014 real Linux exposure beyond just using it as a dev host, though not kernel-level.",
+      "Strong technical writing track record (BARC crack-analysis documentation, MR headset claims docs, project write-ups) matching the application-notes/white-paper requirement.",
+      "Real-time OpenGL-backed 3D visualization (Frame Simulator, PySide6/VisPy) \u2014 concrete backing for the one preferred skill (OpenGL) the keyword pass missed entirely."
+    ],
+    "real_gaps": [
+      "No Android experience of any kind",
+      "No Linux kernel module or OS-level device driver development",
+      "No u-boot / bootloader experience",
+      "No GStreamer or video-decode/multimedia-codec pipeline work",
+      "No customer-facing support or field-applications-engineer experience",
+      "No cross-functional work with marketing/SoC-design/validation teams on production reference designs",
+      "All prior work is research/capstone/personal-project scale, not production-support scale"
+    ],
+    "overstated_by_keywords": [
+      "device drivers \u2014 the profile match is bare-metal microcontroller peripheral drivers (I2C/GPIO on STM32), not the Linux/Android OS-level device drivers the JD means"
+    ],
+    "understated_by_keywords": [
+      "OpenGL (Frame Simulator project) \u2014 a genuine preferred-skill match the keyword pass returned no match on",
+      "Register-level debugging \u2014 the STM32 Temperature Monitor's direct peripheral-register programming (GPIO/TIM2/ADC1/I2C1) is exactly the 'view/program processor registers' ask, not just generic hardware debugging"
+    ],
+    "screening_gaps": [
+      "No Android experience and no Linux kernel-module/OS-level device-driver work \u2014 the JD explicitly asks for depth in Linux, Android, kernel modules, or device drivers, and the profile's only 'driver' work is bare-metal peripheral code, a different discipline a technical screener will catch immediately",
+      "No customer-facing or field-applications-engineer experience \u2014 this role is fundamentally customer support plus NPI-process coordination with marketing/design/validation teams, and the profile is entirely research/personal-project scope with zero external-customer support history",
+      "No u-boot/bootloader or multimedia-codec (GStreamer/video decode) experience for i.MX-class production hardware \u2014 the OpenGL work is a desktop visualization tool, not the infotainment/video-decode stack the JD asks for"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The embedded fundamentals are real and specific \u2014 register-level bare-metal C on ARM Cortex-M, applied Linux administration, and strong technical writing \u2014 but the role's actual center of gravity is customer-facing field-applications support plus Linux/Android driver and multimedia-codec work, none of which the profile evidences. This reads less like a keyword gap and more like a different job function wearing similar language.",
+    "calibration_delta": 5.8
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "company": "Neuralink",
+  "company_slug": "neuralink",
+  "role": "Software Engineer, Medical Imaging",
+  "job_slug": "medical-imaging-swe",
+  "match_pct": 43.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 15,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "3D Visualization",
+    "Medical Imaging",
+    "GUI",
+    "Coordinate Frames"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linear Algebra",
+      "you_have": "DH tables, SE(3) transforms, forward kinematics"
+    },
+    {
+      "jd_skill": "NIfTI",
+      "you_have": "BraTS 2020 MRI volumetric pipeline"
+    },
+    {
+      "jd_skill": "Intraoperative tool tracking",
+      "you_have": "visual servoing, sensor interfacing"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "JavaScript",
+    "DICOM",
+    "Protected Health Information",
+    "Container Orchestration",
+    "Docker",
+    "Infrastructure Development"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Rust",
+    "JavaScript",
+    "DICOM",
+    "NIfTI",
+    "3D Visualization",
+    "Medical Imaging",
+    "Linear Algebra",
+    "GUI",
+    "Coordinate Frames",
+    "Docker",
+    "Kubernetes"
+  ],
+  "required_skills": [
+    "Python",
+    "Linear Algebra",
+    "3D Visualization",
+    "Medical Imaging",
+    "Rust",
+    "JavaScript"
+  ],
+  "preferred_skills": [
+    "DICOM",
+    "NIfTI",
+    "Protected Health Information",
+    "Container Orchestration",
+    "Infrastructure Development"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Import/manipulate 3D medical imaging datasets",
+    "Large medical image data apps",
+    "GUI for electrode target placement",
+    "Pass pre-op images to surgical robot",
+    "Interface with intraoperative tracking hardware"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

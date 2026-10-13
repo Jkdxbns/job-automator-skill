@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "Zipline",
+    "role": "Unified — Embedded Firmware SW Eng + Embedded Intern + Forward Deployed AI Eng",
+    "company_slug": "zipline",
+    "job_slug": "unified-3roles"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience across embedded firmware (STM32 bare metal C, FreeRTOS, Linux on NVIDIA Jetson) and production GenAI systems (LLM orchestration, TensorRT deployment, multimodal pipelines). Deployed real hardware systems integrating UART, I2C, SPI, and ToF peripheral drivers with real time control logic and fault management; built end-to-end AI pipelines from voice input through LLM intent to visual servoing achieving 100% pick reliability.",
+  "skills": {
+    "Embedded & Hardware": ["STM32 (Bare Metal C)", "FreeRTOS", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "UART/I2C/SPI", "ADC", "GPIO Interrupts", "EAGLE PCB Design", "Oscilloscopes", "Logic Analyzers"],
+    "Languages": ["C/C++", "Python", "CUDA", "Bash", "Cython"],
+    "ML / GenAI": ["PyTorch", "TensorRT", "YOLO", "OpenCV", "HuggingFace Transformers", "faster-whisper", "Quantization (8-bit)", "TensorFlow", "Keras"],
+    "Platforms & Tools": ["Linux", "Git", "Flask/SocketIO", "CMake", "ROS2", "WebSocket", "Proteus", "SolidWorks"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove integrating accelerometers with Raspberry Pi and Bluetooth to translate 3 DoF hand motion into HID commands via Python over UART.",
+        "Implemented a custom z-axis differential tap detection algorithm; resolved sensor jitter through software calibration and ADC resolution tuning on live hardware.",
+        "Architected a Mixed Reality headset concept using AI based real time chroma keying without a green screen; produced full system claims documentation and BOM."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset; improved validation accuracy from 55% to 93% via preprocessing improvements and model tuning.",
+        "Built end-to-end training pipeline in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer for structured field extraction."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed monocular depth estimation for crack depth profiling achieving within 8% error on 3D surface reconstruction; real hardware perception pipeline under compute constraints.",
+        "Designed a custom alpha blended wavelet bank to suppress low frequency noise; combined with optimized homography stitching to achieve PSNR of 86.",
+        "Architected a full metal surface inspection pipeline integrating custom image stitching, wavelet denoising, and depth estimation for microscopic crack analysis."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated single-layer PCBs in EAGLE for electromechanical locomotion robots; implemented closed-loop sensor communication over UART and I2C.",
+        "Led 25-member robotics team across national competitions, owning mechanical design, PCB fabrication, and firmware integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a three layer distributed GenAI pipeline spanning a Flutter client, Flask/SocketIO edge server, and Jetson plus Arduino controller; integrated faster-whisper STT (1.0 to 1.4 s), Gemini LLM intent classification (under 500 ms), and TensorRT YOLO for real time visual servoing (5.2x speedup: 56.7 to 10.9 ms, 17.6 to 92 FPS).",
+        "Integrated dual ToF sensors via an I2C multiplexer for contact aware grasping; implemented two link IK on Arduino; drove five servos with ADC range gated contact detection at a 25 mm close threshold.",
+        "Deployed on Linux on Jetson as a production systemd service with automatic restart and WebSocket reconnect; serial UART passthrough to the hardware controller.",
+        "Resolved several integration failures through fault isolation and telemetry analysis; achieved 100% pick reliability (10/10 trials) at approximately 11.5 s end to end latency.",
+        "Built a multiprocess data collection pipeline for parallel camera frame capture and telemetry logging to support observability and post run analysis."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "STM32 firmware in bare metal C and FreeRTOS: interrupt driven UART command parser, multiple servo PWM control with user override, and mutex guarded shared state task coordination.",
+        "Wrote peripheral drivers for a ToF sensor over I2C with real time OLED distance visualization; YOLO on Jetson sent tracking commands over UART to the STM32.",
+        "Validated PWM timing, signal integrity, and dead band limits under servo load using oscilloscope and logic analyzer."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Cortex-M4 firmware in bare metal C: timer triggered ADC scan conversions, interrupt driven sample capture, and a low level I2C driver; all implemented via direct register access to GPIO, timers, ADC, and I2C peripherals.",
+        "Achieved 3.68 KB Flash and 1.58 KB RAM at a deterministic 1 Hz update rate; verified timing and signal integrity in Proteus simulation before hardware bring up."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by approximately 55% via 8-bit quantization on a 1B parameter language model; profiled peak VRAM and inference latency across prompt types.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; under 1% accuracy degradation with near lossless compression validated for production deployment on constrained hardware."
+      ]
+    },
+    {
+      "name": "COFFIN: Whisper-Style ASR Pipeline from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline with a mel spectrogram encoder and a causal Transformer decoder with cross-attention; trained on 1,000 Indian-English samples achieving 15% WER.",
+        "Designed a custom BPE tokenizer with a Cython accelerated backend achieving a 4 to 5.5x speedup over pure Python on a large scale character corpus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Principles of Robotics", "Robot Perception", "Machine Intelligence", "Deep Learning", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Image Processing", "Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

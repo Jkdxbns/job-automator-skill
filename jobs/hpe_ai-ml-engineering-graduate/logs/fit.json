@@ -1,0 +1,137 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "AI and Machine Learning Engineering Graduate",
+  "job_slug": "ai-ml-engineering-graduate",
+  "match_pct": 41.3,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 11,
+    "jd_ask_size": 23,
+    "req_cov": 0.235,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Deep Learning",
+    "Neural Networks",
+    "Data Visualization (Matplotlib)",
+    "TensorFlow",
+    "PyTorch",
+    "Hyperparameter Tuning (Fine-tuning)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Optimization Methods",
+      "you_have": "CUDA kernel optimization / model quantization"
+    },
+    {
+      "jd_skill": "Supervised/Unsupervised Learning",
+      "you_have": "Deep learning model training (PyTorch/TensorFlow, CV/ASR)"
+    },
+    {
+      "jd_skill": "NLP",
+      "you_have": "Transformer/tokenizer/ASR pipelines"
+    },
+    {
+      "jd_skill": "Data Pre-processing",
+      "you_have": "CV/robotics data pipelines"
+    },
+    {
+      "jd_skill": "scikit-learn",
+      "you_have": "PyTorch/TensorFlow"
+    }
+  ],
+  "missing_skills": [
+    "Statistics",
+    "Probability",
+    "Linear Algebra",
+    "Calculus",
+    "Reinforcement Learning",
+    "Data Cleaning",
+    "Exploratory Data Analysis",
+    "SQL",
+    "Databases",
+    "Tableau",
+    "Feature Engineering"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "SQL",
+    "Matplotlib",
+    "Tableau",
+    "Machine Learning",
+    "Deep Learning",
+    "Neural Networks",
+    "NLP",
+    "Reinforcement Learning",
+    "Data Visualization",
+    "Feature Engineering",
+    "Statistics",
+    "Linear Algebra",
+    "Hyperparameter Tuning"
+  ],
+  "required_skills": [
+    "Python/R/Java",
+    "Statistics",
+    "Probability",
+    "Linear Algebra",
+    "Calculus",
+    "Optimization Methods",
+    "Supervised/Unsupervised Learning",
+    "Deep Learning",
+    "Neural Networks",
+    "Reinforcement Learning",
+    "NLP",
+    "Data Pre-processing",
+    "Data Cleaning",
+    "Exploratory Data Analysis",
+    "SQL",
+    "Databases",
+    "Data Visualization"
+  ],
+  "preferred_skills": [
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop/implement AI/ML models",
+    "Data pre-processing and feature engineering",
+    "Model training and evaluation",
+    "Hyperparameter tuning and optimization",
+    "Cross-functional collaboration",
+    "Documentation and reporting",
+    "Design reviews and stand-ups",
+    "BI tools/dashboards maintenance"
+  ],
+  "role_category": "ml_systems",
+  "location": "Durham, North Carolina, United States of America",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

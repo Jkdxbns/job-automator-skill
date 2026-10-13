@@ -1,0 +1,102 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Forward Deployed Robotics Engineer",
+  "job_slug": "forward-deployed-robotics-engineer",
+  "match_pct": 45.5,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 11,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Linux-based systems",
+    "Sensors / sensor hardware",
+    "Data capture / data acquisition"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Cameras / vision",
+      "you_have": "computer vision / image processing"
+    },
+    {
+      "jd_skill": "Real robot deployments / robot operation",
+      "you_have": "robotics perception / ROS pipelines"
+    },
+    {
+      "jd_skill": "Telemetry / remote interfaces",
+      "you_have": "embedded communication interfaces"
+    },
+    {
+      "jd_skill": "Real-time troubleshooting",
+      "you_have": "real-time embedded OS"
+    }
+  ],
+  "missing_skills": [
+    "Field technician, field engineer, or on-site support at a robotics company",
+    "Teleoperation systems or remote robot operation",
+    "Networking (TCP/IP, wireless, infrastructure)",
+    "Physical on-site deployment execution / field travel experience"
+  ],
+  "top_ats_keywords": [
+    "robot deployment",
+    "data capture",
+    "teleoperation",
+    "Linux",
+    "cameras",
+    "sensors",
+    "networking",
+    "field engineer",
+    "telemetry",
+    "real-time troubleshooting",
+    "deployment",
+    "quality-focused"
+  ],
+  "required_skills": [
+    "Field technician / field engineer / on-site support at a robotics company",
+    "Hands-on real robot deployment support",
+    "Data capture operations (leading or supporting)",
+    "Teleoperation systems / remote robot operation",
+    "Linux-based systems",
+    "Cameras / vision",
+    "Sensors / sensor hardware",
+    "Networking"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Robot deployment, setup, calibration, and on-site troubleshooting",
+    "Lead data capture with sensor/camera/telemetry quality monitoring",
+    "Support teleoperation workflows and coordinate with remote operators",
+    "Real-time problem resolution and field documentation",
+    "Serve as local NY point of contact and report deployment status"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

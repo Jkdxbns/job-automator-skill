@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Amazon",
+    "role": "Robotics - Embedded Software Development Engineer",
+    "company_slug": "amazon",
+    "job_slug": "robotics-embedded-sde1"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands on experience building embedded and robotics systems in C and C++, from bare metal STM32 firmware to ROS based manipulation and real time perception pipelines. Background spans deterministic embedded control, YOLO based object detection deployed on NVIDIA Jetson, and multi sensor integration over UART, I2C, and SPI. Comfortable owning hardware software integration end to end, from kinematics and firmware timing to closed loop sensor feedback.",
+  "skills": {
+    "Embedded Systems": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Bluetooth (BLE/Classic)",
+      "EAGLE PCB Design"
+    ],
+    "Robotics & Perception": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "YOLO",
+      "TensorRT",
+      "Visual Servoing",
+      "Forward Kinematics",
+      "DH Parameters",
+      "Monocular Depth Estimation"
+    ],
+    "Languages": [
+      "C/C++",
+      "Python"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms) for visual servoing and ToF-gated contact-aware grasping; achieved 100% pick reliability (10/10 trials).",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination across YOLOv8-on-Jetson detection and STM32 servo control; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Multiple Processor Systems",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

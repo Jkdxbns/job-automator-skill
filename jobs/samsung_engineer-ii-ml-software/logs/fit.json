@@ -1,0 +1,114 @@
+{
+  "company": "Samsung Electronics America (Samsung Ads)",
+  "company_slug": "samsung",
+  "role": "Engineer II, Machine Learning Software",
+  "job_slug": "engineer-ii-ml-software",
+  "match_pct": 32.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 20,
+    "req_cov": 0.364,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "machine learning",
+    "data mining"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Go",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "OOP languages",
+      "you_have": "Python/C++"
+    },
+    {
+      "jd_skill": "ML platform/serving/MLOps collaboration",
+      "you_have": "Jetson deployment / TensorRT / ONNX production pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Apache Spark",
+    "Spark ML",
+    "Big Data tools",
+    "large-scale data analysis",
+    "cross-functional data project management",
+    "pCTR",
+    "ROAS",
+    "app-install optimization",
+    "retention modeling",
+    "advertising data",
+    "mentoring junior engineers",
+    "production-grade end-to-end ML product delivery"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Go",
+    "TensorFlow",
+    "PyTorch",
+    "Spark ML",
+    "Apache Spark",
+    "Big Data tools",
+    "large-scale data analysis",
+    "pCTR",
+    "ROAS",
+    "MLOps"
+  ],
+  "required_skills": [
+    "Python",
+    "Go",
+    "OOP languages",
+    "TensorFlow",
+    "PyTorch",
+    "Spark ML",
+    "Apache Spark",
+    "Big Data tools",
+    "large-scale data analysis",
+    "cross-functional data project management",
+    "Master's degree CS or related"
+  ],
+  "preferred_skills": [
+    "mentoring junior engineers",
+    "ML platform/serving/MLOps collaboration",
+    "production ML deployment"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Lead and deliver production-grade ML products end to end",
+    "Design/develop/deploy scalable ML models for pCTR, app-install, ROAS, retention",
+    "Research and prototype new ML solutions, deploy to production",
+    "Analyze large-scale advertising data",
+    "Work with ML platform/serving/MLOps teams",
+    "Mentor junior engineers"
+  ],
+  "role_category": "ml_systems",
+  "location": "Mountain View, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

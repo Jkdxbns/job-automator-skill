@@ -1,0 +1,166 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Staff Embedded Software Engineer",
+  "job_slug": "staff-embedded-software-engineer",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 26,
+    "req_cov": 0.692,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "Microcontroller firmware",
+    "ARM Cortex-M",
+    "Bare-metal",
+    "Embedded systems",
+    "Firmware development",
+    "Serial protocols (SPI, I2C, UART)",
+    "Peripheral programming (GPIO, PWM, ADC, register-level)",
+    "Device driver development",
+    "Hardware/software integration",
+    "Board bring-up",
+    "Sensors integration",
+    "Testing and validation",
+    "Hardware-in-the-loop testing",
+    "Networking/Ethernet",
+    "Build systems (CMake, cross-compilation)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN protocol",
+      "you_have": "Serial protocols (strong) - CAN is a serial bus protocol"
+    },
+    {
+      "jd_skill": "OTA update architectures",
+      "you_have": "Microcontroller firmware and embedded systems design"
+    },
+    {
+      "jd_skill": "Secure boot mechanisms",
+      "you_have": "Embedded systems design and security context"
+    }
+  ],
+  "missing_skills": [
+    "Zephyr RTOS (candidate has FreeRTOS only)",
+    "8+ years full-time embedded systems experience (candidate is new-grad with 0 years full-time)",
+    "Explicit OTA update architecture implementation experience",
+    "Advanced embedded cybersecurity (secure boot, firmware signing)",
+    "Explicit CI/CD pipeline experience"
+  ],
+  "top_ats_keywords": [
+    "Embedded Software",
+    "Firmware",
+    "RTOS",
+    "Microcontrollers",
+    "Cortex-M",
+    "Low-level drivers",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "Ethernet",
+    "Board bring-up",
+    "Hardware-in-the-loop",
+    "CI/CD",
+    "Secure boot",
+    "OTA updates",
+    "Testing and validation",
+    "Root-cause analysis"
+  ],
+  "required_skills": [
+    "Master's degree or equivalent (CS, EE, or related)",
+    "8+ years embedded systems and firmware design",
+    "C/C++",
+    "Real-time operating systems (FreeRTOS or Zephyr)",
+    "Bare-metal applications",
+    "Embedded microcontrollers (Cortex-M)",
+    "Low-level driver development (SPI, I2C, UART, CAN, Ethernet)",
+    "Board bring-up",
+    "Sensors and actuators knowledge",
+    "Control systems (industrial robotics/vehicle context)",
+    "Secure boot mechanisms",
+    "OTA update architectures",
+    "Embedded cybersecurity requirements"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Lead design, implementation, and validation of embedded software systems",
+    "Own strategic direction for device architecture and hardware abstraction layers",
+    "Drive firmware development for RTOS-based or bare-metal applications",
+    "Define and execute testing and QA strategies including HIL testing",
+    "Partner with cross-functional teams for sensor integration",
+    "Root-cause analysis of complex firmware failures",
+    "Establish design standards, coding guidelines, and CI/CD workflows",
+    "Provide technical leadership and mentorship"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 54,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Deep C/C++ firmware development for embedded systems and FreeRTOS real-time control (COFFIN capstone integrating STT/vision/arm control; Object Tracking Turret with FreeRTOS mutexes)",
+      "Strong Cortex-M4 bare-metal microcontroller programming (STM32 Temperature Monitor: register-level GPIO, TIM2, ADC1, I2C1 implementation; ~3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz)",
+      "Proven low-level serial protocol implementation (UART interrupt-driven in Object Tracking Turret; I2C direct + mux control via TCA9548A in COFFIN; SPI listed in embedded skills)",
+      "Multi-sensor integration and real-time actuator control (VL53L0X ToF dual-sensing, ADXL345 accelerometers in wearable glove, simultaneous 5-servo PWM control in COFFIN)",
+      "Hardware/software integration across distributed embedded systems (Jetson+Arduino+STM32 UART fabric in COFFIN; Flask-SocketIO middleware for WebSocket registration)",
+      "Real-time system latency awareness and optimization (COFFIN achieves ~11.5s end-to-end voice-to-action; ASR pipeline optimized to 1.0-1.4s; shows timing-constraint thinking)"
+    ],
+    "real_gaps": [
+      "Zero years full-time production embedded systems experience \u2014 entire background is capstone (Apr 2026) and research internships; role requires '8+ years designing embedded systems and firmware for complex, high-reliability products' deployed 24/7/365 in defense contexts",
+      "No OTA update architecture or secure boot mechanism implementation \u2014 both listed as 'practical experience' requirements; zero backing in profile; critical for defense-grade USV architecture",
+      "No CAN protocol experience \u2014 explicitly required for low-level driver development; profile covers SPI/I2C/UART only, insufficient for vehicle control systems",
+      "No architecture ownership or HAL design experience \u2014 responsible for 'own strategic direction for device architecture and hardware abstraction layers'; all experience is project-level implementation, never led architecture at any scale",
+      "No fleet reliability engineering or root-cause analysis on deployed systems \u2014 role requires 'guiding source of root-cause analysis and diagnosis of complex firmware failures within R&D and across deployed global fleets'; Justin has no deployed-system diagnostics experience",
+      "No HIL testing or QA strategy definition experience \u2014 responsibility is to 'define and execute comprehensive test and quality assurance strategies, including hardware-in-the-loop (HIL) testing'; limited validation experience, zero HIL",
+      "No CI/CD pipeline design or architecture-level standards establishment \u2014 responsibility to 'establish and institutionalize embedded design standards, coding guidelines, and CI/CD workflows'; systemd service setup does not translate to this scope"
+    ],
+    "overstated_by_keywords": [
+      "Bare-metal applications (keyword verdict: 'have') \u2014 limited to one STM32 Temperature Monitor project; staff role expects pervasive bare-metal fluency across multiple platforms and production-hardened contexts",
+      "OTA update architectures (keyword verdict: 'adjacent') \u2014 marked adjacent via embedded systems background, but zero implementation or even design-phase experience; core staff responsibility",
+      "Secure boot mechanisms (keyword verdict: 'adjacent') \u2014 same pattern; no real backing despite classification"
+    ],
+    "understated_by_keywords": [
+      "Linux systems administration depth for production deployment \u2014 systemd service hardening in COFFIN (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-based secrets), static IP networking, XRDP remote administration; this is production-grade deployment discipline for edge compute, but keyword pass only counts embedded C/C++",
+      "Real-time system design and latency-optimization thinking \u2014 COFFIN and ASR projects demonstrate deep understanding of timing constraints, not just surface awareness; but keyword pass misses this architectural insight",
+      "Multi-sensor fusion and integration depth \u2014 profile shows integration of VL53L0X ToF, ADXL345, MPU6050 (inventory), GPS, custom wavelet denoising for crack profiling; keyword pass treats as surface-level 'sensors integration'",
+      "Embedded Linux and containerized deployment \u2014 hardware inventory and project context (Jetson) implies exposure to Linux admin patterns, but not emphasized in keyword extraction"
+    ],
+    "screening_gaps": [
+      "Zero production embedded systems experience vs. 8+ years required for staff role \u2014 candidate graduated May 2026 (4 months ago); never shipped production RTOS or firmware to deployed fleet; cannot own strategic direction for mission-critical USV architecture on day one; this is the disqualifying gap for a technical leadership role",
+      "No OTA update or secure boot architecture experience \u2014 both listed as 'practical experience' requirements and core staff responsibilities ('own strategic direction for device architecture'); cannot design from scratch without domain depth in defense-grade systems",
+      "No CAN protocol implementation \u2014 required low-level driver skill for vehicle control integration; profile covers SPI/I2C/UART only; USVs rely on CAN for onboard communication and actuation"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin's embedded fundamentals are solid (C/C++, FreeRTOS, Cortex-M4 bare-metal, sensor integration), and his COFFIN capstone demonstrates real-time system orchestration at scale. However, this is a staff-level role at a defense contractor with combat-deployed systems; it requires 8+ years of production reliability engineering and architecture ownership. Justin has zero production experience, no OTA/secure boot implementation (both core), and no track record of establishing design standards or mentoring embedded teams. The gap is fundamental\u2014entry-level technical depth in a staff-level role\u2014not a ramp-up issue. His Linux systems knowledge and edge AI/ML background are understated but insufficient to bridge the production-readiness and seniority gulf.",
+    "calibration_delta": 21.0
+  }
+}

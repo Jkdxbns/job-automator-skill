@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "AI Developer Technology Engineer",
+    "company_slug": "nvidia",
+    "job_slug": "ai-devtech-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built custom CUDA C++ kernels with memory coalescing (49.2 ms vs 77.5 ms CPU TorchScript), cut inference latency 5.2× with TensorRT on NVIDIA Jetson, and profiled 8-bit LLM inference (TinyLlama 1.1B, ~55% less GPU memory) with pynvml. Wrote parallel programs in C/C++ and MPI with speedups up to 30× and trained a GPT-2 style transformer from scratch in PyTorch.",
+  "skills": {
+    "GPU & Parallel Computing": [
+      "CUDA C++",
+      "Kernel optimization",
+      "Memory coalescing",
+      "Parallel programming (MPI, SLURM)",
+      "Performance analysis and optimization",
+      "pynvml Profiling",
+      "NVIDIA Jetson"
+    ],
+    "Languages": [
+      "C/C++",
+      "Python",
+      "Cython"
+    ],
+    "LLM / Deep Learning": [
+      "PyTorch",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Hugging Face Transformers",
+      "Generative AI inference",
+      "Model evaluation"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, a transformer-based document understanding model, in PyTorch with the HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized the decoder embedding layer.",
+        "Improved validation accuracy from 55% to 93% through improved preprocessing and model tuning in the post-training pipeline."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Combined optimized homography stitching with concurrency and a custom wavelet bank (alpha-blended sym6+bior3.5) to raise PSNR from 65 to 86 over the baseline stitching pipeline.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels: ran at 49.2 ms vs 73.3 ms (uncoalesced GPU) and 77.5 ms (CPU TorchScript), a ~35% speedup over naive GPU with identical classification accuracy.",
+        "Applied memory coalescing, constant memory for weights/biases, and preallocated global buffers to remove per-layer allocation overhead, reaching 1.5–2× speedup in convolution operations."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and LLM inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC: <1% accuracy degradation with +0.09 perplexity increase."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Cut vision inference latency 5.2× with TensorRT-optimized YOLO on NVIDIA Jetson (56.7→10.9 ms, 17.6→92 FPS vs eager PyTorch) inside a voice-to-pick pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000×5000 pixel scenes using MPI.",
+        "Achieved up to 30× speedup with static strip partitioning (55 processes); the dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Distributed dendrite computations across MPI workers on a SLURM-managed cluster; achieved up to 10.49× speedup with 12 slave processes and measured up to 65% performance degradation from load imbalance."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch (multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying) with a custom training loop, early stopping, and perplexity evaluation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Deep Learning",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

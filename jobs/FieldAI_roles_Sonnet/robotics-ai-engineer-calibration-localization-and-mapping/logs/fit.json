@@ -1,0 +1,134 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics AI Engineer \u2013 Calibration, Localization, and Mapping",
+  "job_slug": "robotics-ai-engineer-calibration-localization-and-mapping",
+  "match_pct": 47.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 7,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Master's degree in related engineering field (M.S. Computer Engineering, Rochester Institute of Technology (RIT), graduated May 2026)",
+    "C++ and Python programming (Profile skills: Python, C/C++; used across COFFIN (Python/Flask-SocketIO), ROS arm nodes (Python/C++), CUDA C++ kernels)",
+    "ROS / ROS node design and deployment (ROS-Based Robotic Arm (AL5B & UR5e): ROS2 Humble + ROS Noetic, MoveIt, RViz, UR ROS2 driver; skills include ROS/ROS2)",
+    "3D kinematics / DH parameters / forward kinematics (ROS-Based Robotic Arm (AL5B & UR5e): DH tables, forward kinematics)",
+    "Computer vision and real-time perception on edge platforms (YOLO, OpenCV, TensorRT) (TensorRT-optimized YOLO (5.2x speedup) on Jetson Nano; Object Tracking Turret: YOLOv8 on Jetson + STM32; Autonomous Driving (CARLA): YOLO11n + UFLD lane detection; Deep Learning Intern (Tusk): YOLOv8n toothbrush detection 83% mAP@50)",
+    "Embedded sensor integration (ToF, IMU, UART/I2C) (Object Tracking Turret: dual VL53L0X ToF sensors, TCA9548A I2C mux; Embedded Systems Intern: ADXL345 + Raspberry Pi + HC-05 Bluetooth; STM32 Bare-Metal Temperature Monitor: timer-triggered ADC, I2C driver)",
+    "Real-time / constrained-platform algorithm optimization (TensorRT-optimized YOLO 5.2x speedup on Jetson; CUDA Kernel Optimization for VGG16: custom CUDA C++ kernels, 35% speedup; SLM Compression: ~55% VRAM reduction, <1% accuracy loss)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "",
+      "you_have": "M.S. Computer Engineering (RIT) satisfies the degree; closest practical work is autonomous driving (CARLA: semantic segmentation + YOLO11n/UFLD lane detection, zero collisions in Town02) and ROS arm (kinematics + dual ToF sensors), but no dedicated calibration/SLAM/localization project bullet"
+    },
+    {
+      "jd_skill": "",
+      "you_have": "No formal state-estimation or sensor-fusion framework bullet; closest is multi-sensor integration in robotics (dual VL53L0X ToF + I2C mux, ADXL345 + RPi, ROS arm vision + kinematics) and autonomous driving combined input"
+    },
+    {
+      "jd_skill": "",
+      "you_have": "No SLAM or VIO mentioned; closest is autonomous driving in CARLA (semantic segmentation + YOLO11n/UFLD lane detection) which involves environment perception but not mapping/localization/SLAM"
+    },
+    {
+      "jd_skill": "",
+      "you_have": "No LiDAR or LiDAR-inertial odometry mentioned; closest perception work is vision-based (YOLO, OpenCV, CARLA semantic segmentation)"
+    },
+    {
+      "jd_skill": "",
+      "you_have": "No explicit calibration or time-sync bullet; closest is embedded sensor setup (ADXL345 + RPi, VL53L0X ToF sensors, UART/I2C comms) and robotics arm integration"
+    },
+    {
+      "jd_skill": "",
+      "you_have": "Python Developer Intern (BARC): GitLab; Skills list includes Git"
+    },
+    {
+      "jd_skill": "",
+      "you_have": "No publications or patents listed in profile"
+    }
+  ],
+  "missing_skills": [
+    "Linear algebra (explicit theory/application backing)",
+    "Probability theory (explicit theory/application backing)",
+    "Numerical optimization (explicit theory/application backing)",
+    "Lie theory",
+    "3D geometry beyond kinematic DH parameters",
+    "Radar / doppler-LiDAR / GPS sensing modalities",
+    "Noisy sensor measurement / outlier-resilient algorithm design (explicit)",
+    "Project management tools (beyond version control)"
+  ],
+  "top_ats_keywords": [
+    "calibration",
+    "localization",
+    "mapping",
+    "SLAM",
+    "LiDAR-inertial",
+    "visual-inertial",
+    "sensor fusion",
+    "state estimation",
+    "ROS",
+    "C++",
+    "Python",
+    "3D geometry",
+    "Lie theory",
+    "3D kinematics",
+    "outlier-resilient",
+    "real-time",
+    "geometric robot perception",
+    "quadruped",
+    "humanoid"
+  ],
+  "required_skills": [
+    "Master's or Ph.D. in CS/EE/related field with expertise in calibration, localization, and/or 3D mapping",
+    "Linear algebra, probability theory, numerical optimization, 3D geometry, Lie theory, and 3D kinematics",
+    "Strong theoretical understanding and practical experience with linear and non-linear state estimation frameworks for sensor fusion",
+    "Familiarity with LiDAR-inertial odometry and SLAM algorithms",
+    "Familiarity with visual-inertial odometry and SLAM algorithms",
+    "Experience with sensor calibration (intrinsics and extrinsics) and time synchronization",
+    "Strong proficiency in C++ and Python",
+    "Strong understanding of ROS and experience designing, building, and deploying nodes",
+    "Strong problem-solving skills and ability to work independently managing multiple priorities"
+  ],
+  "preferred_skills": [
+    "Publications and/or patents in calibration, state estimation, odometry, and/or SLAM",
+    "Experience working with noisy sensor measurements and designing outlier-resilient algorithms",
+    "Experience with computationally constrained platforms and designing efficient, real-time algorithms",
+    "Experience with other sensing modalities (radar, doppler-LiDAR, GPS)",
+    "Experience with modern version control and project management tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and implement state-of-the-art calibration, localization, and mapping algorithms",
+    "Develop tools and metrics to continuously validate and benchmark subsystem performance",
+    "Write clean, efficient, and maintainable code in C++ and Python",
+    "Collaborate with cross-functional teams to integrate and deploy algorithms into real-world systems"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

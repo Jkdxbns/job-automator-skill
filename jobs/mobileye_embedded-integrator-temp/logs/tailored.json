@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "company": "Mobileye",
+    "role": "Embedded Integrator - Temporary",
+    "company_slug": "mobileye",
+    "job_slug": "embedded-integrator-temp"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience in Git/GitLab version control, Python, and C/C++ across Linux-based embedded and robotics systems. Deployed a Jetson-side service via systemd on Linux and published an installable Python package using setuptools, and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through hands-on debugging of a distributed, multi-component pipeline. Comfortable working independently across parallel technical tasks under time pressure.",
+  "skills": {
+    "Version Control & Integration": ["Git", "GitLab", "Version Control", "Integration Debugging", "Testing"],
+    "Languages": ["Python", "C/C++"],
+    "Linux & Deployment": ["Linux", "systemd service management", "Static IP / network configuration", "XRDP remote desktop administration"],
+    "Embedded & Robotics": ["NVIDIA Jetson", "Arduino", "UART/I2C/SPI"]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation.",
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) across a three-layer distributed pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection.",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart, non-root isolation) on Linux with static IP networking; configured XRDP for remote administration of the headless Jetson."
+      ]
+    },
+    {
+      "name": "Haptics Research Study Controller — Embedded Rig + PyQt6 Host",
+      "date": "Aug 2026",
+      "bullets": [
+        "Added command-level reliability (echo matching, 400 ms ACK timeout, 3 retries, brown-out reset detection), eliminating a silent failure in the prior app.",
+        "Built a 36-trial state machine with hold/resume across USB dropouts and end-to-end tests against a simulated board."
+      ]
+    },
+    {
+      "name": "ImageSteganography — Published Python Package",
+      "date": "Jan 2025",
+      "bullets": [
+        "Published ImageSteganography v2.0.0 as an installable Python package (setuptools wheel + sdist) for keyed image steganography, storing one character per sampled pixel via decimal-digit substitution across BGR channels with OpenCV and NumPy.",
+        "Derived the pixel-sampling stride from the password, embedded length and verification data in a header pixel, and measured embedding distortion with PSNR between cover and stego images."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Machine Intelligence", "Deep Learning", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

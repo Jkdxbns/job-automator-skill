@@ -1,0 +1,38 @@
+{
+  "company": "Snowflake",
+  "company_slug": "snowflake",
+  "role": "Senior/Staff Software Engineer - LLM Inference & Reinforcement Learning Platform",
+  "job_slug": "llm-inference-rl-platform",
+  "match_pct": 31.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 12,
+    "jd_ask_size": 21,
+    "req_cov": 0.23,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": ["CUDA", "GPU programming", "Quantization (8-bit)", "GPU kernel optimization / memory coalescing"],
+  "missing_skills": ["vLLM", "SGLang", "TensorRT-LLM production serving", "KV-cache management", "speculative decoding", "disaggregated prefill/decode serving", "Triton (GPU kernel language)", "CUTLASS", "cuBLAS", "cuDNN", "model-system co-design for inference efficiency", "reinforcement learning platform experience"],
+  "adjacent_skills": ["TensorRT (edge inference, not TensorRT-LLM serving)", "MPI/SLURM HPC distributed experience (not GPU-cluster inference serving)", "pynvml GPU profiling (not Nsight Systems/Compute)", "Transformer attention mechanisms (no MoE kernel work)", "SLURM-managed HPC clusters (not multi-model inference clusters)"],
+  "top_ats_keywords": ["vLLM", "SGLang", "TensorRT-LLM", "CUDA", "Triton", "CUTLASS", "cuBLAS", "cuDNN", "KV-cache", "speculative decoding", "disaggregated serving", "Nsight Systems", "Nsight Compute", "tensor parallelism", "pipeline parallelism", "MoE"],
+  "key_responsibilities": [
+    "Design and develop high-performance LLM inference systems (distributed serving, runtime, GPU execution, kernels)",
+    "Improve inference latency, throughput, memory efficiency, scalability, cost",
+    "Speculative/parallel decoding, disaggregated serving, adaptive parallelism, continuous batching, KV-cache management, quantization",
+    "Design distributed inference strategies (tensor/sequence/pipeline/data/expert parallelism)",
+    "Multi-model serving, dynamic resource management, model swapping",
+    "Analyze/optimize GPU kernels for attention, MoE, communication",
+    "Profile end-to-end workloads with Nsight Systems/Compute"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,20 @@
+{
+  "company": "PickNik Robotics",
+  "company_slug": "picknik",
+  "role": "Software Engineer - Test & Quality",
+  "job_slug": "sw-engineer-test-quality",
+  "match_pct": 57,
+  "missing_skills": ["Docker", "CI/CD pipeline ownership", "testing framework (pytest/gtest/unittest)", "TDD", "React/frontend testing", "QA leadership", "documentation/process improvement"],
+  "adjacent_skills": ["ROS2 testing (has ROS2/MoveIt dev experience, not test-focused)", "performance testing tooling (has CUDA/ASR benchmarking, not API/frontend latency)", "mock services/test fixtures (has simulation experience: ABB RobotStudio, MoveIt/RViz validation)", "on-hardware deployment (Jetson edge deployment, physical robot arm testing)"],
+  "top_ats_keywords": ["Docker", "CI/CD", "ROS 2", "MoveIt", "C++", "Python", "testing framework", "test infrastructure", "React"],
+  "key_responsibilities": [
+    "Write automated unit/integration/e2e tests across C++/ROS2, Python REST API, React frontend",
+    "Build test infrastructure and CI quality gates",
+    "Run exploratory, smoke, and on-hardware testing",
+    "Contribute bug fixes and features as a software engineer",
+    "Turn manual findings into automated regression tests"
+  ],
+  "role_category": "general",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

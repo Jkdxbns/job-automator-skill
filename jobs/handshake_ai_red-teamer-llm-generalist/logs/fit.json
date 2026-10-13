@@ -1,0 +1,72 @@
+{
+  "company": "Handshake AI",
+  "company_slug": "handshake_ai",
+  "role": "AI Red Teamer (LLM Generalist)",
+  "job_slug": "red-teamer-llm-generalist",
+  "match_pct": 37.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": "zero_have_not_primary"
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Python / scripting",
+    "Creative problem-solving",
+    "Written communication",
+    "Ethical judgment",
+    "Self-directed work"
+  ],
+  "adjacent_skills": [
+    "LLM experience (used as tools)",
+    "API familiarity"
+  ],
+  "missing_skills": [
+    "Adversarial prompt crafting",
+    "Jailbreak techniques",
+    "Evasion methodologies",
+    "Prompt injection techniques",
+    "Guardrail reverse-engineering",
+    "Structured annotation experience",
+    "Rubric-based evaluation",
+    "Trust & safety background",
+    "Content moderation or QA"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "adversarial",
+    "jailbreak",
+    "prompt engineering",
+    "red team"
+  ],
+  "key_responsibilities": [
+    "Craft creative adversarial prompts",
+    "Discover ways around safety filters",
+    "Explore edge cases and disallowed outputs",
+    "Evaluate responses against harm taxonomies",
+    "Document and refine adversarial techniques"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "hard_blocker_triggered": false
+  },
+  "constraints": [
+    {
+      "type": "location",
+      "severity": "soft",
+      "detail": "On-site in Seattle, WA required; currently Arlington, TX; willing to relocate needed"
+    },
+    {
+      "type": "sponsorship",
+      "severity": "soft",
+      "detail": "F-1 OPT sponsorship not addressed in posting; assume no support"
+    }
+  ],
+  "reasoning": "The role centers on red teaming and prompt engineering for LLM safety—directly investigating adversarial techniques, jailbreaks, and guardrail bypassing. Your background is edge AI, robotics, CUDA optimization, and embedded systems. There is no overlap in domain, skill, or methodology. The soft skills (communication, problem-solving) are table stakes, not differentiation. The missing technical gaps (prompt injection, jailbreak techniques, harm taxonomy work) are the entire job."
+}

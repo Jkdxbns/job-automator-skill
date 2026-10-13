@@ -1,0 +1,226 @@
+{
+  "company": "Quest Global",
+  "company_slug": "quest-global",
+  "role": "Robotics Automation Engineer \u2013 AR Glass Testing",
+  "job_slug": "robotics-automation-ar-glass-testing",
+  "match_pct": 60.3,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 11,
+    "missing_count": 10,
+    "jd_ask_size": 39,
+    "req_cov": 0.684,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Universal Robots",
+    "ROS/ROS2",
+    "Motion planning",
+    "Joint and Cartesian motion",
+    "Linux",
+    "Bash",
+    "Git",
+    "OpenCV",
+    "Computer vision",
+    "Image processing",
+    "Object detection",
+    "Oscilloscopes",
+    "C/C++",
+    "UART",
+    "USB",
+    "Bluetooth",
+    "Cameras"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "URScript",
+      "you_have": "UR5e via UR ROS 2 driver"
+    },
+    {
+      "jd_skill": "URX/RTDE",
+      "you_have": "UR5e via UR ROS 2 driver"
+    },
+    {
+      "jd_skill": "TCP/IP",
+      "you_have": "WebSocket + static IP networking"
+    },
+    {
+      "jd_skill": "Robot coordinate systems / TCP calibration",
+      "you_have": "DH tables, forward kinematics, URDF frames"
+    },
+    {
+      "jd_skill": "Trajectory planning / waypoints",
+      "you_have": "collision-free UR5e pick-and-place"
+    },
+    {
+      "jd_skill": "DAQ",
+      "you_have": "ADC / sensor data acquisition"
+    },
+    {
+      "jd_skill": "REST APIs",
+      "you_have": "Flask services"
+    },
+    {
+      "jd_skill": "Machine vision",
+      "you_have": "YOLO + visual servoing"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Automated validation frameworks",
+      "you_have": "benchmarking and data collection pipelines"
+    },
+    {
+      "jd_skill": "Instrumentation integration",
+      "you_have": "ToF, IMU, sensors on Jetson/Arduino"
+    }
+  ],
+  "missing_skills": [
+    "Force/Torque control",
+    "ADB",
+    "Wi-Fi",
+    "Programmable power supplies",
+    "Optical validation",
+    "AR/VR/XR devices",
+    "Fiducial markers",
+    "Regression automation",
+    "NPI/manufacturing test",
+    "Eye-tracking/waveguides"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Universal Robots",
+    "URScript",
+    "RTDE",
+    "ROS2",
+    "TCP/IP",
+    "TCP calibration",
+    "Force/Torque",
+    "Motion planning",
+    "UART",
+    "USB",
+    "ADB",
+    "REST APIs",
+    "Bluetooth",
+    "Wi-Fi",
+    "OpenCV",
+    "DAQ",
+    "Oscilloscopes",
+    "Linux",
+    "Bash",
+    "Git",
+    "CI/CD",
+    "C/C++",
+    "AR/XR",
+    "Optical validation",
+    "Regression automation"
+  ],
+  "required_skills": [
+    "Python",
+    "Universal Robots",
+    "URScript",
+    "URX",
+    "RTDE",
+    "ROS/ROS2",
+    "TCP/IP",
+    "Robot coordinate systems",
+    "TCP calibration",
+    "Trajectory planning",
+    "Joint and Cartesian motion",
+    "Force/Torque control",
+    "Motion planning",
+    "Test automation frameworks",
+    "Regression automation",
+    "Linux",
+    "Bash",
+    "Git",
+    "Instrumentation integration"
+  ],
+  "preferred_skills": [
+    "AR/VR/XR devices",
+    "Optical validation",
+    "OpenCV",
+    "Computer vision",
+    "Image processing",
+    "Machine vision",
+    "Fiducial markers",
+    "Object detection",
+    "DAQ",
+    "Oscilloscopes",
+    "CI/CD",
+    "NPI/manufacturing test",
+    "C/C++"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Robotic automation for AR glasses validation",
+    "UR robot control",
+    "Python automation frameworks",
+    "Instrument integration",
+    "Calibration"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Physical UR5e hands-on: planned and executed collision-free pick-and-place on a real UR5e via the UR ROS 2 driver, with hand-derived DH tables and 0T6 forward kinematics validated in MoveIt/RViz",
+      "Python plus Linux/Bash/Git depth across COFFIN (Flask-SocketIO, systemd, multiprocessing multi-camera capture) and a PyQt real-time data acquisition GUI at BARC",
+      "Computer vision depth: YOLO visual servoing with TensorRT, OpenCV-style image processing, BARC surface inspection pipeline with stitching, wavelet denoising and depth estimation",
+      "SE(3) coordinate-frame math engine (Frame Simulator) backs robot-to-device coordinate transforms; ADXL345 wearable glove with software calibration touches wearables and IMUs"
+    ],
+    "real_gaps": [
+      "No URScript, URX or RTDE; UR work went through the ROS 2 driver only",
+      "No force/torque control or force sensor integration",
+      "No automated test or regression framework, no DUT validation station or production test fixtures",
+      "No lab instrumentation automation: DAQ, programmable power supplies, DMMs driven from code (oscilloscope use is manual bench use)",
+      "No ADB, Wi-Fi or REST device-interface work",
+      "No AR/VR/XR optical validation: FOV, waveguide, display or camera image-quality testing",
+      "No explicit TCP calibration or hand-eye calibration procedure",
+      "Seniority: role asks 3+ years of validation or automation work, profile is capstone and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "TCP/IP counted adjacent from WebSocket and static IP setup, which is not socket-level robot control",
+      "Oscilloscopes counted Have from bench use, not automated instrument control",
+      "Trajectory planning counted adjacent from MoveIt pick-and-place, not Cartesian/joint-space trajectory authoring with force control"
+    ],
+    "understated_by_keywords": [
+      "Mixed Reality headset concept and wearable glove at Planctech give genuine, if shallow, XR and wearable context",
+      "COFFIN's 11 integration failures resolved and multi-camera capture pipeline show real hardware debugging and root-cause work"
+    ],
+    "screening_gaps": [
+      "No URScript/RTDE/URX and no force/torque control: the named core robot-control stack is unevidenced",
+      "No test automation or validation-station experience: no automated regression frameworks or lab instrumentation (DAQ, power supplies) integration",
+      "No AR/optical device validation (FOV, display, camera quality) plus a 3+ year experience ask against capstone-scope work"
+    ],
+    "recommend_apply": true,
+    "reasoning": "UR5e hands-on, Python, Linux and computer vision are real and map to the robot-control and vision halves of the role. The test-automation, instrumentation and optical-validation half has no backing, and the UR work sits at the ROS driver level rather than URScript/RTDE. Partial fit worth applying to, with the screen-out risk concentrated in the 3+ years of validation experience.",
+    "calibration_delta": 8.3
+  },
+  "semantic_pending": false
+}

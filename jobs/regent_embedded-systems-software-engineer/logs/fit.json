@@ -1,0 +1,142 @@
+{
+  "company": "REGENT",
+  "company_slug": "regent",
+  "role": "Embedded Systems Software Engineer",
+  "job_slug": "embedded-systems-software-engineer",
+  "match_pct": 51.9,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 11,
+    "jd_ask_size": 27,
+    "req_cov": 0.773,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++ (embedded: Linux/RTOS/bare-metal)",
+    "Microcontrollers",
+    "Serial (UART)",
+    "SPI",
+    "PWM",
+    "ADC",
+    "DIO",
+    "Python",
+    "real-time software",
+    "GUIs",
+    "sensors",
+    "single-board computers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "wiring diagrams/electrical schematics",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "servo motors/actuation systems",
+      "you_have": "AL5B / UR5e robotic arm work"
+    },
+    {
+      "jd_skill": "build automation/deployment pipelines",
+      "you_have": "CMake, systemd, GitLab, SLURM"
+    },
+    {
+      "jd_skill": "harnesses/breakout boards",
+      "you_have": "TCA9548A I2C breakout board wiring"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "MATLAB",
+    "LabVIEW",
+    "Simulink",
+    "DAQ",
+    "HIL",
+    "SIL",
+    "field-testing",
+    "safety-critical applications",
+    "DO-178C",
+    "ISO 26262"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded systems",
+    "Linux",
+    "RTOS",
+    "bare-metal",
+    "microcontroller",
+    "Serial",
+    "SPI",
+    "CAN",
+    "PWM",
+    "ADC",
+    "DIO",
+    "wiring diagrams",
+    "electrical schematics",
+    "Python",
+    "MATLAB",
+    "HIL",
+    "SIL",
+    "LabVIEW",
+    "Simulink",
+    "servo motors",
+    "DO-178C",
+    "ISO 26262",
+    "real-time software"
+  ],
+  "required_skills": [
+    "C++ (embedded: Linux/RTOS/bare-metal)",
+    "Microcontrollers",
+    "Serial (UART)",
+    "SPI",
+    "CAN",
+    "PWM",
+    "ADC",
+    "DIO",
+    "wiring diagrams/electrical schematics",
+    "Python",
+    "MATLAB"
+  ],
+  "preferred_skills": [
+    "LabVIEW",
+    "Simulink",
+    "DAQ",
+    "HIL",
+    "servo motors/actuation systems",
+    "field-testing",
+    "safety-critical applications",
+    "DO-178C",
+    "ISO 26262"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Embedded software stack development (microcontroller to Linux)",
+    "SIL/HIL test environment for controls verification",
+    "COTS electronics & harnessing management",
+    "Build system automation and deployment tooling",
+    "Sea trials / field-testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "North Kingstown, Rhode Island, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

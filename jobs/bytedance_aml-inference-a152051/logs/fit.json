@@ -1,0 +1,47 @@
+{
+  "company": "ByteDance",
+  "company_slug": "bytedance",
+  "role": "Backend Inference Runtime Engineer Graduate (AML Inference) - 2027 Start",
+  "job_slug": "aml-inference-a152051",
+  "match_pct": 88.9,
+  "missing_skills": [
+    "multi-GPU / cross-card communication (NCCL-style)",
+    "tensor parallelism / pipeline parallelism / sequence parallelism / MoE expert parallelism",
+    "vLLM / SGLang / TensorRT-LLM secondary development",
+    "large-model (LLM-scale) inference serving at datacenter scale"
+  ],
+  "adjacent_skills": [
+    "GPU memory models & compute scheduling (have: memory coalescing, CUDA kernel work; JD wants multi-card scheduling)",
+    "hand-written operator kernel optimization (have: quantization, kernel optimization at edge scale; JD wants transformer operator kernels: matmul, norm, activation at datacenter scale)",
+    "DL inference compilation (have: TensorRT-optimized deployment; JD wants compiler-level graph fusion/constant folding/quantization compilation)",
+    "GPU profiling tools (have: pynvml profiling; JD wants Nsight/Profiler specifically)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "C/C++",
+    "Python",
+    "GPU",
+    "TensorRT",
+    "quantization",
+    "inference",
+    "kernel optimization",
+    "distributed parallelism",
+    "tensor parallelism",
+    "pipeline parallelism",
+    "vLLM",
+    "TensorRT-LLM"
+  ],
+  "key_responsibilities": [
+    "Iterate large model inference engine architecture, end-to-end GPU perf optimization (operator fusion, compilation optimization)",
+    "Adapt inference engine across GPU/NPU hardware architectures",
+    "Lead design/dev/optimization of distributed parallel solutions (tensor/pipeline/sequence/MoE parallelism)",
+    "Benchmark against vLLM and TensorRT-LLM, drive technical innovation in inference systems"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "notes": "Minimum quals (C/C++, Python, CUDA, GPU architecture, kernel-level DL optimization) are a real match to Justin's edge AI / CUDA kernel background. But the actual day-to-day scope (Job Description + Preferred Quals) is datacenter-scale distributed LLM inference: tensor/pipeline/sequence/MoE parallelism, multi-card NCCL-style communication, and secondary dev on vLLM/SGLang/TensorRT-LLM. None of that exists in the profile today -- Justin's inference work is single-device edge deployment (Jetson/TensorRT/YOLO), not multi-GPU distributed serving. Keyword match looks strong because minimum quals are generic CUDA/GPU skills; the role's real differentiator (distributed parallelism + LLM serving frameworks) is a genuine gap."
+}

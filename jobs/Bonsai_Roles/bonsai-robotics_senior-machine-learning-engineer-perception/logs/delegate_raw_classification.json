@@ -1,0 +1,171 @@
+{
+ "jd": {
+  "company_name": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "job_title": "Senior Machine Learning Engineer - Perception",
+  "job_slug": "senior-machine-learning-engineer-perception",
+  "required_skills": [
+   "object detection & segmentation",
+   "classical CV algorithms",
+   "multi-view geometry",
+   "multi-head DL architectures",
+   "3D vision DL architectures",
+   "scalable cloud training pipelines",
+   "PyTorch",
+   "C++ and Python",
+   "embedded ML deployment"
+  ],
+  "preferred_skills": [
+   "ROS 2",
+   "TensorRT"
+  ],
+  "all_keywords": [
+   "object detection & segmentation",
+   "classical CV algorithms",
+   "multi-view geometry",
+   "multi-head DL architectures",
+   "3D vision DL architectures",
+   "scalable cloud training pipelines",
+   "PyTorch",
+   "C++ and Python",
+   "embedded ML deployment",
+   "ROS 2",
+   "TensorRT",
+   "CVML",
+   "robotics",
+   "embedded systems",
+   "object detection",
+   "segmentation",
+   "3D vision",
+   "deep learning",
+   "computer vision",
+   "machine learning"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose, CA",
+  "remote_ok": null,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Develop, implement, and optimize CV/ML algorithms for robotics systems",
+   "Train, test and deploy custom ML models on embedded systems",
+   "Collaborate with cross-functional teams to integrate models and algorithms into products",
+   "Stay up to date with latest research in computer vision and devise custom algorithms",
+   "Create and maintain code documentation and unit tests"
+  ],
+  "ats_keywords": [
+   "CVML",
+   "robotics",
+   "embedded systems",
+   "object detection",
+   "segmentation",
+   "multi-view geometry",
+   "3D vision",
+   "deep learning",
+   "PyTorch",
+   "C++",
+   "Python",
+   "TensorRT",
+   "ROS 2",
+   "computer vision",
+   "machine learning"
+  ],
+  "role_category": "edge_ai_robotics"
+ },
+ "have": [
+  {
+   "skill": "PyTorch",
+   "evidence": "PyTorch"
+  },
+  {
+   "skill": "C++ and Python",
+   "evidence": "C/C++"
+  },
+  {
+   "skill": "embedded ML deployment",
+   "evidence": "Edge AI"
+  },
+  {
+   "skill": "ROS 2",
+   "evidence": "ROS 2"
+  },
+  {
+   "skill": "TensorRT",
+   "evidence": "tensorrt"
+  },
+  {
+   "skill": "embedded systems",
+   "evidence": "Jetson"
+  },
+  {
+   "skill": "object detection",
+   "evidence": "object detection"
+  },
+  {
+   "skill": "deep learning",
+   "evidence": "Deep Learning"
+  },
+  {
+   "skill": "robotics",
+   "evidence": "ROS 2"
+  },
+  {
+   "skill": "machine learning",
+   "evidence": "AI/ML"
+  }
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "object detection & segmentation",
+   "you_have": "object detection",
+   "evidence": "exact match on detection portion; ML-experienced relates to modeling aspect"
+  },
+  {
+   "jd_skill": "classical CV algorithms",
+   "you_have": "OpenCV",
+   "evidence": "OpenCV covers classical CV algorithms; Image Processing confirms CV work"
+  },
+  {
+   "jd_skill": "3D vision DL architectures",
+   "you_have": "ZoeDepth",
+   "evidence": "depth estimation relates to 3D vision DL architectures"
+  },
+  {
+   "jd_skill": "CVML",
+   "you_have": "ML-experienced",
+   "evidence": "ML-experienced and object detection cover both ML and vision components"
+  },
+  {
+   "jd_skill": "segmentation",
+   "you_have": "object detection",
+   "evidence": "segmentation and object detection are closely related vision tasks"
+  },
+  {
+   "jd_skill": "3D vision",
+   "you_have": "ZoeDepth",
+   "evidence": "depth estimation implies 3D vision understanding"
+  },
+  {
+   "jd_skill": "computer vision",
+   "you_have": "OpenCV",
+   "evidence": "OpenCV is core CV library; vision tasks confirm CV background"
+  }
+ ],
+ "missing": [
+  "multi-view geometry",
+  "multi-head DL architectures",
+  "scalable cloud training pipelines"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": false
+ },
+ "production_scope_required": false
+}

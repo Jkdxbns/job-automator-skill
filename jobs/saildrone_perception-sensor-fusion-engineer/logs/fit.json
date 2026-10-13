@@ -1,0 +1,158 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Perception & Sensor Fusion Engineer",
+  "job_slug": "perception-sensor-fusion-engineer",
+  "match_pct": 66.7,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "computer vision",
+    "object detection",
+    "machine learning",
+    "PyTorch",
+    "robotics",
+    "autonomous vehicles",
+    "edge computing",
+    "real sensor data"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "tracking",
+      "you_have": "YOLOv8 detect-and-track on Object Tracking Turret"
+    },
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "camera + dual VL53L0X ToF range-gating (robot arm)"
+    },
+    {
+      "jd_skill": "sensor cueing / camera control",
+      "you_have": "visual servoing, turret pan-tilt control"
+    },
+    {
+      "jd_skill": "PTZ camera",
+      "you_have": "pan-tilt turret driven from Jetson YOLO output"
+    }
+  ],
+  "missing_skills": [
+    "state estimation",
+    "multi-object tracking",
+    "radar/LiDAR/sonar fusion",
+    "cloud applications"
+  ],
+  "top_ats_keywords": [
+    "sensor fusion",
+    "multi-object tracking",
+    "state estimation",
+    "PTZ camera",
+    "object detection",
+    "computer vision",
+    "PyTorch",
+    "Python",
+    "C++",
+    "LiDAR",
+    "radar",
+    "sonar",
+    "edge computing",
+    "cloud applications",
+    "machine learning"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "computer vision",
+    "object detection",
+    "multi-object tracking",
+    "tracking",
+    "state estimation",
+    "sensor fusion",
+    "machine learning",
+    "real sensor data"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "multimodal fusion (radar, LiDAR, sonar)",
+    "active perception",
+    "sensor cueing",
+    "camera control",
+    "autonomous vehicles",
+    "robotics"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "perception and sensor fusion algorithms",
+    "object detection, classification, tracking, estimation",
+    "train, evaluate, deploy ML models",
+    "sensor cueing incl. PTZ cameras",
+    "analyze real-world sensor data",
+    "integrate with production software and cloud applications",
+    "validate with operational data"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 51,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Detection + ML train/eval/deploy: YOLO11n mAP50~0.85 on CARLA-generated data, YOLOv8n 83% mAP@50, TensorRT YOLO 56.7->10.9 ms on Jetson",
+      "Detect-then-actuate loop: Object Tracking Turret (YOLOv8 on Jetson driving pan/tilt servos) and COFFIN visual servoing map onto the PTZ cueing responsibility",
+      "Failure analysis on real hardware: COFFIN resolved 11 integration failures incl. false-positive detections and stale-frame capture",
+      "Python + PyTorch + C++ with edge deployment, matching the stack asked for"
+    ],
+    "real_gaps": [
+      "No state estimation (no Kalman/EKF/particle filter) anywhere in the profile",
+      "No multi-object tracking: no data association, track management or ID persistence, only per-frame detection",
+      "No radar, LiDAR or sonar; sensor fusion is camera plus ToF range gating, not probabilistic fusion",
+      "No field-deployed system on uncontrolled real operational data; CARLA is simulation, hardware work is lab scale",
+      "No cloud or operator-facing production integration",
+      "Seniority: role reads as production-owning; profile is capstone/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "sensor fusion (Adjacent): ToF gating a camera is threshold logic, not fusing uncertain tracks",
+      "tracking (Adjacent): the turret follows a detection, no association or motion model",
+      "autonomous vehicles (Have): CARLA simulation only",
+      "real sensor data (Have): lab and bench sensors, not uncontrolled environments"
+    ],
+    "understated_by_keywords": [
+      "CARLA pipeline generated ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation via raycast occlusion filtering, real dataset-curation depth",
+      "ADXL345 jitter calibration and BARC depth estimation show noisy-sensor handling, though at small scale"
+    ],
+    "screening_gaps": [
+      "No state estimation or multi-object tracking (Kalman-style filtering, data association), the core of the role",
+      "No multi-modal fusion beyond camera plus ToF; no radar, LiDAR or sonar",
+      "No production or field deployment on real operational data, and no cloud integration"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Detection, ML and camera-cueing are genuinely backed, but the role's centre of gravity, tracking, state estimation and multi-sensor fusion, has no real evidence. The JD says 'one or more areas such as ... computer vision', so a CV-led application is defensible, but expect depth probes on Kalman filtering and data association.",
+    "calibration_delta": 15.7
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "company": "ASML",
+  "company_slug": "asml",
+  "role": "Software developer - embedded software",
+  "job_slug": "embedded-software-developer-veldhoven",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.692,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "Real-time control systems",
+    "Hardware/software integration",
+    "Debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Linux on Jetson/BeagleBone"
+    },
+    {
+      "jd_skill": "Kernel/driver development",
+      "you_have": "bare-metal peripheral drivers (STM32)"
+    },
+    {
+      "jd_skill": "FPGA",
+      "you_have": "Digital Electronics"
+    },
+    {
+      "jd_skill": "Performance optimization",
+      "you_have": "CUDA/embedded profiling"
+    }
+  ],
+  "missing_skills": [
+    "x86",
+    "PCIe",
+    "Legacy code bases",
+    "Agile"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "RTOS",
+    "C++",
+    "C",
+    "real-time",
+    "x86",
+    "PCIe",
+    "FPGA",
+    "kernel",
+    "drivers",
+    "Agile"
+  ],
+  "required_skills": [
+    "Embedded Linux",
+    "RTOS",
+    "C",
+    "C++",
+    "Real-time control systems",
+    "Hardware/software integration",
+    "Performance optimization",
+    "Debugging",
+    "x86",
+    "Kernel/driver development",
+    "FPGA",
+    "PCIe",
+    "Legacy code bases"
+  ],
+  "preferred_skills": [
+    "Agile"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Extend/maintain motion control embedded software",
+    "OS/kernel/driver-level components",
+    "CPU/FPGA/PCIe HW/SW co-design"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Veldhoven, Netherlands",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

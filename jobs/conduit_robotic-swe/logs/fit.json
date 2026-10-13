@@ -1,0 +1,21 @@
+{
+  "company": "Conduit",
+  "company_slug": "conduit",
+  "role": "Robotic Software Engineer (AI-Native Roboticist)",
+  "job_slug": "robotic-swe",
+  "match_pct": 61.1,
+  "missing_skills": ["Docker", "4+ years production robotics/ML experience", "shipped production robotics system others depended on", "force/impedance control", "Isaac Sim/Isaac Lab/Cosmos/GR00T", "OpenVLA/RT-2/Octo/V-JEPA/Gemini Robotics", "industrial sensing (Ouster lidar, structured light)"],
+  "adjacent_skills": ["classical robotics fundamentals (DH parameters, forward/inverse kinematics, URDF, MoveIt, visual servoing) vs JD's calibration/force-control/safety emphasis", "SmolVLA inference engine (flow-matching VLA) vs JD's VLA policy prototyping ask", "ToF/VL53L0X sensing vs JD's industrial sensing bonus"],
+  "top_ats_keywords": ["ROS2", "Python", "C++", "Linux", "GPU", "CUDA", "motion planning", "URDF", "VLA policies", "perception", "Jetson"],
+  "key_responsibilities": [
+    "Generalize production robots (UR, FANUC, KUKA, ABB, Yaskawa) with coordination, perception, policy logic",
+    "Prototype modern ML for manipulation/inspection/machine tending: VLA policies, diffusion policies, imitation learning, VLMs, 3D perception",
+    "Run the full ML pipeline: data collection, curation, eval harnesses, checkpoint shipping",
+    "Apply classical robotics (calibration, frames, motion planning, force control, safety) to make learned policies survive the factory floor",
+    "Spend meaningful time onsite handling real-world variability",
+    "Turn one-off wins into reusable Conduit capabilities"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

@@ -1,0 +1,78 @@
+{
+  "company": "Field AI",
+  "company_slug": "field_ai",
+  "role": "Robotics AI Engineer - Sensor Calibration",
+  "job_slug": "robotics_ai_engineer_sensor_calibration",
+  "job_url": "https://jobs.lever.co/field-ai/1ff2ae13-b4a7-4800-a52e-d1c858924861",
+  "location": "Irvine, CA (on-site)",
+  "remote_ok": false,
+  "match_pct": 77.8,
+  "have_skills": [
+    "M.S. Computer Engineering",
+    "C++",
+    "Python",
+    "Computer vision / OpenCV",
+    "ROS / ROS2",
+    "Linux / Ubuntu"
+  ],
+  "adjacent_skills": [
+    "3D geometry -> DH parameters, forward kinematics, IK, depth estimation (ZoeDepth), image mosaicing",
+    "2+ yrs robotics SWE -> 6 internships incl. robotics/perception, 0 yrs full-time",
+    "PCL / Open3D / Kalibr -> OpenCV only",
+    "Large-scale sensor data processing -> SLURM, MPI, CUDA, TensorRT batch pipelines"
+  ],
+  "missing_skills": [
+    "Sensor calibration (camera intrinsics, LiDAR-camera extrinsics, temporal/multi-sensor)",
+    "Ceres / GTSAM / g2o backend optimization",
+    "LiDAR / point cloud processing",
+    "Kalibr",
+    "PCL",
+    "Open3D",
+    "SLAM / localization / mapping stack"
+  ],
+  "top_ats_keywords": [
+    "sensor calibration",
+    "intrinsic calibration",
+    "extrinsic calibration",
+    "temporal calibration",
+    "LiDAR",
+    "camera",
+    "IMU",
+    "C++",
+    "Python",
+    "ROS",
+    "computer vision",
+    "3D geometry",
+    "PCL",
+    "Open3D",
+    "OpenCV",
+    "Kalibr",
+    "Ceres",
+    "GTSAM",
+    "g2o",
+    "point cloud",
+    "localization",
+    "mapping",
+    "multi-sensor",
+    "Ubuntu"
+  ],
+  "key_responsibilities": [
+    "Develop intrinsic, extrinsic and temporal calibration workflows for LiDAR, cameras, IMUs (online + offline)",
+    "Build scalable systems to manage and process large sensor datasets",
+    "Implement and optimize algorithms in C++ and Python",
+    "Integrate emerging tools into calibration workflows",
+    "Collaborate cross-functionally on documentation and deliverables"
+  ],
+  "role_category": "edge_ai_robotics",
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "clearance_required": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "hard_blocker_triggered": false,
+  "llm_analysis": null
+}

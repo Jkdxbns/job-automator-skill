@@ -1,0 +1,15 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "Gather AI",
+  "role": "Robotics Engineer",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology, and I want to work across the full robotics stack this role is built around, from embedded firmware to ROS2 motion planning to the field debugging that keeps a system running. Both the MHE Vision and Drone platforms you describe combine exactly the perception, embedded control, and integration work that has run through my internships, robotics club leadership, and capstone build.",
+    "My Object Tracking Turret project put a Jetson running YOLOv8 in direct control of an STM32 over UART, with FreeRTOS coordinating the embedded side through mutex protected tasks, which is the same perception feeding embedded actuation pattern an MHE Vision system runs on. On the ROS2 side, I derived the DH tables and forward kinematic chains for a 6 DoF UR5e and a 5 DoF AL5B by hand, validated them against MoveIt and RViz, and then planned and executed collision free pick and place trajectories on the physical UR5e in ROS 2 Humble and Noetic, so I am not learning ROS2 concepts from scratch, I am extending work I have already run on real hardware.",
+    "My RIT capstone, a voice controlled, vision guided robotic arm running on ROS2 with a Jetson and Arduino, is the closest thing I have to the debug and reliability work this role asks for. I tracked down 11 distinct integration failures, false positive detections, a servo brown out, stale frame capture, and drove the system to 100 percent pick reliability across 10 trials by rebuilding the visual servoing pipeline around a TensorRT optimized YOLO model that cut inference from 56.7 to 10.9 milliseconds. I have also built the tooling side of this work directly: at BARC I wrote a Python GUI with PyQt and Matplotlib for real time data acquisition and visualization, and at Planctech I resolved sensor jitter in a wearable gesture recognition device through root cause analysis and software calibration rather than a hardware swap.",
+    "I would welcome the chance to bring this background to Gather AI and help push the MHEV or Drone platform toward production. I am glad to share more of the code, data, or debugging notes behind any of this."
+  ],
+  "sign_off": "Sincerely,"
+}

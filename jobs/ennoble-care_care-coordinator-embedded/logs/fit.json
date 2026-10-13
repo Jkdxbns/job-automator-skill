@@ -1,0 +1,78 @@
+{
+  "company": "Ennoble Care",
+  "company_slug": "ennoble-care",
+  "role": "Care Coordinator, Embedded",
+  "job_slug": "care-coordinator-embedded",
+  "match_pct": 0.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 0,
+    "missing_count": 7,
+    "jd_ask_size": 7,
+    "req_cov": 0.0,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Clinical certification",
+    "Patient-facing LTC experience",
+    "EMR",
+    "Care coordination",
+    "Healthcare terminology",
+    "Remote patient monitoring",
+    "Microsoft 365"
+  ],
+  "top_ats_keywords": [
+    "EMR",
+    "RPM",
+    "care coordination",
+    "Microsoft Teams",
+    "Outlook",
+    "Excel",
+    "CNA",
+    "LPN",
+    "RN"
+  ],
+  "required_skills": [
+    "Clinical certification (PCT/CNA/MA/LPN/RN)",
+    "Patient-facing long-term care experience",
+    "EMR",
+    "Care coordination",
+    "Healthcare terminology",
+    "Remote patient monitoring",
+    "Microsoft 365"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Coordinate care for LTC residents",
+    "On-site liaison between providers, facility staff, families",
+    "Document in EMR"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Decatur, Atlanta, GA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

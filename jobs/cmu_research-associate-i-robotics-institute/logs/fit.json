@@ -1,0 +1,59 @@
+{
+  "company": "Carnegie Mellon University",
+  "company_slug": "cmu",
+  "role": "Research Associate I - Robotics Institute",
+  "job_slug": "research-associate-i-robotics-institute",
+  "match_pct": 93,
+  "missing_skills": [
+    "OSHA Hazardous Materials Safety Training (trainable on hire, not a gap)"
+  ],
+  "adjacent_skills": [
+    "formal academic research lab methodology (has industry/internship research, not university-lab-specific)",
+    "statistical report writing for external sponsors"
+  ],
+  "top_ats_keywords": [
+    "research experience",
+    "research lab experience",
+    "research methodology",
+    "data collection and analysis",
+    "data evaluation",
+    "analytical skills",
+    "problem-solving",
+    "written and oral communication",
+    "software programming",
+    "quantitative models",
+    "drone systems"
+  ],
+  "key_responsibilities": [
+    "Design and execute research experiments per protocol",
+    "Analyze collected data, summarize statistics, write technical reports",
+    "Program software in support of research",
+    "Research drone systems",
+    "Report to project sponsors",
+    "Build and validate quantitative models"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Genuine experimental research track record: BARC capstone (image-stitching + wavelet denoising pipeline, PSNR 65->86) and Teesside fellowship (BraTS 2020 U-Net segmentation, Dice/IoU evaluation) both involved designing experiments, collecting/analyzing data, and writing up results \u2014 directly matches 'research experiments following protocol' and 'writes technical reports'",
+      "Data acquisition and visualization software experience: BARC Python Developer internship built a PyQt/Matplotlib GUI for real-time lab data acquisition, matching 'uses software packages to input, manipulate, collect and record results'",
+      "Programs software in support of research is well covered across nearly every internship (PyTorch, embedded C, ROS2)",
+      "Robotics/drone-adjacent hands-on work: Object Tracking Turret and COFFIN robotic arm projects show applied perception + control, though neither is an actual UAV/drone platform"
+    ],
+    "real_gaps": [
+      "'Research drone systems' is a named responsibility \u2014 profile has zero actual UAV/drone flight-system experience. Nearest analog (turret tracking, robotic arm) is ground-based, not airborne",
+      "This reads as an academic PI-lab research associate role (sponsor-funded, protocol-driven, statistics-and-report focused) rather than a fast-iteration engineering/ML internship \u2014 Justin's experience is real research but mostly self-directed capstone/internship projects, not sustained work inside a funded university lab reporting to external sponsors over 1-3 years",
+      "'1-3 years research lab experience' as a continuous role is different in kind from 6 discrete 2-4 month internships \u2014 a hiring manager may read the internship pattern as breadth without the sustained lab-operations depth (equipment upkeep, IRB/safety compliance, recurring sponsor reporting cadence) this posting implies"
+    ],
+    "overstated_by_keywords": [
+      "'Data evaluation' and 'research methodology' matched cleanly on keywords, but the JD's implied context is formal statistical reporting to external research sponsors, which is thinner in the profile than the keyword match suggests"
+    ],
+    "reasoning": "Justin has real, demonstrable research chops (BARC, Teesside, IIT Bombay) that cover most of what this posting technically asks for, but the drone systems requirement and the sustained-lab-operations framing are gaps the keyword match doesn't fully surface. Worth applying since the fundamentals are there, but frame the resume around the BARC/Teesside research experience rather than the product-engineering projects, and be ready to address the drone gap directly if asked."
+  }
+}

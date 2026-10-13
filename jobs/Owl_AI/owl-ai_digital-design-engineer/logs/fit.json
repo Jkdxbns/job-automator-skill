@@ -1,0 +1,96 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Digital Design Engineer",
+  "job_slug": "digital-design-engineer",
+  "match_pct": 15.4,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 10,
+    "jd_ask_size": 13,
+    "req_cov": 0.15,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Physical layout / place and route",
+      "you_have": "PCB design and layout"
+    },
+    {
+      "jd_skill": "Digital circuit design",
+      "you_have": "Embedded bare-metal digital design"
+    }
+  ],
+  "missing_skills": [
+    "Verilog",
+    "SystemVerilog",
+    "Cadence tools (Virtuoso, Xcelium, Quantus, Innovus, Tempus, Voltus)",
+    "Synopsys tools",
+    "Synthesis",
+    "Timing closure",
+    "ASIC design experience",
+    "GlobalFoundries 22FDX / semiconductor process experience",
+    "5+ years digital circuit design experience",
+    "Production design track record going to tape-out/production"
+  ],
+  "top_ats_keywords": [
+    "Digital circuit design (complex ASICs)",
+    "Cadence / Synopsys design and simulation tools",
+    "Physical layout / place and route",
+    "Verilog and SystemVerilog (ASIC-targeted)",
+    "Synthesis and timing closure",
+    "Timing/power analysis and back-end tools",
+    "Understanding of semiconductors and ASICs",
+    "GlobalFoundries 22FDX or similar process experience",
+    "Production design track record",
+    "Bachelor degree in EE/CE"
+  ],
+  "required_skills": [
+    "Digital circuit design (complex ASICs)",
+    "Cadence / Synopsys design and simulation tools",
+    "Physical layout / place and route",
+    "Verilog and SystemVerilog (ASIC-targeted)",
+    "Synthesis and timing closure",
+    "Timing/power analysis and back-end tools",
+    "Understanding of semiconductors and ASICs",
+    "GlobalFoundries 22FDX or similar process experience",
+    "Production design track record",
+    "Bachelor degree in EE/CE"
+  ],
+  "preferred_skills": [
+    "Cadence Spectre",
+    "Cadence PVS / Pegasus",
+    "Advanced analytical and presentation skills"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Posting states position may be subject to contractual requirements requiring U.S. Citizen; candidate is on F-1 OPT needing sponsorship \u2014 citizenship/ITAR-style contractual exclusion applies"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

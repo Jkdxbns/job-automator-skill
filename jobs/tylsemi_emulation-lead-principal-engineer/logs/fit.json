@@ -1,0 +1,135 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "Emulation Lead/Principal Engineer",
+  "job_slug": "emulation-lead-principal-engineer",
+  "match_pct": 38.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 10,
+    "jd_ask_size": 21,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Interrupt handling",
+    "GPIO",
+    "Cortex-M4 (embedded processor)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Firmware bring-up",
+      "you_have": "Bare-metal C/FreeRTOS embedded programming"
+    },
+    {
+      "jd_skill": "Embedded processors",
+      "you_have": "STM32 Cortex-M4 microcontroller programming"
+    },
+    {
+      "jd_skill": "System-level debugging",
+      "you_have": "Multi-component embedded debugging (GPIO/I2C/SPI/UART)"
+    },
+    {
+      "jd_skill": "Cross-functional debugging",
+      "you_have": "Embedded/firmware/software layer debugging in robotics/ML systems"
+    },
+    {
+      "jd_skill": "Verification processes",
+      "you_have": "Embedded system testing and validation"
+    },
+    {
+      "jd_skill": "Technical leadership",
+      "you_have": "Internship mentor roles and deep technical project ownership"
+    }
+  ],
+  "missing_skills": [
+    "ASIC/SoC development (10+ years)",
+    "Commercial emulation platforms (Palladium, ZeBu, Veloce)",
+    "RTL design and verification",
+    "Verilog/SystemVerilog HDL",
+    "FPGA prototyping (Protium, HAPS)",
+    "High-speed interconnects (Ethernet, PCIe, CXL)",
+    "Security architectures and Root of Trust",
+    "Secure boot implementation",
+    "First-silicon bring-up experience",
+    "System qualification at production scale"
+  ],
+  "top_ats_keywords": [
+    "ASIC/SoC development",
+    "Emulation",
+    "Palladium",
+    "ZeBu",
+    "Veloce",
+    "RTL design",
+    "Verilog",
+    "SystemVerilog",
+    "Firmware bring-up",
+    "Embedded processors",
+    "System debugging",
+    "C/C++",
+    "Python",
+    "Verification",
+    "Pre-silicon validation",
+    "Technical leadership",
+    "Cross-functional debugging",
+    "Ethernet",
+    "PCIe",
+    "CXL",
+    "FPGA prototyping",
+    "Secure boot"
+  ],
+  "required_skills": [
+    "10+ years ASIC/SoC development experience with emulation ownership",
+    "Expertise with commercial emulation platforms (Palladium, ZeBu, or Veloce)",
+    "Strong RTL skills in Verilog/SystemVerilog",
+    "Firmware bring-up, embedded processors, interrupts, system debug",
+    "C/C++ and Python proficiency",
+    "Cross-functional debugging and technical leadership",
+    "Proven track record leading verification and emulation programs"
+  ],
+  "preferred_skills": [
+    "Ethernet, PCIe, CXL or high-speed interconnects",
+    "FPGA prototyping (Protium, HAPS)",
+    "Security architectures, Root of Trust, secure boot",
+    "First-silicon bring-up and system qualification experience"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Architect full-chip, multi-die, and subsystem emulation environments",
+    "Enable pre-silicon bring-up of boot ROM, firmware, drivers, OS, workloads",
+    "Develop scalable emulation methodologies and reusable infrastructure",
+    "Drive system-level validation, performance analysis, and root-cause debug",
+    "Build automation, CI/CD workflows, regressions, and release processes",
+    "Partner with architecture, design, verification, firmware, DFT teams",
+    "Lead complex debugging spanning RTL, firmware, software, and hardware",
+    "Mentor engineers and influence architecture for observability"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

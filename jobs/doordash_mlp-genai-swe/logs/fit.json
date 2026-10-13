@@ -1,0 +1,124 @@
+{
+  "company": "DoorDash",
+  "company_slug": "doordash",
+  "role": "Software Engineer, Machine Learning Platform - Gen AI",
+  "job_slug": "mlp-genai-swe",
+  "match_pct": 30.6,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 18,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "GPU",
+    "quantization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "backend services/APIs",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "LLM inference serving",
+      "you_have": "TensorRT / Jetson inference"
+    },
+    {
+      "jd_skill": "LLM fine-tuning (SFT/DPO/LoRA)",
+      "you_have": "Fine-tuned SLM/GPT-2"
+    },
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "TensorRT"
+    }
+  ],
+  "missing_skills": [
+    "ML infrastructure at scale",
+    "observability/incident response",
+    "vLLM",
+    "SGLang",
+    "KV-cache optimization",
+    "Kubernetes",
+    "AWS/GCP",
+    "LLM gateway",
+    "RAG/vector databases",
+    "AI agents/MCP"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "LoRA",
+    "SFT",
+    "DPO",
+    "Kubernetes",
+    "GPU",
+    "quantization",
+    "distributed systems",
+    "LLM inference",
+    "fine-tuning",
+    "observability"
+  ],
+  "required_skills": [
+    "Python",
+    "distributed systems",
+    "backend services/APIs",
+    "ML infrastructure at scale",
+    "observability/incident response",
+    "LLM inference serving",
+    "LLM fine-tuning (SFT/DPO/LoRA)"
+  ],
+  "preferred_skills": [
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "KV-cache optimization",
+    "quantization",
+    "GPU",
+    "Kubernetes",
+    "AWS/GCP",
+    "LLM gateway",
+    "RAG/vector databases",
+    "AI agents/MCP"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "open-weights LLM/VLM serving",
+    "batch inference",
+    "fine-tuning on autoscaling GPUs",
+    "LLM gateway/evals/guardrails"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

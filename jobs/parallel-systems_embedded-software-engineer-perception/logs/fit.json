@@ -1,0 +1,99 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Embedded Software Engineer, Perception (All Levels)",
+  "job_slug": "embedded-software-engineer-perception",
+  "job_url": "https://www.linkedin.com/jobs/view/4447717685/",
+  "location": "Los Angeles, CA",
+  "salary_range": "$154,000 - $212,000",
+  "seniority_stated": "Mid-Senior level",
+  "required_experience_years": 4,
+  "match_pct": 64.3,
+  "have_skills": [
+    "ARM (Cortex-M4)",
+    "C/C++",
+    "NVIDIA Jetson",
+    "TensorRT",
+    "CUDA",
+    "Oscilloscope",
+    "Logic Analyzer",
+    "Embedded/firmware (STM32 bare-metal)",
+    "M.S. degree requirement"
+  ],
+  "adjacent_skills": [
+    "Linux internals -> Linux userspace + Jetson deployment",
+    "Camera driver dev -> OpenCV/YOLO camera capture pipelines",
+    "Lidar driver -> VL53L0X ToF sensor over I2C, TCA9548A mux",
+    "Buffer management / data capture -> Jetson inference pipeline throughput work",
+    "4+ yrs embedded -> 6 internships, 0 full-time years"
+  ],
+  "missing_skills": [
+    "Rust",
+    "Linux kernel module development",
+    "Device tree",
+    "Kernel log / kernel-space debugging",
+    "PTP / timestamp synchronization (timesync)",
+    "Yocto",
+    "V4L2",
+    "GStreamer",
+    "MIPI CSI-2",
+    "SLAM"
+  ],
+  "preferred_have": [
+    "CUDA",
+    "TensorRT",
+    "GPU/kernel-level optimization on NVIDIA",
+    "ROS2",
+    "Robotics / autonomous domain (CARLA, ROS2 perception)",
+    "Real-time perception pipelines (YOLO on Jetson)"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "device drivers",
+    "kernel modules",
+    "ARM",
+    "Rust",
+    "C++",
+    "NVIDIA Jetson",
+    "Tegra",
+    "CUDA",
+    "TensorRT",
+    "lidar",
+    "camera",
+    "timesync",
+    "latency",
+    "jitter",
+    "V4L2",
+    "GStreamer",
+    "MIPI CSI-2",
+    "Yocto",
+    "ROS2",
+    "sensor fusion",
+    "device tree",
+    "real-time"
+  ],
+  "key_responsibilities": [
+    "Develop/maintain drivers, kernel modules, firmware for embedded Linux on ARM + NVIDIA Jetson/Tegra",
+    "Low-level systems software in Rust and C/C++, board bring-up to production hardening",
+    "Drivers for high-throughput camera/lidar/IMU: capture pipelines, buffer management, data integrity",
+    "Real-time optimization: timesync, latency/jitter reduction, dropped-frame elimination",
+    "Validate low-level sensor config across firmware/sensor revisions",
+    "Profile and optimize GPU/kernel performance on NVIDIA (CUDA, TensorRT, scheduling, memory/IO)"
+  ],
+  "role_category": "embedded_systems",
+  "constraint_flags": {
+    "sponsorship": "Not mentioned in JD. Parallel Systems not in known_sponsors list (Series B startup, ~100 people). Unknown risk.",
+    "experience": "MISMATCH - JD requires 4+ years hands-on; candidate has 0 full-time years (6 internships). Threshold is 3.",
+    "recent_grad_exclusion": "EXPLICIT - JD states 'We are open to candidates across a range of experience levels, excluding recent graduates.' Candidate graduated May 2026.",
+    "location": "Los Angeles, CA - onsite. Candidate willing to relocate.",
+    "clearance": "None required.",
+    "notice": "4 weeks. EAD pending: true."
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "hard_blocker_triggered": false,
+  "llm_analysis": null,
+  "date_analyzed": "2026-08-04"
+}

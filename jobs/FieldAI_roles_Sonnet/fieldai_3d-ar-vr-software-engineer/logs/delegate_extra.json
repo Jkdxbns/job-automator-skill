@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "Robotics integration (ROS2, MoveIt, YOLO perception, embedded sensors) - directly relevant to robot-facing systems",
+    "Real-time embedded + edge AI deployment (Jetson, TensorRT, STM32) - relevant to deployable field systems",
+    "Full-stack prototyping (Flutter + Flask + hardware interface) - maps to rapid UI prototyping",
+    "Field deployment mindset (COFFIN deployed on real robot with 100% pick reliability)"
+  ],
+  "real_gaps": [
+    "No AR/VR engine or headset development experience (Unity, Unreal, WebXR, OpenXR, Apple Vision Pro, Meta SDK)",
+    "No dedicated 3D graphics/rendering programming (OpenGL, shaders, real-time 3D engines)",
+    "No formal HCI/user-study evaluation background",
+    "New-grad (0 full-time years) applying for a role that implicitly expects hands-on 3D/AR/VR production experience",
+    "Location: Boston MA only; candidate in Arlington TX willing to relocate but not confirmed"
+  ],
+  "reasoning": "Role is edge-robotics-adjacent but core demand is 3D/AR/VR software engineering (rendering, AR/VR apps, 3D interaction design) which the candidate does not have. Strong adjacent robotics/perception/deployment skills but missing the primary 3D/AR/VR engine and graphics programming requirements. Not a hard blocker (no clearance, sponsorship not mentioned, experience not explicitly gated >3yr), but significant real gaps. Category: edge_ai_robotics. Hard blocker false. Flag location_conflict true (candidate not in Boston; relocation willingness stated).",
+  "hostedUrl": "https://jobs.lever.co/field-ai/e22d37a0-6247-4e20-8c63-cb2d84056b85",
+  "team": "Product Engineering",
+  "location": "Boston, MA"
+}

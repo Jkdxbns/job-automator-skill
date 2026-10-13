@@ -1,0 +1,22 @@
+{
+  "strengths": [
+    "Master's in Computer Engineering matches degree requirement exactly",
+    "Python + C/C++ strong (embedded bare-metal, CUDA, ML pipelines)",
+    "ROS/ROS2 with real robot arm deployment (MoveIt, RViz, kinematics, perception)",
+    "Computer vision + 3D geometry (OpenCV, YOLO, depth estimation, forward kinematics, DH parameters)",
+    "Multi-sensor integration experience (ToF, IMU, camera, I2C mux, Bluetooth)",
+    "GPU/edge optimization (TensorRT, CUDA kernels, quantization, profiling) directly relevant to scalable calibration processing",
+    "Embedded C / real-time systems (STM32, FreeRTOS) supports reliable calibration pipeline engineering"
+  ],
+  "real_gaps": [
+    "0 full-time years vs 2+ year hard minimum",
+    "No demonstrated experience with Ceres, GTSAM, g2o (core calibration backend libraries listed in JD)",
+    "No PCL, Open3D, or Kalibr hands-on experience (explicitly named tools)",
+    "No LiDAR-Camera calibration at scale or factory-level high-volume calibration experience (listed as 'extras that set you apart', but core role expects production-grade pipelines)",
+    "No industry production-scale distributed systems / large sensor dataset infrastructure experience"
+  ],
+  "reasoning": "Role category: edge_ai_robotics (robotics + sensor calibration + CV). Candidate is new-grad (0 FT years) applying to a mid-level role requiring 2+ years FT robotics software engineering plus production-grade calibration pipeline expertise (Ceres/GTSAM/g2o, PCL/Open3D/Kalibr, factory-scale calibration). Candidate's strongest matches are the Master's degree, Python/C++, ROS, CV/3D geometry, embedded, and multi-sensor fusion \u2014 all genuinely present from internships and capstone/research. The critical gaps are the 2-year experience floor (hard blocker), missing core calibration backend libraries (Ceres/GTSAM/g2o), missing named 3D/calibration tools (PCL/Open3D/Kalibr), and no production-scale calibration at scale. Sponsorship/clearance/citizenship/ITAR not mentioned in JD. No location/sponsorship/clearance flag triggered. No production distributed systems at company scale (noted). Recommendation: not a direct fit due to experience floor + core tool gaps; best positioned as a junior/early-career robotics/CV engineer rather than a production calibration engineer.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/1ff2ae13-b4a7-4800-a52e-d1c858924861",
+  "team": "CLAM",
+  "location": "Irvine, CA"
+}

@@ -1,0 +1,107 @@
+{
+  "company": "Harvey",
+  "company_slug": "harvey",
+  "role": "Software Engineer, New Grad (2027)",
+  "job_slug": "swe-new-grad-2027",
+  "match_pct": 32.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 17,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "LLMs",
+    "computer science fundamentals",
+    "internship experience"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "backend / APIs",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "retrieval / document intelligence",
+      "you_have": "transformers and NLP"
+    },
+    {
+      "jd_skill": "infrastructure / secure systems",
+      "you_have": "Linux, systemd deployment, networking"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "Go",
+    "frontend",
+    "full-stack production",
+    "RAG / retrieval",
+    "enterprise agents",
+    "AI-assisted development tools (Claude Code/Cursor)",
+    "multi-region cloud infrastructure"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "Go",
+    "LLMs",
+    "retrieval",
+    "agents",
+    "full-stack",
+    "backend",
+    "frontend",
+    "code review",
+    "AI-assisted development"
+  ],
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "Go",
+    "computer science fundamentals",
+    "internship experience"
+  ],
+  "preferred_skills": [
+    "early-stage startup internship",
+    "AI-assisted development tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "ship production code across the stack",
+    "evaluate LLMs and AI systems",
+    "code reviews and design discussions",
+    "retrieval over large document collections",
+    "enterprise agents"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York / San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

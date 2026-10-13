@@ -1,0 +1,116 @@
+{
+  "company": "Pure Storage",
+  "company_slug": "pure-storage",
+  "role": "Systems Software Engineer (MTS3)",
+  "job_slug": "systems-software-engineer",
+  "match_pct": 29.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 1,
+    "missing_count": 15,
+    "jd_ask_size": 22,
+    "req_cov": 0.538,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "embedded/platform software",
+    "debugging",
+    "test strategies",
+    "GitLab"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI"
+    }
+  ],
+  "missing_skills": [
+    "high availability",
+    "storage architectures",
+    "state machines",
+    "workflow orchestration",
+    "health checks",
+    "error handling",
+    "CI/CD",
+    "Jenkins",
+    "NVMe",
+    "iSCSI",
+    "PCIe",
+    "NUMA",
+    "HA failover design",
+    "array controller replacement",
+    "server/CPU hardware architecture"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Jenkins",
+    "GitLab",
+    "CI/CD",
+    "NVMe",
+    "iSCSI",
+    "PCIe",
+    "NUMA",
+    "state machines",
+    "distributed systems",
+    "high availability"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "distributed systems",
+    "high availability",
+    "storage architectures",
+    "embedded/platform software",
+    "state machines",
+    "workflow orchestration",
+    "health checks",
+    "error handling",
+    "debugging",
+    "test strategies",
+    "CI/CD (Jenkins/GitLab)"
+  ],
+  "preferred_skills": [
+    "NVMe",
+    "iSCSI",
+    "PCIe",
+    "NUMA",
+    "HA failover design",
+    "array controller replacement",
+    "server/CPU hardware architecture"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "controller-upgrade automation",
+    "hardware lifecycle self-service workflows",
+    "state machines/health checks/failure handling",
+    "CI/CD test pipelines across hardware/software combos",
+    "operational telemetry for upgrade execution"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

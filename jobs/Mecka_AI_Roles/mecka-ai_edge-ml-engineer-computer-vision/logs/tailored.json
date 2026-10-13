@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Mecka AI",
+    "role": "Edge ML Engineer - Computer Vision",
+    "company_slug": "mecka-ai",
+    "job_slug": "edge-ml-engineer-computer-vision"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, focused on Edge AI and Computer Vision. Deployed TensorRT YOLO on embedded NVIDIA Jetson, cutting latency from 56.7 to 10.9 ms (5.2x). Strong Python programming and C/C++ programming, debugging and performance profiling, training and evaluating CV models in PyTorch, and quantization, model conversion, inference optimization on GPU.",
+  "skills": {
+    "Edge AI / CV": [
+      "Edge AI",
+      "Computer Vision",
+      "YOLO",
+      "TensorRT",
+      "OpenCV",
+      "ONNX / TFLite model conversion",
+      "Quantization (8-bit)",
+      "Inference optimization",
+      "pynvml Profiling",
+      "NVIDIA Jetson"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "NumPy",
+      "Model evaluation"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Bash",
+      "Linux",
+      "CMake",
+      "Git"
+    ],
+    "HPC / Parallel": [
+      "CUDA C++",
+      "Memory coalescing",
+      "Kernel optimization"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment.",
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% by fine-tuning DONUT, a vision transformer, with improved preprocessing and model tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT-optimized YOLO on NVIDIA Jetson for visual servoing: 5.2\u00d7 speedup (56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch), alongside faster-whisper STT and dual VL53L0X ToF sensors for contact-aware grasping.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Deployed the Jetson-side bridge as a systemd service (auto-restart, non-root isolation) with static IP networking; configured XRDP remote administration of the headless Jetson."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase, evaluating efficiency vs task performance for edge deployment constraints."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); validated in Town02 with 30 vehicles and 10 pedestrians with zero collisions."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing and constant memory; coalesced kernel ran at 49.2ms vs 73.3ms uncoalesced and 77.5ms CPU TorchScript (~35% speedup) with identical accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

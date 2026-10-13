@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "Hextronics (Hex)",
+    "role": "Embedded Firmware Engineer",
+    "company_slug": "hextronics",
+    "job_slug": "embedded-firmware-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded firmware experience on STM32 microcontrollers: bare-metal C, FreeRTOS, and peripheral configuration across GPIO, timers, ADC, I2C, and UART. Designed custom PCBs in EAGLE (schematic and board layout) and drove hardware/software integration on robotics builds.",
+  "skills": {
+    "Embedded Firmware": [
+      "C",
+      "C++",
+      "Bare metal C",
+      "RTOS (FreeRTOS)",
+      "STM32 (Cortex-M4) microcontrollers",
+      "Peripheral configuration (GPIO, TIM, ADC, I2C, UART)",
+      "PWM",
+      "Interrupts",
+      "UART/I2C/SPI",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Hardware & Test": [
+      "EAGLE PCB Design (schematic and board layout)",
+      "Datasheet reading",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Debugging and root cause analysis",
+      "Test and validation procedures",
+      "Proteus",
+      "Arduino",
+      "Raspberry Pi",
+      "NVIDIA Jetson"
+    ],
+    "Robotics & Tools": [
+      "ROS2",
+      "Python",
+      "Git",
+      "Linux",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed, fabricated, and brought up custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national competitions, owning mechanical design, PCB fabrication, and AI/ML integration."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed STM32 peripherals directly in bare metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; validated in Proteus.",
+        "Built Cortex-M4 microcontroller firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on an STM32 microcontroller; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Debugged and root-caused 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); validated 100% pick reliability (10/10 trials).",
+        "Integrated dual VL53L0X ToF sensors (gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

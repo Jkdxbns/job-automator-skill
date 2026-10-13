@@ -1,0 +1,137 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Infrastructure and Tools",
+  "job_slug": "software-engineer-infrastructure-and-tools",
+  "match_pct": 31.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 22,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's degree in Computer Science, Engineering, or related field (M.S. Computer Engineering, Rochester Institute of Technology (RIT), graduated May 2026)",
+    "Python, TypeScript, or similar programming/scripting skills (Python Developer Intern (BARC: PyQt/Matplotlib); Deep Learning Intern (Tusk: YOLOv8n, ONNX); AI/ML Intern (IIT Bombay: PyTorch/HuggingFace); COFFIN Flask-SocketIO backend; CUDA kernels; GPT-2 from scratch; all core ML/embedded projects use Python. TypeScript not present.)",
+    "Networking (COFFIN project (static IP/network config); UART/I2C/SPI sensor comms (Agnel Robotics Club, Object Tracking Turret, Robotic Arm); HC-05 Bluetooth wearable glove (Planctech))",
+    "Linux systems (COFFIN systemd deployment (unit files, auto-restart, non-root isolation, static IP); embedded Linux (Jetson Orin Nano/Xavier, Raspberry Pi); Linux admin skills listed in profile (systemd service management))",
+    "Collaborative team environment / teamwork (Led 7-person team (Teesside Univ U-Net/BraTS fellowship); led 25-member Agnel Robotics Club; all internships involve collaboration)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Deployment frameworks",
+      "you_have": "COFFIN capstone: systemd deployment (auto-restart, non-root isolation, static IP, service files) \u2014 small-scale embedded deployment only, not production infrastructure deployment frameworks"
+    },
+    {
+      "jd_skill": "Service reliability / high availability / fault tolerance",
+      "you_have": "COFFIN systemd auto-restart + non-root isolation; embedded reliability in robotics projects \u2014 not production-scale distributed service reliability"
+    },
+    {
+      "jd_skill": "Build systems",
+      "you_have": "CMake listed in profile tools; embedded build systems (FreeRTOS, STM32 bare-metal, Arduino, EAGLE PCB) \u2014 not production CI/CD build pipeline experience"
+    },
+    {
+      "jd_skill": "Security best practices",
+      "you_have": "COFFIN systemd non-root isolation / service isolation \u2014 partial match only; no formal infosec or production security experience"
+    }
+  ],
+  "missing_skills": [
+    "3+ years experience in software engineering / DevOps / infrastructure roles (candidate is new-grad, 0 years full-time, 7 internships)",
+    "TypeScript programming",
+    "Cloud platforms (AWS, GCP, Azure) \u2014 profile explicitly excludes all cloud platforms",
+    "Container orchestration (Docker, Kubernetes, k3s) \u2014 profile explicitly excludes all container orchestration",
+    "Infrastructure-as-code tools (AWS CDK, etc.)",
+    "Monitoring and logging systems (Prometheus, Grafana, Sentry) \u2014 no monitoring/logging experience in profile",
+    "Ansible / infrastructure automation provisioning",
+    "CI/CD pipelines \u2014 profile explicitly excludes CI/CD tooling",
+    "Service reliability and observability at production scale (no Prometheus/Grafana/Sentry or production service experience)",
+    "Performance optimization and troubleshooting of production systems (hardware-level profiling exists: TensorRT, CUDA, pynvml, but not infrastructure performance)",
+    "Distributed systems and microservices architectures",
+    "Site reliability engineering (SRE) practices",
+    "Robotics / ROS preferred skills \u2014 have extensive robotics/ROS experience but this is preferred, not required"
+  ],
+  "top_ats_keywords": [
+    "CI/CD",
+    "build systems",
+    "monitoring",
+    "deployment frameworks",
+    "service reliability",
+    "observability",
+    "performance",
+    "high availability",
+    "fault tolerance",
+    "Ansible",
+    "automation",
+    "Python",
+    "TypeScript",
+    "AWS",
+    "GCP",
+    "Azure",
+    "container orchestration",
+    "infrastructure-as-code",
+    "AWS CDK",
+    "Prometheus",
+    "Grafana",
+    "Sentry",
+    "networking",
+    "Linux",
+    "security",
+    "robotics",
+    "ROS",
+    "real-time",
+    "sensor integration",
+    "distributed systems",
+    "microservices",
+    "SRE"
+  ],
+  "required_skills": [
+    "Bachelor's degree in Computer Science, Engineering, or related field (or equivalent work experience)",
+    "3+ years experience in software engineering, DevOps, or infrastructure roles",
+    "Python, TypeScript, or similar programming/scripting skills",
+    "Cloud platforms (AWS, GCP, Azure) and container orchestration",
+    "Infrastructure-as-code tools (AWS CDK, etc.)",
+    "Monitoring and logging systems (Prometheus, Grafana, Sentry)",
+    "Networking, Linux systems, and security best practices"
+  ],
+  "preferred_skills": [
+    "Familiarity with robotics systems or infrastructure to support robotic applications (ROS, real-time systems, sensor integration)",
+    "Distributed systems and microservices architectures",
+    "Site reliability engineering (SRE) practices"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design/build/maintain CI/CD pipelines, build systems, monitoring tools, deployment frameworks",
+    "Service reliability, observability, performance optimization",
+    "High availability and fault tolerance collaboration",
+    "Automate infrastructure provisioning (Ansible/similar)",
+    "System efficiency automation and manual-process elimination",
+    "Performance troubleshooting and uptime/security maintenance",
+    "Best practices in system design, security, code quality"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

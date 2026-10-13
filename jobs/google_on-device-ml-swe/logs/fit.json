@@ -1,0 +1,39 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, On-Device Machine Learning",
+  "job_slug": "on-device-ml-swe",
+  "match_pct": 75,
+  "missing_skills": ["Mobile development (Android/iOS)", "ExecuTorch", "Core ML", "SNPE/QNN"],
+  "adjacent_skills": ["On-device deployment across Android/iOS/web (have: Jetson/embedded, not mobile OS)", "On-device SDK breadth (have: TFLite, missing ExecuTorch/CoreML/SNPE)"],
+  "top_ats_keywords": ["ML infrastructure", "model optimization", "quantization", "TensorRT", "TFLite", "CUDA", "PyTorch", "TensorFlow", "runtime performance tuning", "on-device deployment", "GenAI model architecture"],
+  "key_responsibilities": [
+    "Develop LiteRT, Google's on-device AI framework",
+    "Enable on-device deployment of models (Gemini Nano, Gemma) across GPU/TPU/NPU/CPU on Android, Chrome, iOS, desktop",
+    "Improve on-device model inference performance via runtime and kernel optimization",
+    "Contribute to model optimization and data processing",
+    "Collaborate via design/code reviews"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Partial", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Genuine runtime/kernel optimization depth: custom CUDA C++ kernels for VGG16 (memory coalescing, constant memory) — 35% speedup over naive GPU, 1.5-2x over CPU TorchScript; TensorRT-optimized YOLO in the COFFIN capstone — 5.2x speedup (56.7ms to 10.9ms, 17.6 to 92 FPS) vs eager PyTorch. This is the exact skill the role's 'improve on-device model inference via runtime and kernel implementation' responsibility asks for.",
+      "Real on-device quantization work for GenAI-scale models: 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, ~55% GPU memory reduction with under 1% accuracy degradation, benchmarked on HellaSwag/GSM8K/ARC. Directly backs the preferred 'GenAI model architectures and their optimization for on-device execution' qualification, not just a keyword hit.",
+      "Framework fluency (PyTorch, TensorFlow, HuggingFace) demonstrated across from-scratch implementations (GPT-2, ASR pipeline), not just usage in tutorials.",
+      "M.S. Computer Engineering satisfies the preferred advanced-degree qualification."
+    ],
+    "real_gaps": [
+      "Mobile development is a stated MINIMUM qualification, not preferred, and there is no Android/iOS app or SDK integration work anywhere in the profile. The closest evidence (YOLOv8n exported to ONNX/TFLite 'for mobile deployment' at Tusk) is a model export step, not building or integrating into a mobile app — a real gap against a hard requirement, not a soft one.",
+      "The role is building LiteRT itself (the on-device runtime/framework), which is systems engineering ON a framework. Justin's experience is as a CONSUMER of frameworks (TensorRT, TFLite, ONNX) to deploy his own models, not as a contributor to a runtime/SDK codebase. The CUDA kernel work is the closest analog but was applied to a research inference script, not integrated into a production framework with its own API surface, versioning, and third-party developers depending on it.",
+      "'Leading and delivering successful ML projects' (preferred) is scoped in the JD to shipped, production-facing work. Justin's leadership experience (7-person research team, 25-member robotics club) is real but academic/competition scope, not delivering an ML project into a product used by external developers or billions of devices — a seniority/scope gap keyword matching can't detect.",
+      "Model evaluation and data processing experience (Dice/IoU, mAP, WER, perplexity) is on academic-scale, single-researcher datasets, not the production data pipelines and evaluation infra implied by 'ML infrastructure' at Google's scale."
+    ],
+    "overstated_by_keywords": [
+      "'ML infrastructure' and 'on-device deployment' were scored as clean Have in the keyword pass. On a semantic read they're model-export and single-device deployment (Jetson, TFLite export for a small classifier), not engineering work on the on-device runtime/SDK layer itself — which is literally what this job builds. The skill category name matches; the depth and direction (consumer vs. builder of the framework) does not."
+    ],
+    "reasoning": "The performance-engineering substance this team actually cares about (kernel-level optimization, quantization for GenAI models under memory constraints) is real and well-backed by metrics, which is the strongest part of the profile for this role. But the role is to build the on-device ML framework itself and ship it to Android/iOS/web, and Justin's experience is entirely as a downstream user of such frameworks with zero mobile app development, which is a stated minimum qualification. Worth applying given the sponsorship/no-blocker situation and genuine runtime-optimization depth, but expect the mobile dev gap to surface directly in a phone screen."
+  }
+}

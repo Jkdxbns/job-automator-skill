@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization (35% VGG16 speedup)",
+    "Edge AI deployment (Jetson + TensorRT + YOLO, 5.2x speedup)",
+    "Embedded bare-metal C/C++ (STM32 Cortex-M4, FreeRTOS, interrupt/ADC/I2C)",
+    "ROS2 robotics and perception (MoveIt, visual servoing, DH kinematics, AL5B/UR5e)",
+    "ML model optimization (8-bit quant ~55% VRAM reduction, fine-tuning, ASR from scratch)",
+    "Full-stack hardware-software robotics integration (sensors, kinematics, control, ML inference)"
+  ],
+  "real_gaps": [
+    "No humanoid or loco-manipulation experience",
+    "No robotics foundation model / large-scale cross-embodiment model training",
+    "No production-scale distributed training or data-infrastructure experience",
+    "0 full-time industry years; role title signals senior/staff level",
+    "No formal functional-safety / ISO26262 or enterprise cloud infra certification"
+  ],
+  "reasoning": "The JD asks for a Senior-level manipulation researcher focused on humanoid platforms, robotics foundation models, and scaling learned manipulation with physically-grounded models \u2014 all in a production-deployed, field-ready context. The candidate is a new-grad (M.S. May 2026, 0 full-time years) with exceptional project-level depth in CUDA optimization, edge AI (Jetson/TensorRT/YOLO), embedded STM32, ROS2 robotics, ML quantization, and full-stack arm systems, but lacks the humanoid/loco-manipulation domain, large-scale foundation-model training, production distributed infrastructure, and the senior-level experience the title implies. Sponsorship, location, clearance, and citizenship flags are all clear. Hard blocker triggered by senior-level title + zero full-time experience + missing core domain (humanoid/foundation models).",
+  "hostedUrl": "https://jobs.lever.co/field-ai/da3b1a5c-93f6-41f1-a18a-1342adbb3ec0",
+  "team": "Research",
+  "location": "Boston, MA"
+}

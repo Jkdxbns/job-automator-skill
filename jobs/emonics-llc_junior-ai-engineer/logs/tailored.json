@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "company": "Emonics LLC",
+    "role": "Junior AI Engineer",
+    "company_slug": "emonics-llc",
+    "job_slug": "junior-ai-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience building and deploying machine learning models across NLP, computer vision, and speech domains. Proficient in Python, PyTorch, and TensorFlow — background spans dataset processing pipelines, model development, and AI application deployment across 7 internships.",
+  "skills": {
+    "Languages": ["Python", "C++", "Bash"],
+    "ML / Deep Learning": ["PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers", "Quantization (8-bit)", "Structured Pruning", "Model evaluation"],
+    "AI / NLP / CV": ["OpenCV", "YOLO", "faster-whisper", "ASR pipelines", "Tokenization", "TensorRT"],
+    "Tools": ["Linux", "Git", "Flask", "JupyterHub", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset for text extraction using PyTorch.",
+        "Built end-to-end preprocessing and training pipelines to standardize dataset preparation and model evaluation workflows.",
+        "Improved validation accuracy from 55% to 93% through iterative model tuning and data preprocessing improvements."
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "company": "Teesside University",
+      "location": "Middlesbrough, UK",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Built a dataset pipeline for BraTS 2020 multi-modal MRI data with augmentation and batch-loading; trained U-Net with VGG-16/19 and ResNet-50 backbones, evaluated on Dice Score and IoU.",
+        "Led a 7-person cross-cultural team as sole ML-experienced member; restructured task distribution to deliver the full pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI (PyQt + Matplotlib) for real-time laboratory data acquisition and experimental visualization.",
+        "Maintained collaborative data analysis workflows using GitLab version control and JupyterHub."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced model memory footprint by ~25% via structured pruning and 8-bit quantization on TinyLlama 1.1B; evaluated across HellaSwag, GSM8K, and ARC benchmarks.",
+        "Assessed accuracy-efficiency trade-offs (~7% accuracy drop, +6.3 perplexity increase) to characterize deployment feasibility for resource-constrained environments."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline in PyTorch: 80-channel mel spectrogram encoder, 6-block Transformer decoder with cross-attention, trained on 1,000 Indian-English samples achieving training loss ~0.51.",
+        "Designed a custom BPE tokenizer with Cython-accelerated backend achieving 4–5.5× speedup; achieved 15% WER on Hindi-English dataset."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "High Performance Architecture", "Robot Perception", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Image Processing", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

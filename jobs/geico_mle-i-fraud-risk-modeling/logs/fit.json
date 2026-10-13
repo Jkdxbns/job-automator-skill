@@ -1,0 +1,124 @@
+{
+  "company": "GEICO",
+  "company_slug": "geico",
+  "role": "Machine Learning Engineer I (MLE I), Fraud Risk Modeling",
+  "job_slug": "mle-i-fraud-risk-modeling",
+  "match_pct": 32.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 20,
+    "req_cov": 0.929,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "Model evaluation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ML model deployment",
+      "you_have": "ONNX/TensorRT/Jetson deployment"
+    },
+    {
+      "jd_skill": "Data pipelines",
+      "you_have": "ASR pipelines, Pandas/NumPy"
+    },
+    {
+      "jd_skill": "MLOps",
+      "you_have": "Git/GitLab, SLURM"
+    }
+  ],
+  "missing_skills": [
+    "Fraud detection",
+    "Anomaly detection",
+    "SQL",
+    "Spark",
+    "Snowflake",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Java",
+    "Model monitoring",
+    "Explainability",
+    "Feature engineering"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Java",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "SQL",
+    "Spark",
+    "Snowflake",
+    "AWS",
+    "Azure",
+    "Docker",
+    "MLOps",
+    "fraud detection",
+    "anomaly detection",
+    "model monitoring",
+    "explainability",
+    "feature engineering",
+    "data pipelines"
+  ],
+  "required_skills": [
+    "Python",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "Model evaluation",
+    "ML model deployment",
+    "Data pipelines"
+  ],
+  "preferred_skills": [
+    "Fraud detection",
+    "Anomaly detection",
+    "SQL",
+    "Spark",
+    "Snowflake",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Model monitoring",
+    "Explainability"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Implement/test/maintain fraud ML models",
+    "Feature engineering and data validation",
+    "Deploy via MLOps pipelines",
+    "Batch and near-real-time pipelines",
+    "Monitor data quality and model performance"
+  ],
+  "role_category": "ml_systems",
+  "location": "Palo Alto, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

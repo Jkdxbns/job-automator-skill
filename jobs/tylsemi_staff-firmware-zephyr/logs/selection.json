@@ -1,0 +1,126 @@
+{
+  "experience": [
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 5.41,
+      "matched": [
+        "Git",
+        "Python",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Deep Learning Intern",
+      "name": "Deep Learning Intern",
+      "score": 1.57,
+      "matched": [
+        "model optimization"
+      ]
+    },
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 1.57,
+      "matched": [
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 1.07,
+      "matched": [
+        "RTOS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 7.51,
+      "matched": [
+        "ARM Cortex-M",
+        "C++",
+        "model optimization",
+        "serial protocols",
+        "systemd and deployment"
+      ]
+    },
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 7.38,
+      "matched": [
+        "ARM Cortex-M",
+        "C",
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 5.38,
+      "matched": [
+        "ARM Cortex-M",
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 3.06,
+      "matched": [
+        "model optimization",
+        "systemd and deployment"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 1.99,
+      "matched": [
+        "Python"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Cortex-M",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "JTAG/SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "JTAG",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "GCC/Clang",
+      "for_skill": "build systems"
+    },
+    {
+      "use_jd_wording": "ML deployment",
+      "for_skill": "systemd and deployment"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Rust",
+    "CI"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "company": "Zoox",
+    "role": "Embedded Software Engineer - MCU Platforms",
+    "company_slug": "zoox",
+    "job_slug": "embedded-software-engineer-mcu-platforms"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with embedded firmware experience in C and C++ across ARM Cortex-M microcontrollers, Arduino, and NVIDIA Jetson. Wrote bare-metal Cortex-M4 firmware driving GPIO, timers, ADC, and I2C at the register level with interrupt-driven capture and deterministic real-time update rates, and built the Python host-side tooling that links microcontroller firmware to off-target data acquisition.",
+  "skills": {
+    "Firmware & Embedded": [
+      "C",
+      "C++",
+      "Bare-Metal C",
+      "STM32 Cortex-M4",
+      "ARM Cortex-M",
+      "Register-Level Programming",
+      "Interrupt Handling (ISRs)",
+      "Timer-Triggered ADC",
+      "Real-Time Firmware",
+      "Arduino",
+      "Raspberry Pi",
+      "NVIDIA Jetson"
+    ],
+    "Hardware Interfaces": [
+      "UART",
+      "I2C",
+      "SPI",
+      "GPIO",
+      "ADC",
+      "PWM",
+      "I2C Multiplexing (TCA9548A)",
+      "Bluetooth (BLE/Classic)",
+      "HID"
+    ],
+    "Host-Side Tooling": [
+      "Python",
+      "PyQt",
+      "Matplotlib",
+      "WebSocket",
+      "Flask-SocketIO",
+      "Multiprocessing"
+    ],
+    "Tools & Debug": [
+      "Linux",
+      "Git / GitLab",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with a Raspberry Pi over HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; root-caused sensor jitter and resolved it through software calibration and sensor resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Built a Python tool in PyQt and Matplotlib for real-time data acquisition and experimental visualization, giving lab engineers a host-side interface to instrumented hardware.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor (Cortex-M4)",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal C at the register level (GPIO, TIM2, ADC1, I2C1); achieved a 3.68 KB Flash / 1.58 KB RAM footprint at a deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver for the display path; verified peripheral timing in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN), M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Root-caused 11 hardware and software integration failures across the stack (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability over 10 trials at ~11.5 s end-to-end latency.",
+        "Wrote the on-controller firmware in C++: two-link inverse kinematics, five-servo actuation, and range-gated contact detection from dual VL53L0X ToF sensors behind a TCA9548A I2C multiplexer.",
+        "Linked microcontroller firmware to off-target services over a WebSocket fabric spanning a Flask-SocketIO edge server and an NVIDIA Jetson node."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Streamed YOLOv8 tracking commands from an NVIDIA Jetson to the microcontroller over UART, with interrupt-driven command parsing and a user override path.",
+        "Implemented multi-servo PWM control and integrated VL53L0X ToF ranging over I2C with OLED distance readout."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon - National-level robotics competition among 45 universities (2022)"
+  ]
+}

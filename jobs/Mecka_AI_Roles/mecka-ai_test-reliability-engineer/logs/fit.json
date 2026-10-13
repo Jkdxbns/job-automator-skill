@@ -1,0 +1,115 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Test & Reliability Engineer",
+  "job_slug": "test-reliability-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 13,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python scripting / test automation",
+    "Robotics / connected hardware",
+    "Linux",
+    "Image processing / vision (adjacent to camera)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux / connected hardware testing",
+      "you_have": "Bare-metal embedded C / STM32 / FreeRTOS"
+    },
+    {
+      "jd_skill": "Physical test fixtures / device control / measurement",
+      "you_have": "Embedded interfacing / PCB / measurement tools"
+    },
+    {
+      "jd_skill": "Linux diagnostics / networking / logs / performance",
+      "you_have": "Linux + system-level scripting"
+    },
+    {
+      "jd_skill": "Camera / vision systems",
+      "you_have": "Computer vision / image processing"
+    },
+    {
+      "jd_skill": "Timing / intermittent fault reproduction",
+      "you_have": "Benchmarking / calibration"
+    }
+  ],
+  "missing_skills": [
+    "Repeatable experiment design / product failure separation (no direct evidence)",
+    "Update fault testing / CI for hardware (no CI keywords)",
+    "Electrical failure analysis / environmental testing / repair qualification (no evidence)",
+    "Camera pipeline experience specifically (vision skills present but no camera pipeline work listed)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Linux",
+    "embedded",
+    "robotics",
+    "test automation",
+    "hardware testing",
+    "camera",
+    "fixtures",
+    "diagnostics",
+    "networking",
+    "performance",
+    "timing",
+    "failure analysis",
+    "regression",
+    "automation"
+  ],
+  "required_skills": [
+    "Python scripting / test automation",
+    "Embedded Linux / connected hardware testing",
+    "Camera / vision / robotics testing",
+    "Physical test fixtures / device control / measurement",
+    "Linux diagnostics / networking / logs / performance",
+    "Repeatable experiment design / failure isolation",
+    "Timing / intermittent fault reproduction / stress verification"
+  ],
+  "preferred_skills": [
+    "Camera pipelines",
+    "Update / fault testing",
+    "Continuous integration for hardware",
+    "Electrical failure analysis",
+    "Environmental / repair qualification testing"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build automated hardware tests verifying recording quality, performance, and recovery",
+    "Test long recording sessions and fault conditions including power loss, disconnects, full storage, and competing workloads",
+    "Check recorded data for missing frames, timestamp errors, incomplete sensor streams, and corruption",
+    "Reproduce failures, work with engineers to isolate root cause, and turn fixes into repeatable regression tests",
+    "Define release checks and qualification tests across supported hardware and software configurations"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

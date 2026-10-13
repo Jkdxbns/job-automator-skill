@@ -1,0 +1,82 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Software Engineer, CUDA Deep Learning Systems",
+  "job_slug": "cuda-dl-systems-swe",
+  "job_requisition_id": "JR2022831",
+  "match_pct": 100,
+  "missing_skills": [
+    "multi-node distributed training/inference systems (NCCL, UCX, pipeline/tensor/expert parallelism)",
+    "deep learning compilers (Triton, XLA, torch.compile)",
+    "framework internals at production scale (vLLM, sgLang, Nemo, Megatron)",
+    "low-precision numerics beyond 8-bit (FP8, NVFP4, MXFP4)",
+    "agentic AI systems for infrastructure",
+    "2+ years full-time industry experience"
+  ],
+  "adjacent_skills": [
+    "distributed computing / cluster-scale execution (SLURM job scheduling, not multi-node training design)",
+    "systems programming / computer architecture (embedded bare-metal domain, not HPC/GPU systems)",
+    "profiling/optimizing generative AI + LLMs (small-scale: GPT-2, TinyLlama, quantization, tokenizer work, not production-scale)",
+    "research background in ML systems + vision/generative/diffusion models (vision yes: YOLO, ResNet, VGG, ZoeDepth, BraTS; no diffusion model work)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "C++",
+    "Python",
+    "Deep Learning",
+    "transformers",
+    "kernel optimization",
+    "GPU",
+    "distributed computing",
+    "PyTorch",
+    "TensorRT",
+    "profiling",
+    "LLMs",
+    "NCCL",
+    "MPI"
+  ],
+  "key_responsibilities": [
+    "Prototype systems optimizations bridging DL frameworks and low-level CUDA",
+    "Architect/optimize distributed computing systems from single node to cluster scale",
+    "Design/implement/optimize custom CUDA kernels for emerging NN architectures",
+    "Analyze hardware-software interactions to resolve training/inference bottlenecks",
+    "Co-design systems with AI researchers, HW/SW architects, compiler and CUDA driver teams",
+    "Build exploratory profiling/runtime tools for new DL paradigms"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hand-authored CUDA C++ kernels with memory coalescing and constant memory, 35-51% speedup over naive/CPU baselines \u2014 CUDA Kernel Optimization for VGG16 Inference project \u2014 directly answers 'design, implement, and optimize custom high-performance CUDA kernels'",
+      "Real LLM quantization and profiling: bitsandbytes LLM.int8() on TinyLlama 1.1B, ~55% VRAM reduction, <1% accuracy loss, profiled via pynvml/psutil \u2014 SLM Compression project \u2014 directly answers 'profiling and optimizing generative AI models'",
+      "Built a GPT-2 style Transformer from scratch (attention, MLP, residual, layer norm, weight tying) \u2014 shows real understanding of transformer internals, not just framework usage",
+      "TensorRT-optimized YOLO inference at 5.2x speedup (56.7ms to 10.9ms) deployed on Jetson in the COFFIN capstone \u2014 production-style inference optimization on real hardware",
+      "Genuine from-scratch MPI/HPC experience across two SLURM-cluster projects (10.49x speedup Hodgkin-Huxley neuron sim, 30x speedup parallel ray tracer with 4 work-distribution strategies) \u2014 real grasp of load balancing and scaling behavior"
+    ],
+    "real_gaps": [
+      "No NCCL/UCX or DL-specific distributed training patterns (pipeline/tensor/expert parallelism) \u2014 the MPI experience is classic scientific-computing HPC, not neural-net multi-GPU training, which is what the JD's 'cluster-scale' language actually means",
+      "No diffusion model work anywhere in the profile despite it being explicitly named",
+      "No deep learning compiler or framework-internals experience (Triton, XLA, torch.compile) \u2014 profile shows framework usage/optimization at the application level, not graph/compiler internals",
+      "Low-precision work stops at INT8/8-bit quantization; JD's differentiators (FP8, NVFP4, MXFP4) are unaddressed",
+      "No agentic AI systems infrastructure work \u2014 the Gemini usage in COFFIN is an LLM API call for intent classification, not agent framework design",
+      "0 years full-time industry experience against an explicit 2+ years ask; the JD's 'research-oriented team,' 'co-design with driver/compiler teams,' and 'pioneering' framing reads closer to mid-level despite the 'equivalent academic experience' clause"
+    ],
+    "overstated_by_keywords": [
+      "'Distributed computing / cluster-scale execution' was scored Adjacent in the keyword pass, but the gap is bigger than that label implies \u2014 MPI/SLURM experience doesn't transfer cleanly to NCCL-based DL training at cluster scale, which is the specific skill this JD wants",
+      "'Research background in ML systems... diffusion models' was scored Adjacent, but diffusion models specifically are a flat Missing, not a partial match \u2014 only the vision-model half of that line has real backing"
+    ],
+    "reasoning": "The CUDA-kernel-authorship and LLM-quantization/profiling axis is genuinely strong and directly backed by concrete, metric-bearing projects \u2014 stronger than the keyword pass gives credit for in isolation. But the role's actual differentiators are the DL-specific distributed-systems stack (NCCL, parallelism strategies), framework/compiler internals, diffusion models, and production-scale experience, none of which appear anywhere in the profile, and the 2+ years ask sits above a 0-year-full-time background. Net read: strong core CUDA/kernel skillset, real gap on the cluster-scale DL-systems and compiler side this specific team is hiring for."
+  },
+  "job_dir": "/home/jkdxbns/Desktop/jobs/nvidia_cuda-dl-systems-swe",
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-08-10",
+    "channel": "application",
+    "notes": "Form rejection (JR2022831). No feedback."
+  }
+}

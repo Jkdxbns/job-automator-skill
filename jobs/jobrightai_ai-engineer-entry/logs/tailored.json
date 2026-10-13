@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Jobright.ai",
+    "role": "AI Engineer, Entry Level",
+    "company_slug": "jobrightai",
+    "job_slug": "ai-engineer-entry"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with experience building multi-agent AI pipelines and LLM-integrated production systems. Designed a distributed agentic architecture orchestrating LLM intent classification, real-time API communication, and autonomous inference \u2014 resolving 11 integration failures to achieve 100% task reliability across 10 trials.",
+  "skills": {
+    "Languages": [
+      "Python",
+      "C/C++",
+      "Bash"
+    ],
+    "ML / LLM": [
+      "PyTorch",
+      "HuggingFace Transformers",
+      "LLM Fine-tuning",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "TensorRT"
+    ],
+    "Agent / API": [
+      "Multi-agent Orchestration",
+      "REST APIs",
+      "WebSocket",
+      "Flask",
+      "OpenAI API",
+      "Gemini API"
+    ],
+    "Tools": [
+      "Git",
+      "Linux",
+      "GitLab",
+      "Jupyter"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free document understanding transformer) on a custom dataset for structured text extraction using PyTorch.",
+        "Built preprocessing and training pipelines to standardize evaluation workflows across model variants.",
+        "Improved validation accuracy from 55% to 93% via preprocessing improvements and model tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline using custom image stitching, wavelet denoising, and monocular depth estimation \u2014 designed for reliable production deployment.",
+        "Deployed ZoeDepth for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Designed a three-layer multi-agent pipeline \u2014 Flutter client, Flask-SocketIO orchestration server, Jetson inference node \u2014 coordinated via a unified WebSocket fabric.",
+        "Integrated Gemini LLM for intent classification (<500ms), faster-whisper STT (1.0\u20131.4s), and TensorRT YOLO at ~18 FPS into a single agentic workflow.",
+        "Resolved 11 integration failures; achieved 100% pick reliability (10/10 trials) at ~11.5s voice-to-action latency."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a full GPT-2 Transformer in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying, TikToken tokenizer, and custom training loop.",
+        "Validated text generation and model convergence via perplexity evaluation and early stopping."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via structured pruning and 8-bit quantization; benchmarked on HellaSwag, GSM8K, and ARC.",
+        "Quantified production LLM trade-offs: ~7% accuracy drop and +6.3 perplexity increase under aggressive compression."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built end-to-end ASR pipeline: 80-channel mel spectrogram encoder + 6-block causal Transformer decoder with cross-attention, achieving training loss ~0.51 on 1,000 Indian-English samples.",
+        "Designed Cython-accelerated BPE tokenizer achieving 4\u20135.5\u00d7 speedup over pure Python; 15% WER on Hindi-English test set."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

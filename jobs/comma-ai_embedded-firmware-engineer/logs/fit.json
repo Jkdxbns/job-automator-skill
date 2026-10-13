@@ -1,0 +1,121 @@
+{
+  "company": "comma.ai",
+  "company_slug": "comma-ai",
+  "role": "Embedded Firmware Engineer",
+  "job_slug": "embedded-firmware-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 0,
+    "jd_ask_size": 9,
+    "req_cov": 0.389,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "ARM (Cortex-M4)",
+    "RTOS (FreeRTOS)",
+    "interrupt-based systems",
+    "debugging tools (Logic Analyzers, Oscilloscopes)",
+    "embedded toolchains (bare-metal STM32 toolchain)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "drivers",
+      "you_have": "UART/I2C/SPI/GPIO/PWM/ADC register-level peripheral code on STM32"
+    },
+    {
+      "jd_skill": "industrial communication protocols",
+      "you_have": "UART/I2C/SPI/CAN"
+    },
+    {
+      "jd_skill": "CI/CD pipelines",
+      "you_have": "GitLab (BARC cert)"
+    }
+  ],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "C/C++",
+    "ARM",
+    "RTOS",
+    "CI/CD",
+    "drivers",
+    "interrupt-based systems",
+    "industrial communication protocols",
+    "debugging tools",
+    "embedded toolchains"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded toolchains",
+    "real-time operating systems (RTOS)",
+    "debugging tools",
+    "CI/CD pipelines",
+    "drivers",
+    "interrupt-based systems",
+    "industrial communication protocols",
+    "ARM processors"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Perform debugging, testing, and troubleshooting of firmware code",
+    "Develop, optimize, and maintain firmware for ARM processors",
+    "Profile performance in field conditions and tune for low-latency operation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Direct bare-metal ARM Cortex-M4 firmware: register-level GPIO/TIM2/ADC1/I2C1 programming with interrupt-driven sample capture and a hand-written low-level I2C driver (STM32 Bare-Metal Temperature Monitor)",
+      "RTOS experience: FreeRTOS with mutexes for shared-memory task coordination on STM32 (Object Tracking Turret)",
+      "Interrupt-driven UART command handling with real-time servo/PWM control (Object Tracking Turret)",
+      "Field-style performance tuning and debugging under a real distributed system: TensorRT 5.2x latency speedup, 11 integration failures diagnosed and resolved, systemd-managed deployment (COFFIN capstone)",
+      "Debugging instrumentation listed (Oscilloscopes, Logic Analyzers) and used to verify STM32 firmware in Proteus"
+    ],
+    "real_gaps": [
+      "No production or fielded firmware experience at scale \u2014 all embedded work is coursework or personal-project scope, not a shipped product operating across a device fleet",
+      "No CI/CD pipeline experience for firmware \u2014 only plain version control (GitLab) shows up, no automated build/test/flash pipeline",
+      "No demonstrated industrial communication protocol beyond UART/I2C/SPI \u2014 no CAN bus, Modbus, or RS-485, which is what 'industrial communication protocols' usually implies in an automotive context",
+      "No experience with ARM toolchains beyond STM32 Cortex-M4 bare-metal (comma 3X likely runs a heavier ARM SoC stack, possibly Linux-adjacent embedded, not just microcontroller bare-metal)"
+    ],
+    "overstated_by_keywords": [
+      "embedded toolchains \u2014 profile shows bare-metal STM32 C build/flash, not a demonstrated cross-compilation or CI toolchain for ARM firmware at scale"
+    ],
+    "understated_by_keywords": [
+      "Real interrupt-driven driver-writing depth (I2C, UART, ADC) is stronger and more hands-on than a single 'interrupt' keyword match suggests"
+    ],
+    "screening_gaps": [
+      "No production/shipped firmware experience \u2014 everything is capstone or personal-project scale, not a fielded automotive product",
+      "No CI/CD pipeline experience for embedded firmware, only version control",
+      "No industrial communication protocol (CAN/Modbus/RS-485) experience \u2014 only UART/I2C/SPI"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core firmware fundamentals are real and hands-on: bare-metal ARM Cortex-M4 register programming, interrupt-driven drivers, and FreeRTOS task coordination all show up in actual projects, not just keyword matches. The gaps are scale and process, not domain: no shipped/fielded firmware, no CI/CD for embedded, and no industrial bus protocols beyond UART/I2C/SPI. comma.ai's own posting explicitly de-emphasizes pedigree and years of experience, which softens the production-scope gap for a new grad.",
+    "calibration_delta": -2.0
+  }
+}

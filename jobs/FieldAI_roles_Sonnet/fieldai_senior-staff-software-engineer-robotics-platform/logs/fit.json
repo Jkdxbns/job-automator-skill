@@ -1,0 +1,127 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior/Staff Software Engineer, Robotics Platform",
+  "job_slug": "senior-staff-software-engineer-robotics-platform",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 21,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2 (multiple projects: COFFIN, AL5B, UR5e)",
+    "Python",
+    "C/C++",
+    "CUDA (custom kernels, optimization)",
+    "TensorRT",
+    "YOLO",
+    "embedded C (STM32 bare-metal, FreeRTOS)",
+    "Jetson deployment",
+    "PyTorch / ML model optimization",
+    "quantization (8-bit bitsandbytes)",
+    "robotics perception (visual servoing, DH, MoveIt, RViz)",
+    "simulation experience (CARLA autonomous driving)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems / middleware at production scale",
+      "you_have": "ROS2 middleware, UART/I2C/SPI, multi-process robotics; not company-scale distributed systems"
+    },
+    {
+      "jd_skill": "robot capability/state/intent modeling (production APIs)",
+      "you_have": "COFFIN Flutter+Flask-SocketIO full-stack with robot state interfaces (personal scale)"
+    },
+    {
+      "jd_skill": "foundation model integration and deployment",
+      "you_have": "fine-tuned DONUT, TinyLlama quantization, faster-whisper, Gemini intent classification (research/intern scale)"
+    },
+    {
+      "jd_skill": "simulation and real-hardware deployment at scale",
+      "you_have": "multiple Jetson + Arduino + STM32 deployments; no multi-robot fleet deployment"
+    }
+  ],
+  "missing_skills": [
+    "production-scale distributed systems architecture (core founding-member ask)",
+    "full-time industry experience (candidate: 0 years full-time)",
+    "enterprise cloud/infrastructure at scale (only Docker/k3s via personal projects)",
+    "formal functional-safety / ISO26262 certification",
+    "senior/staff-level technical direction and cross-team leadership at company scale"
+  ],
+  "top_ats_keywords": [
+    "robotics platform",
+    "autonomy",
+    "middleware",
+    "edge deployment",
+    "ROS2",
+    "CUDA",
+    "performance engineering",
+    "runtime systems",
+    "simulation",
+    "robot state modeling",
+    "latency",
+    "reliability",
+    "field deployment",
+    "cross-embodiment",
+    "fleet management",
+    "foundation models"
+  ],
+  "required_skills": [
+    "robotics middleware",
+    "distributed systems",
+    "edge performance engineering",
+    "ROS/ROS2",
+    "runtime systems design",
+    "API and subsystem boundary design",
+    "simulation and real-hardware deployment",
+    "robot capability/state/intent modeling",
+    "data-efficient edge movement",
+    "latency and reliability end-to-end"
+  ],
+  "preferred_skills": [
+    "foundation model integration",
+    "fleet management and operational tooling",
+    "large-scale simulation",
+    "functional-safety and reliability engineering",
+    "cross-embodiment portability"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define architecture/interfaces/runtime for portable autonomy stack",
+    "Design robot capability/state/intent models and APIs",
+    "Build middleware and communication layers",
+    "Optimize edge performance (latency, reliability, data movement)",
+    "Deploy on real hardware across embodiments",
+    "Collaborate with autonomy, hardware, simulation, infrastructure, product teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

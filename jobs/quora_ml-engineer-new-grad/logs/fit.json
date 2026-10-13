@@ -1,0 +1,88 @@
+{
+  "company": "Quora (posted via Jobgether)",
+  "company_slug": "quora",
+  "role": "Machine Learning Engineer, New Grad",
+  "job_slug": "ml-engineer-new-grad",
+  "match_pct": 100,
+  "missing_skills": [
+    "prompt engineering",
+    "agent workflows",
+    "AI agents",
+    "A/B testing",
+    "online experimentation",
+    "guardrails",
+    "production monitoring",
+    "consumer-facing AI features",
+    "generative AI applications"
+  ],
+  "adjacent_skills": [
+    "production-scale ML systems -> Jetson/TensorRT edge deployment",
+    "model evaluation -> offline benchmarks (HellaSwag, GSM8K, ARC, mAP, WER)",
+    "scalability -> MPI/SLURM cluster workloads",
+    "generative AI -> GPT-2 from scratch, TinyLlama fine-tune/quantize",
+    "cost/latency optimization -> CUDA kernels, 8-bit quantization, TensorRT"
+  ],
+  "top_ats_keywords": [
+    "large language models",
+    "LLM",
+    "transformer models",
+    "generative AI",
+    "prompt engineering",
+    "agent workflows",
+    "model evaluation",
+    "A/B tests",
+    "offline evaluation",
+    "Python",
+    "C++",
+    "machine learning",
+    "production deployment",
+    "latency",
+    "scalability",
+    "cost efficiency",
+    "experimentation",
+    "guardrails",
+    "failure modes",
+    "monitoring"
+  ],
+  "key_responsibilities": [
+    "Build and iterate on consumer-facing AI features powered by LLMs and generative AI",
+    "Work across the AI engineering stack: prompt engineering, agent workflows, model evaluation, optimization",
+    "Design and run structured experiments including A/B tests and offline evaluations",
+    "Translate user needs into scalable ML solutions with product and engineering teams",
+    "Improve AI system reliability via monitoring, quality analysis, guardrails, failure-mode investigation",
+    "Optimize production AI systems for performance, cost efficiency, latency, and scalability"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Transformer internals depth: built GPT-2 style LM from scratch in PyTorch (multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying)",
+      "Second from-scratch transformer: Whisper-style ASR with 4-block causal decoder + cross-attention, custom Cython BPE tokenizer (4-5.5x speedup), 15% WER",
+      "LLM evaluation + compression: TinyLlama 1.1B 8-bit quantization (LLM.int8), ~55% VRAM reduction, benchmarked on HellaSwag/GSM8K/ARC with <1% accuracy degradation",
+      "Transformer fine-tuning on custom data: DONUT at IIT Bombay, val accuracy 55% -> 93%",
+      "Genuine latency/cost optimization: CUDA kernel rewrite (1.5-2x conv speedup), TensorRT YOLO 5.2x (56.7 -> 10.9 ms)",
+      "Python and C++ both first-class; math foundations backed by Deep Learning, Machine Intelligence, ANN & Fuzzy Logic, Random Signal Analysis coursework"
+    ],
+    "real_gaps": [
+      "No LLM *application* work. Every LLM item is model internals, compression, or benchmarking. The one LLM-as-a-service call (Gemini intent classification) is a single component of the capstone.",
+      "Prompt engineering appears nowhere in the profile.",
+      "Agent workflows / AI agents appear nowhere. The JD names this twice (core accountability + 'an advantage').",
+      "No A/B testing or online experimentation. 'Design and run structured experiments, including A/B tests' is a core accountability; profile has offline benchmarking only.",
+      "No production ML at scale. All work is research, internship, or capstone scope. Nothing served live user traffic. No monitoring, guardrails, failure-mode investigation on a live system.",
+      "Domain mismatch: profile is edge AI / robotics / embedded / HPC. This is consumer web AI product. 'Optimize latency' means Jetson inference ms in the profile, distributed serving p99 in the JD.",
+      "'Ability to evaluate tone, accuracy, clarity, and nuance in content' is a Quora-specific content-quality signal with nothing backing it in the profile."
+    ],
+    "overstated_by_keywords": [
+      "'Model evaluation' - profile means offline benchmark scores; JD means online experimentation plus engagement/quality/trust metrics",
+      "'Optimization' - profile means GPU kernel and quantization work; JD means production serving cost, latency, and scalability",
+      "'LLM applications' - profile has LLM internals and compression, which is the opposite side of the stack from what the JD means",
+      "'Production-ready AI development' - Jetson device deployment is not production serving"
+    ],
+    "reasoning": "On paper Justin clears every stated requirement, and his transformer depth genuinely exceeds what most new grads bring. But the JD's actual day-to-day work (prompt engineering, agent workflows, A/B tests, guardrails, production serving) is almost entirely absent from a profile built on edge AI, kernel optimization, and robotics. He is a strong ML systems engineer applying to an ML product engineer role. The requirements bar is low enough that he clears it; the responsibilities bar is where the distance shows."
+  }
+}

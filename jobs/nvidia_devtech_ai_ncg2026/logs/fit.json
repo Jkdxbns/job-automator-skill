@@ -1,0 +1,55 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Developer Technology Engineer, AI - New College Graduate 2026",
+  "job_slug": "devtech_ai_ncg2026",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Recommender Systems experience"
+  ],
+  "adjacent_skills": [
+    "DL optimization for NLP (transformer/quantization work, not classic NLP task tuning)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "CUDA C/C++",
+    "C/C++",
+    "GPU deep learning",
+    "parallel programming",
+    "performance optimization",
+    "computer architecture",
+    "kernel optimization",
+    "memory coalescing"
+  ],
+  "key_responsibilities": [
+    "Study and develop state of the art deep learning/ML techniques and optimize performance on current and next-gen GPU architectures",
+    "Provide AI solutions using GPUs working directly with key customers",
+    "Collaborate with architecture, research, libraries, tools, system software teams to influence next-gen architecture/software/programming models"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 87,
+    "llm_verdict": "Strong Fit",
+    "scope_note": "Re-run against the actual current resume content (this specific tailored page), not the full master profile \u2014 this is a tighter, more honest bound than the first pass.",
+    "strengths": [
+      "CUDA Kernel Optimization for VGG16 \u2014 custom CUDA C++ kernels, memory coalescing, constant memory, 49.2ms vs 77.5ms baseline (~35% speedup), identical accuracy \u2014 direct hit on 'parallel programming, ideally CUDA C/C++' and 'low-level performance optimizations'",
+      "MPI Hodgkin-Huxley (10.49x speedup, SLURM cluster) and Parallel Ray Tracer (30x speedup, 55 processes) show systematic, benchmarked parallel programming beyond a single lucky number",
+      "SLM Compression (8-bit quantization, ~55% VRAM reduction, benchmarked across HellaSwag/GSM8K/ARC, <1% degradation) is real DL model performance optimization work with rigor",
+      "M.S. Computer Engineering with coursework literally naming the JD's ask (High Performance Architecture, Multiple Processor Systems) matches 'pursuing or recently completed a MS or PhD' exactly",
+      "Team-lead bullet gives the 'communication and organization skills' line something concrete to point to"
+    ],
+    "real_gaps": [
+      "Only one GPU kernel project on the page \u2014 the MPI/SLURM work is CPU-cluster parallelism, not GPU architecture work, so the JD's core ask ('current- and next-generation GPU architectures') rests on a single data point",
+      "No GPU profiling toolchain (Nsight Compute/Systems), no Tensor Core or mixed-precision kernel work, no multi-GPU/NCCL work anywhere on this resume",
+      "Recommender Systems \u2014 zero mention, still the one explicitly named stand-out area with nothing to show",
+      "No customer-facing work on the page \u2014 leadership bullets are internal team lead, not the external 'working directly with key customers' the JD describes",
+      "TensorRT was dropped from this version entirely (it's in the full profile, not this tailored cut) \u2014 the GPU deployment story is thinner here than it could be",
+      "No library/compiler/framework-level contribution shown \u2014 all DL work is application-level use of PyTorch/HuggingFace, not systems-level"
+    ],
+    "reasoning": "Scoped strictly to what's actually printed on this resume (not the full master profile), the fit is still strong on paper \u2014 CUDA C/C++, memory coalescing, and benchmarked speedups are the exact vocabulary of the JD, and the coursework match is unusually literal. But the GPU-specific evidence is thin: one kernel project, no profiling tools, no Tensor Cores, no multi-GPU work. An interviewer who pushes past the VGG16 project into general GPU architecture questions will hit gaps quickly."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "company": "Intuitive",
+  "company_slug": "intuitive",
+  "role": "Senior Embedded Software Engineer",
+  "job_slug": "senior-embedded-software-engineer",
+  "match_pct": 43.9,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 7,
+    "missing_count": 15,
+    "jd_ask_size": 33,
+    "req_cov": 0.636,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Bash",
+    "I2C",
+    "SPI",
+    "TCP/IP",
+    "gdb",
+    "oscilloscopes",
+    "logic analyzers",
+    "real-time",
+    "unit/integration testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux + BeagleBone/Jetson exposure"
+    },
+    {
+      "jd_skill": "multi-threaded applications",
+      "you_have": "RTOS/FreeRTOS tasks"
+    },
+    {
+      "jd_skill": "inter-process communication",
+      "you_have": "RTOS queues, ROS2"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "Git/GitLab"
+    },
+    {
+      "jd_skill": "JTAG",
+      "you_have": "STM32 debugging"
+    },
+    {
+      "jd_skill": "cross-compilation",
+      "you_have": "Jetson/ARM builds"
+    },
+    {
+      "jd_skill": "safety-critical",
+      "you_have": "COFFIN/RTOS coursework"
+    }
+  ],
+  "missing_skills": [
+    "Linux kernel driver development",
+    "BSP",
+    "device tree",
+    "bootloader",
+    "FPGA/PCIe/DMA",
+    "CAN",
+    "protobuf",
+    "secure boot",
+    "FDA-regulated",
+    "UDP",
+    "RTP",
+    "SSL/TLS",
+    "GStreamer",
+    "Yocto",
+    "PetaLinux"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "C++",
+    "kernel driver",
+    "device tree",
+    "bootloader",
+    "Python",
+    "Bash",
+    "TCP/IP",
+    "CAN",
+    "I2C",
+    "SPI",
+    "protobuf",
+    "CI/CD",
+    "Yocto",
+    "GStreamer",
+    "FPGA",
+    "real-time"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded Linux",
+    "multi-threaded applications",
+    "Linux kernel driver development",
+    "BSP",
+    "device tree",
+    "bootloader",
+    "FPGA/PCIe/DMA",
+    "Python",
+    "Bash",
+    "TCP/IP",
+    "CAN",
+    "I2C",
+    "SPI",
+    "protobuf",
+    "inter-process communication",
+    "gdb",
+    "JTAG",
+    "logic analyzers",
+    "oscilloscopes",
+    "CI/CD",
+    "unit/integration testing"
+  ],
+  "preferred_skills": [
+    "real-time",
+    "secure boot",
+    "FDA-regulated",
+    "safety-critical",
+    "UDP",
+    "RTP",
+    "SSL/TLS",
+    "GStreamer",
+    "Yocto",
+    "PetaLinux",
+    "cross-compilation"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "embedded Linux platform software",
+    "hardware bring-up",
+    "system debugging",
+    "reliability/performance"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

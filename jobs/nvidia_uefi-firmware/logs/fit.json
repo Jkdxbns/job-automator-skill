@@ -1,0 +1,49 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "System Software Engineer, UEFI Firmware",
+  "job_slug": "uefi-firmware",
+  "match_pct": 50.0,
+  "missing_skills": [
+    "UEFI",
+    "ACPI",
+    "SMBIOS",
+    "Linux kernel internals",
+    "FPGA bring-up",
+    "pre/post silicon verification",
+    "ARM SBSA/SBBR",
+    "firmware test frameworks"
+  ],
+  "adjacent_skills": [
+    "ARM technologies/programming (STM32 Cortex-M4)",
+    "low-level OS functionality (FreeRTOS/ChibiOS bare-metal)",
+    "kernel modules/device drivers (bare-metal I2C/SPI/UART/GPIO drivers)",
+    "system software (embedded firmware)"
+  ],
+  "top_ats_keywords": [
+    "UEFI",
+    "ACPI",
+    "SMBIOS",
+    "ARM",
+    "C programming",
+    "Linux kernel",
+    "device drivers",
+    "debugging",
+    "FPGA",
+    "silicon verification"
+  ],
+  "key_responsibilities": [
+    "Features/code development for UEFI firmware",
+    "Document code flow, data flow, and architecture for UEFI Firmware",
+    "Debug and root cause UEFI Firmware issues",
+    "Support simulation and FPGA environment bringup",
+    "Plan and execute pre and post silicon verification",
+    "Develop test frameworks for UEFI and ARM SBSA/SBBR requirements"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

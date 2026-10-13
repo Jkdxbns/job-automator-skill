@@ -1,0 +1,15 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "Agility Robotics",
+  "role": "Robotics Software Engineer II",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology, and I want to work at the boundary between prototype and production that this role is built around, root causing failures on physical hardware and turning them into skills that hold up in the field. At Agility that boundary is the whole job, and it is exactly where my capstone work has lived.",
+    "On my MS capstone, a voice-controlled, vision-guided robotic pick-and-place system, I resolved 11 distinct integration failures, including false-positive detections, servo brown-out, and stale-frame capture, to reach 100% pick reliability across 10 trials. I also built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture, so I already have hands-on experience turning teleop-style demonstration data into a structured dataset for improving learned behaviors, not just running it in simulation.",
+    "The testing and validation side of the role maps directly onto a second project: I derived DH tables and hand-computed full forward kinematic chains for a 6-DoF UR5e and a 5-DoF AL5B, validated them against MoveIt and RViz URDF models in ROS 2, then planned and executed collision-free pick-and-place trajectories on the physical UR5e through the UR ROS 2 driver, measuring AL5B repeatability at under 2mm over 10 trials. Separately, on an object tracking turret, I closed the loop between a YOLOv8 detector on a Jetson and an STM32 running FreeRTOS, coordinating multi-servo PWM control with interrupt-driven commands and user override, which is the same real-time, hardware-in-the-loop discipline this role asks for.",
+    "I would welcome the chance to bring this background to Agility's Skills team and help take robot behaviors from prototype to reliable customer deployments. I am glad to share more of the kinematics, integration, and failure debugging work directly."
+  ],
+  "sign_off": "Sincerely,"
+}

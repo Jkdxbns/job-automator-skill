@@ -1,0 +1,158 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior Embedded BSP Engineer",
+  "job_slug": "senior-embedded-linux-engineer",
+  "match_pct": 40.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 7,
+    "missing_count": 15,
+    "jd_ask_size": 31,
+    "req_cov": 0.688,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "NVIDIA Jetson (Thor or Orin) and JetPack flashing / carrier customization",
+    "Embedded hardware debugging (oscilloscopes, logic analyzers, JTAG, serial)",
+    "Schematic / PCB / hardware design interpretation",
+    "C/C++ programming",
+    "Python / Bash for embedded/tooling",
+    "Git version control",
+    "Embedded Linux administration (systemd, networking, remote desktop)",
+    "Cross-functional engineering collaboration",
+    "Embedded C / bare-metal / firmware programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Security / boot / firmware concepts (closest available, limited scope)",
+      "you_have": "(demoted from have: profile evidence is partial)"
+    },
+    {
+      "jd_skill": "Image build / deployment pipeline experience (closest available, coursework/project scale)",
+      "you_have": "(demoted from have: profile evidence is partial)"
+    },
+    {
+      "jd_skill": "Device tree / pinmux / peripheral enablement (production BSP scale)",
+      "you_have": "Embedded peripheral programming (GPIO, ADC, I2C, UART, PWM) on STM32 and Arduino"
+    },
+    {
+      "jd_skill": "OS lifecycle tooling (JetPack / NVIDIA BSP upgrades)",
+      "you_have": "NVIDIA Jetson deployment with systemd service setup"
+    },
+    {
+      "jd_skill": "CUDA / TensorRT / container environments on Jetson",
+      "you_have": "CUDA C++, TensorRT optimization, Jetson deployment"
+    },
+    {
+      "jd_skill": "ROS 2 and DDS middleware",
+      "you_have": "ROS2 / ROS / MoveIt / RViz with URDF validation"
+    },
+    {
+      "jd_skill": "Humanoid / industrial robotics / high-performance real-time systems",
+      "you_have": "Robotics arm control, autonomous driving, embedded turret tracking"
+    }
+  ],
+  "missing_skills": [
+    "OTA update frameworks (RAUC, SWUpdate, Mender) / fleet provisioning",
+    "Safety-critical embedded design (ISO 26262)",
+    "Upstream kernel / open-source BSP contributions",
+    "5+ years full-time embedded Linux / QNX BSP and kernel experience (minimum required)",
+    "Production-scale NVIDIA Jetson Thor BSP bring-up and device tree customization",
+    "Boot chain customization: UEFI, initramfs, rootfs layout at production scale",
+    "Out-of-tree kernel module / QNX resource manager development",
+    "Yocto / Buildroot / CI-driven reproducible OS image builds",
+    "PREEMPT_RT Linux real-time tuning (CPU isolation, IRQ affinity, scheduling tuning)",
+    "QNX Neutrino (preferred skill not held)",
+    "A/B OTA updates (RAUC / SWUpdate / Mender) and secure boot implementation",
+    "Disk encryption and fleet flashing / provisioning at scale",
+    "CAN / EtherCAT / Ethernet embedded networking protocols",
+    "Embedded Linux security fundamentals (PKI, hardware key storage, secure boot deployment)",
+    "Production fleet deployment / volume production hardware ownership"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "BSP",
+    "Jetson Thor",
+    "JetPack",
+    "Device tree",
+    "Kernel",
+    "Bootloader",
+    "UEFI",
+    "Yocto",
+    "PREEMPT_RT",
+    "OTA updates",
+    "Secure boot",
+    "C/C++",
+    "Embedded networking",
+    "CAN",
+    "EtherCAT",
+    "QNX"
+  ],
+  "required_skills": [
+    "NVIDIA Jetson (Thor or Orin) bring-up and JetPack flashing",
+    "Linux kernel configuration and device tree development",
+    "Custom carrier board BSP (board bring-up, device tree, pinmux, peripheral enablement)",
+    "Boot chain customization (firmware, UEFI, OS loader, initramfs, rootfs)",
+    "Out-of-tree kernel modules / QNX resource managers",
+    "OS image builds (Yocto / JetPack / Ubuntu; QNX SDP)",
+    "Real-time / low-latency OS tuning (PREEMPT_RT, CPU isolation, IRQ affinity, QNX scheduling, thermal/power profiles)",
+    "OS lifecycle tooling (JetPack/NVIDIA BSP upgrades, A/B OTA updates, secure boot, disk encryption, fleet flashing/provisioning)",
+    "Embedded hardware debugging (oscilloscopes, logic analyzers, JTAG, serial)",
+    "Schematic and datasheet interpretation",
+    "Embedded networking (CAN, EtherCAT, Ethernet)",
+    "Embedded Linux security (secure boot, PKI, hardware key storage)",
+    "C/C++ programming",
+    "Python/Bash for tooling",
+    "Git version control",
+    "Cross-functional collaboration with Hardware / Firmware / Robot Software / QA / Manufacturing"
+  ],
+  "preferred_skills": [
+    "QNX Neutrino (SDP, BSP, resource managers)",
+    "Real-time Linux (PREEMPT_RT)",
+    "Humanoid / industrial robotics / high-performance real-time systems",
+    "CUDA and TensorRT on Jetson",
+    "Container environments on Jetson",
+    "OTA update frameworks (RAUC, SWUpdate, Mender) and fleet provisioning",
+    "ROS 2 and DDS middleware",
+    "Safety-critical embedded design (ISO 26262)",
+    "Upstream kernel / open-source BSP contributions"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own BSP and OS configuration for NVIDIA Jetson Thor compute in humanoid robots",
+    "Bring up custom carrier boards (device tree, pinmux, peripherals)",
+    "Develop and maintain boot chain, kernel / RTOS config, out-of-tree drivers",
+    "Build reproducible OS images with CI-driven builds",
+    "Tune for real-time / low-latency (PREEMPT_RT, CPU isolation, scheduling, thermal/power)",
+    "Own OS lifecycle: JetPack/NVIDIA BSP upgrades, A/B OTA updates, secure boot, disk encryption, fleet flashing",
+    "Triage lab and field issues (boot failures, kernel panics, driver regressions, thermal throttling)",
+    "Review schematics and define hardware requirements with hardware team",
+    "Collaborate across Hardware, Robot Software, QA, Validation, Manufacturing for production scale-up",
+    "Participate in code/design reviews; contribute to compute platform architecture"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

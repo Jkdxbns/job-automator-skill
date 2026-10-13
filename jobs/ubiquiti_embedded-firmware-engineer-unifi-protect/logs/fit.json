@@ -1,0 +1,154 @@
+{
+  "company": "Ubiquiti",
+  "company_slug": "ubiquiti",
+  "role": "Embedded Firmware Engineer - UniFi Protect",
+  "job_slug": "embedded-firmware-engineer-unifi-protect",
+  "match_pct": 56.1,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 3,
+    "missing_count": 13,
+    "jd_ask_size": 33,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "C",
+    "Linux",
+    "Scripting",
+    "Python",
+    "Bash",
+    "Git",
+    "Websocket",
+    "Raspberry Pi",
+    "Arduino",
+    "GPIO",
+    "USB",
+    "UART",
+    "PWM",
+    "Flash",
+    "SPI",
+    "I2C"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ARM",
+      "you_have": "Cortex-M4 / Jetson"
+    },
+    {
+      "jd_skill": "Linux drivers",
+      "you_have": "bare-metal I2C driver"
+    },
+    {
+      "jd_skill": "REST API",
+      "you_have": "Flask / Flask-SocketIO"
+    }
+  ],
+  "missing_skills": [
+    "Sigmastar",
+    "Ambarella",
+    "Video/Audio streaming",
+    "Transcoding",
+    "gdb",
+    "strace",
+    "gRPC",
+    "Bootloader",
+    "Linux kernel",
+    "BeagleBoard",
+    "OpenWRT",
+    "Buildroot",
+    "Yocto"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "Linux",
+    "ARM",
+    "gdb",
+    "strace",
+    "Yocto",
+    "Buildroot",
+    "OpenWRT",
+    "Sigmastar",
+    "Ambarella",
+    "gRPC",
+    "Websocket",
+    "REST",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "USB",
+    "PWM",
+    "Git",
+    "Python",
+    "shell"
+  ],
+  "required_skills": [
+    "C++",
+    "C",
+    "Sigmastar",
+    "Ambarella",
+    "Video/Audio streaming",
+    "Transcoding",
+    "ARM",
+    "gdb",
+    "strace",
+    "Linux drivers",
+    "Linux kernel",
+    "Scripting",
+    "Git",
+    "Websocket",
+    "REST API",
+    "gRPC",
+    "Bootloader",
+    "rootfs"
+  ],
+  "preferred_skills": [
+    "Raspberry Pi",
+    "Arduino",
+    "BeagleBoard",
+    "OpenWRT",
+    "Buildroot",
+    "Yocto",
+    "GPIO",
+    "USB",
+    "UART",
+    "PWM",
+    "Flash",
+    "SPI",
+    "I2C"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "kernel and user mode firmware bootloader to userspace",
+    "Websocket/REST/gRPC",
+    "hardware test and diagnosis"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Bucharest, Romania",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,37 @@
+{
+  "company": "The Boring Company",
+  "company_slug": "boringcompany",
+  "role": "Embedded Engineer (Unified — Software + Perception)",
+  "job_slug": "embedded-unified",
+  "match_pct": 87,
+  "missing_skills": ["LiDAR"],
+  "adjacent_skills": [
+    "path planning → MoveIt/ROS2 motion planning",
+    "sensor fusion → multi-sensor pipelines (ToF, IMU-class, cameras)",
+    "collision avoidance → CARLA autonomous driving + obstacle detection",
+    "industrial automation → ABB RobotStudio + UR5e production arm",
+    "safety-critical software → FreeRTOS real-time embedded",
+    "DAQ optimization → ADC pipelines, sensor sampling (STM32)"
+  ],
+  "top_ats_keywords": [
+    "C++", "Python", "embedded Linux", "sensor integration", "real-time",
+    "computer vision", "object detection", "ROS/ROS2", "sensor fusion",
+    "safety-critical", "YOLO", "FreeRTOS", "STM32", "Linux", "Git",
+    "deep learning", "perception pipeline", "path planning", "semantic segmentation",
+    "UART/I2C/SPI", "embedded systems", "modern C++", "industrial automation"
+  ],
+  "key_responsibilities": [
+    "Write production-grade C++ for embedded Linux systems controlling tunneling equipment",
+    "Integrate sensors, power electronics, and control systems hands-on",
+    "Design safety-critical software for harsh industrial environments",
+    "Implement perception pipelines with sensor fusion and real-time computer vision",
+    "Build collision avoidance systems from raw sensor data to reactive control",
+    "Deploy path planning and constraint-based navigation in confined environments",
+    "Drive hardware-to-operations integration end-to-end"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  }
+}

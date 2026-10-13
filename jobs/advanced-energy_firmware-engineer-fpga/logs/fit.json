@@ -1,0 +1,114 @@
+{
+  "company": "Advanced Energy",
+  "company_slug": "advanced-energy",
+  "role": "Firmware Engineer (FPGA Engineer)",
+  "job_slug": "firmware-engineer-fpga",
+  "match_pct": 28.9,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 1,
+    "missing_count": 13,
+    "jd_ask_size": 19,
+    "req_cov": 0.312,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Git",
+    "Python",
+    "C++",
+    "hardware debugging (oscilloscope/logic analyzer/JTAG)",
+    "control systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FPGA-based DSP (FIR/IIR/CIC filters)",
+      "you_have": "general DSP / audio-signal-processing exposure"
+    }
+  ],
+  "missing_skills": [
+    "VHDL",
+    "Xilinx Vivado",
+    "Mentor Questasim",
+    "FPGA/RTL design",
+    "Zynq UltraScale+ / Series 7",
+    "AXI",
+    "Wishbone",
+    "CDC",
+    "timing analysis and closure",
+    "MATLAB",
+    "JIRA",
+    "Confluence",
+    "Bitbucket"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "VHDL",
+    "Vivado",
+    "RTL",
+    "DSP",
+    "Zynq",
+    "AXI",
+    "CDC",
+    "JTAG",
+    "timing closure",
+    "Questasim"
+  ],
+  "required_skills": [
+    "VHDL",
+    "Xilinx Vivado",
+    "Mentor Questasim",
+    "FPGA SoC (Zynq UltraScale+, Series 7)",
+    "Vivado TCL",
+    "timing analysis and closure",
+    "CDC",
+    "AXI",
+    "Wishbone",
+    "arbitration logic",
+    "oscilloscopes",
+    "logic analyzers",
+    "spectrum analyzers",
+    "JTAG debuggers",
+    "FPGA-based DSP (FIR, IIR, CIC filters)",
+    "Git"
+  ],
+  "preferred_skills": [
+    "MATLAB",
+    "Python",
+    "C++",
+    "JIRA",
+    "Confluence",
+    "Bitbucket"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design RTL logic for FPGAs",
+    "FPGA verification test benches",
+    "Cross-functional HW/SW interface definition",
+    "Technical review and hardware selection for mission-critical systems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Redwood City, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

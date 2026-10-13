@@ -1,0 +1,33 @@
+{
+  "company": "Waymo",
+  "company_slug": "waymo",
+  "role": "Research Scientist, RL for Autonomous Planning & World Modeling",
+  "job_slug": "research-scientist-rl-planning-world-modeling",
+  "match_pct": 50,
+  "missing_skills": [
+    "Reinforcement Learning research experience",
+    "High-impact publications (ArXiv, NeurIPS/ICLR/CVPR)",
+    "3+ years industry or post-doc research experience",
+    "On-policy learning / RLHF alignment",
+    "First-author publications at top-tier venues"
+  ],
+  "adjacent_skills": [
+    "Foundation Models (from-scratch TinyLlama/GPT-2, tokenizer/BPE, Transformer/attention work) -> RL/foundation model post-training",
+    "Distributed training (SLURM-managed, MPI) -> Data parallel/FSDP/sharding",
+    "Distributed inference (TensorRT-optimized, pynvml profiling) -> globally distributed inference infra",
+    "Multi-machine training (SLURM-managed jobs) -> large-scale multi-machine training"
+  ],
+  "top_ats_keywords": ["Reinforcement Learning", "Foundation Models", "FSDP", "data parallel", "sharding", "distributed training", "tensor-parallel", "publications", "PhD"],
+  "key_responsibilities": [
+    "Foundation World Model post-training and evaluation",
+    "RL and distillation techniques for autonomous vehicle trajectory planning",
+    "Integrating emerging RL research into internal infrastructure with rigorous ablations",
+    "Cross-team collaboration on post-training best practices"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,85 @@
+{
+  "company": "Micron Technology",
+  "company_slug": "micron",
+  "role": "New College Grad - Embedded Firmware Engineer (JR109306)",
+  "job_slug": "embedded-firmware-engineer",
+  "match_pct": 92.3,
+  "missing_skills": [
+    "PCIe",
+    "container experience"
+  ],
+  "adjacent_skills": [
+    "schematics/datasheet/timing diagram reasoning",
+    "DMMs",
+    "GNU toolchain",
+    "signal/register level debugging",
+    "board bring-up",
+    "firmware-to-electrical-measurement correlation",
+    "timing/signal integrity/power debugging"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "bare metal",
+    "embedded Linux",
+    "GPIO",
+    "SPI",
+    "I2C",
+    "UART",
+    "PCIe",
+    "oscilloscope",
+    "logic analyzer",
+    "DMM",
+    "schematics",
+    "datasheets",
+    "GNU toolchain",
+    "Python",
+    "containers",
+    "PCB layout",
+    "board bring-up",
+    "AI-assisted development tools"
+  ],
+  "key_responsibilities": [
+    "Develop embedded software from bare metal to embedded Linux plus higher level interface software",
+    "Debug software-hardware interactions using schematics, datasheets, and lab equipment (oscilloscopes, logic analyzers, DMMs, SMUs)",
+    "Work cross-discipline with electrical, control, and mechanical engineers to build custom semiconductor manufacturing equipment",
+    "Support and improve existing equipment designs for manufacturing/production"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "location": "Boise, ID (on-site, lab environment)",
+  "sponsorship": "not mentioned in JD; Micron not in known-sponsor list, unconfirmed",
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register-level bare-metal firmware: STM32 Bare-Metal Temperature Monitor drives GPIO/TIM2/ADC1/I2C1 directly in embedded C with no HAL, which is the exact 'signal and register level' debugging skill the JD names.",
+      "Real hardware interface hours: I2C (TCA9548A mux on the COFFIN capstone), UART (STM32<->Jetson command link on the Object Tracking Turret), SPI/I2C sensor work across multiple projects.",
+      "PCB and schematic literacy: EAGLE-designed and fabricated PCBs for the Agnel Robotics Club, so schematic/datasheet reading is grounded in something built, not just claimed.",
+      "Genuine cross-discipline hardware team experience: led a 25-member robotics team covering mechanical design, PCB fabrication, and integration end to end, which maps directly onto the JD's cross-discipline equipment-building responsibility.",
+      "Oscilloscopes and Logic Analyzers are on the skills list backed by embedded lab coursework/projects, matching the 'general lab equipment knowledge' minimum qualification."
+    ],
+    "real_gaps": [
+      "'Bare metal to embedded Linux' is doing a lot of work in the JD. Justin's Linux exposure is running Python/ROS/CUDA on top of Jetson's Ubuntu userspace and using an HPC/SLURM cluster, not embedded Linux development (BSP, kernel config, device drivers, buildroot/yocto). Those are different skill sets and this role explicitly wants both ends of that spectrum.",
+      "No container experience anywhere in the profile (Docker, Podman, etc.), and the JD lists container experience as preferred and mentions RHEL containers in the Code responsibility directly.",
+      "No board bring-up story. The EAGLE PCB work is fabrication, not bring-up (first power-on, rework, debugging a new board from scratch) and no bullet documents that process.",
+      "No SMU (source measure unit) experience and no bullet demonstrates independent root-causing of a hardware-software issue on the bench with real instrumentation. The Proteus verification on the STM32 project is simulation, not physical bench debug.",
+      "No RHEL specifically, and no manufacturing/production-support experience, though the latter is a normal gap for a new grad."
+    ],
+    "overstated_by_keywords": [
+      "'Linux' \u2014 keyword match counted this as HAVE, but the underlying experience is Linux-as-a-platform (Jetson, SLURM), not embedded Linux development, which is what this JD actually means by the term.",
+      "'GNU toolchain' \u2014 counted ADJACENT on paper, but there is no explicit evidence of direct toolchain work (cross-compilation, linker scripts, makefiles for bare-metal targets) beyond general CMake/build usage.",
+      "'signal and register level debugging' \u2014 real on the STM32 side, but the JD frames this as bench-level root-causing with lab equipment, which the STM32 project doesn't fully demonstrate (Proteus-verified, not oscilloscope-debugged)."
+    ],
+    "reasoning": "The core new-grad bar here (C/C++, register-level firmware, PCB/schematic literacy, hardware interfaces, cross-discipline hardware team building) is genuinely strong and well above typical new-grad depth. The gap is that the JD is really asking for two things layered together, deep bare-metal firmware AND embedded Linux/container/bring-up experience, and only the first half is backed by real project depth; the second half is closer to adjacent-at-best. Worth applying given the new-grad bar, but be ready to be candid in interviews that the Linux side of the experience is application-level (Jetson/SLURM), not BSP/driver work, and that there's no hands-on container or board bring-up story yet."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-01",
+    "channel": "application",
+    "notes": "Form rejection (JR109306); AI-assisted screening disclosed. No feedback."
+  }
+}

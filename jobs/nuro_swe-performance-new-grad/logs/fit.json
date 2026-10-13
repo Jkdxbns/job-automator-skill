@@ -1,0 +1,26 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Software Engineer, Performance - New Grad",
+  "job_slug": "swe-performance-new-grad",
+  "match_pct": 92,
+  "missing_skills": ["perf", "VTune", "BPF", "OpenCL", "Nvidia DriveOS", "thread prioritization", "process/thread lifetime management"],
+  "adjacent_skills": ["operating systems", "highly concurrent multi-threaded", "Nsight Systems", "computer architecture"],
+  "top_ats_keywords": ["C++", "performance optimization", "computer architecture", "operating systems", "multi-threaded", "CUDA", "GPU", "ARM", "SoC", "Nsight Systems", "ROS", "profiling", "memory management", "x86"],
+  "key_responsibilities": [
+    "Analyze, profile, debug, monitor, optimize performance of AV software",
+    "Design systems/tools for memory management, thread prioritization, process/thread lifetime management",
+    "Define system-level architecture and building blocks with cross-team engineers",
+    "Build core libraries and APIs for high-performance code"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "reasoning": "Strong new-grad candidate on the GPU/edge performance axis, but the role's core is CPU-side systems performance (thread scheduling, process lifetime, systems profiling) where the depth is thinner.",
+    "strengths": ["C++ CUDA kernel optimization", "ARM/SoC porting via Jetson+TensorRT", "MPI/RTOS concurrency breadth", "ROS bonus"],
+    "real_gaps": ["OS-level thread prioritization / process lifetime management", "system profilers perf/VTune/BPF", "production shared-memory multithreading"],
+    "overstated_by_keywords": ["operating systems expertise", "profiling tools", "highly concurrent multi-threaded"]
+  }
+}

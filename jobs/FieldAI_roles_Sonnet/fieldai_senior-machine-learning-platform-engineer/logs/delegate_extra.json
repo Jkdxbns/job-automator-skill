@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization (35% speedup VGG16)",
+    "Edge AI deployment on NVIDIA Jetson (TensorRT, YOLO, faster-whisper, 5.2x speedup)",
+    "ROS2 robotics and perception pipelines (MoveIt, RViz, DH parameters, visual servoing)",
+    "Embedded bare-metal C (STM32 Cortex-M4, FreeRTOS, interrupt-driven I2C/ADC)",
+    "ML model optimization (8-bit quantization 55% VRAM reduction, ASR 15% WER, OCR 55%->93%)",
+    "Full-stack hardware+ML integration (Flutter+Flask+Jetson+Arduino+ToF+I2C mux)"
+  ],
+  "real_gaps": [
+    "0 full-time years vs Senior title requirement",
+    "No production-scale ML platform/infrastructure experience at company scale",
+    "No formal functional-safety / ISO26262 certification",
+    "No actual globally deployed field-robotics track record",
+    "Limited to internship/research scale rather than senior industry scope"
+  ],
+  "reasoning": "Technical skills (CUDA, PyTorch, ROS2, Jetson, TensorRT, YOLO, embedded C, ML optimization) strongly align with embodied AI/robotics domain, but the 'Senior Machine Learning Platform Engineer' title demands 5+ years full-time experience and production-scale ML infrastructure/deployment leadership. The candidate is new-grad (0 FT years, May 2026) with 7 internships/research roles \u2014 a clear senior-level mismatch. No sponsorship, clearance, citizenship, or ITAR barriers exist; location (Irvine, CA) is compatible with relocation willingness. The domain fit is high, but the experience-level blocker is decisive.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/67623c6f-2bd1-4149-a880-44563a2326dd",
+  "team": "Infra & Platform Engineering",
+  "location": "Irvine, CA"
+}

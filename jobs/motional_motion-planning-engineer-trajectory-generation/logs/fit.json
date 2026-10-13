@@ -1,0 +1,96 @@
+{
+  "company": "Motional",
+  "company_slug": "motional",
+  "role": "Motion Planning Engineer - Trajectory Generation",
+  "job_slug": "motion-planning-engineer-trajectory-generation",
+  "match_pct": 36.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 11,
+    "req_cov": 0.188,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS/ROS2"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning",
+      "you_have": "robot arm kinematics (DH parameters, forward/inverse kinematics, MoveIt, visual servoing)"
+    },
+    {
+      "jd_skill": "autonomous vehicle simulation",
+      "you_have": "CARLA simulator (Town02)"
+    }
+  ],
+  "missing_skills": [
+    "Model Predictive Control (MPC)",
+    "planning under uncertainty",
+    "vehicle dynamics and control",
+    "numerical optimization (interior point, SQP)",
+    "optimization solvers (IPOPT, Gurobi)",
+    "trajectory optimization"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "MPC",
+    "motion planning",
+    "trajectory optimization",
+    "IPOPT",
+    "Gurobi",
+    "robotics",
+    "autonomous vehicles",
+    "optimization solvers",
+    "simulation"
+  ],
+  "required_skills": [
+    "C++",
+    "Model Predictive Control (MPC)",
+    "motion planning",
+    "planning under uncertainty",
+    "vehicle dynamics and control",
+    "simulation environments",
+    "numerical optimization algorithms",
+    "optimization solvers (IPOPT, Gurobi)"
+  ],
+  "preferred_skills": [
+    "Python"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop trajectory optimization algorithms",
+    "Design robust scalable software for on-road autonomous vehicles",
+    "C++ code and design reviews",
+    "Collaborate with ML decision/behavior planning, prediction, vehicle control teams",
+    "Create project proposals driving technical roadmaps",
+    "Mentor junior team members"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, Pittsburgh, Remote U.S. Only",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

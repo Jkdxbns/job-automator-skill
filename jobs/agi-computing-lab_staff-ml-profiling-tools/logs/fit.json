@@ -1,0 +1,131 @@
+{
+  "company": "AGI Computing Lab (company not named in paste)",
+  "company_slug": "agi-computing-lab",
+  "role": "Staff Engineer, ML Profiling Tools",
+  "job_slug": "staff-ml-profiling-tools",
+  "match_pct": 43.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 8,
+    "missing_count": 9,
+    "jd_ask_size": 23,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "GPU",
+    "CPU",
+    "LLM inference",
+    "computing architectures (CPU/GPU)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "interactive data visualization",
+      "you_have": "VisPy / Matplotlib"
+    },
+    {
+      "jd_skill": "modern web technologies",
+      "you_have": "Flask / WebSocket"
+    },
+    {
+      "jd_skill": "diagnostic dashboards",
+      "you_have": "PySide6/Qt GUI"
+    },
+    {
+      "jd_skill": "systems profiling and tracing tools",
+      "you_have": "pynvml Profiling"
+    },
+    {
+      "jd_skill": "PyTorch Profiler",
+      "you_have": "pynvml Profiling"
+    },
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "kernel dispatch",
+      "you_have": "CUDA kernel optimization"
+    },
+    {
+      "jd_skill": "performance bottlenecks (memory bandwidth, compute utilization)",
+      "you_have": "Memory coalescing"
+    }
+  ],
+  "missing_skills": [
+    "Perfetto",
+    "Chrome Tracing",
+    "Nsight",
+    "TensorBoard",
+    "eBPF",
+    "flame graphs",
+    "developer tools / IDE extensions",
+    "pipeline/tensor parallelism",
+    "TPU"
+  ],
+  "top_ats_keywords": [
+    "Perfetto",
+    "Chrome Tracing",
+    "Nsight",
+    "PyTorch Profiler",
+    "TensorBoard",
+    "eBPF",
+    "flame graphs",
+    "PyTorch",
+    "JAX",
+    "TensorFlow",
+    "LLM inference",
+    "GPU"
+  ],
+  "required_skills": [
+    "interactive data visualization",
+    "modern web technologies",
+    "developer tools",
+    "diagnostic dashboards",
+    "systems profiling and tracing tools",
+    "computing architectures (CPU/GPU)",
+    "performance bottlenecks (memory bandwidth, compute utilization)"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "JAX",
+    "TensorFlow",
+    "LLM inference",
+    "pipeline/tensor parallelism",
+    "kernel dispatch"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "web-based visual analytics tools for AI/ML workloads",
+    "flame graphs, call trees, timeline charts over massive telemetry",
+    "partner with compiler engineers and hardware architects",
+    "developer experience for ML performance profiling",
+    "diagnose inference bottlenecks"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose, CA (daily onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

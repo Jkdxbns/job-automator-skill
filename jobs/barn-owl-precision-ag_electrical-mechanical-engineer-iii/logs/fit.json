@@ -1,0 +1,124 @@
+{
+  "company": "Barn Owl Precision Ag (BOPA)",
+  "company_slug": "barn-owl-precision-ag",
+  "role": "Electrical/Mechanical Engineer III",
+  "job_slug": "electrical-mechanical-engineer-iii",
+  "match_pct": 34.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 13,
+    "jd_ask_size": 22,
+    "req_cov": 0.615,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PCB design",
+    "CAD",
+    "ROS2",
+    "sensors",
+    "motors and actuators",
+    "embedded controls"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "test and validation",
+      "you_have": "Oscilloscopes / Logic Analyzers"
+    },
+    {
+      "jd_skill": "mobile robotics",
+      "you_have": "ROS2 / odometry"
+    },
+    {
+      "jd_skill": "field robotics",
+      "you_have": "COFFIN / Jetson robotics"
+    }
+  ],
+  "missing_skills": [
+    "electrical architecture",
+    "power distribution",
+    "wiring harness",
+    "tolerancing",
+    "manufacturing/DFM",
+    "root cause analysis",
+    "mechanical design",
+    "CAN",
+    "FEA",
+    "vibration and fatigue",
+    "thermal design",
+    "environmental sealing",
+    "contract manufacturers"
+  ],
+  "top_ats_keywords": [
+    "PCB",
+    "CAD",
+    "CAN",
+    "ROS2",
+    "FEA",
+    "wiring harness",
+    "tolerancing",
+    "DFM",
+    "sensors",
+    "actuators",
+    "motors",
+    "field robotics"
+  ],
+  "required_skills": [
+    "electrical architecture",
+    "power distribution",
+    "wiring harness",
+    "PCB design",
+    "CAD",
+    "tolerancing",
+    "manufacturing/DFM",
+    "motors and actuators",
+    "sensors",
+    "root cause analysis",
+    "test and validation",
+    "field robotics",
+    "mechanical design"
+  ],
+  "preferred_skills": [
+    "CAN",
+    "ROS2",
+    "embedded controls",
+    "FEA",
+    "vibration and fatigue",
+    "thermal design",
+    "environmental sealing",
+    "mobile robotics",
+    "contract manufacturers"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "electrical architecture",
+    "mechanical chassis design",
+    "validation and RCA",
+    "production readiness",
+    "technical leadership"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Florence, CO (in-office; hybrid Denver/Boulder)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

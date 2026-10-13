@@ -1,0 +1,114 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "System Software Engineer - AI",
+  "job_slug": "system-software-engineer-ai",
+  "match_pct": 46.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++ and Python",
+    "Linux development environment",
+    "GPU programming (CUDA)",
+    "Distributed AI framework \u2014 PyTorch"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Systems programming fundamentals (memory management, concurrency, OS internals)",
+      "you_have": "C/C++, bare-metal embedded, FreeRTOS"
+    },
+    {
+      "jd_skill": "Performance optimization for parallel architectures",
+      "you_have": "CUDA kernel optimization, memory coalescing"
+    },
+    {
+      "jd_skill": "Distributed AI framework \u2014 JAX",
+      "you_have": "PyTorch (related framework)"
+    },
+    {
+      "jd_skill": "Inference engines (vLLM, SGLang, Dynamo/TRT-LLM)",
+      "you_have": "TensorRT relates to TRT-LLM"
+    },
+    {
+      "jd_skill": "Large-scale cluster orchestration",
+      "you_have": "SLURM-managed clusters"
+    }
+  ],
+  "missing_skills": [
+    "DeepSpeed",
+    "vLLM",
+    "SGLang",
+    "Dynamo",
+    "Telemetry tools"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "C++",
+    "Python",
+    "Linux",
+    "systems programming",
+    "GPU",
+    "performance optimization",
+    "parallel architectures",
+    "distributed AI",
+    "PyTorch",
+    "JAX",
+    "DeepSpeed",
+    "vLLM",
+    "SGLang",
+    "Dynamo",
+    "TRT-LLM",
+    "benchmarking",
+    "multi-node clusters",
+    "cluster orchestration",
+    "telemetry"
+  ],
+  "required_skills": [
+    "Strong proficiency in C++ and Python",
+    "Deep understanding of systems programming fundamentals (memory management, concurrency, OS internals)",
+    "Proficient in a Linux development environment"
+  ],
+  "preferred_skills": [
+    "Experience with GPU programming (CUDA) and performance optimization for parallel architectures",
+    "Familiarity with distributed AI frameworks (PyTorch, JAX, or DeepSpeed) and/or inference engines (vLLM, SGLang, Dynamo/TRT-LLM)",
+    "Hands-on experience with large-scale cluster orchestration and telemetry tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and implement communication and execution primitives for large-scale AI models across thousands of GPUs",
+    "Collaborate across the stack to influence foundational technology design",
+    "Identify and resolve performance bottlenecks in distributed training and inference through software-hardware interface analysis",
+    "Conduct rigorous performance benchmarking and characterization on multi-node clusters"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Palo Alto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

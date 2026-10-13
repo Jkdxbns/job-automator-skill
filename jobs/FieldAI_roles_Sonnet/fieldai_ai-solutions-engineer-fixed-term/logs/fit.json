@@ -1,0 +1,116 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "AI Solutions Engineer (Fixed-Term)",
+  "job_slug": "ai-solutions-engineer-fixed-term",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 17,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "AI / machine learning model development (DONUT OCR, U-Net BraTS, YOLOv8n, faster-whisper ASR, TinyLlama quantization, GPT-2 from scratch)",
+    "robotics perception / computer vision (YOLOv8n toothbrush detection 83% mAP@50, visual servoing, ROS2, MoveIt, RViz, dual ToF sensors, object tracking turret)",
+    "Python programming (extensive across all internships and capstone)",
+    "ROS / ROS2 (ROS2 Humble + ROS Noetic, MoveIt, RViz, UR ROS2 driver)",
+    "TensorRT / NVIDIA Jetson optimization (TensorRT-optimized YOLO, 5.2x speedup, Jetson deployment, CUDA C++)",
+    "YOLO / real-time object detection (YOLOv8n toothbrush, YOLO tracking turret, YOLO11n CARLA)",
+    "embedded / edge deployment (STM32 bare-metal C, FreeRTOS, Jetson, Raspberry Pi, Arduino, UART/I2C/SPI/BLE, PCB design)",
+    "prototype to production mindset (COFFIN capstone full-stack, wearable glove, autonomous driving pipeline)",
+    "multi-disciplinary collaboration (7-person team at Teesside, capstone with hardware + software + cloud)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "customer-facing engineering / strategic customer collaboration",
+      "you_have": "capstone delivery, field-ready deployment experience via embedded/robotics projects; no formal enterprise customer-facing role"
+    },
+    {
+      "jd_skill": "Field Foundational Models (large-scale proprietary models)",
+      "you_have": "fine-tuned open-source transformers (DONUT, TinyLlama); no exposure to proprietary foundational-model training pipelines"
+    },
+    {
+      "jd_skill": "production AI at company/global-field scale",
+      "you_have": "production-level capstone and internship outputs, but no full-time industry production-scale deployment experience"
+    },
+    {
+      "jd_skill": "explainability / safety for real-world autonomy (formal frameworks)",
+      "you_have": "safety-aware design (100% pick reliability, zero-collision CARLA, risk-aware concepts); no formal ISO/functional-safety certification"
+    }
+  ],
+  "missing_skills": [
+    "full-time industry experience (0 years full-time; 7 internships only)",
+    "formal functional-safety / ISO26262 certification",
+    "enterprise-scale cloud / distributed production infrastructure (Docker/k3s/CI-CD only via personal projects)",
+    "DeepMind / NASA JPL / Boston Dynamics / Tesla Autopilot / Cruise / Zoox / SpaceX-level team experience (candidate has academic/research internships, not those orgs)"
+  ],
+  "top_ats_keywords": [
+    "embodied AI",
+    "robotics",
+    "AI Solution Engineer",
+    "production AI",
+    "field deployment",
+    "real-time perception",
+    "YOLO",
+    "TensorRT",
+    "ROS2",
+    "NVIDIA Jetson",
+    "edge AI",
+    "customer-facing engineering",
+    "prototype to production"
+  ],
+  "required_skills": [
+    "AI / machine learning model development",
+    "robotics perception / computer vision",
+    "customer-facing engineering / prototype-to-production",
+    "field deployment of AI on real hardware / sensors",
+    "Python programming",
+    "embedded / edge deployment (real robots and sensors)"
+  ],
+  "preferred_skills": [
+    "ROS / ROS2",
+    "TensorRT / NVIDIA Jetson optimization",
+    "YOLO / real-time object detection",
+    "customer discovery / product thinking",
+    "fast-moving environment ownership",
+    "multi-disciplinary collaboration (AI + robotics + field deployment)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Work closely with strategic customers to ship production AI solutions",
+    "Turn high-impact workflows into repeatable capabilities",
+    "Own outcomes from prototype to production",
+    "Build/test systems on real hardware with real sensors in unstructured environments",
+    "Collaborate across AI, robotics, software, product, field deployment, and technical communication"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

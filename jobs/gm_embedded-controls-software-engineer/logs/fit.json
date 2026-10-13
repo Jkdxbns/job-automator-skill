@@ -1,0 +1,147 @@
+{
+  "company": "General Motors",
+  "company_slug": "gm",
+  "role": "Embedded Controls Software Engineer",
+  "job_slug": "embedded-controls-software-engineer",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.636,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded controls software",
+    "C",
+    "C++",
+    "Python scripting",
+    "Automated testing (bench/vehicle)",
+    "Requirements-to-test-case traceability"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Controls systems engineering",
+      "you_have": "Closed-loop feedback control (turret, Robocon odometry)"
+    },
+    {
+      "jd_skill": "Mechatronic controls",
+      "you_have": "Encoder/motor control, robotic arm"
+    },
+    {
+      "jd_skill": "Controller communication",
+      "you_have": "UART/I2C/SPI serial (no CAN)"
+    },
+    {
+      "jd_skill": "Diagnostics strategies",
+      "you_have": "Hardware debugging / bench testing"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "Simulink",
+    "Auto Code Generation",
+    "Agile Scrum"
+  ],
+  "top_ats_keywords": [
+    "embedded controls",
+    "C",
+    "C++",
+    "MATLAB",
+    "Simulink",
+    "auto code generation",
+    "Python",
+    "mechatronic",
+    "diagnostics",
+    "controller communication",
+    "automated test",
+    "Agile Scrum"
+  ],
+  "required_skills": [
+    "Embedded controls software",
+    "C",
+    "C++",
+    "Auto Code Generation",
+    "MATLAB",
+    "Simulink",
+    "Python scripting",
+    "Controls systems engineering",
+    "Automated testing (bench/vehicle)",
+    "Requirements-to-test-case traceability",
+    "Agile Scrum"
+  ],
+  "preferred_skills": [
+    "Mechatronic controls",
+    "Diagnostics strategies",
+    "Controller communication"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "embedded controls software for electrification/autonomous/powertrain/chassis",
+    "physics and controls requirements implementation",
+    "diagnostics and controller communication",
+    "automated test at controller/system/vehicle level"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Milford, Michigan (hybrid, 3 days in office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "C on bare-metal MCUs with PWM, interrupts, ADC, UART/I2C/SPI: STM32 Bare-Metal Temperature Monitor and Object Tracking Turret (interrupt-driven UART, multi-servo PWM)",
+      "Real-time task coordination: Turret uses FreeRTOS with mutexes for shared-memory tasks",
+      "Closed-loop feedback and encoder control: Robocon holonomic drive with encoder odometry; ARC robots with sensor feedback over UART and I2C",
+      "Contact-aware control logic: COFFIN gripper closes on ToF trigger at 25 mm, two-link IK on Arduino in C++",
+      "Bench debugging: oscilloscope, logic analyzer, 11 integration failures resolved in COFFIN",
+      "Python for tooling and automation"
+    ],
+    "real_gaps": [
+      "MATLAB/Simulink model-based design: nothing in the profile",
+      "Auto code generation (Embedded Coder style) from models: nothing in the profile",
+      "Automotive controller communication (CAN/LIN/UDS) and diagnostics strategies: only UART/I2C/SPI",
+      "Physics-based controls implementation (plant models, PID tuning, gain scheduling) on electrification/powertrain/chassis: only hobby-scale servo and motor control",
+      "Requirements-to-test-case traceability and vehicle-level automated test: no formal process in the profile",
+      "Agile Scrum on a production controls codebase: none",
+      "Seniority: role wants 2 years in controls; profile is internships and capstone"
+    ],
+    "overstated_by_keywords": [
+      "Requirements-to-test-case traceability: counted Have via generic testing, no requirements-linked test work is evidenced",
+      "Automated testing (bench/vehicle): the profile has manual bench debugging and ML benchmarking, not automated controller or vehicle test",
+      "Embedded controls software: real, but hobby and academic scope, not ECU or production controls"
+    ],
+    "understated_by_keywords": [
+      "Servo/motor control loop work (Turret PWM, Robocon encoder odometry) is real feedback-control practice, though not model-based or tuned from a plant model"
+    ],
+    "screening_gaps": [
+      "No MATLAB/Simulink or auto code generation, the core toolchain the JD names three times in its requirements",
+      "No automotive controls domain evidence (CAN, diagnostics, powertrain/chassis/electrification plant control)",
+      "No 2 years of controls engineering experience; all control work is academic or hobby scale"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The embedded C, PWM, interrupt and closed-loop servo work is genuine, but this role is a Simulink-to-autocode controls job on production automotive controllers, and that toolchain and domain are absent from the profile. The keyword score of 57 flatters the fit because generic items like testing and controls adjacency counted as Have or Adjacent. Treat it as a long shot unless a referral or a controls-friendly team path exists.",
+    "calibration_delta": 10.1
+  },
+  "semantic_pending": false
+}

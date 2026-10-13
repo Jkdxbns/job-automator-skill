@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "company": "ArcBest",
+    "role": "Robotics Engineer I - Perception",
+    "company_slug": "arcbest",
+    "job_slug": "robotics-engineer-i-perception"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology focused on robotics software systems and perception. Built real-time computer vision and machine learning pipelines on NVIDIA Jetson hardware, optimizing inference with GPGPU (CUDA) and TensorRT for robotic perception. Proficient in C/C++/Python across embedded, perception, and Linux-based robotics systems.",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "CUDA",
+      "Linux"
+    ],
+    "Computer Vision / Perception": [
+      "YOLO",
+      "TensorRT",
+      "Visual servoing"
+    ],
+    "Robotics / Embedded": [
+      "NVIDIA Jetson",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "PWM Motor Control",
+      "UART/I2C/SPI"
+    ],
+    "HPC / GPGPU": [
+      "CUDA C++",
+      "Memory coalescing",
+      "Kernel optimization"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Trained a YOLOv3 computer vision model from scratch for real-time ball detection, driving closed-loop visual servoing motor commands for a competition robot's robotics software system.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and machine learning algorithms integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built a vision-guided robotic pick-and-place robotics software system over a three-layer distributed pipeline (mobile client, edge server, Jetson+Arduino controller).",
+        "Integrated TensorRT-optimized YOLO computer vision (5.2x speedup, 56.7->10.9ms, 17.6->92 FPS) for real-time visual servoing and dual ToF sensors for contact-aware grasping.",
+        "Deployed the Jetson-side robotics software as a Linux systemd service, troubleshooting 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability (10/10 trials)."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 computer vision on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART for a closed-loop robotics software system.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and FreeRTOS task coordination; integrated ToF sensing for distance-aware tracking."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated dynamic-simulation data-generation pipelines using semantic segmentation and raycast occlusion filtering, producing ~5,000 computer vision training frames with zero manual annotation.",
+        "Trained and fine-tuned object-detection and lane-following models integrated into an adaptive control stack; validated in simulation with 30 vehicles and 10 pedestrians, achieving zero collisions across multiple laps."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom GPGPU (CUDA) C++ kernels using memory coalescing and constant memory, achieving a 1.5-2x speedup with identical classification accuracy.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms uncoalesced and 77.5ms CPU baseline \u2014 ~35% speedup through efficient global memory utilization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

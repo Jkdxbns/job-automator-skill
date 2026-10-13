@@ -1,0 +1,942 @@
+{
+  "source_hash": "58978145226f2eeabc7c606fa939de34b6fca4e06a16a0b12e22baf97d4ffad7",
+  "profile_hash": "ce3ffbd46acecd557d91d6a076f0426fa249293415d4260322112c2d355752c6",
+  "alias_hash": "3d6d8afae4a1a124524d6f61c001e267a2b9fedff562f49f9ae2c870a39cede0",
+  "total_canonical": 46,
+  "total_aliases": 412,
+  "orphans": [
+    "embedded Linux"
+  ],
+  "unmapped_profile_terms": [
+    "ML / Deep Learning: NumPy",
+    "ML / Deep Learning: Pandas",
+    "ML / Deep Learning: scikit-learn",
+    "Embedded: BLDC Motors",
+    "Embedded: Stepper Motors",
+    "Tools: Spectrum Analyzers",
+    "Linux Administration: Environment-based secrets/config separation"
+  ],
+  "skills": [
+    {
+      "canonical": "C",
+      "depth": "strong",
+      "aliases": [
+        "c programming",
+        "c language",
+        "embedded c",
+        "bare-metal c",
+        "bare metal c",
+        "c/c++",
+        "ansi c",
+        "low-level c",
+        "low level programming",
+        "systems programming"
+      ],
+      "evidence": [
+        "project:STM32 Bare-Metal Temperature Monitor",
+        "skills:Embedded",
+        "skills:Languages & Systems"
+      ]
+    },
+    {
+      "canonical": "C++",
+      "depth": "working",
+      "aliases": [
+        "cpp",
+        "c++11",
+        "c++14",
+        "c++17",
+        "modern c++",
+        "object-oriented c++",
+        "c/c++",
+        "stl"
+      ],
+      "evidence": [
+        "project:CUDA Kernel Optimization for VGG16 Inference",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:HPC / Parallel",
+        "skills:Languages & Systems"
+      ]
+    },
+    {
+      "canonical": "Python",
+      "depth": "strong",
+      "aliases": [
+        "python3",
+        "python scripting",
+        "cpython",
+        "python programming"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "experience:Python Developer Intern",
+        "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+        "skills:Languages & Systems"
+      ]
+    },
+    {
+      "canonical": "Bash",
+      "depth": "working",
+      "aliases": [
+        "shell scripting",
+        "shell",
+        "shell scripts",
+        "sh",
+        "scripting",
+        "unix shell",
+        "bash scripting",
+        "command line"
+      ],
+      "evidence": [
+        "skills:Languages & Systems"
+      ]
+    },
+    {
+      "canonical": "CUDA",
+      "depth": "strong",
+      "aliases": [
+        "cuda c++",
+        "gpu programming",
+        "gpu kernels",
+        "kernel programming",
+        "cuda kernels",
+        "gpgpu"
+      ],
+      "evidence": [
+        "project:CUDA Kernel Optimization for VGG16 Inference",
+        "skills:HPC / Parallel",
+        "skills:Languages & Systems"
+      ]
+    },
+    {
+      "canonical": "Cython",
+      "depth": "exposure",
+      "aliases": [],
+      "evidence": [
+        "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+        "skills:Languages & Systems"
+      ]
+    },
+    {
+      "canonical": "microcontroller firmware",
+      "depth": "strong",
+      "aliases": [
+        "microcontroller",
+        "microcontrollers",
+        "mcu",
+        "mcus",
+        "firmware",
+        "firmware development",
+        "firmware engineering",
+        "embedded firmware",
+        "bare-metal",
+        "bare metal",
+        "baremetal",
+        "embedded software",
+        "embedded systems",
+        "embedded systems concepts",
+        "embedded development",
+        "embedded programming",
+        "embedded system design"
+      ],
+      "evidence": [
+        "experience:Embedded Systems Intern",
+        "project:STM32 Bare-Metal Temperature Monitor",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "RTOS",
+      "depth": "working",
+      "aliases": [
+        "freertos",
+        "real-time operating system",
+        "real time os",
+        "real-time systems",
+        "rtos concepts",
+        "task scheduling",
+        "preemptive scheduling",
+        "real-time"
+      ],
+      "evidence": [
+        "experience:Embedded Systems Intern",
+        "experience:Python Developer Intern",
+        "project:Object Tracking Turret",
+        "project:Parallel Ray Tracer with MPI Task Scheduling",
+        "project:STM32 Bare-Metal Temperature Monitor",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "ARM Cortex-M",
+      "depth": "strong",
+      "aliases": [
+        "arm",
+        "cortex-m",
+        "cortex-m4",
+        "arm cortex",
+        "stm32",
+        "arm architecture",
+        "32-bit microcontroller",
+        "arm mcu"
+      ],
+      "evidence": [
+        "project:Object Tracking Turret",
+        "project:ROS-Based Robotic Arm (AL5B & UR5e)",
+        "project:STM32 Bare-Metal Temperature Monitor",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "serial protocols",
+      "depth": "strong",
+      "aliases": [
+        "uart",
+        "i2c",
+        "spi",
+        "serial communication",
+        "communication protocols",
+        "serial protocols",
+        "bus protocols",
+        "peripheral interfaces",
+        "serial interfaces",
+        "digital communication"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "project:Object Tracking Turret",
+        "project:STM32 Bare-Metal Temperature Monitor",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "peripheral programming",
+      "depth": "strong",
+      "aliases": [
+        "gpio",
+        "pwm",
+        "adc",
+        "dac",
+        "timers",
+        "interrupts",
+        "isr",
+        "peripherals",
+        "device drivers",
+        "driver development",
+        "register-level",
+        "register level programming",
+        "memory-mapped i/o",
+        "datasheet"
+      ],
+      "evidence": [
+        "project:Object Tracking Turret",
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "project:STM32 Bare-Metal Temperature Monitor",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "hardware/software integration",
+      "depth": "working",
+      "aliases": [
+        "hardware-software interaction",
+        "hardware software integration",
+        "hardware bring-up",
+        "board bring-up",
+        "schematic",
+        "pcb",
+        "pcb design",
+        "sensor integration",
+        "hardware integration",
+        "hardware interfaces",
+        "electronics"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "hardware debugging",
+      "depth": "strong",
+      "aliases": [
+        "debugging",
+        "debug",
+        "debugging tools",
+        "oscilloscope",
+        "oscilloscopes",
+        "logic analyzer",
+        "logic analyzers",
+        "jtag",
+        "swd",
+        "gdb",
+        "troubleshooting",
+        "root cause analysis",
+        "bench testing",
+        "lab equipment",
+        "multimeter"
+      ],
+      "evidence": [
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "Bluetooth",
+      "depth": "working",
+      "aliases": [
+        "ble",
+        "bluetooth low energy",
+        "wireless",
+        "wireless communication",
+        "rf"
+      ],
+      "evidence": [
+        "experience:Embedded Systems Intern",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "Git",
+      "depth": "strong",
+      "aliases": [
+        "version control",
+        "source control",
+        "github",
+        "gitlab",
+        "revision control",
+        "version control (git)",
+        "git workflows"
+      ],
+      "evidence": [
+        "experience:Python Developer Intern",
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "build systems",
+      "depth": "working",
+      "aliases": [
+        "cmake",
+        "make",
+        "makefile",
+        "build system",
+        "compiler",
+        "compilers",
+        "toolchain",
+        "toolchains",
+        "cross-compilation",
+        "gcc",
+        "compilation",
+        "build tools",
+        "ide",
+        "integrated development environment",
+        "keil",
+        "iar",
+        "stm32cubeide",
+        "vscode",
+        "eclipse"
+      ],
+      "evidence": [
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "Linux",
+      "depth": "strong",
+      "aliases": [
+        "unix",
+        "linux development",
+        "posix",
+        "linux environment",
+        "linux os"
+      ],
+      "evidence": [
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "embedded Linux",
+      "depth": "exposure",
+      "aliases": [
+        "yocto",
+        "buildroot",
+        "device tree",
+        "linux bsp",
+        "kernel module",
+        "linux kernel"
+      ],
+      "evidence": []
+    },
+    {
+      "canonical": "testing and validation",
+      "depth": "working",
+      "aliases": [
+        "testing",
+        "test",
+        "unit testing",
+        "unit tests",
+        "software testing",
+        "validation",
+        "verification",
+        "test automation",
+        "qa",
+        "quality assurance",
+        "integration testing",
+        "benchmarking",
+        "test benches",
+        "hardware-in-the-loop",
+        "regression testing",
+        "debugging and testing"
+      ],
+      "evidence": [
+        "experience:AI/ML Intern",
+        "experience:Deep Learning Intern",
+        "project:Quantization-Aware Training for Integer-Only Inference",
+        "project:SLM Compression and Benchmarking for Edge Deployment"
+      ]
+    },
+    {
+      "canonical": "systemd and deployment",
+      "depth": "working",
+      "aliases": [
+        "systemd",
+        "service management",
+        "daemon",
+        "deployment",
+        "systemd services",
+        "process management",
+        "secrets management",
+        "configuration management",
+        "environment variables"
+      ],
+      "evidence": [
+        "project:SLM Compression and Benchmarking for Edge Deployment",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Linux Administration"
+      ]
+    },
+    {
+      "canonical": "networking",
+      "depth": "working",
+      "aliases": [
+        "tcp/ip",
+        "networking",
+        "ssh",
+        "static ip",
+        "network configuration",
+        "sockets",
+        "ethernet",
+        "xrdp",
+        "remote desktop",
+        "remote access"
+      ],
+      "evidence": [
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Linux Administration"
+      ]
+    },
+    {
+      "canonical": "software engineering fundamentals",
+      "depth": "working",
+      "aliases": [
+        "software development",
+        "software engineering",
+        "software development fundamentals",
+        "programming fundamentals",
+        "data structures",
+        "algorithms",
+        "object oriented programming",
+        "oop",
+        "design patterns",
+        "clean code",
+        "software design",
+        "problem solving",
+        "computer science fundamentals"
+      ],
+      "evidence": [
+        "experience:Embedded Systems Intern"
+      ]
+    },
+    {
+      "canonical": "technical documentation",
+      "depth": "working",
+      "aliases": [
+        "documentation",
+        "code review",
+        "code reviews",
+        "technical writing",
+        "design documents"
+      ],
+      "evidence": [
+        "experience:Embedded Systems Intern"
+      ]
+    },
+    {
+      "canonical": "PyTorch",
+      "depth": "strong",
+      "aliases": [
+        "torch",
+        "pytorch lightning"
+      ],
+      "evidence": [
+        "experience:AI/ML Intern",
+        "project:GPT-2 Style Language Model from Scratch",
+        "project:Quantization-Aware Training for Integer-Only Inference",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:ML / Deep Learning"
+      ]
+    },
+    {
+      "canonical": "TensorFlow",
+      "depth": "working",
+      "aliases": [
+        "keras",
+        "tf",
+        "tensorflow lite",
+        "tflite"
+      ],
+      "evidence": [
+        "experience:Deep Learning Intern",
+        "skills:ML / Deep Learning"
+      ]
+    },
+    {
+      "canonical": "machine learning",
+      "depth": "strong",
+      "aliases": [
+        "ml",
+        "deep learning",
+        "dl",
+        "neural networks",
+        "neural network",
+        "model training",
+        "training pipelines",
+        "supervised learning",
+        "ai",
+        "artificial intelligence",
+        "ai/ml",
+        "cnn",
+        "convolutional neural network",
+        "model evaluation",
+        "evaluation metrics",
+        "model validation"
+      ],
+      "evidence": [
+        "experience:AI/ML Intern",
+        "experience:Deep Learning Intern",
+        "experience:Embedded Systems Intern",
+        "experience:General Secretary",
+        "experience:Research Fellowship",
+        "skills:ML / Deep Learning"
+      ]
+    },
+    {
+      "canonical": "transformers and NLP",
+      "depth": "strong",
+      "aliases": [
+        "transformer",
+        "transformers",
+        "nlp",
+        "natural language processing",
+        "llm",
+        "llms",
+        "large language model",
+        "large language models",
+        "attention",
+        "self-attention",
+        "bert",
+        "gpt",
+        "hugging face",
+        "language model",
+        "tokenization",
+        "generative ai"
+      ],
+      "evidence": [
+        "experience:AI/ML Intern",
+        "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+        "project:GPT-2 Style Language Model from Scratch",
+        "skills:Edge AI / CV / Speech",
+        "skills:ML / Deep Learning"
+      ]
+    },
+    {
+      "canonical": "computer vision",
+      "depth": "strong",
+      "aliases": [
+        "cv",
+        "image processing",
+        "object detection",
+        "opencv",
+        "yolo",
+        "vision",
+        "visual perception",
+        "image classification",
+        "object tracking"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "project:Autonomous Driving in CARLA",
+        "project:Object Tracking Turret",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Edge AI / CV / Speech",
+        "skills:Robotics & Perception"
+      ]
+    },
+    {
+      "canonical": "speech and audio",
+      "depth": "working",
+      "aliases": [
+        "asr",
+        "speech recognition",
+        "speech",
+        "audio processing",
+        "dsp",
+        "signal processing",
+        "whisper",
+        "speech-to-text",
+        "stt",
+        "audio"
+      ],
+      "evidence": [
+        "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Edge AI / CV / Speech"
+      ]
+    },
+    {
+      "canonical": "model optimization",
+      "depth": "strong",
+      "aliases": [
+        "quantization",
+        "tensorrt",
+        "inference optimization",
+        "model compression",
+        "pruning",
+        "int8",
+        "8-bit quantization",
+        "edge ai",
+        "edge inference",
+        "onnx",
+        "inference engine",
+        "model deployment",
+        "latency optimization",
+        "throughput"
+      ],
+      "evidence": [
+        "experience:Deep Learning Intern",
+        "project:Quantization-Aware Training for Integer-Only Inference",
+        "project:SLM Compression and Benchmarking for Edge Deployment",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Edge AI / CV / Speech",
+        "skills:ML / Deep Learning"
+      ]
+    },
+    {
+      "canonical": "profiling and benchmarking",
+      "depth": "strong",
+      "aliases": [
+        "profiling",
+        "performance analysis",
+        "performance optimization",
+        "nsight",
+        "pynvml",
+        "performance tuning",
+        "optimization",
+        "performance profiling"
+      ],
+      "evidence": [
+        "experience:Research Intern (Capstone)",
+        "project:CUDA Kernel Optimization for VGG16 Inference",
+        "project:SLM Compression and Benchmarking for Edge Deployment",
+        "skills:HPC / Parallel",
+        "skills:ML / Deep Learning"
+      ]
+    },
+    {
+      "canonical": "ROS",
+      "depth": "strong",
+      "aliases": [
+        "ros2",
+        "ros 2",
+        "robot operating system",
+        "rviz",
+        "moveit",
+        "gazebo",
+        "ros/ros2",
+        "rclpy",
+        "ros nodes"
+      ],
+      "evidence": [
+        "project:ROS-Based Robotic Arm (AL5B & UR5e)",
+        "skills:Languages & Systems",
+        "skills:Robotics & Perception"
+      ]
+    },
+    {
+      "canonical": "robotics",
+      "depth": "strong",
+      "aliases": [
+        "robot",
+        "manipulator",
+        "robotic arm",
+        "motion planning",
+        "kinematics",
+        "forward kinematics",
+        "inverse kinematics",
+        "dh parameters",
+        "visual servoing",
+        "pick and place",
+        "robot control",
+        "end effector",
+        "trajectory"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "project:ROS-Based Robotic Arm (AL5B & UR5e)",
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Robotics & Perception"
+      ]
+    },
+    {
+      "canonical": "autonomous systems",
+      "depth": "working",
+      "aliases": [
+        "autonomy",
+        "autonomous",
+        "self-driving",
+        "autonomous driving",
+        "autonomous vehicles",
+        "carla",
+        "perception",
+        "sensor fusion",
+        "adas",
+        "path planning"
+      ],
+      "evidence": [
+        "project:Autonomous Driving in CARLA"
+      ]
+    },
+    {
+      "canonical": "MPI",
+      "depth": "working",
+      "aliases": [
+        "message passing interface",
+        "distributed computing",
+        "parallel computing",
+        "hpc",
+        "high performance computing",
+        "slurm",
+        "cluster computing",
+        "parallel programming",
+        "multithreading",
+        "concurrency",
+        "distributed systems"
+      ],
+      "evidence": [
+        "experience:Research Intern (Capstone)",
+        "project:MPI Hodgkin-Huxley Neuron Simulation",
+        "project:Parallel Ray Tracer with MPI Task Scheduling",
+        "skills:HPC / Parallel"
+      ]
+    },
+    {
+      "canonical": "GPU optimization",
+      "depth": "strong",
+      "aliases": [
+        "gpu",
+        "gpu optimization",
+        "kernel optimization",
+        "memory coalescing",
+        "parallel algorithms",
+        "gpu acceleration",
+        "gpu computing",
+        "shared memory"
+      ],
+      "evidence": [
+        "project:CUDA Kernel Optimization for VGG16 Inference",
+        "project:Object Tracking Turret",
+        "project:SLM Compression and Benchmarking for Edge Deployment",
+        "skills:HPC / Parallel"
+      ]
+    },
+    {
+      "canonical": "NVIDIA Jetson",
+      "depth": "strong",
+      "aliases": [
+        "jetson",
+        "jetson nano",
+        "jetson orin",
+        "edge device",
+        "embedded gpu",
+        "edge computing",
+        "edge deployment",
+        "embedded ai"
+      ],
+      "evidence": [
+        "project:Object Tracking Turret",
+        "project:SLM Compression and Benchmarking for Edge Deployment",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "Raspberry Pi",
+      "depth": "strong",
+      "aliases": [
+        "raspberry pi",
+        "rpi",
+        "single board computer",
+        "sbc"
+      ],
+      "evidence": [
+        "experience:Embedded Systems Intern",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "Arduino",
+      "depth": "strong",
+      "aliases": [
+        "atmega",
+        "avr",
+        "arduino nano",
+        "arduino ide"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "PCB design",
+      "depth": "working",
+      "aliases": [
+        "eagle",
+        "schematic capture",
+        "circuit design",
+        "bom",
+        "proteus",
+        "breadboard",
+        "soldering"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "skills:Embedded",
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "SolidWorks",
+      "depth": "working",
+      "aliases": [
+        "cad",
+        "3d modeling",
+        "mechanical design",
+        "3d printing"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "Flask",
+      "depth": "exposure",
+      "aliases": [
+        "rest api",
+        "api",
+        "web api",
+        "backend",
+        "http"
+      ],
+      "evidence": [
+        "experience:AI/ML Intern",
+        "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+        "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+        "skills:Tools"
+      ]
+    },
+    {
+      "canonical": "motor control",
+      "depth": "working",
+      "aliases": [
+        "motor driver",
+        "motor drivers",
+        "dc motor",
+        "dc motors",
+        "h-bridge",
+        "h bridge",
+        "servo control",
+        "pwm motor control",
+        "motor drive",
+        "actuator control",
+        "speed control",
+        "motor control systems"
+      ],
+      "evidence": [
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "quadrature encoders",
+      "depth": "working",
+      "aliases": [
+        "quadrature encoder",
+        "rotary encoder",
+        "rotary encoders",
+        "incremental encoder",
+        "shaft encoder",
+        "quadrature decoding",
+        "encoder feedback",
+        "encoder counts",
+        "position feedback",
+        "wheel encoder",
+        "wheel encoders",
+        "motor encoder"
+      ],
+      "evidence": [
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "closed-loop control",
+      "depth": "working",
+      "aliases": [
+        "closed loop",
+        "closed-loop",
+        "closed loop control",
+        "feedback control",
+        "control loop",
+        "control systems",
+        "control theory",
+        "error correction loop"
+      ],
+      "evidence": [
+        "experience:General Secretary",
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "skills:Embedded"
+      ]
+    },
+    {
+      "canonical": "odometry",
+      "depth": "working",
+      "aliases": [
+        "dead reckoning",
+        "wheel odometry",
+        "odometry estimation",
+        "pose tracking"
+      ],
+      "evidence": [
+        "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+        "skills:Robotics & Perception"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "company": "Iowa State University (Translational AI Center)",
+  "company_slug": "iowa_state_university",
+  "role": "MLOps Engineer",
+  "job_slug": "mlops_engineer",
+  "match_pct": 30.8,
+  "missing_skills": [
+    "CI/CD pipelines (Jenkins, GitHub Actions, GitLab CI)",
+    "Containerization (Docker, Kubernetes)",
+    "Cloud platforms (AWS, Azure, GCP) - none in profile at all",
+    "MLOps tooling (MLflow, Kubeflow, DVC, W&B)",
+    "Infrastructure automation (Terraform, Ansible)",
+    "Observability/monitoring (Prometheus, Grafana, Datadog)",
+    "Databases (SQL/NoSQL)",
+    "Secure deployment practices",
+    "Shared platform ops: user access mgmt, backups, capacity planning"
+  ],
+  "adjacent_skills": [
+    "Model deployment/versioning (TensorRT/ONNX edge deployment) -> cloud/production MLOps deployment",
+    "Distributed computing (SLURM, MPI) -> backend distributed services"
+  ],
+  "have_skills": [
+    "Python (backend/API dev via Flask, Flask-SocketIO)",
+    "Git / GitLab (version control workflows)"
+  ],
+  "top_ats_keywords": [
+    "MLOps",
+    "CI/CD",
+    "containerization",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Python",
+    "APIs",
+    "model versioning",
+    "experiment tracking",
+    "observability",
+    "infrastructure automation",
+    "Git"
+  ],
+  "key_responsibilities": [
+    "Build and maintain ML infrastructure, CI/CD pipelines, automated data workflows",
+    "Model tracking, versioning, reproducibility practices",
+    "Deploy and manage ML models in cloud and production environments",
+    "Containerize applications, support scalable deployment platforms",
+    "Develop and maintain APIs, applications, services",
+    "Monitor system performance, troubleshoot, optimize reliability",
+    "Support shared technical platforms: access management, upgrades, backups, capacity planning"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

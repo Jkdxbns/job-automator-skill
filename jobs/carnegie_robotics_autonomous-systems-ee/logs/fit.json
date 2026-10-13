@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-10",
+  "company": "Carnegie Robotics",
+  "company_slug": "carnegie_robotics",
+  "role": "Autonomous Systems Electrical Engineer",
+  "job_slug": "autonomous-systems-ee",
+  "location": "Pittsburgh, PA",
+  "remote_ok": false,
+  "experience_level_stated": "mid",
+  "required_experience_years": 3,
+  "sponsorship_mentioned": true,
+  "sponsorship_offered": false,
+  "sponsorship_raw_text": "Authorization to work in the U.S. without restriction is required. The company is unable to provide sponsorship for this position.",
+  "match_pct": 68.2,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 22,
+    "req_cov": 0.66,
+    "cap_applied": null
+  },
+  "have_skills": [
+    "Electrical Engineering (degree)",
+    "Autonomous Systems (ROS/robotics fundamentals)",
+    "Cameras & Vision (YOLO, OpenCV)",
+    "Computing Systems (Jetson GPU, CUDA)",
+    "CAD (SolidWorks, EAGLE PCB)",
+    "Robust Design (capstone focus)",
+    "Safety Mindset (mission-critical projects)",
+    "Design Documentation (requirements, specs)",
+    "Embedded Systems (STM32, firmware)",
+    "Real-Time Systems (FreeRTOS, ROS2)",
+    "System Integration (multi-component pipelines)",
+    "Requirements Engineering (capstone documentation)"
+  ],
+  "adjacent_skills": [
+    "Vehicle Autonomy (CARLA simulation experience, not production vehicles)",
+    "Communication Protocols (UART/I2C/SPI, not CAN Bus)"
+  ],
+  "missing_skills": [
+    "LIDAR (sensor integration)",
+    "Radar (sensor integration)",
+    "Wheel Encoders (motor feedback systems)",
+    "Ethernet (network integration)",
+    "3+ Years Production Systems Experience"
+  ],
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "production_scope_gap": "Role requires shipping/operating production autonomous vehicles; profile is capstone/research/internship scope",
+  "constraints": {
+    "sponsorship": "NO_SPONSORSHIP - company unable to provide. Note: F-1 OPT holders don't need company sponsorship, but some employers blanket-exclude OPT anyway.",
+    "clearance": null,
+    "citizenship": null,
+    "location_match": "PIT is feasible from TX; no explicit remote"
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "reason": "Seniority mismatch: role requires 3+ years production experience; applicant is new grad stage (0 FT years). Strong embedded/robotics fundamentals present, but structural gap is production scope and vehicle-specific sensor experience. Keyword match (68%) is solid, but experience gate overrides.",
+    "semantic_override_applied": true,
+    "apply_before_semantic": "Can Try (68% keyword, above 60 threshold)"
+  },
+  "screening_gaps": [
+    "Zero production experience shipping autonomous systems (role requires 3+ years)",
+    "No hands-on LIDAR/Radar sensor integration at vehicle scale",
+    "Capstone-stage systems vs production vehicle-scale electrical integration"
+  ],
+  "semantic_recommendation": "Do not apply. The 3+ year production requirement is a hard gate at new grad stage. Revisit in 2-3 years of industry experience. Strong fit signals (ROS, embedded, CAD) suggest this role is a natural next step post-PhD or post-production-years.",
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Proven end-to-end system integration (COFFIN): three-layer distributed pipeline, 11 resolved integration failures, 100% reliability.",
+      "Real-time embedded expertise (FreeRTOS, STM32 bare-metal, interrupt-driven UART)\u2014directly applicable to vehicle control loops.",
+      "Component-level electrical thinking (Jetson, ToF sensors, I2C mux, servo control, power sequencing).",
+      "Design rigor and documentation (specs, latency profiling, failure analysis).",
+      "ROS/robotics fundamentals (kinematics, collision avoidance, visual servoing)."
+    ],
+    "real_gaps": [
+      "Zero hands-on LIDAR/Radar integration. JD lists these as core; you have cameras only (missing 70% of perception stack).",
+      "No production vehicle electrical integration. All work is lab-scale robotics. Vehicle electrical includes power distribution, EMI/RFI shielding, safety redundancy, long-cycle reliability\u2014different domain.",
+      "CAN Bus and Ethernet not evidenced. You have UART/I2C/SPI; vehicles use CAN for distributed real-time control and Ethernet for high-bandwidth sensor data. Hard gap, not adjacent.",
+      "No customer interaction/field deployment experience. JD emphasizes travel to customer sites for installation/troubleshooting.",
+      "Supply chain and vendor management not evidenced. JD explicitly requires this; your profile shows internal fabrication only."
+    ],
+    "overstated_by_keywords": [
+      "'Autonomous systems' match: CARLA sim and ROS are strong, but production vehicle autonomy involves legal liability and safety certification.",
+      "'System integration' match: Lab components (Jetson+Arduino) vs vehicle electrical subsystems (powertrain, CAN gateway). Scale matters."
+    ],
+    "understated_by_keywords": [
+      "STM32 bare-metal firmware with deterministic timing is exactly the low-level control layer vehicle engineers need\u2014undersold by keywords.",
+      "FreeRTOS + interrupt-driven design aligns with vehicle control loop requirements more than keyword score suggests."
+    ],
+    "screening_gaps": [
+      "Zero production vehicle electrical integration (JD requires 3+ years; you have 0 FT years, all research/capstone).",
+      "LIDAR/Radar perception missing (core to autonomy; cameras alone are 25% of the sensor suite JD requires).",
+      "CAN Bus/Ethernet not evidenced (vehicle-specific networking standard; UART/I2C/SPI don't substitute)."
+    ],
+    "recommend_apply": false,
+    "calibration_delta": 6.2,
+    "reasoning": "Keyword score (68%) is solid; semantic depth shows production scope mismatch. All work is lab/research; role demands shipping production vehicles. LIDAR/Radar are core, learnable but require 12\u201318 months. CAN/Ethernet are vehicle-specific infrastructure. 3-year gate is structural. Partial Fit, not Strong Fit."
+  }
+}

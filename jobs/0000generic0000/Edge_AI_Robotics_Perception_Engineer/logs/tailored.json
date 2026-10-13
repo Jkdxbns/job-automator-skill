@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "company": "Generic",
+    "role": "Edge AI / Robotics / Perception Engineer",
+    "company_slug": "generic",
+    "job_slug": "edge_ai_robotics"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) building real-time Edge AI systems for robotics, optimizing inference latency with CUDA and TensorRT. Experienced deploying perception and ASR pipelines on Jetson-class devices under compute and network constraints, and closing the loop into embedded control on STM32/Arduino. Comfortable across the stack: C/C++, ROS2, and register-level embedded firmware.",
+  "skills": {
+    "Edge AI / CV / Perception": [
+      "TensorRT",
+      "YOLO",
+      "OpenCV",
+      "faster-whisper (ASR)",
+      "Visual servoing",
+      "8-bit quantization"
+    ],
+    "Robotics": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "Forward kinematics",
+      "DH parameters"
+    ],
+    "Embedded & Real-Time": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "STM32",
+      "FreeRTOS",
+      "UART/I2C",
+      "Interrupt-driven control"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "CUDA",
+      "Git",
+      "Linux",
+      "Flask-SocketIO"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, interfacing ADXL345 accelerometers with a Raspberry Pi over I2C and streaming motion data via HC-05 Bluetooth to HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset; trained YOLOv8n on 1,133 images achieving 83% mAP@50 on held-out validation.",
+        "Exported the trained model to ONNX and TFLite for real-time mobile/edge deployment."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end to end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place robot over a three-layer distributed pipeline: Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller over a unified WebSocket fabric.",
+        "Integrated faster-whisper STT (1.0-1.4s), Gemini intent classification (<500ms), and TensorRT-optimized YOLO for visual servoing, achieving a 5.2x speedup (56.7→10.9 ms, 17.6→92 FPS) over eager PyTorch.",
+        "Added dual VL53L0X ToF sensors for contact-aware grasping via I2C mux; resolved 11 integration failures to reach 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Implemented two-link inverse kinematics on Arduino in C++, driving five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands; used FreeRTOS with mutexes for shared-memory task coordination and integrated VL53L0X ToF sensing."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e; measured AL5B repeatability at <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

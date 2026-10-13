@@ -1,0 +1,137 @@
+{
+  "company": "Green Fusion",
+  "company_slug": "green-fusion",
+  "role": "Integrations Engineer - Embedded Systems Engineer (multi-platform)",
+  "job_slug": "integrations-engineer-embedded-multi-platform",
+  "match_pct": 48.1,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 4,
+    "missing_count": 12,
+    "jd_ask_size": 27,
+    "req_cov": 0.538,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded Linux development",
+    "ARM target architecture",
+    "Build systems (CMake/Make)",
+    "Resource-constrained software design (memory, flash, performance)",
+    "C/C++",
+    "Python",
+    "systemd",
+    "Product and test documentation",
+    "Hands-on hardware experience",
+    "Git",
+    "Bash"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Network protocols in embedded context",
+      "you_have": "TCP/IP + WebSocket + Flask-SocketIO telemetry links"
+    },
+    {
+      "jd_skill": "NetworkManager",
+      "you_have": "Static IP / Linux network configuration"
+    },
+    {
+      "jd_skill": "Firmware quality validation before fleet rollout",
+      "you_have": "Bench validation with oscilloscopes/logic analyzers + benchmark harnesses"
+    },
+    {
+      "jd_skill": "Prototype and field testing",
+      "you_have": "Hardware bring-up and prototype testing on STM32/Jetson/BBB builds"
+    }
+  ],
+  "missing_skills": [
+    "MIPS target architecture",
+    "Cross-compilation toolchains",
+    "Yocto/BitBake",
+    "OpenWRT",
+    "MQTT",
+    "VPN",
+    "CI/CD pipelines",
+    "Cloud component integration",
+    "Teltonika RutOS / router-gateway platforms",
+    "Fleet management and deployment infrastructure",
+    "Certificate management",
+    "OTA updates"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "ARM",
+    "MIPS",
+    "cross-compilation",
+    "Yocto",
+    "BitBake",
+    "OpenWRT",
+    "C/C++",
+    "MQTT",
+    "VPN",
+    "systemd",
+    "NetworkManager",
+    "CI/CD",
+    "OTA updates",
+    "certificate management",
+    "fleet management",
+    "firmware testing",
+    "resource-constrained",
+    "build systems",
+    "test documentation"
+  ],
+  "required_skills": [
+    "Embedded Linux development",
+    "ARM target architecture",
+    "MIPS target architecture",
+    "Cross-compilation toolchains",
+    "Yocto/BitBake",
+    "OpenWRT",
+    "Resource-constrained software design (memory, flash, performance)",
+    "C/C++",
+    "Network protocols in embedded context",
+    "MQTT",
+    "VPN",
+    "systemd",
+    "NetworkManager"
+  ],
+  "preferred_skills": [
+    "Teltonika RutOS / router-gateway platforms",
+    "Fleet management and deployment infrastructure",
+    "Certificate management",
+    "OTA updates"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and develop system services for two hardware platforms",
+    "Implement interfaces to cloud components",
+    "Run prototype tests and support field tests",
+    "Build and maintain CI/CD pipelines for cross-compilation across both platforms",
+    "Ensure firmware quality before fleet rollout",
+    "Create and maintain product and test documentation",
+    "Work with firmware, cloud and hardware teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Berlin, Germany",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

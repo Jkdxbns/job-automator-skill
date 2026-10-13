@@ -1,0 +1,51 @@
+{
+  "company": "Meta",
+  "company_slug": "meta",
+  "role": "Research Engineer - Embedded Systems (Reality Labs Audio)",
+  "job_slug": "research-engineer-embedded-systems-audio",
+  "match_pct": 40.9,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 11,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Real-time embedded programming (RTOS/FreeRTOS, STM32 bare-metal)",
+    "Embedded hardware platforms and dev tools (STM32, oscilloscopes, logic analyzers, PCB design)"
+  ],
+  "missing_skills": [
+    "2+ years embedded DSP development for audio applications",
+    "Audio hardware prototyping and testing",
+    "AR/VR, wearable technology, or HCI background",
+    "Low-power embedded design",
+    "Ear buds, hearables, or hearing aid device experience"
+  ],
+  "adjacent_skills": [
+    "Audio signal processing algorithms (filtering, noise reduction, speech enhancement) -> general DSP/Random Signal Analysis coursework, not audio-applied",
+    "Cross-functional problem solving with shipped products -> shipped embedded/robotics projects + poster presentation, not audio domain",
+    "Bluetooth audio protocols -> general Bluetooth BLE/Classic, not audio-protocol specific"
+  ],
+  "top_ats_keywords": ["C/C++", "embedded DSP", "audio signal processing", "real-time embedded", "firmware", "Bluetooth", "low-power", "AR/VR", "wearable"],
+  "key_responsibilities": [
+    "Design, implement, and optimize DSP algorithms for audio processing on embedded platforms",
+    "Develop firmware and software for ear buds, hearables, and hearing aid devices",
+    "Translate experimental algorithms into robust, real-time embedded solutions",
+    "Integrate DSP modules with hardware and software stacks for wearable audio devices",
+    "Performance analysis, debugging, validation of embedded audio systems",
+    "Prototyping and field testing of new features"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

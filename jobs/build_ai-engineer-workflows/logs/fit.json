@@ -1,0 +1,43 @@
+{
+  "company": "Build",
+  "company_slug": "build",
+  "role": "AI Engineer - Workflows",
+  "job_slug": "ai-engineer-workflows",
+  "match_pct": 43,
+  "missing_skills": [
+    "Agentic AI workflow / operations engineering",
+    "Prompt engineering (production LLM prompts)",
+    "Working with domain experts to encode correctness criteria",
+    "Composable capability library maintenance"
+  ],
+  "adjacent_skills": [
+    "Model evaluation / benchmarking (ML models, not LLM/agent output evals)",
+    "Transformer / Hugging Face / GPT-2 / LLM.int8 (NLP/DL background, not applied LLM product engineering)",
+    "Failure analysis and debugging (from embedded/CV systems, not LLM pipelines)"
+  ],
+  "top_ats_keywords": [
+    "agentic AI",
+    "workflows",
+    "evaluation harness",
+    "LLM",
+    "prompt engineering",
+    "failure analysis",
+    "capability library",
+    "quality ownership"
+  ],
+  "key_responsibilities": [
+    "Build and own modular operations that compose Build's workflows",
+    "Find where outputs fall short of the bar and fix the underlying capability",
+    "Build the evaluation harness that proves whether a change made things better",
+    "Work with domain experts to encode what 'correct' actually means",
+    "Reduce human review a workflow needs without lowering the standard",
+    "Keep the capability library composable as it grows",
+    "Own quality end to end, from prompt to delivered artifact"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

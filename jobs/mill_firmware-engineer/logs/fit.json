@@ -1,0 +1,139 @@
+{
+  "company": "Mill",
+  "company_slug": "mill",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 46.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 0,
+    "missing_count": 8,
+    "jd_ask_size": 15,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded C",
+    "sensors",
+    "embedded software development",
+    "oscilloscopes",
+    "logic analyzers",
+    "python scripting",
+    "Hardware-in-the-Loop testing"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "electromechanical components",
+    "embedded Linux (Yocto)",
+    "network analyzers",
+    "loadcells",
+    "DC motors",
+    "PID controllers",
+    "DC fans",
+    "CI/CD pipelines"
+  ],
+  "top_ats_keywords": [
+    "Embedded C",
+    "sensors",
+    "embedded Linux",
+    "Yocto",
+    "oscilloscopes",
+    "logic analyzers",
+    "network analyzers",
+    "loadcells",
+    "DC motors",
+    "PID controllers",
+    "DC fans",
+    "python",
+    "Hardware-in-the-Loop testing",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "sensors",
+    "electromechanical components",
+    "embedded software development"
+  ],
+  "preferred_skills": [
+    "embedded Linux (Yocto)",
+    "oscilloscopes",
+    "logic analyzers",
+    "network analyzers",
+    "loadcells",
+    "DC motors",
+    "PID controllers",
+    "DC fans",
+    "python scripting",
+    "Hardware-in-the-Loop testing",
+    "CI/CD pipelines"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "embedded software and hardware validation",
+    "writing/testing/reviewing embedded code",
+    "debugging systems during commissioning",
+    "implementing prototype drivers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Bruno, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 60,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Object Tracking Turret: STM32 bare-metal C driving multi-servo PWM (electromechanical actuation) with interrupt-driven UART commands and ToF sensor integration \u2014 directly backs 'embedded C to control electromechanical components and read sensors'",
+      "STM32 Bare-Metal Temperature Monitor: hand-rolled ADC/I2C/GPIO/timer drivers with deterministic 1 Hz update rate, verified in Proteus \u2014 real low-level peripheral programming depth",
+      "COFFIN capstone: resolved 11 hardware integration failures (servo brown-out, false-positive detections, stale-frame capture) during physical bring-up \u2014 close analog to 'debugging systems during commissioning'",
+      "Planctech internship: ADXL345 accelerometer + Raspberry Pi sensor-jitter debugging via calibration \u2014 direct sensor-reading and hardware troubleshooting experience",
+      "Python scripting is extensive and load-bearing across nearly every ML/robotics project"
+    ],
+    "real_gaps": [
+      "No embedded Linux or Yocto build-system experience anywhere in the profile (only systemd/network config on Jetson, not a Yocto BSP)",
+      "No DC motor or closed-loop PID controller experience \u2014 servo PWM control is not the same domain as motor+PID tuning",
+      "No load cell or force/weight sensing experience",
+      "No CI/CD pipeline experience for production embedded code",
+      "No stated network analyzer experience (only oscilloscope + logic analyzer)",
+      "Zero full-time professional experience against a stated 1-3 year minimum \u2014 all embedded work is academic/internship/capstone scope"
+    ],
+    "overstated_by_keywords": [
+      "oscilloscopes/logic analyzers matched as HAVE at strong depth from the skills list, but no project bullet actually narrates using them \u2014 real depth is closer to working than strong"
+    ],
+    "understated_by_keywords": [
+      "sensors and embedded software development were scored at generic working-depth canonicals, but the actual project evidence (Turret, Temp Monitor, COFFIN, Planctech) shows genuinely strong hands-on hardware bring-up and debugging depth, not just surface familiarity"
+    ],
+    "screening_gaps": [
+      "Zero full-time professional experience vs. the stated 1-3 year minimum qualification \u2014 the most likely reason a recruiter screens this out before reading further",
+      "No embedded Linux/Yocto experience, an explicitly named preferred skill for a role that leans toward Linux-side firmware work",
+      "No motor/PID/load-cell control experience \u2014 the specific electromechanical domain (DC motors, DC fans, PID loops) the JD calls out, versus the profile's servo/PWM and ToF-sensor background"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core minimum-qual embedded C work \u2014 driving electromechanical actuators and reading sensors on bare-metal STM32/Arduino \u2014 is well backed by concrete, hands-on projects, and the hardware-debugging pattern in COFFIN maps closely to the commissioning/bring-up responsibilities. The gap is the cluster of named preferred skills (Yocto, motor/PID control, load cells, CI/CD) that have zero backing, plus the 1-3 year professional-experience line, which is a real screening risk for an all-internship/capstone background.",
+    "calibration_delta": -13.3
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-30",
+    "channel": "application",
+    "notes": "Form rejection (role not named in email; matched to the only open Mill application). No feedback."
+  }
+}

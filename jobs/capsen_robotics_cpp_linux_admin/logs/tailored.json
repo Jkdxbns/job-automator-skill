@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "Capsen Robotics",
+    "role": "C++ Software Developer & Linux Systems Administrator",
+    "company_slug": "capsen-robotics",
+    "job_slug": "cpp-linux-admin",
+    "tailored_date": "2026-09-10",
+    "rebuild_note": "Full rebuild from master_profile.json after adding verified Linux admin evidence (systemd, static IP, XRDP). Docker/ProtoBuffs/DNS-DHCP intentionally left out — not in verified experience."
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering (May 2026) from RIT with hands-on experience building real-time embedded C++ systems for robotics and administering the Ubuntu Linux infrastructure they run on (NVIDIA Jetson). Deployed and managed a systemd-based service (auto-restart, non-root isolation, static IP networking, remote XRDP administration) alongside distributed pick-and-place robotics, FreeRTOS firmware, and factory-automation control (ABB RobotStudio, TCP sockets).",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "ROS/ROS2",
+      "Linux",
+      "Git"
+    ],
+    "Linux Administration": [
+      "systemd service management (unit files, auto-restart)",
+      "Networking (TCP/IP, static IP configuration)",
+      "XRDP remote administration",
+      "Secrets/config separation, non-root service isolation"
+    ],
+    "Embedded & Real-Time": [
+      "STM32 Bare-Metal C",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "UART/I2C/SPI",
+      "Arduino"
+    ],
+    "Robotics": [
+      "Robot arm kinematics (DH parameters)",
+      "Real-time vision (YOLO, TensorRT)",
+      "Pick-and-place control",
+      "Sensor integration (ToF, accelerometers)"
+    ],
+    "Tools": [
+      "CMake",
+      "SolidWorks",
+      "EAGLE PCB",
+      "Flask",
+      "WebSocket"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Designed wearable gesture-recognition glove: ADXL345 accelerometers (3-DoF) interfaced via I2C to Raspberry Pi with HC-05 Bluetooth; implemented tap-detection algorithm with sensor calibration for real-time HID cursor control."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led 25-member robotics team in national competitions; owned mechanical design, PCB fabrication, and systems integration. Designed custom PCBs in EAGLE; implemented UART/I2C sensor communication with closed-loop microcontroller feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone",
+      "date": "Apr 2026",
+      "bullets": [
+        "Distributed real-time system: Flutter client → Flask-SocketIO edge server → Jetson+Arduino controller via WebSocket on a statically addressed network. TensorRT-optimized YOLO (5.2× speedup) and dual ToF sensors for visual servoing; 100% pick reliability, 11.5s end-to-end latency.",
+        "Deployed the Jetson controller as a systemd service (auto-restart, non-root isolation, env-file config) with XRDP for remote administration; implemented FreeRTOS firmware (32KB Flash/8KB RAM) with 2-link inverse kinematics."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Simulated ABB RobotStudio workcell for factory automation press-to-packing pipeline; programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven logic."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "YOLOv8 detection on Jetson → STM32 servo control via UART; FreeRTOS multitasking with shared-memory mutexes, VL53L0X ToF sensing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition, 45 universities (2022)"
+  ]
+}

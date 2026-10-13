@@ -1,0 +1,169 @@
+{
+  "company": "Imperative Care",
+  "company_slug": "imperative-care",
+  "role": "Senior Software Engineer, Embedded Test Automation",
+  "job_slug": "senior-swe-embedded-test-automation",
+  "match_pct": 61.9,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 21,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Linux",
+    "Git",
+    "C",
+    "C++",
+    "embedded systems",
+    "UART",
+    "firmware",
+    "build automation",
+    "laboratory equipment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "pytest",
+      "you_have": "testing and validation, Python"
+    },
+    {
+      "jd_skill": "hardware-in-the-loop",
+      "you_have": "hardware/software integration, hardware debugging"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "serial protocols (SPI/I2C/UART)"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "networking"
+    },
+    {
+      "jd_skill": "calibration",
+      "you_have": "sensor calibration"
+    }
+  ],
+  "missing_skills": [
+    "containers",
+    "manufacturing tools",
+    "medical devices",
+    "fault injection",
+    "test fixtures"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "pytest",
+    "hardware-in-the-loop",
+    "HIL",
+    "CI/CD",
+    "Linux",
+    "Git",
+    "C",
+    "C++",
+    "CAN",
+    "UART",
+    "Ethernet",
+    "containers",
+    "fault injection",
+    "calibration",
+    "firmware",
+    "embedded",
+    "test fixtures",
+    "medical device"
+  ],
+  "required_skills": [
+    "Python",
+    "test automation frameworks",
+    "pytest",
+    "hardware-in-the-loop",
+    "Linux",
+    "Git",
+    "CI/CD"
+  ],
+  "preferred_skills": [
+    "containers",
+    "build automation",
+    "C/C++",
+    "embedded systems",
+    "CAN",
+    "UART",
+    "Ethernet",
+    "manufacturing tools",
+    "medical devices",
+    "safety-critical"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "HIL test systems and fixtures",
+    "Python automation for regression and fault injection",
+    "manufacturing programming, provisioning, calibration tools",
+    "embedded tests in CI/CD"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Campbell, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python at working depth across tooling: PyQt/Matplotlib real-time data acquisition GUI in a lab environment (BARC Python Developer Intern), Flask-SocketIO edge server, multiprocessing capture pipeline (COFFIN)",
+      "Bench-level hardware work: UART/I2C sensor links with closed-loop feedback on custom EAGLE PCBs (ARC), oscilloscopes and logic analyzers, servo brown-out and stale-frame debugging (11 integration failures resolved, COFFIN)",
+      "Firmware in C/C++: STM32 bare-metal Cortex-M4 (GPIO, TIM2, ADC1, I2C1), FreeRTOS with mutexes on the turret, interrupt-driven UART commands",
+      "Linux deployment hygiene: systemd service, auto-restart, non-root isolation, static IP, env-file config; Git and GitLab"
+    ],
+    "real_gaps": [
+      "No pytest or any formal test framework; testing evidence is ad hoc integration debugging, not reusable regression suites",
+      "No hardware-in-the-loop rig or automated fixture ever built; COFFIN trials (10/10 picks) were run manually",
+      "No CI/CD pipeline authored; GitLab appears only as version control",
+      "No CAN experience on the resume; UART is real, CAN and Ethernet framing are thin",
+      "No containers or Docker",
+      "No manufacturing tooling (programming, provisioning, calibration stations) and no regulated or medical-device environment; the medical work was ML on imaging and billing data",
+      "Role is senior with 5+ years owning test infrastructure; profile is capstone, research and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "CI/CD counted Adjacent via GitLab, but there is no pipeline work behind it",
+      "hardware-in-the-loop counted Adjacent via hardware/software integration, but integration was manual, not an automated rig",
+      "Ethernet counted Adjacent via networking, but the evidence is static IP and WebSocket fabric, not Ethernet-level device work"
+    ],
+    "understated_by_keywords": [
+      "The 100 golden test vectors and bit-exact comparison against a float reference in the QAT project is genuine verification-harness thinking, relevant to test tooling",
+      "Calibrated EMA observer and software sensor calibration (Planctech) touches the calibration responsibility, though not on a manufacturing line"
+    ],
+    "screening_gaps": [
+      "No hardware-in-the-loop or test-fixture automation built, which is the core of the role",
+      "Seniority: 5+ years building test infrastructure vs zero full-time years",
+      "No pytest, CI/CD or CAN evidence for the named tooling stack"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The hardware and firmware foundation is real (C, UART, STM32, oscilloscopes, Python tooling), but the role's centre of gravity is test infrastructure: HIL rigs, pytest frameworks, CI integration and manufacturing stations, none of which the profile evidences. The keyword pass is generous on HIL, CI/CD and Ethernet. A senior-level bar on top of that makes this a long shot rather than a fit.",
+    "calibration_delta": 15.9
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,77 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Embedded Systems Engineer, Humanoid Robotics",
+  "job_slug": "embedded-humanoid-robotics",
+  "job_url": "https://jobs.lever.co/field-ai/ae6ff0ce-0078-4836-aab1-7e44b1be1893",
+  "location": "Boston, MA (job header); JD boilerplate elsewhere states fully on-site at Field AI's Irvine, CA HQ -- likely a template inconsistency in the posting",
+  "remote_ok": false,
+  "role_category": "embedded_systems",
+  "required_experience_years": 3,
+  "experience_level_stated": "mid-level to senior/staff welcomed, 3+ years hands-on embedded systems minimum",
+  "clearance_required": false,
+  "sponsorship_mentioned": false,
+  "match_pct": 52,
+  "skill_breakdown": {
+    "have": [
+      "C++", "Python", "bare-metal firmware", "RTOS firmware (FreeRTOS)",
+      "Jetson / embedded SBC platforms", "IMU sensor integration (ADXL345)",
+      "CUDA", "TensorRT", "GPU/edge inference (Jetson + YOLO/TensorRT)",
+      "SPI", "I2C", "UART", "ROS/ROS2"
+    ],
+    "adjacent": [
+      "motor/actuator control (PWM, servo, UR5e manipulation) vs. dedicated motor/joint-actuator driver dev",
+      "embedded Linux exposure (Jetson) vs. kernel-level Linux/device-driver work"
+    ],
+    "missing": [
+      "Linux kernel-level development / device driver development",
+      "Board support package (BSP) bring-up / bootloaders",
+      "Camera driver development",
+      "LiDAR driver development",
+      "Tactile sensor driver development",
+      "Ethernet / CAN-CANFD / PCIe / USB real-time comms",
+      "PTP/PPS deterministic timing protocols",
+      "DDS middleware",
+      "SWaP-constrained (wearable/backpack) hardware design",
+      "Humanoid or legged robot platform experience",
+      "Safety-critical / e-stop / ISO 13849 / ISO 10218 systems"
+    ]
+  },
+  "missing_skills": [
+    "Linux kernel / device driver development",
+    "BSP bring-up",
+    "Camera/LiDAR driver development",
+    "SWaP-constrained backpack/wearable design",
+    "Humanoid robotics platform experience"
+  ],
+  "adjacent_skills": [
+    "PWM/servo motor control (transferable to actuator drivers)",
+    "Embedded Linux on Jetson (transferable toward kernel-level work)"
+  ],
+  "top_ats_keywords": [
+    "embedded systems", "ARM/SoC/microcontrollers", "RTOS", "bare-metal",
+    "BSP", "Linux kernel", "device drivers", "LiDAR", "IMU", "tactile sensors",
+    "CAN", "SPI", "I2C", "PTP", "CUDA", "TensorRT", "ROS2", "DDS", "SWaP", "e-stop"
+  ],
+  "key_responsibilities": [
+    "Design and select embedded compute platforms (ARM, SoC, microcontrollers) for the humanoid backpack payload under SWaP constraints",
+    "Write and customize bare-metal and RTOS firmware, BSPs, and bootloaders",
+    "Work at the Linux kernel level for real-time performance and reliability",
+    "Run thermal profiling, power draw analysis, latency measurement; implement watchdogs/health checks",
+    "Develop/adapt drivers for cameras, LiDAR, IMUs, tactile sensors, motors, and joint actuators",
+    "Bring up wired (Ethernet, CAN, GMSL, SPI, I2C) and wireless comms with PTP/PPS deterministic timing",
+    "Partner with the ML team to meet latency, memory, and throughput requirements",
+    "Build the sensor-to-actuator manipulation data pipeline (camera/LiDAR/IMU/tactile -> joint commands)",
+    "Enable accelerated edge inference on the backpack compute stack",
+    "Expose driver/sensor data via ROS/ROS2 and DDS for the ML software stack",
+    "Design platform-agnostic compute/software architecture across humanoid robot platforms",
+    "Lead technical direction of backpack compute development",
+    "Implement e-stop circuitry and safety monitoring"
+  ],
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null
+}

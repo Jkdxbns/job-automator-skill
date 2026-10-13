@@ -1,0 +1,94 @@
+{
+  "company": "ASML",
+  "company_slug": "asml",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 44.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 9,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Bash",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "unit testing",
+      "you_have": "Model evaluation/benchmarking experience across projects"
+    },
+    {
+      "jd_skill": "system architecture",
+      "you_have": "Embedded/robotics system design (STM32, Jetson, ROS2)"
+    }
+  ],
+  "missing_skills": [
+    "ClearCase",
+    "Jira",
+    "googletest",
+    "Agile"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "ClearCase",
+    "Jira",
+    "Bash",
+    "Python",
+    "googletest",
+    "unit testing",
+    "Agile",
+    "system architecture"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "ClearCase",
+    "Jira",
+    "Bash"
+  ],
+  "preferred_skills": [
+    "Python",
+    "googletest",
+    "unit testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop software enabling semiconductor lithography miniaturization",
+    "Agile development using C/C++ and Python",
+    "Create modular, scalable, robust architecture/designs",
+    "Unit and on-target testing",
+    "Evaluate technical issues, risks, dependencies",
+    "Interface with customers/stakeholders",
+    "Verify stability, interoperability, portability, security, scalability"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Wilton, CT, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "EXPORT CONTROL (EAR/deemed export) \u2014 \"This position may require access to controlled technology, as defined in the Export Administration Regulations (15 C.F.R. \u00a7 730, et seq.). As a condition of employment, qualified candidates must be legally authorized to access such controlled technology prior to beginning work.\""
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

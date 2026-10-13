@@ -1,0 +1,163 @@
+{
+  "company": "Amazon.com Services LLC",
+  "company_slug": "amazon",
+  "role": "Robotics Systems Engineer II, RDPI Technology Deployment",
+  "job_slug": "robotics-systems-eng-ii-rdpi",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 26,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 35,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4)",
+    "Python",
+    "ROS2",
+    "ROS/ROS2",
+    "Jetson",
+    "NVIDIA Jetson",
+    "TensorRT",
+    "OpenCV",
+    "Linux",
+    "Git",
+    "GitLab",
+    "Bash",
+    "I2C",
+    "UART",
+    "SPI",
+    "GPIO",
+    "PCB",
+    "SolidWorks",
+    "CMake",
+    "systemd service management",
+    "Static IP / network configuration",
+    "project planning",
+    "system troubleshooting",
+    "technical documentation",
+    "process improvement"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "industrial automation / robotic equipment deployment",
+      "you_have": "embedded/robotics systems (ROS2, Jetson, STM32, perception pipelines)"
+    },
+    {
+      "jd_skill": "large-scale multi-site project management",
+      "you_have": "capstone/research project leadership (CanSat, multi-processor systems, SLURM-managed HPC, team-based robotics builds)"
+    },
+    {
+      "jd_skill": "electro-mechanical systems integration",
+      "you_have": "embedded hardware integration (PCB design, ADC/I2C/UART, sensor fusion)"
+    },
+    {
+      "jd_skill": "standard work / operational guidebook creation",
+      "you_have": "systemd services, deployment automation, benchmark documentation"
+    }
+  ],
+  "missing_skills": [
+    "industrial robotics deployment at Amazon/fulfillment scale",
+    "multi-site field engineering execution",
+    "onsite installation of production automation equipment",
+    "deployment cycle time metrics and continuous improvement in fulfillment context",
+    "cross-functional partner management (construction, third-party installers, contracted engineers, site operations)"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "industrial automation",
+    "deployment",
+    "mechanical",
+    "electrical",
+    "network",
+    "installation",
+    "project management",
+    "troubleshooting",
+    "systems engineering",
+    "operational excellence"
+  ],
+  "required_skills": [
+    "industrial automation deployment",
+    "mechanical systems",
+    "electrical systems",
+    "network configuration",
+    "system troubleshooting",
+    "project management",
+    "onsite coordination",
+    "technical documentation"
+  ],
+  "preferred_skills": [
+    "robotics",
+    "automation equipment installation",
+    "hardware engineering collaboration",
+    "process improvement",
+    "mentoring"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "large scale project planning and installation of industrial automation",
+    "onsite coordination of installation and acceptance testing",
+    "independent resolution of difficult technical problems during deployment",
+    "continuous improvement of deployment cycle time and design feedback to hardware engineering",
+    "standard work and operational guidebook creation",
+    "mentoring junior engineers and participating in technical assessment"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Seattle / Boston / Austin (relocation required); travel 75%+ across North America",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded C / STM32 bare-metal (temperature monitor, ToF/interrupt firmware) \u2014 direct backing for mechanical/electrical integration",
+      "ROS2 / perception pipeline experience (AL5B + UR5e kinematics, COFFIN vision-guided arm, Turret YOLO tracking) \u2014 transferable to deployment troubleshooting",
+      "Real-world integration/debug depth: 11 COFFIN failures resolved, brown-out and stale-frame fixes, multi-layer WebSocket+Jetson pipeline",
+      "Project leadership at meaningful scale (25-member robotics team, 7-person ML team lead, 3-layer distributed build) \u2014 supports cross-functional coordination",
+      "Standard-work / deployment automation (systemd service with auto-restart, static IP networking, XRDP remote admin) \u2014 partial match for guidebook work"
+    ],
+    "real_gaps": [
+      "No professional multi-site industrial automation / fulfillment-scale deployment experience \u2014 core of the role",
+      "No onsite production installation / acceptance-testing of automation equipment at warehouse scale",
+      "No fulfillment / supply-chain domain exposure (Amazon Stores, construction partners, third-party installers, site ops)",
+      "No professional mentoring or operational-excellence initiative at enterprise scale (only student team leadership)",
+      "No documented deployment-cycle-time metrics or continuous-improvement in field-deployment context"
+    ],
+    "overstated_by_keywords": [
+      "\"industrial automation\" / \"deployment\" \u2014 adjacent mapping relies on embedded/robotics capstone work, not fulfillment-scale field engineering"
+    ],
+    "understated_by_keywords": [
+      "Multi-device real-time integration/debug experience (COFFIN: mobile\u2192Flask\u2192Jetson\u2192Arduino with WebSocket fabric) demonstrates exactly the cross-system troubleshooting this role requires",
+      "PCB design (EAGLE) + SolidWorks + sensor fusion \u2014 deeper electro-mechanical backing than keyword pass captured"
+    ],
+    "screening_gaps": [
+      "No multi-site / fulfillment-scale deployment execution \u2014 would screen out against candidates with field engineering track records",
+      "No warehouse / industrial-automation domain experience \u2014 Amazon's deployment context is highly specific; transferable evidence stops at robotics lab scale",
+      "No professional mentoring or process-improvement leadership at enterprise scale \u2014 student leadership exists but does not satisfy the seniority expectation of the role"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Keyword score hits 60% exactly because embedded/robotics keywords map strongly, but the role's core \u2014 multi-site fulfillment deployment, onsite production installation, and operational-excellence leadership \u2014 has no professional backing in the profile. The profile is genuinely deep on embedded/perception/integration, which supports the adjacent skills, but the deployment-scale gap is the primary screen-out risk for a Systems Engineer II at Amazon. Apply is marginal; the semantic read confirms it is a stretch rather than a real fit.",
+    "calibration_delta": 5.0
+  }
+}

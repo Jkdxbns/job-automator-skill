@@ -1,0 +1,48 @@
+{
+  "company": "Northeastern University",
+  "company_slug": "northeastern",
+  "role": "Associate AI Engineer",
+  "job_slug": "associate-ai-engineer",
+  "match_pct": 57.1,
+  "missing_skills": [
+    "Containerized deployments / MLOps",
+    "Data warehousing",
+    "Cloud computing (AWS/GCP/Azure)",
+    "Solution architecture",
+    "Security awareness (AI systems)",
+    "AI ethics and governance",
+    "SQL"
+  ],
+  "adjacent_skills": [
+    "Enterprise LLM prompt engineering",
+    "Data pipeline engineering / CI-CD",
+    "Full ML lifecycle (deployment & monitoring)",
+    "System integration (APIs have, DBs/auth services no)",
+    "Data science / statistics"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "prompt engineering",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "MLOps",
+    "Apache Airflow",
+    "data pipelines",
+    "NLP",
+    "cloud-native AI services"
+  ],
+  "key_responsibilities": [
+    "Design/develop AI systems automating university operations (service desk, admin tasks, QA testing)",
+    "Build end-to-end ETL data pipelines (Apache Airflow, cloud, data warehousing)",
+    "Fine-tune LLMs via prompt engineering, transfer learning, domain adaptation",
+    "Integrate AI with identity management, knowledge bases, ticketing, comms platforms",
+    "Monitor production AI/pipeline performance, detect drift, optimize resources"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

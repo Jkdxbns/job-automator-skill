@@ -1,0 +1,151 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Technical Lead Manager - Production Engineering",
+  "job_slug": "technical-lead-manager-production-engineering",
+  "match_pct": 39.1,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 13,
+    "jd_ask_size": 23,
+    "req_cov": 0.636,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Linux systems administration / systemd",
+    "ROS 2 / ROS / MoveIt / RViz",
+    "Robotics / forward kinematics / DH parameters / visual servoing / YOLO / OpenCV",
+    "ML / Deep Learning (PyTorch, TensorFlow, etc.)",
+    "Basic deployment / service management (prototype-level, systemd, static IP)",
+    "Informal team leadership / mentoring (student / research, no formal management years)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hands-on deployment, integration, commissioning of complex hardware/software systems in the field (ideally robots)",
+      "you_have": "COFFIN capstone project (prototype-scale distributed hardware/software integration)"
+    },
+    {
+      "jd_skill": "Technical leadership \u2014 leading engineers and owning delivery of complex cross-disciplinary systems",
+      "you_have": "Student/research team leadership (not formal engineering management)"
+    }
+  ],
+  "missing_skills": [
+    "Formal people-management experience (2+ years managing/directing engineers)",
+    "8+ years software/robotics engineering experience (or 4+ years humanoid/manipulation/teleoperation domain experience)",
+    "Production-scale field deployment / commissioning experience (FAT, on-site customer commissioning at volume)",
+    "Fleet rollout and observability (canary/staged/cascading deployment, centralized monitoring)",
+    "Ansible / provisioning and configuration management at scale",
+    "Networking (DDS/UDP/TCP) \u2014 explicitly stated beyond ROS 2 implication",
+    "On-call / reliability engineering practices for growing production fleet",
+    "Containerization / CI-CD / Kubernetes (not mentioned in profile)",
+    "Cloud infrastructure / fleet backend services (not mentioned)",
+    "TypeScript / Kubernetes / React / CSS (not mentioned)",
+    "WMS / WES / MES / WCS (warehouse / industrial systems integration)",
+    "ML / MLOps in the field (VLA / embodied-AI workflows, model fine-tuning, post-training pipelines)",
+    "Experience standing up a new team/function from scratch"
+  ],
+  "top_ats_keywords": [
+    "Production Engineering",
+    "humanoid",
+    "robotics",
+    "ROS 2",
+    "Linux",
+    "networking",
+    "DDS",
+    "UDP",
+    "TCP",
+    "Ansible",
+    "C++",
+    "Python",
+    "deployment",
+    "commissioning",
+    "FAT",
+    "fleet management",
+    "observability",
+    "monitoring",
+    "on-call",
+    "reliability",
+    "technical lead",
+    "manager",
+    "people management",
+    "hiring",
+    "stakeholder management",
+    "travel",
+    "embedded",
+    "hardware integration",
+    "containerization",
+    "CI/CD",
+    "Kubernetes",
+    "TypeScript",
+    "React",
+    "CSS",
+    "MLOps",
+    "WMS",
+    "WES",
+    "MES",
+    "WCS",
+    "cloud"
+  ],
+  "required_skills": [
+    "Technical leadership / people management (2+ years formal)",
+    "Linux systems administration",
+    "Networking (DDS/UDP/TCP)",
+    "Provisioning / configuration management (Ansible)",
+    "C++ / Python software development",
+    "Hands-on deployment, integration, commissioning of complex hardware/software systems in the field (ideally robots)",
+    "On-site deployment / commissioning ownership",
+    "Cross-functional stakeholder management",
+    "Reliability / uptime / observability and on-call practices",
+    "Fleet rollout (canary, staged, cascading) and fleet tooling",
+    "Willingness to travel up to 25% to deployment sites"
+  ],
+  "preferred_skills": [
+    "ROS 2",
+    "Containerization / CI-CD / fleet-management tooling",
+    "ML / MLOps in the field (model fine-tuning, post-training, VLA / embodied-AI)",
+    "Warehouse / industrial integration (WMS / WES / MES / WCS)",
+    "Cloud infrastructure / fleet backend services",
+    "TypeScript / Kubernetes (back-end)",
+    "React / CSS / interface design (front-end)",
+    "Direct humanoid, manipulation, or teleoperation domain experience",
+    "Standing up a new team/function from scratch"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build, lead, and grow the Production Engineering team (software support, site-reliability, hardware-configuration engineers)",
+    "Own engineering last mile \u2014 integrate subsystems into working humanoid and drive to Factory Acceptance Test (FAT) acceptance",
+    "Champion on-site deployment, bring-up, and commissioning for internal and external customers",
+    "Establish reliability, tooling, and on-call practices for growing field fleet",
+    "Own centralized fleet rollout (canary, staged, cascading) and observability/monitoring",
+    "Set technical direction for provisioning, configuration management, networking, and fleet tooling",
+    "Partner with Commercial, Service & Support, and PMO on deployment schedules and hand-offs",
+    "Define lightweight, repeatable processes (sprint cadence, deployment playbooks, FAT criteria)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Onsite - Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

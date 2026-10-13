@@ -1,0 +1,132 @@
+{
+  "company": "Noom",
+  "company_slug": "noom",
+  "role": "Agentic Engineer (New Grad)",
+  "job_slug": "agentic-engineer-new-grad",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 19,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Machine Learning",
+    "NLP / language models",
+    "Research / standout academic projects"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLM APIs (OpenAI/Anthropic)",
+      "you_have": "Hugging Face Transformers, TinyLlama, GPT-2 from scratch"
+    },
+    {
+      "jd_skill": "Prompt engineering / tool use",
+      "you_have": "Latency profiling across prompt types on TinyLlama"
+    },
+    {
+      "jd_skill": "Testing / regression detection",
+      "you_have": "Model evaluation, HellaSwag/GSM8K/ARC benchmarking"
+    },
+    {
+      "jd_skill": "LLM evaluation frameworks",
+      "you_have": "HellaSwag/GSM8K/ARC benchmarking, <1% accuracy degradation checks"
+    },
+    {
+      "jd_skill": "CI/CD (GitHub Actions)",
+      "you_have": "GitLab, Git"
+    },
+    {
+      "jd_skill": "Observability / telemetry",
+      "you_have": "pynvml + psutil profiling"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "Infrastructure-as-code",
+    "LangGraph / CrewAI / Autogen",
+    "Multi-agent orchestration",
+    "Cursor / Claude Code"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Git",
+    "LLM",
+    "OpenAI",
+    "Anthropic",
+    "LangGraph",
+    "CrewAI",
+    "Autogen",
+    "GitHub Actions",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "infrastructure-as-code",
+    "observability",
+    "evaluation",
+    "multi-agent",
+    "prompt engineering",
+    "Claude Code",
+    "Cursor"
+  ],
+  "required_skills": [
+    "Python",
+    "Git",
+    "Testing",
+    "Debugging"
+  ],
+  "preferred_skills": [
+    "LLM APIs (OpenAI/Anthropic)",
+    "Prompt engineering / tool use",
+    "NLP / ML",
+    "LangGraph / CrewAI / Autogen",
+    "Cursor / Claude Code",
+    "AWS / GCP",
+    "Docker",
+    "Kubernetes",
+    "Open source / research"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Agent-driven systems: product requirements to specs and prototypes",
+    "Multi-agent coordination workflows",
+    "LLM-powered systems with OpenAI and Anthropic",
+    "CI/CD (GitHub Actions) and infrastructure-as-code",
+    "Observability: logging, telemetry, failure handling for AI workflows",
+    "LLM evaluation frameworks, automated testing, regression detection",
+    "Human-in-the-loop quality processes"
+  ],
+  "role_category": "ml_systems",
+  "location": "Princeton, NJ (hybrid, 2 days/week on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

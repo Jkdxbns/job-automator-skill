@@ -1,0 +1,146 @@
+{
+  "company": "C5R",
+  "company_slug": "c5r",
+  "role": "Robotics Systems Engineer",
+  "job_slug": "robotics-systems-engineer",
+  "match_pct": 63.2,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Robotics",
+    "Kinematics (forward kinematics, DH parameters, IK)",
+    "Hardware/software debugging",
+    "PCB design (EAGLE)",
+    "CAD (SolidWorks)",
+    "RTOS/FreeRTOS",
+    "Perception (ROS2, CV, YOLO)",
+    "Firmware (STM32 bare-metal)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Mechatronics",
+      "you_have": "Robotics + embedded hardware/software integration"
+    },
+    {
+      "jd_skill": "Controls engineering",
+      "you_have": "RTOS/embedded control-loop work (no formal classical-controls coursework)"
+    },
+    {
+      "jd_skill": "Robot runtime software",
+      "you_have": "ROS2 / robotics pipelines"
+    },
+    {
+      "jd_skill": "Autonomy",
+      "you_have": "Autonomous systems / perception pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Lab automation / scientific equipment",
+    "CAN bus",
+    "GMSL firmware",
+    "Teleoperation"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "C",
+    "Rust",
+    "CAN bus",
+    "GMSL firmware",
+    "robot runtime",
+    "teleoperation",
+    "perception",
+    "autonomy",
+    "PCB",
+    "CAD",
+    "RTOS",
+    "kinematics",
+    "controls",
+    "mechatronics",
+    "firmware",
+    "robotics"
+  ],
+  "required_skills": [
+    "Robotics/mechatronics/controls engineering (real systems)",
+    "Python",
+    "Lower-level systems language (Rust, C++, or C)",
+    "Controls and kinematics fundamentals",
+    "Hardware + software debugging"
+  ],
+  "preferred_skills": [
+    "PCB design and bring-up",
+    "CAD / 3D printing / machining / rapid prototyping",
+    "RTOS experience",
+    "Lab automation or scientific equipment experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Debug GMSL firmware, CAN bus issues, video encoding flakes",
+    "Tune teleoperation stack",
+    "Build/debug robot runtime software coordinating arms, cameras, instruments",
+    "Collaborate with ML researchers on failure analysis and hardware/software/calibration fixes"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Francisco, CA (on-site only)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN capstone: voice-controlled, vision-guided pick-and-place robot coordinating a mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller into one WebSocket-linked runtime with 100% pick reliability (10/10) \u2014 directly maps to building robot runtime software that runs arms, cameras, and sensors as one coordinated system.",
+      "ROS-Based Robotic Arm (AL5B & UR5e): hand-derived DH tables and full forward-kinematic chains, validated against MoveIt/RViz and executed on a physical UR5e \u2014 real kinematics and controls fundamentals, not just coursework.",
+      "STM32 bare-metal firmware + Object Tracking Turret: direct low-level firmware debugging (GPIO/TIM2/ADC/I2C), UART-driven servo control, FreeRTOS mutex coordination \u2014 the same debugging muscle GMSL/CAN firmware work requires, even without those specific protocols.",
+      "EAGLE PCB design and SolidWorks CAD from the robotics club \u2014 covers the PCB bring-up and rapid-prototyping nice-to-haves with real fabrication experience, not just tool familiarity."
+    ],
+    "real_gaps": [
+      "No CAN bus experience anywhere in the profile.",
+      "No GMSL (camera serial link) firmware experience.",
+      "No teleoperation stack experience \u2014 nothing on human-operator demonstration collection or teleop tuning.",
+      "No exposure to vision-language-action models or world models specifically; ML background is strong but not in this exact frontier-robotics-control paradigm.",
+      "All robotics work is academic/capstone/competition scope, not ownership of a production facility-scale system."
+    ],
+    "overstated_by_keywords": [
+      "Controls engineering counted as adjacent, but the real backing is closed-loop embedded control (FreeRTOS/PWM/servo), not formal classical-controls coursework or tuning."
+    ],
+    "understated_by_keywords": [
+      "COFFIN's multi-device runtime (arm + camera + ToF sensors + mobile client, systemd-deployed, 11 integration failures resolved) is a stronger match to \"robot runtime software\" than the keyword pass credited it as (only counted adjacent)."
+    ],
+    "screening_gaps": [
+      "No teleoperation experience \u2014 tuning the teleop stack is one of the four named example work items and the profile has nothing on it.",
+      "No CAN bus or GMSL firmware experience \u2014 two more of the four named example tasks, zero hits in the profile.",
+      "No VLA/world-model robot-control experience or production-facility-scale system ownership \u2014 the role is built around frontier-model-controlled robots at a live facility, not academic/capstone projects."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin has genuine, hands-on depth in robot runtime integration, kinematics, and embedded firmware debugging that covers a real chunk of this role, especially the COFFIN capstone which is structurally close to what C5R describes. But three of the four named example tasks (teleop tuning, CAN bus, GMSL firmware) have zero backing, and the VLA/world-model ML context plus production-facility scope are genuine domain gaps for a first robotics-systems role outside school.",
+    "calibration_delta": 1.2
+  }
+}

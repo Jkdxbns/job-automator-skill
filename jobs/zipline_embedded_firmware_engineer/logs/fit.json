@@ -1,0 +1,104 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "Embedded Firmware Engineer",
+  "job_slug": "embedded_firmware_engineer",
+  "match_pct": 58.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 17,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C++ (production/embedded)",
+    "embedded/resource-constrained systems (STM32, bare-metal, Cortex-M4)",
+    "serial interfaces (UART, I2C, SPI)",
+    "real-time firmware / RTOS (FreeRTOS, interrupts)",
+    "memory-constrained systems (RAM, Flash)",
+    "embedded Linux (Jetson)",
+    "peripheral driver implementation from schematics/datasheets (PCB, EAGLE, Logic Analyzers, Oscilloscopes, ADXL345, TCA9548A, VL53L0X)",
+    "systems debugging mindset (Logic Analyzers, Oscilloscopes)"
+  ],
+  "adjacent_skills": [
+    "CPU/scheduling/timing optimization -> has CUDA kernel/memory-coalescing optimization experience, not RTOS-side latency/jitter tuning",
+    "software-in-the-loop simulation -> has CARLA robotics simulation, not firmware SIL specifically",
+    "distributed microcontroller network -> has multi-processor systems coursework, not a deployed multi-MCU aircraft network",
+    "production deployed embedded systems with long-tail edge cases -> has STM32/embedded capstone projects, not shipped production hardware"
+  ],
+  "missing_skills": [
+    "Rust",
+    "Ethernet (as a firmware comms interface)",
+    "fault handling and recovery at the system level",
+    "field-deployment metrics/monitoring/observability tooling",
+    "platform-level interface design / reusable firmware components across subsystems"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded firmware",
+    "microcontrollers",
+    "real-time systems",
+    "Ethernet",
+    "Rust",
+    "embedded Linux",
+    "peripheral drivers"
+  ],
+  "key_responsibilities": [
+    "Design and build C++ firmware for a distributed system of aircraft microcontrollers",
+    "Develop reliable Ethernet, serial, and other microcontroller communication interfaces",
+    "Define platform-level interfaces and reusable firmware components",
+    "Own predictable/reliable performance across startup, real-time operation, fault handling, recovery",
+    "Optimize real-time behavior (CPU, memory, scheduling latency, jitter, resource contention)",
+    "Develop metrics, monitoring, troubleshooting for field deployment at scale",
+    "Develop Rust-based tooling and software-in-the-loop simulations"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Peripheral driver implementation from schematics/datasheets is genuinely strong: TCA9548A I2C mux debugging, VL53L0X ToF and ADXL345 sensor integration, custom EAGLE PCB fabrication, and a bare-metal I2C driver written directly against GPIO/TIM2/ADC1/I2C1 registers on STM32 (STM32 Bare-Metal Temperature Monitor).",
+      "Real interrupt-driven and basic RTOS work exists: FreeRTOS with mutexes for shared-memory task coordination and interrupt-driven UART commands (Object Tracking Turret); timer-triggered ADC scans with interrupt-driven sample capture (STM32 Temp Monitor).",
+      "Serial protocol fluency (UART, I2C, SPI) is demonstrated across three separate projects, not just listed as a skill.",
+      "Systems debugging under integration pressure is shown concretely: resolved 11 distinct integration failures (false-positive detections, servo brown-out, stale-frame capture) in the COFFIN capstone, and root-caused sensor jitter via calibration in the gesture glove project."
+    ],
+    "real_gaps": [
+      "Zero Rust exposure anywhere in the profile, and Rust tooling/SIL is an explicit JD deliverable.",
+      "No Ethernet experience as a firmware comms interface; all comms work is UART/I2C/SPI, which does not transfer directly.",
+      "No designed-in fault handling and recovery lifecycle (startup, fault, recovery) at a system level; the profile shows post-hoc debugging fixes, not fault-tolerant design.",
+      "No field-deployment metrics/monitoring/observability tooling; the closest analog (pynvml/psutil profiling) is model-inference profiling, not firmware production telemetry.",
+      "No platform-level interface design or reusable firmware components spanning multiple subsystems; every embedded project is a single- or dual-MCU standalone build, not a defined multi-node platform.",
+      "No true production/field-deployed system with long-tail edge-case hardening; everything is capstone, internship, or competition scope over a single semester, while the JD centers on a safety-critical aircraft system operating at global field sites."
+    ],
+    "overstated_by_keywords": [
+      "\"real-time firmware / RTOS\" was counted as a full HAVE in the keyword pass, but on inspection it is basic FreeRTOS mutex usage in a hobbyist turret project, not the kind of real-time performance ownership (startup through fault recovery) the JD asks for on a safety-critical system."
+    ],
+    "understated_by_keywords": [
+      "The keyword pass undersold how deep the hardware-to-firmware boundary work actually is: PCB fabrication in EAGLE plus multiplexer- and register-level driver debugging is unusually hands-on for this stage of a career and maps directly onto the JD's \"fluency implementing peripheral drivers from schematics/datasheets\" bullet."
+    ],
+    "screening_gaps": [
+      "No production or shipped embedded system experience, while the JD explicitly asks for production experience on a real-world deployed, safety-critical system.",
+      "Zero Rust experience against an explicit Rust tooling requirement.",
+      "No Ethernet experience against an explicitly named comms interface."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The hardware-to-firmware boundary skills (peripheral drivers, PCB work, interrupt-driven serial comms, basic RTOS) are genuinely strong and specific, but the role's core is a production, safety-critical, multi-node aircraft platform with Rust tooling and Ethernet comms, and none of that has real backing in the profile. Worth a shot given the strong overlap on the hardware-debugging side, but the gaps are real, not just keyword noise.",
+    "calibration_delta": 11.8
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-17",
+    "channel": "application",
+    "notes": "Form rejection (Embedded Firmware Engineer). No feedback."
+  }
+}

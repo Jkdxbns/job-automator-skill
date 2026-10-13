@@ -1,0 +1,163 @@
+{
+  "company": "Abbott",
+  "company_slug": "abbott",
+  "role": "Sr. Embedded Software Engineer, Device Driver and CI/CD",
+  "job_slug": "sr-embedded-sw-device-driver-cicd",
+  "match_pct": 61.9,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "SPI",
+    "UART",
+    "Python",
+    "Bluetooth",
+    "Device drivers",
+    "Embedded software design",
+    "Debugger",
+    "Microprocessor architecture"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GitHub Actions",
+      "you_have": "GitLab / Git"
+    },
+    {
+      "jd_skill": "Jenkins",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "PowerShell",
+      "you_have": "Bash"
+    }
+  ],
+  "missing_skills": [
+    "NFC",
+    "Assembly",
+    "PC application DLLs",
+    "FDA",
+    "ICE",
+    "Device memory management"
+  ],
+  "top_ats_keywords": [
+    "Embedded",
+    "C",
+    "C++",
+    "RTOS",
+    "Device driver",
+    "SPI",
+    "UART",
+    "Jenkins",
+    "GitHub Actions",
+    "CI/CD",
+    "Python",
+    "PowerShell",
+    "Bluetooth",
+    "NFC",
+    "Assembly",
+    "Debugger",
+    "FDA"
+  ],
+  "required_skills": [
+    "Embedded software design",
+    "C",
+    "C++",
+    "Debugger",
+    "RTOS",
+    "Device drivers",
+    "SPI",
+    "UART",
+    "Microprocessor architecture",
+    "Device memory management",
+    "CI/CD",
+    "Jenkins",
+    "GitHub Actions",
+    "Python",
+    "PowerShell"
+  ],
+  "preferred_skills": [
+    "Python",
+    "Bluetooth",
+    "NFC",
+    "Assembly",
+    "PC application DLLs"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "CI/CD pipelines for embedded",
+    "device driver implementation",
+    "multi-worker CI with HW integration",
+    "test infrastructure",
+    "FDA-regulated design docs"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Alameda, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 38,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Low-level peripheral work: STM32 Bare-Metal Temperature Monitor (GPIO/TIM2/ADC1 and a low-level I2C driver in bare-metal C, 3.68 KB Flash / 1.58 KB RAM) backs device driver and memory-constrained C",
+      "RTOS + UART: Object Tracking Turret (FreeRTOS mutexes, interrupt-driven UART commands between Jetson and STM32)",
+      "Interrupt-driven decoding: Robocon quadrature 4-bit state machine on hardware interrupts",
+      "Python scripting and Linux tooling: PyQt/Matplotlib DAQ GUI (BARC), Bash, CMake, systemd service on Jetson",
+      "Hardware bring-up debugging with oscilloscopes and logic analyzers; 11 integration failures resolved in COFFIN"
+    ],
+    "real_gaps": [
+      "No CI/CD anywhere: GitLab was used only for version control, with no pipelines, runners, Jenkins or GitHub Actions",
+      "No multi-worker or hardware-in-the-loop CI design and no test-infrastructure ownership",
+      "No FDA-regulated or disciplined design-control process, no formal design documentation at product scale",
+      "No JTAG/ICE-level debugger evidence, no assembly, no NFC, no Windows DLL or PowerShell work",
+      "Seniority: role is 7+ years with technical ownership and team lead scope; profile is internship and capstone scope"
+    ],
+    "overstated_by_keywords": [
+      "CI/CD, Jenkins, GitHub Actions counted Adjacent via GitLab, but GitLab was version control only",
+      "Debugger and Microprocessor architecture counted Have, but evidence is oscilloscopes and logic analyzers plus one Cortex-M4 project",
+      "Device drivers counted Have, but the depth is one small I2C driver"
+    ],
+    "understated_by_keywords": [
+      "Scripting depth: Python and Bash tooling across the Jetson deployment covers the scripting ask beyond PowerShell",
+      "COFFIN integration and fault-isolation across Jetson, Arduino and sensors is a loose analog of hardware test rigs"
+    ],
+    "screening_gaps": [
+      "No CI/CD pipeline experience, and CI/CD is half the job title",
+      "7+ years of experience and technical ownership required against 0 years full-time",
+      "No FDA or regulated-medical-device software process experience"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role is at least half CI/CD and test-infrastructure engineering for embedded, and the profile has no pipeline work at all. The device driver and RTOS half is real but shallow, with one bare-metal I2C driver and a FreeRTOS coursework project. Skill fit is below half and the seniority and FDA gaps sit on top of that.",
+    "calibration_delta": 23.9
+  }
+}

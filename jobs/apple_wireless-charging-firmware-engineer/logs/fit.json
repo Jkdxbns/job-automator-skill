@@ -1,0 +1,60 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Wireless Charging Firmware Engineer",
+  "job_slug": "wireless-charging-firmware-engineer",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Wireless charging domain knowledge (Qi / inductive coupling / AirFuel standards)",
+    "Pre-silicon hardware bring-up experience",
+    "Apple platform kernel/driver ecosystem (macOS/iOS Core OS)"
+  ],
+  "adjacent_skills": [
+    "Kernel driver development \u2192 you have Linux exposure, not OS-level driver dev specifically",
+    "Power delivery / power electronics \u2192 you have embedded power management on STM32 projects, not analog/power-IC specialization"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded systems",
+    "firmware",
+    "kernel drivers",
+    "operating systems",
+    "hardware",
+    "system architecture",
+    "power delivery"
+  ],
+  "key_responsibilities": [
+    "Design and implement wireless charging firmware features",
+    "Lead bring-up of charging features from pre-silicon to commercialization",
+    "Work across hardware, systems, and cross-functional teams",
+    "Develop kernel drivers and global system behavior for charging",
+    "Architect code solutions while satisfying power delivery constraints"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register-level bare-metal firmware depth \u2014 STM32 Bare-Metal Temperature Monitor programs GPIO/TIM2/ADC1/I2C1 directly in C with deterministic timing, the same low-level muscle the JD's 'low level programming' ask requires",
+      "Real-time OS / concurrency experience \u2014 Object Tracking Turret uses FreeRTOS with mutexes and interrupt-driven UART, relevant to the JD's 'global system behavior' and real-time constraint language",
+      "Hands-on hardware bring-up adjacent skills \u2014 oscilloscopes, logic analyzers, and EAGLE PCB design in the toolset show genuine bench debug ability, not just software-only embedded work",
+      "Cross-functional leadership backing \u2014 led a 25-member robotics team end-to-end (mechanical, PCB, ML) and a 7-person cross-cultural research team, directly supports the JD's 'lead' and 'collaborates well with cross functional teams' asks"
+    ],
+    "real_gaps": [
+      "Zero wireless charging domain exposure \u2014 no project touches inductive coupling, Qi/PMA/AirFuel standards, or coil/magnetics design, which is the actual subject matter of the role",
+      "No pre-silicon bring-up or chip validation experience \u2014 the JD explicitly wants someone who takes features 'from pre-silicon to commercialization'; nothing in the profile involves working against pre-release silicon or chip characterization",
+      "Kernel driver development is unbacked \u2014 'Linux' in the skills list is tool-level familiarity, not OS-level driver development; RTOS scheduling on a microcontroller (FreeRTOS/ChibiOS) is a materially different skill from writing drivers against a full multitasking kernel like Apple's Core OS (Darwin/XNU)",
+      "No power delivery / power electronics work \u2014 embedded projects touch low-power microcontroller operation, not power delivery constraints, charging circuit design, or analog power-IC integration"
+    ],
+    "overstated_by_keywords": [
+      "'Operating systems fundamentals' was marked Have off RTOS project work, but that's microcontroller task scheduling, not the multitasking kernel and driver-model experience Apple's Core OS group is actually asking for",
+      "'Kernel drivers' sits in the ATS keyword list with no real backing anywhere in the profile \u2014 should read closer to Missing than Adjacent",
+      "'Hardware understanding' is real but scoped to microcontroller/PCB/sensor work, not the RF and magnetics-adjacent hardware a wireless charging role implies"
+    ],
+    "reasoning": "The generic minimum quals (C/C++, 'embedded systems,' 'hardware,' 'OS') are satisfied by real, demonstrable firmware and RTOS depth, so the keyword match is legitimately high. But the role's actual subject matter, wireless power transfer physics, pre-silicon bring-up, and Apple's Core OS kernel/driver stack, has no backing anywhere in the profile. This reads as a strong firmware generalist application into a role that's really testing for a specific, unrepresented domain."
+  }
+}

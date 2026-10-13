@@ -1,0 +1,152 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "AI Developer Technology Engineer",
+  "job_slug": "ai-devtech-engineer",
+  "match_pct": 73.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 2,
+    "jd_ask_size": 17,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "CUDA",
+    "parallel programming",
+    "performance analysis and optimization",
+    "low-level performance optimization",
+    "GPU architectures",
+    "LLM / generative AI inference",
+    "deep learning",
+    "machine learning",
+    "algorithms"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multimodal systems",
+      "you_have": "computer vision + transformers (vision-encoder-decoder)"
+    },
+    {
+      "jd_skill": "serving frameworks",
+      "you_have": "TensorRT / model optimization"
+    },
+    {
+      "jd_skill": "pre-training and post-training pipelines",
+      "you_have": "GPT-2 from scratch, TinyLlama fine-tuning"
+    },
+    {
+      "jd_skill": "linear algebra and numerical methods",
+      "you_have": "kinematics / DH parameters, CUDA kernels"
+    },
+    {
+      "jd_skill": "CPU architectures",
+      "you_have": "High Performance Architecture coursework, MPI"
+    }
+  ],
+  "missing_skills": [
+    "diffusion models",
+    "open-source contributions"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "CUDA",
+    "GPU",
+    "parallel programming",
+    "performance optimization",
+    "LLM",
+    "generative AI",
+    "diffusion models",
+    "multimodal",
+    "deep learning",
+    "inference",
+    "training",
+    "serving frameworks",
+    "linear algebra",
+    "numerical methods",
+    "open-source"
+  ],
+  "required_skills": [
+    "C/C++",
+    "CUDA",
+    "parallel programming",
+    "performance analysis and optimization",
+    "low-level performance optimization",
+    "CPU and GPU architectures",
+    "generative AI inference",
+    "deep learning",
+    "algorithms"
+  ],
+  "preferred_skills": [
+    "training and inference stacks",
+    "serving frameworks",
+    "pre-training and post-training pipelines",
+    "linear algebra and numerical methods"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "GPU-accelerate generative AI workloads (LLMs, diffusion, multimodal)",
+    "optimize training and inference on NVIDIA platform",
+    "contribute to frameworks, libraries and open-source",
+    "analyze and optimize AI algorithms on CPU and GPU",
+    "publish developer blogs and present at conferences"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "US: Santa Clara CA / Westford MA / Austin TX / Hillsboro OR / Durham NC (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "CUDA kernel work with measured results: custom conv kernels for VGG16 using memory coalescing and constant memory, 49.2ms vs 73.3ms uncoalesced vs 77.5ms CPU TorchScript",
+      "Inference optimization and profiling on real hardware: TensorRT YOLO 5.2x speedup (56.7 to 10.9 ms), TinyLlama 1.1B 8-bit quantization with ~55% VRAM cut profiled via pynvml",
+      "Parallel scaling analysis: MPI Hodgkin-Huxley 10.49x on 12 workers and MPI ray tracer 30x on 55 processes with four scheduling strategies compared",
+      "Transformer internals from scratch (GPT-2 in PyTorch, causal-decoder ASR with cross-attention, Cython BPE 4-5.5x)"
+    ],
+    "real_gaps": [
+      "CUDA depth is one project: no shared-memory tiling, tensor cores, warp-level primitives, or Nsight Compute/Systems evidence; the VGG16 kernel is a coalescing exercise, not a GEMM/attention kernel",
+      "No LLM-scale GPU work: no attention/KV-cache kernels, no multi-GPU or NCCL, no training at scale, no vLLM/TensorRT-LLM/Triton serving",
+      "No diffusion or multimodal GPU acceleration, and no open-source contributions or public technical writing",
+      "No customer-facing performance engagement; C++ is working depth, and 0 FT years against a 1+ yr ask (seniority is handled by A5, not scored here)"
+    ],
+    "overstated_by_keywords": [
+      "CUDA / GPU architectures counted Have but evidenced by a single VGG16 conv project",
+      "LLM / generative AI inference counted Have but the evidence is quantization of TinyLlama and a small GPT-2, not serving or kernel work for LLMs",
+      "Low-level performance optimization counted Have: coalescing and constant memory only"
+    ],
+    "understated_by_keywords": [
+      "Distributed/parallel performance characterization (MPI scaling studies with speedup curves) reads as strong benchmarking discipline the CUDA keyword pass does not credit",
+      "TensorRT deployment on Jetson shows platform-level inference optimization directly on NVIDIA stack"
+    ],
+    "screening_gaps": [
+      "Shallow CUDA/GPU-architecture depth for a role whose core is deep kernel and performance work (single coalescing project, no profiler-driven tiling or tensor-core work)",
+      "No LLM/diffusion/multimodal acceleration at framework scale (no TensorRT-LLM, vLLM, Triton, multi-GPU), which is the JD's headline domain",
+      "No open-source or published optimization work, which this role explicitly expects (blogs, talks, framework contributions)"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Real, measured GPU and inference-optimization evidence maps to the center of the role, and the MPI scaling work shows good performance-analysis habits. The gap is depth and scale: CUDA is a single project, and nothing touches LLM-scale kernels, multi-GPU, serving stacks, diffusion, or open source. Worth applying as a stretch on the entry-level framing, but expect depth probes on CUDA internals.",
+    "calibration_delta": 16.5
+  }
+}

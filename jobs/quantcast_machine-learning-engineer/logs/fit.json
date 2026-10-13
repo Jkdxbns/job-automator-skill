@@ -1,0 +1,164 @@
+{
+  "company": "Quantcast",
+  "company_slug": "quantcast",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 65.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 4,
+    "jd_ask_size": 20,
+    "req_cov": 0.778,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "NLP",
+    "LLMs",
+    "classification",
+    "machine learning",
+    "data structures",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "concurrent algorithms",
+      "you_have": "MPI / CUDA parallelism"
+    },
+    {
+      "jd_skill": "real-time performance optimization",
+      "you_have": "profiling and benchmarking"
+    },
+    {
+      "jd_skill": "Java",
+      "you_have": "C++"
+    },
+    {
+      "jd_skill": "clustering",
+      "you_have": "machine learning"
+    },
+    {
+      "jd_skill": "regression",
+      "you_have": "machine learning"
+    }
+  ],
+  "missing_skills": [
+    "XGBoost",
+    "probability and statistics",
+    "hypothesis testing",
+    "ranking"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "real-time",
+    "NLP",
+    "LLM",
+    "clustering",
+    "PyTorch",
+    "Python",
+    "Java",
+    "Pandas",
+    "NumPy",
+    "XGBoost",
+    "scikit-learn",
+    "distributed systems",
+    "hypothesis testing"
+  ],
+  "required_skills": [
+    "Python",
+    "Java",
+    "probability and statistics",
+    "hypothesis testing",
+    "classification",
+    "regression",
+    "clustering",
+    "ranking",
+    "NLP",
+    "LLMs",
+    "Pandas",
+    "NumPy",
+    "PyTorch",
+    "Scikit-learn",
+    "XGBoost",
+    "data structures",
+    "distributed systems",
+    "concurrent algorithms"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "real-time ML systems <100ms",
+    "run ML experiments",
+    "code reviews",
+    "performance bottleneck optimization"
+  ],
+  "role_category": "ml_systems",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Latency-sensitive ML serving: COFFIN TensorRT YOLO 5.2x speedup (56.7 to 10.9 ms), Gemini intent classification <500ms, 11.5s end-to-end voice-to-pick with 11 integration failures resolved",
+      "Performance profiling and bottleneck removal: CUDA VGG16 kernels (49.2 vs 73.3 ms), pynvml/psutil profiling in SLM compression, Cython BPE tokenizer 4-5.5x speedup",
+      "NLP and LLM depth: GPT-2 from scratch in PyTorch, TinyLlama 8-bit quantization benchmarked on HellaSwag/GSM8K/ARC, DONUT fine-tune 55% to 93%, custom BPE tokenizer, Whisper-style ASR at 15% WER",
+      "Experimentation habit: benchmark-driven comparisons with accuracy vs latency trade-offs (SLM <1% degradation, U-Net backbones on Dice/IoU)",
+      "Parallel and distributed computing: MPI Hodgkin-Huxley (10.49x with 12 workers, load imbalance analysis), MPI ray tracer with 4 scheduling strategies (30x), multiprocessing multi-camera pipeline, concurrency in BARC stitching"
+    ],
+    "real_gaps": [
+      "No statistics or experiment-design evidence: no hypothesis testing, A/B testing, significance, calibration, or probabilistic modeling anywhere in the profile",
+      "No tabular / classical ML at scale: no gradient boosting (XGBoost), no ranking, no clustering, no feature engineering on large event data; scikit-learn/Pandas are listed as skills only, with no project bullet behind them",
+      "No ad-tech, auction, or user-prediction domain (age/gender, fraud, viewability, CTR-style models)",
+      "No Java and no JVM/large-scale data-pipeline experience (Spark/Beam/Flink style)",
+      "Latency work is edge/single-device; nothing shows throughput at millions of requests per second or a production service under load",
+      "Distributed systems evidence is HPC message passing (MPI), not service-oriented distributed systems"
+    ],
+    "overstated_by_keywords": [
+      "Adjacent 'clustering' and 'regression' credited from generic machine learning; no bullet shows either",
+      "Have 'data structures' and 'classification': the profile shows classification only in the intent-classification and YOLO sense, and data structures only implicitly",
+      "Adjacent 'Java -> C++' is weak: different ecosystem, the JD's Java is for large-scale services",
+      "Pandas / NumPy / scikit-learn count as Have but are skills-line only, with no resume bullet demonstrating them"
+    ],
+    "understated_by_keywords": [
+      "Profiling and latency optimization (TensorRT, CUDA, Cython) directly answers the 'identify performance bottlenecks' responsibility",
+      "Real NLP/LLM building blocks (tokenizer, transformer from scratch, quantized LLM benchmarking) map well to the topic-modeling and LLM side of the team",
+      "MPI scheduling analysis (static vs dynamic work distribution, load imbalance) is legitimate concurrency-algorithm reasoning"
+    ],
+    "screening_gaps": [
+      "No probability, statistics or hypothesis-testing evidence for a role that lists it as an explicit analytical requirement",
+      "No tabular / classical ML (gradient boosting, ranking, clustering) or ad-tech prediction work, which is the team's core modeling problem",
+      "Latency and scale evidence is edge-device, not a high-QPS production service, and there is no Java"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong on the engineering half of the role: low-latency inference, profiling, NLP/LLM building blocks and parallel computing are all backed with numbers. The modeling half is thin: nothing shows statistics, experiment design, gradient boosting or ad-domain prediction, and the scale is edge, not millions of QPS. The 0-2 year bar and the internship-or-academic allowance make this a reasonable application, but expect probing on statistics and on tabular ML.",
+    "calibration_delta": 8.0
+  }
+}

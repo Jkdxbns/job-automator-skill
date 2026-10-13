@@ -1,0 +1,107 @@
+{
+  "company": "Interclypse",
+  "company_slug": "interclypse",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 71.4,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 0,
+    "missing_count": 2,
+    "jd_ask_size": 7,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "Python",
+    "Linux",
+    "Embedded software"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Low-level Windows",
+    "x86"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "RTOS",
+    "Python",
+    "Linux",
+    "Windows",
+    "x86",
+    "embedded software"
+  ],
+  "required_skills": [
+    "C/C++",
+    "RTOS",
+    "Python",
+    "Low-level Linux",
+    "Low-level Windows",
+    "x86"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "low-level and embedded software development",
+    "build software solutions for customers",
+    "team environment"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Annapolis Junction, MD",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4 (STM32 temperature monitor: GPIO/TIM2/ADC1/I2C1 in 3.68 KB Flash / 1.58 KB RAM)",
+      "RTOS use: FreeRTOS tasks and mutexes on the Object Tracking Turret",
+      "Interrupt-driven low-level C/C++ (Robocon quadrature decoding, Arduino Due 15 kHz PWM, fail-safe state machine)",
+      "Linux service work: Jetson systemd bridge with non-root isolation",
+      "Python across GUIs, pipelines and tooling; GitLab used at BARC"
+    ],
+    "real_gaps": [
+      "No low-level Windows work (drivers, Win32, internals)",
+      "No x86 architecture or assembly work",
+      "No Linux kernel or driver development, only userspace/systemd",
+      "No customer-delivered production software or team-scale shipping history",
+      "Role is generic; the actual program, and any clearance requirement, is unstated"
+    ],
+    "overstated_by_keywords": [
+      "Linux counts as Have, but the evidence is Jetson userspace and systemd, not low-level Linux"
+    ],
+    "understated_by_keywords": [
+      "Interrupt handling and register-level peripheral programming, which map to the low-level and embedded core of the role"
+    ],
+    "screening_gaps": [
+      "Unstated clearance or citizenship requirement for an Annapolis Junction federal-contractor role",
+      "No low-level Windows or x86 experience",
+      "No kernel or driver-level Linux depth"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Embedded C, RTOS and interrupt-level firmware are well backed, and the JD says the stack is a nice-to-have, not required. The x86 and Windows halves of the stack are unevidenced. The bigger risk is not skill but eligibility: Annapolis Junction federal work usually needs clearance, which the posting does not state.",
+    "calibration_delta": 9.4
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,91 @@
+{
+  "company": "SEL (Schweitzer Engineering Laboratories)",
+  "company_slug": "sel",
+  "role": "Lead Firmware Engineer",
+  "job_slug": "lead-firmware-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 11,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "Python",
+    "Firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object-oriented design",
+      "you_have": "C++ project development (implicit OOD)"
+    }
+  ],
+  "missing_skills": [
+    "Unit testing",
+    "Debugging",
+    "Agile",
+    "Test automation",
+    "Safety critical systems"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "RTOS",
+    "Python",
+    "Firmware",
+    "Unit testing",
+    "Object-oriented design",
+    "Agile",
+    "Safety critical systems"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Object-oriented design",
+    "Unit testing",
+    "Debugging"
+  ],
+  "preferred_skills": [
+    "RTOS",
+    "Test automation",
+    "Python",
+    "Agile"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead design/implementation/documentation/testing of safety critical firmware",
+    "Understand hardware/software interactions",
+    "Collaborate with hardware and software engineers",
+    "Mentor new engineers",
+    "Follow SEL engineering processes"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pullman, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

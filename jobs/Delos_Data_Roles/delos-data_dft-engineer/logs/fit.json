@@ -1,0 +1,123 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "DFT Engineer",
+  "job_slug": "dft-engineer",
+  "match_pct": 36.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 19,
+    "req_cov": 0.308,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "SystemVerilog",
+    "UVM",
+    "scripting / automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "EDA tools / simulation",
+      "you_have": "Simulation/debug experience (limited)"
+    },
+    {
+      "jd_skill": "DFT concepts (scan, ATPG, JTAG, MBIST)",
+      "you_have": "Embedded/bare-metal hardware knowledge"
+    },
+    {
+      "jd_skill": "gate-level / tester formats (STIL)",
+      "you_have": "None"
+    },
+    {
+      "jd_skill": "verification methodologies",
+      "you_have": "Testing / benchmarking experience"
+    }
+  ],
+  "missing_skills": [
+    "SystemVerilog",
+    "UVM / UVM-based verification",
+    "EDA simulation tools (Synopsys VCS, Mentor Questa, Cadence Xcelium)",
+    "EDA DFT tools (Synopsys TestMax, Siemens Tessent)",
+    "DFT / scan / ATPG / JTAG / MBIST / memory repair / fuseboxes",
+    "gate-level simulation",
+    "STIL pattern formats",
+    "high-speed PHY (PCIe / Ethernet) verification",
+    "SoC-level verification",
+    "5+ years digital design verification experience (2+ in DFT specifically)"
+  ],
+  "top_ats_keywords": [
+    "DFT",
+    "verification",
+    "UVM",
+    "SystemVerilog",
+    "scan",
+    "ATPG",
+    "JTAG",
+    "MBIST",
+    "fusebox",
+    "gate-level simulation",
+    "STIL",
+    "Tessent",
+    "TestMax",
+    "Python scripting",
+    "RTL verification",
+    "SOC verification"
+  ],
+  "required_skills": [
+    "SystemVerilog",
+    "UVM",
+    "Python",
+    "EDA tools (Synopsys VCS, Mentor Questa, Cadence Xcelium)",
+    "EDA DFT tools (Synopsys TestMax, Siemens Tessent)",
+    "digital design fundamentals",
+    "gate-level simulation",
+    "tester pattern formats (STIL)",
+    "scan/ATPG",
+    "JTAG",
+    "MBIST",
+    "memory repair",
+    "fuseboxes"
+  ],
+  "preferred_skills": [
+    "git",
+    "SoC-level verification",
+    "high-speed PHY logic (PCIe/Ethernet)"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop RTL verification environments using UVM",
+    "Execute coverage-driven verification plans",
+    "Run pre-silicon test cases with EDA DFT tools",
+    "Debug verification issues with DFT design engineers",
+    "Automate regression and improve verification infrastructure"
+  ],
+  "role_category": "other",
+  "location": "Palo Alto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

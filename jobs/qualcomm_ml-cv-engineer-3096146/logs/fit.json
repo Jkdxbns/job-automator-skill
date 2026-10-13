@@ -1,0 +1,67 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Machine Learning / Computer Vision Engineer",
+  "job_slug": "ml-cv-engineer-3096146",
+  "match_pct": 70.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 20,
+    "req_cov": 0.80,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["Python", "C/C++", "PyTorch", "TensorFlow", "ONNX", "OpenCV", "Transformers/attention (GPT-2 from scratch, DONUT)", "Depth estimation (ZoeDepth)", "3D reconstruction", "Model optimization for memory/compute/power/bandwidth", "Supervised quality metrics (PSNR, Dice, IoU, WER, mAP)", "AI coding assistants"],
+  "adjacent_skills": ["VLA/VLM/world models -> Gemini intent classification + DONUT VisionEncoderDecoder fine-tune (not a dedicated VLA project)", "Video super-resolution/denoising -> wavelet denoising in image-stitching pipeline (not video)", "Edge AI deployment (ExecuTorch/Jetpack/QNN) -> Jetson+TensorRT deployment experience, not the Qualcomm stack", "Publication/patent -> 1st prize poster presentation"],
+  "missing_skills": ["Optical flow (sparse/dense)", "SLAM/visual odometry", "3+ yrs professional CV/video production experience", "3+ yrs large matrixed org experience"],
+  "top_ats_keywords": ["PyTorch", "TensorFlow", "ONNX", "OpenCV", "Python", "C/C++", "transformers", "attention", "depth estimation", "optical flow", "SLAM", "3D reconstruction", "video super-resolution", "denoising", "ExecuTorch", "Jetpack", "QNN", "VLA", "VLM", "world models"],
+  "key_responsibilities": [
+    "Research/design/implement CV algorithms: depth estimation, optical flow, video super-resolution/denoising, 3D reconstruction, visual odometry, SLAM",
+    "Develop optimized model architectures/training for edge deployment (transformers, attention, VLA/VLM, world models)",
+    "Profile and optimize model performance across memory, compute, power, bandwidth",
+    "Develop supervised and non-reference quality metrics",
+    "Own training/development of new release models",
+    "Cross-functional collaboration with hardware/software/systems/product teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Depth estimation and 3D surface reconstruction: deployed ZoeDepth for crack-depth profiling at BARC, +/-8% error",
+      "Model optimization under resource constraints: CUDA kernel optimization (35% speedup, VGG16), 8-bit quantization (55% memory reduction, TinyLlama), TensorRT optimization (5.2x YOLO speedup in COFFIN capstone)",
+      "Transformer/attention fundamentals: built GPT-2 from scratch (multi-head self-attention, MLP, residual, layer norm), fine-tuned DONUT VisionEncoderDecoder transformer",
+      "Edge deployment on constrained SoC platforms: extensive Jetson+TensorRT+Arduino real-time pipeline work in COFFIN capstone under compute/power/latency constraints",
+      "Quality metric development: PSNR, Dice, IoU, WER, mAP across multiple projects"
+    ],
+    "real_gaps": [
+      "Zero evidence of optical flow (sparse or dense) work anywhere in the profile",
+      "Zero evidence of SLAM or visual odometry work",
+      "Video super-resolution/denoising only shows up as image-stitching denoising, not video-stream processing",
+      "VLA/VLM/world-model research depth is shallow: using Gemini as an API for intent classification and fine-tuning DONUT is not building or training VLA-style policy or world models",
+      "Zero full-time years and no experience owning a production release cycle at organizational scale; all experience is internship/capstone scope",
+      "No publication or patent, only a poster presentation award"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "DONUT/VisionEncoderDecoder fine-tuning is genuine hands-on multimodal transformer training experience, slightly stronger than a plain keyword adjacency suggests"
+    ],
+    "screening_gaps": [
+      "No SLAM or optical flow experience, two named principal-duty algorithm areas with zero evidence",
+      "Zero full-time production experience against a role that wants ownership of a release cycle and 3+ years in a matrixed org",
+      "No dedicated VLA or world-model research depth despite the JD calling it out explicitly"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong overlap on edge deployment, model optimization under resource constraints, and hands-on transformer fundamentals, which are the role's technical core. Real gaps are optical flow, SLAM/visual odometry, and VLA/world-model specific research depth, plus no full-time production ownership experience. Worth applying since Qualcomm sponsors and the core skills genuinely overlap, but tailoring should lead with edge optimization and depth estimation rather than imply SLAM or VLA expertise.",
+    "calibration_delta": 7
+  }
+}

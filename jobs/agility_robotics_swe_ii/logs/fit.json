@@ -1,0 +1,41 @@
+{
+  "company": "Agility Robotics",
+  "company_slug": "agility_robotics",
+  "role": "Robotics Software Engineer II",
+  "job_slug": "robotics_software_engineer_ii",
+  "match_pct": 100,
+  "missing_skills": ["behavior trees", "state machines / task planners", "AR/VR teleoperation development", "TDD / automated regression testing / CI/CD", "mobile manipulation / humanoid platform experience"],
+  "adjacent_skills": ["MoveIt / motion planning / kinematics (via UR5e/AL5B project)", "teleop-style data collection (LeRobot-structured pipeline)", "2+ years experience (7 internships, 0 full-time)"],
+  "top_ats_keywords": ["Python", "Linux", "ROS2", "MoveIt", "behavior trees", "state machines", "task planners", "motion planning", "kinematics", "teleop", "mobile manipulation", "humanoid robots", "CI/CD"],
+  "key_responsibilities": [
+    "Develop and maintain production-ready robot skills using behavior trees, state machines, or task planners",
+    "Build/maintain workflows using the robot's skill API",
+    "Develop human-in-the-loop intervention and recovery infrastructure",
+    "Define test plans and validate skills in simulation and on hardware",
+    "Root-cause hardware failures and collect teleop data to improve learned policies",
+    "Occasional travel (<10%) to customer sites for deployment support"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hands-on kinematics/ROS2 depth: derived DH tables and full forward-kinematic chains for a 6-DoF UR5e and 5-DoF AL5B, validated against MoveIt/RViz URDF models, and executed real pick-and-place trajectories on physical UR5e hardware via the ROS2 driver.",
+      "Genuine hardware failure root-causing: COFFIN capstone resolved 11 distinct integration failures (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability.",
+      "Teleop-adjacent data pipeline: built a LeRobot-structured data collection pipeline (the same format used for imitation-learning teleop demonstrations) with multiprocessing multi-camera capture.",
+      "Multi-layer systems integration comfort: three-tier distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller over WebSocket) matches skill-API/workflow integration style work."
+    ],
+    "real_gaps": [
+      "No behavior trees, state machines, or task planner frameworks anywhere in the profile, this is the JD's lead responsibility, not a bonus item.",
+      "No CI/CD, automated regression testing, or TDD experience, GitLab appears only for version control.",
+      "No true AR/VR teleoperation development, closest analog was a chroma-keying MR headset display project, not a teleop control interface.",
+      "Domain/seniority mismatch: every relevant project is academic, capstone, or internship scope, while the JD centers on production reliability across a deployed customer fleet of humanoids."
+    ],
+    "overstated_by_keywords": [
+      "MoveIt counted as a clean Have, but was used only to validate hand-derived kinematics against a simulation model, not to build or tune a production motion-planning pipeline.",
+      "2+ years experience reads as satisfied on paper via internships, but the JD's fleet-scale production ownership language reads closer to mid-level scope than internship-years alone would suggest."
+    ],
+    "reasoning": "The kinematics/ROS2 depth and hands-on failure-debugging track record are real and specific, and the LeRobot data pipeline is a closer match to teleop data collection than keyword scoring credited. But the JD's headline work, scripting skills via behavior trees or state machines, plus CI/CD, AR/VR teleop tooling, and fleet-scale reliability ownership, has no real backing in the profile, which is why this reads Partial rather than Strong despite a 100% required-keyword score."
+  }
+}

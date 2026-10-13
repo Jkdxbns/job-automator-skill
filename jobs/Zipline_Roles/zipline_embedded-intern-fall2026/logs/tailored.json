@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Zipline",
+    "role": "Embedded Software Engineer Intern (Fall 2026)",
+    "company_slug": "zipline",
+    "job_slug": "embedded-intern-fall2026"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT with embedded firmware experience across STM32 (bare-metal C), NVIDIA Jetson (embedded Linux), and FreeRTOS. Deployed real-hardware systems integrating UART/I2C/SPI/ToF sensors with interrupt-driven real-time control; experienced with oscilloscopes and PCB design.",
+  "skills": {
+    "Embedded & Hardware": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "ADC",
+      "GPIO Interrupts",
+      "EAGLE PCB Design"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ],
+    "Edge AI / CV": [
+      "YOLO",
+      "TensorRT",
+      "OpenCV",
+      "PyTorch"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python over UART.",
+        "Implemented a custom z-axis differential tap-detection algorithm; resolved sensor jitter through software calibration and ADC resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated single-layer PCBs in EAGLE for locomotion robots; implemented closed-loop sensor communication over UART and I2C.",
+        "Led 25-member team across national robotics competitions owning mechanical design, PCB fabrication, and firmware integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "TensorRT-optimized YOLO for real-time visual servoing (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS); dual VL53L0X ToF sensors via TCA9548A I2C mux for contact-aware grasping.",
+        "Embedded Linux deployment on NVIDIA Jetson: production systemd service with SIGTERM handling, WebSocket auto-reconnect, and serial UART passthrough to Arduino C++ controller.",
+        "Resolved 11 integration failures; 100% pick reliability (10/10 trials) at ~11.5 s end-to-end latency."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "STM32 firmware (bare-metal C / FreeRTOS): interrupt-driven UART command parser, multi-servo PWM control, mutex-protected shared state, and VL53L0X ToF over I2C with OLED display.",
+        "Validated PWM timing and signal integrity with oscilloscope; tuned dead-band limits under real servo load with YOLO-on-Jetson sending real-time UART commands."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Cortex-M4 firmware in C: timer-triggered ADC scan, interrupt-driven sample capture, low-level I2C driver \u2014 direct register access (GPIO, TIM2, ADC1, I2C1).",
+        "3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz; verified timing in Proteus simulation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Delivery Drone",
+      "date": null,
+      "bullets": [
+        "Arduino C++ flight controller: clamped PWM to 4\u00d7 SimonK ESCs, Bluetooth command parser, ESC arming; Jetson systemd service with SIGTERM handling and serial UART passthrough (Restart=always)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

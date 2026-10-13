@@ -1,0 +1,111 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Robotics Software Engineer, 3D Mapping",
+  "job_slug": "senior-robotics-software-engineer-3d-mapping",
+  "match_pct": 38.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 0,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++ (Profile Languages & Systems \u2014 C/C++ listed; STM32 bare-metal embedded C (Cortex-M4 temperature monitor), CUDA C++ kernels for VGG16 optimization)",
+    "Python (Profile AI/ML Intern (IIT Bombay) PyTorch/HuggingFace; Voice-Controlled Robotic Arm Flask-SocketIO; SLM Compression, GPT-2 from scratch, COFFIN ASR, Python Developer Intern (BARC) PyQt/Matplotlib GUI)",
+    "ROS / ROS2 (Profile ROS-Based Robotic Arm (AL5B & UR5e) \u2014 ROS2 Humble + ROS Noetic, MoveIt, RViz, ROS2 driver; embedded robotics projects use ROS2)",
+    "3D geometry, computer vision, robot kinematics (Profile OpenCV, YOLO tracking/visual servoing, depth estimation (BARC ZoeDepth \u00b18% error), DH parameters, forward kinematics for AL5B & UR5e)",
+    "Robot kinematics (Profile ROS-Based Robotic Arm \u2014 DH tables, forward kinematics for AL5B & UR5e; MoveIt planning)",
+    "Ubuntu / Linux software practices (Profile Linux Admin \u2014 systemd service management (unit files, auto-restart, non-root isolation), static IP/network config; ROS development on Ubuntu implied)",
+    "Master's degree in CS/Engineering with robotics & 3D CV expertise (Profile M.S. Computer Engineering, RIT (May 2026); 7 internships/research in ML, embedded, robotics, perception domains)"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Point cloud data structures and algorithms (ICP, NDT) \u2014 profile has depth estimation and vision tracking but no point-cloud processing or ICP/NDT algorithms mentioned",
+    "LiDAR SLAM algorithms and optimization tools (Ceres, GTSAM, g2o) \u2014 profile has YOLO tracking, visual servoing, and CUDA/MPI optimization but no SLAM algorithms or these optimization libraries",
+    "PCL \u2014 not mentioned in profile",
+    "Open3D \u2014 not mentioned in profile",
+    "Autoware \u2014 not mentioned in profile",
+    "LiDAR systems \u2014 profile uses VL53L0X ToF distance sensors but not LiDAR scanners or LiDAR-based mapping",
+    "3D data formats (PCD, PLY, E57, LAS) \u2014 not mentioned in profile",
+    "Research publications in top-tier venues \u2014 profile lists research internships/fellowships but no publication venues cited",
+    "CloudCompare / Leica Cyclone / Faro Scene / Trimble RealWorks \u2014 not mentioned in profile",
+    "Geospatial data / georeferencing / coordinate systems \u2014 not mentioned in profile",
+    "Survey control / calibration workflows / on-site measurement tools (e.g. total stations) \u2014 not mentioned in profile"
+  ],
+  "top_ats_keywords": [
+    "SLAM",
+    "3D Mapping",
+    "LiDAR",
+    "point cloud",
+    "ICP",
+    "NDT",
+    "Ceres",
+    "GTSAM",
+    "PCL",
+    "Open3D",
+    "Autoware",
+    "ROS",
+    "C++",
+    "Python",
+    "robot kinematics",
+    "3D computer vision",
+    "perception",
+    "mapping algorithms"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "3D geometry / computer vision / robot kinematics",
+    "point cloud data structures and algorithms (ICP, NDT)",
+    "LiDAR SLAM algorithms",
+    "optimization tools (Ceres, GTSAM, g2o)",
+    "PCL",
+    "Open3D",
+    "Autoware",
+    "ROS",
+    "Ubuntu software development practices",
+    "LiDAR systems",
+    "3D data formats (PCD, PLY, E57, LAS)"
+  ],
+  "preferred_skills": [
+    "Research publications in top-tier robotics/CV venues",
+    "CloudCompare / Leica Cyclone / Faro Scene / Trimble RealWorks",
+    "Geospatial data / georeferencing / coordinate systems",
+    "Survey control / calibration workflows / on-site measurement tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and develop scalable LiDAR mapping algorithms",
+    "Improve accuracy/robustness/scalability of point cloud processing pipelines",
+    "Deploy large-scale mapping systems in production",
+    "Validate mapping systems on real robots in unstructured environments",
+    "Cross-functional collaboration for documentation/customer deliverables"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,119 @@
+{
+  "company": "GE HealthCare",
+  "company_slug": "gehealthcare",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware_engineer",
+  "req_id": "R4044994",
+  "location": "Waukesha, WI",
+  "remote_ok": false,
+  "match_pct": 100.0,
+  "have_skills": [
+    "C++",
+    "C/C++",
+    "object-oriented programming",
+    "embedded systems",
+    "firmware",
+    "STM32 bare-metal",
+    "computer architecture",
+    "operating systems / RTOS",
+    "FreeRTOS",
+    "real-time",
+    "Linux",
+    "Git/GitLab",
+    "logic analyzer",
+    "oscilloscope",
+    "hardware/software integration",
+    "MRI domain (BraTS segmentation)",
+    "CMake",
+    "Python",
+    "AI-assisted development"
+  ],
+  "adjacent_skills": [
+    "JTAG debugger -> ST-Link/SWD debugging on STM32",
+    "continuous integration -> GitLab, CMake build automation",
+    "protocol analyzers -> UART/I2C/SPI bus debugging with logic analyzer",
+    "emulators/simulation -> Proteus, CARLA, RViz simulation",
+    "safety/determinism -> FreeRTOS scheduling, interrupt-driven timing",
+    "Agile -> team internship/project workflows"
+  ],
+  "missing_skills": [
+    "regulated environment / IEC 62304 / FDA documented V&V",
+    "formal automated test frameworks (unit test / CI pipelines)",
+    "medical device domain experience"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "object-oriented programming",
+    "embedded software",
+    "firmware",
+    "real-time",
+    "RTOS",
+    "debugging",
+    "hardware/software integration",
+    "computer architecture",
+    "Linux",
+    "version control",
+    "testing and verification",
+    "Agile",
+    "determinism",
+    "safety",
+    "medical device"
+  ],
+  "key_responsibilities": [
+    "Develop and maintain embedded software using C++ and OOP principles",
+    "Learn how real-time firmware interfaces with custom hardware under safety, reliability, determinism, testability requirements",
+    "Collaborate with system, hardware, and firmware teams to translate product requirements into tasks",
+    "Participate in design and code reviews, apply coding standards",
+    "Work in an Agile environment (sprint planning, continuous improvement)",
+    "Investigate defects, document findings, resolve issues with teammates",
+    "Explore responsible AI-assisted development for code quality, testing, documentation"
+  ],
+  "role_category": "embedded_systems",
+  "constraints": {
+    "sponsorship": "not mentioned in JD; GE HealthCare not on known_sponsors list - verify",
+    "experience": "entry-level, 0 yrs required - clean match",
+    "location": "Waukesha WI, onsite; relocation OK",
+    "clearance": "none",
+    "notice_weeks": 4,
+    "ead_pending": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "trigger": "user-requested (not auto-triggered: pasted JD, not URL)",
+    "strengths": [
+      "Register-level bare-metal firmware: STM32 Temperature Monitor (timer-triggered ADC scan, interrupt-driven capture, hand-written I2C driver, 3.68KB Flash / 1.58KB RAM at deterministic 1Hz) directly answers 'real-time firmware interfacing with custom hardware' and 'determinism'.",
+      "Hardware/software integration across a boundary: Object Tracking Turret (Jetson YOLO -> STM32 over UART, interrupt-driven commands, multi-servo PWM, VL53L0X ToF) and COFFIN capstone (Jetson+Arduino, TCA9548A I2C mux, ToF range-gating).",
+      "Documented defect investigation: COFFIN's 11 resolved integration failures (false-positive detections, servo brown-out, stale-frame capture) is a real, specific answer to the JD's troubleshooting bullet.",
+      "MRI domain adjacency: Teesside BraTS 2020 multi-modal MRI pipeline is genuine, rare for a firmware applicant.",
+      "AI-assisted development enthusiasm: the JD asks for it explicitly; he has built LLMs, ASR, and quantization pipelines from scratch, which is far past 'uses Copilot'.",
+      "Cross-functional collaboration: led a 7-person international team and a 25-member robotics club owning mechanical, PCB, and software end to end."
+    ],
+    "real_gaps": [
+      "OOP C++ is the JD's #1 required skill and there is no evidence of it anywhere in the profile. His C++ is CUDA kernels (procedural), Arduino IK, and bare-metal embedded C. No classes, inheritance, RAII, templates, or object-oriented design in any bullet.",
+      "No production software process: no CI pipeline, no unit/automated tests, no formal code review or Agile sprint experience. The JD lists design reviews, coding standards, and Agile as daily work.",
+      "Zero regulated-environment exposure (IEC 62304, documented requirements-to-verification traceability). Nearest thing is claims documentation and a BOM at Planctech.",
+      "All work is greenfield and short-lived (6 weeks to a few months, solo or small academic team). The JD says 'develop and MAINTAIN' an existing long-lived codebase.",
+      "No on-target hardware debug workflow stated: logic analyzer, oscilloscope, and Proteus simulation are there, but no JTAG/SWD breakpoint or trace debugging.",
+      "Firmware is not his center of gravity. The profile reads as an edge-AI/ML systems engineer who does embedded as an enabler, not a firmware engineer."
+    ],
+    "overstated_by_keywords": [
+      "C++ - counted as Have from the 'C/C++' string; actual C++ is CUDA and Arduino, not application C++",
+      "object-oriented programming - counted as Have with no supporting evidence at all",
+      "FreeRTOS / RTOS - one bullet (turret mutexes); thin, and an area he is actively rebuilding",
+      "testing and verification - his 'evaluation' is ML benchmarking (Dice, mAP, WER), not software V&V",
+      "continuous integration - GitLab usage is version control only; no CI"
+    ],
+    "reasoning": "Against the JD's stated minimums he clears the bar cleanly: the req asks for coursework-or-project-level C++ and a foundational understanding of embedded systems, and the STM32 bare-metal work plus the Jetson-to-MCU integration projects exceed that. Against the real applicant pool for a GE HealthCare firmware seat, his firmware depth is roughly one course project deep and his profile reads as ML/edge AI first, so the interview risk sits on object-oriented C++ design and software process, not on embedded fundamentals."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-24",
+    "channel": "application",
+    "notes": "Form rejection (R4044994). No feedback."
+  }
+}

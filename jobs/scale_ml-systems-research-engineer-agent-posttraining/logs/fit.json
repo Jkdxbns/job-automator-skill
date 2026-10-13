@@ -1,0 +1,30 @@
+{
+  "company": "Scale AI",
+  "company_slug": "scale",
+  "role": "Machine Learning Systems Research Engineer, Agent Post-training - Enterprise GenAI",
+  "job_slug": "ml-systems-research-engineer-agent-posttraining",
+  "match_pct": 62.5,
+  "missing_skills": [
+    "LLM training in production environments",
+    "RLHF / RLVR",
+    "PPO / GRPO post-training algorithms",
+    "Multi-node LLM training and inference"
+  ],
+  "adjacent_skills": [
+    "Modern GPU cluster architecture (has single-GPU/edge CUDA optimization, not cluster-scale distributed systems)",
+    "Flash attention (has attention mechanism exposure, not flash-attention-specific kernel work)"
+  ],
+  "top_ats_keywords": ["CUDA", "PyTorch", "transformers", "flash attention", "GPU", "RLHF", "PPO", "GRPO", "multi-node training"],
+  "key_responsibilities": [
+    "Build, profile and optimize training and inference framework",
+    "Post-train state-of-the-art models",
+    "Collaborate with ML teams to accelerate research",
+    "Develop next-gen agent training algorithm for multi-agent/multi-tool rollouts"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

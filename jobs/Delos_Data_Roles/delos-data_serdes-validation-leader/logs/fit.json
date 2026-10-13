@@ -1,0 +1,108 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "SerDes Validation Leader",
+  "job_slug": "serdes-validation-leader",
+  "match_pct": 16.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 12,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python-based script automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "High-performance compute / accelerator environment experience (nice-to-have)",
+      "you_have": "CUDA / GPU kernel optimization / NVIDIA Jetson edge deployment"
+    },
+    {
+      "jd_skill": "Firmware / embedded-system collaboration",
+      "you_have": "Embedded bare-metal C (STM32 Cortex-M4)"
+    }
+  ],
+  "missing_skills": [
+    "SerDes / SerDes IP configuration",
+    "112G / 224G / 56G PAM4 links",
+    "PCIe Gen5 / Gen6 interfaces",
+    "CTLE / FFE / DFE equalization tuning",
+    "Signal integrity (SI) / power integrity (PI) / jitter / eye margin / BER",
+    "BERTs / oscilloscopes / pattern generators / protocol analyzers",
+    "Post-silicon validation / physical-layer bring-up",
+    "Ethernet / PCIe / CXL high-speed protocols",
+    "Channel modeling / compliance testing / production validation flows"
+  ],
+  "top_ats_keywords": [
+    "SerDes",
+    "112G",
+    "224G",
+    "PAM4",
+    "CTLE",
+    "FFE",
+    "DFE",
+    "equalization",
+    "BERT",
+    "oscilloscope",
+    "signal integrity",
+    "SI",
+    "PI",
+    "PCIe",
+    "CXL",
+    "Ethernet",
+    "post-silicon",
+    "physical-layer",
+    "channel modeling",
+    "compliance testing"
+  ],
+  "required_skills": [
+    "SerDes IP implementation and register-level configuration",
+    "Equalization tuning (CTLE, FFE, DFE)",
+    "Physical-layer bring-up and validation of 112G/224G PAM4 links",
+    "High-speed lab equipment (BERTs, oscilloscopes, pattern generators, protocol analyzers)",
+    "Script-based lab automation (Python)",
+    "Physical-layer debug across silicon, board, cable, backplane, firmware, system-level"
+  ],
+  "preferred_skills": [
+    "Experience with 112G/224G PAM4 in data center/networking/switch/HPC",
+    "Familiarity with Ethernet, PCIe, CXL, high-speed protocols",
+    "SerDes IP from commercial providers or in-house teams",
+    "Channel modeling, compliance testing, production validation flows"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Drive SerDes IP block implementation, register config, and tuning (CTLE/FFE/DFE)",
+    "Own post-silicon physical-layer bring-up and characterization of 112G/224G PAM4 links",
+    "Use BERTs, oscilloscopes, pattern generators, and protocol analyzers for link validation",
+    "Collaborate with SI/PI, hardware, and firmware to correlate link behavior with system performance",
+    "Develop Python-based script automation for lab test, measurement, and characterization"
+  ],
+  "role_category": "other",
+  "location": "Palo Alto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

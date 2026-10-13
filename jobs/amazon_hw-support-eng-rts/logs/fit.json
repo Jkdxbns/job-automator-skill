@@ -1,0 +1,104 @@
+{
+  "company": "Amazon.com Services LLC",
+  "company_slug": "amazon",
+  "role": "Hardware Support Engineer, Robotics Technical Services",
+  "job_slug": "hw-support-eng-rts",
+  "match_pct": 46.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 13,
+    "req_cov": 0.083,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "Bash",
+    "Python",
+    "systemd service management (unit files)",
+    "STEM Master's (Computer Engineering)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Networking fundamentals",
+      "you_have": "Static IP / network configuration, XRDP remote desktop administration"
+    },
+    {
+      "jd_skill": "Scripting/tooling/automation for large-scale computing",
+      "you_have": "Python/Bash automation + SLURM-managed cluster jobs"
+    }
+  ],
+  "missing_skills": [
+    "24/7 production environment experience",
+    "Six Sigma/Lean/PMP",
+    "Puppet/Chef/Ansible configuration management",
+    "2+ yrs SRE/DevOps/sysadmin experience",
+    "Network capture / packet-level troubleshooting",
+    "Mechanical/Electrical/Industrial Engineering degree"
+  ],
+  "top_ats_keywords": [
+    "Linux systems administration",
+    "networking fundamentals",
+    "configuration management",
+    "Puppet",
+    "Chef",
+    "Ansible",
+    "Six Sigma",
+    "Lean",
+    "PMP",
+    "SRE",
+    "DevOps",
+    "network administration",
+    "scripting",
+    "automation",
+    "network capture"
+  ],
+  "required_skills": [
+    "Bachelor's STEM degree (Mech/EE/Industrial)",
+    "Networking fundamentals",
+    "24/7 production environment experience",
+    "Six Sigma/Lean/PMP",
+    "Configuration management (Puppet/Chef/Ansible)",
+    "Linux systems administration"
+  ],
+  "preferred_skills": [
+    "2+ yrs SRE/systems engineering/sysadmin/DevOps/network admin",
+    "1+ yrs scripting/tooling/automation for large-scale computing",
+    "Network capture and systems troubleshooting"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "On-site support for robotics hardware",
+    "Preventative maintenance procedures",
+    "Troubleshooting",
+    "Tool/fixture design",
+    "Training on-site RME teams",
+    "Spare parts management",
+    "Performance reporting"
+  ],
+  "role_category": "embedded_systems",
+  "location": "field-based, up to 50% travel",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

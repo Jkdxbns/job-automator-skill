@@ -1,0 +1,51 @@
+{
+  "company": "Seer (unnamed embodied AI company)",
+  "company_slug": "seer",
+  "role": "Software Engineer: ML Optimization",
+  "job_slug": "ml-systems-engineer-optimization",
+  "match_pct": 71,
+  "have_skills": [
+    "CUDA kernels / GPU optimization (CUDA C++, memory coalescing)",
+    "PyTorch optimization (TensorRT, TorchScript, quantization, pruning)",
+    "Transformer architecture efficiency (structured pruning, 8-bit quant)",
+    "Edge inference deployment (Jetson, TensorRT, YOLO on-device)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed training at scale",
+      "you_have": "SLURM-managed cluster (project-level, not production-scale)"
+    },
+    {
+      "jd_skill": "CPU / memory / I/O bottleneck analysis",
+      "you_have": "Memory coalescing + CUDA profiling"
+    }
+  ],
+  "missing_skills": [
+    "Diffusion model optimization",
+    "NVLink / interconnect / cluster network tuning"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "GPU optimization",
+    "PyTorch",
+    "inference optimization",
+    "training throughput",
+    "transformer",
+    "quantization",
+    "distributed training",
+    "TensorRT",
+    "kernel optimization"
+  ],
+  "key_responsibilities": [
+    "Optimize CUDA kernels and low-level GPU execution",
+    "Improve throughput/latency of training and on-robot inference stacks",
+    "Optimize transformer and diffusion-based architectures",
+    "Profile and benchmark full compute stack (GPU, CPU, network)",
+    "Distributed training systems: NVLink, interconnects, cluster comms"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

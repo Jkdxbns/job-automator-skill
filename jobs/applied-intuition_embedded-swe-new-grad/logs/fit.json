@@ -1,0 +1,156 @@
+{
+  "company": "Applied Intuition",
+  "company_slug": "applied-intuition",
+  "role": "Embedded Software Engineer - New Grad (December 2026)",
+  "job_slug": "embedded-swe-new-grad",
+  "match_pct": 73.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 2,
+    "jd_ask_size": 17,
+    "req_cov": 0.769,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "I2C",
+    "SPI",
+    "UART",
+    "RTOS",
+    "low-level hardware debugging",
+    "hardware bring-up",
+    "embedded software development",
+    "real-time constraints"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN",
+      "you_have": "I2C/SPI/UART serial protocols"
+    },
+    {
+      "jd_skill": "LIN",
+      "you_have": "UART"
+    },
+    {
+      "jd_skill": "middleware",
+      "you_have": "ROS/ROS2"
+    },
+    {
+      "jd_skill": "SoC bring-up",
+      "you_have": "STM32 Cortex-M4, Jetson"
+    },
+    {
+      "jd_skill": "safety-critical robotic systems",
+      "you_have": "RTOS + robotics (not safety-certified)"
+    }
+  ],
+  "missing_skills": [
+    "assembly",
+    "safety-critical C (MISRA / functional safety)"
+  ],
+  "top_ats_keywords": [
+    "embedded software",
+    "C",
+    "C++",
+    "assembly",
+    "CAN",
+    "LIN",
+    "I2C",
+    "SPI",
+    "UART",
+    "RTOS",
+    "middleware",
+    "safety-critical",
+    "real-time",
+    "bring-up",
+    "SoC"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "assembly",
+    "CAN",
+    "LIN",
+    "I2C",
+    "SPI",
+    "UART",
+    "RTOS",
+    "low-level hardware debugging",
+    "hardware bring-up",
+    "embedded software development",
+    "safety-critical C"
+  ],
+  "preferred_skills": [
+    "RTOS",
+    "middleware",
+    "safety-critical robotic systems",
+    "real-time constraints"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Integrate vendor components into common framework over CAN/LIN/I2C/SPI/UART",
+    "RTOS applications",
+    "Safety-critical real-time C",
+    "Board and SoC bring-up and low-level debug",
+    "Productionize custom software on new devices"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA (on-site, 5 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware: timer-triggered ADC, interrupt-driven capture, low-level I2C driver, 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz (STM32 Temperature Monitor)",
+      "RTOS + comms: FreeRTOS with mutexes, interrupt-driven UART commands, multi-servo PWM, Jetson-to-STM32 link (Object Tracking Turret)",
+      "Board-level debug and integration: resolved 11 integration failures incl. servo brown-out, I2C mux (TCA9548A) + ToF sensors; EAGLE PCBs with UART/I2C sensor comms; oscilloscope and logic analyzer use",
+      "Robotics real-time context that matches the vehicle-platform story: 10/10 pick reliability, closed-loop feedback"
+    ],
+    "real_gaps": [
+      "No assembly anywhere in the profile",
+      "No CAN or LIN, the two protocols the role leads with; only UART/I2C/SPI",
+      "No safety-critical or MISRA/functional-safety work; nothing on certified or production embedded C",
+      "No SoC or bootloader bring-up, only dev-board work; no vendor SDK/BSP integration into a common framework",
+      "Profile centre of gravity is ML/CUDA/edge AI, so the embedded C evidence is a few small projects, not sustained depth"
+    ],
+    "overstated_by_keywords": [
+      "hardware bring-up counted as Have: it is dev-board peripheral bring-up, not custom board or SoC bring-up",
+      "SPI counted as Have: listed in skills but no project bullet shows an SPI driver",
+      "real-time constraints: one FreeRTOS turret project, thin"
+    ],
+    "understated_by_keywords": [
+      "Servo brown-out and stale-frame debugging in the capstone reads as real system-level hardware debug",
+      "Custom EAGLE PCB fabrication plus sensor comms is hardware-adjacent depth a keyword pass does not credit"
+    ],
+    "screening_gaps": [
+      "No CAN/LIN experience, the core vehicle-bus ask",
+      "No assembly, an explicit 'strong background' requirement",
+      "No safety-critical or production embedded C, and the embedded evidence sits inside an ML-heavy profile"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role's core (C, RTOS, UART/I2C/SPI, low-level debug) has real but small-scale backing in the STM32 and turret projects. The gaps are CAN/LIN, assembly and safety-critical practice, which are learnable on a new-grad hire, and the JD invites partial matches. It is a reachable stretch, not a strong fit.",
+    "calibration_delta": 11.5
+  }
+}

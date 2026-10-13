@@ -1,0 +1,128 @@
+{
+  "company": "Unnamed (Vienna-office, remote-first EU/UK)",
+  "company_slug": "unnamed-eu-ai-platform",
+  "role": "Senior Backend Engineer, Internal AI Platform",
+  "job_slug": "senior-backend-engineer-ai-platform",
+  "match_pct": 32.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 17,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "backend services / APIs",
+      "you_have": "Flask (exposure)"
+    },
+    {
+      "jd_skill": "LLM applications",
+      "you_have": "HuggingFace, SLM/GPT-2 edge work (not production apps)"
+    },
+    {
+      "jd_skill": "model evaluation",
+      "you_have": "GSM8K/HellaSwag benchmarking"
+    },
+    {
+      "jd_skill": "secrets management",
+      "you_have": "environment-based secrets/config separation"
+    },
+    {
+      "jd_skill": "deployment and operations",
+      "you_have": "systemd service management"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Google Cloud Platform",
+    "MCP",
+    "agent workflows / orchestration",
+    "AI coding assistants (Claude Code, Cursor, Codex)",
+    "IAM / access control",
+    "application security",
+    "monitoring / observability",
+    "production service ownership"
+  ],
+  "top_ats_keywords": [
+    "Go",
+    "Python",
+    "backend",
+    "APIs",
+    "LLM",
+    "MCP",
+    "agent workflows",
+    "Claude Code",
+    "Cursor",
+    "Codex",
+    "GCP",
+    "secrets management",
+    "monitoring",
+    "observability",
+    "IAM",
+    "application security",
+    "sandboxing"
+  ],
+  "required_skills": [
+    "Go",
+    "Python",
+    "backend services",
+    "APIs",
+    "secrets management",
+    "monitoring",
+    "observability",
+    "LLM applications",
+    "model evaluation",
+    "AI coding assistants",
+    "MCP",
+    "agent workflows",
+    "agent orchestration",
+    "identity and access control",
+    "application security",
+    "build-versus-buy"
+  ],
+  "preferred_skills": [
+    "Google Cloud Platform",
+    "Go",
+    "IAM",
+    "application security"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build and operate backend services and APIs for internal AI apps",
+    "Secure deployment pathways for non-engineering teams",
+    "Reusable skills, plugins, MCP connectors, agent workflows, central registry",
+    "Governance and risk-based review",
+    "Identity, access control, sandboxing, secrets, data handling"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote, Europe/UK (Vienna office optional)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

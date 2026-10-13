@@ -1,0 +1,107 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 2.64,
+      "matched": [
+        "hardware/software integration",
+        "robotics"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 1.59,
+      "matched": [
+        "Python"
+      ]
+    },
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 0.75,
+      "matched": [
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "experience:Deep Learning Intern",
+      "name": "Deep Learning Intern",
+      "score": 0.75,
+      "matched": [
+        "testing and validation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 3.51,
+      "matched": [
+        "NVIDIA Jetson",
+        "networking",
+        "robotics"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 1.62,
+      "matched": [
+        "NVIDIA Jetson",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 1.59,
+      "matched": [
+        "Python"
+      ]
+    },
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 1.59,
+      "matched": [
+        "C"
+      ]
+    },
+    {
+      "label": "project:ROS-Based Robotic Arm (AL5B & UR5e)",
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "score": 0.87,
+      "matched": [
+        "robotics"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "device interfaces (Ethernet/USB)",
+      "for_skill": "networking"
+    },
+    {
+      "use_jd_wording": "connected edge devices",
+      "for_skill": "NVIDIA Jetson"
+    },
+    {
+      "use_jd_wording": "CI and automated testing",
+      "for_skill": "testing and validation"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "PID control",
+    "control theory",
+    "actuators",
+    "data acquisition",
+    "embedded controllers",
+    "fault detection",
+    "logging and monitoring",
+    "sensor noise and filtering",
+    "AsyncAPI"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "company": "Snap Finance",
+  "company_slug": "snap-finance",
+  "role": "Software Engineer - Applied AI",
+  "job_slug": "swe-applied-ai",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 0,
+    "missing_count": 4,
+    "jd_ask_size": 8,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Machine Learning",
+    "Git",
+    "deployment"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "SQL",
+    "testing",
+    "AI-assisted development tools",
+    "coding agents"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "testing",
+    "version control",
+    "deployment",
+    "AI-assisted development tools",
+    "coding agents"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL"
+  ],
+  "preferred_skills": [
+    "Machine Learning concepts",
+    "AI-assisted development tools / coding agents"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, build, maintain production applications/services for lending business",
+    "Write clean, tested, well-documented code",
+    "Build services/infrastructure ML models run on",
+    "Use coding agents / AI-assisted dev tools",
+    "Explain technical decisions to non-technical stakeholders"
+  ],
+  "role_category": "ml_systems",
+  "location": "West Valley City, UT",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

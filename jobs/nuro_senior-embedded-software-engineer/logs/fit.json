@@ -1,0 +1,244 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Senior Embedded Software Engineer",
+  "job_slug": "senior-embedded-software-engineer",
+  "match_pct": 47.8,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 8,
+    "missing_count": 20,
+    "jd_ask_size": 46,
+    "req_cov": 0.737,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C",
+    "RTOS",
+    "FreeRTOS",
+    "device driver development",
+    "microcontroller internals and peripherals",
+    "bare-metal firmware",
+    "serial protocols (UART/I2C/SPI)",
+    "interrupt handling",
+    "data structures",
+    "algorithm design",
+    "concurrency",
+    "hardware debugging (oscilloscope, logic analyzer, multimeter)",
+    "unit testing",
+    "C++",
+    "Linux",
+    "Python",
+    "Git",
+    "B.S./M.S. in Computer Engineering"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "automotive Ethernet",
+      "you_have": "TCP/IP sockets + Ethernet networking (BBB-to-Jetson telemetry gateway)"
+    },
+    {
+      "jd_skill": "middleware / inter-component messaging",
+      "you_have": "ROS2 pub/sub + WebSocket IPC"
+    },
+    {
+      "jd_skill": "RTOS scheduler internals",
+      "you_have": "RTOS task scheduling coursework (CMPE 663)"
+    },
+    {
+      "jd_skill": "hardware-in-the-loop bench",
+      "you_have": "bench bring-up and instrumented validation on STM32/Jetson/BBB"
+    },
+    {
+      "jd_skill": "device and vehicle bring-up",
+      "you_have": "board bring-up from first power-on (STM32 L476RG, BeagleBone, Jetson)"
+    },
+    {
+      "jd_skill": "safety-critical software",
+      "you_have": "ToF-triggered safe-state gate in COFFIN autonomous platform"
+    },
+    {
+      "jd_skill": "vehicle dynamics / control theory",
+      "you_have": "closed-loop feedback control, visual servoing, odometry"
+    },
+    {
+      "jd_skill": "DO-178C / IEC 62304 regulated development",
+      "you_have": "no regulated-industry process experience; academic rigor only"
+    }
+  ],
+  "missing_skills": [
+    "CAN bus",
+    "CAN tools (Vector CANoe/CANalyzer)",
+    "multicore automotive microcontrollers",
+    "bootloader and software update",
+    "embedded security",
+    "ISO 26262 functional safety",
+    "AUTOSAR Classic",
+    "MCAL",
+    "Infineon AURIX TC3xx",
+    "SafeRTOS",
+    "DBC",
+    "ARXML",
+    "UDS diagnostics",
+    "E2E protection",
+    "time synchronization",
+    "vehicle-level integration and test",
+    "automotive production launch",
+    "requirements traceability",
+    "power and fault management",
+    "actuator interface / body controls"
+  ],
+  "top_ats_keywords": [
+    "embedded C",
+    "RTOS",
+    "FreeRTOS",
+    "SafeRTOS",
+    "device drivers",
+    "bootloader",
+    "CAN",
+    "automotive Ethernet",
+    "AUTOSAR",
+    "MCAL",
+    "ISO 26262",
+    "AURIX TC3xx",
+    "UDS",
+    "DBC",
+    "ARXML",
+    "E2E protection",
+    "hardware-in-the-loop",
+    "microcontroller",
+    "oscilloscope",
+    "logic analyzer",
+    "CAN tools",
+    "safety-critical",
+    "multicore",
+    "vehicle bring-up",
+    "traceability",
+    "power management",
+    "fault management",
+    "actuator interface"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "RTOS",
+    "microcontroller internals and peripherals",
+    "data structures",
+    "concurrency",
+    "algorithm design",
+    "device driver development",
+    "CAN bus",
+    "automotive Ethernet",
+    "bootloader and software update",
+    "embedded security",
+    "vehicle-level integration and test",
+    "hardware debugging",
+    "oscilloscope",
+    "logic analyzer",
+    "debug probe",
+    "CAN tools",
+    "unit testing",
+    "B.S. or higher in CS/CE/EE"
+  ],
+  "preferred_skills": [
+    "automotive production launch",
+    "ISO 26262",
+    "DO-178C",
+    "IEC 62304",
+    "Infineon AURIX TC3xx",
+    "SafeRTOS",
+    "FreeRTOS",
+    "AUTOSAR Classic",
+    "MCAL",
+    "DBC",
+    "ARXML",
+    "UDS diagnostics",
+    "E2E protection",
+    "time synchronization",
+    "vehicle dynamics",
+    "control theory"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, implement and test embedded C software for safety-critical multicore automotive microcontrollers (RTOS, drivers, scheduling, bootloader, middleware, application components)",
+    "Integrate the Nuro Driver with new vehicle platforms via CAN and Ethernet interfaces to OEM ECUs",
+    "Hands-on device and vehicle bring-up, prototyping and debugging from first power-on to autonomous driving",
+    "Build and maintain verification infrastructure: unit tests, HIL benches, vehicle test procedures",
+    "Work within an ISO 26262 process: derive software requirements from system safety requirements with full traceability",
+    "Collaborate with systems, safety, hardware, controls, autonomy, OEM and supplier engineers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mountain View, California (HQ)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 43,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Register-level bare-metal C driver development on Cortex-M4 \u2014 STM32 Temperature Monitor programs GPIO/TIM2/ADC1/I2C1 directly, with a hand-written low-level I2C driver, timer-triggered ADC scan conversions and interrupt-driven sample capture at 3.68 KB Flash / 1.58 KB RAM. This is the JD's 'device driver development' depth option, backed concretely rather than by keyword.",
+      "RTOS task coordination with synchronization primitives \u2014 Object Tracking Turret uses FreeRTOS with mutexes for shared-memory coordination alongside interrupt-driven UART and multi-servo PWM.",
+      "Actuator interface work across three independent projects \u2014 multi-servo PWM (turret), four motor channels at 15 kHz PWM via Cytron drivers with angle-weighted joystick-to-wheel mixing (Robocon), two-link IK driving five servos (COFFIN). The JD names 'actuator interface' as an application component and this is directly it.",
+      "Safe-state / fault handling implemented from first principles \u2014 Robocon's fail-safe state machine halts all motors on controller disconnect; COFFIN's gripper ToF range-gate closes at 25 mm for contact-aware grasping. Both are the pattern behind 'bring the vehicle to a safe state when something goes wrong.'",
+      "Hands-on hardware-vs-software debugging, which the JD calls out explicitly \u2014 COFFIN resolved 11 integration failures including servo brown-out, stale-frame capture and false-positive detections; Planctech resolved accelerometer jitter via software calibration and resolution tuning.",
+      "Interrupt-driven peripheral work written from scratch \u2014 a 4-bit A/B quadrature transition state machine on hardware interrupts (Robocon), not a vendor HAL call.",
+      "Concurrency and CS fundamentals with measured results \u2014 MPI Hodgkin-Huxley (10.49x speedup, 65% degradation characterized under load imbalance) and four work-distribution strategies benchmarked on a parallel ray tracer (30x).",
+      "Closed-loop control evidence for the vehicle-dynamics bonus \u2014 encoder-odometry heading correction feeding angular error back into rotation PWM, plus visual servoing in COFFIN.",
+      "Cross-discipline collaboration at the scale the JD describes \u2014 led a 25-member robotics team owning mechanical, PCB and ML integration; took over as team lead of 7 mid-project at Teesside."
+    ],
+    "real_gaps": [
+      "CAN bus \u2014 not one bullet in the entire profile mentions CAN, in any form. The JD names it in the required qualifications, again in the depth-in-at-least-one list, again in the bench-tools line (CAN tools), and again in the bonus section (DBC).",
+      "Automotive and vehicle domain entirely absent \u2014 no vehicle platform, no OEM or ECU interface, no supplier engagement, no production launch. CARLA autonomous driving is a simulator-side perception and control stack, not vehicle integration; it never touches a real actuator, a real bus or a real power-on.",
+      "ISO 26262 and functional safety \u2014 no evidence of safety requirement derivation, hazard analysis, requirements traceability, or any regulated development process (no DO-178C or IEC 62304 either).",
+      "Automated verification infrastructure \u2014 no unit-test framework, no test automation, no CI for firmware anywhere in the profile. Validation is manual trial counting (10/10 picks, <2 mm over 10 trials). The JD asks the hire to build and maintain unit tests and HIL benches.",
+      "Hardware-in-the-loop benches \u2014 bench bring-up exists, but no HIL rig, no simulated-plant testing.",
+      "Bootloader, software update and secure boot \u2014 nothing, including no flash partitioning or A/B update work.",
+      "Embedded security \u2014 nothing.",
+      "Multicore microcontroller programming \u2014 MPI and CUDA are host-side multi-process and GPU parallelism, not AMP/lockstep core management, inter-core communication or core-affinity scheduling on an MCU.",
+      "AUTOSAR Classic, MCAL, Infineon AURIX TC3xx, SafeRTOS \u2014 no exposure to any automotive base-software stack or automotive silicon.",
+      "Vehicle network tooling \u2014 DBC, ARXML, UDS diagnostics, E2E protection, time synchronization (PTP/gPTP) all absent.",
+      "Power distribution and monitoring at vehicle level \u2014 ADC sensing exists, but no power-rail management, no load distribution, no brown-out detection beyond having debugged one servo brown-out.",
+      "Seniority, as prose and not scored here: 0 years full-time against a 3+ year industry requirement and a Senior title, with seven internships standing in. The JD's 'hiring across levels' line softens this, but every experience entry is research, ML or student-club work \u2014 only Planctech is an embedded internship, and it is a gesture-glove prototype."
+    ],
+    "overstated_by_keywords": [
+      "'unit testing' was counted as Have \u2014 there is no test-automation evidence anywhere in the profile. This should have been Missing.",
+      "'RTOS' \u2014 real but shallow for this role. One project uses FreeRTOS mutexes; the JD wants someone extending the RTOS, scheduler and base software itself.",
+      "'automotive Ethernet -> TCP/IP sockets' \u2014 the adjacency is thin. COFFIN's WebSocket fabric is application-layer Python over Flask-SocketIO on Linux hosts; automotive Ethernet means SOME/IP, AVB/TSN and MAC-level work on an MCU.",
+      "'hardware debugging (oscilloscope, logic analyzer)' \u2014 these are listed in the skills block but no bullet shows an instrument used to find a specific defect. The JD treats bench instrumentation as daily work.",
+      "'hardware-in-the-loop bench -> bench bring-up' \u2014 bring-up is real, HIL is not. These are different activities.",
+      "'concurrency' \u2014 strong as HPC/distributed concurrency, much weaker as the embedded task concurrency and shared-state discipline the JD means."
+    ],
+    "understated_by_keywords": [
+      "Actuator interface and body controls were both marked Missing, yet servo and motor command paths appear in three separate projects with PWM frequencies, driver ICs and mixing math specified. This is the closest thing in the profile to the JD's application-component work.",
+      "Fault management was marked Missing, but the Robocon controller-disconnect fail-safe state machine and COFFIN's ToF range-gate are exactly safe-state transitions on fault detection.",
+      "Device driver development scored as a generic keyword match, understating it \u2014 the STM32 monitor is register-level peripheral bring-up with a hand-rolled I2C driver and measured flash/RAM footprint, which is unusually concrete for a new-grad profile.",
+      "The JD's explicit 'you enjoy finding out why hardware and software disagree' has no keyword, but COFFIN's 11 documented integration failures answer it better than most of the matched terms do."
+    ],
+    "screening_gaps": [
+      "Zero CAN bus experience. The JD names CAN four separate times \u2014 required qualifications, the depth-in-at-least-one list, the bench-tools line, and the DBC bonus. For a team whose job is the controllers between the autonomy stack and the vehicle, a resume with no CAN on it does not survive the first read.",
+      "No automotive or vehicle experience of any kind, against a Senior title and a 3+ year industry requirement with 0 years full-time. The team's work is OEM ECU integration and vehicle bring-up on public roads; nothing in the profile shows a real vehicle, a real bus, or a shipped product.",
+      "No functional-safety or regulated-process development. The JD puts ISO 26262 requirement derivation and full traceability in the core work, not the bonus section, and there is no safety-process or automated-verification evidence to point at."
+    ],
+    "recommend_apply": false,
+    "reasoning": "The generic embedded half of this role is genuinely backed \u2014 register-level C drivers on Cortex-M4, RTOS mutex coordination, interrupt-driven peripheral work written from scratch, servo and motor command paths, and real hardware-vs-software debugging with documented failures. The automotive half, which is the actual spine of the job, is unevidenced end to end: no CAN, no vehicle, no OEM interface, no ISO 26262, no bootloader, no automotive base software, and no automated verification infrastructure. Keyword scoring and this read land close together here (delta under 5 points, against a historical +30), which means the 47.8% is not keyword inflation \u2014 it is an accurate picture of a candidate who has the embedded fundamentals and none of the domain.",
+    "calibration_delta": 4.8
+  },
+  "semantic_pending": false
+}

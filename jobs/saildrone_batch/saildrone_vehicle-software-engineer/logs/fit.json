@@ -1,0 +1,127 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Vehicle Software Engineer",
+  "job_slug": "vehicle-software-engineer",
+  "match_pct": 46.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 1,
+    "missing_count": 13,
+    "jd_ask_size": 25,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "sensor integration",
+    "real-time systems",
+    "hardware bring-up",
+    "deployment",
+    "configuration management",
+    "robotics",
+    "autonomous vehicles",
+    "system debugging",
+    "microcontroller firmware",
+    "serial protocols"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "actuator integration",
+      "you_have": "sensor integration"
+    }
+  ],
+  "missing_skills": [
+    "production systems",
+    "embedded Linux",
+    "vehicle communications",
+    "telemetry systems",
+    "logging systems",
+    "power systems",
+    "battery management",
+    "fleet management",
+    "fleet diagnostics",
+    "field operations experience",
+    "defense domain experience",
+    "maritime domain experience",
+    "aerospace domain experience"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "production systems",
+    "sensor integration",
+    "actuator integration",
+    "embedded Linux",
+    "real-time systems",
+    "hardware bring-up",
+    "vehicle communications",
+    "telemetry",
+    "logs",
+    "deployment",
+    "configuration management",
+    "robotics",
+    "autonomous vehicles",
+    "system debugging",
+    "software deployment",
+    "field operations",
+    "maritime",
+    "defense"
+  ],
+  "required_skills": [
+    "C++",
+    "production systems",
+    "sensor integration",
+    "systems understanding",
+    "software-hardware integration",
+    "complex systems debugging",
+    "field deployment",
+    "software engineering"
+  ],
+  "preferred_skills": [
+    "robotics",
+    "autonomous vehicles",
+    "embedded Linux",
+    "real-time systems",
+    "hardware bring-up",
+    "vehicle communications",
+    "remote software deployment",
+    "configuration management",
+    "fleet diagnostics",
+    "defense domain experience",
+    "maritime domain experience",
+    "aerospace domain experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop and maintain production C++ software running onboard autonomous vessels",
+    "Integrate sensors and physical vehicle subsystems into the onboard software stack",
+    "Interface with power, battery-management, propulsion, and other vehicle control systems",
+    "Diagnose complex vehicle and software issues using telemetry, logs, testing, and direct system investigation",
+    "Develop software supporting vehicle configuration, deployment, upgrades, and migration across the fleet",
+    "Validate software and hardware integrations on real vehicles and improve reliability in field operations"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

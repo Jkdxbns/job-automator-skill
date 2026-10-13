@@ -1,0 +1,127 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Data Engineering",
+  "job_slug": "software-engineer-data-engineering",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 21,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA",
+    "PyTorch / Deep Learning frameworks",
+    "ROS2 / ROS",
+    "Computer Vision (OpenCV, YOLO)",
+    "Robotics / Perception",
+    "Embedded C / Bare-metal (STM32 Cortex-M4)",
+    "Real-time sensor integration (ToF, accelerometer, I2C mux, UART, PWM servo)",
+    "TensorRT / Edge AI deployment",
+    "ML model optimization (8-bit quantization, ONNX/TFLite export)",
+    "Data pipeline design (image stitching, depth profiling, metal inspection)",
+    "Linux systems programming (systemd, networking, Bash)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Data engineering / platform infrastructure",
+      "you_have": "Data pipeline experience (stitching, depth profiling, inspection pipelines) + basic Linux/Flask infra skills; no big-data/distributed data platform experience"
+    },
+    {
+      "jd_skill": "Field-scale production deployment",
+      "you_have": "Hardware-tested deployments at research/intern scale (robotic arm 100% reliability, embedded monitors, turret); no global field-deployment experience"
+    },
+    {
+      "jd_skill": "Enterprise-scale infrastructure / platform engineering",
+      "you_have": "Basic Linux admin (systemd, networking) and embedded platform work; no enterprise cloud/distributed platform experience"
+    },
+    {
+      "jd_skill": "Multi-sensor fusion in unstructured environments",
+      "you_have": "Multi-sensor embedded systems (VL53L0X ToF, ADXL345, ADC, I2C mux, PWM servo) with real-time processing; not full sensor fusion at field scale"
+    }
+  ],
+  "missing_skills": [
+    "Enterprise data platform engineering (Spark, Kafka, large-scale distributed ETL)",
+    "Global field deployment / production software engineering at company scale",
+    "Formal production reliability / safety engineering processes",
+    "Cloud infrastructure at enterprise scale"
+  ],
+  "top_ats_keywords": [
+    "embodied AI",
+    "robotics",
+    "field deployment",
+    "real sensors",
+    "data engineering",
+    "platform engineering",
+    "perception",
+    "localization",
+    "manipulation",
+    "real-time",
+    "ML",
+    "AI",
+    "C++",
+    "Python",
+    "CUDA",
+    "ROS",
+    "TensorRT",
+    "YOLO",
+    "computer vision",
+    "edge AI",
+    "safety",
+    "explainability"
+  ],
+  "required_skills": [
+    "Data engineering / pipeline infrastructure",
+    "Software engineering (Python, C/C++)",
+    "ML/AI / learning systems",
+    "Real-time sensor data processing",
+    "Robotics / embodied AI context"
+  ],
+  "preferred_skills": [
+    "CUDA / GPU optimization",
+    "ROS / ROS2",
+    "Computer vision (OpenCV, YOLO)",
+    "Embedded systems / bare-metal",
+    "Edge AI deployment (TensorRT, Jetson)",
+    "Multi-sensor integration"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and maintain data/infrastructure systems supporting embodied AI and real robot deployments",
+    "Process and integrate real-time sensor data from field robots",
+    "Ship reliable software that performs in unstructured, previously unknown environments",
+    "Collaborate across AI, robotics, and engineering disciplines"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

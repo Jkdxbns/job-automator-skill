@@ -1,0 +1,136 @@
+{
+  "company": "Knightscope",
+  "company_slug": "knightscope",
+  "role": "Senior Embedded Software Engineer",
+  "job_slug": "senior-embedded-sw-engineer",
+  "match_pct": 56.5,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 4,
+    "missing_count": 8,
+    "jd_ask_size": 23,
+    "req_cov": 0.675,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "UART",
+    "SPI",
+    "I2C",
+    "Raspberry Pi",
+    "Arduino",
+    "WebSockets",
+    "Git",
+    "OpenCV",
+    "Computer Vision"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "REST API",
+      "you_have": "Flask-SocketIO edge server"
+    },
+    {
+      "jd_skill": "TCP/IP",
+      "you_have": "static IP networking, WebSocket fabric"
+    },
+    {
+      "jd_skill": "Event-driven architecture",
+      "you_have": "interrupts, state machines"
+    },
+    {
+      "jd_skill": "Industrial edge devices",
+      "you_have": "Jetson, STM32"
+    }
+  ],
+  "missing_skills": [
+    "RFID/NFC",
+    "EPC Gen2",
+    "MQTT",
+    "SQL",
+    "SQLite/PostgreSQL",
+    "AWS IoT/Azure IoT Hub",
+    "Docker",
+    "Access control systems"
+  ],
+  "top_ats_keywords": [
+    "RFID",
+    "NFC",
+    "ISO 14443",
+    "ISO 18000",
+    "EPC Gen2",
+    "MQTT",
+    "WebSockets",
+    "REST API",
+    "SQLite",
+    "PostgreSQL",
+    "AWS IoT",
+    "Azure IoT Hub",
+    "Docker",
+    "OpenCV",
+    "UART",
+    "SPI",
+    "I2C",
+    "Raspberry Pi",
+    "Arduino",
+    "event-driven"
+  ],
+  "required_skills": [
+    "Python",
+    "C/C++",
+    "UART",
+    "SPI",
+    "I2C",
+    "RFID/NFC",
+    "EPC Gen2",
+    "MQTT",
+    "SQL",
+    "REST API",
+    "WebSockets",
+    "TCP/IP",
+    "AWS IoT",
+    "Docker",
+    "Git",
+    "Raspberry Pi",
+    "Arduino",
+    "OpenCV",
+    "Event-driven architecture",
+    "Access control systems"
+  ],
+  "preferred_skills": [
+    "Computer Vision"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Architect check-in/check-out software for wearable",
+    "RFID reader integration on edge device",
+    "APIs and messaging pipeline",
+    "database design",
+    "cloud connectivity"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

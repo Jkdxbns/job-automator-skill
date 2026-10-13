@@ -1,0 +1,157 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Perception Machine Learning Engineer",
+  "job_slug": "perception-machine-learning-engineer",
+  "match_pct": 73.1,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 26,
+    "req_cov": 0.917,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python programming skills",
+    "Computer vision",
+    "Machine learning",
+    "PyTorch",
+    "Computer vision fundamentals",
+    "Model evaluation",
+    "C++",
+    "Robotics",
+    "ONNX",
+    "TensorRT",
+    "CUDA",
+    "Inference optimization",
+    "YOLO",
+    "Detection",
+    "Classification",
+    "Edge ML deployment",
+    "NVIDIA Jetson"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Taking ML/CV systems into production",
+      "you_have": "systemd and deployment (working depth), project deployment experience (COFFIN capstone)"
+    },
+    {
+      "jd_skill": "Autonomous vehicle experience",
+      "you_have": "autonomous systems (working depth), CARLA autonomous driving project"
+    },
+    {
+      "jd_skill": "Sensor fusion",
+      "you_have": "autonomous systems (working depth, includes sensor fusion alias)"
+    },
+    {
+      "jd_skill": "3D perception",
+      "you_have": "autonomous systems (working depth, includes perception), computer vision"
+    }
+  ],
+  "missing_skills": [
+    "Aerospace experience",
+    "Defense experience",
+    "Multimodal perception",
+    "Segmentation",
+    "Depth estimation"
+  ],
+  "top_ats_keywords": [
+    "autonomous vehicles",
+    "unmanned surface vehicles",
+    "machine learning",
+    "computer vision",
+    "perception systems",
+    "edge computing",
+    "inference",
+    "production deployment"
+  ],
+  "required_skills": [
+    "Python programming skills",
+    "Computer vision or machine learning systems",
+    "PyTorch or comparable ML framework",
+    "Computer vision fundamentals and real-world visual data",
+    "Model evaluation using quantitative metrics",
+    "Taking ML/CV systems into production"
+  ],
+  "preferred_skills": [
+    "C++ for production perception systems",
+    "Robotics experience",
+    "Autonomous vehicle experience",
+    "Defense experience",
+    "Edge or embedded ML deployment",
+    "Sensor fusion",
+    "3D perception",
+    "Multimodal perception",
+    "ONNX, TensorRT, CUDA, or inference optimization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop ML-based perception systems for autonomous vehicles",
+    "Train, evaluate, improve computer vision models",
+    "Develop data and experimentation workflows",
+    "Build perception capabilities for detection, classification, segmentation, depth estimation, scene understanding",
+    "Analyze vehicle data and model failures",
+    "Integrate models into production perception systems",
+    "Bring new ML techniques into deployed systems"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 77,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Core perception pipeline experience: COFFIN (TensorRT-optimized YOLO visual servoing on Jetson), CARLA autonomous driving (8k annotated frames, YOLO + lane segmentation, real control integration), and BARC metal inspection (full pipeline: image stitching, wavelet denoising, monocular depth estimation). Not just model training\u2014end-to-end system design.",
+      "Quantitative model evaluation methodology: Dice Score/IoU (medical imaging), mAP metrics (YOLO), PSNR (reconstruction), WER (ASR), accuracy-latency trade-offs (5.2\u00d7 TensorRT speedup documented). Shows the experimental rigor JD demands for 'identify failure modes and improve model performance.'",
+      "Edge/embedded ML optimization at production scale: 8-bit quantization (55% VRAM reduction, <1% accuracy loss), CUDA kernel optimization (35% convolution speedup via memory coalescing), TensorRT deployment on Jetson. This is exactly 'bring new ML techniques into deployed systems' the JD prioritizes.",
+      "Real-world failure analysis and debugging: COFFIN resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture, contact detection). Shows ability to analyze 'vehicle data and model failures to identify weaknesses,' a key JD responsibility.",
+      "Multi-domain sensor integration: COFFIN dual VL53L0X ToF + camera via I2C mux, CARLA synthetic sensor suite, Object Tracking Turret multi-sensor coordination. Demonstrates working sensor fusion patterns.",
+      "C++ systems integration: COFFIN IK solver, CUDA kernels (convolution), bare-metal firmware (STM32), ROS robotics drivers. Production-grade C++, not hobby code.",
+      "Segmentation and depth estimation (understated by keyword pass): U-Net segmentation on Teesside (medical imaging) with Dice/IoU evaluation, CARLA semantic + lane segmentation, BARC monocular depth estimation (ZoeDepth). Directly maps to 'build perception capabilities for detection, classification, segmentation, depth estimation.'"
+    ],
+    "real_gaps": [
+      "No aerospace or defense domain experience. Saildrone explicitly identifies as 'maritime defense company' with 'combat-deployed systems supporting national security.' Justin's background is academic/robotics lab; no contracting or defense industry context. For a mission-critical defense application, hiring manager may require at least one reference to defense-adjacent work.",
+      "No real-world autonomous vehicle or maritime systems deployment. CARLA is high-fidelity simulation but not production. COFFIN is a lab pick-and-place arm. BARC and Teesside are academic settings. Saildrone deploys actual autonomous USVs at scale; the JD emphasizes 'real-world vehicle data' and 'operational experience.' Justin has not shipped autonomous perception to real assets.",
+      "Seniority alignment unclear. Justin is M.S. 2026 (final-year grad student or recent graduate). JD states 'experience level not stated' but compensation range ($144.5K\u2013$322K) spans entry to mid-level. If Saildrone interprets this as requiring 3\u20135 years post-bachelor's production experience, Justin falls short by ~2\u20133 years."
+    ],
+    "overstated_by_keywords": [
+      "Autonomous vehicle experience (listed as 'adjacent'): CARLA is simulation, not production. Valid technical depth but not the real-world autonomous vehicle operations Saildrone expects for deployed USV systems.",
+      "Production deployment (listed as 'adjacent'): COFFIN systemd + XRDP is capstone-level infrastructure, not industrial production (no canary deployments, A/B testing, SLA management, retraining pipelines, or multi-region failover). Real but limited scope."
+    ],
+    "understated_by_keywords": [
+      "Segmentation capability: Keyword pass marked as 'missing,' but Teesside (U-Net medical imaging with Dice/IoU) and CARLA (semantic + lane segmentation) both demonstrate segmentation models. This is a direct match for 'build perception capabilities for segmentation.'",
+      "Depth estimation capability: Keyword pass marked as 'missing,' but BARC project includes monocular depth estimation (ZoeDepth) for 3D crack profiling with \u00b18% error. Direct alignment with 'depth estimation' responsibility.",
+      "Real-world failure analysis: JD emphasizes 'analyze vehicle data and model failures to identify weaknesses and drive improvements.' COFFIN explicitly documents '11 integration failures' (false positives, brown-out, stale frames) and resolutions. This failure-driven improvement cycle is not captured in keyword scoring.",
+      "Inference optimization depth: Scored as 'have' for ONNX/TensorRT/CUDA, but Justin's work goes deeper\u2014custom CUDA convolution kernels with memory coalescing, pynvml profiling for latency bottlenecks, TensorRT speedup benchmarking. This is kernel-level optimization, not just API usage."
+    ],
+    "screening_gaps": [
+      "No aerospace or defense domain background. Saildrone is explicitly a defense contractor with combat-deployed systems. Justin's resume is purely academic/robotics lab. Hiring manager hiring for 'maritime defense' may require at least one internship or project in defense/aerospace or a strong referral from someone in that space. This is the single most disqualifying factor from a culture/background fit perspective, though not a technical blocker.",
+      "Simulation-only autonomous vehicle experience. CARLA is high-fidelity but synthetic. Saildrone operates real autonomous USVs in real ocean environments with real sensor data (the JD emphasizes this twice: 'real-world vehicle data' and 'real-world operational experience'). Justin has no production autonomous vehicle deployment or real-world sensor debugging experience, only simulation and lab robotics.",
+      "Seniority/years in industry. M.S. grad student (2026) implies ~4\u20135 years post-high-school education but unclear industry experience timeline. If Saildrone requires 2\u20133 years post-graduation in production ML/robotics roles, Justin may be borderline (depends on whether they value depth over years, which the JD doesn't clarify). This is less of a technical gap and more of an HR alignment issue."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin demonstrates genuine depth in every core ML/CV responsibility the JD lists: system design, model training and evaluation, data workflows, perception capabilities (detection, segmentation, depth), failure analysis, and production integration. Edge AI optimization (TensorRT, CUDA, quantization) and robotics domain experience are particularly strong and aligned with Saildrone's systems. Real gaps are domain-specific (no aerospace/defense background, no real-world autonomous vehicle shipping) and seniority-timeline (grad student status), not technical capability. The keyword pass undersells segmentation and depth estimation (both present and demonstrated). If Saildrone is willing to onboard an engineer who needs defense industry context but has the core ML systems chops, this is a strong technical fit; if defense background is a hard requirement, this may screen out. Recommend applying; frame experience around edge optimization and robotics depth.",
+    "calibration_delta": -3.9
+  }
+}

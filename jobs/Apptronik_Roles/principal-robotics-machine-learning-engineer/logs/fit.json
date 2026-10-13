@@ -1,0 +1,121 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Principal Robotics Machine Learning Engineer",
+  "job_slug": "principal-robotics-machine-learning-engineer",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 2,
+    "missing_count": 8,
+    "jd_ask_size": 21,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++ (maps to C++)",
+    "PyTorch",
+    "Transformer-based model fine-tuning",
+    "Real-time robotic software stacks (distributed multi-device pipeline, real-time control)",
+    "Computer vision (OpenCV, YOLO, visual servoing, depth estimation)",
+    "ROS / ROS2 robot manipulation (trajectory planning, MoveIt, RViz, physical arm)",
+    "ML model deployment on edge/robotic hardware (TensorRT, quantization, system optimization)",
+    "Data collection, annotation, and synthetic/real data generation for ML",
+    "Embedded systems / hardware bring-up (STM32 bare-metal, Arduino, sensor interfaces, PCB design, PWM, encoders, closed-loop control)",
+    "Production-grade deployment infrastructure (systemd, networking, remote administration)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CNN expertise / deep CNN development",
+      "you_have": "YOLOv8n training and TensorRT optimization (CNN-based detector)"
+    },
+    {
+      "jd_skill": "Transformer expertise / expert transformer development",
+      "you_have": "DONUT fine-tuning (transformer-based vision-language model)"
+    }
+  ],
+  "missing_skills": [
+    "5+ years shipping ML models on robotic systems in production environments",
+    "6D pose estimation",
+    "Point cloud processing",
+    "Initial calibration and tuning of high-DOF robotic manipulators (explicit production-level bring-up experience)",
+    "IsaacSim / MuJoCo / Drake (manipulation/simulation policy training)",
+    "VR/haptic interfaces and retargeting algorithms (teleoperation)",
+    "MLOps / distributed training at production scale",
+    "Logistics automation / dynamic real-world material handling with manipulators"
+  ],
+  "top_ats_keywords": [
+    "Principal",
+    "Robotics",
+    "Machine Learning",
+    "Manipulation",
+    "ML deployment",
+    "CNN",
+    "Transformer",
+    "PyTorch",
+    "Python",
+    "C++",
+    "Computer Vision",
+    "6D pose",
+    "Point cloud",
+    "Visual servoing",
+    "ROS",
+    "Data engine",
+    "Synthetic data",
+    "Hardware calibration",
+    "Production",
+    "IsaacSim",
+    "MuJoCo",
+    "Drake",
+    "MLOps"
+  ],
+  "required_skills": [
+    "CNNs and transformers (expertise)",
+    "Python, C++, PyTorch",
+    "Real-time robotic software stacks",
+    "Data collection / annotation / synthetic and real data mix for ML",
+    "Computer vision (6D pose estimation, camera calibration/extrinsics, point cloud processing, visual servoing)",
+    "Hardware bring-up (calibration and tuning of high-DOF robotic manipulators)",
+    "Shipping ML models on robotic systems in production environments (5+ years)",
+    "Identify/classify performance bottlenecks (classical vision vs model/data root causes)"
+  ],
+  "preferred_skills": [
+    "MLOps / distributed training",
+    "Teleoperation (VR/haptic interfaces, retargeting algorithms)",
+    "Simulation environments (IsaacSim, MuJoCo, Drake)",
+    "Logistics automation background (manipulators for dynamic material handling)"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Implement and deploy state-of-the-art ML models for open-world object manipulation on physical humanoid hardware",
+    "Drive the data engine for manipulation learning (collection strategy, curation, annotation, synthetic/real mix)",
+    "Drive full development cycle: simulation prototyping -> robust transfer and fine-tuning on robot",
+    "Identify/prioritize performance bottlenecks (classical vision vs sub-optimal model/data) to meet reliability targets",
+    "Act as force multiplier: set architectural excellence bar, mentor robotics leaders, foster technical rigor"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

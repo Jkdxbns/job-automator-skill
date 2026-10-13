@@ -1,0 +1,58 @@
+{
+  "company": "ALTEN Technology USA",
+  "company_slug": "alten",
+  "role": "Embedded Software Application Engineer",
+  "job_slug": "embedded-sw-app-engineer-adas",
+  "match_pct": 22.5,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 5,
+    "missing_count": 13,
+    "jd_ask_size": 20,
+    "req_cov": 0.25,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["C/C++", "Python"],
+  "adjacent_skills": [
+    "Debugging/root-cause analysis (general embedded, not automotive-specific)",
+    "Camera/radar/ultrasonic sensor tech (has camera/CV experience, not automotive radar/ultrasonic)",
+    "Sensor/camera packaging & calibration (has robotics camera calibration, not automotive)",
+    "ECU/vehicle electronics/electrical troubleshooting (has PCB/electronics background, not automotive)",
+    "HIL/SIL/simulation/vehicle testing (has CARLA autonomous-vehicle simulation experience)"
+  ],
+  "missing_skills": [
+    "CAN bus",
+    "Automotive Ethernet",
+    "LIN",
+    "UDS diagnostics",
+    "CANoe/CANalyzer/Vehicle Spy/Wireshark",
+    "Software configuration management / baselines / release process",
+    "JIRA",
+    "ADAS/Active Safety/automated driving systems",
+    "Environmental/vehicle-config effects on ADAS performance",
+    "Vehicle variant structures / feature coding / parameter management",
+    "AUTOSAR / functional safety",
+    "Field issue investigation / customer-reported concerns",
+    "Commercial vehicle / heavy-duty truck / off-highway experience"
+  ],
+  "top_ats_keywords": ["CAN", "Ethernet", "LIN", "UDS", "CANoe", "ADAS", "Active Safety", "AUTOSAR", "JIRA", "C/C++", "Python"],
+  "key_responsibilities": [
+    "Software integration, baseline deployment, and validation for ADAS/Active Safety systems",
+    "Integrate and verify software across ECUs, sensors, cameras, vehicle variants",
+    "Vehicle-level diagnostics, CAN analysis, log investigation for root cause",
+    "Validate ACC, AEB, LKA, Lane Centering features",
+    "Evaluate sensor packaging, mounting, calibration, environmental influence on ADAS",
+    "Software release/variant/configuration management across platforms",
+    "Defect tracking and technical documentation of baselines/BOMs"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

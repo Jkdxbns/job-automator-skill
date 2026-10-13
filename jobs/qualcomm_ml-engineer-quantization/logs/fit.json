@@ -1,0 +1,43 @@
+{
+  "company": "Qualcomm",
+  "company_slug": "qualcomm",
+  "role": "Machine Learning Engineer (Quantization Tooling, AISW Tools)",
+  "job_slug": "ml-engineer-quantization",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "data structures (no explicit DSA coursework/project keyword)",
+    "cmake",
+    "agentic AI frameworks / Claude Code (not on resume, though heavy real-world daily use)"
+  ],
+  "adjacent_skills": {
+    "computer system architecture": "High Performance Architecture coursework/projects",
+    "multi-threaded programming": "MPI / SLURM-managed multi-process HPC work",
+    "quantization (PTQ/QAT/AWQ/SpinQuant)": "8-bit quantization, LLM.int8, TensorRT-optimized deployment (not the specific PTQ/QAT/AWQ/SpinQuant techniques named)",
+    "GenAI": "LLM/transformer work (GPT-2, TinyLlama, Hugging Face Transformers) but not framed as GenAI product work"
+  },
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "PyTorch",
+    "ONNX",
+    "quantization",
+    "Linux",
+    "git",
+    "cmake",
+    "multi-threaded programming",
+    "GenAI"
+  ],
+  "key_responsibilities": [
+    "Optimize inference of AI models on Qualcomm AI accelerator IP using QAIRT SDK",
+    "Validate and optimize performance/accuracy of quantized models",
+    "Debug complex issues, root cause analysis, system reliability",
+    "Adopt agentic AI workflows (Claude Code or similar) to automate quantization experimentation and model evaluation pipelines",
+    "Participate in design and code reviews"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

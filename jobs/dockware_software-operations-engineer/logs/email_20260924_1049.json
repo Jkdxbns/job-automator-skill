@@ -1,0 +1,22 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Software Operations Engineer role at Dockware",
+    "greeting": "Hi Conor,",
+    "body": "Justin Mascarenhas here, I graduated with an M.S. in Computer Engineering from Rochester Institute of Technology. I have been following what Dockware is building toward the error free dock, and turning messy real world freight into clean verifiable data is the kind of computer vision and robotics problem I want to work on.\n\nMy background sits right at the intersection your Vision system needs. I built a vision guided robotic pick and place system on a Jetson device where I optimized a YOLO detection pipeline for visual servoing and used time of flight sensors for contact aware grasping. I also derived the full kinematics for a robotic arm and validated it in ROS2 with MoveIt and RViz, and separately built real time object tracking on Jetson hardware that hands control commands to an embedded microcontroller, closer to sensors running on a dock than in a lab.\n\nI would appreciate the opportunity to discuss the role further, if your time allows. I can share my resume if that would be helpful.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: linkedin.com/in/justinmascarenhas",
+    "word_count": 170,
+    "hook_used": "Direct alignment between real time computer vision and robotics work on edge hardware and Dockware's stated mission to build the primary data capture layer for logistics (the error free dock)",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Conor Godfrey",
+    "current_title": "Founder & CEO",
+    "current_company": "Dockware",
+    "target_email": "conor@dockware.ai"
+  },
+  "meta": {
+    "company": "Dockware",
+    "role": "Software Operations Engineer"
+  }
+}

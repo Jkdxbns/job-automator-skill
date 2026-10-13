@@ -1,0 +1,128 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff Simulation Architect - Core Simulation Platform",
+  "job_slug": "staff-simulation-architect-core-simulation-platf",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++ or Python programming",
+    "Performance / optimization engineering",
+    "Robotics concepts (kinematics, dynamics, controls, system identification)",
+    "Software architecture / design / API abstraction",
+    "Deployment / infrastructure / service management",
+    "High-performance / parallel computing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed, high-throughput, or real-time software systems",
+      "you_have": "Parallel distributed computing (MPI + SLURM) and multi-device distributed pipeline (WebSocket fabric, systemd service deployment)"
+    },
+    {
+      "jd_skill": "Architectural trade-off decision-making and clear communication",
+      "you_have": "Documented performance-vs-accuracy trade-offs in optimization and compression projects"
+    },
+    {
+      "jd_skill": "Cross-functional collaboration with physics/robotics/ML domain experts",
+      "you_have": "Led robotics and ML teams, integrated mechanical/PCB/AI components"
+    },
+    {
+      "jd_skill": "Software development best practices (version control, deployment hygiene)",
+      "you_have": "Git version control, systemd deployment, environment-based config separation, static networking"
+    }
+  ],
+  "missing_skills": [
+    "Cloud platforms (AWS/GCP/Azure)",
+    "Distributed computing frameworks (Ray, Kubernetes)",
+    "CI/CD pipelines (explicit)",
+    "Automated testing frameworks (explicit)",
+    "Modern robotic simulators (Isaac Lab, MuJoCo) \u2014 only ROS/RViz/MoveIt present",
+    "Reinforcement Learning (research or production experience) \u2014 not listed in skills or projects",
+    "7+ years of software engineering experience including significant architecture/technical leadership on complex large-scale systems",
+    "Production-scale distributed system ownership at millions-of-parallel-experiences scale (candidate work is coursework, internships, and research \u2014 0 years full-time)",
+    "Mentoring senior engineers at staff-level scope"
+  ],
+  "top_ats_keywords": [
+    "Staff Software Architect",
+    "Simulation Platform",
+    "Distributed Systems",
+    "C++",
+    "Python",
+    "Cloud",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Ray",
+    "Kubernetes",
+    "CI/CD",
+    "Performance Engineering",
+    "Robotics",
+    "Kinematics",
+    "Controls",
+    "RL",
+    "Reinforcement Learning",
+    "Isaac Lab",
+    "MuJoCo",
+    "API Design",
+    "Mentoring",
+    "Architectural Trade-offs"
+  ],
+  "required_skills": [
+    "C++ or Python programming",
+    "Large-scale distributed system architecture",
+    "Distributed/high-throughput/real-time software systems",
+    "Cloud platforms (AWS/GCP/Azure)",
+    "Distributed computing frameworks (Ray, Kubernetes)",
+    "Software development best practices (CI/CD, automated testing, code quality)",
+    "Architectural trade-off decision-making and communication",
+    "Robotics concepts (kinematics, dynamics, controls, system identification)",
+    "Modern robotic simulators (Isaac Lab, MuJoCo) OR Reinforcement Learning",
+    "Cross-functional collaboration with physics/robotics/ML domain experts"
+  ],
+  "preferred_skills": [
+    "Experience in gaming, simulation, high-frequency trading, or large-scale backend infrastructure",
+    "Production-scale distributed system ownership and performance engineering",
+    "Cloud-native pipeline design at millions-of-experiences scale"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own architecture of core simulation platform (distributed, high-performance)",
+    "Design cloud-native pipelines generating millions of experience hours/day",
+    "Define platform core abstractions and APIs for extensibility",
+    "Set technical direction on performance, reliability, scalability",
+    "Define platform roadmap and review design proposals",
+    "Partner with Controls, AI Research, Perception leadership",
+    "Establish architectural standards and mentor senior engineers"
+  ],
+  "role_category": "other",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

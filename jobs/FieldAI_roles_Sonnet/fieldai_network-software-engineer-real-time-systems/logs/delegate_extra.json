@@ -1,0 +1,18 @@
+{
+  "strengths": [
+    "Strong real-time embedded and robotics/perception background (ROS2, Jetson, YOLO, TensorRT)",
+    "Embedded protocol experience (UART/I2C/SPI, Bluetooth) and bare-metal C (STM32 Cortex-M4, FreeRTOS)",
+    "Distributed computing basics (MPI, SLURM, ROS2) and low-latency optimization mindset (CUDA kernels, embedded loops)",
+    "Field-hardware experience (wearable glove, robotic arm capstone with sensors, PCB design)"
+  ],
+  "real_gaps": [
+    "No cellular/networking (4G/5G, TCP/IP stacks, connectivity layer) \u2014 core of role",
+    "No production-scale distributed/network infrastructure experience; only internship/research scale",
+    "No experience with remote-operator communication systems or network reliability/QoS engineering",
+    "No full-time industry experience; 0 years full-time, 7 internships/research only"
+  ],
+  "reasoning": "Role is core networking/cellular (connectivity layer, 4G/5G, network handoffs, intermittent connectivity, mobility/interference, remote operators, distributed device infrastructure). Candidate's strengths (edge AI, embedded real-time, robotics/perception, CUDA, embedded protocols) are adjacent to the robotics context but do not match the core network-engineering demands. No formal blocker (sponsorship not mentioned, no clearance, location relocatable, unstated experience level), but the domain gap is large: missing cellular, TCP/IP stack design, network-layer reliability, and production networking experience. Weak fit; not recommended to apply unless networking experience is developed further.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/f7995afe-f4e7-44d0-b206-53f8b1162949",
+  "team": "Product Engineering",
+  "location": "Irvine, CA"
+}

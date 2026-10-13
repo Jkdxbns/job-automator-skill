@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "company": "Generac",
+    "role": "Firmware Engineer II",
+    "company_slug": "generac",
+    "job_slug": "firmware-engineer-ii"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built embedded firmware in C and C++ for microcontrollers, including bare-metal STM32 drivers (GPIO, ADC, I2C, timers), UART/I2C/SPI communication protocols and closed-loop control algorithms. Tested and troubleshot hardware and firmware in the lab with oscilloscopes and logic analyzers, and produced documentation and BOMs for design reviews.",
+  "skills": {
+    "Embedded Firmware": [
+      "Embedded C",
+      "C++",
+      "STM32 (Bare-Metal C)",
+      "Microcontrollers",
+      "FreeRTOS",
+      "UART/I2C/SPI communication protocols",
+      "ADC/DAC",
+      "PWM Motor Control",
+      "Closed-Loop Feedback Control",
+      "Quadrature Encoders"
+    ],
+    "Hardware & Test": [
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Multimeters",
+      "Spectrum Analyzers",
+      "EAGLE PCB Design",
+      "Proteus (simulation)",
+      "Arduino",
+      "Raspberry Pi"
+    ],
+    "Tools": [
+      "Git",
+      "CMake",
+      "Linux",
+      "Python",
+      "Bash"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning.",
+        "Architected a Mixed Reality headset concept using AI-based real-time chroma keying without a green screen; produced full claims documentation and BOM."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 temperature monitoring firmware in embedded C for a microcontroller with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz; verified through Proteus simulation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Troubleshot and resolved 11 hardware and firmware integration failures (servo brown-out, false-positive detections, stale frames); achieved 100% pick reliability (10/10 trials).",
+        "Implemented two-link IK (control algorithm) on Arduino in C++; drove five servos with range-gated contact detection over a hardware interface of I2C ToF sensors."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Built closed-loop heading correction on Arduino Due: quadrature encoder odometry (2400 CPR) fed angular error into rotation PWM, holding course during translation.",
+        "Implemented interrupt-driven quadrature decoding as a 4-bit A/B state machine; drove four motor channels at 15 kHz PWM."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "company": "Quora",
+    "role": "Machine Learning Engineer, New Grad",
+    "company_slug": "quora",
+    "job_slug": "ml-engineer-new-grad"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology. Built transformer models from scratch in PyTorch, including a GPT-2 style language model and a Whisper-style ASR decoder, and fine-tuned a document understanding transformer from 55% to 93% validation accuracy. Applied 8-bit quantization to a 1.1B-parameter LLM with under 1% accuracy degradation across HellaSwag, GSM8K, and ARC, and cut inference latency 5.2x with TensorRT.",
+  "skills": {
+    "LLM & Generative AI": [
+      "Transformers",
+      "Multi-Head Self-Attention",
+      "LLM Fine-Tuning",
+      "8-bit Quantization (LLM.int8)",
+      "Tokenization (BPE, TikToken)",
+      "Perplexity Evaluation",
+      "Gemini API"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Model Evaluation & Benchmarking",
+      "HellaSwag / GSM8K / ARC",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "YOLO"
+    ],
+    "Languages": [
+      "Python",
+      "C++",
+      "CUDA C++",
+      "Cython",
+      "Bash"
+    ],
+    "Tools & Infrastructure": [
+      "Linux",
+      "Git",
+      "GitLab",
+      "Flask",
+      "WebSocket",
+      "pynvml Profiling"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document understanding transformer, on a custom medical billing dataset for structured field extraction; improved validation accuracy from 55% to 93%.",
+        "Built PyTorch training pipelines with the Hugging Face VisionEncoderDecoder API and domain-specific tokens."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16/19 and ResNet-50 backbones; offline evaluation on Dice Score and IoU.",
+        "Led a team of 7 as the sole ML-experienced student, delivering the full pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 images to 83% mAP@50; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer normalization, and weight tying.",
+        "Built a TikToken tokenizer wrapper and a custom training loop with perplexity evaluation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml.",
+        "Benchmarked on HellaSwag, GSM8K, and ARC: <1% accuracy loss, +0.09 perplexity."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a three-layer distributed AI pipeline (Flutter, Flask-SocketIO, Jetson) integrating faster-whisper STT, Gemini LLM intent classification, and TensorRT-optimized YOLO.",
+        "Cut inference latency 5.2x (56.7 to 10.9 ms) with TensorRT; achieved 100% task reliability over 10 trials at ~11.5s end-to-end latency.",
+        "Diagnosed and resolved 11 system failure modes, including false positives and stale-frame capture."
+      ]
+    },
+    {
+      "name": "Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline with an 80-channel mel spectrogram encoder and a 4-block causal Transformer decoder with cross-attention; achieved 15% WER on a Hindi-English dataset.",
+        "Designed a custom BPE tokenizer with a Cython backend, 4-5.5x faster than pure Python."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels, achieving 1.5-2x convolution speedup."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Random Signal Analysis",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

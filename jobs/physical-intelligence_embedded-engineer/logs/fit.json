@@ -1,0 +1,155 @@
+{
+  "company": "Physical Intelligence",
+  "company_slug": "physical-intelligence",
+  "role": "Embedded Engineer",
+  "job_slug": "embedded-engineer",
+  "match_pct": 80.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 20,
+    "req_cov": 0.679,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "C++",
+    "Bash",
+    "Python",
+    "RTOS/FreeRTOS (concurrent firmware)",
+    "Sensor bring-up and integration",
+    "Logic analyzers",
+    "Oscilloscopes",
+    "BS/MS Computer Engineering",
+    "Data pipelines / evaluation frameworks",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux bring-up (BSP/kernel config/drivers)",
+      "you_have": "Embedded Linux usage (Jetson) without BSP/kernel driver work"
+    },
+    {
+      "jd_skill": "Camera system bring-up and tuning",
+      "you_have": "OpenCV/YOLO image processing without camera hardware bring-up"
+    },
+    {
+      "jd_skill": "Board bring-up for first-of-kind devices",
+      "you_have": "Custom PCB design (EAGLE) and STM32/BBB board projects, not first-of-kind production bring-up"
+    },
+    {
+      "jd_skill": "OS & computer architecture fundamentals",
+      "you_have": "Kernel optimization / high performance architecture coursework, not deep OS internals"
+    }
+  ],
+  "missing_skills": [
+    "Linux kernel development (drivers, device trees, kernel-space perf)",
+    "Power optimization for battery-operated devices / radio sleep states"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "BSP",
+    "kernel",
+    "device drivers",
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "C++",
+    "Python",
+    "Bash",
+    "multithreaded",
+    "firmware",
+    "board bring-up",
+    "camera bring-up",
+    "power optimization",
+    "real-time sensor processing",
+    "device tree"
+  ],
+  "required_skills": [
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "C++",
+    "Bash",
+    "Python",
+    "Embedded Linux bring-up (BSP/kernel config/drivers)",
+    "Concurrent/multithreaded firmware",
+    "OS & computer architecture fundamentals",
+    "Sensor bring-up and integration",
+    "Board bring-up for first-of-kind devices",
+    "BS/MS CS or EE",
+    "Power optimization for battery devices"
+  ],
+  "preferred_skills": [
+    "Camera system bring-up and tuning",
+    "Linux kernel development (drivers, device trees, kernel-space perf)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Drive architecture and implementation of embedded firmware for data collection devices",
+    "Embedded Linux system bring-up: drivers for high-speed sensors, BSP development, kernel configuration/debugging, hardware bring-up, performance tuning",
+    "Hardware/software debugging of timing issues, race conditions, hardware-software interface bugs using lab equipment",
+    "Power optimization for battery-operated devices, including radio sleep states and sensor low-power modes"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hands-on SPI/I2C/UART/USB across multiple projects: STM32 bare-metal I2C driver, TCA9548A I2C mux on COFFIN, UART command link to STM32 on the turret, USB dropout handling on the haptics rig",
+      "Genuine concurrent/multithreaded firmware: FreeRTOS with mutexes for shared-memory task coordination (turret), dedicated serial QThread separated from firmware safety logic (haptics rig)",
+      "Real board bring-up for a first-of-kind device: haptics rig rebuilt from scratch with ACK/timeout/retry protocol, brown-out reset detection, and a 36-trial state machine",
+      "C++ firmware depth: two-link IK on Arduino, STM32 bare-metal Cortex-M4 firmware, CUDA C++ kernels"
+    ],
+    "real_gaps": [
+      "No Linux kernel, BSP, or device-driver development anywhere in the profile \u2014 the JD's most detailed responsibility (drivers for high-speed sensors, BSP customization, kernel config/debugging) has zero backing",
+      "No power optimization or battery/low-power design experience (radio sleep states, sensor low-power modes) \u2014 the entire fourth responsibility bullet is unevidenced",
+      "No production-scale or fleet-deployed hardware \u2014 everything shipped is capstone, research, or competition scope, not a device built for company-wide data collection at scale",
+      "Camera system bring-up/tuning (the stated plus) shows only software-side integration (TensorRT YOLO, multi-camera capture), not sensor/ISP-level camera bring-up"
+    ],
+    "overstated_by_keywords": [
+      "Oscilloscopes and Logic Analyzers are listed as skills but no project bullet demonstrates hands-on lab-equipment debugging of timing issues or race conditions with them",
+      "Linux keyword match comes from systemd service administration, not kernel/BSP/driver work the JD actually asks for"
+    ],
+    "understated_by_keywords": [
+      "FreeRTOS mutex-based task coordination on the turret is direct evidence of 'concurrent/multithreaded firmware services', stronger than a bare keyword match suggests",
+      "The haptics rig rebuild (echo-matched ACK, 400ms timeout, 3 retries, brown-out reset detection) is real reliability engineering for a first-of-kind embedded device, understated by a plain keyword scan"
+    ],
+    "screening_gaps": [
+      "Zero Linux kernel/driver/BSP development experience against a role whose single most detailed bullet is exactly that",
+      "Zero power-optimization / battery-device experience against an explicit standalone responsibility bullet",
+      "No evidence of shipping production-scale hardware \u2014 profile scope is capstone/research/competition, not fleet devices"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong protocol-level embedded fundamentals (SPI/I2C/UART/USB, FreeRTOS concurrency, C++ firmware, real board bring-up) genuinely match the role, but the two most heavily-detailed JD responsibilities -- Linux kernel/BSP/driver bring-up and power optimization for battery devices -- have no backing anywhere in the profile. Worth applying given the protocol/firmware overlap, but expect screening questions to probe kernel and power-management depth directly.",
+    "calibration_delta": 22.0
+  }
+}

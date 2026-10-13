@@ -1,0 +1,118 @@
+{
+  "company": "Bit Addict",
+  "company_slug": "bitaddict",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 1,
+    "missing_count": 2,
+    "jd_ask_size": 10,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Linux",
+    "UART",
+    "SPI",
+    "real-time systems",
+    "communication protocols"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "hardware-based programming",
+      "you_have": "STM32 bare-metal embedded hardware programming"
+    }
+  ],
+  "missing_skills": [
+    "Embedded Linux",
+    "CAN"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Linux",
+    "Embedded Linux",
+    "CAN",
+    "UART",
+    "SPI",
+    "real-time systems",
+    "communication protocols"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Linux",
+    "Embedded Linux",
+    "CAN",
+    "UART",
+    "SPI",
+    "real-time systems",
+    "hardware-based programming"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 8,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Customer embedded/system-related assignments",
+    "C/C++ development",
+    "Linux/Embedded Linux environments",
+    "real-time systems and communication protocols",
+    "explaining technical solutions to customers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Gothenburg, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 76,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "C/C++ and bare-metal embedded programming across STM32, Jetson, Raspberry Pi (custom RTOS coursework project, FreeRTOS, real-time inference pipelines)",
+      "UART/I2C/SPI protocol work is deep and repeated across multiple projects (STM32<->Jetson UART link, sensor buses)",
+      "Real embedded-Linux administration depth the keyword pass missed: Jetson deployed as a systemd service with auto-restart, non-root isolation, static IP networking, headless XRDP admin",
+      "Demonstrated technical breadth across CUDA/ML, robotics, and firmware in short-cycle projects, which maps conceptually to this role's core ask of rapidly ramping up on new customer domains"
+    ],
+    "real_gaps": [
+      "No CAN bus experience anywhere in the profile",
+      "0 years full-time professional experience vs 8+ years required",
+      "No stated Swedish language ability",
+      "No direct customer-facing consulting experience (all projects are academic/personal, not client-billed engagements)"
+    ],
+    "overstated_by_keywords": [
+      "UART/SPI counted as communication protocols but CAN, the JD other named protocol, has zero backing"
+    ],
+    "understated_by_keywords": [
+      "Jetson systemd/headless Linux administration reads as genuine embedded Linux operations experience, not just an ML deployment target"
+    ],
+    "screening_gaps": [
+      "8+ years professional experience required; candidate has 0 years full-time (new grad) - the single biggest screen-out risk for a senior consultant role",
+      "Very good knowledge of Swedish required; no evidence of Swedish fluency at all",
+      "No CAN bus experience, despite it being named alongside UART/SPI as a core protocol"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Technical stack overlap is genuinely strong (C/C++, Linux, UART/SPI, RTOS, hardware breadth), but this is a senior consulting role that explicitly gates on 8+ years experience and Swedish fluency, neither of which the profile can show, and the JD CAN requirement has no backing at all.",
+    "calibration_delta": -1.0
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior Perception Hardware Engineer",
+  "job_slug": "senior-perception-hardware-engineer",
+  "match_pct": 32.6,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 13,
+    "jd_ask_size": 23,
+    "req_cov": 0.412,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "OpenCV / computer vision",
+    "3D geometry / SE(3) / coordinate frame transformations",
+    "Linear algebra / coordinate transforms (quaternions, rotation matrices)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Extrinsic calibration (sensor-to-sensor / sensor-to-kinematic base)",
+      "you_have": "ROS arm kinematic / forward-kinematic chain computation"
+    },
+    {
+      "jd_skill": "Optical / vision sensor modeling and integration",
+      "you_have": "Camera + ToF vision pipeline integration (YOLO visual servoing, dual VL53L0X ToF)"
+    },
+    {
+      "jd_skill": "Embedded hardware / sensor-to-actuator integration (optical, MEMS, LiDAR intuition)",
+      "you_have": "Embedded sensor integration (STM32 bare-metal, Jetson, ToF, encoder, PWM motor control, UART/I2C)"
+    },
+    {
+      "jd_skill": "System-level pipeline / automated deployment design",
+      "you_have": "Automated system deployment (systemd service, multiprocessing data pipeline, WebSocket fabric)"
+    },
+    {
+      "jd_skill": "Non-linear optimization / numerical methods for sensor calibration",
+      "you_have": "CUDA kernel optimization / numerical optimization experience (coalesced memory, preallocated buffers, performance tuning)"
+    }
+  ],
+  "missing_skills": [
+    "Ceres Solver / g2o (explicit optimization framework experience)",
+    "PCL (Point Cloud Library)",
+    "Bundle adjustment / least-squares optimization (explicit method experience)",
+    "Intrinsic camera calibration algorithms: pinhole, fisheye, Brown-Conrady, Kannala-Brandt",
+    "Inertial sensor calibration: IMU bias, scale factors, random walk (MEMS IMU)",
+    "LiDAR mechanism experience (distinct from ToF / vision sensors)",
+    "PTP / PPS / sub-microsecond temporal synchronization and hardware triggering",
+    "Calibration target / fixture design (CharuCo boards, custom 3D geometries, lighting environments)",
+    "Mounting rigidity / calibration drift characterization (thermal gradients, mechanical shock, joint wear)",
+    "Factory EOL automation pipeline design and operation",
+    "In-field auto-calibration / self-diagnostic routines for dynamic extrinsic adjustment",
+    "Fleet-wide calibration health data-tracking and analytics architecture",
+    "5+ years full-time industry experience in perception hardware / calibration"
+  ],
+  "top_ats_keywords": [
+    "Perception Hardware",
+    "Sensor Calibration",
+    "Intrinsic",
+    "Extrinsic",
+    "PTP",
+    "PPS",
+    "Hardware Triggering",
+    "OpenCV",
+    "PCL",
+    "Ceres",
+    "g2o",
+    "Bundle Adjustment",
+    "SE(3)",
+    "3D Geometry",
+    "Python",
+    "C++",
+    "LiDAR",
+    "MEMS IMU",
+    "CharuCo",
+    "EOL",
+    "Auto-Calibration",
+    "Fleet Analytics"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "OpenCV",
+    "PCL",
+    "Ceres Solver / g2o (optimization frameworks)",
+    "3D geometry / SE(3) / coordinate frame transformations (quaternions, rotation matrices)",
+    "Linear algebra / non-linear optimization (least-squares, bundle adjustment)",
+    "Intrinsic camera calibration (pinhole, fisheye, Brown-Conrady, Kannala-Brandt)",
+    "Inertial sensor calibration (IMU bias, scale factors, random walk)",
+    "Extrinsic calibration (sensor-to-sensor, sensor-to-kinematic base)",
+    "Temporal synchronization (PTP, PPS, hardware triggering, sub-microsecond)",
+    "Optical components / LiDAR mechanisms / MEMS IMUs",
+    "Calibration fixture / target design (CharuCo, custom 3D geometries, lighting)",
+    "Mounting / stability validation (thermal gradients, mechanical shock, joint wear)",
+    "Factory EOL automation pipeline",
+    "Online / in-field auto-calibration / self-diagnostic routines",
+    "Fleet-wide data tracking / analytics architecture"
+  ],
+  "preferred_skills": [
+    "Point Cloud Library (PCL)",
+    "Bundle adjustment",
+    "Calibration pipeline scalability"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design intrinsic calibration models for optical and inertial sensors (pinhole, fisheye, Brown-Conrady, Kannala-Brandt; IMU bias/scale/random walk)",
+    "Develop extrinsic sensor-to-sensor and sensor-to-kinematic-base spatial transformations",
+    "Validate sub-microsecond temporal synchronization across perception streams using PTP, PPS, and hardware triggering",
+    "Design calibration fixtures (CharuCo boards, custom 3D geometries) and lighting environments for factory calibration",
+    "Evaluate sensor mounting rigidity and characterize calibration drift from thermal gradients, shock, and joint wear",
+    "Build automated end-of-line (EOL) factory calibration pipeline for multi-sensor humanoid head calibration",
+    "Develop lightweight online/in-field auto-calibration and self-diagnostic routines for dynamic extrinsic adjustment",
+    "Establish fleet-wide calibration health data-tracking architecture to monitor batch variances and hardware degradation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

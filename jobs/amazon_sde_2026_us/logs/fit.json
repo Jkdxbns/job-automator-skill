@@ -1,0 +1,98 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Software Development Engineer - 2026 (US)",
+  "job_slug": "sde_2026_us",
+  "job_id": "3177934",
+  "job_url": "https://www.amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us",
+  "match_pct": 100,
+  "missing_skills": [
+    "AWS / cloud platforms",
+    "SQL / NoSQL databases",
+    "microservices",
+    "fault-tolerant distributed service design",
+    "CI/CD",
+    "on-call / production ownership",
+    "open-source contributions"
+  ],
+  "adjacent_skills": [
+    "data structures",
+    "algorithms",
+    "object-oriented design",
+    "distributed systems (MPI/HPC, not cloud)",
+    "AI development tools"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "data structures",
+    "algorithms",
+    "object-oriented design",
+    "Embedded Systems",
+    "distributed systems",
+    "debugging complex systems",
+    "version control",
+    "Git",
+    "scalable",
+    "fault-tolerant",
+    "CI/CD",
+    "SDLC",
+    "AWS"
+  ],
+  "key_responsibilities": [
+    "Design, build, and operate innovative products and services",
+    "Design and develop scalable solutions using cloud-native architectures and microservices",
+    "Build resilient distributed systems that are scalable, fault-tolerant, and cost-effective",
+    "Code reviews and technical documentation",
+    "Leverage GenAI and AI-powered tools to enhance development productivity",
+    "Agile environments with CI/CD practices including on-call duties",
+    "Operational excellence through monitoring, troubleshooting, resolving production issues"
+  ],
+  "declared_specialization": "Embedded Systems",
+  "specializations_offered": [
+    "Machine Learning",
+    "Distributed Systems and Data Management",
+    "Database Systems",
+    "Quantum Computing",
+    "Network Development",
+    "Query Processing and Optimization",
+    "Automated Reasoning",
+    "Embedded Systems",
+    "Data Engineering",
+    "Mobile Development",
+    "Game Development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Seattle, WA (+ AZ, CA, CO, GA, IL, MA, MD, MI, MN, NJ, NY, OR, PA, TN, TX, VA, WI)",
+  "salary_range": "$110,500 - $160,000 USD",
+  "sponsorship_mentioned": false,
+  "clearance_required": false,
+  "hard_blocker_triggered": false,
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit (Strong for the embedded lane, weak against the generic cloud SDE description)",
+    "strengths": [
+      "Embedded Systems is an explicitly listed specialization on this req - validates applying with an embedded resume",
+      "C++ depth is real and defensible: STM32 bare-metal (GPIO/TIM2/ADC1/I2C1, 3.68KB Flash), two-link IK on Arduino in C++, custom CUDA C++ kernels for VGG16",
+      "Debugging complex systems is genuinely backed: resolved 11 integration failures in COFFIN (false positives, servo brown-out, stale-frame capture)",
+      "Distributed-systems thinking exists but is HPC/edge flavored: MPI Hodgkin-Huxley (10.49x speedup, load-imbalance characterization), parallel ray tracer (4 work-distribution strategies), COFFIN three-layer WebSocket pipeline",
+      "Version control (Git/GitLab) and project experience clear the preferred bar"
+    ],
+    "real_gaps": [
+      "Zero AWS / cloud platform experience - the JD's core described work is cloud-native architectures and microservices",
+      "Zero SQL/NoSQL database experience",
+      "No production service ownership: no CI/CD, no on-call, no monitoring/troubleshooting of live production issues",
+      "No open-source contributions",
+      "DSA depth is the real interview risk - Amazon's new-grad loop is DSA-heavy plus Leadership Principles behavioral"
+    ],
+    "overstated_by_keywords": [
+      "'data structures / algorithms' scored as covered because the basic qual is trivially low; candidate's own defensibility notes flag DSA as an active gap. 100% paper match != loop readiness.",
+      "'distributed systems' - MPI/HPC and a WebSocket edge pipeline are NOT cloud microservices with fault tolerance; adjacent, not equivalent. Do not oversell in interview."
+    ],
+    "reasoning": "Keyword match hits 100% only because the basic qualifications are near-trivial (one language + DSA/OOP + a STEM degree), so the number carries almost no signal. Against the JD's actual described work - cloud-native microservices, fault-tolerant distributed services, AWS, CI/CD, on-call - the profile is a weak content match. The real value is that this req explicitly names Embedded Systems as a declarable specialization, which is a legitimate door into the exact work the recruiter pitched. Apply is a clear yes; the binding constraint is not eligibility or the resume, it is DSA readiness for the loop."
+  }
+}

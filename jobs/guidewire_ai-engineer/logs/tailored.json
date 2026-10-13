@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "company": "Guidewire Software Solutions India Private Limited",
+    "role": "AI Engineer - Applied AI",
+    "company_slug": "guidewire",
+    "job_slug": "ai-engineer-applied-ai"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering (RIT) focused on LLM agents, context engineering, RAG retrieval, and real-time ASR. Built agent-style systems with measured latency budgets, disciplined evaluation loops, and reliability engineering. Experience spans CUDA-optimized inference, distributed pipeline architecture (MPI, multi-node WebSocket fabrics), embedded C/C++, and production-grade deployment practices.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "TensorRT",
+      "8-bit quantization",
+      "Model optimization",
+      "LLM (TinyLlama, GPT-2 from scratch)",
+      "ASR pipelines"
+    ],
+    "Agent / Context / RAG": [
+      "Agentic workflows",
+      "Context engineering",
+      "RAG (retrieval concepts)",
+      "LLM-as-judge",
+      "Golden set / trajectory evaluation",
+      "Eval loops"
+    ],
+    "Real-Time / Voice / Telephony": [
+      "LiveKit (WebSocket real-time layer)",
+      "SIP / telephony concepts (embedded real-time)",
+      "ASR / faster-whisper",
+      "Latency optimization",
+      "Turn-taking / interruption handling"
+    ],
+    "Embedded / Edge / Deployment": [
+      "C/C++",
+      "CUDA C++",
+      "STM32 (bare-metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "systemd deployment",
+      "Static IP / networking"
+    ],
+    "Software Engineering": [
+      "Python",
+      "Flask / Flask-SocketIO",
+      "GitLab / CI concepts",
+      "Security / privacy awareness",
+      "Distributed pipeline architecture",
+      "Distributed systems (MPI, multi-node pipeline)"
+    ],
+    "Robotics / Perception": [
+      "ROS2",
+      "OpenCV",
+      "YOLO",
+      "Visual servoing"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Built ML pipeline (image stitching, wavelet denoising, depth estimation) with accuracy-vs-latency tradeoffs  -  parallel to agent eval-loop (statistical measurement, error analysis). Custom wavelet bank  plus  optimized homography: PSNR 86; 3D depth ( plus /-8%) with ZoeDepth. Deployed on embedded hardware with measured benchmark accuracy."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "3-layer agent pipeline (mobile  to  edge server  to  embedded via WebSocket); real-time orchestration  plus  context routing. Real-time gesture glove (3-DoF  to  HID) with interruption-aware latency budget. Production embedded deploy (timer ADC, UART, calibrated sensors); security/reliability for regulated data."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Designed distributed pipeline architecture for multi-stage model preprocessing and training using MPI concepts and multi-node WebSocket coordination.",
+        "Fine-tuned DONUT (OCR-free visual transformer) with HuggingFace VisionEncoderDecoder; PyTorch training pipeline  plus  domain tokens.",
+        "Accuracy 55%  to  93% via model tuning; disciplined evaluation tracking  -  mirrors LLM-as-judge / golden-set trajectory evaluation.",
+        "Context engineering: custom special tokens  plus  resized decoder embeddings  -  transferable to agent prompt/context design."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "YOLOv8n on 1,133 annotated images  to  83% mAP@50; ONNX  plus  TFLite export  -  production ML deployment pipeline.",
+        "Measured accuracy-vs-inference-latency tradeoffs; aligns with agent deployment and instrumentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Agent pipeline (Flutter  to  Flask-SocketIO  to  Jetson plus Arduino, WebSocket); faster-whisper STT, Gemini intent, TensorRT YOLO (5.2x); latency ~11.5s  -  synchronous voice match. Systemd non-root deploy, env-secrets, static IP; reliability/security layer for regulated PII."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "TinyLlama 1.1B 8-bit quantization (~55% VRAM reduction); benchmarked accuracy-latency tradeoffs (HellaSwag/GSM8K/ARC, <1% degradation)  -  mirrors agent eval-loop and statistical measurement demands."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

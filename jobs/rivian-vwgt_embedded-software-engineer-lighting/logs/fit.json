@@ -1,0 +1,135 @@
+{
+  "company": "Rivian and Volkswagen Group Technologies",
+  "company_slug": "rivian-vwgt",
+  "role": "Embedded Software Engineer (Lighting Systems)",
+  "job_slug": "embedded-software-engineer-lighting",
+  "match_pct": 38.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 11,
+    "jd_ask_size": 22,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C/C++",
+    "Python",
+    "Embedded software",
+    "Cross-functional collaboration",
+    "Manual fabrication"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Desktop tooling",
+      "you_have": "PySide6/Qt + OpenGL visualization GUI"
+    },
+    {
+      "jd_skill": "BAJA/FSAE student competitions",
+      "you_have": "Robocon / ARC robotics competitions"
+    },
+    {
+      "jd_skill": "Unit testing",
+      "you_have": "test/benchmark scripts"
+    },
+    {
+      "jd_skill": "Diagnostic interfaces",
+      "you_have": "UART/I2C/SPI bring-up"
+    },
+    {
+      "jd_skill": "Simulation",
+      "you_have": "CARLA"
+    }
+  ],
+  "missing_skills": [
+    "Matlab",
+    "Simulink",
+    "Stateflow",
+    "Model-based design",
+    "SIL testing",
+    "HIL testing",
+    "Automotive control systems",
+    "Rust",
+    "JavaScript",
+    "Calibration",
+    "Lighting regulatory"
+  ],
+  "top_ats_keywords": [
+    "embedded software",
+    "C",
+    "C++",
+    "Python",
+    "Simulink",
+    "Stateflow",
+    "Matlab",
+    "SIL",
+    "HIL",
+    "BAJA",
+    "FSAE",
+    "automotive",
+    "diagnostics",
+    "Rust",
+    "JavaScript",
+    "simulation",
+    "calibration"
+  ],
+  "required_skills": [
+    "C",
+    "C/C++",
+    "Python",
+    "Embedded software",
+    "Unit testing",
+    "SIL testing",
+    "HIL testing",
+    "Automotive control systems",
+    "Cross-functional collaboration"
+  ],
+  "preferred_skills": [
+    "Matlab",
+    "Simulink",
+    "Stateflow",
+    "Model-based design",
+    "BAJA/FSAE student competitions",
+    "JavaScript",
+    "Rust",
+    "Desktop tooling",
+    "Diagnostic interfaces",
+    "Simulation",
+    "Manual fabrication"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "C software for exterior/interior lighting",
+    "lighting animations/graphics",
+    "lighting regulatory compliance NA/EU",
+    "unit/SIL/HIL tests",
+    "desktop visualization tooling",
+    "diagnostic interfaces",
+    "vehicle calibration"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated (Rivian/VWGT)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

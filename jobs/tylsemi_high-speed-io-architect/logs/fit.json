@@ -1,0 +1,115 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "High-Speed IO Architect - Digital - PCIe/UCIe/Ethernet Subsystems",
+  "job_slug": "high-speed-io-architect",
+  "match_pct": 3.1,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 15,
+    "jd_ask_size": 16,
+    "req_cov": 0.0,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PCB design and high-speed interface layout",
+      "you_have": "PCB"
+    }
+  ],
+  "missing_skills": [
+    "15+ years high-speed interface architecture",
+    "5+ years Principal level in fabless/IDM",
+    "PCIe architecture (PHY through protocol stack)",
+    "Direct tape-out experience",
+    "UCIe standard familiarity",
+    "Signal integrity (S-parameter, HSPICE/IBIS-AMI, eye diagrams, crosstalk)",
+    "Advanced nodes and packaging (CoWoS, EMIB, InFO)",
+    "Multi-party IP integration track record",
+    "SerDes architecture experience",
+    "Electrical-optical co-design",
+    "Chiplet-based multi-die architectures",
+    "Protocol bridge design (PCIe TLP \u2194 UCIe flit)",
+    "DFT and compliance test architecture",
+    "Verilog/SystemVerilog/RTL",
+    "Channel simulation and SPICE modeling"
+  ],
+  "top_ats_keywords": [
+    "PCIe architecture",
+    "UCIe",
+    "SerDes",
+    "HSIO",
+    "high-speed IO",
+    "die-to-die",
+    "signal integrity",
+    "tape-out",
+    "IP integration",
+    "HSPICE",
+    "IBIS-AMI",
+    "eye diagram",
+    "DFT",
+    "compliance testing",
+    "chiplet",
+    "advanced packaging"
+  ],
+  "required_skills": [
+    "15+ years high-speed interface architecture experience",
+    "5+ years at Principal level or higher in fabless or IDM semiconductor",
+    "Deep PCIe architecture expertise (PHY layer through controller and protocol stack)",
+    "Direct tape-out experience",
+    "UCIe standard familiarity (flit-based transport, sideband protocol, die-to-die integration)",
+    "Signal integrity expertise (S-parameter analysis, HSPICE/IBIS-AMI, eye diagram closure, crosstalk budgeting)",
+    "Experience with advanced nodes and advanced packaging (CoWoS, EMIB, InFO)",
+    "Track record driving complex multi-party IP integrations from architecture through tape-out"
+  ],
+  "preferred_skills": [
+    "224G/400G+ SerDes architectures for scale-up AI fabric (NVLink, UALink, Ultra Ethernet, proprietary)",
+    "Electrical-optical co-design for CPO or near-package optics",
+    "EIC retimer or photonic interface experience",
+    "Chiplet-based multi-die architectures (bumping strategy, KGD handling, heterogeneous integration)",
+    "PCIe-SIG membership or active UCIe Consortium contribution",
+    "Prior startup experience or comfort with early-stage ambiguity"
+  ],
+  "required_experience_years": 15,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define high-speed IO architecture for PCIe/Ethernet-224G/448G scale-up fabric/CPO-optics interfaces",
+    "Define die-to-die interface architecture for UCIe integration (flit formats, credit-based flow control, sideband management)",
+    "Architect SerDes-to-photonics interface and co-packaged optics (CPO) readiness",
+    "Own signal integrity budget (TX/RX equalization, channel loss allocation, crosstalk margins, jitter decomposition)",
+    "Guide SerDes PHY selection and IP evaluation",
+    "Define and review UCIe PHY integration (bump map, power domains, analog/digital co-design, pad ring)",
+    "Collaborate on protocol bridge design (PCIe TLP \u2194 UCIe flit conversion)",
+    "Drive DFT and compliance test architecture for PCIe certification and UCIe conformance",
+    "Establish PVT margin strategies and power management",
+    "Serve as primary technical interface to anchor customers and hyperscalers (AWS, Google, Microsoft, Meta)",
+    "Contribute to RTL reuse strategy for derivative SKUs",
+    "Identify and scope patentable innovations in UCIe integration and adaptive equalization"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA (HQ), Remote (United States)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

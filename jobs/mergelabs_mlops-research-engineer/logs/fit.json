@@ -1,0 +1,19 @@
+{
+  "company": "Merge Labs",
+  "company_slug": "mergelabs",
+  "role": "MLOps Research Engineer",
+  "job_slug": "mlops-research-engineer",
+  "match_pct": 45.5,
+  "missing_skills": ["JAX", "Ray", "Kubernetes", "AWS/GCP/Azure", "MLflow", "Weights & Biases"],
+  "adjacent_skills": ["SLURM/MPI (distributed computing)", "GitLab (CI/CD)"],
+  "top_ats_keywords": ["Python", "PyTorch", "JAX", "Ray", "Kubernetes", "MLflow", "Weights & Biases", "CI/CD", "distributed computing", "experiment tracking"],
+  "key_responsibilities": [
+    "Build scaffolding for active-learning and closed-loop optimization (data ETL, ML modeling, library design)",
+    "Define CI/CD pipelines and resource orchestration (Kubernetes, Ray, Dagster)",
+    "Implement model registries, evaluation frameworks, automated benchmarking",
+    "Own the ML engineering roadmap and mentor computational scientists"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

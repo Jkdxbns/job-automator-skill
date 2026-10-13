@@ -1,0 +1,108 @@
+{
+  "company": "Analog Devices",
+  "company_slug": "analog_devices",
+  "role": "Embedded Systems Applications Engineer",
+  "job_slug": "embedded-systems-applications-engineer",
+  "match_pct": 37.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 0,
+    "missing_count": 10,
+    "jd_ask_size": 16,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "bare-metal",
+    "FPGA"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "mixed-signal systems",
+    "RF systems",
+    "LVDS",
+    "JESD204",
+    "Verilog",
+    "VHDL",
+    "MATLAB",
+    "Simulink",
+    "customer-facing technical support",
+    "high-speed ADC/DAC design"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "Verilog",
+    "VHDL",
+    "JESD204",
+    "LVDS",
+    "MATLAB",
+    "Simulink",
+    "C++",
+    "Python",
+    "Linux"
+  ],
+  "required_skills": [
+    "mixed-signal systems",
+    "RF systems",
+    "digital communications",
+    "embedded hardware",
+    "embedded software",
+    "system-level debugging",
+    "LVDS",
+    "JESD204",
+    "FPGA",
+    "Verilog",
+    "VHDL",
+    "C",
+    "C++",
+    "Python",
+    "Linux embedded software",
+    "bare-metal embedded software",
+    "MATLAB",
+    "Simulink"
+  ],
+  "preferred_skills": [
+    "Embedded Coder",
+    "HDL Coder",
+    "high-speed ADC/DAC design",
+    "mixed-signal front ends",
+    "RF transceivers",
+    "customer-facing technical support"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "customer technical support",
+    "system requirement assessment",
+    "reference design development",
+    "hardware/software debugging",
+    "applications notes and training content"
+  ],
+  "role_category": "embedded_systems",
+  "location": "US, MA, Wilmington",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Citizenship: \"US citizenship or Green Card\" (Preferred Education and Experience) plus export-control clause excluding non-US-Citizens/PR/protected individuals from ITAR/EAR licensing exemption"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

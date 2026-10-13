@@ -1,0 +1,126 @@
+{
+  "company": "Texas Sports Academy",
+  "company_slug": "texas-sports-academy",
+  "role": "Junior Software Engineer",
+  "job_slug": "junior-swe",
+  "match_pct": 27.8,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.3,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "LLM",
+    "public GitHub"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "full-stack web",
+      "you_have": "Flutter + Flask-SocketIO + WebSocket pipeline (voice-controlled pick-and-place)"
+    },
+    {
+      "jd_skill": "evals",
+      "you_have": "Model evaluation (GSM8K, HellaSwag, WER benchmarks)"
+    },
+    {
+      "jd_skill": "structured output/tool-use",
+      "you_have": "Gemini intent classification (<500ms) driving robot actions"
+    },
+    {
+      "jd_skill": "voice agents",
+      "you_have": "faster-whisper STT + Gemini voice pipeline"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "AWS/GCP",
+    "AI coding tools (Claude Code/Cursor/Codex)",
+    "agent frameworks (LangGraph/CrewAI/Mastra)",
+    "RAG/vector search",
+    "prompt caching",
+    "MCP servers",
+    "edtech/sports background"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "evals",
+    "RAG",
+    "agents",
+    "MCP",
+    "TypeScript",
+    "React",
+    "Node",
+    "Python",
+    "Postgres",
+    "AWS",
+    "GCP",
+    "Claude Code",
+    "Cursor",
+    "LangGraph",
+    "prompt caching",
+    "tool-use",
+    "structured output",
+    "voice agents"
+  ],
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "PostgreSQL",
+    "AWS/GCP",
+    "AI coding tools (Claude Code/Cursor/Codex)",
+    "LLM features",
+    "evals",
+    "full-stack web"
+  ],
+  "preferred_skills": [
+    "agent frameworks (LangGraph/CrewAI/Mastra)",
+    "RAG/vector search",
+    "prompt caching",
+    "MCP servers",
+    "structured output/tool-use",
+    "voice agents",
+    "public GitHub",
+    "edtech/sports background"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Ship full-stack product features weekly with AI coding tools",
+    "Build LLM-powered features: tutoring agents, parent copilots, coach dashboards, retrieval over student data",
+    "Write evals and regression tests for AI features",
+    "Own small systems end-to-end",
+    "Run own AI coding workflow (subagents, MCP servers)"
+  ],
+  "role_category": "ml_systems",
+  "location": "Austin, TX (onsite/commuting distance)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

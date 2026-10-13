@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "Generic",
+    "role": "Robotics Engineer",
+    "company_slug": "generic",
+    "job_slug": "portfolio_robotics"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Dallas–Fort Worth, TX"
+  },
+  "summary": "Robotics engineer (M.S. Computer Engineering, RIT, 2026) who builds robots end to end: perception on NVIDIA Jetson, kinematics and planning, and the firmware that drives the joints. Delivered a voice-commanded, vision-guided pick-and-place arm with 100% pick reliability.",
+  "skills": {
+    "Robotics": [
+      "ROS 2 / ROS",
+      "MoveIt",
+      "RViz",
+      "URDF",
+      "Forward & inverse kinematics",
+      "DH parameters",
+      "Visual servoing",
+      "Odometry",
+      "CARLA"
+    ],
+    "Perception & Edge AI": [
+      "YOLO",
+      "OpenCV",
+      "TensorRT",
+      "NVIDIA Jetson",
+      "PyTorch"
+    ],
+    "Embedded & Control": [
+      "Arduino",
+      "STM32",
+      "PWM servo & motor control",
+      "Quadrature encoders",
+      "Closed-loop feedback control",
+      "UART / I2C"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Linux",
+      "systemd",
+      "Git",
+      "SolidWorks"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Trained a YOLOv3 ball detector from scratch and turned its detections into motor commands for closed-loop visual servoing of the competition robot.",
+        "Led a 25-member robotics team through national-level competitions, owning mechanical design, PCB fabrication and AI integration end to end."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Architected a voice-controlled, vision-guided pick-and-place robot as a three-layer distributed system: Flutter mobile client, Flask-SocketIO edge server, and an NVIDIA Jetson + Arduino controller on one real-time WebSocket fabric.",
+        "Integrated faster-whisper speech-to-text (1.0–1.4 s), Gemini intent classification (<500 ms) and TensorRT-optimized YOLO for visual servoing, accelerating detection 5.2× over eager PyTorch (56.7 → 10.9 ms, 17.6 → 92 FPS).",
+        "Implemented two-link inverse kinematics in C++ on the Arduino, driving five servos with contact-aware grasping from dual time-of-flight sensors on an I2C multiplexer: a camera range gate plus a gripper that closes at 25 mm.",
+        "Drove the system to 100% pick reliability (10/10 trials) at ~11.5 s voice-to-pick by hardening it against false-positive detections, servo brown-out and stale-frame capture."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and full forward-kinematic chains by hand for a 6-DoF UR5e and a 5-DoF AL5B, validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place on the physical UR5e through the UR ROS 2 driver; AL5B repeatability under 2 mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18), integrated into an adaptive control stack with lane following and waypoint fallback."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot — Holonomic Drive & Encoder Odometry",
+      "date": "2022 – 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a four-wheel holonomic robot on Arduino Due, deriving heading from dual-axis quadrature-encoder odometry (2400 CPR) and feeding the angular error back into rotation PWM."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

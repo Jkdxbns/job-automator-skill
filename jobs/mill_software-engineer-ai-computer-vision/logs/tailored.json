@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "company": "Mill",
+    "role": "Software Engineer, AI/Computer Vision",
+    "company_slug": "mill",
+    "job_slug": "software-engineer-ai-computer-vision"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds and evaluates computer vision models in PyTorch: U-Net segmentation scored on Dice and IoU, YOLOv8 detection on self-curated datasets, and DONUT VLM fine-tuning from 55% to 93% accuracy. Optimizes models for edge deployment with TensorRT and 8-bit quantization, reaching a 5.2x speedup on NVIDIA Jetson.",
+  "skills": {
+    "Computer Vision & Deep Learning": [
+      "Computer Vision",
+      "PyTorch",
+      "OpenCV",
+      "Segmentation (U-Net)",
+      "Object Detection (YOLOv8)",
+      "Classification",
+      "Tracking",
+      "VLM Fine-tuning (DONUT)",
+      "Hugging Face Transformers",
+      "Depth Estimation (ZoeDepth)"
+    ],
+    "Model Evaluation & Optimization": [
+      "Model Evaluation",
+      "Dice / IoU / mAP@50",
+      "Benchmarking & Profiling (pynvml)",
+      "Model Optimization",
+      "TensorRT",
+      "8-bit Quantization",
+      "ONNX",
+      "TFLite"
+    ],
+    "Data & Edge Deployment": [
+      "Dataset Curation",
+      "Annotation",
+      "Automated Ground-Truth Generation",
+      "Edge Deployment",
+      "NVIDIA Jetson",
+      "Embedded Vision",
+      "CUDA"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free vision-language transformer) on a custom dataset for structured field extraction, improving validation accuracy from 55% to 93%.",
+        "Built preprocessing and training pipelines in PyTorch with the HuggingFace VisionEncoderDecoder API; added domain special tokens and resized decoder embeddings."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset, training YOLOv8n on 1,133 images to 83% mAP@50; exported to ONNX and TFLite for on-device deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with +/-8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO detection with TensorRT on a Jetson camera pipeline for a 5.2x speedup (56.7 to 10.9 ms, 17.6 to 92 FPS) over eager PyTorch.",
+        "Analyzed and resolved 11 integration failure cases (false positives, stale-frame capture, servo brown-out) to reach 100% pick reliability over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated ground-truth generation using semantic segmentation and raycast occlusion filtering, producing ~8,000 YOLO and UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18); validated in Town02 with zero collisions across multiple laps."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Cut GPU memory ~55% via 8-bit quantization (LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and latency with pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with <1% accuracy degradation, quantifying the edge efficiency trade-off."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,170 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff Electrical Engineer - Compute",
+  "job_slug": "staff-electrical-engineer-compute",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 25,
+    "adjacent_count": 8,
+    "missing_count": 14,
+    "jd_ask_size": 47,
+    "req_cov": 0.462,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "NVIDIA Jetson / embedded compute platforms",
+    "RTOS (FreeRTOS)",
+    "Robotics / motion control / perception / AI integration",
+    "C/C++ embedded and bare-metal development",
+    "Python / C/C++ / CUDA programming",
+    "System-level architecture / pipeline design",
+    "Sensor integration and multi-sensor data handling",
+    "Real-time / deterministic embedded control",
+    "Linux system administration (systemd, networking, secrets/config)",
+    "Closed-loop control / feedback systems",
+    "Multi-camera / high-throughput data pipeline",
+    "ROS2 / ROS ecosystem integration",
+    "Visual servoing / YOLO / computer vision",
+    "Embedded communication protocols (UART, I2C, SPI, Bluetooth)",
+    "Quantization / optimization for edge deployment",
+    "Image processing / signal processing",
+    "PCB fabrication / design and mechanical integration",
+    "Data pipeline / dataset curation / annotation",
+    "System benchmarking / thermal / power efficiency",
+    "Team leadership / cross-functional collaboration",
+    "Git / version control / collaborative development",
+    "Flask / web server / WebSocket networking",
+    "SolidWorks / CAD design",
+    "Instrumentation / testing (oscilloscopes, logic analyzers)",
+    "Power management / PWM / motor control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-core processing / multi-core embedded compute",
+      "you_have": "Multiple Processor Systems course + CUDA C++ / MPI / SLURM parallel processing"
+    },
+    {
+      "jd_skill": "Sensor bandwidth management / high-speed data transfer",
+      "you_have": "Multi-sensor integration (YOLO vision, ToF sensors, accelerometers) and multi-camera high-throughput pipeline"
+    },
+    {
+      "jd_skill": "System architecture / component selection for compute solutions",
+      "you_have": "Architecture experience in robotics pipelines (COFFIN 3-layer distributed, BARC metal inspection pipeline)"
+    },
+    {
+      "jd_skill": "Performance benchmarking / profiling / thermal optimization",
+      "you_have": "CUDA profiling (pynvml, psutil), quantization profiling, kernel timing measurement"
+    },
+    {
+      "jd_skill": "Humanoid robotics",
+      "you_have": "Robotic arm (AL5B 5-DoF, UR5e 6-DoF) and humanoid-adjacent robotics team leadership; no humanoid robot experience"
+    },
+    {
+      "jd_skill": "Communication protocols (Ethernet, CAN)",
+      "you_have": "UART/I2C/SPI and Bluetooth (BLE/Classic); no Ethernet or CAN experience"
+    },
+    {
+      "jd_skill": "Real-time operating systems beyond FreeRTOS",
+      "you_have": "FreeRTOS only; no experience with QNX, VxWorks, or other industrial RTOS"
+    },
+    {
+      "jd_skill": "SoM integration (NVIDIA Orin)",
+      "you_have": "NVIDIA Jetson experience; no NVIDIA Orin experience"
+    }
+  ],
+  "missing_skills": [
+    "Functional safety / IEC 61508 standards",
+    "Safety-critical hardware design with redundant/fail-safe certification",
+    "Ethernet protocol expertise",
+    "CAN protocol expertise",
+    "Multi-layer high-speed PCB design for SoMs (e.g., NVIDIA Orin)",
+    "Signal integrity (SI) analysis and modeling",
+    "Power integrity (PI) analysis and modeling",
+    "Power trees, PMICs, and power sequencing design",
+    "NVMe / eMMC storage integration",
+    "High-speed interconnect design (beyond UART/I2C/SPI)",
+    "DVT / PVT validation planning and execution",
+    "FCC / CE regulatory compliance and testing",
+    "Intel compute platforms specifically",
+    "Formal production-release / mass-production hardware lifecycle ownership at scale"
+  ],
+  "top_ats_keywords": [
+    "Functional Safety",
+    "IEC 61508",
+    "NVIDIA Jetson",
+    "Orin",
+    "Embedded Systems",
+    "RTOS",
+    "Multi-core",
+    "Ethernet",
+    "CAN",
+    "Signal Integrity",
+    "Power Integrity",
+    "PCB",
+    "PMIC",
+    "Power Sequencing",
+    "NVMe",
+    "eMMC",
+    "DVT",
+    "PVT",
+    "FCC",
+    "CE",
+    "Sensor Bandwidth",
+    "Robotics Hardware",
+    "System Architecture",
+    "Safety-Critical Design"
+  ],
+  "required_skills": [
+    "Functional safety (IEC 61508)",
+    "Safety-critical hardware design",
+    "NVIDIA Jetson / embedded compute platforms",
+    "RTOS",
+    "Multi-core processing",
+    "Ethernet / CAN protocols",
+    "Sensor bandwidth management",
+    "High-speed data transfer",
+    "PCB / SI / PI analysis",
+    "Power trees / PMICs / power sequencing",
+    "NVMe / eMMC storage / high-speed interconnects",
+    "DVT / PVT validation / FCC / CE compliance",
+    "System architecture for robotics compute"
+  ],
+  "preferred_skills": [
+    "Humanoid robotics",
+    "Master's or Ph.D. in Electrical / Computer Engineering"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Architect next-generation compute solution for humanoid robot",
+    "Design for functional safety with redundant/fail-safe systems",
+    "Integrate SoMs (e.g., NVIDIA Orin) via multi-layer high-speed PCBs",
+    "Lead SI/PI analysis and validation",
+    "Optimize compute stack for real-time performance, sensor bandwidth, thermal management",
+    "Own lifecycle from concept through production release and support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

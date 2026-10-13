@@ -1,0 +1,92 @@
+{
+  "company": "Fortastra",
+  "company_slug": "fortastra",
+  "role": "Technical Recruiter",
+  "job_slug": "technical-recruiter",
+  "match_pct": 6.2,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 7,
+    "jd_ask_size": 8,
+    "req_cov": 0.2,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "technical recruiting experience",
+      "you_have": "none - candidate has no recruiting/HR skills"
+    }
+  ],
+  "missing_skills": [
+    "full-cycle technical recruiting experience",
+    "LinkedIn Recruiter sourcing",
+    "Greenhouse / ATS experience",
+    "aerospace/defense recruiting domain knowledge",
+    "recruiting process ownership (pipelines, interviews, offers)",
+    "communication/organizational skills in recruiting context",
+    "2+ years professional recruiting experience"
+  ],
+  "top_ats_keywords": [
+    "technical recruiter",
+    "full-cycle recruiting",
+    "sourcing",
+    "LinkedIn Recruiter",
+    "Greenhouse",
+    "ATS",
+    "aerospace",
+    "defense",
+    "robotics",
+    "autonomy",
+    "startup"
+  ],
+  "required_skills": [
+    "full-cycle technical recruiting",
+    "sourcing",
+    "LinkedIn Recruiter",
+    "Greenhouse/ATS",
+    "technical recruiting in aerospace/defense/robotics/autonomy"
+  ],
+  "preferred_skills": [
+    "referrals",
+    "networking",
+    "direct outreach",
+    "multiple searches",
+    "fast-paced startup",
+    "high-accountability startup"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Own full-cycle recruiting from sourcing through offer acceptance",
+    "Develop and execute sourcing strategies",
+    "Build and maintain candidate pipelines",
+    "Partner with hiring managers on job requirements and interview plans",
+    "Coordinate interviews, offers, and recruiting process improvements"
+  ],
+  "role_category": "other",
+  "location": "Torrance, CA",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "U.S. Citizenship required \u2014 category (c) US citizenship required. JD states: 'U.S. Citizenship required' under Requirements and '5 days on-site in Torrance, CA'. Candidate is F-1 OPT and requires sponsorship long term; does not hold U.S. citizenship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

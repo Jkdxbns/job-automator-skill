@@ -1,0 +1,127 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "SoC Architect",
+  "job_slug": "soc-architect",
+  "match_pct": 6.9,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 26,
+    "jd_ask_size": 29,
+    "req_cov": 0.143,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "AI"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Power/performance optimization",
+      "you_have": "Kernel optimization"
+    },
+    {
+      "jd_skill": "Memory architectures",
+      "you_have": "Memory coalescing"
+    }
+  ],
+  "missing_skills": [
+    "System-level design",
+    "SoC architecture",
+    "System architecture",
+    "IO protocols",
+    "UCIe",
+    "PCIe",
+    "Ethernet",
+    "CXL",
+    "CHI",
+    "Data movement",
+    "Interconnect design",
+    "Performance modeling",
+    "Architectural simulation",
+    "Cross-functional collaboration",
+    "Coherency protocols",
+    "Software-hardware co-design",
+    "DDR",
+    "HBM",
+    "Cache hierarchies",
+    "Chiplet architectures",
+    "Advanced packaging",
+    "2.5D/3D packaging",
+    "HPC",
+    "Networking",
+    "UALink",
+    "ESUN"
+  ],
+  "top_ats_keywords": [
+    "SoC architecture",
+    "System architecture",
+    "AI",
+    "HPC",
+    "Networking",
+    "UCIe",
+    "PCIe",
+    "Ethernet",
+    "CXL",
+    "CHI",
+    "Performance modeling",
+    "Interconnect design",
+    "Data movement",
+    "Chiplet architectures",
+    "2.5D/3D packaging"
+  ],
+  "required_skills": [
+    "System-level design",
+    "SoC architecture",
+    "IO protocols (UCIe, PCIe, Ethernet)",
+    "Data movement and interconnect design",
+    "Performance modeling",
+    "Architectural simulation",
+    "Cross-functional collaboration"
+  ],
+  "preferred_skills": [
+    "Coherency protocols (CXL, CHI)",
+    "Power/performance optimization",
+    "Software-hardware co-design",
+    "Memory architectures (DDR, HBM, cache hierarchies)",
+    "Chiplet architectures",
+    "Advanced packaging (2.5D/3D)"
+  ],
+  "required_experience_years": 18,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define system architecture for complex SoCs, including IO, compute, interconnect and subsystems",
+    "Drive architecture for scalable and modular designs, including chiplet-based systems (UCIe)",
+    "Architect high-performance data movement across IO interfaces (PCIe / UCIe / CXL / UALink / ESUN)",
+    "Collaborate with design and DV teams to ensure architectural feasibility and efficient implementation",
+    "Develop performance models and simulations to validate architecture choices",
+    "Drive trade-offs across Performance, Power, Area and Cost",
+    "Work closely with customers and software teams to align architecture with real-world workloads",
+    "Influence long-term roadmap and technology direction",
+    "Define system-level verification and validation strategies"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA / Remote (United States)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

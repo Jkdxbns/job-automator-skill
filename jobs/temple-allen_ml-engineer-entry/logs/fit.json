@@ -1,0 +1,145 @@
+{
+  "company": "Temple Allen Industries",
+  "company_slug": "temple-allen",
+  "role": "Entry Level Machine Learning Engineer",
+  "job_slug": "ml-engineer-entry",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 29,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Modern C++",
+    "Computer vision / robotics / real-time perception experience",
+    "Training, testing, validating, deploying ML models",
+    "ROS and ROS2",
+    "Neural networks, CNNs, object detection, classification",
+    "Semantic/instance segmentation (BraTS medical segmentation, Dice)",
+    "Model architecture analysis (quantization/pruning work)",
+    "Model optimization (pruning, quantization, LLM.int8, 8-bit)",
+    "Real-time inference optimization for robotics (Jetson + TensorRT)",
+    "TensorRT",
+    "ONNX",
+    "TorchScript",
+    "Edge/embedded/GPU/robotics deployment (Jetson, STM32, Edge AI)",
+    "Benchmarking (FPS, VRAM, pynvml profiling)",
+    "RGB/depth images, segmentation masks (ZoeDepth, BraTS)",
+    "Data handling/preprocessing libraries",
+    "CUDA / GPU programming",
+    "Software dev best practices (Git, GitLab)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NVIDIA Isaac Sim",
+      "you_have": "CARLA simulator (robotics sim, not Isaac Sim)"
+    },
+    {
+      "jd_skill": "Simulated environment configuration",
+      "you_have": "CARLA environment/scenario config (Town02)"
+    },
+    {
+      "jd_skill": "Synthetic dataset generation from simulation",
+      "you_have": "CARLA-generated dataset work"
+    },
+    {
+      "jd_skill": "Distributed training, GPU cloud instances, containerized ML pipelines",
+      "you_have": "SLURM-managed HPC cluster training (not cloud/containers)"
+    }
+  ],
+  "missing_skills": [
+    "Model deployment format: OpenVINO",
+    "Domain randomization",
+    "Sim-vs-real performance comparison",
+    "Cloud ML workflows (AWS/Azure/GCP)",
+    "AWS EC2, S3, Lambda, SageMaker",
+    "Large-scale dataset management in cloud",
+    "Docker / containerization"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "ROS2",
+    "CNN",
+    "TensorRT",
+    "ONNX",
+    "TorchScript",
+    "OpenVINO",
+    "Isaac Sim",
+    "AWS",
+    "SageMaker",
+    "Docker",
+    "CUDA",
+    "quantization",
+    "pruning",
+    "domain randomization"
+  ],
+  "required_skills": [
+    "Modern C++",
+    "Computer vision / robotics / real-time perception experience",
+    "Training, testing, validating, deploying ML models",
+    "ROS and ROS2",
+    "Neural networks, CNNs, semantic segmentation, instance segmentation, object detection, classification",
+    "Model architecture analysis (layers, feature extractors, heads, params vs latency/memory/accuracy)",
+    "Model optimization (pruning, quantization, layer reduction, architecture tuning)",
+    "Real-time inference optimization for robotics",
+    "Model deployment formats: TensorRT, ONNX, TorchScript, OpenVINO",
+    "Edge/embedded/GPU/robotics deployment",
+    "Benchmarking (inference time, FPS, latency, memory, GPU/CPU utilization, accuracy)",
+    "NVIDIA Isaac Sim or similar robotics simulation platform",
+    "Simulated environment configuration (lighting, camera placement, sensor models, textures)",
+    "Synthetic dataset generation from simulation",
+    "RGB/depth images, segmentation masks, annotation outputs",
+    "Domain randomization",
+    "Sim-vs-real performance comparison",
+    "Cloud ML workflows (AWS/Azure/GCP)",
+    "AWS EC2, S3, Lambda, SageMaker",
+    "Large-scale dataset management in cloud",
+    "Distributed training, GPU cloud instances, containerized ML pipelines",
+    "Docker",
+    "Data handling/preprocessing libraries",
+    "Software dev best practices (version control, testing, code review, documentation)"
+  ],
+  "preferred_skills": [
+    "CUDA / GPU programming"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Train, optimize, and deploy ML models for robotic system (EMMA)",
+    "Analyze and optimize model architectures for inference speed",
+    "Convert models to ONNX/TensorRT/TorchScript/OpenVINO",
+    "Benchmark models pre/post optimization",
+    "Build and maintain Isaac Sim simulated environments with domain randomization",
+    "Generate synthetic datasets (RGB/depth/segmentation masks)",
+    "Compare sim vs real-world model performance",
+    "Build cloud ML pipelines (AWS S3/EC2/Lambda/SageMaker)",
+    "Mentor junior engineers, lead dataset/annotation work",
+    "Participate in code reviews"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Rockville, MD (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

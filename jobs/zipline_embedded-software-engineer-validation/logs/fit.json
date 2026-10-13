@@ -1,0 +1,65 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "Embedded Software Engineer, Validation",
+  "job_slug": "embedded-software-engineer-validation",
+  "match_pct": 60.0,
+  "missing_skills": [
+    "Rust",
+    "automated test framework / validation infrastructure design",
+    "IPC (interprocess communication)",
+    "concurrency (explicit systems-level)",
+    "OTA update systems",
+    "observability/telemetry infrastructure",
+    "stress/endurance/fault-injection test suites",
+    "test orchestration/dashboards/reporting tooling"
+  ],
+  "adjacent_skills": [
+    "embedded Linux (have: Jetson/NVIDIA Linux platform experience, not deep embedded Linux systems work)",
+    "networking (have: WebSocket/TCP, not systems-level networking)",
+    "distributed/multi-process systems (have: MPI, SLURM-managed distributed training)",
+    "HIL/simulation-based validation (have: CARLA simulation for autonomous systems, not HIL test infra)",
+    "CI/CD for embedded (have: GitLab exposure, not CI pipeline authorship)"
+  ],
+  "top_ats_keywords": [
+    "Rust",
+    "Python",
+    "embedded Linux",
+    "IPC",
+    "concurrency",
+    "networking",
+    "distributed systems",
+    "HIL",
+    "hardware-in-the-loop",
+    "simulation",
+    "OTA",
+    "observability",
+    "telemetry",
+    "CI/CD",
+    "fault injection",
+    "test automation",
+    "validation infrastructure",
+    "embedded software"
+  ],
+  "key_responsibilities": [
+    "Design and build simulation and HIL test infrastructure for embedded platform services",
+    "Develop automated test scenarios for IPC, logging/observability, comms bridges, OTA, telemetry",
+    "Build stress, endurance, regression, and fault-injection test suites for distributed embedded systems",
+    "Build tooling for automated test orchestration, execution, reporting, dashboards",
+    "Contribute to CI pipelines and automated validation workflows",
+    "Investigate failures across simulation, HIL, and production environments",
+    "Occasionally contribute improvements to production embedded software"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-16",
+    "channel": "application",
+    "notes": "Form rejection (Embedded Software Engineer, Validation). No feedback."
+  }
+}

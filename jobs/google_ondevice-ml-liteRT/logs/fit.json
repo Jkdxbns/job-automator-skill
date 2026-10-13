@@ -1,0 +1,49 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, On-Device Machine Learning",
+  "job_slug": "ondevice-ml-liteRT",
+  "match_pct": 88.9,
+  "missing_skills": [
+    "Mobile development (Android/iOS) \u2014 stated as a minimum qualification",
+    "JAX",
+    "ExecuTorch",
+    "Core ML",
+    "SNPE/QNN (Qualcomm NPU tooling)",
+    "NPU acceleration (profile's optimization work is GPU/CUDA, not NPU)"
+  ],
+  "adjacent_skills": [
+    "Software development experience (2 yrs) \u2192 have via 7 internships + M.S., not full-time roles",
+    "GenAI model architectures for on-device execution \u2192 has Transformer/LLM quantization work (GPT-2, TinyLlama, LLM.int8), not specifically on-device GenAI",
+    "Leading ML projects on-device (Android/iOS/web/embedded) \u2192 strong on embedded (Jetson, STM32), no Android/iOS/web"
+  ],
+  "top_ats_keywords": [
+    "LiteRT",
+    "TensorFlow Lite",
+    "TFLite",
+    "on-device",
+    "model deployment",
+    "model evaluation",
+    "runtime",
+    "performance tuning",
+    "quantization",
+    "PyTorch",
+    "TensorFlow",
+    "GPU",
+    "NPU",
+    "kernel optimization",
+    "edge AI"
+  ],
+  "key_responsibilities": [
+    "Develop LiteRT, Google's on-device AI framework",
+    "Enable on-device deployment of models like Gemini Nano and Gemma across GPU/TPU/NPU/CPU",
+    "Improve on-device model inference performance via model representation, runtime, and kernel optimizations",
+    "Design/code reviews with peers and stakeholders"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

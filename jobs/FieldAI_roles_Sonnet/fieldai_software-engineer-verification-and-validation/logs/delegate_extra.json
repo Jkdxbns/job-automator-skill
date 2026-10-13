@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "ROS2 robotics and perception pipelines (YOLO, MoveIt, kinematics, visual servoing) directly relevant to robot behavior validation",
+    "Embedded C/C++ + FreeRTOS + STM32 + sensor integration (UART/I2C/SPI, ToF) relevant to hardware/sensing boundary debugging",
+    "Edge AI deployment (Jetson + TensorRT + quantization + faster-whisper) relevant to compute/sensing/autonomy validation",
+    "Full-stack system integration experience (Flutter + Flask + Jetson + Arduino + sensors) demonstrates end-to-end system thinking",
+    "Metric-driven evaluation experience (mAP, WER, PSNR, speedup %s) aligns with quantitative V&V and performance metrics",
+    "CUDA/GPU optimization and profiling (pynvml) supports telemetry/debugging of compute-bound autonomy"
+  ],
+  "real_gaps": [
+    "No full-time industry experience; 0 years professional V&V experience",
+    "No production-scale test infrastructure (simulation/HIL frameworks, continuously running regression, automated dashboards) \u2014 all testing is project/lab-level",
+    "No formal release-readiness or qualification process experience at company scale",
+    "No enterprise field-deployment validation across multiple robot platforms/environments",
+    "No cloud/enterprise infrastructure experience (Docker/k3s/CI-CD only via personal projects)"
+  ],
+  "reasoning": "This is a new-grad (0 full-time years, 7 internships/research) applying to an entry-level Software Engineer V&V role at Field AI (robotics/autonomy company, Irvine CA). The role is effectively entry-level (no required years stated) and aligns strongly with the candidate's robotics/embedded/edge-AI background. Key strengths: ROS2 robotics, embedded C, Jetson/TensorRT deployment, full-stack robot integration, metric-driven ML optimization, and telemetry/debugging experience \u2014 all directly map to V&V responsibilities for autonomous robots. No sponsorship, ITAR, clearance, or citizenship constraints appear in the JD. No senior/staff/lead title mismatch. The main real gap is production-scale V&V/test infrastructure experience (simulation frameworks, continuous regression, scalable telemetry dashboards); the JD asks for this but does not state senior-level years. Given entry-level framing and strong domain overlap, this is a viable application with the gap being experience depth rather than fundamental skill mismatch.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/e4504581-90cc-45a0-8084-f04f8145c75d",
+  "team": "Systems Engineering",
+  "location": "Irvine, CA"
+}

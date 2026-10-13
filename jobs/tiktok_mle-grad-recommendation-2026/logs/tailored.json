@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "company": "TikTok",
+    "role": "Machine Learning Engineer Graduate (TikTok Recommendation) - 2026 Start",
+    "company_slug": "tiktok",
+    "job_slug": "mle-grad-recommendation-2026"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience building end-to-end machine learning systems in PyTorch and TensorFlow across 7 internships spanning computer vision, speech recognition, and document understanding. Proficient in C++/Python with a track record of training, optimizing, and deploying deep learning models for production workloads.",
+  "skills": {
+    "Languages": ["Python", "C/C++", "CUDA C++", "Bash"],
+    "ML / Deep Learning": ["PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers", "Quantization (8-bit)", "Structured Pruning"],
+    "CV / NLP / Speech": ["OpenCV", "YOLO", "faster-whisper", "ASR Pipelines", "BPE Tokenization"],
+    "HPC / Systems": ["CUDA", "MPI", "SLURM", "Kernel Optimization"],
+    "Tools": ["Linux", "Git", "Flask", "CMake", "JupyterHub"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT transformer on a custom dataset; improved validation accuracy from 55% to 93% via preprocessing improvements and model tuning.",
+        "Built end-to-end preprocessing and training pipelines in PyTorch to standardize training and evaluation workflows."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8 on a custom curated dataset for health-level classification; improved accuracy from 78% to 97.5% and deployed model in a consumer mobile app.",
+        "Managed full model lifecycle from data collection and annotation through training, evaluation, and production deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a data pipeline for BraTS 2020 multi-modal MRI with augmentation and batch-loading for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, ResNet-50 backbones; evaluated on Dice Score and IoU.",
+        "Led cross-cultural team of 7 as sole ML-experienced member; delivered full pipeline within 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built TikToken-based tokenizer wrapper and custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Achieved 15% WER on Hindi-English dataset; built end-to-end ASR with 80-channel mel encoder and 6-block causal Transformer decoder trained on 1,000 samples.",
+        "Designed custom BPE tokenizer with Cython-accelerated backend achieving 4–5.5× speedup over pure Python."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via structured pruning and 8-bit quantization; benchmarked on HellaSwag, GSM8K, and ARC.",
+        "Quantified accuracy-efficiency trade-offs: ~7% accuracy drop, +6.3 perplexity increase under full compression."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing and preallocated buffers; achieved ~35% speedup (49.2ms vs 73.3ms naive GPU) with identical accuracy.",
+        "Delivered 1.5–2× speedup in convolution operations through efficient global memory utilization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

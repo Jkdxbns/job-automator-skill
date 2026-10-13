@@ -1,0 +1,125 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer",
+  "job_slug": "software-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 11,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Linux",
+    "Git/GitLab",
+    "OOP design",
+    "AI/ML (PyTorch, quantization, model deployment)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "computer networking",
+      "you_have": "Static IP / network configuration, WebSocket comms"
+    },
+    {
+      "jd_skill": "Container principles",
+      "you_have": "environment-based secrets/config separation, systemd service management"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Kubernetes",
+    "DevOps pipeline experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C",
+    "C++",
+    "Linux",
+    "AI",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "networking",
+    "OOP"
+  ],
+  "required_skills": [
+    "Algorithms and data structures",
+    "Python",
+    "C",
+    "C++",
+    "OOP design",
+    "Linux dev environment",
+    "operating systems",
+    "computer networking",
+    "AI concepts",
+    "container principles",
+    "Git",
+    "Docker/Kubernetes"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Full SDLC for embedded-to-cloud-native evolution of Subscriber Services",
+    "Cross-functional collaboration",
+    "AI-assisted development"
+  ],
+  "role_category": "ml_systems",
+  "location": "Westford, Massachusetts",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 74,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python breadth well beyond scripting: Flask-SocketIO edge server, PyQt/Matplotlib GUI, Gemini API integration, and multiple ML training pipelines (COFFIN capstone, SLM compression, GPT-2 from scratch).",
+      "C/C++ depth from CUDA kernel work and STM32/Arduino bare-metal firmware \u2014 strong systems-level programming, not just application code.",
+      "Real Linux administration depth from the COFFIN capstone: systemd service deployment (auto-restart, non-root isolation), static IP networking, environment-based secrets separation \u2014 this is genuine ops/production-adjacent Linux experience.",
+      "AI/ML depth (TensorRT optimization, Gemini intent classification, 8-bit quantization) substantially exceeds the JD's baseline ask of 'understanding of AI concepts and tools.'",
+      "OOP design evidenced by the Frame Simulator project's decoupled module architecture and mix-in pattern, not just coursework."
+    ],
+    "real_gaps": [
+      "Zero Docker or Kubernetes experience anywhere in the profile \u2014 explicitly named twice in the JD ('container principles and construction', 'Dev-ops with Docker or Kubernetes').",
+      "No demonstrated formal algorithms/data-structures problem-solving track record (no competitive programming or DSA-focused projects).",
+      "No telecom/service-provider networking domain exposure \u2014 this team builds Subscriber Management for regional/core networks, a specialized domain distinct from the WebSocket/static-IP networking Justin has done."
+    ],
+    "overstated_by_keywords": [
+      "OOP design was marked 'have' but the evidence is a single hobby desktop app, not a track record across multiple systems."
+    ],
+    "understated_by_keywords": [
+      "The keyword pass just checked 'AI concepts' as a box; the actual depth (TensorRT 5.2x inference speedup, quantization trade-off analysis, Gemini integration) is well beyond what this JD line item asks for.",
+      "Linux systemd service deployment and networking configuration experience is real production-adjacent ops work the keyword pass undersold as generic 'Linux'."
+    ],
+    "screening_gaps": [
+      "Zero Docker/Kubernetes/container experience \u2014 explicitly named twice in the JD with nothing in the profile to point to.",
+      "No evidence of formal algorithms/data-structures competence \u2014 the JD's first listed requirement.",
+      "No telecom/service-provider networking domain background (Subscriber Management), distinct from the generic networking Justin has done."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core language, Linux, and AI/ML depth are strong and well-evidenced, making this a genuinely good fit for an entry-level role. The real risk is the explicit Docker/Kubernetes ask, which has zero backing anywhere in the profile and would likely surface in a technical screen.",
+    "calibration_delta": -14.0
+  }
+}

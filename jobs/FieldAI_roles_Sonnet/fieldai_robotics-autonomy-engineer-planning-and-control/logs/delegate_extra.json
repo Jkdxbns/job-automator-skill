@@ -1,0 +1,22 @@
+{
+  "strengths": [
+    "Direct match on edge AI deployment (TensorRT-optimized YOLO on Jetson, 5.2x speedup)",
+    "Embedded systems depth: STM32 bare-metal C, FreeRTOS, real-time timer/ADC/interrupt systems",
+    "CUDA/GPU programming (custom CUDA C++ kernels, memory coalescing, 35% speedup)",
+    "ROS/ROS2 robotics middleware with real hardware integration (MoveIt, RViz, DH/kinematics)",
+    "Perception pipeline experience: YOLO object detection (83% mAP@50), OpenCV, multi-sensor (ToF, I2C mux, UART, Bluetooth)",
+    "ML model optimization and fine-tuning: quantization (8-bit, ~55% VRAM reduction), ASR pipeline (<1% loss), OCR fine-tuning (55%->93%)",
+    "Systems programming in Python/C/C++ with real sensor integration"
+  ],
+  "real_gaps": [
+    "0 years full-time industry experience (new-grad profile; 7 internships/research only)",
+    "No professional-scale field deployment experience (only academic/personal projects)",
+    "No explicit safety/explainable-AI or functional-safety engineering background (no ISO 26262 or similar)",
+    "No production-scale distributed autonomy system experience at company scale",
+    "No demonstrated long-term maintenance/deployment of globally-deployed robot fleets"
+  ],
+  "reasoning": "Strong technical alignment in the core hard skills demanded: robotics autonomy/planning (ROS, kinematics, MoveIt), embedded edge AI (Jetson+TensorRT+YOLO), CUDA programming, embedded bare-metal C (STM32/FreeRTOS), perception (YOLO/OpenCV), sensor integration, and ML optimization. The JD does not state an explicit minimum experience year requirement or require clearance/sponsorship exclusions, and the title 'Engineer - Planning and Control' does not clearly signal senior/staff (though the team context implies high-caliber work). No hard blocker triggered: no ITAR, no citizenship requirement, no clearance, no 'US-person-only' language. The fully-onsite Mission Viejo, CA requirement conflicts with current Arlington, TX location, but candidate states willingness to relocate, so no location blocker. Sponsorship status (F-1 OPT, requires sponsorship long-term) is not mentioned in JD \u2014 not a blocker since JD doesn't prohibit it. Key real gaps are scale/professional-context: no full-time experience, no professional-scale field deployment (only personal/hobby hardware projects), and no explicit safety/explainability engineering. This is a good-fit new-grad candidate for the technical stack, with the primary risk being scale/production-deployment maturity rather than skill absence.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/259708a4-dd2b-4c23-b300-f81fec383541",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

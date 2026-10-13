@@ -1,0 +1,129 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Senior ML Ops Engineer (Machine Learning Infrastructure)",
+  "job_slug": "senior-ml-ops-engineer-machine-learning-infrastruc",
+  "match_pct": 52.6,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 19,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python / PyTorch programming",
+    "CUDA / GPU kernel development",
+    "Edge AI deployment (TensorRT + Jetson)",
+    "Embedded C / bare-metal (STM32)",
+    "ROS2 / robotics perception",
+    "ML optimization / quantization",
+    "Computer vision (YOLO / OpenCV)",
+    "Transformer / deep learning exposure"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "MLOps / ML infrastructure and pipelines",
+      "you_have": "Edge AI deployment pipelines (TensorRT + Jetson)"
+    },
+    {
+      "jd_skill": "Distributed training (PyTorch DDP / Ray / Horovod)",
+      "you_have": "CUDA + PyTorch programming experience"
+    },
+    {
+      "jd_skill": "Real-time ML / batch inference / autonomous robotics systems",
+      "you_have": "ROS2 robotics + Edge AI real-time inference"
+    },
+    {
+      "jd_skill": "Computer vision / CNN architectures",
+      "you_have": "YOLO / OpenCV vision detection pipelines"
+    }
+  ],
+  "missing_skills": [
+    "MLflow, Kubeflow, SageMaker, Airflow, Metaflow (no MLOps tool keywords in list)",
+    "AWS, GCP, Azure (no cloud platform keywords in list; no Docker/Kubernetes)",
+    "CI/CD for ML workflows (only Git/git present; no CI/CD keywords)",
+    "Production-grade ML pipeline design / model governance / experiment tracking (no keywords backing production-scale ML infra)",
+    "Data ingestion and large-scale model deployment systems (no data-pipeline or deployment-platform keywords)",
+    "5+ years large-scale systems experience and 2+ years ML infrastructure (experience gap; candidate is new-grad with 0 full-time years)",
+    "Batch inference at production organization scale (Edge AI is device-scale, not org-scale)"
+  ],
+  "top_ats_keywords": [
+    "MLOps",
+    "ML infrastructure",
+    "ML pipeline",
+    "distributed training",
+    "inference",
+    "CI/CD",
+    "experiment tracking",
+    "MLflow",
+    "Kubeflow",
+    "SageMaker",
+    "Airflow",
+    "AWS",
+    "GCP",
+    "cloud",
+    "Python",
+    "Git",
+    "PyTorch",
+    "CNN",
+    "RNN",
+    "Transformer",
+    "robotics",
+    "autonomous vehicles",
+    "perception",
+    "computer vision",
+    "real-time ML",
+    "batch inference"
+  ],
+  "required_skills": [
+    "ML infrastructure / MLOps (production-grade ML pipelines, automated data/training/deployment/monitoring)",
+    "Cloud platforms (AWS, GCP, Azure) for ML architectures",
+    "Python, Git, system design, software engineering fundamentals at scale",
+    "MLOps tools (MLflow, Kubeflow, SageMaker, Airflow, Metaflow)",
+    "ML lifecycle: data ingestion, training, evaluation, packaging, deployment",
+    "CI/CD practices applied to ML workflows",
+    "Distributed training and scalable inference infrastructure (CPU/GPU-aware)",
+    "5+ years building large-scale reliable systems; 2+ years in ML infrastructure"
+  ],
+  "preferred_skills": [
+    "Deep learning architectures (CNN, RNN, Transformers) and computer vision",
+    "Distributed training tools (PyTorch DDP, Horovod, Ray)",
+    "Real-time ML systems and batch inference with CPU/GPU orchestration",
+    "Autonomous vehicles, robotics, or real-time ML-driven systems experience"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/implement MLOps solutions: automated pipelines for data management, model training, deployment, and monitoring",
+    "Architect/deploy/manage scalable ML infrastructure for distributed training and inference",
+    "Collaborate with ML engineers on data/model/deployment strategy",
+    "Build cloud-based systems (AWS/GCP) optimized for ML workloads in R&D and production",
+    "Build scalable ML infrastructure supporting CI/CD, experiment management, and model/dataset governance"
+  ],
+  "role_category": "ml_systems",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

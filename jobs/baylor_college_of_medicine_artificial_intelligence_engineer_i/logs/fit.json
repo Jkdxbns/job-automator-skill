@@ -1,0 +1,107 @@
+{
+  "company": "Baylor College of Medicine",
+  "company_slug": "baylor_college_of_medicine",
+  "role": "Artificial Intelligence Engineer I",
+  "job_slug": "artificial_intelligence_engineer_i",
+  "job_url": "https://www.linkedin.com/jobs/view/4437345211/",
+  "location": "Houston, TX",
+  "match_pct": 100,
+  "missing_skills": [
+    "genomics data processing",
+    "bioinformatics pipelines",
+    "clinical informatics",
+    "RNA-seq",
+    "whole genome/exome sequencing",
+    "proteomics",
+    "transcriptomics",
+    "Epic Clarity",
+    "REDCap",
+    "electronic health records (EHR)",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "healthcare regulatory standards (HIPAA/FDA)"
+  ],
+  "adjacent_skills": [
+    "NumPy",
+    "pandas",
+    "scikit-learn",
+    "production ML systems",
+    "NLP for clinical text",
+    "cloud deployment"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "NumPy",
+    "pandas",
+    "machine learning",
+    "deep learning",
+    "model evaluation",
+    "ML pipelines",
+    "ML model deployment",
+    "production systems",
+    "medical imaging",
+    "computer vision",
+    "natural language processing",
+    "Git",
+    "genomics",
+    "EHR",
+    "cloud platforms",
+    "Docker",
+    "multi-modal data"
+  ],
+  "key_responsibilities": [
+    "Design, build, and deploy ML models for healthcare applications with clinical researchers and physicians",
+    "Develop AI solutions across genomics analysis, EHR data mining, medical imaging interpretation, and diagnostic support",
+    "Support robust ML pipelines from research prototypes to production-ready clinical systems",
+    "Ensure models meet healthcare regulatory standards and perform in real-world clinical settings",
+    "Design scalable AI/ML architectures using TensorFlow, PyTorch, scikit-learn",
+    "Document data pipelines for Epic Clarity, REDCap, omics platforms, and medical imaging systems",
+    "Build infrastructure integrating multi-modal healthcare data (genomics, transcriptomics, proteomics, imaging, EHR)",
+    "Optimize model performance for deployment on cloud infrastructure and edge devices",
+    "Integrate AI models with existing healthcare IT systems and EHRs",
+    "Collaborate on research publications, conference presentations, and grant proposals"
+  ],
+  "role_category": "ml_systems",
+  "experience_level_stated": "entry",
+  "required_experience_years": 0,
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "clearance_required": false,
+  "remote_ok": false,
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Medical imaging is a real, not surface, match: BraTS 2020 multi-modal MRI pipeline with U-Net + VGG-16/19/ResNet-50 backbones, evaluated on Dice/IoU, with custom 3D volumetric batch-loading (Teesside Research Fellowship).",
+      "Healthcare document AI: fine-tuned DONUT on a custom medical billing dataset, 55% -> 93% validation accuracy (IIT Bombay). Closest thing to 'NLP for clinical text' in the profile.",
+      "Model deployment + optimization has genuine depth: TensorRT YOLO 5.2x speedup (56.7 -> 10.9 ms), ONNX/TFLite export for mobile, 8-bit quantization of TinyLlama at ~55% VRAM reduction with <1% accuracy loss.",
+      "Python / PyTorch / TensorFlow / Keras / HuggingFace backed by multiple independent projects, not one.",
+      "Git + GitLab + JupyterHub collaborative workflow used in a real lab setting (BARC)."
+    ],
+    "real_gaps": [
+      "Genomics / omics: zero evidence anywhere. No RNA-seq, WGS/WES, proteomics, transcriptomics, or bioinformatics pipelines. The JD lists genomics analysis as a core job duty, not just a preferred skill.",
+      "EHR / clinical data systems: zero. No Epic Clarity, no REDCap, no clinical informatics. Also named as a core duty.",
+      "Cloud + containers: zero. No AWS/Azure/GCP, no Docker, no Kubernetes. Profile's 'scale' experience is SLURM clusters and Jetson edge boards, and the JD explicitly names cloud infrastructure.",
+      "Production ML systems: deployments are research prototypes and edge demos. Nothing with monitoring, CI/CD, or on-call ownership. JD asks for 'research prototypes to production-ready systems in clinical environments'.",
+      "Healthcare regulatory standards (HIPAA, FDA SaMD): no exposure.",
+      "Classical/tabular ML: profile is deep learning end to end. EHR data mining is heavily gradient-boosting and survival-analysis territory, and there is no scikit-learn work to point at."
+    ],
+    "overstated_by_keywords": [
+      "NumPy / pandas / scikit-learn \u2014 counted Adjacent, but none appear anywhere in the profile. They are almost certainly used, but there is no bullet to prove it.",
+      "'ML model deployment and production systems' \u2014 the deployment half is strong; the production-systems half is not evidenced.",
+      "'supervised/unsupervised learning' \u2014 supervised is well covered; unsupervised has no backing at all.",
+      "'Medical imaging' \u2014 real, but it rests on a single 6-week research fellowship rather than sustained work."
+    ],
+    "reasoning": "Justin clears every stated minimum qualification comfortably and exceeds them (M.S. vs Bachelor's, seven internships vs 'no prior experience required'). The gap is domain, not capability: the JD's actual day-to-day is genomics, EHR pipelines, and cloud infrastructure, and he has none of the three. For an Engineer I posting that explicitly requires no experience, that gap is the expected on-the-job learning curve rather than a disqualifier, and his BraTS medical-imaging fellowship gives him one legitimate foothold in the clinical domain. The realistic risk here is competition, not qualification."
+  }
+}

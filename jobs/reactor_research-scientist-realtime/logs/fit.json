@@ -1,0 +1,87 @@
+{
+  "company": "Reactor",
+  "company_slug": "reactor",
+  "role": "Research Scientist, Real-Time Interactivity / Inference",
+  "job_slug": "research-scientist-realtime",
+  "match_pct": 31.8,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 1,
+    "missing_count": 7,
+    "jd_ask_size": 11,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "PyTorch",
+    "systems intuition (profiler, memory bandwidth)",
+    "CUDA/Triton/custom attention kernels"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "efficient attention / SSMs",
+      "you_have": "GPT-2 attention + CUDA kernels"
+    }
+  ],
+  "missing_skills": [
+    "PhD in ML/CV/graphics/robotics or equivalent",
+    "research in real-time/streaming video generation",
+    "autoregressive/causal video diffusion",
+    "diffusion distillation",
+    "publishing at top venues",
+    "real-time interactive generation systems",
+    "action conditioning"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "JAX",
+    "CUDA",
+    "Triton",
+    "diffusion",
+    "video generation",
+    "world models",
+    "distillation"
+  ],
+  "required_skills": [
+    "PhD in ML/CV/graphics/robotics or equivalent",
+    "research in real-time/streaming video generation",
+    "autoregressive/causal video diffusion",
+    "diffusion distillation",
+    "efficient attention / SSMs",
+    "PyTorch",
+    "systems intuition (profiler, memory bandwidth)",
+    "publishing at top venues"
+  ],
+  "preferred_skills": [
+    "real-time interactive generation systems",
+    "action conditioning",
+    "CUDA/Triton/custom attention kernels"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [],
+  "role_category": "ml_systems",
+  "location": "San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

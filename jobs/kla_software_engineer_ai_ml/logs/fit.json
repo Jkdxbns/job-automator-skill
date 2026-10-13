@@ -1,0 +1,121 @@
+{
+  "company": "KLA Corporation",
+  "company_slug": "kla",
+  "role": "Software Engineer (AI/ML)",
+  "job_slug": "software_engineer_ai_ml",
+  "req_id": "2639414",
+  "location": "Austin, TX",
+  "match_pct": 100.0,
+  "have_skills": [
+    "MS Computer Engineering",
+    "Python",
+    "C++/CUDA C++",
+    "Machine learning / deep learning development and deployment",
+    "Linux development environment",
+    "Analytical / problem solving"
+  ],
+  "adjacent_skills": [
+    "Data structures & algorithms",
+    "Software engineering principles / object-oriented design"
+  ],
+  "missing_skills": [
+    "Semiconductor manufacturing / metrology / inspection / process control domain",
+    "MLOps / cloud computing / distributed systems / large-scale data platforms",
+    "Productizing AI in a commercial software environment"
+  ],
+  "preferred_have": [
+    "Computer vision / image processing / machine vision",
+    "PyTorch",
+    "TensorFlow",
+    "CUDA / GPU acceleration"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "machine learning",
+    "deep learning",
+    "computer vision",
+    "image processing",
+    "PyTorch",
+    "TensorFlow",
+    "CUDA",
+    "GPU acceleration",
+    "parallel computing",
+    "Linux",
+    "data structures",
+    "algorithms",
+    "object-oriented design",
+    "model deployment",
+    "inference",
+    "model training",
+    "validation",
+    "scalability",
+    "algorithm development",
+    "edge computing",
+    "MLOps",
+    "cloud computing",
+    "distributed systems",
+    "semiconductor inspection",
+    "metrology",
+    "process control",
+    "machine vision",
+    "high-performance software"
+  ],
+  "key_responsibilities": [
+    "Design, develop, and deploy AI/ML algorithms for semiconductor inspection, metrology, and process control",
+    "Build and optimize ML models on large-scale engineering and manufacturing datasets",
+    "Develop software systems supporting model training, validation, deployment, and inference workflows",
+    "Collaborate with algorithm, software, application, and product teams to integrate AI into production systems",
+    "Evaluate emerging AI technologies and build proof-of-concept solutions",
+    "Improve performance and scalability via parallel computing, GPU acceleration, efficient architectures",
+    "Contribute to cloud-enabled and edge-computing AI solutions for semiconductor equipment platforms",
+    "Maintain software quality, reliability, and maintainability"
+  ],
+  "role_category": "ml_systems",
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "clearance_required": false,
+  "remote_ok": false,
+  "base_pay_range": "$97,600 - $165,900 annually",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Strong Fit",
+    "trigger": "user-requested (pasted JD, not URL-triggered)",
+    "strengths": [
+      "BARC capstone IS surface-defect metrology: image stitching (PSNR 65 to 86 w/ custom sym6+bior3.5 wavelet bank), ZoeDepth crack-depth profiling at +/-8% on microscopic metal surfaces. Direct structural analog to wafer inspection; mosaicing maps onto KLA MACH's field-level/cross-wafer analysis.",
+      "CUDA kernel work with real numbers: VGG16 conv layers replaced by hand-written CUDA C++ (memory coalescing, constant-memory weights, preallocated buffers), 49.2ms vs 73.3ms uncoalesced vs 77.5ms CPU. Directly answers 'GPU acceleration / parallel computing' responsibility.",
+      "Inference deployment pipeline: TensorRT YOLO 5.2x speedup (56.7 to 10.9ms, 17.6 to 92 FPS) on Jetson in COFFIN; ONNX/TFLite export at Tusk. Backs 'model training, validation, deployment, and inference workflows'.",
+      "CV breadth across task types: U-Net segmentation w/ VGG16/19 + ResNet-50 backbones evaluated on Dice/IoU (BraTS 3D), YOLOv8/YOLO11n detection, monocular depth, DONUT vision transformer. Defect classification/segmentation is the same toolkit.",
+      "Automated large-dataset generation: CARLA semantic-segmentation + raycast occlusion filtering produced ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation. Real answer to labeled-defect-data scarcity.",
+      "Parallel/HPC scaling with measurement discipline: MPI+SLURM, 10.49x and 30x speedups, load-imbalance characterized at 65% degradation."
+    ],
+    "real_gaps": [
+      "C++ depth is the weakest required qual. Profile C++ is CUDA kernels + Arduino two-link IK + bare-metal embedded C. No large OO C++ codebase, no modern C++ (STL, templates, RAII, smart pointers, concurrency). KLA inspection software is heavy production C++ and the JD explicitly pairs C++ with object-oriented design.",
+      "No production software ownership anywhere in the profile. Everything is internship, research, or personal scale. Zero signal on code review, testing, CI, release process, versioned APIs, or multi-engineer codebases. 'Software quality, reliability, maintainability' and 'productizing AI in a commercial software environment' have no backing.",
+      "DSA is a stated required qual with no supporting evidence in the profile at all; KLA screens on it.",
+      "MLOps and cloud are fully absent: no Docker, Kubernetes, AWS/GCP/Azure, MLflow/W&B, model registry, data versioning, or CI/CD. SLURM+MPI is HPC batch, a different discipline.",
+      "No semiconductor domain vocabulary: no wafer, litho, overlay, CD-SEM, optical inspection, yield, or fab exposure. BARC is analogous, not equivalent.",
+      "Process control implies SPC / control charts / run-to-run control. Nothing beyond Random Signal Analysis coursework touches this."
+    ],
+    "overstated_by_keywords": [
+      "TensorFlow: listed in skills but no experience or project bullet uses it. Everything is PyTorch. Undefendable if probed.",
+      "C++: keyword match counted it as a full Have; actual depth is CUDA C++ and embedded C, below the JD's implied production bar.",
+      "Data structures & algorithms: counted Adjacent off HPC coursework, but nothing in the profile evidences it.",
+      "Software engineering principles / OOD: CMake and Git are build tooling, not object-oriented design evidence.",
+      "Distributed systems: MPI/SLURM adjacency does not mean what this JD means (cloud/service-oriented large-scale data platforms)."
+    ],
+    "reasoning": "Every required qualification is genuinely met and the CV-plus-GPU-plus-inference core is stronger than the keyword scan showed, because the BARC microscopic surface inspection capstone is a real structural analog to semiconductor defect metrology that keyword matching flagged as a total domain miss. Holistic score lands below the 100% keyword read because three of the JD's required items (C++ at production depth, software engineering / OOD, DSA) rest on thin evidence, and the entire production-software and MLOps dimension is absent. For an explicitly 0-years MS requisition, none of that is disqualifying, but all three are exactly what the technical screen will probe."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-08-05",
+    "channel": "application",
+    "notes": "Form rejection (2639414): experience less closely aligned. No feedback."
+  }
+}

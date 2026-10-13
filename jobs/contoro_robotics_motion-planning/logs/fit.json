@@ -1,0 +1,106 @@
+{
+  "company": "Contoro Robotics",
+  "company_slug": "contoro_robotics",
+  "role": "Robotics Engineer, Motion Planning",
+  "job_slug": "motion-planning",
+  "match_pct": 69.4,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 3,
+    "jd_ask_size": 18,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS 2",
+    "MoveIt",
+    "Forward kinematics",
+    "Inverse kinematics",
+    "Controls/electrical background",
+    "Industrial manipulators (UR5e)",
+    "Perception integration",
+    "Physics simulation"
+  ],
+  "adjacent_skills": [
+    "Motion planning (trajectory generation but not RRT/CHOMP/TrajOpt)",
+    "Collision checking (implicit through MoveIt)",
+    "Velocity/acceleration limits (servo control, not motion-specific)",
+    "Time-parameterization (profiles but not Ruckig/TOPP-RA)",
+    "Occupancy maps (perception integration yes, not occupancy-specific)"
+  ],
+  "missing_skills": [
+    "RRT/CHOMP/TrajOpt motion planning algorithms",
+    "Production-scale warehouse robotics debugging",
+    "Occupancy map generation"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS",
+    "MoveIt",
+    "motion planning",
+    "manipulator kinematics",
+    "collision-free trajectories",
+    "hardware validation",
+    "real-time control"
+  ],
+  "key_responsibilities": [
+    "Production debugging across motion planning, perception, controls",
+    "Implement and tune MoveIt planners",
+    "Integrate perception outputs into planning scene",
+    "Hardware validation on real robots",
+    "Measure cycle-time and throughput impact"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 65,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "UR5e hardware experience (exact platform used in production)",
+      "ROS 2 + MoveIt native stack experience with real-world validation",
+      "COFFIN capstone demonstrates multi-layer system integration and debugging (11 failures resolved, 100% pick reliability)",
+      "Strong kinematics foundation (hand-computed DH parameters, validated against industry tools)",
+      "Embedded + controls background (servo PWM, feedback loops, constraint management)"
+    ],
+    "real_gaps": [
+      "No demonstrated RRT, CHOMP, or TrajOpt motion planning algorithm implementation",
+      "No production-scale warehouse robotics experience (COFFIN was 10 trials vs fleet throughput optimization)",
+      "Occupancy-aware planning integration not demonstrated (perception + planning separately)",
+      "Time-parameterization libraries (Ruckig, TOPP-RA) not used; only servo profiles"
+    ],
+    "overstated_by_keywords": [
+      "Motion planning (keyword match found trajectory generation, not specific algorithms)"
+    ],
+    "understated_by_keywords": [
+      "Multi-system debugging (COFFIN spans STT, perception, planning, controls, gripper — exactly the integration model this role requires)",
+      "Kinematics mastery (hand-computed and validated against ROS tools — foundation for all motion planning debugging)"
+    ],
+    "screening_gaps": [
+      "No motion planning algorithm implementation (RRT/CHOMP/TrajOpt are named requirements)",
+      "No production-scale warehouse robotics debugging experience",
+      "0 years full-time robotics industry experience (though JD welcomes recent graduates)"
+    ],
+    "recommend_apply": true,
+    "calibration_delta": 4.4,
+    "reasoning": "Strong junior candidate with solid hardware and robotics fundamentals. Real experience on UR5e and complex multi-layer integration (COFFIN capstone). The motion planning algorithms and warehouse domain knowledge are learnable, and the JD's explicit welcome of recent graduates signals they're prepared to onboard at this level. Core risk is production scale, but methodology and foundation are there."
+  },
+  "constraints": {
+    "location": "Austin, TX (on-site)",
+    "current_location": "Arlington, TX",
+    "relocation_feasible": true,
+    "sponsorship_mentioned": false,
+    "sponsorship_risk": "Startup (not on known sponsors list); verify H1B sponsorship willingness before applying"
+  },
+  "note": "JD explicitly states: 'Strong recent graduates with excellent fundamentals are encouraged to apply' — this is a direct signal they hire at your level"
+}

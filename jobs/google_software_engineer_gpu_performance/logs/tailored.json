@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Google",
+    "role": "Software Engineer, GPU Performance",
+    "company_slug": "google",
+    "job_slug": "software_engineer_gpu_performance"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with hands-on GPU performance engineering experience: custom CUDA C++ kernels using memory coalescing and constant memory that cut VGG16 inference from 77.5 ms to 49.2 ms. Profiled and optimized LLM inference on NVIDIA hardware, reducing TinyLlama VRAM ~55% through 8-bit quantization with under 1% accuracy loss. Coursework in High Performance Architecture and Multiple Processor Systems.",
+  "skills": {
+    "GPU & Performance Engineering": [
+      "CUDA",
+      "CUDA C++",
+      "Kernel optimization",
+      "Memory coalescing",
+      "Constant memory",
+      "pynvml Profiling",
+      "TensorRT",
+      "Performance benchmarking"
+    ],
+    "Languages": [
+      "C/C++",
+      "Python",
+      "Bash"
+    ],
+    "HPC / Parallel": [
+      "MPI",
+      "Parallel task scheduling",
+      "Speedup & scaling analysis"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Transformers & attention",
+      "Quantization (8-bit)",
+      "TorchScript",
+      "ONNX",
+      "Model evaluation"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "NVIDIA Jetson"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Optimized a high-resolution image-stitching pipeline using bit manipulation, averaging, and concurrency, raising PSNR from 65 to 86 over a homography-based baseline."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free vision-encoder-decoder transformer, in PyTorch using the HuggingFace VisionEncoderDecoder API with domain-specific special tokens and a resized decoder embedding layer.",
+        "Improved validation accuracy from 55% to 93% through preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for constrained-device inference."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Coalesced CUDA kernel ran at 49.2 ms vs 73.3 ms uncoalesced and 77.5 ms CPU TorchScript, a ~35% speedup over naive GPU with identical classification accuracy.",
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights and biases, and preallocated global buffers to eliminate per-layer allocation overhead."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Accelerator Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with under 1% accuracy degradation and +0.09 perplexity increase, characterizing the efficiency-versus-accuracy trade-off for accelerator deployment."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying; trained with a custom loop and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "TensorRT Inference Optimization (M.S. Capstone, RIT)",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO inference with TensorRT on NVIDIA Jetson for 5.2x speedup: 56.7 ms to 10.9 ms, 17.6 to 92 FPS versus eager PyTorch, integrated into a real-time visual servoing loop."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Achieved up to 30x speedup with static strip partitioning across 55 MPI processes on 5000x5000 pixel scenes; benchmarked four work-distribution strategies against unpredictable workloads."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Deep Learning",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

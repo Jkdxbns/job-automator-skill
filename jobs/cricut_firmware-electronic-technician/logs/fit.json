@@ -1,0 +1,181 @@
+{
+  "company": "Cricut",
+  "company_slug": "cricut",
+  "role": "Firmware/Electronic Technician",
+  "job_slug": "firmware-electronic-technician",
+  "match_pct": 46.2,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 11,
+    "jd_ask_size": 26,
+    "req_cov": 0.818,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "Python",
+    "Flutter",
+    "oscilloscope",
+    "logic analyzer",
+    "DMM",
+    "MCU low-level interfaces",
+    "UI design",
+    "breadboard prototyping"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "schematics",
+      "you_have": "PCB/EAGLE design"
+    },
+    {
+      "jd_skill": "test automation",
+      "you_have": "Python/Bash scripting"
+    },
+    {
+      "jd_skill": "embedded test benches",
+      "you_have": "STM32/Jetson hardware benchmarking"
+    },
+    {
+      "jd_skill": "command line apps",
+      "you_have": "Python/Bash tooling"
+    },
+    {
+      "jd_skill": "wireless testing",
+      "you_have": "Bluetooth/BLE"
+    },
+    {
+      "jd_skill": "circuit troubleshooting",
+      "you_have": "servo brown-out debug, multimeters"
+    }
+  ],
+  "missing_skills": [
+    "Dart",
+    "function generator",
+    "unit tests in C",
+    "test driven development",
+    "reliability testing",
+    "Microsoft Office",
+    "SMD soldering",
+    "QFP/QFN",
+    "BGA",
+    "shop tools",
+    "mechanical assembly"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "Python",
+    "Dart",
+    "Flutter",
+    "oscilloscope",
+    "logic analyzer",
+    "schematics",
+    "unit tests",
+    "test automation",
+    "embedded",
+    "wireless",
+    "soldering"
+  ],
+  "required_skills": [
+    "C",
+    "Python",
+    "Dart",
+    "Flutter",
+    "oscilloscope",
+    "logic analyzer",
+    "function generator",
+    "power supply",
+    "DMM",
+    "schematics",
+    "MCU low-level interfaces",
+    "unit tests in C",
+    "test automation",
+    "test driven development",
+    "embedded test benches",
+    "wireless testing",
+    "UI design",
+    "command line apps",
+    "breadboard prototyping",
+    "circuit troubleshooting",
+    "reliability testing",
+    "Microsoft Office"
+  ],
+  "preferred_skills": [
+    "SMD soldering",
+    "QFP/QFN",
+    "BGA",
+    "shop tools",
+    "mechanical assembly"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "test tools and benches",
+    "test automation",
+    "C unit tests",
+    "functional/reliability testing",
+    "prototype build and troubleshoot"
+  ],
+  "role_category": "embedded_systems",
+  "location": "South Jordan, UT",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4: GPIO, TIM2, ADC1, I2C1 driver, interrupt-driven sampling, verified in Proteus (STM32 Temperature Monitor); maps to 'low level functions and interfaces in MCUs'",
+      "Arduino Due quadrature-decoding ISR state machine, 15 kHz PWM, fail-safe motor-halt state machine (Robocon); real hardware interfacing and debugging",
+      "Flutter/Dart client with socket_io_client and record packages, 12 app versions (COFFIN); real app/UI depth, Dart is the language underneath",
+      "Systematic fault isolation: resolved 11 integration failures incl. servo brown-out, 100% pick reliability over 10/10 trials (COFFIN); closest evidence to troubleshooting and reliability testing",
+      "Python tooling: PyQt/Matplotlib live data-acquisition GUI at BARC, PySide6/VisPy Frame Simulator with DSL parser; matches test-tool and UI design asks",
+      "Hardware build: EAGLE single-layer PCBs fabricated, UART/I2C sensor links, ADXL345 + Pi + HC-05 glove prototype; breadboard and prototype work is plausible"
+    ],
+    "real_gaps": [
+      "No evidence of automated testing: no unit tests in C, no test-driven development, no CI test harness in firmware build",
+      "No documented hands-on bench-test role or reliability/functional test plans beyond one-off project trials",
+      "No SMD soldering (0201, QFP, QFN, BGA) or rework evidence; PCBs were single-layer through-hole style club boards",
+      "No function-generator, PSU or DMM-driven circuit debug stories despite oscilloscope/logic analyzer being listed as skills",
+      "No wireless RF test experience beyond Bluetooth HC-05 pairing",
+      "No mechanical assembly or shop-tool evidence beyond robot-club fabrication",
+      "Seniority note: JD wants 3 yrs embedded testing or associates + 2 yrs; role is technician-level, below an M.S. firmware engineering profile"
+    ],
+    "overstated_by_keywords": [
+      "oscilloscope / logic analyzer / DMM counted Have: listed as skills but no bullet shows them used to diagnose a fault",
+      "breadboard prototyping counted Have: implied by projects, never stated",
+      "MCU low-level interfaces counted Have: solid, but only one STM32 project and Arduino-class work, not production firmware"
+    ],
+    "understated_by_keywords": [
+      "Dart counted Missing: COFFIN Flutter app is Dart code (audio_service.dart, websocket_service.dart), so Dart is real working depth, pending authorship confirmation",
+      "test automation counted only Adjacent: COFFIN 10-trial pick benchmarking and Jetson/TensorRT latency profiling scripts are real measurement automation",
+      "command line apps counted only Adjacent: Bash/Python tooling and systemd/SLURM work support it"
+    ],
+    "screening_gaps": [
+      "No unit tests in C / test-driven development, the core of the 'write unit tests in the FW build system' duty",
+      "No SMD soldering or rework (0201, QFP, QFN) and no hands-on bench/prototype build record, which the technician role is built around",
+      "No professional embedded test experience (3 yrs requested); profile reads as engineer/researcher, not test technician"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core software side is backed (embedded C, Python tools, Flutter/Dart, troubleshooting), but the role's centre of gravity is bench testing, C unit testing and SMD soldering, none of which the profile evidences. Reasonable as a stretch with a short timeline, weak on the hands-on screens.",
+    "calibration_delta": -0.8
+  },
+  "semantic_pending": false
+}

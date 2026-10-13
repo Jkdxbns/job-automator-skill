@@ -1,0 +1,152 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Director of Safety Engineering, Robotics & Autonomous Systems",
+  "job_slug": "director-of-safety-engineering-robotics-autonomous-systems",
+  "match_pct": 22.2,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 6,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.1,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's degree in relevant engineering (Robotics, Systems, Mechanical, Electrical, Computer Engineering) (M.S. Computer Engineering, RIT (May 2026) \u2014 exceeds degree requirement)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "10+ years experience in robotics/autonomous systems/product safety/functional safety",
+      "you_have": "0 years full-time; 7 internships/research roles in ML, embedded, robotics (Voice-Controlled Robotic Arm, CARLA autonomous driving, ROS2 arm, embedded STM32, YOLO perception) \u2014 new-grad only"
+    },
+    {
+      "jd_skill": "System-level safety for complex electromechanical/software-driven products",
+      "you_have": "Voice-Controlled Robotic Arm (COFFIN capstone): multi-sensor integration (ToF, I2C mux, Arduino+Jetson), systemd auto-restart/non-root isolation, 100% pick reliability (10/10), resolved 11 integration failures \u2014 integration/reliability work but not formal safety engineering"
+    },
+    {
+      "jd_skill": "Deep understanding of real-world robotics deployment risks",
+      "you_have": "Voice-Controlled Robotic Arm (systemd deployment, static IP, reliability); CARLA autonomous driving (zero collisions Town02); Object Tracking Turret (FreeRTOS + UART + STM32 + multi-servo) \u2014 deployment exposure present but at student/project scale"
+    },
+    {
+      "jd_skill": "Experience with autonomous mobile robots, outdoor robotics, or defense-adjacent systems",
+      "you_have": "CARLA Autonomous Driving (semantic segmentation, YOLO11n + UFLD lane detection, zero collisions); ROS2 robotic arm (AL5B & UR5e, MoveIt/RViz) \u2014 autonomous/perception but indoor/simulated/mobile-at-scale not demonstrated"
+    },
+    {
+      "jd_skill": "Background in AI/ML-enabled systems and autonomy safety",
+      "you_have": "Deep Learning Intern (YOLOv8n, 83% mAP); AI/ML Intern (DONUT OCR 55%->93%); SLM Compression (8-bit quant, ~55% VRAM reduction); faster-whisper STT, TensorRT YOLO optimization (5.2x speedup) \u2014 strong ML/AI, not specifically autonomy safety"
+    },
+    {
+      "jd_skill": "Autonomous navigation / perception / planning / fault tolerance / degraded modes / fail-safe behaviors",
+      "you_have": "ROS2 MoveIt/RViz (AL5B, UR5e, DH tables, forward kinematics); YOLOv8 perception (83% mAP); faster-whisper STT + Gemini intent classification; systemd auto-restart; dual ToF sensors; resolved 11 integration failures \u2014 navigation/perception/fault-tolerance concepts at project scale, no formal safety architecture"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "Proven experience leading system-level safety for complex products (formal safety engineering)"
+    },
+    {
+      "jd_skill": "Track record of influencing architecture and product decisions at a senior/leadership level"
+    },
+    {
+      "jd_skill": "Functional Safety certification (T\u00dcV Functional Safety Engineer or equivalent)"
+    },
+    {
+      "jd_skill": "Experience interfacing with regulators, customers, and safety assessors"
+    },
+    {
+      "jd_skill": "ISO 12100 / IEC 61508 / ISO 13849 / ISO 10218 standards expertise"
+    },
+    {
+      "jd_skill": "Safety strategy, governance, policies, and company-wide safety vision (executive-level ownership)"
+    },
+    {
+      "jd_skill": "Safety cases, safety architectures, risk acceptance frameworks at production scale"
+    },
+    {
+      "jd_skill": "Field incident response, corrective action processes, and systematic feedback loops at organizational scale"
+    },
+    {
+      "jd_skill": "Building and leading a product safety team (hiring, mentoring, career growth, organizational scale)"
+    },
+    {
+      "jd_skill": "Production-scale field deployment experience with real-world risk at company scale"
+    },
+    {
+      "jd_skill": "Regulatory alignment and compliance leadership for autonomous robotic platforms"
+    }
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "autonomous systems",
+    "product safety",
+    "functional safety",
+    "system-level safety",
+    "electromechanical",
+    "AI/ML-driven",
+    "autonomous navigation",
+    "perception",
+    "planning",
+    "fault tolerance",
+    "degraded modes",
+    "fail-safe behaviors",
+    "ISO 12100",
+    "IEC 61508",
+    "ISO 13849",
+    "ISO 10218",
+    "safety architecture",
+    "safety cases",
+    "regulatory compliance",
+    "field deployment",
+    "risk acceptance"
+  ],
+  "required_skills": [
+    "Bachelor's degree in Robotics, Systems Engineering, Mechanical, Electrical, or Computer Engineering (or equivalent experience)",
+    "10+ years experience in robotics, autonomous systems, product safety, or functional safety",
+    "Proven experience leading system-level safety for complex electromechanical and software-driven products",
+    "Track record of influencing architecture and product decisions at a senior level",
+    "Deep understanding of real-world robotics deployment risks"
+  ],
+  "preferred_skills": [
+    "Master's degree or PhD in a relevant field",
+    "Experience with autonomous mobile robots, outdoor robotics, or defense-adjacent systems",
+    "Functional Safety certification (e.g., T\u00dcV Functional Safety Engineer)",
+    "Experience interfacing with regulators, customers, and safety assessors",
+    "Background in AI/ML-enabled systems and autonomy safety"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define and own product safety vision, strategy, and roadmap",
+    "Establish company-wide safety principles, policies, and governance",
+    "Provide technical leadership on system-level safety for autonomous robotic platforms (navigation, perception, planning; HRI; fault tolerance/degraded modes/fail-safe)",
+    "Oversee safety treatment of AI/ML-driven components including uncertainty and edge cases",
+    "Own approach to safety standards, regulatory alignment, and compliance (ISO 12100, IEC 61508, ISO 13849, ISO 10218)",
+    "Lead engagements with customers, partners, regulators, and third-party assessors",
+    "Build, lead, and mentor a high-impact product safety team",
+    "Executive oversight of field deployment risk assessments and incident response"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

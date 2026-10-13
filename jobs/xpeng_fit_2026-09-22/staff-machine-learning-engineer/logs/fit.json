@@ -1,0 +1,124 @@
+{
+  "company": "XPENG",
+  "company_slug": "xpeng",
+  "role": "Staff Machine Learning Engineer",
+  "job_slug": "staff-machine-learning-engineer",
+  "match_pct": 59.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "MS Computer Engineering (RIT, May 2026) \u2014 meets preferred MS/PhD education",
+    "Python programming (profile: Python, Flask, PyQt)",
+    "PyTorch / TensorFlow / Keras (profile lists all three)",
+    "CUDA C++ and C/C++ (profile: CUDA, C/C++)",
+    "ONNX and TFLite export (profile: YOLOv8n exported to ONNX/TFLite)",
+    "TensorRT model optimization (profile: TensorRT-optimized YOLO 56.7ms->10.9ms)",
+    "Software design and code optimization (profile: custom CUDA kernels, Cython BPE tokenizer, MPI optimization)",
+    "Autonomous driving experience (profile: CARLA stack with YOLO11n + UFLD lane-following/waypoint fallback, zero collisions)",
+    "Robotics / perception experience (profile: ROS2, MoveIt, RViz, 6-DoF UR5e, visual servoing, YOLO)",
+    "Real-time embedded ML deployment (profile: systemd service, NVIDIA Jetson, Arduino, faster-whisper STT, WebSocket)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Applied reinforcement learning / RL-based planning experience",
+      "you_have": "Robotics planning (MoveIt/RViz, forward kinematics, DH tables, visual servoing) and CARLA autonomous driving stack with lane-following + waypoint fallback, but no RL mentioned in profile"
+    },
+    {
+      "jd_skill": "RL-based planning engine for autonomous driving or robotics",
+      "you_have": "CARLA autonomous driving pipeline with YOLO11n + fine-tuned UFLD and waypoint fallback, but no RL planner stated"
+    },
+    {
+      "jd_skill": "3-5+ years industry ML framework experience",
+      "you_have": "M.S. Computer Engineering (graduated May 2026) with 7 internships, 0 full-time years; no industry tenure stated"
+    },
+    {
+      "jd_skill": "Production autonomous driving / robotics solutions",
+      "you_have": "Project-level autonomous driving (CARLA) and robotics (UR5e pick-and-place, AL5B kinematics) systems, but no production/deployed-at-scale experience stated"
+    },
+    {
+      "jd_skill": "Data mining and large-scale ML data analytics",
+      "you_have": "Real-time lab data acquisition GUI, MPI distributed SLURM computation (10.49x speedup), but no production-scale ML data mining or analytics pipeline"
+    }
+  ],
+  "missing_skills": [
+    "Applied reinforcement learning (RL) for planning \u2014 no RL experience stated",
+    "RL model architecture design, training, data mining, and analytics \u2014 no RL or large-scale analytics pipeline",
+    "3-5+ years full-time ML framework experience \u2014 candidate is new-grad (0 years full-time)",
+    "Hands-on RL-based planning engine development for autonomous driving/robotics \u2014 no RL planner",
+    "Production experience in autonomous driving or robotics solutions \u2014 only project-level work",
+    "Large-scale data processing for ML adaptation \u2014 MPI/HPC present but not at production ML scale"
+  ],
+  "top_ats_keywords": [
+    "reinforcement learning",
+    "RL",
+    "planning",
+    "autonomous driving",
+    "robotics",
+    "PyTorch",
+    "TensorFlow",
+    "ONNX",
+    "TensorRT",
+    "real-time",
+    "data mining",
+    "data analytics",
+    "model architecture",
+    "deployment",
+    "optimization",
+    "large-scale data processing"
+  ],
+  "required_skills": [
+    "Reinforcement learning (RL) model architecture design and training for planning",
+    "Applied RL experience including data mining and analytics",
+    "3-5+ years with PyTorch/TensorFlow",
+    "Python programming with software design skills",
+    "Data structures, algorithms, code optimization, large-scale data processing",
+    "Education in Engineering/Robotics/CS with RL/AI focus"
+  ],
+  "preferred_skills": [
+    "MS/PhD in Engineering/Robotics/CS (RL/AI focus)",
+    "Autonomous driving or robotics production experience",
+    "RL-based planning engine for autonomous driving/robotics",
+    "ONNX and TensorRT model deployment/optimization"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Research and develop RL-based planning algorithms",
+    "Design efficient real-time model architectures for vehicle computing",
+    "Develop offline data-driven ML infrastructure for fast adaptation",
+    "Deliver target planning SW and collaborate with perception team",
+    "Work with massive field-testing data to continuously improve autonomous driving",
+    "Design, run, and analyze experiments on real-world data",
+    "Partner with system software engineers to ship industrial-strength ML models",
+    "Collaborate with multi-functional teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

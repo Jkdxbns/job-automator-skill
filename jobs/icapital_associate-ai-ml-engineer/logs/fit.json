@@ -1,0 +1,121 @@
+{
+  "company": "iCapital",
+  "company_slug": "icapital",
+  "role": "Artificial Intelligence / Machine Learning Engineer - Associate",
+  "job_slug": "associate-ai-ml-engineer",
+  "match_pct": 46.9,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 16,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Transformers",
+    "Git",
+    "Model evaluation",
+    "Pandas / NumPy (EDA)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "unsloth / fine-tuning",
+      "you_have": "Fine-tuned SLM (HuggingFace)"
+    },
+    {
+      "jd_skill": "vLLM",
+      "you_have": "TensorRT / LLM inference optimization"
+    },
+    {
+      "jd_skill": "Document AI / IDP / OCR",
+      "you_have": "DONUT OCR-free VisionEncoderDecoder"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Statistics",
+      "you_have": "scikit-learn, Random Signal Analysis"
+    }
+  ],
+  "missing_skills": [
+    "AWS",
+    "Agentic frameworks",
+    "MCP",
+    "A2A",
+    "Dataset/model versioning",
+    "Production AI/ML 2-3 yrs"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "AWS",
+    "LLM",
+    "transformers",
+    "unsloth",
+    "vLLM",
+    "agentic",
+    "MCP",
+    "A2A",
+    "OCR",
+    "IDP",
+    "CI/CD",
+    "evaluation",
+    "benchmark datasets",
+    "model versioning",
+    "statistics",
+    "EDA"
+  ],
+  "required_skills": [
+    "Python",
+    "AWS / cloud-native AI/ML",
+    "production AI/ML systems",
+    "statistics / EDA",
+    "LLM tooling (transformers, unsloth, vLLM)",
+    "document AI / IDP / OCR",
+    "CI/CD",
+    "source control",
+    "testing",
+    "evaluation pipelines",
+    "dataset and model versioning",
+    "agentic frameworks"
+  ],
+  "preferred_skills": [
+    "MCP",
+    "A2A"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "LLM reasoning, IDP, knowledge systems, agentic orchestration",
+    "own full AI lifecycle",
+    "evaluation pipelines and benchmarks",
+    "cross-team documentation"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York, NY",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

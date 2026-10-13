@@ -1,0 +1,180 @@
+{
+  "company": "Intuitive",
+  "company_slug": "intuitive",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer-job219610",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 8,
+    "missing_count": 14,
+    "jd_ask_size": 36,
+    "req_cov": 0.659,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Linux",
+    "POSIX",
+    "Python",
+    "shell scripting",
+    "TCP/IP",
+    "gdb",
+    "GPU",
+    "code reviews",
+    "unit testing",
+    "integration testing",
+    "robotics",
+    "systemd",
+    "CI/CD"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multi-threading",
+      "you_have": "RTOS tasks, MPI, CUDA parallelism"
+    },
+    {
+      "jd_skill": "IPC",
+      "you_have": "ROS2 pub/sub, Flask-SocketIO"
+    },
+    {
+      "jd_skill": "sockets",
+      "you_have": "Flask-SocketIO"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Jetson/Pi (exposure)"
+    },
+    {
+      "jd_skill": "FPGA",
+      "you_have": "GPU/CUDA accelerators"
+    },
+    {
+      "jd_skill": "heterogeneous computing",
+      "you_have": "Jetson CPU+GPU"
+    },
+    {
+      "jd_skill": "JSON",
+      "you_have": "Python data handling"
+    },
+    {
+      "jd_skill": "automotive",
+      "you_have": "CARLA, autonomous systems"
+    }
+  ],
+  "missing_skills": [
+    "SQLite",
+    "data modeling",
+    "transactions",
+    "data integrity",
+    "persistent data",
+    "protobuf",
+    "Yocto",
+    "RPC",
+    "shared memory",
+    "message queues",
+    "safety-critical",
+    "middleware",
+    "DSP",
+    "object-oriented design"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded Linux",
+    "middleware",
+    "IPC",
+    "SQLite",
+    "multi-threaded",
+    "TCP/IP",
+    "gdb",
+    "Yocto",
+    "systemd",
+    "FPGA",
+    "GPU",
+    "protobuf",
+    "JSON",
+    "Python",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "C/C++",
+    "C++11",
+    "Linux",
+    "POSIX",
+    "object-oriented design",
+    "API design",
+    "multi-threading",
+    "concurrency",
+    "IPC",
+    "client/server",
+    "persistent data",
+    "data modeling",
+    "transactions",
+    "data integrity",
+    "gdb",
+    "TCP/IP",
+    "heterogeneous computing",
+    "code reviews",
+    "unit testing",
+    "integration testing",
+    "Python",
+    "shell scripting"
+  ],
+  "preferred_skills": [
+    "middleware",
+    "platform services",
+    "GPU",
+    "FPGA",
+    "DSP",
+    "SQLite",
+    "protobuf",
+    "JSON",
+    "sockets",
+    "shared memory",
+    "message queues",
+    "RPC",
+    "embedded Linux",
+    "systemd",
+    "event-driven",
+    "Yocto",
+    "medical devices",
+    "robotics",
+    "automotive",
+    "safety-critical"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "C/C++ middleware on embedded Linux",
+    "reusable system services and APIs",
+    "persistent config/system data",
+    "IPC and multi-threading",
+    "CPU/GPU/FPGA integration",
+    "debugging with gdb and tracing",
+    "CI/CD"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

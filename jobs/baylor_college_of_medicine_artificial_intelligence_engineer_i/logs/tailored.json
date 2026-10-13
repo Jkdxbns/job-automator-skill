@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "company": "Baylor College of Medicine",
+    "role": "Artificial Intelligence Engineer I",
+    "company_slug": "baylor_college_of_medicine",
+    "job_slug": "artificial_intelligence_engineer_i"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built and evaluated deep learning models for medical imaging, including a multi-modal MRI segmentation pipeline on BraTS 2020 using U-Net with VGG and ResNet-50 backbones scored on Dice and IoU, and fine-tuned transformer models on clinical document data in PyTorch and Hugging Face, raising field-extraction accuracy from 55% to 93%. Experienced in taking research prototypes to production deployment via ONNX and TFLite export and 8-bit quantization.",
+  "skills": {
+    "Machine Learning & Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Hugging Face Transformers",
+      "CNNs",
+      "Model Evaluation (Dice, IoU, mAP)"
+    ],
+    "Medical & Scientific Imaging": [
+      "Multi-modal MRI (BraTS 2020)",
+      "U-Net Segmentation",
+      "VGG-16/19",
+      "ResNet-50",
+      "OpenCV",
+      "Image Processing"
+    ],
+    "Model Deployment & Optimization": [
+      "ONNX",
+      "TFLite",
+      "8-bit Quantization (LLM.int8)",
+      "Inference Profiling (pynvml)",
+      "Edge Deployment"
+    ],
+    "NLP & Document AI": [
+      "DONUT",
+      "VisionEncoderDecoder",
+      "GPT-2 Style Transformers",
+      "Self-Attention"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "Git",
+      "GitLab",
+      "JupyterHub",
+      "Flask",
+      "Matplotlib",
+      "PyQt",
+      "Linux"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU, reporting accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on a custom 1,133-image annotated detection dataset achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization; used GitLab for version control and JupyterHub for collaborative data analysis."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch (multi-head self-attention, MLP blocks, residual connections, layer norm) with a custom training loop and perplexity evaluation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

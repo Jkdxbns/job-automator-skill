@@ -1,0 +1,70 @@
+{
+  "company": "World Labs",
+  "company_slug": "world-labs",
+  "role": "Performance Engineer (Inference, Training & GPU)",
+  "job_slug": "performance-engineer-inference-training-gpu",
+  "match_pct": 55.6,
+  "missing_skills": [
+    "Triton",
+    "roofline analysis",
+    "batching (inference)",
+    "KV/prompt caching",
+    "JAX",
+    "torch.compile",
+    "XLA",
+    "Rust",
+    "Go",
+    "NCCL",
+    "NVLink",
+    "FP8",
+    "tensor/model parallelism",
+    "mixed precision training"
+  ],
+  "adjacent_skills": [
+    "MPI/SLURM (distributed computing) -> NCCL/distributed training communication",
+    "TensorRT / 8-bit quantization / LLM.int8 -> FP8/INT8 quantization",
+    "pynvml Profiling -> GPU profiling/roofline analysis",
+    "CUDA C++ / kernel optimization / memory coalescing -> Triton kernel tuning"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "Triton",
+    "GPU kernels",
+    "kernel fusion",
+    "FP8",
+    "INT8",
+    "quantization",
+    "inference",
+    "serving",
+    "batching",
+    "KV caching",
+    "training throughput",
+    "parallelism",
+    "mixed precision",
+    "PyTorch",
+    "JAX",
+    "torch.compile",
+    "NCCL",
+    "NVLink",
+    "profiling",
+    "roofline analysis",
+    "Python",
+    "C++",
+    "Rust",
+    "Go"
+  ],
+  "key_responsibilities": [
+    "Optimize inference and serving end to end (latency, throughput, batching, caching, scheduling)",
+    "Write and tune GPU kernels (CUDA, Triton) for hot paths; kernel fusion, bandwidth optimization, FP8/INT8",
+    "Optimize training throughput and GPU utilization (parallelism, comm/compute overlap, mixed precision)",
+    "Build performance models, profiling workflows, observability",
+    "Own numerical correctness across precision/kernel/hardware changes",
+    "Partner with researchers to productionize models for serving"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

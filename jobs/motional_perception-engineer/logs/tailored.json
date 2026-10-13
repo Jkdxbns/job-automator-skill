@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "Motional",
+    "role": "Perception Engineer",
+    "company_slug": "motional",
+    "job_slug": "perception-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology. I build perception models and take them to deployment: training detection and segmentation networks in PyTorch, then cutting inference latency with TensorRT and hand-written CUDA kernels on Jetson-class hardware. My autonomous driving work in CARLA spans training-data generation through closed-loop validation.",
+  "skills": {
+    "Perception & Computer Vision": [
+      "YOLOv8 / YOLO11n",
+      "UFLD lane detection",
+      "Monocular depth estimation (ZoeDepth)",
+      "OpenCV",
+      "Visual servoing",
+      "CARLA"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face Transformers",
+      "ONNX",
+      "TFLite",
+      "GPU training (SLURM)",
+      "Model evaluation (mAP, IoU)"
+    ],
+    "Acceleration & Inference Optimization": [
+      "TensorRT",
+      "CUDA C++",
+      "Kernel optimization",
+      "Memory coalescing",
+      "8-bit quantization",
+      "pynvml profiling"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Cython",
+      "Bash",
+      "Linux",
+      "Git",
+      "GitLab",
+      "CMake",
+      "NVIDIA Jetson"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free visual document understanding transformer, for structured field extraction on a custom dataset.",
+        "Built preprocessing and GPU training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API.",
+        "Improved validation accuracy from 55% to 93% through preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device model deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling, achieving +/-8% error on 3D surface reconstruction.",
+        "Architected a metal surface inspection perception pipeline combining image stitching, wavelet denoising, and depth estimation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP@50 ~0.85) and fine-tuned UFLD lane detection (ResNet-18) with SoftmaxFocalLoss and ParsingRelationLoss; integrated both into an adaptive lane-following control stack.",
+        "Generated ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation using CARLA semantic segmentation and raycast occlusion filtering.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians, achieving zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO detection with TensorRT for visual servoing, achieving a 5.2x speedup over eager PyTorch (56.7 -> 10.9 ms, 17.6 -> 92 FPS) on Jetson.",
+        "Resolved 11 integration failures including false-positive detections and stale-frame capture; validated 100% pick reliability over 10 trials."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing, constant memory, and preallocated buffers.",
+        "Cut inference to 49.2 ms from 73.3 ms uncoalesced and 77.5 ms CPU TorchScript, a ~35% speedup over naive GPU with identical classification accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": [
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "company": "Microsoft",
+    "role": "Firmware Engineer",
+    "company_slug": "microsoft",
+    "job_slug": "firmware_engineer_schie"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. I write firmware in bare-metal C on ARM Cortex-M4, programming GPIO, timer, ADC, and I2C peripherals directly at the register level, and have built both interrupt-driven and FreeRTOS-scheduled control loops on STM32. My work sits at the hardware/firmware interface: hand-written low-level drivers, multi-sensor I2C buses, UART bring-up, and system-level debugging to root-cause integration failures.",
+  "skills": {
+    "Firmware & Embedded": [
+      "Bare-Metal C",
+      "STM32",
+      "ARM Cortex-M4",
+      "FreeRTOS",
+      "Device Drivers",
+      "Interrupt Handling",
+      "Task Scheduling",
+      "Arduino",
+      "NVIDIA Jetson",
+      "Raspberry Pi"
+    ],
+    "Protocols & Peripherals": [
+      "I2C",
+      "SPI",
+      "UART",
+      "PWM",
+      "ADC",
+      "GPIO",
+      "Timers",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Languages": [
+      "C",
+      "C++",
+      "Python",
+      "Bash"
+    ],
+    "Debug & Validation": [
+      "Logic Analyzers",
+      "Oscilloscopes",
+      "Root Cause Analysis",
+      "Proteus",
+      "Hardware/Firmware Bring-Up"
+    ],
+    "Systems & Tools": [
+      "Linux",
+      "Git",
+      "GitLab",
+      "CMake",
+      "EAGLE PCB Design"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with a Raspberry Pi and an HC-05 Bluetooth link, translating 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; root-caused sensor jitter at the hardware/firmware interface and resolved it through software calibration and resolution tuning.",
+        "Architected a Mixed Reality headset concept using real-time chroma keying without a green screen; produced full claims documentation and BOM through to productization."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member cross-functional team across national-level competitions, owning mechanical design, PCB fabrication, and firmware integration end to end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor (ARM Cortex-M4)",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal C at the register level (GPIO, TIM2, ADC1, I2C1); held the image to 3.68 KB Flash and 1.58 KB RAM at a deterministic 1 Hz update rate.",
+        "Hand-wrote a low-level I2C device driver and implemented timer-triggered ADC scan conversions with interrupt-driven sample capture.",
+        "Verified timing and peripheral behavior in Proteus before hardware bring-up."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret (STM32 + NVIDIA Jetson)",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control on STM32 with interrupt-driven UART command parsing and a user override path.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination and scheduling; integrated VL53L0X ToF sensing over I2C with OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Root-caused 11 hardware/firmware integration failures including servo brown-out and stale-frame capture; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Bridged an embedded Linux host (Jetson) to an Arduino MCU over USB serial, driving five servos and two VL53L0X ToF sensors multiplexed on a shared I2C bus through a TCA9548A.",
+        "Implemented two-link inverse kinematics in C++ on the MCU with a 25 mm ToF-triggered contact gate for grasp closure."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

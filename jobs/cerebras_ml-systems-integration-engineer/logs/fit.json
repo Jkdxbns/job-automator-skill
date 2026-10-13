@@ -1,0 +1,71 @@
+{
+  "company": "Cerebras",
+  "company_slug": "cerebras",
+  "role": "ML Systems Integration Engineer",
+  "job_slug": "ml-systems-integration-engineer",
+  "match_pct": 100,
+  "missing_skills": [
+    "production systems validation",
+    "infrastructure reliability engineering (SRE)"
+  ],
+  "adjacent_skills": [
+    "IPC",
+    "distributed systems (production scale)",
+    "networking fundamentals (datacenter)",
+    "automation frameworks / test infrastructure",
+    "large-scale system debugging"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Linux",
+    "debugging",
+    "operating systems",
+    "concurrency",
+    "IPC",
+    "computer architecture",
+    "hardware bring-up",
+    "system integration",
+    "test automation",
+    "telemetry",
+    "log analysis",
+    "distributed systems",
+    "root cause analysis"
+  ],
+  "key_responsibilities": [
+    "Bring-up of next-generation AI hardware systems and supporting software",
+    "Debug complex system-level issues spanning hardware and software",
+    "Root-cause bring-up failures using logs, telemetry, diagnostic tools",
+    "Build automation frameworks and internal tooling for validation/debugging",
+    "Develop software to test, validate, stress distributed hardware systems",
+    "Collaborate with hardware engineers on system integration issues",
+    "Support validation and qualification of new hardware generations"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Bare-metal STM32 Cortex-M4 firmware + FreeRTOS mutex task coordination + custom RTOS build = genuine OS-fundamentals depth (processes/threads/concurrency/IPC) and low-level HW/SW debugging \u2014 the core of this role.",
+      "COFFIN capstone: root-caused and resolved 11 hardware/software integration failures (servo brown-out, stale-frame capture, false detections) \u2014 direct system-integration debugging experience.",
+      "Hardware bring-up diagnostics with logic analyzers and oscilloscopes, plus interrupt/ADC/I2C bare-metal driver work \u2014 maps cleanly to 'investigate failures during bring-up using logs, telemetry, diagnostic tools'.",
+      "CUDA kernel optimization + pynvml/psutil profiling and benchmarking = real performance analysis and computer-architecture depth.",
+      "Python + C++ + CMake + Bash + Linux/SLURM = the exact tooling/automation and Linux-dev-environment stack the JD asks for."
+    ],
+    "real_gaps": [
+      "Scale mismatch: all hardware experience is microcontroller / single-board (STM32, Jetson+Arduino), not wafer-scale datacenter systems. Debugging methodology transfers but the systems are orders of magnitude larger.",
+      "No production systems validation / infrastructure reliability engineering (SRE) backing \u2014 this is a listed preferred qualification with no real match anywhere in the profile.",
+      "Distributed-systems experience is HPC coursework (MPI on SLURM clusters), not production distributed infrastructure."
+    ],
+    "overstated_by_keywords": [
+      "'distributed systems' counted via MPI/SLURM is coursework-scale HPC, weaker than production distributed-infra experience.",
+      "Networking fundamentals via TCP/WebSocket/UART is protocol/embedded-level, not datacenter networking.",
+      "The ML-model keywords (YOLO, quantization, transformers) inflate the match but are largely irrelevant here \u2014 despite the 'ML Systems' title, the job function is Quality Assurance / hardware bring-up, not model building."
+    ],
+    "reasoning": "Despite the 'ML Systems' title, this is a hardware bring-up / system-integration / test-automation role (job function: Quality Assurance) where the ML is just the domain. Justin's real value is his embedded / bare-metal / debugging / Linux / computer-architecture core, which backs every required qualification directly. The gaps (datacenter scale, production validation, SRE) all sit in the preferred bucket, and the role is explicitly entry level \u2014 a strong apply."
+  }
+}

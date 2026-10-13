@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "company": "Carnegie Robotics",
+    "role": "Autonomous Systems Electrical Engineer",
+    "company_slug": "carnegie_robotics",
+    "job_slug": "autonomous-systems-ee"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering (RIT, May 2026) with hands-on embedded systems and autonomous robotics experience. Designed and deployed real-time electrical control systems for multi-sensor robotic platforms, optimizing latency and reliability through bare-metal firmware and FreeRTOS task management. Proficient in system-level integration, from component selection and CAD to design documentation and end-to-end validation.",
+  "skills": {
+    "Embedded Systems": [
+      "STM32 Bare-Metal C",
+      "FreeRTOS",
+      "Real-Time Firmware",
+      "Interrupt-Driven Design",
+      "Cortex-M4 (Cortex-A57 on Jetson)"
+    ],
+    "Electrical & Hardware": [
+      "UART/I2C/SPI Communication",
+      "GPIO & Timer-Triggered ADC",
+      "Servo Control & PWM",
+      "ToF Sensors (VL53L0X)",
+      "EAGLE PCB Design",
+      "Component Selection & Integration"
+    ],
+    "Autonomous Systems & Robotics": [
+      "ROS/ROS2",
+      "System Integration (edge inference pipelines)",
+      "Real-Time Vision (YOLO, OpenCV)",
+      "Jetson GPU Computing",
+      "Design Documentation & Validation"
+    ],
+    "Software": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "TensorRT",
+      "Git"
+    ],
+    "Tools & Platforms": [
+      "Linux (embedded & server)",
+      "Jetson (TX2/Xavier)",
+      "Arduino",
+      "SolidWorks",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline combining custom image stitching, wavelet denoising, and depth estimation; validated on 3D crack profiles with \u00b18% error.",
+        "Optimized image-stitching algorithm through bit manipulation and wavelet bank design (alpha-blended sym6+bior3.5), improving PSNR from 65 to 86 through systematic signal processing.",
+        "Designed and deployed ZoeDepth monocular depth estimation for real-time surface reconstruction, achieving precise measurement accuracy under production-like inspection constraints."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Designed and fabricated a gesture-recognition wearable integrating ADXL345 accelerometers with Raspberry Pi, converting 3-DoF hand motion to HID commands via custom Python driver and Bluetooth (HC-05).",
+        "Implemented signal processing for z-axis differential thresholding with software calibration to resolve sensor jitter; achieved reliable tap detection over 200+ test cycles.",
+        "Produced full technical documentation and bill-of-materials for mixed-reality headset prototype using AI-based real-time chroma keying."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led 25-member robotics team across national competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE; implemented real-time sensor communication (UART, I2C) with closed-loop feedback control for locomotive robots.",
+        "Organized 10+ technical workshops and exhibitions covering Arduino, PCB design, and embedded firmware for 500+ students."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Architected a three-layer distributed system (Flutter client + Flask server + Jetson+Arduino controller) with unified WebSocket fabric; achieved 11.5s end-to-end voice-to-pick latency.",
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms) for visual servoing; dual VL53L0X ToF sensors with TCA9548A I2C mux for contact-aware grasping.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale frames); achieved 100% pick reliability over 10 trials through systematic debugging and component selection.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection and interrupt-driven UART command processing."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 firmware in embedded C with timer-synchronized ADC scan conversions and interrupt-driven sample capture; deterministic 1 Hz update rate.",
+        "Implemented low-level I2C driver and GPIO/TIM2/ADC1 peripheral control in bare-metal C (no HAL); achieved 3.68 KB Flash / 1.58 KB RAM footprint with predictable real-time behavior.",
+        "Programmed and verified in Proteus; demonstrated deep understanding of ARM Cortex-M4 timer/interrupt architecture and register-level peripheral configuration."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipeline using CARLA's semantic segmentation; produced ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with custom loss functions; integrated into adaptive control stack with lane-following and waypoint fallback.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino atmospheric data collection (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition (2022)"
+  ]
+}

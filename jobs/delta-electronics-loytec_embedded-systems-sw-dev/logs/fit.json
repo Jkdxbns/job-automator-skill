@@ -1,0 +1,114 @@
+{
+  "company": "Delta Electronics (LOYTEC / Delta IBT)",
+  "company_slug": "delta-electronics-loytec",
+  "role": "Software Developer for Embedded Systems (m/w/d)",
+  "job_slug": "embedded-systems-sw-dev",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 16,
+    "req_cov": 0.192,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "FreeRTOS",
+    "Python",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Jetson (Linux-based embedded platform), Raspberry Pi"
+    },
+    {
+      "jd_skill": "REST-API",
+      "you_have": "Flask API development"
+    },
+    {
+      "jd_skill": "web engineering",
+      "you_have": "Flask, WebSocket, Flutter"
+    },
+    {
+      "jd_skill": "HTTPS",
+      "you_have": "TCP/IP, WebSocket networking"
+    }
+  ],
+  "missing_skills": [
+    "Modbus",
+    "BACnet",
+    "OPC UA",
+    "MQTT",
+    "BACnet SC",
+    "JavaScript",
+    "node.js"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "RTOS",
+    "Embedded Linux",
+    "Modbus",
+    "BACnet",
+    "OPC UA",
+    "REST-API",
+    "MQTT",
+    "BACnet SC",
+    "HTTPS",
+    "Python",
+    "JavaScript",
+    "node.js"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "RTOS or Embedded Linux (C/C++)",
+    "Modbus",
+    "BACnet",
+    "OPC UA",
+    "REST-API",
+    "MQTT",
+    "BACnet SC",
+    "HTTPS",
+    "Python",
+    "JavaScript",
+    "node.js",
+    "web engineering"
+  ],
+  "preferred_skills": [
+    "Linux application development"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Embedded C programming",
+    "Implement Modbus/BACnet/OPC UA",
+    "REST-API cloud integration",
+    "MQTT/BACnet SC/HTTPS",
+    "Python test plans"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Vienna, Austria",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "On-site role in Vienna, Austria (remote_ok=false); requires Austrian/EU work authorization. Category: Foreign work authorization. F-1 OPT only authorizes employment inside the United States \u2014 it does not transfer to an on-site role abroad, and the posting gives no indication of visa/relocation sponsorship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

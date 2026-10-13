@@ -1,0 +1,153 @@
+{
+  "company": "Focusrite Group",
+  "company_slug": "focusrite-group",
+  "role": "Hardware (Electronics and Firmware) Placement",
+  "job_slug": "hardware-electronics-firmware-placement",
+  "match_pct": 78.1,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 16,
+    "req_cov": 0.909,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Firmware development",
+    "Embedded C",
+    "Microcontrollers",
+    "Schematic capture",
+    "PCB layout",
+    "CAD tools",
+    "Test equipment (oscilloscope, logic analyzer)",
+    "Fault-finding and hardware debug",
+    "Prototype assembly",
+    "Own technology projects",
+    "Collaboration with engineers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hand soldering",
+      "you_have": "Custom single-layer PCB fabrication in EAGLE + hands-on robot/wearable prototype builds"
+    },
+    {
+      "jd_skill": "Interest in audio and music technologies",
+      "you_have": "Digital Signal Processing coursework + ASR / speech pipeline work"
+    },
+    {
+      "jd_skill": "Electronics hardware lab operation",
+      "you_have": "University lab work + ran robotics-club workshops and 10+ technical exhibitions"
+    }
+  ],
+  "missing_skills": [
+    "Component sourcing and stock management",
+    "Production engineering support / component alternatives"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "PCB layout",
+    "schematic capture",
+    "soldering",
+    "prototype",
+    "CAD",
+    "electronics lab",
+    "component sourcing",
+    "BOM",
+    "embedded C",
+    "microcontroller",
+    "oscilloscope",
+    "audio",
+    "production engineering",
+    "hardware debug"
+  ],
+  "required_skills": [
+    "Firmware development",
+    "Schematic capture",
+    "PCB layout",
+    "CAD tools",
+    "Prototype assembly",
+    "Hand soldering",
+    "Fault-finding and hardware debug",
+    "Electronics hardware lab operation",
+    "Component sourcing and stock management",
+    "Own technology projects",
+    "Collaboration with engineers"
+  ],
+  "preferred_skills": [
+    "Interest in audio and music technologies",
+    "Production engineering support / component alternatives",
+    "Embedded C",
+    "Microcontrollers",
+    "Test equipment (oscilloscope, logic analyzer)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Run and maintain the electronics hardware lab facilities",
+    "Assemble and fault-find prototypes by hand, including soldering and CAD-aided build",
+    "Assist Production Engineering to identify component alternatives for current product lines",
+    "Order, source and maintain stock of components and PCBs across development phases",
+    "Design work on new projects: schematic capture, PCB layout and firmware development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "High Wycombe, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Firmware development has real depth: bare-metal Cortex-M4 C (GPIO/TIM2/ADC1/I2C1, 3.68 KB Flash / 1.58 KB RAM), FreeRTOS with mutexes on the turret, and interrupt-driven quadrature decoding written from first principles as a 4-bit A/B state machine on Arduino Due.",
+      "Hands-on prototype integration is evidenced, not claimed: Robocon 'owned wiring, interfacing, and integration' across four Cytron motor drivers, USB Host Shield, dual claw subsystems with per-claw IR sensing, plus a fail-safe halt state machine.",
+      "Board-level fault-finding is backed by COFFIN: resolved 11 integration failures including servo brown-out and stale-frame capture on a Jetson+Arduino rig with dual VL53L0X ToF over a TCA9548A I2C mux.",
+      "Bench instrumentation and ECAD tools are listed and used: Oscilloscopes, Logic Analyzers, EAGLE, Proteus (the STM32 firmware was verified in Proteus), SolidWorks.",
+      "Personal and team technology projects are the single strongest match to 'what we're looking for' -- a dozen self-driven builds plus a 25-member robotics club led to Stage 3 of DD Robocon 2023."
+    ],
+    "real_gaps": [
+      "Component sourcing, ordering and stock management of components/PCBs -- one BOM produced for a Mixed Reality headset concept at Planctech, and nothing else anywhere in the profile. This is an entire core responsibility with no backing.",
+      "Production-engineering support and identifying component alternatives (second-sourcing, lifecycle/EOL, DFM) -- no evidence at all; no exposure to a product line in volume production.",
+      "Running and maintaining electronics hardware lab facilities -- worked inside a lab at BARC building a PyQt data-acquisition GUI, but never owned lab equipment, calibration or stock.",
+      "Analog and mixed-signal audio electronics -- Focusrite ships preamps, converters and audio interfaces; the profile is digital/embedded and CV/ML throughout, with no analog design, no codec bring-up, no audio measurement.",
+      "PCB layout depth is one line: custom single-layer boards in EAGLE for club locomotive robots. That is a long way from multi-layer mixed-signal layout on a shipping audio product, and it is club work where individual authorship should be confirmed before it is leaned on.",
+      "Hand soldering is never stated anywhere in the profile; it is inferred from the robot builds. For a role whose day one is assembling prototypes by hand, unstated is a gap.",
+      "Seniority/format note (not scored here): this is a 12-month undergraduate industrial placement, the UK sandwich year taken mid-degree. Justin has already finished an M.S., which sits outside the intended candidate pool."
+    ],
+    "overstated_by_keywords": [
+      "Schematic capture -- EAGLE and Proteus appear as tools, but the only schematic work evidenced is single-layer club PCBs and a simulation verification, not capture on a product.",
+      "PCB layout -- counted as a full Have on the strength of one club bullet.",
+      "Electronics hardware lab operation -- counted as Adjacent via workshops and university lab work; running a lab facility is a different job.",
+      "Prototype assembly -- real, but the soldering half of that responsibility is unevidenced."
+    ],
+    "understated_by_keywords": [
+      "Audio signal processing is genuinely there and the keyword pass missed it: an ASR pipeline built from scratch with an 80-channel mel spectrogram encoder and a 4-block causal Transformer decoder, 15% WER on NPTEL 2020, plus faster-whisper STT at 1.0-1.4s in the capstone and Digital Signal Processing coursework.",
+      "Low-level electrical work beyond firmware: 15 kHz PWM motor drive, 2400 CPR quadrature encoder odometry, atan2 joystick-to-wheel mixing derived to stop PWM saturation -- real electronics reasoning, not just code.",
+      "Embedded measurement and sensor bring-up: timer-triggered ADC scan conversions, a low-level I2C driver written by hand, ToF range-gating at 25 mm."
+    ],
+    "screening_gaps": [
+      "Eligibility for the placement itself: this is a UK 12-month industrial placement at GBP 26,250, which is far below the UK Skilled Worker new-entrant floor of GBP 38,290, so there is no sponsorship route -- these seats are filled by students on a Student visa taking a year in industry. A screener will reject on this before reading the technical fit.",
+      "No component sourcing, stock management or production-engineering exposure -- two of the five core responsibilities have zero backing, and they are the ones a placement student is actually hired to carry.",
+      "No audio or analog/mixed-signal electronics anywhere in the profile, against a company whose entire product line is pro audio hardware and whose only stated interest criterion is audio and music technology."
+    ],
+    "recommend_apply": false,
+    "reasoning": "On pure skill, the firmware half of this role is well covered and the hands-on build and debug evidence is real, but the hardware half is thin: PCB layout rests on a single undergraduate club bullet, soldering is never stated, and component sourcing plus production-engineering support have no backing at all. The bigger problem is structural rather than technical -- a 12-month UK sandwich placement at GBP 26,250 is aimed at undergraduates mid-degree and sits below any sponsorship floor, so an M.S. graduate on F-1 OPT is outside the pool the posting is written for. The keyword score of 78% is measuring firmware and tool names against a JD whose centre of gravity is bench work, procurement and audio hardware.",
+    "calibration_delta": 20.1
+  }
+}

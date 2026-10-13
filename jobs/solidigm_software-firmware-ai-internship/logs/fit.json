@@ -1,0 +1,108 @@
+{
+  "company": "Solidigm",
+  "company_slug": "solidigm",
+  "role": "2027 Graduate Software, Firmware & AI Engineering Internships - US",
+  "job_slug": "software-firmware-ai-internship",
+  "match_pct": 76.7,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 15,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++ programming (STM32 bare-metal, Arduino, Jetson)",
+    "Python (ML pipelines, automation, tooling)",
+    "Linux development environment (systemd, XRDP remote admin)",
+    "Git version control",
+    "Firmware development / embedded software (STM32 Temperature Monitor, Object Tracking Turret)",
+    "Low-level systems programming (bare-metal GPIO/TIM2/ADC1/I2C1 register-level)",
+    "AI/ML applied techniques (PyTorch, TensorRT, quantization, YOLO, ASR)",
+    "Debugging / root-cause analysis (sensor jitter calibration, integration failure resolution on COFFIN)",
+    "Automation scripting (Bash, Python)",
+    "M.S. Computer Engineering (currently completing thesis-adjacent capstone work)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SSD/NAND/NVMe/PCIe storage systems",
+      "you_have": "general embedded storage/sensor interfacing (I2C/UART/SPI), no SSD-specific protocol exposure"
+    },
+    {
+      "jd_skill": "software validation / regression test automation at scale",
+      "you_have": "project-level test/verification (Proteus simulation, 10/10 trial pick reliability validation on COFFIN)"
+    },
+    {
+      "jd_skill": "CI/CD tooling",
+      "you_have": "systemd service deployment with auto-restart; no CI/CD pipeline ownership"
+    }
+  ],
+  "missing_skills": [
+    "SSD/NAND flash storage domain knowledge",
+    "formal CI/CD pipeline experience"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded",
+    "C/C++",
+    "Python",
+    "AI/ML",
+    "SSD",
+    "validation",
+    "automation",
+    "Git",
+    "Linux"
+  ],
+  "required_skills": [
+    "Python, C, C++, or Java",
+    "Linux-based development",
+    "Git / version control",
+    "analytical/debugging/problem-solving"
+  ],
+  "preferred_skills": [
+    "firmware development",
+    "embedded software",
+    "low-level systems programming",
+    "SSDs/NAND/NVMe/PCIe",
+    "software validation/test automation",
+    "AI/ML/LLMs/AI agents",
+    "automation with Python/shell/CI-CD",
+    "performance/log analysis/telemetry"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "software tools/infrastructure",
+    "firmware features/embedded software/test environments",
+    "ML/AI for engineering productivity",
+    "automation frameworks for firmware testing",
+    "validation and root-cause analysis",
+    "cross-functional collaboration"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Rancho Cordova, CA (also San Jose, CA / other US sites)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": false,
+    "notes": "Strong direct fit on required skills (C/C++, Python, Linux, Git); no years-of-experience gate since this is an internship. Only gap is SSD-specific domain exposure, which is explicitly a preferred (not minimum) qualification."
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

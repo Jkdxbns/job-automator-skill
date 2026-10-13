@@ -1,0 +1,42 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, Embedded Systems/Firmware, Platforms and Devices",
+  "job_slug": "embedded-systems-firmware-platforms-devices",
+  "match_pct": 100.0,
+  "missing_skills": ["software test engineering (explicit)", "large-scale systems data analysis/visualization"],
+  "adjacent_skills": ["DSA (coursework-level, not explicitly evidenced)", "performance/debugging (CUDA kernel profiling, pynvml, not large-scale systems)", "code/system health diagnosis (project-level debugging, not production on-call)"],
+  "top_ats_keywords": ["C++", "embedded operating systems", "FreeRTOS", "resource constrained hardware", "data structures and algorithms", "debugging", "code review", "design reviews"],
+  "key_responsibilities": [
+    "Participate in or lead design reviews",
+    "Review code developed by other engineers",
+    "Contribute to documentation",
+    "Triage and debug product/system issues",
+    "Write product/system development code"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register-level bare-metal C on Cortex-M4 (STM32 Temperature Monitor: direct GPIO/TIM2/ADC1/I2C1 programming, no HAL abstraction) is genuine low-level systems programming, not just a listed keyword.",
+      "FreeRTOS task coordination with mutexes on the Object Tracking Turret is real embedded-OS experience, even though scoped to a single hobbyist board.",
+      "COFFIN capstone's 'resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' is authentic cross-stack triage/debugging spanning hardware and software, a reasonable analog to the JD's triage/debug responsibility.",
+      "CUDA/TensorRT kernel-level optimization work (VGG16 kernel rewrite, YOLO 5.2x speedup) demonstrates low-level C++ systems thinking beyond embedded alone, which strengthens the core C++ requirement even outside the embedded stack.",
+      "M.S. Computer Engineering directly satisfies the preferred education qualification."
+    ],
+    "real_gaps": [
+      "The '2 years experience' bars (C++, embedded OS) assume professional continuity; Justin has 0 full-time years and the equivalent depth is spread across short internships and course projects, not a sustained production codebase.",
+      "No evidence anywhere in the profile of software test engineering (unit test frameworks, CI test suites, mocking) despite it being an explicit preferred qualification.",
+      "No evidence of 'large scale systems data analysis' — his data-analysis work (BraTS medical imaging, MPI/SLURM benchmarking) is research-scale, not fleet or production telemetry analysis, which is what the JD phrase almost certainly means for a Platforms and Devices role.",
+      "No explicit DSA coursework or evidence in the profile (RIT courses lean HPC/parallel/robotics, not algorithms); this is assumed baseline for a CS/CE grad but isn't backed by a bullet.",
+      "The role is titled 'Firmware, Platforms and Devices' which strongly implies production consumer-hardware firmware (e.g. Pixel/Nest/Fitbit-class devices shipped at scale) — Justin's embedded work is all prototype or academic scale (STM32 dev boards, Arduino, hobbyist robotics), with no mass-manufacturing, certification, or fleet-scale firmware experience."
+    ],
+    "overstated_by_keywords": [
+      "FreeRTOS counted as a clean 'Have' for embedded operating systems, but the actual depth is one mutex-based task-coordination integration on a class project, not RTOS internals or production RTOS work.",
+      "'Resource constrained hardware' keyword-matched partly via NVIDIA Jetson, but Jetson is a full Linux SBC, not a resource-constrained target in the sense the JD likely means (that's really only the STM32 work)."
+    ],
+    "reasoning": "The two hard minimum qualifications are genuinely backed by real bullets, register-level bare-metal C++ and FreeRTOS task coordination, so this isn't a paper-only match. But the role reads as production firmware for shipped consumer devices at scale, and Justin's evidence is all prototype and research scope with zero full-time years and no test-engineering or fleet-analytics experience to back the preferred qualifications, which pulls this down from a strong fit to a partial one."
+  }
+}

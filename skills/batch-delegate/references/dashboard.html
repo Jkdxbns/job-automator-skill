@@ -1,0 +1,750 @@
+<title>Delegate Ops</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --surface-2: #eef1f4;
+    --border: #dde2e7;
+    --text: #1a2027;
+    --text-dim: #5b6572;
+    --text-faint: #8a93a0;
+    --accent: #0f6e6e;
+    --accent-strong: #0a4f4f;
+    --accent-wash: #0f6e6e14;
+    --ok: #1f8a53;
+    --ok-wash: #1f8a5316;
+    --warn: #b8790c;
+    --warn-wash: #b8790c16;
+    --err: #c23b3b;
+    --err-wash: #c23b3b16;
+    --block: #6d4aa8;
+    --block-wash: #6d4aa816;
+    --queued: #6b7280;
+    --queued-wash: #6b728016;
+    --shadow: 0 1px 2px rgba(20, 24, 28, 0.06), 0 8px 24px rgba(20, 24, 28, 0.06);
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0f12;
+      --surface: #12181c;
+      --surface-2: #171e23;
+      --border: #232b31;
+      --text: #e6ebee;
+      --text-dim: #9aa7b0;
+      --text-faint: #6c7680;
+      --accent: #2dd4bf;
+      --accent-strong: #5eead4;
+      --accent-wash: #2dd4bf1c;
+      --ok: #34d399;
+      --ok-wash: #34d3991c;
+      --warn: #fbbf24;
+      --warn-wash: #fbbf241c;
+      --err: #f87171;
+      --err-wash: #f871711c;
+      --block: #a78bfa;
+      --block-wash: #a78bfa1c;
+      --queued: #8b95a1;
+      --queued-wash: #8b95a11c;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0f12;
+    --surface: #12181c;
+    --surface-2: #171e23;
+    --border: #232b31;
+    --text: #e6ebee;
+    --text-dim: #9aa7b0;
+    --text-faint: #6c7680;
+    --accent: #2dd4bf;
+    --accent-strong: #5eead4;
+    --accent-wash: #2dd4bf1c;
+    --ok: #34d399;
+    --ok-wash: #34d3991c;
+    --warn: #fbbf24;
+    --warn-wash: #fbbf241c;
+    --err: #f87171;
+    --err-wash: #f871711c;
+    --block: #a78bfa;
+    --block-wash: #a78bfa1c;
+    --queued: #8b95a1;
+    --queued-wash: #8b95a11c;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-inline: 0;
+  }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  ::selection { background: var(--accent-wash); }
+  [hidden] { display: none !important; }
+
+  a { color: var(--accent-strong); }
+
+  /* ── shell ─────────────────────────────────────────── */
+  .shell {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "topbar topbar" "rail main";
+    height: 100%;
+    min-height: 100vh;
+  }
+  @media (max-width: 860px) {
+    .shell {
+      grid-template-columns: 1fr;
+      grid-template-areas: "topbar" "rail" "main";
+      height: auto;
+      min-height: 100%;
+    }
+  }
+
+  .topbar {
+    grid-area: topbar;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 20px;
+    padding-top: calc(14px + env(safe-area-inset-top, 0px));
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 20;
+    flex-wrap: wrap;
+  }
+  .brand { display: flex; align-items: baseline; gap: 10px; margin-right: auto; }
+  .brand .mark {
+    width: 9px; height: 9px; border-radius: 2px;
+    background: var(--accent);
+    display: inline-block;
+    transform: rotate(45deg);
+  }
+  .brand h1 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: 0.01em; }
+  .brand .sub { color: var(--text-faint); font-size: 12px; }
+
+  select, input[type="search"], textarea, button {
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--text);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 7px 10px;
+  }
+  select { cursor: pointer; }
+  button { cursor: pointer; font-weight: 500; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #06211f; }
+  button.primary:hover { background: var(--accent-strong); }
+  button.ghost { background: transparent; }
+  button.ghost:hover { background: var(--surface-2); }
+  button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 1px;
+  }
+
+  .live-dot { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-dim); }
+  .live-dot .pip { width: 7px; height: 7px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 3px var(--ok-wash); }
+  .live-dot .pip.stale { background: var(--text-faint); box-shadow: none; }
+
+  /* ── rail ──────────────────────────────────────────── */
+  .rail {
+    grid-area: rail;
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    overflow-y: auto;
+  }
+  @media (max-width: 860px) {
+    .rail { border-right: none; border-bottom: 1px solid var(--border); }
+  }
+  .rail h2 {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--text-faint); margin: 0 0 10px;
+  }
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat-tile {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 10px 11px;
+  }
+  .stat-tile .n { font-family: "IBM Plex Mono"; font-size: 19px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .stat-tile .l { color: var(--text-faint); font-size: 11px; margin-top: 2px; }
+
+  .bar-row { display: flex; align-items: center; gap: 8px; font-size: 12px; margin-bottom: 6px; }
+  .bar-row .lbl { width: 64px; flex-shrink: 0; color: var(--text-dim); }
+  .bar-row .track { flex: 1; height: 7px; border-radius: 4px; background: var(--surface-2); overflow: hidden; display: flex; }
+  .bar-row .fill { height: 100%; }
+  .bar-row .cnt { width: 26px; text-align: right; font-family: "IBM Plex Mono"; font-variant-numeric: tabular-nums; color: var(--text-dim); }
+
+  .cost-line { display: flex; justify-content: space-between; font-size: 12px; padding: 3px 0; color: var(--text-dim); }
+  .cost-line b { color: var(--text); font-family: "IBM Plex Mono"; font-variant-numeric: tabular-nums; font-weight: 500; }
+
+  /* ── main / table ──────────────────────────────────── */
+  .main { grid-area: main; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+  .toolbar {
+    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+    padding: 12px 20px; border-bottom: 1px solid var(--border);
+  }
+  .toolbar input[type="search"] { flex: 1; min-width: 140px; }
+  .table-wrap { flex: 1; overflow: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    position: sticky; top: 0; z-index: 5;
+    text-align: left; font-weight: 600; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint);
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 9px 14px; white-space: nowrap;
+  }
+  tbody td { padding: 9px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tbody tr { cursor: pointer; }
+  tbody tr:hover { background: var(--surface-2); }
+  tbody tr.selected { background: var(--accent-wash); }
+  td.id { font-family: "IBM Plex Mono"; color: var(--text-dim); white-space: nowrap; }
+  td.title { max-width: 360px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td.num { font-family: "IBM Plex Mono"; font-variant-numeric: tabular-nums; text-align: right; color: var(--text-dim); white-space: nowrap; }
+  td.note-flag { text-align: center; }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 2px 9px; border-radius: 100px;
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .pill .dot { width: 6px; height: 6px; border-radius: 50%; }
+  /* outcome_class is a generic semantic bucket any batch type can map its own
+     result labels into — "Can Try" (job fit), "needs review" (moderation),
+     "low confidence" (extraction) all just pick one of these five buckets. */
+  .pill.v-positive { background: var(--ok-wash); color: var(--ok); }
+  .pill.v-positive .dot { background: var(--ok); }
+  .pill.v-caution { background: var(--warn-wash); color: var(--warn); }
+  .pill.v-caution .dot { background: var(--warn); }
+  .pill.v-negative { background: var(--err-wash); color: var(--err); }
+  .pill.v-negative .dot { background: var(--err); }
+  .pill.v-excluded { background: var(--block-wash); color: var(--block); }
+  .pill.v-excluded .dot { background: var(--block); }
+  .pill.v-neutral { background: var(--queued-wash); color: var(--queued); }
+  .pill.v-neutral .dot { background: var(--queued); }
+  .pill.v-queued, .pill.v-running { background: var(--queued-wash); color: var(--queued); }
+  .pill.v-queued .dot, .pill.v-running .dot { background: var(--queued); }
+  .pill.v-running .dot { animation: pulse 1.2s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+  .note-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+  .empty-state { padding: 60px 20px; text-align: center; color: var(--text-faint); }
+
+  /* ── detail panel ──────────────────────────────────── */
+  .scrim {
+    position: fixed; inset: 0; background: rgba(10, 12, 14, 0.35);
+    z-index: 40; opacity: 0; pointer-events: none; transition: opacity 0.15s ease;
+  }
+  .scrim.open { opacity: 1; pointer-events: auto; }
+  .panel {
+    position: fixed; top: 0; right: 0; height: 100%; width: min(560px, 100vw);
+    background: var(--surface); border-left: 1px solid var(--border);
+    box-shadow: var(--shadow); z-index: 41;
+    transform: translateX(100%); transition: transform 0.18s ease;
+    display: flex; flex-direction: column;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .panel.open { transform: translateX(0); }
+  .panel-head {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 18px 20px 14px; border-bottom: 1px solid var(--border);
+  }
+  .panel-head .id { font-family: "IBM Plex Mono"; font-size: 12px; color: var(--text-faint); }
+  .panel-head h3 { margin: 3px 0 0; font-size: 16px; font-weight: 600; text-wrap: balance; }
+  .panel-head .close { margin-left: auto; background: transparent; border: none; font-size: 18px; color: var(--text-faint); padding: 2px 6px; }
+  .panel-head .close:hover { color: var(--text); }
+  .panel-body { flex: 1; overflow-y: auto; padding: 16px 20px 24px; display: flex; flex-direction: column; gap: 18px; }
+
+  .kv-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .kv-tile { background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+  .kv-tile .v { font-family: "IBM Plex Mono"; font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .kv-tile .k { color: var(--text-faint); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
+
+  .block-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--text-faint); margin-bottom: 6px; display: flex; align-items: center; gap: 8px;
+  }
+  .block-label .copy-btn { margin-left: auto; font-size: 11px; padding: 2px 8px; border-radius: 5px; }
+  pre.transcript {
+    margin: 0; white-space: pre-wrap; word-break: break-word;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 9px;
+    padding: 12px 13px; font-family: "IBM Plex Mono"; font-size: 12px; line-height: 1.55;
+    max-height: 340px; overflow-y: auto; color: var(--text);
+  }
+  .error-block {
+    background: var(--err-wash); border: 1px solid color-mix(in srgb, var(--err) 35%, transparent);
+    color: var(--err); border-radius: 9px; padding: 10px 12px; font-family: "IBM Plex Mono"; font-size: 12px;
+    white-space: pre-wrap; word-break: break-word;
+  }
+
+  .note-area textarea { width: 100%; min-height: 72px; resize: vertical; font-family: "IBM Plex Sans"; }
+  .note-row { display: flex; gap: 8px; margin-top: 8px; align-items: center; }
+  .note-status { font-size: 11px; color: var(--text-faint); }
+  .note-status.open { color: var(--accent-strong); font-weight: 600; }
+
+  footer.credit {
+    grid-column: 1 / -1;
+  }
+</style>
+
+<div class="shell" id="app">
+  <div class="topbar">
+    <div class="brand">
+      <span class="mark"></span>
+      <h1>Delegate Ops</h1>
+      <span class="sub">batch-delegate task manager</span>
+    </div>
+    <select id="runSelect" aria-label="Select run"></select>
+    <div class="live-dot"><span class="pip" id="livePip"></span><span id="liveLabel">connecting…</span></div>
+  </div>
+
+  <aside class="rail">
+    <section>
+      <h2>Run</h2>
+      <div class="stat-grid">
+        <div class="stat-tile"><div class="n" id="statTotal">–</div><div class="l">items</div></div>
+        <div class="stat-tile"><div class="n" id="statDone">–</div><div class="l">done</div></div>
+        <div class="stat-tile"><div class="n" id="statRunning">–</div><div class="l">running</div></div>
+        <div class="stat-tile"><div class="n" id="statFailed">–</div><div class="l">failed</div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Outcome distribution</h2>
+      <div id="outcomeBars"></div>
+    </section>
+
+    <section>
+      <h2>Usage</h2>
+      <div class="cost-line"><span>Input tokens</span><b id="uIn">–</b></div>
+      <div class="cost-line"><span>Output tokens</span><b id="uOut">–</b></div>
+      <div class="cost-line"><span>Thinking tokens</span><b id="uThink">–</b></div>
+      <div class="cost-line"><span>Avg call time</span><b id="uAvgMs">–</b></div>
+    </section>
+
+    <section>
+      <h2>Flagged for requeue</h2>
+      <div class="cost-line"><span>Open notes</span><b id="uNotes">0</b></div>
+    </section>
+  </aside>
+
+  <main class="main">
+    <div class="toolbar">
+      <input type="search" id="searchBox" placeholder="Search id or title…" aria-label="Search items">
+      <select id="outcomeFilter" aria-label="Filter by outcome">
+        <option value="">All outcomes</option>
+      </select>
+      <select id="statusFilter" aria-label="Filter by status">
+        <option value="">All status</option>
+        <option value="done">Done</option>
+        <option value="running">Running</option>
+        <option value="queued">Queued</option>
+        <option value="failed">Failed</option>
+      </select>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="width:64px">ID</th>
+            <th>Title</th>
+            <th style="width:100px">Outcome</th>
+            <th style="width:56px">Score</th>
+            <th style="width:70px">In tok</th>
+            <th style="width:70px">Out tok</th>
+            <th style="width:64px">Time</th>
+            <th style="width:32px"></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div class="empty-state" id="emptyState" hidden>No items match.</div>
+    </div>
+  </main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle">
+  <div class="panel-head">
+    <div>
+      <div class="id" id="panelId">–</div>
+      <h3 id="panelTitle">–</h3>
+    </div>
+    <button class="close" id="panelClose" aria-label="Close">✕</button>
+  </div>
+  <div class="panel-body" id="panelBody"></div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var state = { runs: [], currentRun: null, items: [], selectedId: null, unsub: null };
+
+  function fmtNum(n) {
+    if (n === null || n === undefined) return "–";
+    return Number(n).toLocaleString();
+  }
+  function fmtMs(ms) {
+    if (ms === null || ms === undefined) return "–";
+    if (ms < 1000) return ms + "ms";
+    return (ms / 1000).toFixed(1) + "s";
+  }
+  function esc(s) {
+    var d = document.createElement("div");
+    d.textContent = s === undefined || s === null ? "" : String(s);
+    return d.innerHTML;
+  }
+
+  // outcome_class is the generic semantic bucket a batch assigns its own
+  // outcome label to: positive | caution | negative | excluded | neutral.
+  // Unset defaults to neutral rather than guessing from the label text —
+  // a batch with no natural pass/fail concept (e.g. a summarizer) just
+  // leaves every item neutral, which is fine and not a placeholder state.
+  function outcomeClass(it) {
+    var oc = it.outcome_class;
+    if (oc === "positive" || oc === "caution" || oc === "negative" || oc === "excluded") return "v-" + oc;
+    return "v-neutral";
+  }
+  function statusClass(s) {
+    if (s === "running") return "v-running";
+    if (s === "failed") return "v-negative";
+    if (s === "queued") return "v-queued";
+    return "v-positive";
+  }
+
+  // ── rendering ──────────────────────────────────────────
+  function renderRunSelect() {
+    var sel = document.getElementById("runSelect");
+    sel.innerHTML = "";
+    if (!state.runs.length) {
+      var opt = document.createElement("option");
+      opt.value = ""; opt.textContent = "No runs yet";
+      sel.appendChild(opt);
+      return;
+    }
+    state.runs.forEach(function (r) {
+      var opt = document.createElement("option");
+      opt.value = r.id;
+      opt.textContent = r.name || r.id;
+      sel.appendChild(opt);
+    });
+    if (state.currentRun) sel.value = state.currentRun;
+  }
+
+  function computeStats(items) {
+    var s = {
+      total: items.length, done: 0, running: 0, queued: 0, failed: 0,
+      outcomeCounts: {}, // built dynamically — whatever outcome labels this batch actually used
+      inTok: 0, outTok: 0, thinkTok: 0, msSum: 0, msCount: 0,
+      openNotes: 0,
+    };
+    items.forEach(function (it) {
+      if (it.status === "done") s.done++;
+      else if (it.status === "running") s.running++;
+      else if (it.status === "failed") s.failed++;
+      else s.queued++;
+      if (it.outcome) {
+        s.outcomeCounts[it.outcome] = (s.outcomeCounts[it.outcome] || 0) + 1;
+      }
+      var st = it.stats || {};
+      if (typeof st.input_tokens === "number") s.inTok += st.input_tokens;
+      if (typeof st.output_tokens === "number") s.outTok += st.output_tokens;
+      if (typeof st.thinking_tokens === "number") s.thinkTok += st.thinking_tokens;
+      if (typeof st.wall_ms === "number") { s.msSum += st.wall_ms; s.msCount++; }
+      if (it.note && it.note_status === "open") s.openNotes++;
+      if (it.outcome && !s.outcomeClassByLabel) s.outcomeClassByLabel = {};
+      if (it.outcome && s.outcomeClassByLabel && !s.outcomeClassByLabel[it.outcome]) {
+        s.outcomeClassByLabel[it.outcome] = outcomeClass(it);
+      }
+    });
+    return s;
+  }
+
+  var CLASS_COLOR = {
+    "v-positive": "var(--ok)", "v-caution": "var(--warn)",
+    "v-negative": "var(--err)", "v-excluded": "var(--block)", "v-neutral": "var(--queued)",
+  };
+
+  function renderRail() {
+    var items = state.items;
+    var s = computeStats(items);
+    document.getElementById("statTotal").textContent = fmtNum(s.total);
+    document.getElementById("statDone").textContent = fmtNum(s.done);
+    document.getElementById("statRunning").textContent = fmtNum(s.running);
+    document.getElementById("statFailed").textContent = fmtNum(s.failed);
+
+    var bars = document.getElementById("outcomeBars");
+    bars.innerHTML = "";
+    var labels = Object.keys(s.outcomeCounts).sort(function (a, b) { return s.outcomeCounts[b] - s.outcomeCounts[a]; });
+    var max = Math.max.apply(null, labels.map(function (l) { return s.outcomeCounts[l]; }).concat([1]));
+    if (!labels.length) {
+      bars.innerHTML = '<div style="color:var(--text-faint);font-size:12px">No outcomes recorded yet</div>';
+    }
+    labels.forEach(function (label) {
+      var count = s.outcomeCounts[label];
+      var cls = (s.outcomeClassByLabel && s.outcomeClassByLabel[label]) || "v-neutral";
+      var color = CLASS_COLOR[cls] || CLASS_COLOR["v-neutral"];
+      var row = document.createElement("div");
+      row.className = "bar-row";
+      row.innerHTML = '<div class="lbl" title="' + esc(label) + '">' + esc(label) + '</div>' +
+        '<div class="track"><div class="fill" style="width:' + (count / max * 100) + '%;background:' + color + '"></div></div>' +
+        '<div class="cnt">' + count + "</div>";
+      bars.appendChild(row);
+    });
+
+    document.getElementById("uIn").textContent = fmtNum(s.inTok);
+    document.getElementById("uOut").textContent = fmtNum(s.outTok);
+    document.getElementById("uThink").textContent = fmtNum(s.thinkTok);
+    document.getElementById("uAvgMs").textContent = s.msCount ? fmtMs(Math.round(s.msSum / s.msCount)) : "–";
+    document.getElementById("uNotes").textContent = fmtNum(s.openNotes);
+  }
+
+  function populateOutcomeFilter() {
+    var sel = document.getElementById("outcomeFilter");
+    var current = sel.value;
+    var labels = Array.from(new Set(state.items.map(function (it) { return it.outcome; }).filter(Boolean))).sort();
+    sel.innerHTML = '<option value="">All outcomes</option>';
+    labels.forEach(function (l) {
+      var opt = document.createElement("option");
+      opt.value = l; opt.textContent = l;
+      sel.appendChild(opt);
+    });
+    if (labels.indexOf(current) > -1) sel.value = current;
+  }
+
+  function filteredItems() {
+    var q = document.getElementById("searchBox").value.trim().toLowerCase();
+    var vf = document.getElementById("outcomeFilter").value;
+    var sf = document.getElementById("statusFilter").value;
+    return state.items.filter(function (it) {
+      if (q && !((it.id || "").toLowerCase().indexOf(q) > -1 || (it.title || "").toLowerCase().indexOf(q) > -1)) return false;
+      if (vf && it.outcome !== vf) return false;
+      if (sf && it.status !== sf) return false;
+      return true;
+    });
+  }
+
+  function renderTable() {
+    populateOutcomeFilter();
+    var tbody = document.getElementById("tbody");
+    var rows = filteredItems();
+    var emptyEl = document.getElementById("emptyState");
+    emptyEl.hidden = rows.length > 0;
+    if (!rows.length) {
+      // Distinguish "nothing pushed yet" (a real, connected, waiting state)
+      // from "your filter matched nothing" — the same blank table looks
+      // broken without this, especially right after first publishing with
+      // no data pushed.
+      emptyEl.textContent = state.items.length
+        ? "No items match the current filter."
+        : "No items yet. Waiting for a batch-delegate run to push data (see references/dashboard.md).";
+    }
+    tbody.innerHTML = "";
+    rows.forEach(function (it) {
+      var tr = document.createElement("tr");
+      if (it.id === state.selectedId) tr.className = "selected";
+      var st = it.stats || {};
+      var pillLabel = it.status === "done" ? (it.outcome || "done") : it.status;
+      var pillCls = it.status === "done" ? outcomeClass(it) : statusClass(it.status);
+      tr.innerHTML =
+        '<td class="id">' + esc(it.id) + "</td>" +
+        '<td class="title" title="' + esc(it.title) + '">' + esc(it.title || "—") + "</td>" +
+        '<td><span class="pill ' + pillCls + '"><span class="dot"></span>' + esc(pillLabel) + "</span></td>" +
+        '<td class="num">' + (typeof it.score === "number" ? it.score.toFixed(1) : "—") + "</td>" +
+        '<td class="num">' + fmtNum(st.input_tokens) + "</td>" +
+        '<td class="num">' + fmtNum(st.output_tokens) + "</td>" +
+        '<td class="num">' + fmtMs(st.wall_ms) + "</td>" +
+        '<td class="note-flag">' + (it.note ? '<span class="note-dot" title="has a note"></span>' : "") + "</td>";
+      tr.addEventListener("click", function () { openPanel(it.id); });
+      tbody.appendChild(tr);
+    });
+  }
+
+  function render() {
+    renderRunSelect();
+    renderRail();
+    renderTable();
+  }
+
+  // ── detail panel ───────────────────────────────────────
+  function findItem(id) {
+    return state.items.filter(function (it) { return it.id === id; })[0];
+  }
+
+  function openPanel(id) {
+    state.selectedId = id;
+    var it = findItem(id);
+    if (!it) return;
+    document.getElementById("panelId").textContent = it.id + (it.team ? "  ·  " + it.team : "");
+    document.getElementById("panelTitle").textContent = it.title || it.id;
+
+    var st = it.stats || {};
+    var body = document.getElementById("panelBody");
+    var html = "";
+
+    html += '<div class="kv-grid">' +
+      kvTile(it.status === "done" ? (it.outcome || "done") : it.status, "outcome") +
+      kvTile(typeof it.score === "number" ? it.score.toFixed(1) : "—", "score") +
+      kvTile(it.attempts ? it.attempts + "x" : "1x", "attempts") +
+      kvTile(fmtNum(st.input_tokens), "in tokens") +
+      kvTile(fmtNum(st.output_tokens), "out tokens") +
+      kvTile(fmtMs(st.wall_ms), "wall time") +
+      "</div>";
+
+    if (it.summary) {
+      html += '<div><div class="block-label">Summary</div><pre class="transcript">' + esc(it.summary) + "</pre></div>";
+    }
+
+    if (it.error) {
+      html += '<div><div class="block-label">Error</div><div class="error-block">' + esc(it.error) + "</div></div>";
+    }
+
+    html += '<div><div class="block-label">Prompt sent<button class="ghost copy-btn" data-copy="prompt">copy</button></div>' +
+      '<pre class="transcript" id="promptBlock">' + esc(it.prompt || "(not captured)") + "</pre></div>";
+
+    html += '<div><div class="block-label">Raw response<button class="ghost copy-btn" data-copy="response">copy</button></div>' +
+      '<pre class="transcript" id="responseBlock">' + esc(it.raw_response || "(not captured)") + "</pre></div>";
+
+    if (st.session_id) {
+      html += '<div class="kv-grid">' +
+        kvTile(st.session_id.slice(0, 8), "session") +
+        kvTile(fmtMs(st.ttft_ms), "time to first token") +
+        "</div>";
+    }
+
+    html += '<div class="note-area"><div class="block-label">Note ' +
+      '<span class="note-status' + (it.note_status === "open" ? " open" : "") + '" id="noteStatus">' +
+      (it.note_status === "open" ? "flagged for requeue" : "") + "</span></div>" +
+      '<textarea id="noteInput" placeholder="Add a note or instruction for a follow-up pass on this item…">' + esc(it.note || "") + "</textarea>" +
+      '<div class="note-row"><button class="primary" id="flagBtn">Flag for requeue</button>' +
+      '<button class="ghost" id="clearNoteBtn">Clear note</button></div></div>';
+
+    body.innerHTML = html;
+
+    body.querySelectorAll("[data-copy]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var text = btn.getAttribute("data-copy") === "prompt" ? (it.prompt || "") : (it.raw_response || "");
+        navigator.clipboard && navigator.clipboard.writeText(text).catch(function () {});
+        btn.textContent = "copied";
+        setTimeout(function () { btn.textContent = "copy"; }, 1200);
+      });
+    });
+
+    var flagBtn = document.getElementById("flagBtn");
+    if (flagBtn) flagBtn.addEventListener("click", function () { saveNote(it, "open"); });
+    var clearBtn = document.getElementById("clearNoteBtn");
+    if (clearBtn) clearBtn.addEventListener("click", function () { saveNote(it, null); });
+
+    document.getElementById("panel").classList.add("open");
+    document.getElementById("scrim").classList.add("open");
+    renderTable();
+  }
+
+  function kvTile(v, k) {
+    return '<div class="kv-tile"><div class="v">' + esc(v) + '</div><div class="k">' + esc(k) + "</div></div>";
+  }
+
+  function closePanel() {
+    document.getElementById("panel").classList.remove("open");
+    document.getElementById("scrim").classList.remove("open");
+    state.selectedId = null;
+    renderTable();
+  }
+
+  async function saveNote(item, status) {
+    var textEl = document.getElementById("noteInput");
+    var text = textEl ? textEl.value.trim() : "";
+    if (status === "open" && !text) { textEl && textEl.focus(); return; }
+    var db = await claude.use("db");
+    if (!db) return;
+    var ref = db.collection("runs/" + state.currentRun + "/items").doc(item.id);
+    try {
+      await ref.update({ note: status === "open" ? text : "", note_status: status || null });
+    } catch (e) { /* store unavailable in this view — note stays local-only */ }
+  }
+
+  // ── wiring ─────────────────────────────────────────────
+  document.getElementById("panelClose").addEventListener("click", closePanel);
+  document.getElementById("scrim").addEventListener("click", closePanel);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closePanel(); });
+  document.getElementById("searchBox").addEventListener("input", renderTable);
+  document.getElementById("outcomeFilter").addEventListener("change", renderTable);
+  document.getElementById("statusFilter").addEventListener("change", renderTable);
+  document.getElementById("runSelect").addEventListener("change", function (e) {
+    subscribeRun(e.target.value);
+  });
+
+  function setLive(ok) {
+    var pip = document.getElementById("livePip");
+    var label = document.getElementById("liveLabel");
+    if (ok) { pip.classList.remove("stale"); label.textContent = "live"; }
+    else { pip.classList.add("stale"); label.textContent = "static view"; }
+  }
+
+  async function subscribeRun(runId) {
+    if (state.unsub) { state.unsub(); state.unsub = null; }
+    state.currentRun = runId;
+    var db = await claude.use("db");
+    if (!db) { setLive(false); return; }
+    state.unsub = db.collection("runs/" + runId + "/items").orderBy("id", "asc").limit(1000).onSnapshot(
+      function (snap) {
+        state.items = snap.docs.map(function (d) { return d.data(); });
+        setLive(true);
+        render();
+      },
+      function () { setLive(false); }
+    );
+  }
+
+  async function boot() {
+    var db = await claude.use("db");
+    if (!db) { setLive(false); render(); return; }
+    db.collection("runs").orderBy("created_at", "desc").limit(20).onSnapshot(
+      function (snap) {
+        // The connection is live as soon as THIS subscription delivers a
+        // snapshot — even an empty one (no runs pushed yet is a real state,
+        // not a failure). Gating "live" behind subscribeRun() instead (which
+        // only runs once a run exists) left a fresh, correctly-connected,
+        // simply-empty dashboard stuck on "connecting…" forever — the
+        // connection was fine, nothing ever told the UI so.
+        setLive(true);
+        state.runs = snap.docs.map(function (d) {
+          // d.data() can return a frozen/non-extensible snapshot object —
+          // mutating it directly (`v.id = d.id`) throws a TypeError under
+          // "use strict", which silently aborted this whole handler right
+          // after setLive(true) and before state.runs/render() ever ran.
+          // Build a new object instead of mutating the snapshot's.
+          return Object.assign({}, d.data(), { id: d.id });
+        });
+        if (state.runs.length && !state.currentRun) {
+          subscribeRun(state.runs[0].id);
+        }
+        renderRunSelect();
+        render();
+      },
+      function () { setLive(false); }
+    );
+  }
+
+  boot();
+})();
+</script>

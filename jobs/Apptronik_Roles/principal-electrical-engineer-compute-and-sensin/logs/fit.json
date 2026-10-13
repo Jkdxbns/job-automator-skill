@@ -1,0 +1,106 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Principal Compute & Sensing Engineer",
+  "job_slug": "principal-electrical-engineer-compute-and-sensin",
+  "match_pct": 40.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 1,
+    "missing_count": 6,
+    "jd_ask_size": 11,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "NVIDIA Jetson embedded compute integration",
+    "Multi-sensor robotics perception (YOLO, ToF sensors, ROS, OpenCV)",
+    "PCB design and embedded electronics (EAGLE, bare-metal C, FreeRTOS)",
+    "Embedded C / bare-metal firmware development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-sensor suite with hardware-level time synchronization",
+      "you_have": "Multi-sensor robotics integration (cameras, ToF) via ROS and embedded interfaces"
+    }
+  ],
+  "missing_skills": [
+    "12+ years of high-performance hardware design experience in robotics, autonomous vehicles, or aerospace",
+    "Hands-on Functional Safety architecture and ISO 26262 / ASIL / SIL implementation experience",
+    "Mastery-level experience with PCIe, DDR4/5, GMSL, and 10GbE interfaces",
+    "Custom NVIDIA Jetson carrier board design expertise (candidate uses Jetson but has not designed carrier boards)",
+    "Altium Designer, SPICE, Ansys, or HyperLynx tool proficiency",
+    "Production-scale DFM/DFR design for mobile humanoid robot compute modules"
+  ],
+  "top_ats_keywords": [
+    "Principal Electrical Engineer",
+    "Compute",
+    "Sensing",
+    "NVIDIA Jetson",
+    "PCB Design",
+    "PDN",
+    "Signal Integrity",
+    "Functional Safety",
+    "ISO 26262",
+    "ASIL",
+    "SIL",
+    "GMSL",
+    "GigE",
+    "MIPI",
+    "Sensor Fusion",
+    "LiDAR",
+    "Depth Camera",
+    "IMU",
+    "Tactile Sensor",
+    "DFM",
+    "DFR",
+    "Robotics"
+  ],
+  "required_skills": [
+    "Custom carrier board design for NVIDIA Jetson or similar high-end compute modules",
+    "Mastery of high-speed digital design (PCIe, DDR4/5, GMSL, 10GbE)",
+    "Experience integrating multi-sensor suites with precise hardware-level time synchronization",
+    "Hands-on experience with Functional Safety architecture (ISO 26262 or equivalent)",
+    "Proficiency with Altium Designer (or similar) and hardware simulation tools (SPICE, Ansys, or HyperLynx)",
+    "Manufacturing/reliability design (DFM/DFR) for high-vibration/dynamic-thermal mobile systems"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 12,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own end-to-end safe compute architecture for humanoid robot (SoC/FPGA/MCU selection, redundancy)",
+    "Lead custom carrier board design for high-performance modules (PDN, thermal, signal integrity)",
+    "Drive DFM/DFR for compute modules in high-vibration/dynamic-thermal mobile environments",
+    "Define electrical architecture for multi-modal perception (LiDAR, depth cameras, IMUs, tactile)",
+    "Architect high-bandwidth sensor-fusion pipelines and synchronization protocols (GigE, GMSL2, USB 3.0, MIPI)",
+    "Drive Functional Safety architecture to meet ASIL/SIL (ISO 26262 or equivalent)",
+    "Design hardware redundancy, fail-safe mechanisms, and Built-In Tests (BIT)",
+    "Implement real-time hardware diagnostics for compute/sensing backbone",
+    "Define multi-generational technical roadmap for compute/sensing evolution",
+    "Act as ultimate technical authority during cross-functional design reviews",
+    "Mentor electrical and embedded engineers"
+  ],
+  "role_category": "other",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

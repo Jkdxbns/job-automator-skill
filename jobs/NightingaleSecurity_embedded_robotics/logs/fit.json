@@ -1,0 +1,24 @@
+{
+  "company": "Embedded Robotics Drone Co (Generic)",
+  "company_slug": "drone",
+  "role": "Embedded Robotics Engineer",
+  "job_slug": "embeddedrobotics",
+  "match_pct": null,
+  "missing_skills": ["sensor fusion", "state estimation", "EKF", "PX4", "MAVLink"],
+  "adjacent_skills": ["IMU integration", "closed-loop control", "ESC/PWM motor control"],
+  "top_ats_keywords": [
+    "embedded C/C++", "real-time", "FreeRTOS", "flight controller", "ESC",
+    "PWM", "UART", "I2C", "SPI", "ROS 2", "perception", "computer vision",
+    "YOLO", "TensorRT", "NVIDIA Jetson", "sensor integration", "Linux",
+    "STM32", "bare-metal", "visual servoing", "autonomy", "PCB design"
+  ],
+  "key_responsibilities": [
+    "Develop real-time embedded firmware for flight/robotics controllers",
+    "Integrate sensors (IMU, ToF, cameras) over UART/I2C/SPI",
+    "Build perception pipelines (CV/ML) running on edge compute",
+    "Bring up and debug hardware; motor/ESC control loops",
+    "Deploy autonomy software on Linux/ROS 2 edge platforms"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Synthetic (generic archetype)", "apply": "N/A — generic build"}
+}

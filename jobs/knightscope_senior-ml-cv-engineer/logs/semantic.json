@@ -1,0 +1,36 @@
+{
+ "llm_match_pct": 47,
+ "llm_verdict": "Partial Fit",
+ "strengths": [
+  "Detection train/eval/export loop is real: YOLOv8n on 1,133 annotated images at 83% mAP@50 exported to ONNX/TFLite (Tusk); YOLO11n mAP50~0.85 on ~5,000 auto-generated frames (CARLA)",
+  "Latency work with measured results: TensorRT YOLO 56.7 to 10.9 ms (5.2x, 17.6 to 92 FPS) in COFFIN, plus custom CUDA kernels for VGG16 (49.2 vs 73.3 ms)",
+  "Edge deployment on Jetson as a systemd service with auto-restart and non-root isolation, which covers the on-device nice-to-have",
+  "Audio modeling depth beyond API calls: Whisper-style ASR from scratch (80-ch mel encoder, causal Transformer decoder, 15% WER) and faster-whisper STT in a live pipeline",
+  "Evaluation discipline across projects: mAP, IoU, Dice, WER, perplexity, accuracy-vs-latency trade-offs"
+ ],
+ "real_gaps": [
+  "No production ML at scale: no multi-tenant serving, load, fleet or SLA ownership. Everything is capstone, research or internship scope",
+  "No MLOps: no model registry, CI/CD for models, drift or monitoring, A/B or shadow deployment",
+  "No inheriting or reverse-engineering someone else's model codebase, and no vendor knowledge transfer",
+  "No audio event or sound detection (gunshot, glass break, alarm) and no fused audio+video detector. Audio work is speech recognition only",
+  "No video-stream detection: no RTSP/streaming ingest, tracking across frames, temporal models or multi-camera deployment",
+  "No security or public-space detection domain; no precision/recall work on a false-alarm-sensitive operational system"
+ ],
+ "overstated_by_keywords": [
+  "Multimodal counted Adjacent via SmolVLA, but SmolVLA is not in master_profile.json. The profile's real multimodal work is an STT + LLM + YOLO pipeline with each model separate, not a fused audio+video detector",
+  "Model serving counted Adjacent via TensorRT/Flask. That is single-device edge inference behind a Flask-SocketIO server, not a streaming inference backend",
+  "Training pipeline and inference counted Have, but at single-GPU, small-dataset scale"
+ ],
+ "understated_by_keywords": [
+  "From-scratch mel-spectrogram front end and Transformer decoder is genuine audio-DL depth the keyword pass only credited as ASR",
+  "BARC image pipeline (wavelet denoising, PSNR 86, depth estimation) shows classical signal processing applied to imaging, relevant to robust video and audio front ends",
+  "Auto-generated labeled data with occlusion filtering (CARLA) shows data-curation thinking for detection quality"
+ ],
+ "screening_gaps": [
+  "No production ML ownership at scale: the JD centers on owning a live detection engine, and nothing in the profile is deployed to real users",
+  "No audio or video detection model in production: ASR and object detection exist separately, but no fused audio/video event detection",
+  "No MLOps or monitoring experience, and no history of taking over a third-party model codebase, which is the stated core of the job"
+ ],
+ "recommend_apply": false,
+ "reasoning": "Roughly a third to a half of the role is backed: detection training, latency optimization and edge deployment are concrete, with measured results. The core of the job, owning a production audio/video detection engine inherited from a vendor and improving it over time, has no direct evidence. Seniority is noted separately by the keyword read, but even on skills alone the production, MLOps and audio-event gaps are what a screener would reject on."
+}

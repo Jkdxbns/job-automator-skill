@@ -1,0 +1,198 @@
+{
+  "company": "Octopus Energy",
+  "company_slug": "octopus-energy",
+  "role": "Embedded Firmware Engineer (IoT)",
+  "job_slug": "embedded-firmware-engineer-iot",
+  "match_pct": 58.9,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 28,
+    "req_cov": 0.788,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "RTOS",
+    "FreeRTOS",
+    "Python",
+    "Bash",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "oscilloscopes",
+    "multimeters",
+    "logic analyzers",
+    "BLE",
+    "B.S. Computer Science or Electronic Engineering"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "RS232",
+      "you_have": "UART"
+    },
+    {
+      "jd_skill": "networking fundamentals (MAC, IP, TCP, TLS, DHCP)",
+      "you_have": "Static IP / network configuration, websocket"
+    },
+    {
+      "jd_skill": "JTAG/SWD debugging",
+      "you_have": "STM32 Cortex-M4 bring-up/debug tooling"
+    },
+    {
+      "jd_skill": "multi-system IoT ecosystems",
+      "you_have": "Jetson+Arduino multi-board robotics systems"
+    },
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Bluetooth/BLE wireless connectivity experience"
+    }
+  ],
+  "missing_skills": [
+    "Modbus",
+    "secure boot",
+    "encrypted flash",
+    "public key cryptography",
+    "ESP32",
+    "ESP-IDF",
+    "AWS IoT",
+    "OTA firmware updates",
+    "Zigbee"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "RTOS",
+    "FreeRTOS",
+    "Python",
+    "Bash",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "RS232",
+    "Modbus",
+    "TCP",
+    "TLS",
+    "DHCP",
+    "secure boot",
+    "JTAG",
+    "SWD",
+    "oscilloscope",
+    "ESP32",
+    "AWS IoT",
+    "OTA",
+    "BLE",
+    "Wi-Fi",
+    "Zigbee"
+  ],
+  "required_skills": [
+    "C for real-time constrained microcontrollers",
+    "vendor APIs",
+    "RTOS",
+    "FreeRTOS",
+    "Python",
+    "Bash",
+    "Git",
+    "schematics and datasheets reading",
+    "SPI",
+    "I2C",
+    "UART",
+    "RS232",
+    "Modbus",
+    "networking fundamentals (MAC, IP, TCP, TLS, DHCP)",
+    "secure boot",
+    "encrypted flash",
+    "TLS",
+    "public key cryptography",
+    "board bring-up",
+    "design validation",
+    "code optimization",
+    "JTAG/SWD debugging",
+    "oscilloscopes",
+    "multimeters",
+    "logic analyzers",
+    "B.S. Computer Science or Electronic Engineering"
+  ],
+  "preferred_skills": [
+    "ESP32",
+    "ESP-IDF",
+    "AWS IoT",
+    "OTA firmware updates",
+    "automated build environments",
+    "BLE",
+    "Wi-Fi",
+    "Zigbee",
+    "multi-system IoT ecosystems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Write firmware for Octopus Smart Home Wi-Fi connected devices",
+    "Own IoT products/features end to end",
+    "Collaborate with hardware and software teams",
+    "Investigate and resolve bugs, implement features",
+    "Participate in code reviews",
+    "Drive firmware lifecycle from requirements to field deployment"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Remote (UK) / occasional travel to London and Slough",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal STM32 Cortex-M4 C at the register level (GPIO/TIM2/ADC1/I2C1 direct peripheral programming) in the Temperature Monitor and Object Tracking Turret projects \u2014 deeper than typical vendor-API-only firmware work",
+      "FreeRTOS hands-on with mutex-based shared-memory task coordination (Object Tracking Turret), not just a listed keyword",
+      "SPI/I2C/UART used across multiple real projects: TCA9548A I2C mux in COFFIN, UART Jetson-to-STM32 command link in the Turret, low-level I2C driver in the Temperature Monitor",
+      "Custom PCB design and fabrication in EAGLE plus board bring-up/validation backed by owned oscilloscopes, multimeters and logic analyzers",
+      "COFFIN capstone is a genuine three-tier embedded-to-edge distributed system (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller over a WebSocket fabric) deployed as a systemd service with static-IP networking \u2014 real field-deployment and networking experience beyond what the keyword list captured",
+      "Hands-on BLE (HC-05 Bluetooth) integration in the Planctech wearable project"
+    ],
+    "real_gaps": [
+      "No evidence anywhere of IoT security practice: secure boot, encrypted flash, TLS, or public key cryptography",
+      "No RS232 or Modbus protocol experience",
+      "No ESP32 / ESP-IDF experience",
+      "No cloud IoT platform experience (AWS IoT or equivalent)",
+      "No OTA firmware update pipeline experience inside an automated build environment",
+      "No Zigbee experience"
+    ],
+    "overstated_by_keywords": [
+      "\"networking fundamentals (MAC, IP, TCP, TLS, DHCP)\" was counted Adjacent off \"Static IP/network config\", but TLS specifically has zero backing anywhere in the profile",
+      "\"JTAG/SWD debugging\" was marked Adjacent via general STM32 bring-up, but no JTAG/SWD debugger or probe is named anywhere in the profile"
+    ],
+    "understated_by_keywords": [
+      "COFFIN's systemd-deployed, multi-device, static-IP WebSocket architecture is a real analog to \"firmware lifecycle from requirements to field deployment\" that the keyword pass never credited",
+      "FreeRTOS mutex-based task coordination in the Object Tracking Turret is genuine RTOS design experience, not a surface keyword hit"
+    ],
+    "screening_gaps": [
+      "Zero evidence of IoT security fundamentals (secure boot, encrypted flash, TLS/PKI) \u2014 a connected-home company shipping network-attached devices is likely to probe this directly, and there is nothing in the profile to point to",
+      "No ESP32 experience \u2014 Wi-Fi-connected smart home hardware commonly runs on ESP32/ESP-IDF, and this profile has never touched that SoC family",
+      "No OTA or automated-build/cloud (AWS IoT) experience \u2014 \"ongoing field deployment\" and \"automated build environments\" in the JD imply CI/CD and OTA practice that is entirely unevidenced here"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded fundamentals are genuinely strong \u2014 bare-metal STM32 C, FreeRTOS, SPI/I2C/UART, PCB bring-up with real lab equipment \u2014 and the COFFIN capstone shows more real networking/deployment depth than the keyword pass credited. The gap is IoT-specific: secure boot/TLS/encrypted flash and ESP32/cloud/OTA practice are completely unevidenced, which is a real screening risk for a smart-home security-conscious employer but is learnable rather than a domain mismatch.",
+    "calibration_delta": -8.1
+  },
+  "semantic_pending": false
+}

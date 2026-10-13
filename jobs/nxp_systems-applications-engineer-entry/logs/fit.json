@@ -1,0 +1,43 @@
+{
+  "company": "NXP",
+  "company_slug": "nxp",
+  "role": "Systems & Applications Engineer, Entry Level",
+  "job_slug": "systems-applications-engineer-entry",
+  "match_pct": 80.0,
+  "missing_skills": ["Customer-facing presentation experience"],
+  "adjacent_skills": ["Keil/IAR/MCUxpresso (used STM32CubeIDE and general embedded debug/toolchain instead)"],
+  "top_ats_keywords": ["ARM", "Cortex-M4", "C/C++", "embedded systems", "peripheral testing", "chip debugging", "oscilloscopes", "power supplies", "function generators", "source code management"],
+  "key_responsibilities": [
+    "Customer applications support of NXP ARM-based microcontrollers",
+    "C/C++ code development for embedded systems and peripheral software examples",
+    "Embedded peripheral testing and chip debugging using IDE tools, oscilloscopes, power supplies, function generators",
+    "Testing chip signals, rise times, timing, clocks",
+    "Source code management and recording test results",
+    "Presenting technical material and interacting with customers"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "ARM Cortex-M4 bare-metal C with direct register programming (GPIO, TIM2, ADC1, I2C1) on STM32 Bare-Metal Temperature Monitor",
+      "FreeRTOS + STM32 UART peripheral integration under Object Tracking Turret",
+      "Git/GitLab source control experience from Python Developer Intern at BARC",
+      "Some technical presentation history via Agnel Robotics Club leadership (10+ exhibitions/workshops) and a 1st Prize poster presentation"
+    ],
+    "real_gaps": [
+      "No customer-facing applications support experience anywhere in the profile — all seven internships are internal R&D, not external customer support",
+      "No physical lab instrumentation depth (oscilloscope signal analysis, rise time, clock timing) backing the JD's core testing responsibilities — the one hardware-verification bullet cites Proteus simulation, not a physical oscilloscope",
+      "Named toolchains Keil, IAR, MCUxpresso have no direct evidence in the profile; STM32CubeIDE is the closest analog but isn't explicitly confirmed in any bullet"
+    ],
+    "overstated_by_keywords": [
+      "\"Oscilloscopes\" is listed as a Tools-section keyword and got full credit in the keyword match, but no project bullet actually describes oscilloscope-based signal debugging",
+      "\"Debugging tools/IDEs\" was marked Adjacent, but the real overlap with Keil/IAR/MCUxpresso is just general embedded IDE familiarity, not confirmed hands-on use of those specific tools"
+    ],
+    "reasoning": "Core ARM/bare-metal C/RTOS fundamentals are genuinely strong, but this role is closer to a field applications engineer than a firmware engineer — it leans on sustained customer interaction and physical instrumentation depth that don't show up anywhere in the profile. The 80% keyword match reads more confident than the underlying evidence supports."
+  }
+}

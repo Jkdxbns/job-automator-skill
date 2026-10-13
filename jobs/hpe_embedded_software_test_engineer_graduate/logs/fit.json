@@ -1,0 +1,94 @@
+{
+  "company": "HPE",
+  "company_slug": "hpe",
+  "role": "Embedded Software Test Engineer Graduate",
+  "job_slug": "embedded_software_test_engineer_graduate",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 16,
+    "req_cov": 0.55,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Embedded C (STM32/Arduino/FreeRTOS)",
+    "UART/I2C/SPI protocols",
+    "Debugging/code review",
+    "Linux (systemd/networking)",
+    "System architecture/design",
+    "Testing-adjacent (pipeline verification)"
+  ],
+  "missing_skills": [
+    "Go (explicit JD requirement)",
+    "Dedicated embedded SW testing / QA experience",
+    "Test plan/protocol/documentation authoring",
+    "Automated/manual test case maintenance",
+    "Device driver development/testing",
+    "Embedded Linux driver-level work"
+  ],
+  "adjacent_skills": [
+    {
+      "term": "Go",
+      "what_you_have": "Strong C/C++; can learn quickly"
+    },
+    {
+      "term": "Embedded Linux / device drivers",
+      "what_you_have": "Embedded bare-metal C; Linux admin/systemd"
+    },
+    {
+      "term": "Testing methodology",
+      "what_you_have": "Pipeline verification (COFFIN/ASR), debug experience"
+    },
+    {
+      "term": "Multiple platforms",
+      "what_you_have": "Embedded + robotics + cloud services"
+    }
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C",
+    "embedded software",
+    "embedded Linux",
+    "device drivers",
+    "test plans",
+    "testing methodology",
+    "debugging",
+    "test cases",
+    "system architecture",
+    "communication protocols"
+  ],
+  "key_responsibilities": [
+    "Collaborate with embedded developers on comprehensive test plans",
+    "Design/enhance/publish software tests",
+    "Author/execute testing plans/protocols",
+    "Develop and maintain manual/automated test cases",
+    "Collaborate on reliable/cost-effective solutions",
+    "Validate complex technical issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "calibration_delta": null,
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "experience_level_stated": "new-grad",
+  "required_experience_years": 0,
+  "clearance_required": false,
+  "defense_category_flagged": false,
+  "location": "Spring, TX",
+  "remote_ok": false,
+  "jd_text_preview": "Embedded Software Test Engineer Graduate ... Must graduate within 1 year before start date ... Proficiency with Python, C, Go ... embedded Linux, device drivers ..."
+}

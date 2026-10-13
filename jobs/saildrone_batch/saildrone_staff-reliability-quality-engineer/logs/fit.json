@@ -1,0 +1,134 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Staff Reliability and Quality Engineer",
+  "job_slug": "staff-reliability-quality-engineer",
+  "match_pct": 48.3,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 2,
+    "missing_count": 14,
+    "jd_ask_size": 29,
+    "req_cov": 0.1,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "I2C (serial protocols)",
+    "SPI (serial protocols)",
+    "TCP/IP (networking)",
+    "Bash",
+    "shell scripts",
+    "C++",
+    "Python",
+    "hardware debugging",
+    "testing and validation",
+    "embedded systems",
+    "troubleshooting",
+    "M.S. in technical field (exceeds Bachelor's requirement)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "hands-on troubleshooting and testing of electromechanical hardware",
+      "you_have": "embedded systems firmware development and hardware debugging"
+    },
+    {
+      "jd_skill": "quality and reliability methods applied to hardware",
+      "you_have": "testing and validation in embedded systems context"
+    }
+  ],
+  "missing_skills": [
+    "5-8+ years quality engineering experience (0 years full-time experience)",
+    "OEM or T1 automotive/aerospace/maritime/defense contractor experience",
+    "Quality methodologies (8D, FRACAS, FTA, FMEA)",
+    "Statistical and reliability analysis tools (ReliaSoft suite)",
+    "Reliability KPIs (MTBF, MTTF, MTTR, failure rate monitoring)",
+    "Weibull analysis and life-data analysis",
+    "RCA/CAPA process experience",
+    "MRB (Material Review Board) meeting experience",
+    "Six Sigma or ASQ CRE/CQE certifications",
+    "CAN bus protocol experience",
+    "RS-485 and RS-232 protocol experience",
+    "Remanufacturing and returned hardware disposition processes",
+    "Field performance monitoring and triage experience",
+    "Production reliability engineering at organizational scale"
+  ],
+  "top_ats_keywords": [
+    "field performance",
+    "reliability metrics",
+    "Weibull",
+    "MTBF",
+    "MTTF",
+    "MTTR",
+    "mission success rate",
+    "MRB",
+    "RCA",
+    "CAPA",
+    "FMEA",
+    "FTA",
+    "FRACAS",
+    "8D",
+    "ReliaSoft",
+    "Six Sigma",
+    "ASQ",
+    "quality engineer",
+    "reliability engineer",
+    "maritime",
+    "defense",
+    "autonomous vehicle",
+    "USV"
+  ],
+  "required_skills": [
+    "Bachelor's degree in Mechanical Engineering, Electrical Engineering, or related technical field",
+    "5 to 8+ years hands-on quality engineering experience in high-stakes hardware environment",
+    "OEM or T1 automotive, aerospace, maritime, or defense contractor experience",
+    "Hands-on experience troubleshooting, testing, and investigating electromechanical hardware",
+    "Experience defining and monitoring reliability KPIs (MTBF, MTTF, failure rate, MTTR, mission success rate)",
+    "Experience applying quality and reliability methods to real-world product and field issues",
+    "Strong working knowledge of quality, root cause, and reliability methodologies (8D, FRACAS, FTA, FMEA)",
+    "Working knowledge of statistical and reliability analysis tools (ReliaSoft suite)",
+    "Strong cross-functional communication skills",
+    "Planning, organizational, analytical, negotiation, interpersonal, decision-making skills"
+  ],
+  "preferred_skills": [
+    "Six Sigma, ASQ CRE/CQE, or other quality/reliability certification",
+    "Technical knowledge of serial and network protocols (CAN, RS-485, RS-232, SPI, I2C, TCP/IP)",
+    "Comfortable with Linux OS",
+    "Ability to understand shell scripts"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Monitor field performance across multiple drone platforms and identify emerging quality and reliability trends",
+    "Define, maintain, and report reliability KPIs (MTBF, MTTF, failure rate, MTTR, mission success rate, early-life failure rate, repeat failure rate, reliability growth)",
+    "Perform life-data and reliability analysis including Weibull analysis",
+    "Lead weekly field triage meetings",
+    "Conduct MRB meetings for returned hardware",
+    "Lead cross-functional RCA investigations and drive CAPAs through closure",
+    "Partner with Technical Operations Support and Fleet Service for tracking field failures",
+    "Partner with Remanufacturing for quality processes"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

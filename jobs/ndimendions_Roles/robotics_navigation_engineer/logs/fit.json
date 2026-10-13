@@ -1,0 +1,115 @@
+{
+  "company": "NDimensions Labs",
+  "company_slug": "ndimensions-labs",
+  "role": "Robotics Navigation Engineer",
+  "job_slug": "robotics-navigation-engineer",
+  "match_pct": 34.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 16,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++ and Python for real-time robotics software development",
+    "Master's or PhD in Robotics, Computer Science, or a related field (or equivalent industry experience)",
+    "3D geometry, kinematics, and spatial reasoning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ROS/ROS2 ecosystem, including Nav2, move_base, tf2, and common navigation stacks",
+      "you_have": "ROS2, ROS/ROS2, MoveIt, RViz, ROS 2 Humble"
+    },
+    {
+      "jd_skill": "Experience implementing and deploying navigation systems on real robots, not just in simulation",
+      "you_have": "Real robot deployment (COFFIN arm, Object Tracking Turret, STM32 bare-metal, Robocon robot) but no SLAM/navigation stacks"
+    },
+    {
+      "jd_skill": "Deep understanding of traditional SLAM and navigation fundamentals: graph-based optimization, factor graphs, loop closure, occupancy grids, costmaps, and multi-sensor fusion (camera, IMU, LiDAR, depth sensors)",
+      "you_have": "Some multi-sensor perception (ToF, camera, accelerometer) and robotics math (DH, SE(3), kinematics) but no SLAM/navigation optimization mentioned"
+    },
+    {
+      "jd_skill": "AI and learning-based approaches to navigation (learned cost maps, neural SLAM, end-to-end navigation policies, or foundation model-driven spatial reasoning)",
+      "you_have": "Edge AI, YOLO, TensorRT, quantization, ASR, vision perception (not navigation-specific)"
+    },
+    {
+      "jd_skill": "Strong foundation in linear algebra, optimization, probabilistic inference, and 3D geometry",
+      "you_have": "3D geometry and some optimization (CUDA kernel optimization, memory coalescing, QAT) but no explicit linear algebra or probabilistic inference"
+    }
+  ],
+  "missing_skills": [
+    "Strong background in robotics navigation, SLAM, and autonomous systems with demonstrated research or engineering contributions",
+    "Deep understanding of traditional SLAM and navigation fundamentals: graph-based optimization, factor graphs, loop closure, occupancy grids, costmaps, and multi-sensor fusion (camera, IMU, LiDAR, depth sensors)",
+    "Experience applying AI and learning-based approaches to navigation problems \u2014 e.g., learned cost maps, neural SLAM, end-to-end navigation policies, or foundation model-driven spatial reasoning",
+    "Publications in robotics or computer vision venues (ICRA, IROS, RSS, CoRL, CVPR, NeurIPS)",
+    "Experience with neural SLAM, NeRF/Gaussian Splatting-based mapping, or learned navigation policies",
+    "Familiarity with exploration and active perception strategies for unknown environments",
+    "Experience with multi-robot coordination and distributed mapping systems",
+    "Background in reinforcement learning or imitation learning applied to navigation tasks"
+  ],
+  "top_ats_keywords": [
+    "SLAM",
+    "navigation",
+    "ROS2",
+    "Nav2",
+    "C++",
+    "Python",
+    "machine learning",
+    "robotics",
+    "real-time"
+  ],
+  "required_skills": [
+    "Strong background in robotics navigation, SLAM, and autonomous systems with demonstrated research or engineering contributions",
+    "Deep understanding of traditional SLAM and navigation fundamentals: graph-based optimization, factor graphs, loop closure, occupancy grids, costmaps, and multi-sensor fusion (camera, IMU, LiDAR, depth sensors)",
+    "Experience applying AI and learning-based approaches to navigation problems \u2014 e.g., learned cost maps, neural SLAM, end-to-end navigation policies, or foundation model-driven spatial reasoning",
+    "Strong working knowledge of the ROS/ROS2 ecosystem, including Nav2, move_base, tf2, and common navigation stacks",
+    "Proficiency in C++ and Python for real-time robotics software development",
+    "Experience implementing and deploying navigation systems on real robots, not just in simulation",
+    "Strong foundation in linear algebra, optimization, probabilistic inference, and 3D geometry",
+    "Master's or PhD in Robotics, Computer Science, or a related field (or equivalent industry experience)"
+  ],
+  "preferred_skills": [
+    "Publications in robotics or computer vision venues (ICRA, IROS, RSS, CoRL, CVPR, NeurIPS)",
+    "Experience with neural SLAM, NeRF/Gaussian Splatting-based mapping, or learned navigation policies",
+    "Familiarity with exploration and active perception strategies for unknown environments",
+    "Experience with multi-robot coordination and distributed mapping systems",
+    "Background in reinforcement learning or imitation learning applied to navigation tasks"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and implement state-of-the-art SLAM systems (visual, LiDAR, multi-sensor fusion) for real-time mapping and localization in dynamic environments",
+    "Develop novel navigation algorithms that combine learned representations with geometric reasoning for robust autonomous movement",
+    "Research and prototype new approaches to spatial understanding, including neural implicit representations, foundation model-based scene understanding, and learned cost maps",
+    "Build and optimize path planning and motion planning pipelines that operate under real-time constraints on robotic hardware",
+    "Integrate navigation systems with perception, manipulation, and high-level task planning modules",
+    "Design experiments and benchmarks to evaluate navigation performance across diverse environments and conditions",
+    "Deploy and validate navigation stacks on physical robots, iterating rapidly between simulation and real-world testing"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

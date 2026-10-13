@@ -1,0 +1,127 @@
+{
+  "company": "Mobileye",
+  "company_slug": "mobileye",
+  "role": "Embedded Integrator - Temporary",
+  "job_slug": "embedded-integrator-temp",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 1,
+    "missing_count": 4,
+    "jd_ask_size": 12,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Git",
+    "GitLab",
+    "Linux",
+    "Python",
+    "C/C++",
+    "AI/ML",
+    "debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "testing/QA",
+      "you_have": "ML model evaluation & hands-on hardware/firmware debugging"
+    }
+  ],
+  "missing_skills": [
+    "CI systems (Jenkins/GitLab CI)",
+    "professional release & version management",
+    "cross-team/cross-org integration coordination",
+    "2-3 yrs industry validation/integration experience"
+  ],
+  "top_ats_keywords": [
+    "Git",
+    "GitLab",
+    "Linux",
+    "Python",
+    "C++",
+    "C",
+    "CI",
+    "integration",
+    "validation",
+    "debugging",
+    "testing",
+    "release management",
+    "version control"
+  ],
+  "required_skills": [
+    "Git",
+    "GitLab",
+    "Linux",
+    "Python",
+    "2-3 years validation/integration experience"
+  ],
+  "preferred_skills": [
+    "C++/C",
+    "AI/AI skills"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Develop and maintain software versions in Linux environments",
+    "Manage and control integration branches (Git, GitLab)",
+    "Support cross-team/cross-org complex integration tasks",
+    "Oversee version validation, assign issues, coordinate code-conflict resolution",
+    "Hands-on debugging and testing of software components",
+    "Release & feature management across multi-project CI systems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Petah Tikva, Central District, Israel",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Linux environment fluency across Jetson/embedded-Linux BBB projects backs 'develop and maintain software versions in Linux environments'",
+      "Python used extensively across ML, robotics, and embedded projects backs the Python ask",
+      "C/C++ (STM32 bare-metal, CUDA C++) backs the C++/C advantage line",
+      "Deep hands-on hardware/firmware debugging across many projects backs 'hands-on debugging and testing'",
+      "Strong AI/ML depth (CUDA inference engine, model training/eval) backs the 'AI skills - advantage' line"
+    ],
+    "real_gaps": [
+      "No professional release-engineering or integration-branch-ownership experience; all Git/GitLab use is single-owner project scope, not multi-team branch integration or conflict coordination",
+      "No CI system ownership or experience (Jenkins/GitLab CI/GitHub Actions) for managing test coverage",
+      "No experience coordinating cross-team/cross-org complex integration tasks in a multi-project industrial setting",
+      "2-3 years validation/integration industry experience not met (0 years full-time)",
+      "On-site role in Petah Tikva, Israel; candidate is US-based on F-1 OPT, which authorizes US employment only"
+    ],
+    "overstated_by_keywords": [
+      "Git/GitLab counted as HAVE, but JD means production branch-integration ownership, not personal project usage",
+      "AI/ML counted as strength but JD lists it as a soft 'advantage', not a core requirement"
+    ],
+    "understated_by_keywords": [
+      "Depth of hands-on hardware+software debugging across 17 embedded/robotics projects is stronger evidence for 'hands-on debugging' than a single keyword hit suggests"
+    ],
+    "screening_gaps": [
+      "No professional software integration/release-engineering track record (0 yrs full-time vs 2-3 yrs required) \u2014 core of the role",
+      "On-site Israel location with F-1 OPT status (no US remote option, and OPT does not authorize work in Israel) \u2014 likely an immediate practical screen-out regardless of skills",
+      "No CI/CD system ownership experience, which the JD explicitly ties to release/feature management"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The transferable technical skills (Linux, Python, C/C++, Git, debugging depth) are real, but the role's core \u2014 professional multi-team release/integration ownership and CI management \u2014 has no backing in the profile, and it's a temporary on-site role in Israel that an F-1 OPT holder based in the US cannot legally take without separate local work authorization.",
+    "calibration_delta": 10.5
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Software Engineer, ROS Engineer",
+  "job_slug": "senior-software-engineer-ros-engineer",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 5,
+    "jd_ask_size": 18,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2",
+    "Perception module development (vision/sensor fusion)",
+    "Control module development",
+    "Sensor integration (real sensors, embedded interfaces)",
+    "C/C++ systems programming",
+    "Python for robotics/autonomy"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Localization module development",
+      "you_have": "Depth estimation (ZoeDepth, \u00b18% error), ToF sensors (VL53L0X), forward kinematics, but no explicit SLAM/localization pipeline"
+    },
+    {
+      "jd_skill": "Production-grade autonomous system software",
+      "you_have": "Full-stack robotics systems (COFFIN arm, tracking turret, autonomous driving in CARLA) but mostly academic/research/internship scale, not industrial production"
+    },
+    {
+      "jd_skill": "Field Foundational Models / autonomy API experience",
+      "you_have": "Built custom ROS autonomy stacks; no exposure to FieldAI's proprietary autonomy API"
+    },
+    {
+      "jd_skill": "Industrial field deployment (oil & gas, construction, mining)",
+      "you_have": "No domain-specific industrial deployment experience; lab/research deployments only"
+    },
+    {
+      "jd_skill": "Safety/reliability engineering for harsh environments",
+      "you_have": "Robust engineering practice (mutexes, FreeRTOS, interrupt-driven design) but no formal functional-safety/ISO certification or harsh-environment validation at scale"
+    },
+    {
+      "jd_skill": "TensorRT / edge AI deployment",
+      "you_have": "TensorRT-optimized YOLO (5.2x speedup), 8-bit quantization, Jetson deployment \u2014 direct match"
+    },
+    {
+      "jd_skill": "MoveIt / RViz / kinematics",
+      "you_have": "MoveIt + RViz used in capstone, DH tables, forward kinematics for AL5B/UR5e \u2014 direct match"
+    }
+  ],
+  "missing_skills": [
+    "Senior-level production experience at industrial scale",
+    "SLAM/localization algorithms (explicit, beyond depth/sensor fusion)",
+    "Formal functional-safety / ISO26262 certification",
+    "Enterprise-scale distributed/scalable autonomy deployment",
+    "Domain experience in oil & gas / mining / construction robotics"
+  ],
+  "top_ats_keywords": [
+    "ROS",
+    "ROS2",
+    "perception",
+    "localization",
+    "control",
+    "sensor integration",
+    "autonomous systems",
+    "autonomy",
+    "robotics",
+    "field deployment",
+    "production-grade",
+    "embedded",
+    "real-time",
+    "C++",
+    "Python",
+    "TensorRT",
+    "YOLO",
+    "MoveIt",
+    "RViz",
+    "safety",
+    "reliability"
+  ],
+  "required_skills": [
+    "ROS/ROS2",
+    "Perception module development (vision/sensor fusion)",
+    "Localization module development",
+    "Control module development",
+    "Sensor integration (real sensors, embedded interfaces)",
+    "C/C++ systems programming",
+    "Python for robotics/autonomy",
+    "Production-grade autonomous system software"
+  ],
+  "preferred_skills": [
+    "Field Foundational Models / autonomy API experience",
+    "Industrial field deployment (oil & gas, construction, mining)",
+    "Scalable autonomy solutions",
+    "Real-time/embedded systems (bare-metal/Cortex-M)",
+    "Safety/reliability engineering for harsh environments",
+    "TensorRT / edge AI deployment",
+    "MoveIt / RViz / kinematics"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/implement/optimize perception, localization, and control modules using ROS/ROS2",
+    "Build production-grade autonomous system software for harsh industrial environments (oil & gas, construction, mining)",
+    "Integrate diverse real-world sensors and deploy scalable autonomy solutions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

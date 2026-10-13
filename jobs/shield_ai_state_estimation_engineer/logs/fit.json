@@ -1,0 +1,59 @@
+{
+  "company": "Shield AI",
+  "company_slug": "shield_ai",
+  "role": "Engineer, State Estimation",
+  "job_slug": "state_estimation_engineer",
+  "match_pct": 75,
+  "have_skills": [
+    "C++",
+    "Linux",
+    "algorithms"
+  ],
+  "adjacent_skills": [
+    "real-time \u2192 have bare-metal C/C++",
+    "sensor fusion \u2192 have ROS2/perception",
+    "state estimation \u2192 have ROS2/robotics"
+  ],
+  "missing_skills": [
+    "inertial navigation (direct)",
+    "Kalman/EKF/UKF (direct)"
+  ],
+  "preferred_have": [
+    "CUDA",
+    "visual odometry (have OpenCV)",
+    "IMU (have ADXL345 experience)"
+  ],
+  "top_ats_keywords": [
+    "state estimation",
+    "sensor fusion",
+    "C++",
+    "real-time",
+    "Linux",
+    "Kalman filter",
+    "EKF",
+    "inertial navigation",
+    "GPS-denied",
+    "IMU",
+    "visual odometry",
+    "CUDA"
+  ],
+  "key_responsibilities": [
+    "Develop real-time state estimation algorithms (inertial navigation, sensor fusion)",
+    "Integrate IMU/GNSS/visual odometry into estimation frameworks",
+    "Design sensor processing pipelines for accuracy and fault tolerance",
+    "GPS-denied/degraded navigation solutions"
+  ],
+  "role_category": "robotics/embedded_ml",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "UNKNOWN \u2014 Shield AI not in known sponsors list; JD does not state sponsorship policy",
+    "experience": "SOFT FLAG \u2014 2 years required (master path); Justin has 0 FT but 7 internships + equivalent practical experience clause",
+    "location": "OK \u2014 multiple US locations; Justin willing to relocate",
+    "clearance": "WARNING \u2014 Shield AI is a defense company (military UAVs); this JD does not state clearance requirement but many Shield AI roles require US Person/clearance"
+  },
+  "hard_blocker_triggered": false,
+  "date_analyzed": "2026-06-01"
+}

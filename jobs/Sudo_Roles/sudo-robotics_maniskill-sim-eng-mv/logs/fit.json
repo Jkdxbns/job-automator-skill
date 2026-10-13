@@ -1,0 +1,108 @@
+{
+  "company": "Sudo Robotics",
+  "company_slug": "sudo-robotics",
+  "role": "Robot Simulation Systems Engineer (ManiSkill)",
+  "job_slug": "maniskill-sim-eng-mv",
+  "match_pct": 53.6,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "CUDA",
+    "GPU performance optimization",
+    "benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GPU simulation frameworks (Warp/Taichi/HLSL)",
+      "you_have": "CUDA C++ kernel optimization"
+    },
+    {
+      "jd_skill": "systems-level programming",
+      "you_have": "bare-metal C / embedded C/C++"
+    },
+    {
+      "jd_skill": "large-scale parallel simulation",
+      "you_have": "MPI / SLURM parallel workloads"
+    },
+    {
+      "jd_skill": "rendering pipeline / data loading",
+      "you_have": "BraTS 3D volumetric data pipeline"
+    },
+    {
+      "jd_skill": "software architecture",
+      "you_have": "inference engine and pipeline design"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "physics engine integration",
+    "open-source contributions",
+    "large-scale RL training environments"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "CUDA",
+    "GPU",
+    "physics engine",
+    "simulation",
+    "Rust",
+    "open source",
+    "reinforcement learning"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "Rust",
+    "CUDA",
+    "GPU simulation frameworks (Warp/Taichi/HLSL)",
+    "systems-level programming",
+    "GPU performance optimization",
+    "physics engine integration",
+    "software architecture"
+  ],
+  "preferred_skills": [
+    "open-source contributions",
+    "large-scale parallel simulation",
+    "large-scale RL training environments"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "physics engine to training framework integration",
+    "GPU performance optimization",
+    "simulation benchmarking"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Mountain View, CA (also Shanghai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

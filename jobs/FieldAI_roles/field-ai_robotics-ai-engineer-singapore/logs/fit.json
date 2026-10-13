@@ -1,0 +1,51 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics AI Engineer",
+  "job_slug": "robotics-ai-engineer",
+  "match_pct": 100,
+  "missing_skills": [
+    "Reinforcement learning / robot learning experience",
+    "Dedicated SLAM implementation experience",
+    "LiDAR sensor hands-on experience",
+    "Foundation models specifically for robotics"
+  ],
+  "adjacent_skills": [
+    "Simulation tools (CARLA experience, autonomous-driving sim rather than robotics-specific sim like Gazebo/Isaac Sim)",
+    "Autonomous systems / field robotics (ROS2 robotics + perception project work, not full autonomous navigation stack)",
+    "Foundation models (Transformer / GPT-2 exposure, not robotics-specific)",
+    "Sensor systems (IMU, ToF, camera-based CV present; no LiDAR)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "ROS/ROS2",
+    "Robot perception",
+    "SLAM",
+    "Sensor fusion",
+    "Computer vision",
+    "Edge AI deployment",
+    "Machine learning for robotics"
+  ],
+  "key_responsibilities": [
+    "Design, develop, and deploy AI algorithms for robotic perception, localization, mapping, planning, and control",
+    "Build and train ML models for robotic autonomy, including multimodal perception and decision-making",
+    "Develop scalable robotics software in Python and C++",
+    "Integrate AI models with robotics hardware, sensors, and embedded systems",
+    "Improve robustness, reliability, and safety of robotic systems in real-world environments",
+    "Test and validate algorithms in simulation and real-world deployments",
+    "Analyze field data to improve model performance and system reliability"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "notes": {
+    "sponsorship_flag": "No explicit no-sponsorship language found; Field AI is not on the known_sponsors list (unknown H1B/visa sponsorship history for a role of this type).",
+    "experience_flag": "No years-of-experience requirement stated in JD (open to Bachelor's/Master's/PhD candidates) — no mismatch vs 3-year threshold.",
+    "location_flag": "IMPORTANT CAVEAT NOT COVERED BY HARD-BLOCKER KEYWORD SCAN: role is fully on-site in Singapore. F-1 OPT work authorization is valid for employment inside the United States only — it does not grant any right to work in Singapore. This role would require Field AI to sponsor a separate Singapore work pass (e.g. Employment Pass), which is a distinct and separate process from US H1B/green-card sponsorship. This is a practical barrier comparable in severity to a sponsorship hard blocker, even though no candidate_context.md phrase (itar/ear, clearance, citizenship, no-sponsorship) literally matched the JD text, so it was not set as hard_blocker_triggered."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "company": "Caterpillar Inc. (CTCT \u2014 Trimble/Caterpillar JV)",
+  "company_slug": "caterpillar-ctct",
+  "role": "Embedded Software Engineer - Web",
+  "job_slug": "embedded-software-engineer-web",
+  "req_id": "R0000391844",
+  "location": "Mossville, Illinois (onsite, full-time)",
+  "remote_ok": false,
+  "match_pct": 91.7,
+  "match_pct_technical_only": 85.7,
+  "required_skills": [
+    "C++",
+    "Angular",
+    "SIL build and test",
+    "automated software testing",
+    "object-oriented development",
+    "unit testing",
+    "code reviews",
+    "real-time hardware deployment",
+    "positioning/controls component integration",
+    "design documentation",
+    "git/version control",
+    "stakeholder communication"
+  ],
+  "preferred_skills": [
+    "Object-Oriented Programming",
+    "front-end development",
+    "real-time operating systems",
+    "real-time embedded control systems",
+    "advanced degree"
+  ],
+  "have_skills": [
+    "C++",
+    "object-oriented development",
+    "real-time embedded systems (STM32 Cortex-M4 bare-metal)",
+    "RTOS (FreeRTOS)",
+    "Git/GitLab",
+    "design documentation",
+    "code reviews",
+    "M.S. advanced degree"
+  ],
+  "adjacent_skills": [
+    "Angular -> Flask/Flask-SocketIO, WebSocket, PyQt, Flutter (web/GUI but not Angular)",
+    "SIL environment -> CARLA, Proteus, RViz, RobotStudio simulation",
+    "automated software testing -> benchmarking, model evaluation, pynvml profiling",
+    "positioning sensors -> ADXL345 IMU, VL53L0X ToF, I2C/SPI/UART sensor integration",
+    "controls -> visual servoing, forward/inverse kinematics, 6DOF arm control"
+  ],
+  "missing_skills": [
+    "Angular",
+    "TypeScript/JavaScript",
+    "GPS/GNSS",
+    "optical total stations",
+    "SIL (software-in-the-loop) toolchain",
+    "unit test frameworks (GoogleTest/CTest)",
+    "grade control / heavy machinery domain"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Angular",
+    "embedded software",
+    "real-time embedded control systems",
+    "RTOS",
+    "object-oriented programming",
+    "front-end development",
+    "SIL",
+    "automated software tests",
+    "integration and testing",
+    "unit testing",
+    "code reviews",
+    "IMU",
+    "positioning",
+    "design documentation"
+  ],
+  "key_responsibilities": [
+    "Integrate positioning, controls and commissioning components using C++ and Angular",
+    "Build and test in a SIL (software-in-the-loop) environment",
+    "Create automated software tests",
+    "Write, maintain and archive design documents, models and source code",
+    "Communicate designs and analysis results to customers, suppliers and stakeholders",
+    "Contribute to design of new products and processes"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "sponsorship_mentioned": true,
+  "sponsorship_offered": true,
+  "sponsorship_raw_text": "Visa sponsorship is available for this position",
+  "clearance_required": false,
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "triggered_by": "explicit user request (not URL+>90% auto-trigger)",
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Multi-component integration and bring-up debugging on real hardware - COFFIN capstone three-layer pipeline (Flutter client / Flask-SocketIO edge server / Jetson+Arduino controller over one WebSocket fabric) plus 'resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); 100% pick reliability (10/10)'. This is literally integration and commissioning work.",
+      "C++ on real-time hardware - two-link IK on Arduino in C++; STM32 bare-metal C (GPIO/TIM2/ADC1/I2C1, 3.68KB Flash, deterministic 1Hz); Object Tracking Turret with FreeRTOS mutexes and interrupt-driven UART.",
+      "Operator-facing UI over live hardware telemetry - Flask-SocketIO + WebSocket fabric, Flutter mobile client, PyQt/Matplotlib real-time DAQ GUI at BARC. Right shape as the Angular half, wrong framework.",
+      "Physical sensor integration and calibration - dual VL53L0X ToF via TCA9548A I2C mux with range-gated contact detection; ADXL345 3-DoF motion to HID with jitter resolved by software calibration.",
+      "Controls and kinematics - hand-derived DH tables for UR5e/AL5B, validated against MoveIt/RViz, collision-free trajectories on physical UR5e, <2mm repeatability over 10 trials.",
+      "Simulation-before-hardware habit (closest thing to SIL) - CARLA Town02 validation with 30 vehicles and zero collisions, Proteus verification of STM32 firmware, full ABB RobotStudio workcell in RAPID."
+    ],
+    "real_gaps": [
+      "Angular is a true zero, not a near-miss: no TypeScript, no JavaScript, no SPA, no component/DI framework, no npm build tooling anywhere in the profile. Flutter is Dart, Flask is server-side Python, PyQt is desktop. Angular is named in the single primary responsibility line, so this is roughly 35-45% of the actual day job, not 1 of 12 checkboxes.",
+      "Automated software testing is a listed responsibility with zero backing: no GoogleTest, CTest, pytest, CI pipeline, regression suite, or test harness anywhere. Benchmarking measures performance; tests assert correctness and gate merges. Different discipline.",
+      "SIL specifically - CARLA/Proteus/RobotStudio were hand-driven demo and validation environments, not an automated rig that compiles production control software against a plant model and reports pass/fail into a build. The gap is the automation and plant-model discipline, not the concept.",
+      "Production object-oriented C++ at scale - his C++ is embedded procedural (bare-metal register writes, Arduino sketches) plus CUDA kernels. The JD's 'component-based, object-oriented development', 'interprets functional and technical blueprints', and 'participates in code reviews' imply a large existing C++ codebase. Nothing in the profile shows working inside someone else's large codebase; everything is greenfield and solo or small-team.",
+      "GNSS and machine-guidance domain is absent - GPS, optical total stations, lasers, sonics, grade control. Kinematics is not geodesy; expect an unanswerable question on coordinate frames, sensor fusion, or accuracy budgets.",
+      "Zero full-time experience - seven entries, all internships or fellowships, longest about 10 months. Survivable at this competency bar, but 'commissioning' carries a customer-facing, own-it-in-the-field flavor that research-scope work does not demonstrate."
+    ],
+    "overstated_by_keywords": [
+      "automated software testing -> benchmarking/pynvml/model eval : biggest overstatement, should be Missing not Adjacent",
+      "Angular -> Flask/WebSocket/PyQt/Flutter : right instinct on shape, but Adjacent implies framework transferability that does not exist",
+      "SIL -> CARLA/Proteus/RViz/RobotStudio : partially fair, weaker than it reads",
+      "positioning sensors -> ADXL345/VL53L0X : ToF and accelerometer are not GNSS or total-station positioning; integration craft transfers, domain does not",
+      "C++ as a flat Have : true, but shallower than a C++ product shop expects"
+    ],
+    "reasoning": "Keyword match scored 91.7% by counting Angular as one missing item among twelve and crediting soft competencies; semantically the role splits into an embedded/integration half where he is genuinely strong and a web/Angular plus test-automation half where he is near zero. Weighting the halves by how much of the job they represent lands around 62%. It still reads as worth applying, because the competency bar is 'Working Knowledge' throughout, an advanced degree is a plus he already holds, sponsorship is explicitly offered, and Angular is the most learnable item on the entire list."
+  }
+}

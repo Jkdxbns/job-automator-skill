@@ -1,0 +1,65 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Software Engineer, ML Inference Platform",
+  "job_slug": "ml-inference-platform",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "data workflow orchestration platforms (Airflow/Kubeflow, etc \u2014 not in profile)",
+    "large-scale production distributed systems (has HPC/SLURM, not production-scale)"
+  ],
+  "adjacent_skills": [
+    "ML pipelines experience",
+    "distributed systems design"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "ML pipelines",
+    "ML infrastructure",
+    "distributed systems",
+    "ML inference platform",
+    "LLM serving",
+    "ML compiler",
+    "TensorRT",
+    "ONNX",
+    "model optimization",
+    "performance",
+    "scalability",
+    "observability",
+    "monitoring"
+  ],
+  "key_responsibilities": [
+    "Design and develop ML workflow pipelines to train, optimize, validate, and deploy autonomy models",
+    "Develop and maintain continuous testing and monitoring systems for core ML infrastructure",
+    "Develop observability to track ML model lifecycle from data generation to on-road validation",
+    "Maintain an in-house ML inference platform serving large language models",
+    "Maintain an in-house ML compiler platform to compile, deploy, validate models to hardware"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "SLM Compression project (TinyLlama 1.1B, 8-bit quantization, ~55% VRAM reduction, <1% accuracy loss) is literally LLM inference optimization work \u2014 the closest direct backing for the JD line 'serve large language models efficiently.'",
+      "CUDA Kernel Optimization for VGG16 (custom coalesced kernels, 35% speedup over naive GPU, 1.5-2x over eager) and COFFIN capstone TensorRT-optimized YOLO (5.2x speedup) show genuine hands-on model-level performance engineering, matching 'high standard for performance' in About You.",
+      "MPI Hodgkin-Huxley and Parallel Ray Tracer projects (up to 30x speedup, SLURM-managed cluster) show real distributed/parallel computing instincts, though the domain is scientific/HPC computing rather than software infrastructure."
+    ],
+    "real_gaps": [
+      "The role is platform engineering \u2014 building and maintaining shared internal tooling for a whole autonomy org (inference platform, compiler platform, workflow pipelines, observability). Every project in the profile is a single-person research or capstone build, not a multi-user internal platform used by other engineers.",
+      "No CI/CD, testing framework, or monitoring/observability stack anywhere in the profile \u2014 this directly maps to two of the five stated responsibilities ('continuous testing and monitoring,' 'observability... model lifecycle') with zero backing.",
+      "No ML workflow orchestration experience (Airflow, Kubeflow, Argo, MLflow, Metaflow) \u2014 explicitly a bonus point and the literal subject of the first responsibility bullet.",
+      "'ML compiler platform' implies building/maintaining compiler infrastructure (TVM/XLA/MLIR-style internals). Profile shows only consuming TensorRT and ONNX as an end user, not compiler-internals work."
+    ],
+    "overstated_by_keywords": [
+      "'distributed systems' was counted Adjacent by the keyword pass, but the actual experience (MPI/SLURM academic HPC clusters) is a different domain from the software-systems distributed infrastructure implied by an ML infra platform role.",
+      "'ML compiler' was counted as a preferred Have via TensorRT/ONNX familiarity \u2014 that is tool usage, not compiler platform engineering.",
+      "'ML pipelines' was counted Adjacent \u2014 the profile's pipelines are one-off training/inference scripts, not production workflow pipelines with validation gates before deployment."
+    ],
+    "reasoning": "Justin is genuinely strong on the narrow slice of this role that is single-model inference optimization (quantization, CUDA kernels, TensorRT), including real LLM-serving-adjacent work via the TinyLlama project. But roughly half the JD is platform/infra engineering scope (testing, monitoring, observability, workflow orchestration, compiler platform maintenance) with no direct evidence in the profile \u2014 those gaps are real, not just keyword misses, and the keyword pass's 100% match_pct meaningfully overstates fit for the role as actually scoped."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "company": "Scale AI",
+  "company_slug": "scale",
+  "role": "Frontier Agents Engineer (Applied AI)",
+  "job_slug": "frontier-agents-engineer",
+  "match_pct": 66.7,
+  "missing_skills": [
+    "Agent frameworks (LangChain/AutoGPT-style orchestration)",
+    "MCP-based agent building",
+    "Vector databases",
+    "Retrieval systems / RAG",
+    "Enterprise customer facing experience",
+    "Multi-agent system coordination",
+    "Cloud platforms (AWS/Azure/GCP)",
+    "Docker/Kubernetes/CI/CD/production observability",
+    "Distributed production systems"
+  ],
+  "adjacent_skills": [
+    "Production LLM systems -> has research-scale LLM fine-tuning (TinyLlama, GPT-2, HuggingFace Transformers, tokenization/BPE) not production agent deployment",
+    "LLM/agentic evaluation frameworks -> has quantitative model evaluation (benchmarks, IoU/PSNR/Dice, HellaSwag/GSM8K style eval) not agent-specific eval",
+    "Multimodal/frontier models -> has multimodal document AI (DONUT, VisionEncoderDecoder)"
+  ],
+  "top_ats_keywords": [
+    "Python", "LLMs", "agent frameworks", "MCP", "vector databases", "retrieval systems",
+    "RAG", "evaluation frameworks", "multi-agent systems", "production AI systems",
+    "reasoning", "tool use", "fine-tuning", "distillation"
+  ],
+  "key_responsibilities": [
+    "Design and deploy production AI agents (LLMs, reasoning, retrieval, memory, tool use)",
+    "Architect systems combining LLMs, ML, structured knowledge, enterprise data",
+    "Own full experimentation lifecycle from hypothesis to production rollout",
+    "Design evaluation frameworks (offline benchmarks, A/B experiments, golden datasets, human eval)",
+    "Build production-quality systems: reliability, observability, latency, safety, cost",
+    "Partner directly with enterprise customers"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

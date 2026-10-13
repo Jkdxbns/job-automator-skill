@@ -1,0 +1,127 @@
+{
+  "company": "Artera",
+  "company_slug": "artera",
+  "role": "Machine Learning Engineer (Model Dev)",
+  "job_slug": "ml-engineer-model-dev",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 21,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Model evaluation",
+    "Git",
+    "Segmentation",
+    "Classification"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Medical imaging",
+      "you_have": "BraTS MRI segmentation"
+    },
+    {
+      "jd_skill": "Foundation models",
+      "you_have": "Transformers / GPT-2 / HuggingFace"
+    },
+    {
+      "jd_skill": "Distributed training",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "Real-world datasets",
+      "you_have": "BraTS, ASR datasets"
+    }
+  ],
+  "missing_skills": [
+    "Digital pathology / whole-slide images",
+    "Multiple-instance learning",
+    "Survival analysis",
+    "Self-supervised learning",
+    "Dataset shift / scanner robustness",
+    "Interpretability",
+    "Oncology biomarker development",
+    "SaMD / FDA 510(k)",
+    "Experiment tracking",
+    "Multi-omics"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "Python",
+    "Whole-slide images",
+    "Digital pathology",
+    "Multiple-instance learning",
+    "Survival analysis",
+    "Self-supervised learning",
+    "Foundation models",
+    "Interpretability",
+    "Segmentation",
+    "Classification",
+    "SaMD",
+    "FDA 510(k)",
+    "Distributed training",
+    "Experiment tracking",
+    "Oncology",
+    "Biomarker"
+  ],
+  "required_skills": [
+    "PyTorch",
+    "Python",
+    "Deep Learning",
+    "Model evaluation",
+    "Git",
+    "Oncology biomarker development",
+    "Real-world datasets"
+  ],
+  "preferred_skills": [
+    "Medical imaging",
+    "Multiple-instance learning",
+    "Survival analysis",
+    "Self-supervised learning",
+    "Foundation models",
+    "Dataset shift",
+    "SaMD / FDA 510(k)",
+    "Distributed training",
+    "Experiment tracking",
+    "Multi-omics"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "AI biomarkers from whole-slide images and clinical data",
+    "Self-supervised foundation models, MIL, survival models, segmentation",
+    "Robustness across scanners/sites",
+    "Interpretability",
+    "Regulatory documentation"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote US",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

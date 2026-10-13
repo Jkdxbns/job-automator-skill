@@ -1,0 +1,88 @@
+{
+  "company": "4MP Inc",
+  "company_slug": "4mp_inc",
+  "role": "Principal AI Software Engineer",
+  "job_slug": "principal_ai_software_engineer",
+  "match_pct": 78,
+  "have_skills": [
+    "AI/ML",
+    "Robotics (ROS2, UR5e, MoveIt)",
+    "Simulation (CARLA)",
+    "Sensor data (ADXL345, VL53L0X, ToF, IMU)",
+    "Machine learning & deep learning (PyTorch, TensorFlow)",
+    "Optimization (pruning, quantization, kernel optimization)",
+    "Perception (YOLO, OpenCV, depth estimation)",
+    "Validation & evaluation",
+    "Deployment (TensorRT, TorchScript, Edge AI)",
+    "Software engineering (Python, C/C++, Linux, Git)"
+  ],
+  "adjacent_skills": [
+    [
+      "physical ai",
+      "machine intelligence / edge AI"
+    ],
+    [
+      "autonomous systems",
+      "CARLA autonomous driving sim, visual servoing"
+    ],
+    [
+      "controls",
+      "forward kinematics, DH params, visual servoing"
+    ],
+    [
+      "data pipelines",
+      "SLURM-managed ML pipelines, Jupyter"
+    ],
+    [
+      "machine telemetry",
+      "ADXL345 / VL53L0X sensor interfaces"
+    ],
+    [
+      "multi-modal datasets",
+      "MRI + depth + image fusion"
+    ],
+    [
+      "system architecture",
+      "embedded / ROS2 system integration"
+    ]
+  ],
+  "missing_skills": [
+    "physics-based models",
+    "CNC / CAM / G-code",
+    "metrology / measurement systems",
+    "digital twins",
+    "3D geometry / point clouds"
+  ],
+  "top_ats_keywords": [
+    "physical AI",
+    "autonomous systems",
+    "sensor data",
+    "closed-loop",
+    "robotics",
+    "machine learning",
+    "perception",
+    "simulation",
+    "multi-modal",
+    "AI/ML"
+  ],
+  "key_responsibilities": [
+    "Design AI systems for autonomous manufacturing and closed-loop correction",
+    "Build models connecting sensor data, geometry, and physics-based models",
+    "Develop learning loops from real-world machine corrections",
+    "Translate physical manufacturing behavior into robust software architectures",
+    "Mentor technical contributors and shape AI team"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "UNKNOWN \u2014 4MP Inc is seed-stage, not in known_sponsors list",
+    "experience": "MISMATCH \u2014 8+ years required, Justin has 0 full-time (7 internships)",
+    "location": "OK \u2014 Remote/Hybrid PA, willing to relocate",
+    "clearance": "OK \u2014 not required",
+    "notice": "4 weeks, EAD pending"
+  },
+  "hard_blocker_triggered": false
+}

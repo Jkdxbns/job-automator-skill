@@ -1,0 +1,175 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Technical Project Manager, Reality Capture",
+  "job_slug": "technical-project-manager-reality-capture",
+  "match_pct": 41.5,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 10,
+    "missing_count": 19,
+    "jd_ask_size": 41,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's degree in CS/Engineering",
+    "C++ programming",
+    "Python programming",
+    "Embedded systems",
+    "Linux/Ubuntu",
+    "Mobile robotics",
+    "Autonomous vehicles",
+    "Computer vision (OpenCV, YOLO, vision servoing, U-Net)",
+    "Robotics software development (ROS2, MoveIt, YOLO, embedded C)",
+    "3D geometry / DH parameters / forward kinematics",
+    "Production-grade software",
+    "System integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "4+ years robotics software development and technical project management",
+      "you_have": "0 years full-time; 7 internships (Planctech embedded, BARC research, IIT Bombay ML, Tusk DL, Teesside research) + MS capstone (COFFIN) \u2014 closest multi-project execution without formal PM title or 4-year production tenure"
+    },
+    {
+      "jd_skill": "Point cloud processing / PCL / Open3D",
+      "you_have": "3D kinematics (DH tables, forward kinematics, ROS MoveIt, RViz) present in ROS-Based Robotic Arm; NO point cloud processing, NO PCL, NO Open3D in any project or internship bullet"
+    },
+    {
+      "jd_skill": "Jira / Confluence / Wrike",
+      "you_have": "GitLab (BARC Python Developer Intern) + Git used; no Jira, Confluence, or Wrike experience in profile"
+    },
+    {
+      "jd_skill": "Agile development / SDLC",
+      "you_have": "No Agile/SDLC certification; milestone-based delivery in capstone (COFFIN: systemd deployment, static IP, auto-restart) and research pipelines (BARC image-stitching PSNR 86, IIT Bombay DONUT fine-tuning) but no formal Agile framework cited"
+    },
+    {
+      "jd_skill": "Stakeholder management / cross-functional collaboration",
+      "you_have": "Led 25-member Agnel Robotics Club (PCB EAGLE, UART/I2C, multi-subsystem); led 7-person Teesside U-Net team; COFFIN multi-controller (Jetson+Arduino+ToF+I2C mux) integration \u2014 but no formal cross-functional stakeholder management backing"
+    },
+    {
+      "jd_skill": "Manage multiple technical projects in fast-paced environments",
+      "you_have": "Concurrent internships (Planctech, BARC, IIT Bombay, Tusk, Teesside) + capstone (COFFIN) + CUDA kernel / SLM compression / GPT-2 / ASR side projects \u2014 multi-project execution at intern/research scale, not company-scale production PM"
+    },
+    {
+      "jd_skill": "Robotics software development best practices",
+      "you_have": "ROS2 Humble / ROS Noetic, MoveIt, RViz, CMake, Git, systemd production deployment (COFFIN: auto-restart, non-root isolation, static IP) \u2014 production-grade embedded practices but no formal best-practices framework cited"
+    },
+    {
+      "jd_skill": "Data capture / mapping / system integration in production",
+      "you_have": "COFFIN production deployment (Flutter+Flask-SocketIO+Jetson+Arduino+dual VL53L0X ToF+TCA9548A I2C mux+systemd); BARC image-stitching pipeline (PSNR 86); NOT 3D point-cloud/reality-capture mapping integration"
+    },
+    {
+      "jd_skill": "Startup / high-growth environment",
+      "you_have": "Small-team internships (Planctech, BARC, IIT Bombay, Tusk) + capstone ownership \u2014 no company-scale startup or high-growth backing"
+    },
+    {
+      "jd_skill": "Cross-functional collaboration (ATS keyword)",
+      "you_have": "Hardware/software integration across COFFIN (multi-sensor, multi-controller, Bluetooth, I2C mux) and Agnel Robotics Club (PCB design + UART/I2C sensor comms); no formal cross-functional team backing"
+    }
+  ],
+  "missing_skills": [
+    "4+ years robotics software development + technical project management (experience gap)",
+    "Point cloud processing",
+    "PCL",
+    "Open3D",
+    "Jira",
+    "Confluence",
+    "Wrike",
+    "LiDAR sensors",
+    "Drones",
+    "Field operations / customer deployments",
+    "PMP certification",
+    "Scrum Master certification",
+    "Agile certification",
+    "Technical Project Manager (experience \u2014 profile is engineer/researcher, no formal PM tenure)",
+    "Reality Capture (domain \u2014 no 3D mapping/reality-capture experience)",
+    "3D mapping (domain \u2014 profile has vision/kinematics, not reality-capture mapping)",
+    "Point cloud (keyword)",
+    "Field deployment (keyword)",
+    "Customer-facing (keyword)"
+  ],
+  "top_ats_keywords": [
+    "Technical Project Manager",
+    "Reality Capture",
+    "3D mapping",
+    "robotics software",
+    "computer vision",
+    "point cloud processing",
+    "PCL",
+    "Open3D",
+    "C++",
+    "Python",
+    "Agile",
+    "Jira",
+    "Confluence",
+    "production-grade software",
+    "cross-functional",
+    "stakeholder management",
+    "SDLC",
+    "LiDAR",
+    "embedded systems",
+    "mobile robotics",
+    "autonomous vehicles",
+    "system integration",
+    "field deployment",
+    "production deployment"
+  ],
+  "required_skills": [
+    "Bachelor's degree in Computer Science, Engineering, or related technical field",
+    "4+ years of experience in robotics software development and technical project management",
+    "Strong programming skills in C++",
+    "Strong programming skills in Python",
+    "Experience with 3D geometry",
+    "Point cloud processing and libraries such as PCL or Open3D",
+    "Experience using Jira, Confluence, Wrike, or similar project management tools",
+    "Strong understanding of Agile development methodologies and SDLC",
+    "Stakeholder management and communication",
+    "Ability to manage multiple technical projects in fast-paced, evolving environments"
+  ],
+  "preferred_skills": [
+    "Experience with LiDAR sensors, Linux/Ubuntu, and robotics software development best practices",
+    "Background in mobile robotics, autonomous vehicles, drones, or embedded systems",
+    "Experience with data capture, mapping, or system integration in production environments",
+    "Experience supporting field operations or customer deployments",
+    "PMP, Scrum Master, or Agile certification",
+    "Experience working in a startup or high-growth environment"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design, develop, and maintain production-grade software for 3D mapping solutions",
+    "Deploy large-scale mapping systems and data processing pipelines into production",
+    "Validate mapping systems and algorithms using real robots and sensors in complex, unstructured environments",
+    "Build and improve internal tooling, automation, and benchmarking infrastructure",
+    "Own mapping projects from planning through delivery, coordinating execution across software, hardware, systems, data, and operations",
+    "Translate technical and customer requirements into project plans, milestones, and delivery timelines",
+    "Drive cross-functional collaboration across engineering, product, operations, and customer-facing teams",
+    "Track project progress using Jira, Confluence, or similar tools; manage scope, schedules, and dependencies",
+    "Identify risks early, communicate project status clearly, and drive issues to resolution",
+    "Develop documentation, processes, and playbooks that improve execution and scalability"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

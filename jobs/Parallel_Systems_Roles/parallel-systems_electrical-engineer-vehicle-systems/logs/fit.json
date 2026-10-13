@@ -1,0 +1,137 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Electrical Engineer \u2013 Vehicle Systems",
+  "job_slug": "electrical-engineer-vehicle-systems",
+  "match_pct": 30.9,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 21,
+    "jd_ask_size": 34,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ programming",
+    "Python programming",
+    "SPI embedded protocol",
+    "I2C embedded protocol",
+    "UART embedded protocol",
+    "SolidWorks CAD / design",
+    "BOM documentation",
+    "PCB / schematic design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN embedded protocol",
+      "you_have": "related embedded serial protocols (SPI/I2C/UART)"
+    },
+    {
+      "jd_skill": "embedded control logic",
+      "you_have": "bare-metal control loops and state machines"
+    },
+    {
+      "jd_skill": "PCB CAD / schematic design (Altium-like)",
+      "you_have": "EAGLE PCB design + SolidWorks CAD"
+    },
+    {
+      "jd_skill": "end-to-end system integration",
+      "you_have": "ROS2 / robotics pipeline integration"
+    },
+    {
+      "jd_skill": "schematics",
+      "you_have": "EAGLE PCB schematic work"
+    }
+  ],
+  "missing_skills": [
+    "power distribution",
+    "Ethernet embedded protocol",
+    "first-principles system analysis (explicit)",
+    "Altium CAD",
+    "RapidHarness",
+    "Rust programming",
+    "full lifecycle electrical systems in automotive/rail/aerospace/heavy industry",
+    "ISO 26262",
+    "ASIL",
+    "IEC 61508",
+    "functional safety frameworks",
+    "wiring harness design",
+    "prototyping / integrating / testing complex harnessing",
+    "DFMEAs",
+    "system hazard analyses",
+    "verification & validation (formal V&V)",
+    "hardware bring-up / bench testing / debugging electrical assemblies",
+    "prototype vehicles",
+    "test reports / change logs",
+    "manufacturing engineering / production scale",
+    "travel to contract manufacturer / customer sites (not a skill gap, noted)"
+  ],
+  "top_ats_keywords": [
+    "vehicle electrical systems",
+    "wiring harnesses",
+    "DFMEAs",
+    "system hazard analyses",
+    "verification & validation",
+    "hardware bring-up",
+    "bench testing",
+    "debugging electrical assemblies",
+    "prototype vehicles",
+    "end-to-end system integration",
+    "schematics",
+    "BOMs",
+    "test reports",
+    "change logs",
+    "manufacturing engineering",
+    "production autonomy"
+  ],
+  "required_skills": [
+    "power distribution",
+    "control logic",
+    "embedded communication protocols (CAN, Ethernet, SPI)",
+    "CAD and design tools (SolidWorks, Altium, RapidHarness)",
+    "first-principles system analysis and troubleshooting"
+  ],
+  "preferred_skills": [
+    "full lifecycle electrical systems (automotive, rail, aerospace, heavy industry)",
+    "Python programming",
+    "Rust programming",
+    "C/C++ programming",
+    "ISO 26262 / ASIL",
+    "IEC 61508 / functional safety frameworks",
+    "hands-on harness design, prototyping, integrating, and testing complex harnessing"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own design & development of vehicle electrical systems (wiring harnesses, COTS hardware, test stands)",
+    "Drive development and documentation of safety-critical subsystems (DFMEAs, hazard analyses, V&V)",
+    "Perform hands-on hardware bring-up, bench testing, and debugging of electrical assemblies and prototype vehicles",
+    "Lead end-to-end system integration with full lifecycle ownership, interface management, and cross-functional alignment",
+    "Maintain accurate engineering documentation (schematics, BOMs, test reports, change logs)"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

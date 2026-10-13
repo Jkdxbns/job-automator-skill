@@ -1,0 +1,118 @@
+{
+  "company": "Adobe",
+  "company_slug": "adobe",
+  "role": "2027 University Graduate - Machine Learning Engineer",
+  "job_slug": "ml-engineer-university-grad-2027",
+  "match_pct": 22.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 18,
+    "jd_ask_size": 25,
+    "req_cov": 0.346,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "C"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "scikit-learn",
+      "you_have": "PyTorch/TensorFlow"
+    },
+    {
+      "jd_skill": "Predictive Models",
+      "you_have": "ML model development (ResNet, YOLO, Transformer)"
+    },
+    {
+      "jd_skill": "Large-scale Datasets",
+      "you_have": "SLURM-managed cluster training"
+    }
+  ],
+  "missing_skills": [
+    "Scala",
+    "Java",
+    "R",
+    "Matlab",
+    "SQL",
+    "Relational Databases",
+    "Statistical Modeling",
+    "Data Mining",
+    "Attribution",
+    "Media Mix Modeling",
+    "Budget Optimization",
+    "Personalization",
+    "Causal Analysis",
+    "Time Series Analysis",
+    "Experimental Design",
+    "Optimization Techniques",
+    "Econometrics",
+    "Big Data Techniques"
+  ],
+  "top_ats_keywords": [
+    "Attribution",
+    "Media Mix Modeling",
+    "Budget Optimization",
+    "Personalization",
+    "Causal Analysis",
+    "Time Series Analysis",
+    "Predictive Models",
+    "Experimental Design",
+    "Optimization Techniques",
+    "Statistical Modeling",
+    "SQL",
+    "Big Data"
+  ],
+  "required_skills": [
+    "Statistical Modeling",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Mining",
+    "Python",
+    "Scala",
+    "Java",
+    "C",
+    "R",
+    "Matlab",
+    "scikit-learn",
+    "SQL",
+    "Relational Databases"
+  ],
+  "preferred_skills": [
+    "Large-scale Datasets",
+    "Big Data Techniques"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop predictive models on large-scale datasets",
+    "Develop scalable modeling algorithms in production systems",
+    "Collaborate with product management and engineering"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose / Waltham / San Francisco / Austin / Seattle (7 locations)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

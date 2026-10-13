@@ -1,0 +1,69 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer II - Generative AI & LLM Platforms",
+  "job_slug": "swe2_genai_llm_platforms",
+  "match_pct": 26.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 20,
+    "jd_ask_size": 30,
+    "req_cov": 0.611,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "APIs (Flask, Flask-SocketIO, WebSocket)",
+    "Version control (Git, GitLab)",
+    "GenAI/LLM foundations (built GPT-2 and TinyLlama from scratch; tokenization, BPE, attention, Transformer)",
+    "Hugging Face Transformers",
+    "PyTorch"
+  ],
+  "adjacent_skills": [
+    "Testing/debugging -> hands on project debugging (embedded + ML), not formal QA/test suites",
+    "Systems concepts (scalability, performance) -> CUDA/kernel level optimization, not cloud scale systems",
+    "Distributed systems -> SLURM managed multi GPU cluster work, not cloud native distributed systems",
+    "Cost/data management awareness -> implied through embedded resource constraints, not cloud cost ops"
+  ],
+  "missing_skills": [
+    "AWS cloud (compute, storage, IAM, monitoring, deployment)",
+    "Networking (TCP/IP, routing/switching, virtual networks, network security)",
+    "Kubernetes",
+    "Infrastructure as code",
+    "CI/CD",
+    "Amazon Bedrock",
+    "AWS AI/ML services",
+    "Amazon EMR",
+    "Apache Spark",
+    "Apache Flink",
+    "Amazon Aurora PostgreSQL",
+    "pgvector",
+    "Amazon EKS",
+    "Amazon S3",
+    "LangChain",
+    "LangGraph",
+    "LlamaIndex",
+    "RAG (retrieval-augmented generation)",
+    "Vector databases",
+    "MLOps: experiment tracking, model registries, version management",
+    "Privacy-preserving AI / adversarial testing / AI red teaming / content safety / explainability"
+  ],
+  "top_ats_keywords": ["Python", "Golang", "AWS", "LLM", "RAG", "vector databases", "Kubernetes", "CI/CD", "PyTorch", "Hugging Face Transformers", "LangChain"],
+  "key_responsibilities": [
+    "Design limited enhancements/updates for subsystems of systems software (OS, compilers, networking, utilities, databases, internet tools)",
+    "Analyze design and determine coding/integration activities per project guidelines",
+    "Write portions of test plans/documentation; debug and suggest improvements",
+    "Collaborate with internal/outsourced dev partners on design status and issue resolution"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

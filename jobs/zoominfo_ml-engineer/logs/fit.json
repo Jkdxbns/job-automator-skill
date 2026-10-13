@@ -1,0 +1,147 @@
+{
+  "company": "ZoomInfo",
+  "company_slug": "zoominfo",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 14,
+    "jd_ask_size": 24,
+    "req_cov": 0.321,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Machine Learning",
+    "Quantization",
+    "Open-weight model training/serving"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "text classification / information extraction",
+      "you_have": "Transformers and NLP (GPT-2, SLM, tokenizers)"
+    },
+    {
+      "jd_skill": "distillation and model serving",
+      "you_have": "Quantization, TensorRT, ONNX, pruning"
+    },
+    {
+      "jd_skill": "distributed data processing",
+      "you_have": "MPI, SLURM"
+    },
+    {
+      "jd_skill": "embeddings / retrieval",
+      "you_have": "Transformer models (no retrieval system)"
+    },
+    {
+      "jd_skill": "cost per unit of work tracking",
+      "you_have": "Profiling and benchmarking (pynvml)"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "gradient-boosted trees",
+    "feature engineering on tabular data",
+    "statistics / experiment design",
+    "calibrated scores under class imbalance",
+    "entity resolution",
+    "entity linking",
+    "LLM agents in production",
+    "LLM judges evaluation",
+    "propensity modeling",
+    "ranking metrics (recall@k, MRR, nDCG)",
+    "prompt injection defense",
+    "knowledge graphs",
+    "multilingual text at scale"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "gradient-boosted trees",
+    "feature engineering",
+    "entity resolution",
+    "entity linking",
+    "information extraction",
+    "text classification",
+    "LLM agents",
+    "LLM judges",
+    "SQL",
+    "Python",
+    "PyTorch",
+    "distillation",
+    "quantization",
+    "embeddings",
+    "recall@k",
+    "MRR",
+    "nDCG",
+    "propensity modeling",
+    "calibration",
+    "prompt injection",
+    "knowledge graph",
+    "distributed data processing"
+  ],
+  "required_skills": [
+    "production ML systems",
+    "classical machine learning",
+    "feature engineering on tabular data",
+    "statistics",
+    "experiment design",
+    "calibrated scores",
+    "text classification",
+    "information extraction",
+    "entity linking",
+    "LLM agents",
+    "LLM judges evaluation",
+    "Python",
+    "SQL",
+    "distributed data processing"
+  ],
+  "preferred_skills": [
+    "ranking and retrieval",
+    "embeddings",
+    "recall@k MRR nDCG",
+    "propensity modeling",
+    "clustering",
+    "entity resolution",
+    "PyTorch",
+    "open-weight models",
+    "prompt injection defense",
+    "knowledge graphs"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "extend B2B data graph to long-tail companies",
+    "predict headcount/revenue with GBTs",
+    "entity resolution",
+    "multilingual buying-intent inference",
+    "build cited research agents and evals",
+    "distill/quantize/serve models",
+    "IC technical leadership and mentoring"
+  ],
+  "role_category": "ml_systems",
+  "location": "Bethesda, MD; Remote-US (MA, MD, WA)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

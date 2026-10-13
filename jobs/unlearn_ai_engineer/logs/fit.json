@@ -1,0 +1,101 @@
+{
+  "company": "Unlearn.AI",
+  "company_slug": "unlearn",
+  "role": "AI Engineer",
+  "job_slug": "ai_engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.417,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "B.S./M.S. CS or Engineering",
+    "Python",
+    "PyTorch",
+    "Machine learning",
+    "LLMs / Transformers",
+    "Hugging Face",
+    "Fine-tuning",
+    "Model evaluation / benchmarking"
+  ],
+  "missing_skills": [
+    "AI agents (build/deploy)",
+    "Agent frameworks & AI tooling",
+    "Agentic workflow harnessing",
+    "Governance / regulatory compliance systems",
+    "AWS cloud services",
+    "Digital twins",
+    "MLOps / production ownership",
+    "2+ yrs agent development"
+  ],
+  "adjacent_skills": [
+    "Healthcare / clinical ML \u2192 BraTS MRI segmentation, DONUT medical billing extraction",
+    "Statistics \u2192 Random Signal Analysis coursework, eval metrics",
+    "Industry AI execution \u2192 5 internships, research scope not production",
+    "AI systems infrastructure \u2192 Jetson/TensorRT deployment + SLURM, not cloud agent infra"
+  ],
+  "top_ats_keywords": [
+    "AI agents",
+    "agentic workflows",
+    "AI tooling",
+    "LLM",
+    "AWS",
+    "clinical machine learning",
+    "healthcare ML",
+    "AI infrastructure",
+    "governance",
+    "Python",
+    "machine learning",
+    "digital twins",
+    "model evaluation",
+    "end-to-end ownership"
+  ],
+  "key_responsibilities": [
+    "Build AI agents, skills, and tools for digital twin delivery workflows",
+    "Build infrastructure, harnessing, and governance for agentic workflows under regulatory/compliance requirements",
+    "Collaborate with scientists to define and build AI-centric solutions",
+    "Drive user feedback and adoption of new tools",
+    "Communicate capabilities to internal and external stakeholders"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": "Weak Fit \u2192 downgrade Can Try to No"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 42,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Real LLM evaluation/benchmarking work: TinyLlama 8-bit quantization benchmarked on HellaSwag, GSM8K, ARC with perplexity tracking \u2014 the closest thing to the 'harnessing' half of the role",
+      "Genuine healthcare ML backing: BraTS 2020 multi-modal MRI U-Net pipeline (Teesside) and DONUT fine-tuned on a medical billing dataset (IIT Bombay, 55%\u219293%)",
+      "One live LLM-in-the-loop system: Gemini intent classification inside the COFFIN voice-controlled arm pipeline",
+      "End-to-end ownership instinct the JD asks for: COFFIN integrated STT, LLM, vision, and firmware and resolved 11 integration failures to 10/10 reliability"
+    ],
+    "real_gaps": [
+      "No AI agents built: no tool-calling loops, no agent frameworks, no multi-step autonomous workflows. A single Gemini classification API call is not agent development",
+      "No agent infrastructure, harnessing, or governance systems \u2014 the explicit core of this first-of-its-kind role",
+      "No AWS or any cloud platform experience (SLURM/JupyterHub is HPC, not cloud services)",
+      "No digital twins, no clinical trial / biostatistics domain exposure \u2014 the healthcare ML is imaging and document extraction, not clinical trial modeling",
+      "'Evidence of successful execution of AI projects in an industry setting' \u2014 all AI work is research, capstone, or internship scope; nothing shipped and operated in production",
+      "0 full-time years against a 2+ year minimum focused specifically on agents"
+    ],
+    "overstated_by_keywords": [
+      "'AI systems infrastructure' counted adjacent on Jetson/TensorRT deployment \u2014 that is edge inference optimization, unrelated to cloud agent infrastructure",
+      "'Industry AI execution' counted adjacent on internships \u2014 the JD means shipped industry systems"
+    ],
+    "understated_by_keywords": [
+      "LLM benchmark harness work (HellaSwag/GSM8K/ARC + pynvml profiling) is real eval-harness experience the keyword pass never surfaced",
+      "Healthcare ML is stronger than a half-credit adjacency: two separate medical ML projects with reported metrics"
+    ],
+    "reasoning": "Justin has real depth in ML systems, but it sits on the wrong axis for this role: edge inference, CUDA, quantization, and computer vision rather than LLM agents, tool-calling, and cloud agent infrastructure. The healthcare requirement is the one minimum he genuinely part-clears. The role's stated core \u2014 building agents, harnessing, and governance for regulated agentic workflows on AWS \u2014 has essentially no backing anywhere in the profile, and this is explicitly a first-of-its-kind, entrepreneurial ownership role where the hire is expected to already know the agent stack.",
+    "calibration_delta": 8.0
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "company": "Caterpillar Inc.",
+  "company_slug": "caterpillar",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 52.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 8,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.938,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "Python",
+    "Git",
+    "Embedded software",
+    "Software configuration and build",
+    "Troubleshooting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Test bench setup",
+      "you_have": "testing and validation / hardware debugging"
+    },
+    {
+      "jd_skill": "System testing",
+      "you_have": "testing and validation"
+    },
+    {
+      "jd_skill": "Software requirements analysis",
+      "you_have": "technical documentation"
+    },
+    {
+      "jd_skill": "Test plan creation",
+      "you_have": "technical documentation / testing and validation"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "serial protocols (UART/I2C/SPI)"
+    },
+    {
+      "jd_skill": "CANalyzer",
+      "you_have": "Logic Analyzers / Oscilloscopes"
+    },
+    {
+      "jd_skill": "Trace32",
+      "you_have": "hardware debugging"
+    },
+    {
+      "jd_skill": "Electrical systems troubleshooting",
+      "you_have": "hardware debugging (oscilloscopes, multimeters)"
+    }
+  ],
+  "missing_skills": [
+    "dSPACE",
+    "Cat Electronic Technician",
+    "Matlab",
+    "J1939",
+    "Engine or machine system development"
+  ],
+  "top_ats_keywords": [
+    "dSPACE",
+    "Git",
+    "Trace32",
+    "CANalyzer",
+    "Cat Electronic Technician",
+    "CAN",
+    "J1939",
+    "Matlab",
+    "C",
+    "Python",
+    "requirements analysis",
+    "system testing",
+    "test plan",
+    "embedded software"
+  ],
+  "required_skills": [
+    "Embedded software",
+    "C",
+    "Software requirements analysis",
+    "Test plan creation and execution",
+    "Test bench setup",
+    "System testing",
+    "Software configuration and build",
+    "Troubleshooting"
+  ],
+  "preferred_skills": [
+    "dSPACE",
+    "Git",
+    "Trace32",
+    "CANalyzer",
+    "Cat Electronic Technician",
+    "CAN/J1939",
+    "Matlab",
+    "Python",
+    "Engine or machine system development",
+    "Electrical systems troubleshooting"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Software requirements analysis",
+    "Software configuration and building",
+    "Test plan creation, execution, documentation",
+    "Test bench hardware/software setup",
+    "Manual and automated testing",
+    "Lab/proving ground/field troubleshooting"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mossville, IL",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C with interrupts and peripheral drivers: STM32 Cortex-M4 firmware (GPIO, TIM2, ADC1, I2C1, 3.68 KB Flash / 1.58 KB RAM, verified in Proteus)",
+      "Real-time control firmware: Robocon Arduino Due interrupt-driven quadrature decoding, 15 kHz PWM, fail-safe state machine on controller disconnect",
+      "Hardware/software troubleshooting on a multi-device system: COFFIN capstone, resolved 11 integration failures (servo brown-out, stale-frame capture, false positives), 10/10 pick reliability",
+      "Git/GitLab version control and lab data-acquisition tooling in Python (BARC intern: PyQt/Matplotlib real-time acquisition GUI)",
+      "Bench instrument familiarity: oscilloscopes, logic analyzers, multimeters; UART/I2C sensor integration over custom EAGLE PCBs (ARC)"
+    ],
+    "real_gaps": [
+      "No automotive/off-highway bus experience: CAN, J1939, CANalyzer appear nowhere in the profile",
+      "No HIL/test-bench tooling: dSPACE, Matlab/Simulink, Trace32, Cat ET",
+      "No formal requirements analysis, test plan authoring or verification-against-requirements work; testing in the profile is self-directed validation of own projects",
+      "No engine, powertrain, battery-electric or fuel-cell system exposure; no ECU-level calibration or configuration management",
+      "No automated test framework or regression-suite experience; no proving-ground/field troubleshooting",
+      "Embedded work is bare-metal and small-scale; no production ECU software build/integration pipeline"
+    ],
+    "overstated_by_keywords": [
+      "Test bench setup, System testing, Test plan creation counted Adjacent via 'testing and validation', but that is ad hoc validation of personal/capstone projects, not requirements-driven bench verification",
+      "CANalyzer counted Adjacent via logic analyzers/oscilloscopes, but CANalyzer is a CAN bus analysis and simulation tool with no real overlap in the profile",
+      "Trace32 counted Adjacent via hardware debugging, but no JTAG/trace-debugger use is evidenced in the bullets",
+      "CAN counted Adjacent via UART/I2C/SPI; those are different physical layers and arbitration models"
+    ],
+    "understated_by_keywords": [
+      "Troubleshooting depth: the COFFIN integration-failure work is concrete, root-cause style debugging across firmware, sensors and power, which maps well to 'support system and software troubleshooting'",
+      "Software requirements flavor: Robocon fail-safe state machine and ToF-gated grasp logic show behavior specified by hardware constraints, closer to requirements-driven embedded logic than a keyword match suggests"
+    ],
+    "screening_gaps": [
+      "No CAN/J1939 or CANalyzer experience, the core protocol and tool of every ECU bench at Caterpillar",
+      "No dSPACE/HIL or Matlab/Simulink test-bench experience, central to 'set-up and configuration of test bench hardware & software'",
+      "No requirements-based test plan creation or execution, and no engine/machine system background"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The firmware core (embedded C, interrupts, peripherals, Git, Python, hands-on debugging) is genuinely backed, but the role is mostly requirements-driven bench verification of engine ECUs over CAN/J1939 with dSPACE and CANalyzer, and none of that tooling or process appears in the profile. It reads as an entry-level door-opener if Caterpillar screens for fundamentals, but the domain tooling gap is the likely rejection reason.",
+    "calibration_delta": 4.6
+  },
+  "semantic_pending": false
+}

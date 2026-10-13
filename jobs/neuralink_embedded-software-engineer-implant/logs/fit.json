@@ -1,0 +1,71 @@
+{
+  "company": "Neuralink",
+  "company_slug": "neuralink",
+  "role": "Embedded Software Engineer, Implant Embedded Systems",
+  "job_slug": "embedded-software-engineer-implant",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Rust",
+    "Safety-critical systems",
+    "FPGA development",
+    "Applied cryptography / embedded security",
+    "RF stacks"
+  ],
+  "adjacent_skills": [
+    "ARM cores (via STM32 Cortex-M4)",
+    "BLE (have Bluetooth BLE) vs practical RF/TCP-IP embedded stacks"
+  ],
+  "top_ats_keywords": [
+    "bare-metal",
+    "embedded C",
+    "STM32",
+    "Cortex-M4",
+    "ADC",
+    "GPIO",
+    "I2C",
+    "SPI",
+    "UART",
+    "PWM",
+    "interrupt",
+    "FreeRTOS",
+    "Digital Signal Processing",
+    "PCB",
+    "EAGLE PCB Design",
+    "Oscilloscopes",
+    "Logic Analyzers"
+  ],
+  "key_responsibilities": [
+    "Own complex challenges from definition to solution",
+    "Deliver safety critical embedded systems considering power, radio, and thermal requirements",
+    "Own products/features from planning through execution and testing",
+    "Contribute to bare-metal firmware",
+    "Ship manufacturable solutions in a fast-paced iterative environment"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real bare-metal register-level C experience, not just listed as a skill: STM32 Temperature Monitor drives GPIO/TIM2/ADC1/I2C1 directly with interrupt-driven ADC capture, 3.68 KB Flash / 1.58 KB RAM footprint, deterministic 1 Hz timing.",
+      "Object Tracking Turret shows RTOS-level firmware work under real constraints: FreeRTOS mutexes for shared-memory task coordination, interrupt-driven UART, multi-servo PWM.",
+      "Genuine EE coursework and hands-on hardware: Digital Electronics, Digital Signal Processing, Random Signal Analysis (B.E. Electronics & Telecom), plus PCB design and fabrication in EAGLE, oscilloscope and logic analyzer use.",
+      "Cross-disciplinary team ownership: General Secretary role leading a 25-member robotics team end to end (mechanical, PCB, ML integration), matching the JD's 'own complex challenges' and 'cross-functional' asks."
+    ],
+    "real_gaps": [
+      "Zero safety-critical systems experience (no IEC 62304/DO-178-style process, no medical device or certified firmware work), while the JD lists delivering safety-critical systems as a core responsibility, not a preferred nice-to-have.",
+      "No RF or radio engineering experience. The JD explicitly scopes the role around power, radio, and thermal constraints together; Justin's BLE work (HC-05 module wiring in an internship project) is module integration, not RF design.",
+      "No production/manufacturing-scope firmware. Every embedded project (temperature monitor, turret) is prototype or capstone scale; the JD stresses 'shipping manufacturable solutions,' which implies DFM, hardened firmware, and process rigor beyond a one-off build.",
+      "No FPGA and no applied cryptography/embedded security experience at all (both preferred, both absent).",
+      "No Rust \u2014 acceptable since the JD accepts C, but worth flagging since Neuralink's public engineering culture leans Rust-forward for new firmware."
+    ],
+    "overstated_by_keywords": [
+      "'EE fundamentals' and 'signal processing fundamentals' registered as full Have via coursework titles (Digital Electronics, DSP, Random Signal Analysis) \u2014 real, but classroom-level, not applied to RF/analog/implant-grade hardware.",
+      "'Bare-metal embedded systems' registered as full Have \u2014 accurate for STM32 project work, but at a hobbyist/capstone complexity tier, not the safety-critical, power-constrained implant firmware tier the JD is actually hiring for."
+    ],
+    "reasoning": "The keyword match is inflated because it can't distinguish depth or scale: Justin genuinely has bare-metal, EE, and DSP fundamentals, and his STM32/FreeRTOS project work is real (not surface-level), but none of it touches safety-critical process, RF engineering, or production firmware, which are the three things this specific JD is built around. This reads as a credible junior embedded candidate on general fundamentals with a real gap on the domain-specific asks (safety-critical, radio, manufacturable)."
+  }
+}

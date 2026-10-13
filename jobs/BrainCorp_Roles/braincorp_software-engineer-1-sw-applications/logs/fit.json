@@ -1,0 +1,34 @@
+{
+  "company": "Brain Corp",
+  "company_slug": "braincorp",
+  "role": "Software Engineer I, SW Applications",
+  "job_slug": "software-engineer-1-sw-applications",
+  "match_pct": 95,
+  "missing_skills": ["LiDAR (specific)", "unit testing frameworks (pytest/GoogleTest)", "Agile/Scrum", "explicit multithreading (std::thread)"],
+  "adjacent_skills": ["HAL/middleware (via STM32 firmware + Flask-SocketIO edge server)", "telemetry (via COFFIN WebSocket pipeline)", "IMU/camera sensing (ADXL345, ToF, OpenCV/YOLO vs LiDAR)"],
+  "top_ats_keywords": ["Python", "C++", "C++11", "Linux", "Ubuntu", "HAL", "telemetry", "LiDAR", "camera", "IMU", "middleware", "Git", "CMake", "unit testing", "multithreading", "Agile", "robotics", "embedded systems"],
+  "key_responsibilities": ["HAL development", "telemetry/logging systems", "sensor integration (LiDAR/camera/IMU)", "middleware between sensors/compute/higher-level systems", "C++/Python development", "hardware-software debugging", "unit/integration testing", "performance analysis (CPU/memory/latency)"],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 88,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "STM32 bare-metal C + FreeRTOS experience directly backs HAL/embedded work (STM32 Bare-Metal Temperature Monitor, Object Tracking Turret)",
+      "Sensor integration depth: ADXL345 accelerometer, VL53L0X ToF, OpenCV/YOLO cameras (COFFIN capstone) backs the camera/IMU sensor integration ask, just not literal LiDAR",
+      "COFFIN capstone's three-layer distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson+Arduino) is genuine middleware/telemetry-shaped systems work across compute and sensor boundaries",
+      "Explicitly debugged hardware-software boundary issues (11 integration failures: servo brown-out, stale-frame capture, false positives) in COFFIN, which maps directly to the JD's debugging requirement",
+      "Strong C++/Python breadth across projects, plus Git/Linux throughout"
+    ],
+    "real_gaps": [
+      "No LiDAR experience specifically (ToF and camera depth are adjacent, not the same sensor class)",
+      "No documented unit/integration testing framework work (pytest, GoogleTest) despite JD calling this out explicitly",
+      "No Agile/Scrum experience mentioned anywhere in profile",
+      "Embedded work is academic/hobbyist scale (Nucleo dev boards, breadboard prototypes), not the production fleet scale Brain Corp implies with 30,000+ AMRs in the field"
+    ],
+    "overstated_by_keywords": [
+      "\"Robotics/embedded systems\" reads as a clean match on paper, but the scale gap (academic project vs. commercial fleet software) is real and worth being upfront about if it comes up in interview"
+    ],
+    "reasoning": "This is a strong fit on fundamentals: entry level bar, C++/Python, Linux, Git, and hands on embedded plus sensor integration experience all line up well, and the COFFIN capstone is a genuinely relevant systems integration project. The gaps are testing frameworks, Agile exposure, and literal LiDAR experience, none of which are disqualifying at the entry level. Justin's ML/CUDA depth is not really needed here since this role is applications/HAL focused rather than ML heavy, so resume tailoring should foreground the embedded and systems integration side over the ML side."
+  }
+}

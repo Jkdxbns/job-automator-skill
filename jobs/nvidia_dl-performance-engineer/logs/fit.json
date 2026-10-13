@@ -1,0 +1,169 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Performance Engineer - Deep Learning",
+  "job_slug": "dl-performance-engineer",
+  "match_pct": 64.6,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 7,
+    "missing_count": 5,
+    "jd_ask_size": 24,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "CUDA",
+    "GPU",
+    "PyTorch",
+    "Transformer",
+    "attention",
+    "Code Optimization",
+    "Deep Learning",
+    "Linux",
+    "Parallel systems programming",
+    "MPI"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "Triton",
+      "you_have": "CUDA"
+    },
+    {
+      "jd_skill": "cuBLAS/cuDNN",
+      "you_have": "CUDA / TensorRT"
+    },
+    {
+      "jd_skill": "low precision training",
+      "you_have": "quantization (8-bit, QAT)"
+    },
+    {
+      "jd_skill": "Computer Architecture",
+      "you_have": "High Performance Architecture coursework"
+    },
+    {
+      "jd_skill": "profiling multi-GPU/multi-node",
+      "you_have": "pynvml profiling, SLURM, MPI"
+    },
+    {
+      "jd_skill": "LLM architectures",
+      "you_have": "GPT-2, TinyLlama"
+    }
+  ],
+  "missing_skills": [
+    "Transformer Engine",
+    "CuTeDSL",
+    "Pallas",
+    "MLPerf",
+    "Open source contributions"
+  ],
+  "top_ats_keywords": [
+    "Transformer Engine",
+    "LLM",
+    "low precision",
+    "MLPerf",
+    "PyTorch",
+    "JAX",
+    "CUDA",
+    "Triton",
+    "CuTeDSL",
+    "Pallas",
+    "cuBLAS",
+    "cuDNN",
+    "multi-GPU",
+    "profiling",
+    "attention"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Parallel systems programming (GPU)",
+    "Computer Architecture",
+    "Code Optimization",
+    "Operating Systems",
+    "Large software projects"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "JAX",
+    "Profiling multi-GPU/multi-node",
+    "LLM architectures",
+    "Attention mechanisms",
+    "cuBLAS/cuDNN/cuSOLVER",
+    "GPU kernels (CUDA/Triton/CuTeDSL/Pallas)",
+    "Open source contributions"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Transformer Engine",
+    "low precision training and parallelism research",
+    "optimize LLMs on NVIDIA GPUs",
+    "MLPerf submissions",
+    "open source engagement"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Hand-written CUDA C++ conv kernels with memory coalescing and constant memory: 49.2ms vs 73.3ms uncoalesced, ~35% speedup (CUDA Kernel Optimization for VGG16)",
+      "Transformer internals built from scratch in PyTorch: multi-head attention, MLP, layernorm, weight tying (GPT-2 project) plus a causal Transformer decoder with cross-attention (ASR)",
+      "Low-precision work with real numbers: LLM.int8() on TinyLlama ~55% VRAM cut with <1% accuracy loss, and QAT with STE fake-quant at 97.43% MNIST",
+      "Parallel scaling and benchmarking discipline: MPI 10.49x on 12 workers, 30x ray tracer on 55 processes, load-imbalance analysis, SLURM cluster",
+      "TensorRT YOLO 5.2x speedup (56.7 to 10.9 ms) and pynvml VRAM/latency profiling"
+    ],
+    "real_gaps": [
+      "No multi-GPU or multi-node training: no NCCL, DDP/FSDP, tensor/pipeline parallelism",
+      "No FP8/FP4 or mixed-precision training; low precision evidence is inference-side int8 only",
+      "No Triton, CuTe/CUTLASS, Pallas or JAX; GPU kernel evidence is one naive conv kernel",
+      "No Nsight Systems/Compute profiling evidence; only pynvml and wall-clock timing",
+      "No open-source contributions to PyTorch/JAX or any DL framework; no MLPerf",
+      "No library-scale software ownership; 2+ years C++ and Python is internship and coursework scope"
+    ],
+    "overstated_by_keywords": [
+      "GPU / CUDA counted Have, but depth is one VGG16 conv kernel, not GEMM, attention or fused kernels",
+      "Parallel systems programming counted Have, but it is MPI on CPUs, not GPU parallelism",
+      "Profiling counted adjacent, but pynvml is memory/latency logging, not kernel-level performance analysis"
+    ],
+    "understated_by_keywords": [
+      "Cython-accelerated BPE tokenizer (4-5.5x) and the kernel speedup work show a genuine optimize-and-measure habit that fits a performance role"
+    ],
+    "screening_gaps": [
+      "No distributed multi-GPU training experience (NCCL, parallelism strategies) when the role centres on scaling LLM training",
+      "GPU kernel depth is a single hand-written conv kernel, with no Triton/CUTLASS/Tensor Core work and no Nsight profiling",
+      "No open-source contributions to a DL framework or comparable large-codebase work"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role's core is scaling and low-precision LLM training on multi-GPU systems, and the profile backs only the single-GPU kernel, Transformer-architecture and int8 inference pieces. The keyword score reads higher because C++, Python, CUDA and PyTorch string-match, but the distributed-training and kernel-library depth the team screens on is absent. Low-cost long shot rather than a target role.",
+    "calibration_delta": 18.6
+  },
+  "semantic_pending": false
+}

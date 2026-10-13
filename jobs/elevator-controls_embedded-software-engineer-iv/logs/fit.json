@@ -1,0 +1,150 @@
+{
+  "company": "Elevator Controls Corporation (Vantage Elevation)",
+  "company_slug": "elevator-controls",
+  "role": "Embedded Software Engineer IV",
+  "job_slug": "embedded-software-engineer-iv",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 1,
+    "missing_count": 7,
+    "jd_ask_size": 20,
+    "req_cov": 0.818,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "embedded firmware / real-time embedded software",
+    "low-level device drivers",
+    "Bash",
+    "Python",
+    "Make (build systems)",
+    "Git (version control)",
+    "software testing",
+    "hardware/software integration",
+    "hardware debugging / troubleshooting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IAR ARM development",
+      "you_have": "ARM Cortex-M firmware (no IAR toolchain specifically)"
+    }
+  ],
+  "missing_skills": [
+    "PowerShell",
+    "Cygwin",
+    "Subversion",
+    "board-level electrical design",
+    "technical leadership / mentoring of other engineers",
+    "formal design reviews at production scale",
+    "elevator industry / A17 code knowledge"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "RTOS",
+    "embedded software",
+    "firmware",
+    "device drivers",
+    "IAR ARM",
+    "Bash",
+    "PowerShell",
+    "Python",
+    "Make",
+    "Git",
+    "Subversion",
+    "board-level design",
+    "technical leadership"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "embedded firmware",
+    "low-level device drivers",
+    "hardware/software integration",
+    "hardware debugging",
+    "software testing",
+    "technical and design reviews",
+    "technical leadership",
+    "version control (Git or Subversion)"
+  ],
+  "preferred_skills": [
+    "IAR ARM development",
+    "Bash",
+    "PowerShell",
+    "Python",
+    "Cygwin",
+    "Make",
+    "board-level design",
+    "electrical systems knowledge",
+    "elevator industry experience"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "design/develop/maintain embedded software for elevator control systems",
+    "troubleshoot complex hardware/firmware/software issues autonomously",
+    "low-level device drivers",
+    "perform technical/design reviews and mentor engineers",
+    "define/support product architecture and technical roadmaps",
+    "own field/manufacturing issue resolution"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sacramento, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Bare-metal embedded C on STM32 Cortex-M4: hand-written I2C, ADC, GPIO, and timer drivers (temperature monitoring firmware)",
+      "FreeRTOS task/mutex coordination on the object-tracking turret project (multi-servo PWM, interrupt-driven UART, shared-memory task sync)",
+      "Hands-on hardware/software integration and debugging across many independent embedded and robotics builds",
+      "Git version control and structured C/C++ development habits"
+    ],
+    "real_gaps": [
+      "Zero full-time professional experience against a 7+ year senior IC bar",
+      "No demonstrated autonomous ownership of a shipped/production embedded system at organizational scale",
+      "No technical leadership or mentoring of other engineers in a professional setting",
+      "No IAR ARM toolchain experience",
+      "No PowerShell, Cygwin, or Subversion experience",
+      "No board-level electrical design or general electrical-systems background",
+      "No elevator industry or A17/EN/BS code knowledge"
+    ],
+    "overstated_by_keywords": [
+      "RTOS and low-level device drivers score as full keyword matches, but the backing is a single coursework/personal project (FreeRTOS mutex demo, bare-metal I2C/ADC driver), not production-grade driver or RTOS work at the depth a Level IV role assumes"
+    ],
+    "understated_by_keywords": [
+      "Breadth of hands-on hardware/software integration and debugging across many varied embedded and robotics projects (turret, gesture-recognition glove, custom PCB fab) is broader than the single hardware debugging keyword conveys"
+    ],
+    "screening_gaps": [
+      "Zero years of full-time experience vs. the stated 7+ year requirement for a senior IC role",
+      "No technical leadership, mentoring, or autonomous production-system ownership \u2014 everything is capstone/research/internship scope",
+      "No IAR ARM toolchain or elevator-domain (A17/EN/BS) experience"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The core embedded skills (C, RTOS concepts, low-level drivers, ARM) are genuinely present but only at hobbyist/coursework depth. The role is centered on 7+ years of autonomous, senior-level ownership of a production system plus technical leadership of other engineers, none of which the profile evidences \u2014 this is a seniority and scope gap, not a technology gap.",
+    "calibration_delta": 14.5
+  }
+}

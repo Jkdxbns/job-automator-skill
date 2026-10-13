@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "company": "Hyperbound",
+    "role": "Machine Learning Engineer",
+    "company_slug": "hyperbound",
+    "job_slug": "machine-learning-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Fine-tuned and quantized open source models, including TinyLlama 1.1B, DONUT, and YOLOv8, cutting GPU memory footprint by ~55% through 8-bit quantization with under 1% accuracy loss across HellaSwag, GSM8K, and ARC benchmarks. Owned a voice-controlled robotic pipeline end to end on Jetson hardware, shipping TensorRT-optimized inference (5.2x speedup) and driving it to 100% field reliability through iterative failure resolution.",
+  "skills": {
+    "ML / Deep Learning": ["Quantization (8-bit)", "Hugging Face Transformers", "PyTorch", "TensorRT", "Model evaluation"],
+    "Edge AI / Speech": ["YOLO", "ASR pipelines", "faster-whisper", "Tokenization"],
+    "Languages & Systems": ["Python", "C/C++", "CUDA"],
+    "Embedded / Deployment": ["NVIDIA Jetson", "Arduino", "UART/I2C"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an open source OCR-free document transformer, on a custom medical billing dataset for structured field extraction using Hugging Face Transformers.",
+        "Built training and preprocessing pipelines in PyTorch, adding domain-specific tokenization and resizing decoder embeddings to fit the target schema.",
+        "Improved validation accuracy from 55% to 93% through iterative preprocessing and fine-tuning refinements."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom detection dataset and trained YOLOv8n, an open source model, achieving 83% mAP@50 on held-out validation.",
+        "Exported the trained model to ONNX and TFLite for on-device mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 multi-modal MRI dataset.",
+        "Built an evaluation framework using Dice Score and IoU benchmarks to report accuracy-latency trade-offs for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, an open source language model; profiled peak VRAM and inference latency across prompt types.",
+        "Built an evaluation benchmark suite across HellaSwag, GSM8K, and ARC; achieved under 1% accuracy degradation with a 0.09 perplexity increase, near lossless compression.",
+        "Evaluated efficiency versus task performance trade-offs to guide edge deployment decisions."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Owned a voice-controlled, vision-guided robotic pick-and-place system end to end, from model integration through on-device deployment on Jetson.",
+        "Deployed TensorRT-optimized YOLO for visual servoing, a 5.2x inference speedup (56.7→10.9 ms) over eager PyTorch.",
+        "Diagnosed and resolved 11 integration failures, reaching 100% pick reliability across 10 field trials."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch with a custom tokenizer and training loop, evaluating training via perplexity tracking."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline with a causal Transformer decoder and a Cython-accelerated BPE tokenizer (4–5.5x speedup), benchmarked at 15% WER."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "Robot Perception", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

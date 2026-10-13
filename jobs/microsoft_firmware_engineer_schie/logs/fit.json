@@ -1,0 +1,103 @@
+{
+  "company": "Microsoft",
+  "company_slug": "microsoft",
+  "role": "Firmware Engineer (SCHIE - Firmware Center of Excellence)",
+  "job_slug": "firmware_engineer_schie",
+  "location": "Mountain View, California, United States",
+  "remote_ok": false,
+  "work_model": "Hybrid - 3 days/week in-office",
+  "salary_range": "$85,400-$168,100 (Bay Area: $111,100-$183,700)",
+  "level": "Firmware Engineering IC2 / Junior (1-2 YOE)",
+  "match_pct": 78.9,
+  "have_skills": [
+    "C/C++",
+    "Embedded/firmware development (bare-metal)",
+    "SPI",
+    "I2C",
+    "Linux / OS fundamentals",
+    "Computer architecture (processors, buses, memories)",
+    "Cross-functional collaboration"
+  ],
+  "adjacent_skills": {
+    "I3C": "I2C (I3C is the direct successor; same 2-wire model, MIPI extensions)",
+    "Low-level device drivers": "hand-written STM32 bare-metal peripheral drivers (GPIO, TIM2, ADC1, I2C1)",
+    "Runtimes": "TensorRT / ONNX inference runtime work on Jetson",
+    "Memory management": "CUDA memory coalescing + Flash/RAM budgeting on Cortex-M4 (not OS-level MMU/paging)",
+    "Scheduling": "RTOS scheduling exposure (FreeRTOS coursework + custom RTOS build in progress)",
+    "Multi-core platform": "MPI / Multiple Processor Systems coursework, multi-core Jetson deployment",
+    "System-level HW/FW debug + root cause analysis": "logic analyzer / oscilloscope bring-up debugging on I2C and UART buses",
+    "GDB": "hardware debug tooling (logic analyzers, oscilloscopes, Proteus) but no stated GDB depth"
+  },
+  "missing_skills": [
+    "PCIe",
+    "Boot ROM / bootloaders",
+    "SoC bring-up",
+    "Pre-silicon environments / test benches"
+  ],
+  "required_experience_years": 0,
+  "preferred_experience_years": 2,
+  "experience_level_stated": "junior",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "clearance_required": false,
+  "top_ats_keywords": [
+    "firmware",
+    "embedded systems",
+    "C/C++",
+    "bare-metal",
+    "SPI",
+    "I2C",
+    "I3C",
+    "PCIe",
+    "SoC bring-up",
+    "boot ROM",
+    "bootloaders",
+    "device drivers",
+    "multi-core",
+    "system-level debugging",
+    "root cause analysis",
+    "computer architecture",
+    "memory management",
+    "scheduling",
+    "GDB",
+    "pre-silicon",
+    "hardware/firmware interface",
+    "low-level hardware",
+    "Linux"
+  ],
+  "key_responsibilities": [
+    "Architect software from boot ROMs to drivers to runtimes",
+    "Design firmware components incl. driver interfaces (PCIe, SPI, I2C, I3C)",
+    "System libraries for SoC bring-up; protocol and low-level hardware feature development",
+    "System-level debugging of complex hardware/firmware issues",
+    "Contribute across product development from design through manufacturing",
+    "Collaborate with hardware architects, SW devs, validation & integration, PMs"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "date_analyzed": "2026-08-04",
+  "job_number": "200046336",
+  "job_url": "https://jobs.careers.microsoft.com/global/en/job/200046336",
+  "travel": "Less than 25%",
+  "profession": "Hardware Engineering / Firmware Engineering",
+  "role_type": "Individual Contributor",
+  "date_posted": "2026-08-03",
+  "source_verified": "Microsoft careers site, 2026-08-04",
+  "employer_match_widget": {
+    "verdict": "Strong match",
+    "skills": [
+      "Documentation",
+      "C++"
+    ]
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-22",
+    "channel": "application",
+    "notes": "Form rejection (job 200046336). No feedback."
+  }
+}

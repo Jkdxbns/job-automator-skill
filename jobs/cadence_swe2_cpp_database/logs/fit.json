@@ -1,0 +1,64 @@
+{
+  "company": "Cadence Design Systems",
+  "company_slug": "cadence",
+  "role": "Software Engineer II (C++)",
+  "job_slug": "swe2_cpp_database",
+  "match_pct": 50.0,
+  "missing_skills": [
+    "IC design data models",
+    "Database architecture",
+    "Efficient data-access algorithms",
+    "Tcl scripting",
+    "Verilog HDL",
+    "IEEE 1801 UPF standard"
+  ],
+  "adjacent_skills": [
+    "Performance analysis \u2192 you have GPU kernel benchmarking/profiling (pynvml, memory coalescing, kernel optimization) but not DB-specific",
+    "Debugging/testing \u2192 general SWE fundamentals across projects, no dedicated large-scale DB testing shown"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Tcl",
+    "EDA",
+    "database architecture",
+    "API design",
+    "Linux",
+    "performance analysis",
+    "Verilog",
+    "UPF"
+  ],
+  "key_responsibilities": [
+    "Design/optimize EDA database infrastructure (data model, APIs, classes)",
+    "Resolve customer-reported defects with root cause analysis",
+    "Profile/benchmark/improve database API performance",
+    "Reduce database memory footprint for large-scale IC designs",
+    "Contribute to architecture reviews",
+    "Write tested, documented code; participate in agile ceremonies"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 28,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Manual/low-level C++ memory management under real constraints \u2014 CUDA Kernel Optimization project used constant memory and preallocated global buffers specifically to eliminate per-layer allocation overhead, the same instinct the JD wants applied to database memory footprint",
+      "Profiling/benchmarking discipline \u2014 pynvml/psutil VRAM profiling on the SLM Compression project and the 49.2ms vs 73.3ms vs 77.5ms kernel comparison show a measure-then-optimize habit that maps to 'profile, benchmark, and improve database API performance'",
+      "Comp Engineering coursework (Digital Electronics, DSP) gives baseline hardware-description familiarity, though never applied to actual IC design tooling"
+    ],
+    "real_gaps": [
+      "Zero IC design / EDA tooling exposure of any kind \u2014 no Innovus, Genus, place-and-route, timing, or any chip-design software background at all, not even adjacent",
+      "Zero database architecture experience \u2014 no schema design, no data-access-pattern work, no persistence-layer engineering anywhere in the profile",
+      "Zero Tcl, Verilog, or UPF exposure \u2014 these aren't 'weak', they're simply absent",
+      "0 years full-time professional experience against a JD that explicitly wants 2 years in 'a relevant engineering environment' \u2014 internships in research/ML/robotics don't read as that to an EDA hiring team",
+      "No customer-facing defect resolution experience \u2014 profile is entirely research/project-based, not commercial software support"
+    ],
+    "overstated_by_keywords": [
+      "C++ (Have) \u2014 real, but every C++ example in the profile is a small self-contained embedded or CUDA kernel, not API/class design inside a large production codebase, which is what the JD actually means by 'data-model enhancements, API definitions, class implementations'",
+      "Performance analysis (Adjacent) \u2014 genuine discipline, but applied to GPU inference latency, not database memory/access patterns; the transferable skill is the mindset, not the domain"
+    ],
+    "reasoning": "The keyword match (50%) is inflated by generic C++ and Linux hits that don't reflect the actual work the JD needs \u2014 production-scale database/API engineering inside an EDA codebase. Justin's genuine strength is disciplined low-level C++ performance work, but there is no EDA, database, or IC-design exposure anywhere in his background, and 0 years full-time experience against a stated 2-year minimum in a professional engineering environment compounds the gap."
+  }
+}

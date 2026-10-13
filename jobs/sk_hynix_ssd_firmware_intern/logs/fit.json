@@ -1,0 +1,28 @@
+{
+  "company": "SK Hynix Memory Solution",
+  "company_slug": "sk_hynix",
+  "role": "SSD Firmware Development Engineer Intern",
+  "job_slug": "ssd_firmware_intern",
+  "match_pct": 42.9,
+  "missing_skills": [
+    "NAND flash commands and operations",
+    "NAND managing algorithms / error control coding",
+    "SSD/NAND controller firmware (kernel level)",
+    "JTAG / In-Circuit Emulator debugging",
+    "Linux kernel, device drivers, storage software stack"
+  ],
+  "adjacent_skills": [
+    "BSP / device driver / real-time firmware (via STM32 bare-metal C + FreeRTOS + GPIO/UART/I2C/SPI)",
+    "ARM architecture (Cortex-M4, no explicit assembly experience)"
+  ],
+  "top_ats_keywords": ["C", "C++", "firmware", "embedded controller", "BSP", "device drivers", "real-time system", "ARM"],
+  "key_responsibilities": [
+    "Design & implement firmware for the Flash Interface Layer of an SSD",
+    "Integrate developed code with other modules and resolve issues",
+    "Debug and solve bugs on FPGA/ASIC environment",
+    "Engage with SoC, hardware, and validation teams"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "No", "apply": "No"},
+  "llm_analysis": null
+}

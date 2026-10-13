@@ -1,0 +1,183 @@
+{
+  "company": "Law Firm (unnamed, Nashville)",
+  "company_slug": "law-firm",
+  "role": "AI Engineer",
+  "job_slug": "ai-engineer-r003341",
+  "match_pct": 19.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 28,
+    "jd_ask_size": 39,
+    "req_cov": 0.365,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Git",
+    "APIs",
+    "version control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI agents / tool integration",
+      "you_have": "Gemini intent classification driving Jetson+Arduino arm (Flask-SocketIO)"
+    },
+    {
+      "jd_skill": "prompt design",
+      "you_have": "Gemini intent prompts; prompt-type latency profiling on TinyLlama"
+    },
+    {
+      "jd_skill": "evaluation of AI applications",
+      "you_have": "Model evaluation (WER, GSM8K, HellaSwag, latency/VRAM profiling)"
+    },
+    {
+      "jd_skill": "secrets/configuration management",
+      "you_have": "environment-file config + systemd service"
+    },
+    {
+      "jd_skill": "deployment / monitoring",
+      "you_have": "systemd services, auto-restart, Jetson deployment"
+    },
+    {
+      "jd_skill": "automated testing",
+      "you_have": "benchmarking harnesses (no pytest/CI evidence)"
+    },
+    {
+      "jd_skill": "state management",
+      "you_have": "state machines (embedded)"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Microsoft Azure",
+    "Azure Databricks",
+    "RAG",
+    "embeddings",
+    "retrieval",
+    "vector search",
+    "hybrid retrieval",
+    "reranking",
+    "n8n",
+    "LangGraph",
+    "Databricks Agent Bricks",
+    "MLflow",
+    "LangSmith",
+    "MCP",
+    "PostgreSQL",
+    "Spark",
+    "Delta Lake",
+    "Unity Catalog",
+    "Microsoft Entra ID",
+    "authentication/authorization/RBAC",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "knowledge graphs",
+    "LLM-based evaluation",
+    "human-in-the-loop workflows",
+    "trace analysis"
+  ],
+  "top_ats_keywords": [
+    "Azure Databricks",
+    "LangGraph",
+    "n8n",
+    "Agent Bricks",
+    "RAG",
+    "MLflow",
+    "LangSmith",
+    "MCP",
+    "PostgreSQL",
+    "SQL",
+    "Python",
+    "Entra ID",
+    "Unity Catalog",
+    "Delta Lake",
+    "Spark",
+    "TypeScript",
+    "React",
+    "embeddings",
+    "vector search",
+    "prompt injection"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "AI agents",
+    "multi-step AI workflows",
+    "prompt design",
+    "structured outputs",
+    "tool integration",
+    "state management",
+    "human-in-the-loop",
+    "Azure Databricks",
+    "Microsoft Azure",
+    "RAG",
+    "embeddings",
+    "retrieval",
+    "evaluation of AI applications",
+    "trace analysis",
+    "deployment",
+    "configuration management",
+    "secrets management",
+    "monitoring",
+    "automated testing",
+    "version control",
+    "APIs",
+    "authentication",
+    "authorization",
+    "RBAC"
+  ],
+  "preferred_skills": [
+    "n8n",
+    "LangGraph",
+    "Databricks Agent Bricks",
+    "MLflow",
+    "LangSmith",
+    "Spark",
+    "Delta Lake",
+    "Unity Catalog",
+    "vector search",
+    "hybrid retrieval",
+    "reranking",
+    "knowledge graphs",
+    "PostgreSQL",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "MCP",
+    "LLM-based evaluation",
+    "Microsoft Entra ID"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build LangGraph/n8n/Agent Bricks agents on Azure Databricks",
+    "Integrate with enterprise APIs and governed data",
+    "Build evals and analyze traces",
+    "Reliability and security safeguards"
+  ],
+  "role_category": "ml_systems",
+  "location": "Nashville, Tennessee",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

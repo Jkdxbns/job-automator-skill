@@ -1,0 +1,33 @@
+{
+  "company": "Adobe",
+  "company_slug": "adobe",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer-sanjose",
+  "match_pct": 64.3,
+  "missing_skills": [
+    "5+ years production ML/applied research experience",
+    "0→1 production ML feature ownership",
+    "Agentic architectures / multi-agent orchestration systems",
+    "Cloud platforms (AWS/GCP/Azure) for scalable ML deployment",
+    "Demonstrated technical leadership / mentoring track record"
+  ],
+  "adjacent_skills": [
+    "Python system design/testing/CI/CD (strong Python, but no demonstrated CI/CD or large-scale system design)",
+    "Production model deployment and monitoring (Jetson/TensorRT edge deployment, not cloud production monitoring)",
+    "Classical ML (coursework-level, not a distinct demonstrated specialty)",
+    "GenAI (LLM/tokenizer/Transformer/TinyLlama work, but no RAG or agent frameworks)",
+    "Data structures & algorithms (CS grad coursework, not explicitly keyworded)",
+    "Distributed system design (SLURM-managed jobs, MPI)"
+  ],
+  "top_ats_keywords": ["Python", "PyTorch", "Deep Learning", "GenAI", "Agentic systems", "Cloud (AWS/GCP/Azure)", "MLOps", "RAG", "CI/CD", "0→1 production ML"],
+  "key_responsibilities": [
+    "Design/build/optimize backend services powering ML and GenAI features",
+    "Develop, evaluate, deploy ML models (classical, deep learning, GenAI)",
+    "Contribute to agentic systems and multi-agent orchestration frameworks",
+    "Deploy and monitor ML models in production",
+    "Mentor junior engineers"
+  ],
+  "role_category": "general",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

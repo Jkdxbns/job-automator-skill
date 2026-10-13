@@ -1,0 +1,202 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Manipulation",
+  "job_slug": "robotics-autonomy-engineer-manipulation",
+  "match_pct": 43.1,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 11,
+    "missing_count": 11,
+    "jd_ask_size": 29,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "robot manipulation / whole-body control (Voice-Controlled Robotic Arm (COFFIN, MS Capstone): arm control on Jetson+Arduino with 100% pick reliability (10/10); ROS-Based Robotic Arm (AL5B & UR5e): DH tables, forward kinematics, MoveIt, ROS2 Humble + ROS Noetic)",
+    "kinematics and dynamics (ROS-Based Robotic Arm (AL5B & UR5e): DH parameters, forward kinematics, MoveIt planning)",
+    "perception integration for manipulation (Object Tracking Turret: YOLOv8 on Jetson + STM32 UART; Voice-Controlled Arm: faster-whisper STT + Gemini intent + YOLO (visual servoing); CARLA autonomous driving: semantic segmentation + YOLO11n + UFLD)",
+    "Python and/or C++ in Linux (Python Developer Intern (BARC): PyQt/Matplotlib, JupyterHub; Deep Learning Intern (Tusk): YOLOv8n; AI/ML Intern (IIT Bombay): PyTorch + HuggingFace VisionEncoderDecoder; CUDA C++ kernel optimization; Linux systemd deployment (auto-restart, non-root isolation, static IP))",
+    "machine learning frameworks (PyTorch / JAX / TensorFlow) (AI/ML Intern (IIT Bombay): PyTorch + HuggingFace VisionEncoderDecoder (DONUT fine-tuning 55%->93%); Deep Learning Intern (Tusk): YOLOv8n ONNX/TFLite; SLM Compression: bitsandbytes LLM.int8() TinyLlama; ASR from scratch: PyTorch; no JAX)",
+    "robot arms, hands/grippers, humanoid or mobile manipulation platforms (ROS-Based Robotic Arm (AL5B & UR5e): arm kinematics/planning; Voice-Controlled Arm (COFFIN): pick/release (10/10); no humanoid/quadruped experience)",
+    "ROS/ROS2 or custom middleware (ROS-Based Arm: ROS2 Humble + ROS Noetic + UR ROS2 driver + MoveIt + RViz (explicit profile bullet))"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "contact modeling and force control",
+      "you_have": "Closest backed: Voice-Controlled Arm grasp/release (10/10) and ROS arm planning \u2014 but no explicit force/torque control or contact dynamics modeling bullet"
+    },
+    {
+      "jd_skill": "manipulation planning and control (trajectory optimization or MPC)",
+      "you_have": "MoveIt trajectory planning (ROS-Based Arm) \u2014 related but not MPC or trajectory optimization"
+    },
+    {
+      "jd_skill": "simulation tools (Isaac Lab / MuJoCo / Drake)",
+      "you_have": "CARLA autonomous driving simulation + ROS RViz visualization \u2014 simulation exists but not the physics simulators asked"
+    },
+    {
+      "jd_skill": "learning-based manipulation (imitation learning / RL / VLA)",
+      "you_have": "Gemini intent classification + faster-whisper ASR (vision-language-audio pipelines) \u2014 not manipulation-policy VLA fine-tuning"
+    },
+    {
+      "jd_skill": "loco-manipulation on legged platforms / whole-body MPC for humanoids",
+      "you_have": "No legged/quadruped/humanoid platform; closest is ROS arm and turret (mobile base absent)"
+    },
+    {
+      "jd_skill": "fine-tuning / deploying vision-language-action (VLA) foundation models on real robots",
+      "you_have": "Fine-tuned DONUT (IIT Bombay) and U-Net (Teesside); deployed YOLOv8n + Gemini + faster-whisper on Jetson/Arduino \u2014 no VLA manipulation fine-tuning"
+    },
+    {
+      "jd_skill": "teleoperation and demonstration data collection pipelines at scale",
+      "you_have": "Not present in profile"
+    },
+    {
+      "jd_skill": "cross-embodiment / generalist manipulation policies",
+      "you_have": "Not present in profile"
+    },
+    {
+      "jd_skill": "dexterous multi-fingered hands / tactile and force-torque sensing in closed-loop",
+      "you_have": "No tactile/force-torque or multi-fingered hand experience; closest is VL53L0X ToF distance sensing and servo PWM"
+    },
+    {
+      "jd_skill": "optimizing and deploying learning-based controllers on resource-constrained platforms (ONNX Runtime, NVIDIA TensorRT, real-time onboard inference)",
+      "you_have": "TensorRT-optimized YOLO (5.2x speedup) on Jetson; faster-whisper + Gemini + YOLO onboard; 8-bit quantization; ONNX/TFLite export \u2014 closely matches"
+    },
+    {
+      "jd_skill": "3+ years experience in industry/startup robotics",
+      "you_have": "7 internships/research (new-grad, 0 full-time); no 3+ years industry"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "contact modeling and force control (explicit)",
+      "reason": "No force/torque sensing or contact dynamics modeling bullet; closest grasp/release does not mention force feedback"
+    },
+    {
+      "jd_skill": "imitation learning / RL for manipulation",
+      "reason": "No RL or imitation-learning bullet; closest is YOLO detection and quantization"
+    },
+    {
+      "jd_skill": "vision-language-action (VLA) foundation model fine-tuning for manipulation",
+      "reason": "No VLA model fine-tuning on manipulation; only DONUT OCR and U-Net segmentation"
+    },
+    {
+      "jd_skill": "Isaac Lab / MuJoCo / Drake simulation",
+      "reason": "Only CARLA and ROS RViz; no physics-based robot simulation"
+    },
+    {
+      "jd_skill": "JAX framework",
+      "reason": "Profile has PyTorch, TensorFlow, Keras; no JAX"
+    },
+    {
+      "jd_skill": "humanoid / quadruped / legged mobile manipulation platforms",
+      "reason": "Profile covers AL5B arm, UR5e, turret, wearable glove; no humanoid/quadruped"
+    },
+    {
+      "jd_skill": "teleoperation / demonstration-collection pipeline at scale",
+      "reason": "Not present"
+    },
+    {
+      "jd_skill": "dexterous multi-fingered hands / tactile-force-torque closed-loop",
+      "reason": "Not present; only VL53L0X ToF and servo PWM"
+    },
+    {
+      "jd_skill": "2+ years developing/deploying manipulation behaviors on real robotic systems",
+      "reason": "New-grad with 7 internships; no 2+ years full-time deployment"
+    },
+    {
+      "jd_skill": "PhD strongly preferred (Master satisfied, PhD not met)",
+      "reason": "Candidate holds M.S. only; preference not hard blocker"
+    },
+    {
+      "jd_skill": "loco-manipulation on legged platforms or whole-body MPC for humanoids",
+      "reason": "No legged/humanoid platform experience"
+    }
+  ],
+  "top_ats_keywords": [
+    "manipulation",
+    "whole-body control",
+    "robot arm",
+    "gripper",
+    "kinematics",
+    "dynamics",
+    "contact modeling",
+    "force control",
+    "trajectory optimization",
+    "MPC",
+    "imitation learning",
+    "reinforcement learning",
+    "vision-language-action",
+    "VLA",
+    "Isaac Lab",
+    "MuJoCo",
+    "Drake",
+    "ROS2",
+    "ROS",
+    "PyTorch",
+    "TensorRT",
+    "ONNX Runtime",
+    "simulation",
+    "perception",
+    "humanoid",
+    "quadruped",
+    "embodied AI",
+    "real-world deployment"
+  ],
+  "required_skills": [
+    "robot manipulation / whole-body control",
+    "kinematics and dynamics",
+    "contact modeling and force control",
+    "manipulation planning and control (trajectory optimization or MPC)",
+    "learning-based manipulation (imitation learning / RL / VLA)",
+    "perception integration for manipulation",
+    "simulation tools (Isaac Lab / MuJoCo / Drake)",
+    "Python and/or C++ in Linux",
+    "machine learning frameworks (PyTorch / JAX / TensorFlow)",
+    "robot arms, hands/grippers, humanoid or mobile manipulation platforms"
+  ],
+  "preferred_skills": [
+    "loco-manipulation on legged platforms / whole-body MPC for humanoids",
+    "fine-tuning / deploying vision-language-action (VLA) foundation models on real robots",
+    "teleoperation and demonstration data collection pipelines at scale",
+    "cross-embodiment / generalist manipulation policies",
+    "dexterous multi-fingered hands / tactile and force-torque sensing in closed-loop",
+    "optimizing and deploying learning-based controllers on resource-constrained platforms (ONNX Runtime, NVIDIA TensorRT, real-time onboard inference)",
+    "ROS/ROS2 or custom middleware"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop whole-body control and manipulation capabilities for humanoids/quadrupeds",
+    "Take field scenarios from concept to repeatable hardware execution",
+    "Build learning-based and model-based manipulation policies",
+    "Train manipulation policies from demonstration data; adapt VLA foundation models",
+    "Design grasp, contact, and force interaction strategies",
+    "Build simulation environments and evaluation pipelines for manipulation",
+    "Deploy on physical robots and iterate through lab/field validation",
+    "Integrate tightly with perception and locomotion"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

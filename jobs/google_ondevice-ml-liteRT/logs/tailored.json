@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "Google",
+    "role": "Software Engineer, On-Device Machine Learning",
+    "company_slug": "google",
+    "job_slug": "ondevice-ml-liteRT"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Experienced in on-device model deployment and inference runtime optimization, having reduced GPU memory footprint by 55% through 8-bit quantization on a 1.1B parameter language model and achieved a 5.2x speedup optimizing TensorRT based model runtimes on Jetson edge hardware. Exported and deployed CNN models to TFLite and ONNX for mobile inference, and built custom CUDA kernels to accelerate model execution at the kernel level.",
+  "skills": {
+    "ML / Deep Learning": ["PyTorch", "TensorFlow", "TFLite", "ONNX", "Quantization (8-bit)", "TensorRT", "Model evaluation", "Hugging Face Transformers"],
+    "Edge AI / On-Device": ["TensorRT", "YOLO", "faster-whisper", "Edge AI deployment"],
+    "Kernel & Runtime Optimization": ["CUDA", "CUDA C++", "Kernel optimization", "Memory coalescing", "pynvml Profiling"],
+    "Embedded & Mobile": ["NVIDIA Jetson", "Flutter", "Arduino", "WebSocket"],
+    "Languages & Tools": ["Python", "C/C++", "ROS2", "Linux", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 images, achieving 83% mAP@50; exported to ONNX and TFLite for mobile deployment.",
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning.",
+        "Built PyTorch training pipelines using HuggingFace VisionEncoderDecoder; added custom special tokens."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation (VGG-16/19, ResNet-50); evaluated Dice/IoU and accuracy-latency trade-offs.",
+        "Led a cross-cultural team of 7 as sole ML-experienced student, restructuring delivery within a 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "TensorRT-optimized YOLO for visual servoing: 5.2x speedup (56.7→10.9 ms, 92 FPS) on Jetson.",
+        "Built a Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller over WebSocket."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory ~55% via 8-bit quantization (LLM.int8) on TinyLlama 1.1B; profiled VRAM/latency with pynvml.",
+        "Benchmarked on HellaSwag, GSM8K, ARC: <1% accuracy loss, near-lossless compression."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Coalesced CUDA kernel: 49.2ms vs 73.3ms uncoalesced, 77.5ms CPU TorchScript — ~35% speedup.",
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "High Performance Architecture", "Multiple Processor Systems", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,149 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Forward Deployed Engineer",
+  "job_slug": "forward-deployed-engineer",
+  "match_pct": 60.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.944,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS2",
+    "C++",
+    "Python",
+    "Linux",
+    "Debugging",
+    "Software development best practices",
+    "Serial communication"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Wiring and electrical diagrams",
+      "you_have": "EAGLE PCB design / hardware wiring"
+    },
+    {
+      "jd_skill": "Log analysis",
+      "you_have": "Profiling/benchmarking, debugging"
+    },
+    {
+      "jd_skill": "Technical documentation (SOPs/runbooks)",
+      "you_have": "project documentation"
+    }
+  ],
+  "missing_skills": [
+    "Production robots with customers",
+    "Agricultural robotics",
+    "RTK/GNSS",
+    "CAN"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "C++",
+    "Python",
+    "Linux",
+    "SOP",
+    "runbook",
+    "troubleshooting",
+    "RTK",
+    "GNSS",
+    "CAN",
+    "serial",
+    "wiring",
+    "electrical diagrams",
+    "agricultural robotics",
+    "production robots"
+  ],
+  "required_skills": [
+    "ROS2",
+    "C++",
+    "Python",
+    "Linux",
+    "Debugging",
+    "Log analysis",
+    "Software development best practices",
+    "Production robots with customers",
+    "Technical documentation (SOPs/runbooks)"
+  ],
+  "preferred_skills": [
+    "Agricultural robotics",
+    "Wiring and electrical diagrams",
+    "RTK/GNSS",
+    "CAN",
+    "Serial communication"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Customer issue support",
+    "Ship ROS2/C++/Python fixes",
+    "Triage logs",
+    "Write SOPs and runbooks",
+    "Customer site travel"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Field-style debugging: COFFIN 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' across Jetson, Arduino and a mobile client, ending at 10/10 pick reliability",
+      "Linux service operations: Jetson arm bridge deployed as a systemd service with auto-restart backoff, non-root isolation, env-file config and static IP networking",
+      "Physical ROS 2 on real hardware: UR5e pick-and-place via the UR ROS 2 driver on ROS 2 Humble, validated in MoveIt/RViz",
+      "Wiring and integration ownership: Robocon 'owned wiring, interfacing, and integration across mechanical and design teams' plus EAGLE PCBs with UART/I2C sensor links",
+      "Teaching non-experts: authored and taught a Python course for club onboarding, an analogue to training operators and technicians"
+    ],
+    "real_gaps": [
+      "No customer-facing or support work anywhere in the profile",
+      "No production robot in a customer's hands; every deployment is capstone, research or competition scope",
+      "No CAN bus and no RTK/GNSS",
+      "No agricultural or off-road vehicle experience",
+      "No evidence of writing SOPs, runbooks or fleet-log incident triage",
+      "No shipped ROS 2 C++ fixes; C++ evidence is Arduino IK and CUDA kernels",
+      "Frequent customer-site travel cannot be judged from the profile"
+    ],
+    "overstated_by_keywords": [
+      "ROS2: arm coursework and a UR5e driver, not maintaining a ROS 2 stack in the field",
+      "C++: Arduino and CUDA, not ROS 2 node code",
+      "Serial communication: UART links on student and capstone projects, not diagnosing serial faults on a vehicle",
+      "Log analysis counted Adjacent from profiling and benchmarking, which is performance work and not incident triage"
+    ],
+    "understated_by_keywords": [
+      "Systemd, static IP and XRDP administration reads as real Linux ops depth",
+      "Hardware vs software fault isolation in COFFIN (brown-out vs software cause) matches debugging outside your area",
+      "Python course authorship is real instruction experience the keyword pass ignored"
+    ],
+    "screening_gaps": [
+      "No customer-facing or production-deployment experience with real operators",
+      "No CAN or RTK/GNSS, the vehicle-level stack this team debugs",
+      "No ROS 2 C++ ownership or shipped fixes to a live robot fleet"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Skill-wise this is about half backed: the debugging, Linux service and hardware wiring evidence is genuine, but the role's centre of gravity is customer support on deployed off-road robots, which has no backing. Worth applying because the technical bar is reachable, but expect the screen to turn on customer-facing and field-deployment evidence.",
+    "calibration_delta": 3.7
+  }
+}

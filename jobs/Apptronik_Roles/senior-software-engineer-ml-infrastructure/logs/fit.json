@@ -1,0 +1,131 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior Software Engineer, ML Infrastructure",
+  "job_slug": "senior-software-engineer-ml-infrastructure",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 1,
+    "missing_count": 10,
+    "jd_ask_size": 28,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch / Deep Learning",
+    "CUDA / CUDA C++",
+    "ROS / ROS2",
+    "YOLO / Object Detection",
+    "TensorRT",
+    "OpenCV",
+    "ONNX / Edge Model Packaging",
+    "Quantization / 8-bit Compression",
+    "Dataset Annotation / Curation",
+    "Simulation / Evaluation (CARLA)",
+    "LeRobot / Robotics Data Formats",
+    "Custom ML Data Pipeline (research/intern scale)",
+    "Model Benchmarking / Metrics",
+    "Embedded / Edge Deployment (NVIDIA Jetson, STM32)",
+    "Git / Linux / Bash",
+    "System Service / API Design (intern/research scale)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Production systems/services that other teams depend on daily (5+ years experience)",
+      "you_have": "System service deployment and API design (intern/research only, 0 full-time years)"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Docker (production container orchestration)",
+    "Modern CI/CD pipelines",
+    "Multi-terabyte production-scale data pipeline experience",
+    "Parquet / Arrow columnar formats experience",
+    "Object storage administration (S3, MinIO)",
+    "Dataset versioning and lineage tools (lakeFS, DVC, Iceberg)",
+    "Annotation and labeling at throughput scale (auto + human-in-the-loop workflows)",
+    "Parallel GPU evaluation harnesses with aggregated decision-grade results",
+    "Production service ownership with multi-year track record"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "TensorRT",
+    "ONNX",
+    "Keras",
+    "YOLO",
+    "OpenCV",
+    "ROS",
+    "ROS2",
+    "CUDA",
+    "C++",
+    "ML Infrastructure",
+    "Data Pipelines",
+    "Annotation",
+    "Simulation",
+    "Kubernetes",
+    "Docker",
+    "CI/CD",
+    "Cloud",
+    "S3",
+    "Dataset Versioning",
+    "LeRobot",
+    "MCAP",
+    "Isaac Sim",
+    "MuJoCo",
+    "Reinforcement Learning",
+    "Edge Deployment",
+    "Model Promotion",
+    "Experiment Tracking"
+  ],
+  "required_skills": [
+    "Large-scale ML data pipelines (multi-terabyte, multimodal sensor data, video/image streams, robot telemetry, Parquet/Arrow, dataset versioning/lineage, S3/MinIO)",
+    "ML annotation and labeling at scale (automatic + human-in-the-loop, throughput management)",
+    "Large-scale evaluation/simulation harnesses (many parallel GPU jobs, aggregated decision-grade results)",
+    "Strong Python and software engineering (testing, API design, code review)",
+    "Cloud infrastructure, Kubernetes, Docker, modern CI/CD",
+    "Production systems/services that other teams depend on daily"
+  ],
+  "preferred_skills": [
+    "Robotics data formats and fleet-scale telemetry (MCAP, ROS, LeRobot)",
+    "Simulation-in-the-loop evaluation (Isaac Sim, IsaacLab, MuJoCo)",
+    "Reinforcement or imitation learning infrastructure (rollout workers, sim-eval harnesses)",
+    "Deploying ML models to edge targets (ONNX Runtime, TensorRT, robot fleets)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Data curation & annotation: selection/filtering of manipulation episodes, synchronized sensor streams, annotation workflows with auto + human-in-the-loop review, dataset versioning and lineage",
+    "Data pipelines at scale: multi-terabyte transformation/assembly, coverage/quality statistics, GPU-fed read paths",
+    "Simulation & evaluation: rollout harnesses on GPU cluster, benchmarks across simulation/real-robot/teleop, qualification gates before robot deployment",
+    "Model promotion: versioning, metadata, evaluation attachment, lineage, promotion path to qualified/deployed on robot including ONNX/TensorRT packaging",
+    "Developer experience: experiment tracking, training job submission, sweeps, reproducible container environments",
+    "Partner with Autonomy/Data Platform/TeleOp on lifecycle contracts; contribute to technical direction; mentor engineers"
+  ],
+  "role_category": "ml_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,109 @@
+{
+  "company": "UT Austin Oden Institute",
+  "company_slug": "ut-austin-oden",
+  "role": "Research Engineer - Autonomous Systems & Control",
+  "job_slug": "research-engineer-autonomous-systems-control",
+  "match_pct": 34.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 16,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "ROS",
+    "machine learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "control systems",
+      "you_have": "Closed-Loop Feedback Control / PWM motor control"
+    },
+    {
+      "jd_skill": "autonomous vehicle control",
+      "you_have": "CARLA lane detection (UFLD)"
+    },
+    {
+      "jd_skill": "large software projects",
+      "you_have": "multi-module C++/CUDA and Python projects"
+    }
+  ],
+  "missing_skills": [
+    "trajectory optimization",
+    "aircraft dynamics",
+    "flight control",
+    "active learning",
+    "information-theoretic methods",
+    "physics-based vehicle modeling",
+    "DARPA program experience",
+    "publications",
+    "Ph.D."
+  ],
+  "top_ats_keywords": [
+    "trajectory optimization",
+    "flight control",
+    "aircraft dynamics",
+    "control",
+    "machine learning",
+    "ROS",
+    "Python",
+    "C++",
+    "active learning",
+    "DARPA"
+  ],
+  "required_skills": [
+    "control systems",
+    "trajectory optimization",
+    "machine learning",
+    "aircraft dynamics",
+    "flight control",
+    "autonomous vehicle control",
+    "Python",
+    "C++",
+    "large software projects"
+  ],
+  "preferred_skills": [
+    "ROS",
+    "active learning",
+    "information-theoretic methods",
+    "physics-based vehicle modeling",
+    "DARPA program experience",
+    "publications"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "information-aware trajectory planning and control for autonomous aircraft",
+    "robust control bridging models and multiphysics",
+    "large-scale autonomy software",
+    "validate on sim and robot hardware",
+    "publish research"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX (UT Main Campus)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,91 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Systems Engineer - Linux/Yocto",
+  "job_slug": "systems-engineer-linux-yocto",
+  "req_id": "1212261",
+  "location": "San Juan, Puerto Rico (Hybrid, 2 days/wk onsite)",
+  "match_pct": 44.2,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 9,
+    "missing_count": 10,
+    "jd_ask_size": 26,
+    "req_cov": 0.469,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ (low-level systems programming)",
+    "SPI",
+    "I2C",
+    "GPIO",
+    "Interrupt handling",
+    "Git",
+    "Embedded systems"
+  ],
+  "adjacent_skills": {
+    "Linux kernel internals / OS fundamentals": "RTOS + FreeRTOS + Multiple Processor Systems coursework (no kernel-internals work)",
+    "Data structures & algorithms": "CE coursework; no formal DSA depth on record",
+    "Compiler optimizations / UB / memory models": "CUDA kernel optimization, memory coalescing (GPU-side, not compiler UB/memory-model reasoning)",
+    "x86 / ARM systems": "ARM Cortex-M4 (STM32) + Jetson ARM64; no x86 platform work",
+    "Hardware bring-up": "STM32 + PCB bring-up, sensor integration (board-level, not server/NOS BSP)",
+    "Networking protocols / NOS": "TCP + WebSocket application sockets only",
+    "Automated testing / CI/CD": "GitLab, Bash automation, SLURM job scripting",
+    "Device drivers": "Bare-metal peripheral drivers on STM32 (not Linux kernel drivers)",
+    "eBPF / perf / ftrace / perf analysis": "pynvml profiling + benchmarking on Jetson/CUDA"
+  },
+  "missing_skills": [
+    "Yocto Project (layers, recipes, backports, packaging)",
+    "Linux kernel internals",
+    "Linux kernel + user-space debugging",
+    "BSP development",
+    "PCIe",
+    "MDIO",
+    "Patch management / backporting / conflict resolution",
+    "Linux kernel or open-source contributions",
+    "systemd",
+    "Debian packaging"
+  ],
+  "top_ats_keywords": [
+    "Yocto",
+    "Linux kernel",
+    "C/C++",
+    "BSP",
+    "ARM",
+    "x86",
+    "PCIe",
+    "SPI",
+    "I2C",
+    "GPIO",
+    "MDIO",
+    "interrupt handling",
+    "device drivers",
+    "embedded systems",
+    "systemd",
+    "Debian packaging",
+    "eBPF",
+    "perf",
+    "ftrace",
+    "CI/CD",
+    "Git",
+    "backporting",
+    "networking protocols"
+  ],
+  "key_responsibilities": [
+    "Develop and maintain Linux kernel, platform, and infrastructure software",
+    "Debug complex bugs, security vulnerabilities, integration issues across the stack",
+    "Build and maintain Yocto-based distributions (layers, recipes, packaging, backports)",
+    "Enable new hardware platforms and support BSP development",
+    "Improve system performance, automation, testing, developer productivity"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

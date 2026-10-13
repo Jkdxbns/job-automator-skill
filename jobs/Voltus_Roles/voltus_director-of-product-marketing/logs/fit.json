@@ -1,0 +1,104 @@
+{
+  "company": "Voltus",
+  "company_slug": "voltus",
+  "role": "Director of Product Marketing",
+  "job_slug": "director-of-product-marketing",
+  "match_pct": 8.3,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 10,
+    "jd_ask_size": 12,
+    "req_cov": 0.0,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Comfortable directing AI tools / AI productivity",
+      "you_have": "AI/ML, faster-whisper, HuggingFace Transformers, GPT-2"
+    },
+    {
+      "jd_skill": "Ready to operate as individual contributor",
+      "you_have": "Internship / capstone / M.S. project experience"
+    }
+  ],
+  "missing_skills": [
+    "Energy space / DER / virtual power plant experience",
+    "B2B marketing background",
+    "Marketing to non-technical buyer base",
+    "Product positioning and messaging (launch / playbook)",
+    "Sales enablement",
+    "Storytelling and positioning for non-expert audience (marketing context)",
+    "Build and lead a team (team leadership)",
+    "Travel for events / conferences / sales meetings",
+    "Director-level seniority and deep experience (5+ years implied by title)",
+    "Own product-market fit at platform / organization scale"
+  ],
+  "top_ats_keywords": [
+    "Director of Product Marketing",
+    "energy",
+    "DER",
+    "virtual power plant",
+    "B2B marketing",
+    "product positioning",
+    "messaging",
+    "launch playbook",
+    "sales enablement",
+    "storytelling",
+    "positioning",
+    "AI tools",
+    "AI productivity",
+    "team leadership",
+    "non-technical buyer"
+  ],
+  "required_skills": [
+    "Experience in the energy space (DER / virtual power plant)",
+    "B2B marketing background",
+    "Marketing to a broad, non-technical buyer base",
+    "Proven track record: product positioning, messaging, launch playbooks, sales enablement",
+    "Strong storytelling and positioning; simplify complexity for non-expert audience",
+    "Ready to operate as individual contributor with ability to build/lead team over time",
+    "Comfortable directing AI tools to increase personal output and productivity",
+    "Comfortable working across US time zones and traveling for events/conferences/sales"
+  ],
+  "preferred_skills": [
+    "Energy space strongly preferred",
+    "Build and lead a small product marketing team",
+    "Travel for events and sales meetings"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own product-market fit and embed with product organization",
+    "Build and own core product positioning and messaging",
+    "Build repeatable launch playbook and lead major feature launches",
+    "Partner with sales for enablement on new products",
+    "Translate complex product/market detail into clear stories for broad audience",
+    "Use AI tools to increase output and move quickly"
+  ],
+  "role_category": "other",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Please note that at this time, we do not sponsor visas or transfers for new hires. Voltus teammates need to be authorized to work from their home location (in the US or Canada, unless otherwise indicated on the role description). \u2014 no visa sponsorship offered now or ever (incl. CPT/OPT/STEM-OPT, category a)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

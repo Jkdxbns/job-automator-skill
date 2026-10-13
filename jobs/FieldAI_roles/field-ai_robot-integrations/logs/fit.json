@@ -1,0 +1,41 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Software Engineer – Robot Integrations",
+  "job_slug": "robot-integrations",
+  "match_pct": 89,
+  "missing_skills": [
+    "Legged / wheeled-legged / humanoid robot platform integration experience",
+    "Robot driver / SDK / hardware abstraction layer authorship",
+    "CAN / EtherCAT protocol experience",
+    "Production robot bring-up support (bench to full robot trials)",
+    "Calibration, synchronization, and diagnostics tooling for robotic platforms"
+  ],
+  "adjacent_skills": [
+    "UART / I2C / SPI / TCP comms experience (adjacent to CAN / EtherCAT)",
+    "CARLA simulation experience (adjacent to hardware-in-the-loop / regression testing)",
+    "Control-loop tuning via inverse kinematics / visual servoing (adjacent to physical robot control tuning)",
+    "Robocon wheeled-robot integration (adjacent to multi-platform robot integration)"
+  ],
+  "top_ats_keywords": [
+    "ROS / ROS2",
+    "C++ / Python (Linux)",
+    "Robot drivers / SDK integration",
+    "CAN / EtherCAT / UDP-TCP",
+    "Hardware-in-the-loop / regression testing"
+  ],
+  "key_responsibilities": [
+    "Bring up and integrate new robotic platforms (legged, wheeled-legged, wheeled, humanoid) into Field AI's software stack",
+    "Develop and maintain robot drivers and interfaces spanning state, sensing, actuation, and control",
+    "Debug cross-boundary issues involving networking, timing, hardware communication, and software integration",
+    "Profile and tune control performance to improve stability, responsiveness, and motion quality",
+    "Collaborate with hardware and software platform teams on bring-up, validation, tooling, and regression testing"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null
+}

@@ -1,0 +1,103 @@
+{
+  "company": "SingleStore",
+  "company_slug": "singlestore",
+  "role": "Software Engineer - New Grad 2027",
+  "job_slug": "swe-new-grad-2027",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 12,
+    "req_cov": 0.083,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Operating Systems (RTOS, Linux systemd daemons)",
+    "LLM/Transformers (GPT-2, TinyLlama, HuggingFace)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Concurrency/Multithreading",
+      "you_have": "MPI / Multiple Processor Systems parallel programming"
+    },
+    {
+      "jd_skill": "Server architectures",
+      "you_have": "Flask-SocketIO / WebSocket client-server systems"
+    }
+  ],
+  "missing_skills": [
+    "Algorithms & Data Structures (no DSA/LeetCode signal in profile)",
+    "SIMD",
+    "LLVM codegen",
+    "SQL",
+    "Query optimizer internals",
+    "Vector index",
+    "Distributed systems / fault tolerance at cluster scale"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "operating systems",
+    "concurrency",
+    "multithreading",
+    "server architectures",
+    "algorithms",
+    "data structures",
+    "SIMD",
+    "LLVM",
+    "SQL",
+    "query optimizer",
+    "vector index",
+    "LLM",
+    "fault tolerance"
+  ],
+  "required_skills": [
+    "C++/C",
+    "Operating Systems",
+    "Concurrency",
+    "Multithreading",
+    "Server Architectures",
+    "Algorithms & Data Structures"
+  ],
+  "preferred_skills": [
+    "SIMD",
+    "LLVM codegen",
+    "SQL query optimization",
+    "Vector index",
+    "LLM",
+    "Distributed systems / fault tolerance"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "LLM and vector index features",
+    "fault tolerance of SingleStore cluster",
+    "SQL query performance via SIMD/LLVM codegen",
+    "search and costing modules for the query optimizer"
+  ],
+  "role_category": "embedded_systems",
+  "location": "United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

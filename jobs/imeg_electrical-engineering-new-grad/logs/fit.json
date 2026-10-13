@@ -1,0 +1,92 @@
+{
+  "company": "IMEG",
+  "company_slug": "imeg",
+  "role": "Electrical Engineering New Grad",
+  "job_slug": "electrical-engineering-new-grad",
+  "match_pct": 13.6,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 9,
+    "jd_ask_size": 11,
+    "req_cov": 0.111,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "MS Office Suite"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Electronics/circuit theory",
+      "you_have": "Embedded systems circuit-level work (STM32, sensor interfacing)"
+    }
+  ],
+  "missing_skills": [
+    "Circuit theory (building/power focus)",
+    "Electromagnetism",
+    "Power systems design",
+    "Lighting photometric software (AGI/Elum Tools/Visual Lighting)",
+    "ComCheck energy compliance",
+    "Adobe/Bluebeam Revu",
+    "BIM software",
+    "MEP/building design workflow",
+    "EIT License"
+  ],
+  "top_ats_keywords": [
+    "Electrical Engineering",
+    "Circuit theory",
+    "Power systems",
+    "Lighting",
+    "BIM",
+    "ComCheck",
+    "Bluebeam"
+  ],
+  "required_skills": [
+    "Circuit theory",
+    "Electromagnetism",
+    "Power systems design",
+    "Electronics for building electrical systems",
+    "Lighting photometric calculation software (AGI/Elum Tools/Visual Lighting)",
+    "Energy compliance software (ComCheck)",
+    "Adobe/Bluebeam Revu",
+    "Building Information Modeling (BIM) basics",
+    "MS Office Suite"
+  ],
+  "preferred_skills": [
+    "Internship in building design consulting",
+    "EIT License"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/analysis of building electrical systems",
+    "Client interaction",
+    "Project planning/scheduling",
+    "Documentation",
+    "QC processes",
+    "Multidisciplinary team collaboration"
+  ],
+  "role_category": "electrical_building_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,183 @@
+{
+  "company": "Amazon (Ring)",
+  "company_slug": "amazon-ring",
+  "role": "Embedded Software Engineer II, Ring Firmware",
+  "job_slug": "embedded-software-engineer-ii-ring-firmware",
+  "match_pct": 68.0,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 8,
+    "missing_count": 4,
+    "jd_ask_size": 25,
+    "req_cov": 0.938,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "ARM CPUs",
+    "low-level drivers",
+    "interrupt service routines",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "FreeRTOS",
+    "Python",
+    "BS/MS CS/CE/EE",
+    "firmware",
+    "protocol analyzers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embedded wireless systems",
+      "you_have": "Bluetooth HC-05"
+    },
+    {
+      "jd_skill": "BLE",
+      "you_have": "Bluetooth (BLE/Classic)"
+    },
+    {
+      "jd_skill": "computer architecture",
+      "you_have": "High Performance Architecture coursework"
+    },
+    {
+      "jd_skill": "JTAG",
+      "you_have": "UART/logic analyzer debugging"
+    },
+    {
+      "jd_skill": "software testing",
+      "you_have": "testing and validation"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux, Jetson, BBB (exposure)"
+    },
+    {
+      "jd_skill": "GenAI applications",
+      "you_have": "LLM/ASR/SLM projects"
+    },
+    {
+      "jd_skill": "unit testing",
+      "you_have": "testing and validation"
+    }
+  ],
+  "missing_skills": [
+    "WiFi",
+    "battery powered firmware",
+    "IAR",
+    "Keil"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "ARM",
+    "drivers",
+    "interrupt service routines",
+    "JTAG",
+    "UART",
+    "SPI",
+    "I2C",
+    "BLE",
+    "WiFi",
+    "FreeRTOS",
+    "embedded Linux",
+    "Git",
+    "Python",
+    "IAR",
+    "Keil",
+    "battery powered",
+    "firmware",
+    "unit testing",
+    "GenAI"
+  ],
+  "required_skills": [
+    "C/C++",
+    "ARM CPUs",
+    "low-level drivers",
+    "interrupt service routines",
+    "hardware debugging (JTAG, UART, protocol analyzers)",
+    "computer architecture",
+    "embedded wireless systems",
+    "BS/MS CS/CE/EE"
+  ],
+  "preferred_skills": [
+    "BLE",
+    "WiFi",
+    "battery powered firmware",
+    "IAR/Keil",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "software testing",
+    "embedded Linux",
+    "FreeRTOS",
+    "Python",
+    "GenAI applications"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "embedded firmware C/C++",
+    "connectivity, streaming, power management, sensors, security subsystems",
+    "cross-team collaboration",
+    "code review",
+    "debug with JTAG/UART/protocol analyzers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Gdansk, Poland",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 53,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware: timer-triggered ADC, interrupt-driven capture, low-level I2C driver on GPIO/TIM2/ADC1/I2C1 (STM32 Bare-Metal Temperature Monitor)",
+      "Interrupt-driven quadrature decoding and UART command handling with PWM servo control (Robocon, Object Tracking Turret)",
+      "FreeRTOS tasks with mutexes (Object Tracking Turret); UART/I2C/SPI plus logic analyzer and oscilloscope debugging",
+      "Python and Git (GitLab) used in real lab work at BARC"
+    ],
+    "real_gaps": [
+      "No shipped or production firmware; all evidence is capstone, coursework or internship scope",
+      "Wireless depth is limited to an HC-05 Bluetooth module, no BLE stack, WiFi or connectivity subsystem work",
+      "No battery or power-management firmware",
+      "No JTAG/SWD debugger evidence, no IAR/Keil toolchain",
+      "No embedded Linux driver or kernel work (Linux use is application and admin level)",
+      "Computer architecture is coursework only",
+      "Role is Poland-based; work authorization there is unaddressed"
+    ],
+    "overstated_by_keywords": [
+      "Bluetooth counted as embedded wireless systems, but it is a serial HC-05 link",
+      "Testing counted adjacent, but no firmware unit or regression test suite is evidenced"
+    ],
+    "understated_by_keywords": [
+      "Interrupt-driven decoding and ISR design in Robocon and the STM32 monitor back the low-level drivers and ISR requirement more than a string match shows"
+    ],
+    "screening_gaps": [
+      "No production or shipped embedded product, which the ideal candidate profile leads with",
+      "No BLE/WiFi connectivity firmware, central to the Ring role and the embedded wireless basic qualification",
+      "No battery-powered/power-management firmware and no JTAG/IAR/Keil toolchain evidence"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core low-level C, ISR and peripheral driver skills are genuinely backed on STM32 and Arduino hardware, which covers the central firmware requirement. Wireless, power management and production shipping are the real holes, and the posting leans on them. A reasonable stretch application, not a strong fit.",
+    "calibration_delta": 15.0
+  },
+  "semantic_pending": false
+}

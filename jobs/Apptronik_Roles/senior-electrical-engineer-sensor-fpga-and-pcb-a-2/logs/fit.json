@@ -1,0 +1,127 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior Electrical Engineer - Sensor FPGA and PCB",
+  "job_slug": "senior-electrical-engineer-sensor-fpga-and-pcb-a",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 2,
+    "missing_count": 14,
+    "jd_ask_size": 25,
+    "req_cov": 0.385,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ programming",
+    "Python programming",
+    "Embedded C / STM32 bare-metal firmware",
+    "FreeRTOS / embedded real-time",
+    "ROS2 / robotics",
+    "Computer vision / OpenCV / YOLO",
+    "Linux / systemd / basic networking",
+    "Basic PCB design (EAGLE)",
+    "Embedded prototyping / debugging / lab instruments"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Signal integrity / impedance / differential pairs / timing analysis (board-level)",
+      "you_have": "Embedded PCB / basic deterministic timing"
+    },
+    {
+      "jd_skill": "Ethernet-based sensor streaming / multi-Gbps bridge",
+      "you_have": "Basic Linux networking / WebSocket server / static IP"
+    }
+  ],
+  "missing_skills": [
+    "FPGA architecture definition and device selection",
+    "RTL in VHDL or Verilog",
+    "Timing closure and clock-domain crossing (FPGA-specific)",
+    "Resource and power budgeting for FPGA RTL blocks",
+    "High-speed transceiver / PHY integration",
+    "Vivado / Quartus / Lattice Radiant tool flows",
+    "ModelSim / Questa simulation",
+    "MIPI CSI-2 interface design",
+    "ISP integration for camera sensors",
+    "GMSL / FPD-Link SerDes design",
+    "10GbE / high-speed Ethernet packetization for sensor streams",
+    "Multi-Gbps mixed-signal PCBA schematic/layout at production level",
+    "Protocol analyzers for high-speed interfaces (beyond basic logic analyzers)",
+    "PLM / contract manufacturer (CM) / manufacturing release / DFM-DFA at scale"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "RTL",
+    "VHDL",
+    "Verilog",
+    "CSI-2",
+    "GMSL",
+    "FPD-Link",
+    "MIPI",
+    "10GbE",
+    "Ethernet",
+    "signal integrity",
+    "mixed-signal",
+    "Vivado",
+    "Quartus",
+    "ModelSim",
+    "ISP",
+    "transceiver",
+    "PHY",
+    "timing closure",
+    "clock-domain crossing"
+  ],
+  "required_skills": [
+    "FPGA device selection / architecture definition",
+    "RTL development in VHDL and/or Verilog",
+    "High-speed interface design (CSI-2, GMSL/SerDes, Ethernet, PCIe)",
+    "Timing closure, clock-domain crossing, resource optimization",
+    "Integration of high-speed transceivers and external PHYs",
+    "FPGA tool flows (Vivado, Quartus, Lattice Radiant)",
+    "FPGA simulation (ModelSim / Questa)",
+    "High-speed digital design (signal integrity, impedance-controlled routing, differential pairs, stack-up)",
+    "Camera/image sensor hardware (SerDes GMSL/FPD-Link, MIPI CSI-2, ISP)",
+    "Ethernet-based sensor streaming / multi-Gbps sensor bridge",
+    "Mixed-signal multi-Gbps PCBA schematic / layout",
+    "Hardware validation / bring-up with oscilloscopes, protocol analyzers, logic analyzers",
+    "PLM / vendor / CM / manufacturing release / DFM-DFA"
+  ],
+  "preferred_skills": [
+    "Automotive or robotics vision systems",
+    "Power tree / sequencing / EMC / ESD / thermal design"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Electronics & FPGA Design Execution",
+    "High-Speed & Mixed-Signal Hardware Design",
+    "FPGA RTL Development",
+    "Validation, Bring-Up, and Debugging",
+    "Lifecycle Management & Vendor Alignment",
+    "Cross-Functional Collaboration",
+    "Technical Execution"
+  ],
+  "role_category": "other",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

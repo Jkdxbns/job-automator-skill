@@ -1,0 +1,182 @@
+{
+  "company": "Coreforce",
+  "company_slug": "coreforce",
+  "role": "Embedded Engineer II",
+  "job_slug": "embedded-engineer-ii",
+  "match_pct": 56.1,
+  "score_detail": {
+    "have_count": 20,
+    "adjacent_count": 6,
+    "missing_count": 15,
+    "jd_ask_size": 41,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Embedded firmware",
+    "GPIO",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "Bare-metal",
+    "RTOS",
+    "FreeRTOS",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "Interrupt handling",
+    "Git",
+    "ARM Cortex-M",
+    "Python",
+    "Bluetooth/BLE",
+    "Device drivers",
+    "Embedded Linux",
+    "Ethernet"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JTAG/SWD",
+      "you_have": "STM32 debugging"
+    },
+    {
+      "jd_skill": "Schematics",
+      "you_have": "EAGLE PCB design"
+    },
+    {
+      "jd_skill": "Yocto/Buildroot",
+      "you_have": "Linux/BBB"
+    },
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Bluetooth/network config"
+    },
+    {
+      "jd_skill": "Camera subsystems",
+      "you_have": "multi-camera capture"
+    },
+    {
+      "jd_skill": "HTTP",
+      "you_have": "Flask/WebSocket"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "Zephyr",
+    "ThreadX",
+    "CI/CD",
+    "Scrum",
+    "LTE",
+    "Nordic SDK",
+    "ADB",
+    "Secure boot",
+    "Cryptography",
+    "Manufacturing test",
+    "MQTT",
+    "gRPC",
+    "Java",
+    "Priority inversion"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "firmware",
+    "device drivers",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "CAN",
+    "Ethernet",
+    "bootloader",
+    "BSP",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "Yocto",
+    "Buildroot",
+    "JTAG",
+    "SWD",
+    "oscilloscope",
+    "logic analyzer",
+    "BLE",
+    "Python",
+    "MQTT",
+    "gRPC",
+    "Git",
+    "CI/CD",
+    "Scrum"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Embedded firmware",
+    "Device drivers",
+    "GPIO",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "ARM Cortex-M",
+    "Bare-metal",
+    "RTOS",
+    "Embedded Linux",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "JTAG/SWD",
+    "Schematics",
+    "Interrupt handling",
+    "Git",
+    "CI/CD",
+    "Scrum",
+    "Priority inversion"
+  ],
+  "preferred_skills": [
+    "Wi-Fi",
+    "Bluetooth/BLE",
+    "LTE",
+    "Nordic BLE SDK",
+    "ADB/logcat",
+    "Secure boot",
+    "Cryptography",
+    "Low-power",
+    "Manufacturing test",
+    "Python",
+    "Camera subsystems",
+    "MQTT",
+    "HTTP",
+    "gRPC",
+    "Java"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "End-to-end firmware C/C++",
+    "Device drivers",
+    "Board bring-up",
+    "BSP/bootloader",
+    "HIL testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Atlanta, GA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

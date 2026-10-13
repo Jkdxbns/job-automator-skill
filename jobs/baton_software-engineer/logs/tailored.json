@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "company": "Baton",
+    "role": "Software Engineer",
+    "company_slug": "baton",
+    "job_slug": "software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience building end-to-end ML pipelines: training GPT-2 style Transformers from scratch, fine-tuning document-understanding foundation models (DONUT), and deploying inference systems to production users. Skilled in Python and PyTorch; background spans LLM fundamentals, custom ASR pipelines, agentic multi-modal systems, and LLM compression for constrained deployment.",
+  "skills": {
+    "Languages": [
+      "Python",
+      "C/C++",
+      "Bash",
+      "CUDA"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "HuggingFace Transformers",
+      "TensorFlow",
+      "Keras",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "Model Evaluation"
+    ],
+    "NLP / LLM": [
+      "Transformer architecture",
+      "Tokenization",
+      "BPE tokenizer",
+      "ASR pipelines",
+      "faster-whisper"
+    ],
+    "AI Infra / Deployment": [
+      "Inference optimization",
+      "Latency benchmarking",
+      "Flask",
+      "WebSocket",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset for structured text extraction \u2014 full training pipeline in PyTorch including preprocessing, evaluation, and model checkpointing.",
+        "Improved validation accuracy from 55% to 93% through targeted preprocessing improvements and hyperparameter tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained and evaluated YOLOv8 on a custom annotated dataset, improving classification accuracy from 78% to 97.5%; deployed model to a consumer mobile application with real production users.",
+        "Curated and annotated a custom object detection dataset for health-level classification, establishing evaluation baselines and tracking accuracy metrics across training runs."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline: custom image stitching (PSNR 86), wavelet denoising, and ZoeDepth monocular depth estimation for crack-depth profiling (\u00b18% error on 3D reconstruction)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch \u2014 multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying; built TikToken tokenizer wrapper, custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a multi-modal agentic pipeline: faster-whisper STT (1.0\u20131.4s) \u2192 Gemini LLM intent classification (<500ms) \u2192 TensorRT YOLO visual servoing (~18 FPS) \u2192 robotic action \u2014 end-to-end voice-to-pick latency ~11.5s.",
+        "Resolved 11 integration failures across the full agentic loop (false-positive detections, servo crosstalk, stereo depth); achieved 100% pick reliability (10/10 trials)."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via structured pruning and 8-bit quantization; benchmarked on HellaSwag, GSM8K, and ARC with ~7% accuracy drop and +6.3 perplexity increase."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline: 80-channel mel spectrogram encoder, 6-block causal Transformer decoder with cross-attention, trained on 1,000 Indian-English samples; achieved training loss ~0.51 and 15% WER."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18); validated in Town02 (30 vehicles, 10 pedestrians) \u2014 zero collisions, correct traffic-light compliance across multiple laps."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

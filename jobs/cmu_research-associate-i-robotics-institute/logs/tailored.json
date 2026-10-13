@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "company": "Carnegie Mellon University",
+    "role": "Research Associate I - Robotics Institute",
+    "company_slug": "cmu",
+    "job_slug": "research-associate-i-robotics-institute"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on research experience designing experiments, evaluating models, and writing up results at Bhabha Atomic Research Centre and Teesside University. Comfortable building data acquisition tooling in Python and C/C++, running structured experiments end to end, and reporting quantitative findings across robotics perception and ML research.",
+  "skills": {
+    "Research & Data Analysis": [
+      "Experiment design",
+      "Quantitative model evaluation",
+      "Statistical reporting",
+      "Data acquisition tooling"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "ROS2"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Model evaluation",
+      "Quantization (8-bit)",
+      "pynvml Profiling"
+    ],
+    "Robotics & Perception": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "YOLO",
+      "Visual servoing",
+      "Forward kinematics",
+      "DH parameters"
+    ],
+    "Embedded": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "UART/I2C"
+    ],
+    "Tools": [
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellow",
+      "company": "Teesside University",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Designed and ran a research pipeline for the BraTS 2020 multi-modal MRI dataset, building medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained and evaluated U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on Dice Score and IoU; reported accuracy-latency trade-offs in a written technical evaluation."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed and executed a metal surface inspection research protocol combining custom image stitching, wavelet denoising, and depth estimation for microscopic crack analysis.",
+        "Built a custom image-stitching and wavelet-denoising pipeline, raising evaluation PSNR from 65 (homography baseline) to 86 through a custom wavelet bank (alpha-blended sym6+bior3.5); deployed ZoeDepth monocular depth estimation for crack-depth profiling, validating results to within \u00b18% error."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset, building preprocessing and training pipelines in PyTorch.",
+        "Improved validation accuracy from 55% to 93% through iterative preprocessing and model tuning, documenting each evaluation cycle."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Ran a structured reliability study on a voice-controlled, vision-guided robotic pick-and-place system, achieving 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Diagnosed and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through systematic root-cause testing."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt/RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned collision-free pick-and-place trajectories on a physical UR5e; measured AL5B repeatability at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a YOLOv8-based detection and tracking pipeline on NVIDIA Jetson, sending real-time control commands to an STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and FreeRTOS task coordination via mutexes."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Designed a quantitative evaluation protocol comparing 8-bit quantized and full-precision models across HellaSwag, GSM8K, and ARC benchmarks.",
+        "Measured <1% accuracy degradation with a 0.09 perplexity increase against a ~55% GPU memory footprint reduction."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Machine Intelligence",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

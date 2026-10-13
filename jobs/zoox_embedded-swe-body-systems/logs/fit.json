@@ -1,0 +1,101 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Embedded Software Engineer - Body Systems",
+  "job_slug": "embedded-swe-body-systems",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 1,
+    "jd_ask_size": 8,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's/Master's EE/CE/Robotics/CS degree (M.S. Computer Engineering)",
+    "Strong C++/C programming and object-oriented programming",
+    "Embedded microcontrollers (ARM Cortex-M4 via STM32)",
+    "Understanding of sensors, motors, actuators (ADXL345, VL53L0X ToF, servo/PWM actuator control)",
+    "Hardware bring-up and system debugging (COFFIN: 11 integration failures resolved; PCB fab; STM32 bring-up)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "1+ years real-time embedded software for distributed electro-mechanical systems",
+      "you_have": "capstone/internship-scope real-time embedded projects (Object Tracking Turret, STM32 bare-metal monitor, COFFIN) \u2014 no full-time industry years"
+    },
+    {
+      "jd_skill": "control systems for electromechanical systems",
+      "you_have": "PWM/servo actuator control and inverse kinematics \u2014 no formal PID/closed-loop control-theory design"
+    }
+  ],
+  "missing_skills": [
+    "CAN, LIN protocol analysis and debugging tools (PCAN, CANalyzer, CANape)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "OOP",
+    "ARM",
+    "PowerPC",
+    "sensors",
+    "motors",
+    "actuators",
+    "hardware bring-up",
+    "system debugging",
+    "CAN",
+    "LIN",
+    "control systems",
+    "supplier integration"
+  ],
+  "required_skills": [
+    "Bachelor's/Master's EE/CE/Robotics/CS degree",
+    "1+ years real-time embedded software for distributed electro-mechanical systems",
+    "Strong C++/C programming and object-oriented programming",
+    "Embedded microcontrollers/microprocessors (ARM, PowerPC or equivalent)",
+    "Understanding of sensors, motors, actuators",
+    "Hardware bring-up and system debugging"
+  ],
+  "preferred_skills": [
+    "Basic knowledge of control systems for electromechanical systems",
+    "CAN, LIN analysis and debugging tools (PCAN, CANalyzer, CANape)"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, develop, and test embedded software for body, thermal, lighting, and door functions",
+    "Create software requirements, design documentation, test plans, and other supporting documentation",
+    "Work cross-functionally with vehicle/controls/electrical/validation engineers",
+    "Integrate supplier sub-systems into the Zoox software stack",
+    "Contribute to all phases of the software development cycle: prototyping, requirements capture, design, implementation, validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Foster City, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-07",
+    "channel": "outreach",
+    "notes": "Rejected after the 2026-09-22 technical screen with Stephen Hurd (Staff Firmware Engineer). Justin emailed Mikel Pounds asking why; no reply as of 2026-10-07."
+  }
+}

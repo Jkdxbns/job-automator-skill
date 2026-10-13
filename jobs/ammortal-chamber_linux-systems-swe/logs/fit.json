@@ -1,0 +1,122 @@
+{
+  "company": "Ammortal Chamber",
+  "company_slug": "ammortal-chamber",
+  "role": "Linux Systems Software Engineer (Embedded Linux)",
+  "job_slug": "linux-systems-swe",
+  "match_pct": 56.2,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 1,
+    "missing_count": 10,
+    "jd_ask_size": 24,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C",
+    "C++",
+    "Linux",
+    "Git",
+    "Bash",
+    "Microcontrollers",
+    "Raspberry Pi",
+    "Arduino",
+    "I2C",
+    "SPI",
+    "Embedded Linux",
+    "Serial"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Software testing",
+      "you_have": "HIL/coursework testing"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "RS-485",
+    "Modbus",
+    "Docker",
+    "Debian",
+    "MQTT",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Jira"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "serial",
+    "I2C",
+    "SPI",
+    "Modbus",
+    "RS-485",
+    "MQTT",
+    "Docker",
+    "Debian",
+    "Bash",
+    "Go",
+    "TypeScript",
+    "React"
+  ],
+  "required_skills": [
+    "Python",
+    "C",
+    "C++",
+    "Linux",
+    "Git",
+    "Software testing"
+  ],
+  "preferred_skills": [
+    "Go",
+    "Microcontrollers",
+    "Raspberry Pi",
+    "Arduino",
+    "I2C",
+    "SPI",
+    "RS-485",
+    "Modbus",
+    "Docker",
+    "Debian",
+    "MQTT",
+    "Bash",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Jira",
+    "AI tools"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Embedded Linux application software",
+    "Serial/bus hardware comms",
+    "QA",
+    "Customer issue triage",
+    "Frontend as needed"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mars Hill, NC (hybrid, 2-3 days onsite; relocation assistance)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

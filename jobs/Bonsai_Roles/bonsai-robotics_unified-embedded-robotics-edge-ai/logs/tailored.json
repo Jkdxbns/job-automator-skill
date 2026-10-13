@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "company": "Bonsai Robotics",
+    "role": "Unified (Embedded + Robotics + Edge AI)",
+    "company_slug": "bonsai-robotics",
+    "job_slug": "unified-embedded-robotics-edge-ai"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology who builds perception-to-actuation systems on real hardware: TensorRT YOLO on Jetson driving servos over UART, ROS 2 and MoveIt manipulation on a physical UR5e, and bare-metal C firmware on STM32 and Arduino. Deploys and optimizes vision models for embedded targets, including a 5.2x TensorRT speedup (17.6 to 92 FPS).",
+  "skills": {
+    "Robotics & Perception": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "YOLO",
+      "Visual servoing",
+      "OpenCV",
+      "Forward kinematics",
+      "DH parameters"
+    ],
+    "Edge AI / ML": [
+      "TensorRT",
+      "PyTorch",
+      "NVIDIA Jetson",
+      "YOLOv8",
+      "Depth estimation"
+    ],
+    "Embedded": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Raspberry Pi",
+      "PWM Motor Control"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Linux",
+      "Git",
+      "CMake",
+      "Bash"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials.",
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Random Signal Analysis",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,80 @@
+{
+  "company": "SambaNova",
+  "company_slug": "sambanova",
+  "role": "AI Systems Performance Engineer - New Graduate",
+  "job_slug": "ai_systems_performance_engineer",
+  "match_pct": 95,
+  "missing_skills": [
+    "compilers",
+    "vLLM",
+    "DeepSpeed",
+    "Megatron",
+    "KV cache (explicit)",
+    "batching/scheduling for serving",
+    "reconfigurable dataflow architecture",
+    "distributed model inference (tensor/pipeline parallelism)"
+  ],
+  "adjacent_skills": [
+    "multimodal models (DONUT/VisionEncoderDecoder)",
+    "distributed systems (MPI/SLURM)",
+    "OpenCL/Triton (CUDA C++)",
+    "algorithms/data structures (coursework)",
+    "operating systems (coursework)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "CUDA",
+    "quantization",
+    "TensorRT",
+    "PyTorch",
+    "transformer",
+    "KV cache",
+    "model inference",
+    "profiling",
+    "memory hierarchy",
+    "parallel computing",
+    "throughput",
+    "latency",
+    "distributed inference",
+    "LLM",
+    "benchmarks",
+    "computer architecture"
+  ],
+  "key_responsibilities": [
+    "Bring up foundation models (LLMs/multimodal) on the SambaNova stack",
+    "Profile model execution, find bottlenecks across model/compiler/runtime/hardware",
+    "Optimize AI workloads for throughput, latency, memory efficiency, scalability",
+    "Explore quantization, scheduling, caching, memory optimization",
+    "Develop tools, benchmarks, perf analysis for large-scale inference",
+    "Contribute dataflow/scheduling/system optimizations for single-node and distributed inference"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 88,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "CUDA kernel optimization (VGG16 project: memory coalescing, constant memory, ~35% speedup, profiling) - direct hit on GPU programming + memory hierarchy + perf optimization",
+      "SLM quantization + benchmarking (8-bit LLM.int8, pynvml VRAM/latency profiling, HellaSwag/GSM8K/ARC) - direct hit on quantization + model inference + benchmarks",
+      "GPT-2 + ASR transformers from scratch (multi-head attention, custom tokenizers) - direct hit on transformer architectures",
+      "TensorRT-optimized YOLO in COFFIN (5.2x speedup) - direct hit on inference optimization + TensorRT",
+      "MPI/SLURM HPC projects (10.49x, 30x speedups, load-imbalance/scaling analysis) - direct hit on parallel computing + HPC + scheduling"
+    ],
+    "real_gaps": [
+      "No compiler experience (preferred, not required)",
+      "No vLLM/DeepSpeed/Megatron; TensorRT is the only serving-framework overlap",
+      "Distributed *model inference* (tensor/pipeline parallelism for one model across nodes) not shown - MPI work is distributed compute, different thing",
+      "KV cache / continuous batching not explicitly implemented (attention built from scratch, but no inference-time cache)",
+      "No experience with reconfigurable dataflow / non-GPU accelerators (SambaNova's specific hardware - learn on job)"
+    ],
+    "overstated_by_keywords": [
+      "'distributed execution' - keyword matches MPI, but JD means distributed LLM inference, which is a genuine gap",
+      "'multimodal models' - DONUT is a document VLM (reasonably adjacent) but not frontier multimodal LLMs"
+    ],
+    "reasoning": "This role's preferred-qualifications list reads almost like Justin's project portfolio: CUDA kernel optimization, quantization, transformer internals, profiling, and HPC/parallelism are all backed by concrete metric-bearing projects, and every basic qualification is met. The real gaps are serving-stack specific (vLLM/Megatron, KV-cache/batching, distributed model inference) and the SambaNova-specific dataflow hardware, all of which the JD frames as learn-on-the-job for a new grad. The only non-technical risk is sponsorship, which the posting does not address."
+  }
+}

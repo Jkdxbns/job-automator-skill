@@ -1,0 +1,73 @@
+{
+  "_meta": { "company": "NIKSUN", "role": "Junior Engineer, Product Infrastructure", "company_slug": "niksun", "job_slug": "junior-engineer-product-infrastructure" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience designing real-time, high-throughput C/C++ systems on Linux. Architected distributed MPI work-distribution pipelines achieving up to 30x speedup and engineered memory-optimized data pipelines with concurrency for large-scale datasets. Skilled in object-oriented C++ design for scalable, maintainable, high-performance software.",
+  "skills": {
+    "Languages & Systems": ["C/C++", "Python", "Bash", "Linux"],
+    "HPC / Parallel Computing": ["MPI", "SLURM", "Distributed Systems", "Load Balancing", "Performance Benchmarking"],
+    "Tools": ["Git", "GitLab", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Developed a custom image-stitching pipeline for high-resolution generation using bit manipulation and memory-managed batch averaging, achieving a PSNR of 65 compared to homography-based stitching baseline.",
+        "Designed a custom wavelet bank to suppress low-frequency noise; combined with optimized homography stitching and concurrency to improve output quality to a PSNR of 86.",
+        "Architected a full multi-stage processing pipeline integrating custom image stitching, wavelet denoising, and depth estimation into a single production-style system."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for a multi-modal MRI dataset with batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Led a cross-cultural team of 7; took over as team lead mid-project to restructure task distribution and deliver the full pipeline within a 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000x5000 pixel scenes using MPI in C/C++.",
+        "Achieved up to 30x speedup with static strip partitioning (55 processes); demonstrated dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI worker processes with synchronous soma updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49x speedup with 12 slave processes; identified load imbalance effects showing up to 65% performance degradation under uneven work distribution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

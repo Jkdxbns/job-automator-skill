@@ -1,0 +1,140 @@
+{
+  "company": "Meta",
+  "company_slug": "meta",
+  "role": "Embedded Software Engineer, Silicon Validation Firmware",
+  "job_slug": "silicon-validation-fw",
+  "match_pct": 35.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 9,
+    "missing_count": 11,
+    "jd_ask_size": 24,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "embedded software",
+    "peripheral drivers",
+    "Bluetooth"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "kernel",
+      "you_have": "RTOS coursework / Linux"
+    },
+    {
+      "jd_skill": "synchronization primitives",
+      "you_have": "RTOS (FreeRTOS) coursework"
+    },
+    {
+      "jd_skill": "memory management",
+      "you_have": "RTOS / CUDA memory coalescing"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal STM32 peripherals"
+    },
+    {
+      "jd_skill": "hardware bring-up",
+      "you_have": "STM32 / Jetson / PCB"
+    },
+    {
+      "jd_skill": "performance profiling",
+      "you_have": "pynvml / TensorRT benchmarking"
+    },
+    {
+      "jd_skill": "imaging and sensing firmware",
+      "you_have": "ToF / CV"
+    },
+    {
+      "jd_skill": "debugging",
+      "you_have": "logic analyzers / oscilloscopes"
+    },
+    {
+      "jd_skill": "AI tool workflow",
+      "you_have": "LLM/ML experience"
+    }
+  ],
+  "missing_skills": [
+    "Wi-Fi",
+    "Android networking",
+    "silicon validation",
+    "silicon integration",
+    "power management",
+    "large-scale C/C++ codebase",
+    "technical leadership",
+    "silicon development lifecycle",
+    "haptic",
+    "audio firmware",
+    "responsible AI"
+  ],
+  "top_ats_keywords": [
+    "Wi-Fi",
+    "Bluetooth",
+    "Android networking",
+    "device drivers",
+    "hardware bring up",
+    "silicon validation",
+    "firmware",
+    "C/C++",
+    "haptic",
+    "audio"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded software",
+    "kernel",
+    "synchronization primitives",
+    "memory management",
+    "device drivers",
+    "peripheral drivers",
+    "hardware bring-up",
+    "silicon integration",
+    "power and performance optimization",
+    "debugging",
+    "performance profiling",
+    "large-scale C/C++ codebase",
+    "technical leadership"
+  ],
+  "preferred_skills": [
+    "silicon development lifecycle",
+    "consumer electronics firmware",
+    "AI tool workflow integration",
+    "responsible AI"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "kernel/OS components",
+    "low-latency drivers",
+    "hardware bring-up",
+    "cross-layer debug",
+    "perf profiling",
+    "firmware for sensing, imaging, haptic, audio"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA (+2 locations)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

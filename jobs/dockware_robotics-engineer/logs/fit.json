@@ -1,0 +1,44 @@
+{
+  "company": "Dockware",
+  "company_slug": "dockware",
+  "role": "Robotics Engineer",
+  "job_slug": "robotics-engineer",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "Control theory (PID tuning, filtering, state-space modeling, trajectory optimization)"
+  ],
+  "adjacent_skills": [
+    "LiDAR (has ToF/depth sensor + RGB camera experience, not LiDAR specifically)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "computer vision",
+    "edge computing",
+    "sensor integration",
+    "control systems",
+    "machine learning pipeline",
+    "PID tuning",
+    "state-space modeling",
+    "trajectory optimization",
+    "LiDAR",
+    "depth sensors",
+    "RGB cameras"
+  ],
+  "key_responsibilities": [
+    "Design, implement, and maintain production-grade C++/Python software for a Vision sensor system in ROS2",
+    "Design, simulate, and optimize control systems for sensor positioning, feedback loops, hardware-software sync",
+    "Improve and scale computer vision ML pipelines for data collection, model training, and model performance",
+    "Optimize code efficiency and scalability for edge computing hardware in harsh dock environments",
+    "Cross-functional collaboration with hardware, frontend, and backend teams"
+  ],
+  "location": "Tulsa, OK preferred (exceptional remote candidates considered); periodic travel to Tulsa HQ and customer sites required",
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "notes": "JD text pasted under the title 'Robotics Engineer' is identical to the Software Operations Engineer posting (logs/../dockware_software-operations-engineer) - the body copy still says 'Software Operations Engineer' throughout. Likely the same req or a near-duplicate listing; flagged for Justin to confirm which title to apply under."
+}

@@ -1,0 +1,33 @@
+{
+  "company": "Mevion Medical Systems",
+  "company_slug": "mevion",
+  "role": "Software Engineering Support Specialist",
+  "job_slug": "software-engineering-support-specialist",
+  "match_pct": 100,
+  "missing_skills": ["SBOM/vulnerability management", "regulated industry / change management process (ECO/BOM)", "Windows administration", "software QA/testing exposure", "PowerShell", "Java", "C#"],
+  "adjacent_skills": ["Git/GitLab -> version control", "Bash -> scripting", "C/C++ -> required language"],
+  "top_ats_keywords": ["Linux", "C++", "Python", "Git", "scripting", "technical documentation", "software verification", "ECO", "BOM", "command-line"],
+  "key_responsibilities": ["software verification/validation testing", "install/configure/troubleshoot Windows and Linux systems", "evaluate replacement hardware platforms", "investigate software issues via logs", "monitor cybersecurity vulnerability notifications", "create/process ECOs and maintain BOMs", "author engineering procedures and documentation"],
+  "role_category": "general",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": {
+    "llm_match_pct": 40,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Comfortable in Linux/CLI environments and scripting (Bash, Python) from robotics/embedded project work",
+      "Deep hands-on experience with C/C++, version control (Git), and hardware/software integration from CUDA, ROS2, and STM32 projects",
+      "Strong technical documentation habits implied by detailed project writeups"
+    ],
+    "real_gaps": [
+      "This is fundamentally a software QA/support/documentation role for a regulated medical device (proton therapy) company - core duties are ECOs, BOMs, engineering change management, cybersecurity vulnerability monitoring, and IT-style hardware platform evaluation, none of which appear anywhere in Justin's profile",
+      "No exposure to regulated industry processes (FDA/medical device quality systems, change control) or SBOM/vulnerability management",
+      "No Windows system administration experience shown - profile is Linux/embedded focused",
+      "The role is explicitly a support/QA feeder track, not an R&D or ML/robotics engineering role - it's a significant scope and domain departure from CUDA kernel work, Edge AI deployment, and perception pipelines that make up the bulk of the profile"
+    ],
+    "overstated_by_keywords": [
+      "Linux and C++/Python 'have' matches are real but the role uses them for IT/test-system administration and QA scripting, not the ML/systems engineering context they appear in on the resume",
+      "Git/BOM keyword hits are surface-level - JD's BOM/ECO usage is manufacturing change management, unrelated to the robotics keyword hits in the profile"
+    ],
+    "reasoning": "On paper the core stated requirements (degree, 0-3 yrs, Linux/CLI, a modern language, entry level) all check out, pushing keyword match to 100%. But reading the actual JD, the day-to-day work is software QA, IT support, engineering documentation, and manufacturing change control for a regulated medical device - a domain and skill set almost entirely absent from Justin's CUDA/robotics/embedded ML background. The keyword match is a false positive driven by generic requirements language."
+  }
+}

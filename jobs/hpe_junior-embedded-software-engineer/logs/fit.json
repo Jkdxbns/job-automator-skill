@@ -1,0 +1,85 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Junior Embedded Software Engineer",
+  "job_slug": "junior-embedded-software-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 8,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "coding",
+    "debugging",
+    "testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "operating systems",
+      "you_have": "RTOS/embedded Linux"
+    },
+    {
+      "jd_skill": "networking",
+      "you_have": "TCP/IP epoll networking"
+    }
+  ],
+  "missing_skills": [
+    "compilers",
+    "databases",
+    "Internet-related tools"
+  ],
+  "top_ats_keywords": [
+    "operating systems",
+    "compilers",
+    "networking",
+    "databases",
+    "software design",
+    "debugging"
+  ],
+  "required_skills": [
+    "software systems design",
+    "coding",
+    "debugging",
+    "testing procedures"
+  ],
+  "preferred_skills": [
+    "operating systems",
+    "compilers",
+    "networking",
+    "databases"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "code and program enhancements/updates to systems software",
+    "execute test plans, identify/debug issues",
+    "collaborate with internal and outsourced dev partners"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Heredia, Heredia Province, Costa Rica",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Location: Heredia, Costa Rica, hybrid on-site (2 days/week in-office) \u2014 no US location, no remote option, no visa/relocation sponsorship stated. F-1 OPT only authorizes employment inside the United States. Category: Foreign on-site work authorization."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "company": "Lila",
+    "role": "Robotics Operations Engineer I",
+    "company_slug": "lila",
+    "job_slug": "robotics-operations-engineer-i"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate (Rochester Institute of Technology) with robotic systems hands-on experience across ROS2 kinematics, sensor integration, and closed-loop actuator control. Built and debugged physical robot systems end-to-end — PWM-driven servo/actuator control, time-of-flight sensors, and interrupt-driven override for safe intervention — while resolving integration failures through systematic mechanical and electrical troubleshooting. Comfortable working hands-on with cabling, wiring, and PCB-level hardware in lab and national-competition robotics environments, with Python scripting for data acquisition and logging.",
+  "skills": {
+    "Robotics & Perception": ["ROS2", "ROS/ROS2", "Forward kinematics", "DH parameters", "MoveIt", "RViz"],
+    "Embedded & Hardware": ["STM32 (Bare-Metal C)", "FreeRTOS", "PWM actuator control", "UART/I2C/SPI", "NVIDIA Jetson", "EAGLE PCB Design", "Oscilloscopes", "Logic Analyzers"],
+    "Languages & Tools": ["Python", "C/C++", "Git", "GitLab", "Linux", "Bash"],
+    "Linux Administration": ["systemd service management (auto-restart)", "Static IP / network configuration", "XRDP remote desktop administration"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and sensor/actuator integration, including mechanical troubleshooting and electrical debugging.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback, including cabling and connector wiring."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI (PyQt/Matplotlib) for real-time data acquisition, monitoring, and experimental visualization in a laboratory environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials.",
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo actuator control (PWM) with interrupt-driven UART command handling and real-time user override for safe intervention — pause/stop/reset of live actuator motion.",
+        "Integrated FreeRTOS-based multi-threaded task coordination (mutexes) with VL53L0X time-of-flight sensing and OLED distance visualization for closed-loop object tracking.",
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time object detection and tracking, streaming control commands to an STM32 actuator controller over UART."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) by identifying recurring failure patterns; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart with backoff, non-root isolation) with static IP networking for reliable multi-device registration; configured XRDP for remote administration of the headless Jetson."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

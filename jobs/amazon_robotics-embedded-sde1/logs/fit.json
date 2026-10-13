@@ -1,0 +1,55 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Robotics - Embedded Software Development Engineer",
+  "job_slug": "robotics-embedded-sde1",
+  "match_pct": 100.0,
+  "missing_skills": ["AWS", "SQL/NoSQL databases", "open source contributions", "linear/nonlinear optimization mathematics", "distributed multi-tiered cloud systems", "relational databases", "path planning algorithms (RRT/PRM/A*)", "Rust", "embedded security (secure boot, threat modeling)", "safety-critical dev standards (MISRA C, IEC 61508, watchdog/fail-safe patterns)", "production monitoring/observability", "indoor warehouse AMR navigation (vs automotive/simulation nav)", "cross-functional collaboration with manufacturing/cybersecurity/field-support orgs"],
+  "adjacent_skills": ["data structure implementation / algorithm development / OOP design (implied by M.S. Computer Engineering coursework, no explicit DSA project keyword)", "AI tools for dev productivity (HuggingFace/LLM tooling present, not dev-productivity tools specifically)", "motion planning (IK/FK, DH parameters, visual servoing present; not explicit path/motion planning)", "controls (embedded/RTOS exposure; not classical controls)", "autonomous navigation (CARLA driving sim present, not warehouse-fleet nav)"],
+  "top_ats_keywords": ["C/C++", "Python", "Robotics", "ROS", "ROS2", "Embedded", "Manipulation", "Perception", "Computer Vision", "Git"],
+  "key_responsibilities": [
+    "Design and develop embedded software for safety-critical robotics systems (C/C++/Rust)",
+    "Design and develop scalable solutions using cloud-native architectures and microservices",
+    "Build and maintain resilient, scalable, fault-tolerant distributed systems",
+    "Debug and optimize embedded systems in lab and field environments",
+    "Participate in agile/CI-CD practices including on-call operational responsibilities",
+    "Leverage and contribute to GenAI/AI-powered dev productivity tools"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 65,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep robotics/manipulation background: ROS-Based Robotic Arm (AL5B & UR5e) with IK/FK, DH parameters, MoveIt, visual servoing directly backs the JD's Manipulation/Perception preferred quals",
+      "Genuine bare-metal embedded C experience: STM32 Bare-Metal Temperature Monitor project, plus Embedded Systems Intern role at Planctech Innovations",
+      "Computer vision / perception depth: Object Tracking Turret, YOLO-based detection, depth estimation, OpenCV — matches the Perception/Computer Vision preferred quals with real project backing",
+      "C/C++ and Python are both backed by multiple projects and internships, not just listed skills"
+    ],
+    "real_gaps": [
+      "Zero AWS or any cloud platform experience — the JD's 'cloud-native architectures and microservices' half of the role has no backing anywhere in the profile",
+      "No production CI/CD ownership or on-call experience — all prior work is internship/research/capstone scope, not owning a deployed service through incident response",
+      "No production monitoring/observability experience — no alerting, SLAs, or incident postmortems anywhere; all debugging happens in lab, simulation, or competition contexts, never live production",
+      "No SQL/NoSQL or relational database work evidenced",
+      "No Rust anywhere in the profile — JD lists it alongside C/C++ for embedded (softened by 'or willingness to learn')",
+      "No embedded security experience — JD calls out 'secure edge development,' but nothing in the profile touches secure boot, cryptography, or threat modeling for embedded systems",
+      "No evidence of safety-critical development standards — the JD explicitly wants 'rigorous safety standards' and 'deterministic behavior that protects people'; profile has real-time/deterministic embedded work (STM32 1Hz update, FreeRTOS) but no MISRA C, IEC 61508/ISO 26262, watchdog/fail-safe patterns, or formal safety case work",
+      "No classical motion-planning algorithm implementation — UR5e/AL5B work derives kinematics (DH tables, forward kinematics) and validates trajectories through MoveIt, but MoveIt's built-in planner does the actual planning; no RRT/PRM/A* or custom planner implementation anywhere",
+      "Autonomous navigation experience is automotive/simulation (CARLA lane-following, waypoint fallback), not indoor warehouse AMR navigation — a materially different domain from what an Amazon Robotics fleet actually needs (SLAM, occupancy grids, multi-robot coordination in confined indoor space)",
+      "No cross-functional collaboration with manufacturing, cybersecurity, or field-support orgs — the JD explicitly names these as day-to-day collaborators; profile's team leadership (Agnel Robotics Club, Teesside cross-cultural team) is academic/competition scope, not integrated with those functions",
+      "All hardware-software integration debugging happens in lab, bench, or simulation (Proteus, CARLA) — no 'field environment' deployment experience, i.e. hardware operating outside a controlled setting under real environmental conditions",
+      "MPI-based parallel computing projects (Hodgkin-Huxley, Ray Tracer) are scientific-computing parallelism, not the distributed multi-tiered cloud systems the JD actually means — a keyword match on 'distributed' would be misleading here",
+      "LinkedIn tags this posting 'Mid-Senior level' while the JD body frames it as SDE-I/entry-level (Bachelor's + internship-level quals) — worth verifying seniority bar directly with a recruiter before assuming entry-level scope"
+    ],
+    "overstated_by_keywords": [
+      "Robotics/Perception keyword hits are real but academic/capstone scope, not fleet-scale production robotics at Amazon's warehouse deployment size",
+      "'Distributed systems' is not a genuine match — MPI scientific parallelism reads differently than the cloud microservices distributed systems the JD describes",
+      "'Optimization' appears heavily in the profile (CUDA kernel optimization, quantization, inference latency) but that is performance/systems optimization, not the linear/nonlinear mathematical optimization (LP/NLP, operations research) the JD's preferred qualification actually means — a keyword scan would falsely mark this as Have",
+      "'Motion Planning' and 'Autonomous Navigation' preferred quals read as covered via UR5e/AL5B and CARLA projects, but neither involves implementing a planner or indoor AMR navigation — both are the wrong flavor of the same keyword"
+    ],
+    "reasoning": "This SDE-I posting splits roughly in half between embedded/robotics work, where Justin's background is genuinely strong (manipulation, perception, bare-metal C), and cloud-native distributed backend work (AWS, microservices, CI/CD, on-call), where there is no real backing at all. The basic qualifications (C/C++, Python, DS/algorithms) are trivially met, which is why the keyword match reads as 100%, but that keyword set doesn't capture the cloud-native half of the actual responsibilities."
+  }
+}

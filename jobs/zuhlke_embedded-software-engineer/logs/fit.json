@@ -1,0 +1,164 @@
+{
+  "company": "Zuhlke",
+  "company_slug": "zuhlke",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 65.8,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.893,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Embedded systems software development",
+    "Microcontrollers",
+    "STM32",
+    "Microcontroller peripherals",
+    "RTOS",
+    "Bare-metal firmware",
+    "Hardware testing",
+    "Debugging / root cause analysis",
+    "Electrical/Computer Engineering degree",
+    "English fluency"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Modern C++",
+      "you_have": "C/C++ and CUDA C++ (no stated C++17/20 idiom depth)"
+    },
+    {
+      "jd_skill": "Zephyr RTOS",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "Safety, security and quality system requirements",
+      "you_have": "ToF safety-interlock gate (COFFIN)"
+    }
+  ],
+  "missing_skills": [
+    "Unit testing",
+    "Agile / program increment planning",
+    "Code review",
+    "Multi-MCU system integration",
+    "Regulated-domain firmware (EN 54 fire alarm)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "modern C++",
+    "embedded software",
+    "microcontrollers",
+    "STM32",
+    "RTOS",
+    "Zephyr",
+    "unit tests",
+    "firmware",
+    "peripherals",
+    "debugging",
+    "root cause analysis",
+    "agile",
+    "code review",
+    "safety"
+  ],
+  "required_skills": [
+    "C++",
+    "Modern C++",
+    "Embedded systems software development",
+    "Microcontrollers",
+    "STM32",
+    "Microcontroller peripherals",
+    "RTOS",
+    "Unit testing",
+    "Hardware testing",
+    "Debugging / root cause analysis",
+    "Safety, security and quality system requirements",
+    "Agile / program increment planning",
+    "Electrical/Computer Engineering degree",
+    "English fluency"
+  ],
+  "preferred_skills": [
+    "Zephyr RTOS",
+    "Code review",
+    "Multi-MCU system integration"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Write and review modern C++ code to implement new system features",
+    "Test features with unit tests and on hardware",
+    "Maintain and use Zephyr RTOS features for lower layers of the system",
+    "Investigate bugs by analysing logs and traces, root cause and fix",
+    "Participate in agile meetings and program increment discussions"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Porto, Portugal",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 64,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 bare-metal peripheral work is register-level and real: timer-triggered ADC scan conversions, interrupt-driven sample capture, a hand-written low-level I2C driver, and direct GPIO/TIM2/ADC1/I2C1 programming at 3.68 KB Flash / 1.58 KB RAM with a deterministic 1 Hz update rate.",
+      "RTOS is genuine though narrow: FreeRTOS with mutexes for shared-memory task coordination alongside interrupt-driven UART and multi-servo PWM (Object Tracking Turret).",
+      "On-hardware testing and bug triage match the JD's day-to-day closely: resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability over 10/10 trials at ~11.5 s end-to-end; AL5B repeatability measured at <2 mm over 10 trials.",
+      "Inter-processor communication across a multi-controller system: Jetson-to-STM32 command link over UART, plus a three-layer Flutter / Flask-SocketIO / Jetson+Arduino pipeline over a unified WebSocket fabric.",
+      "The degree requirement is met outright twice over (M.S. Computer Engineering, B.E. Electronics and Telecommunication), so the JD's '2+ years if not directly embedded-focused' clause does not bind."
+    ],
+    "real_gaps": [
+      "Modern C++ as the JD means it. The C++ on record is Arduino-style embedded C++ (two-link IK on Arduino) and CUDA C++ compute kernels. Nothing shows C++17/20 idiom work, RAII, templates, the standard library, or reviewing someone else's C++.",
+      "Unit testing. No test framework, no test suite, no TDD evidence anywhere in the profile. Every testing claim is manual, on-hardware and trial-count based.",
+      "Zephyr RTOS. FreeRTOS mutex usage does not carry over to Zephyr's devicetree, Kconfig and driver-model workflow, and the JD puts the lower system layers there.",
+      "Log and trace analysis as a tooling discipline. Bug investigation is evidenced by outcome, not by instrumented tracing (no SystemView, no structured logging, no trace capture).",
+      "Agile ceremonies and SAFe program increment planning. Zero exposure; low risk for a new grad, but it is a stated responsibility.",
+      "Regulated-domain firmware process. A fire alarm system is life-safety hardware under EN 54; the profile shows fail-safe instincts (ToF range gate at 25 mm, motor-halt state machine on controller disconnect) but no certification, hazard analysis or safety-process experience.",
+      "Seniority and scope: this is component ownership inside a shipping, certified, 3+ microcontroller product built by a distributed European consultancy team. The profile's scope is capstone, coursework and internship.",
+      "Non-skill but decisive in practice: Porto is on-site hybrid and F-1 OPT authorizes work only inside the United States, so the role needs Portuguese work authorization the employer would have to sponsor. The posting says nothing either way."
+    ],
+    "overstated_by_keywords": [
+      "'C++' counted as a clean Have. In reality it splits into Arduino C++ and CUDA C++, neither of which is the modern application C++ this role reviews daily.",
+      "'RTOS' counted as a Have on the strength of one project using FreeRTOS mutexes; the JD wants someone maintaining RTOS lower layers.",
+      "'Hardware testing' counted as a Have, but the JD pairs it with unit tests and only the hardware half is backed."
+    ],
+    "understated_by_keywords": [
+      "Fail-safe system design never string-matched 'safety': the Robocon fail-safe state machine halting all motors on controller disconnect, and the COFFIN dual-ToF gate that blocks a grasp outside 25 mm, are exactly the reflex a fire-alarm team wants.",
+      "Multi-controller integration was scored as missing, but COFFIN is a three-node distributed system and the turret is a two-processor Jetson-to-STM32 link over UART.",
+      "Firmware resource discipline (3.68 KB Flash / 1.58 KB RAM, deterministic 1 Hz) reads directly on a constrained multi-MCU product.",
+      "Interrupt-driven design from first principles: a 4-bit A/B quadrature transition state machine on hardware interrupts, and 15 kHz PWM across four channels."
+    ],
+    "screening_gaps": [
+      "Modern C++ depth. This role writes and reviews modern C++ every day and the profile's C++ is embedded-C-with-classes plus CUDA kernels. This is the same depth probe that has cost interviews before, so it breaks first.",
+      "No unit testing of any kind. A consultancy selling into regulated health and finance will probe test discipline early, and there is nothing to answer with.",
+      "Zephyr and the RTOS depth behind it. The JD parks the lower layers in Zephyr and calls it 'a plus', but one FreeRTOS project will not survive a question about devicetree, Kconfig or writing a driver."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The hardware half of this job is genuinely backed: register-level STM32 peripheral work, interrupt-driven firmware, multi-controller comms, and real on-target debugging of a system that had to work. The software-engineering half is not. Modern C++, unit testing and Zephyr are three of the five stated responsibilities and none has real evidence, which is what a technical screen would find. Worth applying because Zuhlke accepts the degree outright and lists Zephyr only as a plus, but C++ and testing are the gaps to close before the screen, not after.",
+    "calibration_delta": 1.8
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-29",
+    "channel": "application",
+    "notes": "Rejected: role requires a valid local work permit (work authorization, not skills)."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "company": "MOBY Robotics",
+    "role": "Computer Vision Engineer",
+    "company_slug": "moby-robotics",
+    "job_slug": "computer-vision-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds real-time computer vision and perception pipelines on NVIDIA Jetson, including a TensorRT-optimized YOLO detector at 92 FPS for vision-guided grasping, plus research in image stitching, denoising, and depth estimation for 3D surface reconstruction.",
+  "skills": {
+    "Computer Vision & Perception": [
+      "Computer Vision",
+      "Real-time perception",
+      "Object detection",
+      "Tracking",
+      "YOLO",
+      "OpenCV",
+      "Image stitching",
+      "Wavelet denoising",
+      "Depth estimation",
+      "3D surface reconstruction",
+      "Semantic segmentation"
+    ],
+    "Edge Deployment & GPU": [
+      "NVIDIA Jetson",
+      "TensorRT",
+      "CUDA C++",
+      "ONNX",
+      "TorchScript",
+      "Memory coalescing"
+    ],
+    "Languages & ML": [
+      "C++",
+      "Python",
+      "CUDA",
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Vision-language models (DONUT)"
+    ],
+    "Robotics": [
+      "ROS 2",
+      "MoveIt",
+      "RViz",
+      "Visual servoing",
+      "ToF range sensing",
+      "PWM",
+      "UART/I2C",
+      "STM32"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free transformer vision-language model, with PyTorch and HuggingFace VisionEncoderDecoder on a custom medical billing dataset, raising validation accuracy from 55% to 93%."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n object detection on 1,133 curated and annotated images, reaching 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO object detection with TensorRT on NVIDIA Jetson for real-time visual servoing: 5.2× speedup (56.7→10.9 ms, 17.6→92 FPS vs eager PyTorch), fused with dual ToF range sensing for contact-aware grasping.",
+        "Built a vision-guided pick-and-place system across a Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller, with multiprocessing multi-camera frame capture.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced VGG16 TorchScript conv layers with custom CUDA C++ kernels (memory coalescing, constant memory, preallocated buffers): 49.2ms vs 73.3ms uncoalesced and 77.5ms CPU, a ~35% speedup at identical accuracy."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Auto-generated ~5,000 YOLO and ~3,000 UFLD frames via semantic segmentation with zero manual annotation; trained YOLO11n (mAP50 ~0.85) for a perception stack with zero collisions across 30 vehicles and 10 pedestrians."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects in real time, driving multi-servo PWM on STM32 via interrupt-driven UART commands."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble; AL5B repeatability <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,139 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Scientist \u2013 Body Pose Detection",
+  "job_slug": "research-scientist-body-pose-detection",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 6,
+    "missing_count": 7,
+    "jd_ask_size": 20,
+    "req_cov": 0.591,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Deep Learning",
+    "PyTorch",
+    "3D Computer Vision (related)",
+    "training models",
+    "parametric body models / inverse kinematics (partial)",
+    "multi-modal / video data (partial)",
+    "fast-paced / agile"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D Computer Vision / Articulated Tracking",
+      "you_have": "ROS2 robotics / perception / kinematic knowledge"
+    },
+    {
+      "jd_skill": "dense mesh estimation",
+      "you_have": "depth estimation / image processing / vision pipelines"
+    },
+    {
+      "jd_skill": "multi-GPU / distributed training",
+      "you_have": "CUDA / GPU kernel optimization / SLURM"
+    },
+    {
+      "jd_skill": "massive multi-terabyte dataset curation",
+      "you_have": "data acquisition / signal processing / dataset experience (limited)"
+    },
+    {
+      "jd_skill": "biomechanical / physics-aware loss design",
+      "you_have": "embedded control / closed-loop feedback / PWM motor control"
+    },
+    {
+      "jd_skill": "multi-view / temporal architectures",
+      "you_have": "YOLO / vision + temporal? No direct temporal keyword in list except maybe ASR pipelines (not vision). Skip if no quote."
+    }
+  ],
+  "missing_skills": [
+    "first-author top-tier CV publications (CVPR/ICCV/ECCV/NeurIPS) on 3D pose / mesh recovery \u2014 not in keyword list",
+    "experience with SMPL / SMPL-X / GHUM / MHR / SOMA-X specifically \u2014 not listed",
+    "training large-scale vision models from scratch at multi-GPU cluster scale (only CUDA + SLURM partial)",
+    "massive multi-terabyte image/video dataset curation experience (only data acquisition / signal analysis)",
+    "experience with AMASS / Human3.6M / EgoBody / PROX datasets \u2014 not listed",
+    "human-scene interaction (HSI) / dense contact / physics-aware tracking \u2014 not listed",
+    "rapid-prototype emergent perception in robotics context \u2014 limited"
+  ],
+  "top_ats_keywords": [
+    "3D human pose estimation",
+    "dense full-body mesh recovery",
+    "kinematic tracking",
+    "SMPL",
+    "SMPL-X",
+    "GHUM",
+    "SOMA-X",
+    "inverse kinematics",
+    "human-scene interaction",
+    "HSI",
+    "PyTorch",
+    "multi-GPU",
+    "multi-view",
+    "temporal",
+    "AMASS",
+    "Human3.6M",
+    "EgoBody",
+    "PROX",
+    "CVPR",
+    "ICCV",
+    "ECCV",
+    "NeurIPS",
+    "embodied AI",
+    "humanoid",
+    "robotics"
+  ],
+  "required_skills": [
+    "Deep Learning",
+    "3D Computer Vision",
+    "Articulated Tracking / Human Body Pose Estimation",
+    "training large-scale vision models from scratch (not fine-tuning)",
+    "parametric human body models (SMPL / SMPL-X / GHUM / MHR / SOMA-X)",
+    "inverse kinematics",
+    "dense mesh estimation",
+    "PyTorch",
+    "deep learning scaling frameworks",
+    "handling massive multi-terabyte image/video datasets for training",
+    "fast-paced / rapid priority shift environment"
+  ],
+  "preferred_skills": [
+    "first-author publications in CVPR / ICCV / ECCV / NeurIPS on 3D pose / HSI / motion capture / mesh recovery",
+    "experience with AMASS / Human3.6M / EgoBody / PROX datasets",
+    "biomechanical constraints / temporal smoothness / postural balance / physical plausibility loss design",
+    "multi-GPU cluster distributed training",
+    "multi-view and temporal ML architectures"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Architect proprietary foundation models from scratch for 3D human pose / dense mesh / kinematic tracking",
+    "Scale multi-view / temporal architectures across multi-GPU clusters on massive multi-modal datasets",
+    "Develop novel loss functions enforcing biomechanical / temporal / balance / physical-plausibility constraints",
+    "Build interaction models for occlusion / crowding / dynamic motion; connect to downstream robotics control",
+    "Rapid prototype emergent perception models (action segmentation, intent prediction, sensor integration)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

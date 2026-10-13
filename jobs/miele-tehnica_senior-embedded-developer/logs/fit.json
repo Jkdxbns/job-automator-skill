@@ -1,0 +1,104 @@
+{
+  "company": "Miele Tehnica",
+  "company_slug": "miele-tehnica",
+  "role": "Senior Embedded Developer",
+  "job_slug": "senior-embedded-developer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.65,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "microcontrollers",
+    "basic electronic components",
+    "debugging",
+    "Python",
+    "Embedded"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "object-oriented programming",
+      "you_have": "C++"
+    },
+    {
+      "jd_skill": "testing concepts",
+      "you_have": "RTOS/HW validation coursework"
+    }
+  ],
+  "missing_skills": [
+    "system and software requirements",
+    "agile",
+    "legacy code refactoring",
+    "code review",
+    "PowerShell",
+    "German"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "microcontroller",
+    "embedded",
+    "CI/CD",
+    "agile",
+    "Python",
+    "PowerShell",
+    "OOP"
+  ],
+  "required_skills": [
+    "C/C++",
+    "microcontrollers",
+    "basic electronic components",
+    "system and software requirements",
+    "testing concepts",
+    "agile",
+    "CI/CD",
+    "legacy code refactoring",
+    "code review",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "Python",
+    "PowerShell",
+    "object-oriented programming",
+    "German"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "embedded software for high-end appliances",
+    "concept to commissioning",
+    "integration, documentation, testing, validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Brasov, Romania (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,125 @@
+{
+  "company": "Everpure",
+  "company_slug": "everpure",
+  "role": "DRAM Hardware Engineer, Systems",
+  "job_slug": "dram-hardware-engineer",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 12,
+    "jd_ask_size": 21,
+    "req_cov": 0.45,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Bash",
+    "Linux",
+    "Oscilloscopes",
+    "Logic Analyzers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "serial and management busses",
+      "you_have": "I2C/SPI/UART"
+    },
+    {
+      "jd_skill": "x86/ARM CPUs",
+      "you_have": "Cortex-M4 / Jetson ARM"
+    },
+    {
+      "jd_skill": "signal integrity",
+      "you_have": "Oscilloscopes, Spectrum Analyzers, PCB design"
+    },
+    {
+      "jd_skill": "data visualization",
+      "you_have": "Matplotlib/Pandas"
+    }
+  ],
+  "missing_skills": [
+    "DIMM validation",
+    "DRAM",
+    "error injection",
+    "RAS",
+    "PCIe",
+    "BIOS",
+    "SQL",
+    "Jira",
+    "supplier management",
+    "fleet-scale fault management",
+    "root cause analysis",
+    "field and manufacturing statistics"
+  ],
+  "top_ats_keywords": [
+    "DRAM",
+    "DIMM",
+    "signal integrity",
+    "oscilloscope",
+    "logic analyzer",
+    "RAS",
+    "PCIe",
+    "BIOS",
+    "Python",
+    "Bash",
+    "SQL",
+    "Jira"
+  ],
+  "required_skills": [
+    "DIMM validation",
+    "DRAM",
+    "signal integrity",
+    "oscilloscopes",
+    "logic analyzers",
+    "error injection",
+    "serial and management busses",
+    "RAS",
+    "x86/ARM CPUs",
+    "PCIe",
+    "BIOS",
+    "Python",
+    "Bash",
+    "Linux",
+    "SQL",
+    "Jira",
+    "supplier management",
+    "fleet-scale fault management",
+    "root cause analysis",
+    "field and manufacturing statistics"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "DIMM validation test plans",
+    "lab characterization",
+    "error injection",
+    "supplier ownership",
+    "BIOS alignment",
+    "field failure RCA"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

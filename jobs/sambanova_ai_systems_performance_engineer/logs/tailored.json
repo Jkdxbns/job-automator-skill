@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "company": "SambaNova",
+    "role": "AI Systems Performance Engineer - New Graduate",
+    "company_slug": "sambanova",
+    "job_slug": "ai_systems_performance_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology specializing in high-performance AI systems and inference optimization. Built custom CUDA C++ kernels with memory coalescing, applied 8-bit quantization to transformer language models with near-lossless accuracy, and profiled VRAM and latency across ML workloads spanning TensorRT acceleration, MPI on SLURM clusters, and transformers built from scratch in PyTorch.",
+  "skills": {
+    "GPU & HPC": ["CUDA C++", "Memory coalescing", "Kernel optimization", "TensorRT", "MPI", "SLURM", "Parallel task scheduling"],
+    "ML Systems & Inference": ["Inference profiling (pynvml)", "8-bit quantization (LLM.int8)", "Latency/throughput benchmarking", "HellaSwag/GSM8K/ARC", "ONNX", "TFLite"],
+    "Architectures, Frameworks & Languages": ["Transformers (multi-head attention)", "PyTorch", "HuggingFace", "CNNs (VGG/ResNet/YOLO)", "Tokenization (TikToken/BPE)", "Python", "C++", "Git", "Linux"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free vision-language transformer, for structured field extraction, improving validation accuracy from 55% to 93%.",
+        "Built PyTorch preprocessing and training pipelines on the HuggingFace VisionEncoderDecoder API; added special tokens and resized the decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 MRI dataset; evaluated on Dice and IoU and reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Built a custom image-stitching pipeline with concurrency (PSNR 65 → 86) and deployed ZoeDepth monocular depth estimation for 3D crack-depth profiling with ±8% error."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights, and preallocated buffers to remove per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2 ms vs 73.3 ms (uncoalesced) and 77.5 ms (CPU) — ~35% speedup over naive GPU at identical accuracy."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Cut GPU memory ~55% via 8-bit quantization (bitsandbytes LLM.int8) on TinyLlama 1.1B; profiled peak VRAM and inference latency with pynvml.",
+        "Benchmarked on HellaSwag, GSM8K, and ARC with <1% accuracy loss and +0.09 perplexity — near-lossless compression."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer in PyTorch from scratch: multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying, and a TikToken tokenizer."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO for visual servoing, achieving a 5.2× inference speedup (56.7 → 10.9 ms, 17.6 → 92 FPS) over eager PyTorch on NVIDIA Jetson."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Deep Learning", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

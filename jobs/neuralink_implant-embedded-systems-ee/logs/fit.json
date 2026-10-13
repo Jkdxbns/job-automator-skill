@@ -1,0 +1,34 @@
+{
+  "company": "Neuralink",
+  "company_slug": "neuralink",
+  "role": "Electrical Engineer, Implant Embedded Systems",
+  "job_slug": "implant-embedded-systems-ee",
+  "match_pct": 42.9,
+  "missing_skills": [
+    "Mixed-signal circuit design",
+    "Multi-domain (analog/RF/digital/power) debugging",
+    "RF design tradeoffs (BLE/WiFi/antenna/coexistence)",
+    "Spectrum analyzers / VNAs",
+    "EM simulation (FEM/FDTD, antenna validation)",
+    "Manufacturing scale support (yield, test, failure analysis)",
+    "Mechanical integration / CAD stack-up familiarity"
+  ],
+  "adjacent_skills": [
+    "PCB design (EAGLE, hobbyist/project scale) vs. implant-grade PCBA bring-up",
+    "Oscilloscope use (project-level) vs. deep lab instrumentation fluency"
+  ],
+  "top_ats_keywords": ["PCBA", "mixed-signal", "embedded compute", "oscilloscope", "RF", "bring up", "design verification"],
+  "key_responsibilities": [
+    "System and board design: definition, part selection, schematic, layout, bring up, verification",
+    "R&D feasibility investigations for implant and charger",
+    "Cross-functional systems integration",
+    "Latency, battery life, reliability, safety improvements",
+    "Implant-charger hardware-in-the-loop testing and manufacturing QC"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

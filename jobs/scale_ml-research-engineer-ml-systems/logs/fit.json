@@ -1,0 +1,18 @@
+{
+  "company": "Scale AI",
+  "company_slug": "scale",
+  "role": "ML Research Engineer, ML Systems",
+  "job_slug": "ml-research-engineer-ml-systems",
+  "match_pct": 83.3,
+  "missing_skills": ["flash attention"],
+  "adjacent_skills": ["multi-node LLM training and inference (have multi-GPU/SLURM/MPI distributed compute, not LLM-scale)", "large-scale distributed ML systems (have SLURM-managed cluster experience, not frontier-scale LLM training)"],
+  "top_ats_keywords": ["CUDA", "PyTorch", "transformers", "flash attention", "multi-node training", "distributed inference", "RLHF", "instruction tuning", "reasoning", "agents", "multimodal"],
+  "key_responsibilities": [
+    "Build, profile, and optimize training and inference frameworks",
+    "Collaborate with ML teams to accelerate research and enable model development",
+    "Research and integrate state-of-the-art technologies for ML system optimization"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": null
+}

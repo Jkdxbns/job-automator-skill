@@ -1,0 +1,73 @@
+{
+  "company": "Coalesenz Inc.",
+  "company_slug": "coalesenz",
+  "role": "Electromechanical and Embedded Systems Engineer",
+  "job_slug": "electromechanical_embedded_engineer",
+  "match_pct": 88,
+  "missing_skills": [
+    "Altium Designer/KiCad",
+    "USB protocol",
+    "CAN protocol",
+    "medical device/diagnostic instrumentation",
+    "biosensors",
+    "DFM/DFA/DFT",
+    "pump/valve integration"
+  ],
+  "adjacent_skills": [
+    "EAGLE/Proteus PCB (vs Altium/KiCad)",
+    "robotics motor/sensor integration (vs pumps/valves)",
+    "ML model evaluation (vs classic experimental design/DOE)"
+  ],
+  "top_ats_keywords": [
+    "embedded C/C++",
+    "Python",
+    "microcontrollers",
+    "PCB schematic/layout",
+    "SolidWorks",
+    "UART",
+    "I2C",
+    "SPI",
+    "electromechanical integration",
+    "FreeRTOS",
+    "embedded Linux",
+    "PyQt/Python GUI"
+  ],
+  "key_responsibilities": [
+    "Design, prototype, assemble, test electromechanical device prototypes",
+    "Design/troubleshoot analog and digital circuits, PCB assemblies, embedded hardware",
+    "Develop and debug embedded firmware in C/C++",
+    "Python tooling/automation/data analysis",
+    "SolidWorks mechanical design for fixtures/enclosures",
+    "Integrate sensors, optics, motors, pumps, cameras",
+    "FMEA and engineering documentation"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal STM32 firmware with direct register programming (GPIO/TIM2/ADC1/I2C1) on the STM32 Bare-Metal Temperature Monitor project \u2014 directly matches 'develop and debug embedded software and firmware using C/C++'",
+      "Hands-on PCB design and fabrication: custom single-layer PCBs in EAGLE for locomotive robots (Agnel Robotics Club) \u2014 real, though limited-scope, PCB layout experience",
+      "Electromechanical sensor/actuator integration: Object Tracking Turret combines YOLOv8 vision, STM32 UART control, multi-servo PWM, VL53L0X ToF sensing, and OLED display \u2014 matches 'integrate sensors, optical components, motors' responsibility directly",
+      "Real-time lab data acquisition GUI in PyQt/Matplotlib during BARC internship \u2014 matches preferred 'Qt, Python GUI development' qualification",
+      "Cross-disciplinary systems ownership as Agnel Robotics Club lead: mechanical design, PCB fabrication, and AI/ML integration end-to-end across a 25-member team \u2014 closest analog to this role's 'build complete systems' framing"
+    ],
+    "real_gaps": [
+      "Zero medical device, diagnostic instrumentation, optical system, or biosensor experience \u2014 this is a core domain for an in vitro diagnostics startup and nothing in the profile touches it",
+      "No FMEA, risk analysis, or verification/validation documentation experience \u2014 a named responsibility and a regulated-industry skill keyword matching can't detect from a keyword list",
+      "SolidWorks is thin: only appears as a workshop topic taught to others, not as a flagship project deliverable \u2014 no bullet shows Justin actually designing fixtures/enclosures/assemblies in CAD",
+      "PCB depth is one project (single-layer boards for hobby robots), not the schematic/layout/component-selection breadth implied by 'PCB assemblies, component selection, layout review'",
+      "USB and CAN protocols (explicitly named as preferred) don't appear anywhere in the profile"
+    ],
+    "overstated_by_keywords": [
+      "'CAD software (SolidWorks)' \u2014 counted as Have by keyword presence, but real depth behind it is workshop-level, not project-level",
+      "'PCB schematics, layout, component selection' \u2014 counted as Have via PCB/EAGLE keywords, but actual experience is one hobby-robotics PCB, not the assembly-level PCB work this JD implies",
+      "'Experimental design and data analysis' \u2014 counted as Adjacent, but Justin's data analysis experience is ML benchmarking (accuracy/latency/perplexity), not classical engineering DOE or reliability testing"
+    ],
+    "reasoning": "The embedded and electromechanical fundamentals here are genuinely strong for an entry-level candidate: bare-metal firmware, PCB fabrication, sensor/motor/ToF integration, and a real track record of owning full hardware-to-software systems on the robotics club team. But the role's actual center of gravity, medical device development with SolidWorks-heavy mechanical design, FMEA, and diagnostic instrumentation, is not backed anywhere in the profile. Justin's deepest and most recent work (COFFIN capstone, edge AI projects) is ML/perception-first with embedded as a supporting layer, which is the inverse of what this JD is asking for."
+  }
+}

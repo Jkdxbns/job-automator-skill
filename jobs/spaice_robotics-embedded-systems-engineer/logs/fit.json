@@ -1,0 +1,177 @@
+{
+  "company": "SPAICE",
+  "company_slug": "spaice",
+  "role": "Robotics & Embedded Systems Engineer",
+  "job_slug": "robotics-embedded-systems-engineer",
+  "match_pct": 68.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 25,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Linux",
+    "Version control (Git)",
+    "Linux networking",
+    "Oscilloscopes",
+    "Logic analysers",
+    "Schematics / PCB",
+    "Sensor integration (I2C/SPI/UART)",
+    "Microcontroller firmware",
+    "RTOS",
+    "Edge AI deployment (Jetson/TensorRT)",
+    "Deep learning optimization",
+    "System services (systemd)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Inter-process communication",
+      "you_have": "ROS2 / WebSocket messaging"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab (BARC cert)"
+    },
+    {
+      "jd_skill": "Drone autopilots",
+      "you_have": "COFFIN drone on ChibiOS"
+    },
+    {
+      "jd_skill": "Cross-compilation",
+      "you_have": "STM32/Jetson toolchains"
+    },
+    {
+      "jd_skill": "Soldering / wiring",
+      "you_have": "PCB and hardware builds"
+    },
+    {
+      "jd_skill": "Embedded Linux drivers",
+      "you_have": "Linux + BBB exposure"
+    }
+  ],
+  "missing_skills": [
+    "Time synchronisation (PTP/PPS)",
+    "Containers (Docker)",
+    "Hardware-in-the-loop CI",
+    "Fleet provisioning/OTA",
+    "Health monitoring and auto-recovery"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "sensor synchronisation",
+    "hardware-in-the-loop",
+    "CI/CD",
+    "containers",
+    "inter-process communication",
+    "cross-compilation",
+    "RTOS",
+    "microcontroller",
+    "autopilot",
+    "edge AI",
+    "oscilloscope",
+    "logic analyser",
+    "Yocto"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Linux internals",
+    "cross-compilation",
+    "sensor integration",
+    "time synchronisation",
+    "containers",
+    "Linux networking",
+    "inter-process communication",
+    "oscilloscopes",
+    "logic analysers",
+    "soldering",
+    "schematics",
+    "version control",
+    "CI/CD",
+    "hardware-in-the-loop testing"
+  ],
+  "preferred_skills": [
+    "edge AI deployment",
+    "deep learning optimization",
+    "microcontroller firmware",
+    "RTOS",
+    "drone autopilots"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "hardware integration",
+    "sensor time sync",
+    "embedded Linux drivers",
+    "onboard runtime services",
+    "fleet deployment tooling",
+    "HIL benches in CI/CD",
+    "edge AI optimisation",
+    "autopilot integration and field testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated in JD",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 53,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Edge AI optimisation: COFFIN TensorRT YOLO 56.7 to 10.9 ms (5.2x) on Jetson, plus CUDA VGG16 kernels and 8-bit SLM quantization",
+      "Onboard runtime basics: Jetson arm bridge as a systemd service with auto-restart and backoff, non-root isolation, env-file config, static IP",
+      "Hardware bring-up: EAGLE PCB fabrication at ARC, sensor comms over UART/I2C, VL53L0X via TCA9548A mux, oscilloscope and logic analyser listed",
+      "Firmware: STM32 bare-metal timer-triggered ADC and low-level I2C driver; FreeRTOS turret with Jetson-to-STM32 UART"
+    ],
+    "real_gaps": [
+      "No sensor time synchronisation across devices (PTP, PPS, hardware timestamping) or validation by measurement",
+      "No embedded Linux platform work: no kernel drivers, device tree, Yocto/Buildroot or boot process",
+      "No containers or fleet provisioning/OTA tooling",
+      "No hardware-in-the-loop benches in CI/CD; CI/CD evidence is only GitLab use at BARC",
+      "No drone autopilot or flight-controller integration and no field trials in the master profile",
+      "Soldering is inferred from PCB fabrication, never stated",
+      "Seniority: role owns fleet-scale unattended systems; profile is capstone and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "CI/CD (Adjacent) is only GitLab version control at BARC",
+      "Drone autopilots (Adjacent) rests on COFFIN drone/ChibiOS, which is not in master_profile.json",
+      "Embedded Linux drivers (Adjacent) is Linux usage, not driver work",
+      "Inter-process communication (Adjacent) is WebSocket and multiprocessing, not shared-memory or system-level IPC"
+    ],
+    "understated_by_keywords": [
+      "Health monitoring and auto-recovery marked Missing, but the systemd auto-restart with backoff bullet is direct partial evidence",
+      "Multi-device integration failures (11 resolved: servo brown-out, stale frames) show cross-layer debugging the JD asks for",
+      "Timer-synchronized sensing on STM32 is weak but real groundwork for time-sync talk"
+    ],
+    "screening_gaps": [
+      "No time synchronisation across multiple sensors, a core JD responsibility with no backing",
+      "No embedded Linux kernel/driver/boot and cross-compilation depth despite 'Linux internals' being a stated must-have",
+      "No containers, fleet deployment or HIL-in-CI/CD experience; the role's deployment-at-scale pillar"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Edge AI, firmware, PCB and hands-on hardware are genuinely backed, and systemd service work covers a slice of the onboard runtime. Roughly half of the core responsibilities (time sync, embedded Linux internals, fleet/containers, HIL CI, autopilot) have no real backing. Worth applying since the gaps are learnable and the hardware-plus-edge-AI mix matches, but expect depth probes on time sync and Linux internals.",
+    "calibration_delta": 15.0
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "company": "Fortastra",
+  "company_slug": "fortastra",
+  "role": "Senior RF Engineer",
+  "job_slug": "senior-rf-engineer",
+  "match_pct": 12.5,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 4,
+    "missing_count": 12,
+    "jd_ask_size": 16,
+    "req_cov": 0.167,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded hardware / RF integration and PCB-level design",
+      "you_have": "Embedded C/C++ bare-metal (STM32)"
+    },
+    {
+      "jd_skill": "Digital / RF signal processing concepts",
+      "you_have": "Digital Signal Processing"
+    },
+    {
+      "jd_skill": "Scientific / analysis scripting for RF tools",
+      "you_have": "Python scientific computing"
+    },
+    {
+      "jd_skill": "Embedded firmware / systems programming",
+      "you_have": "Embedded C/RTOS development"
+    }
+  ],
+  "missing_skills": [
+    "B.S. or M.S. in Electrical Engineering, RF Engineering, or closely related field",
+    "5+ years RF system design (spacecraft, satellite, defense, or high-reliability RF)",
+    "Link budget analysis (space-to-ground and crosslink links, margin/sensitivity assessments)",
+    "CCSDS protocol experience",
+    "DVB-S2 protocol experience",
+    "RF hardware selection/integration (radios, LNAs, PAs, filters, front-end)",
+    "RF design and analysis tools (STK, SystemVue, MATLAB)",
+    "Antenna design/integration (patterns, gain, polarization, frequency bands, mounting, thermal)",
+    "FPGA-based RF or electronic warfare algorithm implementation",
+    "Electronic warfare, RF signal analysis, or payload development",
+    "Spacecraft TT&C / crosslink architecture experience",
+    "COTS radio selection / custom RF design for space environments"
+  ],
+  "top_ats_keywords": [
+    "RF Engineer",
+    "TT&C links",
+    "RF communications systems",
+    "link budget",
+    "crosslink",
+    "CCSDS",
+    "DVB-S2",
+    "COTS radio",
+    "antenna integration",
+    "waveform",
+    "modulation",
+    "coding",
+    "FPGA",
+    "electronic warfare",
+    "RF payload"
+  ],
+  "required_skills": [
+    "B.S. or M.S. in Electrical Engineering, RF Engineering, or closely related field",
+    "5+ years RF system design for spacecraft, satellite, defense, or high-reliability RF systems",
+    "Link budget analysis (space-to-ground, inter-satellite links, margin assessments)",
+    "Space communications protocols and standards (CCSDS, DVB-S2)",
+    "RF hardware selection and system integration (radios, LNAs, PAs, filters, front-end components)",
+    "RF design and analysis tools (STK, SystemVue, MATLAB, or similar)"
+  ],
+  "preferred_skills": [
+    "Antenna design or integration (patterns, gain, polarization, frequency bands)",
+    "FPGA-based implementation of RF or electronic warfare algorithms",
+    "Exposure to electronic warfare, RF signal analysis, or payload development"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own RF architecture for spacecraft TT&C and crosslink communications from concept through flight",
+    "Perform detailed link budget analysis and margin assessments for space-to-ground and inter-satellite links",
+    "Select, architect, and integrate radios combining COTS hardware with custom designs",
+    "Define communications schemes using CCSDS and DVB-S2; develop RF requirements and interface definitions",
+    "Collaborate across mechanical, digital, FPGA, and software teams; support RF test and validation"
+  ],
+  "role_category": "other",
+  "location": "Torrance, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "U.S. Citizenship required \u2014 citizenship/permanent residency required (category c)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

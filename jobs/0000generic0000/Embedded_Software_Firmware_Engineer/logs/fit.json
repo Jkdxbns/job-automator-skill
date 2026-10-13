@@ -1,0 +1,27 @@
+{
+  "company": "Generic",
+  "company_slug": "generic",
+  "role": "Embedded Software / Firmware Engineer",
+  "job_slug": "embedded_firmware",
+  "match_pct": null,
+  "missing_skills": [],
+  "adjacent_skills": ["Embedded Linux", "Device Drivers", "ARM Cortex-M", "JTAG debugging"],
+  "top_ats_keywords": [
+    "C", "C++", "Embedded C", "Bare-metal", "RTOS", "FreeRTOS",
+    "STM32", "ARM Cortex-M", "Microcontroller", "UART", "I2C", "SPI",
+    "GPIO", "ADC", "Interrupt-driven", "Real-time systems", "Firmware",
+    "PCB design", "Bluetooth (BLE)", "Oscilloscope", "Logic analyzer",
+    "Git", "CMake", "Linux", "Low-power design", "Sensor integration"
+  ],
+  "key_responsibilities": [
+    "Design and implement firmware for microcontroller-based embedded systems",
+    "Write bare-metal and RTOS-based C/C++ for real-time control",
+    "Interface with peripherals over UART/I2C/SPI and debug at the hardware level",
+    "Integrate sensors and actuators into embedded control loops",
+    "Debug using oscilloscopes, logic analyzers, and JTAG"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "N/A - generic resume, no specific job"},
+  "llm_analysis": null,
+  "note": "Synthetic fit context for a role-category-generic embedded/firmware resume, not tied to a specific job posting."
+}

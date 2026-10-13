@@ -1,0 +1,126 @@
+{
+  "company": "Axon",
+  "company_slug": "axon",
+  "role": "Firmware Validation Technician II (Onsite)",
+  "job_slug": "firmware-validation-technician-ii",
+  "match_pct": 36.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 19,
+    "req_cov": 0.692,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded firmware",
+    "Hardware-software integration",
+    "Python",
+    "Scripting",
+    "Embedded / connected-device products"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Test case design / execution / automated testing",
+      "you_have": "Testing and validation (bench testing, golden test vectors)"
+    },
+    {
+      "jd_skill": "CI/CD-integrated test frameworks",
+      "you_have": "Git / GitLab"
+    },
+    {
+      "jd_skill": "Connectivity testing (Wi-Fi/LTE)",
+      "you_have": "Bluetooth, UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "AI tools for test generation / data analysis",
+      "you_have": "LLM / ML tooling"
+    }
+  ],
+  "missing_skills": [
+    "Jira",
+    "Zephyr Scale",
+    "Requirements traceability",
+    "Log analysis (Splunk)",
+    "RF testing",
+    "GPS/GNSS",
+    "Environmental chambers",
+    "LTE",
+    "3+ yrs QA/validation experience",
+    "Bug triage / release-readiness reporting"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "validation",
+    "regression",
+    "test automation",
+    "Jira",
+    "Zephyr Scale",
+    "Splunk",
+    "Python",
+    "CI/CD",
+    "embedded",
+    "RF",
+    "GPS/GNSS",
+    "LTE",
+    "Wi-Fi",
+    "environmental testing",
+    "traceability"
+  ],
+  "required_skills": [
+    "QA/validation engineering",
+    "embedded firmware",
+    "hardware-software integration",
+    "test case design",
+    "test execution",
+    "automated testing",
+    "Jira",
+    "Zephyr Scale",
+    "requirements traceability",
+    "log analysis (Splunk)",
+    "Python",
+    "scripting",
+    "CI/CD test frameworks"
+  ],
+  "preferred_skills": [
+    "RF testing",
+    "GPS/GNSS",
+    "environmental chambers",
+    "LTE",
+    "Wi-Fi",
+    "AI tools for test case generation"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "release regression (manual + automated)",
+    "exploratory testing",
+    "test strategy and traceability (PRD/Jira to Zephyr Scale)",
+    "defect investigation and bug triage",
+    "release-readiness reporting",
+    "test tooling and process improvement"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Scottsdale, AZ (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

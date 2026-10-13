@@ -1,0 +1,90 @@
+{
+  "company": "Reactor",
+  "company_slug": "reactor",
+  "role": "Forward Deployed Engineer",
+  "job_slug": "fde",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 0,
+    "missing_count": 6,
+    "jd_ask_size": 12,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "ML inference optimization",
+    "profiling inference pipelines",
+    "CUDA",
+    "TensorRT"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "customer-facing/external team work",
+    "diffusion models",
+    "video generation",
+    "world models",
+    "real-time streaming",
+    "custom inference frameworks"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "inference optimization",
+    "CUDA",
+    "TensorRT",
+    "diffusion models",
+    "real-time streaming",
+    "world models"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "ML inference optimization",
+    "profiling inference pipelines",
+    "customer-facing/external team work",
+    "travel"
+  ],
+  "preferred_skills": [
+    "diffusion models",
+    "video generation",
+    "world models",
+    "real-time streaming",
+    "CUDA",
+    "TensorRT",
+    "custom inference frameworks"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "on-site model integration",
+    "latency/throughput optimization",
+    "partner product decisions"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

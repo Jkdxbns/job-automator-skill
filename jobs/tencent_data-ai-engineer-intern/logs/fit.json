@@ -1,0 +1,78 @@
+{
+  "company": "Tencent",
+  "company_slug": "tencent",
+  "role": "Data/AI Engineer Intern",
+  "job_slug": "data-ai-engineer-intern",
+  "match_pct": 88,
+  "have_skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "GPU utilization / CUDA / kernel optimization",
+    "Distributed systems (MPI/SLURM)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_wants": "DeepSpeed / Megatron-LM",
+      "justin_has": "MPI, SLURM"
+    },
+    {
+      "jd_wants": "Data/Model Parallelism / ZeRO",
+      "justin_has": "MPI"
+    }
+  ],
+  "missing_skills": [
+    "Docker / Kubernetes",
+    "NCCL",
+    "RDMA"
+  ],
+  "preferred_have": [
+    "Model quantization (8-bit/LLM.int8)",
+    "Operator profiling (pynvml)",
+    "LLM work (TinyLlama, GPT-2, HuggingFace)",
+    "High-perf inference (TensorRT, ONNX, TorchScript)"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "Python",
+    "C++",
+    "distributed training",
+    "GPU",
+    "CUDA",
+    "LLM",
+    "model quantization",
+    "inference",
+    "Docker",
+    "Kubernetes"
+  ],
+  "key_responsibilities": [
+    "Distributed training engineering (TP/PP/ZeRO)",
+    "GPU scheduling and compute optimization",
+    "End-to-end model pipeline (train \u2192 inference serving)",
+    "Model quantization and operator profiling",
+    "High-performance inference pipeline construction",
+    "AI-driven engineering (Harness Engineering, automated testing)"
+  ],
+  "role_category": "hpc_cuda",
+  "jd_meta": {
+    "location": "Singapore (Onsite)",
+    "remote_ok": false,
+    "experience_level_stated": "intern",
+    "required_experience_years": 0,
+    "sponsorship_mentioned": false,
+    "sponsorship_offered": null,
+    "clearance_required": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "Not mentioned \u2014 Singapore role; no H1B concern but Tencent SG may require separate intern visa",
+    "experience": "Internship role \u2014 no mismatch (Justin has 7 internships)",
+    "location": "Singapore (onsite, international) \u2014 outside stated US-only relocation preference; OPT authorization is US-only",
+    "clearance": "None required"
+  },
+  "hard_blocker_triggered": false,
+  "date_analyzed": "2026-06-05"
+}

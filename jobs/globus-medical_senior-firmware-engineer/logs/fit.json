@@ -1,0 +1,140 @@
+{
+  "company": "Globus Medical / NuVasive Clinical Services Monitoring, Inc.",
+  "company_slug": "globus-medical",
+  "role": "Senior Firmware Engineer",
+  "job_slug": "senior-firmware-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 29,
+    "req_cov": 0.389,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4)",
+    "I2C",
+    "SPI",
+    "UART/I2C/SPI",
+    "Git",
+    "PCB / EAGLE PCB Design",
+    "bare-metal",
+    "FreeRTOS",
+    "rtos",
+    "Cortex-M4",
+    "STM32",
+    "ADC",
+    "PWM",
+    "GPIO"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ARM Cortex M firmware development",
+      "you_have": "STM32 Cortex-M4 bare-metal"
+    },
+    {
+      "jd_skill": "RUST embedded firmware",
+      "you_have": "C and embedded C (no Rust in profile)"
+    },
+    {
+      "jd_skill": "PCB schematics / electrical fundamentals",
+      "you_have": "EAGLE PCB Design, circuit experience"
+    },
+    {
+      "jd_skill": "Serial protocols (I2C, RS232, RS485, SPI, USB)",
+      "you_have": "I2C, SPI, UART covered; RS232/RS485/USB not in profile"
+    },
+    {
+      "jd_skill": "Motor control algorithms (FOC, Six-step)",
+      "you_have": "No motor control / FOC / six-step in profile"
+    },
+    {
+      "jd_skill": "IEC 62304 software/firmware development",
+      "you_have": "No medical-device standard work in profile"
+    },
+    {
+      "jd_skill": "Medical device firmware (IEC 60601-1)",
+      "you_have": "No medical device experience"
+    }
+  ],
+  "missing_skills": [
+    "RUST embedded firmware",
+    "RS232",
+    "RS485",
+    "USB",
+    "Motor control (FOC, Six-step)",
+    "IEC 62304",
+    "IEC 60601-1 / medical device standards"
+  ],
+  "top_ats_keywords": [
+    "Cortex M",
+    "ARM Cortex M",
+    "firmware",
+    "embedded",
+    "C/C++",
+    "RUST",
+    "I2C",
+    "SPI",
+    "RS232",
+    "RS485",
+    "USB",
+    "motor control",
+    "FOC",
+    "PCB",
+    "IEC 60601-1",
+    "IEC 62304",
+    "FPGA",
+    "medical device"
+  ],
+  "required_skills": [
+    "ARM Cortex M firmware development",
+    "C/C++ embedded firmware",
+    "RUST embedded firmware",
+    "PCB schematics / electrical fundamentals",
+    "Serial protocols (I2C, RS232, RS485, SPI, USB)",
+    "Motor control algorithms (FOC, Six-step)",
+    "Git / version control",
+    "IEC 62304 software/firmware development",
+    "Medical device firmware (IEC 60601-1)"
+  ],
+  "preferred_skills": [
+    "FPGA programming",
+    "Experience in Medical Device field"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop firmware on ARM Cortex M microcontrollers",
+    "Hardware-firmware integration and performance optimization",
+    "Debug firmware-hardware interactions on custom PCBs",
+    "Functional and acceptance test verification",
+    "Coordinate with software teams for firmware efficacy",
+    "Production/manufacturing and customer quality/support",
+    "Maintain IEC 60601-1 compliance"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Methuen, Massachusetts (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "Jetson + STM32 embedded compute (ARM SBC + bare-metal MCU) aligns exactly with role backbone",
+    "ROS2 + perception pipeline experience (YOLO, TF, data streaming, visual servoing) matches robotics compute integration",
+    "C/C++ embedded + Python application development covers full stack",
+    "Hardware debugging with oscilloscopes / logic analyzers + profiling (pynvml) meets diagnostic demands",
+    "Sensor integration (ToF, camera, LiDAR concepts, I2C mux) directly relevant to hardware team domain"
+  ],
+  "real_gaps": [
+    "No CAN or GMSL protocol experience",
+    "No Yocto / JetPack customization (only general Linux)",
+    "No production/vendor procurement or QA experience \u2014 only intern/research scale",
+    "No thermal profiling or power-budget management at production level"
+  ],
+  "reasoning": "Strong match for embedded compute + robotics hardware role. Direct hands-on experience with Jetson, STM32 bare-metal, ROS2, sensor integration (ToF, camera, IMU), hardware debugging, and C/C++/Python embedded stack aligns with core JD demands. Gaps are in CAN/GMSL interfaces, Yocto/JetPack, production-scale vendor/QA work, and thermal/power profiling at production level \u2014 none are hard blockers given entry-level recruitment. Sponsorship not mentioned; candidate requires sponsorship (F-1 OPT). This is a well-aligned application target with realistic gaps typical for new-grad.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/7a0d12c7-957b-42f6-a9c9-9605fab6d2a4",
+  "team": "Hardware Engineering",
+  "location": "Irvine, CA"
+}

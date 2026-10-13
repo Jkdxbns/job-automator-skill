@@ -1,0 +1,173 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Manufacturing Systems Integration & Test Engineer",
+  "job_slug": "manufacturing-systems-integration-test-engineer",
+  "match_pct": 55.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 5,
+    "missing_count": 11,
+    "jd_ask_size": 30,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Linux",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "Root Cause Analysis",
+    "Troubleshooting",
+    "Embedded systems",
+    "Microcontroller firmware",
+    "Serial protocols",
+    "Hardware debugging",
+    "Testing and validation",
+    "Robotics",
+    "Hardware/software integration",
+    "C/C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LabVIEW",
+      "you_have": "Python"
+    },
+    {
+      "jd_skill": "Aerospace manufacturing experience",
+      "you_have": "Robotics and embedded systems projects"
+    },
+    {
+      "jd_skill": "RF test equipment",
+      "you_have": "Testing and validation, Bluetooth protocols"
+    },
+    {
+      "jd_skill": "Data Acquisition / DAQ",
+      "you_have": "Testing and validation, serial protocols"
+    },
+    {
+      "jd_skill": "Design for Test (DfT)",
+      "you_have": "Hardware debugging and embedded systems"
+    }
+  ],
+  "missing_skills": [
+    "Systems integration (as a specific discipline)",
+    "Advanced manufacturing environments",
+    "Power supplies / electronic loads expertise",
+    "Aerospace manufacturing domain experience",
+    "LabVIEW programming",
+    "Diagnostic decision trees methodology",
+    "Manufacturing yield analysis",
+    "5+ years manufacturing experience",
+    "Satellite communications (preferred)",
+    "Marine sensor payloads (preferred)",
+    "AI-assisted programming tools (preferred)"
+  ],
+  "top_ats_keywords": [
+    "systems integration",
+    "robotics",
+    "manufacturing",
+    "python",
+    "labview",
+    "linux",
+    "testing",
+    "validation",
+    "daq",
+    "oscilloscope",
+    "troubleshooting"
+  ],
+  "required_skills": [
+    "Systems integration",
+    "Robotics",
+    "Aerospace manufacturing",
+    "Advanced manufacturing environments",
+    "Power and hardware architectures validation",
+    "Power supplies",
+    "Electronic loads",
+    "DAQ / Data Acquisition",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "RF test equipment",
+    "Python",
+    "LabVIEW",
+    "Linux",
+    "Diagnostic workflows",
+    "Troubleshooting",
+    "Manufacturing validation",
+    "Electromechanical systems",
+    "Design for Test",
+    "Root Cause Analysis"
+  ],
+  "preferred_skills": [
+    "RF systems integration",
+    "Satellite communications",
+    "Marine sensor payloads",
+    "AI-assisted programming"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Perform test specifications for device-level components and full-drone integration",
+    "Lead End-of-Line (EOL) testing protocols",
+    "Lead complex systems integration and troubleshooting",
+    "Work on Design for Test (DfT) capabilities",
+    "Develop Diagnostic Decision Trees and troubleshooting flowcharts",
+    "Monitor manufacturing yield trends",
+    "Write test scripts in Python or LabVIEW in Linux environment"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "COFFIN capstone demonstrates real Root Cause Analysis: resolved 11 integration failures (servo brown-out, stale-frame capture, false-positive detections) with documented causes and systematic fixes",
+      "Strong Python + Linux foundation with production-grade deployment patterns: systemd service auto-restart, environment-based config, XRDP remote administration, static IP networking",
+      "Real-time hardware/software integration expertise: I2C mux, interrupt-driven UART, PWM control, timing-sensitive servo synchronization shows core embedded systems troubleshooting depth",
+      "Instrumentation familiarity: oscilloscopes and logic analyzers listed with demonstrated use in debugging projects"
+    ],
+    "real_gaps": [
+      "Zero manufacturing/production domain experience: has never worked in a manufacturing plant, written EOL protocols, analyzed yield trends, or documented production procedures. The role is fundamentally a manufacturing engineering position.",
+      "No Design for Test (DfT) or formal diagnostic tree methodology: troubleshooting narratives exist, but no training or production-level experience in diagnostic decision trees or DfT principles",
+      "Missing power architecture validation tools: no experience with power supplies, electronic loads, DAQ systems. Lists oscilloscopes/logic analyzers but no power-specific instrumentation.",
+      "No LabVIEW experience: role requires 'Python or LabVIEW'; Python is strong but not a direct manufacturing-context substitute"
+    ],
+    "overstated_by_keywords": [
+      "Systems integration: keyword pass counted COFFIN as 'Have,' but research robotics integration differs fundamentally from production manufacturing systems integration (scope, handoff to technicians, repeatability documentation)",
+      "Testing and validation: keyword listed as 'Have,' but Justin's testing is project-level (CARLA validation, YOLO mAP) not production-scale EOL testing protocols",
+      "Advanced manufacturing environments: keyword marked 'adjacent' via robotics/embedded \u2192 manufacturing, but zero manufacturing floor or production process exposure"
+    ],
+    "understated_by_keywords": [
+      "Genuine RCA depth in COFFIN: 11 resolved failures with systematic root causes (power budgeting for servo brown-out, image buffering for stale frames) is exactly the troubleshooting rigor the role needs, even without formal 'RCA' label",
+      "Real-time integration and debugging expertise: timing-sensitive coordination across multiple peripherals (I2C, UART, PWM, ToF) shows the hardware-level integration depth required for complex drone systems, though not explicitly labeled as 'systems integration'"
+    ],
+    "screening_gaps": [
+      "Zero manufacturing/production domain: the role is 'Manufacturing Systems Integration & Test Engineer' \u2014 Justin has never worked in manufacturing, written production validation procedures, or analyzed manufacturing yield. This is the core domain.",
+      "Seniority and experience mismatch: role explicitly requires '5+ years in systems integration, robotics, aerospace manufacturing, or advanced manufacturing' and is titled 'Senior.' Justin is a recent MS graduate (May 2026) with zero years in any manufacturing environment.",
+      "No formal diagnostic/DfT methodology training: JD emphasizes creating 'Diagnostic Decision Trees' and 'troubleshooting flowcharts for the production team.' Justin has troubleshooting narratives but no formal training in manufacturing-level diagnostic methodologies or Design for Test principles."
+    ],
+    "recommend_apply": false,
+    "reasoning": "While Justin demonstrates strong technical depth in Python, Linux, and real-time hardware/software integration\u2014with COFFIN showing genuine RCA capability\u2014the role is fundamentally rooted in manufacturing production validation, a domain he has zero experience in. The 5+ years manufacturing requirement and 'Senior' title also create a seniority gap. Best path: target embedded systems or systems engineer roles where robotics/ML experience translates directly, then pivot to manufacturing after gaining production environment exposure.",
+    "calibration_delta": 7.0
+  }
+}

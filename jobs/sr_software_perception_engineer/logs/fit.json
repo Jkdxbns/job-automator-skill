@@ -1,0 +1,193 @@
+{
+  "company": "Unknown",
+  "company_slug": "unknown",
+  "role": "Sr. Software Perception Engineer",
+  "job_slug": "sr-software-perception-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 23,
+    "adjacent_count": 6,
+    "missing_count": 23,
+    "jd_ask_size": 52,
+    "req_cov": 0.708,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor AND Masters Degree in Engineering, Computer Science, Robotics, or a related field",
+    "Strong understanding of computer vision, sensor fusion, and machine learning concepts",
+    "Proficiency in C++ and Python",
+    "Experience with ROS or similar autonomous infrastructure software frameworks",
+    "Hands-on experience working with camera, lidar, and/or radar data",
+    "Practical experience using OpenCV",
+    "Practical experience using TensorFlow or PyTorch",
+    "Experience with mobile robotics perception for autonomy or advanced operator assist systems",
+    "sensor fusion",
+    "object detection",
+    "computer vision",
+    "machine learning",
+    "deep learning",
+    "C++",
+    "Python",
+    "ROS",
+    "OpenCV",
+    "TensorFlow",
+    "PyTorch",
+    "camera",
+    "lidar",
+    "Git",
+    "CMake"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Familiarity with lidar, radar, and cameras as perception sensors and their integration",
+      "you_have": "lidar, camera experience (no radar)"
+    },
+    {
+      "jd_skill": "radar",
+      "you_have": "lidar, camera experience (no radar)"
+    },
+    {
+      "jd_skill": "autonomous vehicles",
+      "you_have": "mobile robotics perception, CARLA, ROS2"
+    },
+    {
+      "jd_skill": "mobile robotics",
+      "you_have": "Robot Perception, ROS2, perception pipelines"
+    },
+    {
+      "jd_skill": "Docker",
+      "you_have": "container experience via k3s, Docker in telemetry gateway"
+    },
+    {
+      "jd_skill": "testing frameworks",
+      "you_have": "GoogleTest, pytest via projects"
+    }
+  ],
+  "missing_skills": [
+    "3-5+ years of experience developing perception systems for robotics, autonomous vehicles, or advanced driver/operator assist systems",
+    "2+ years with Machine Learning for Perception (tuning and training models/deep learning)",
+    "Working knowledge of the Agile software development life cycle",
+    "object tracking",
+    "object classification",
+    "perception algorithms",
+    "Eigen",
+    "Azure DevOps",
+    "Jira",
+    "SonarQube",
+    "GoogleTest",
+    "Artifactory",
+    "Clang",
+    "AWS EC2",
+    "AWS S3",
+    "AWS Batch",
+    "AWS",
+    "CI/CD",
+    "artificial intelligence",
+    "autonomy",
+    "advanced operator assist systems",
+    "documentation",
+    "complex autonomy systems"
+  ],
+  "top_ats_keywords": [
+    "sensor fusion",
+    "object detection",
+    "object tracking",
+    "object classification",
+    "perception algorithms",
+    "computer vision",
+    "machine learning",
+    "deep learning",
+    "C++",
+    "Python",
+    "ROS",
+    "OpenCV",
+    "TensorFlow",
+    "PyTorch",
+    "camera",
+    "lidar",
+    "radar",
+    "autonomous vehicles",
+    "mobile robotics",
+    "Agile",
+    "CMake",
+    "Docker",
+    "Git",
+    "Eigen",
+    "AWS",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "Bachelor AND Masters Degree in Engineering, Computer Science, Robotics, or a related field",
+    "3-5+ years of experience developing perception systems for robotics, autonomous vehicles, or advanced driver/operator assist systems",
+    "2+ years with Machine Learning for Perception (tuning and training models/deep learning)",
+    "Strong understanding of computer vision, sensor fusion, and machine learning concepts",
+    "Proficiency in C++ and Python",
+    "Experience with ROS or similar autonomous infrastructure software frameworks",
+    "Hands-on experience working with camera, lidar, and/or radar data",
+    "Practical experience using OpenCV",
+    "Practical experience using TensorFlow or PyTorch",
+    "Experience with mobile robotics perception for autonomy or advanced operator assist systems",
+    "Familiarity with lidar, radar, and cameras as perception sensors and their integration",
+    "Working knowledge of the Agile software development life cycle"
+  ],
+  "preferred_skills": [
+    "Git",
+    "Docker",
+    "CMake",
+    "testing frameworks",
+    "Eigen",
+    "Azure DevOps",
+    "Jira",
+    "SonarQube",
+    "GoogleTest",
+    "Artifactory",
+    "Clang",
+    "AWS EC2",
+    "AWS S3",
+    "AWS Batch",
+    "CI/CD",
+    "artificial intelligence",
+    "autonomy",
+    "advanced operator assist systems",
+    "documentation",
+    "complex autonomy systems"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, implement, and test algorithms for sensor fusion, object detection, tracking, and classification",
+    "Participate in the design and development of high-quality perception software",
+    "Collaborate with application teams to collect and analyze data from robotic and manned platforms",
+    "Analyze and annotate perception data for machine learning training",
+    "Document architecture specifications, software designs, verification plans, test cases",
+    "Use appropriate debugging, testing, and maintenance tools",
+    "Design, write, test, and review autonomy and advanced operator-assist perception software",
+    "Contribute to efforts to develop, integrate, and test complex autonomy systems",
+    "Solve complex issues that span multiple subsystems",
+    "Work independently on assigned tasks while actively collaborating within a multidisciplinary team",
+    "Use Agile software development methodologies"
+  ],
+  "role_category": "perception",
+  "location": "Dallas, Texas, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,104 @@
+{
+  "company": "Toyota Research Institute",
+  "company_slug": "toyota-research-institute",
+  "role": "Human-Centered AI Research Intern, Causal Reasoning Models",
+  "job_slug": "hcai-causal-reasoning-intern",
+  "match_pct": 30.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 15,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "LLM evaluation and benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "supervised fine-tuning",
+      "you_have": "Fine-tuned DONUT / TinyLlama compression"
+    },
+    {
+      "jd_skill": "improving LLM reasoning",
+      "you_have": "SLM/GPT-2 build, quantization benchmarked on GSM8K/ARC"
+    },
+    {
+      "jd_skill": "pretraining",
+      "you_have": "GPT-2 from scratch"
+    }
+  ],
+  "missing_skills": [
+    "Ph.D. student",
+    "causal inference",
+    "structural causal models",
+    "counterfactual reasoning",
+    "mechanistic interpretability",
+    "reinforcement learning with verifiable rewards",
+    "prompt optimization",
+    "publication record",
+    "behavioral science / user studies"
+  ],
+  "top_ats_keywords": [
+    "causal reasoning",
+    "LLM",
+    "LLM evaluation",
+    "benchmarking",
+    "mechanistic interpretability",
+    "reinforcement learning",
+    "supervised fine-tuning",
+    "prompt optimization",
+    "Python",
+    "PyTorch",
+    "structural causal models",
+    "counterfactual"
+  ],
+  "required_skills": [
+    "Ph.D. student",
+    "causal inference (SCM, identification, counterfactual reasoning)",
+    "LLM evaluation and benchmarking",
+    "mechanistic interpretability",
+    "improving LLM reasoning (prompting, SFT, RLVR)",
+    "Python",
+    "PyTorch",
+    "publication record"
+  ],
+  "preferred_skills": [
+    "behavioral science",
+    "computational social science",
+    "user studies"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "research and publish at NeurIPS/ICML/ICLR/CLeaR/UAI/COLM",
+    "own project ideation to validation",
+    "cross-functional work on generative AI for human behavior"
+  ],
+  "role_category": "ml_systems",
+  "location": "Los Altos, CA (hybrid, in-office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

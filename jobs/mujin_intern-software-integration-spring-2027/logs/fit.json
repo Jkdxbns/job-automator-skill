@@ -1,0 +1,90 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Intern - Software Integration (Spring 2027)",
+  "job_slug": "intern-software-integration-spring-2027",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 0,
+    "missing_count": 1,
+    "jd_ask_size": 4,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Computer Engineering degree"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "agile"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "agile"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Computer Engineering degree"
+  ],
+  "preferred_skills": [
+    "agile"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "code, test, debug",
+    "agile cross-functional"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 77,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "C++ and Python are core across the profile: CUDA C++ kernels, STM32 bare-metal C, ROS 2 Python nodes",
+      "Cross-team delivery: led a 7-person ML team and a 25-member robotics team"
+    ],
+    "real_gaps": [
+      "No stated agile or sprint process evidence",
+      "No production C++ codebase or code-review history, work is capstone/research/embedded scope",
+      "Nothing on warehouse-setting exposure, which the posting lists as a willingness requirement"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "UR5e pick-and-place and MoveIt work backs the robotics context Mujin's interns work in, though this posting never names it"
+    ],
+    "screening_gaps": [
+      "Posting targets undergraduate juniors or above for a Jan-Apr 2027 term; Justin holds an M.S. awarded May 2026 and is no longer a student",
+      "C++ depth beyond embedded and CUDA kernels is thin for a C++ screen",
+      "No agile or team-process evidence in the profile"
+    ],
+    "recommend_apply": true,
+    "reasoning": "On skills alone this is a clean match: the ask is C++, Python and a CS/CE degree, all strongly backed. The real problem is eligibility, not skills: this is a student internship term and Justin has already graduated.",
+    "calibration_delta": -2.0
+  }
+}

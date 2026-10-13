@@ -1,0 +1,138 @@
+{
+  "company": "Proxima Fusion",
+  "company_slug": "proxima-fusion",
+  "role": "Embedded Control Engineer",
+  "job_slug": "embedded-control-engineer-tmux",
+  "match_pct": 64.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded architectures",
+    "Microcontroller selection",
+    "Real-time embedded software",
+    "Hardware interfaces",
+    "Communication protocols",
+    "Debugging on target hardware",
+    "Systems programming",
+    "DSP"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Power electronics control",
+      "you_have": "PWM Motor Control / BLDC"
+    },
+    {
+      "jd_skill": "Automated testing",
+      "you_have": "Benchmarking/evaluation harnesses"
+    }
+  ],
+  "missing_skills": [
+    "FPGA programming",
+    "Hardware-in-the-loop testing",
+    "Model-based development",
+    "Safety-critical software"
+  ],
+  "top_ats_keywords": [
+    "embedded",
+    "real-time",
+    "microcontroller",
+    "DSP",
+    "FPGA",
+    "power electronics",
+    "communication protocols",
+    "hardware-in-the-loop",
+    "automated testing",
+    "safety-critical",
+    "model-based development",
+    "debugging"
+  ],
+  "required_skills": [
+    "Embedded architectures",
+    "Microcontroller selection",
+    "Real-time embedded software",
+    "FPGA programming",
+    "Systems programming",
+    "Hardware interfaces",
+    "Communication protocols",
+    "Debugging on target hardware",
+    "DSP",
+    "Power electronics control"
+  ],
+  "preferred_skills": [
+    "Model-based development",
+    "Hardware-in-the-loop testing",
+    "Automated testing",
+    "Safety-critical software"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Define embedded controller architectures for power converters",
+    "Translate control requirements into deterministic real-time software",
+    "Develop/test/debug on target hardware and automated test environments",
+    "Explore new controller technologies"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Zurich, Switzerland (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47.6,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on Cortex-M4 with timer-triggered ADC scans, interrupt-driven capture and a low-level I2C driver (STM32 Temperature Monitor)",
+      "Interrupt-driven quadrature decoding and closed-loop heading correction feeding PWM at 15 kHz (Arduino Due robotics club work)",
+      "FreeRTOS + UART + PWM servo control on STM32 with mutex task coordination (turret)",
+      "Oscilloscope and logic analyzer debugging on real target hardware"
+    ],
+    "real_gaps": [
+      "No FPGA/HDL work anywhere in the profile",
+      "No power electronics: no converter topologies, current/voltage loops, gate drives; PWM motor control is hobby-scale servo/DC drive, not converter control",
+      "No hardware-in-the-loop, model-based (Simulink) or safety-critical software experience",
+      "Digital Signal Processing is coursework only, not applied on a controller",
+      "No controller-selection decisions (MCU vs DSP vs FPGA) made with real tradeoff ownership",
+      "JD says Expert; profile is new-grad with capstone/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "DSP counted as Have but is a course, not applied work",
+      "Microcontroller selection counted as Have but boards were chosen for projects, not architected for demanding real-time control",
+      "Systems programming / communication protocols are solid for UART/I2C/SPI but no industrial fieldbus (CAN, EtherCAT) backing in the profile"
+    ],
+    "understated_by_keywords": [
+      "QAT project exported int8 weights as a .mem hex file with fixed-point golden vectors, which is the nearest thing to an FPGA verification flow, though no HDL was written"
+    ],
+    "screening_gaps": [
+      "No power electronics / converter control experience, the core domain of the role",
+      "No FPGA programming despite it being named in both the description and the Expert bar",
+      "Expert-level real-time control ownership asked; profile shows coursework and capstone scale with no production controller"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Embedded C, timers, ADC, interrupts and closed-loop PWM are genuinely backed, so the firmware half of the role is credible. The domain half (power converters, FPGA, HIL, functional safety) has no backing, and the Expert wording makes this a stretch that a magnet-power-electronics panel will probe. Worth applying as a reach with the work-permit question unresolved.",
+    "calibration_delta": 16.7
+  },
+  "semantic_pending": false
+}

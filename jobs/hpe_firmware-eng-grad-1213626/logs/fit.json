@@ -1,0 +1,59 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Firmware Engineer Graduate",
+  "job_slug": "firmware-eng-grad-1213626",
+  "match_pct": 75.0,
+  "missing_skills": [
+    "BIOS/UEFI",
+    "EFI drivers/applications",
+    "BMC firmware"
+  ],
+  "adjacent_skills": [
+    "analog hardware design (ADC/analog interfacing present, no formal analog design coursework called out)"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded code",
+    "DSP",
+    "C",
+    "Python",
+    "RTOS",
+    "hardware design",
+    "debugging",
+    "BIOS/UEFI",
+    "BMC"
+  ],
+  "key_responsibilities": [
+    "Code/program firmware subsystems including DSP, embedded code, EFI drivers/applications, BIOS/UEFI",
+    "Execute test plans, identify/log/debug assigned issues",
+    "Work with internal and outsourced development partners on firmware design",
+    "Contribute as team member on low to moderately-complex product firmware"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 60,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real bare-metal register-level firmware work (GPIO, TIM2, ADC1, I2C1) on STM32 Cortex-M4 in the Temperature Monitor project, with deterministic 1 Hz timing and Proteus verification",
+      "Hands-on RTOS experience (FreeRTOS with mutexes, interrupt-driven UART, PWM) on the Object Tracking Turret matches JD language about real-time operating systems",
+      "Genuine systems debugging discipline: resolved 11 distinct integration failures in the COFFIN capstone (false positives, servo brown-out, stale-frame capture), directly matching the JD line about identifying/logging/debugging issues",
+      "PCB design and hardware bring-up (EAGLE, sensor comms over UART/I2C/SPI, closed-loop feedback) shows real hardware design principle exposure, not just software",
+      "Demonstrated ability to work as a team member with internal/external partners: sole ML-experienced student leading a cross-cultural team of 7 at Teesside, General Secretary role coordinating a 25-member robotics team"
+    ],
+    "real_gaps": [
+      "Zero exposure to BIOS/UEFI or EFI driver/application development, which is HPE platform firmware, not MCU firmware. Different toolchain (EDK2/Tianocore, ITP/JTAG on x86 platforms) and different debugging model than the STM32/Arduino work in the profile",
+      "No BMC firmware experience (IPMI, Redfish, OpenBMC style stacks), which the JD explicitly lists as one of the firmware subsystems this role touches",
+      "All embedded/RTOS work is at project or capstone scale on hobbyist boards, not on a shipping corporate product line coordinated with outsourced development partners as the JD describes"
+    ],
+    "overstated_by_keywords": [
+      "DSP was marked Have by keyword match, but the actual backing is one undergraduate Digital Signal Processing course, not hands-on DSP firmware development",
+      "\"Firmware design tools and languages\" reads as a clean match on keywords, but the real toolchain experience is MCU bare-metal (STM32CubeIDE-style, Proteus) which does not transfer directly to platform firmware tooling (EDK2, vendor BMC stacks)"
+    ],
+    "reasoning": "The fundamentals are genuinely strong for a new-grad firmware req: real-time embedded C, RTOS, interrupt-driven hardware bring-up, and a track record of debugging integration failures under time pressure. The gap is that this specific role family is platform firmware (BIOS/UEFI/BMC for servers), a different sub-discipline from the MCU/robotics firmware in the profile, and keyword matching undercounts how central that gap is since it only shows up as 3 missing terms. At the 0-2yr level with training explicitly built into the job level definition, this is a coachable gap rather than a disqualifier."
+  }
+}

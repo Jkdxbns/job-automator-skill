@@ -1,0 +1,95 @@
+{
+  "_meta": { "company": "LuminX", "role": "Robotics Systems Engineer", "company_slug": "luminx", "job_slug": "robotics_systems_engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology building real-time edge AI systems that run on NVIDIA Jetson-class hardware. I deploy and optimize perception models with TensorRT and CUDA, integrate cameras and sensors at the hardware-software boundary, and debug issues across embedded Linux, power, and peripheral integration. Comfortable moving between Python, C++, and hands-on hardware work to bring up and validate new edge devices.",
+  "skills": {
+    "Edge AI & Model Deployment": ["NVIDIA Jetson", "TensorRT", "YOLO", "ONNX", "TFLite", "OpenCV", "8-bit Quantization"],
+    "Languages": ["Python", "C/C++", "CUDA C++", "Bash"],
+    "Embedded & Hardware": ["Raspberry Pi", "STM32", "Arduino", "UART / I2C / SPI", "Bluetooth (BLE)", "EAGLE PCB Design", "Oscilloscopes / Logic Analyzers"],
+    "Systems & Tools": ["Embedded Linux", "Git", "CMake", "Flask", "SolidWorks"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Built a wearable gesture-recognition glove integrating ADXL345 accelerometers with a Raspberry Pi over I2C and HC-05 Bluetooth for hands-free cursor control.",
+        "Eliminated sensor jitter through a custom z-axis thresholding algorithm, software calibration, and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (F.C.R.I.T.)",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; wired sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images to 83% mAP@50; exported to ONNX and TFLite for on-device edge deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place robot across a distributed edge pipeline: Flutter client, Flask-SocketIO edge server, and NVIDIA Jetson perception.",
+        "Deployed TensorRT-optimized YOLO on Jetson for a 5.2× inference speedup, alongside faster-whisper STT and a multi-camera frame capture pipeline.",
+        "Debugged 11 hardware-software integration failures (servo brown-out, stale-frame capture, false-positive detections); reached 100% pick reliability at ~11.5s cycle time."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Ran YOLOv8 on NVIDIA Jetson to detect and track objects, streaming commands to a microcontroller over UART with interrupt-driven multi-servo PWM and a VL53L0X ToF sensor."
+      ]
+    },
+    {
+      "name": "SLM Compression & Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Cut GPU memory footprint ~55% via 8-bit quantization (LLM.int8) on TinyLlama 1.1B; profiled peak VRAM and latency under edge constraints with <1% accuracy loss."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced VGG16 TorchScript conv layers with custom CUDA C++ kernels using memory coalescing and constant memory; ~35% speedup over naive GPU at identical accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Machine Intelligence", "Deep Learning", "Robot Perception", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Image Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

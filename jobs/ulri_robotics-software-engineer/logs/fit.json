@@ -1,0 +1,138 @@
+{
+  "company": "UL Research Institutes (ULRI)",
+  "company_slug": "ulri",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 13,
+    "jd_ask_size": 24,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Robotics",
+    "State machines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Serial communication",
+      "you_have": "UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "APIs",
+      "you_have": "Flask / WebSocket"
+    },
+    {
+      "jd_skill": "Event-driven / asynchronous systems",
+      "you_have": "Flask-SocketIO, interrupts, ROS2 pubsub"
+    },
+    {
+      "jd_skill": "Hardware/instrumentation integration",
+      "you_have": "UR5e, Arduino, Jetson, sensors"
+    },
+    {
+      "jd_skill": "Distributed systems",
+      "you_have": "MPI, SLURM"
+    },
+    {
+      "jd_skill": "Additional language (C#/Java/Go/TS)",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "Workflow orchestration",
+      "you_have": "ROS2 / state machine control"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Containerization",
+    "CI/CD",
+    "SQL",
+    "NoSQL",
+    "OPC-UA",
+    "Modbus TCP",
+    "Ethernet/IP",
+    "Microservices",
+    "Automated testing",
+    "Monitoring/dashboards",
+    "Scheduling",
+    "Sample tracking/lineage"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "API",
+    "OPC-UA",
+    "Modbus TCP",
+    "Ethernet/IP",
+    "serial communication",
+    "Docker",
+    "CI/CD",
+    "Git",
+    "SQL",
+    "NoSQL",
+    "microservices",
+    "event-driven",
+    "state machines",
+    "workflow orchestration",
+    "scheduling",
+    "containerization",
+    "robotics",
+    "testing"
+  ],
+  "required_skills": [
+    "Python",
+    "APIs",
+    "Hardware/robotics/instrumentation integration",
+    "SQL/NoSQL",
+    "Workflow orchestration",
+    "State machines",
+    "Asynchronous systems",
+    "Git",
+    "Automated testing",
+    "Docker",
+    "CI/CD",
+    "Distributed systems/microservices/event-driven"
+  ],
+  "preferred_skills": [
+    "C#/.NET/Java/Go/TypeScript",
+    "Laboratory/robotics/controls/autonomous systems"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Lab instrument/robot integrations",
+    "Workflow orchestration",
+    "Sample tracking/lineage",
+    "Scheduling/error recovery",
+    "OPC-UA/Ethernet-IP/Modbus TCP/serial",
+    "Monitoring/dashboards"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Skokie, IL",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

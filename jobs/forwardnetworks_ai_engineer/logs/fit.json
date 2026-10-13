@@ -1,0 +1,44 @@
+{
+  "company": "Forward Networks",
+  "company_slug": "forwardnetworks",
+  "role": "AI Engineer",
+  "job_slug": "ai_engineer",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "Comfortable in a large unfamiliar codebase (no direct evidence)",
+    "Agent frameworks (LangChain, LlamaIndex, tool-runner, hand-rolled tool loops)",
+    "Networking/infra/systems background (nice to have, not required)"
+  ],
+  "adjacent_skills": [
+    "1-2 years experience in the field → have 7 ML/embedded internships (0 full-time years)",
+    "Personally shipped LLM feature with evals (agent/RAG/LLM workflow) → built LLM internals from scratch (GPT-2, ASR, TinyLlama compression) with benchmark evals, not a shipped agent/RAG",
+    "Eval frameworks / LLM-as-judge / trajectory analysis → ran academic benchmark evals (GSM8K, HellaSwag, ARC), not custom eval harnesses"
+  ],
+  "top_ats_keywords": [
+    "AI Engineer",
+    "LLM agents",
+    "eval-driven iteration",
+    "error analysis",
+    "RAG",
+    "context engineering",
+    "prompt engineering",
+    "trajectory analysis",
+    "LLM-as-judge",
+    "Python",
+    "C++"
+  ],
+  "key_responsibilities": [
+    "Improve shipped agent quality through eval-driven iteration: error analysis on real trajectories, targeted prompt/context/tool fixes, regression coverage",
+    "Build new agent capabilities, tools, and surfaces with an evaluation in place before shipping",
+    "Practice context engineering: retrieval, prompt/tool-result structure, token-budget management against a large structured network model",
+    "Engineer unambiguous, well-structured prompts and tool descriptions",
+    "Help define what good looks like for agents completing complex tasks end-to-end",
+    "Partner with network domain experts to build and validate evals"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "Forward Networks",
+  "role": "AI Engineer",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology, and I want to work on agent quality the way this role treats it: as something you measure, not something you assume. Forward's approach of reaching for an eval before an opinion is the same instinct that shaped my own project work, and I would like to bring that instinct to agents running against your network digital twin.",
+    "At the Indian Institute of Technology Bombay, I fine-tuned DONUT, a document-understanding transformer, on a custom medical billing dataset and improved validation accuracy from 55% to 93% through iterative error analysis rather than blind retraining, tracing failures back to specific preprocessing and tokenization choices before touching the model again. I have run the same discipline on model evaluation directly: I benchmarked a quantized TinyLlama across HellaSwag, GSM8K, and ARC, holding accuracy degradation under 1% with a 0.09 perplexity increase, and used those eval numbers, not intuition, to decide the final deployment configuration.",
+    "My RIT capstone integrated an LLM directly into a real-time decision-making role: Gemini classifies user intent in under 500ms inside a voice-controlled robotic pick-and-place pipeline, and I debugged the system through 11 distinct integration failures, false positive detections, servo brown-out, and stale frame capture, to reach 100% pick reliability across 10 trials. Getting there meant reading failing trajectories closely and tightening the prompts and interfaces around the model, not just the model itself. I also built a GPT-2 style transformer from scratch, including its tokenizer and training loop, which gave me a working understanding of what is actually happening inside the model I am prompting, useful when the goal is unambiguous, well structured instructions rather than trial and error.",
+    "I would welcome the chance to bring this background to Forward and help build and evaluate the agent features this role owns. I am happy to walk through any of this work in more detail."
+  ],
+  "sign_off": "Sincerely,"
+}

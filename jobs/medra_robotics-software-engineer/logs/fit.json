@@ -1,0 +1,94 @@
+{
+  "company": "Medra",
+  "company_slug": "medra",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 39.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 1,
+    "missing_count": 8,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Computer Vision",
+    "Motion Planning",
+    "Kinematics/Dynamics",
+    "Robotic Arm Manipulators"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Trajectory Optimization",
+      "you_have": "MoveIt motion planning / inverse kinematics"
+    }
+  ],
+  "missing_skills": [
+    "Control",
+    "PyBullet",
+    "MuJoCo",
+    "Robotics in Labs/Manufacturing",
+    "SolidWorks",
+    "ZMQ",
+    "Redis",
+    "gRPC"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Motion Planning",
+    "Computer Vision",
+    "PyBullet",
+    "MuJoCo",
+    "Robotics Manipulators"
+  ],
+  "required_skills": [
+    "Python",
+    "Robotic Arm Manipulators",
+    "Motion Planning",
+    "Trajectory Optimization",
+    "Kinematics/Dynamics",
+    "Control"
+  ],
+  "preferred_skills": [
+    "PyBullet",
+    "MuJoCo",
+    "Robotics in Labs/Manufacturing",
+    "SolidWorks",
+    "ZMQ",
+    "Redis",
+    "gRPC"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop robotic solutions to manipulate and control biology tools designed for human use",
+    "Design and implement motion planning algorithms for collision-free operation",
+    "Apply computer vision to interact with lab consumables and equipment",
+    "Integrate, test, and debug robotics software in simulation and on real hardware"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

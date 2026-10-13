@@ -1,0 +1,69 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Software Engineer - Applied Machine Learning & Localization",
+  "job_slug": "applied-ml-localization",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "consumer-product research application",
+    "Swift",
+    "localization/internationalization",
+    "Unicode/XLIFF/ICU",
+    "native-level foreign language skills",
+    "published research",
+    "Xcode",
+    "SwiftUI/Foundation (Apple dev APIs)"
+  ],
+  "adjacent_skills": [
+    "MS Computer Engineering (vs CS/AI/ML degree)",
+    "adapting pre-trained LLMs for downstream tasks (have custom LLM/inference-engine work, not downstream-task adaptation)",
+    "Computational Linguistics (via ASR/NLP work)"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "NLP",
+    "fine-tuning",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "C++",
+    "machine translation",
+    "localization"
+  ],
+  "key_responsibilities": [
+    "Lead exploration/application of LLMs for translation tasks and Apple product features",
+    "Translate latest research into high-quality systems and models for machine translation",
+    "Engage in full model development lifecycle: ideation, training, experimentation, deployment",
+    "Collaborate with translation, localization quality, PM, and engineering teams",
+    "Develop and maintain localization frameworks and tools"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "GPT-2 style Transformer built from scratch (multi-head self-attention, MLP, residual, layer norm, weight tying, custom tokenizer) \u2014 genuine mechanistic understanding of the architecture the JD's LLM work sits on top of, not just API-level usage",
+      "DONUT fine-tuning on a custom medical billing dataset via HuggingFace VisionEncoderDecoder, 55%->93% validation accuracy \u2014 the single strongest real match to 'fine-tuning approaches and adapting pretrained models for downstream tasks', though it's a document-extraction task, not translation",
+      "TinyLlama 8-bit quantization/compression project with HellaSwag/GSM8K/ARC benchmarking \u2014 shows real hands-on LLM evaluation and deployment-tradeoff thinking, relevant to shipping models efficiently",
+      "COFFIN capstone shows the 'research to working system' pattern the JD wants (STT, intent classification, detection models integrated into one pipeline, 11 failure modes debugged) \u2014 but the target was a robotic arm, not a localization/translation product"
+    ],
+    "real_gaps": [
+      "Zero machine translation or seq2seq/multilingual model work anywhere in the profile \u2014 the JD's actual mission (translation quality, machine translation systems) has no backing at all",
+      "No localization/internationalization exposure \u2014 no Unicode, XLIFF, ICU, or i18n pipeline work, which is the domain this specific team owns",
+      "No Apple platform experience \u2014 no Swift, Xcode, SwiftUI, or Foundation; all software work is Python/C++/embedded, not Apple's ecosystem, despite the role being built around Xcode tooling",
+      "Every ML project is personal/academic scale (hundreds to low thousands of samples) \u2014 the JD wants production systems serving millions of users; there's no evidence of shipping at that scale",
+      "JD frames this as a technical leader 'leading the exploration' of LLMs for the team \u2014 leadership experience exists (Research Fellowship team lead, 25-member robotics club) but never on an ML/LLM initiative specifically",
+      "No computational linguistics or translation theory in coursework (DSP, ANFIS, Image Processing, Robot Perception, HPC, Machine Intelligence, Deep Learning) or in any project"
+    ],
+    "overstated_by_keywords": [
+      "'Adapting pre-trained LLMs for downstream tasks' scored Adjacent off DONUT + TinyLlama, but DONUT is a vision-encoder-decoder transformer (not an LLM) and TinyLlama work is compression/benchmarking, not task adaptation \u2014 thinner than the keyword match implies",
+      "NLP match leaned on ASR/speech keywords (WER, STT, BPE tokenizer) which is speech processing, not text NLP or translation \u2014 the two are adjacent fields but don't transfer directly to this JD's actual work",
+      "Degree match (CS/AI/ML) counted the M.S. Computer Engineering as satisfying via the JD's 'or equivalent experience' clause \u2014 true on paper, but the coursework and specialization are architecture/robotics/HPC, not AI/ML-core"
+    ],
+    "reasoning": "The ML fundamentals are real and would survive a technical screen (Transformer internals, quantization, one genuine fine-tuning project), but the role is really about machine translation and localization tooling inside Apple's Xcode ecosystem, and none of that domain shows up anywhere in the profile. Keyword matching scored 85.7% because 'LLM', 'fine-tuning', and 'PyTorch' are present, but it missed that none of that experience is in translation, i18n, or the Apple platform this team actually ships on."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Senior Machine Learning Engineer - Perception",
+  "job_slug": "senior-machine-learning-engineer-perception",
+  "match_pct": 67.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 7,
+    "missing_count": 3,
+    "jd_ask_size": 20,
+    "req_cov": 0.778,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "PyTorch",
+    "C++ and Python",
+    "embedded ML deployment",
+    "ROS 2",
+    "TensorRT",
+    "embedded systems",
+    "object detection",
+    "deep learning",
+    "robotics",
+    "machine learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "object detection & segmentation",
+      "you_have": "object detection"
+    },
+    {
+      "jd_skill": "classical CV algorithms",
+      "you_have": "OpenCV"
+    },
+    {
+      "jd_skill": "3D vision DL architectures",
+      "you_have": "ZoeDepth"
+    },
+    {
+      "jd_skill": "CVML",
+      "you_have": "ML-experienced"
+    },
+    {
+      "jd_skill": "segmentation",
+      "you_have": "object detection"
+    },
+    {
+      "jd_skill": "3D vision",
+      "you_have": "ZoeDepth"
+    },
+    {
+      "jd_skill": "computer vision",
+      "you_have": "OpenCV"
+    }
+  ],
+  "missing_skills": [
+    "multi-view geometry",
+    "multi-head DL architectures",
+    "scalable cloud training pipelines"
+  ],
+  "top_ats_keywords": [
+    "CVML",
+    "robotics",
+    "embedded systems",
+    "object detection",
+    "segmentation",
+    "multi-view geometry",
+    "3D vision",
+    "deep learning",
+    "PyTorch",
+    "C++",
+    "Python",
+    "TensorRT",
+    "ROS 2",
+    "computer vision",
+    "machine learning"
+  ],
+  "required_skills": [
+    "object detection & segmentation",
+    "classical CV algorithms",
+    "multi-view geometry",
+    "multi-head DL architectures",
+    "3D vision DL architectures",
+    "scalable cloud training pipelines",
+    "PyTorch",
+    "C++ and Python",
+    "embedded ML deployment"
+  ],
+  "preferred_skills": [
+    "ROS 2",
+    "TensorRT"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop, implement, and optimize CV/ML algorithms for robotics systems",
+    "Train, test and deploy custom ML models on embedded systems",
+    "Collaborate with cross-functional teams to integrate models and algorithms into products",
+    "Stay up to date with latest research in computer vision and devise custom algorithms",
+    "Create and maintain code documentation and unit tests"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

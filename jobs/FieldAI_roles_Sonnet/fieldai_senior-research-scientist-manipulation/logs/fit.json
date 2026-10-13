@@ -1,0 +1,161 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Research Scientist - Manipulation",
+  "job_slug": "senior-research-scientist-manipulation",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 36,
+    "adjacent_count": 7,
+    "missing_count": 6,
+    "jd_ask_size": 49,
+    "req_cov": 0.062,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA",
+    "ROS2",
+    "MoveIt",
+    "RViz",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "YOLO",
+    "TensorRT",
+    "faster-whisper",
+    "ASR pipelines",
+    "OpenCV",
+    "STM32 bare-metal C",
+    "FreeRTOS",
+    "NVIDIA Jetson",
+    "Raspberry Pi",
+    "Arduino",
+    "UART/I2C/SPI",
+    "Bluetooth (BLE/Classic)",
+    "EAGLE PCB",
+    "Git",
+    "CMake",
+    "SolidWorks",
+    "Linux system administration (systemd, static IP/network)",
+    "visual servoing",
+    "forward/DH kinematics",
+    "model fine-tuning (DONUT, TinyLlama)",
+    "8-bit quantization",
+    "GPU kernel optimization",
+    "memory coalescing",
+    "MPI",
+    "SLURM",
+    "embedded sensor integration",
+    "real-time full-stack robotics deployment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "learned manipulation models",
+      "you_have": "PyTorch/TF model training, YOLO detection, DONUT OCR fine-tuning, TinyLlama quantization, TensorRT export \u2014 strong ML model skills but not specifically large-scale manipulation-policy models"
+    },
+    {
+      "jd_skill": "autonomous control / loco-manipulation",
+      "you_have": "ROS2/MoveIt arm control, visual servoing, DH forward kinematics on AL5B/UR5e \u2014 no humanoid or loco-manipulation experience"
+    },
+    {
+      "jd_skill": "robot learning pipelines",
+      "you_have": "ML evaluation and training pipelines (ASR, OCR, YOLO), sensor-to-model integration \u2014 no robot-learning pipeline at company scale"
+    },
+    {
+      "jd_skill": "physically-grounded models",
+      "you_have": "DH parameters, forward kinematics, embedded sensor modeling \u2014 robotics physical grounding present but not in learned-model form"
+    },
+    {
+      "jd_skill": "data and training systems for scaling",
+      "you_have": "CUDA C++ optimization, 8-bit quant, GPU profiling, MPI/SLURM \u2014 optimization and parallel skills but no distributed training infrastructure at scale"
+    },
+    {
+      "jd_skill": "manipulation strategies",
+      "you_have": "Visual servoing, 100% pick reliability on custom arm, YOLO-based object tracking \u2014 manipulation on arm, not humanoid"
+    },
+    {
+      "jd_skill": "real-world field deployment",
+      "you_have": "Jetson + Arduino + Flask full-stack arm deployed with real sensors (ToF, I2C mux), 5.2x TensorRT speedup \u2014 real deployment but at capstone/project scale"
+    }
+  ],
+  "missing_skills": [
+    "humanoid robot platforms",
+    "loco-manipulation",
+    "robotics foundation models generalizable across embodiments",
+    "production-scale / company-scale distributed ML training infrastructure",
+    "full-time industry experience (0 years full-time; 7 internships only)",
+    "formal senior-level / production-scale manipulation research experience"
+  ],
+  "top_ats_keywords": [
+    "manipulation",
+    "robotics",
+    "humanoid",
+    "foundation models",
+    "learned models",
+    "autonomous control",
+    "loco-manipulation",
+    "robot learning",
+    "physically-grounded",
+    "TensorRT",
+    "PyTorch",
+    "ROS2",
+    "CUDA",
+    "YOLO",
+    "field deployment",
+    "embodied intelligence"
+  ],
+  "required_skills": [
+    "learned manipulation models",
+    "autonomous control and loco-manipulation",
+    "humanoid robot platforms",
+    "robot learning pipeline integration",
+    "robotics foundation models (generalizable across embodiments)",
+    "physically-grounded + learned model combinations",
+    "data and training systems to scale learned manipulation",
+    "real-world field deployment of AI systems"
+  ],
+  "preferred_skills": [
+    "generalizable models across embodiments",
+    "rapid real-world field iteration",
+    "pragmatic hybrid (non-transformer-only) architectures"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build, train, test, and refine large-scale learned manipulation models",
+    "Accelerate autonomous control and loco-manipulation on humanoid robots",
+    "Design novel manipulation strategies",
+    "Deliver systems that feed FieldAI robot learning pipelines",
+    "Advance robotics foundation models generalizable across embodiments (initial focus humanoid)",
+    "Combine learned and physically-grounded models",
+    "Scale data and training systems required for learned manipulation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

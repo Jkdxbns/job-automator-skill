@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "company": "Knightscope",
+    "role": "Senior ML / Computer Vision Engineer",
+    "company_slug": "knightscope",
+    "job_slug": "senior-ml-cv-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built and benchmarked computer vision detection pipelines in PyTorch and TensorRT on NVIDIA Jetson, cutting YOLO inference latency 5.2\u00d7 (56.7\u219210.9 ms) for on-device edge deployment. Trained YOLO detection models (83% mAP@50, ~0.85 mAP50) and built audio pipelines including a Whisper-style ASR from scratch (15% WER) and faster-whisper speech-to-text.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Deep Learning",
+      "Model evaluation",
+      "TensorRT",
+      "ONNX",
+      "Hugging Face Transformers",
+      "NumPy",
+      "scikit-learn"
+    ],
+    "Computer Vision / Audio": [
+      "YOLO",
+      "OpenCV",
+      "Object detection",
+      "Depth estimation",
+      "faster-whisper",
+      "ASR pipelines"
+    ],
+    "Edge Deployment": [
+      "NVIDIA Jetson",
+      "TFLite",
+      "systemd service management",
+      "Flask",
+      "Linux"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "Cython",
+      "Bash",
+      "Git",
+      "GitLab"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction.",
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Deployed the Jetson-side arm bridge as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable multi-device WebSocket registration; configured XRDP for remote desktop administration of the headless Jetson."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Achieved 15% WER on the NPTEL 2020 Indian-English dataset while reducing preprocessing latency via optimized tokenization.",
+        "Built an end-to-end ASR pipeline: 80-channel mel spectrogram encoder, 4-block causal Transformer decoder with cross-attention, trained on 1,000 Indian-English samples (NPTEL 2020) achieving training loss ~0.51."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,22 @@
+{
+  "company": "ElevenLabs",
+  "company_slug": "elevenlabs",
+  "role": "Research Engineer - Inference",
+  "job_slug": "research-engineer-inference",
+  "match_pct": 71.4,
+  "missing_skills": ["Triton", "vLLM", "SGLang", "distillation", "KV-cache optimization", "batching strategies (LLM serving)"],
+  "adjacent_skills": ["production ML serving (edge real-time vs. cloud-scale streaming serving)", "custom kernels (general CUDA kernel opt vs. LLM-serving-specific kernels)"],
+  "top_ats_keywords": ["CUDA", "TensorRT", "Triton", "vLLM", "SGLang", "GPU programming", "inference optimization", "quantization", "KV-cache", "batching", "custom kernels", "latency", "throughput", "real-time streaming", "profiling"],
+  "key_responsibilities": [
+    "Deploy state-of-the-art models to production, owning path from research checkpoint to serving infrastructure",
+    "Optimize inference performance (latency, throughput, cost) via quantization, distillation, KV-cache optimization, batching, custom kernels",
+    "Build and tune high-performance serving systems for real-time streaming workloads",
+    "Build tooling/infra that lets researchers ship models to production quickly and safely"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

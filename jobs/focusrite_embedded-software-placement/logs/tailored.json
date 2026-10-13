@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "Focusrite",
+    "role": "Embedded Software Placement",
+    "company_slug": "focusrite",
+    "job_slug": "embedded-software-placement"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology, NY, with a B.E. in Electronics and Telecommunication. Builds embedded software and microcontroller firmware in bare-metal C/C++ on STM32 Cortex-M4 and Arduino, driving GPIO, timers, ADC, I2C, SPI and UART directly from registers. Writes Python and Bash scripting for data generation and benchmarking, and leans on hardware debugging with oscilloscopes and logic analyzers to fix software running on real boards. Built a Whisper-style audio speech recognition pipeline from scratch, mel spectrogram front end included.",
+  "skills": {
+    "Embedded Software & Firmware": [
+      "Embedded Software Development",
+      "Firmware Development",
+      "STM32 (Bare-Metal C)",
+      "Microcontrollers",
+      "UART/I2C/SPI",
+      "GPIO / Timers / ADC",
+      "Arduino",
+      "Raspberry Pi",
+      "NVIDIA Jetson"
+    ],
+    "Languages & Scripting": [
+      "C/C++",
+      "Python",
+      "Bash Scripting",
+      "Cython"
+    ],
+    "Debugging & Tools": [
+      "Hardware Debugging",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Proteus",
+      "Linux",
+      "Git",
+      "Version Control"
+    ],
+    "Audio & Signal Processing": [
+      "Audio Signal Processing",
+      "Digital Signal Processing",
+      "Mel Spectrograms",
+      "ASR Pipelines"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with a Raspberry Pi and HC-05 Bluetooth to send 3-DoF hand motion as HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; debugged sensor jitter on real hardware through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal embedded C (GPIO, TIM2, ADC1, I2C1) on an STM32 Cortex-M4 microcontroller; achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate, verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver."
+      ]
+    },
+    {
+      "name": "COFFIN - Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end audio speech recognition pipeline with an 80-channel mel spectrogram encoder and a 4-block causal Transformer decoder, reaching 15% WER on the NPTEL 2020 Indian-English dataset.",
+        "Designed a custom BPE tokenizer with a Cython-accelerated backend, 4-5.5x faster than pure Python at 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Debugged and resolved 11 integration failures on real hardware (false-positive detections, servo brown-out, stale-frame capture), reaching 100% pick reliability across 10 trials at ~11.5s end-to-end latency.",
+        "Implemented two-link inverse kinematics in C++ on Arduino; drove five servos with contact detection from dual VL53L0X ToF sensors over a TCA9548A I2C mux.",
+        "Deployed the Jetson-side bridge as a systemd service with auto-restart and non-root isolation; scripted static IP networking for reliable multi-device WebSocket registration."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon - National-level robotics competition among 45 universities (2022)"
+  ]
+}

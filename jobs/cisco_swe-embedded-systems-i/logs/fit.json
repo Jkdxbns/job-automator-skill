@@ -1,0 +1,107 @@
+{
+  "company": "Cisco",
+  "company_slug": "cisco",
+  "role": "Software Engineer Embedded Systems I",
+  "job_slug": "swe-embedded-systems-i",
+  "match_pct": 56.2,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 16,
+    "req_cov": 0.611,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "Linux",
+    "Python",
+    "Bash",
+    "Git",
+    "AI/ML",
+    "OS fundamentals / RTOS",
+    "networking (TCP/IP, sockets)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux (strong) + RTOS/embedded systems (working)"
+    },
+    {
+      "jd_skill": "signal and power integrity / PCB design",
+      "you_have": "EAGLE PCB design (working)"
+    }
+  ],
+  "missing_skills": [
+    "routing protocols",
+    "network architecture",
+    "CI/CD pipelines (Jenkins/GitHub Actions)",
+    "DevSecOps practices",
+    "cybersecurity principles / security protocols",
+    "FPGA development"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "embedded Linux",
+    "networking",
+    "routing protocols",
+    "Python",
+    "Bash",
+    "CI/CD",
+    "Jenkins",
+    "GitHub Actions",
+    "DevSecOps",
+    "AI/ML",
+    "cybersecurity",
+    "FPGA",
+    "PCB design"
+  ],
+  "required_skills": [
+    "C programming",
+    "embedded Linux",
+    "operating system fundamentals",
+    "networking principles",
+    "routing protocols",
+    "network architecture",
+    "automation scripting Python or Bash",
+    "CI/CD pipelines Jenkins GitHub Actions",
+    "DevSecOps practices"
+  ],
+  "preferred_skills": [
+    "AI/ML",
+    "cybersecurity principles",
+    "security protocols",
+    "FPGA development",
+    "signal and power integrity",
+    "PCB design"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "develop and maintain software/tools for OS, firmware, networking stacks, security infrastructure",
+    "hardware-software integration"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose CA / Milpitas CA / RTP NC (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

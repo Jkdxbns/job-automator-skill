@@ -1,0 +1,111 @@
+{
+  "company": "Tutor",
+  "company_slug": "tutor",
+  "role": "Perception Engineer, Robot Safety",
+  "job_slug": "perception-engineer-robot-safety",
+  "match_pct": 46.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 13,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "Real-time constraints",
+    "Code review / verifiable code",
+    "Robotics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Perception/monitoring on robots or vehicles (lidar/camera, detection, tracking, sensor fusion) in production",
+      "you_have": "Computer vision tracking (Object Tracking Turret) + depth sensing (COFFIN ToF gate, SmolVLA hybrid depth) \u2014 no lidar, no production fleet scale"
+    },
+    {
+      "jd_skill": "Safety-critical code ownership",
+      "you_have": "Safety-relevant embedded gating logic (COFFIN ToF arm-gate) and RTOS work, not owned in a production deployment"
+    }
+  ],
+  "missing_skills": [
+    "Controls knowledge (stopping distances, latency budgets, perception-to-motion command)",
+    "Safety standards exposure (ISO 10218, ISO 13849, ANSI/RIA R15.06)",
+    "Safety-rated sensors / safety validation of a detector",
+    "Warehouse or manufacturing human-robot coexistence experience",
+    "Simulation and replay tooling for perception testing at scale",
+    "Risk assessment"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "lidar",
+    "camera",
+    "detection",
+    "tracking",
+    "sensor fusion",
+    "safety-critical",
+    "real-time",
+    "Python",
+    "C++",
+    "robotics",
+    "controls",
+    "latency budgets",
+    "risk assessment",
+    "ISO 13849",
+    "ISO 10218",
+    "ANSI/RIA R15.06",
+    "monitoring systems",
+    "warehouse",
+    "manufacturing",
+    "testing and validation"
+  ],
+  "required_skills": [
+    "Perception/monitoring software on robots or vehicles (lidar/camera pipelines, detection, tracking, sensor fusion) in production",
+    "Safety-critical code ownership (bug could injure someone)",
+    "Python",
+    "C++",
+    "Real-time constraints",
+    "Code review / verifiable code",
+    "Controls knowledge (stopping distances, latency budgets, perception-to-motion)"
+  ],
+  "preferred_skills": [
+    "Safety standards exposure (ISO 10218, ISO 13849, ANSI/RIA R15.06)",
+    "Safety-rated sensors / safety validation of a detector",
+    "Warehouse or manufacturing human-robot coexistence experience",
+    "Simulation and replay tooling for perception testing at scale"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build perception systems (detection, tracking, monitoring from lidar/cameras) running on production robots",
+    "Own safety-critical code end to end: tests, failure modes, upstream-failure behavior",
+    "Design/review the systems that decide whether a robot may move",
+    "Test for weaknesses using replayed field data, constructed scenarios, hardware faults",
+    "Work across product teams on safety-relevant features",
+    "Contribute to safety/deployability strategy and customer-facing evidence"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Watertown, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

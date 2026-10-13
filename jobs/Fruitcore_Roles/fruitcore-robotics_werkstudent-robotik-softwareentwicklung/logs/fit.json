@@ -1,0 +1,100 @@
+{
+  "company": "fruitcore robotics",
+  "company_slug": "fruitcore-robotics",
+  "role": "Pflichtpraktikum / Werkstudent \u2013 Robotik & Softwareentwicklung",
+  "job_slug": "werkstudent-robotik-softwareentwicklung",
+  "match_pct": 54.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 12,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Programming (Python/C/C++)",
+    "Robotics domain (arm control, perception, ROS)",
+    "Software development & testing on real hardware",
+    "Motion planning / optimization",
+    "Relevant engineering study"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded / bare-metal systems",
+      "you_have": "Embedded firmware and real-time hardware integration"
+    },
+    {
+      "jd_skill": "Independent structured work with ownership",
+      "you_have": "Team leadership and end-to-end project ownership"
+    },
+    {
+      "jd_skill": "Software on real hardware testing",
+      "you_have": "Hardware deployment with reliability testing"
+    }
+  ],
+  "missing_skills": [
+    "Fluent German (not mentioned in profile)",
+    "Current university enrollment (Werkstudent / Pflichtpraktikum requires active student status; profile shows completed M.S. May 2026)",
+    "Industrial automation / PLC (SPS, Profinet, series production)",
+    "CAD/assembly for production (SolidWorks mentioned but only for club work/PCB design, not industrial robot assembly)"
+  ],
+  "top_ats_keywords": [
+    "Robotik",
+    "Softwareentwicklung",
+    "Bewegungsplanung",
+    "PLEXA",
+    "humanoid",
+    "Embedded",
+    "ROS",
+    "Python",
+    "C++",
+    "Hardware-Entwicklung",
+    "Praktikum",
+    "Werkstudent"
+  ],
+  "required_skills": [
+    "Programming (Python/C/C++)",
+    "Robotics domain (arm control, perception, ROS)",
+    "Software development & testing on real hardware",
+    "Motion planning / optimization of motion sequences"
+  ],
+  "preferred_skills": [
+    "Embedded / bare-metal systems",
+    "Independent structured work with ownership",
+    "Relevant engineering study (Informatik / Robotik / Elektrotechnik)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Develop software for humanoid robot PLEXA One",
+    "Plan and optimize motion sequences",
+    "Own a project end-to-end: conception, programming, testing on robot",
+    "Work with company's development and control software"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Konstanz, Germany",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true,
+    "german_required": false,
+    "degree_enrollment_required": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,111 @@
+{
+  "company": "Clera",
+  "company_slug": "clera",
+  "role": "Machine Learning Engineer (Mid-Level)",
+  "job_slug": "ml-engineer-mid",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "model evaluation",
+    "data pipelines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "model selection",
+      "you_have": "backbone comparison (VGG-16/19, ResNet-50) with accuracy-latency trade-offs"
+    },
+    {
+      "jd_skill": "model serving",
+      "you_have": "Flask-SocketIO edge server, TensorRT/ONNX/TFLite deployment"
+    },
+    {
+      "jd_skill": "monitoring",
+      "you_have": "pynvml profiling, Cortex-M4 monitoring firmware"
+    },
+    {
+      "jd_skill": "container technologies",
+      "you_have": "systemd service deployment (no Docker on master profile)"
+    }
+  ],
+  "missing_skills": [
+    "scikit-learn",
+    "feature engineering",
+    "A/B testing",
+    "MLOps",
+    "cloud ML platforms"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "feature engineering",
+    "model evaluation",
+    "MLOps",
+    "A/B testing",
+    "data pipelines",
+    "monitoring",
+    "model serving",
+    "containers",
+    "cloud ML platforms"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "model selection",
+    "model evaluation",
+    "feature engineering",
+    "data pipelines",
+    "model serving",
+    "monitoring",
+    "A/B testing",
+    "MLOps",
+    "cloud ML platforms",
+    "container technologies"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design, train, evaluate ML models for production",
+    "End-to-end ML pipelines: preprocessing to serving and monitoring",
+    "Debug and optimize model performance in production",
+    "ML infrastructure and tooling",
+    "Code reviews"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

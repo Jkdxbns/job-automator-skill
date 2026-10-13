@@ -1,0 +1,63 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Software Engineer - AI Agents & Automation, Maps Data Tooling",
+  "job_slug": "sw-engineer-ai-agents-maps",
+  "match_pct": 43,
+  "missing_skills": [
+    "Swift",
+    "RAG / retrieval-augmented generation",
+    "function calling patterns",
+    "multi-step reasoning (agentic)",
+    "GIS / geospatial",
+    "macOS development",
+    "OpenAPI / code generation",
+    "data validation at scale"
+  ],
+  "adjacent_skills": [
+    {
+      "jd": "agentic systems / autonomous workflows",
+      "have": "ML inference pipelines, ASR automation"
+    },
+    {
+      "jd": "LLM integration",
+      "have": "HuggingFace Transformers, GPT-2 fine-tuning, Whisper"
+    },
+    {
+      "jd": "prompt engineering",
+      "have": "GPT-2 / Whisper fine-tuning work"
+    },
+    {
+      "jd": "evaluation harnesses",
+      "have": "model benchmarking / WER evaluation"
+    },
+    {
+      "jd": "orchestration frameworks",
+      "have": "ML pipelines"
+    }
+  ],
+  "top_ats_keywords": [
+    "agentic systems",
+    "LLM integration",
+    "tool-use",
+    "orchestration",
+    "prompt engineering",
+    "RAG",
+    "Swift",
+    "REST API",
+    "geospatial",
+    "evaluation harness"
+  ],
+  "key_responsibilities": [
+    "Design and build agent frameworks for map data processing workflows",
+    "Develop tool-use patterns and orchestration layers",
+    "Integrate LLM with geospatial context for intelligent decision-making",
+    "Build feedback loops, evaluation harnesses, safety mechanisms",
+    "Extend platform APIs for agent-driven workflows"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

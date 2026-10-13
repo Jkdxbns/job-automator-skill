@@ -1,0 +1,71 @@
+{
+  "company": "AppLovin",
+  "company_slug": "applovin",
+  "role": "Software Engineer, Machine Learning",
+  "job_slug": "software-engineer-machine-learning",
+  "match_pct": 39.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "ML fundamentals (architectures, optimization, feature engineering, evaluation)",
+    "Software engineering / production systems (C++/Python)",
+    "PyTorch",
+    "GPU/accelerator optimization (CUDA kernel work, TensorRT)",
+    "Latency/throughput/memory efficiency optimization (edge inference, quantization)"
+  ],
+  "missing_skills": [
+    "Recommendation systems experience",
+    "Ranking systems experience",
+    "Retrieval systems experience",
+    "Advertising ML experience",
+    "User signal / feature engineering at large-scale systems",
+    "Multi-task learning",
+    "Measuring incremental value of signals",
+    "Scaling DL architectures for recommendation/ranking/ads",
+    "Online/offline experiment design and analysis (A/B testing)"
+  ],
+  "adjacent_skills": [
+    "Representation learning (general, not user-signal/recommendation scale) -> Transformer/embedding work",
+    "Large-scale dataset training -> trained on public CV/ASR datasets, not web-scale user data",
+    "Diagnosing data/model/serving quality issues -> done in project scope, not production serving",
+    "Embeddings / feature interaction -> tokenization, transformer embeddings work",
+    "Distributed model training / large-scale ML infra -> SLURM/MPI cluster experience"
+  ],
+  "top_ats_keywords": [
+    "recommendation systems",
+    "ranking",
+    "retrieval",
+    "representation learning",
+    "user signals",
+    "embeddings",
+    "PyTorch",
+    "distributed training",
+    "large-scale ML infrastructure",
+    "advertising"
+  ],
+  "key_responsibilities": [
+    "Develop and improve user signals/features/representations for large-scale ML models",
+    "Learn effectively from large-scale, sparse, noisy, heterogeneous user signals",
+    "Develop user representations feeding ranking, retrieval, prediction, optimization",
+    "Advance large-scale recommendation systems (candidate retrieval, ranking, prediction)",
+    "Explore new model architectures / multi-task learning at scale",
+    "Improve training/inference efficiency (compute, data loading, memory, distributed execution)",
+    "Design and analyze offline/online experiments for user signal and model value"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

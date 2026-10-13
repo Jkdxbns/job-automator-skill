@@ -1,0 +1,44 @@
+{
+  "company": "Rivian and Volkswagen Group Technologies",
+  "company_slug": "rivianvw",
+  "role": "Systems Architecture Software Engineer",
+  "job_slug": "systems-architecture-engineer",
+  "match_pct": 37.5,
+  "missing_skills": [
+    "safety-critical systems (ISO 26262 / functional safety)",
+    "automotive development processes",
+    "vehicle network topology (CAN / Ethernet / gateway architecture)",
+    "trade studies / down-select analysis",
+    "power distribution and coding"
+  ],
+  "adjacent_skills": [
+    "communication protocols (UART/I2C/SPI) -> vehicle network topology (CAN/Ethernet)",
+    "custom RTOS / embedded system design -> functional decomposition & system architecture",
+    "PCB/EAGLE electrical hardware design -> mechanical/electrical/software function allocation"
+  ],
+  "top_ats_keywords": [
+    "systems engineering",
+    "network topology",
+    "communication networks",
+    "safety-critical systems",
+    "automotive development",
+    "functional decomposition",
+    "trade studies",
+    "processor selection",
+    "power distribution",
+    "system architecture"
+  ],
+  "key_responsibilities": [
+    "Analyze network architecture, topology, and behavior of existing and future vehicles",
+    "Decompose program functional and performance requirements to sub-systems",
+    "Design system architecture and function allocation across mechanical/electrical/software",
+    "Run models to assess feasibility and fundamental limits of designs",
+    "Perform system analysis (strengths, drawbacks, limitations) and drive optimization"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

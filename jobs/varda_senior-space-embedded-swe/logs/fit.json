@@ -1,0 +1,144 @@
+{
+  "company": "Varda Space Industries",
+  "company_slug": "varda",
+  "role": "Senior Space Embedded Software Engineer",
+  "job_slug": "senior-space-embedded-swe",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 17,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "bare-metal",
+    "RTOS",
+    "Embedded Linux",
+    "real-time embedded",
+    "Python",
+    "computer architecture",
+    "operating systems",
+    "data structures",
+    "firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "safety-critical software",
+      "you_have": "COFFIN drone fail-safe firmware"
+    },
+    {
+      "jd_skill": "software V&V",
+      "you_have": "benchmarking and validation in coursework/projects"
+    },
+    {
+      "jd_skill": "computer networking",
+      "you_have": "static IP/network config, Wi-Fi/Ethernet links"
+    }
+  ],
+  "missing_skills": [
+    "spacecraft flight software",
+    "Rust",
+    "aerospace safety-critical",
+    "requirements capture"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "RTOS",
+    "bare metal",
+    "embedded Linux",
+    "real-time",
+    "safety-critical",
+    "V&V",
+    "Python",
+    "Rust",
+    "firmware",
+    "flight software",
+    "spacecraft"
+  ],
+  "required_skills": [
+    "C++",
+    "bare metal / RTOS / embedded Linux",
+    "real-time embedded systems",
+    "safety-critical software",
+    "spacecraft flight software",
+    "software V&V",
+    "requirements capture"
+  ],
+  "preferred_skills": [
+    "Python",
+    "Rust",
+    "computer architecture",
+    "operating systems",
+    "data structures",
+    "computer networking"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "flight firmware for spacecraft/bus/capsule",
+    "requirements and design trades",
+    "C++ bare metal/RTOS/Linux",
+    "V&V"
+  ],
+  "role_category": "embedded_systems",
+  "location": "El Segundo, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware: timer-triggered ADC, interrupt-driven I2C driver, 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz (STM32 Temperature Monitor)",
+      "FreeRTOS tasks with mutex-coordinated shared state, interrupt-driven UART, multi-servo PWM (Object Tracking Turret)",
+      "Interrupt-level state machine and fail-safe handling on Arduino Due (Robocon robot)",
+      "Python and Linux edge deployment on Jetson (systemd, TensorRT)"
+    ],
+    "real_gaps": [
+      "No spacecraft, avionics or flight software of any kind",
+      "No safety-critical process evidence (DO-178C, MISRA, fault detection/FDIR, redundancy)",
+      "Firmware is embedded C, not structured C++; C++ evidence is CUDA kernels",
+      "No requirements capture or design trades on a flight system",
+      "No Rust",
+      "Role is senior and owns the full lifecycle through flight operations; profile is capstone and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "Embedded Linux counted as Have, but evidence is Jetson app-level deployment, not firmware or kernel work",
+      "Safety-critical adjacency is thin: fail-safe stop logic on hobby/competition hardware is not safety-critical process",
+      "Networking and V&V adjacency rest on lab-scale setups, not formal test"
+    ],
+    "understated_by_keywords": [
+      "Timer/ISR determinism and resource budgeting (Flash/RAM) in the STM32 monitor speak directly to real-time embedded rigor",
+      "Hardware-in-loop style debugging: 11 integration failures resolved in COFFIN (brown-out, stale frames) shows fault diagnosis"
+    ],
+    "screening_gaps": [
+      "No spacecraft or flight-software experience, which is the whole domain",
+      "5+ years of safety-critical software against a new-grad profile",
+      "No production C++ firmware; embedded work is C and academic scope"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Skills overlap on bare-metal and RTOS fundamentals, but the role is senior flight software with a safety-critical bar and C++ ownership that the profile does not evidence. A recruiter screening on years and spacecraft background would reject it at the first pass.",
+    "calibration_delta": 13.0
+  },
+  "semantic_pending": false
+}

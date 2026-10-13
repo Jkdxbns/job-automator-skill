@@ -1,0 +1,194 @@
+{
+  "company": "ButterflyMX",
+  "company_slug": "butterflymx",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 12,
+    "missing_count": 8,
+    "jd_ask_size": 36,
+    "req_cov": 0.182,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "C++17",
+    "embedded C",
+    "bare-metal",
+    "STM32",
+    "Cortex-M4",
+    "FreeRTOS",
+    "interrupt",
+    "GPIO",
+    "ADC",
+    "I2C",
+    "SPI",
+    "UART",
+    "BLE",
+    "PCB",
+    "EAGLE"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "RTOS / Zephyr (preferred)",
+      "you_have": "FreeRTOS / RTOS (not Zephyr)"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux / Jetson Linux exposure; limited embedded Linux kernel/driver depth"
+    },
+    {
+      "jd_skill": "microcontroller architecture (timers, DMA, bootloaders, watchdogs, drivers, low-power)",
+      "you_have": "Interrupts/GPIO/ADC/basic timers; limited DMA/bootloader/watchdog/low-power driver depth"
+    },
+    {
+      "jd_skill": "electronics (signal integrity, noise, grounding, analog/digital)",
+      "you_have": "Basic digital electronics / PCB (EAGLE); no deep signal-integrity/noise/analog depth"
+    },
+    {
+      "jd_skill": "CAN / RS-485 / USB / Ethernet / cellular / Wi-Fi",
+      "you_have": "Limited CAN/RS-485; some USB (Jetson); BLE present; no cellular/Ethernet/Wi-Fi focus"
+    },
+    {
+      "jd_skill": "secure boot / firmware signing / cert signing / device identity / key provisioning / encrypted / secure OTA",
+      "you_have": "Basic secrets/config separation; no production secure-boot/OTA/key-provisioning experience"
+    },
+    {
+      "jd_skill": "IoT / commercial / access control / building systems",
+      "you_have": "IoT-like telemetry / smart-fan; not commercial access-control/building-system products"
+    },
+    {
+      "jd_skill": "CI/CD / static analysis / automated testing / release management",
+      "you_have": "Git / some CI (GitLab); limited automated embedded test / release management"
+    },
+    {
+      "jd_skill": "manufacturing diagnostics / built-in self-test",
+      "you_have": "Basic HIL concepts; no production manufacturing-test firmware"
+    },
+    {
+      "jd_skill": "MQTT / REST / WebSockets / TLS / device-to-cloud APIs",
+      "you_have": "WebSocket exposure; no MQTT / TLS / REST device-cloud production experience"
+    },
+    {
+      "jd_skill": "documentation (ICD, state diagrams, test plans, debug guides)",
+      "you_have": "Basic design notes; no formal ICD/state-diagram/debug-guide production docs"
+    },
+    {
+      "jd_skill": "AI-forward mindset",
+      "you_have": "Uses AI tools; validates independently"
+    }
+  ],
+  "missing_skills": [
+    "production embedded firmware at 5+ year scale (profile: new-grad / internship scope)",
+    "Zephyr RTOS (strong preference; profile has FreeRTOS only)",
+    "deep embedded Linux (kernel drivers, board support)",
+    "secure OTA / rollback / version / recovery at production scale",
+    "certificate signing / key provisioning pipeline",
+    "manufacturing diagnostics / burn-in / release-readiness workflows",
+    "commercial access-control / building-system deployed products",
+    "deep analog / signal-integrity / EMI-EMC / thermal behavior collaboration"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded firmware",
+    "bare-metal",
+    "RTOS",
+    "Zephyr",
+    "embedded Linux",
+    "microcontroller",
+    "interrupt",
+    "timer",
+    "DMA",
+    "bootloader",
+    "watchdog",
+    "ADC",
+    "signal integrity",
+    "noise",
+    "grounding",
+    "I2C",
+    "SPI",
+    "UART",
+    "CAN",
+    "RS-485",
+    "USB",
+    "BLE",
+    "Wi-Fi",
+    "Ethernet",
+    "cellular",
+    "secure boot",
+    "firmware signing",
+    "secure OTA",
+    "IoT",
+    "MQTT",
+    "REST",
+    "WebSockets",
+    "TLS",
+    "CI/CD",
+    "static analysis",
+    "ICD",
+    "state diagram",
+    "test plan",
+    "debug guide",
+    "manufacturing test",
+    "built-in self-test"
+  ],
+  "required_skills": [
+    "C/C++ embedded production code",
+    "bare-metal microcontroller firmware",
+    "RTOS (Zephyr preferred)",
+    "embedded Linux",
+    "microcontroller architecture (interrupts, timers, DMA, bootloaders, watchdogs, peripheral drivers, low-power)",
+    "electronics (analog/digital, ADC, signal integrity, noise, grounding)",
+    "embedded communication protocols (I2C, SPI, UART, CAN, RS-485, USB, BLE, Wi-Fi, Ethernet, cellular)",
+    "secure boot / firmware signing / certificate signing / device identity / key provisioning / encrypted communications / secure OTA",
+    "IoT / commercial / access control / building systems",
+    "Git / CI/CD / static analysis / automated testing / release management",
+    "documentation (ICD, state diagrams, test plans, debug guides)"
+  ],
+  "preferred_skills": [
+    "MQTT / REST / WebSockets / TLS / device-to-cloud APIs",
+    "manufacturing diagnostics / built-in self-test",
+    "AI-forward mindset",
+    "8+ years experience"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design/debug/maintain firmware (bare-metal/RTOS/embedded Linux)",
+    "Board bring-up through EVT/DVT/PVT",
+    "Secure boot/OTA/update/recovery",
+    "Embedded protocols/communication",
+    "Read schematics/PCB layouts",
+    "Collaborate with electrical/mechanical engineers",
+    "Resilient firmware to power/noise/temp/faults",
+    "Quality/testability/manufacturing diagnostics",
+    "Use AI responsibly"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Irvine, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false,
+    "experience_mismatch": true,
+    "production_scope_required": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,42 @@
+{
+  "company": "Crusoe",
+  "company_slug": "crusoe",
+  "role": "Applied AI Inference Engineer",
+  "job_slug": "applied-ai-inference-engineer",
+  "match_pct": 85.7,
+  "missing_skills": ["vLLM", "SGLang", "Docker", "Kubernetes", "production LLM serving experience", "customer-facing deployment experience"],
+  "adjacent_skills": ["LLM inference optimization (have quantization/TensorRT, not serving-framework-specific)", "hands-on LLM experience (project-scale GPT-2/TinyLlama, not production LLMs)", "track record of making software faster for LLMs specifically (have it for other model types)"],
+  "top_ats_keywords": ["vLLM", "SGLang", "CUDA", "GPU", "kernel-level profiling", "inference optimization", "latency", "throughput", "Python", "C++", "prefill/decode disaggregation", "request routing", "Docker", "Kubernetes"],
+  "key_responsibilities": [
+    "Bring current LLM inference techniques into production and refine them",
+    "Design and optimize serving architectures (prefill/decode disaggregation, request routing)",
+    "Work down into the serving stack from vLLM/SGLang to CUDA kernels, profiling to find and fix perf problems",
+    "Profile and tune deployments against latency/throughput/cost targets under real traffic",
+    "Partner directly with customer engineering teams to tailor and productionize deployments",
+    "Build and support software/product features around the inference stack, primarily in Python"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Genuine kernel-level GPU optimization depth: replaced TorchScript conv layers with custom CUDA C++ kernels (memory coalescing, constant memory, preallocated buffers) for ~35% speedup over naive GPU on VGG16 — this is the exact 'profile down to the kernel level' skill the JD asks for, just not applied to an LLM",
+      "Real inference-latency optimization track record: TensorRT-optimized YOLO in the COFFIN capstone hit a 5.2x speedup (56.7ms to 10.9ms), directly evidencing the 'make things run faster in production' instinct",
+      "Actual LLM-specific optimization work, not just adjacent: 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B cut GPU memory ~55% with <1% accuracy loss, profiled via pynvml — this is genuine hands-on LLM inference work, stronger than the keyword pass's 'Adjacent' label suggests",
+      "Full ML pipeline literacy: training through TensorRT/ONNX export to edge deployment (Jetson) shows real dev-to-deploy pipeline ownership, even if the deployment target differs from cloud LLM serving"
+    ],
+    "real_gaps": [
+      "Zero exposure to the serving-framework layer that is the daily job: no vLLM, SGLang, Triton, or any request-serving system — all inference work is single-shot benchmarking, not concurrent request handling, batching, or prefill/decode disaggregation",
+      "No production-traffic experience anywhere in the profile: every project is a benchmark, training run, or capstone demo — none involve keeping a live service dependable under real, unpredictable user traffic, which is a named core responsibility",
+      "No customer-facing engineering track record: internships are research-lab or classroom-context; the role explicitly requires partnering with customer engineering teams to productionize deployments, and there's no bullet anywhere that demonstrates this",
+      "No Docker/Kubernetes anywhere in the profile — not even adjacent tooling, despite these being named bonus infrastructure",
+      "Scale mismatch: the two strongest 'performance' projects split across different axes — kernel-level depth is on a CNN (VGG16), not an LLM; the LLM-specific work (TinyLlama quantization) is memory/accuracy focused, not kernel-level or serving-latency focused. No single project shows kernel-level optimization applied directly to an LLM at meaningful scale, which is precisely the overlap this role lives in"
+    ],
+    "overstated_by_keywords": [
+      "'ML pipeline dev-to-deploy' was marked Have in the keyword pass, but the JD's framing is production cloud LLM serving pipelines with monitoring, not TensorRT/ONNX export to an edge robot — the pipeline shape doesn't transfer directly",
+      "'hands-on LLM experience' was marked only Adjacent in the keyword pass, which undersold it slightly — the TinyLlama quantization project is genuine LLM-specific work, just at small scale and without a serving component"
+    ],
+    "reasoning": "The CUDA/GPU optimization instincts are real and would likely translate well, but they've never been pointed at the specific problem this role solves: keeping large models fast and reliable under live, concurrent, customer traffic through a serving framework. Everything in the profile is benchmark or capstone scale with no production-traffic or customer-facing history, which is a bigger gap than the 85.7% keyword score implies — this reads as a strong technical prospect who would need to prove serving-stack and production-reliability chops in the interview, not someone who already checks those boxes on paper."
+  }
+}

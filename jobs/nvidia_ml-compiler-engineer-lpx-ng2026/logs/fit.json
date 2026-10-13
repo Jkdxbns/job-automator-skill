@@ -1,0 +1,85 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Machine Learning Applications and Compiler Engineer, LPX - New College Grad 2026",
+  "job_slug": "ml-compiler-engineer-lpx-ng2026",
+  "match_pct": 68.8,
+  "have_skills": [
+    "c/c++",
+    "tensorflow",
+    "pytorch",
+    "parallel compute",
+    "gpu",
+    "profiling",
+    "benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "runtime development",
+      "you_have": "cuda kernel dev + tensorrt"
+    },
+    {
+      "jd_skill": "optimization passes",
+      "you_have": "cuda kernel optimization"
+    },
+    {
+      "jd_skill": "onnx",
+      "you_have": "torchscript + tensorrt"
+    },
+    {
+      "jd_skill": "heterogeneous compute",
+      "you_have": "gpu + jetson edge"
+    }
+  ],
+  "missing_skills": [
+    "compiler development",
+    "ir design",
+    "code generation",
+    "llvm",
+    "mlir"
+  ],
+  "preferred_you_have": [
+    "pytorch",
+    "tensorflow",
+    "gpu/cuda optimization",
+    "benchmarking"
+  ],
+  "top_ats_keywords": [
+    "MLIR",
+    "LLVM",
+    "compiler",
+    "inference optimization",
+    "C/C++",
+    "PyTorch",
+    "TensorFlow",
+    "ONNX",
+    "GPU",
+    "deep learning",
+    "runtime",
+    "profiling",
+    "benchmarking",
+    "graph transformations"
+  ],
+  "key_responsibilities": [
+    "High-performance runtime and compiler components for end-to-end inference optimization",
+    "Mappings of large-scale inference workloads onto NVIDIA systems",
+    "Benchmark and profile neural network graph compiler efficiency",
+    "Codesign with hardware architects for new architectures",
+    "Prototype graph transformations, scheduling strategies, memory/layout optimizations",
+    "Publish research on novel compilation approaches"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "NVIDIA is a known H1B sponsor - OK",
+    "experience": "New grad 2026 - matches exactly",
+    "location": "Santa Clara, CA - willing to relocate",
+    "clearance": "None required - CLEAR",
+    "notice": "4 weeks, EAD pending"
+  },
+  "hard_blocker_triggered": false,
+  "date_analyzed": "2026-05-27"
+}

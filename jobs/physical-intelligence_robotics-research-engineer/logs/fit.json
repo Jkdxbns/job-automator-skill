@@ -1,0 +1,56 @@
+{
+  "company": "Physical Intelligence",
+  "company_slug": "physical-intelligence",
+  "role": "Robotics Research Engineer",
+  "job_slug": "robotics-research-engineer",
+  "match_pct": 71,
+  "have_skills": [
+    "Perception / Robot Runtime (ROS/ROS2, OpenCV, YOLO)",
+    "Data Pipelines / Training Infra (PyTorch, SLURM, CUDA)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Robot Policy Training",
+      "you_have": "PyTorch + deep learning (no RL/IL policies)"
+    },
+    {
+      "jd_skill": "Real Robot Deployment",
+      "you_have": "TensorRT + Jetson edge inference"
+    },
+    {
+      "jd_skill": "State Estimation / SLAM",
+      "you_have": "ROS2"
+    },
+    {
+      "jd_skill": "VLA Models",
+      "you_have": "Transformer + PyTorch (no VLA specifically)"
+    },
+    {
+      "jd_skill": "Hardware Bring-up",
+      "you_have": "STM32 + RPi + PCB + FreeRTOS"
+    }
+  ],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "robot learning",
+    "vision-language-action",
+    "robot policies",
+    "data pipelines",
+    "perception",
+    "ROS",
+    "PyTorch",
+    "manipulation"
+  ],
+  "key_responsibilities": [
+    "Build autonomous robot policies for real-world deployment",
+    "Full stack robot learning: hardware to training to deployment",
+    "Design data collection pipelines for VLA training",
+    "Develop and refine VLA models and learning algorithms",
+    "Run rigorous experiments, debug failures, improve policy performance"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

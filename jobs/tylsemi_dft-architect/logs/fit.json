@@ -1,0 +1,133 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "DFT Architect",
+  "job_slug": "dft-architect",
+  "match_pct": 13.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 1,
+    "missing_count": 23,
+    "jd_ask_size": 27,
+    "req_cov": 0.452,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Bash/Shell scripting",
+    "Master's degree (M.S. Computer Engineering)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Leadership and mentoring",
+      "you_have": "Project leadership from embedded systems and robotics internships; mentorship experience in academic settings"
+    }
+  ],
+  "missing_skills": [
+    "10+ years ASIC/SOC DFT experience",
+    "Scan insertion technology",
+    "ATPG (Automatic Test Pattern Generation)",
+    "MBIST (Memory Built-In Self-Test)",
+    "JTAG",
+    "Test compression methodologies",
+    "Low-power DFT design",
+    "Siemens Tessent (EDA tool)",
+    "Synopsys DFT Compiler",
+    "Synopsys TestMAX",
+    "RTL design",
+    "Timing constraints (IC design)",
+    "Physical design constraints",
+    "Silicon debug (post-silicon validation)",
+    "Advanced technology nodes (5nm, 3nm, etc.)",
+    "Large SOC integration",
+    "Tcl scripting",
+    "Perl scripting",
+    "ISO 26262 automotive safety certification",
+    "Chiplet-based architecture design",
+    "3D IC testing methodologies",
+    "Diagnosis-driven yield improvement",
+    "Silicon analytics"
+  ],
+  "top_ats_keywords": [
+    "DFT Architect",
+    "ASIC/SOC design",
+    "scan compression",
+    "MBIST",
+    "ATPG",
+    "JTAG",
+    "silicon bring-up",
+    "yield analysis",
+    "Tcl automation",
+    "Python",
+    "advanced technology nodes",
+    "ISO 26262",
+    "chiplet architecture"
+  ],
+  "required_skills": [
+    "10+ years ASIC/SOC DFT implementation and architecture",
+    "Scan insertion and compression technologies",
+    "ATPG (Automatic Test Pattern Generation)",
+    "MBIST (Memory Built-In Self-Test)",
+    "JTAG (Joint Test Action Group)",
+    "Low-power DFT methodologies",
+    "Siemens Tessent",
+    "Synopsys DFT Compiler",
+    "Synopsys TestMAX",
+    "RTL design understanding",
+    "Timing constraints understanding",
+    "Physical design constraints understanding",
+    "Silicon debug",
+    "Advanced technology nodes",
+    "Large SOC integration",
+    "Tcl scripting",
+    "Python scripting",
+    "Perl scripting",
+    "Shell scripting",
+    "Cross-functional collaboration",
+    "Leadership and mentoring"
+  ],
+  "preferred_skills": [
+    "ISO 26262 automotive safety standards",
+    "Chiplet-based architectures",
+    "3D IC testing methodologies",
+    "Diagnosis-driven yield improvement",
+    "Silicon analytics"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define and own SOC-level DFT architecture and test strategy",
+    "Lead scan insertion, ATPG, MBIST, boundary scan, SSN implementation",
+    "Drive test compression methodologies",
+    "Drive DFT planning and integration aligned with power, timing, area, and test coverage",
+    "Collaborate with RTL, Physical Design, Verification, and Product Engineering teams",
+    "Analyze and resolve DFT-related timing, routing, and testability challenges",
+    "Support silicon bring-up, debug, diagnosis, yield analysis, and production test optimization",
+    "Develop and enhance DFT automation flows, methodologies, and reusable infrastructure",
+    "Mentor junior engineers and provide technical leadership"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

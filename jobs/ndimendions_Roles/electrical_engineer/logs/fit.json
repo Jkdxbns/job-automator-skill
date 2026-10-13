@@ -1,0 +1,128 @@
+{
+  "company": "NDimensions Labs",
+  "company_slug": "ndimensions-labs",
+  "role": "Electrical Engineer, Robotics",
+  "job_slug": "electrical-engineer",
+  "match_pct": 42.3,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 13,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "PCB CAD tools (Altium / KiCad / Eagle)",
+    "Embedded system interfaces (SPI, I2C, UART)",
+    "Bachelor's or Master's degree in Electrical Engineering or a related field"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-layer PCB design for mixed-signal, power, and high-speed digital applications",
+      "you_have": "Single-layer PCB design in EAGLE for embedded/robotics (not multi-layer, mixed-signal, or high-speed digital)"
+    },
+    {
+      "jd_skill": "Board bring-up, testing, and validation using oscilloscopes, logic analyzers, and lab equipment",
+      "you_have": "Embedded validation (Proteus simulation, STM32 bring-up) with listed lab equipment (Oscilloscopes, Logic Analyzers); no explicit custom PCB bring-up described"
+    },
+    {
+      "jd_skill": "Power electronics, analog/digital circuit design",
+      "you_have": "PWM motor control, ADC/DAC interfaces, closed-loop feedback, bare-metal embedded circuit integration"
+    },
+    {
+      "jd_skill": "Robotics-specific electronics (motor controllers, IMUs, force/torque sensors, LIDAR interfaces)",
+      "you_have": "Motor drivers (Cytron), accelerometers (ADXL345), ToF sensors (VL53L0X); no explicit IMU / force-torque / LIDAR interfaces"
+    },
+    {
+      "jd_skill": "FPGA design or embedded firmware development",
+      "you_have": "Embedded firmware development (STM32 bare-metal C, FreeRTOS, Arduino); no FPGA design"
+    }
+  ],
+  "missing_skills": [
+    "CAN bus interface design / experience",
+    "Production pipeline / manufacturing oversight (contract manufacturer coordination, BOM manufacturing oversight for electronics, quality control)",
+    "EMC/EMI compliance testing and design for certification",
+    "FPGA design experience",
+    "Prior startup or fast-paced hardware prototyping environment experience"
+  ],
+  "top_ats_keywords": [
+    "custom PCB design",
+    "multi-layer PCB",
+    "mixed-signal",
+    "Altium",
+    "KiCad",
+    "Eagle",
+    "schematic capture",
+    "layout",
+    "DFM",
+    "board bring-up",
+    "signal integrity",
+    "BOM",
+    "manufacturing oversight",
+    "power electronics",
+    "analog/digital circuit design",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "robotics electronics",
+    "motor controllers",
+    "IMU",
+    "force/torque sensors",
+    "LIDAR",
+    "EMC/EMI",
+    "FPGA",
+    "embedded firmware"
+  ],
+  "required_skills": [
+    "4-5 years professional electrical engineering experience (custom PCB design and development)",
+    "Multi-layer PCB design for mixed-signal, power, and high-speed digital applications",
+    "PCB CAD tools (Altium, KiCad, Eagle)",
+    "Board bring-up, testing, and validation with lab equipment (oscilloscopes, logic analyzers)",
+    "Production pipeline management (vendor coordination, BOM management, manufacturing oversight, quality control)",
+    "Power electronics, analog/digital circuit design, and embedded system interfaces (SPI, I2C, UART, CAN)",
+    "Bachelor's or Master's degree in Electrical Engineering or a related field"
+  ],
+  "preferred_skills": [
+    "Robotics-specific electronics (motor controllers, IMUs, force/torque sensors, LIDAR interfaces)",
+    "EMC/EMI compliance testing and design for certification",
+    "FPGA design or embedded firmware development",
+    "Prior startup / fast-paced hardware prototyping environment"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design and develop custom PCBs for robotics applications (power systems, sensor interfaces, motor drivers, communication buses)",
+    "Own full board design lifecycle: schematic capture, layout, prototyping, bring-up, validation",
+    "Use CAD tools (Altium, KiCad, Eagle) for production-quality designs with DFM considerations",
+    "Develop and execute test plans for electrical subsystems (functional testing, signal integrity, environmental qualification)",
+    "Manage transition from prototype to production (vendor coordination, BOM management, manufacturing oversight)",
+    "Collaborate with mechanical and firmware engineers for electronics integration into robotic assemblies",
+    "Troubleshoot and debug electrical issues from component-level failures to system-level integration problems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

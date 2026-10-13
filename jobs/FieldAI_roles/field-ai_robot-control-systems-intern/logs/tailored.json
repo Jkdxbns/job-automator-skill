@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "company": "Field AI",
+    "role": "Robot Control Systems Intern (Fall 2026)",
+    "company_slug": "field-ai",
+    "job_slug": "robot-control-systems-intern"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built GPU-accelerated, computationally-constrained control systems: replaced TorchScript CNN layers with custom CUDA C++ kernels for a 1.5-2x inference speedup via memory coalescing, and derived full system dynamics (DH-parameter kinematics) for real-time trajectory control on a 6-DoF UR5e over ROS2. Deployed real-time embedded safety and control layers (interrupt-driven UART, FreeRTOS task coordination, user override) on Jetson, Arduino, and STM32 platforms, and validated an autonomous driving control stack in CARLA with zero collisions under dense dynamic traffic.",
+  "skills": {
+    "Control & Systems": [
+      "System Dynamics Modeling",
+      "Real-Time Control",
+      "Safety / Override Layers",
+      "Forward Kinematics",
+      "DH Parameters"
+    ],
+    "GPU & Performance": [
+      "CUDA C++",
+      "Kernel Optimization",
+      "Memory Coalescing",
+      "TensorRT"
+    ],
+    "Robotics & Autonomy": [
+      "ROS/ROS2",
+      "CARLA Simulation",
+      "YOLO",
+      "FreeRTOS"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) \u2014 1.5-2x speedup over naive GPU with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) into a real-time adaptive control stack with lane-following and waypoint fallback.",
+        "Validated in Town02 with dense traffic and pedestrians; achieved zero collisions and correct signal compliance across multiple regression laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM actuation control with interrupt-driven UART command handling and a manual safety override on an STM32 target.",
+        "Used FreeRTOS with mutexes for real-time shared-memory task coordination; integrated VL53L0X ToF sensing and OLED telemetry display."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

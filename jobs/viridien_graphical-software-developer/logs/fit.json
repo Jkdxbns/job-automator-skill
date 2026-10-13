@@ -1,0 +1,154 @@
+{
+  "company": "Viridien",
+  "company_slug": "viridien",
+  "role": "Graphical Software Developer",
+  "job_slug": "graphical-software-developer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 2,
+    "jd_ask_size": 16,
+    "req_cov": 0.062,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Master's Degree (M.S. Computer Engineering)",
+    "C/C++",
+    "Qt/PySide6 desktop GUI development",
+    "Object-oriented / modular software design",
+    "CMake",
+    "3D math, coordinate transforms, SE(3) / linear algebra",
+    "Python/C++ integration (Cython)",
+    "OS internals & performance profiling (Linux)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Large native C++ codebases",
+      "you_have": "C++ across CUDA, embedded/STM32, and MPI projects (smaller scope than production-scale desktop app)"
+    },
+    {
+      "jd_skill": "Debugging native app crashes/memory/performance",
+      "you_have": "Embedded hardware-level debugging (oscilloscope, logic analyzer, STM32) rather than desktop-app crash/memory debugging"
+    },
+    {
+      "jd_skill": "OpenGL/GLSL",
+      "you_have": "VisPy (OpenGL-backed 3D rendering) without direct GLSL shader authorship"
+    },
+    {
+      "jd_skill": "std::thread/Qt threading/OpenMP",
+      "you_have": "MPI and CUDA parallel programming"
+    },
+    {
+      "jd_skill": "Geoscience/seismic/CAD/simulation domain exposure",
+      "you_have": "Medical imaging (BraTS/MRI segmentation) + CARLA autonomous-driving simulation + SolidWorks CAD"
+    },
+    {
+      "jd_skill": "Networking/IPC",
+      "you_have": "WebSocket/Flask-SocketIO, static IP/network configuration"
+    }
+  ],
+  "missing_skills": [
+    "Cross-platform / large-scale / legacy software project experience",
+    "Java"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Qt",
+    "CMake",
+    "OpenGL",
+    "3D math",
+    "multi-threading",
+    "Python",
+    "Java",
+    "IPC",
+    "debugging",
+    "profiling"
+  ],
+  "required_skills": [
+    "Master's degree in CS or related field",
+    "Modern C++",
+    "Large native C++ codebases",
+    "Qt or comparable desktop GUI frameworks",
+    "Object-oriented design / API design / maintainable C++ interfaces",
+    "Debugging native applications (crashes, memory issues, performance bottlenecks)",
+    "CMake / build systems",
+    "Software development lifecycle (build, test, package, release)"
+  ],
+  "preferred_skills": [
+    "OpenGL/GLSL or real-time visualization/rendering",
+    "3D math, linear algebra, coordinate transforms, numerical methods",
+    "Multi-threaded/parallel programming (std::thread, Qt threading, OpenMP)",
+    "Cross-platform, large-scale, or legacy software projects",
+    "Scientific/geoscience/seismic/imaging/CAD/simulation domain exposure",
+    "Python/C++ integration or scripting APIs",
+    "Java",
+    "OS concepts, file I/O, performance profiling",
+    "Networking/IPC"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design and develop software tools and core application components for subsurface imaging platforms",
+    "Contribute to backend systems, data handling, user-facing features, and 3D visualization technologies",
+    "Support build, testing, and release processes for production software",
+    "Debug, optimize, and improve application performance and scalability",
+    "Deploy and support applications in large-scale, global computing environments"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Houston, TX (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Frame Simulator (PySide6/Qt desktop GUI + OpenGL-backed VisPy 3D viewport + custom SE(3) math engine) is a close structural analog to the role \u2014 a desktop app visualizing 3D coordinate frames/transforms, same category as visualizing subsurface data",
+      "Genuine 3D math depth: DH parameters and forward kinematics (ROS arm project) reinforced by Frame Simulator math_se3.py, matching the nice-to-have 3D math/coordinate-transforms line directly",
+      "C/C++ used across multiple real contexts (CUDA kernels, STM32 bare-metal, MPI) shows systems-level comfort even without large-codebase scale",
+      "Prior PyQt desktop GUI experience at BARC (real-time data acquisition + visualization) shows this is not the first Qt-family GUI built",
+      "Track record of data-heavy scientific visualization work (BraTS MRI segmentation pipeline, ZoeDepth monocular depth/3D surface reconstruction) \u2014 same visualization-of-complex-scientific-data pattern as the role, even though geoscience specifically is new"
+    ],
+    "real_gaps": [
+      "No production-scale native C++ codebase experience \u2014 every C++ project is research/academic/personal scope, not a company-owned production application",
+      "No demonstrated desktop-app crash/memory/performance debugging (gdb/valgrind/profiler on a large app) \u2014 embedded hardware debugging (oscilloscope, logic analyzer) is a different skill",
+      "No raw OpenGL/GLSL shader authorship \u2014 VisPy abstracts the GL layer away",
+      "No release engineering / packaging experience (installers, versioned releases, CI packaging pipelines)",
+      "No geoscience/seismic domain exposure specifically",
+      "No Java"
+    ],
+    "overstated_by_keywords": [
+      "CMake counted as HAVE, but usage context is small embedded/CUDA builds, not a large cross-platform desktop-app build system with packaging/release stages"
+    ],
+    "understated_by_keywords": [
+      "3D math/coordinate-transform depth is stronger than one line implies \u2014 two independent projects (ROS arm kinematics, Frame Simulator SE(3) engine) both exercise it",
+      "Scientific/data-heavy visualization pattern (medical imaging, depth reconstruction) is a real domain analog the keyword pass only credited as a generic \"adjacent\" hit"
+    ],
+    "screening_gaps": [
+      "No production-scale C++ codebase experience \u2014 every project is research/academic/personal, and the role is explicitly about owning core components of a company production platform",
+      "No demonstrated desktop-app debugging (crashes/memory/perf) on real software \u2014 only embedded hardware debugging",
+      "No raw OpenGL/GLSL authorship \u2014 only used a higher-level rendering wrapper (VisPy)"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The Frame Simulator project and robotics coursework genuinely cover the GUI framework, 3D math, and visualization core of this role, which is unusually well-targeted for an entry-level posting. The real risk is production-scale software engineering maturity: no experience owning a large native codebase, doing app-level crash/memory debugging, or shipping through a release pipeline \u2014 all learnable on the job but worth acknowledging if it comes up.",
+    "calibration_delta": 2.0
+  }
+}

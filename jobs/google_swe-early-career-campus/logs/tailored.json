@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "company": "Google",
+    "role": "Software Engineer, Early Career, Campus",
+    "company_slug": "google",
+    "job_slug": "swe-early-career-campus"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on software engineering experience across Python and C/C++ spanning machine learning, distributed and parallel systems, and Unix/Linux environments. Built distributed systems from scratch, including MPI based cluster computations on a SLURM managed cluster achieving up to 30x speedup, and shipped multiple machine learning pipelines from data collection through deployment. Uses AI assisted development tools daily to move faster across research, engineering, and debugging workflows.",
+  "skills": {
+    "Languages": [
+      "Python",
+      "Cython"
+    ],
+    "Distributed & Parallel Systems": [
+      "MPI",
+      "SLURM"
+    ],
+    "Machine Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Model evaluation",
+      "ONNX",
+      "TFLite"
+    ],
+    "Systems & Tools": [
+      "Linux",
+      "Flask",
+      "WebSocket"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86.",
+        "Developed a custom image-stitching pipeline for high-resolution generation using bit manipulation and averaging, achieving a PSNR of 65 compared to homography-based stitching baseline."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning.",
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) across a three-layer distributed pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Achieved up to 10.49x speedup with 12 slave processes on a SLURM-managed cluster; characterized scaling behavior across dendrite counts and compartment depths.",
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Designed a custom BPE tokenizer with a Cython-accelerated backend achieving 4-5.5x speedup over pure Python, processing 6M characters in 15 minutes.",
+        "Built an end-to-end ASR pipeline: 80-channel mel spectrogram encoder, 4-block causal Transformer decoder with cross-attention, achieving 15% WER on a Hindi-English dataset."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

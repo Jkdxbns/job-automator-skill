@@ -1,0 +1,108 @@
+{
+  "company": "Abaka AI",
+  "company_slug": "abaka-ai",
+  "role": "Member of Technical Staff, Infra",
+  "job_slug": "mts-infra",
+  "match_pct": 29.2,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 12,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "API design",
+      "you_have": "Flask / WebSocket APIs"
+    },
+    {
+      "jd_skill": "LLM/agent features",
+      "you_have": "SLM / GPT-2 / Hugging Face work"
+    },
+    {
+      "jd_skill": "Backend engineering",
+      "you_have": "Flask backends"
+    }
+  ],
+  "missing_skills": [
+    "Distributed systems",
+    "Databases",
+    "Data modeling",
+    "React/TypeScript",
+    "Cloud infrastructure",
+    "Observability",
+    "AI dev tools (Cursor, Claude Code, Copilot)"
+  ],
+  "top_ats_keywords": [
+    "backend",
+    "API design",
+    "data modeling",
+    "distributed systems",
+    "databases",
+    "React",
+    "TypeScript",
+    "LLM",
+    "agents",
+    "Cursor",
+    "Claude Code",
+    "GitHub Copilot",
+    "cloud infrastructure",
+    "observability",
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "required_skills": [
+    "Backend engineering",
+    "API design",
+    "Data modeling",
+    "Distributed systems",
+    "Databases",
+    "React/TypeScript",
+    "LLM/agent features",
+    "AI dev tools (Cursor, Claude Code, Copilot)",
+    "Cloud infrastructure",
+    "Observability"
+  ],
+  "preferred_skills": [
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own backend architecture across org",
+    "Define long-term backend strategy",
+    "Build APIs and services at scale",
+    "Backend standards",
+    "Production debugging"
+  ],
+  "role_category": "ml_systems",
+  "location": "Mountain View, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

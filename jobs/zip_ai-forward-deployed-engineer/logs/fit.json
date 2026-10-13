@@ -1,0 +1,103 @@
+{
+  "company": "Zip",
+  "company_slug": "zip",
+  "role": "AI Forward Deployed Engineer",
+  "job_slug": "ai-forward-deployed-engineer",
+  "match_pct": 19.2,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 13,
+    "req_cov": 0.357,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Team leadership"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "API integrations",
+      "you_have": "HuggingFace API, multi-subsystem integration (ARC, Robocon)"
+    },
+    {
+      "jd_skill": "Workflow failure diagnosis",
+      "you_have": "Resolved 11 integration failures (arm project)"
+    },
+    {
+      "jd_skill": "Architecture documentation",
+      "you_have": "Technical documentation (BARC, GitLab/JupyterHub)"
+    }
+  ],
+  "missing_skills": [
+    "Enterprise procurement",
+    "Finance operations",
+    "AppStudio",
+    "N8N",
+    "Zapier",
+    "Make",
+    "Customer account ownership",
+    "CPP/CPSM/CPA",
+    "Procurement domain knowledge"
+  ],
+  "top_ats_keywords": [
+    "AI agents",
+    "AppStudio",
+    "Claude",
+    "N8N",
+    "Zapier",
+    "procurement",
+    "finance operations",
+    "API",
+    "integrations",
+    "architecture documentation",
+    "team leadership"
+  ],
+  "required_skills": [
+    "Enterprise procurement operations",
+    "Finance operations",
+    "AI agents / automated workflows (AppStudio, Claude, N8N, Make, Zapier)",
+    "Customer engagement ownership",
+    "API integrations",
+    "Workflow failure diagnosis",
+    "Procurement/finance domain knowledge"
+  ],
+  "preferred_skills": [
+    "CPP/CPSM/CPA credential",
+    "Team leadership"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Embed with enterprise customers",
+    "Build AI agent solutions on AppStudio",
+    "Own small book of accounts",
+    "Expand contract scope",
+    "Architecture documentation",
+    "Feed learnings to product",
+    "On-site customer sessions"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

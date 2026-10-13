@@ -1,0 +1,137 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Online Calibration & SLAM Engineer",
+  "job_slug": "online-calibration-slam-engineer",
+  "match_pct": 45.2,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 21,
+    "req_cov": 0.417,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ programming",
+    "Python programming",
+    "OpenCV",
+    "PyTorch",
+    "ROS / ROS2 robotics and perception",
+    "Computer vision / image processing",
+    "Edge AI / embedded vision deployment",
+    "Embedded / bare-metal sensor systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SLAM / VIO / SfM depth",
+      "you_have": "ROS2 robotics and perception pipelines"
+    },
+    {
+      "jd_skill": "Continuous and multi-sensor calibration",
+      "you_have": "Calibrated sensor experience with accelerometer and ToF sensors"
+    },
+    {
+      "jd_skill": "Multi-view geometry and optimization",
+      "you_have": "Image mosaicing and multi-image processing"
+    }
+  ],
+  "missing_skills": [
+    "Fleet and data-quality mindset (no fleet/monitoring/DB evidence)",
+    "Cross-border collaboration (not in keyword list)",
+    "Markerless calibration (only 'Calibrated' present)",
+    "Calibration frameworks: Kalibr, GTSAM, Ceres Solver",
+    "3D vision library COLMAP",
+    "FFmpeg",
+    "Fleet observability: monitoring at scale, calibration database, versioning",
+    "Spatial tooling: Rerun, Gradio",
+    "ML infrastructure / data pipelines operating at scale",
+    "Required 5+ years hands-on SLAM/VIO production experience"
+  ],
+  "top_ats_keywords": [
+    "SLAM",
+    "VIO",
+    "SfM",
+    "calibration",
+    "online calibration",
+    "continuous calibration",
+    "multi-sensor calibration",
+    "extrinsics",
+    "intrinsics",
+    "IMU",
+    "camera",
+    "lens distortion",
+    "temporal synchronization",
+    "fleet",
+    "monitoring",
+    "drift",
+    "calibration database",
+    "C++",
+    "Python",
+    "OpenCV",
+    "COLMAP",
+    "PyTorch",
+    "FFmpeg",
+    "Kalibr",
+    "GTSAM",
+    "Ceres",
+    "Rerun",
+    "Gradio",
+    "multi-view geometry",
+    "linear algebra",
+    "optimization",
+    "video-based",
+    "markerless",
+    "hardware-synced",
+    "uncompressed video"
+  ],
+  "required_skills": [
+    "SLAM / VIO / SfM depth",
+    "Continuous and multi-sensor calibration (extrinsics, intrinsics, IMU noise/bias, lens distortion, temporal sync)",
+    "Fleet and data-quality mindset",
+    "Multi-view geometry and optimization",
+    "Clean, efficient, scalable C++ and Python",
+    "Cross-border collaboration"
+  ],
+  "preferred_skills": [
+    "Markerless calibration",
+    "Calibration frameworks (Kalibr, GTSAM, Ceres Solver)",
+    "3D vision and ML libraries (OpenCV, COLMAP, PyTorch, FFmpeg)",
+    "Fleet observability (monitoring, calibration DB, versioning)",
+    "Spatial tooling (Rerun, Gradio dashboards)",
+    "Scale: ML infrastructure / data pipelines at scale"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own online (in-pipeline) camera calibration refining extrinsics from video + IMU",
+    "Rebuild and harden video-based calibration refinement (monocular wrist-cam)",
+    "Build fleet-wide drift monitoring, calibration DB, and recall flagging",
+    "Maintain and improve SLAM/VIO with calibration-related error output",
+    "Bridge with factory-calibration engineer and China hardware team on intrinsics, IMU noise, sync, and validation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

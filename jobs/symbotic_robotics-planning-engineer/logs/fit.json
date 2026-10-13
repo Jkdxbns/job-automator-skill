@@ -1,0 +1,47 @@
+{
+  "company": "Symbotic",
+  "company_slug": "symbotic",
+  "role": "Robotics Planning Engineer (All Levels)",
+  "job_slug": "robotics-planning-engineer",
+  "match_pct": 40,
+  "missing_skills": [
+    "Multi-agent pathfinding / heuristics search",
+    "Robotics motion planning",
+    "Task allocation, inventory management, operations research",
+    "ML for large-scale robotics decision-making",
+    "Real-time decision systems / micro-service cluster architecture",
+    "C# (or large-scale distributed systems algorithms)"
+  ],
+  "adjacent_skills": [
+    "Robotics experience (ROS2, perception pipelines) -> not motion planning/OR",
+    "C++ (has it, but not C#, and not at large-scale distributed production scope)",
+    "Simulation/experimentation/data analysis (has it via ML experimentation, not planning simulation)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C#",
+    "multi-agent pathfinding",
+    "motion planning",
+    "task allocation",
+    "inventory management",
+    "operations research",
+    "real-time systems",
+    "micro-service architecture",
+    "distributed systems",
+    "data structures and algorithms"
+  ],
+  "key_responsibilities": [
+    "Design/develop/test real-time planning software for large-scale robotic systems",
+    "Multi-robot motion planning, task allocation, inventory-aware decision-making, traffic management",
+    "Coordinate behavior across robot-level execution and fleet-level orchestration",
+    "Build simulation/modeling tools to validate planning strategies",
+    "Integrate planning solutions into production, analyze telemetry, cross-functional collaboration",
+    "Support production deployments, triage issues, drive continuous improvement"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

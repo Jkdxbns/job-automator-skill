@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "company": "Leidos",
+    "role": "Software Engineer C++",
+    "company_slug": "leidos",
+    "job_slug": "swe-cpp-r-00192962"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on C++ experience spanning embedded firmware, GPU kernel optimization, and multi-tiered distributed systems. Architected a three-layer distributed application (mobile client, edge server, embedded controller) linked over a unified networking fabric, and built a PySide6/Qt desktop GUI with an OpenGL-backed 3D viewport using OOP/OOAD design principles. Comfortable with multicore and MPI-based distributed computing, CUDA performance optimization, and Linux development environments.",
+  "skills": {
+    "Languages & Systems": ["C/C++", "CUDA", "Python", "Bash"],
+    "Distributed & Networked Systems": ["Multi-tiered distributed applications", "WebSocket/TCP networking", "MPI distributed computing", "systemd service deployment"],
+    "GUI / Graphics": ["Qt (PySide6)", "OpenGL", "PyQt"],
+    "Tools": ["Linux", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Built a real-time data-acquisition GUI application in Python using PyQt and Matplotlib for laboratory experiment visualization, demonstrating GUI/desktop application development",
+        "Used GitLab for revision control and JupyterHub for collaborative data analysis and technical documentation"
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Designed and implemented a custom tap-detection algorithm using data structures and algorithms and software design principles (z-axis differential thresholding), resolving sensor jitter through systematic calibration and resolution tuning"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Architected a multi-tiered distributed systems design (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller) linked via TCP/UDP socket programming over a unified WebSocket fabric",
+        "Implemented two-link inverse kinematics in C++ on Arduino, driving five servos with range-gated contact detection for reliable pick-and-place",
+        "Deployed the Jetson-side service via systemd (auto-restart, non-root isolation) with static IP networking on Linux for reliable multi-device registration"
+      ]
+    },
+    {
+      "name": "Frame Simulator — Desktop 3D Coordinate-Frame Visualizer",
+      "date": "Oct 2025",
+      "bullets": [
+        "Built a PySide6/Qt desktop GUI application with an OpenGL-backed 3D viewport to visualize coordinate-frame hierarchies and SE(3) poses in real time",
+        "Applied OOP/OOAD to decouple the data model, math engine, and UI into separate modules via a mix-in pattern"
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing and constant-memory buffers, eliminating per-layer allocation overhead",
+        "Achieved a 35% speedup (49.2ms vs 73.3ms) over the uncoalesced kernel through efficient global memory management"
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work-distribution strategies (static strip/block/cyclic, dynamic task queue) across multicore processors via MPI for 5000x5000 pixel scene rendering",
+        "Achieved up to 30x speedup with 55 processes; demonstrated dynamic task queuing outperforming static methods under unpredictable workloads"
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1) with deterministic memory management, achieving a 3.68KB Flash / 1.58KB RAM footprint at a 1Hz real-time update rate",
+        "Implemented timer-triggered ADC scan conversions and interrupt-driven sample capture with a low-level I2C driver"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

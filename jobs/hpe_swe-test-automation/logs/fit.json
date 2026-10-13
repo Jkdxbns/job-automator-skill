@@ -1,0 +1,131 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer - Test & Automation",
+  "job_slug": "swe-test-automation",
+  "match_pct": 55.6,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 0,
+    "missing_count": 4,
+    "jd_ask_size": 9,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Software testing and validation methodologies",
+    "Debugging and root-cause analysis",
+    "Linux",
+    "Networking fundamentals / TCP/IP"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Automation frameworks / automated testing tooling (e.g. pytest, Robot Framework, Selenium)",
+    "Routing and switching",
+    "BGP/OSPF/MPLS",
+    "CI/CD tools and pipelines"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "test automation",
+    "validation",
+    "networking",
+    "TCP/IP",
+    "Linux",
+    "CI/CD",
+    "BGP",
+    "OSPF",
+    "MPLS",
+    "routing",
+    "switching",
+    "regression testing",
+    "root cause analysis",
+    "debugging"
+  ],
+  "required_skills": [
+    "Python",
+    "Software testing and validation methodologies",
+    "Test automation development and debugging",
+    "Root-cause analysis",
+    "Automation frameworks / automated testing solutions",
+    "Linux"
+  ],
+  "preferred_skills": [
+    "Networking fundamentals",
+    "TCP/IP",
+    "Routing and switching",
+    "BGP",
+    "OSPF",
+    "MPLS",
+    "Network testing and validation experience",
+    "CI/CD tools and test automation pipelines",
+    "Enterprise or data-center networking exposure"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop/execute/maintain test plans and validation procedures for networking products",
+    "Feature/system/integration/regression testing",
+    "Troubleshoot and debug networking and software issues",
+    "Develop Python automation scripts and frameworks",
+    "Validate networking reference designs and customer deployment scenarios",
+    "Track defects to resolution",
+    "Technical documentation and validation reports"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Juan, Puerto Rico",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 43,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Python automation with real production-adjacent evidence (Flask-SocketIO edge server, PyQt GUI, gesture-recognition glove) \u2014 genuine scripting/automation depth beyond toy exercises",
+      "Systems-level debugging and root-cause resolution under real integration constraints (COFFIN capstone: 11 named failure modes resolved \u2014 false-positive detections, servo brown-out, stale-frame capture \u2014 each a concrete root-cause fix)",
+      "Linux systems administration depth (systemd service hardening, static IP config, headless remote administration) exceeding a generic 'Linux experience' bullet",
+      "Cross-cultural, cross-functional team leadership (led a 7-person international research team, a 25-member robotics club) directly answers the 'globally distributed teams' ask"
+    ],
+    "real_gaps": [
+      "No formal test-plan/test-case design or structured QA/validation methodology anywhere in the profile \u2014 all testing described is informal, ad hoc validation of research/capstone systems",
+      "No dedicated test-automation tooling (pytest, unittest, Selenium, Robot Framework, or any named framework)",
+      "No networking-protocol or infrastructure exposure \u2014 no routing, switching, BGP/OSPF/MPLS, or enterprise/data-center networking; the one 'networking' data point is a single static-IP config for a research robot, not networking-product validation",
+      "No defect-tracking/bug-lifecycle experience (no Jira, no formal defect log, no release-readiness process)",
+      "No CI/CD pipeline experience anywhere in the profile"
+    ],
+    "overstated_by_keywords": [
+      "Software testing and validation methodologies \u2014 counted HAVE, but the underlying evidence is informal project validation (trial counts, accuracy metrics), not a testing methodology practice",
+      "Networking fundamentals / TCP/IP \u2014 counted HAVE, but the only backing is a single static-IP/WebSocket networking setup for a research robot, not protocol-level or product-scale networking knowledge"
+    ],
+    "understated_by_keywords": [
+      "The debugging/root-cause depth in the COFFIN capstone (naming and resolving 11 distinct integration failure modes across a 3-layer distributed system) is stronger and more specific than the generic 'Debugging and root-cause analysis' HAVE bucket suggests",
+      "Cross-functional/global team collaboration (leading a 7-person cross-cultural research team, a 25-member club) is real evidence the keyword pass dropped entirely as boilerplate"
+    ],
+    "screening_gaps": [
+      "No demonstrated experience with formal software test methodology or dedicated test-automation frameworks (pytest/Selenium/Robot Framework) \u2014 the role's core ask, entirely absent from the profile",
+      "No networking-domain depth beyond a single project's static-IP/WebSocket setup \u2014 zero exposure to routing/switching, BGP/OSPF/MPLS, or enterprise network products, which an HPE interview will almost certainly probe given the company's core business",
+      "HPE's own req states 'typically 5+ years of relevant experience' for this level \u2014 a hard resume-screen filter against 0 years full-time, independent of skill overlap"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Python and systems-integration debugging are genuine, transferable strengths, and the COFFIN capstone shows real root-cause depth the keyword pass undersold. But the role's two defining asks \u2014 structured test-automation tooling and real networking-domain depth (routing/switching/BGP/OSPF/MPLS) \u2014 have no backing anywhere in the profile, and HPE's stated 5+ years bar compounds the risk. This reads as an opportunistic stretch application, not a strong-fit target.",
+    "calibration_delta": 12.6
+  }
+}

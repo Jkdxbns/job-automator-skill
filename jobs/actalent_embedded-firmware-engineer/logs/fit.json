@@ -1,0 +1,209 @@
+{
+  "company": "Actalent",
+  "company_slug": "actalent",
+  "role": "Embedded Firmware Engineer",
+  "job_slug": "embedded-firmware-engineer",
+  "match_pct": 47.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 3,
+    "missing_count": 16,
+    "jd_ask_size": 33,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded firmware development",
+    "C programming",
+    "Bare-metal firmware development",
+    "32-bit microcontrollers (STM32 Cortex-M4)",
+    "Interrupt-driven systems",
+    "Low-level drivers",
+    "Low-level hardware interfaces (GPIO/ADC/PWM)",
+    "Embedded debugging and troubleshooting",
+    "Oscilloscopes",
+    "UART",
+    "SPI",
+    "I2C",
+    "Motor control (PWM + quadrature encoders)",
+    "Bachelor's degree in Computer Engineering, Electrical Engineering, or Computer Science"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Control-loop tuning",
+      "you_have": "Closed-Loop Feedback Control (holonomic heading correction)"
+    },
+    {
+      "jd_skill": "Hardware bring-up",
+      "you_have": "Custom sensor/board integration on STM32 + Arduino Due projects"
+    },
+    {
+      "jd_skill": "Software architecture",
+      "you_have": "Modular firmware design with hardware state machines"
+    }
+  ],
+  "missing_skills": [
+    "TI C2000 (C28x)",
+    "Power electronics",
+    "Generator control systems",
+    "Motor controller electronics design",
+    "CAN",
+    "Field-oriented control (FOC)",
+    "DO-178C",
+    "MISRA C",
+    "Safety-critical software",
+    "MATLAB/Simulink",
+    "FPGA",
+    "VHDL/Verilog",
+    "JTAG debuggers",
+    "System verification",
+    "Requirements and test procedure authoring",
+    "EMI/EMC and environmental testing"
+  ],
+  "top_ats_keywords": [
+    "embedded firmware",
+    "bare-metal C",
+    "32-bit microcontroller",
+    "motor control",
+    "generator control",
+    "low-level drivers",
+    "interrupt-driven",
+    "hardware bring-up",
+    "system verification",
+    "oscilloscope",
+    "JTAG",
+    "TI C2000",
+    "C28x",
+    "CAN",
+    "UART",
+    "SPI",
+    "I2C",
+    "FOC",
+    "control-loop tuning",
+    "DO-178C",
+    "MISRA C",
+    "safety-critical",
+    "MATLAB/Simulink",
+    "FPGA",
+    "VHDL/Verilog",
+    "EMI/EMC",
+    "test procedures",
+    "coding standards"
+  ],
+  "required_skills": [
+    "C programming",
+    "Bare-metal firmware development",
+    "32-bit microcontrollers",
+    "Interrupt-driven systems",
+    "Low-level hardware interfaces",
+    "Low-level drivers",
+    "Oscilloscopes",
+    "JTAG debuggers",
+    "Embedded debugging and troubleshooting",
+    "Bachelor's degree in Computer Engineering, Electrical Engineering, or Computer Science"
+  ],
+  "preferred_skills": [
+    "TI C2000 (C28x)",
+    "Motor control",
+    "Power electronics",
+    "CAN",
+    "UART",
+    "SPI",
+    "I2C",
+    "Field-oriented control (FOC)",
+    "Control-loop tuning",
+    "DO-178C",
+    "MISRA C",
+    "Safety-critical software",
+    "MATLAB/Simulink",
+    "FPGA",
+    "VHDL/Verilog"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Develop embedded firmware for motor controllers and generator control electronics",
+    "Design and implement bare-metal C software on 32-bit microcontrollers",
+    "Create low-level drivers, hardware interfaces, and platform services",
+    "Support hardware bring-up, debugging, and system verification",
+    "Contribute to software architecture, interfaces, and coding standards",
+    "Write requirements, specifications, and test procedures",
+    "Support lab, environmental, EMI/EMC, and field testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Goleta, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on a 32-bit MCU is real, not a keyword: STM32 Bare-Metal Temperature Monitor programs GPIO, TIM2, ADC1 and I2C1 directly at register level, with timer-triggered ADC scan conversions and a hand-written low-level I2C driver in 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz rate.",
+      "Interrupt-driven design has first-principles depth: a 4-bit A/B quadrature transition state machine on hardware interrupts (Robocon, 2400 CPR encoders), plus interrupt-driven UART command handling with user override on the Object Tracking Turret.",
+      "Low-level driver authorship is demonstrated twice independently (I2C driver on STM32, quadrature decode on Arduino Due) rather than consuming vendor HAL libraries.",
+      "Motor drive at a hardware level: four motor channels at 15 kHz PWM via DuePWM, angle-weighted joystick-to-wheel mixing derived from atan2 to eliminate PWM saturation at 45 degree diagonals, and closed-loop heading correction feeding encoder-derived angular error back into rotation PWM.",
+      "Hardware bring-up is backed by fabrication, not just integration: custom single-layer PCBs designed in EAGLE and fabricated for locomotive robots, then brought up with UART and I2C sensor communication and closed-loop feedback.",
+      "Systematic hardware-adjacent debugging: 11 integration failures resolved on the COFFIN capstone including servo brown-out and stale-frame capture, and sensor jitter resolved through software calibration and resolution tuning at Planctech.",
+      "Safety reflex exists in the motor context: a fail-safe state machine that halts all motor channels on controller disconnect."
+    ],
+    "real_gaps": [
+      "Generator control systems / genset controls \u2014 no exposure anywhere in the profile",
+      "Power electronics \u2014 no inverter, gate drive, current sensing, dead-time or bus-voltage work; all motor work goes through off-the-shelf Cytron driver modules",
+      "Field-oriented control and control-loop tuning on a real motor \u2014 no PID tuning, no current or velocity loop; closed-loop heading correction is the only feedback control evidence",
+      "TI C2000 / C28x toolchain and peripheral set (ePWM, ADC triggering, CLA) \u2014 zero",
+      "CAN bus \u2014 zero (the only 'CAN' string in the profile is CanSat)",
+      "JTAG / SWD hardware debugging on silicon \u2014 zero; the flagship bare-metal project was verified in Proteus simulation",
+      "Formal system verification \u2014 no requirements traceability, specifications, or written test procedures",
+      "EMI/EMC, environmental (thermal/vibration) and field testing \u2014 zero",
+      "MISRA C and DO-178C or any safety-critical software process",
+      "MATLAB / Simulink model-based design",
+      "FPGA, VHDL or Verilog",
+      "Platform-scale work: platform services layer, coding standards ownership, interface contracts across a firmware product line",
+      "Seniority (prose note, not scored): the JD expects 4+ years and independent module ownership from design through verification; profile is capstone, research and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "'Motor control' as HAVE \u2014 it is PWM generation into pre-built driver modules, not motor controller firmware; no commutation, no current loop, no FOC",
+      "'Embedded debugging and troubleshooting' as HAVE \u2014 oscilloscopes and logic analyzers are listed as tools but no bullet shows scope-based signal debugging; the evidence is integration and software-level debugging",
+      "'32-bit microcontrollers' as HAVE \u2014 true for STM32 Cortex-M4, but the motor and encoder work sits on Arduino Due under the Arduino framework, not bare-metal register access",
+      "'Software architecture' as ADJACENT \u2014 the architecture evidence (Frame Simulator module decoupling, COFFIN three-layer pipeline) is Python, desktop and distributed-systems architecture, not firmware platform architecture"
+    ],
+    "understated_by_keywords": [
+      "Hardware bring-up scored only ADJACENT, but designing, fabricating and then bringing up custom EAGLE PCBs with UART/I2C sensor comms is literal board bring-up",
+      "'Safety-critical software' scored flat MISSING, yet the fail-safe state machine halting all motors on controller disconnect is exactly the reasoning pattern a motor-controller interviewer probes for",
+      "'Interrupt-driven systems' as a single HAVE tag undersells writing quadrature decode from first principles as a 4-bit transition state machine on hardware interrupts",
+      "Resource-constrained determinism (3.68 KB Flash / 1.58 KB RAM, deterministic 1 Hz update) is a real firmware discipline the JD implies but never names, so the keyword pass never credited it"
+    ],
+    "screening_gaps": [
+      "4+ years of professional embedded firmware experience against 0 full-time years \u2014 Actalent is a staffing agency billing a client, so years-in-seat is a contractual filter rather than a soft preference and is the single most likely rejection reason",
+      "No motor-controller or power-electronics domain evidence \u2014 the role's entire subject matter (motor controllers, generator control electronics, FOC) has no backing; off-the-shelf Cytron drivers on a competition robot will not read as motor control to this hiring manager",
+      "No TI C2000/C28x and no on-silicon debugger experience \u2014 JTAG is a stated required qualification, and the flagship bare-metal project was verified in Proteus simulation rather than on hardware"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The required-qualification spine of this role is genuinely covered: bare-metal C at register level on a Cortex-M4, interrupt-driven design written from first principles, hand-authored low-level drivers, and real PWM motor drive with encoder feedback. What is missing is the entire subject matter \u2014 motor controller and generator control electronics, power electronics, FOC, TI C2000, CAN, MISRA/DO-178C, and formal verification and EMI/EMC testing \u2014 so the profile reads as a capable embedded generalist applying to a power-electronics firmware specialist req that wants 4+ years. The semantic read lands within a point of the keyword score, which is unusual and means the keyword pass was not inflating anything here; the honest read is that this specific requisition is a long shot, though the Actalent recruiter relationship has option value across their other embedded reqs.",
+    "calibration_delta": 1.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-09",
+    "channel": "outreach",
+    "notes": "Rejected by Justin: Actalent Goleta Embedded Firmware Engineer req is citizen only (US citizenship required), so not eligible on F-1 OPT. Earlier: recruiter Cathlin Partyka replied 2026-09-30 asking him to apply first; no application pursued."
+  }
+}

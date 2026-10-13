@@ -1,0 +1,155 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Engineer - Multimodal Intelligence",
+  "job_slug": "ml_multimodal_intelligence",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 21,
+    "req_cov": 0.111,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Computer Vision (YOLO, OpenCV)",
+    "Data curation (BraTS, CARLA dataset generation)",
+    "Training / fine-tuning (U-Net, YOLO, DONUT, GPT-2)",
+    "TensorRT / CUDA",
+    "Quantization (8-bit, LLM.int8())",
+    "ONNX / TFLite export",
+    "Model evaluation",
+    "Production deployment (systemd, static IP, XRDP)",
+    "Edge / on-device (Jetson, STM32)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch (transferable)"
+    },
+    {
+      "jd_skill": "multimodal foundation models (vision-language combined)",
+      "you_have": "Separate vision (YOLO/CV), language (GPT-2, DONUT, ASR) pipelines \u2014 no unified multimodal model built"
+    },
+    {
+      "jd_skill": "large-scale distributed training (multi-node GPU clusters)",
+      "you_have": "MPI distributed computing (10.49x speedup, SLURM cluster), not DL-training-scale"
+    },
+    {
+      "jd_skill": "reproducible evaluation / regression testing at org scale",
+      "you_have": "Custom evaluation pipelines; not documented production-grade regression framework"
+    },
+    {
+      "jd_skill": "memory / latency / power / privacy constraints at Apple scale",
+      "you_have": "Latency optimization (TensorRT 5.2x speedup), memory profiling (pynvml); Apple-level privacy architecture not shown"
+    }
+  ],
+  "missing_skills": [
+    "JAX (direct experience \u2014 transferable from PyTorch but not demonstrated)",
+    "Large-scale distributed DL training pipelines (data-parallel / model-parallel at scale)",
+    "Unified vision-language foundation model experience",
+    "Production-grade evaluation / regression framework at team/org scale"
+  ],
+  "top_ats_keywords": [
+    "machine learning engineer",
+    "multimodal",
+    "computer vision",
+    "foundation models",
+    "deep learning",
+    "PyTorch",
+    "training pipelines",
+    "fine-tuning",
+    "evaluation",
+    "on-device",
+    "production",
+    "optimization"
+  ],
+  "required_skills": [
+    "deep learning (multimodal)",
+    "Python",
+    "PyTorch / JAX",
+    "data curation / training pipelines",
+    "fine-tuning / optimization",
+    "evaluation / regression testing",
+    "production systems",
+    "on-device deployment",
+    "collaborative environment"
+  ],
+  "preferred_skills": [
+    "multimodal foundation models",
+    "large-scale distributed training",
+    "vision-language systems",
+    "research-to-production",
+    "memory / latency / power constraints"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build and scale data curation and training pipelines for multimodal foundation models",
+    "Fine-tune and optimize large multimodal models for on-device / hybrid execution",
+    "Stand up reproducible evaluation and regression testing for text and visual understanding",
+    "Harden approaches into robust production systems under latency, memory, power, privacy constraints",
+    "Collaborate with modeling, platform, hardware, and product engineering"
+  ],
+  "role_category": "ml_systems",
+  "location": "Seattle, Washington, United States (2 work locations)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real multimodal integration: COFFIN (vision-guided robotic arm) combines faster-whisper STT (audio-language) + TensorRT-optimized YOLO (vision) + Gemini intent classification \u2014 a true vision-language-action pipeline deployed on Jetson with 100% pick reliability.",
+      "Vision-language document understanding: fine-tuned DONUT (vision + language transformer) on custom medical billing dataset, improving validation accuracy 55% \u2192 93% via HuggingFace VisionEncoderDecoder.",
+      "On-device production experience: Jetson-side systemd service (auto-restart, non-root isolation), TensorRT 5.2\u00d7 YOLO speedup (56.7\u219210.9ms), static IP networking, XRDP remote admin \u2014 directly relevant to Apple\u2019s on-device/hybrid constraint.",
+      "Data pipeline engineering: BraTS 2020 multi-modal MRI (3D volumetric) + CARLA automated dataset generation (~5,000 YOLO + ~3,000 UFLD frames, zero manual annotation) \u2014 shows data-curation scale.",
+      "Optimization under real latency/power constraints: 8-bit quantization (~55% VRAM reduction, <1% accuracy loss for TinyLlama), CUDA C++ kernel coalescing (35% speedup over TorchScript), pynvml profiling."
+    ],
+    "real_gaps": [
+      "No unified vision-language foundation model built from scratch or fine-tuned at multimodal scale \u2014 the profile shows vision pipelines (YOLO, CV), language pipelines (GPT-2, DONUT, ASR), and audio (faster-whisper) separately, not a single model processing vision + text jointly.",
+      "No documented experience with Apple-scale distributed DL training (multi-node GPU clusters, data-parallel/model-parallel at foundation-model scale). MPI experience (10.49x speedup) is HPC-level, not DL-training-level.",
+      "No production-grade evaluation/regression framework at team/org scale \u2014 evaluation exists (IoU, Dice, mAP, WER) but not the reproducible regression-testing infrastructure the JD requires.",
+      "3 years full-time industry experience missing \u2014 profile shows 0 full-time years, 7 internships/research fellowships. JD requires 3 years minimum (BS + 3 years). Seniority = Stretch, not Mismatch, so not a veto."
+    ],
+    "overstated_by_keywords": [
+      "'Multimodal foundation models' counted as HAVE \u2014 profile has separate vision and language pipelines but not a unified vision-language model experience. Adjacent, not direct.",
+      "'Large-scale distributed training' counted as ADJACENT via MPI \u2014 the MPI work is neuron simulation and ray-tracing, not distributed DL model training.",
+      "'Production-grade evaluation framework' \u2014 evaluation skills exist but not at Apple-scale production/regression framework level."
+    ],
+    "understated_by_keywords": [
+      "COFFIN project demonstrates vision-language-action integration (vision + STT + intent classification) more strongly than the keyword list captures \u2014 keyword pass treats vision, language, and audio as separate, missing the combined pipeline reality.",
+      "Data-curation depth from BraTS (3D volumetric, multi-backbone training) and CARLA automated dataset generation is stronger than 'Data curation' keyword suggests.",
+      "TensorRT optimization + CUDA kernel coalescing + quantization work demonstrates practical 'optimization under real constraints' more concretely than the keyword summary conveys."
+    ],
+    "screening_gaps": [
+      "No unified vision-language foundation model experience (multimodal core of role): this is the #1 screening risk \u2014 Apple\u2019s team builds vision-language systems, and the profile shows vision and language separately without a combined model.",
+      "No Apple-scale distributed DL training pipeline experience (preferred, high-impact): large-scale training is a major preferred qualification; MPI experience is adjacent but not demonstrated at DL-training scale.",
+      "0 full-time years vs 3-year minimum (not a veto since seniority=Stretch, not Mismatch, but will be screened by recruiters): this is a structural gap that will come up in initial screening; profile relies on 7 internships/research roles instead of full-time industry experience."
+    ],
+    "recommend_apply": false,
+    "reasoning": "Keyword score lands exactly at the apply threshold (60%) with the 'low_required_cov' cap applied (only 11% of required skills covered). The profile has strong multimodal pipeline experience (COFFIN vision+language+action, DONUT vision-language, BraTS data pipeline) and real on-device production skills (TensorRT, systemd, quantization) that make it a credible partial-fit candidate. However, the JD's core \u2014 unified vision-language foundation models and Apple-scale distributed training \u2014 has no direct backing. Seniority (3-year minimum) and production scope (Apple-level framework/scale) are real gaps that recruiters will screen on first pass. Do not apply blindly; use as target for tailored outreach/research rather than a direct apply unless user confirms.",
+    "calibration_delta": -2.0
+  }
+}

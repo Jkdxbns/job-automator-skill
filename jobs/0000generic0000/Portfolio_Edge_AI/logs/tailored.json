@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "company": "Generic",
+    "role": "Edge AI Engineer",
+    "company_slug": "generic",
+    "job_slug": "portfolio_edge_ai"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Dallas–Fort Worth, TX"
+  },
+  "summary": "Edge AI engineer who turns research models into real-time systems on embedded hardware: compressing, quantizing and accelerating networks until they fit a device's latency and memory budget, then building them into robots that act on what they see. M.S. Computer Engineering, RIT (2026).",
+  "skills": {
+    "Edge AI & Optimization": [
+      "TensorRT",
+      "8-bit quantization (PTQ & QAT)",
+      "CUDA C++",
+      "Memory coalescing",
+      "pynvml profiling",
+      "ONNX / TFLite export"
+    ],
+    "ML & Models": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "YOLO",
+      "Transformers from scratch",
+      "ASR (faster-whisper)",
+      "OpenCV"
+    ],
+    "Platforms & HPC": [
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "MPI",
+      "SLURM",
+      "Linux / systemd"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Cython",
+      "Bash"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document-understanding transformer, on a custom medical-billing dataset for structured field extraction, adding domain-specific tokens and resizing the decoder embeddings.",
+        "Raised validation accuracy from 55% to 93% through improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 curated, annotated images to 83% mAP@50 for toothbrush health classification, and exported it to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Raised stitching quality to a PSNR of 86 with a custom alpha-blended wavelet bank (sym6 + bior3.5), optimized homography stitching and concurrency, up from 65 with a bit-manipulation baseline."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper speech-to-text (1.0–1.4 s), Gemini intent classification (<500 ms) and TensorRT-optimized YOLO for visual servoing, accelerating detection 5.2× over eager PyTorch (56.7 → 10.9 ms, 17.6 → 92 FPS).",
+        "Drove the system to 100% pick reliability (10/10 trials) at ~11.5 s voice-to-pick by hardening it against false-positive detections, servo brown-out and stale-frame capture."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory by ~55% with 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, profiling peak VRAM and latency across prompt types with pynvml and psutil.",
+        "Held accuracy within 1% across HellaSwag, GSM8K and ARC with only +0.09 perplexity: near-lossless compression for edge deployment."
+      ]
+    },
+    {
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "date": "May 2026",
+      "bullets": [
+        "Implemented quantization-aware training in PyTorch for a bias-free 256-64-10 MLP with straight-through-estimator fake quantization, per-layer symmetric int8 weights and uint8 activations; integer-only inference reaches 97.43% on the MNIST test set.",
+        "Calibrated the hidden-activation scale with an EMA observer and froze it for the final 25% of training so the weights adapt to the deployed scale."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced VGG16's convolution layers with custom CUDA C++ kernels (memory coalescing, constant memory, preallocated buffers): 49.2 ms vs 73.3 ms for a naive GPU kernel and 77.5 ms on CPU, ~35% faster with identical accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

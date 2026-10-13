@@ -1,0 +1,53 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhoda-ai",
+  "role": "Robotics & Control Engineer",
+  "job_slug": "robotics-control-engineer",
+  "match_pct": 88,
+  "missing_skills": [
+    "whole-body control",
+    "trajectory optimization",
+    "model predictive control (MPC)",
+    "sim-to-real RL/IL pipelines",
+    "humanoid/legged robot platforms",
+    "Rust"
+  ],
+  "adjacent_skills": [
+    "state estimation (have depth estimation / ToF sensor fusion, not formal state estimation)",
+    "learned perception/control integration (have YOLO/TensorRT real time inference on Jetson, not policy deployment)",
+    "early-stage hardware programs (have CanSat/Robocon prototype hardware, not pre-production robot programs)"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "control loops",
+    "motion planning",
+    "state estimation",
+    "actuator interfaces",
+    "C++",
+    "Python",
+    "forward kinematics",
+    "inverse kinematics",
+    "real-time control",
+    "hardware debugging"
+  ],
+  "key_responsibilities": [
+    "Develop and maintain onboard control software: control loops, state estimation, actuator interfaces",
+    "Implement and tune motion planning/control: whole-body control, trajectory optimization, or MPC",
+    "Integrate learned control policies onto real hardware with AI/ML team",
+    "Fault detection and recovery logic for reliability",
+    "Debug sim vs real discrepancies on prototype hardware",
+    "Support bring-up and field testing of new hardware revisions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-23",
+    "channel": "application",
+    "notes": "Position filled (Robotics & Control Engineer)."
+  }
+}

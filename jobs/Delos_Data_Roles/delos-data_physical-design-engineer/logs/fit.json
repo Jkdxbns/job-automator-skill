@@ -1,0 +1,117 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Physical Design Engineer",
+  "job_slug": "physical-design-engineer",
+  "match_pct": 10.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 0,
+    "missing_count": 9,
+    "jd_ask_size": 10,
+    "req_cov": 0.364,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python scripting / automation"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "ASIC / SoC physical design experience and tapeouts",
+    "Floorplanning, placement, CTS, routing",
+    "Timing closure and static timing analysis (multi-mode/multi-corner)",
+    "Power delivery, IR drop, electromigration, signal integrity",
+    "Cadence / Synopsys EDA implementation and signoff tools",
+    "Tcl / Perl scripting",
+    "Physical verification (DRC, LVS, antenna, density, connectivity)",
+    "Advanced-node / chiplet / packaging experience",
+    "10+ years of domain-specific physical design experience"
+  ],
+  "top_ats_keywords": [
+    "Physical Design Engineer",
+    "ASIC",
+    "SoC",
+    "floorplan",
+    "floorplanning",
+    "placement",
+    "CTS",
+    "clock-tree synthesis",
+    "routing",
+    "timing closure",
+    "signoff",
+    "static timing analysis",
+    "multi-mode",
+    "multi-corner",
+    "IR drop",
+    "electromigration",
+    "signal integrity",
+    "power delivery",
+    "DRC",
+    "LVS",
+    "antenna",
+    "density",
+    "connectivity",
+    "Cadence",
+    "Synopsys",
+    "Tcl",
+    "Python",
+    "Perl",
+    "power integrity"
+  ],
+  "required_skills": [
+    "ASIC/SoC physical design (10+ years, multiple tapeouts)",
+    "Floorplanning (hierarchy, macros, interfaces, congestion, timing, power, routability)",
+    "Placement, CTS, routing, optimization, extraction, ECO",
+    "Static timing analysis (multi-mode, multi-corner)",
+    "Timing closure (setup, hold, signal-integrity, congestion, physical effects)",
+    "Power delivery / IR drop / electromigration / power integrity",
+    "Clock design, timing constraints, variation, extraction, advanced-node effects",
+    "Physical verification / signoff (DRC, LVS, antenna, density, connectivity)",
+    "Cadence and/or Synopsys physical implementation and signoff tools",
+    "Scripting and automation (Tcl, Python, Perl)",
+    "Debugging across RTL, timing, physical implementation, and signoff domains"
+  ],
+  "preferred_skills": [
+    "Advanced process nodes",
+    "Large, high-frequency or highly interconnected semiconductor designs",
+    "Hierarchical design and top-level physical integration",
+    "Physical design methodologies and automation development",
+    "Working closely with package, SI/PI, and power-delivery teams",
+    "Multi-die, chiplet, or advanced packaging architectures",
+    "EDA tool evaluation, benchmarking, and optimization",
+    "Early-stage semiconductor environment"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own physical implementation of complex blocks/subsystems from synthesized netlist through signoff",
+    "Develop floorplans and power-grid implementations; drive timing, power, and signoff closure",
+    "Lead static timing analysis, signal-integrity analysis, and physical verification (DRC/LVS/antenna/density/connectivity)",
+    "Partner with RTL, architecture, DFT, verification, package, SI/PI, and other cross-functional teams",
+    "Develop and improve physical design flows, scripts, automation, metrics, and methodologies"
+  ],
+  "role_category": "other",
+  "location": "Palo Alto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

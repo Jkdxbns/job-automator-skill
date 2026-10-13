@@ -1,0 +1,71 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Software Engineer, Performance - New Grad",
+  "job_slug": "performance_new_grad",
+  "match_pct": 92,
+  "missing_skills": [
+    "perf",
+    "VTune",
+    "BPF/eBPF",
+    "Nvidia Nsight Systems",
+    "OpenCL",
+    "Nvidia DriveOS",
+    "OS-level thread prioritization / process lifetime management"
+  ],
+  "adjacent_skills": [
+    "Operating systems (FreeRTOS/embedded, not OS internals)",
+    "Highly concurrent multi-threaded C++ (has MPI + FreeRTOS + multiprocessing)",
+    "Performance profiling (has pynvml/psutil benchmarking, not perf/VTune/BPF/Nsight)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "performance optimization",
+    "computer architecture",
+    "operating systems",
+    "multi-threaded",
+    "CUDA",
+    "GPU",
+    "ARM",
+    "x86",
+    "SoC",
+    "profiling",
+    "latency reduction",
+    "ROS",
+    "Nsight Systems"
+  ],
+  "key_responsibilities": [
+    "Analyze, profile, debug, monitor, optimize performance of AV software",
+    "Build systems/tools for memory management, thread prioritization, process/thread lifetime management",
+    "Define system-level architecture with cross-team engineers",
+    "Build core libraries and APIs for high-performance code",
+    "Drive performance best practices"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Performance optimization is a genuine, repeated theme: custom CUDA kernels with memory coalescing/constant memory (~35% speedup, 1.5-2x), TensorRT 5.2x YOLO speedup, 8-bit quantization ~55% VRAM cut, MPI speedup + load-imbalance characterization",
+      "Real cross-architecture porting breadth: Jetson (ARM SoC), STM32 Cortex-M4 bare-metal, x86 SLURM/MPI cluster, Nvidia GPU",
+      "GPU programming bonus is strong (hand-written CUDA C++), ROS bonus met (ROS2 Humble/Noetic)",
+      "Computer architecture backing via High Performance Architecture + Multiple Processor Systems coursework and MPI/CUDA practice"
+    ],
+    "real_gaps": [
+      "The named systems-profiling stack (perf, VTune, BPF/eBPF, Nsight Systems) is absent \u2014 profiling experience is GPU-telemetry/benchmarking (pynvml, psutil), not the Linux systems-profiling the role runs daily",
+      "OS-level systems programming (thread prioritization, process/thread lifetime, memory management) is not in the profile; FreeRTOS mutexes are embedded-scale, not the systems C++ this asks for",
+      "Concurrency depth is MPI multiprocess + FreeRTOS tasks + Python multiprocessing, not heavy production multi-threaded C++",
+      "No DriveOS / low-level Nvidia driver optimization"
+    ],
+    "overstated_by_keywords": [
+      "'operating systems' \u2014 counted via FreeRTOS/Linux keywords but this role means OS internals/systems programming",
+      "'profiling' \u2014 pynvml counts as a keyword hit but the JD's named tools are all missing",
+      "'multi-threaded' \u2014 MPI/FreeRTOS keywords inflate this vs the production multithreaded C++ actually wanted"
+    ],
+    "reasoning": "The performance-optimization and cross-architecture porting themes are real and well-evidenced, and this is an entry-level new-grad req, so it is a legitimate apply. But this is a low-level systems-software performance role, and Justin's depth is in ML/edge-AI/GPU rather than OS-internals and the perf/VTune/BPF/Nsight profiling toolchain. Frame the application around demonstrated optimization wins and be ready for systems-programming depth probes on threading, scheduling, and Linux profiling."
+  }
+}

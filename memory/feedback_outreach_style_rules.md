@@ -1,0 +1,22 @@
+---
+name: feedback-outreach-style-rules
+description: "Five hard rules for outreach email/DM drafts — no hyphens, plain language for AI detection, name+degree one liner opener, no numbers in body, no permission granting language in follow ups"
+metadata: 
+  node_type: memory
+  type: feedback
+  originSessionId: 310d4370-4778-4b72-b290-2cf5c6839adb
+  modified: 2026-08-26T15:33:44.938Z
+---
+
+For cold outreach emails and DMs (job-automator Sub-workflow C), four non-negotiable style rules, given 2026-07-01:
+
+1. **No standalone dashes used as punctuation** — not " - " or " -- " joining clauses, not en dash, not em dash, anywhere in subject/greeting/body/sign off. Rewrite around it instead of swapping dash styles. Hyphens INSIDE a compound technical term are fine and should stay (e.g. "bare-metal", "multi-servo", "Cortex-M4", "real-time") — the rule targets dash-as-punctuation, not hyphenated words.
+2. **Keep language plain and a little uneven** — vary sentence length, use everyday words over formal synonyms, avoid tidy "Furthermore/Moreover" transitions and stacked adjectives. Goal is to read as human, not AI generated.
+3. **Always open with a one liner**: name + "M.S. in Computer Engineering" (school optional). Only attach the May 2026 date if the role is explicitly grad date bound (e.g. "New College Grad" posting) — check current date vs May 2026 for tense, see [[feedback_grad_date_language]].
+4. **No numbers in the mail body** — no exact metrics, percentages, KB sizes, or counts (e.g. don't say "3.68 KB" or "11 integration failures"). Describe achievements qualitatively instead. This applies ONLY to outreach mail/DMs, not the resume — resume bullets still require exact metrics per the global tone rules in ~/.claude/CLAUDE.md.
+5. **No permission granting or forgiving language, especially in follow ups** — never write lines like "no worries if it got buried" or "no rush on your end" or "totally understand if you're busy." These sound like the sender is granting the recipient absolution from a position of authority they don't have, which flips the power dynamic backwards (Justin is the one asking for a favor, not the one who gets to excuse the recipient's delay). Just state the follow up directly without the reassurance clause.
+6. **For an already-connected, senior/formal contact, keep it short and plain — do not front-load a resume link or an "I'm applying independently anyway" line.** General referral-request research (see the LinkedIn referral research pulled 2026-08-06) recommends putting the resume link directly in the ask and stating you're applying regardless of their reply, but Justin explicitly stripped both out of a Josh Zamarripa (Path Robotics, Sr. Engineering Manager) draft and called the trimmed version "better." The trimmed structure: one paragraph of background + company specific hook, one short line naming the actual ask (want to learn about the team / interested in applying), one short closing line asking to connect, thank you last. No resume link, no "not asking for anything" hedge, no independent-application mention — those read as over-explained rather than as the confident, simple, formal tone he wants for senior contacts he already has a connection with.
+
+**Why:** User's explicit correction after reviewing a drafted Sandisk outreach email — flagged that dash-as-punctuation, precise numbers, and polished formal phrasing read as AI generated and hurt reply rates, and that every message should open with a clear human identifier line. Refined 2026-07-01 during the ASI Tom G. email: user clarified rule 1 only bans dashes joining clauses (like "hey -- hello"), not hyphenated compound words like "bare-metal" or "multi-servo" — those are normal technical terms and should stay unhyphenated-word-splitting is not the goal. Rule 5 added 2026-08-04 (session Ommo_Embedded_Firmware_ReachOutOnly) after user flagged that "no worries if it got buried" reads like Justin is condescending to the recipient, as if he has standing to forgive their delay. Rule 6 added 2026-08-06 after user approved a trimmed, formal version of the Josh Zamarripa message over the fuller research-backed draft, explicitly asking to "keep things formal, do not sound very desperate or try hard."
+
+**How to apply:** Already baked into ~/.claude/skills/job-automator/references/outreach_examples.md (tone rules + one liner rule + rewritten examples) and ~/.claude/skills/job-automator/SKILL.md C4 body formatting rules. Any manual outreach draft (not going through the skill) should follow the same four rules.

@@ -1,0 +1,60 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Entry Electrical Engineering Embedded Power Solutions",
+  "job_slug": "entry_ee_power",
+  "match_pct": 46.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.31,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "PCB design tools (EAGLE, Proteus)",
+    "Electrical CAD/design software (SolidWorks, EAGLE)",
+    "Digital Electronics fundamentals",
+    "Oscilloscopes / Logic Analyzers"
+  ],
+  "missing_skills": [
+    "Formal test plans (tolerance, form/fit/function validation)",
+    "Shock and vibration testing",
+    "Electromagnetic interference (EMI/EMC) testing",
+    "Thermal analysis of materials / thermal generation validation",
+    "Reliability analysis of materials and designs"
+  ],
+  "adjacent_skills": [
+    "Circuit/IC-level design (has embedded circuit integration, not analog IC design)",
+    "Algorithms (ML/DSP algorithms, not control/power algorithms)",
+    "System power measurement (PWM/embedded power work, not formal power validation)",
+    "Design documentation (project reports/posters, not board design docs)",
+    "Random Signal Analysis (coursework, adjacent to EMI/noise analysis)"
+  ],
+  "top_ats_keywords": [
+    "PCB",
+    "board design",
+    "EMI",
+    "thermal",
+    "power measurement",
+    "test plans",
+    "electrical design tools",
+    "reliability"
+  ],
+  "key_responsibilities": [
+    "Design electrical/electronic parts, subsystems, integrated circuitry",
+    "Implement test plans (tolerance, shock/vibration, EMI, thermal, power)",
+    "Support board design documentation and validation testing"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

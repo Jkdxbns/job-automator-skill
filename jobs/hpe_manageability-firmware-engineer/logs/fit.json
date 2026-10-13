@@ -1,0 +1,126 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Manageability Firmware Engineer",
+  "job_slug": "manageability-firmware-engineer",
+  "match_pct": 80.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 2,
+    "missing_count": 1,
+    "jd_ask_size": 10,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Linux",
+    "Bash",
+    "Debugging",
+    "Testing",
+    "Firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Systems software / operating systems",
+      "you_have": "Custom RTOS / bare-metal / Linux drivers"
+    },
+    {
+      "jd_skill": "Networking",
+      "you_have": "TCP/IP telemetry gateway (in progress) / Bluetooth"
+    }
+  ],
+  "missing_skills": [
+    "Rust"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Rust",
+    "C/C++",
+    "Linux",
+    "Shell Scripting",
+    "Firmware",
+    "Debugging",
+    "Testing",
+    "Networking",
+    "Operating systems"
+  ],
+  "required_skills": [
+    "Python",
+    "Rust",
+    "C/C++",
+    "Linux Shell Scripting",
+    "Debugging",
+    "Testing",
+    "Systems software",
+    "Software systems design tools"
+  ],
+  "preferred_skills": [
+    "Multi-platform software design"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Code systems software enhancements",
+    "Execute test plans, debug issues",
+    "Work with outsourced dev partners"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Chippewa Falls WI / Spring TX / Bloomington MN / Ft. Collins CO (hybrid 2 days)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "C/C++ firmware: STM32 bare-metal Cortex-M4 monitor (GPIO/TIM2/ADC1/I2C1 driver, 3.68 KB Flash, deterministic 1 Hz) and Arduino C++ two-link IK",
+      "Board-level bus work: UART/I2C/SPI, TCA9548A I2C mux with dual VL53L0X, ADXL345 over I2C, the exact bus vocabulary of BMC/manageability firmware",
+      "Debugging real hardware: resolved 11 integration failures in COFFIN (servo brown-out, stale frames), logic analyzer and oscilloscope experience",
+      "Python plus Bash on Linux: Flask-SocketIO server, PyQt DAQ GUI, systemd unit with auto-restart and non-root isolation, static IP config on headless Jetson",
+      "Multi-platform: STM32, Arduino, Raspberry Pi, Jetson under one system, matches 'software running on multiple platform types'"
+    ],
+    "real_gaps": [
+      "Rust: zero exposure anywhere in the profile",
+      "BMC domain: no IPMI, Redfish, OpenBMC, PMBus/SMBus, or out-of-band management experience, and the title says Manageability",
+      "OS/kernel-level systems software: no Linux kernel drivers, bootloader, or compiler work; RTOS is coursework-level",
+      "Networking below application layer: WebSocket and static IP only, no protocol stack or network firmware",
+      "Formal test plans and protocols: testing is ad hoc trial-based, not test-plan execution",
+      "Seniority: 0 years full-time, though 0-2 yrs is asked so this is aligned"
+    ],
+    "overstated_by_keywords": [
+      "Networking counted Adjacent: WebSocket/static IP is application-level, and the TCP/IP gateway is not built yet",
+      "Systems software/OS counted Adjacent: bare-metal and FreeRTOS coursework is far from server-firmware systems software"
+    ],
+    "understated_by_keywords": [
+      "I2C mux, sensor bus arbitration and brown-out debugging map directly onto BMC-style hardware monitoring, even though no term string-matched",
+      "systemd service hardening on Jetson is real Linux service-management depth"
+    ],
+    "screening_gaps": [
+      "No Rust experience on a JD that lists it as a named language",
+      "No BMC/iLO/IPMI/Redfish or server-management background for a role titled Manageability Firmware",
+      "No demonstrated OS or kernel-level systems software beyond bare-metal microcontroller work"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The JD text is generic and entry level (0-2 yrs), and the C/C++, Python, Bash, Linux and hardware debugging backing is concrete. The real risk is domain: server manageability (BMC, Redfish, IPMI) plus Rust have no backing, and OS-level systems work is thin. Worth applying since the level fits, but expect probing on BMC concepts and Rust.",
+    "calibration_delta": 12.0
+  }
+}

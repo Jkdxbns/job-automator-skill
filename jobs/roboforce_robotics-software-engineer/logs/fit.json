@@ -1,0 +1,165 @@
+{
+  "company": "RoboForce",
+  "company_slug": "roboforce",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 53.2,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 3,
+    "missing_count": 13,
+    "jd_ask_size": 31,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "Perception",
+    "Motion Planning",
+    "Robot Behavior",
+    "Controls",
+    "Embedded Systems",
+    "Debugging",
+    "Testing & Validation",
+    "Performance Tuning",
+    "Networking",
+    "Sensor Integration",
+    "RViz",
+    "Scripting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Autonomous Vehicles",
+      "you_have": "Autonomous systems / CV robotics (turret, Jetson perception)"
+    },
+    {
+      "jd_skill": "Outdoor Robotics",
+      "you_have": "Lab/capstone robotics deployment (indoor/bench)"
+    },
+    {
+      "jd_skill": "Production Deployment at Fleet Scale",
+      "you_have": "systemd/deployment (single-node, not fleet)"
+    }
+  ],
+  "missing_skills": [
+    "Localization",
+    "State Estimation",
+    "Teleoperation",
+    "Fault Handling",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Foxglove",
+    "Grafana",
+    "Simulation",
+    "Telemetry Tooling",
+    "Log Analysis",
+    "Drones"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "Perception",
+    "Planning",
+    "Controls",
+    "Localization",
+    "State Estimation",
+    "Teleoperation",
+    "Embedded Systems",
+    "Debugging",
+    "Testing",
+    "Fault Handling",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Foxglove",
+    "Grafana",
+    "RViz"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "Robotics Domain Experience",
+    "Debugging"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Foxglove",
+    "Grafana",
+    "RViz",
+    "Outdoor Robotics",
+    "Production Deployment at Fleet Scale"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Production robotics software (C++/Python)",
+    "System integration across perception/planning/controls/teleoperation",
+    "Robustness & reliability engineering",
+    "Debugging & root cause analysis",
+    "Tooling & infrastructure",
+    "On-robot validation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Milpitas, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN capstone (Voice-Controlled Robotic Arm) is a genuine multi-component system-integration project \u2014 perception (TensorRT/YOLO), real-time control (servo IK on Arduino), sensor fusion (dual ToF), and a systemd-deployed service with static networking \u2014 directly maps to 'System Integration' and 'On-Robot Validation'",
+      "Robustness & reliability engineering has concrete backing: COFFIN's '11 integration failures resolved, 100% pick reliability' bullet and Robocon's fail-safe state machine / PWM-saturation debugging are exactly the kind of edge-case hardening the JD's 'Robustness & Reliability Engineering' bullet describes",
+      "Debugging & root cause analysis across software/sensors/timing/hardware is well backed \u2014 Robocon's interrupt-driven quadrature decoding and COFFIN's stale-frame/servo-brown-out fixes show cross-layer debugging, not just app-level",
+      "Strong C++/Python dual proficiency with real embedded C++ (Arduino IK, STM32 bare-metal) and Python (Flask-SocketIO, PyQt GUIs), matching the JD's 'read, debug, write production-level C++ alongside Python tooling' ask"
+    ],
+    "real_gaps": [
+      "No localization, state estimation, or SLAM anywhere in the profile \u2014 a named 'Robotics Software Fundamentals' bullet with zero backing",
+      "No outdoor or unstructured-environment deployment \u2014 every project is indoor/lab/bench/competition or pure simulation (CARLA); the JD's entire framing is outdoor industrial robots",
+      "No teleoperation experience \u2014 COFFIN's voice-command interface is an operator interface but not remote teleoperation of a mobile platform",
+      "No CI/CD, Docker, or Kubernetes anywhere in the profile \u2014 'Tooling & Infrastructure' responsibility and two bonus quals are fully unbacked",
+      "No observability/diagnostics tooling (Foxglove, Grafana) \u2014 bonus qual with zero evidence",
+      "0 years full-time professional experience against the JD's 2+ year ask, though 7 internships partially offset this"
+    ],
+    "overstated_by_keywords": [
+      "'Autonomous Vehicles' counted Adjacent, but the only evidence (CARLA) is simulation-only \u2014 no physical AV/drone/field hardware",
+      "'Controls' counted Have via PWM/servo closed-loop feedback \u2014 real, but RC/servo-level control, not a robot motion-planning/controls stack in the production-software sense the JD implies"
+    ],
+    "understated_by_keywords": [
+      "COFFIN's systemd deployment (auto-restart, non-root isolation, env-based config, static IP networking) is genuine production-deployment discipline the keyword pass under-weighted \u2014 it just doesn't use the literal words 'Docker' or 'CI/CD'",
+      "Robocon's real-time closed-loop heading correction and fail-safe halt-on-disconnect state machine is stronger 'field-like reliability under competition pressure' evidence than the keyword score credited"
+    ],
+    "screening_gaps": [
+      "No outdoor/unstructured-environment field deployment anywhere in the profile \u2014 RoboForce's entire product thesis is outdoor industrial robots, and every project here is indoor/lab/competition/simulation",
+      "Zero backing for localization or state estimation, a named robotics-fundamentals requirement",
+      "No CI/CD, Docker, or Kubernetes experience \u2014 the 'Tooling & Infrastructure' responsibility has no supporting evidence"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The debugging, robustness, and hands-on hardware-integration depth (COFFIN, Robocon, Object Tracking Turret) genuinely map to half of the JD's core responsibilities, and the C++/Python/embedded/perception combination is real, not surface. But the profile has zero outdoor-deployment evidence against a company built entirely around outdoor field robots, no localization/state-estimation work, and no CI/CD or release-infrastructure experience \u2014 three gaps concrete enough that a recruiter reading closely would flag them, even though the underlying robotics fundamentals are solid enough to make this worth applying to as a stretch role.",
+    "calibration_delta": -4.8
+  }
+}

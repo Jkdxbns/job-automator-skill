@@ -1,0 +1,84 @@
+{
+  "company": "Oliver Wyman",
+  "company_slug": "oliver-wyman",
+  "role": "AI Product Enablement Analyst",
+  "job_slug": "ai-product-enablement-analyst",
+  "match_pct": 14.3,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 5,
+    "jd_ask_size": 7,
+    "req_cov": 0.143,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI tool experimentation",
+      "you_have": "ML/DL experimentation (PyTorch, TensorRT, quantization, LLM fine-tuning)"
+    },
+    {
+      "jd_skill": "Lightweight AI workflow prototyping",
+      "you_have": "Building AI/embedded pipelines (inference engine, telemetry gateway)"
+    }
+  ],
+  "missing_skills": [
+    "Prompt engineering / structured prompt testing",
+    "Custom GPT / AI assistant configuration",
+    "Documentation / prompt libraries / structured guides",
+    "Coaching support / office hours",
+    "Analytics or digital enablement background"
+  ],
+  "top_ats_keywords": [
+    "Prompt engineering",
+    "Custom GPTs",
+    "AI tool fluency",
+    "AI experimentation",
+    "Digital enablement",
+    "Documentation"
+  ],
+  "required_skills": [
+    "Prompt engineering / structured prompt testing",
+    "Custom GPT / AI assistant configuration and testing",
+    "AI tool experimentation",
+    "Lightweight AI workflow prototyping",
+    "Documentation / prompt libraries / structured guides",
+    "Coaching support / office hours",
+    "Analytics or digital enablement background (2-5 yrs)"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Structured prompt testing and refinement",
+    "Configure/test custom GPTs and AI assistants",
+    "Prototype lightweight AI workflows",
+    "Build and maintain prompt libraries and exemplars",
+    "Support office hours and AI coaching",
+    "Track usage patterns and report to leadership"
+  ],
+  "role_category": "ml_systems",
+  "location": "Kuala Lumpur, Malaysia",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

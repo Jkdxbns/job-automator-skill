@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "company": "Domino Data Lab",
+    "role": "Forward Deployed Engineer - New Grad, 2027",
+    "company_slug": "domino_data_lab",
+    "job_slug": "fde_new_grad_2027"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering from Rochester Institute of Technology. Built production ML systems end-to-end using Python, PyTorch, and TensorFlow. Optimized inference 5.2× through quantization; resolved real-world integration challenges and delivered 100% reliability on complex problems.",
+  "skills": {
+    "Programming & ML": [
+      "Python",
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "Model Optimization": [
+      "Quantization (8-bit)",
+      "Inference Profiling",
+      "TensorRT"
+    ],
+    "Deep Learning": [
+      "Transformers",
+      "CNNs",
+      "Sequence Models"
+    ],
+    "Computer Vision & NLP": [
+      "OpenCV",
+      "YOLO",
+      "Hugging Face",
+      "ASR Pipelines"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "PyQt",
+      "Flask"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Led 7-person team as sole ML expert; built medical imaging pipeline (BraTS 2020) with U-Net, VGG, ResNet in Python; reported accuracy-latency trade-offs for production deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (MS Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected metal surface inspection pipeline: custom wavelet denoising, monocular depth estimation; optimized PSNR from 65 to 86 through algorithms and concurrency.",
+        "Demonstrated complex problem decomposition on industrial data, from specification to production metrics (±8% 3D reconstruction error)."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT transformer on medical billing dataset using PyTorch and Hugging Face; improved validation accuracy 55% → 93% via preprocessing and model optimization."
+      ]
+    },
+    {
+      "title": "MS Capstone: Voice-Controlled Robotic Arm",
+      "company": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Jan 2026 – Apr 2026",
+      "bullets": [
+        "Built end-to-end ML system: STT, intent classification, TensorRT-optimized inference; achieved 5.2× speedup (56.7→10.9 ms, 17.6→92 FPS).",
+        "Resolved 11 integration failures; delivered 100% pick reliability (10/10 trials) at 11.5s latency—production-grade problem-solving under real constraints."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression for Edge",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory 55% via 8-bit quantization (TinyLlama 1.1B); <1% accuracy loss with +0.09 perplexity on HellaSwag, GSM8K, ARC benchmarks."
+      ]
+    },
+    {
+      "name": "Custom Whisper-Style ASR",
+      "date": null,
+      "bullets": [
+        "Built end-to-end speech recognition: 80-channel mel spectrograms, 4-block transformer, custom Cython-accelerated BPE (4–5.5× speedup); 15% WER on Hindi-English."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Artificial Neural Networks",
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — Image Mosaicing (F.C.R.I.T., 2024)"
+  ]
+}

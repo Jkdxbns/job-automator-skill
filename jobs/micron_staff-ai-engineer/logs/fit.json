@@ -1,0 +1,186 @@
+{
+  "company": "Micron Technology",
+  "company_slug": "micron",
+  "role": "Staff AI Engineer",
+  "job_slug": "staff-ai-engineer",
+  "match_pct": 27.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 9,
+    "missing_count": 23,
+    "jd_ask_size": 38,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "LLM integration",
+    "Testing strategies",
+    "Git / source control",
+    "Clean code practices",
+    "Object-oriented design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "RESTful APIs",
+      "you_have": "Flask / Flask-SocketIO + WebSocket endpoints"
+    },
+    {
+      "jd_skill": "C#",
+      "you_have": "C++ / Python (OOP, no .NET)"
+    },
+    {
+      "jd_skill": "Embeddings",
+      "you_have": "GPT-2 from scratch (BPE/TikToken tokenizer, attention)"
+    },
+    {
+      "jd_skill": "Context window management",
+      "you_have": "transformer internals + tokenization from scratch"
+    },
+    {
+      "jd_skill": "Chain-of-thought design",
+      "you_have": "GSM8K / HellaSwag reasoning-benchmark evaluation"
+    },
+    {
+      "jd_skill": "Containerized deployments",
+      "you_have": "systemd service deployment on Jetson (no Docker/K8s)"
+    },
+    {
+      "jd_skill": "Scalable system architecture",
+      "you_have": "MPI + SLURM distributed/HPC workloads"
+    },
+    {
+      "jd_skill": "Observability",
+      "you_have": "pynvml GPU profiling + latency/FPS benchmarking"
+    },
+    {
+      "jd_skill": "Full stack software engineering",
+      "you_have": "PyQt / PySide6 / Flutter GUI + Flask backend"
+    }
+  ],
+  "missing_skills": [
+    "ASP.NET",
+    "Angular",
+    "SQL",
+    "NoSQL",
+    "Kubernetes",
+    "CI/CD pipelines",
+    "Cloud-native environments",
+    "Model Context Protocol (MCP)",
+    "Retrieval-augmented generation (RAG)",
+    "Custom AI agents",
+    "Prompt Engineering",
+    "Vibe Coding",
+    "Tool invocation design",
+    "AI guardrails and hallucination risk",
+    "Data modeling",
+    "Data persistence",
+    "Service integration",
+    "Production-grade backend systems",
+    "API design",
+    "AI-assisted development workflows",
+    "Evaluating AI-generated output for production",
+    "Interoperable AI systems without hard-coded integrations",
+    "Operationalizing AI in high-reliability environments"
+  ],
+  "top_ats_keywords": [
+    "C#",
+    "ASP.NET",
+    "Angular",
+    "RESTful APIs",
+    "SQL",
+    "NoSQL",
+    "Kubernetes",
+    "CI/CD",
+    "MCP",
+    "Model Context Protocol",
+    "RAG",
+    "Prompt Engineering",
+    "LLM",
+    "Custom AI Agents",
+    "full stack",
+    "API design",
+    "containerized deployments",
+    "cloud-native",
+    "data modeling",
+    "observability",
+    "Vibe Coding",
+    "chain-of-thought",
+    "embeddings",
+    "Python"
+  ],
+  "required_skills": [
+    "Full stack software engineering",
+    "Object-oriented design",
+    "Clean code practices",
+    "Testing strategies",
+    "Production-grade backend systems",
+    "API design",
+    "Service integration",
+    "Data persistence",
+    "Scalable system architecture",
+    "Cloud-native environments",
+    "CI/CD pipelines",
+    "Containerized deployments",
+    "Data modeling",
+    "SQL",
+    "NoSQL",
+    "C#",
+    "ASP.NET",
+    "Angular",
+    "RESTful APIs",
+    "Kubernetes",
+    "Custom AI agents",
+    "Prompt Engineering",
+    "Vibe Coding",
+    "Context window management",
+    "Chain-of-thought design",
+    "Model Context Protocol (MCP)",
+    "Tool invocation design",
+    "AI guardrails and hallucination risk",
+    "Retrieval-augmented generation (RAG)",
+    "LLM integration",
+    "Embeddings",
+    "Observability"
+  ],
+  "preferred_skills": [
+    "AI-assisted development workflows",
+    "Evaluating AI-generated output for production",
+    "Interoperable AI systems without hard-coded integrations",
+    "Operationalizing AI in high-reliability environments"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Design, build, deploy and operate full stack software end-to-end",
+    "Build custom AI agents for task automation, decision support, summarization, multi-step reasoning",
+    "Build and integrate systems using MCP for structured context sharing between models, tools and agents",
+    "Integrate LLMs, embeddings, search and tools via APIs; apply RAG",
+    "Harden AI components for 24x7 critical physical manufacturing systems",
+    "Platform enablement, architecture decisions, code reviews, shared engineering standards"
+  ],
+  "role_category": "ml_systems",
+  "location": "Boise, ID - Main Site",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "company": "Perrone Robotics",
+    "role": "Systems Engineer - Autonomous Vehicle (AV) Hardware & Integration",
+    "company_slug": "perrone_robotics",
+    "job_slug": "systems_engineer_av"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with hands-on experience integrating sensors, firmware, and embedded hardware across robotics and autonomous-systems projects. Background spans STM32 bare-metal firmware, UART/I2C sensor communication, PCB design and BOM documentation, and troubleshooting hardware-software integration issues on deployed robotic and simulated autonomous-vehicle platforms. Comfortable working hands-on with vendor hardware, Python and shell scripting for diagnostics, and cross-team technical collaboration.",
+  "skills": {
+    "Embedded & Hardware": ["STM32 (Bare-Metal C)", "UART/I2C/SPI", "Arduino", "EAGLE PCB Design", "FreeRTOS", "NVIDIA Jetson", "Raspberry Pi", "Bluetooth (BLE/Classic)"],
+    "Robotics & Perception": ["ROS/ROS2", "MoveIt", "RViz", "Visual servoing", "Forward kinematics", "YOLO"],
+    "Languages & Tools": ["Python", "C/C++", "Git", "GitLab", "Bash", "Linux"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Architected a Mixed Reality headset concept using AI based real time chroma keying without a green screen; produced full claims documentation and BOM.",
+        "Developed a wearable gesture recognition glove for hands free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Led a 25 member robotics team across national level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end to end.",
+        "Designed and fabricated custom single layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed loop feedback.",
+        "Organized 10+ exhibitions and technical workshops covering Arduino, PCB design, and SolidWorks."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real time data acquisition and visualization; used GitLab and JupyterHub for version control and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending multi servo PWM control commands to STM32 over interrupt driven UART with user override.",
+        "Used FreeRTOS with mutexes for shared memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n and fine tuned UFLD for an adaptive control stack with lane following and waypoint fallback.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation - 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon - National-level robotics competition among 45 universities (2022)"
+  ]
+}

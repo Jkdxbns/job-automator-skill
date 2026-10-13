@@ -1,0 +1,161 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "System Software Engineer - Robotics Simulation",
+  "job_slug": "robotics-simulation-sse",
+  "match_pct": 48.1,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 9,
+    "missing_count": 9,
+    "jd_ask_size": 26,
+    "req_cov": 0.577,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "robotics",
+    "motion planning & controls",
+    "URDF",
+    "physical robots",
+    "synthetic data generation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "physics simulation",
+      "you_have": "CARLA simulation, MPI Hodgkin-Huxley simulation"
+    },
+    {
+      "jd_skill": "Isaac Sim",
+      "you_have": "CARLA + ROS2/RViz sim tooling"
+    },
+    {
+      "jd_skill": "REST",
+      "you_have": "Flask / Flask-SocketIO / WebSocket edge server"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI, SLURM, multi-device WebSocket fabric"
+    },
+    {
+      "jd_skill": "parallelism",
+      "you_have": "MPI, CUDA"
+    },
+    {
+      "jd_skill": "concurrency",
+      "you_have": "CUDA, concurrent homography stitching"
+    },
+    {
+      "jd_skill": "CAD formats",
+      "you_have": "SolidWorks"
+    },
+    {
+      "jd_skill": "UI/UX tooling",
+      "you_have": "PyQt/PySide6 GUI, VisPy frame simulator"
+    },
+    {
+      "jd_skill": "shipping software products",
+      "you_have": "systemd-deployed Jetson services"
+    }
+  ],
+  "missing_skills": [
+    "ZMQ",
+    "DDS",
+    "RPC",
+    "Omniverse",
+    "USD",
+    "MJCF",
+    "reinforcement learning",
+    "multi-threading",
+    "asynchronous programming"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Python",
+    "physics simulation",
+    "robotics",
+    "motion planning",
+    "controls",
+    "ZMQ",
+    "DDS",
+    "RPC",
+    "REST",
+    "Isaac Sim",
+    "Omniverse",
+    "USD",
+    "MJCF",
+    "URDF",
+    "reinforcement learning",
+    "synthetic data generation",
+    "multi-threading",
+    "concurrency",
+    "asynchronous programming",
+    "parallelism"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Python",
+    "physics simulation",
+    "robotics",
+    "motion planning & controls",
+    "microservices",
+    "ZMQ",
+    "DDS",
+    "RPC",
+    "REST",
+    "distributed systems",
+    "systems software"
+  ],
+  "preferred_skills": [
+    "Isaac Sim",
+    "Omniverse",
+    "USD",
+    "MJCF",
+    "URDF",
+    "CAD formats",
+    "physical robots",
+    "reinforcement learning",
+    "synthetic data generation",
+    "UI/UX tooling",
+    "shipping software products",
+    "multi-threading",
+    "asynchronous programming",
+    "concurrency",
+    "parallelism"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build tools to configure, simulate, test robots",
+    "Optimize simulation stack for scalable robot and sensor simulation",
+    "Integrate APIs for large scale distributed simulator deployments",
+    "Develop microservices over ZMQ, DDS, RPC, REST"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

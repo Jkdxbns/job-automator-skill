@@ -1,0 +1,121 @@
+{
+  "company": "e-STORAGE (Canadian Solar)",
+  "company_slug": "e-storage",
+  "role": "Controls Engineer",
+  "job_slug": "controls-engineer",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 4,
+    "missing_count": 14,
+    "jd_ask_size": 20,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Computer Engineering degree",
+    "Scripting (Bash/Python)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TCP/IP",
+      "you_have": "WebSocket / Flask networking"
+    },
+    {
+      "jd_skill": "IP addressing",
+      "you_have": "Static IP / network configuration"
+    },
+    {
+      "jd_skill": "Industrial control systems",
+      "you_have": "Closed-loop feedback control (PWM motor control, STM32)"
+    },
+    {
+      "jd_skill": "Batch scripts",
+      "you_have": "Bash"
+    }
+  ],
+  "missing_skills": [
+    "Modbus",
+    "DNP3",
+    "SCADA",
+    "Plant control systems",
+    "BESS / IBR",
+    "Subnetting",
+    "Firewalls",
+    "VPN",
+    "Power systems",
+    "Protective relays",
+    "Substations",
+    "Transformers",
+    "SharePoint",
+    "Site commissioning"
+  ],
+  "top_ats_keywords": [
+    "Modbus",
+    "DNP3",
+    "TCP/IP",
+    "SCADA",
+    "BESS",
+    "IBR",
+    "VPN",
+    "firewalls",
+    "subnetting",
+    "protective relays",
+    "substations",
+    "SharePoint",
+    "batch scripts"
+  ],
+  "required_skills": [
+    "Industrial control systems",
+    "Inverter-based resources / BESS",
+    "Modbus",
+    "DNP3",
+    "TCP/IP",
+    "IP addressing",
+    "Subnetting",
+    "Firewalls",
+    "VPN",
+    "SCADA",
+    "Plant control systems",
+    "Power systems",
+    "Site commissioning",
+    "Electrical Engineering degree"
+  ],
+  "preferred_skills": [
+    "Substations",
+    "Protective relays",
+    "Transformers"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Review design packages, signal mappings, control narratives",
+    "Troubleshoot network/comms in VPN environments",
+    "Site commissioning",
+    "Batch scripts and automation",
+    "SharePoint documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "London, UK (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

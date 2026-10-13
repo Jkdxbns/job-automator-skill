@@ -1,0 +1,125 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Engineer - Sensing & Connectivity",
+  "job_slug": "ml-engineer-sensing-connectivity",
+  "match_pct": 54.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 7,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.929,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "machine learning",
+    "deep learning",
+    "PyTorch",
+    "TensorFlow",
+    "CUDA",
+    "Deep Learning",
+    "quantitative data science"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "time series data",
+      "you_have": "time-series sensor pipelines (ASR, embedded ADC, temperature monitoring)"
+    },
+    {
+      "jd_skill": "generative AI",
+      "you_have": "ASR from scratch, small LLM quantization, synthetic data generation for training"
+    },
+    {
+      "jd_skill": "large dataset modeling",
+      "you_have": "BraTS 3D MRI dataset, image stitching pipeline, distributed MPI neuron simulation"
+    },
+    {
+      "jd_skill": "statistical hypothesis testing",
+      "you_have": "statistical analysis of model performance, accuracy-latency trade-offs, validation pipelines"
+    },
+    {
+      "jd_skill": "distributed compute/storage models",
+      "you_have": "MPI distributed computing, SLURM cluster workloads, CUDA multi-process"
+    },
+    {
+      "jd_skill": "validation and synthetic data",
+      "you_have": "custom validation pipelines, synthetic dataset generation (YOLO annotation pipeline, CARLA semantic segmentation)"
+    },
+    {
+      "jd_skill": "health and fitness algorithms",
+      "you_have": "wearable gesture recognition, health-level classification (YOLO toothbrush detection), temperature/ADC monitoring"
+    }
+  ],
+  "missing_skills": [
+    "sensor fusion algorithms",
+    "multimodal fusion",
+    "health and fitness domain depth",
+    "Ph.D",
+    "biostatistics",
+    "epidemiology"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "deep learning",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "time series",
+    "sensor fusion",
+    "multimodal fusion",
+    "Health",
+    "Fitness",
+    "Apple Watch"
+  ],
+  "required_skills": [
+    "machine learning",
+    "deep learning",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "time series data",
+    "quantitative data science"
+  ],
+  "preferred_skills": [
+    "Ph.D",
+    "statistical hypothesis testing",
+    "large dataset modeling",
+    "distributed compute",
+    "generative AI",
+    "validation and synthetic data",
+    "health and fitness algorithms"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design and implement models for Health and Fitness algorithms",
+    "Validate algorithms with synthetic data flows and real datasets with generative AI",
+    "Coordinate with multi-disciplinary teams across the company",
+    "Deliver best-in-class secure and scalable systems"
+  ],
+  "role_category": "ml_systems",
+  "location": "Cupertino, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

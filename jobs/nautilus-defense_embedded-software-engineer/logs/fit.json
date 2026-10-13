@@ -1,0 +1,83 @@
+{
+  "company": "Nautilus Defense LLC",
+  "company_slug": "nautilus-defense",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 0.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 0,
+    "missing_count": 0,
+    "jd_ask_size": 0,
+    "req_cov": 1.0,
+    "cap_applied": "no_skills_classified"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Rust",
+    "STM32",
+    "RISC-V",
+    "I2C",
+    "SPI",
+    "UART",
+    "BLE",
+    "JTAG",
+    "git"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Rust",
+    "microcontroller firmware",
+    "low-power design",
+    "I2C",
+    "SPI",
+    "UART",
+    "BLE"
+  ],
+  "preferred_skills": [
+    "STM32",
+    "RISC-V",
+    "JTAG",
+    "SWO",
+    "logic analyzers",
+    "git",
+    "electrical engineering fundamentals"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "architect and debug firmware for microcontroller-based systems",
+    "sensor interfacing and data acquisition",
+    "board bring-up and system integration testing",
+    "low-level drivers and ISRs",
+    "power management strategies"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pawtucket, RI",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Citizenship \u2014 \"This position requires US Citizenship.\" (declarative company requirement, not sponsorship-availability language)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

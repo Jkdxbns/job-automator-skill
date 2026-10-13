@@ -1,0 +1,208 @@
+{
+  "company": "Brooks Automation",
+  "company_slug": "brooks-automation",
+  "role": "Camera Vision Software Engineer",
+  "job_slug": "camera-vision-swe",
+  "match_pct": 66.7,
+  "score_detail": {
+    "have_count": 20,
+    "adjacent_count": 8,
+    "missing_count": 8,
+    "jd_ask_size": 36,
+    "req_cov": 0.659,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Computer Vision",
+    "Image Processing",
+    "OpenCV",
+    "C++",
+    "State Machines",
+    "Machine Learning",
+    "Object Detection",
+    "Object Tracking",
+    "Semantic Segmentation",
+    "Depth Estimation",
+    "CNN",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Git",
+    "Linux",
+    "Robotics",
+    "Embedded Inference Optimization",
+    "Data Augmentation",
+    "Precision/Recall"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Vision Transformers",
+      "you_have": "Transformer (GPT-2 / VisionEncoderDecoder)"
+    },
+    {
+      "jd_skill": "Multi-threading",
+      "you_have": "concurrency in image mosaicing pipeline"
+    },
+    {
+      "jd_skill": "Network Communication",
+      "you_have": "WebSocket / Flask-SocketIO, static IP config"
+    },
+    {
+      "jd_skill": "REST APIs",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "Linux Customization",
+      "you_have": "systemd services, XRDP, network config"
+    },
+    {
+      "jd_skill": "Motion Control",
+      "you_have": "PWM motor control, closed-loop feedback, encoders"
+    },
+    {
+      "jd_skill": "Equipment Control",
+      "you_have": "Jetson+Arduino arm bridge, data acquisition"
+    },
+    {
+      "jd_skill": "Data Annotation",
+      "you_have": "CARLA auto-labeled YOLO dataset generation"
+    }
+  ],
+  "missing_skills": [
+    "C#",
+    "UML",
+    "Microsoft DevOps",
+    "SQL/NoSQL",
+    "Docker",
+    "Kubernetes",
+    "Visual Studio",
+    "Windows"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision",
+    "Image Processing",
+    "OpenCV",
+    "C#",
+    "C++",
+    "Object Detection",
+    "Object Tracking",
+    "Segmentation",
+    "Depth Estimation",
+    "CNN",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Vision Transformers",
+    "Machine Learning",
+    "UML",
+    "Multi-threading",
+    "Linux",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "REST API",
+    "SQL",
+    "Robotics",
+    "Motion Control",
+    "Visual Studio"
+  ],
+  "required_skills": [
+    "Computer Vision",
+    "Image Processing",
+    "C#",
+    "C++",
+    "UML",
+    "State Machines",
+    "Multi-threading",
+    "Network Communication",
+    "Equipment Control",
+    "Linux Customization",
+    "Git",
+    "Microsoft DevOps",
+    "OpenCV",
+    "Machine Learning",
+    "Object Detection",
+    "Object Tracking",
+    "Semantic Segmentation",
+    "Depth Estimation",
+    "REST APIs",
+    "SQL/NoSQL",
+    "Docker",
+    "Kubernetes"
+  ],
+  "preferred_skills": [
+    "TensorFlow",
+    "PyTorch",
+    "Deep Learning",
+    "Robotics",
+    "Motion Control"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop/test CV algorithms (detection, tracking, segmentation, depth) for semiconductor robotic systems",
+    "C#/C++ equipment control software on Windows 10 and Linux",
+    "Requirement/design specs, code reviews, unit testing on emulation and hardware",
+    "System integration with ME/EE teams, SQA testing, customer field escalations",
+    "Dataset curation/annotation, model training, inference optimization for embedded hardware"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fremont, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 61,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Defect inspection: BARC metal surface crack inspection pipeline (stitching, wavelet denoising, ZoeDepth depth at \u00b18% error), a direct match for semiconductor defect detection",
+      "Full detection pipeline from data to deployment: Tusk annotated 1,133 images, YOLOv8n 83% mAP@50, exported to ONNX/TFLite; CARLA auto-labeled ~5,000 frames",
+      "Embedded inference optimization: COFFIN TensorRT YOLO 5.2x speedup (17.6 to 92 FPS) on Jetson, plus CUDA conv kernels",
+      "Segmentation + metrics: U-Net with VGG/ResNet backbones on BraTS, evaluated with Dice/IoU and accuracy/latency trade-offs",
+      "Vision-guided robotics: COFFIN visual servoing pick-and-place, UR5e/AL5B kinematics, Object Tracking Turret"
+    ],
+    "real_gaps": [
+      "No C# anywhere; the role's main language is C# in Visual Studio 2022 on Windows 10 and Linux",
+      "Requires 4 years of professional software development; profile is internships, research and capstone work",
+      "No formal SDLC work: UML OOA/OOD, written requirement/design specs, SQA testing, customer field escalations",
+      "No REST API, SQL/NoSQL, Docker or Kubernetes experience",
+      "Linux customization is limited to systemd services and network config, with no OS/image customization",
+      "No equipment/instrumentation control software in a production setting"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted as Have, but the evidence is Arduino IK and CUDA kernels rather than object-oriented application C++",
+      "Equipment Control / Linux Customization adjacencies are from hobby and capstone hardware, not production tools"
+    ],
+    "understated_by_keywords": [
+      "BARC crack inspection is effectively defect detection on microscopic imagery, the exact use case named in the JD",
+      "Concurrency evidence is better than 'Adjacent' shows: FreeRTOS mutexes on the turret, multiprocessing multi-camera capture in COFFIN, concurrency in BARC stitching",
+      "Cross-functional ME/EE integration: Robocon wiring/integration across mechanical and design teams, ARC PCB plus mechanical ownership"
+    ],
+    "screening_gaps": [
+      "4 years of professional C#/C++ development with no C# at all",
+      "No production software process (UML/state-machine design specs, SQA, customer field support) in equipment control",
+      "No Docker/Kubernetes, REST API or SQL experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The computer vision half of this role (detection, tracking, segmentation, depth, embedded inference, defect inspection) is backed concretely across several projects and is above the bar. The equipment-control software engineering half (C# on Windows, UML specs, SQA, containers, databases) has almost no backing, and the 4-year C#/C++ requirement is the likely screen-out. Worth an application if the CV work is what the team is actually hiring for.",
+    "calibration_delta": 5.7
+  },
+  "semantic_pending": false
+}

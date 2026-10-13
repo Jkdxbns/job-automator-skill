@@ -1,0 +1,71 @@
+{
+  "company": "Bot Auto",
+  "company_slug": "botauto",
+  "role": "GPU Engineer",
+  "job_slug": "gpu-engineer",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Nsight Systems/Nsight Compute (used pynvml/psutil instead)",
+    "Jetson Thor / DRIVE Thor",
+    "MPS/MIG concurrent GPU workload isolation",
+    "GPU-accelerated sensor data compression",
+    "LiDAR/radar sensor streams",
+    "OpenCL/Vulkan"
+  ],
+  "adjacent_skills": [
+    "GPU profiling (pynvml/psutil vs Nsight)",
+    "camera sensor streams (no LiDAR/radar)",
+    "8-bit quantization (not FP8/NVFP4)",
+    "Jetson (not Thor generation)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "GPU architecture",
+    "memory hierarchy",
+    "parallel computing",
+    "PyTorch",
+    "ONNX",
+    "TensorRT",
+    "C/C++",
+    "Python",
+    "embedded systems",
+    "real-time",
+    "kernel optimization",
+    "quantization"
+  ],
+  "key_responsibilities": [
+    "Optimize end-to-end GPU performance for real-time autonomous driving workloads",
+    "Develop and optimize parallel computing algorithms and GPU-accelerated components using CUDA",
+    "Design and improve onboard GPU software architectures for perception, planning, control",
+    "Profile and analyze GPU bottlenecks (compute, memory, synchronization, CPU-GPU interaction)",
+    "Debug and optimize GPU-based software for latency/throughput/stability on embedded platforms"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Custom CUDA C++ kernels for VGG16 inference with memory coalescing and constant memory, 35% speedup over naive GPU (CUDA Kernel Optimization project) \u2014 directly backs 'parallel computing algorithms and GPU-accelerated components using CUDA'",
+      "TensorRT-optimized YOLO on Jetson achieving 5.2x speedup (56.7ms to 10.9ms, 17.6 to 92 FPS) in the COFFIN capstone \u2014 directly backs the PyTorch/ONNX/TensorRT inference deployment requirement",
+      "8-bit quantization (bitsandbytes LLM.int8) with pynvml/psutil VRAM and latency profiling on TinyLlama \u2014 backs GPU memory/performance profiling, though with a shallower toolset than Nsight",
+      "MPI-based parallel computing (Hodgkin-Huxley neuron sim: 10.49x speedup; ray tracer: 30x speedup) shows real depth in parallel computing principles beyond just CUDA",
+      "CARLA autonomous driving project with perception (YOLO/UFLD lane detection) and control stack integration maps directly to 'perception, planning, and control modules' language in the JD"
+    ],
+    "real_gaps": [
+      "No experience with actual vehicle sensor hardware (LiDAR, radar) or real-world autonomous driving sensor streams \u2014 CARLA project is simulation only, and camera work (turret, COFFIN) is small-scale robotics, not automotive-grade",
+      "No Nsight Systems/Nsight Compute experience specifically \u2014 profiling work used pynvml/psutil, which surfaces memory/utilization stats but not the kernel-level, occupancy, and stall-reason analysis Nsight provides",
+      "No experience with Jetson Thor, DRIVE Thor, or any automotive-grade embedded GPU platform \u2014 Jetson experience is on consumer/dev boards (Orin Nano class) for small robotics projects",
+      "No production or safety-critical real-time systems experience \u2014 all GPU/embedded work is coursework or capstone scale (single-semester projects, lab demos), not a sustained engineering role with uptime/safety/latency SLAs",
+      "3+ years of dedicated GPU programming experience is preferred; candidate has 0 full-time years, with CUDA-specific work concentrated in a handful of course/capstone projects rather than sustained professional practice"
+    ],
+    "overstated_by_keywords": [
+      "\"Profiling GPU applications\" counted as adjacent from pynvml/psutil use, but this is meaningfully shallower than the Nsight Systems/Nsight Compute tooling the JD explicitly names",
+      "\"Real-time embedded systems... sensor streams (camera, LiDAR, radar)\" counted as adjacent on camera-only, small-robotics grounds \u2014 LiDAR and radar are both absent from the actual profile"
+    ],
+    "reasoning": "The core GPU/CUDA/TensorRT technical skills are genuinely strong and well-backed by specific projects with real performance numbers, which is exactly what this JD is testing for at the mechanism level. The gap is domain and scale: this is an automotive-grade, safety-critical, real-time GPU engineering role on Thor-class hardware with LiDAR/radar sensor fusion, and the candidate's strongest work is simulation and small-robotics scale rather than production autonomous vehicle systems."
+  }
+}

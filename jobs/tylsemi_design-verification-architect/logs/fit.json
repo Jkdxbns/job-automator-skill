@@ -1,0 +1,103 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "Design Verification Architect",
+  "job_slug": "design-verification-architect",
+  "match_pct": 7.7,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 13,
+    "req_cov": 0.25,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI/ML applications in verification",
+      "you_have": "CUDA / GPU / PyTorch / TensorRT / ML optimization"
+    },
+    {
+      "jd_skill": "SoC architecture exposure (AI/HPC domain)",
+      "you_have": "Edge AI deployment (Jetson + TensorRT + YOLO)"
+    }
+  ],
+  "missing_skills": [
+    "SystemVerilog",
+    "UVM",
+    "Coverage-driven verification",
+    "SVA (Assertion-based verification)",
+    "Portable Stimulus (PSS)",
+    "Multi-IP integration",
+    "High-speed interfaces (PCIe, DDR, Ethernet, CXL, UCIe)",
+    "Emulation/prototyping platforms",
+    "Performance verification",
+    "Power-aware verification",
+    "12+ years design verification experience"
+  ],
+  "top_ats_keywords": [
+    "Design Verification",
+    "SystemVerilog",
+    "UVM",
+    "SVA",
+    "Coverage-driven",
+    "Portable Stimulus",
+    "SoC verification",
+    "Verification architecture",
+    "AI/ML verification"
+  ],
+  "required_skills": [
+    "SystemVerilog",
+    "UVM",
+    "Coverage-driven verification",
+    "SVA (Assertion-based verification)",
+    "Portable Stimulus (PSS)",
+    "SoC architecture knowledge",
+    "Multi-IP integration",
+    "High-speed interfaces"
+  ],
+  "preferred_skills": [
+    "AI/ML applications in verification",
+    "Emulation/prototyping platforms",
+    "Performance verification",
+    "Power-aware verification",
+    "PCIe/DDR/Ethernet/CXL/UCIe protocols"
+  ],
+  "required_experience_years": 12,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define and drive overall verification architecture for large-scale SoCs",
+    "Architect reusable, modular, portable verification platforms",
+    "Lead development of high-performance, coverage-driven testbenches using UVM",
+    "Drive multi-level verification strategies (block, subsystem, SoC)",
+    "Define verification quality metrics and coverage closure strategies",
+    "Champion fail-fast philosophy to detect issues early",
+    "Leverage AI/ML for testbench/stimulus generation and regression efficiency",
+    "Mentor DV teams on best practices and methodology"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA / Remote (United States)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

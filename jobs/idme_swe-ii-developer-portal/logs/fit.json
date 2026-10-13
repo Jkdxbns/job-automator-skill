@@ -1,0 +1,160 @@
+{
+  "company": "ID.me",
+  "company_slug": "idme",
+  "role": "Software Engineer II, Developer Portal (New Grad / Early Career)",
+  "job_slug": "swe-ii-developer-portal",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 6,
+    "missing_count": 21,
+    "jd_ask_size": 30,
+    "req_cov": 0.462,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "LLM",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "REST APIs",
+      "you_have": "Flask / Flask-SocketIO edge server"
+    },
+    {
+      "jd_skill": "HTTP",
+      "you_have": "Flask / WebSocket server"
+    },
+    {
+      "jd_skill": "Spring Boot",
+      "you_have": "Flask (backend framework)"
+    },
+    {
+      "jd_skill": "React",
+      "you_have": "Flutter client UI"
+    },
+    {
+      "jd_skill": "Automated testing",
+      "you_have": "golden test vectors (QAT)"
+    },
+    {
+      "jd_skill": "Docker",
+      "you_have": "systemd service deployment"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "PostgreSQL",
+    "Next.js",
+    "OAuth 2.0",
+    "OpenID Connect",
+    "JWT",
+    "SSO",
+    "MCP",
+    "Agentic workflows",
+    "AI coding tools",
+    "JUnit",
+    "Jest",
+    "Playwright",
+    "GCP",
+    "AWS",
+    "CI/CD",
+    "Ruby",
+    "Data structures and algorithms"
+  ],
+  "top_ats_keywords": [
+    "Java",
+    "Spring Boot",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "PostgreSQL",
+    "SQL",
+    "REST",
+    "OAuth 2.0",
+    "OpenID Connect",
+    "JWT",
+    "SSO",
+    "LLM",
+    "MCP",
+    "Claude Code",
+    "Cursor",
+    "JUnit",
+    "Jest",
+    "Playwright",
+    "CI/CD",
+    "GCP",
+    "AWS",
+    "Docker"
+  ],
+  "required_skills": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "REST APIs",
+    "HTTP",
+    "SQL",
+    "Data structures and algorithms",
+    "LLM",
+    "Agentic workflows",
+    "MCP",
+    "AI coding tools",
+    "Automated testing"
+  ],
+  "preferred_skills": [
+    "Spring Boot",
+    "React",
+    "Next.js",
+    "PostgreSQL",
+    "OAuth 2.0",
+    "OpenID Connect",
+    "JWT",
+    "SSO",
+    "Access control",
+    "JUnit",
+    "Jest",
+    "Playwright",
+    "GCP",
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "Ruby"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Build backend APIs and data models for developer portal",
+    "Ship Next.js/React frontend features",
+    "Write tested code, code review",
+    "On-call"
+  ],
+  "role_category": "ml_systems",
+  "location": "Mountain View, CA (onsite 5 days)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

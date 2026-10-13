@@ -1,0 +1,116 @@
+{
+  "company": "Edmentum",
+  "company_slug": "edmentum",
+  "role": "Research Scientist, Applied AI Research",
+  "job_slug": "research-scientist-applied-ai",
+  "match_pct": 21.1,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 19,
+    "req_cov": 0.091,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "AI/ML"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI evaluation",
+      "you_have": "Model evaluation (GSM8K, HellaSwag benchmarks)"
+    },
+    {
+      "jd_skill": "Large-scale data analysis",
+      "you_have": "Pandas / NumPy / scikit-learn"
+    },
+    {
+      "jd_skill": "Statistics",
+      "you_have": "Random Signal Analysis, scikit-learn"
+    },
+    {
+      "jd_skill": "Conference presentations",
+      "you_have": "Poster Presentation"
+    }
+  ],
+  "missing_skills": [
+    "R",
+    "SAS",
+    "IRT",
+    "Scaling/equating",
+    "Generalizability theory",
+    "Reliability quantification (psychometric)",
+    "Validity studies",
+    "Power analysis",
+    "Educational assessment design",
+    "Psychometrics",
+    "Fairness analysis",
+    "Journal publications / white papers",
+    "TAC / expert panel materials"
+  ],
+  "top_ats_keywords": [
+    "Psychometrics",
+    "IRT",
+    "Scaling and equating",
+    "Generalizability theory",
+    "Validity studies",
+    "Power analysis",
+    "AI evaluation",
+    "Python",
+    "R",
+    "SAS",
+    "Educational assessment",
+    "Fairness"
+  ],
+  "required_skills": [
+    "PhD (psychometrics/quant psych/ed measurement/statistics/data science/AI evaluation)",
+    "Applied AI research",
+    "Python",
+    "R",
+    "SAS",
+    "IRT",
+    "scaling/equating",
+    "reliability / generalizability theory",
+    "educational assessment design",
+    "power analysis",
+    "validity studies"
+  ],
+  "preferred_skills": [
+    "Technical writing",
+    "Conference presentations",
+    "Journal publications",
+    "White papers"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Applied AI and psychometric research studies",
+    "Reliability, validity, fairness evidence for AI features",
+    "Research briefs and white papers",
+    "TAC materials"
+  ],
+  "role_category": "ml_systems",
+  "location": "United States (Remote First)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

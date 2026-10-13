@@ -1,0 +1,42 @@
+{
+  "company": "Mercor",
+  "company_slug": "mercor",
+  "role": "CUDA Engineering Expert",
+  "job_slug": "cuda-engineering-expert",
+  "match_pct": 100,
+  "missing_skills": ["NSight Compute", "inline PTX assembly", "tensor core optimization", "CUDA C++ Core Libraries (CCCL)", "Blackwell hardware", "HIP"],
+  "adjacent_skills": ["profiler-guided optimization (pynvml/psutil VRAM+latency profiling vs. NSight Compute L2/occupancy metrics)"],
+  "top_ats_keywords": ["CUDA", "C++17", "GPU kernel optimization", "memory coalescing", "profiler metrics", "occupancy", "L2 cache", "Python", "Git", "NSight Compute"],
+  "key_responsibilities": [
+    "Analyze and optimize GPU kernels for performance, efficiency, hardware utilization",
+    "Use profiler metrics (L2 cache hit rate, L2 throughput, occupancy) to guide kernel improvements",
+    "Review GPU kernel implementations and identify bottlenecks without deep algorithm background",
+    "Write/modify/reason about C++17, Python, GPU programming code",
+    "Apply CUDA/HIP/shader programming expertise",
+    "Document optimization decisions and profiler metric relevance"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "CUDA Kernel Optimization for VGG16 Inference project directly matches the JD's core ask: replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing and constant memory, cutting latency from 73.3ms to 49.2ms (~35% speedup) — this is the exact 'analyze, optimize, document a kernel improvement' loop the role wants",
+      "SLM Compression and Benchmarking project shows real profiler discipline: measured peak VRAM and inference latency across prompt types with pynvml/psutil, i.e. hands-on GPU profiling instinct even if the tool isn't NSight Compute",
+      "C++17 and Python fluency demonstrated across both projects satisfies the two named language requirements directly",
+      "M.S. Computer Engineering with hands-on research (BARC capstone, GPU projects) covers the '1 year professional or graduate-level research experience with GPUs' bar"
+    ],
+    "real_gaps": [
+      "No demonstrated NSight Compute usage — the JD names L2 cache hit rate, L2 throughput, and occupancy specifically, and the profiling shown in the profile (pynvml/psutil VRAM+latency) is coarser than kernel-level profiler-metric analysis",
+      "Only one dedicated CUDA kernel project on record, not sustained/repeated kernel-optimization work across many kernels — the JD implies fast, repeated kernel review across unfamiliar algorithms",
+      "No PTX, tensor core, or CUDA C++ Core Libraries (CCCL) experience — all listed as 'a plus' rather than required, so this doesn't block APPLY but is worth acknowledging if asked in a technical screen"
+    ],
+    "overstated_by_keywords": [
+      "profiler-guided analysis' was counted as Adjacent by keyword match, but the real profiling shown (VRAM/latency via pynvml) is a materially different skill than the occupancy/L2-cache profiler-metric literacy NSight Compute implies — worth being upfront about this gap if asked directly rather than letting the keyword match imply full coverage"
+    ],
+    "reasoning": "The one CUDA project on file is a near-perfect thematic match for this role's core loop (take an existing kernel, apply memory coalescing/constant-memory optimizations, measure and document the speedup), which is rare and worth leading with. The gap is tooling depth — NSight Compute-specific profiler metrics (occupancy, L2 hit rate) aren't demonstrated anywhere in the profile, and this JD calls that out as responsibility #1, not a nice-to-have."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, DevOps",
+  "job_slug": "software-engineer-devops",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 23,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA",
+    "TensorRT",
+    "YOLO",
+    "ROS2",
+    "Linux",
+    "systemd",
+    "Bash",
+    "embedded C",
+    "STM32",
+    "FreeRTOS",
+    "embedded systems",
+    "robotics",
+    "real-time sensors"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "DevOps / CI-CD / cloud infra",
+      "you_have": "Linux systemd administration, some Docker/k3s/CI-CD exposure via personal projects only"
+    },
+    {
+      "jd_skill": "field-deployable infrastructure",
+      "you_have": "embedded deployment (Jetson, STM32, RPi), real-time sensor integration, ROS2 pipelines"
+    },
+    {
+      "jd_skill": "production-scale deployment pipelines",
+      "you_have": "personal project deployments (COFFIN arm, tracking turret, autonomous driving)"
+    }
+  ],
+  "missing_skills": [
+    "production-scale DevOps / Kubernetes operations",
+    "enterprise CI/CD pipeline management (e.g. GitHub Actions at scale, ArgoCD)",
+    "Terraform / infrastructure-as-code at company scale",
+    "cloud infrastructure (AWS/GCP/Azure) at production scale",
+    "formal DevOps tooling (Helm, Prometheus/Grafana at scale)"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "embodied AI",
+    "perception",
+    "localization",
+    "manipulation",
+    "DevOps",
+    "deployment",
+    "field deployment",
+    "sensors",
+    "autonomy",
+    "real-time"
+  ],
+  "required_skills": [
+    "DevOps",
+    "software engineering",
+    "deployment"
+  ],
+  "preferred_skills": [
+    "robotics",
+    "embedded AI",
+    "field deployment",
+    "real-time systems",
+    "sensor integration"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "build and test systems on real hardware with real sensors",
+    "ship field-deployable autonomous systems",
+    "ensure reliable deployment in unstructured environments",
+    "collaborate across AI, robotics engineering, and field deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,59 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Firmware Engineer Intern",
+  "job_slug": "firmware-engineer-intern",
+  "match_pct": 80.0,
+  "missing_skills": [
+    "EFI drivers/applications",
+    "BIOS/UEFI"
+  ],
+  "adjacent_skills": [
+    "hardware design principles",
+    "DSP"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded code",
+    "RTOS",
+    "C",
+    "Python",
+    "DSP",
+    "BIOS/UEFI",
+    "hardware design",
+    "debugging",
+    "testing"
+  ],
+  "key_responsibilities": [
+    "Code and program firmware subsystems: DSP, embedded code, EFI drivers/applications, BIOS/UEFI",
+    "Execute test plans, identify/log/debug assigned issues",
+    "Collaborate with internal and outsourced dev partners on firmware design",
+    "Contribute as team member on low to moderately complex product firmware"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 65,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register-level embedded C on Cortex-M4 (STM32 Bare-Metal Temperature Monitor: direct GPIO/TIM2/ADC1/I2C1 programming, deterministic 1Hz update, verified in Proteus) \u2014 this is genuine firmware bring-up work, not a wrapped library, and maps directly onto 'embedded code' subsystem work",
+      "Real RTOS experience, not just coursework (Object Tracking Turret: FreeRTOS with mutexes for shared-memory task coordination on STM32) \u2014 directly relevant to the JD's real-time operating systems requirement",
+      "Demonstrated systematic debugging under integration pressure (COFFIN capstone: resolved 11 distinct integration failures \u2014 false positives, servo brown-out, stale-frame capture \u2014 with root-cause fixes, not workarounds) \u2014 matches the JD's 'identify, log, and debug assigned issues'",
+      "Python used as a working tool across many projects (GUI, sensor pipelines, ML), which covers the JD's high-level language requirement even though it is not firmware-tooling-specific"
+    ],
+    "real_gaps": [
+      "Zero BIOS/UEFI exposure \u2014 no EDK2, no x86 platform boot firmware, no ACPI/SMM work anywhere in the profile. This is architecturally distinct from STM32 bare-metal (microcontroller register programming vs. PC platform firmware stack) and is one of the JD's four named firmware subsystems",
+      "No BMC (Baseboard Management Controller) experience \u2014 the job family description explicitly names BMC and it has no backing anywhere in experience or projects; all embedded work is on microcontrollers (STM32) or SBCs (Jetson/Raspberry Pi), not server-class platform management firmware",
+      "DSP has no project depth \u2014 'Digital Signal Processing' appears only as a B.E. coursework line item, with no filter design, FFT, or signal-chain implementation project behind it. The Whisper ASR project touches feature extraction (mel spectrograms) but that's applied ML, not classical DSP engineering",
+      "All embedded work is single-person academic/hobbyist scope; the JD's 'internal and outsourced development partners' collaboration model implies a team firmware development process (code review, shared codebase ownership) that nothing in the profile demonstrates directly"
+    ],
+    "overstated_by_keywords": [
+      "RTOS \u2014 counted as a clean Have, but it's hobbyist FreeRTOS on a single Cortex-M4 board, not the enterprise-scale RTOS/embedded-Linux stacks typical of server BMC firmware; concept transfers, scale does not",
+      "'Firmware design tools and languages' \u2014 counted as Have via CMake/bare-metal C/Proteus/oscilloscopes, which are legitimate bring-up tools, but likely narrower than the EDK2/JTAG/ITP-debugger toolchain implied for BIOS/UEFI work at HPE"
+    ],
+    "reasoning": "The embedded fundamentals are real and well backed by project depth: register-level C, working RTOS usage, and disciplined debugging all show up in actual builds, not just resume lines. But the JD names four specific firmware subsystems (DSP, embedded code, EFI drivers/applications, BIOS/UEFI) plus BMC in the job family, and two of those five have zero project backing at all. For an intern role scoped as 'limited assignments' with training built in, that gap is survivable, but it means ramp time on unfamiliar toolchains rather than a direct skills transfer."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "company": "NXP Semiconductors",
+  "company_slug": "nxp",
+  "role": "Embedded Machine Learning & Radar Processing Intern - Summer 2027",
+  "job_slug": "embedded-ml-radar-processing-intern-summer-2027",
+  "req_id": "R-10065534",
+  "location": "San Jose (Holger Way), CA",
+  "match_pct": 72.9,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 7,
+    "missing_count": 3,
+    "jd_ask_size": 24,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Machine learning / deep learning development",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Deploying AI models on resource-constrained embedded platforms",
+    "Model quantization",
+    "Edge acceleration / performance optimization",
+    "C",
+    "C++",
+    "Embedded C",
+    "Embedded dev environments (toolchain/CMake/bare-metal build)",
+    "ROS / ROS2",
+    "Autonomous perception / ADAS-style stack",
+    "AI/ML model benchmarking"
+  ],
+  "adjacent_skills": [
+    "GDB debuggers -> logic analyzers, oscilloscopes, Proteus verification",
+    "Embedded Linux dev + system integration -> Linux on Jetson/Raspberry Pi, no BSP/Yocto/device-tree work",
+    "HIL testing -> CARLA simulation-in-the-loop validation",
+    "Hardware accelerators / cycle-accurate simulators -> GPU/TensorRT accelerator use only",
+    "AI accelerators, NPUs, DSPs, heterogeneous computing -> CUDA/MPI heterogeneous compute, HPC Architecture coursework",
+    "Signal processing -> Digital Signal Processing + Random Signal Analysis coursework, no applied SP project",
+    "Custom SDKs/compilers/toolchains for edge AI SoCs -> TensorRT/ONNX/TFLite toolchain, Jetson SDK"
+  ],
+  "missing_skills": [
+    "Automotive radar / radar signal processing (FMCW, range-Doppler, CFAR, MIMO)",
+    "NXP eIQ Auto / S32 vendor AI toolchain",
+    "FPGA-based emulation platforms"
+  ],
+  "top_ats_keywords": [
+    "machine learning", "deep learning", "Python", "PyTorch", "TensorFlow",
+    "embedded C", "C++", "GCC", "GDB", "embedded Linux", "ROS2",
+    "model quantization", "edge AI", "AI accelerators", "NPU", "DSP",
+    "heterogeneous computing", "radar", "signal processing", "HIL",
+    "FPGA", "eIQ Auto", "benchmarking", "SoC"
+  ],
+  "key_responsibilities": [
+    "Contribute to automotive radar and perception solutions",
+    "Software engineering with custom IDEs, compilers, SDKs, toolchains for edge AI SoCs",
+    "Benchmark and optimize AI/ML models on NXP hardware platforms",
+    "Build the software stack for a full radar system PoC, from ML models to embedded deployment",
+    "Collaborate across AI, signal processing, embedded systems, and semiconductor hardware"
+  ],
+  "role_category": "edge_ai_robotics",
+  "constraint_flags": {
+    "enrollment_eligibility": "FAILS AS WRITTEN - req states 'Currently pursuing a Master's or Ph.D. degree'. Justin graduated May 2026; Summer 2027 internship requires active enrollment.",
+    "sponsorship": "Not mentioned in JD. NXP not on known_sponsors list.",
+    "clearance": false,
+    "location": "San Jose CA, onsite. willing_to_relocate = true."
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false,
+    "downgrade_reason": "Enrollment eligibility flag: not currently pursuing a degree as of Summer 2027."
+  },
+  "llm_analysis": {
+    "llm_match_pct": 71,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Benchmark and optimize AI/ML models on hardware is the single strongest match: TensorRT-optimized YOLO on Jetson at 5.2x speedup (56.7 -> 10.9 ms), 8-bit LLM.int8 quantization on TinyLlama cutting VRAM ~55% at <1% accuracy loss, and custom CUDA C++ conv kernels beating TorchScript by ~35%. That is exactly the JD's benchmark-and-optimize-on-hardware bullet.",
+      "Full ML-model-to-embedded-deployment software stack is directly evidenced by the COFFIN capstone: Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller over one WebSocket fabric, 11 integration failures resolved, 10/10 pick reliability. The JD's radar PoC bullet is the same shape of work minus the radar.",
+      "Embedded C depth is real and low-level, not surface: STM32 Cortex-M4 bare-metal firmware programming GPIO, TIM2, ADC1 and I2C1 registers directly at 3.68 KB Flash / 1.58 KB RAM, plus interrupt-driven UART servo control in the turret project.",
+      "Autonomous perception for driver assistance is backed by the CARLA project: ~5,000 YOLO and ~3,000 UFLD frames auto-generated, YOLO11n at mAP50 ~0.85, fine-tuned UFLD lane detection, adaptive control stack validated in Town02 with zero collisions.",
+      "ROS/ROS2 is real rather than listed: DH tables hand-derived for UR5e and AL5B, validated against MoveIt/RViz URDF in ROS2 Humble, collision-free pick-and-place executed on physical UR5e."
+    ],
+    "real_gaps": [
+      "Radar. There is no radar work anywhere in the profile: no FMCW chirp processing, no range-Doppler maps, no CFAR detection, no MIMO or angle-of-arrival, no radar point clouds. This is the named domain of the role and the PoC he would be building.",
+      "Applied signal processing. Digital Signal Processing and Random Signal Analysis are undergrad coursework only. The closest applied work is the custom sym6+bior3.5 wavelet bank at BARC, which is image denoising, not RF or time-series SP.",
+      "Vendor edge-AI toolchains. All optimization experience is NVIDIA-side (TensorRT, CUDA, ONNX, TFLite). Nothing on eIQ Auto, S32, or any semiconductor vendor's compiler and quantizer flow, which is what the JD means by custom IDEs, compilers, SDKs and toolchains.",
+      "NPU and DSP targets. Quantization and acceleration experience is GPU-only. Deploying to a fixed-function NPU or a DSP core on an automotive SoC is a different programming and operator-coverage problem than TensorRT on Jetson.",
+      "Embedded Linux system integration. He runs Linux on Jetson and Raspberry Pi as a user; there is no BSP, Yocto, device tree, kernel module or driver-level integration work.",
+      "HIL testing and FPGA emulation. No hardware-in-the-loop rig experience and no FPGA prototyping or cycle-accurate simulator exposure.",
+      "Eligibility, not skill: the req requires currently pursuing an M.S. or Ph.D. He completed the M.S. in May 2026, so he would not be an enrolled student in Summer 2027."
+    ],
+    "overstated_by_keywords": [
+      "Embedded Linux - counted Adjacent off Linux/Jetson/Raspberry Pi, but there is no system-integration or BSP evidence",
+      "Signal processing - coursework only, no applied SP project",
+      "Hardware accelerators - GPU inference use, not accelerator bring-up or targeting",
+      "HIL testing - CARLA is software-in-the-loop, not hardware-in-the-loop"
+    ],
+    "understated_by_keywords": [
+      "ADAS / driver assistance never string-matched, but the CARLA stack (lane detection, traffic light compliance, adaptive control, zero collisions across laps) is squarely ADAS perception work",
+      "The JD's radar-PoC bullet (ML models through to embedded deployment) is fully demonstrated by COFFIN even though no keyword in that bullet matched",
+      "Cross-domain collaboration spanning AI, embedded and hardware is evidenced by leading a 25-member robotics team owning mechanical, PCB and ML integration end-to-end"
+    ],
+    "screening_gaps": [
+      "Not currently enrolled. The req says 'Currently pursuing a Master's or Ph.D. degree' and the internship is Summer 2027; he graduated May 2026. A recruiter screens on this first and it is not a skills argument he can win.",
+      "Zero radar experience for a role titled Radar Processing. No FMCW, range-Doppler, CFAR or MIMO anywhere, and the intern cohort will include EE students who have done exactly this in coursework.",
+      "GPU-only edge AI. Every optimization result is NVIDIA TensorRT/CUDA; nothing on NPU, DSP, or a vendor toolchain like eIQ Auto, which is the specific thing this team wants an intern to be productive in."
+    ],
+    "recommend_apply": false,
+    "reasoning": "On skills this is one of the better-aligned edge-AI roles he has seen: the benchmark-and-optimize-models-on-hardware and models-to-embedded-deployment halves of the JD are directly backed by COFFIN, the quantization project and the CUDA work, and CARLA covers the perception side. The two things that sink it are the radar domain, which is completely unevidenced and is the role's title, and the enrollment requirement, which he does not meet for a Summer 2027 term. Worth applying only if he is going to be enrolled in a program by then; otherwise this is a screen-out at the first filter regardless of how well the ML half reads.",
+    "calibration_delta": 1.9
+  }
+}

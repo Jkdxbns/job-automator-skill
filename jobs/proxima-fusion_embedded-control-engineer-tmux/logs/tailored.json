@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "company": "Proxima Fusion",
+    "role": "Embedded Control Engineer",
+    "company_slug": "proxima-fusion",
+    "job_slug": "embedded-control-engineer-tmux"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "website_root": "justinmascarenhas.com",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded firmware experience on STM32 microcontrollers. Built real-time embedded software in bare-metal C and FreeRTOS: timer-triggered ADC sampling, interrupt-driven peripherals and closed-loop PWM motor control over UART/I2C/SPI communication protocols.",
+  "skills": {
+    "Embedded": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "UART/I2C/SPI",
+      "ADC/DAC",
+      "PWM Motor Control",
+      "Closed-Loop Feedback Control",
+      "Quadrature Encoders",
+      "Arduino",
+      "EAGLE PCB Design",
+      "Raspberry Pi",
+      "NVIDIA Jetson"
+    ],
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "Bash"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning PCB fabrication and hardware/software integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus.",
+        "Built Cortex-M4 microcontroller firmware in embedded C with timer-synchronized sensing and real-time display; interrupt-driven ADC sampling and low-level I2C driver."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a 4-wheel holonomic robot on Arduino Due: derived actual heading from dual-axis quadrature encoder odometry (2400 CPR, 2.9 cm wheels) and fed angular error back into rotation PWM, holding course during translation.",
+        "Implemented interrupt-driven quadrature decoding from first principles \u2014 a 4-bit A/B transition state machine on hardware interrupts \u2014 and drove four motor channels at 15 kHz PWM via DuePWM.",
+        "Added a fail-safe state machine halting all motors on controller disconnect; led coding team to Stage 3 of DD Robocon 2023."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on STM32; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override; STM32 received control commands from YOLOv8 on NVIDIA Jetson over UART."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place system with a Jetson+Arduino controller; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Integrated dual VL53L0X ToF sensors over a TCA9548A I2C mux for contact-aware grasping (gripper close at 25 mm); resolved 11 integration failures including servo brown-out."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

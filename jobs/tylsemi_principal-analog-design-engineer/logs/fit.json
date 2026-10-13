@@ -1,0 +1,138 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "Principal Analog Design Engineer",
+  "job_slug": "principal-analog-design-engineer",
+  "match_pct": 10.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 4,
+    "missing_count": 25,
+    "jd_ask_size": 30,
+    "req_cov": 0.3,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ADC"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Layout, floorplanning, matching, guarding strategies",
+      "you_have": "PCB design (EAGLE)"
+    },
+    {
+      "jd_skill": "Lab validation and silicon bring-up debug",
+      "you_have": "Oscilloscopes, Logic Analyzers"
+    },
+    {
+      "jd_skill": "System integration and cross-functional collaboration",
+      "you_have": "I2C/SPI/GPIO peripheral integration, embedded systems integration"
+    },
+    {
+      "jd_skill": "Feedback systems and stability fundamentals",
+      "you_have": "Digital Signal Processing, control theory exposure"
+    }
+  ],
+  "missing_skills": [
+    "Analog circuit design fundamentals",
+    "Device physics (transistor models, MOS theory)",
+    "Noise analysis and characterization",
+    "Stability and compensation theory",
+    "Feedback systems (analog control)",
+    "Spectre simulation",
+    "HSPICE simulation",
+    "ADE (Analog Design Environment)",
+    "Post-layout parasitic extraction (PEX)",
+    "PVT corner analysis and characterization",
+    "Monte Carlo and mismatch analysis",
+    "Power management design (LDO, bandgap, regulators, references)",
+    "ADC/DAC design (design fundamentals, not peripheral usage)",
+    "High-speed analog design techniques",
+    "Precision analog (low-noise, low-offset, high-linearity)",
+    "ESD design and reliability",
+    "Design-for-manufacturability (DFM) methodologies",
+    "Aging and reliability considerations",
+    "Analog testbench development",
+    "Silicon bring-up methodology",
+    "Production ramp and yield learning",
+    "Analog-digital integration at IC level",
+    "Design review and signoff flows",
+    "Reusable circuit design patterns",
+    "Chip-level cross-functional technical leadership"
+  ],
+  "top_ats_keywords": [
+    "Analog design",
+    "Mixed-signal",
+    "Spectre",
+    "HSPICE",
+    "ADE",
+    "PVT",
+    "PEX",
+    "ADC",
+    "DAC",
+    "LDO",
+    "Bandgap",
+    "Power management",
+    "Silicon bring-up",
+    "EDA",
+    "Circuit design",
+    "IC design",
+    "Analog IC",
+    "Chiplet"
+  ],
+  "required_skills": [
+    "Analog/mixed-signal IC design",
+    "Circuit design fundamentals (device physics, noise, stability, compensation, feedback)",
+    "Spectre simulation",
+    "HSPICE simulation",
+    "ADE (Analog Design Environment)",
+    "Post-layout parasitic extraction (PEX)",
+    "PVT corner and process/voltage/temperature analysis",
+    "System requirements translation to block-level specs",
+    "Debug and lab validation correlation",
+    "Cross-functional collaboration (layout, verification, test, product)"
+  ],
+  "preferred_skills": [
+    "High-speed or precision analog (low-noise, low-offset, high-linearity)",
+    "Power management (LDO, bandgap, references, protection, start-up, transient response)",
+    "ADC/DAC design experience",
+    "Reliability and ESD design considerations",
+    "Design-for-manufacturability practices",
+    "Production ramp support, yield learning, and test correlation"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own end-to-end analog block development (requirements, architecture, transistor-level design, simulation, signoff)",
+    "Design and optimize analog/mixed-signal circuits (amplifiers, references, biasing, regulators, comparators, oscillators, data converters, sensor AFEs)",
+    "Drive performance across PVT corners, mismatch, Monte Carlo, aging, and realistic loading",
+    "Partner with layout on parasitic-aware design and post-layout closure",
+    "Develop and maintain testbenches, modeling, and documentation",
+    "Support silicon bring-up, debug, and ECO implementation",
+    "Collaborate cross-functionally with digital, firmware, DFT, validation, and product teams"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA / Remote (United States)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

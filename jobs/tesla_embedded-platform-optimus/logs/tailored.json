@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "company": "Tesla",
+    "role": "Embedded Platform Software Engineer, Optimus",
+    "company_slug": "tesla",
+    "job_slug": "embedded-platform-optimus"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with real-time embedded software experience across STM32, Arduino, Raspberry Pi, and NVIDIA Jetson. Built bare-metal C drivers for ADC, I2C, and PWM peripherals and FreeRTOS firmware, debugged with oscilloscopes and logic analyzers. Designed multi-device communication over UART, I2C, and WebSocket, and profiled firmware memory footprint (3.68 KB Flash / 1.58 KB RAM).",
+  "skills": {
+    "Embedded & Firmware": [
+      "C",
+      "Bare-Metal C",
+      "Real-time embedded software",
+      "RTOS (FreeRTOS)",
+      "STM32 (Cortex-M4)",
+      "Microcontroller peripheral bring-up",
+      "ADC",
+      "PWM",
+      "I2C",
+      "UART/I2C/SPI",
+      "Interrupt-driven drivers",
+      "Arduino"
+    ],
+    "Hardware & Debug": [
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Multimeters",
+      "EAGLE PCB Design",
+      "Electrical schematics",
+      "Profiling"
+    ],
+    "Languages & Tools": [
+      "C",
+      "C++",
+      "Python",
+      "Git",
+      "Linux",
+      "systemd",
+      "Bash"
+    ],
+    "Platforms": [
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "ROS2"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Implemented interrupt-driven quadrature decoding from first principles \u2014 a 4-bit A/B transition state machine on hardware interrupts \u2014 and drove four motor channels at 15 kHz PWM via DuePWM.",
+        "Integrated Xbox 360 control over USB Host Shield with 4x Cytron motor drivers, dual claw subsystems with per-claw IR sensing, and a catapult thrower; added a fail-safe state machine halting all motors on controller disconnect."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

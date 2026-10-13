@@ -1,0 +1,58 @@
+{
+  "company": "OpenAI",
+  "company_slug": "openai",
+  "role": "Control Systems Software Engineer, Robotics",
+  "job_slug": "control-systems-robotics",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 19,
+    "req_cov": 0.542,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Real-time control (custom RTOS project, STM32 bare-metal)",
+    "Actuator control (PWM, servo, motor drive)",
+    "Manipulator/robot arm exposure (UR5e, MoveIt, RViz, DH parameters, IK)",
+    "Hands-on hardware commissioning/debugging (PCB, oscilloscope, logic analyzer)",
+    "Production-quality C++ (C/C++, CUDA C++, embedded C++)",
+    "Sensor integration (I2C/SPI/UART, ToF, IMU)",
+    "Motion control basics (pan/tilt servo turret build)"
+  ],
+  "missing_skills": [
+    "Robot dynamics modeling",
+    "Classical control theory / state estimation (Kalman filtering)",
+    "Rust",
+    "Reinforcement learning implementation",
+    "Whole-body motion control"
+  ],
+  "adjacent_skills": [
+    "Feedback loops (visual servoing is closed-loop but not classical control-theoretic)",
+    "Subsystem tuning (embedded tuning, not control-loop tuning)",
+    "Control architecture (RTOS/embedded architecture, not whole-robot control architecture)",
+    "Simulation-to-real iteration (CARLA/Jetson CV pipelines, not control-loop sim2real)",
+    "Cross-functional mechanical/electrical collaboration (PCB/CAD exposure)"
+  ],
+  "top_ats_keywords": ["real-time control", "actuator control", "state estimation", "robot dynamics", "C++", "Rust", "reinforcement learning", "classical control", "whole-body motion"],
+  "key_responsibilities": [
+    "Design real-time control algorithms: motion control, feedback loops, state estimation, actuator control, subsystem tuning",
+    "Define control architecture from actuators through whole-robot behavior and policy",
+    "Characterize actuator/hardware/software parameters through experimentation and commissioning",
+    "Work with ML engineers to implement reinforcement learning models",
+    "Collaborate across mechanical/electrical/software to integrate control logic with hardware",
+    "Inform mechanical and electrical design"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "notes": "Semantic deep-dive not triggered (match_pct 50 < 60 apply threshold). Seniority mismatch judged from context, not a literal 'senior' title: $380K-460K total comp, 'foundational role', full ownership of control architecture end-to-end, and informing mechanical/electrical design are all senior/staff-level signals even though the JD never states years-required or a seniority word. Justin has 0 full-time years, internship/research/capstone-scope experience."
+}

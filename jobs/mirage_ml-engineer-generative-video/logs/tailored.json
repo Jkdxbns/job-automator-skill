@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "company": "Mirage",
+    "role": "ML Engineer, Generative Video",
+    "company_slug": "mirage",
+    "job_slug": "ml-engineer-generative-video"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Built custom CUDA C++ kernels for GPU-optimized inference (1.5-2x speedup over TorchScript) and applied 8-bit quantization to compress a 1.1B parameter language model by ~55% GPU memory footprint with under 1% accuracy loss. Experience spans PyTorch model training and evaluation, transformer architectures implemented from scratch, and distributed workload scaling across SLURM-managed clusters via MPI.",
+  "skills": {
+    "ML / Deep Learning Systems": ["PyTorch", "Quantization (8-bit)", "TensorRT", "Hugging Face Transformers", "pynvml Profiling", "Model evaluation"],
+    "GPU / HPC / Parallel Computing": ["CUDA C++", "Kernel optimization", "Memory coalescing", "MPI", "SLURM"],
+    "Computer Vision / Model Deployment": ["YOLO", "ONNX", "TensorRT"],
+    "Languages & Tools": ["Python", "C/C++", "Bash", "Git", "Linux", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built PyTorch preprocessing/training pipelines via HuggingFace VisionEncoderDecoder API; improved validation accuracy 55% to 93%."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 images achieving 83% mAP@50; exported to ONNX/TFLite for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing and constant memory buffers.",
+        "Achieved 1.5-2x speedup (49.2ms vs 77.5ms CPU TorchScript) in convolution ops with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled VRAM and latency via pynvml.",
+        "Benchmarked on HellaSwag, GSM8K, ARC — under 1% accuracy degradation, near-lossless compression."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO for real-time visual servoing — 5.2x inference speedup (56.7 to 10.9 ms, 17.6 to 92 FPS) over eager PyTorch.",
+        "Built a distributed three-layer pipeline (Flutter, Flask-SocketIO, Jetson+Arduino) achieving 100% pick reliability at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch — multi-head attention, MLP blocks, residual connections, weight tying.",
+        "Built a custom tokenizer and training loop; validated autoregressive text generation on a fantasy-themed corpus."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers on a SLURM-managed cluster.",
+        "Achieved 10.49x speedup with 12 workers; showed up to 65% degradation under uneven load distribution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Deep Learning", "Machine Intelligence", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

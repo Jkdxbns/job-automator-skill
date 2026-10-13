@@ -1,0 +1,54 @@
+{
+  "company": "Ommo",
+  "company_slug": "ommo",
+  "role": "Sr. Firmware Engineer",
+  "job_slug": "sr-firmware-engineer",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Nordic Semiconductor SoCs",
+    "C#"
+  ],
+  "adjacent_skills": [
+    "circuit debugging techniques"
+  ],
+  "top_ats_keywords": [
+    "RTOS",
+    "ARM microcontrollers",
+    "bare metal",
+    "C/C++",
+    "oscilloscopes",
+    "logic analyzers",
+    "firmware architecture"
+  ],
+  "key_responsibilities": [
+    "Architect and own the firmware tree from prototype to release",
+    "Bare metal C/C++ on ARM microcontrollers",
+    "Precision timing via embedded peripherals",
+    "Establish scalable firmware development processes"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare metal C on ARM Cortex-M4 (STM32) directly backed by the STM32 Bare-Metal Temperature Monitor project (GPIO/TIM2/ADC1/I2C1, Proteus-verified)",
+      "RTOS experience backed by Object Tracking Turret (FreeRTOS with mutexes for shared-memory task coordination)",
+      "UART/I2C/SPI protocol work across three projects (Turret, ARC robotics PCB fabrication, COFFIN I2C mux)",
+      "PCB design and circuit fundamentals backed by EAGLE PCB fabrication for ARC robotics team"
+    ],
+    "real_gaps": [
+      "5+ years professional firmware ownership: Justin has 0 years full-time experience; all RTOS/bare-metal work is academic or hobby scope, not production firmware-tree architecture at a company",
+      "The role explicitly wants someone who drives architectural decisions and builds scalable dev processes for a growing company - a technical leadership scope Justin hasn't held",
+      "No Nordic Semiconductor SoC experience (nice-to-have, only STM32 hands-on)",
+      "No C# experience (nice-to-have)"
+    ],
+    "overstated_by_keywords": [
+      "Oscilloscopes and Logic Analyzers are listed in the skills section but no project bullet describes a specific debugging session using them - a depth-probe risk in interview"
+    ],
+    "reasoning": "The technical stack overlaps well - ARM/STM32 bare metal, FreeRTOS, UART/I2C/SPI, PCB/EE fundamentals are all genuinely backed by real projects. But this is a Sr. title requiring 5+ years and firmware-tree ownership for a growing company, and Justin's embedded work is entirely academic or hobby scope with zero full-time industry experience - a seniority gap keyword matching alone doesn't surface."
+  }
+}

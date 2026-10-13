@@ -1,0 +1,106 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "General Application",
+  "job_slug": "general-application",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 2,
+    "jd_ask_size": 8,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "robotics",
+    "machine learning",
+    "deployment",
+    "embedded systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embodied AI",
+      "you_have": "Edge AI / Jetson-side robotics deployment"
+    },
+    {
+      "jd_skill": "hardware-enabled workflows",
+      "you_have": "bare-metal embedded / PCB / sensor integration"
+    }
+  ],
+  "missing_skills": [
+    "data labeling",
+    "field service"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "embodied AI",
+    "hardware-enabled workflows",
+    "machine learning",
+    "deployment",
+    "embedded systems",
+    "data labeling"
+  ],
+  "required_skills": [],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build data infrastructure layer for robotics and embodied AI",
+    "Design and operate global data capture, labeling, and hardware-enabled workflows",
+    "Bridge real-world data, simulation, learning systems, and deployed hardware",
+    "Ship real products / systems / models / operations at scale",
+    "Work closely with frontier robotics teams on humanoid / embodied AI systems"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Mecka's stated growth areas include hardware engineering, robotics deployment, software engineering and AI/ML research; COFFIN covers all four (voice-controlled, vision-guided arm on Jetson+Arduino, TensorRT YOLO at 92 FPS, 100% pick reliability over 10 trials).",
+      "The posting asks for 'something you took to production, a model you deployed': the TensorRT edge deployment and the systemd-deployed arm bridge are concrete examples.",
+      "Embedded and perception breadth: STM32 bare-metal firmware, ROS arm kinematics, CARLA data generation."
+    ],
+    "real_gaps": [
+      "There is no defined role, so there are no responsibilities to be backed; fit can only be judged against the company's areas.",
+      "Data labeling and field service (the two keyword gaps) are operations work with no profile backing.",
+      "Nothing production-scale: all shipped work is capstone, internship or research scale."
+    ],
+    "overstated_by_keywords": [
+      "A 62.5% keyword score here is an artifact of a short generic posting; it says nothing about fit for a real opening."
+    ],
+    "understated_by_keywords": [
+      "Nothing; the posting has too little content to under-count."
+    ],
+    "screening_gaps": [
+      "No production-scale shipped system",
+      "No field deployment or service experience",
+      "Application has no target role, so recruiters can only match on a note you write"
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is a talent-pool placeholder, not a role, so the percentage is only a rough read of how well your profile fits Mecka's stated areas, and it fits several. Applying costs little, but it is not a substitute for the specific Mecka openings; the note you attach decides whether anyone reads it.",
+    "calibration_delta": -3.5
+  },
+  "semantic_pending": false
+}

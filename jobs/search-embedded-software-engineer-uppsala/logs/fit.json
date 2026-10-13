@@ -1,0 +1,107 @@
+{
+  "company": "Search (via Hero)",
+  "company_slug": "search",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer-uppsala",
+  "match_pct": 46.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 15,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded systems",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "Hardware development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hardware-software interaction",
+      "you_have": "STM32/Arduino bare-metal firmware"
+    },
+    {
+      "jd_skill": "Troubleshooting",
+      "you_have": "Logic analyzer/oscilloscope debugging"
+    }
+  ],
+  "missing_skills": [
+    "Windows Embedded",
+    "Windows IoT",
+    "x86",
+    "BIOS/UEFI",
+    "Swedish fluency",
+    "System integration",
+    "Requirements management"
+  ],
+  "top_ats_keywords": [
+    "Windows Embedded",
+    "Windows IoT",
+    "x86",
+    "BIOS",
+    "UEFI",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "system integration",
+    "embedded systems",
+    "requirements management",
+    "verification"
+  ],
+  "required_skills": [
+    "Embedded systems",
+    "Windows Embedded",
+    "Windows IoT",
+    "Swedish fluency",
+    "Hardware-software interaction",
+    "System integration"
+  ],
+  "preferred_skills": [
+    "x86",
+    "Hardware development",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "BIOS/UEFI",
+    "Troubleshooting"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Windows Embedded/IoT dev",
+    "system integration",
+    "testing and verification",
+    "documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Uppsala, Sweden (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

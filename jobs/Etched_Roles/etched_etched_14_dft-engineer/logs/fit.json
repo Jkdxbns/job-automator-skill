@@ -1,0 +1,113 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "DFT (Design For Test) Engineer",
+  "job_slug": "etched_14_dft-engineer",
+  "match_pct": 10.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 12,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Scripting / automation for test processes",
+      "you_have": "Python scripting / automation"
+    }
+  ],
+  "missing_skills": [
+    "SystemVerilog",
+    "DFT architectures (scan / boundary scan / BIST / MBIST)",
+    "EDA tools (Synopsys DFT Compiler, Cadence Encounter Test, Mentor Tessent)",
+    "Perl",
+    "TCL",
+    "Silicon debug / ASIC bring-up / failure analysis (no ASIC/silicon-level experience; embedded debug is different domain)",
+    "ATE (Automated Test Equipment)",
+    "DFT verification / formal verification",
+    "Production test patterns / high-volume manufacturing test",
+    "Mixed-signal DFT",
+    "IEEE 1149.1 (JTAG) / IEEE 1500",
+    "Yield analysis / product engineering"
+  ],
+  "top_ats_keywords": [
+    "DFT",
+    "Design For Test",
+    "SystemVerilog",
+    "scan",
+    "BIST",
+    "MBIST",
+    "EDA",
+    "Synopsys",
+    "Cadence",
+    "Mentor",
+    "silicon debug",
+    "ATE",
+    "verification",
+    "Python",
+    "TCL",
+    "Perl",
+    "manufacturing",
+    "yield"
+  ],
+  "required_skills": [
+    "SystemVerilog",
+    "DFT architectures (scan insertion, boundary scan, BIST, MBIST)",
+    "Python / Perl / TCL scripting",
+    "EDA tools (Synopsys DFT Compiler, Cadence Encounter Test, Mentor Tessent)",
+    "Silicon debug / bring-up / failure analysis",
+    "ATE (Automated Test Equipment) programs",
+    "DFT verification / formal verification",
+    "Production test patterns / high-volume manufacturing"
+  ],
+  "preferred_skills": [
+    "Mixed-signal DFT",
+    "IEEE 1149.1 (JTAG) / IEEE 1500",
+    "Yield analysis / product engineering / test cost reduction"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop DFT architectures for ASIC/SoC",
+    "Integrate scan insertion, boundary scan, BIST, MBIST",
+    "Collaborate with design/verification on DFT requirements",
+    "Analyze test results and silicon debug data",
+    "Create DFT verification plans and apply simulation/formal verification",
+    "Conduct DFT audits and design reviews",
+    "Support silicon bring-up, debug, failure analysis",
+    "Partner with test engineering on ATE programs",
+    "Generate production-quality test patterns",
+    "Collaborate with manufacturing/quality on data-driven test improvements",
+    "Author DFT documentation and mentor/train team",
+    "Stay current with emerging DFT technologies"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose (in-person)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,36 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer II – Generative AI & LLM Platforms",
+  "job_slug": "swe2-genai-llm-platforms",
+  "match_pct": 23.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 25,
+    "jd_ask_size": 36,
+    "req_cov": 0.65,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["Python", "APIs", "Git/GitLab (version control)", "LLM/GenAI concepts (tokens, embeddings, attention, transformers, inference)", "Hugging Face Transformers", "PyTorch"],
+  "adjacent_skills": ["testing", "debugging", "core software design principles", "networking fundamentals (TCP basics, no routing/switching/VPN evidence)", "systems concepts (perf/optimization strong, scalability/cost not evidenced)"],
+  "missing_skills": ["AWS cloud", "Kubernetes", "Infrastructure as code", "CI/CD", "Amazon Bedrock", "AWS AI/ML services", "Amazon EMR", "Apache Spark", "Apache Flink", "Amazon Aurora PostgreSQL", "pgvector", "Amazon EKS", "Amazon S3", "LangChain", "LangGraph", "LlamaIndex", "MLOps/LLMOps experiment tracking", "model registries/version management", "privacy-preserving AI", "adversarial testing", "AI red teaming", "content safety", "explainability"],
+  "top_ats_keywords": ["Python", "Golang", "AWS", "Kubernetes", "CI/CD", "LangChain", "Hugging Face Transformers", "PyTorch", "Amazon Bedrock", "pgvector", "embeddings", "inference", "tokens"],
+  "key_responsibilities": [
+    "Design limited enhancements/subsystems (OS, compilers, networking, utilities, databases, internet tools)",
+    "Analyze design, determine coding/integration activities per project guidelines",
+    "Write portions of test plans/docs; debug and suggest fixes",
+    "Collaborate on project team with internal/outsourced dev partners",
+    "Communicate design status, progress, issue resolution"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

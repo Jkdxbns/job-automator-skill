@@ -1,0 +1,97 @@
+{
+  "company": "Fortastra",
+  "company_slug": "fortastra",
+  "role": "Sr. Mechanical Engineer",
+  "job_slug": "sr-mechanical-engineer",
+  "match_pct": 6.2,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 7,
+    "jd_ask_size": 8,
+    "req_cov": 0.667,
+    "cap_applied": "zero_have"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Spacecraft / EV / robotics / renewable energy domain experience",
+      "you_have": "ROS / ROS2 / Robotics / Jetson / embedded systems (robotics domain)"
+    }
+  ],
+  "missing_skills": [
+    "Mechanical engineering design",
+    "3D CAD (NX / Creo / SolidWorks / Creo / NX)",
+    "Battery / solar / power hardware mechanical design",
+    "Structural / thermal / vibration analysis (mechanical)",
+    "Engineering drawings with tolerances and revision-controlled release",
+    "Spacecraft high-reliability mechanical systems (5+ years)",
+    "BOM / manufacturing integration (mechanical)"
+  ],
+  "top_ats_keywords": [
+    "Mechanical Engineer",
+    "CAD",
+    "SolidWorks",
+    "Creo",
+    "NX",
+    "spacecraft",
+    "battery",
+    "solar",
+    "power subsystems",
+    "thermal",
+    "structural",
+    "vibration",
+    "BOM",
+    "engineering drawings",
+    "tolerances",
+    "revision control",
+    "high-reliability",
+    "integration",
+    "manufacturing"
+  ],
+  "required_skills": [
+    "Mechanical engineering design",
+    "3D CAD (NX / Creo / SolidWorks)",
+    "Battery / solar / power hardware mechanical design",
+    "Structural / thermal design considerations",
+    "Engineering drawings, tolerances, revision control",
+    "Spacecraft / high-reliability systems mechanical design"
+  ],
+  "preferred_skills": [
+    "Cable routing / connector / mechanical-electrical interference mitigation",
+    "Spacecraft / EV / robotics / renewable energy domain experience"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own CAD and mechanical design for spacecraft battery and solar panel assemblies, mounting, deployment interfaces",
+    "Coordinate with power/avionics/thermal/structures teams on interfaces, harness routing, thermal/structural/vibration requirements",
+    "Generate and release detailed drawings, BOMs, documentation with disciplined revision control",
+    "Collaborate with manufacturing/integration on build/test/serviceability; resolve cable routing / clearance / interference issues",
+    "Support trades on placement, packaging, access, maintainability across the vehicle"
+  ],
+  "role_category": "other",
+  "location": "Torrance, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Requirements: 'U.S. Citizenship required' \u2014 category (c) citizenship/permanent residency required. Candidate is F-1 OPT, not a U.S. citizen."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

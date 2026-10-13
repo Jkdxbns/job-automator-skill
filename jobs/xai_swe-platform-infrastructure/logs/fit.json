@@ -1,0 +1,39 @@
+{
+  "company": "xAI",
+  "company_slug": "xai",
+  "role": "Software Engineer - Platform Infrastructure (Rust, C++)",
+  "job_slug": "swe-platform-infrastructure",
+  "match_pct": 32,
+  "missing_skills": [
+    "Rust",
+    "Kubernetes (CNI, CSI, service mesh, production ops)",
+    "Docker/containerd/crio",
+    "Helm/GitOps/Operators",
+    "Observability (Prometheus, Grafana, OpenTelemetry, VictoriaMetrics)",
+    "TCP/IP stack depth",
+    "Linux kernel debugging tools (perf, gdb, strace, Wireshark)",
+    "Large-scale distributed systems at HPC/supercomputing scale"
+  ],
+  "adjacent_skills": [
+    "Computer systems fundamentals (via embedded bare-metal Cortex-M4 work)",
+    "GPU performance profiling/optimization (via CUDA kernel work, adjacent to 'profile/debug/optimize across GPUs')"
+  ],
+  "top_ats_keywords": [
+    "C/C++", "Rust", "Kubernetes", "K8s", "GPU", "Linux kernel", "distributed systems",
+    "Docker", "containerd", "Helm", "GitOps", "Prometheus", "Grafana", "OpenTelemetry",
+    "TCP/IP", "perf", "gdb", "strace", "Wireshark", "CNI", "CSI", "service mesh"
+  ],
+  "key_responsibilities": [
+    "Design, build, and implement a large-scale distributed system powering one of the world's largest supercomputing clusters",
+    "Profile, debug, and optimize performance across GPUs, Linux kernel, networking, and filesystems",
+    "Collaborate on hardware/software/algorithm co-design for AI training",
+    "Maintain and innovate on the codebase for scalability and reliability",
+    "Develop tools to enhance team productivity"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

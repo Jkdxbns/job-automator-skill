@@ -1,0 +1,70 @@
+{
+  "company": "VisionNav Robotics",
+  "company_slug": "visionnav",
+  "role": "Robotics Software Engineer - Guidance, Navigation and Control",
+  "job_slug": "gnc-slam-swe",
+  "match_pct": 100,
+  "missing_skills": [
+    "SLAM (direct AGV/AMR mapping and localization)",
+    "GNC architecture for AGV/AMR",
+    "Kalman/particle filtering",
+    "reinforcement learning",
+    "PhD degree (minimum qualification)",
+    "Mandarin fluency (minimum qualification)"
+  ],
+  "adjacent_skills": [
+    "control systems (arm IK/DH/forward kinematics, visual servoing -> AGV control)",
+    "planning systems (MoveIt motion planning -> AGV path planning)",
+    "autonomous vehicle (CARLA sim experience)",
+    "optimization systems (model/kernel optimization -> trajectory/state optimization)",
+    "pose estimation (depth estimation, YOLO detection -> pose)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS",
+    "ROS2",
+    "SLAM",
+    "control",
+    "planning",
+    "GNC",
+    "AGV",
+    "AMR",
+    "algorithm design",
+    "software architecture",
+    "sensor selection"
+  ],
+  "key_responsibilities": [
+    "Execute module based development tasks per SOPs from supervisor",
+    "Research and evaluate technical approaches before development",
+    "Develop, implement, test GNC algorithms",
+    "Support version iteration and software releases",
+    "Troubleshoot field and on site issues"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 40,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "ROS2 based robotics pipelines and perception (YOLO, depth estimation) \u2014 backed by object tracking turret and inference engine projects",
+      "C++ and Python fluency across embedded and ML systems, including CUDA C++ kernel work",
+      "Hands on full stack robotics builds spanning sensor to deployment (STM32 firmware, custom RTOS, Jetson edge inference) matching the from sensor selection to deployment framing of the role",
+      "CARLA autonomous vehicle simulation experience gives partial exposure to the AV/AGV domain"
+    ],
+    "real_gaps": [
+      "No direct SLAM experience (localization and mapping for a mobile platform via LiDAR/point cloud, occupancy grids, loop closure) \u2014 all robotics work is manipulator arm kinematics (IK, DH parameters, visual servoing), a materially different subfield from AGV navigation",
+      "No GNC (Guidance, Navigation, Control) or AGV/AMR specific project or deployment experience",
+      "No filtering (Kalman/particle) or state estimation experience for mobile robots",
+      "No reinforcement learning experience"
+    ],
+    "overstated_by_keywords": [
+      "control systems and planning systems were counted as Adjacent from arm level IK and MoveIt motion planning, but AGV guidance and navigation control is a distinct discipline (odometry/IMU fusion, path following, obstacle avoidance) with no direct evidence in the profile",
+      "pose estimation counted from YOLO/depth estimation work, which is 2D/monocular perception, not the 6DoF localization pose estimation a SLAM stack needs"
+    ],
+    "reasoning": "Justin has strong general robotics and embedded/ML engineering signal (ROS2, C++/Python, sensor to deployment builds, CUDA/edge AI), but the role specifically wants a SLAM/AGV navigation specialist with a PhD and Mandarin fluency, both stated as minimum qualifications. The keyword overlap looks strong only because arm manipulation control/planning terms line up loosely with AGV GNC terms; the actual subfield (mobile robot localization and mapping) is not represented anywhere in the profile, and the PhD and language requirements are hard qualification gaps keyword matching cannot see."
+  }
+}

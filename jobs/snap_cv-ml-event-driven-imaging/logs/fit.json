@@ -1,0 +1,145 @@
+{
+  "company": "Snap Inc",
+  "company_slug": "snap",
+  "role": "Computer Vision & Machine Learning Engineer, Photon-Efficient Event-Driven Imaging",
+  "job_slug": "cv-ml-event-driven-imaging",
+  "match_pct": 71.4,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 14,
+    "req_cov": 0.577,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Computer Vision",
+    "Machine Learning",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "C++",
+    "depth estimation",
+    "detection"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SLAM",
+      "you_have": "ROS2 / odometry / robot perception"
+    },
+    {
+      "jd_skill": "3D geometry",
+      "you_have": "DH parameters / kinematics / image mosaicing"
+    },
+    {
+      "jd_skill": "statistical signal processing",
+      "you_have": "Digital Signal Processing / Random Signal Analysis"
+    },
+    {
+      "jd_skill": "tracking",
+      "you_have": "object detection (YOLO/TensorRT)"
+    }
+  ],
+  "missing_skills": [
+    "photon-efficient imaging",
+    "event-driven imaging"
+  ],
+  "top_ats_keywords": [
+    "photon-efficient imaging",
+    "event-driven imaging",
+    "computer vision",
+    "machine learning",
+    "SLAM",
+    "depth estimation",
+    "tracking",
+    "detection",
+    "C++",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "3D geometry",
+    "statistical signal processing"
+  ],
+  "required_skills": [
+    "photon-efficient imaging",
+    "event-driven imaging",
+    "computer vision",
+    "machine learning",
+    "statistical signal processing",
+    "3D geometry",
+    "probability",
+    "statistics",
+    "linear algebra",
+    "C++",
+    "Python",
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "train/deploy ML and CV for event-driven imaging",
+    "tracking, depth estimation, SLAM",
+    "probabilistic techniques for noise robustness",
+    "face/hand/body detection for AR glasses"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "London, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 41.6,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Frame-based CV and ML training/deploy is real: YOLOv8n 83% mAP@50 exported to ONNX/TFLite (Tusk), YOLO11n mAP50~0.85 plus UFLD fine-tune in CARLA, TensorRT YOLO 5.2x speedup (COFFIN)",
+      "Depth estimation: ZoeDepth monocular crack-depth profiling with +/-8% error (BARC capstone)",
+      "Signal-processing instinct: custom sym6+bior3.5 wavelet bank for low-frequency noise suppression, PSNR 86 (BARC); DSP and Random Signal Analysis coursework",
+      "3D geometry: SE(3) math engine with 4x4 transform chaining (Frame Simulator), DH/forward kinematics on UR5e and AL5B",
+      "AR/wearable adjacency: Mixed Reality headset concept with real-time chroma keying (Planctech), 3-DoF gesture glove"
+    ],
+    "real_gaps": [
+      "No event camera, DVS, SPAD, single-photon or photon-counting work anywhere in the profile; this is the role's stated core",
+      "No SLAM: only encoder dead-reckoning odometry and visual servoing, no visual-inertial or map building",
+      "No probabilistic or statistical estimation work (Kalman/particle filters, Bayesian denoising, Poisson noise models); only Random Signal Analysis coursework",
+      "C++ depth is thin: Arduino C++ IK, CUDA C++ kernels; no C++ CV library or systems codebase",
+      "No face, hand or body pose detection models; only object and lane detection",
+      "Seniority: 3+ years industry in the specific domain vs 0 years full-time (informational, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "tracking counted Adjacent via YOLO detection; turret tracking is per-frame detection plus servo control, not temporal or high-rate tracking",
+      "SLAM counted Adjacent via ROS2/odometry; dead reckoning is not SLAM",
+      "C++ counted Have; evidence is Arduino firmware and CUDA kernels, not production C++ for CV"
+    ],
+    "understated_by_keywords": [
+      "Wavelet denoising for low-frequency noise (BARC) is a genuine noise-robustness precedent for low-light imaging",
+      "Gesture glove and MR headset show interest and prototype-level exposure to wearables"
+    ],
+    "screening_gaps": [
+      "No event-driven or photon-efficient imaging experience, the explicit minimum qualification",
+      "3+ years industry CV experience in that domain vs 0 years full-time",
+      "No SLAM or probabilistic estimation (tracking, depth, noise modelling on high-temporal-resolution data)"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile backs generic frame-based CV and ML deployment well, but the role's core, event-driven and photon-efficient imaging with SLAM and probabilistic methods, has no concrete backing. The keyword score of 71.4% is inflated because the two missing terms are the whole domain while generic terms (Python, PyTorch, CV) are easy matches.",
+    "calibration_delta": 29.8
+  }
+}

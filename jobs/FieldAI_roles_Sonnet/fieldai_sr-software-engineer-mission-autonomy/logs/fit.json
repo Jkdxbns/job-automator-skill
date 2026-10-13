@@ -1,0 +1,145 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Sr. Software Engineer - Mission Autonomy",
+  "job_slug": "sr-software-engineer-mission-autonomy",
+  "match_pct": 57.7,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 26,
+    "req_cov": 0.312,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2 (ROS2 Humble + Noetic)",
+    "Python",
+    "C/C++",
+    "embedded Linux/Jetson (TensorRT YOLO 5.2x)",
+    "computer vision (YOLOv8, OpenCV)",
+    "CUDA kernel optimization",
+    "TensorRT",
+    "real-time embedded (STM32 bare-metal, FreeRTOS, UART/I2C)",
+    "AI/ML model optimization (quantization, pruning)",
+    "robotics/perception pipelines (DH kinematics, MoveIt, visual servoing)",
+    "edge AI deployment",
+    "PyTorch"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "intelligent decision-making frameworks",
+      "you_have": "Gemini intent classification + faster-whisper ASR pipeline in capstone; no formal planning/decision framework"
+    },
+    {
+      "jd_skill": "localization/SLAM",
+      "you_have": "monocular depth estimation (ZoeDepth) for crack profiling; no full SLAM system"
+    },
+    {
+      "jd_skill": "manipulation",
+      "you_have": "visual servoing + forward kinematics on 5-DOF arm; not industrial manipulation"
+    },
+    {
+      "jd_skill": "safety/explainable AI",
+      "you_have": "explainability implied via model evaluation; no formal safety certification"
+    },
+    {
+      "jd_skill": "C++ real-time systems",
+      "you_have": "CUDA C++ kernels + embedded C; no production real-time C++ framework"
+    },
+    {
+      "jd_skill": "production-scale autonomous deployment",
+      "you_have": "personal/research deployments only (capstone, internships); no enterprise-scale deployment"
+    }
+  ],
+  "missing_skills": [
+    "production-scale distributed/enterprise autonomy systems",
+    "full-time senior-level industry experience (0 years full-time)",
+    "formal functional-safety / ISO26262 / explainable-safety frameworks",
+    "SLAM/localization at field scale",
+    "industrial robot manipulation at scale",
+    "security clearance",
+    "ITAR/export control compliance",
+    "senior/staff-level leadership experience (7 internships only, new-grad)"
+  ],
+  "top_ats_keywords": [
+    "Autonomy",
+    "Mission Autonomy",
+    "robotics",
+    "AI",
+    "decision-making",
+    "perception",
+    "planning",
+    "localization",
+    "manipulation",
+    "TensorRT",
+    "CUDA",
+    "YOLO",
+    "ROS",
+    "ROS2",
+    "embedded",
+    "Jetson",
+    "edge AI",
+    "Field Foundational Models",
+    "unstructured environments",
+    "explainable AI",
+    "safe deployment",
+    "DARPA",
+    "Boston Dynamics",
+    "NVIDIA"
+  ],
+  "required_skills": [
+    "intelligent decision-making frameworks",
+    "robotic AI systems",
+    "autonomous robotic platforms",
+    "AI-driven perception/planning/localization/manipulation",
+    "C/C++",
+    "Python",
+    "ROS/ROS2",
+    "real-time embedded integration"
+  ],
+  "preferred_skills": [
+    "TensorRT",
+    "CUDA",
+    "YOLO",
+    "computer vision pipelines",
+    "SLAM/localization",
+    "embedded Linux/Jetson",
+    "safety/explainable AI"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "design intelligent decision-making frameworks",
+    "develop autonomous robotic platforms",
+    "deliver AI-driven perception/planning/localization/manipulation",
+    "deploy robots in unstructured/unknown environments",
+    "work with interdisciplinary autonomy team"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,148 @@
+{
+  "company": "SAP",
+  "company_slug": "sap",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 62.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 7,
+    "missing_count": 6,
+    "jd_ask_size": 25,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "HuggingFace",
+    "Transformer",
+    "LLM (GPT-2, TinyLlama)",
+    "Model evaluation",
+    "ASR/NLP",
+    "AI/ML",
+    "C/C++",
+    "CUDA",
+    "Edge AI"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLMs",
+      "you_have": "LLM (GPT-2, TinyLlama) \u2014 small-scale, not production-scale"
+    },
+    {
+      "jd_skill": "Agentic architectures",
+      "you_have": "Prompt/tool patterns not explicitly in profile; RAG/agentic missing"
+    },
+    {
+      "jd_skill": "RAG",
+      "you_have": "Not directly present \u2014 closest is inference/embedding exposure via HuggingFace"
+    },
+    {
+      "jd_skill": "Prompt engineering",
+      "you_have": "LLM interaction experience but no structured prompt-engineering framework"
+    },
+    {
+      "jd_skill": "ML engineering",
+      "you_have": "ML-experienced with model optimization, but production-scale ML systems not demonstrated"
+    },
+    {
+      "jd_skill": "NLP",
+      "you_have": "ASR / speech pipelines (faster-whisper), not broad NLP"
+    },
+    {
+      "jd_skill": "Fine-tuning",
+      "you_have": "Fine-tuned keyword present; small-scale fine-tuning on TinyLlama/GPT-2"
+    }
+  ],
+  "missing_skills": [
+    "LangChain",
+    "RAG pipelines (production)",
+    "Agentic workflows (production)",
+    "Enterprise-scale production ML",
+    "Enterprise AI / compliance",
+    "3+ years full-time production experience"
+  ],
+  "top_ats_keywords": [],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "LLMs",
+    "RAG",
+    "Agentic architectures",
+    "Prompt engineering",
+    "Model evaluation",
+    "NLP",
+    "ML engineering"
+  ],
+  "preferred_skills": [
+    "LangChain",
+    "Hugging Face",
+    "Fine-tuning",
+    "Production systems",
+    "Enterprise AI"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [],
+  "role_category": "ml_systems",
+  "location": "Bellevue, Washington",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "experience_mismatch": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python + PyTorch + Deep Learning backed by 6+ internships and capstone (COFFIN, BAR C image pipeline, IITB DONUT fine-tuning)",
+      "LLM fundamentals proven (GPT-2 from scratch, TinyLlama quantization/compression, HuggingFace Transformers for DONUT)",
+      "Model evaluation explicitly present (Dice/IoU scores, mAP, accuracy metrics across multiple projects)",
+      "Production-adjacent skills (systemd, static IP, embedded deployment, TensorRT optimization) transferable to agentic deployment"
+    ],
+    "real_gaps": [
+      "RAG pipelines \u2014 no retrieval/embedding/re-ranking pipeline evidenced; closest is inference profiling, not retrieval architecture",
+      "Agentic architectures \u2014 no multi-agent orchestration, tool-calling framework, or agent workflow production experience",
+      "Enterprise-scale production ML \u2014 profile is capstone/research/internship scope; no evidence of owning a production ML system serving thousands of users",
+      "Prompt engineering framework \u2014 no structured prompt-template, evaluation-rubric, or guardrail design shown",
+      "Enterprise AI / privacy-security-compliance \u2014 no evidence of GDPR/privacy/compliance documentation for ML",
+      "3+ years full-time production ML engineering \u2014 profile has 0 full-time years; internships and capstones do not substitute for sustained production ownership"
+    ],
+    "overstated_by_keywords": [
+      "LLMs (keyword HAVE) \u2014 backed by small-scale models (GPT-2 124M param equivalent, TinyLlama 1.1B) not production LLM systems",
+      "Agentic architectures (keyword ADJACENT) \u2014 no real agentic backing; closest is tool-use patterns in COFFIN pipeline",
+      "ML engineering (keyword ADJACENT) \u2014 model optimization is real; production-scale ML systems engineering is not evidenced"
+    ],
+    "understated_by_keywords": [
+      "Model evaluation \u2014 keyword counts it as HAVE but profile depth (Dice/IoU/mAP, accuracy-latency tradeoffs, perplexity tracking) is stronger than the keyword implies",
+      "Fine-tuning \u2014 profile shows DONUT fine-tuning with structured token modifications and validation improvement (55%\u219293%), stronger than basic fine-tuning mention",
+      "HuggingFace \u2014 backed by VisionEncoderDecoder + tokenizer customization, not just usage"
+    ],
+    "screening_gaps": [
+      "No production-scale RAG / agentic pipeline experience \u2014 core responsibility of the role and missing entirely",
+      "No 3+ years full-time production ML experience \u2014 JD explicitly demands it; profile is new-grad with internships/capstones",
+      "No enterprise AI / privacy-security-compliance experience \u2014 required for SAP support-engineering context with thousands of users"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Profile shows genuine ML/NLP depth (PyTorch, model evaluation, small LLMs, fine-tuning) but the role centers on production RAG/agentic systems for enterprise customer support with 3+ years of experience. The three screening gaps \u2014 production RAG/agentic, 3+ years production ML, enterprise AI/compliance \u2014 are disqualifying for a competitive application. Apply only if the user explicitly wants to pursue a reach/stretch role and can supplement with production-scale evidence.",
+    "calibration_delta": 10.0
+  }
+}

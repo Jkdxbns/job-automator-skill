@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "CUDA/GPU optimization (custom kernels, 35% speedup)",
+    "Edge AI deployment (Jetson + TensorRT + YOLO, 5.2x speedup)",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4, FreeRTOS, UART/I2C/SPI)",
+    "ROS2 / Robotics perception (MoveIt, visual servoing, DH parameters, kinematics)",
+    "ML model optimization (8-bit quantization, ~55% VRAM reduction, ONNX/TFLite export)",
+    "Real-time sensor integration (ToF, accelerometer, I2C mux, multi-servo PWM)",
+    "Data pipeline design (image stitching, depth profiling, metal inspection)"
+  ],
+  "real_gaps": [
+    "No full-time industry experience (new-grad, 7 internships only)",
+    "No enterprise-scale distributed data engineering experience",
+    "No global field-deployment or production reliability experience at company scale",
+    "No formal safety/certification (not required by JD)"
+  ],
+  "reasoning": "JD is a robotics/embodied-AI data/infrastructure role at a field-deployment company. Candidate matches strongly on robotics/perception, embedded systems, CUDA, edge AI (TensorRT/Jetson/YOLO), ROS2, and real-time sensor pipelines \u2014 all core to the role's technical context. The title asks 'Data Engineering' which implies pipeline/infrastructure work; candidate has pipeline experience but only at research/intern scale and without enterprise distributed platforms (Spark/Kafka). No sponsorship, ITAR, clearance, or citizenship flags in JD. Title is 'Software Engineer' (not senior/staff) and no experience years are stated, so experience-level blocker does not trigger. Candidate is a new-grad with 0 full-time years; the JD does not explicitly demand >3 years. Main gap is scale/scope (enterprise data platforms, global field production reliability), not domain fit. Overall: strong adjacent-to-have match in the robotics/edge-AI domain, real gaps only in enterprise-scale infrastructure and production deployment experience.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/e3b7bac7-5410-44bb-964c-02815fbd0c97",
+  "team": "Infra & Platform Engineering",
+  "location": "Irvine, CA"
+}

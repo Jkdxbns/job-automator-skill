@@ -1,0 +1,222 @@
+{
+  "company": "Guidewire Software Solutions India Private Limited",
+  "company_slug": "guidewire",
+  "role": "AI Engineer - Applied AI",
+  "job_slug": "ai-engineer-applied-ai",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 25,
+    "adjacent_count": 6,
+    "missing_count": 12,
+    "jd_ask_size": 43,
+    "req_cov": 0.211,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "LLM",
+    "agentic",
+    "context engineering",
+    "RAG",
+    "deep learning",
+    "machine learning",
+    "Python",
+    "C/C++",
+    "CUDA",
+    "GPU",
+    "TensorRT",
+    "PyTorch",
+    "ROS2",
+    "embedded C",
+    "Jetson",
+    "model optimization",
+    "quantization",
+    "pruning",
+    "ASR pipelines",
+    "WebSocket",
+    "Flask",
+    "GitLab",
+    "CI/CD concepts",
+    "security/privacy awareness",
+    "coding agents daily usage experience (per skills)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LiveKit / SIP / real-time voice telephony",
+      "you_have": "WebSocket, real-time systems experience, ASR, embedded real-time; no direct SIP/LiveKit"
+    },
+    {
+      "jd_skill": "insurance / P&C claims / regulated domain",
+      "you_have": "No direct P&C/claims experience; closest is regulated-system awareness and evaluation rigor"
+    },
+    {
+      "jd_skill": "production LLM application at carrier scale",
+      "you_have": "Shipped ML/embedded systems; LLM-level production scale not explicitly demonstrated in profile"
+    },
+    {
+      "jd_skill": "LLM-as-judge / golden set trajectory evaluation",
+      "you_have": "Model evaluation experience (benchmarking, metrics); not specifically LLM-judge/golden-set trajectory"
+    },
+    {
+      "jd_skill": "DSPy / GEPA framework experience",
+      "you_have": "No DSPy/GEPA; optimization/pruning/quantization concepts adjacent"
+    },
+    {
+      "jd_skill": "Guidewire / ClaimCenter products",
+      "you_have": "None"
+    }
+  ],
+  "missing_skills": [
+    "LiveKit",
+    "SIP",
+    "SIPREC",
+    "SBC",
+    "insurance claims domain expertise",
+    "P&C insurance knowledge",
+    "Guidewire products",
+    "production-scale LLM agent deployment experience at carrier/org scale",
+    "DSPy",
+    "GEPA",
+    "LLM-as-judge golden-set trajectory evaluation (explicit experience)",
+    "internal eval/observability tooling adoption"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "agentic workflows",
+    "RAG",
+    "context engineering",
+    "eval loop",
+    "LLM-as-judge",
+    "golden set",
+    "trajectory evaluation",
+    "deep learning",
+    "machine learning",
+    "LiveKit",
+    "SIP",
+    "telephony",
+    "ASR",
+    "TTS",
+    "insurance",
+    "claims",
+    "P&C",
+    "production ML",
+    "distributed systems",
+    "CI/CD",
+    "security",
+    "privacy",
+    "coding agents",
+    "DSPy",
+    "GEPA",
+    "observability"
+  ],
+  "required_skills": [
+    "LLM applications",
+    "context engineering",
+    "RAG",
+    "agentic workflows",
+    "eval loops",
+    "LLM-as-judge",
+    "error analysis",
+    "statistical measurement",
+    "deep learning",
+    "machine learning",
+    "distributed systems",
+    "data stores",
+    "security and privacy",
+    "CI/CD automation",
+    "coding agents usage",
+    "voice telephony",
+    "LiveKit",
+    "SIP",
+    "latency optimization"
+  ],
+  "preferred_skills": [
+    "ASR",
+    "TTS",
+    "streaming voice",
+    "insurance claims",
+    "P&C insurance",
+    "Guidewire products",
+    "DSPy",
+    "GEPA",
+    "internal eval/observability tooling",
+    "model experimentation",
+    "production ML deployment"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own agent slices: prompt/context architecture, RAG over policy/coverage data, tool/API calls into claims systems, handoff to human",
+    "Build and run eval loop: golden sets, trajectory evaluation, LLM-as-judge, error analysis on production call traces",
+    "Drive containment and resolution rates without trading accuracy; instrument system",
+    "Work on voice path: turn-taking, interruption, latency budgets, telephony layer (LiveKit, SIP)",
+    "Listen to carrier calls/recordings to identify conversation failures"
+  ],
+  "role_category": "ml_systems",
+  "location": "United States, Remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "LLM/agent architecture: COFFIN project (3-layer distributed agent pipeline: mobile \u2192 Flask-SocketIO edge server \u2192 Jetson+Arduino controller; faster-whisper STT, Gemini intent classification, TensorRT YOLO, WebSocket fabric, systemd deployment) demonstrates real orchestration, context routing, tool/API integration, and latency-budget discipline (~11.5s end-to-end).",
+      "Real-time latency engineering and measurement: TensorRT 5.2x speedup (56.7\u219210.9ms, 92 FPS), CUDA C++ coalesced kernel 1.5-2x, COFFIN latency budget explicitly tracked; shows the tradeoff reasoning the JD demands.",
+      "Deep learning / ML depth: PyTorch, CUDA, 8-bit quantization (LLM.int8, ~55% VRAM reduction on TinyLlama), model benchmarking (HellaSwag/GSM8K/ARC), profiling (pynvml), optimization (quantization, pruning, kernel tuning) \u2014 real depth, not surface mentions.",
+      "ASR and voice pipeline: faster-whisper STT integrated in production-style pipeline; custom ASR from scratch (80-channel mel encoder, 4-block causal Transformer decoder, BPE tokenizer, 15% WER on Indian-English dataset) \u2014 genuine depth in the voice/speech path.",
+      "Security/reliability awareness: systemd Type=simple with non-root isolation, env-file secrets, auto-restart backoff, static IP networking; demonstrates the reliability/security mindset for regulated data."
+    ],
+    "real_gaps": [
+      "No production-scale LLM agent deployment with real users / carrier-scale backing. COFFIN is a research capstone (10/10 pick trials); no evidence of deploying an agent serving real policyholders with eval loops gating releases.",
+      "No LLM-as-judge / golden-set trajectory evaluation / production call-trace error analysis. Profile has model benchmarking (WER, mAP, accuracy-latency tradeoffs) but not trajectory-level LLM evaluation of conversation flows or production trace analysis.",
+      "No insurance / P&C claims / regulated event domain experience; no Guidewire / ClaimCenter exposure. JD requires product sense in claims intake (FNOL) where 'a missed question early is a bigger loss reserve later' \u2014 unsupported by any project or work experience.",
+      "No direct LiveKit / SIP / SBC / streaming telephony layer experience. Voice work is embedded (faster-whisper, WebSocket) rather than telephony-layer.",
+      "No DSPy / GEPA framework experience applied to production optimization.",
+      "No internal eval/observability tooling adoption evidence \u2014 profile shows individual benchmarking, not tooling that other engineers adopted."
+    ],
+    "overstated_by_keywords": [
+      "'agentic' / 'agentic workflows': COFFIN has agent-like architecture but is a capstone/research project (not production agent at carrier scale with real users).",
+      "'context engineering' / 'RAG': Intent classification and retrieval-like concepts exist, but no formal retrieval over policy/coverage data or RAG architecture demonstrated.",
+      "'production LLM application': Profile is capstone/research/internship scope; no evidence of an LLM application depended on by real users at organizational scale.",
+      "'LLM-as-judge' / 'golden-set trajectory evaluation': Not backed by profile \u2014 evaluation is benchmark-based, not trajectory-level.",
+      "'coding agents daily usage': Confirmed by user context but profile does not document specific agent-management practices (spec decisions, verifiers, context management, when-to-intervene)."
+    ],
+    "understated_by_keywords": [
+      "Real-time latency measurement and optimization discipline: COFFIN tracks end-to-end latency budget; CUDA kernel optimization and profiling show deeper engineering rigor than 'agentic' keyword captures.",
+      "ASR pipeline depth (custom mel encoder, causal Transformer decoder, BPE tokenizer, WER evaluation): undersold by 'ASR pipelines' keyword.",
+      "Operational reliability engineering (systemd services, non-root isolation, environment-file secrets, multi-device WebSocket registration, XRDP remote admin): closer to production infrastructure than keywords indicate.",
+      "Multi-layer distributed pipeline architecture (COFFIN 3-layer): closer to agent orchestration and handoff patterns than 'agentic' keyword alone suggests."
+    ],
+    "screening_gaps": [
+      "No production-scale LLM agent deployment with real users / carrier-scale backing \u2014 COFFIN is 10-trial capstone; the JD's core is owning an agent that serves real carriers/real policyholders with eval loops gating releases.",
+      "No LLM-as-judge / golden-set trajectory evaluation / production call-trace error analysis \u2014 the JD's central responsibility ('build and run the eval loop... make it the thing that gates releases') has no concrete profile backing.",
+      "No P&C insurance / claims / regulated domain experience and no Guidewire / ClaimCenter exposure \u2014 required for arguing workflow decisions ('when a claims workflow demands we slow down') and understanding FNOL/regulatory stakes."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The profile shows genuine ML/deep-learning depth, real-time optimization discipline, ASR pipeline depth, agent-like architecture in COFFIN, and coding-agent experience \u2014 transferable to the technical core of this role. However, the JD's defining demands \u2014 production agent at carrier scale with eval loops gating releases, trajectory-level LLM evaluation, and P&C claims domain depth \u2014 are largely unevidenced. The 60% keyword match reflects real overlap; the semantic gap (~15 points lower) reflects that the role's specific core (production agent + eval loop + insurance domain) is not backed. This is a Partial Fit: the user can compete technically but will need to close the domain and production-eval gaps through narrative and preparation, not just tailoring.",
+    "calibration_delta": 15.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-15",
+    "channel": "application",
+    "notes": "Form rejection after reviewing experience and skills. No feedback."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "company": "Toast",
+  "company_slug": "toast",
+  "role": "Software Engineer II, Developer Experience",
+  "job_slug": "swe-ii-developer-experience",
+  "match_pct": 17.9,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 14,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Debugging across the stack"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "General-purpose language (Kotlin/Java)",
+      "you_have": "Python, C/C++"
+    },
+    {
+      "jd_skill": "Developer tooling / core libraries",
+      "you_have": "Cython-accelerated BPE tokenizer library, CMake"
+    },
+    {
+      "jd_skill": "web services",
+      "you_have": "Flask-SocketIO edge server, WebSocket"
+    }
+  ],
+  "missing_skills": [
+    "Go/TypeScript",
+    "Docker",
+    "AWS / cloud infrastructure",
+    "Testing practices / well-tested code",
+    "Production service ops (monitoring, on-call)",
+    "Backstage Developer Portal",
+    "AI-assisted dev tools (Claude Code/Cursor/Codex)",
+    "LaunchDarkly / Wiremock / Postman",
+    "Developer metrics (DORA, build/test analytics)",
+    "Datadog / observability"
+  ],
+  "top_ats_keywords": [
+    "Kotlin",
+    "Java",
+    "Docker",
+    "AWS",
+    "Backstage",
+    "web services",
+    "testing frameworks",
+    "Datadog"
+  ],
+  "required_skills": [
+    "General-purpose language (Kotlin/Java)",
+    "Go/TypeScript",
+    "Developer tooling / core libraries",
+    "Docker",
+    "AWS / cloud infrastructure",
+    "Testing practices / well-tested code",
+    "Debugging across the stack",
+    "Production service ops (monitoring, on-call)"
+  ],
+  "preferred_skills": [
+    "Backstage Developer Portal",
+    "AI-assisted dev tools (Claude Code/Cursor/Codex)",
+    "LaunchDarkly / Wiremock / Postman",
+    "Developer metrics (DORA, build/test analytics)",
+    "Datadog / observability"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Maintain/grow local inner-loop dev tools",
+    "Service templates and developer portal",
+    "Fix slow builds, flaky tests, setup pain with data",
+    "Maintain testing frameworks and core libraries for web services",
+    "Roll out AI-assisted dev tools",
+    "Operate owned services in production incl. on-call"
+  ],
+  "role_category": "ml_systems",
+  "location": "US remote; Boston / New York / San Francisco hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

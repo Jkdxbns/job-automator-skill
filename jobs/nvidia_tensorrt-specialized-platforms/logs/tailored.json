@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "Software Engineer, TensorRT Specialized Platforms",
+    "company_slug": "nvidia",
+    "job_slug": "tensorrt-specialized-platforms"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience in TensorRT deployment, CUDA kernel engineering, and deep learning inference optimization. Engineered CUDA C++17 kernels delivering 1.5–2× speedup via memory coalescing and STL-managed buffers; deployed TensorRT-accelerated YOLO inference on Jetson at ~18 FPS. Background spans modern C++, performance benchmarking, model compression, and systems programming across edge and HPC platforms.",
+  "skills": {
+    "Languages & Runtimes": ["C/C++ (C++11/14/17)", "STL", "CUDA C++", "Python", "Cython", "Bash"],
+    "ML / Inference": ["TensorRT", "PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers", "Quantization (8-bit)", "Model evaluation"],
+    "HPC / Performance": ["Memory coalescing", "Kernel optimization", "MPI", "SLURM"],
+    "CV / Perception": ["YOLO", "OpenCV", "faster-whisper"],
+    "Embedded": ["NVIDIA Jetson", "STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI"],
+    "Tools": ["Linux", "Git", "CMake", "Flask"]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained and evaluated YOLOv8 detection models; improved classification accuracy from 78% to 97.5% via dataset augmentation and hyperparameter tuning; deployed in a consumer mobile app."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset; improved validation accuracy from 55% to 93% via preprocessing improvements and model tuning in PyTorch."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, UK",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 MRI data; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; restructured task distribution and delivered the full pipeline within the 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++17 kernels using STL-managed host buffers, memory coalescing, and constant memory for filter weights to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) — ~35% speedup over naive GPU and 1.5–2× speedup in convolution ops with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT-accelerated YOLO visual servoing at ~18 FPS on NVIDIA Jetson; implemented two-link IK in C++ on Arduino driving five servos with contact-aware grasping via ToF sensing.",
+        "Resolved 11 integration failures (false-positive detections, servo crosstalk, rolling-shutter depth); achieved 100% pick reliability across 10 trials at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via 8-bit quantization; benchmarked the quantized model across HellaSwag, GSM8K, and ARC; characterized accuracy-efficiency trade-offs for edge inference."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Ran YOLOv8 on NVIDIA Jetson for real-time object detection; transmitted control commands to STM32 over UART with interrupt-driven PWM servo control and FreeRTOS mutex-protected shared memory."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 Transformer in PyTorch from scratch — multi-head self-attention, MLP blocks, residual connections, and layer norm with weight tying; trained with a custom loop and perplexity evaluation to validate architecture fundamentals."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

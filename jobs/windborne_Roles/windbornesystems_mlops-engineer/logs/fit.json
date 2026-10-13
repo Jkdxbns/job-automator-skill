@@ -1,0 +1,56 @@
+{
+  "company": "WindBorne Systems",
+  "company_slug": "windbornesystems",
+  "role": "Machine Learning Operations Engineer",
+  "job_slug": "mlops-engineer",
+  "match_pct": 50,
+  "missing_skills": [
+    "Docker",
+    "Production on-call / paged-at-2am systems ownership",
+    "Petabyte-scale dataset experience",
+    "Cloud GPU cost/performance strategy (AWS/GCP/on-prem hybrid)",
+    "Production monitoring/alerting/observability stack",
+    "Large-scale upstream data pipeline reliability engineering"
+  ],
+  "adjacent_skills": [
+    "SLURM (have SLURM-managed job experience, not at production distributed-training-recovery scale)",
+    "Fast-paced model deployment (have edge deployment reps: YOLO/TensorRT, not cloud-scale serving)",
+    "MPI/networking (have MPI exposure, not production network-saturation debugging)"
+  ],
+  "have_skills": [
+    "PyTorch",
+    "CUDA / GPU memory management",
+    "Quantization / compression"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "Docker",
+    "SLURM",
+    "CUDA",
+    "distributed training",
+    "on-prem",
+    "cloud GPU",
+    "monitoring",
+    "petabyte-scale data",
+    "production on-call"
+  ],
+  "key_responsibilities": [
+    "Own uptime end to end for real time forecast serving (health monitoring, logging, cross-node failure diagnosis)",
+    "Inference scaling and cloud/on-prem compute cost-performance strategy",
+    "Build resilient data pipelines across dozens of unreliable upstream sources with QC and alerting",
+    "Make distributed training reliable (auto-recovery from OOMs, network faults, storage issues; job scheduling)"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null,
+  "constraint_flags": {
+    "sponsorship": "Not mentioned in JD, no hard blocker or red flag phrase found",
+    "experience": "Years not explicitly stated; JD tone implies real production/on-call experience the profile does not have",
+    "location": "Not specified in provided text (Wellfound listing likely on-site Palo Alto, unconfirmed)",
+    "clearance": "None required"
+  },
+  "hard_blocker_triggered": false
+}

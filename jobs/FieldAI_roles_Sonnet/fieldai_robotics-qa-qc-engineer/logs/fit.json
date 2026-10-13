@@ -1,0 +1,105 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics QA/QC Engineer",
+  "job_slug": "robotics-qa-qc-engineer",
+  "match_pct": 57.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 13,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "robotics (ROS2, MoveIt, RViz, YOLO, visual servoing, DH parameters, forward kinematics)",
+    "embedded / hardware (STM32 bare-metal C, Jetson, Arduino, UART/I2C/SPI, ToF sensors, BLE)",
+    "sensor integration (VL53L0X ToF, TCA9548A I2C mux, ADC, interrupt-driven drivers)",
+    "edge AI deployment (TensorRT, YOLOv8, faster-whisper, ASR)",
+    "perception / vision (YOLO, OpenCV, segmentation, monocular depth)",
+    "reliability testing through deployed capstone (100% pick reliability, real-world validation)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "safety / explainability for real-world autonomy",
+      "you_have": "perception + explainability exposure via YOLO/segmentation and depth profiling; no formal functional-safety/ISO26262 certification"
+    },
+    {
+      "jd_skill": "ML model evaluation and testing",
+      "you_have": "model evaluation (PSNR, error metrics) and quantization (bitsandbytes); not professional ML-QA pipelines"
+    },
+    {
+      "jd_skill": "reliability and field-deployment testing at production scale",
+      "you_have": "field-deployment concepts in capstone (unstructured pick, real sensors); no production QA experience"
+    }
+  ],
+  "missing_skills": [
+    "professional QA / QC engineering experience in industry (new-grad, 0 full-time years)",
+    "formal functional-safety / ISO26262 certification",
+    "production-scale distributed testing / CI-CD for robotics at enterprise scale",
+    "cloud/enterprise infrastructure at company scale"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "QA",
+    "QC",
+    "embedded",
+    "sensors",
+    "field deployment",
+    "reliability",
+    "ROS",
+    "perception",
+    "testing",
+    "validation",
+    "quality engineering",
+    "hardware"
+  ],
+  "required_skills": [
+    "robotics QA / quality engineering",
+    "embedded/hardware sensor validation",
+    "reliability and field-deployment testing",
+    "ROS / robotics software",
+    "perception / vision pipeline validation"
+  ],
+  "preferred_skills": [
+    "safety / explainability for real-world autonomy",
+    "ML model evaluation and testing",
+    "embedded systems (STM32 / Jetson / Arduino)",
+    "sensor integration (ToF / I2C / UART)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "test robotics systems on real hardware with real sensors",
+    "validate reliability for field deployments in unstructured environments",
+    "QA/QC for perception, planning, localization, manipulation pipelines",
+    "ship and improve systems through real-world deployment cycles"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

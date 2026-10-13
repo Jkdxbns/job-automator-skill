@@ -1,0 +1,82 @@
+{
+  "_meta": {"company": "Intrinsic (Google)", "role": "Software Engineer, Simulation", "company_slug": "intrinsic", "job_slug": "software-engineer-simulation"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with hands-on robotics software experience spanning ROS2, forward kinematics, and simulation environments including CARLA and ABB RobotStudio. Built and validated simulated robot behavior against physical hardware, from URDF-modeled kinematic chains to closed-loop pick-and-place trajectories. Proficient in C++ and Python across simulation, perception, and embedded control pipelines.",
+  "skills": {
+    "Simulation & Robotics": ["ROS/ROS2", "URDF", "MoveIt", "RViz", "CARLA", "ABB RobotStudio", "Forward kinematics", "DH parameters", "Visual servoing"],
+    "Languages & Systems": ["Python", "C/C++", "Bash", "RAPID", "Linux"],
+    "Perception & CV": ["OpenCV", "YOLO", "TensorRT", "Synthetic data generation"],
+    "Tools": ["Git", "CMake", "SolidWorks", "Flask"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Organized 10+ exhibitions and technical workshops covering Arduino, PCB design, and SolidWorks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at under 2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated synthetic data generation pipelines in CARLA using semantic segmentation and raycast occlusion filtering to produce thousands of YOLO and lane-detection training frames with zero manual annotation.",
+        "Trained and fine-tuned perception models integrated into an adaptive control stack with lane-following and waypoint fallback; validated across multi-agent traffic scenarios with zero collisions and correct traffic light compliance."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Designed and simulated a full ABB RobotStudio workcell for an end-to-end press-to-packing assembly pipeline including CAD-modeled fixtures, validating digital twin behavior against real cycle timing.",
+        "Programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic; validated full-cycle repeatability."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided robotic pick-and-place system bridging simulated planning and physical robot behavior across a Jetson and Arduino controller pipeline in C++ and Python.",
+        "Integrated TensorRT-optimized YOLO visual servoing (5.2x speedup) and dual ToF sensors for contact-aware grasping; resolved 11 integration failures to reach 100% pick reliability across trials.",
+        "Implemented two-link inverse kinematics on Arduino in C++, driving five servos with range-gated contact detection."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Multiple Processor Systems", "Machine Intelligence", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,109 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "System Software Engineer, Distributed Systems",
+  "job_slug": "system-software-engineer-distributed-systems",
+  "match_pct": 38.5,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 13,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Linux",
+    "debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IBM LSF / batch schedulers",
+      "you_have": "SLURM"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "build systems",
+      "you_have": "CMake"
+    },
+    {
+      "jd_skill": "concurrency",
+      "you_have": "RTOS / MPI"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "NFS",
+    "Kubernetes",
+    "Perl",
+    "observability",
+    "incremental modernization"
+  ],
+  "top_ats_keywords": [
+    "Go",
+    "Python",
+    "Linux",
+    "NFS",
+    "IBM LSF",
+    "Kubernetes",
+    "distributed systems",
+    "Perl",
+    "concurrency",
+    "observability"
+  ],
+  "required_skills": [
+    "Go",
+    "Python",
+    "Linux",
+    "distributed systems",
+    "concurrency",
+    "synchronization/locks",
+    "batch schedulers",
+    "build systems",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "NFS",
+    "IBM LSF",
+    "Kubernetes",
+    "Perl",
+    "incremental modernization",
+    "observability"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "NFS state coordination",
+    "LSF orchestration",
+    "Perl to Go migration",
+    "Linux/Kubernetes debugging"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

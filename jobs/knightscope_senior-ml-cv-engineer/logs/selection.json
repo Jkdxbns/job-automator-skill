@@ -1,0 +1,125 @@
+{
+  "experience": [
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 3.15,
+      "matched": [
+        "PyTorch",
+        "machine learning"
+      ]
+    },
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 3.01,
+      "matched": [
+        "computer vision",
+        "machine learning"
+      ]
+    },
+    {
+      "label": "experience:Deep Learning Intern",
+      "name": "Deep Learning Intern",
+      "score": 2.71,
+      "matched": [
+        "machine learning",
+        "model optimization"
+      ]
+    },
+    {
+      "label": "experience:Research Fellowship",
+      "name": "Research Fellowship",
+      "score": 1.5,
+      "matched": [
+        "machine learning"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 8.94,
+      "matched": [
+        "NVIDIA Jetson",
+        "PyTorch",
+        "computer vision",
+        "model optimization",
+        "speech and audio",
+        "systemd and deployment"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 4.23,
+      "matched": [
+        "NVIDIA Jetson",
+        "model optimization",
+        "systemd and deployment"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 2.97,
+      "matched": [
+        "NVIDIA Jetson",
+        "computer vision"
+      ]
+    },
+    {
+      "label": "project:Quantization-Aware Training for Integer-Only Inference",
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "score": 2.85,
+      "matched": [
+        "PyTorch",
+        "model optimization"
+      ]
+    },
+    {
+      "label": "project:GPT-2 Style Language Model from Scratch",
+      "name": "GPT-2 Style Language Model from Scratch",
+      "score": 1.65,
+      "matched": [
+        "PyTorch"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "production computer vision",
+      "for_skill": "computer vision"
+    },
+    {
+      "use_jd_wording": "computer vision",
+      "for_skill": "computer vision"
+    },
+    {
+      "use_jd_wording": "on-device inference / edge deployment",
+      "for_skill": "NVIDIA Jetson"
+    },
+    {
+      "use_jd_wording": "audio/video detection models",
+      "for_skill": "speech and audio"
+    },
+    {
+      "use_jd_wording": "audio",
+      "for_skill": "speech and audio"
+    },
+    {
+      "use_jd_wording": "training/evaluation/deployment pipeline",
+      "for_skill": "systemd and deployment"
+    },
+    {
+      "use_jd_wording": "MLOps deployment and monitoring",
+      "for_skill": "systemd and deployment"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "productionizing models at scale",
+    "ownership of third-party model codebase",
+    "model serving and inference infrastructure"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Developer Infrastructure",
+  "job_slug": "software-engineer-developer-infrastructure",
+  "match_pct": 57.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 13,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Linux (systemd, service management, static IP/network config)",
+    "Git",
+    "CMake exposure (embedded/robotics build flows)",
+    "embedded / robotics / Jetson deployment experience"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "build systems / monorepo tooling",
+      "you_have": "CMake, personal project build pipelines, embedded cross-compile workflows"
+    },
+    {
+      "jd_skill": "development environment / tooling infrastructure",
+      "you_have": "Linux admin (systemd, services, networking), shell scripting, embedded toolchain setup"
+    },
+    {
+      "jd_skill": "DevOps collaboration / CI-deployment support",
+      "you_have": "personal Docker/k3s exposure, ROS build/test workflows, Git-based collaboration"
+    }
+  ],
+  "missing_skills": [
+    "production-scale monorepo build-system engineering (Bazel, custom CI at company scale)",
+    "dedicated DevOps / developer-platform experience",
+    "enterprise CI/CD pipeline design and maintenance",
+    "infrastructure for multi-team ML/data/web codebases at scale"
+  ],
+  "top_ats_keywords": [
+    "developer infrastructure",
+    "build systems",
+    "monorepo",
+    "DevOps",
+    "tooling",
+    "CI/CD",
+    "code quality",
+    "developer velocity",
+    "Irvine",
+    "robotics",
+    "embedded AI"
+  ],
+  "required_skills": [
+    "development environment design and maintenance",
+    "tooling infrastructure",
+    "build systems (monorepo)",
+    "DevOps collaboration",
+    "code quality / CI tooling",
+    "system consistency across multi-team codebase"
+  ],
+  "preferred_skills": [
+    "robotics / embodied AI context",
+    "developer velocity optimization",
+    "infrastructure for ML / data / web teams"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "own development environments and tooling infrastructure",
+    "design and maintain build systems across a monorepo",
+    "enable robotics, web, AI/ML, and data teams to ship reliably",
+    "collaborate with DevOps/infrastructure for consistency and velocity"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "New-grad (0 full-time); JD does not state minimum years and title does not signal senior/staff. No sponsorship, ITAR, clearance, or citizenship restrictions mentioned. Candidate willing to relocate to Irvine."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

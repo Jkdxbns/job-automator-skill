@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "company": "Quantcast",
+    "role": "Machine Learning Engineer",
+    "company_slug": "quantcast",
+    "job_slug": "machine-learning-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. in Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built machine learning systems across NLP and LLMs, including a GPT-2 style Transformer from scratch in PyTorch and 8-bit quantized TinyLlama benchmarks, and shipped real-time inference pipelines with TensorRT (5.2x speedup) and sub-500ms intent classification. Profiled performance bottlenecks across ML internships spanning NLP, computer vision, and research.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "NumPy",
+      "Pandas",
+      "scikit-learn",
+      "NLP",
+      "LLMs",
+      "Hugging Face Transformers",
+      "TensorFlow",
+      "Keras",
+      "Quantization (8-bit)",
+      "Model evaluation"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Cython",
+      "Bash"
+    ],
+    "Edge AI / CV / Speech": [
+      "TensorRT",
+      "YOLO",
+      "faster-whisper",
+      "ASR pipelines",
+      "Tokenization",
+      "pynvml Profiling"
+    ],
+    "Tools": [
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B LLM; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Achieved 15% WER on the NPTEL 2020 Indian-English dataset while reducing preprocessing latency via optimized tokenization.",
+        "Built an end-to-end ASR pipeline: 80-channel mel spectrogram encoder, 4-block causal Transformer decoder with cross-attention, trained on 1,000 Indian-English samples (NPTEL 2020) achieving training loss ~0.51."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

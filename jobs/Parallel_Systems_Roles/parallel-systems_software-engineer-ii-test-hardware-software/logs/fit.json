@@ -1,0 +1,127 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Software Engineer II \u2013 Test (Hardware / Software) ",
+  "job_slug": "software-engineer-ii-test-hardware-software",
+  "match_pct": 32.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 17,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python scripting",
+    "C++ systems programming",
+    "Linux / build-deploy lifecycle"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hardware-in-the-loop (HITL) testing",
+      "you_have": "Embedded hardware / bare-metal systems"
+    },
+    {
+      "jd_skill": "Software-in-the-loop (SITL) simulations",
+      "you_have": "Robotics / perception pipeline simulation"
+    },
+    {
+      "jd_skill": "Hard tech / autonomous vehicles / robotics",
+      "you_have": "Edge AI / robotics / perception"
+    },
+    {
+      "jd_skill": "Safety-critical domains (autonomous)",
+      "you_have": "Robotics / autonomous-adjacent work"
+    },
+    {
+      "jd_skill": "Polyglot codebases",
+      "you_have": "Multiple programming languages"
+    }
+  ],
+  "missing_skills": [
+    "JavaScript / JS scripting",
+    "Rust programming",
+    "Testing frameworks / test infrastructure",
+    "Cloud-based software / cloud services",
+    "Mentoring / leading technical design / setting direction",
+    "Test software / internal tooling (2+ years)",
+    "Rail control systems",
+    "Safety-critical aerospace / industrial control",
+    "Cross-functional collaboration (no evidence in keywords)"
+  ],
+  "top_ats_keywords": [
+    "Software Engineer",
+    "Test",
+    "Hardware",
+    "Python",
+    "C++",
+    "Rust",
+    "Testing",
+    "HITL",
+    "SITL",
+    "Linux",
+    "CI",
+    "Continuous Integration",
+    "Autonomous",
+    "Rail",
+    "Safety-critical",
+    "Cloud",
+    "Mentoring",
+    "Regulatory",
+    "Traceability"
+  ],
+  "required_skills": [
+    "Python scripting",
+    "JavaScript / JS scripting",
+    "C++ / systems programming",
+    "Rust programming",
+    "Testing frameworks / test infrastructure",
+    "Hardware-in-the-loop (HITL) testing",
+    "Software-in-the-loop (SITL) simulations",
+    "Linux / software build-deploy lifecycle",
+    "Mentoring / leading technical design / setting direction"
+  ],
+  "preferred_skills": [
+    "Test software / internal tooling (2+ years)",
+    "Hard tech products (autonomous / robotics / industrial)",
+    "Cloud-based software testing",
+    "Safety-critical domains (autonomous vehicles, aerospace, industrial control)",
+    "Rail control systems",
+    "Cross-functional collaboration",
+    "Polyglot codebases"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design, develop, and maintain testing frameworks for on-vehicle software and cloud-based services",
+    "Design, develop, and maintain hardware test stands for vehicle subsystems",
+    "Maintain continuous integration (CI) pipeline with reliability, speed, and cost effectiveness",
+    "Partner with hardware and software teams to develop useful internal software tooling",
+    "Contribute to regulatory documentation, software traceability, and test protocols"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

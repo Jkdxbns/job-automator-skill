@@ -1,0 +1,186 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Humanoid Engineer, Manipulation",
+  "job_slug": "humanoid-engineer-manipulation",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 15,
+    "missing_count": 7,
+    "jd_ask_size": 37,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "robotic manipulation (physical hardware) \u2014 Voice-Controlled Robotic Arm (COFFIN, MS Capstone): real Jetson+Arduino platform, dual VL53L0X ToF sensors, 100% pick reliability (10/10 trials), 11 integration failures resolved; ROS-Based Arm (AL5B & UR5e): DH tables, forward kinematics, MoveIt manipulation on physical robots",
+    "kinematics \u2014 ROS-Based Robotic Arm (AL5B & UR5e): DH parameter tables, forward kinematics",
+    "motion planning \u2014 ROS-Based Robotic Arm: MoveIt motion planning, RViz visualization",
+    "control \u2014 Voice-Controlled Arm (system control, visual servoing from skills); ROS-Based Arm (MoveIt/control); skills list includes visual servoing",
+    "real robot experimentation \u2014 Voice-Controlled Arm (hardware iteration, 10/10 reliability tests, 11 failures analyzed/adapted in real-time); Object Tracking Turret (UART/servo hardware tests); ROS-Based Arm (AL5B/UR5e physical experiments)",
+    "C++ \u2014 CUDA Kernel Optimization (custom CUDA C++ kernels, memory coalescing); STM32 Bare-Metal Temperature Monitor (embedded C); MPI simulation (C++); skills list C/C++",
+    "Python \u2014 Voice-Controlled Arm (Flask-SocketIO, faster-whisper); AI/ML Intern (PyTorch/HuggingFace VisionEncoderDecoder); Deep Learning Intern (YOLOv8 PyTorch); Python Developer Intern (PyQt/Matplotlib); skills list Python",
+    "ROS/ROS2 \u2014 ROS-Based Robotic Arm: ROS2 Humble + ROS Noetic drivers; skills list ROS2",
+    "Linux \u2014 Voice-Controlled Arm (systemd service management: unit files, auto-restart, non-root isolation, static IP/network config); skills list Linux",
+    "manipulation \u2014 Voice-Controlled Arm (pick/place behavior with ToF sensors); ROS-Based Arm (MoveIt manipulation workflows)",
+    "perception \u2014 Voice-Controlled Arm (TensorRT YOLO, faster-whisper STT, Gemini intent classification); Object Tracking Turret (YOLOv8 on Jetson); BARC Research Intern (OpenCV image stitching, ZoeDepth depth estimation, PSNR 86); skills: OpenCV, YOLO, ASR pipelines",
+    "planning \u2014 ROS-Based Arm (MoveIt motion planning)",
+    "sensors \u2014 VL53L0X ToF (Voice-Controlled Arm, Turret), ADXL345 accelerometer (wearable glove), UART/I2C communication (embedded/glove, turret)",
+    "actuators \u2014 Object Tracking Turret (multi-servo PWM); Voice-Controlled Arm (Arduino/servo-driven actuation)",
+    "contact-rich robotics (physical hardware) \u2014 Voice-Controlled Arm (pick/contact with objects via ToF sensors); Object Tracking Turret (servo/ToF interaction, UART control)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "dexterous manipulation / dexterous hands / humanoid platforms",
+      "you_have": "Voice-Controlled Arm and ROS Arm perform manipulation on stationary platforms with standard end-effectors (no multi-finger dexterous hands, no humanoid body/platform); only gripper/pick-and-place and turret servos \u2014 manipulation present, dexterity/humanoid absent"
+    },
+    {
+      "jd_skill": "robot learning applied to physical hardware (imitation / reinforcement / task-motion planning validated on real robot)",
+      "you_have": "YOLOv8 on Jetson (Object Tracking Turret), faster-whisper + Gemini (Voice-Controlled Arm) \u2014 deep learning/ML running on physical hardware; no imitation/reinforcement/task-motion learning specifically demonstrated for manipulation"
+    },
+    {
+      "jd_skill": "prototype-to-reliable field behavior (closing prototype-to-deployment gap)",
+      "you_have": "Voice-Controlled Arm (COFFIN): moved from prototype to deployed system with systemd auto-restart, non-root isolation, static IP/network config, 100% reliability metric (10/10), 11 integration failures resolved \u2014 deployable/reliable behavior achieved, not outdoor/unstructured field deployment"
+    },
+    {
+      "jd_skill": "evaluation frameworks / evaluation protocols for manipulation (test suites, metrics, failure documentation discipline)",
+      "you_have": "Voice-Controlled Arm (100% pick reliability metric, 10/10 documented tests, failure analysis of 11 issues); BARC Research (PSNR 86, \u00b18% depth error metrics); Deep Learning Intern (83% mAP@50) \u2014 metrics and failure documentation discipline present, not a formal framework/test-suite architecture"
+    },
+    {
+      "jd_skill": "loco-manipulation",
+      "you_have": "ROS-Based Arm and Voice-Controlled Arm perform manipulation on stationary platforms (no mobile base + manipulation combined); skills include ROS2 but no mobile locomotion integration"
+    },
+    {
+      "jd_skill": "grasping",
+      "you_have": "Voice-Controlled Arm performs pick/place tasks implying end-effector/object interaction; no explicit grasp planning, grasp-force modeling, or grasp-analysis documented"
+    },
+    {
+      "jd_skill": "task and motion planning",
+      "you_have": "ROS-Based Arm covers motion planning (MoveIt); high-level task-level planning/decomposition not explicitly documented in profile bullets"
+    },
+    {
+      "jd_skill": "end-effectors",
+      "you_have": "Voice-Controlled Arm uses a pick/place mechanism/end-effector with ToF feedback; ROS Arm uses standard arm end-effectors; no custom end-effector design or calibration pipeline described"
+    },
+    {
+      "jd_skill": "calibration",
+      "you_have": "Voice-Controlled Arm uses dual VL53L0X ToF sensors and visual servoing (skills list); ROS MoveIt implies robot calibration; no explicit calibration pipeline or calibration-tooling bullet"
+    },
+    {
+      "jd_skill": "field deployment (unstructured outdoor/real-world field conditions)",
+      "you_have": "Voice-Controlled Arm deployed with systemd/static IP/non-root isolation \u2014 production-like deployment environment; no unstructured outdoor field deployment documented"
+    },
+    {
+      "jd_skill": "dynamics (force/torque dynamics modeling)",
+      "you_have": "Kinematics (DH, forward) explicitly covered; dynamics (force/torque/dynamics simulation) not present in profile bullets or skills"
+    },
+    {
+      "jd_skill": "teleoperation",
+      "you_have": "Not present in skills or project bullets; no teleoperation/data-collection/human-in-the-loop workflow documented"
+    },
+    {
+      "jd_skill": "whole-body coordination",
+      "you_have": "No humanoid/whole-body robot experience; manipulation is arm-level only; skills cover ROS/kinematics but not whole-body coordination"
+    },
+    {
+      "jd_skill": "imitation learning",
+      "you_have": "Not present in profile; ML experience is supervised/deep learning (PyTorch, YOLO, faster-whisper, Gemini) \u2014 no imitation/behavioral-cloning work"
+    },
+    {
+      "jd_skill": "reinforcement learning",
+      "you_have": "Not present in profile; no RL training, reward design, or policy optimization documented"
+    }
+  ],
+  "missing_skills": [
+    "humanoids / humanoid platforms",
+    "dexterous hands (multi-finger dexterous manipulation)",
+    "dynamics (force/torque modeling)",
+    "whole-body coordination",
+    "teleoperation",
+    "imitation learning",
+    "reinforcement learning"
+  ],
+  "top_ats_keywords": [
+    "humanoid",
+    "manipulation",
+    "loco-manipulation",
+    "robot learning",
+    "imitation learning",
+    "reinforcement learning",
+    "task and motion planning",
+    "control",
+    "perception",
+    "planning",
+    "grasping",
+    "whole-body coordination",
+    "teleoperation",
+    "field deployment",
+    "ROS2",
+    "C++",
+    "Python",
+    "Linux",
+    "kinematics",
+    "dynamics",
+    "motion planning",
+    "contact-rich robotics",
+    "dexterous hands",
+    "robot experimentation",
+    "evaluation protocols",
+    "sensors",
+    "actuators",
+    "end-effectors",
+    "calibration"
+  ],
+  "required_skills": [
+    "hands-on robotic manipulation / humanoids / dexterous hands / contact-rich robotics (must include physical hardware; simulation-only excluded)",
+    "kinematics",
+    "dynamics",
+    "motion planning",
+    "control",
+    "real robot experimentation",
+    "C++",
+    "Python",
+    "ROS/ROS2",
+    "Linux (real robotics codebase)"
+  ],
+  "preferred_skills": [
+    "humanoid platforms or contact-rich dexterous manipulation (physical hardware)",
+    "robot learning applied to physical hardware (imitation learning, reinforcement learning, or task-motion planning validated on a real robot)",
+    "prototype-to-reliable repeatable field behavior (closing prototype-to-deployment gap)",
+    "evaluation frameworks for manipulation (test suites, success/failure metrics, failure documentation discipline)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Design, implement, and evaluate humanoid manipulation and loco-manipulation behaviors on real hardware",
+    "Integrate perception, planning, control, grasping, whole-body coordination, and task execution into deployable robot workflows",
+    "Run hardware experiments, analyze failures, and improve manipulation reliability",
+    "Partner with system integration, hardware, field application, and testing teams",
+    "Support teleoperation, data collection, and human-in-the-loop workflows",
+    "Build tools, metrics, and evaluation protocols for manipulation success/repeatability/failure recovery/operator usability",
+    "Debug cross-domain issues spanning software, sensors, actuators, end-effectors, calibration, timing, and field conditions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

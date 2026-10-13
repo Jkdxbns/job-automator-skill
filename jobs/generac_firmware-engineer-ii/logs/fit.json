@@ -1,0 +1,153 @@
+{
+  "company": "Generac",
+  "company_slug": "generac",
+  "role": "Firmware Engineer II",
+  "job_slug": "firmware-engineer-ii",
+  "match_pct": 73.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 15,
+    "req_cov": 0.889,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "embedded programming",
+    "communication protocols",
+    "hardware interface",
+    "control algorithms",
+    "firmware testing",
+    "troubleshooting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "simulation tools",
+      "you_have": "Proteus, CARLA"
+    },
+    {
+      "jd_skill": "design for test / manufacturability",
+      "you_have": "EAGLE PCB design, BOM"
+    },
+    {
+      "jd_skill": "AI-assisted development tools",
+      "you_have": "LLM/Gemini tooling"
+    },
+    {
+      "jd_skill": "design documentation",
+      "you_have": "project docs / posters"
+    }
+  ],
+  "missing_skills": [
+    "C#",
+    "generator / power / engine controls"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded",
+    "C",
+    "C++",
+    "C#",
+    "microcontroller",
+    "microprocessor",
+    "control algorithms",
+    "communication protocols",
+    "test specifications",
+    "simulation",
+    "design for manufacturability",
+    "design for test",
+    "design reviews",
+    "documentation",
+    "troubleshooting"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "C#",
+    "microcontrollers",
+    "communication protocols",
+    "hardware interface",
+    "control algorithms",
+    "firmware testing",
+    "embedded programming"
+  ],
+  "preferred_skills": [
+    "AI-assisted development tools"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "firmware in C for embedded controllers",
+    "control algorithms",
+    "communication interfaces",
+    "test specifications and lab testing",
+    "DFM/DFT",
+    "simulation tools",
+    "design documentation and reviews"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Waukesha, WI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 plus interrupt-driven UART and multi-servo PWM with FreeRTOS mutexes (Object Tracking Turret) backs embedded C for microcontrollers",
+      "UART/I2C/SPI bring-up incl. TCA9548A I2C mux with dual VL53L0X (COFFIN) backs communication-interface firmware",
+      "Closed-loop feedback with quadrature encoders and two-link IK on Arduino C++ backs control-algorithm work",
+      "Bench skills: oscilloscopes, logic analyzers, spectrum analyzers; 11 integration failures diagnosed in COFFIN backs lab testing and troubleshooting",
+      "EAGLE PCB design and BOM at Planctech/ARC partly backs hardware-interface and DFM/DFT exposure"
+    ],
+    "real_gaps": [
+      "No generator, engine, alternator, transfer-switch or power-electronics domain exposure",
+      "No shipped production firmware; all work is capstone, internship or club scale vs a role that designs and brings products to market",
+      "No C# and no formal 2 years of professional embedded programming (7 internships, 0 FT)",
+      "No formal control-law design (PID tuning, stability) or simulation-tool depth (Simulink/MATLAB); Proteus only",
+      "No industrial protocols named in the profile (CAN, Modbus, RS-485); design-review and test-specification authoring are untested"
+    ],
+    "overstated_by_keywords": [
+      "Simulation tools counted adjacent via Proteus and CARLA; neither is controls-simulation work",
+      "DFM/DFT counted adjacent via a single-layer EAGLE PCB and BOM; no manufacturing-test fixture experience"
+    ],
+    "understated_by_keywords": [
+      "Servo PWM plus encoder feedback loops and brown-out debugging in COFFIN show real control and power-integrity troubleshooting beyond the string match"
+    ],
+    "screening_gaps": [
+      "No 2 years of professional embedded C and no shipped product firmware",
+      "No generator, power or engine-controls domain background",
+      "No industrial comms (CAN/Modbus) or controls-simulation evidence"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core of the role is C firmware on microcontrollers with comms interfaces and lab testing, which the STM32 and COFFIN work supports with real depth. The gaps are domain (power and generator controls) and production track record, both learnable but likely to draw a depth probe on control design and protocols.",
+    "calibration_delta": 6.3
+  },
+  "semantic_pending": false,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-09",
+    "channel": "application",
+    "notes": "Form rejection (Firmware Engineer II): moved forward with candidates whose experience aligns more closely. No feedback."
+  }
+}

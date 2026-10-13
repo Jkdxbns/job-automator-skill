@@ -1,0 +1,113 @@
+{
+  "company": "Graphcore",
+  "company_slug": "graphcore",
+  "role": "Graduate Performance Engineer",
+  "job_slug": "graduate-performance-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 0,
+    "missing_count": 4,
+    "jd_ask_size": 10,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "hardware architecture understanding",
+    "software development foundational knowledge",
+    "performance implications understanding",
+    "technical problem analysis",
+    "documentation",
+    "communication and collaboration"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "PCIe",
+    "DDR memory",
+    "Ethernet",
+    "server and rack level systems bring-up"
+  ],
+  "top_ats_keywords": [
+    "performance engineering",
+    "server systems",
+    "rack-level systems",
+    "bring-up",
+    "validation",
+    "PCIe",
+    "DDR",
+    "Ethernet",
+    "hardware architecture",
+    "software development"
+  ],
+  "required_skills": [
+    "hardware architecture understanding",
+    "software development foundational knowledge",
+    "performance implications understanding",
+    "technical problem analysis",
+    "documentation",
+    "communication and collaboration"
+  ],
+  "preferred_skills": [
+    "PCIe",
+    "DDR memory",
+    "Ethernet",
+    "software/hardware architecture performance focus"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "support design/peer review/bring-up/debug of server and rack-level systems",
+    "model/design/evaluate the full software and hardware stack for performance bottlenecks",
+    "collaborate across hardware and software development and testing teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, Texas, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 42,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "CUDA Kernel Optimization for VGG16: custom CUDA C++ kernels with memory coalescing and constant memory, 35% speedup over naive GPU \u2014 concrete hands-on performance-bottleneck identification and fix, the core activity the JD describes ('identifying performance bottlenecks, possible solutions and testing those outcomes').",
+      "COFFIN capstone: resolved 11 integration failures across a distributed hardware/software stack (Flutter client, Flask-SocketIO server, Jetson+Arduino controller) \u2014 direct evidence of debugging a full software-and-hardware stack, which is explicitly what the JD asks for.",
+      "High Performance Architecture and Multiple Processor Systems coursework (RIT) plus MPI/SLURM cluster projects (10.49x and 30x speedups) show real, examined understanding of system-level performance scaling, not just single-component optimization.",
+      "TensorRT-optimized YOLO on Jetson (5.2x speedup, 56.7 to 10.9 ms) is another concrete bring-up-and-optimize cycle on real hardware."
+    ],
+    "real_gaps": [
+      "Zero server- or rack-level systems experience \u2014 everything in the profile is single-board embedded (STM32, Arduino, Jetson) or a personal workstation/cluster, not data-center-class hardware.",
+      "No PCIe, DDR, or Ethernet interface-level work anywhere in the profile.",
+      "No bring-up experience at the scale the JD describes (server/rack peer review, schematic-adjacent hardware definition) \u2014 profile bring-up is single-device (STM32 temperature monitor, Turret).",
+      "No lab measurement/characterization experience with power, signal, or margin testing that a performance engineering role implies."
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "The keyword pass credits 'performance implications understanding' generically, but the CUDA/MPI/TensorRT work is genuinely rigorous performance engineering (profiling, kernel-level optimization, quantified speedups) \u2014 stronger than a bare keyword match conveys, even though it's at the software/GPU level rather than server-hardware level."
+    ],
+    "screening_gaps": [
+      "No data-center or server-hardware experience at all \u2014 the role is explicitly about server- and rack-level systems, and nothing in the profile touches that scale.",
+      "No PCIe/DDR/Ethernet interface exposure, which the JD lists as a direct preferred qualification.",
+      "The JD's 'Start: September 2027' is unusually far out \u2014 over a year from now \u2014 which is a scheduling risk more than a skill gap, but would come up in any real conversation about this role."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role's core ask, finding and fixing performance bottlenecks across a hardware and software stack, is something the candidate has real, quantified experience doing (CUDA kernel optimization, MPI scaling, TensorRT deployment), just at GPU/embedded scale rather than server/rack scale. The complete absence of PCIe/DDR/Ethernet and data-center hardware exposure is a genuine gap, but the JD explicitly frames this as a graduate learning role built on transferable coursework and project experience, so the fundamentals-level performance engineering is a reasonable foundation to build from.",
+    "calibration_delta": 18.0
+  }
+}

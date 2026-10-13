@@ -1,0 +1,128 @@
+{
+  "company": "Cisco",
+  "company_slug": "cisco",
+  "role": "Software Engineer Embedded Systems II",
+  "job_slug": "swe-embedded-systems-ii",
+  "match_pct": 45.5,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 22,
+    "req_cov": 0.222,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "Git",
+    "Python",
+    "Bash",
+    "TCP/IP",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "Low-level hardware-software interfaces"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Jetson/NVIDIA Linux deployment (application-level, not BSP/driver work)"
+    },
+    {
+      "jd_skill": "Multithreading/Concurrency",
+      "you_have": "QThread (PyQt GUI threading), not OS-level concurrency"
+    }
+  ],
+  "missing_skills": [
+    "POSIX",
+    "GDB",
+    "Valgrind",
+    "Device drivers",
+    "Kernel modules",
+    "BSP",
+    "Bootloader (U-Boot/UEFI)",
+    "OSI routing protocols (BGP/OSPF)",
+    "CI/CD (Jenkins/GitHub Actions)",
+    "JTAG debuggers",
+    "Hardware-in-the-loop (HIL) validation"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Embedded Linux",
+    "RTOS",
+    "POSIX",
+    "Multithreading",
+    "Concurrency",
+    "Memory management",
+    "GDB",
+    "Valgrind",
+    "Git",
+    "Device drivers",
+    "Kernel modules",
+    "BSP",
+    "Bootloader",
+    "TCP/IP",
+    "CI/CD",
+    "Python",
+    "Bash",
+    "JTAG"
+  ],
+  "required_skills": [
+    "C or C++ systems programming",
+    "Embedded Linux/RTOS/POSIX environments",
+    "Multithreading and concurrency",
+    "Memory management",
+    "Low-level hardware-software interfaces",
+    "Linux development workflows",
+    "GDB",
+    "Valgrind",
+    "Git"
+  ],
+  "preferred_skills": [
+    "Device drivers",
+    "Kernel modules",
+    "Board Support Packages (BSPs)",
+    "Bootloaders (U-Boot, UEFI)",
+    "TCP/IP networking",
+    "OSI layered architecture",
+    "Ethernet/BGP/OSPF",
+    "Python or Bash automation tooling",
+    "CI/CD (Jenkins, GitHub Actions)",
+    "Hardware bring-up",
+    "Hardware-in-the-loop (HIL) validation",
+    "Logic analyzers",
+    "Oscilloscopes",
+    "JTAG debuggers"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop/optimize embedded software, firmware, low-level platform features",
+    "Build device drivers, kernel components, hardware-software interfaces",
+    "System-level test automation and diagnostic tools in Python + CI/CD",
+    "Diagnose platform-level issues, optimize memory/CPU, production triage"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose CA / Austin TX / Alpharetta GA / Milpitas CA / RTP NC (+6 more, Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

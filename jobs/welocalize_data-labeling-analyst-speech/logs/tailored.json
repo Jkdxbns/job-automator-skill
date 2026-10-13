@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "company": "Welocalize",
+    "role": "Data Labeling Analyst - Speech & Voice AI",
+    "company_slug": "welocalize",
+    "job_slug": "data-labeling-analyst-speech"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with hands-on machine learning and NLP experience in speech and language models. Built an end-to-end ASR pipeline from scratch (15% WER on Indian-English) and benchmarked LLM evaluation on HellaSwag, GSM8K and ARC. Curated and annotated training datasets and built automated synthetic data generation pipelines, working daily in Python, Linux and command-line tools.",
+  "skills": {
+    "Speech & NLP": [
+      "ASR pipelines",
+      "faster-whisper",
+      "Tokenization",
+      "Hugging Face Transformers",
+      "Model evaluation"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "Bash",
+      "Linux",
+      "Git",
+      "Pandas",
+      "NumPy"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "scikit-learn",
+      "YOLO",
+      "Quantization (8-bit)"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% by fine-tuning DONUT (OCR-free document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Evaluated U-Net segmentation with VGG-16, VGG-19 and ResNet-50 backbones on Dice Score and IoU; reported accuracy-latency trade-offs."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Achieved 15% WER on the NPTEL 2020 Indian-English dataset while reducing preprocessing latency via optimized tokenization.",
+        "Designed a custom BPE tokenizer with a Cython-accelerated backend achieving 4–5.5× speedup over pure Python, processing 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Benchmarked LLM evaluation across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase.",
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and latency using pynvml and psutil."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0–1.4s) and Gemini intent classification (<500ms) into a voice-to-pick pipeline with 100% pick reliability (10/10 trials).",
+        "Resolved 11 integration failures through testing and validation; built a data collection pipeline using multiprocessing for multi-camera frame capture."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated synthetic data generation pipelines using CARLA semantic segmentation to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation; trained YOLO11n to mAP50~0.85."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

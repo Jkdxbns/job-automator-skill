@@ -1,0 +1,180 @@
+{
+  "company": "Xsens",
+  "company_slug": "xsens",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 66.1,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 28,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "embedded software/firmware",
+    "real-time systems",
+    "RTOS",
+    "FreeRTOS",
+    "Bluetooth",
+    "Ethernet",
+    "STM32/ARM Cortex-M",
+    "microcontrollers",
+    "low-level programming",
+    "unit testing",
+    "hardware schematics",
+    "digital electronics",
+    "debugging",
+    "performance optimization",
+    "generative AI tools"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "turret object-tracking control loop (proportional tracking, not multi-sensor Kalman fusion)"
+    },
+    {
+      "jd_skill": "signal processing",
+      "you_have": "ASR/speech signal processing (not real-time embedded sensor signal chains)"
+    },
+    {
+      "jd_skill": "positioning",
+      "you_have": "encoder-based dead-reckoning odometry on a holonomic robot (Robocon project, added 2026-09-24/29) \u2014 wheel-encoder position/heading estimation, not GNSS or visual positioning"
+    }
+  ],
+  "missing_skills": [
+    "IMU",
+    "GNSS",
+    "visual odometry",
+    "802.15.4",
+    "WiFi",
+    "CAN",
+    "CAN bus",
+    "Nordic nRF"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded software",
+    "firmware",
+    "RTOS",
+    "FreeRTOS",
+    "sensor fusion",
+    "positioning",
+    "IMU",
+    "GNSS",
+    "visual odometry",
+    "Bluetooth",
+    "802.15.4",
+    "WiFi",
+    "CAN",
+    "CAN bus",
+    "Ethernet",
+    "STM32",
+    "Nordic nRF",
+    "microcontrollers",
+    "unit testing",
+    "debugging",
+    "hardware schematics",
+    "digital electronics",
+    "generative AI tools"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded software development",
+    "reading hardware schematics",
+    "real-time systems",
+    "debugging",
+    "performance optimization"
+  ],
+  "preferred_skills": [
+    "RTOS",
+    "FreeRTOS",
+    "sensor systems",
+    "positioning",
+    "signal processing",
+    "IMU",
+    "GNSS",
+    "visual odometry",
+    "generative AI tools",
+    "Bluetooth",
+    "802.15.4",
+    "WiFi",
+    "CAN",
+    "CAN bus",
+    "Ethernet",
+    "microcontrollers",
+    "STM32",
+    "Nordic nRF"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, develop, and maintain embedded software and firmware in C/C++",
+    "Develop firmware for new and existing sensor platforms",
+    "Contribute to communication across wireless and wired interfaces",
+    "Implement and optimize algorithms (e.g., sensor fusion, positioning)",
+    "Design and execute unit tests and functional tests",
+    "Debug issues across hardware/software boundaries"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Enschede, Overijssel, Netherlands",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Object Tracking Turret: STM32 + FreeRTOS with mutexes for shared-memory task coordination, interrupt-driven UART command handling, VL53L0X ToF sensor integration \u2014 direct match to firmware for sensor platforms and RTOS real-time coordination",
+      "STM32 Bare-Metal Temperature Monitor: hand-written bare-metal C on Cortex-M4 \u2014 GPIO/TIM2/ADC1/I2C1 register-level peripheral programming, interrupt-driven sampling",
+      "Robocon Competition Robot (added to profile 2026-09-24/29): closed-loop heading correction on Arduino Due derived from dual-axis quadrature encoder dead-reckoning odometry, with a from-scratch interrupt-driven A/B decoder state machine and PWM motor control at 15 kHz \u2014 real, if partial, backing for the JD's positioning ask",
+      "Planctech gesture glove: ADXL345 accelerometer over I2C + HC-05 Bluetooth wireless link to Raspberry Pi, custom tap-detection algorithm with sensor jitter resolved via calibration",
+      "COFFIN capstone: dual VL53L0X ToF sensors via TCA9548A I2C mux, systemd-managed Jetson-Arduino bridge, 11 resolved integration failures \u2014 demonstrates debugging across hardware/software layers"
+    ],
+    "real_gaps": [
+      "No CAN bus / vehicle-network protocol experience anywhere in the profile",
+      "No WiFi or 802.15.4 radio protocol experience \u2014 COFFIN's WebSocket fabric is application-layer, not radio/MAC layer",
+      "No GNSS or visual-odometry positioning \u2014 the new Robocon project covers encoder dead-reckoning only, a different and less generalizable positioning technique",
+      "No true multi-sensor fusion (Kalman/EKF-style estimation) \u2014 existing work is single-sensor threshold/range-gate logic or single-encoder dead reckoning, not fused estimation",
+      "No Nordic nRF experience \u2014 all microcontroller work is STM32",
+      "No IMU experience"
+    ],
+    "overstated_by_keywords": [
+      "sensor fusion \u2014 keyword-matched via the turret's tracking loop, but that is pixel tracking with range-gated ToF triggering, not multi-sensor state fusion",
+      "signal processing \u2014 keyword-matched via the ASR/speech project, a different domain from embedded sensor signal chains"
+    ],
+    "understated_by_keywords": [
+      "STM32 bare-metal register-level peripheral programming (ADC/I2C/interrupt/timer) is stronger than a single microcontrollers keyword conveys",
+      "FreeRTOS + mutex-based task coordination appears in a working project, not just a coursework mention",
+      "The Robocon project's interrupt-driven quadrature decoder and closed-loop PWM heading correction is genuine control-systems depth the keyword pass under-credits"
+    ],
+    "screening_gaps": [
+      "No CAN bus experience \u2014 explicitly named interface in the JD with zero evidence in the profile",
+      "No GNSS or visual-odometry positioning \u2014 only encoder dead reckoning is backed, a materially different technique from what the JD's IMU/GNSS/visual-odometry phrasing implies",
+      "No genuine sensor-fusion (Kalman/EKF) work \u2014 existing projects use threshold/range-gate or single-source dead-reckoning logic, not fused estimation"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The profile update adds real, if partial, backing for positioning through the Robocon project's encoder dead-reckoning work, narrowing what was previously a total gap. Core embedded-firmware strengths (STM32 bare-metal, FreeRTOS, wireless sensor integration) remain solid. CAN, GNSS/visual positioning, and true sensor fusion stay the honest ceiling.",
+    "calibration_delta": 3.1
+  }
+}

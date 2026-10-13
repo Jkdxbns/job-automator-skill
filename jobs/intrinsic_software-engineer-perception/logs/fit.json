@@ -1,0 +1,63 @@
+{
+  "company": "Intrinsic",
+  "company_slug": "intrinsic",
+  "role": "Software Engineer, Perception",
+  "job_slug": "software-engineer-perception",
+  "match_pct": 100,
+  "missing_skills": [
+    "JAX",
+    "explicit 6DoF pose estimation (PnP/ICP)",
+    "3D reconstruction as primary deliverable"
+  ],
+  "adjacent_skills": [
+    "depth estimation (ZoeDepth) -> 6dof pose estimation / 3D reconstruction",
+    "visual servoing / contact-aware grasping (COFFIN) -> grasping and manipulation algorithms"
+  ],
+  "top_ats_keywords": [
+    "object detection",
+    "deep learning",
+    "transformer",
+    "PyTorch",
+    "TensorFlow",
+    "CUDA",
+    "quantization",
+    "computer vision",
+    "robotics",
+    "grasping",
+    "manipulation",
+    "3D reconstruction",
+    "6dof pose estimation"
+  ],
+  "key_responsibilities": [
+    "Develop and implement deep learning models for 3D computer vision (object detection, pose estimation, 3D reconstruction)",
+    "Optimize and deploy algorithms for grasping and manipulation in industrial robotics",
+    "Enhance robot perception for dynamic manufacturing settings",
+    "Contribute to design/implementation/documentation of core perception software skills",
+    "Support users applying perception skills in production applications"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 85,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "CUDA kernel optimization project (35% speedup on VGG16 conv layers) directly backs GPU kernel programming preferred skill",
+      "COFFIN capstone: TensorRT-optimized YOLO (5.2x speedup) for visual servoing plus ToF-triggered contact-aware grasping is a real, deployed grasping+detection pipeline, not just a toy demo",
+      "SLM quantization project (8-bit, ~55% memory reduction, <1% accuracy loss) backs the optimizing/quantizing ML models preferred skill",
+      "BARC depth estimation (ZoeDepth monocular depth for 3D surface reconstruction, +-8% error) is genuine 3D perception depth work, though framed as crack profiling rather than robotic pose estimation",
+      "ROS2/MoveIt forward-kinematics work on UR5e and AL5B shows real robotic manipulation background"
+    ],
+    "real_gaps": [
+      "No project does explicit 6DoF object pose estimation (PnP/ICP/pose regression) - the JD lists this as one of three acceptable focus areas, and detection/depth-estimation is the closer analog, not a direct hit",
+      "No JAX experience (PyTorch and TensorFlow only) - JD accepts any one of the three so this alone does not disqualify",
+      "All CV/robotics work is internship or capstone scope; the JD wants someone supporting perception skills already running in production industrial deployments, not research-scale pipelines"
+    ],
+    "overstated_by_keywords": [
+      "6dof pose estimation and 3D reconstruction were counted as adjacent matches based on ZoeDepth depth estimation, which is real 3D perception work but not the same task as object pose estimation for grasping"
+    ],
+    "reasoning": "The keyword match looks close to perfect because Justin has genuine, deployed work across detection, grasping, CUDA, and quantization, which covers most of what this JD explicitly asks for. The real gap is narrower and more specific than the keyword score suggests: no project does 6DoF pose estimation directly, and everything is internship/capstone scale rather than production ownership - both are secondary to the location issue below."
+  }
+}

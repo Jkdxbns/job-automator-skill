@@ -1,0 +1,116 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics AI Engineer, Sensor Calibration",
+  "job_slug": "robotics-ai-engineer-sensor-calibration",
+  "match_pct": 35.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 20,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Master's degree in Computer Science, Engineering, or related field (M.S. Computer Engineering, Rochester Institute of Technology (RIT), May 2026 \u2014 profile identity line)",
+    "Proficiency in C++ and Python (Python and C/C++ explicitly listed in skills; C/C++ used in CUDA kernel optimization (VGG16), embedded STM32 bare-metal C, ROS arm C++; Python used extensively (BARC GUI, IIT Bombay OCR, Tusk YOLO, COFFIN arm, CARLA, MPI, quantization))",
+    "Solid background in 3D geometry (DH tables and forward kinematics in ROS-Based Robotic Arm (AL5B & UR5e) project; visual servoing in Voice-Controlled Robotic Arm (COFFIN) capstone; stereo/depth work at BARC)",
+    "Solid background in computer vision (YOLOv8n toothbrush detection (83% mAP@50), OpenCV in skills/projects, image-stitching pipeline (PSNR 86) at BARC, ZoeDepth monocular depth estimation (crack-depth \u00b18%), U-Net segmentation (BraTS), faster-whisper/STT in COFFIN arm)",
+    "Hands-on experience with OpenCV (OpenCV explicitly listed in Edge AI/CV/Speech skills; used in CV and robotics projects)",
+    "Familiarity with ROS and Ubuntu software development practices (ROS/ROS2 listed in skills; ROS2 Humble + ROS Noetic used in ROS-Based Robotic Arm (AL5B & UR5e); MoveIt and RViz used; systemd deployment (auto-restart, non-root isolation) in COFFIN arm on Linux/Jetson)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IMU / accelerometer sensor work",
+      "you_have": "ADXL345 accelerometer used in Embedded Systems Intern wearable gesture-recognition glove (Planctech Innovations) \u2014 accelerometer integration present, though not explicit IMU calibration"
+    },
+    {
+      "jd_skill": "Autonomous robots / embodied AI",
+      "you_have": "COFFIN Voice-Controlled Robotic Arm (capstone, 100% pick reliability 10/10, systemd deployment); Autonomous Driving in CARLA (semantic segmentation, YOLO11n + UFLD, zero collisions Town02); Object Tracking Turret (YOLOv8 + STM32 + FreeRTOS) \u2014 all robotics/autonomy work but at internship/research scale, not production autonomous robots"
+    }
+  ],
+  "missing_skills": [
+    "2+ years of work experience as a robotics software engineer (candidate has 0 full-time years, 7 internships/research only)",
+    "Sensor calibration techniques \u2014 camera intrinsic calibration, LiDAR-Camera calibration, multi-sensor extrinsic calibration (profile explicitly notes no LiDAR; no calibration workflow bullet present; BARC depth/stitching is measurement, not calibration)",
+    "Hands-on experience with PCL (not mentioned anywhere in profile)",
+    "Hands-on experience with Open3D (not mentioned anywhere in profile)",
+    "Hands-on experience with Kalibr (not mentioned anywhere in profile)",
+    "Familiarity with backend optimization tools \u2014 Ceres (not mentioned)",
+    "Familiarity with backend optimization tools \u2014 GTSAM (not mentioned)",
+    "Familiarity with backend optimization tools \u2014 g2o (not mentioned)",
+    "Ph.D. (candidate holds M.S. only)",
+    "Research experience with publications in top-tier conferences/journals (profile lists 7 internships/research but no publication list mentioned)",
+    "Familiarity with factory-level calibration procedures and tooling for high-volume product lines (no manufacturing/factory experience)",
+    "Hands-on experience calibrating hundreds of camera intrinsics or camera-LiDAR systems at scale (no scale calibration experience; profile explicitly lacks LiDAR)"
+  ],
+  "top_ats_keywords": [
+    "sensor calibration",
+    "LiDAR",
+    "IMU",
+    "camera intrinsic calibration",
+    "extrinsic calibration",
+    "ROS",
+    "C++",
+    "Python",
+    "3D geometry",
+    "computer vision",
+    "PCL",
+    "Open3D",
+    "OpenCV",
+    "Kalibr",
+    "Ceres",
+    "GTSAM",
+    "g2o",
+    "autonomous robots",
+    "calibration pipelines"
+  ],
+  "required_skills": [
+    "Master's degree in Computer Science, Engineering, or related field",
+    "2+ years of work experience as a robotics software engineer",
+    "Proficiency in C++ and Python",
+    "Solid background in 3D geometry",
+    "Solid background in computer vision",
+    "Solid understanding of sensor calibration techniques (camera intrinsic calibration, LiDAR-Camera calibration, multi-sensor extrinsic calibration)",
+    "Hands-on experience with PCL, Open3D, OpenCV, Kalibr",
+    "Familiarity with ROS and Ubuntu software development practices",
+    "Familiarity with backend optimization tools (Ceres, GTSAM, g2o)"
+  ],
+  "preferred_skills": [
+    "Ph.D. in Computer Science, Engineering, or related field",
+    "Research experience with publications",
+    "Familiarity with factory-level calibration procedures and tooling",
+    "Hands-on experience calibrating hundreds of camera intrinsics or camera-LiDAR systems at scale"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop and refine sensor calibration workflows (intrinsic, extrinsic, temporal) for camera, LiDAR, IMU",
+    "Design scalable systems for large sensor dataset processing for calibration",
+    "Implement and optimize calibration algorithms in C++ and Python",
+    "Collaborate cross-functionally on documentation and deliverables"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

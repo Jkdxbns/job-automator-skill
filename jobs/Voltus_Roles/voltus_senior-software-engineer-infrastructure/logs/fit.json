@@ -1,0 +1,134 @@
+{
+  "company": "Voltus",
+  "company_slug": "voltus",
+  "role": "Senior Software Engineer, Infrastructure",
+  "job_slug": "senior-software-engineer-infrastructure",
+  "match_pct": 32.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 17,
+    "req_cov": 0.143,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++ (bare-metal C on STM32)",
+    "Linux / Bash / system services",
+    "Git / GitHub / CI concepts"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Infrastructure / Platform / DevOps / SRE",
+      "you_have": "ROS2 / embedded / edge-AI deployment experience (Jetson, TensorRT)"
+    },
+    {
+      "jd_skill": "AI-assisted development / AI tooling",
+      "you_have": "Used AI/ML, Hugging Face, faster-whisper, LLM.int8, TinyLlama, transformer models"
+    },
+    "Stateful / real-time systems ownership (indirect adjacency)"
+  ],
+  "missing_skills": [
+    "Go (candidate has C/C++, Python; no Go)",
+    "AWS (multi-account, VPC, Transit Gateway, PrivateLink, IAM deep) (candidate has none)",
+    "Kubernetes production experience (EKS, ArgoCD/Flux, Helm, operators) (candidate has zero Kubernetes in list)",
+    "Terraform / infrastructure-as-code at org scale (not in keyword list)",
+    "Production monitoring / observability (Prometheus, Grafana, Elasticsearch/OpenSearch, distributed tracing, SLOs as code) (not in keyword list)",
+    "Stateful systems at scale (DB replication, message brokers, backup/restore under pressure) (not in keyword list)",
+    "Docker / container orchestration (not in keyword list beyond general embedded deployment)",
+    "Nomad / Consul / Vault (HashiCorp stack) (not in keyword list)",
+    "Security / identity / secrets / SSO / OIDC / Vault (not in keyword list)",
+    "6+ years professional software engineering (candidate: new grad, 0 full-time, 7 internships)"
+  ],
+  "top_ats_keywords": [
+    "Senior Software Engineer",
+    "Infrastructure",
+    "Platform",
+    "DevOps",
+    "SRE",
+    "production systems",
+    "Go",
+    "Python",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "observability",
+    "monitoring",
+    "stateful systems",
+    "database",
+    "message broker",
+    "container orchestration",
+    "HashiCorp",
+    "Nomad",
+    "Consul",
+    "Vault",
+    "security",
+    "secrets",
+    "AI-assisted development",
+    "remote"
+  ],
+  "required_skills": [
+    "Go",
+    "Python",
+    "AWS (multi-account, IAM, VPC, network, DNS, secrets, encryption)",
+    "Kubernetes (production: upgrades, networking, ingress, RBAC, autoscaling, EKS, ArgoCD/Flux, Helm, operators)",
+    "Terraform / infrastructure-as-code",
+    "monitoring / observability (Prometheus, Grafana, Elasticsearch/OpenSearch, distributed tracing, metrics, SLOs, alerts as code)",
+    "stateful systems (relational DB, message brokers, replication, backups, restores)",
+    "Docker / containers",
+    "Nomad / Consul / Vault (HashiCorp)",
+    "GitOps-style deploys",
+    "service mesh",
+    "progressive rollout / rollback",
+    "security / identity / least privilege / SSO / OIDC / Vault / machine-to-machine credentials",
+    "AI-assisted development tooling (Claude Code, MCP, agents)"
+  ],
+  "preferred_skills": [
+    "Nomad / Consul / Vault experience",
+    "introducing Kubernetes to an organization that did not already run it",
+    "self-hosted CI/build (Jenkins, ArgoCD, artifact repos)",
+    "OpenTelemetry",
+    "consolidating monitoring stacks",
+    "event-driven / streaming (MSK)",
+    "AWS Organizations / Control Tower / SCP",
+    "identity migration (Auth0, Okta, Cognito, Keycloak)",
+    "internal developer tooling / CLIs",
+    "reading Java or C++",
+    "AI developer tooling (Claude Code, MCP, agent workflows) / model infra (AWS Bedrock)",
+    "energy / clean energy interest"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own core Platform services and major migrations end to end (multi-month, stateful, business-critical, zero downtime)",
+    "Run containerized workloads and delivery path (orchestration, scheduling, GitOps deploys, progressive rollout/rollback, service mesh); bring Kubernetes practice alongside Nomad",
+    "Architect and operate AWS foundation (multi-account, IAM, VPC/Transit Gateway, PrivateLink, DNS, certificates, encryption, secrets)",
+    "Operate stateful systems (DB upgrades, replication, message brokers, caches, time-series, backups + tested restores)",
+    "Instrument observability (distributed tracing, metrics/SLOs, alerts as code, open-source stack), build infra-as-code / developer tooling, build AI guardrails"
+  ],
+  "role_category": "other",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "The JD states explicitly: 'Please note that at this time, we do not sponsor visas or transfers for new hires. Voltus teammates need to be authorized to work from their home location (in the US or Canada, unless otherwise indicated on the role description).' The candidate is on F-1 OPT and requires sponsorship long term. Category (a): explicit refusal of sponsorship / must be authorized without sponsorship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

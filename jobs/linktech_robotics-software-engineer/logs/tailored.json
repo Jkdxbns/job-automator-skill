@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "company": "LinkTech",
+    "role": "Robotics Software Engineer",
+    "company_slug": "linktech",
+    "job_slug": "robotics-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT with robotics and embedded systems experience across sensor integration, hardware interfacing in C/C++, and computer vision. Built a voice-controlled robotic pick-and-place system with TensorRT YOLO visual servoing, two-link IK in C++, and contact-fused grasping — resolving 11 hardware integration failures to reach 100% pick reliability.",
+  "skills": {
+    "Languages & Systems": ["C/C++", "Python", "Bash"],
+    "Robotics & Embedded": ["STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "EAGLE PCB Design"],
+    "Computer Vision": ["OpenCV", "YOLO", "TensorRT", "Visual servoing"],
+    "Tools": ["Linux", "Git", "CMake", "Oscilloscopes", "Logic Analyzers", "SolidWorks", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national competitions, owning mechanical design, PCB fabrication, and AI/ML software integration end-to-end.",
+        "Designed and fabricated custom PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error; architected full metal inspection pipeline using image stitching, wavelet denoising, and depth estimation (PSNR 86)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency; resolved 11 hardware integration failures including servo crosstalk, false-positive detections, and rolling-shutter depth errors.",
+        "Built a three-layer pipeline (Flutter → Flask-SocketIO → Jetson+Arduino) with TensorRT YOLO at ~18 FPS, dual VL53L0X ToF sensors via I2C mux, and two-link IK in C++ driving five servos."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects; sent real-time motor control commands to STM32 over UART with interrupt-driven multi-servo PWM control.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensor for distance-based targeting."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver; verified in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Principles of Robotics", "Robot Perception", "Machine Intelligence", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Artificial Neural Networks & Fuzzy Logic", "Digital Electronics"]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)",
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

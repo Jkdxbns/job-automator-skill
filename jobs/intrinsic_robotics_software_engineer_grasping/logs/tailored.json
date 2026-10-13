@@ -1,0 +1,147 @@
+{
+  "_meta": {
+    "company": "Intrinsic",
+    "role": "Robotics Software Engineer - Grasping",
+    "company_slug": "intrinsic",
+    "job_slug": "robotics_software_engineer_grasping",
+    "tailoring_date": "2026-09-10"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns"
+  },
+  "summary": "M.S. Computer Engineering from RIT with hands-on robotics systems and production C++ code. Built full-stack robotic arms with vision-guided grasping, kinematics pipelines, and real-time sensor integration. Experienced in hardware-software integration across Jetson, Arduino, and STM32 for motion control.",
+  "skills": {
+    "Languages & Production Code": [
+      "C++",
+      "Python",
+      "CUDA",
+      "ROS 2"
+    ],
+    "Robotics & Control": [
+      "Forward kinematics",
+      "DH parameters",
+      "Spatial transformations",
+      "MoveIt",
+      "Visual servoing",
+      "Real-time control"
+    ],
+    "Embedded & Hardware": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "STM32 Bare-Metal C",
+      "UART/I2C/SPI",
+      "Servo control"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Flask",
+      "OpenCV",
+      "TensorRT"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline using image stitching, wavelet denoising, and monocular depth estimation.",
+        "Deployed ZoeDepth depth estimation with ±8% error; designed custom wavelet bank achieving PSNR of 86."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove with ADXL345 accelerometers, Raspberry Pi, and Bluetooth for 3-DoF hand motion to HID command translation.",
+        "Implemented custom tap-detection algorithm resolving sensor jitter through software calibration."
+      ]
+    },
+    {
+      "title": "General Secretary, Robotics Club",
+      "company": "Agnel Robotics Club, F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led 25-member robotics team across national competitions, owning mechanical design and AI/ML integration.",
+        "Designed and fabricated custom PCBs in EAGLE; implemented UART and I2C communication with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm with Vision-Guided Grasping (COFFIN)",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built full-stack voice-controlled pick-and-place system: Flutter mobile client, Flask edge server, Jetson+Arduino controller via WebSocket.",
+        "Engineered contact-aware grasping with dual VL53L0X ToF sensors, servo control, and 2-link inverse kinematics.",
+        "Optimized real-time perception: TensorRT YOLO (5.2× speedup to 10.9ms), faster-whisper STT (1.0–1.4s) achieving <12s voice-to-grasp latency.",
+        "Achieved 100% pick reliability (10/10 trials); designed multi-camera data collection pipeline for robot learning."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm Kinematics & Trajectory Planning",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and computed forward kinematics (0T6) for 6-DoF UR5e and 5-DoF AL5B; validated in ROS 2 Humble.",
+        "Executed collision-free trajectories on physical UR5e; achieved <2mm AL5B repeatability over 10 trials."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Implemented custom CUDA C++ kernels with memory coalescing and constant memory, eliminating per-layer allocation.",
+        "Achieved 49.2ms execution (35% speedup) with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret with Real-Time Control",
+      "date": null,
+      "bullets": [
+        "Integrated YOLOv8 on Jetson with STM32 servo control via UART for real-time object tracking.",
+        "Implemented FreeRTOS with mutexes, VL53L0X ToF sensing, and interrupt-driven deterministic servo PWM."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "High Performance Architecture",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing (2024)",
+    "Ranked 10th, Robocon — National robotics competition among 45 universities (2022)"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "company": "VEIR",
+  "company_slug": "veir",
+  "role": "Senior Mechanical Engineer",
+  "job_slug": "senior-mechanical-engineer",
+  "match_pct": 4.2,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 11,
+    "jd_ask_size": 12,
+    "req_cov": 0.2,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Python / MATLAB",
+      "you_have": "python"
+    }
+  ],
+  "missing_skills": [
+    "mechanical engineering",
+    "CAD design",
+    "FEA software",
+    "ASME 31.3",
+    "BPVC",
+    "pressure vessel design",
+    "thermal/structural analysis for superconducting systems",
+    "7+ years experience",
+    "mechanical design from concept to production",
+    "engineering fabrication drawings",
+    "cryo/thermal management design"
+  ],
+  "top_ats_keywords": [
+    "mechanical engineer",
+    "FEA",
+    "CAD",
+    "thermal analysis",
+    "structural analysis",
+    "ASME",
+    "BPVC",
+    "pressure vessel",
+    "superconducting",
+    "cryo",
+    "mechanical design",
+    "fabrication",
+    "system integration"
+  ],
+  "required_skills": [
+    "mechanical engineering",
+    "mechanical/structural/thermal analysis",
+    "CAD design",
+    "FEA",
+    "design for assembly",
+    "engineering drawings",
+    "ASME 31.3 / BPVC",
+    "pressure vessel design",
+    "MATLAB or Python",
+    "product development lifecycle"
+  ],
+  "preferred_skills": [
+    "coding with MATLAB/Python",
+    "continuous improvement",
+    "collaboration/mentoring"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own mechanical/thermal/structural design for superconducting systems",
+    "Lead design from concept through fabrication for low/medium-voltage assemblies",
+    "Conduct FEA for thermal/mechanical/electrical reliability",
+    "Define requirements and oversee qualification testing",
+    "Mentor junior engineers and collaborate cross-functionally"
+  ],
+  "role_category": "other",
+  "location": "Woburn, Massachusetts, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

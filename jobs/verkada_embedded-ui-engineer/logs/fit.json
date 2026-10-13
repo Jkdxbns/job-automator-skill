@@ -1,0 +1,70 @@
+{
+  "company": "Verkada",
+  "company_slug": "verkada",
+  "role": "Embedded UI Engineer",
+  "job_slug": "embedded-ui-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 10,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["C/C++", "GUI framework (PyQt)", "OLED display", "Embedded devices (STM32/bare-metal)"],
+  "missing_skills": ["Video game UI development", "Android mobile development"],
+  "adjacent_skills": [
+    {"term": "Embedded UI development (3+ yrs professional)", "have": "OLED distance visualization + STM32 bare-metal display work (project scope, not 3 yrs professional)"},
+    {"term": "Mobile app UI development", "have": "Flutter mobile client built for COFFIN capstone"},
+    {"term": "Visual design / UX sense", "have": "GUI/PyQt data visualization work; no dedicated design/UX portfolio"},
+    {"term": "Screen UI / framework design", "have": "OLED distance display on turret project; not a reusable framework"}
+  ],
+  "top_ats_keywords": ["C/C++", "Embedded UI", "GUI", "OLED", "Screen devices", "Android", "Visual design", "UX"],
+  "key_responsibilities": [
+    "Build UI/interfaces for embedded devices with screens",
+    "Develop a UI framework for all Verkada screen devices",
+    "Deliver intuitive experiences in a constrained hardware environment",
+    "Own major product components end to end",
+    "Take a loosely-defined product idea and drive it to completion"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Proficient, verifiable C/C++ across bare-metal STM32 (Cortex-M4, GPIO/TIM2/ADC1/I2C1) and Arduino C++ (COFFIN two-link IK) — directly answers the stated 'Proficient in C/C++' requirement",
+      "Real, if narrow, UI-building experience: Flutter mobile client (COFFIN capstone) and a PyQt/Matplotlib desktop GUI (BARC internship) for live data acquisition",
+      "OLED distance visualization on the Object Tracking Turret shows some experience putting a UI element on an embedded device with a screen"
+    ],
+    "real_gaps": [
+      "No Android development experience of any kind, despite it being explicitly named in the JD",
+      "No video game UI development",
+      "No evidence of building a reusable UI framework — all UI work is a one-off client/GUI inside a larger ML/robotics project, not the architecture-level 'framework for all screen devices' the role asks for",
+      "No dedicated visual design or UX process evidence (no design tool, no UX methodology, no portfolio of shipped interfaces)",
+      "0 full-time years against a stated 3+ years requirement — the role reads as an experienced IC hire, not an entry-level opening"
+    ],
+    "overstated_by_keywords": [
+      "'GUI' and 'Flutter' keyword hits read as UI engineering depth but are single-project, incidental to ML/robotics work — not a sustained UI specialization"
+    ],
+    "understated_by_keywords": [
+      "The Flutter mobile client, PyQt GUI, and OLED display work are real hands-on UI experience that a plain keyword scan for 'embedded UI' terms would likely miss entirely"
+    ],
+    "screening_gaps": [
+      "Zero years of professional experience against a stated 3+ years requirement for what reads as an experienced IC role",
+      "No Android experience despite it being named directly in the JD",
+      "No portfolio of dedicated UI/UX work — existing UI touches are incidental to ML/robotics projects, not a demonstrated specialization in interface engineering"
+    ],
+    "recommend_apply": false,
+    "reasoning": "C/C++ is genuinely strong and there is real, if incidental, UI experience (Flutter, PyQt, OLED), but the role's actual core — 3+ years of dedicated embedded/mobile/game UI engineering, Android exposure, and a visual design/UX sense — has little real backing in the profile. This reads as an experienced UI specialist hire, not an entry point for a new grad whose track record is ML/robotics/embedded systems.",
+    "calibration_delta": 15
+  }
+}

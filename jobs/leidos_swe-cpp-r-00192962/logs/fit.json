@@ -1,0 +1,153 @@
+{
+  "company": "Leidos",
+  "company_slug": "leidos",
+  "role": "Software Engineer C++",
+  "job_slug": "swe-cpp-r-00192962",
+  "match_pct": 65.8,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "OOP/OOAD",
+    "Data structures and algorithms",
+    "Software design",
+    "TCP/UDP socket programming",
+    "GUI development",
+    "Qt",
+    "OpenGL",
+    "CUDA",
+    "Linux",
+    "Git/version control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Memory management",
+      "you_have": "Embedded C/bare-metal (STM32) manual memory management"
+    },
+    {
+      "jd_skill": "Multicore processors",
+      "you_have": "MPI parallel computing / CUDA parallel programming"
+    },
+    {
+      "jd_skill": "Distributed systems design",
+      "you_have": "MPI distributed computing / 3-tier Flutter-Flask-Jetson distributed pipeline"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Cybersecurity",
+    "DevOps/CI-CD pipeline",
+    "Scrum/Agile",
+    "RedHat (specific distro)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "OOP",
+    "distributed systems",
+    "TCP/UDP",
+    "socket programming",
+    "multicore",
+    "Qt",
+    "CUDA",
+    "OpenGL",
+    "Linux",
+    "RedHat",
+    "SQL",
+    "DevOps",
+    "CI/CD",
+    "Scrum",
+    "Agile"
+  ],
+  "required_skills": [
+    "C++",
+    "OOP/OOAD",
+    "data structures and algorithms",
+    "software design",
+    "memory management",
+    "multicore processors",
+    "distributed systems design",
+    "TCP/UDP socket programming"
+  ],
+  "preferred_skills": [
+    "GUI development",
+    "Qt 5+",
+    "OpenGL",
+    "CUDA",
+    "Linux (RedHat)",
+    "SQL",
+    "Cybersecurity",
+    "networking",
+    "DevOps/CI-CD",
+    "Scrum/Agile"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design/build/maintain C++ code with OOP/OOAD",
+    "Optimize and debug performance issues",
+    "Analyze customer issues and implement solutions",
+    "Participate in defined SDLC process",
+    "Occasional domestic/international travel"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Tewksbury, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep, repeated C++/CUDA optimization work (35% CUDA kernel speedup via memory coalescing and preallocated buffers, 5.2x TensorRT YOLO speedup) directly demonstrates the 'identify bottlenecks and devise solutions' responsibility",
+      "COFFIN capstone's three-layer distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller over a unified WebSocket fabric) is real multi-tiered distributed-systems design, not a toy example",
+      "MPI cluster work (12-worker neuron simulation, 55-process ray tracer with four scheduling strategies) shows genuine multicore/distributed-computing depth beyond the keyword match",
+      "PySide6/Qt desktop GUI with an OpenGL-backed VisPy 3D viewport and a separate PyQt+Matplotlib lab GUI directly back the 'Graphics Design, GUI development' preferred qualification",
+      "systemd service deployment (auto-restart, non-root isolation, env-based config) and static IP networking show real Linux administration exposure beyond casual use"
+    ],
+    "real_gaps": [
+      "No raw BSD/Winsock TCP/UDP socket API experience \u2014 WebSocket/Flask-SocketIO is a higher-level abstraction over TCP, not the socket()/bind()/send() programming the JD asks for",
+      "No production or enterprise-scale software ownership \u2014 every C++/systems project is capstone, research, or internship scope, while this role centers on maintaining live aviation-security products",
+      "No SQL, DevOps/CI-CD pipeline, or Scrum/Agile process experience anywhere in the profile",
+      "No RedHat-specific Linux experience (profile's Linux work is general/Ubuntu-class, not RHEL)",
+      "OpenGL exposure is via VisPy's wrapper, not direct OpenGL API programming"
+    ],
+    "overstated_by_keywords": [
+      "TCP/UDP socket programming \u2014 credited as HAVE from WebSocket/Flask-SocketIO usage, but that is application-layer, not the raw socket API a technical screener would probe"
+    ],
+    "understated_by_keywords": [
+      "Memory management \u2014 scored as adjacent, but CUDA memory coalescing, constant-memory weight buffers, preallocated global buffers to eliminate per-layer allocation, and a deterministic 3.68KB Flash/1.58KB RAM embedded footprint are all explicit, hands-on memory-management work"
+    ],
+    "screening_gaps": [
+      "No raw socket-programming (TCP/UDP) experience \u2014 a named basic qualification with no real backing, easy for a screener to probe directly",
+      "No production/enterprise software experience \u2014 entire background is internship, research, and capstone scope, not owning a shipped product",
+      "No SQL, DevOps/CI-CD, or Scrum/Agile exposure \u2014 a cluster of standard SDLC/process skills this JD lists that are entirely absent from the profile"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong C++/optimization and distributed-systems depth (COFFIN, MPI, CUDA) covers most of the JD's technical core, and the Qt/OpenGL GUI work is a genuine match for the preferred quals. The real risk is the gap between 'multi-tiered distributed application' as the JD means it (a shipped enterprise product with raw sockets, SQL, and a formal SDLC) versus Justin's capstone/research-scope systems \u2014 that gap is learnable but worth naming before applying.",
+    "calibration_delta": -0.2
+  }
+}

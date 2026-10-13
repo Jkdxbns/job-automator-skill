@@ -1,0 +1,118 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Research Engineer - Manipulation",
+  "job_slug": "senior-research-engineer-manipulation",
+  "match_pct": 57.9,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.083,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch / TensorFlow model training and fine-tuning (DONUT OCR, YOLOv8n, TinyLlama quantization)",
+    "ROS/ROS2 robotics pipelines and perception (MoveIt, RViz, visual servoing, forward kinematics, DH tables)",
+    "manipulation systems (COFFIN 6DOF arm capstone with Flutter+Flask+Jetson+Arduino, AL5B/UR5e ROS drivers)",
+    "CUDA C++ / TensorRT edge deployment (5.2x YOLO speedup on Jetson)",
+    "embedded C/C++ bare-metal (STM32 Cortex-M4, FreeRTOS, UART/I2C/SPI)",
+    "ASR/STT pipelines (faster-whisper, custom Cython tokenizer)",
+    "computer vision (YOLO, OpenCV, U-Net segmentation)",
+    "Python, C/C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "large-scale learned manipulation models",
+      "you_have": "small-scale ML models (YOLOv8n 83% mAP, DONUT 93%, TinyLlama 1.1B quant) \u2014 no large-scale foundation model training"
+    },
+    {
+      "jd_skill": "humanoid robot platforms",
+      "you_have": "6DOF robotic arm (COFFIN capstone) and ROS-based AL5B/UR5e \u2014 not humanoid-specific"
+    },
+    {
+      "jd_skill": "robotics foundation models generalizable across embodiments",
+      "you_have": "vision model fine-tuning (YOLO, U-Net, DONUT) and transformer training (GPT-2 from scratch) \u2014 not robotics foundation models"
+    },
+    {
+      "jd_skill": "physically-grounded / hybrid learned + physics models",
+      "you_have": "DH parameters, forward kinematics, ROS MoveIt \u2014 physics grounding exists but not physics-informed ML"
+    },
+    {
+      "jd_skill": "loco-manipulation (locomotion + manipulation)",
+      "you_have": "manipulation and arm control only \u2014 no locomotion"
+    },
+    {
+      "jd_skill": "scaling data/training systems at production scale",
+      "you_have": "research/intern-scale training only; notes no production-scale distributed experience"
+    }
+  ],
+  "missing_skills": [
+    "Senior-level (5+ years) full-time industry experience in robotics/ML",
+    "Production-scale large-scale model training infrastructure (SLURM/MPI experience is academic/research-scale)",
+    "Direct humanoid robot manipulation experience",
+    "Cross-embodiment generalizable robotics foundation models",
+    "Enterprise/cloud-scale deployment and rapid field-iteration at company scale"
+  ],
+  "top_ats_keywords": [
+    "manipulation",
+    "humanoid",
+    "foundation models",
+    "embodied intelligence",
+    "robotics",
+    "learned manipulation",
+    "autonomous control",
+    "loco-manipulation",
+    "robot learning",
+    "scalable autonomy"
+  ],
+  "required_skills": [
+    "large-scale learned manipulation modeling",
+    "humanoid robot platforms",
+    "learned + physically-grounded hybrid manipulation strategies",
+    "robotics foundation model training/testing/refinement",
+    "autonomous loco-manipulation",
+    "scaling data/training systems"
+  ],
+  "preferred_skills": [
+    "novel manipulation strategy design",
+    "generalizable cross-embodiment foundation models",
+    "real-world deployment and rapid field iteration"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "build/train/test/refine large-scale learned manipulation models",
+    "design novel manipulation strategies for humanoid robots",
+    "advance robotics foundation models generalizable across embodiments",
+    "combine learned and physically-grounded models",
+    "deliver systems feeding robot learning pipelines"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

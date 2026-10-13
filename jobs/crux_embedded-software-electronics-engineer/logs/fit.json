@@ -1,0 +1,118 @@
+{
+  "company": "Crux",
+  "company_slug": "crux",
+  "role": "Embedded Software & Electronics Engineer (12-month placement, summer 2027)",
+  "job_slug": "embedded-software-electronics-engineer",
+  "match_pct": 77.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 1,
+    "jd_ask_size": 9,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded C/C++",
+    "Digital electronics hardware design",
+    "PCB layout",
+    "Debugging electronics and software systems",
+    "Experimental/prototyping skills",
+    "firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Schematic capture",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "Analogue electronics hardware design",
+      "you_have": "ADC / sensor interfacing (no analogue circuit design evidence)"
+    }
+  ],
+  "missing_skills": [
+    "medical device"
+  ],
+  "top_ats_keywords": [
+    "Embedded C/C++",
+    "firmware",
+    "PCB layout",
+    "schematic capture",
+    "analogue electronics",
+    "digital electronics",
+    "prototyping",
+    "debugging",
+    "medical device"
+  ],
+  "required_skills": [
+    "Embedded C/C++",
+    "Debugging electronics and software systems",
+    "Analogue electronics hardware design",
+    "Digital electronics hardware design",
+    "Schematic capture",
+    "PCB layout",
+    "Experimental/prototyping skills"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Embedded firmware development",
+    "Electronic design, build and test",
+    "Medical device client projects"
+  ],
+  "role_category": "embedded_systems",
+  "location": "UK (not stated in JD; inferred from 'first classification' / Disability Confident)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded C/C++ firmware: STM32 bare-metal temperature monitor (timer-triggered ADC, interrupt capture, low-level I2C driver, 3.68 KB Flash / 1.58 KB RAM) plus Arduino C++ IK and Robocon interrupt-driven quadrature decoding",
+      "Digital electronics and board work: B.E. Electronics & Telecommunication, custom single-layer EAGLE PCBs with UART/I2C sensor links (ARC)",
+      "Bench debugging: oscilloscopes and logic analyzers listed; COFFIN capstone resolved 11 integration failures including servo brown-out",
+      "Prototyping across hardware/software boundaries: ADXL345 gesture glove (Planctech), turret, COFFIN arm"
+    ],
+    "real_gaps": [
+      "No analogue circuit design evidence (no op-amp, filter, power or sensor front-end design) although the JD names analogue as a core ask",
+      "PCB work is single-layer club boards, no multilayer, mixed-signal or schematic-review depth shown",
+      "No medical device, IEC 62304 or regulated-product experience",
+      "No client-facing consultancy experience",
+      "Student-placement framing: JD says on track to a first classification in an accredited degree, and Justin graduated in May 2026 (M.S. 3.3/4.0)"
+    ],
+    "overstated_by_keywords": [
+      "PCB layout counted as Have but evidence is single-layer club boards",
+      "Debugging electronics counted as Have but backed by a tools list and capstone integration fixes rather than board-level fault-finding"
+    ],
+    "understated_by_keywords": [
+      "Brief UK academic stint (Teesside Research Fellowship, 2023) not credited as a keyword but shows UK exposure"
+    ],
+    "screening_gaps": [
+      "Eligibility: placement is pitched at students on track for a first classification; Justin is already a graduate and 3.3/4.0 may not read as a first",
+      "No analogue electronics design evidence for a role that lists analogue and digital hardware design together",
+      "Hardware depth is hobby/club level (single-layer EAGLE boards), with no medical-device or client-facing track record"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Firmware and digital work is well backed and the board-level exposure is real but shallow. Analogue design and medical or client-facing experience are unbacked. Skill fit alone is partial; the larger risk is whether a student-placement scheme will consider an already-graduated applicant.",
+    "calibration_delta": 15.8
+  }
+}

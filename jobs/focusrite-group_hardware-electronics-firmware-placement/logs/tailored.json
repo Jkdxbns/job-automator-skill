@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Focusrite Group",
+    "role": "Hardware (Electronics and Firmware) Placement",
+    "company_slug": "focusrite-group",
+    "job_slug": "hardware-electronics-firmware-placement"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with a B.E. in Electronics and Telecommunication. Firmware development on STM32 Cortex-M4 microcontrollers in bare-metal C, with schematic capture and PCB layout in EAGLE for competition robots and hardware debug on the bench using oscilloscopes and logic analyzers. Audio work includes an ASR pipeline built from scratch around an 80-channel mel spectrogram front end.",
+  "skills": {
+    "Hardware & PCB": [
+      "Schematic capture",
+      "PCB layout",
+      "EAGLE PCB Design",
+      "Proteus",
+      "SolidWorks (CAD)",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "BOM"
+    ],
+    "Embedded & Firmware": [
+      "Bare-metal C",
+      "STM32 (Cortex-M4)",
+      "Microcontrollers",
+      "FreeRTOS",
+      "Arduino",
+      "Raspberry Pi",
+      "UART/I2C/SPI",
+      "ADC",
+      "PWM Motor Control",
+      "GPIO & Interrupts",
+      "Quadrature Encoders"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Linux",
+      "Git",
+      "CMake",
+      "Bash"
+    ],
+    "Audio & Signal Processing": [
+      "Digital Signal Processing",
+      "Mel spectrogram front end",
+      "ASR pipelines",
+      "faster-whisper"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through hardware debug, software calibration and resolution tuning.",
+        "Architected a Mixed Reality headset concept using real-time chroma keying without a green screen; produced full claims documentation and component BOM."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots, from schematic capture through PCB layout; wired sensor comms over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication and hardware/software integration end-to-end.",
+        "Organised 10+ exhibitions and workshops covering Arduino, PCB design and SolidWorks CAD tools."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture and a low-level I2C driver in microcontroller firmware."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Owned wiring, interfacing and integration across mechanical and design teams: Xbox 360 control over USB Host Shield, 4x Cytron motor drivers, dual IR-sensing claws and a catapult thrower.",
+        "Implemented interrupt-driven quadrature decoding from first principles as a 4-bit A/B state machine; drove four motor channels at 15 kHz PWM with closed-loop heading correction from 2400 CPR encoder odometry."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control on STM32 with interrupt-driven UART commands and FreeRTOS mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance display."
+      ]
+    },
+    {
+      "name": "Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end audio pipeline with an 80-channel mel spectrogram encoder and a 4-block causal Transformer decoder, reaching 15% WER on the NPTEL 2020 Indian-English dataset."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing",
+        "Random Signal Analysis",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

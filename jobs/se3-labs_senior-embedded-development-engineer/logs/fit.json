@@ -1,0 +1,133 @@
+{
+  "company": "SE3 Labs",
+  "company_slug": "se3-labs",
+  "role": "Senior Embedded Development Engineer",
+  "job_slug": "senior-embedded-development-engineer",
+  "match_pct": 42.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 13,
+    "jd_ask_size": 25,
+    "req_cov": 0.765,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PCB design",
+    "PCB layout tools",
+    "microcontroller",
+    "3D CAD",
+    "oscilloscopes",
+    "multimeters",
+    "spectrum analyzers",
+    "software integration",
+    "component selection"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "schematic design",
+      "you_have": "EAGLE single-layer PCBs"
+    },
+    {
+      "jd_skill": "board debugging",
+      "you_have": "logic analyzers, scopes on STM32/Arduino builds"
+    },
+    {
+      "jd_skill": "simulation",
+      "you_have": "Proteus"
+    }
+  ],
+  "missing_skills": [
+    "EMC/EMI",
+    "near-field probes",
+    "hardware-in-the-loop",
+    "environmental testing",
+    "commissioning",
+    "thermal design",
+    "RF integration",
+    "MIL-STD",
+    "battery and power systems",
+    "SCPI",
+    "test rig automation",
+    "German",
+    "UAV avionics"
+  ],
+  "top_ats_keywords": [
+    "PCB design",
+    "EMC",
+    "EMI",
+    "schematics",
+    "microcontroller",
+    "oscilloscope",
+    "spectrum analyzer",
+    "hardware-in-the-loop",
+    "thermal",
+    "RF",
+    "MIL-STD",
+    "power systems",
+    "SCPI",
+    "3D CAD",
+    "UAV",
+    "avionics"
+  ],
+  "required_skills": [
+    "PCB design",
+    "PCB layout tools",
+    "microcontroller",
+    "component selection",
+    "schematic design",
+    "EMC/EMI",
+    "3D CAD",
+    "oscilloscopes",
+    "multimeters",
+    "spectrum analyzers",
+    "near-field probes",
+    "hardware-in-the-loop",
+    "environmental testing",
+    "board debugging",
+    "commissioning",
+    "software integration",
+    "German"
+  ],
+  "preferred_skills": [
+    "thermal design",
+    "RF integration",
+    "MIL-STD",
+    "battery and power systems",
+    "SCPI",
+    "test rig automation"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Schematics for compute, comms, power",
+    "Prototype, rework, test hardware",
+    "EMI/EMC and thermal analysis",
+    "HIL and environmental validation",
+    "Documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Near Munich, Germany (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

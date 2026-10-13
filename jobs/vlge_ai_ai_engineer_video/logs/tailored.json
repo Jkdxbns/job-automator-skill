@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "company": "VLGE AI",
+    "role": "AI Engineer \u2013 Video & Intelligent Systems",
+    "company_slug": "vlge_ai",
+    "job_slug": "ai_engineer_video"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), May 2026. Built applied AI systems spanning computer vision, video analysis, and robotics-inspired logic \u2014 from YOLO-based visual servoing on Jetson to image-processing pipelines for surface inspection and autonomous driving simulation.",
+  "skills": {
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "ROS2",
+      "Bash"
+    ],
+    "ML / CV / Video": [
+      "PyTorch",
+      "OpenCV",
+      "YOLO",
+      "TensorRT",
+      "faster-whisper",
+      "ZoeDepth",
+      "Visual servoing"
+    ],
+    "Robotics & Embedded": [
+      "ROS/ROS2",
+      "MoveIt",
+      "NVIDIA Jetson",
+      "Arduino",
+      "FreeRTOS",
+      "UART/I2C/SPI"
+    ],
+    "Simulation & Tools": [
+      "CARLA",
+      "RobotStudio (RAPID)",
+      "Linux",
+      "Git",
+      "Flask"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline using custom image stitching, wavelet denoising, and ZoeDepth monocular depth estimation; achieved \u00b18% error on 3D surface reconstruction.",
+        "Developed custom image-stitching pipeline using bit manipulation and averaging, achieving PSNR of 86 vs. homography baseline on high-resolution visual data."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT visual document transformer on a custom dataset in PyTorch; improved validation accuracy from 55% to 93% via preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8 on a custom detection dataset, improving classification accuracy from 78% to 97.5%; deployed in a consumer mobile app."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Architected a Mixed Reality headset concept using AI-based real-time chroma keying without a green screen; developed gesture-recognition glove translating 3-DoF hand motion into HID commands via Python and ADXL345 accelerometers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency via a distributed pipeline: Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller.",
+        "Integrated TensorRT YOLO visual servoing at ~18 FPS with dual VL53L0X ToF sensors for contact-aware grasping; resolved 11 integration failures across servo, detection, and depth subsystems.",
+        "Integrated faster-whisper STT (1.0\u20131.4s) and Gemini intent classification (<500ms) into a unified WebSocket control fabric."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Achieved zero collisions with correct traffic-light compliance across multiple laps (Town02, 30 vehicles, 10 pedestrians); trained YOLO11n (mAP50~0.85) and fine-tuned UFLD with SoftmaxFocalLoss + ParsingRelationLoss.",
+        "Built automated data pipelines using CARLA semantic segmentation and raycast occlusion filtering to generate ~8,000 annotated training frames with zero manual labeling."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time object detection and tracking; implemented FreeRTOS task scheduling with mutexes and VL53L0X ToF sensing for distance-aware servo control."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Executed collision-free pick-and-place on physical UR5e via ROS 2 driver (AL5B repeatability <2mm); derived full DH kinematic chains for both arms and validated against MoveIt and RViz URDF models."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Computer Vision",
+        "Deep Learning",
+        "Robotics",
+        "Embedded Systems",
+        "Parallel & Distributed Systems"
+      ]
+    },
+    {
+      "degree": "B.E. Electronics & Telecommunications",
+      "school": "University of Mumbai",
+      "location": "Mumbai, India",
+      "dates": "Aug 2019 \u2013 May 2023",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

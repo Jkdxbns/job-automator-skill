@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "company": "TikTok",
+    "role": "Machine Learning Engineer Graduate (Search Ads) - 2027 Start",
+    "company_slug": "tiktok",
+    "job_slug": "ml-engineer-graduate-search-ads-2027-start"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with machine learning experience across NLP, Transformer architectures, and model optimization. Built a GPT-2 style language model and a sequence-to-sequence ASR system from scratch in PyTorch, including multi-head self-attention, cross-attention decoding, and a custom BPE tokenizer.",
+  "skills": {
+    "Machine Learning & NLP": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Transformer architectures",
+      "Multi-head self-attention",
+      "Sequence-to-sequence modeling",
+      "Cross-attention",
+      "BPE tokenization",
+      "Language modeling",
+      "Fine-tuning",
+      "Model evaluation"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Cython"
+    ],
+    "Model Optimization": [
+      "8-bit quantization (LLM.int8)",
+      "CUDA kernel optimization",
+      "Memory coalescing",
+      "Inference profiling (pynvml)",
+      "ONNX",
+      "TFLite"
+    ],
+    "Data & Evaluation": [
+      "Data pipeline engineering",
+      "Dataset curation",
+      "Perplexity",
+      "WER",
+      "mAP",
+      "Dice Score / IoU"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "GitLab",
+      "JupyterHub",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document understanding Transformer, for structured field extraction, improving validation accuracy from 55% to 93%.",
+        "Built PyTorch training pipelines on the Hugging Face VisionEncoderDecoder API with domain-specific tokens."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Engineered a data pipeline for the multi-modal BraTS 2020 MRI dataset with augmentation and batch loading.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated a custom detection dataset and trained YOLOv8n on 1,133 images, achieving 83% mAP@50 on validation.",
+        "Exported trained models to ONNX and TFLite for deployment under memory and latency constraints."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch with multi-head self-attention and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and a custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "Sequence-to-Sequence ASR System from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end seq2seq speech pipeline: 80-channel mel spectrogram encoder and 4-block causal Transformer decoder with cross-attention, reaching 15% WER on a Hindi-English dataset.",
+        "Designed a custom BPE tokenizer with a Cython-accelerated backend achieving 4-5.5x speedup over pure Python, processing 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "LLM Compression and Benchmarking",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with under 1% accuracy degradation after compression."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights, and preallocated global buffers.",
+        "Coalesced kernel ran at 49.2ms versus 77.5ms CPU TorchScript, a ~35% speedup with identical accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

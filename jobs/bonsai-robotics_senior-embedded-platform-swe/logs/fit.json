@@ -1,0 +1,195 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Senior Software Engineer, Embedded Platform",
+  "job_slug": "senior-embedded-platform-swe",
+  "match_pct": 28.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 8,
+    "missing_count": 28,
+    "jd_ask_size": 45,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Linux",
+    "systemd",
+    "RTOS",
+    "bare-metal",
+    "Jetson",
+    "ROS2",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "L4T",
+      "you_have": "Jetson"
+    },
+    {
+      "jd_skill": "Zenoh",
+      "you_have": "ROS2"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "I2C/SPI/UART bare-metal"
+    },
+    {
+      "jd_skill": "hardware bring-up",
+      "you_have": "STM32/PCB bring-up"
+    },
+    {
+      "jd_skill": "networking",
+      "you_have": "WebSocket, static IP config"
+    },
+    {
+      "jd_skill": "secrets management",
+      "you_have": "env-based secrets/config separation"
+    },
+    {
+      "jd_skill": "remote access",
+      "you_have": "XRDP remote administration"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Yocto",
+    "OpenEmbedded",
+    "Buildroot",
+    "BSP",
+    "kernel",
+    "device tree",
+    "OTA updates",
+    "A/B partitioning",
+    "fleet management",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "containerization",
+    "cross-compilation",
+    "AWS",
+    "infrastructure-as-code",
+    "CAN bus",
+    "J1939",
+    "UDS",
+    "ISO-TP",
+    "secure boot",
+    "image signing",
+    "SOPS",
+    "AWS KMS",
+    "functional safety",
+    "time-series storage",
+    "IPC"
+  ],
+  "top_ats_keywords": [
+    "Yocto",
+    "OTA",
+    "Mender",
+    "RAUC",
+    "SWUpdate",
+    "OSTree",
+    "Rust",
+    "systemd",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "AWS",
+    "CAN",
+    "J1939",
+    "Jetson",
+    "L4T",
+    "ROS2",
+    "Zenoh",
+    "device tree",
+    "BSP"
+  ],
+  "required_skills": [
+    "Rust",
+    "C/C++",
+    "Python",
+    "Linux systems programming",
+    "systemd",
+    "device drivers",
+    "networking",
+    "IPC",
+    "Yocto",
+    "OpenEmbedded",
+    "Buildroot",
+    "BSP",
+    "kernel",
+    "device tree",
+    "OTA updates",
+    "A/B partitioning",
+    "fleet management",
+    "secrets management",
+    "remote access",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "CI/CD",
+    "containerization",
+    "cross-compilation",
+    "ARM64",
+    "AWS",
+    "infrastructure-as-code"
+  ],
+  "preferred_skills": [
+    "RTOS",
+    "bare-metal",
+    "hardware bring-up",
+    "CAN bus",
+    "J1939",
+    "UDS",
+    "ISO-TP",
+    "Jetson",
+    "L4T",
+    "secure boot",
+    "image signing",
+    "SOPS",
+    "AWS KMS",
+    "ROS2",
+    "Zenoh",
+    "functional safety",
+    "ISO 25119",
+    "ISO 13849",
+    "time-series storage"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "OTA updates",
+    "fleet management",
+    "observability",
+    "Yocto OS layer",
+    "build/release infra"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

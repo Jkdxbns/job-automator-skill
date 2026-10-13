@@ -1,0 +1,140 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff Perception Hardware Engineer",
+  "job_slug": "staff-perception-hardware-engineer",
+  "match_pct": 55.8,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 26,
+    "req_cov": 0.455,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Computer Vision / YOLO / OpenCV",
+    "ROS / ROS2 robotics integration",
+    "Camera & sensor integration (multi-sensor systems)",
+    "Embedded systems / STM32 / FreeRTOS / UART / I2C / SPI",
+    "PCB design (EAGLE) and custom module prototyping",
+    "Python / C / C++ programming",
+    "Lab test and measurement equipment (oscilloscopes, logic analyzers)",
+    "Calibration and 3D geometry / kinematics",
+    "Linux system administration / networking / systemd / remote desktop",
+    "Image processing / signal processing / denoising",
+    "Multi-device system integration and debugging",
+    "Embedded control / PWM / feedback / sensor fusion concepts"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Custom sensor module development and spec definition",
+      "you_have": "PCB design (EAGLE) + BOM creation + embedded prototype integration"
+    },
+    {
+      "jd_skill": "Hardware-level sub-microsecond synchronization across cameras / LiDAR / IMU",
+      "you_have": "Multi-sensor timing coordination (ToF + camera + servos) and embedded synchronization patterns"
+    },
+    {
+      "jd_skill": "Calibration fixtures and intrinsic / extrinsic drift resolution",
+      "you_have": "3D calibration math, forward kinematics, and coordinate-frame visualization"
+    },
+    {
+      "jd_skill": "Cross-functional technical adjudication (ID, Mechanical, Thermal)",
+      "you_have": "Cross-functional team leadership (mechanical design, PCB fabrication, AI/ML integration)"
+    },
+    {
+      "jd_skill": "EMI / EMC debugging using high-bandwidth oscilloscopes and analyzers",
+      "you_have": "Lab equipment access (oscilloscopes, logic analyzers) and embedded signal debugging"
+    }
+  ],
+  "missing_skills": [
+    "8+ years hands-on experience integrating and shipping complex vision hardware systems (candidate has 0 full-time years, 7 internships/research roles)",
+    "Proven track record of taking custom perception hardware through DVT and into mass production",
+    "Direct experience working with optical vendors, CMOS manufacturers, and contract manufacturers (CMs) to define, build, and test custom modules",
+    "Deep practical CMOS sensor tuning and ISP tuning (auto-exposure, white balance, tone mapping) on real camera hardware",
+    "GMSL2 / GMSL3 / FPD-Link multi-gigabit video backbone design and signal-integrity validation",
+    "Sub-microsecond hardware-level timing measurement and synchronization fixture deployment",
+    "System-level EMI / EMC debugging at scale (ground loops, EMI noise, intermittent signal integrity)",
+    "Mass production / factory-floor deployment of custom-built sensor modules",
+    "Visual-inertial odometry (VIO) data pipeline validation at production scale"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "hardware engineer",
+    "camera",
+    "ISP",
+    "GMSL",
+    "FPD-Link",
+    "EMI",
+    "EMC",
+    "calibration",
+    "optical",
+    "sensor module",
+    "DVT",
+    "EOL",
+    "manufacturing",
+    "vision",
+    "robotics",
+    "humanoid",
+    "CMOS",
+    "LiDAR",
+    "IMU",
+    "synchronization"
+  ],
+  "required_skills": [
+    "Custom perception sensor module development (electrical/optical/mechanical specs)",
+    "Camera / optical assembly integration and production validation",
+    "Vendor and contract manufacturer (CM) management for custom modules",
+    "DVT (Design Verification Testing) and EOL (End-of-Line) test plan architecture",
+    "ISP tuning (auto-exposure, white balance, tone mapping) for image quality",
+    "Multi-gigabit video backbone bring-up (GMSL2/3, FPD-Link)",
+    "EMI/EMC debugging and signal integrity troubleshooting",
+    "Sub-microsecond hardware-level synchronization (cameras, LiDAR, IMU)",
+    "Multi-camera calibration fixtures and intrinsic/extrinsic alignment",
+    "Cross-functional DfX (design for manufacturing / thermal / ID) adjudication",
+    "Production-scale manufacturing deployment and factory-floor scaling"
+  ],
+  "preferred_skills": [
+    "CMOS sensor tuning and optical lens artifact mitigation (flare, ghosting, distortion)",
+    "Visual-inertial odometry (VIO) data validation",
+    "Python / C++ scripting for calibration model validation"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Lead physical integration of robot visual perception stack (prototype to production-ready)",
+    "Define specs and drive vendors/CMs for custom camera/sensor modules",
+    "Architect DVT and EOL test plans for custom-built sensor modules",
+    "Perform hands-on ISP tuning for ML model and teleoperator image-quality requirements",
+    "Lead electrical bring-up and validation of multi-gigabit video backbone",
+    "Serve as escalation point for EMI/EMC and signal-integrity debugging",
+    "Implement and measure sub-microsecond hardware-level sensor synchronization",
+    "Design, build, and deploy calibration fixtures; resolve intrinsic/extrinsic drift",
+    "Drive cross-functional conflict resolution (ID, Mechanical, Thermal) via empirical lab testing",
+    "Mentor engineers and lead line-down / launch-blocking hardware bug resolution"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "company": "UX Group (Ultratronik GmbH)",
+    "role": "Senior Embedded Software Developer / Embedded Software Engineer (m/f/d) C/C++ & RTOS",
+    "company_slug": "ux-group-ultratronik",
+    "job_slug": "senior-embedded-software-developer-c-cpp-rtos"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, writing embedded software in C and C++ on ARM Cortex-M microcontrollers. Built bare-metal device drivers (GPIO, timers, ADC, I2C) within 3.68 KB Flash, FreeRTOS applications with mutex-protected tasks and interrupt-driven UART, and closed-loop control algorithms from encoder odometry, using Git, CMake and Linux.",
+  "skills": {
+    "Embedded & Firmware": [
+      "C",
+      "Modern C++",
+      "Bare-Metal C (STM32, ARM Cortex-M4)",
+      "FreeRTOS",
+      "RTOS Mutexes",
+      "Device and Interface Driver Development",
+      "UART",
+      "I2C",
+      "SPI",
+      "USB",
+      "GPIO",
+      "Timers",
+      "ADC",
+      "PWM",
+      "Interrupt Handling",
+      "Performance Optimization",
+      "Unit Tests"
+    ],
+    "Control & Real-Time Systems": [
+      "Control Algorithms",
+      "Closed-Loop Feedback Control",
+      "Quadrature Encoder Odometry",
+      "PWM Motor Control",
+      "State Machines",
+      "Visual Servoing"
+    ],
+    "Development Environment": [
+      "Linux Development Environment",
+      "Git",
+      "GitLab",
+      "CMake",
+      "Cross-Compilation",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "EAGLE PCB Design",
+      "Python",
+      "PyQt / PySide6"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers over I2C with a Raspberry Pi and HC-05 Bluetooth, converting 3-DoF hand motion into HID commands."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE; implemented sensor communication over UART and I2C with closed-loop feedback control."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Built a PyQt user interface for real-time laboratory data acquisition; used GitLab for version control and documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed ARM Cortex-M4 peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1) within 3.68 KB Flash and 1.58 KB RAM at a deterministic 1 Hz rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C device driver."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built FreeRTOS firmware on STM32 using mutexes for shared-memory task coordination, with interrupt-driven UART command handling and user override.",
+        "Drove multi-servo PWM control from detections streamed over UART; integrated VL53L0X time-of-flight sensing over I2C with OLED display."
+      ]
+    },
+    {
+      "name": "Robocon Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": null,
+      "bullets": [
+        "Implemented closed-loop heading correction from dual-axis quadrature encoder odometry (2400 CPR), feeding angular error back into rotation PWM to hold course during translation.",
+        "Wrote interrupt-driven quadrature decoding from first principles as a 4-bit A/B state machine, drove four motor channels at 15 kHz PWM, and added a fail-safe halt on USB controller disconnect."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 M.S. Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Implemented two-link inverse kinematics in C++ on the microcontroller, driving five servos with range-gated contact detection from dual VL53L0X sensors over a TCA9548A I2C multiplexer.",
+        "Built software interfaces between subsystems and the user interface over a WebSocket fabric; optimized runtime from 56.7 ms to 10.9 ms (5.2x) at 100% pick reliability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "company": "Tower Research Capital",
+  "company_slug": "tower-research",
+  "role": "GPU Systems Engineer",
+  "job_slug": "gpu-systems-engineer",
+  "match_pct": 62.5,
+  "missing_skills": [
+    "5+ years professional Linux/HPC systems experience",
+    "GPUDirect RDMA",
+    "Configuration management (Salt/Ansible/Puppet/Chef)"
+  ],
+  "adjacent_skills": [
+    "Deep Linux kernel debugging (have Linux/Bash, not kernel-level datacenter debugging)",
+    "Distributed GPU workload troubleshooting (have single-device Jetson/CUDA optimization, not multi-node clusters)",
+    "Cross-layer HW/OS/network diagnosis (have embedded HW/firmware debugging, different domain)"
+  ],
+  "top_ats_keywords": [
+    "GPU clusters",
+    "Linux",
+    "HPC",
+    "CUDA",
+    "C/C++",
+    "Python",
+    "GPUDirect RDMA",
+    "NCCL",
+    "NVLink",
+    "Ansible",
+    "kernel",
+    "distributed systems",
+    "automation"
+  ],
+  "key_responsibilities": [
+    "Design, deploy, and scale distributed GPU clusters",
+    "Track down performance bottlenecks across compute/storage/network",
+    "Profile and benchmark GPU workloads for researchers",
+    "Build fleet automation: provisioning, monitoring, diagnostics, self-healing",
+    "Own infrastructure projects end to end",
+    "Qualify new hardware/software, work with vendors"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

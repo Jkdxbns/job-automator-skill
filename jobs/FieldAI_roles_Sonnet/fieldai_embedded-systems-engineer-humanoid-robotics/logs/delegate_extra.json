@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization (custom CUDA C++, 35% speedup, pynvml profiling)",
+    "Edge AI deployment on embedded platforms (Jetson + TensorRT + YOLO, faster-whisper STT, quantization, 5.2x speedup)",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4, FreeRTOS, interrupt-driven ADC/I2C drivers, UART)",
+    "ROS2/Robotics and perception pipelines (ROS2 Humble, MoveIt, RViz, YOLO vision, forward kinematics, DH parameters)",
+    "ML model optimization for edge (8-bit quantization, ONNX/TFLite export, pruning, ASR from scratch)",
+    "Sensor-actuator integration experience (ToF, IMU, cameras, PWM servos, I2C multiplexing)"
+  ],
+  "real_gaps": [
+    "Experience-level mismatch: 3+ years required; candidate has 0 full-time industry years",
+    "Production BSP/bootloader and kernel-level device driver development not demonstrated at company scale",
+    "CAN, PTP, PCIe, GMSL, and tactile-driver protocols not covered in experience",
+    "No formal functional-safety, ISO26262, or production e-stop circuit experience",
+    "No evidence of leading architecture decisions for multi-robot/platform generalization at production scale"
+  ],
+  "reasoning": "The candidate's technical skills strongly overlap with the role's scope: embedded C/ARM/Jetson, RTOS/FreeRTOS, ROS2, CUDA/TensorRT edge inference, vision/sensor integration, and robotics perception. However, the JD explicitly demands a minimum 3+ years of hands-on embedded experience and spans mid-level through staff/senior. The candidate is a May 2026 M.S. graduate with 0 full-time years (7 internships/research roles). Several hard protocol and production-scope gaps exist (CAN, PTP, PCIe/GMSL, tactile drivers, production BSP, functional safety). There is no sponsorship restriction stated in the JD, and relocation to Boston is feasible. The primary blocker is the experience-level mismatch; apply only if the team explicitly considers exceptional new-grad hires.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/ae6ff0ce-0078-4836-aab1-7e44b1be1893",
+  "team": "Hardware Engineering",
+  "location": "Boston, MA"
+}

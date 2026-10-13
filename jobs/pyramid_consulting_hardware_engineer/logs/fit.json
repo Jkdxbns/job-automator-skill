@@ -1,0 +1,48 @@
+{
+  "company": "Pyramid Consulting, Inc",
+  "company_slug": "pyramid_consulting",
+  "role": "Hardware Engineer",
+  "job_slug": "hardware_engineer",
+  "match_pct": 92,
+  "missing_skills": ["regulatory compliance and certification processes", "3+ years industry hardware engineering experience", "IoT wireless protocols (broad)"],
+  "adjacent_skills": ["microprocessor architectures (STM32/Cortex-M4=ARM, no x86/RISC-V)", "IoT wireless (Bluetooth BLE/Classic only)", "hardware engineering (project/internship scope, not industry role)"],
+  "top_ats_keywords": ["Python", "embedded C", "microprocessor architectures", "I2C", "SPI", "UART", "PCB", "oscilloscopes", "logic analyzers", "FreeRTOS", "Linux", "soldering", "schematics"],
+  "key_responsibilities": [
+    "Design, develop, and test hardware components and systems",
+    "Work with microprocessor architectures for embedded solutions",
+    "Develop/debug embedded C for hardware control",
+    "Python scripting for automation and hardware testing",
+    "PCB assembly, modification, troubleshooting, soldering",
+    "Collaborate with software/mechanical/manufacturing teams",
+    "Technical documentation, schematics, regulatory reports",
+    "Design reviews"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Embedded C bare-metal on STM32 Cortex-M4 (GPIO/TIM2/ADC1/I2C1 direct register work) — STM32 Bare-Metal Temperature Monitor project",
+      "PCB design and fabrication in EAGLE, hand-soldered single-layer boards for locomotive robots — General Secretary, Agnel Robotics Club",
+      "UART/I2C sensor communication with closed-loop feedback across multiple projects (Object Tracking Turret, COFFIN robotic arm, ARC PCBs)",
+      "Python for hardware control and automation (gesture-recognition glove, COFFIN pipeline, GUI tooling at BARC)",
+      "Oscilloscopes and Logic Analyzers listed as tools; embedded Linux (Jetson) and FreeRTOS both present"
+    ],
+    "real_gaps": [
+      "JD requires 3+ years of industry experience specifically in hardware engineering or product development; Justin has 0 years full-time and his internships (Planctech, BARC, IIT Bombay, Tusk) are mostly ML/CV/research roles, not hardware production roles — only Planctech and the robotics club involve hands-on hardware, and both are short-term/student scope",
+      "No experience with regulatory compliance or certification processes (FCC/CE/UL-type work) anywhere in the profile",
+      "IoT wireless protocols beyond Bluetooth (Zigbee, LoRa, Wi-Fi modules, cellular) are not represented",
+      "The JD's day-to-day is hardware bring-up/production support across a manufacturing team — Justin's actual trajectory over the last two years has moved toward ML/Edge AI systems (CUDA, TensorRT, ASR, robotics perception), not hands-on PCB/hardware production work",
+      "x86/RISC-V microprocessor experience not present, only ARM (via STM32)"
+    ],
+    "overstated_by_keywords": [
+      "\"hardware engineering\" and \"PCB assembly\" counted as Have/Adjacent by keyword match, but the underlying evidence is student-club and hobby-project scope, not production/industry hardware engineering the JD is asking for",
+      "\"microprocessor architectures\" matched via STM32/ARM, but JD examples list ARM/x86/RISC-V as if broader industry-scale processor work is expected"
+    ],
+    "reasoning": "The keyword overlap is high because Justin's embedded/robotics background genuinely touches most of the individual technical terms in the JD (I2C/SPI/UART, PCB, oscilloscopes, embedded C, Python). But the JD is asking for a hands-on production Hardware Engineer with 3+ years of industry experience and regulatory/compliance exposure — a different job shape than Justin's actual career trajectory, which has shifted almost entirely toward ML/Edge AI and robotics software over his internships and capstone. This reads as a genuine reach, not a strong match."
+  }
+}

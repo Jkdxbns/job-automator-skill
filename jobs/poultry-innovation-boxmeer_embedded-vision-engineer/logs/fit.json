@@ -1,0 +1,148 @@
+{
+  "company": "Poultry Innovation (Boxmeer, NL)",
+  "company_slug": "poultry-innovation-boxmeer",
+  "role": "Embedded Vision Engineer",
+  "job_slug": "embedded-vision-engineer",
+  "match_pct": 53.8,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 6,
+    "missing_count": 3,
+    "jd_ask_size": 13,
+    "req_cov": 0.65,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "embedded Linux",
+    "image processing",
+    "AI inference"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C++",
+      "you_have": "C/C++, CUDA C++"
+    },
+    {
+      "jd_skill": "ARM",
+      "you_have": "Cortex-M4 STM32, Jetson"
+    },
+    {
+      "jd_skill": "machine vision",
+      "you_have": "OpenCV, YOLO, computer vision"
+    },
+    {
+      "jd_skill": "Triton Inference Server",
+      "you_have": "TensorRT, ONNX"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab, Git"
+    },
+    {
+      "jd_skill": "industrial cameras",
+      "you_have": "USB/camera capture on Jetson"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Dutch",
+    "technical leadership"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "ARM",
+    "C++",
+    "Python",
+    "Docker",
+    "CI/CD",
+    "Triton Inference Server",
+    "machine vision",
+    "industrial cameras",
+    "image processing"
+  ],
+  "required_skills": [
+    "Embedded Linux",
+    "ARM",
+    "C++",
+    "Python",
+    "industrial cameras",
+    "Docker",
+    "CI/CD",
+    "Triton Inference Server",
+    "machine vision",
+    "image acquisition"
+  ],
+  "preferred_skills": [
+    "Dutch"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "architect embedded vision systems on ARM Linux",
+    "integrate industrial cameras",
+    "containerized apps",
+    "CI/CD",
+    "Triton inference",
+    "technical leadership and mentoring"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boxmeer, Netherlands (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Embedded Linux on ARM: COFFIN Jetson arm bridge deployed as a hardened systemd service (auto-restart, non-root isolation, static IP, XRDP) on a headless Jetson",
+      "Vision pipeline architecture: BARC metal-surface inspection (stitching, wavelet denoise, depth) and COFFIN TensorRT YOLO 56.7 to 10.9 ms, 17.6 to 92 FPS",
+      "Real-time inference on embedded hardware under latency budgets: TensorRT, ONNX and TFLite exports",
+      "Multi-camera capture with multiprocessing in the LeRobot-style data pipeline",
+      "Mentoring and team lead: led 25-member ARC team, taught a Python course, took over as lead of 7-person team at Teesside"
+    ],
+    "real_gaps": [
+      "Docker/containerized deployment: nothing in the profile",
+      "CI/CD pipelines: GitLab is used only for version control, no pipeline work",
+      "Triton Inference Server: no serving-layer experience, only TensorRT engine-level optimization",
+      "Industrial camera integration (GigE Vision/GenICam, triggering, strobed illumination): only USB/hobby cameras",
+      "Production-scale ownership and 5+ years; Dutch language preferred; food-industry/high-throughput line context"
+    ],
+    "overstated_by_keywords": [
+      "CI/CD counted adjacent via GitLab/Git, but there is no pipeline experience",
+      "industrial cameras counted adjacent via USB capture, which is not industrial acquisition",
+      "ARM counted adjacent via Cortex-M4, but the role is ARM application-class Linux, where only Jetson applies"
+    ],
+    "understated_by_keywords": [
+      "Systemd service hardening and Jetson device administration back real embedded Linux depth",
+      "Cython-accelerated and multiprocessing capture pipelines back throughput optimization",
+      "Hardware debug tooling (oscilloscopes, logic analyzers) and sensor integration back multidisciplinary troubleshooting"
+    ],
+    "screening_gaps": [
+      "No Docker or containerized deployment experience",
+      "No Triton Inference Server or CI/CD pipeline experience, both explicit requirements",
+      "No industrial camera/acquisition hardware experience and no production vision system ownership"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The core of this role is production embedded Linux vision with Docker, CI/CD and Triton, and three of those four pillars have no backing. The Jetson/TensorRT/systemd and BARC vision work is real and transferable, but it covers only the perception and ARM-Linux half. Skill-only fit is a minority of the core responsibilities.",
+    "calibration_delta": 6.8
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,146 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "Senior RTL Designer - Interconnect/NoC Design",
+  "job_slug": "senior-rtl-designer-interconnect-noc",
+  "match_pct": 8.1,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 33,
+    "jd_ask_size": 37,
+    "req_cov": 0.071,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Digital Electronics",
+    "High Performance Architecture"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C/C++ HDL-adjacent design thinking",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "System-level architecture and performance modeling",
+      "you_have": "High Performance Architecture"
+    }
+  ],
+  "missing_skills": [
+    "SystemVerilog",
+    "Verilog",
+    "AXI4 protocols",
+    "AXI4-Lite protocols",
+    "AXI-Stream protocols",
+    "AMBA protocols",
+    "CHI / ACE coherency",
+    "On-chip interconnect design",
+    "Bus fabric architecture",
+    "Network-on-Chip (NoC) design",
+    "Clock Domain Crossing (CDC) design",
+    "Async FIFO design",
+    "Gray-code synchronization",
+    "Synchronizer topologies",
+    "Bus bridge RTL",
+    "Arbiter design",
+    "Address decoder design",
+    "Parameterized bus infrastructure",
+    "Static timing constraints (multi-clock)",
+    "CDC verification methodology",
+    "Register-access fabric design",
+    "Error-handling architecture",
+    "Top-level integration netlist",
+    "Chip-level assembly RTL",
+    "Hardware security primitives",
+    "Firewall IP design",
+    "Formal property verification",
+    "Chiplet integration",
+    "Advanced node design (7nm or below)",
+    "SystemRDL",
+    "IP-XACT",
+    "Floorplan-driven design",
+    "Fabric performance modeling"
+  ],
+  "top_ats_keywords": [
+    "RTL designer",
+    "Interconnect",
+    "NoC",
+    "Network-on-Chip",
+    "SoC Fabric",
+    "SystemVerilog",
+    "AXI",
+    "AMBA",
+    "CDC",
+    "Verilog",
+    "chip integration",
+    "digital design",
+    "semiconductor design",
+    "IC design",
+    "hardware design"
+  ],
+  "required_skills": [
+    "SystemVerilog",
+    "AXI4 / AXI4-Lite / AXI-Stream protocols",
+    "On-chip interconnect architecture (bus fabric, NoC)",
+    "CDC (Clock Domain Crossing) design",
+    "Async FIFO design",
+    "Gray-code counters and synchronizer topologies",
+    "Bus bridge RTL (arbiters, address decoders)",
+    "Parameterized bus infrastructure",
+    "Static timing constraints for multi-clock designs",
+    "AMBA CHI / ACE coherency extensions",
+    "Top-level integration netlist (chip-level assembly RTL)",
+    "Register-access fabric with address decoding and access-protection logic",
+    "Error-handling architecture (illegal accesses, timeouts, protocol violations)",
+    "CDC verification methodology"
+  ],
+  "preferred_skills": [
+    "High-speed chiplet / SoC integration at advanced nodes (7nm or below)",
+    "Automated register-map generation flow (SystemRDL, IP-XACT)",
+    "Chip-level integration lead experience",
+    "Hardware security primitives (access control, firewall IP, trusted execution)",
+    "Formal property verification of bus protocols and CDC crossings",
+    "Floorplan-driven bus topology decisions",
+    "Fabric performance modeling and bottleneck identification"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define on-chip fabric topologies connecting multiple subsystems",
+    "Specify data-path fabric for high-bandwidth routes (bandwidth provisioning, pipeline depth, buffering, back-pressure)",
+    "Architect register-access fabric with address decoding and access-protection logic",
+    "Define arbitration and QoS policy for shared fabric resources",
+    "Own fabric error-handling architecture (illegal accesses, timeouts, protocol violations)",
+    "Own CDC strategy for every clock-domain boundary on the die",
+    "Own or closely review all fabric RTL (bus bridges, async FIFOs, arbiters, address decoders, pipeline registers)",
+    "Drive integration assembly and top-level connectivity netlist",
+    "Coordinate with subsystem leads on interface protocols and reset sequencing",
+    "Define and own fabric performance model",
+    "Establish fabric-level bring-up tests",
+    "Coordinate with physical design team on floorplan implications"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA / Remote (United States)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

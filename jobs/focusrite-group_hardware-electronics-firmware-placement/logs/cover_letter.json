@@ -1,0 +1,16 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "Focusrite Group",
+  "role": "Hardware (Electronics and Firmware) Placement",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology, on top of a B.E. in Electronics and Telecommunication, and I am applying for the Hardware (Electronics and Firmware) placement in High Wycombe. My work so far has leaned firmware and systems. A year on the bench, across schematic capture, PCB layout and prototype build, is the experience I want next.",
+    "The firmware half of the role is where I am strongest. I wrote a Cortex-M4 temperature monitor entirely in bare-metal C, programming GPIO, TIM2, ADC1 and I2C1 registers directly, with timer-triggered ADC scan conversions, interrupt-driven sample capture and a hand-written low-level I2C driver. It fits in 3.68 KB Flash and 1.58 KB RAM at a deterministic 1 Hz update rate, verified in Proteus. On the hardware side I designed and fabricated custom single-layer PCBs in EAGLE for competition robots, from schematic capture through layout, and ran sensor communication over UART and I2C with closed-loop feedback.",
+    "Assembling and fault-finding prototypes is most of what I have actually done. In the Agnel Robotics Club I owned wiring, interfacing and integration for a Robocon holonomic robot: Xbox 360 control over a USB Host Shield, four Cytron motor drivers, dual IR-sensing claws and a catapult thrower, with quadrature decoding implemented from first principles as a 4-bit A/B state machine on hardware interrupts, and four motor channels driven at 15 kHz PWM. On my capstone I worked through 11 separate integration failures, including a servo brown-out and stale-frame capture, to reach 100% pick reliability across 10 trials. Oscilloscopes and logic analysers are how I find those faults.",
+    "On audio, I built a Whisper-style ASR pipeline from scratch around an 80-channel mel spectrogram encoder and a four-block causal Transformer decoder, reaching 15% WER on the NPTEL 2020 Indian-English dataset, and my undergraduate degree covered Digital Signal Processing and Digital Electronics. Component sourcing and production engineering support are the parts of this role I have not done before, and they are a large part of why I want the placement rather than something I would gloss over.",
+    "I would welcome the chance to talk through any of this with the team."
+  ],
+  "sign_off": "Sincerely,"
+}

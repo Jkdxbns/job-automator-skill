@@ -1,0 +1,176 @@
+{
+  "company": "Kickmaker",
+  "company_slug": "kickmaker",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer-seattle",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 26,
+    "req_cov": 0.48,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "firmware development",
+    "C",
+    "C++",
+    "STM32",
+    "Python",
+    "UART",
+    "I2C",
+    "SPI",
+    "BLE",
+    "schematic reading",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Qt (embedded, C++)",
+      "you_have": "PyQt (desktop Python GUI)"
+    },
+    {
+      "jd_skill": "motor control and servo algorithms",
+      "you_have": "general algorithms / software fundamentals (no motor control project)"
+    }
+  ],
+  "missing_skills": [
+    "ESP32",
+    "Nordic nRF",
+    "embedded Linux",
+    "Yocto",
+    "Zephyr",
+    "C#",
+    "Java",
+    "CAN",
+    "RS-232",
+    "RS-485",
+    "LoRa",
+    "LTE"
+  ],
+  "top_ats_keywords": [
+    "firmware development",
+    "C",
+    "C++",
+    "STM32",
+    "ESP32",
+    "Nordic nRF",
+    "embedded Linux",
+    "Qt",
+    "Yocto",
+    "Zephyr",
+    "Python",
+    "C#",
+    "Java",
+    "UART",
+    "I2C",
+    "SPI",
+    "CAN",
+    "RS-232",
+    "RS-485",
+    "BLE",
+    "LoRa",
+    "LTE",
+    "schematic reading",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "required_skills": [
+    "firmware development",
+    "C",
+    "C++",
+    "STM32",
+    "ESP32",
+    "Nordic nRF",
+    "embedded Linux",
+    "Qt",
+    "Yocto",
+    "Zephyr",
+    "Python",
+    "C#",
+    "Java",
+    "UART",
+    "I2C",
+    "SPI",
+    "CAN",
+    "RS-232",
+    "RS-485",
+    "BLE",
+    "LoRa",
+    "LTE",
+    "schematic reading",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "preferred_skills": [
+    "motor control and servo algorithms"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Firmware/software design and development",
+    "Unit testing, functional testing & documentation",
+    "Integration and continuous deployment",
+    "Iterative sprint cycle with customer feedback",
+    "Eco-design and industrial relocation approaches",
+    "Product life-cycle analysis for CSR impact"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Seattle, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Firmware development on STM32 bare-metal C (Object Tracking Turret, STM32 Bare-Metal Temperature Monitor) with register-level GPIO/TIM/ADC/I2C work",
+      "UART/I2C/SPI protocol experience across three separate hardware projects, including a TCA9548A I2C multiplexer integration",
+      "PCB design and fabrication (EAGLE) plus oscilloscope/logic-analyzer debugging and Proteus simulation \u2014 the exact electronics skills the JD names",
+      "Real servo/motor control logic: multi-servo PWM with interrupt-driven UART commands (Turret), range-gated contact-aware grasping via servo control (COFFIN)",
+      "Python test/data-acquisition tooling (PyQt + Matplotlib GUI at BARC) is a closer match to \"development of test tools\" than the keyword pass credited"
+    ],
+    "real_gaps": [
+      "No Yocto, Zephyr, or embedded-Linux-with-Qt experience \u2014 the profile's Jetson/RPi work is ML-inference deployment, not classic embedded Linux BSP/GUI development",
+      "No ESP32 or Nordic nRF; only Bluetooth Classic (HC-05), not BLE specifically; no CAN, RS-232, RS-485, LoRa, or LTE anywhere in the profile",
+      "No CI/CD pipeline experience (no Docker/k8s/CI in this profile) despite the JD calling for integration and continuous deployment",
+      "No customer-facing requirements definition or agile/sprint process experience \u2014 profile is academic/research/personal-project scope, not a client-delivery consulting model",
+      "No HSE, eco-design, or CSR/life-cycle-analysis experience \u2014 entirely absent from the profile"
+    ],
+    "overstated_by_keywords": [
+      "BLE credited via canonical \"Bluetooth,\" but the actual evidence is HC-05 Bluetooth Classic, not BLE",
+      "schematic reading credited via EAGLE PCB design, which is schematic creation more than reading pre-existing schematics"
+    ],
+    "understated_by_keywords": [
+      "Python test-tooling depth (PyQt GUI for real-time lab data acquisition) is a stronger \"test tools\" match than the keyword pass reflected",
+      "Servo/motor control depth across two projects (Turret, COFFIN) shows real closed-loop algorithms, not just generic \"algorithms\""
+    ],
+    "screening_gaps": [
+      "No embedded Linux / Yocto / Zephyr / Qt experience \u2014 the JD's named platform stack has zero backing in the profile",
+      "5 years of professional experience required; candidate is a new grad with internship/academic experience only",
+      "Missing named RF/comm protocols (ESP32, Nordic, CAN, RS-232/485, LoRa, LTE) \u2014 half the JD's protocol list is unbacked"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Bare-metal STM32, UART/I2C/SPI, and hands-on electronics genuinely cover the JD's core firmware and hardware-debugging asks, and servo-control plus Python GUI-tooling work are stronger matches than the keyword pass credited. But roughly half the JD's named platform/protocol stack (Yocto, Zephyr, Qt-on-Linux, ESP32, Nordic, CAN, RS-232/485, LoRa, LTE) has zero backing, and the consulting-agency delivery model (customer requirements, CI/CD, sprints, HSE/CSR) is entirely unevidenced, on top of a 5-year bar not yet met.",
+    "calibration_delta": -8.0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "company": "HP Inc. (HP IQ)",
+  "company_slug": "hp",
+  "role": "AI Software Engineer - HP IQ",
+  "job_slug": "ai-software-engineer-iq",
+  "match_pct": 50.0,
+  "missing_skills": ["Java", "Agent orchestration frameworks", "Tool use / memory-context management (agentic)", "SQL", "NoSQL", "Data streaming technologies (Kafka/Kinesis-type)", "CoreML"],
+  "adjacent_skills": ["Backend software development", "LLM integration (Gemini intent classification, GPT-2 from scratch, DONUT fine-tuning)", "Prompting / structured outputs (DONUT structured field extraction)", "Cloud-edge hybrid architecture (Flutter client / Flask-SocketIO edge server / Jetson+Arduino, WebSocket fabric)"],
+  "top_ats_keywords": ["Python", "C++", "LLM integration", "multi-agent systems", "agent orchestration", "tool use", "memory management", "structured outputs", "PyTorch", "TensorFlow Lite", "ONNX Runtime", "edge AI", "distributed AI workloads"],
+  "key_responsibilities": [
+    "Design, build, maintain services powering AI-driven applications",
+    "Develop APIs and microservices integrating cloud-based AI models with edge devices",
+    "Optimize data pipelines and storage for real-time AI inference",
+    "Build and optimize an agent orchestration runtime (tool use, memory management, multi-step reasoning) across LLMs, APIs, edge-connected systems",
+    "Support security and privacy best practices for distributed AI systems"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

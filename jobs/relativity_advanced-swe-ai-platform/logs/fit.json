@@ -1,0 +1,128 @@
+{
+  "company": "Relativity",
+  "company_slug": "relativity",
+  "role": "Advanced Software Engineer - AI Platform",
+  "job_slug": "advanced-swe-ai-platform",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 6,
+    "missing_count": 15,
+    "jd_ask_size": 24,
+    "req_cov": 0.438,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Performance optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GitHub",
+      "you_have": "Git"
+    },
+    {
+      "jd_skill": "APIs",
+      "you_have": "Flask / WebSocket services"
+    },
+    {
+      "jd_skill": "Distributed systems",
+      "you_have": "MPI / SLURM cluster work"
+    },
+    {
+      "jd_skill": "Clean tested code",
+      "you_have": "Testing and validation"
+    },
+    {
+      "jd_skill": "Data pipelines",
+      "you_have": "ASR / ML pipelines"
+    },
+    {
+      "jd_skill": "Reliability",
+      "you_have": "systemd auto-restart deployment"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Kubernetes",
+    "Azure",
+    "Databricks",
+    "MLflow",
+    "OpenTelemetry",
+    "PagerDuty",
+    "GitHub Actions",
+    "CI/CD",
+    "Event-driven architecture",
+    "Data platforms",
+    "On-call / incident response",
+    "Claude Code",
+    "Cursor",
+    "Cost optimization"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Docker",
+    "Kubernetes",
+    "Azure",
+    "Databricks",
+    "MLflow",
+    "OpenTelemetry",
+    "PagerDuty",
+    "GitHub Actions",
+    "CI/CD",
+    "APIs",
+    "event-driven architecture",
+    "data platforms",
+    "distributed systems",
+    "Claude Code",
+    "Cursor"
+  ],
+  "required_skills": [
+    "Cloud-native distributed systems",
+    "APIs",
+    "Event-driven architecture",
+    "Data platforms",
+    "CI/CD",
+    "Clean tested code",
+    "Python",
+    "Security and reliability"
+  ],
+  "preferred_skills": [
+    "Performance optimization",
+    "Cost optimization",
+    "Claude Code",
+    "Cursor"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design and operate distributed full-stack cloud services at petabyte scale",
+    "Build UIs and extend backend services and data pipelines",
+    "On-call and incident response",
+    "Experimentation infrastructure for AI Platform"
+  ],
+  "role_category": "ml_systems",
+  "location": "Illinois (hybrid/remote)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

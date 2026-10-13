@@ -1,0 +1,139 @@
+{
+  "company": "Culture Biosciences",
+  "company_slug": "culture-biosciences",
+  "role": "Software Engineer, Automation and Control",
+  "job_slug": "swe-automation-control",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 8,
+    "missing_count": 6,
+    "jd_ask_size": 20,
+    "req_cov": 0.682,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "sensors",
+    "actuators",
+    "data acquisition",
+    "embedded controllers",
+    "robotics",
+    "connected edge devices"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PID control",
+      "you_have": "servo PWM control, visual servoing"
+    },
+    {
+      "jd_skill": "control theory",
+      "you_have": "closed-loop visual servoing"
+    },
+    {
+      "jd_skill": "fault detection",
+      "you_have": "servo brown-out and stale-frame handling"
+    },
+    {
+      "jd_skill": "sensor noise and filtering",
+      "you_have": "ToF range-gating, ADXL345 sensing"
+    },
+    {
+      "jd_skill": "AsyncAPI",
+      "you_have": "WebSocket fabric, Flask API"
+    },
+    {
+      "jd_skill": "device interfaces (Ethernet/USB)",
+      "you_have": "UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "CI and automated testing",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "manufacturing automation",
+      "you_have": "robotic pick-and-place"
+    }
+  ],
+  "missing_skills": [
+    "logging and monitoring",
+    "AWS",
+    "Docker",
+    "infrastructure as code",
+    "GLP/GMP",
+    "ISO"
+  ],
+  "top_ats_keywords": [
+    "PID",
+    "control loops",
+    "sensors",
+    "actuators",
+    "data acquisition",
+    "AsyncAPI",
+    "AWS",
+    "Docker",
+    "CI",
+    "embedded",
+    "Python"
+  ],
+  "required_skills": [
+    "PID control",
+    "control theory",
+    "sensors",
+    "actuators",
+    "data acquisition",
+    "embedded controllers",
+    "fault detection",
+    "logging and monitoring",
+    "sensor noise and filtering",
+    "AsyncAPI",
+    "device interfaces (Ethernet/USB)"
+  ],
+  "preferred_skills": [
+    "robotics",
+    "manufacturing automation",
+    "CI and automated testing",
+    "AWS",
+    "Docker",
+    "infrastructure as code",
+    "connected edge devices",
+    "GLP/GMP",
+    "ISO"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Tune and troubleshoot PID control loops",
+    "Evolve AsyncAPI hardware interface",
+    "Build interfaces for sensors, actuators, embedded controllers",
+    "Reliability: monitoring, fault detection, recovery"
+  ],
+  "role_category": "embedded_systems",
+  "location": "South San Francisco, CA (onsite 3 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-23",
+    "channel": "application",
+    "notes": "Form rejection. No feedback."
+  }
+}

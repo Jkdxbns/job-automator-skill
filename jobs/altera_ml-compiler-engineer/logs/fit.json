@@ -1,0 +1,43 @@
+{
+  "company": "Altera",
+  "company_slug": "altera",
+  "role": "Machine Learning Engineer (FPGA Compiler)",
+  "job_slug": "ml-compiler-engineer",
+  "match_pct": 38,
+  "missing_skills": [
+    "FPGA/EDA toolchain (Quartus)",
+    "placement and routing",
+    "logic synthesis",
+    "timing closure",
+    "graph neural networks",
+    "reinforcement learning for compiler optimization",
+    "10+ years ML systems engineering experience",
+    "DAC/FPGA World presentation experience"
+  ],
+  "adjacent_skills": [
+    "model quantization/pruning (have, different domain: edge inference not compiler IR)",
+    "CI/CD workflows (have, different pipeline context)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorFlow",
+    "CI/CD",
+    "quantization",
+    "pruning",
+    "FPGA"
+  ],
+  "key_responsibilities": [
+    "ML-driven FPGA compiler optimization (timing closure, resource utilization, power)",
+    "GNN/RL models for placement, routing, logic synthesis",
+    "CI/CD automation for model conversion/quantization/pruning in EDA flow",
+    "Benchmarking across FPGA families (Agilex, Stratix)"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

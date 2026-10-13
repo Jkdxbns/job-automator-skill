@@ -1,0 +1,130 @@
+{
+  "company": "Itron",
+  "company_slug": "itron",
+  "role": "Intern - Firmware Engineer (Spring 2027)",
+  "job_slug": "firmware-engineer-intern-spring-2027",
+  "match_pct": 88.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 0,
+    "jd_ask_size": 13,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Programming experience",
+    "Object-oriented programming",
+    "Computer Engineering/CS/EE degree",
+    "Academic or personal projects",
+    "Prior internship/co-op/research experience",
+    "Embedded systems exposure",
+    "AI-related work exposure",
+    "Embedded Linux",
+    "Firmware",
+    "Hardware debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Testing exposure",
+      "you_have": "ML model evaluation / benchmarking"
+    },
+    {
+      "jd_skill": "Automation exposure",
+      "you_have": "Bash scripting, systemd service automation"
+    },
+    {
+      "jd_skill": "Test-data analysis",
+      "you_have": "ML metrics analysis (WER, IoU, PSNR)"
+    }
+  ],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "Firmware",
+    "Embedded Linux",
+    "Embedded systems",
+    "Testing",
+    "Automation",
+    "AI-related",
+    "Hardware debugging",
+    "Test-data analysis",
+    "Object-oriented programming"
+  ],
+  "required_skills": [
+    "Programming experience",
+    "Object-oriented programming"
+  ],
+  "preferred_skills": [
+    "Computer Engineering/CS/EE degree",
+    "Academic or personal projects",
+    "Prior internship/co-op/research experience",
+    "Embedded systems exposure",
+    "Testing exposure",
+    "Automation exposure",
+    "AI-related work exposure"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Firmware development for embedded Linux electric meters",
+    "Hardware/firmware debugging",
+    "Test applications and automation",
+    "Test-data analysis",
+    "Documentation and code review"
+  ],
+  "role_category": "embedded_systems",
+  "location": "West Union, South Carolina, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 76,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Firmware/embedded fundamentals: STM32 bare-metal temperature monitor project with GPIO/ADC/UART/I2C/SPI and RTOS exposure directly maps to firmware design and implementation",
+      "Hardware debugging depth: Planctech internship (Raspberry Pi + ADXL345 + HC-05, custom sensor calibration) shows real bench-level debugging with logic analyzers/oscilloscopes",
+      "AI-related engineering exposure explicitly named as a preferred plus: strong ML background (CUDA kernels, SLM compression, ASR) is a differentiator most firmware-intern applicants won't have",
+      "OOP and programming fundamentals well backed by C++/Python across every project and internship listed"
+    ],
+    "real_gaps": [
+      "No project or internship is specifically 'embedded Linux' firmware development \u2014 Linux exposure to date is application-level (Jetson/RPi for ML), not building/maintaining device firmware on an embedded Linux target",
+      "No formal test-plan-execution or QA/test-automation-tooling experience (existing 'testing' is ML model evaluation, not firmware test applications)",
+      "No utilities/energy-metering domain exposure"
+    ],
+    "overstated_by_keywords": [
+      "Embedded Linux \u2014 keyword pass counted this HAVE from general Linux/Jetson use, but no bullet shows Linux-level firmware/driver work specifically"
+    ],
+    "understated_by_keywords": [],
+    "screening_gaps": [
+      "No embedded Linux firmware experience specifically (vs. bare-metal MCU work) \u2014 the JD's core stack",
+      "No formal test-automation or QA-tooling background beyond ML evaluation metrics",
+      "No utility/energy/metering domain exposure"
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is an entry-level intern posting with a low bar (OOP + programming + curiosity), and the profile clears it comfortably on embedded fundamentals, hardware debugging, and a rare AI-exposure differentiator the JD explicitly calls out as a plus. The one real gap is that Linux firmware development itself hasn't been done before \u2014 everything embedded so far is bare-metal MCU, and Linux exposure is at the application layer \u2014 but that's a normal, learnable gap for an internship, not a disqualifier.",
+    "calibration_delta": 12.5
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-23",
+    "channel": "application",
+    "notes": "Form rejection (JR102920). No feedback."
+  }
+}

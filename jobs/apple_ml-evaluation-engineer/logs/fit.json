@@ -1,0 +1,78 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Evaluation Engineer",
+  "job_slug": "ml-evaluation-engineer",
+  "match_pct": 70,
+  "missing_skills": [
+    "3+ years industry experience (ML/CV/eval/data science)",
+    "failure analysis / root cause analysis at scale",
+    "data quality, diversity, coverage-gap analysis on large datasets",
+    "model monitoring / regression detection in production",
+    "mentoring / technical leadership"
+  ],
+  "adjacent_skills": [
+    "classical ML / statistical modeling (deep-learning heavy background, less classical/statistical)",
+    "evaluation methodology + quality metrics design (has IoU/Dice/PSNR/WER metric work, not a dedicated eval role)",
+    "automated/scalable evaluation pipelines (SLURM-managed pipelines, Cython acceleration)",
+    "visualization/dashboards (Matplotlib, PyQt, Flask GUIs, not eval-dashboard specific)",
+    "statistical analysis / experimentation",
+    "large-scale ML datasets/data pipelines",
+    "internal tooling/platforms for ML eval",
+    "synthetic data / data augmentation (CARLA simulation)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "TensorRT",
+    "ONNX",
+    "YOLO",
+    "YOLOv8",
+    "object detection",
+    "computer vision",
+    "model evaluation",
+    "quantization",
+    "data analysis",
+    "visualization",
+    "failure analysis",
+    "AI-assisted workflows"
+  ],
+  "key_responsibilities": [
+    "Define and drive evaluation strategy for CV/ML algorithms",
+    "Design metrics and evaluation methodologies beyond aggregate accuracy",
+    "Analyze large-scale datasets for data quality/coverage gaps",
+    "Failure analysis: investigate model failures, build failure taxonomies, root-cause",
+    "Build tools/visualizations for failure exploration",
+    "Develop scalable, automated evaluation/analysis/reporting workflows",
+    "Leverage AI-assisted tools to accelerate analysis"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 50,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real CV detection/tracking depth backs the Preferred bullet directly: Object Tracking Turret (YOLOv8 detect+track on Jetson, closed loop to STM32), Tusk internship (YOLOv8n, 83% mAP@50, exported ONNX/TFLite), CARLA project (YOLO11n mAP50~0.85, UFLD lane detection fine-tuned)",
+      "Benchmark/tradeoff evaluation is a recurring pattern, not a one-off: BraTS segmentation scored on Dice/IoU with accuracy-latency tradeoffs, SLM Compression project explicitly measures <1% accuracy degradation vs 55% memory reduction across HellaSwag/GSM8K/ARC, COFFIN TensorRT YOLO benchmarked 5.2x speedup eager vs optimized",
+      "Some real failure-analysis instinct exists at systems level: COFFIN bullet names 11 specific integration failure modes (false-positive detections, servo brown-out, stale-frame capture) and how each was resolved",
+      "Automated data pipeline generation experience: CARLA project built a zero-manual-annotation pipeline via semantic segmentation and raycast occlusion filtering"
+    ],
+    "real_gaps": [
+      "3+ years industry experience is stated as a hard minimum twice in the JD; profile has 0 full-time years and internships mostly 2-4 months each \u2014 this is a scope gap, not a skill gap, and no bullet reframing fixes it",
+      "No classical ML or statistical modeling anywhere in the profile \u2014 everything is deep learning/CNN/Transformer; JD explicitly wants 'classical ML and statistical modeling techniques'",
+      "No evidence of building a failure taxonomy or classifying failures by root cause category (data vs labeling vs algorithm vs environmental) at the scale the JD describes \u2014 the COFFIN failure bullet is real but it's an integration debug log for one system, not an evaluation framework applied across many models",
+      "No large-scale production dataset work \u2014 largest datasets in the profile are ~5-6k synthetic/generated samples or under 1,200 hand-annotated images; nothing speaks to identifying coverage gaps or representativeness issues in an existing large dataset",
+      "No production model monitoring or regression detection \u2014 every project is research, internship, or capstone scope, never a shipped system being watched over time",
+      "Scope mismatch: in every profile bullet, metric reporting (Dice, IoU, PSNR, WER, mAP) is a byproduct of building a model, never the primary deliverable. This JD wants evaluation infrastructure to BE the job, not a side effect of one"
+    ],
+    "overstated_by_keywords": [
+      "'Model evaluation' skill tag and 'evaluation methodology' Adjacent match both undersell the gap between 'I computed a metric on my own model' and 'I design evaluation methodology as my primary function for other teams' models'",
+      "'Statistical analysis / experimentation' was marked Adjacent by keyword match but there is no actual statistical methodology (hypothesis testing, confidence intervals, experiment design) anywhere in the profile \u2014 it's inferred from general data-science adjacency, not real bullets"
+    ],
+    "reasoning": "The CV/detection depth is genuine and would carry real weight for the Preferred qualifications, but the role's core ask, being an evaluation engineer whose primary job is building metrics, failure taxonomies, and data-quality analysis for other teams' models at production scale, doesn't match a profile where evaluation always shows up as a side effect of building and shipping a model. Combined with the explicit 3-year experience bar, this reads weaker in practice than the 70% keyword match suggests."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "New Grad Inquiry \u2014 Embedded Software Engineer (Sunrise, FL) | Justin Mascarenhas",
+    "greeting": "Hi Troy,",
+    "body": "I am Justin Mascarenhas, a recent M.S. Computer Engineering graduate from Rochester Institute of Technology (May 2026). I wanted to reach out regarding Ford's Embedded Software Engineer opening in Sunrise, FL (Job ID 66197). My background spans bare-metal C/C++, FreeRTOS, UART/I2C/SPI hardware integration, and embedded Linux \u2014 which maps directly to what the role requires.\n\nMost relevant to this position, I built STM32 Cortex-M4 firmware in bare-metal C \u2014 timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver without HAL abstraction \u2014 achieving a 3.68 KB Flash / 1.58 KB RAM footprint at a deterministic 1 Hz rate. I have also implemented FreeRTOS with mutexes for shared-memory task coordination linking Jetson-based YOLO detection to STM32 servo control over UART, and resolved 11 integration failures in my MS capstone to achieve 100% pick reliability (10/10 trials) using Arduino C++ IK and I2C-mux-driven ToF sensors.\n\nAs Ford's university recruiter, I imagine you work with new engineering grad pipelines directly, so I'm hoping this is the right channel for this role. I did notice the posting contains two different statements on visa sponsorship \u2014 one indicating it is not supported, another stating it is available. I'm on F-1 OPT and would appreciate any clarification on that before submitting a formal application.\n\nI'd be glad to connect and learn more about the team. I am attaching my resume for your reference.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: https://www.linkedin.com/in/justinmascarenhas/",
+    "word_count": 232,
+    "hook_used": "Troy is University Recruiter \u2014 referenced his new-grad pipeline mandate as reason for outreach",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Troy Ortiz",
+    "current_title": "University Recruiter",
+    "current_company": "Ford Motor Company"
+  },
+  "meta": {
+    "company": "Ford Motor Company",
+    "role": "Embedded Software Engineer"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Full-Stack Engineer, ML Tooling and Infrastructure",
+  "job_slug": "full-stack-engineer-ml-tooling-and-infrastructure",
+  "match_pct": 21.1,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 19,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Practical Applied ML \u2014 detection, segmentation, pipeline deployment",
+    "Inference optimization (TensorRT / ONNX / quantization)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Heavy Frontend Engineering (React, Vue, modern JS/TS, interactive UI)",
+      "you_have": "Flask / Python web UI, desktop GUI framework"
+    },
+    {
+      "jd_skill": "Production-Grade Python (FastAPI, gRPC, concurrent media APIs)",
+      "you_have": "Python web framework and WebSocket experience"
+    },
+    {
+      "jd_skill": "UI/UX and user-facing workflow design",
+      "you_have": "Desktop and web UI development"
+    },
+    {
+      "jd_skill": "Concurrent / real-time service APIs",
+      "you_have": "WebSocket and socket-based services"
+    }
+  ],
+  "missing_skills": [
+    "React",
+    "Vue",
+    "TypeScript / modern JS/TS",
+    "Annotation platform UI (bounding boxes, polygons, keypoints)",
+    "Video processing (FFmpeg, frame extraction, codec handling, latency optimization)",
+    "Tracking models",
+    "Active learning / hard negative mining",
+    "Dataset health / inter-annotator agreement tools",
+    "PII blurring / privacy-compliance pipeline",
+    "FastAPI",
+    "gRPC",
+    "CVML robotics data infrastructure",
+    "Full-stack ownership of production system at org scale"
+  ],
+  "top_ats_keywords": [
+    "React",
+    "Vue",
+    "TypeScript",
+    "JavaScript",
+    "FastAPI",
+    "gRPC",
+    "CVML",
+    "PII",
+    "annotation",
+    "video",
+    "inference",
+    "TensorRT",
+    "ONNX",
+    "concurrent APIs",
+    "full-stack",
+    "ML services",
+    "data labeling",
+    "dataset health",
+    "inter-annotator agreement"
+  ],
+  "required_skills": [
+    "Heavy Frontend Engineering (React, Vue, modern JS/TS)",
+    "Production-Grade Python (FastAPI, gRPC)",
+    "Practical Applied ML (detection, segmentation, tracking, pipeline deployment)"
+  ],
+  "preferred_skills": [
+    "Annotation UI (bounding boxes, polygons, keypoints)",
+    "Video processing pipelines (FFmpeg, codec, latency optimization)",
+    "Active learning / hard negative mining",
+    "UI/UX focus and workflow speed"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own internal annotation web app (CVA): ship task types, review workflows, keyboard UI, progress dashboards",
+    "Build data pipelines moving video frames, metadata, JSON between cloud storage, DB, and client",
+    "Build quality measurement tools: inter-annotator agreement, audit sampling, dataset health",
+    "Own PII blur pipeline (faces, screens, license plates) balancing privacy compliance with data preservation",
+    "Deploy/optimize lightweight ML models (TensorRT, ONNX) wrapped in concurrent APIs for tooling UI"
+  ],
+  "role_category": "ml_systems",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

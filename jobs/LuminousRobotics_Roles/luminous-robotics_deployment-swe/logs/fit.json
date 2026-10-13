@@ -1,0 +1,124 @@
+{
+  "company": "Luminous Robotics",
+  "company_slug": "luminous-robotics",
+  "role": "Deployment Software Engineer",
+  "job_slug": "deployment-swe",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.444,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "ROS/ROS2",
+    "Robotics stack (behaviors / navigation / planning / control)",
+    "Field testing / deployment / commissioning",
+    "Real-time debugging / troubleshooting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SLAM / mapping exposure (partial \u2014 navigation / mapping context via ROS/MoveIt; no explicit SLAM package listed)",
+      "you_have": "Robotics & Perception: \"MoveIt\", \"RViz\"; Projects: \"ROS-Based Robotic Arm (AL5B "
+    },
+    {
+      "jd_skill": "SLAM packages (explicit SLAM stack component)",
+      "you_have": "ROS2 / MoveIt / navigation / mapping-adjacent work but no named SLAM package (Nav2, GMapping, Cartographer)"
+    },
+    {
+      "jd_skill": "Production fleet-optimization / large-scale commercial robot fleet deployment",
+      "you_have": "Capstone-scale (single-unit) and research/intern deployment; no org-scale production fleet ownership"
+    },
+    {
+      "jd_skill": "UI / dashboard tooling (production dashboard)",
+      "you_have": "GUI and visualization work (PyQt GUI, PySide6/Qt OpenGL frame visualizer) but not a production robot dashboard"
+    }
+  ],
+  "missing_skills": [
+    "SLAM package experience (e.g., Nav2, GMapping, Cartographer \u2014 not in profile)",
+    "Solar / PV installation experience",
+    "Low-voltage systems experience",
+    "Prior professional field-service / construction-site deployment work",
+    "Production-scale robot fleet deployment / fleet-optimization at org scale",
+    "Explicit C++ production code contribution (profile shows C/C++ and CUDA C++ but no large production software commit record)",
+    "Travel / outdoor construction-site readiness (no evidence in profile; soft, not hard)",
+    "Solar / PV / low-voltage systems installation",
+    "Field service (prior professional field work at construction sites)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS",
+    "ROS2",
+    "SLAM",
+    "robotics",
+    "deployment",
+    "field testing",
+    "commissioning",
+    "navigation",
+    "behaviors",
+    "dashboard"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "technical drawings / electrical schematics / build documentation",
+    "on-site troubleshooting",
+    "field kit / diagnostic tools",
+    "travel (over 50%, domestic + international including Australia)",
+    "valid driver's license and passport",
+    "outdoor construction site work / OSHA safety",
+    "clear proactive communication"
+  ],
+  "preferred_skills": [
+    "robotics stack component (perception, localization, mapping, planning/control, behaviors, fleet-optimization)",
+    "ROS/ROS2",
+    "SLAM",
+    "PV/solar installation",
+    "low-voltage systems",
+    "field service"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Travel extensively (>50%) to solar sites US + international (Australia)",
+    "Install/commission solar modules + LUMI hardware with site crews",
+    "Field test pilot for beta releases (structured protocols, pass/fail)",
+    "Set/adjust robot parameters on-site; debug live with remote SW team",
+    "Train site operators and customer personnel",
+    "Contribute code on behaviors, UI/dashboard, navigation, or SLAM",
+    "Support high-visibility deployments and customer demos",
+    "Report anomalies with technical detail for engineering",
+    "Maintain deployment-ready field kit",
+    "Communicate robot status/site conditions/blockers clearly",
+    "Follow OSHA/construction safety standards"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "South Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

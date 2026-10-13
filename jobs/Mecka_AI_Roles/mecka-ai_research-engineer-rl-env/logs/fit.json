@@ -1,0 +1,124 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Engineer, RL Env",
+  "job_slug": "research-engineer-rl-env",
+  "match_pct": 28.6,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 6,
+    "missing_count": 7,
+    "jd_ask_size": 14,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Strong programming and software debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sound experimental design and statistical reasoning",
+      "you_have": "Model evaluation / bench-marking exposure"
+    },
+    {
+      "jd_skill": "RL environment expertise (constructing envs, assessing agents)",
+      "you_have": "Simulation / environment exposure (not RL-specific)"
+    },
+    {
+      "jd_skill": "Reason about environment dynamics / agent behavior",
+      "you_have": "Closed-loop dynamics and robotics perception control"
+    },
+    {
+      "jd_skill": "Independent research judgment / communication",
+      "you_have": "Research artifacts / presentation evidence"
+    },
+    {
+      "jd_skill": "Agent evaluation / real-world data deployment",
+      "you_have": "Edge-AI deployment and vision evaluation"
+    },
+    {
+      "jd_skill": "Reproducible experiments / baselines",
+      "you_have": "Benchmark and calibration practices"
+    }
+  ],
+  "missing_skills": [
+    "RL environment formulation / constructing RL environments",
+    "Reward design (explicit)",
+    "Agent training / policy optimization",
+    "Imitation learning",
+    "Statistical reasoning (controlled comparisons, variability, benchmark limits) \u2014 partial only",
+    "Reproducible experiment artifacts (explicit evidence)",
+    "Investigating failures beyond headline scores"
+  ],
+  "top_ats_keywords": [
+    "reinforcement learning",
+    "RL",
+    "environments",
+    "agents",
+    "reward design",
+    "simulator",
+    "benchmark",
+    "evaluation",
+    "training",
+    "policies",
+    "trajectories",
+    "reproducible",
+    "baseline",
+    "imitation learning",
+    "robotics",
+    "embodied AI",
+    "experimental design",
+    "statistical reasoning",
+    "controlled comparisons",
+    "programming",
+    "Python",
+    "C++",
+    "debugging",
+    "research systems"
+  ],
+  "required_skills": [
+    "RL environment formulation / construction / training agents / critical assessment of results",
+    "Strong programming and software debugging (build/test research systems)",
+    "Sound experimental design and statistical reasoning (controlled comparisons, evaluation splits, variability, benchmark limits)",
+    "Reason about environment dynamics, reward design and agent behavior; trace unexpected results to concrete causes",
+    "Independent research judgment, clear communication; learn unfamiliar domains and explain tradeoffs/findings"
+  ],
+  "preferred_skills": [
+    "Experience building interactive environments, simulators or benchmarks used by other researchers",
+    "Work on agent evaluation, reward design, imitation learning or learning from real-world data",
+    "Research artifacts with reproducible experiments, useful baselines, evidence of investigating failures beyond headline scores"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build RL environments: define tasks/observations/actions/state transitions, reset, termination, measurable outcomes",
+    "Develop rewards and scoring: translate task objectives into feedback/evaluation criteria; detect exploitation",
+    "Run learning experiments: implement baselines, train/compare policies, design controlled experiments",
+    "Make evaluation reliable: separate training/held-out tasks, check leakage, version experiments, report uncertainty",
+    "Investigate failures: inspect trajectories/learning behavior, distinguish policy limits from data/reward/env problems"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

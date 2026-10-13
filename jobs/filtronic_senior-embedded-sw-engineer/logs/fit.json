@@ -1,0 +1,186 @@
+{
+  "company": "Filtronic",
+  "company_slug": "filtronic",
+  "role": "Senior Embedded Software Engineer",
+  "job_slug": "senior-embedded-sw-engineer",
+  "match_pct": 48.8,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 11,
+    "missing_count": 15,
+    "jd_ask_size": 40,
+    "req_cov": 0.893,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "SPI",
+    "I2C",
+    "UART",
+    "oscilloscopes",
+    "logic analysers",
+    "ARM Cortex-M",
+    "STM32",
+    "bare-metal",
+    "Python",
+    "systemd",
+    "technical documentation",
+    "low-level embedded firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Zephyr",
+      "you_have": "FreeRTOS / RTOS"
+    },
+    {
+      "jd_skill": "other RTOS",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "SPI/I2C/UART serial protocols"
+    },
+    {
+      "jd_skill": "RS422",
+      "you_have": "UART"
+    },
+    {
+      "jd_skill": "board bring-up",
+      "you_have": "hardware/software integration"
+    },
+    {
+      "jd_skill": "schematics and datasheets",
+      "you_have": "EAGLE PCB design"
+    },
+    {
+      "jd_skill": "Yocto",
+      "you_have": "embedded Linux (exposure)"
+    },
+    {
+      "jd_skill": "Cortex-A",
+      "you_have": "Jetson / Raspberry Pi Linux"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "peripheral programming"
+    },
+    {
+      "jd_skill": "HTTPS",
+      "you_have": "Flask/WebSocket networking"
+    },
+    {
+      "jd_skill": "PCB modification",
+      "you_have": "PCB design"
+    }
+  ],
+  "missing_skills": [
+    "PetaLinux",
+    "Linux kernel",
+    "bootloaders",
+    "SNMP",
+    "OpenAPI",
+    "TLS",
+    "SSH",
+    "IPSec",
+    "secure boot",
+    "secure firmware update",
+    "RF",
+    "MISRA",
+    "CI/CD",
+    "Docker",
+    "Kubernetes"
+  ],
+  "top_ats_keywords": [
+    "Zephyr",
+    "Yocto",
+    "CAN",
+    "RS422",
+    "SNMP",
+    "OpenAPI",
+    "MISRA",
+    "STM32",
+    "TLS",
+    "secure boot",
+    "Docker",
+    "Kubernetes",
+    "RF"
+  ],
+  "required_skills": [
+    "Zephyr",
+    "low-level embedded firmware",
+    "board bring-up",
+    "schematics and datasheets",
+    "C",
+    "C++",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "RS422",
+    "oscilloscopes",
+    "logic analysers",
+    "technical documentation"
+  ],
+  "preferred_skills": [
+    "ARM Cortex-M",
+    "STM32",
+    "Cortex-A",
+    "Yocto",
+    "PetaLinux",
+    "Linux kernel",
+    "device drivers",
+    "bootloaders",
+    "systemd",
+    "other RTOS",
+    "bare-metal",
+    "TLS",
+    "SSH",
+    "IPSec",
+    "HTTPS",
+    "secure boot",
+    "secure firmware update",
+    "Python",
+    "RF",
+    "MISRA",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "PCB modification"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Zephyr and bare-metal firmware",
+    "embedded Linux/Yocto",
+    "board bring-up",
+    "CAN/SPI/I2C/UART/RS422",
+    "REST/SNMP/OpenAPI",
+    "TCP/UDP",
+    "secure comms",
+    "Linux services and drivers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cambridge, England, UK (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

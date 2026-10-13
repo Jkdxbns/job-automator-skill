@@ -1,0 +1,108 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Staff Technical Program Manager (Deployment & Logistics)",
+  "job_slug": "staff-technical-program-manager-deployment-logisti",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 12,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Edge AI"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "robotics / AI-robotics integrations",
+      "you_have": "ROS / robotics perception"
+    },
+    {
+      "jd_skill": "hardware/software technical bridge",
+      "you_have": "embedded C/C++ / bare-metal hardware"
+    },
+    {
+      "jd_skill": "hardware-enabled systems",
+      "you_have": "embedded hardware / sensor integration"
+    },
+    {
+      "jd_skill": "technical data / telemetry analysis",
+      "you_have": "data acquisition / signal processing"
+    }
+  ],
+  "missing_skills": [
+    "TPM / Technical Program Manager experience",
+    "7-10+ years full-time program / operations experience (candidate: 0 years full-time)",
+    "supply chain / logistics / freight / customs / 3PL coordination",
+    "Asana / Jira / NetSuite / ERP workflow and resource-planning systems",
+    "fleet telemetry / operational metrics (MTTR, inventory turns, uptime) at organization scale",
+    "senior IC leadership / leading by influence without direct reports",
+    "new-market deployment / enterprise rollout ownership at scale"
+  ],
+  "top_ats_keywords": [
+    "TPM",
+    "Technical Program Manager",
+    "Supply Chain",
+    "Logistics",
+    "Deployment",
+    "3PL",
+    "ERP",
+    "Jira",
+    "Asana",
+    "NetSuite",
+    "robotics",
+    "enterprise IoT",
+    "industrial hardware",
+    "fleet telemetry",
+    "program execution",
+    "hardware supply chain"
+  ],
+  "required_skills": [
+    "7-10+ years TPM / Technical Operations / Supply Chain PM experience",
+    "hardware deployment / logistics / supply chain coordination (international freight, customs, 3PL, warehousing, spare parts)",
+    "Asana / Jira / NetSuite / ERP workflow and resource-planning systems",
+    "fleet telemetry analysis / operational metrics reporting (uptime, MTTR, inventory turns)",
+    "cross-functional senior IC leadership (lead by influence across commercial, engineering, field ops, vendors)"
+  ],
+  "preferred_skills": [
+    "robotics / enterprise IoT / industrial hardware background",
+    "technical liaison / OEM partnership / overseas engineering roadmap influence",
+    "data-driven operational reporting / agile tracking at scale"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead end-to-end program execution for complex enterprise AI-robotics / hardware rollouts",
+    "Design and optimize international hardware supply chain (freight, customs, warehousing, 3PL, spare parts)",
+    "Serve as senior technical liaison / escalation point to OEM partners (e.g. Pudu Robotics)",
+    "Architect internal workflow / tracking systems (Jira, Asana, ERP) for global team scaling",
+    "Analyze fleet telemetry and build data-driven reporting (uptime, deployment time, MTTR, inventory turns)"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

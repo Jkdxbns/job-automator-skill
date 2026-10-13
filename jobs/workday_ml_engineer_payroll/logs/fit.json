@@ -1,0 +1,69 @@
+{
+  "date_analyzed": "2026-09-10",
+  "company": "Workday",
+  "company_slug": "workday",
+  "role": "Machine Learning Engineer - Payroll",
+  "job_slug": "ml_engineer_payroll",
+  "job_id": "JR-0108977",
+  "location": "Pleasanton, CA / Remote (Flex)",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 13,
+    "req_cov": 0.15,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "CUDA-based inference optimization"
+  ],
+  "adjacent_skills": [
+    "Deep learning theory (capstone CNN work)",
+    "Distributed concepts (multi-GPU potential)"
+  ],
+  "missing_skills": [
+    "5+ years full-time ML/data science experience",
+    "PyTorch production fluency",
+    "TensorFlow",
+    "Large-scale dataset pipelines",
+    "Model productization at enterprise scale",
+    "Natural language processing",
+    "Generative AI",
+    "Multi-agent AI systems",
+    "HR/Payroll domain knowledge"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "deep learning",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "model training",
+    "feature engineering",
+    "deployment",
+    "generative AI",
+    "data pipeline"
+  ],
+  "key_responsibilities": [
+    "Develop data and AI-driven solutions for enterprise payroll products",
+    "Explore, prepare, and transform large-scale HR/Payroll datasets",
+    "Design, build, evaluate, and improve ML models and frameworks",
+    "Partner with product managers and engineers to bring ML from concept to production",
+    "Apply modern ML, deep learning, NLP, generative AI, and multi-agent AI",
+    "Contribute to model development practices supporting scalability, reliability, and responsible AI"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false,
+    "seniority_blocker": "5+ years required; Justin is 0 years post-grad (graduated May 2026)"
+  },
+  "llm_analysis": null,
+  "notes": "Seniority mismatch gates the verdict regardless of keyword coverage. This is a mid/senior-level production ML role requiring 5+ years of full-time experience. Justin, as a fresh graduate, is unsuitable for this requisition. Even perfect keyword alignment would not overcome the track-record gap."
+}

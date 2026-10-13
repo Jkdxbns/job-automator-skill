@@ -1,0 +1,136 @@
+{
+ "jd": {
+  "company_name": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "job_title": "Senior Robotics Software Engineer",
+  "job_slug": "senior-robotics-software-engineer",
+  "required_skills": [
+   "C++",
+   "ROS2",
+   "tested/documented production software",
+   "Python",
+   "Linux",
+   "debugging across hardware/software boundary",
+   "robotics experience",
+   "BS/MS/PhD in related field",
+   "4+ years relevant experience",
+   "shipped real production robots"
+  ],
+  "preferred_skills": [
+   "path planning / optimization",
+   "low latency constrained compute",
+   "Rust in production",
+   "CI/CD pipelines",
+   "testing best practices"
+  ],
+  "all_keywords": [
+   "C++",
+   "ROS2",
+   "Python",
+   "Rust",
+   "Linux",
+   "testing",
+   "CI/CD",
+   "production robots",
+   "robotics",
+   "autonomous tractor",
+   "vision-based autonomy",
+   "perception",
+   "debugging",
+   "hardware/software",
+   "low latency",
+   "optimization",
+   "safety",
+   "reliability",
+   "path planning"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose, CA",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Design and build autonomous software for tractor fleet",
+   "Write production C++, Python, Rust in ROS2",
+   "Code/design review",
+   "Support/debug growing global fleet",
+   "Data-driven development",
+   "Safety/reliability/extensibility focus"
+  ],
+  "ats_keywords": [
+   "C++",
+   "ROS2",
+   "Python",
+   "Rust",
+   "Linux",
+   "testing",
+   "CI/CD",
+   "production robots",
+   "robotics",
+   "autonomous tractor",
+   "vision-based autonomy",
+   "perception",
+   "debugging",
+   "hardware/software",
+   "low latency",
+   "optimization"
+  ],
+  "role_category": "edge_ai_robotics"
+ },
+ "have": [
+  "C++",
+  "ROS2",
+  "Python",
+  "Linux",
+  "robotics experience",
+  "BS/MS/PhD in related field",
+  "vision-based autonomy / perception",
+  "edge AI / embedded deployment"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "path planning / optimization",
+   "you_have": "MoveIt",
+   "evidence": "MoveIt is a robotics motion-planning framework closely related to path planning/optimization in ROS2"
+  },
+  {
+   "jd_skill": "low latency constrained compute",
+   "you_have": "TensorRT-optimized",
+   "evidence": "TensorRT-optimized and Edge AI (Jetson) target low-latency inference on constrained embedded compute"
+  },
+  {
+   "jd_skill": "debugging across hardware/software boundary",
+   "you_have": "bare-metal",
+   "evidence": "bare-metal embedded C (STM32 Cortex-M4) involves low-level hardware-software interaction; closest available evidence"
+  },
+  {
+   "jd_skill": "optimization",
+   "you_have": "Kernel optimization",
+   "evidence": "Kernel optimization relates to low-level compute/performance tuning relevant to constrained environments"
+  }
+ ],
+ "missing": [
+  "tested/documented production software",
+  "4+ years relevant experience",
+  "shipped real production robots",
+  "Rust in production",
+  "CI/CD pipelines",
+  "testing best practices",
+  "autonomous tractor",
+  "safety",
+  "reliability"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": false
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

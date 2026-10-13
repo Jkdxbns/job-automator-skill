@@ -1,0 +1,144 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 4.95,
+      "matched": [
+        "Python",
+        "hardware/software integration",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 3.21,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 2.96,
+      "matched": [
+        "Python",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Research Fellowship",
+      "name": "Research Fellowship",
+      "score": 0,
+      "matched": []
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 10.42,
+      "matched": [
+        "ARM Cortex-M",
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 6.26,
+      "matched": [
+        "ARM Cortex-M",
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 3.3,
+      "matched": [
+        "ARM Cortex-M",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 1.83,
+      "matched": [
+        "Python"
+      ]
+    },
+    {
+      "label": "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "score": 1.83,
+      "matched": [
+        "peripheral programming"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "MCU bring-up",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "MCU-to-AP communication",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "firmware update",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "ARM Cortex-M",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "Cortex-M",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "JTAG/SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "JTAG",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "Shell scripting",
+      "for_skill": "Bash"
+    },
+    {
+      "use_jd_wording": "bring-up",
+      "for_skill": "hardware/software integration"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Zephyr",
+    "USB",
+    "embedded Linux",
+    "Android BSP/HAL",
+    "IMU",
+    "low-power/suspend-resume",
+    "watchdog"
+  ]
+}

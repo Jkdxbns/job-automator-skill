@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "company": "Field AI",
+    "role": "Robotics Autonomy Engineer - Planning and Control",
+    "company_slug": "field-ai",
+    "job_slug": "planning-control"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Designed motion planning and control pipelines from simulation to deployment: built an adaptive lane-following and waypoint-fallback control stack for autonomous driving in CARLA, validated across dynamic multi-agent traffic with zero collisions, and derived forward-kinematic motion planning and trajectory execution for a 6-DoF UR5e via ROS2. Experienced diagnosing and resolving field integration issues end to end, from control-loop tuning and sensor telemetry (ToF, visual servoing) to full robot pick-and-place deployment achieving 100% reliability.",
+  "skills": {
+    "Motion Planning & Control": [
+      "Path/Motion Planning",
+      "Trajectory Generation",
+      "Trajectory Tracking",
+      "Forward Kinematics",
+      "DH Parameters",
+      "Visual Servoing",
+      "Control-Loop Tuning"
+    ],
+    "Perception & Sensing": [
+      "Depth Estimation",
+      "YOLO",
+      "Semantic Segmentation"
+    ],
+    "Simulation & Testing": [
+      "CARLA",
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "Regression Validation"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss into an adaptive control stack with lane-following and waypoint fallback.",
+        "Validated in Town02 with dense traffic and pedestrians; zero collisions and correct signal compliance across multiple regression laps."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2x speedup) for visual servoing control and dual VL53L0X ToF sensors for contact-aware grasping telemetry.",
+        "Diagnosed and resolved 11 field integration failures (false-positive detections, servo brown-out, control-timing drift); achieved 100% pick reliability (10/10 trials)."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Designed and simulated a full ABB RobotStudio workcell for an end-to-end press-to-packing industrial assembly pipeline including CAD-modeled fixtures.",
+        "Programmed trajectory/pose logic in RAPID with TCP telemetry and interrupt-driven control; validated full-cycle repeatability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

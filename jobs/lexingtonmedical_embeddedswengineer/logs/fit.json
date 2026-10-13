@@ -1,0 +1,102 @@
+{
+  "company": "Lexington Medical",
+  "company_slug": "lexingtonmedical",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embeddedswengineer",
+  "match_pct": 73.1,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 1,
+    "missing_count": 3,
+    "jd_ask_size": 13,
+    "req_cov": 0.79,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "ARM Cortex-M4",
+    "SPI",
+    "I2C",
+    "UART",
+    "Bare-metal/FreeRTOS",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "Motor control & sensor feedback (PWM servo, ToF, closed-loop)"
+  ],
+  "missing_skills": [
+    "CAN",
+    "USB",
+    "IEC 62304 / FDA design controls"
+  ],
+  "adjacent_skills": [
+    "JTAG/SWD hardware debugging"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "ARM Cortex-M",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "USB",
+    "FreeRTOS",
+    "motor control",
+    "sensor feedback",
+    "JTAG",
+    "SWD",
+    "oscilloscope",
+    "logic analyzer",
+    "IEC 62304"
+  ],
+  "key_responsibilities": [
+    "Embedded firmware in C/C++ on Cortex-M",
+    "Low-level drivers: SPI/I2C/CAN/UART/USB",
+    "Motor control & sensor feedback application logic",
+    "Bench debugging with EE/ME during hardware bring-up",
+    "Design controls documentation for IEC 62304/FDA"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware with direct register-level peripheral programming (GPIO/TIM2/ADC1/I2C1) on the STM32 Temperature Monitor project",
+      "FreeRTOS + interrupt-driven UART command handling + multi-servo PWM motor control on the Object Tracking Turret, essentially the same firmware/motor/sensor loop this role asks for",
+      "Real hardware/firmware boundary debugging: resolved 11 integration failures including servo brown-out on the COFFIN capstone, directly matching the 'isolate whether a failure is in firmware, hardware, or the mechanism' responsibility",
+      "Cross-disciplinary hardware bring-up: owned mechanical design, PCB fabrication (EAGLE), and sensor comm end-to-end at Agnel Robotics Club and on COFFIN",
+      "Oscilloscopes and Logic Analyzers listed as used tools, matching the bench debugging requirement"
+    ],
+    "real_gaps": [
+      "No CAN or USB protocol experience anywhere in the profile; only SPI/I2C/UART are backed",
+      "No IEC 62304, FDA design controls, or regulated software documentation experience",
+      "Motor control experience is RC servo/PWM based, not the brushed/BLDC motor plus encoder feedback typical of a surgical stapler's drive train",
+      "No explicit JTAG/SWD probe experience documented, though STM32 bare-metal work implies some flashing/debug workflow"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "The 'servo brown-out' integration debugging on COFFIN is a stronger match for this JD's bench-debugging responsibility than the keyword pass credits it"
+    ],
+    "screening_gaps": [
+      "No CAN or USB experience, both explicitly listed as core comm interfaces to implement",
+      "Zero regulated medical device software background (IEC 62304 / FDA design controls)",
+      "Motor control shown is hobby servo/PWM, not the motor-driver-plus-encoder class of control a stapler mechanism likely uses"
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is one of the strongest embedded-specific matches in the pipeline: bare-metal Cortex-M firmware, FreeRTOS, SPI/I2C/UART, PWM motor control, sensor integration, and hands-on hardware bring-up debugging are all backed by real STM32 project work rather than adjacent inference. The gaps are CAN/USB and regulated medical device software, both of which the JD itself frames as things an early-career hire grows into.",
+    "calibration_delta": -4.9
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-23",
+    "channel": "application",
+    "notes": "Form rejection: proceeding with better-fit candidates. No feedback."
+  }
+}

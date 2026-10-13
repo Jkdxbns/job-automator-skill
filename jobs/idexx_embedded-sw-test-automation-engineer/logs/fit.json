@@ -1,0 +1,106 @@
+{
+  "company": "IDEXX Laboratories",
+  "company_slug": "idexx",
+  "role": "Embedded Software Test Automation Engineer",
+  "job_slug": "embedded-sw-test-automation-engineer",
+  "match_pct": 53.3,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "microcontroller firmware",
+    "testing and validation",
+    "generative AI dev tools"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD pipeline integration",
+      "you_have": "GitHub Actions CD (telemetry_gateway project, not production)"
+    },
+    {
+      "jd_skill": "spec-driven development / OpenSpec",
+      "you_have": "heavy Claude Code / AI-assisted dev workflow use"
+    }
+  ],
+  "missing_skills": [
+    "Lua",
+    "Go",
+    "Rust",
+    "VHDL",
+    "OpenSpec specifically",
+    "5+ years professional test automation experience"
+  ],
+  "top_ats_keywords": [
+    "embedded software test automation",
+    "test automation frameworks",
+    "HIL",
+    "CI/CD",
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "test infrastructure",
+    "data pipelines",
+    "spec-driven development",
+    "OpenSpec",
+    "microcontrollers",
+    "VHDL"
+  ],
+  "required_skills": [
+    "5+ years embedded software test automation experience",
+    "multi-platform test framework/infrastructure design",
+    "hardware-in-the-loop (HIL) testing environments",
+    "CI/CD pipeline integration for automated testing",
+    "C, C++, Python (2+ of C/C++/Python/Lua/Go/Rust)",
+    "Linux",
+    "Generative AI development tools for SWE",
+    "Bachelor's in CS/CpE/SWE or equivalent"
+  ],
+  "preferred_skills": [
+    "spec-driven development / OpenSpec workflows",
+    "microcontroller-based embedded systems",
+    "VHDL"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "design reusable automated test frameworks across instrument platforms",
+    "maintain automated test code validating embedded software",
+    "integrate automated testing into CI/CD",
+    "operate HIL test environments",
+    "design data pipelines for test telemetry/config data",
+    "contribute to embedded software development as needed"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Westbrook, ME",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

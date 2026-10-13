@@ -1,0 +1,20 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization",
+    "Edge AI deployment (Jetson + TensorRT + YOLO + quantization + faster-whisper ASR)",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4, FreeRTOS, interrupt-driven drivers)",
+    "ROS2 robotics/perception/simulation (MoveIt, RViz, DH kinematics, visual servoing)",
+    "ML model optimization (8-bit quantization, pruning, ASR pipeline, vision encoder-decoder fine-tuning)",
+    "Full-stack robotics systems (voice-controlled arm, autonomous driving, tracking turret, multi-sensor fusion)"
+  ],
+  "real_gaps": [
+    "Zero full-time industry experience (new-grad, 7 internships/research only)",
+    "No formal multiagent simulation framework experience (Isaac Sim, Gazebo multi-robot, etc.)",
+    "No large-scale production fleet orchestration or deployment at company scale",
+    "Senior-level delivery expectation (JD asks for senior engineer, not entry-level)"
+  ],
+  "reasoning": "Candidate profile aligns strongly on robotics, embedded, CUDA, ML/CV, and practical maintainable engineering \u2014 all core to the role's technical domain. However, the 'Senior Software Engineer' title is the decisive blocker: the candidate has 0 full-time years and 7 internships/research roles, which does not meet the implied senior-level experience threshold. Additionally, the JD specifically requires multiagent fundamentals and fleet orchestration at scale; the candidate has related multi-robot ROS2 and coordination experience but lacks formal multiagent theory and production fleet-scale deployment. Sponsorship is not mentioned in the JD. The role is clearly production-scoped (global deployment, rapid field iteration, focused team delivery). Recommend not applying at senior level; consider only if the company has an entry-level/research-track equivalent, or if the user explicitly wants to pursue it despite the senior-mismatch.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/2f3a7e60-d285-4404-8d39-96f6b1d350e8",
+  "team": "Research",
+  "location": "Boston, MA"
+}

@@ -1,0 +1,132 @@
+{
+  "company": "Badger Meter",
+  "company_slug": "badger-meter",
+  "role": "Engineer II - Electronics",
+  "job_slug": "engineer-ii-electronics",
+  "match_pct": 68.8,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 1,
+    "jd_ask_size": 8,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "PCB hardware design (analog/digital circuit design)",
+    "Embedded 8/16-bit/ARM microcontroller development",
+    "Production validation fixture and procedure development",
+    "Debugging and prototyping embedded systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Design verification testing to industry standards (UL/CSA/CE/EMC/FM)",
+      "you_have": "General testing and validation experience, not EMC/UL/CSA compliance specific"
+    },
+    {
+      "jd_skill": "Test instrument experience (oscilloscopes, power supplies, DAQ, environmental chambers)",
+      "you_have": "Hardware debugging with oscilloscopes; no DAQ or environmental chamber experience"
+    },
+    {
+      "jd_skill": "Altium schematic capture and PCB layout",
+      "you_have": "EAGLE/Proteus schematic capture and PCB design (different tool)"
+    }
+  ],
+  "missing_skills": [
+    "Sensing technology interfacing (magnetic, optics)"
+  ],
+  "top_ats_keywords": [
+    "PCB",
+    "Altium",
+    "ARM",
+    "microcontroller",
+    "analog circuit design",
+    "digital circuit design",
+    "EMC",
+    "UL",
+    "CSA",
+    "oscilloscope",
+    "embedded systems",
+    "schematic capture"
+  ],
+  "required_skills": [
+    "PCB hardware design (analog/digital circuit design)",
+    "Embedded 8/16-bit/ARM microcontroller development",
+    "Design verification testing to industry standards (UL/CSA/CE/EMC/FM)",
+    "Production validation fixture and procedure development"
+  ],
+  "preferred_skills": [
+    "Test instrument experience (oscilloscopes, power supplies, DAQ, environmental chambers)",
+    "Debugging and prototyping embedded systems",
+    "Altium schematic capture and PCB layout",
+    "Sensing technology interfacing (magnetic, optics)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "PCB/component circuit design",
+    "Design verification testing (UL/CSA/CE/EMC/FM)",
+    "Production validation fixtures and procedures",
+    "Release documentation, ECRs",
+    "Sustaining engineering support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Collegeville, PA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Hands-on PCB schematic capture and circuit design via EAGLE (Embedded skill bucket, capstone/personal projects)",
+      "STM32 bare-metal embedded microcontroller experience (custom RTOS project) maps to the ARM microcontroller ask",
+      "Oscilloscope and logic analyzer familiarity for hardware debugging",
+      "I2C/SPI/UART sensor interfacing experience across multiple projects",
+      "BE in Electronics & Telecommunication Engineering gives some analog/digital circuits coursework foundation"
+    ],
+    "real_gaps": [
+      "No professional (3+ year) hardware engineering track record \u2014 all PCB/circuit work is coursework or personal-project scale, not production",
+      "No EMC/UL/CSA/FM design-verification or compliance testing experience",
+      "No Altium \u2014 profile uses EAGLE and Proteus instead",
+      "No experience with production validation fixtures, ECRs, or release documentation in an industry setting",
+      "No sensing-technology interfacing experience with magnetic or optical sensors specifically",
+      "No data acquisition systems or environmental chamber testing experience"
+    ],
+    "overstated_by_keywords": [
+      "PCB hardware design counted as HAVE from keyword match, but real depth is project/coursework scale, not production PCB engineering"
+    ],
+    "understated_by_keywords": [],
+    "screening_gaps": [
+      "No professional analog/digital hardware design experience \u2014 this is a 3+ year production EE role and the profile shows academic/personal-project embedded work, not an industry PCB engineering track record",
+      "Zero backing for EMC/UL/CSA/FM compliance and design-verification testing, a named essential duty",
+      "No Altium (has EAGLE/Proteus) and no magnetic/optical sensing-technology interfacing experience"
+    ],
+    "recommend_apply": false,
+    "reasoning": "This is a production hardware EE role centered on analog/digital circuit design, EMC/UL/CSA compliance testing, and Altium PCB layout at the 3+ year level. Justin has real embedded/PCB exposure (EAGLE, STM32, oscilloscopes) but at coursework/personal-project scale, not the industry compliance and production-engineering depth this posting requires.",
+    "calibration_delta": 23.8
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-25",
+    "channel": "application",
+    "notes": "Position filled."
+  }
+}

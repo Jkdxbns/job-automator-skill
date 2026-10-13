@@ -1,0 +1,118 @@
+{
+  "company": "Torc Robotics",
+  "company_slug": "torc",
+  "role": "Machine Learning Engineer II - Learned Planning (Reinforcement Learning)",
+  "job_slug": "ml-engineer-ii-learned-planning",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 18,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "Simulation",
+    "Autonomous Driving"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sequence Models",
+      "you_have": "GPT-2 / Transformer"
+    },
+    {
+      "jd_skill": "Large-scale Training",
+      "you_have": "SLURM / MPI cluster"
+    },
+    {
+      "jd_skill": "Distributed Training",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "ML Deployment",
+      "you_have": "Jetson TensorRT"
+    },
+    {
+      "jd_skill": "Model Debugging",
+      "you_have": "Model evaluation"
+    }
+  ],
+  "missing_skills": [
+    "Imitation Learning",
+    "Reinforcement Learning",
+    "Behavior Cloning",
+    "Graph Neural Networks",
+    "Ray",
+    "Vehicle Dynamics",
+    "Motion Planning",
+    "Multi-agent Decision Making"
+  ],
+  "top_ats_keywords": [
+    "Imitation Learning",
+    "Reinforcement Learning",
+    "PyTorch",
+    "Python",
+    "Transformers",
+    "Ray",
+    "Simulation",
+    "Autonomous Driving"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Imitation Learning",
+    "Reinforcement Learning",
+    "Behavior Cloning",
+    "Transformers",
+    "Graph Neural Networks",
+    "Sequence Models",
+    "Large-scale Training",
+    "Model Debugging"
+  ],
+  "preferred_skills": [
+    "Autonomous Driving",
+    "Ray",
+    "Distributed Training",
+    "Simulation",
+    "Vehicle Dynamics",
+    "Motion Planning",
+    "Multi-agent Decision Making",
+    "ML Deployment"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Train behavior cloning/IL/RL models",
+    "Production ML code",
+    "Failure-mode analysis",
+    "Behavior datasets from sim and fleet logs",
+    "Simulation integration"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote US / Ann Arbor MI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

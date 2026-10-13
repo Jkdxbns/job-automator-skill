@@ -1,0 +1,134 @@
+{
+  "company": "Diversified Services Network (DSN)",
+  "company_slug": "dsn",
+  "role": "Embedded Software Engineer - C++ (Telematics) 113065",
+  "job_slug": "embedded-cpp-telematics",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 1,
+    "jd_ask_size": 10,
+    "req_cov": 0.85,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Linux",
+    "C++",
+    "Git",
+    "Python",
+    "ROS2",
+    "Debugging tools"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "HIL testing",
+      "you_have": "testing and validation (CMPE 663 RTOS bench projects)"
+    },
+    {
+      "jd_skill": "Azure DevOps",
+      "you_have": "GitLab / Git"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "static IP networking, WebSocket multi-device"
+    }
+  ],
+  "missing_skills": [
+    "J1939 datalink"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Linux",
+    "Git",
+    "HIL",
+    "SIL",
+    "ROS2",
+    "Azure DevOps",
+    "J1939",
+    "Ethernet",
+    "Python",
+    "telematics",
+    "ECU"
+  ],
+  "required_skills": [
+    "Linux",
+    "C++",
+    "Git",
+    "HIL testing",
+    "ROS2",
+    "Azure DevOps",
+    "Debugging tools",
+    "Python",
+    "J1939 datalink",
+    "Ethernet"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "C++ development for telematics data collection ECMs and radios",
+    "Requirements management",
+    "Test script development",
+    "Bug investigation/reproduction",
+    "SIL/HIL testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mossville, IL, USA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Linux and Git are backed by real depth: COFFIN Jetson arm bridge deployed as a systemd service (auto-restart with backoff, non-root isolation, env-file config, static IP), plus GitLab at BARC",
+      "ROS2 and Python are strong: UR5e and AL5B pick-and-place on ROS 2 Humble with MoveIt, plus the Python GUI and Flask-SocketIO server work",
+      "Bug investigation on multi-component hardware: resolved 11 integration failures in COFFIN (servo brown-out, stale-frame capture, false-positive detections), which maps to the bug investigation and reproduction duty",
+      "Bench debugging and low-level protocols: oscilloscopes and logic analyzers, UART/I2C/SPI, Bluetooth, the STM32 bare-metal I2C driver and interrupt-driven UART in the turret"
+    ],
+    "real_gaps": [
+      "No vehicle or industrial datalink experience: J1939, CAN or CAN-FD appear nowhere in the profile",
+      "No SIL/HIL rig work: the turret and CMPE 663 projects are bench builds, not simulated-plant or requirements-driven test rigs",
+      "No requirements management or traceability workflow, and no Azure DevOps (only GitLab at intern level)",
+      "C++ evidence is Arduino two-link IK and CUDA kernels; no application-level C++ on a Linux ECU or radio stack",
+      "No telematics, cellular or radio-module work (Bluetooth only), and no wired Ethernet stack work",
+      "0 full-time years against a stated 2 to 4 (seniority note only, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "HIL testing counted Adjacent via testing and validation: that is coursework bench testing, not HIL",
+      "Ethernet counted Adjacent via static IP and WebSocket: application-layer multi-device networking, not an Ethernet datalink",
+      "Azure DevOps counted Adjacent via GitLab: a tooling overlap only, no pipelines or work-item tracking",
+      "C++ counted Have at working depth, but the backing is narrow (embedded Arduino IK plus CUDA C++)"
+    ],
+    "understated_by_keywords": [
+      "Multi-device fault isolation across Jetson, Arduino, mobile client and sensors in COFFIN is direct evidence for ECU-style debugging, more than the keyword pass credited",
+      "The UART command link from Jetson to STM32 in the turret is a small precedent for a message-based datalink between controllers"
+    ],
+    "screening_gaps": [
+      "No J1939 or CAN datalink experience, and it is the domain core of a telematics ECM role",
+      "No production C++ on a Linux ECU or radio, with 0 full-time years against 2 to 4",
+      "No SIL/HIL test rig or requirements-driven workflow (Azure DevOps, traceability)"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Linux, Git, Python, ROS2 and hands-on debugging are genuinely backed, and the COFFIN systemd and integration-failure work is a credible bridge into ECU-style bring-up. The role's domain core (J1939 vehicle networks, HIL and requirements-driven testing, production C++) has no real backing, so the semantic fit sits well below the keyword score. It is a stretch worth applying to, on the strength of the Linux and C++ embedded base, not a clean match.",
+    "calibration_delta": 18.0
+  }
+}

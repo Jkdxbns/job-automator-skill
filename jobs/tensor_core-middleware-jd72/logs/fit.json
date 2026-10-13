@@ -1,0 +1,138 @@
+{
+  "company": "Tensor",
+  "company_slug": "tensor",
+  "role": "Software Engineer: Core Middleware Components",
+  "job_slug": "core-middleware-jd72",
+  "match_pct": 69.2,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 13,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "high-performance system programming",
+    "Linux",
+    "design patterns",
+    "computer architecture",
+    "CUDA",
+    "performance optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "network programming",
+      "you_have": "networking (TCP/IP, sockets)"
+    },
+    {
+      "jd_skill": "Apollo / Autoware",
+      "you_have": "ROS2 + CARLA"
+    },
+    {
+      "jd_skill": "Nvidia DriveOS",
+      "you_have": "NVIDIA Jetson"
+    },
+    {
+      "jd_skill": "autonomous driving algorithms",
+      "you_have": "Autonomous Driving in CARLA"
+    }
+  ],
+  "missing_skills": [
+    "distributed communication middleware",
+    "software architecture design"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "middleware",
+    "Linux",
+    "CUDA",
+    "Apollo",
+    "Autoware",
+    "DriveOS",
+    "low-latency",
+    "high-throughput",
+    "performance optimization"
+  ],
+  "required_skills": [
+    "C++",
+    "high-performance system programming",
+    "network programming",
+    "Linux",
+    "design patterns",
+    "computer architecture",
+    "autonomous driving software architecture",
+    "Apollo",
+    "Autoware"
+  ],
+  "preferred_skills": [
+    "Nvidia DriveOS",
+    "CUDA",
+    "autonomous driving algorithms",
+    "software architecture design",
+    "performance optimization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "autonomous driving middleware",
+    "SoC platform adaptation",
+    "distributed communication middleware",
+    "profiling"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose, CA, US (also Barcelona, Singapore, Dubai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "CUDA kernel work with memory coalescing, 49.2 ms vs 73.3 ms uncoalesced (VGG16 project), matches the CUDA preference",
+      "Profiling and benchmarking discipline (pynvml, latency and speedup measurements)",
+      "Distributed and parallel design: MPI with SLURM, load-imbalance analysis"
+    ],
+    "real_gaps": [
+      "C++ is a working-depth skill (CUDA C++, Arduino C++), not systems-level C++",
+      "No socket, shared-memory or DDS-style network programming; only a Flask-SocketIO/WebSocket app",
+      "No Apollo, Autoware or AD software-architecture exposure; CARLA is a simulator pipeline",
+      "No design or ownership of low-latency communication middleware",
+      "No experience adapting middleware to a SoC platform such as DriveOS"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted Have, but interview history shows C++ fluency is the recurring weak point",
+      "network programming counted adjacent via a WebSocket app, which is application-level",
+      "distributed systems credited to MPI, which is not pub/sub middleware"
+    ],
+    "understated_by_keywords": [
+      "Jetson plus TensorRT is the closest thing to a DriveOS-class platform in the profile"
+    ],
+    "screening_gaps": [
+      "No systems-level C++ / Linux network programming depth",
+      "No autonomous-driving middleware (Apollo/Autoware/Cyber RT/ROS internals)",
+      "No low-latency distributed communication design"
+    ],
+    "recommend_apply": false,
+    "reasoning": "This is a C++ middleware-engineer role and the profile evidences C++ mainly through CUDA kernels and Arduino code. The keyword score of 69.2% overstates it; the core responsibility, building high-throughput communication middleware, has no direct backing.",
+    "calibration_delta": 23.2
+  }
+}

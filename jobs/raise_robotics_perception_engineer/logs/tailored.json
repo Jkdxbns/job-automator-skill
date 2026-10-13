@@ -1,0 +1,107 @@
+{
+  "_meta": { "company": "Raise Robotics", "role": "Perception Engineer", "company_slug": "raise_robotics", "job_slug": "perception_engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) focused on learning-based perception for robotics and mobile manipulation. Trained and deployed CNNs for object detection, monocular depth estimation, and semantic segmentation across research and applied projects. Built synthetic data generation pipelines in CARLA and vision-guided pick-and-place systems integrating ToF sensing and visual servoing on Jetson-class hardware.",
+  "skills": {
+    "Perception & Computer Vision": ["Object Detection (YOLOv8, YOLO11n)", "Semantic Segmentation (U-Net)", "Monocular Depth Estimation (ZoeDepth)", "3D Surface Reconstruction", "Image Stitching & Mosaicing", "Visual Servoing", "ToF Sensing"],
+    "Deep Learning": ["PyTorch", "TensorFlow / Keras", "HuggingFace Transformers", "CNNs (VGG, ResNet)", "Vision Transformers", "ONNX / TFLite", "TensorRT", "Quantization"],
+    "Synthetic Data & Simulation": ["CARLA", "Semantic-Segmentation Data Generation", "Raycast Occlusion Filtering", "LeRobot Data Pipelines"],
+    "Robotics": ["ROS 2 / ROS Noetic", "MoveIt", "RViz", "Forward / Inverse Kinematics", "DH Parameters", "UR5e Manipulation"],
+    "Languages & Tools": ["Python", "C / C++", "CUDA", "Git / GitLab", "Linux", "NVIDIA Jetson"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling, achieving ±8% error on 3D surface reconstruction of metal surfaces.",
+        "Architected a metal-surface inspection perception pipeline combining custom image stitching, wavelet denoising, and depth estimation for microscopic crack analysis (PSNR 86)."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Curated a custom object-detection dataset and trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50; exported to ONNX and TFLite for on-device deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "location": "Middlesbrough, United Kingdom",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 dataset; evaluated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Fine-tuned the DONUT vision transformer in PyTorch (HuggingFace VisionEncoderDecoder), improving validation accuracy from 55% to 93%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built a vision-guided robotic pick-and-place system integrating TensorRT-optimized YOLO for visual servoing (5.2× speedup, 17.6→92 FPS) and dual VL53L0X ToF sensors for contact-aware grasping.",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency; resolved 11 integration failures including false-positive detections and stale-frame capture."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated synthetic data generation pipelines using CARLA semantic segmentation and raycast occlusion filtering to produce ~8,000 YOLO and UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18); validated in Town02 with zero collisions and correct traffic-light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects in real time, integrating VL53L0X ToF sensing and OLED distance visualization for range-aware targeting."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz in ROS 2, then executed collision-free pick-and-place on the physical UR5e."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Machine Intelligence", "Deep Learning", "Principles of Robotics", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Random Signal Analysis", "Artificial Neural Networks & Fuzzy Logic", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

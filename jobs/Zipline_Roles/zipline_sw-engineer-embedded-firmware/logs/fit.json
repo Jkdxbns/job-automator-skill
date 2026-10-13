@@ -1,0 +1,66 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "Software Engineer - Embedded Firmware",
+  "job_slug": "sw-engineer-embedded-firmware",
+  "match_pct": 92,
+  "have_skills": [
+    "C++ (primary) \u2014 two-link IK on Arduino, PWM/ESC controller, COFFIN pipeline",
+    "Python \u2014 data pipelines, Flask, profiling, LeRobot capture",
+    "Bare metal \u2014 STM32 Cortex-M4 direct register access (GPIO, TIM2, ADC1, I2C1)",
+    "RTOS \u2014 FreeRTOS mutex/task coordination on STM32 Turret",
+    "Embedded Linux \u2014 Jetson systemd service, SIGTERM handling, userspace",
+    "Peripheral drivers from datasheets \u2014 VL53L0X ToF, TCA9548A I2C mux, ADXL345 accelerometer, ADC",
+    "Hardware debugging \u2014 oscilloscopes, logic analyzers, 11 integration failures resolved",
+    "HIL / hardware tests \u2014 COFFIN 10/10 real hardware trials, Turret PWM validation",
+    "Fault management \u2014 brown-out handling, stale-frame recovery, contact-detection gating",
+    "Data collection tools \u2014 LeRobot multiprocess pipeline, COFFIN telemetry logging"
+  ],
+  "adjacent_skills": [
+    "Real-world deployed: COFFIN is real Jetson hardware, not commercial customer deployment",
+    "Flight experience: built drone flight controller (Bluetooth PWM ESC), not aviation-grade"
+  ],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "embedded firmware",
+    "C++",
+    "Rust",
+    "Python",
+    "bare metal",
+    "RTOS",
+    "embedded Linux",
+    "microcontroller",
+    "peripheral drivers",
+    "fault management",
+    "hardware-in-the-loop",
+    "observability",
+    "reliability",
+    "avionics",
+    "data collection",
+    "oscilloscope",
+    "I2C",
+    "SPI",
+    "UART",
+    "real-time",
+    "safety-critical"
+  ],
+  "key_responsibilities": [
+    "firmware for flight and safety processes on microcontrollers",
+    "fault management strategies and HIL tests",
+    "runtime analysis of avionics software",
+    "metrics, monitoring, troubleshooting for field deployment",
+    "data collection tools for sensor and MCU evaluation"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "flags": {
+    "hard_blocker": false,
+    "sponsorship": "not_mentioned - Zipline not on known_sponsors list",
+    "experience_gap": "none stated - Software Engineer (not Senior), comp $125k-$210k",
+    "level_mismatch": "none - non-Senior title appropriate for new grad",
+    "clearance": false
+  }
+}

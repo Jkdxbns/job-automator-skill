@@ -1,0 +1,108 @@
+{
+  "company": "Speechmatics",
+  "company_slug": "speechmatics",
+  "role": "Senior Machine Learning Engineer",
+  "job_slug": "senior-ml-engineer",
+  "match_pct": 34.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 16,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Transformer",
+    "ASR",
+    "speech recognition",
+    "PyTorch"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed training",
+      "you_have": "MPI / SLURM (HPC, not DL training)"
+    },
+    {
+      "jd_skill": "Model serving",
+      "you_have": "TensorRT / Jetson edge deployment"
+    },
+    {
+      "jd_skill": "inference optimisation",
+      "you_have": "TensorRT 5.2x speedup, 8-bit quantization"
+    }
+  ],
+  "missing_skills": [
+    "GQA",
+    "KV-caching",
+    "dynamic batching",
+    "flash attention",
+    "speculative decoding",
+    "self-supervised",
+    "top-tier publications",
+    "open-source contributions",
+    "technical writing"
+  ],
+  "top_ats_keywords": [
+    "Transformer",
+    "GQA",
+    "KV-caching",
+    "distributed training",
+    "dynamic batching",
+    "flash attention",
+    "speculative decoding",
+    "ASR",
+    "speech recognition",
+    "self-supervised",
+    "model serving",
+    "inference optimisation",
+    "PyTorch"
+  ],
+  "required_skills": [
+    "Transformer architectures",
+    "GQA",
+    "KV-caching",
+    "Distributed training",
+    "Dynamic batching",
+    "Flash attention",
+    "Speculative decoding",
+    "Speech recognition",
+    "Model serving",
+    "Self-supervised models"
+  ],
+  "preferred_skills": [
+    "Publications in top-tier conferences",
+    "Open-source contributions",
+    "Technical writing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Complex R&D projects on speech models",
+    "Train large self-supervised models and deploy to production",
+    "Mentor team members"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, England, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

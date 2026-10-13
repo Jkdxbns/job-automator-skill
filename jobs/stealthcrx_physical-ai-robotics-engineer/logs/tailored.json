@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "company": "StealthCRX",
+    "role": "Physical AI / Robotics Engineer",
+    "company_slug": "stealthcrx",
+    "job_slug": "physical-ai-robotics-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds real time robotic perception and control systems, from ROS2 kinematics on 6 DoF arms validated in MoveIt and RViz to sensor fused, vision guided pick and place systems combining camera, ToF, and inertial data on Jetson and Arduino hardware. Comfortable at the hardware software boundary: PCB fabrication, sensor calibration, and C++/Python across embedded and edge platforms.",
+  "skills": {
+    "Languages & Systems": ["Python", "C/C++", "ROS2", "Linux", "Git"],
+    "Robotics & Perception": ["ROS/ROS2", "MoveIt", "RViz", "Forward Kinematics", "Visual Servoing", "YOLO", "TensorRT"],
+    "Embedded & Sensor Integration": ["NVIDIA Jetson", "Arduino", "STM32", "Raspberry Pi", "UART/I2C/SPI", "PWM", "FreeRTOS", "ToF Sensing (VL53L0X)", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and closed-loop control integration end to end.",
+        "Designed and fabricated custom PCBs in EAGLE for mobile competition robots; implemented UART and I2C sensor communication with closed-loop feedback control."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition system integrating ADXL345 inertial sensors with Raspberry Pi over I2C and HC-05 Bluetooth, translating 3-DoF motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter and field noise through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided pick-and-place system fusing TensorRT-optimized YOLO visual servoing (5.2x speedup) with dual VL53L0X ToF sensors via I2C mux for contact-aware grasping on a Jetson+Arduino control link.",
+        "Resolved 11 field integration failures (false-positive detections, servo brown-out, stale-frame capture), reaching 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Implemented two-link inverse kinematics on Arduino in C++, driving five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending real-time control commands to an STM32 over UART for interrupt-driven, multi-servo PWM control.",
+        "Ran FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing with OLED visualization for closed-loop range feedback."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

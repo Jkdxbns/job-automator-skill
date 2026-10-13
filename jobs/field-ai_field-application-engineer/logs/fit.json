@@ -1,0 +1,141 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Field Application Engineer",
+  "job_slug": "field-application-engineer",
+  "match_pct": 68.8,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 16,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "drones",
+    "basic electronics",
+    "sensors",
+    "robotics hardware",
+    "troubleshooting hardware and software",
+    "robotic subsystems",
+    "bachelor's degree CS/EE/Robotics",
+    "data collection"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "field testing",
+      "you_have": "hardware bring-up with oscilloscopes/logic analyzers, COFFIN drone testing"
+    },
+    {
+      "jd_skill": "technical documentation",
+      "you_have": "project reports and posters"
+    }
+  ],
+  "missing_skills": [
+    "quadrupeds",
+    "humanoids",
+    "remote operations",
+    "client-facing"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "drones",
+    "quadrupeds",
+    "humanoid",
+    "electronics",
+    "sensors",
+    "Python",
+    "C++",
+    "field testing",
+    "remote operations",
+    "troubleshooting",
+    "data collection"
+  ],
+  "required_skills": [
+    "robotics hardware",
+    "troubleshooting hardware and software",
+    "technical documentation",
+    "communication with non-technical stakeholders",
+    "field testing",
+    "data collection",
+    "bachelor's degree CS/EE/Robotics"
+  ],
+  "preferred_skills": [
+    "drones",
+    "quadrupeds",
+    "humanoids",
+    "basic electronics",
+    "sensors",
+    "robotic subsystems",
+    "Python",
+    "C++",
+    "remote operations",
+    "client-facing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "deploy/operate robots in field",
+    "supervise remote ops, client demos",
+    "document issues",
+    "troubleshoot HW/SW"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Remote US, frequent travel",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 61,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN capstone: full robot stack integration on Jetson + Arduino, 11 integration failures diagnosed and resolved, 100% pick reliability over 10 trials (real hardware troubleshooting)",
+      "Bench skills: oscilloscopes, logic analyzers, multimeters, sensor jitter calibration (Planctech), I2C/UART sensor comms",
+      "Python and C/C++ throughout; LeRobot-structured multi-camera data collection pipeline",
+      "Remote admin of a headless Jetson via systemd + XRDP + static IP"
+    ],
+    "real_gaps": [
+      "No drone, quadruped or humanoid hands-on experience anywhere in the profile",
+      "No field deployment, travel-based site work or live client demos; all work is lab/capstone",
+      "No client-facing or customer support role; communication evidence is club leadership and teaching only",
+      "No supervising remote operations of fielded fleets"
+    ],
+    "overstated_by_keywords": [
+      "drones: counted as Have in the keyword pass, but nothing in master_profile.json backs drone work (COFFIN is a robotic arm). Treat as MISSING.",
+      "robotic subsystems: arm and locomotive-robot subsystems, not fielded platforms"
+    ],
+    "understated_by_keywords": [
+      "Communication/stakeholder translation: taught a Python course, led 25-member ARC and a 7-person team, 10+ workshops",
+      "Documentation: JupyterHub technical documentation, claims documentation and BOM at Planctech"
+    ],
+    "screening_gaps": [
+      "No drone/quadruped/humanoid hands-on experience (the role's named platforms)",
+      "No field testing or on-site deployment history",
+      "No client-facing or customer demo experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Entry-level, graduate-friendly role where the bar is hardware troubleshooting, basic electronics and Python/C++, all of which are well backed by the COFFIN capstone and bench skills. The platform-specific (drones, quadrupeds, humanoids) and client-facing preferences are unbacked, so it is a plausible apply rather than a strong one.",
+    "calibration_delta": 7.8
+  },
+  "semantic_pending": false
+}

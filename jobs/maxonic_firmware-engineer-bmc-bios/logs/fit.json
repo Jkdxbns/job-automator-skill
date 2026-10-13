@@ -1,0 +1,74 @@
+{
+  "company": "Maxonic Inc.",
+  "company_slug": "maxonic",
+  "role": "Firmware Engineer (BMC)",
+  "job_slug": "firmware-engineer-bmc-bios",
+  "match_pct": 60,
+  "missing_skills": [
+    "OpenBMC",
+    "Redfish",
+    "IPMI",
+    "DMTF standards",
+    "PCIe"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "server hardware architecture",
+      "you_have": [
+        "STM32",
+        "embedded hardware",
+        "PCB design"
+      ]
+    },
+    {
+      "jd_term": "embedded Linux",
+      "you_have": [
+        "Linux",
+        "bare-metal C",
+        "Yocto adjacent"
+      ]
+    },
+    {
+      "jd_term": "power management firmware",
+      "you_have": [
+        "ADC",
+        "GPIO",
+        "peripheral drivers"
+      ]
+    }
+  ],
+  "top_ats_keywords": [
+    "embedded C/C++",
+    "firmware",
+    "I2C",
+    "SPI",
+    "UART",
+    "embedded Linux",
+    "debugging",
+    "Python",
+    "RTOS",
+    "sensors"
+  ],
+  "key_responsibilities": [
+    "Design and develop BMC firmware in embedded C/C++ on Linux",
+    "Interface with server sensors (voltage, temp, fan) via I2C, SPI, UART",
+    "Implement power management, event logging, remote monitoring",
+    "Debug system-level hardware-firmware interactions",
+    "Collaborate with hardware and platform architecture teams"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "date_analyzed": "2026-05-26",
+  "jd_url": "https://www.linkedin.com/jobs/view/4407622348/",
+  "hard_blocker_triggered": false,
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "location": "Fremont, CA or Nashville, TN",
+  "remote_ok": false,
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "clearance_required": false
+}

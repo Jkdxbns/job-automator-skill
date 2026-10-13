@@ -1,0 +1,79 @@
+{
+  "company": "Hero (client: undisclosed international technology company)",
+  "company_slug": "hero",
+  "role": "Embedded Software Engineer - Windows & System Integration",
+  "job_slug": "embedded-windows-uppsala",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 0,
+    "missing_count": 3,
+    "jd_ask_size": 8,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded Linux",
+    "C",
+    "Hardware development",
+    "System integration",
+    "Troubleshooting"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Windows Embedded",
+    "C#",
+    "Fluent Swedish"
+  ],
+  "top_ats_keywords": [
+    "embedded software",
+    "windows embedded",
+    "system integration",
+    "C#",
+    "agile"
+  ],
+  "required_skills": [
+    "Embedded Linux or Windows Embedded",
+    "Hardware development",
+    "System integration",
+    "C or C#",
+    "Agile development",
+    "Fluent Swedish and English"
+  ],
+  "preferred_skills": [
+    "Industrial systems",
+    "Electronics/device communication",
+    "Automotive/automation/defense/telecom experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own Windows-based platform",
+    "Integration of software with devices/product platforms",
+    "Troubleshooting and technical verification",
+    "Collaboration with dev/hardware/test teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Uppsala, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Foreign on-site work authorization: role is on-site/hybrid in Uppsala, Sweden with no visa sponsorship mentioned; F-1 OPT only authorizes employment inside the United States. Also requires fluency in Swedish (spoken and written), which is an additional disqualifier."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

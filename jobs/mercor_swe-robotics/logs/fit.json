@@ -1,0 +1,118 @@
+{
+  "company": "Mercor",
+  "company_slug": "mercor",
+  "role": "Software Engineer, Robotics",
+  "job_slug": "swe-robotics",
+  "match_pct": 27.8,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 18,
+    "req_cov": 0.222,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "ROS",
+    "Computer Vision (detection/tracking)",
+    "Audio/multi-sensor data"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "streaming ingestion",
+      "you_have": "networking (TCP/IP, epoll) coursework"
+    },
+    {
+      "jd_skill": "distributed batch processing",
+      "you_have": "MPI / distributed systems coursework"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Rust",
+    "AWS",
+    "GCP",
+    "high-volume/petabyte-scale data pipeline ownership",
+    "large binary formats (MCAP)",
+    "protobuf",
+    "Foxglove",
+    "object storage economics",
+    "customer-facing/forward-deployed delivery engineering",
+    "multi-sensor calibration and synchronization",
+    "VLM-based labeling/QC"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Go",
+    "Rust",
+    "AWS",
+    "GCP",
+    "MCAP",
+    "ROS",
+    "protobuf",
+    "Foxglove",
+    "streaming ingestion",
+    "distributed batch processing",
+    "object storage",
+    "computer vision",
+    "calibration",
+    "synchronization",
+    "multimodal"
+  ],
+  "required_skills": [
+    "Python/Go/Rust",
+    "AWS",
+    "GCP",
+    "high-volume data pipeline ownership",
+    "large binary formats",
+    "streaming ingestion",
+    "distributed batch processing",
+    "object storage economics",
+    "customer-facing communication"
+  ],
+  "preferred_skills": [
+    "MCAP",
+    "ROS",
+    "protobuf",
+    "Foxglove",
+    "multimodal data pipelines",
+    "multi-sensor data (video/depth/inertial/audio)",
+    "calibration and synchronization",
+    "forward-deployed/solutions engineering",
+    "computer vision/multimodal ML",
+    "VLM-based labeling/QC"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "build and operate high-volume data delivery pipelines",
+    "format/transform datasets to per-client spec (MCAP etc)",
+    "automated validation",
+    "prototype against new customer requirements",
+    "own delivery infrastructure end to end"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

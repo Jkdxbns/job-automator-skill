@@ -1,0 +1,39 @@
+{
+  "company": "Dexmate",
+  "company_slug": "dexmate",
+  "role": "Senior Embedded Systems Engineer",
+  "job_slug": "senior-embedded-systems-engineer",
+  "match_pct": 68.75,
+  "missing_skills": [
+    "Motor control / FOC / torque control firmware",
+    "EtherCAT (protocol + SOEM master/slave stack)",
+    "CAN bus at driver level",
+    "5+ years production-deployed embedded experience",
+    "Functional safety background (ISO 26262 / IEC 62443)",
+    "BMS / DC-DC / power electronics firmware"
+  ],
+  "adjacent_skills": [
+    "MCU family breadth (has STM32/Cortex-M4 bare-metal, JD wants breadth across Cortex-M + TI C2000 + Nordic nRF)",
+    "JTAG (has bare-metal hardware bring-up and debugging, no explicit JTAG line item)"
+  ],
+  "top_ats_keywords": [
+    "C/C++", "bare-metal", "RTOS", "FreeRTOS", "Cortex-M4", "STM32", "SPI", "I2C", "UART",
+    "PCB", "PCBs", "Oscilloscopes", "Logic Analyzers", "GPIO", "PWM", "ADC", "Python"
+  ],
+  "key_responsibilities": [
+    "Architect production-grade firmware for actuator controllers, sensor interfaces, communication subsystems",
+    "Own hardware bring-up: peripheral drivers, PCB validation, hw/fw boundary debugging",
+    "Implement/optimize motor control loops (torque, velocity, position) on bare-metal and RTOS",
+    "Develop real-time comms stacks: EtherCAT, CAN, SPI, I2C, UART",
+    "Build CI/CD and hardware-in-the-loop test infrastructure",
+    "Firmware safety architecture: fault detection, safe-state logic, watchdogs",
+    "Read schematics/PCB layouts, participate in hw design reviews",
+    "Establish firmware standards as team scales"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

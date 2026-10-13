@@ -1,0 +1,141 @@
+{
+  "company": "Brooks Automation",
+  "company_slug": "brooks-automation",
+  "role": "Controls Engineer I",
+  "job_slug": "controls-engineer-i",
+  "match_pct": 70.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 1,
+    "jd_ask_size": 12,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "robotics",
+    "motion control",
+    "troubleshooting",
+    "mechatronics",
+    "design verification testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "control theory",
+      "you_have": "Closed-Loop Feedback Control"
+    },
+    {
+      "jd_skill": "MATLAB",
+      "you_have": "Python/Matplotlib"
+    },
+    {
+      "jd_skill": "dynamic signal analyzer",
+      "you_have": "Oscilloscopes, Logic Analyzers"
+    },
+    {
+      "jd_skill": "servo performance",
+      "you_have": "Quadrature Encoders, PWM Motor Control"
+    },
+    {
+      "jd_skill": "dynamic systems",
+      "you_have": "Digital Signal Processing"
+    }
+  ],
+  "missing_skills": [
+    "payload vibration analysis"
+  ],
+  "top_ats_keywords": [
+    "motion control",
+    "servo",
+    "MATLAB",
+    "C/C++",
+    "robotics",
+    "mechatronics",
+    "control theory",
+    "design verification testing",
+    "dynamic signal analyzer",
+    "troubleshooting"
+  ],
+  "required_skills": [
+    "control theory",
+    "dynamic systems",
+    "robotics",
+    "motion control",
+    "C/C++",
+    "MATLAB",
+    "troubleshooting",
+    "laboratory equipment"
+  ],
+  "preferred_skills": [
+    "laboratory equipment"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "motion control parameter tuning",
+    "servo characterization",
+    "design verification testing",
+    "MATLAB data tooling",
+    "dynamic signal analyzer lab testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Chelmsford, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Robocon holonomic robot: closed-loop heading correction from 2400 CPR quadrature odometry, 15 kHz PWM, interrupt-driven decoding",
+      "COFFIN: 11 integration failures resolved (servo brown-out etc.), 10/10 pick reliability, two-link IK in C++ on Arduino",
+      "Embedded C/C++ plus oscilloscope/logic analyzer bench debugging and PCB work"
+    ],
+    "real_gaps": [
+      "No MATLAB anywhere in profile (Python/Matplotlib only)",
+      "No formal control design: no PID tuning, Bode/step-response, stability margins, or servo characterization",
+      "No dynamic signal analyzer, frequency-response or vibration work",
+      "No industrial-robot or semiconductor motion control exposure",
+      "Controls evidence is undergrad club work, not lab-characterized"
+    ],
+    "overstated_by_keywords": [
+      "control theory and dynamic systems counted adjacent, but only heuristic heading feedback exists, no modeling or tuning",
+      "servo performance counted adjacent, but servos were hobby PWM, not characterized for stability or throughput"
+    ],
+    "understated_by_keywords": [
+      "Systematic debugging and design-verification style testing across COFFIN integration failures"
+    ],
+    "screening_gaps": [
+      "No MATLAB",
+      "No demonstrated servo/PID tuning or frequency-domain characterization",
+      "No dynamic signal analyzer or vibration testing"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role is entry level and C/C++ plus robotics fit, but its core is servo tuning and frequency-domain characterization in MATLAB, which the profile does not evidence. Closed-loop encoder work on the Robocon robot is the best bridge. Worth applying; expect the controls depth to be probed.",
+    "calibration_delta": 18.8
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-30",
+    "channel": "application",
+    "notes": "Form rejection. No feedback."
+  }
+}

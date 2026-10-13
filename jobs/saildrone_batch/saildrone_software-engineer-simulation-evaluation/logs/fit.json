@@ -1,0 +1,168 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Software Engineer, Simulation & Evaluation",
+  "job_slug": "software-engineer-simulation-evaluation",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 6,
+    "missing_count": 2,
+    "jd_ask_size": 20,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "hardware-in-the-loop",
+    "robotics testing",
+    "concurrency",
+    "performance",
+    "Linux",
+    "validation",
+    "autonomous vehicles",
+    "robotics",
+    "Python",
+    "regression testing",
+    "field-test data"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "simulation",
+      "you_have": "autonomous systems (CARLA simulation experience)"
+    },
+    {
+      "jd_skill": "software-in-the-loop",
+      "you_have": "testing and validation"
+    },
+    {
+      "jd_skill": "reliability",
+      "you_have": "testing and validation (systems fundamentals)"
+    },
+    {
+      "jd_skill": "quantitative evaluation",
+      "you_have": "model evaluation (testing and validation)"
+    },
+    {
+      "jd_skill": "infrastructure",
+      "you_have": "systems engineering (COFFIN, telemetry gateway)"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitHub Actions (telemetry gateway)"
+    }
+  ],
+  "missing_skills": [
+    "replay",
+    "resimulation"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "production",
+    "simulation",
+    "testing",
+    "infrastructure",
+    "robotics",
+    "autonomous",
+    "Linux",
+    "Python",
+    "evaluation",
+    "validation",
+    "CI/CD",
+    "regression"
+  ],
+  "required_skills": [
+    "C++ software engineering",
+    "production systems",
+    "simulation / replay / resimulation infrastructure",
+    "hardware-in-the-loop testing",
+    "software-in-the-loop testing",
+    "robotics testing infrastructure",
+    "systems fundamentals (concurrency, performance, reliability)",
+    "Linux",
+    "quantitative evaluation",
+    "validation systems",
+    "simulation fidelity understanding",
+    "infrastructure for other engineers"
+  ],
+  "preferred_skills": [
+    "autonomous vehicles experience",
+    "robotics experience",
+    "aerospace experience",
+    "Python for analysis/automation/test tooling",
+    "large-scale simulation",
+    "high-throughput data processing",
+    "CI/CD",
+    "automated regression testing",
+    "vehicle or field-test data"
+  ],
+  "required_experience_years": null,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build production-quality simulation, replay, resimulation, and evaluation infrastructure",
+    "Connect recorded vehicle data, simulated environments, and production autonomy software",
+    "Develop open-loop and closed-loop testing for autonomous behavior",
+    "Build quantitative metrics, evaluation pipelines, and regression tests",
+    "Turn real-world failures and edge cases into repeatable scenarios and tests",
+    "Analyze logs, telemetry, simulation results, and test failures",
+    "Integrate simulation and evaluation into the software development lifecycle"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 64,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Strong C++ and production systems fundamentals demonstrated by COFFIN capstone: systemd service management with auto-restart and non-root isolation, resolved 11 integration failures (servo brownout, stale-frame capture, false-positive detections), achieved 100% pick reliability in field testing",
+      "Deep Linux systems expertise: systemd administration, static IP/network configuration, XRDP remote management, environment-based config separation; concurrency skills shown via multiprocessing (data collection) and FreeRTOS mutexes (Turret task coordination)",
+      "Real-time performance optimization at multiple scales: CUDA memory coalescing 35% speedup (VGG16: 73.3\u219249.2ms), TensorRT inference 5.2\u00d7 speedup (56.7\u219210.9ms), tokenizer Cython 4-5.5\u00d7 speedup; demonstrates systems-level optimization thinking",
+      "Robotics testing and validation across multiple platforms: Object Tracking Turret with FreeRTOS/UART control loops and ToF feedback; ROS-based manipulator work (AL5B/UR5e trajectory validation, <2mm repeatability); CARLA autonomous driving with zero collisions across 30-vehicle scenarios and multiple laps; real hardware validation on Jetson+Arduino systems",
+      "Python automation and data pipeline skills for testing infrastructure: CARLA automated data generation (~8000 training frames with semantic segmentation), DONUT preprocessing pipeline with HuggingFace integration, YOLOv8 training workflows, quantitative profiling (pynvml, psutil) for inference benchmarking",
+      "Quantitative evaluation and metrics expertise: Dice/IoU segmentation metrics, mAP object detection scoring, 15% WER speech recognition, perplexity and accuracy-latency tradeoff analysis, load-imbalance characterization in MPI systems (up to 65% degradation documented)"
+    ],
+    "real_gaps": [
+      "No replay or resimulation infrastructure: candidate's sole simulation experience is CARLA forward-simulation (generating synthetic data, not replaying or resimulating recorded vehicle telemetry). Saildrone's core need\u2014per job title, responsibilities, and description\u2014is 'replay real-world data' and 'connect recorded vehicle data + simulated environments'; candidate has built zero recorded-data replay or resimulation workflows",
+      "No evaluation infrastructure designed for multi-team consumption: all evaluation systems are academic/research-grade (standalone Dice/IoU on training, benchmark reports). Saildrone needs infrastructure that 'lets Saildrone engineers' (plural, distributed) measure performance and 'turn failures into repeatable tests' in a CI/CD context. No evidence of designing evaluation pipelines for team reuse, regression testing, or automated failure-to-test workflows",
+      "No large-scale production telemetry or log analysis: largest data pipeline is ~8000 YOLO frames. No production-scale operational log analysis, terabyte-scale telemetry ingestion, or automated root-cause detection from field-deployment data (Saildrone USVs are 'combat-deployed systems 24/7/365')",
+      "No maritime or USV domain knowledge: all autonomous systems experience is land-based (robotic arms, wheeled vehicles in CARLA). No GPS/marine navigation, oceanographic sensors, USV-specific autonomy patterns, or familiarity with maritime operational constraints (deployment hubs in Europe/Middle East, field-test data from ocean operations)"
+    ],
+    "overstated_by_keywords": [
+      "\"simulation\": keyword pass counted CARLA experience as general simulation; CARLA is forward-simulation only (generating new data), not the replay/resimulation (replaying and re-executing recorded vehicle logs) that defines this role",
+      "\"evaluation\": keyword pass counted model evaluation metrics (Dice, mAP, WER) as evaluation systems; these are metrics, not infrastructure that connects recorded data + simulated environments + production autonomy software into repeatable test workflows",
+      "\"infrastructure\": candidate built systemd services and data pipelines, but not explicitly architected for multi-engineer consumption or integrated into team CI/CD (COFFIN is a capstone project, not infrastructure other engineers depend on)"
+    ],
+    "understated_by_keywords": [
+      "Deterministic, high-reliability integration under real-world conditions: COFFIN resolved 11 distinct failure modes (false-positive YOLO detections, servo brownout on rapid commands, stale frame capture race condition, ToF ranging variability, gripper contact logic edge cases) and achieved 100% pick reliability (10/10 trials); demonstrates root-cause debugging and system hardening",
+      "Real-time performance measurement and bottleneck identification: measured end-to-end voice-to-pick latency (~11.5s), identified rate-limiting components (STT 1.0-1.4s, intent <500ms, TensorRT inference prior 56.7ms, servo response), optimized TensorRT from 56.7ms to 10.9ms (5.2\u00d7), applied targeted fixes; shows systems thinking for latency-critical autonomous loops",
+      "Embedded-to-edge-to-cloud systems orchestration: COFFIN integrated Jetson (inference + coordination) + Arduino (motor control + ToF feedback) + mobile client (speech input) via WebSocket fabric with multiprocessing concurrency, systemd auto-restart, and XRDP debugging; demonstrates distributed-systems reliability thinking"
+    ],
+    "screening_gaps": [
+      "No replay/resimulation infrastructure experience: job explicitly asks to 'replay real-world data, simulate autonomous behavior' and 'connect recorded vehicle data + simulated environments + production autonomy software into repeatable test workflows.' Candidate's sole simulation work is CARLA forward-simulation (synthetic data generation), never recorded-data replay or resimulation. This is a core job pillar, not a nice-to-have.",
+      "No evaluation infrastructure for multi-engineer teams: role is to build 'infrastructure that lets Saildrone engineers replay real-world data...measure performance...turn failures into repeatable tests.' Candidate's evaluation work is solo metrics reporting and standalone benchmarks, not shareable, CI/CD-integrated regression infrastructure designed for team consumption.",
+      "Seniority/operational-scale gap: candidate is recent M.S. graduate (May 2026) with capstone projects and internships. Saildrone USVs operate as 'combat-deployed systems supporting national security and force projection...24/7/365'; this role likely expects prior work on safety-critical or high-uptime production systems beyond academic capstones."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Candidate has strong foundational skills (C++, Linux systems, concurrency, real-time optimization, robotics testing, Python automation) that align with Saildrone's infrastructure-engineering needs. COFFIN demonstrates production-system discipline (systemd, error handling, real-world validation) and CARLA shows autonomous-systems familiarity. However, the job's core focus\u2014replay/resimulation and evaluation infrastructure for teams\u2014is not represented in the profile. The gap is learnable (candidate's systems fundamentals are solid) but material. Recommend application with explicit discussion of prior replay/resimulation work or willingness to own that domain; strong technical foundation makes skill transfer viable.",
+    "calibration_delta": 11.0
+  }
+}

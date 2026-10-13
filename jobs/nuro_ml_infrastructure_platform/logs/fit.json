@@ -1,0 +1,35 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Software Engineer, ML Infrastructure Platform",
+  "job_slug": "ml_infrastructure_platform",
+  "match_pct": 57,
+  "missing_skills": [
+    "Kubernetes (production)",
+    "Go",
+    "GCP",
+    "batch/streaming data pipeline engineering",
+    "agentic ML workflow orchestration",
+    "on-call / incident response / alerting ownership",
+    "NCCL / collective communication internals"
+  ],
+  "adjacent_skills": [
+    "SLURM cluster scheduling -> multi-cluster GPU scheduling/orchestration",
+    "MPI -> distributed systems fundamentals",
+    "pynvml GPU profiling -> GPU/training observability tooling",
+    "CUDA kernel optimization -> GPU training internals depth"
+  ],
+  "top_ats_keywords": ["Python", "C++", "Kubernetes", "distributed systems", "GPU training", "data pipelines", "reliability", "monitoring", "GCP", "NCCL"],
+  "key_responsibilities": [
+    "Contribute to training infra spanning multi-generation accelerators, multi-cluster scheduling/orchestration",
+    "Design/operate large-scale batch and streaming data pipelines",
+    "Design agentic-first ML workflows (data-to-training-to-eval)",
+    "Own reliability for critical training/release pipelines: instrumentation, alerting, on-call, incident response"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

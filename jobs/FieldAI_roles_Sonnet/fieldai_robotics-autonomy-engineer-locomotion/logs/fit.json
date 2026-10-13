@@ -1,0 +1,119 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Locomotion",
+  "job_slug": "robotics-autonomy-engineer-locomotion",
+  "match_pct": 59.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "ROS/ROS2 (MoveIt, RViz, UR ROS2 driver, ROS2 Humble)",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4, FreeRTOS, UART/I2C/SPI)",
+    "Real-time embedded control (timer-triggered ADC, interrupt-driven, PWM)",
+    "YOLO object detection (YOLOv8, YOLOv8n, TensorRT-optimized)",
+    "Computer vision / OpenCV",
+    "TensorRT / ONNX / TFLite deployment",
+    "CUDA C++ / GPU optimization",
+    "Kinematics / DH parameters / forward kinematics",
+    "Real-world hardware deployment (wearable glove, robotic arm, tracking turret)",
+    "Python / PyTorch ML development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Legged/humanoid robot locomotion controllers",
+      "you_have": "ROS2 robotic arm kinematics (DH, MoveIt, forward kinematics) \u2014 arm motion, not legged/humanoid locomotion"
+    },
+    {
+      "jd_skill": "Simulation tools for autonomy",
+      "you_have": "ROS2 simulation exposure via MoveIt/RViz; no dedicated legged robotics simulator (MuJoCo/Isaac/Pinocchio) experience cited"
+    },
+    {
+      "jd_skill": "Field deployment of autonomy in unstructured environments",
+      "you_have": "Multiple real-hardware internship/project deployments (wearable glove, arm, turret, CARLA driving) but at prototype/intern scale, not company-scale production field deployment"
+    },
+    {
+      "jd_skill": "Perception/planning/localization/manipulation",
+      "you_have": "Perception (YOLO, depth estimation, vision servoing) and planning (MoveIt) have; manipulation and full localization pipeline missing explicitly"
+    },
+    {
+      "jd_skill": "Embedded/real-time control",
+      "you_have": "STM32 bare-metal, FreeRTOS, real-time UART/I2C, PWM control \u2014 direct match"
+    }
+  ],
+  "missing_skills": [
+    "Dedicated legged / humanoid locomotion controller experience (gait planning, balance, footstep planning)",
+    "Dedicated robotics simulation environment for legged systems (MuJoCo, Isaac Sim, Pinocchio)",
+    "Production-scale field deployment / deployment-at-scale experience",
+    "Full-time industry experience (0 years full-time)",
+    "Formal functional-safety / ISO certification",
+    "Cloud/infrastructure at enterprise scale"
+  ],
+  "top_ats_keywords": [
+    "legged",
+    "humanoid",
+    "locomotion",
+    "controller",
+    "autonomy",
+    "field deployment",
+    "simulation",
+    "ROS",
+    "perception",
+    "planning",
+    "localization",
+    "embedded",
+    "real-time",
+    "rugged terrain"
+  ],
+  "required_skills": [
+    "Legged/humanoid robot locomotion controller development",
+    "Simulation tools for autonomy (robotics sim)",
+    "Field deployment and real-world validation of autonomy",
+    "Embedded/real-time control systems",
+    "Perception/planning/localization for unstructured environments"
+  ],
+  "preferred_skills": [
+    "Rigorous engineering practices",
+    "Learning systems / ML for autonomy",
+    "Safety and explainability in deployed systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Lead development/deployment of controllers for legged and humanoid robots",
+    "Use simulation tools and field validation",
+    "Deploy in unstructured, previously unknown environments",
+    "Collaborate on perception, planning, localization, and manipulation systems"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No explicit sponsorship, clearance, or citizenship restriction in JD; title does not explicitly say senior/staff/principal/lead/director. Role implies lead-level responsibility (\"lead the development\") and targets an experienced team (DeepMind, Boston Dynamics backgrounds), creating a significant experience-level mismatch for a new-grad with 0 full-time years, but no formal blocker triggered per rules."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

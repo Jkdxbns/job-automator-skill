@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "ROS2 + robotics/perception (YOLO, MoveIt, DH kinematics, Jetson, STM32 embedded)",
+    "Edge AI + CUDA optimization (TensorRT 5.2x speedup, custom CUDA kernels, 8-bit quantization)",
+    "ML model pipeline design (ASR from scratch, fine-tuned DONUT OCR, U-Net segmentation, VGG16 CUDA)",
+    "Embedded C / bare-metal (STM32 Cortex-M4, FreeRTOS, UART/I2C, interrupt-driven drivers)",
+    "System integration across hardware-software boundary (COFFIN: Flutter + Flask + Jetson + Arduino + ToF sensors)"
+  ],
+  "real_gaps": [
+    "0 full-time years vs 5+ required; senior-level expectation",
+    "No formal production behavior-orchestration framework experience (behavior trees / state machines in production)",
+    "No production industrial deployment or field-deployment feedback-loop experience",
+    "No supervisory/teleoperation/HRI dashboard at production scale",
+    "No multi-robot / fleet coordination experience",
+    "No formal robotics safety/compliance (ISO) background"
+  ],
+  "reasoning": "Senior-level robotics behavior/interaction role at Field AI requires 5+ years and production-shipping experience; candidate is a strong new-grad (MS Computer Engineering, 7 internships/research, excellent ROS2/embedded/edge-AI/CUDA/perception skills) but has 0 full-time years and no production industrial deployment history. Strong adjacent match on ROS2, Python/C++, embedded/real-time, perception/ML, and mission-layer architecture; hard-blocked by experience-level mismatch. No sponsorship/clearance/citizenship flags. On-site Irvine role; candidate is willing to relocate. Recommend only if applying to a junior/entry-level equivalent track, not this senior posting as written.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/62338ab8-c160-4656-93b3-15e153b09a1e",
+  "team": "Product Engineering",
+  "location": "Irvine, CA"
+}

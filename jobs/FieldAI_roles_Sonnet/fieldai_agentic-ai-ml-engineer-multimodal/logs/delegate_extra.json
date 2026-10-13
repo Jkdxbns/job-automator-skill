@@ -1,0 +1,23 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization (custom CUDA C++ kernels, memory coalescing, 35% VGG16 speedup)",
+    "Edge AI / embedded deployment (Jetson + TensorRT + YOLO 5.2x speedup, ONNX/TFLite export, 8-bit quantization with ~55% VRAM reduction)",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4, timer-triggered ADC, interrupt-driven I2C, FreeRTOS with mutexes)",
+    "ROS2 / robotics perception pipelines (MoveIt, RViz, DH parameters, forward kinematics, visual servoing, YOLO tracking on embedded)",
+    "ML model fine-tuning and evaluation (DONUT OCR, BraTS U-Net, YOLOv8n, evaluation metrics: mAP, PSNR, accuracy)",
+    "Multimodal sensor fusion experience (Bluetooth HC-05, I2C TCA9548A mux, dual VL53L0X ToF, camera + depth + gesture data)",
+    "Agent-like full-stack robotics system (Flutter + Flask-SocketIO + Jetson + Arduino + faster-whisper STT + Gemini intent + real-time YOLO)"
+  ],
+  "real_gaps": [
+    "No direct vision-language model (VLM) or multimodal LLM fine-tuning experience (closest: document vision-encoder-decoder DONUT)",
+    "No multimodal retrieval-augmented generation (RAG) or agent memory/retrieval system implementation",
+    "No long-memory video analysis/search architecture experience (only real-time YOLO/video tracking)",
+    "No formal agentic AI framework or multi-step tool-use library experience",
+    "No company-scale production deployment (only embedded/edge deployments on Jetson/STM32/Arduino; no distributed/cloud production ML at scale)",
+    "Zero years full-time industry experience (all 7 internships/research + capstone/projects); role expects full-cycle production engineering maturity"
+  ],
+  "reasoning": "Strong alignment on embodied AI / robotics, edge CV, inference optimization, embedded deploy, and ROS2 perception \u2014 exactly the domain Field AI operates in. The JD's core is agentic AI (tool use, memory, multimodal RAG) + VLM + video memory/search, which are the weakest parts of the profile. Candidate has agent-adjacent robotics pipeline and vision-encoder-decoder fine-tuning, but not true VLM, RAG, agent frameworks, or long-memory video systems. Inference optimization, CUDA, embedded C, and production-like embedded deployment are excellent matches. No hard blocker (not senior-level, no sponsorship/ITAR/clearance block), but significant gaps in the agentic-AI/multimodal-RAG components that are central to FiFM. Best positioned if team values strong edge/perception optimization and robotics engineering over deep agentic-AI/research background; weaker if role requires immediate contribution to agent frameworks and multimodal RAG.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/28935a89-7c6b-4caf-abe7-b83b8a9958e1",
+  "team": "Product Engineering",
+  "location": "Irvine, CA"
+}

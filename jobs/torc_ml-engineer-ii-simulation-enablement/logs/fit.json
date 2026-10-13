@@ -1,0 +1,52 @@
+{
+  "company": "Torc Robotics",
+  "company_slug": "torc",
+  "role": "ML Engineer, II - Simulation Enablement",
+  "job_slug": "ml-engineer-ii-simulation-enablement",
+  "match_pct": 80.0,
+  "missing_skills": [
+    "Cloud storage and compute (AWS/GCP/Azure)",
+    "Lidar model experience",
+    "Vehicle Intent / prediction models",
+    "Foxglove / OpenGL / Three.js visualization",
+    "MCAP / Parquet / PyArrow / Daft",
+    "Ray / Anyscale / AWS HyperPods",
+    "Terraform (IaC)",
+    "GitHub Actions CI"
+  ],
+  "adjacent_skills": [
+    "Data pipelines at scale (SLURM-managed jobs, ASR/Cython-accelerated pipelines, not cloud-scale data ops)",
+    "Distributed compute (SLURM HPC, not Ray/cloud orchestration)",
+    "Visualization tooling (RViz, not Foxglove)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "simulation",
+    "replay",
+    "model validation",
+    "data pipelines",
+    "perception",
+    "tracking",
+    "prediction",
+    "cloud compute",
+    "CARLA",
+    "ROS2",
+    "object tracking"
+  ],
+  "key_responsibilities": [
+    "Embedded point of contact between Dataloop+Simulation and Autonomy teams",
+    "Implement end-to-end data flow: data ops -> simulation -> persistent storage at scale",
+    "Onboard Autonomy models to replay/recompute workflows and metric evaluation",
+    "Drive adoption of visualization tooling, feed back UI/UX improvements",
+    "Become domain expert on partner team's model (Camera, Lidar, Vehicle Intent, Object Tracking)",
+    "Debug full stack issues: data ingestion, simulation execution, storage, metrics",
+    "Translate Autonomy engineer feedback into product roadmap requirements",
+    "Document workflows, onboard new users"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

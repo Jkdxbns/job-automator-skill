@@ -1,0 +1,150 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "AI Data Foundation Research Engineer",
+  "job_slug": "ai-data-foundation-research-engineer",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 13,
+    "jd_ask_size": 28,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Deep Learning",
+    "Machine Learning",
+    "Computer Vision",
+    "Generative AI",
+    "LLM",
+    "Performance optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NLP",
+      "you_have": "ASR / GPT-2 / SLM"
+    },
+    {
+      "jd_skill": "Hybrid AI-HPC",
+      "you_have": "SLURM + MPI + CUDA"
+    },
+    {
+      "jd_skill": "Multi-threaded programming",
+      "you_have": "CUDA / MPI"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Time Series",
+      "you_have": "DSP / sensor signal processing"
+    },
+    {
+      "jd_skill": "Data structures and algorithms",
+      "you_have": "Python/C++ coursework"
+    }
+  ],
+  "missing_skills": [
+    "MLflow",
+    "Kubeflow",
+    "Ray",
+    "DVC",
+    "lakeFS",
+    "Kubernetes",
+    "LangGraph",
+    "CrewAI",
+    "LlamaIndex",
+    "Knowledge graphs",
+    "Diffusion Models",
+    "Data lineage/metadata",
+    "Coding agents"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "Deep Learning",
+    "Generative AI",
+    "LLM",
+    "NLP",
+    "Time Series",
+    "Computer Vision",
+    "PyTorch",
+    "TensorFlow",
+    "MLflow",
+    "Kubeflow",
+    "Ray",
+    "Kubernetes",
+    "CI/CD",
+    "LangGraph",
+    "knowledge graphs",
+    "Python",
+    "DVC",
+    "lakeFS",
+    "agentic AI"
+  ],
+  "required_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "Foundation models (LLM/NLP/time series/CV)",
+    "Data lineage/metadata for AI pipelines"
+  ],
+  "preferred_skills": [
+    "Generative AI",
+    "Diffusion Models",
+    "DVC",
+    "lakeFS",
+    "MLflow",
+    "Kubeflow",
+    "Ray",
+    "PyTorch",
+    "TensorFlow",
+    "LangGraph",
+    "CrewAI",
+    "LlamaIndex",
+    "Kubernetes",
+    "CI/CD",
+    "Knowledge graphs",
+    "Coding agents",
+    "Data structures and algorithms",
+    "Hybrid AI-HPC",
+    "Multi-threaded programming",
+    "Performance optimization"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "metadata and lineage for AI pipelines",
+    "foundation model development and evaluation",
+    "knowledge-infused learning",
+    "Agentic OS infrastructure"
+  ],
+  "role_category": "ml_systems",
+  "location": "Ft. Collins, CO (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

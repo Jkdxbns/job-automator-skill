@@ -1,0 +1,96 @@
+{
+  "company": "Salas O'Brien",
+  "company_slug": "salas-obrien",
+  "role": "Entry Level Electrical Design Engineer",
+  "job_slug": "electrical-design-engineer",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 10,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Digital Electronics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "signal processing",
+      "you_have": "Digital Signal Processing (ASR/embedded)"
+    },
+    {
+      "jd_skill": "circuit design / schematics",
+      "you_have": "EAGLE PCB Design"
+    }
+  ],
+  "missing_skills": [
+    "AutoCAD Electrical",
+    "Revit",
+    "power distribution",
+    "IEEE/NEC codes",
+    "electrical calculations for buildings",
+    "construction administration",
+    "wiring diagrams/layout drawings"
+  ],
+  "top_ats_keywords": [
+    "AutoCAD Electrical",
+    "Revit",
+    "NEC",
+    "IEEE",
+    "circuit design",
+    "signal processing",
+    "power distribution",
+    "wiring diagrams",
+    "schematics"
+  ],
+  "required_skills": [
+    "AutoCAD Electrical",
+    "Revit",
+    "circuit design",
+    "signal processing",
+    "power distribution",
+    "electrical calculations",
+    "schematics/wiring diagrams",
+    "IEEE/NEC codes",
+    "Bachelor's degree Electrical Engineering"
+  ],
+  "preferred_skills": [
+    "internship/co-op experience",
+    "AutoCAD Electrical proficiency"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "design electrical circuits/systems via CAD",
+    "schematics/wiring diagrams/layout drawings",
+    "electrical calculations and analysis",
+    "test/validate prototypes",
+    "documentation and reporting",
+    "construction administration support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Atlanta, GA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

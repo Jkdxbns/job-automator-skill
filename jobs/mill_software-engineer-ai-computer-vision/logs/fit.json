@@ -1,0 +1,181 @@
+{
+  "company": "Mill",
+  "company_slug": "mill",
+  "role": "Software Engineer, AI/Computer Vision",
+  "job_slug": "software-engineer-ai-computer-vision",
+  "match_pct": 60.3,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 9,
+    "missing_count": 9,
+    "jd_ask_size": 34,
+    "req_cov": 0.673,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Computer Vision",
+    "Deep Learning",
+    "Segmentation",
+    "Detection",
+    "Classification",
+    "Tracking",
+    "VLMs",
+    "LLMs",
+    "Fine-tuning ConvNets",
+    "Model evaluation",
+    "Edge model optimization",
+    "Python",
+    "PyTorch",
+    "OpenCV",
+    "Embedded camera systems",
+    "Hardware / IoT camera product experience"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Foundation models",
+      "you_have": "Hugging Face Transformers / DONUT / SmolVLA fine-tuning"
+    },
+    {
+      "jd_skill": "Eval harness design",
+      "you_have": "IoU/Dice/WER benchmark harnesses + pynvml profiling"
+    },
+    {
+      "jd_skill": "Metrics design",
+      "you_have": "IoU, Dice, PSNR, WER, FPS benchmarking"
+    },
+    {
+      "jd_skill": "Mass estimation models",
+      "you_have": "ZoeDepth monocular depth estimation"
+    },
+    {
+      "jd_skill": "Dataset curation",
+      "you_have": "LeRobot-structured dataset construction"
+    },
+    {
+      "jd_skill": "Failure case analysis",
+      "you_have": "ASR/lane-detection error analysis and accuracy recovery (78% to 97.5%)"
+    },
+    {
+      "jd_skill": "Production ML shipping (drift, latency budgets)",
+      "you_have": "TensorRT latency/FPS budgeting on Jetson edge deployments"
+    },
+    {
+      "jd_skill": "Video understanding / temporal consistency",
+      "you_have": "Real-time video tracking + visual servoing pipelines"
+    },
+    {
+      "jd_skill": "Video segmentation",
+      "you_have": "UFLD lane segmentation on video streams"
+    }
+  ],
+  "missing_skills": [
+    "Agentic systems",
+    "LLM and agent frameworks",
+    "MLOps pipelines",
+    "Model lineage tracking",
+    "Annotation tooling / ground-truth workflows",
+    "Weights & Biases",
+    "MLflow",
+    "SageMaker",
+    "ClearML"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision",
+    "PyTorch",
+    "Python",
+    "OpenCV",
+    "Segmentation",
+    "Object Detection",
+    "Classification",
+    "Tracking",
+    "VLM",
+    "LLM",
+    "Foundation Models",
+    "Fine-tuning",
+    "Model Evaluation",
+    "Eval Harness",
+    "MLOps",
+    "Edge Deployment",
+    "Model Optimization",
+    "Dataset Curation",
+    "Annotation",
+    "Agent Frameworks",
+    "Weights & Biases",
+    "MLflow",
+    "Video Understanding",
+    "Embedded Vision"
+  ],
+  "key_responsibilities": [
+    "Train and evaluate segmentation, classification and mass-estimation models for a commercial camera pipeline",
+    "Optimize edge models for production and scale the ML pipeline with model lineage tracking",
+    "Create and curate per-customer datasets across food types and kitchen environments",
+    "Systematically analyze failure cases and drive data/modeling decisions",
+    "Build annotation tooling and foundation-model-assisted labeling workflows",
+    "Partner with MLOps and edge engineers on training, versioning and deployment tradeoffs"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Bruno, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Segmentation depth is real, not keyword-deep: U-Net with VGG-16/VGG-19/ResNet-50 backbones on BraTS 2020 multi-modal MRI, evaluated on Dice and IoU with reported accuracy-latency tradeoffs for deployment.",
+      "VLM fine-tuning is directly demonstrated: fine-tuned DONUT via HuggingFace VisionEncoderDecoder on a custom dataset, added domain special tokens, resized decoder embeddings, 55% to 93% validation accuracy.",
+      "Detection + dataset curation together: curated and annotated a 1,133-image YOLOv8 dataset to 83% mAP@50 and exported to ONNX/TFLite - the JD's 'create and curate datasets per vertical' loop, at small scale.",
+      "Edge model optimization is the strongest single match: TensorRT YOLO at 5.2x speedup (56.7 to 10.9 ms, 17.6 to 92 FPS), int8 quantization-aware training with EMA-calibrated scales, and bitsandbytes LLM.int8() cutting VRAM ~55% with <1% accuracy loss.",
+      "Camera-on-embedded-hardware product experience: Jetson + camera + ToF pipelines deployed as systemd services with static IP networking, which is exactly the deployment shape of a camera inside a food recycler."
+    ],
+    "real_gaps": [
+      "No MLOps pipeline or model lineage tracking work anywhere in the profile - no W&B, MLflow, SageMaker, ClearML, or any experiment/version registry.",
+      "No agentic systems or agent framework experience. Gemini intent classification in COFFIN is a single prompted call, not an agent loop with tools and state.",
+      "No production model ownership: nothing on drift monitoring, retraining triggers, or a model serving an external customer over time. Every result is a benchmark or a capstone demo.",
+      "No cloud-side evaluation harness. Benchmarking exists (HellaSwag/GSM8K/ARC, pynvml/psutil profiling) but it is local scripts, not a harness that gates edge model releases against production targets.",
+      "No annotation tooling built as software. Annotation was done by hand for YOLOv8 and auto-generated in simulation; no labeling tool or foundation-model-assisted labeling workflow was built for others to use.",
+      "Seniority: the JD wants strong opinions 'backed by experience' on architecture and build-vs-buy calls, and the track record is internships and capstone scope rather than owned production systems."
+    ],
+    "overstated_by_keywords": [
+      "Tracking - the Object Tracking Turret is YOLOv8 detections driving servos over UART, not multi-object tracking with identity association or temporal consistency.",
+      "Mass estimation - ZoeDepth crack-depth profiling at +/-8% is monocular depth, not volume or mass regression on cluttered piles.",
+      "Foundation models - DONUT and TinyLlama are fine-tuning and compression of mid-size pretrained models, not prompting modern foundation VLMs for labeling."
+    ],
+    "understated_by_keywords": [
+      "Automated ground-truth generation: the CARLA project built pipelines producing ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation using semantic segmentation and raycast occlusion filtering. That is the JD's ground-truth-workflow responsibility, and the keyword pass scored it as missing.",
+      "Systematic failure-case analysis: resolving 11 distinct integration failures in COFFIN (false-positive detections, stale-frame capture, servo brown-out) to 100% pick reliability is exactly the failure-triage loop the JD describes.",
+      "Rigorous multi-metric evaluation: Dice/IoU, mAP@50, PSNR, WER, perplexity, latency and VRAM across projects shows metric design habits the keyword pass only counted as generic 'model evaluation'."
+    ],
+    "screening_gaps": [
+      "No model taken to production and lived with afterwards - the JD calls this out explicitly ('not just to a benchmark'), and every result in the profile is a benchmark or demo.",
+      "No MLOps or model lineage tooling experience (W&B, MLflow, SageMaker, ClearML), while operationalizing the pipeline with end-to-end lineage is a core responsibility.",
+      "No agentic systems or agent framework experience, which the JD lists both in fundamentals and in required software skills."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The modeling half of this role is well evidenced - segmentation, detection, VLM fine-tuning, dataset curation, and edge optimization all have concrete backing with real metrics, and the Jetson-plus-camera deployment experience maps cleanly onto a camera inside a commercial recycler. The operations half does not: MLOps pipelines, model lineage, cloud eval harnesses, annotation tooling, and agentic systems have no real backing, and this JD weights those heavily. Worth applying because the CV fundamentals are genuinely strong, but expect the screen to probe production ownership and pipeline tooling first.",
+    "calibration_delta": -5.7
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-15",
+    "channel": "application",
+    "notes": "Form rejection: moved ahead with candidates who are a better match. No feedback."
+  }
+}

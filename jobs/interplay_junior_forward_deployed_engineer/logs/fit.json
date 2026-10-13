@@ -1,0 +1,35 @@
+{
+  "company": "Interplay",
+  "company_slug": "interplay",
+  "role": "Junior Forward Deployed Engineer",
+  "job_slug": "junior_forward_deployed_engineer",
+  "match_pct": 45.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 1,
+    "missing_count": 6,
+    "jd_ask_size": 12,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": ["Backend web framework (Flask/Flask-SocketIO, production edge server)", "REST/WebSocket APIs", "Strong Python", "Claude Code / AI-assisted coding tools"],
+  "missing_skills": ["Modern frontend framework (React/Next.js)", "SQL / relational databases", "Next.js", "Vercel", "Supabase", "Experience building agents"],
+  "adjacent_skills": [{"jd_skill": "AI/LLM platforms (Anthropic, OpenAI, Gemini)", "you_have": "Integrated Gemini API for intent classification in a robotics pipeline — real LLM API usage, but not Anthropic/OpenAI specifically and not agentic"}],
+  "top_ats_keywords": ["Next.js", "Vercel", "Supabase", "SQL", "APIs", "Python", "LLM automation", "agents", "Claude Code", "frontend", "backend"],
+  "key_responsibilities": [
+    "Embed with business teams and translate ambiguous needs into scoped software",
+    "Ship internal tools/integrations/AI features fast across frontend, backend, APIs",
+    "Integrate LLM-powered automation into workflows",
+    "Demo early, iterate in person"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,45 @@
+{
+  "company": "Meta",
+  "company_slug": "meta",
+  "role": "Software Engineer, Systems ML Engineering",
+  "job_slug": "systems-ml-engineering",
+  "match_pct": 54.5,
+  "missing_skills": [
+    "8+ years software engineering experience",
+    "large-scale distributed systems (training orchestration, model serving, data pipeline infra)",
+    "leading end-to-end delivery of complex technical projects / cross-team coordination",
+    "open-source ML systems or distributed computing contributions",
+    "responsible/ethical AI practice (risk assessment, bias mitigation)"
+  ],
+  "adjacent_skills": [
+    "C++/Python in production ML systems (have strong C++/Python, not at production infra scale)",
+    "ML platform services: experiment tracking, model registries, feature stores (have inference serving via TensorRT/Jetson only)",
+    "PyTorch distributed training paradigms (have PyTorch, no data/model/pipeline parallelism experience)",
+    "AI-assisted workflow integration (uses AI tools generally, no measurable-impact case study)"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "Python",
+    "C++",
+    "CUDA",
+    "distributed training",
+    "model serving",
+    "GPU",
+    "systems architecture",
+    "ML infrastructure"
+  ],
+  "key_responsibilities": [
+    "Architect/own ML systems stack components (training infra, model serving, distributed frameworks)",
+    "Lead technical design for major ML systems initiatives",
+    "Resolve distributed training/inference performance bottlenecks",
+    "Define SLOs, dashboards, alerting for ML infra",
+    "Mentor engineers on ML systems + AI-native workflows",
+    "Drive multi-quarter ML infra roadmap and stakeholder alignment"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

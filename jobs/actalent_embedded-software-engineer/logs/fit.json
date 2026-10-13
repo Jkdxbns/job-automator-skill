@@ -1,0 +1,168 @@
+{
+  "company": "Actalent",
+  "company_slug": "actalent",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 2,
+    "missing_count": 8,
+    "jd_ask_size": 26,
+    "req_cov": 0.136,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "CUDA",
+    "GPU",
+    "DSP (Digital Signal Processing)",
+    "Kernel optimization",
+    "TensorRT (AI/ML accelerator/compiler)",
+    "CMake",
+    "Linux",
+    "RTOS/FreeRTOS",
+    "computer vision",
+    "machine learning",
+    "edge AI",
+    "embedded systems (STM32)",
+    "hardware-software interaction",
+    "memory coalescing (hardware-level optimization)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multithreaded embedded applications",
+      "you_have": "QThread multithreading (desktop/app-level, not embedded RTOS-level)"
+    },
+    {
+      "jd_skill": "4+ years embedded software experience",
+      "you_have": "0 full-time years, 7 internships incl. embedded/STM32/RTOS coursework"
+    }
+  ],
+  "missing_skills": [
+    "ARM NEON",
+    "SIMD (explicit)",
+    "automotive standards (ISO/ASPICE/MISRA)",
+    "Bazel",
+    "OpenCL",
+    "OpenGL",
+    "QNX",
+    "Integrity RTOS"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "DSP",
+    "GPU",
+    "SIMD",
+    "ARM NEON",
+    "CMake",
+    "Bazel",
+    "OpenCL",
+    "CUDA",
+    "OpenGL",
+    "QNX",
+    "Linux",
+    "RTOS",
+    "MISRA",
+    "ASPICE",
+    "automotive",
+    "edge AI",
+    "machine learning",
+    "computer vision",
+    "multithreading"
+  ],
+  "required_skills": [
+    "4+ years embedded software development",
+    "multithreaded embedded applications",
+    "Strong C++",
+    "working knowledge Python",
+    "complex embedded systems/hardware-software interaction",
+    "optimizing software for hardware constraints",
+    "DSP",
+    "GPU",
+    "SIMD",
+    "ARM NEON",
+    "algorithm optimization with hardware awareness"
+  ],
+  "preferred_skills": [
+    "AI/ML algorithm development",
+    "image processing",
+    "computer vision",
+    "AI/ML accelerators or compilers",
+    "automotive standards (ISO, ASPICE, MISRA)",
+    "C++14+",
+    "Python scripting",
+    "CMake",
+    "Bazel",
+    "OpenCL",
+    "CUDA",
+    "OpenGL",
+    "RTOS (Linux, QNX, Integrity)"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design/develop/optimize DSP and embedded software algorithms for automotive AI/ML",
+    "Implement ML/CV/signal processing algorithms on embedded platforms",
+    "Low-level performance optimization on accelerators (NEON, GPU, DSP)",
+    "AI/ML bring-up and integration on semiconductor chips",
+    "Performance analysis and tuning based on hardware architecture"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Ottawa, Ontario, Canada",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Custom RTOS built from scratch on STM32 L476RG (bare-metal C) \u2014 real scheduler/interrupt/hardware-software interaction depth backing complex embedded systems work",
+      "From-scratch C++/CUDA inference engine on Jetson (kernel optimization, TensorRT quantization, memory coalescing) \u2014 genuine low-level accelerator optimization experience",
+      "YOLO/OpenCV computer vision projects on embedded (Jetson) hardware \u2014 backs ML/CV-on-embedded responsibility"
+    ],
+    "real_gaps": [
+      "No automotive domain exposure \u2014 ISO 26262-adjacent standards, ASPICE, MISRA C++ entirely absent",
+      "No ARM NEON or SIMD intrinsics experience specifically",
+      "No QNX or Integrity RTOS \u2014 profile experience is FreeRTOS/bare-metal only",
+      "No professional embedded software years (4+ required, 0 full-time)",
+      "No industry semiconductor/chip bring-up workflow experience",
+      "No OpenCL experience"
+    ],
+    "overstated_by_keywords": [
+      "DSP counted as Have from coursework (Random Signal Analysis), not hands-on embedded DSP algorithm implementation",
+      "Multithreading adjacency (QThread) is desktop GUI threading, not embedded RTOS-level multithreading"
+    ],
+    "understated_by_keywords": [
+      "Custom RTOS build demonstrates scheduler/interrupt-level depth a keyword match undersells",
+      "CUDA kernel optimization and TensorRT quantization show real hardware-aware algorithm optimization skill, conceptually transferable to DSP/NEON even without direct NEON exposure"
+    ],
+    "screening_gaps": [
+      "Role is Ottawa, Ontario on-site/hybrid \u2014 F-1 OPT does not authorize work in Canada; this alone likely disqualifies regardless of skill fit",
+      "4+ years professional embedded experience required vs 0 full-time years \u2014 a staffing-agency contract role typically screens strictly on years",
+      "No automotive-grade embedded background (ISO/ASPICE/MISRA, QNX/Integrity) or ARM NEON/SIMD \u2014 core to daily work, not adjacent"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Genuine embedded and GPU-optimization depth exists (STM32 RTOS build, CUDA/TensorRT inference engine) that backs the core technical ask, but the role needs 4+ years of professional experience Justin lacks and, more critically, is an on-site/hybrid Canada role that F-1 OPT status does not authorize working in. Automotive-standards and NEON/SIMD gaps are secondary but real.",
+    "calibration_delta": 2.0
+  }
+}

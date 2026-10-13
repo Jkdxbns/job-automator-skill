@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "company": "The Boring Company",
+    "role": "Embedded Engineer (Software + Perception)",
+    "company_slug": "boringcompany",
+    "job_slug": "embedded-unified"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering candidate at Rochester Institute of Technology (May 2026) who builds real-time embedded pipelines end-to-end: YOLOv8 on Jetson over UART to STM32, FreeRTOS task coordination, ToF contact detection, and ROS2 manipulation on a physical UR5e. Strong in bare-metal C firmware, sensor-to-control integration, and deploying perception into safety-constrained hardware.",
+  "skills": {
+    "Embedded": [
+      "STM32 (Bare-Metal C)", "FreeRTOS", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "UART/I2C/SPI", "EAGLE PCB Design"
+    ],
+    "Robotics & Perception": [
+      "ROS/ROS2", "MoveIt", "RViz", "YOLO", "Visual servoing", "OpenCV", "Forward kinematics"
+    ],
+    "Languages & Systems": [
+      "C/C++", "Python", "CUDA C++", "Bash", "Linux", "Git", "CMake"
+    ],
+    "ML / Edge AI": [
+      "PyTorch", "TensorRT", "YOLOv8", "Semantic segmentation", "TensorFlow"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and Bluetooth to translate 3-DoF hand motion into HID commands; resolved sensor jitter via z-axis differential thresholding and software calibration."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline using custom image stitching, wavelet denoising, and ZoeDepth monocular depth estimation; achieved PSNR 86 and ±8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place system (Flutter → Flask-SocketIO → Jetson+STM32 over WebSocket); 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "TensorRT YOLO visual servoing at ~18 FPS; dual VL53L0X ToF sensors via TCA9548A I2C mux for contact-aware grasping; two-link IK in C++ driving five servos with FreeRTOS mutex coordination; resolved 11 integration failures to reach production reliability."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson with real-time UART commands to STM32 for multi-servo tracking; interrupt-driven command handling with FreeRTOS mutex-protected shared memory and VL53L0X ToF distance feedback.",
+        "Implemented bare-metal C PWM control with user override; OLED visualization at deterministic update rate."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) on auto-generated semantic segmentation frames; integrated into an adaptive control stack with lane-following and collision-free waypoint fallback.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians — zero collisions and correct traffic light compliance."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place on a physical UR5e via ROS 2 Humble and MoveIt; derived full DH kinematic chain (0T6), validated against RViz URDF; AL5B repeatability <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 firmware in bare-metal C: timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver; 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz — verified in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Deep Learning", "High Performance Architecture", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Technician - Autonomous Vehicles",
+  "job_slug": "technician-autonomous-vehicles",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python / C/C++ / CUDA / embedded C programming (COFFIN MS Capstone (Python Flask-SocketIO + Jetson); STM32 Bare-Metal Monitor (embedded C, timer-triggered ADC, I2C driver); CUDA Kernel Optimization VGG16 (custom CUDA C++, 35% speedup); MPI Hodgkin-Huxley Simulation (MPI + C++))",
+    "ROS / ROS2 robotics middleware (COFFIN (ROS2 Humble + systemd deployment); ROS-Based Robotic Arm AL5B & UR5e (ROS2 Humble + ROS Noetic, MoveIt, RViz, DH tables, forward kinematics, visual servoing))",
+    "YOLO / OpenCV / computer vision for autonomy (Autonomous Driving CARLA (YOLO11n + UFLD lane detection, semantic segmentation, zero collisions Town02); Object Tracking Turret (YOLOv8 on Jetson); Deep Learning Intern Tusk (YOLOv8n toothbrush detection, 83% mAP@50, ONNX/TFLite export))",
+    "embedded hardware for robotics (STM32, Jetson, Arduino, sensors, UART/I2C/SPI, BLE) (COFFIN (Jetson + Arduino + TCA9548A I2C mux + dual VL53L0X ToF); Object Tracking Turret (STM32 + UART + FreeRTOS + mutexes + multi-servo PWM + VL53L0X); STM32 Temperature Monitor (Cortex-M4, timer ADC, interrupt-driven I2C); Embedded Intern glove (ADXL345 + Raspberry Pi + HC-05 Bluetooth))",
+    "real-time sensor integration and data acquisition (COFFIN (dual VL53L0X ToF + I2C mux + faster-whisper STT pipeline); Object Tracking Turret (VL53L0X ToF + UART); Research Intern BARC (ZoeDepth monocular depth \u00b18% error, image-stitching PSNR 86); Python Developer BARC (PyQt/Matplotlib GUI real-time data acquisition))",
+    "autonomous driving / navigation / motion planning (Autonomous Driving CARLA (semantic segmentation + lane detection + zero collisions Town02); ROS Arm (MoveIt, DH parameters, forward kinematics); COFFIN (dual ToF + forward kinematics for pick-and-place, 10/10 reliability))",
+    "ML / deep learning (PyTorch, HuggingFace, TensorRT, quantization, optimization) (AI/ML Intern IIT Bombay (fine-tuned DONUT OCR, PyTorch + HuggingFace VisionEncoderDecoder, 55%\u219293%); Deep Learning Intern Tusk (YOLOv8n + ONNX/TFLite); SLM Compression (bitsandbytes LLM.int8(), TinyLlama 1.1B, ~55% VRAM, <1% loss); CUDA VGG16 (35% speedup); Voice-Controlled Arm (TensorRT-optimized YOLO 5.2x speedup, faster-whisper STT))",
+    "system integration / deployment / reliability testing (COFFIN (resolved 11 integration failures, 10/10 pick reliability, systemd auto-restart + non-root isolation + static IP); General Secretary Agnel Robotics Club (led 25-member team, EAGLE PCB fabrication, UART/I2C sensor comms))",
+    "Linux admin / systemd / networking (COFFIN (systemd service management, auto-restart, non-root isolation, static IP/network config); embedded Linux work on Jetson and Raspberry Pi across multiple internships/projects)",
+    "PCB / electronics fabrication (General Secretary Agnel Robotics Club (PCB fabrication using EAGLE PCB design); embedded sensor circuit design across glove, turret, temperature monitor, and COFFIN projects)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "production-scale field deployment of autonomous systems globally",
+      "you_have": "COFFIN MS Capstone (real robot deployed with 100% pick reliability over 10 trials, 11 integration failures resolved, systemd deployment \u2014 capstone/lab scale, not global production deployment)"
+    },
+    {
+      "jd_skill": "company-scale autonomous vehicle production and manufacturing engineering",
+      "you_have": "No full-time industry experience (0 years); closest is COFFIN real-robot deployment and 7 internships/research roles \u2014 all academic/research/lab scale, not company production scale"
+    },
+    {
+      "jd_skill": "formal explainability / risk-aware autonomy with functional-safety certification",
+      "you_have": "COFFIN uses Gemini for explainable intent classification and achieves 100% reliability through iterative testing; no ISO26262, no formal functional-safety framework, no explainable-AI certification experience"
+    },
+    {
+      "jd_skill": "cross-functional collaboration with product, field deployment, and technical communication teams",
+      "you_have": "Led 25-member robotics club (General Secretary) and 7-person research team (Teesside); all collaboration is technical/research-focused; no product management, business, or technical-communication role experience"
+    }
+  ],
+  "missing_skills": [
+    "full-time professional autonomous-vehicle / robotics engineering experience (candidate is new-grad, 0 years full-time)",
+    "formal functional-safety / ISO26262 / certification experience for autonomous vehicles",
+    "production-scale company-level deployment / operations / field-service engineering in unstructured global environments",
+    "mechanical / manufacturing engineering background (explicitly not in profile)",
+    "federal contractor / security clearance experience required for Federal team/dept with sponsorship dependency"
+  ],
+  "top_ats_keywords": [
+    "autonomous vehicles",
+    "robotics",
+    "embodied AI",
+    "real sensors",
+    "hardware testing",
+    "field deployment",
+    "autonomy",
+    "perception",
+    "planning",
+    "localization",
+    "manipulation",
+    "explainability",
+    "safety",
+    "ROS",
+    "YOLO",
+    "TensorRT",
+    "embedded",
+    "STM32",
+    "Jetson"
+  ],
+  "required_skills": [
+    "robotics hardware integration",
+    "embedded systems for autonomous robots",
+    "ROS / ROS2 robotics middleware",
+    "YOLO / OpenCV / computer vision for autonomy",
+    "real-time sensor integration and data acquisition",
+    "autonomous driving / navigation / motion planning software",
+    "ML / deep learning for robotics",
+    "system integration / deployment / reliability testing",
+    "Linux system administration / systemd / networking",
+    "PCB design / electronics fabrication"
+  ],
+  "preferred_skills": [
+    "production-scale field deployment in unstructured global environments",
+    "company-scale autonomous vehicle production",
+    "formal explainability / risk-aware autonomy with functional-safety certification",
+    "cross-functional collaboration with product, field deployment, and technical communication"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Build and test autonomous systems on real hardware with real sensors",
+    "Ship systems to operate in unstructured, previously unknown environments globally",
+    "Collaborate across AI, software, robotics engineering, product, field deployment, and technical communication",
+    "Deliver risk-aware, explainable, field-ready autonomy with emphasis on safety"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Team/Department listed as 'Federal'; JD cites DARPA challenge experience and defense-adjacent organizations (NASA JPL, DeepMind, Boston Dynamics, SpaceX). Federal/defense contractor roles routinely exclude F-1 OPT holders requiring sponsorship, even without an explicit ITAR/citizenship phrase. Candidate holds F-1 OPT (EAD pending) and requires long-term sponsorship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

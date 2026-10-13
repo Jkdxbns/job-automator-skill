@@ -1,0 +1,124 @@
+{
+  "company": "HeyGen",
+  "company_slug": "heygen",
+  "role": "Software Engineer, GPU Performance",
+  "job_slug": "swe-gpu-performance",
+  "match_pct": 57.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "CUDA",
+    "C++",
+    "GPU",
+    "quantization",
+    "Transformer",
+    "benchmarks",
+    "memory management"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PyTorch Profiler / profiling tools",
+      "you_have": "pynvml Profiling"
+    },
+    {
+      "jd_skill": "model serving",
+      "you_have": "TensorRT / Jetson deployment"
+    },
+    {
+      "jd_skill": "GPU memory bandwidth",
+      "you_have": "Memory coalescing"
+    },
+    {
+      "jd_skill": "multi-GPU inference",
+      "you_have": "MPI / SLURM"
+    }
+  ],
+  "missing_skills": [
+    "Nsight Systems",
+    "Nsight Compute",
+    "Triton",
+    "video models",
+    "diffusion models",
+    "regression testing infrastructure"
+  ],
+  "top_ats_keywords": [
+    "Nsight Systems",
+    "Nsight Compute",
+    "PyTorch Profiler",
+    "CUDA",
+    "Triton",
+    "PyTorch",
+    "Python",
+    "C++",
+    "quantization",
+    "multi-GPU",
+    "kernels",
+    "benchmarks",
+    "latency",
+    "throughput"
+  ],
+  "required_skills": [
+    "GPU optimization of AI workloads",
+    "Python",
+    "PyTorch",
+    "GPU hardware (memory bandwidth, tensor cores)",
+    "Profiling tools",
+    "Nsight Systems",
+    "Nsight Compute",
+    "PyTorch Profiler",
+    "batching",
+    "memory management"
+  ],
+  "preferred_skills": [
+    "CUDA",
+    "Triton",
+    "C++",
+    "Transformer models",
+    "video models",
+    "diffusion models",
+    "multi-GPU inference",
+    "quantization",
+    "model serving",
+    "benchmarks",
+    "regression testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Profile GPU workloads",
+    "Optimize batching/scheduling/memory",
+    "Write GPU kernels",
+    "Build perf benchmarks and regression checks"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Los Angeles, Palo Alto, San Francisco, Toronto, Singapore",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

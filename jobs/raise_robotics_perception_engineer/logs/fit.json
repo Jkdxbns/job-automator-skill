@@ -1,0 +1,43 @@
+{
+  "company": "Raise Robotics",
+  "company_slug": "raise_robotics",
+  "role": "Perception Engineer",
+  "job_slug": "perception_engineer",
+  "match_pct": 86,
+  "missing_skills": [
+    "6D pose estimation",
+    "point cloud perception",
+    "stereo cameras",
+    "camera-based localization (explicit)"
+  ],
+  "adjacent_skills": [
+    "camera localization (visual servoing/depth)",
+    "pinhole/distortion (OpenCV/image mosaicing)",
+    "synthetic data generation (CARLA sim)",
+    "ToF outdoor (ToF indoor only)"
+  ],
+  "top_ats_keywords": [
+    "object detection",
+    "CNN",
+    "6D pose estimation",
+    "point clouds",
+    "stereo cameras",
+    "ToF",
+    "camera localization",
+    "synthetic data generation",
+    "perception",
+    "mobile manipulation"
+  ],
+  "key_responsibilities": [
+    "perception system for mobile manipulation",
+    "generative models for synthetic data",
+    "object detection + pose estimation in point clouds/images",
+    "model performance metrics"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

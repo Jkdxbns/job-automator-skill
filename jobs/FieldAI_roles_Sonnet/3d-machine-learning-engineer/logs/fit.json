@@ -1,0 +1,186 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "3D Machine Learning Engineer",
+  "job_slug": "3d-machine-learning-engineer",
+  "match_pct": 35.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 17,
+    "jd_ask_size": 31,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python and deep learning frameworks (PyTorch, TensorFlow, Keras) (AI/ML Intern (IIT Bombay) \u2014 PyTorch + HuggingFace VisionEncoderDecoder (DONUT); Deep Learning Intern (Tusk) \u2014 TensorFlow/YOLOv8n; Voice-Controlled Robotic Arm (COFFIN) \u2014 TensorRT + faster-whisper; CUDA Kernel Optimization \u2014 PyTorch VGG16; skills list confirms Python, PyTorch, TensorFlow, Keras)",
+    "Object detection (YOLO, TensorRT) (Deep Learning Intern (Tusk) \u2014 YOLOv8n toothbrush detection, 83% mAP@50, ONNX/TFLite export; Voice-Controlled Robotic Arm (COFFIN) \u2014 TensorRT-optimized YOLO (5.2x speedup); Object Tracking Turret \u2014 YOLOv8 on Jetson; Autonomous Driving (CARLA) \u2014 YOLO11n lane/obstacle detection)",
+    "Segmentation (U-Net, semantic segmentation) (Research Fellowship (Teesside Univ) \u2014 U-Net segmentation on BraTS 2020 MRI with VGG-16/19/ResNet-50 backbones, led 7-person team; Autonomous Driving (CARLA) \u2014 semantic segmentation pipeline)",
+    "Computer vision / OpenCV / classical vision (Research Intern (BARC) \u2014 image-stitching pipeline (PSNR 86), ZoeDepth monocular depth estimation (\u00b18% error), metal surface inspection; Autonomous Driving \u2014 OpenCV-based lane detection; skills list \u2014 OpenCV)",
+    "Robotics / ROS/ROS2 / perception / kinematics (ROS-Based Robotic Arm (AL5B & UR5e) \u2014 DH tables, forward kinematics, MoveIt/RViz, ROS2 Humble + ROS Noetic, UR ROS2 driver; Voice-Controlled Robotic Arm (COFFIN) \u2014 Jetson + Arduino + dual VL53L0X ToF sensors; Object Tracking Turret \u2014 STM32 + FreeRTOS + multi-servo PWM; Agnel Robotics Club \u2014 led 25-member team, PCB fabrication (EAGLE))",
+    "CUDA / GPU acceleration / kernel optimization (CUDA Kernel Optimization for VGG16 \u2014 custom CUDA C++ kernels, memory coalescing, 35% speedup over naive GPU; Voice-Controlled Robotic Arm \u2014 TensorRT-optimized YOLO inference on Jetson)",
+    "Embedded systems / real-time sensor integration (Embedded Systems Intern (Planctech) \u2014 ADXL345 + Raspberry Pi + HC-05 Bluetooth wearable gesture glove; Object Tracking Turret \u2014 STM32 over UART, FreeRTOS with mutexes, VL53L0X ToF; STM32 Bare-Metal Temperature Monitor \u2014 Cortex-M4 embedded C, timer-triggered ADC, interrupt-driven I2C driver)",
+    "Team leadership / interdisciplinary collaboration (General Secretary, Agnel Robotics Club \u2014 led 25-member team, PCB fabrication, UART/I2C sensor comms; Research Fellowship (Teesside Univ) \u2014 led 7-person U-Net MRI team; Voice-Controlled Robotic Arm \u2014 resolved 11 integration failures across hardware, ML, and deployment)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Scene understanding / 3D spatial perception (without point clouds)",
+      "you_have": "Autonomous Driving in CARLA \u2014 semantic segmentation + YOLO11n + UFLD lane detection, zero collisions in Town02 (spatial reasoning, but no 3D point-cloud pipeline)"
+    },
+    {
+      "jd_skill": "Audio / speech / acoustic processing",
+      "you_have": "COFFIN Voice-Controlled Robotic Arm \u2014 faster-whisper STT pipeline; COFFIN ASR from scratch \u2014 mel spectrogram encoder + causal transformer decoder, custom Cython BPE tokenizer, 15% WER"
+    },
+    {
+      "jd_skill": "Geometric reasoning / algorithmic 3D reasoning (kinematics, not deep geometric learning)",
+      "you_have": "ROS-Based Robotic Arm \u2014 DH parameter tables, forward kinematics, MoveIt path planning for AL5B & UR5e; Voice-Controlled Robotic Arm \u2014 dual VL53L0X ToF sensors for 3D distance measurement"
+    },
+    {
+      "jd_skill": "ML production deployment / inference pipeline optimization",
+      "you_have": "Voice-Controlled Robotic Arm (COFFIN) \u2014 TensorRT-optimized YOLO, systemd service deployment (auto-restart, non-root isolation, static IP), 100% pick reliability (10/10) on real robot; Deep Learning Intern (Tusk) \u2014 ONNX/TFLite model export for edge inference"
+    },
+    {
+      "jd_skill": "ML lifecycle / reproducibility / versioning (partial)",
+      "you_have": "Python Developer Intern (BARC) \u2014 GitLab version control, JupyterHub reproducible environment; Voice-Controlled Robotic Arm \u2014 systemd reproducible startup; multiple projects tracked in Git"
+    },
+    {
+      "jd_skill": "Depth estimation / non-point-cloud 3D perception",
+      "you_have": "Research Intern (BARC) \u2014 ZoeDepth monocular depth estimation for crack-depth profiling (\u00b18% error); Voice-Controlled Robotic Arm \u2014 VL53L0X ToF sensors for 3D distance measurement"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "3D point cloud analysis / processing (explicit hard ask)"
+    },
+    {
+      "jd_skill": "Point cloud libraries (PCL \u2014 explicitly requested)"
+    },
+    {
+      "jd_skill": "Point cloud / graph learning frameworks (Open3D-ML, Torch-Points3D, PyG, MMDetection3D)"
+    },
+    {
+      "jd_skill": "Large-scale 3D spatial data pipelines (scalable company-scale distributed processing \u2014 no company-scale production experience)"
+    },
+    {
+      "jd_skill": "Multi-view fusion / geometric deep learning (explicit preferred/extra)"
+    },
+    {
+      "jd_skill": "AWS / SageMaker / EC2 \u2014 cloud ML infrastructure (explicitly not in profile)"
+    },
+    {
+      "jd_skill": "Cloud platforms (AWS, GCP, Azure) \u2014 profile explicitly denies cloud experience"
+    },
+    {
+      "jd_skill": "Containerized workflows (Docker, Kubernetes, k3s) \u2014 profile explicitly denies these"
+    },
+    {
+      "jd_skill": "RGBD imagery processing (hard ask)"
+    },
+    {
+      "jd_skill": "LiDAR point clouds \u2014 profile explicitly denies LiDAR experience"
+    },
+    {
+      "jd_skill": "360 photos / panoramic imagery (hard ask)"
+    },
+    {
+      "jd_skill": "BIM (Building Information Models) / construction-related sensor data (extra)"
+    },
+    {
+      "jd_skill": "MLOps pipelines using Ray, SageMaker, MLflow, or Kubeflow (extra)"
+    },
+    {
+      "jd_skill": "Graph neural networks (PyG) / geodesic / neural implicit representations (NeRF, Occupancy Networks)"
+    },
+    {
+      "jd_skill": "Custom SparseConvNet / 3D transformer modules (extra)"
+    },
+    {
+      "jd_skill": "3D mesh analysis / GIS systems / structured scene representations (extra)"
+    },
+    {
+      "jd_skill": "Full-time hands-on industry experience at company scale (JD requires 2+ years; candidate is new-grad with 0 years full-time, 7 internships only)"
+    }
+  ],
+  "top_ats_keywords": [
+    "3D machine learning",
+    "point cloud",
+    "perception",
+    "spatial understanding",
+    "PyTorch",
+    "TensorFlow",
+    "AWS",
+    "SageMaker",
+    "OpenCV",
+    "PCL",
+    "LiDAR",
+    "BIM",
+    "production ML",
+    "robotics",
+    "geometric learning",
+    "MLOps",
+    "MLflow",
+    "Kubeflow"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "ROS/ROS2",
+    "3D point cloud processing",
+    "point cloud analysis",
+    "scene understanding",
+    "LiDAR",
+    "AWS / SageMaker / EC2",
+    "cloud ML infrastructure",
+    "containerized workflows",
+    "PCL",
+    "BIM",
+    "geometric deep learning",
+    "multi-view fusion",
+    "production ML deployment",
+    "end-to-end ML lifecycle"
+  ],
+  "preferred_skills": [
+    "BIM / digital twins / construction sensor data",
+    "geometric deep learning / 3D mesh / GIS",
+    "MLOps pipelines (Ray, SageMaker, MLflow, Kubeflow)",
+    "graph neural networks / geodesic / NeRF",
+    "Open3D-ML / Torch-Points3D / PyG / MMDetection3D",
+    "custom SparseConvNet / 3D transformers",
+    "geometric computer vision / algorithmic 3D reasoning"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Design scalable ML pipelines for large-scale 3D spatial data",
+    "Point cloud analysis, object detection, segmentation, scene understanding",
+    "Train/deploy deep learning models on cloud (AWS/SageMaker)",
+    "Integrate models into production inference pipelines",
+    "Analyze RGBD, LiDAR, 360 photos, audio, BIM inputs",
+    "Collaborate with labeling/data ops for annotation strategy"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

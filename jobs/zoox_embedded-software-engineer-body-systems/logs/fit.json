@@ -1,0 +1,140 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Embedded Software Engineer - Body Systems",
+  "job_slug": "embedded-software-engineer-body-systems",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 13,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "ARM (STM32/Cortex-M4)",
+    "Real-time embedded software (FreeRTOS/RTOS)",
+    "Sensors (I2C/SPI/ADC integration - ADXL345, ToF, GPS)",
+    "Hardware bring-up (PCB/EAGLE/bare-metal)",
+    "System debugging (Logic Analyzers/Oscilloscopes)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Motors/actuators (electro-mechanical)",
+      "you_have": "Robotics arm/turret servo and motor control projects"
+    },
+    {
+      "jd_skill": "Distributed electro-mechanical systems",
+      "you_have": "Embedded+networked systems (Telemetry Gateway BBB->Jetson, custom RTOS on STM32)"
+    },
+    {
+      "jd_skill": "Control systems for electromechanical systems",
+      "you_have": "Forward kinematics/DH parameters, PWM-based actuation in robotics projects"
+    },
+    {
+      "jd_skill": "OOP",
+      "you_have": "C/C++ project experience, not explicitly labeled OOP"
+    }
+  ],
+  "missing_skills": [
+    "CAN bus analysis",
+    "LIN bus analysis",
+    "PCAN/CANalyzer/CANape tools"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "embedded software",
+    "ARM",
+    "real-time",
+    "CAN",
+    "LIN",
+    "PCAN",
+    "CANalyzer",
+    "CANape",
+    "sensors",
+    "motors",
+    "actuators",
+    "hardware bring-up",
+    "debugging",
+    "control systems",
+    "electro-mechanical"
+  ],
+  "required_skills": [
+    "C++/C programming and OOP",
+    "ARM/PowerPC microcontrollers",
+    "Real-time embedded software for electro-mechanical systems",
+    "Sensors/motors/actuators understanding",
+    "Hardware bring-up and system debugging"
+  ],
+  "preferred_skills": [
+    "Control systems for electromechanical systems",
+    "CAN and LIN analysis and debugging tools (PCAN, CANalyzer, CANape)"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop/test embedded software for body, thermal, lighting, door functions",
+    "Create software requirements/design docs/test plans",
+    "Cross-functional work with vehicle/controls/electrical/validation engineers",
+    "Integrate supplier sub-systems into Zoox software stack",
+    "Contribute to prototyping through validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Foster City, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor: direct Cortex-M4 (ARM) bare-metal C, GPIO/TIM2/ADC1/I2C1 register-level work, deterministic 1Hz real-time loop",
+      "Object Tracking Turret: interrupt-driven UART command handling to STM32, multi-servo PWM control (actuators), FreeRTOS mutex-based task coordination, VL53L0X ToF sensor integration",
+      "COFFIN capstone: distributed Jetson+Arduino embedded pipeline, systemd service hardening, multi-sensor (dual ToF) contact-aware control, resolved real hardware integration failures (servo brown-out, stale frames)",
+      "Hardware bring-up and debugging backed by EAGLE PCB design, Proteus simulation, Oscilloscopes, and Logic Analyzers"
+    ],
+    "real_gaps": [
+      "No CAN or LIN bus experience anywhere in the profile",
+      "No PCAN/CANalyzer/CANape or equivalent vehicle-network debugging tools",
+      "No supplier-system integration experience (all embedded work is self-designed academic/personal projects, not integrating third-party vehicle subsystems)",
+      "No formal software requirements capture / test-plan documentation in a regulated or automotive development process",
+      "No direct thermal, lighting, or closure-system domain experience"
+    ],
+    "overstated_by_keywords": [
+      "\"ARM/PowerPC microcontrollers\" credited as HAVE via STM32, but PowerPC itself is unevidenced",
+      "\"Distributed electro-mechanical systems\" credited as adjacent, but scale is academic/personal projects, not production vehicle subsystems with suppliers"
+    ],
+    "understated_by_keywords": [
+      "Interrupt-driven UART + FreeRTOS mutex coordination on the turret project is genuine real-time embedded control depth, not just a RTOS keyword match",
+      "COFFIN's systemd hardening and multi-device networking shows production-adjacent reliability engineering beyond a typical class project"
+    ],
+    "screening_gaps": [
+      "No CAN/LIN bus experience or vehicle-network debugging tools (PCAN/CANalyzer/CANape) \u2014 the explicit bonus ask and the de facto protocol of automotive body systems",
+      "No supplier-integration or production-vehicle-scope software experience \u2014 all embedded work is self-contained academic/personal builds",
+      "No formal requirements/test-plan documentation experience in a regulated development process"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded fundamentals are genuinely strong and would survive a technical screen: bare-metal ARM Cortex-M4, RTOS task coordination, interrupt-driven control of motors/sensors, and hands-on hardware bring-up all have real project depth. The gap is domain-specific to automotive body systems: no CAN/LIN, no supplier integration, no production-scale requirements process. Worth applying as new-grad entry-level, but expect CAN/LIN to come up in a screen and have an honest answer ready.",
+    "calibration_delta": -2.0
+  }
+}

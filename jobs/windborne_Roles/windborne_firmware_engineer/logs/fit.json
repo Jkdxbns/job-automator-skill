@@ -1,0 +1,66 @@
+{
+  "company": "WindBorne Systems",
+  "company_slug": "windborne",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware_engineer",
+  "match_pct": 92,
+  "missing_skills": [
+    "FPGA",
+    "HDL"
+  ],
+  "adjacent_skills": [
+    "RTOS/HAL ownership at production scale",
+    "fault-tolerant recovery design",
+    "RF/wireless protocols (only BLE depth, not general RF)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "low-level drivers",
+    "PCB schematics",
+    "RTOS",
+    "HAL",
+    "I2C",
+    "SPI",
+    "UART",
+    "sensor calibration",
+    "debugging",
+    "fault-tolerant"
+  ],
+  "key_responsibilities": [
+    "Own entire firmware stack",
+    "Develop/maintain drivers for new chips/modules/sensors",
+    "Own custom RTOS HAL (Amslah)",
+    "Sensor hardware and calibration infra, power/cold survival",
+    "Design fault-tolerant systems",
+    "Debug highly non-trivial issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register level bare metal driver work (STM32 Temp Monitor project: direct GPIO, TIM2, ADC1, I2C1 register programming, Proteus verified, deterministic timing) maps directly onto own and maintain low level drivers for new chips and sensors",
+      "Multi protocol sensor bus integration across several projects (I2C mux TCA9548A, UART, SPI, PWM) supports the driver breadth the role wants",
+      "PCB design and fabrication experience (EAGLE, single layer boards fabricated for the Robotics Club) backs the PCB schematics requirement with real hands on depth, not just reading them",
+      "Quantified debugging track record (COFFIN project: 11 named integration failures resolved, including false positive detections, servo brown out, stale frame capture) shows the same debug rigor the JD is asking for, even if the domain differs"
+    ],
+    "real_gaps": [
+      "No experience building, maintaining, or architecting a custom RTOS or HAL. FreeRTOS shows up in one hobby project (Object Tracking Turret) as a consumer using an existing RTOS with mutexes, not as an owner hardening or extending RTOS internals, which is what owning Amslah actually asks for",
+      "Zero analog for the core WindBorne engineering problem: components run outside spec, extreme cold survival, and power constrained autonomous operation. All calibration work in the profile (ToF range gating, tap detection tuning) solves a different class of problem",
+      "All experience is internship, research fellowship, or academic capstone scale. Nothing in the profile is a fielded, production owned system that had to keep running unattended in the field, which is the operating model this role assumes",
+      "FPGA and HDL: no evidence anywhere in the profile",
+      "RF and wireless protocols: only BLE via HC-05, no general RF or antenna level wireless protocol work"
+    ],
+    "overstated_by_keywords": [
+      "FreeRTOS/RTOS keyword hit reads as a clean match, but real depth is a single hobby project using an existing RTOS rather than owning or architecting one",
+      "Sensor calibration keyword hit undersells the gap: WindBorne calibration means surviving extreme cold and out of spec hardware, not the jitter and range tuning in the profile",
+      "Real world hardware shipping and maintaining reads as a match on paper but nothing in the profile has shipped to a production fleet; everything is prototype, competition, or capstone scope"
+    ],
+    "reasoning": "The core toolkit lines up well: fluent C/C++ and Python, register level embedded driver work, PCB design, and a demonstrated debugging habit. But the role is asking someone to own an entire in house RTOS and firmware stack for hardware that has to survive extreme cold and years of unattended field operation, and nothing in the profile has operated at that ownership scale or in that environmental problem space. The 92% keyword match is real on vocabulary but overstates readiness for the actual job as described."
+  }
+}

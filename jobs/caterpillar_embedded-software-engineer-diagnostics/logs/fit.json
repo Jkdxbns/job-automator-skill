@@ -1,0 +1,113 @@
+{
+  "company": "Caterpillar Inc.",
+  "company_slug": "caterpillar",
+  "role": "Embedded Software Engineer (System Diagnostics)",
+  "job_slug": "embedded-software-engineer-diagnostics",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Embedded software",
+    "System software development",
+    "Debugging",
+    "Technical troubleshooting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Electronic control systems (I/O to ECM)",
+      "you_have": "STM32 ADC/GPIO/PWM/I2C sensor and actuator interfacing"
+    },
+    {
+      "jd_skill": "Embedded systems validation",
+      "you_have": "Oscilloscope and logic analyzer bench testing"
+    },
+    {
+      "jd_skill": "Issue tracking",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "Matlab/Simulink",
+    "On-board diagnostics",
+    "Diagnostic Trouble Codes",
+    "Failure modes",
+    "Requirements analysis",
+    "Software specifications"
+  ],
+  "top_ats_keywords": [
+    "Embedded Software",
+    "C",
+    "C++",
+    "Matlab",
+    "Simulink",
+    "Diagnostics",
+    "DTC",
+    "On-board diagnostics",
+    "IO processing",
+    "Electronic control module",
+    "Validation",
+    "Debugging",
+    "Requirements analysis",
+    "Troubleshooting",
+    "NPI"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Embedded software",
+    "Matlab/Simulink",
+    "System software development",
+    "Embedded systems validation",
+    "On-board diagnostics",
+    "Diagnostic Trouble Codes",
+    "Debugging",
+    "Requirements analysis",
+    "Software specifications",
+    "Electronic control systems",
+    "Failure modes",
+    "Technical troubleshooting"
+  ],
+  "preferred_skills": [
+    "Issue tracking"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design and enhance system diagnostics software",
+    "Write software specs from customer requirements",
+    "Test and debug embedded software",
+    "Design electronic control systems I/O and on-board diagnostic strategies",
+    "Resolve defects and manage issue lists"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mossville, IL (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

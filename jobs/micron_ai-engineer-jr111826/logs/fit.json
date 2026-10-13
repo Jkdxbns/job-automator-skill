@@ -1,0 +1,180 @@
+{
+  "company": "Micron Technology",
+  "company_slug": "micron",
+  "role": "AI Engineer (Full-Stack AI Engineer, Industrial and Physical AI)",
+  "job_slug": "ai-engineer-jr111826",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 7,
+    "missing_count": 14,
+    "jd_ask_size": 30,
+    "req_cov": 0.214,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Generative AI / LLMs (GPT-2, TinyLlama, HuggingFace Transformers)",
+    "AI model evaluation",
+    "Model inference / deployment (TensorRT, ONNX, TFLite)",
+    "GPU-accelerated AI workloads (CUDA, Jetson)",
+    "Robotics platforms (ROS2, MoveIt, UR5e)",
+    "Performance optimization / profiling + benchmarking",
+    "Backend services with Python web APIs (Flask, Flask-SocketIO, WebSocket)",
+    "M.S. in a related technical field (Computer Engineering)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FastAPI",
+      "you_have": "Flask / Flask-SocketIO"
+    },
+    {
+      "jd_skill": "React / Angular / Streamlit front-end",
+      "you_have": "PyQt / PySide6 / Flutter UI"
+    },
+    {
+      "jd_skill": "Autonomous mobile robots (AMRs)",
+      "you_have": "ROS2 robot + CARLA autonomous driving"
+    },
+    {
+      "jd_skill": "IoT devices",
+      "you_have": "STM32 / BeagleBone / Jetson sensor nodes"
+    },
+    {
+      "jd_skill": "Automation systems integration",
+      "you_have": "Jetson+Arduino / robot arm integration"
+    },
+    {
+      "jd_skill": "Data pipelines / feature engineering",
+      "you_have": "ASR + vision ML preprocessing pipelines"
+    },
+    {
+      "jd_skill": "Model monitoring / drift detection",
+      "you_have": "pynvml profiling + benchmark harnesses"
+    }
+  ],
+  "missing_skills": [
+    "JavaScript / TypeScript",
+    "SQL / relational databases",
+    "Cloud platform (AWS / Azure / GCP) / cloud-native architecture",
+    "Docker",
+    "Kubernetes / OpenShift / container orchestration",
+    "CI/CD pipelines (GitHub Actions)",
+    "RAG",
+    "Agentic workflows / function & tool calling",
+    "Prompt engineering",
+    "MLOps / LLMOps lifecycle management",
+    "Responsible AI / model governance / audit logging",
+    "Cybersecurity / data privacy",
+    "MES (manufacturing execution systems)",
+    "Semiconductor manufacturing / industrial automation domain"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "FastAPI",
+    "React",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "AWS",
+    "Azure",
+    "GCP",
+    "RAG",
+    "LLM",
+    "agentic workflows",
+    "prompt engineering",
+    "MLOps",
+    "LLMOps",
+    "model monitoring",
+    "drift detection",
+    "data pipelines",
+    "model inference",
+    "robotics",
+    "AMR",
+    "MES",
+    "GPU",
+    "Responsible AI",
+    "model governance",
+    "Streamlit",
+    "OpenShift"
+  ],
+  "required_skills": [
+    "Python",
+    "JavaScript/TypeScript",
+    "SQL",
+    "relational databases",
+    "cloud platform (AWS/Azure/GCP)",
+    "Docker",
+    "Kubernetes",
+    "CI/CD pipelines",
+    "prompt engineering",
+    "RAG",
+    "function/tool calling",
+    "agentic workflows",
+    "AI model evaluation",
+    "production software deployment"
+  ],
+  "preferred_skills": [
+    "React",
+    "Angular",
+    "Streamlit",
+    "FastAPI",
+    "full-stack web applications",
+    "MLOps",
+    "LLMOps",
+    "model monitoring",
+    "drift detection",
+    "lifecycle management",
+    "robotics integration",
+    "automation systems",
+    "IoT devices",
+    "manufacturing applications",
+    "container orchestration",
+    "cloud-native architectures",
+    "GPU-accelerated AI workloads",
+    "Responsible AI",
+    "cybersecurity",
+    "data privacy",
+    "model governance",
+    "semiconductor manufacturing",
+    "industrial automation"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, develop and support end-to-end AI applications: data pipelines, feature engineering, model inference, APIs, UIs, monitoring",
+    "Build responsive front-ends in React/Angular/Streamlit; backend services in Python and FastAPI",
+    "Integrate Generative AI (LLMs, agentic workflows) into manufacturing applications",
+    "Integrate robotics platforms, AMRs, automation systems and MES",
+    "Deploy containerized apps with Docker, Kubernetes, OpenShift and GitHub Actions CI/CD",
+    "Implement monitoring, evaluation, drift detection and feedback for production AI",
+    "Apply Responsible AI standards: security, audit logging, model governance, performance optimization"
+  ],
+  "role_category": "ml_systems",
+  "location": "Boise, ID - Main Site",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

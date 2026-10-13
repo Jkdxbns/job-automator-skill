@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "Tower Research Capital",
+    "role": "Machine Learning Research Engineer",
+    "company_slug": "tower-research",
+    "job_slug": "ml-research-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands on experience building and benchmarking distributed machine learning pipelines in PyTorch, from multi node MPI and SLURM cluster workloads to GPU memory and latency profiling for language model compression. Background includes building high level software abstractions, such as a unified WebSocket API layer connecting a distributed voice controlled robotics pipeline, and working across the full stack from Python tooling through hardware level system debugging.",
+  "skills": {
+    "Languages & Systems": ["Python"],
+    "ML / Deep Learning": ["PyTorch", "TensorFlow (TFLite)", "Hugging Face Transformers", "8-bit Quantization", "GPU Profiling (pynvml)", "Model Evaluation & Benchmarking"],
+    "Distributed & HPC": ["MPI", "SLURM"],
+    "Tools & Infra": ["Flask / Flask-SocketIO", "WebSocket", "ONNX"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated a custom toothbrush detection dataset and trained YOLOv8n on 1,133 annotated images, achieving 83% mAP@50; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16/19 and ResNet-50 backbones; evaluated on Dice Score and IoU, reporting accuracy-latency trade-offs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system across a Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2× speedup vs eager PyTorch) for visual servoing, plus dual ToF sensors for contact-aware grasping.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase — near-lossless compression."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49× speedup with 12 slave processes; characterized scaling behavior and load imbalance effects across dendrite counts and compartment depths."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

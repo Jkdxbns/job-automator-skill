@@ -1,0 +1,170 @@
+{
+  "company": "Cash App (Block)",
+  "company_slug": "cash-app",
+  "role": "AI Evaluation Infrastructure Engineer",
+  "job_slug": "ai-evaluation-infrastructure-engineer",
+  "match_pct": 32.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 9,
+    "missing_count": 19,
+    "jd_ask_size": 35,
+    "req_cov": 0.385,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "LLM evaluation",
+    "model evaluation",
+    "offline evaluation",
+    "evaluation harness",
+    "ML systems",
+    "Python",
+    "internal tools"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed batch execution",
+      "you_have": "MPI + SLURM-managed cluster batch jobs (coursework/HPC)"
+    },
+    {
+      "jd_skill": "batch execution",
+      "you_have": "SLURM batch job submission"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI multi-node programming"
+    },
+    {
+      "jd_skill": "data pipelines",
+      "you_have": "ASR and perception inference pipelines"
+    },
+    {
+      "jd_skill": "observability",
+      "you_have": "pynvml GPU profiling, systemd service management, auto-restart logging"
+    },
+    {
+      "jd_skill": "statistical literacy",
+      "you_have": "Random Signal Analysis coursework (probability, distributions, variance)"
+    },
+    {
+      "jd_skill": "variance",
+      "you_have": "Random Signal Analysis coursework"
+    },
+    {
+      "jd_skill": "variance analysis",
+      "you_have": "Random Signal Analysis coursework"
+    },
+    {
+      "jd_skill": "ML system evaluation",
+      "you_have": "GSM8K / HellaSwag benchmarking of GPT-2 and TinyLlama; WER, mAP50, IoU, Dice, PSNR metric harnesses"
+    }
+  ],
+  "missing_skills": [
+    "production platform engineering",
+    "production log processing",
+    "production logs",
+    "confidence intervals",
+    "statistical power",
+    "multiple comparisons",
+    "statistical significance",
+    "LLM-as-judge",
+    "rubric-based grading",
+    "ground truth checks",
+    "judge-to-human agreement",
+    "drift monitoring",
+    "leaderboards",
+    "annotation tooling",
+    "A/B testing",
+    "side-by-side serving",
+    "implicit feedback signal extraction",
+    "online evaluation",
+    "CI/CD"
+  ],
+  "top_ats_keywords": [
+    "AI evaluation",
+    "LLM evaluation",
+    "LLM-as-judge",
+    "offline evaluation",
+    "online evaluation",
+    "distributed systems",
+    "batch execution",
+    "data pipelines",
+    "production logs",
+    "confidence intervals",
+    "statistical significance",
+    "A/B testing",
+    "observability",
+    "Python",
+    "CI/CD",
+    "model evaluation",
+    "drift monitoring",
+    "annotation tooling",
+    "leaderboards",
+    "evaluation harness",
+    "ML systems",
+    "internal tools"
+  ],
+  "required_skills": [
+    "production platform engineering",
+    "distributed batch execution",
+    "data pipelines",
+    "production log processing",
+    "statistical literacy",
+    "confidence intervals",
+    "variance analysis",
+    "statistical power",
+    "multiple comparisons",
+    "LLM evaluation",
+    "ML system evaluation",
+    "observability",
+    "internal tools"
+  ],
+  "preferred_skills": [
+    "LLM-as-judge",
+    "rubric-based grading",
+    "ground truth checks",
+    "judge-to-human agreement",
+    "drift monitoring",
+    "leaderboards",
+    "annotation tooling",
+    "A/B testing",
+    "side-by-side serving",
+    "implicit feedback signal extraction",
+    "CI/CD"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build an execution engine that scores candidate versions against task sets in minutes",
+    "Task set tooling that samples from production logs and validates tasks",
+    "Grader infrastructure: ground truth checks, rubrics, LLM-as-judge",
+    "Tooling for judge calibration, judge-to-human agreement, drift monitoring",
+    "Leaderboards and reporting with sample size, confidence intervals, run-to-run variance",
+    "In-product side-by-side serving, feedback capture, implicit signal extraction",
+    "Offline-vs-online convergence loop; detect eval sets that stopped predicting reality",
+    "Partner with product, engineering, data, and ML teams"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote \u2014 Bay Area, CA, US",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

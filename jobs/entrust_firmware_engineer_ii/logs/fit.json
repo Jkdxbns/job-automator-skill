@@ -1,0 +1,124 @@
+{
+  "company": "Entrust",
+  "company_slug": "entrust",
+  "role": "Firmware Engineer II",
+  "job_slug": "firmware_engineer_ii",
+  "match_pct": 61.8,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 10,
+    "missing_count": 8,
+    "jd_ask_size": 34,
+    "req_cov": 0.67,
+    "cap_applied": "seniority_mismatch"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "C/C++",
+    "STM32 bare-metal",
+    "FreeRTOS",
+    "Git",
+    "embedded systems",
+    "unit testing",
+    "integration testing",
+    "Master's degree in Computer Engineering",
+    "Python",
+    "Bash",
+    "Linux",
+    "CUDA",
+    "PyTorch",
+    "TensorRT",
+    "AI/ML"
+  ],
+  "adjacent_skills": [
+    "C++ embedded (internship-level, not 2+ years FT)",
+    "motor control (robotics experience)",
+    "embedded Linux (Linux exp, not embedded-specific)",
+    "real-time systems (FreeRTOS, ROS2)",
+    "sensors (various sensor integration)",
+    "vision systems (OpenCV, YOLO, depth)",
+    "security (coursework background)",
+    "electromechanical design (robotics)",
+    "control systems (kinematics, visual servoing)",
+    "networking (some background)"
+  ],
+  "missing_skills": [
+    "3+ years full-time embedded product development",
+    "VxWorks",
+    "Zephyr",
+    "smartcard technology",
+    "color printing technology",
+    "RFID technology",
+    "laser control",
+    "security implementation (encryption, PKI)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded",
+    "firmware",
+    "real-time",
+    "RTOS",
+    "motor control",
+    "sensors",
+    "git"
+  ],
+  "key_responsibilities": [
+    "Real-time embedded system software design for control systems",
+    "Development of firmware requirements, design, coding, testing, debugging",
+    "Hardware/software integration and testing",
+    "Smart card chip programming",
+    "Motor and sensor control",
+    "Security and integrity of products"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": true
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real-time embedded design: COFFIN capstone with distributed pipeline, 11 integration failures resolved, 100% pick reliability",
+      "Motor/servo control: Five-servo COFFIN, UR5e/AL5B kinematics, closed-loop feedback with <2mm repeatability",
+      "Sensor integration: Multi-protocol (I2C/UART/SPI), dual VL53L0X ToF, ADXL345 accelerometers, real-time fusion",
+      "C/C++ embedded: Bare-metal STM32 (GPIO/TIM/ADC/I2C), Arduino IK, FreeRTOS coordination, CUDA C++",
+      "Hardware/software integration: Distributed systems (Flutter/Flask/Jetson/Arduino), real hardware debugging, Proteus validation",
+      "Master's degree in Computer Engineering: Exceeds bachelor's requirement"
+    ],
+    "real_gaps": [
+      "0 full-time years vs 3+ required: new-grad capstone scope vs production shipping environment",
+      "Smartcard technology: Not in profile; requires domain onboarding (4-8 weeks)",
+      "Laser control: Not in profile; requires domain onboarding (4-8 weeks)",
+      "Color printing technology: Not in profile; requires domain onboarding (4-8 weeks)",
+      "VxWorks/Zephyr stack: Has FreeRTOS; RTOS concepts transfer but API ramp-up needed",
+      "Security implementation: Digital Electronics coursework only; no hands-on encryption/PKI"
+    ],
+    "overstated_by_keywords": [
+      "Years of embedded experience: keyword 'embedded' counted as HAVE, but all experience is capstone/internship-level, not production-volume",
+      "2+ years C/C++ embedded: keyword counted as ADJACENT (0.5 credit), but actual is capstone-scope (~2 years total, not 2 years FT at company)"
+    ],
+    "understated_by_keywords": [
+      "Real-time systems depth: COFFIN end-to-end latency management, 11 integration failures debugged in production scenario not fully captured by 'real-time' keyword",
+      "Motor control depth: COFFIN five-servo coordination and UR5e/AL5B kinematics/feedback is specialist-level; keyword match missed full scope",
+      "Sensor fusion: Multi-sensor coordination under latency constraints (VL53L0X mux, ADXL345, UART interrupt handling) is advanced; not just 'sensor' keyword"
+    ],
+    "screening_gaps": [
+      "Years of experience: 0 full-time vs 3+ required (structural blocker for mid-level role, even with strong technical depth)",
+      "Production firmware shipping at scale: Capstone/internship scope vs Entrust 150-country volume (track-record gap, not skill gap)",
+      "Domain specialization ramp-up: Smartcard+laser+printing = 3-6 month productivity ramp (learnable, but non-trivial)"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin's technical depth (72%) is strong on core firmware skills—real-time embedded, motor control, sensor integration, hardware/software integration all have concrete evidence from capstone and production-grade projects. However, the role is mid-level (Engineer II, 3+ years required) and he is entry-level (new grad, 0 full-time years). This is not a skill gap—it's a track-record gap. Technical interviewer would say 'yes, this person can write firmware.' Recruiter would filter on years. Hiring manager would see 'Engineer II scope' and note he needs 6–12 months ramping before independent subsystem ownership. Domain gaps (smartcard, laser, printing) are learnable specializations typical for mid-level onboarding, not blockers."
+  },
+  "location": "Shakopee, MN",
+  "remote_ok": null,
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "hard_blocker_triggered": false,
+  "job_url": null
+}

@@ -1,0 +1,131 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 5.99,
+      "matched": [
+        "Python",
+        "computer vision",
+        "hardware/software integration",
+        "robotics"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 4.27,
+      "matched": [
+        "Git",
+        "Python"
+      ]
+    },
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 3.02,
+      "matched": [
+        "PyTorch",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "experience:Deep Learning Intern",
+      "name": "Deep Learning Intern",
+      "score": 2.58,
+      "matched": [
+        "model optimization",
+        "testing and validation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 6.55,
+      "matched": [
+        "C++",
+        "PyTorch",
+        "computer vision",
+        "model optimization",
+        "robotics"
+      ]
+    },
+    {
+      "label": "project:Quantization-Aware Training for Integer-Only Inference",
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "score": 4.23,
+      "matched": [
+        "PyTorch",
+        "model optimization",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:Autonomous Driving in CARLA",
+      "name": "Autonomous Driving in CARLA",
+      "score": 3.82,
+      "matched": [
+        "autonomous systems",
+        "computer vision"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 3.04,
+      "matched": [
+        "C++",
+        "CUDA"
+      ]
+    },
+    {
+      "label": "project:ROS-Based Robotic Arm (AL5B & UR5e)",
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "score": 2.9,
+      "matched": [
+        "ROS",
+        "robotics"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Computer Vision",
+      "for_skill": "computer vision"
+    },
+    {
+      "use_jd_wording": "Sensor Integration",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "Automated Testing",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "Path Planning",
+      "for_skill": "autonomous systems"
+    },
+    {
+      "use_jd_wording": "3D Perception",
+      "for_skill": "autonomous systems"
+    },
+    {
+      "use_jd_wording": "Sensor Fusion",
+      "for_skill": "autonomous systems"
+    },
+    {
+      "use_jd_wording": "Cloud-connected Robotics",
+      "for_skill": "robotics"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Nav2",
+    "Containerisation",
+    "CI/CD",
+    "Obstacle Avoidance",
+    "Localisation",
+    "Mapping"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "company": "Expedia Group",
+  "company_slug": "expedia",
+  "role": "Senior Machine Learning Scientist - Search Marketing & Tech",
+  "job_slug": "senior-ml-scientist",
+  "match_pct": 47.7,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 1,
+    "missing_count": 11,
+    "jd_ask_size": 22,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "pandas",
+    "NumPy",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "deep learning",
+    "model evaluation",
+    "Git",
+    "LLM fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD for ML",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Spark",
+    "Hive",
+    "A/B testing",
+    "causal inference",
+    "gradient-boosted trees",
+    "bandits/RL",
+    "ads/auctions/bidding",
+    "feature stores",
+    "model registries",
+    "drift detection"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "A/B testing",
+    "causal inference",
+    "SQL",
+    "Spark",
+    "Hive",
+    "PyTorch",
+    "bidding",
+    "auctions",
+    "feature store",
+    "model registry",
+    "drift detection"
+  ],
+  "required_skills": [
+    "Python",
+    "pandas",
+    "NumPy",
+    "scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "SQL",
+    "Spark",
+    "Hive",
+    "A/B testing",
+    "causal inference",
+    "gradient-boosted trees",
+    "deep learning",
+    "model evaluation",
+    "Git"
+  ],
+  "preferred_skills": [
+    "ads/auctions/bidding",
+    "bandits/RL",
+    "feature stores",
+    "model registries",
+    "CI/CD for ML",
+    "LLM fine-tuning"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "own end-to-end ML solutions",
+    "lead multi-quarter initiatives",
+    "production ML pipelines with drift detection",
+    "experimentation and causal inference",
+    "mentor scientists"
+  ],
+  "role_category": "ml_systems",
+  "location": "UK - London",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

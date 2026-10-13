@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "Deep robotics/autonomy domain expertise (ROS2, perception, visual servoing, kinematics, CARLA)",
+    "Edge AI deployment on Jetson with CUDA, TensorRT, YOLO optimization (5.2x speedup)",
+    "Embedded sensor and telemetry experience (STM32 bare-metal, UART/I2C/SPI, ToF sensors)",
+    "Real-time embedded programming (FreeRTOS, interrupt-driven, bare-metal C)",
+    "Python/C++ integration skills (Flask-SocketIO, ROS2 drivers, ML pipelines)",
+    "ML data flow experience (fine-tuning DONUT OCR, MRI segmentation, quantization, ASR pipelines)"
+  ],
+  "real_gaps": [
+    "No production-scale data pipeline / ETL framework experience (Spark, Airflow, Kafka, etc.)",
+    "No experience ingesting telemetry from globally distributed robot fleets at scale",
+    "No analytics or operational-data platform architecture built in industry",
+    "New-grad with 0 full-time years; role appears to require production-scale system design for a globally-deployed robotics company",
+    "Role is fully onsite in Irvine, CA (candidate in Arlington, TX); relocation willingness noted but not confirmed"
+  ],
+  "reasoning": "JD asks for a Data Platform Engineer building data pipelines that move telemetry, sensor logs, and operational signals from globally deployed field robots to analytics/autonomy/ML training/deployment. Candidate has strong robotics/autonomy, embedded sensor, edge AI, and Python/C++ integration background, but lacks production-scale data-engineering experience (no ETL frameworks, no distributed ingestion, no data-platform architecture in industry). Candidate matches the robotics domain well but is a new-grad (0 full-time years) applying to a role that implies production-scale system ownership. Onsite only in Irvine, CA; candidate is in Arlington, TX but states willingness to relocate. No sponsorship/clearance/ITAR constraints in JD. No hard blocker, but significant scope gap.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/50714ca7-eb31-47f7-a6b0-a5060765e4ea",
+  "team": "Product Engineering",
+  "location": "Irvine, CA"
+}

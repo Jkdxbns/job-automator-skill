@@ -1,0 +1,239 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Safety",
+  "job_slug": "robotics-autonomy-engineer-safety",
+  "match_pct": 34.7,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 15,
+    "missing_count": 16,
+    "jd_ask_size": 36,
+    "req_cov": 0.278,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Master's in Robotics/CS/EE (or Bachelor's with substantial hands-on safety experience) (M.S. Computer Engineering, RIT, May 2026 (exact match))",
+    "Strong grounding in classical planning and control (collision checking, trajectory validation) (ROS-Based Robotic Arm (AL5B & UR5e): DH tables, forward kinematics, MoveIt trajectory planning, RViz (profile project bullet))",
+    "Solid Python skills for Linux tooling, analysis, test automation (Python Developer Intern (BARC): PyQt/Matplotlib GUI, GitLab; Python used across all ML/internships; Linux admin (systemd service management) (profile bullets))",
+    "Familiarity with ROS/ROS 2 middleware (ROS-Based Robotic Arm (ROS2 Humble + ROS Noetic); Voice-Controlled Robotic Arm COFFIN (ROS2); profile skills list includes ROS/ROS2, MoveIt, RViz)",
+    "Collision avoidance / trajectory validation (from JD responsibilities) (ROS-Based Robotic Arm: MoveIt trajectory planning with forward kinematics; YOLO-based object detection for obstacle avoidance in multiple projects)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Deterministic, real-time, resource-bounded C++ experience for correctness-critical systems",
+      "you_have": "C/C++ embedded (STM32 bare-metal, FreeRTOS on Cortex-M4, CUDA C++ kernels, custom CUDA C++); no explicit deterministic real-time C++ for safety-critical systems"
+    },
+    {
+      "jd_skill": "Familiarity with mobile-robot/autonomous-system safety standards (ISO 13482, ISO 3691-4, ISO 26262)",
+      "you_have": "No ISO standards mentioned anywhere in profile"
+    },
+    {
+      "jd_skill": "Familiarity with robot sensors: LiDAR, depth cameras, IMUs",
+      "you_have": "VL53L0X ToF proximity/depth sensors (COFFIN arm, Object Tracking Turret); ADXL345 3-axis accelerometer (Embedded glove); no LiDAR, no depth camera, no full IMU"
+    },
+    {
+      "jd_skill": "2+ years experience developing safety/monitoring/fallback systems for robots/autonomous vehicles",
+      "you_have": "0 years full-time; 7 internships (embedded, ML, robotics, research) but none is a dedicated safety/monitoring/fallback role; closest: COFFIN systemd health isolation and 11 integration failures resolved"
+    },
+    {
+      "jd_skill": "Verification mindset (assumptions, failure modes, coverage, evidence)",
+      "you_have": "COFFIN 100% pick reliability testing (10/10), resolved 11 integration failures; Python test automation; no formal verification framework or structured evidence/safety-case framework"
+    },
+    {
+      "jd_skill": "Runtime monitors (independent of autonomy stack)",
+      "you_have": "COFFIN systemd deployment (auto-restart, non-root isolation, static IP); acts as health/monitoring mechanism but not an independent safety monitor layer separate from ROS/autonomy"
+    },
+    {
+      "jd_skill": "Safety layer independent of perception/planning/learned policies",
+      "you_have": "COFFIN uses ROS2 + systemd but does not separate an independent safety layer; no evidence of a standalone safety-monitor architecture"
+    },
+    {
+      "jd_skill": "Runtime assurance architectures wrapping learned/complex controllers",
+      "you_have": "COFFIN uses TensorRT-optimized YOLO + faster-whisper + systemd; integration failure resolution (11); not a formal runtime assurance architecture"
+    },
+    {
+      "jd_skill": "Functional safety experience in autonomous vehicles, industrial robots, or aerospace",
+      "you_have": "No full-time industry experience in autonomous vehicles, aerospace, or industrial robot functional safety"
+    },
+    {
+      "jd_skill": "Redundant sensing / safety-rated hardware / safety-rated communication",
+      "you_have": "Dual VL53L0X ToF sensors + TCA9548A I2C mux in COFFIN; no safety-rated hardware or communication"
+    },
+    {
+      "jd_skill": "Safety assessment / certification experience",
+      "you_have": "No certification or assessment experience mentioned"
+    },
+    {
+      "jd_skill": "Formal or set-based safety methods applied to real robots",
+      "you_have": "No formal verification, set-based methods, or mathematical proof work mentioned"
+    },
+    {
+      "jd_skill": "Defining operational design domains and monitoring outside them",
+      "you_have": "No operational design domain (ODD) definition or ODD-monitoring work mentioned"
+    },
+    {
+      "jd_skill": "Legged or humanoid platforms",
+      "you_have": "COFFIN is a wheeled/arm-based system; no legged/humanoid platform experience"
+    },
+    {
+      "jd_skill": "Resource-bounded / real-time constraints (C++)",
+      "you_have": "FreeRTOS on STM32 (timer-triggered ADC, interrupt-driven, mutexes); embedded implies resource awareness but not explicitly resource-bounded real-time C++"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "ISO 13482 (mobile-robot safety standard)"
+    },
+    {
+      "jd_skill": "ISO 3691-4 (industrial truck safety standard)"
+    },
+    {
+      "jd_skill": "ISO 26262 (automotive functional safety)"
+    },
+    {
+      "jd_skill": "Depth cameras (distinct from ToF proximity sensors)"
+    },
+    {
+      "jd_skill": "IMU (full inertial measurement unit)"
+    },
+    {
+      "jd_skill": "LiDAR"
+    },
+    {
+      "jd_skill": "2+ years of dedicated full-time safety/monitoring/fallback experience"
+    },
+    {
+      "jd_skill": "Functional safety experience in autonomous vehicles / aerospace / industrial robots"
+    },
+    {
+      "jd_skill": "Formal or set-based safety methods"
+    },
+    {
+      "jd_skill": "Defining operational design domains (ODD)"
+    },
+    {
+      "jd_skill": "Monitoring when system is outside ODD"
+    },
+    {
+      "jd_skill": "Safety-rated hardware"
+    },
+    {
+      "jd_skill": "Safety-rated communication"
+    },
+    {
+      "jd_skill": "Taking product through safety assessment or certification"
+    },
+    {
+      "jd_skill": "Legged platform experience"
+    },
+    {
+      "jd_skill": "Humanoid platform experience"
+    }
+  ],
+  "top_ats_keywords": [
+    "safety layer",
+    "runtime monitors",
+    "collision avoidance",
+    "trajectory validation",
+    "speed limits",
+    "zone limits",
+    "terrain limits",
+    "proximity limits",
+    "safe operating envelope",
+    "fallback behavior",
+    "minimal risk behavior",
+    "watchdogs",
+    "health monitoring",
+    "hazard analysis",
+    "safety case",
+    "simulation verification",
+    "hardware-in-the-loop",
+    "HIL",
+    "field trials",
+    "deterministic C++",
+    "real-time C++",
+    "resource-bounded C++",
+    "Python",
+    "Linux",
+    "verification mindset",
+    "assumptions",
+    "failure modes",
+    "test coverage",
+    "evidence",
+    "ROS",
+    "ROS 2",
+    "LiDAR",
+    "depth camera",
+    "IMU",
+    "ISO 13482",
+    "ISO 3691-4",
+    "ISO 26262",
+    "runtime assurance",
+    "formal methods",
+    "set-based safety",
+    "operational design domain",
+    "ODD",
+    "redundant sensing",
+    "safety-rated hardware",
+    "safety-rated communication",
+    "field deployment",
+    "risk-aware",
+    "field-ready"
+  ],
+  "required_skills": [
+    "Master's in Robotics/CS/EE (or Bachelor's with substantial hands-on safety experience)",
+    "2+ years experience developing safety/monitoring/fallback systems for robots/autonomous vehicles",
+    "Strong grounding in classical planning and control (collision checking, trajectory validation)",
+    "Deterministic, real-time, resource-bounded C++ experience for correctness-critical systems",
+    "Solid Python skills for Linux tooling, analysis, test automation",
+    "Verification mindset (assumptions, failure modes, coverage, evidence)",
+    "Familiarity with mobile-robot/autonomous-system safety standards (ISO 13482, ISO 3691-4, ISO 26262)",
+    "Familiarity with ROS/ROS 2 middleware",
+    "Familiarity with robot sensors: LiDAR, depth cameras, IMUs"
+  ],
+  "preferred_skills": [
+    "Functional safety experience in autonomous vehicles, industrial robots, or aerospace",
+    "Runtime assurance architectures wrapping learned/complex controllers",
+    "Formal or set-based safety methods applied to real robots",
+    "Defining operational design domains and monitoring when outside them",
+    "Experience with redundant sensing, safety-rated hardware, or safety-rated communication",
+    "Experience taking a robotic product through safety assessment/certification",
+    "Experience with legged or humanoid platforms"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own/evolve independent safety layer (perception/planning/policy agnostic) across wheeled/legged/humanoid platforms",
+    "Build runtime monitors and collision avoidance backstops checking every commanded motion",
+    "Enforce speed/zone/terrain/proximity limits and define safe operating envelope per platform",
+    "Design fallback/minimal-risk behaviors (graceful slow-down to safe stop) and trigger logic",
+    "Build watchdogs and health monitoring across sensors, compute, comms, actuation",
+    "Lead hazard analysis and safety case development for new platforms/deployments",
+    "Verify safety layer in simulation, HIL testing, and field trials",
+    "Collaborate with planning, control, locomotion, integration teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

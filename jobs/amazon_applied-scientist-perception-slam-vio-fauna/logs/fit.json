@@ -1,0 +1,46 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Applied Scientist - Perception (SLAM/VIO), Fauna",
+  "job_slug": "applied-scientist-perception-slam-vio-fauna",
+  "match_pct": 57.14,
+  "missing_skills": [
+    "Visual Inertial Odometry (VIO) / visual-inertial SLAM",
+    "Multi-sensor fusion & state estimation (EKF, factor graphs)",
+    "Publications/patents at top-tier peer-reviewed venues"
+  ],
+  "adjacent_skills": [
+    "Real sensor data, calibration, physical robot platform experience -> you have UR5e robot arm work, DH parameters, ToF sensor calibration",
+    "Modern ML perception (learned features, depth prediction) -> you have YOLO, ZoeDepth depth estimation, ResNet"
+  ],
+  "have_skills": [
+    "C++/Python/Java",
+    "Embedded/resource-constrained hardware optimization"
+  ],
+  "top_ats_keywords": [
+    "VIO",
+    "SLAM",
+    "EKF",
+    "factor graphs",
+    "sensor fusion",
+    "Jetson",
+    "ROS2",
+    "C++",
+    "embedded"
+  ],
+  "key_responsibilities": [
+    "Design and implement VIO algorithms for robust real-time state estimation on robotic platforms",
+    "Develop multi-sensor fusion pipelines (cameras, IMUs, other sensors)",
+    "Optimize perception/tracking algorithms for embedded hardware under latency/power constraints",
+    "Apply modern ML-based perception to complement classical geometric approaches",
+    "Build/maintain calibration, evaluation, and benchmarking infrastructure",
+    "Collaborate with hardware, controls, navigation teams",
+    "Lead technical projects from research prototyping through production deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

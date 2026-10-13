@@ -1,0 +1,19 @@
+{
+  "company": "Sonicu",
+  "company_slug": "sonicu",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware_engineer",
+  "match_pct": 83,
+  "missing_skills": [],
+  "adjacent_skills": ["HAL/LL toolchains + J-Link/OpenOCD/SWD/GDB debuggers (have general embedded debug tooling, not these exact named tools)", "2+ wireless protocols from LoRaWAN/Wi-Fi/BLE/NFC/Cellular (have BLE only)"],
+  "top_ats_keywords": ["C/C++", "FreeRTOS", "STM32", "BLE", "I2C", "SPI", "UART", "Git", "Python", "oscilloscopes", "logic analyzers"],
+  "key_responsibilities": [
+    "Embedded firmware for low-power wireless devices in C/C++ and FreeRTOS",
+    "Drivers/BSP for I2C/SPI/UART/ADC/DAC, sensors, displays, radios",
+    "LoRaWAN/BLE/Wi-Fi wireless features, power-aware duty cycling",
+    "Secure bootloaders, OTA update flows, fail-safe rollback",
+    "Bring-up, DVT, manufacturing test scripts"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "Can Try"}
+}

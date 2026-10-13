@@ -1,0 +1,108 @@
+{
+  "company": "Optimove",
+  "company_slug": "optimove",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 1,
+    "missing_count": 6,
+    "jd_ask_size": 13,
+    "req_cov": 0.438,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Docker",
+    "PyTorch",
+    "LLMs",
+    "NLP"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "cloud/data storage",
+      "you_have": "general cloud exposure"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Snowflake",
+    "Terraform",
+    "Bicep",
+    "recommender systems",
+    "predictive CRM"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "Snowflake",
+    "scikit-learn",
+    "PyTorch",
+    "Docker",
+    "NLP",
+    "LLM",
+    "MLOps",
+    "Terraform",
+    "recommendation"
+  ],
+  "required_skills": [
+    "Python",
+    "pandas",
+    "NumPy",
+    "SQL",
+    "Git",
+    "Docker",
+    "scikit-learn",
+    "PyTorch",
+    "ML pipelines",
+    "NLP",
+    "text data",
+    "Snowflake",
+    "cloud",
+    "LLMs",
+    "model deployment",
+    "responsible AI"
+  ],
+  "preferred_skills": [
+    "recommender systems",
+    "CI/CD",
+    "Terraform",
+    "Bicep",
+    "predictive CRM",
+    "micro-segmentation"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "end-to-end ML features",
+    "classification/ranking/personalisation on text",
+    "LLMs",
+    "models as APIs real-time and batch",
+    "production monitoring"
+  ],
+  "role_category": "ml_systems",
+  "location": "Dundee, Scotland (hybrid, 2 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "\"we are unable to provide sponsorship at this time\" + \"Must be eligible to work in the UK\" \u2014 No Sponsorship (UK)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

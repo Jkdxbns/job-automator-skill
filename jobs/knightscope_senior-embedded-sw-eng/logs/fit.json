@@ -1,0 +1,161 @@
+{
+  "company": "Knightscope",
+  "company_slug": "knightscope",
+  "role": "Senior Embedded Software Engineer",
+  "job_slug": "senior-embedded-sw-eng",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 8,
+    "missing_count": 8,
+    "jd_ask_size": 28,
+    "req_cov": 0.806,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "SPI",
+    "I2C",
+    "UART",
+    "Linux embedded",
+    "RTOS",
+    "FreeRTOS",
+    "NVIDIA Jetson",
+    "ARM SoC",
+    "robotics",
+    "low-latency processing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IMU",
+      "you_have": "ADXL345 accelerometer (3-DoF hand motion)"
+    },
+    {
+      "jd_skill": "MEMS sensors",
+      "you_have": "ADXL345"
+    },
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "autonomous systems perception"
+    },
+    {
+      "jd_skill": "DSP",
+      "you_have": "audio/speech signal processing"
+    },
+    {
+      "jd_skill": "real-time systems",
+      "you_have": "RTOS/TensorRT latency work"
+    },
+    {
+      "jd_skill": "image processing",
+      "you_have": "OpenCV"
+    },
+    {
+      "jd_skill": "video pipelines",
+      "you_have": "OpenCV / Jetson vision pipelines"
+    },
+    {
+      "jd_skill": "autonomous vehicles",
+      "you_have": "CARLA / ROS"
+    }
+  ],
+  "missing_skills": [
+    "Kalman filter",
+    "Madgwick filter",
+    "electronic image stabilization",
+    "video stabilization",
+    "Zephyr",
+    "drones",
+    "timestamp synchronization",
+    "action cameras"
+  ],
+  "top_ats_keywords": [
+    "IMU",
+    "SPI",
+    "I2C",
+    "UART",
+    "Kalman filter",
+    "Madgwick filter",
+    "sensor fusion",
+    "electronic image stabilization",
+    "EIS",
+    "video stabilization",
+    "DSP",
+    "C++",
+    "C",
+    "FreeRTOS",
+    "Zephyr",
+    "Linux",
+    "NVIDIA Jetson",
+    "ARM",
+    "real-time",
+    "low latency",
+    "timestamp synchronization",
+    "MEMS",
+    "gyroscope",
+    "accelerometer"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "SPI",
+    "I2C",
+    "UART",
+    "IMU",
+    "MEMS sensors",
+    "sensor fusion",
+    "Kalman filter",
+    "DSP",
+    "real-time systems",
+    "low-latency processing",
+    "Linux embedded",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "image processing",
+    "video pipelines"
+  ],
+  "preferred_skills": [
+    "robotics",
+    "drones",
+    "autonomous vehicles",
+    "action cameras",
+    "NVIDIA Jetson",
+    "ARM SoC"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "IMU bring-up",
+    "sensor fusion",
+    "EIS video stabilization",
+    "IMU-video timestamp sync",
+    "Jetson/ARM real-time optimization",
+    "latency/jitter validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

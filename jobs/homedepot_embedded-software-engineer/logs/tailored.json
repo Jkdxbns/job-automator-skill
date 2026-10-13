@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "company": "The Home Depot",
+    "role": "Embedded Software Engineer",
+    "company_slug": "homedepot",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands on embedded systems experience across STM32 bare metal C, FreeRTOS, and NVIDIA Jetson platforms. Built real time sensor and actuator control pipelines integrating UART, I2C, and SPI peripherals, including a voice controlled robotic arm that resolved live hardware and software integration failures to reach 100% pick reliability. Comfortable working the full stack from register level firmware and board bring up to Jetson hosted perception and motion control.",
+  "skills": {
+    "Embedded & Real-Time Systems": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "UART/I2C/SPI",
+      "Cortex-M4",
+      "NVIDIA Jetson",
+      "Arduino",
+      "Interrupt-driven design",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Robotics & Perception": [
+      "Visual servoing",
+      "YOLO",
+      "TensorRT"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Git",
+      "CMake",
+      "EAGLE PCB Design",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Proteus",
+      "Linux"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping via TCA9548A I2C mux."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Validated an adaptive lane-following and waypoint-fallback control stack in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic-light compliance."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

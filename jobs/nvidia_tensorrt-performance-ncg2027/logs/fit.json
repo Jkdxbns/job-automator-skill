@@ -1,0 +1,143 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Deep Learning Software Engineer, TensorRT Performance - New College Grad 2027",
+  "job_slug": "tensorrt-performance-ncg2027",
+  "match_pct": 53.1,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 32,
+    "req_cov": 0.692,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "CUDA",
+    "quantization",
+    "performance analysis",
+    "performance optimization",
+    "Jetson/edge AI accelerators",
+    "Transformers",
+    "ASR",
+    "Visual Understanding",
+    "GPU architecture",
+    "benchmarking methodologies",
+    "2 years relevant software development experience"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TensorRT",
+      "you_have": "model optimization (QAT, SLM compression for edge deployment) \u2014 no direct TensorRT hands-on"
+    },
+    {
+      "jd_skill": "ONNX",
+      "you_have": "PyTorch/TensorFlow model deployment and conversion experience"
+    },
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "model optimization/quantization experience, no LLM-serving-framework hands-on"
+    },
+    {
+      "jd_skill": "distributed inference",
+      "you_have": "MPI distributed/parallel computing (ray tracer, neuron simulation)"
+    }
+  ],
+  "missing_skills": [
+    "JAX",
+    "vLLM",
+    "SGLang",
+    "FlashInfer",
+    "TileIR",
+    "CuTeDSL",
+    "cutlass",
+    "Triton",
+    "graph compiler",
+    "TorchDynamo",
+    "TorchInductor",
+    "Recommenders",
+    "TTS"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "PyTorch",
+    "TensorRT",
+    "TensorRT-LLM",
+    "CUDA",
+    "quantization",
+    "GPU",
+    "Transformers",
+    "Jetson",
+    "vLLM",
+    "Triton",
+    "cutlass"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "PyTorch",
+    "JAX",
+    "TensorFlow",
+    "ONNX",
+    "TensorRT",
+    "TensorRT-LLM",
+    "vLLM",
+    "SGLang",
+    "FlashInfer",
+    "performance analysis and optimization",
+    "2 years relevant software development experience"
+  ],
+  "preferred_skills": [
+    "GPU architecture knowledge",
+    "Transformers",
+    "Recommenders",
+    "ASR",
+    "TTS",
+    "Visual Understanding",
+    "CUDA",
+    "TileIR",
+    "CuTeDSL",
+    "cutlass",
+    "Triton",
+    "vLLM contributions",
+    "graph compiler (TorchDynamo/TorchInductor)",
+    "low-latency embedded AI / Jetson optimization"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Benchmarking methodologies and performance analysis for TensorRT/TensorRT-EdgeLLM/Torch-TensorRT",
+    "Contribute features/code to NVIDIA/OSS inference frameworks",
+    "Develop model pipelines with quantization, scheduling, memory management, distributed inference",
+    "Scale DL model performance across NVIDIA accelerator architectures"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara, CA / Remote US",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

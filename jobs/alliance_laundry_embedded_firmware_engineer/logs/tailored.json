@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "company": "Alliance Laundry Systems",
+    "role": "Embedded Firmware Engineer",
+    "company_slug": "alliance_laundry",
+    "job_slug": "embedded_firmware_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Experienced in embedded firmware in bare-metal C across STM32 Cortex-M4, Raspberry Pi, and Arduino platforms — UART, I2C, ADC, PWM, and interrupt-driven peripheral control. Validated systems using Proteus simulation, oscilloscopes, and logic analyzers; version-controlled all firmware with Git.",
+  "skills": {
+    "Embedded & Firmware": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "Raspberry Pi",
+      "Arduino",
+      "UART / I2C / SPI",
+      "ADC",
+      "PWM",
+      "Interrupt timers",
+      "EAGLE PCB Design"
+    ],
+    "Languages": [
+      "C / C++",
+      "Python",
+      "Bash"
+    ],
+    "Debug & Tools": [
+      "Git",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Proteus",
+      "Linux",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth, translating 3-DoF hand motion into HID cursor commands via firmware in Python.",
+        "Implemented a tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter via software calibration and ADC resolution tuning.",
+        "Produced full technical documentation including claims write-up and BOM for an AI-based Mixed Reality headset concept."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE; implemented UART and I2C sensor communication with closed-loop feedback for national-level competition robots.",
+        "Led a 25-member team end-to-end across firmware development, PCB fabrication, and system integration for national robotics competitions."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Built a PyQt GUI for real-time laboratory data acquisition; used GitLab for version control and technical documentation — equivalent workflow to Git + issue tracking."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed STM32 Cortex-M4 peripherals directly in bare-metal C: GPIO, TIM2 timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C display driver.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified full peripheral behavior in Proteus simulation."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control on STM32 with interrupt-driven UART command reception and user override; coordinated UART, I2C (VL53L0X ToF), and OLED tasks under FreeRTOS with mutex-protected shared memory."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link IK on Arduino in C++; drove five servos via PWM with range-gated contact detection using dual VL53L0X ToF sensors over TCA9548A I2C multiplexer.",
+        "Resolved 11 integration failures (servo crosstalk, I2C contention, false-positive detections); achieved 100% pick reliability across 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

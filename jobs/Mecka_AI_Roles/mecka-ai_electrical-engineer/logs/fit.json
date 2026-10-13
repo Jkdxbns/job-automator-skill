@@ -1,0 +1,127 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Electrical Engineer",
+  "job_slug": "electrical-engineer",
+  "match_pct": 31.6,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 11,
+    "jd_ask_size": 19,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "microcontroller / sensor electronics with C/C++ firmware",
+    "PCB / schematic design",
+    "bench debug instruments",
+    "digital electronics and sensor interfaces"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "schematics / PCB in Altium or KiCad",
+      "you_have": "PCB design in EAGLE"
+    },
+    {
+      "jd_skill": "analog electronics and power-related design",
+      "you_have": "analog acquisition / power control"
+    },
+    {
+      "jd_skill": "signal quality, timing, electronics-firmware interaction",
+      "you_have": "embedded bare-metal / signal processing"
+    },
+    {
+      "jd_skill": "wireless systems (nice-to-have)",
+      "you_have": "Bluetooth embedded"
+    }
+  ],
+  "missing_skills": [
+    "electronics hardware bring-up at 3-4 year depth / production scope",
+    "SoC boards and memory",
+    "high-speed interfaces",
+    "signal and power integrity",
+    "power supplies",
+    "grounding",
+    "decoupling",
+    "production testing",
+    "flexible circuits",
+    "EMC",
+    "battery-powered devices"
+  ],
+  "top_ats_keywords": [
+    "Electrical Engineer",
+    "PCB",
+    "schematic",
+    "Altium",
+    "KiCad",
+    "SoC",
+    "memory",
+    "high-speed interfaces",
+    "signal integrity",
+    "power integrity",
+    "microcontroller",
+    "low-noise acquisition",
+    "analog electronics",
+    "digital electronics",
+    "firmware",
+    "C",
+    "C++",
+    "hardware bring-up",
+    "production testing",
+    "EMC",
+    "wireless",
+    "battery"
+  ],
+  "required_skills": [
+    "designing and bringing up electronics hardware",
+    "schematics and PCB layout (Altium / KiCad)",
+    "microcontroller / sensor electronics (low-noise acquisition, compact circuits, C/C++ firmware)",
+    "analog and digital electronics",
+    "power supplies, grounding, decoupling",
+    "sensor interfaces",
+    "signal quality / timing / power reasoning",
+    "hands-on prototyping and rework",
+    "oscilloscope and logic analyzer debugging"
+  ],
+  "preferred_skills": [
+    "flexible circuits",
+    "EMC",
+    "wireless systems",
+    "battery-powered devices",
+    "production testing"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design circuits, schematics, and PCB layouts for capture/sensing hardware",
+    "Bring up new boards and debug power, signal, timing, and communication",
+    "Validate complete systems with firmware and mechanical partners",
+    "Work with suppliers on prototype improvement, production tests, component qualification, and field failures",
+    "Document designs, measurements, and design changes clearly"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

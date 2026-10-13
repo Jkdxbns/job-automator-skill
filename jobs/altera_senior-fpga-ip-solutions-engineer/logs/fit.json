@@ -1,0 +1,153 @@
+{
+  "company": "Altera",
+  "company_slug": "altera",
+  "role": "Senior FPGA IP Solutions Engineer \u2013 Robotics Technology",
+  "job_slug": "senior-fpga-ip-solutions-engineer",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 13,
+    "jd_ask_size": 24,
+    "req_cov": 0.154,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "ROS2",
+    "PWM",
+    "Digital Signal Processing",
+    "GitHub"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Tcl/Perl scripting",
+      "you_have": "Bash"
+    },
+    {
+      "jd_skill": "HAL / driver APIs",
+      "you_have": "STM32 bare-metal C"
+    },
+    {
+      "jd_skill": "Jenkins/TeamCity CI",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Encoders / motor control (FOC)",
+      "you_have": "Quadrature Encoders, PWM motor control"
+    },
+    {
+      "jd_skill": "Sensor ingestion",
+      "you_have": "I2C/SPI/ADC sensor drivers"
+    },
+    {
+      "jd_skill": "SignalTap on-chip debug",
+      "you_have": "Logic Analyzers"
+    }
+  ],
+  "missing_skills": [
+    "Verilog",
+    "SystemVerilog",
+    "RTL design",
+    "FPGA",
+    "Quartus Prime",
+    "Platform Designer",
+    "ModelSim/Questa",
+    "Timing closure / STA",
+    "CDC",
+    "Avalon/AXI",
+    "Perforce",
+    "TeamCity",
+    "Sensor fusion"
+  ],
+  "top_ats_keywords": [
+    "Verilog",
+    "SystemVerilog",
+    "RTL",
+    "FPGA",
+    "Quartus",
+    "Platform Designer",
+    "SignalTap",
+    "Avalon",
+    "AXI",
+    "STA",
+    "CDC",
+    "ModelSim",
+    "Questa",
+    "Perforce",
+    "Jenkins",
+    "TeamCity",
+    "ROS2",
+    "FOC",
+    "PWM",
+    "Tcl",
+    "Python",
+    "Perl",
+    "sensor fusion",
+    "DSP"
+  ],
+  "required_skills": [
+    "Verilog",
+    "SystemVerilog",
+    "RTL design",
+    "FPGA",
+    "RTL verification and simulation",
+    "Timing closure",
+    "Quartus Prime",
+    "Platform Designer",
+    "SignalTap",
+    "Perforce",
+    "GitHub",
+    "Jenkins",
+    "TeamCity"
+  ],
+  "preferred_skills": [
+    "Digital Signal Processing",
+    "Sensor fusion",
+    "ROS2",
+    "Motor control",
+    "PWM",
+    "Encoders",
+    "Tcl",
+    "Python",
+    "Perl",
+    "Avalon",
+    "AXI",
+    "HAL/driver APIs",
+    "CDC",
+    "STA"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design reusable RTL IP for sensor ingestion and fusion",
+    "Define HAL/driver APIs",
+    "Timing closure and CDC",
+    "Testbenches and regression",
+    "Quartus/Platform Designer integration"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Marlow, Buckinghamshire / Basingstoke, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

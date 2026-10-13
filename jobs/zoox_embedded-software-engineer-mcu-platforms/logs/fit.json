@@ -1,0 +1,69 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Embedded Software Engineer - MCU Platforms",
+  "job_slug": "embedded-software-engineer-mcu-platforms",
+  "match_pct": 80.0,
+  "missing_skills": [
+    "MCU bootloaders",
+    "bootloader development",
+    "CAN bus",
+    "network programming",
+    "MCU security",
+    "secure boot",
+    "AUTOSAR",
+    "functional safety",
+    "ISO 26262",
+    "V&V test strategy",
+    "requirements documentation"
+  ],
+  "adjacent_skills": [
+    "RTOS platform development -> FreeRTOS/ChibiOS application-level use + custom RTOS build in progress on STM32 L476RG",
+    "CAN -> UART / I2C / SPI / TCP / WebSocket protocol work",
+    "application processors -> NVIDIA Jetson (Linux) deployment"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded firmware",
+    "RTOS",
+    "real-time",
+    "microcontroller",
+    "MCU",
+    "bootloader",
+    "bare-metal",
+    "Python",
+    "CAN",
+    "device drivers",
+    "Cortex-M",
+    "autonomous vehicle",
+    "root-cause",
+    "design documentation"
+  ],
+  "key_responsibilities": [
+    "Develop on-vehicle embedded firmware in C and C++ in a real-time environment",
+    "Build supporting Python tooling that ties firmware to off-vehicle infrastructure",
+    "Author requirements and design documentation",
+    "Coordinate test strategies with Component V&V engineers",
+    "Troubleshoot and root-cause field problems from system level down into the platform"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null,
+  "_notes": {
+    "input_mode": "pasted_jd",
+    "a6_5_triggered": false,
+    "a6_5_skip_reason": "JD was pasted text, not a URL - LLM deep-dive only fires on URL input with match_pct > 90",
+    "experience_gap": "JD requires 10+ YOE; candidate has 0 full-time years / 6-7 internships",
+    "salary_band": "$200,000 - $250,000",
+    "locations": [
+      "Foster City, CA",
+      "San Diego, CA",
+      "Seattle, WA"
+    ],
+    "work_mode": "Hybrid (onsite presence required, relocation needed)"
+  }
+}

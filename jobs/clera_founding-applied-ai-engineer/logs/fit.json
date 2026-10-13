@@ -1,0 +1,103 @@
+{
+  "company": "Clera",
+  "company_slug": "clera",
+  "role": "Founding Applied AI Engineer",
+  "job_slug": "founding-applied-ai-engineer",
+  "match_pct": 15.6,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 1,
+    "missing_count": 13,
+    "jd_ask_size": 16,
+    "req_cov": 0.286,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "LLM/transformers (NLP)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "production machine learning systems",
+      "you_have": "academic/personal ML projects (SLM, GPT-2, CUDA inference engine)"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "Next.js",
+    "agents (production LLM agents)",
+    "evaluation systems",
+    "search",
+    "ranking",
+    "recommendations",
+    "reinforcement learning",
+    "SEO",
+    "generative engine optimization",
+    "AI infrastructure",
+    "data pipelines",
+    "startup/team leadership experience"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "agents",
+    "evaluation systems",
+    "TypeScript",
+    "Next.js",
+    "Python",
+    "SEO",
+    "GEO",
+    "AI infrastructure",
+    "data pipelines",
+    "search",
+    "ranking",
+    "recommendations",
+    "reinforcement learning"
+  ],
+  "required_skills": [
+    "production ML/AI systems (3+ yrs)",
+    "LLM products/agents shipping experience",
+    "evaluation systems design",
+    "TypeScript",
+    "Next.js",
+    "Python",
+    "search/ranking/recommendations experience"
+  ],
+  "preferred_skills": [
+    "reinforcement learning",
+    "marketing technology",
+    "startup ownership"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "improve agent output/content quality",
+    "SEO/GEO performance",
+    "feedback loops from outcomes",
+    "own AI infra/model strategy/data pipelines",
+    "hire and lead AI team"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

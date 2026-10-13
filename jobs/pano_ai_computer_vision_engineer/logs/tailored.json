@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "Pano AI",
+    "role": "Computer Vision Engineer",
+    "company_slug": "pano_ai",
+    "job_slug": "computer_vision_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with computer vision experience across object detection, semantic segmentation, and monocular depth estimation in PyTorch. Deployed and optimized vision models on NVIDIA Jetson using TensorRT conversion and quantization, cutting inference latency 5.2x on a real-time visual servoing pipeline. Owns the full edge AI loop: dataset curation, training, ONNX export, benchmarking, and debugging hardware integration failures on Linux.",
+  "skills": {
+    "Computer Vision & Deep Learning": [
+      "PyTorch",
+      "OpenCV",
+      "YOLOv8 / YOLO11",
+      "U-Net",
+      "Object Detection",
+      "Semantic Segmentation",
+      "Monocular Depth Estimation",
+      "Model Evaluation (mAP, IoU, Dice)"
+    ],
+    "Edge AI & Model Optimization": [
+      "NVIDIA Jetson",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "CUDA C++",
+      "8-bit Quantization",
+      "Benchmarking & Model Evaluation"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Linux",
+      "Git",
+      "STM32 (Bare-Metal C)",
+      "UART/I2C/SPI"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net semantic segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 multi-modal MRI; evaluated on Dice Score and IoU with accuracy-latency trade-offs reported for deployment.",
+        "Engineered a data processing pipeline with imaging augmentation and batch-loading memory management for large 3D volumetric inputs, leading a team of 7."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n object detection on 1,133 curated and annotated images, achieving 83% mAP@50 on held-out validation.",
+        "Exported models to ONNX and TFLite for mobile edge deployment; owned dataset curation, annotation, and evaluation end-to-end."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Built a metal surface inspection vision pipeline for microscopic crack analysis, designing an alpha-blended sym6+bior3.5 wavelet bank that raised stitched-image PSNR from 65 to 86 over a homography baseline.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with +/-8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT-optimized YOLO on NVIDIA Jetson for visual servoing, a 5.2x inference speedup over eager PyTorch (56.7 -> 10.9 ms, 17.6 -> 92 FPS).",
+        "Debugged 11 inference, deployment, and hardware integration failures to reach 100% pick reliability over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data pipelines using semantic segmentation and raycast occlusion filtering to generate ~8,000 training frames with zero manual annotation.",
+        "Trained YOLO11n object detection (mAP50 ~0.85) and fine-tuned a UFLD ResNet-18 lane model; validated at zero collisions."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing and constant memory, benchmarking 49.2 ms vs 77.5 ms CPU TorchScript for ~35% inference acceleration at identical accuracy."
+      ]
+    },
+    {
+      "name": "Model Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Cut GPU memory footprint ~55% via 8-bit quantization (LLM.int8()) at <1% accuracy degradation, profiling peak VRAM and inference latency with pynvml to quantify efficiency vs task-performance trade-offs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,152 @@
+{
+  "company": "Proxima",
+  "company_slug": "proxima",
+  "role": "Member of Technical Staff",
+  "job_slug": "mts",
+  "match_pct": 55.6,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 18,
+    "req_cov": 0.708,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Linux",
+    "software engineering fundamentals",
+    "testing",
+    "debugging",
+    "ML/scientific computing workflows",
+    "GPU compute"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "workflow orchestration / shared GPU scheduling",
+      "you_have": "SLURM"
+    },
+    {
+      "jd_skill": "concurrency",
+      "you_have": "MPI / RTOS"
+    },
+    {
+      "jd_skill": "data pipelines",
+      "you_have": "ASR/CV pipelines"
+    },
+    {
+      "jd_skill": "APIs",
+      "you_have": "Flask"
+    }
+  ],
+  "missing_skills": [
+    "containers",
+    "Kubernetes",
+    "CI/CD",
+    "cloud platforms",
+    "databases",
+    "computational biology"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "Linux",
+    "containers",
+    "Kubernetes",
+    "CI/CD",
+    "cloud",
+    "GPU",
+    "workflow orchestration",
+    "databases",
+    "testing",
+    "concurrency"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Linux",
+    "software engineering fundamentals",
+    "testing",
+    "concurrency",
+    "debugging",
+    "containers",
+    "CI/CD",
+    "ML/scientific computing workflows",
+    "data pipelines",
+    "owning production systems"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "cloud platforms",
+    "workflow orchestration",
+    "databases",
+    "computational biology"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "scientific data pipelines",
+    "model training and evaluation",
+    "GPU workload performance",
+    "APIs for scientific results"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York; Boston; Remote; Zurich",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "PyTorch depth: IIT Bombay DONUT fine-tune (55% to 93% via PyTorch/HF pipelines), BARC and Teesside training and eval pipelines",
+      "Custom data pipeline for BraTS 2020 3D MRI with batch-loading memory management maps to the dataset-integration and data-correctness outcome",
+      "COFFIN: TensorRT YOLO 5.2x speedup with profiling, systemd service with auto-restart, multiprocessing capture pipeline, which shows GPU performance and reliability instinct",
+      "SLURM-managed cluster and MPI coursework plus pynvml profiling give shared-GPU-compute familiarity",
+      "Debugging record: 11 integration failures resolved on COFFIN"
+    ],
+    "real_gaps": [
+      "No containers, Kubernetes or cloud storage experience anywhere in the profile",
+      "No CI/CD or automated-test pipeline evidence",
+      "No databases or workflow orchestration (Airflow, Argo, Nextflow)",
+      "No owned production system run over time; profile is capstone, research and internship scope",
+      "No computational biology or chemistry (stated as not required)",
+      "Concurrency is multiprocessing and MPI, not service-level concurrency"
+    ],
+    "overstated_by_keywords": [
+      "Linux counted as Have, but it is single-device admin (systemd, XRDP, static IP), not fleet or container operations",
+      "GPU compute counted as Have, but it is edge Jetson and CUDA kernels, not shared multi-tenant GPU scheduling"
+    ],
+    "understated_by_keywords": [
+      "BraTS data pipeline with memory management and BARC concurrency work demonstrate scientific data pipeline experience beyond the string match",
+      "TensorRT profiling and benchmarking shows evidence-driven performance work the JD values"
+    ],
+    "screening_gaps": [
+      "No containers or Kubernetes, which are the core of the stated environment",
+      "No production ownership or ongoing operation of a deployed system, a headline qualification",
+      "No CI/CD, cloud or workflow orchestration evidence for the infrastructure half of the role"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The ML half (PyTorch, data pipelines, GPU profiling) is genuinely backed, but the infrastructure half (containers, Kubernetes, CI/CD, cloud, orchestration, operated systems) has no backing. For a 'small team owns the systems' role at a seed-stage company, that gap would likely screen out a new grad. Skill fit only; seniority not deflated.",
+    "calibration_delta": 9.6
+  },
+  "semantic_pending": false
+}

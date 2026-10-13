@@ -1,0 +1,138 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Sensor & Perception Engineer, Robotics Hardware",
+  "job_slug": "senior-sensor-perception-engineer-robotics-hardware",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 22,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Depth cameras / ToF sensors \u2014 dual VL53L0X ToF sensors (COFFIN capstone); Object Tracking Turret with VL53L0X ToF (Jetson + STM32 UART + FreeRTOS)",
+    "ROS / ROS2 \u2014 ROS-Based Robotic Arm: ROS2 Humble + ROS Noetic, MoveIt, RViz, UR ROS2 driver, DH tables, forward kinematics",
+    "Embedded compute / sensor drivers \u2014 STM32 bare-metal C (Temperature Monitor: timer-triggered ADC, I2C driver); NVIDIA Jetson (COFFIN capstone, Turret); Arduino; UART/I2C/SPI; FreeRTOS mutexes",
+    "Computer vision / perception \u2014 YOLOv8n toothbrush detection 83% mAP@50 (Tusk); TensorRT-optimized YOLO 5.2x speedup (COFFIN); YOLOv8 on Jetson (Turret); U-Net BraTS 2020 MRI segmentation (Teesside, led 7-person team)",
+    "Real-time processing / synchronization \u2014 faster-whisper STT real-time (COFFIN); PyQt/Matplotlib real-time data acquisition GUI (BARC Python Developer); FreeRTOS mutexes (Turret)",
+    "Image / signal processing \u2014 image-stitching pipeline PSNR 86 (BARC Research); mel spectrogram encoder + causal transformer (COFFIN ASR); custom Cython BPE tokenizer",
+    "Cross-functional team leadership \u2014 led 7-person research team (Teesside); led 25-member Agnel Robotics Club; resolved 11 integration failures (COFFIN capstone); systemd deployment (auto-restart, non-root isolation, static IP)",
+    "Calibration / measurement \u2014 ZoeDepth monocular depth estimation \u00b18% error crack-depth profiling (BARC Research); image stitching calibration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IMUs (full inertial measurement units with gyro/magnetometer)",
+      "you_have": "ADXL345 accelerometer wearable glove (Embedded Systems Intern at Planctech) \u2014 accelerometer only, not full IMU with gyro/magnetometer; closest motion-sensing experience"
+    },
+    {
+      "jd_skill": "Sensor calibration rigs / alignment boards (intrinsic/extrinsic)",
+      "you_have": "Depth profiling calibration (BARC ZoeDepth \u00b18% error), image stitching pipeline calibration \u2014 performed measurement/calibration tasks but did not construct dedicated calibration rigs/boards"
+    },
+    {
+      "jd_skill": "Optics / electromagnetic wave propagation physics",
+      "you_have": "AI-based chroma keying MR headset concept (Planctech); M.S. Computer Engineering with electrical/signal focus \u2014 vision/depth processing and electrical integration (UART/I2C/SPI/PCB EAGLE), but no dedicated optics or EM wave propagation coursework/design"
+    },
+    {
+      "jd_skill": "Field deployment / commercial-scale health monitoring",
+      "you_have": "systemd deployment with auto-restart/non-root isolation/static IP (COFFIN capstone); resolved 11 integration failures \u2014 deployed on real robots at capstone/research scale, not commercial field deployment with monitoring protocols"
+    },
+    {
+      "jd_skill": "CAN / GMSL protocols",
+      "you_have": "UART/I2C/SPI communication (COFFIN TCA9548A I2C mux, Turret STM32 UART, STM32 Monitor I2C driver); Bluetooth UART/Classic \u2014 CAN and GMSL protocols not used in any project"
+    },
+    {
+      "jd_skill": "Power distribution / thermal regulation / ingress protection",
+      "you_have": "PCB fabrication EAGLE (Agnel Robotics General Secretary); STM32/Arduino electrical integration \u2014 embedded electrical design experience but no large-scale power distribution, thermal design, or mechanical ingress protection"
+    },
+    {
+      "jd_skill": "Manufacturing at scale / vendor procurement",
+      "you_have": "No commercial production, vendor management, or QA-at-scale experience; all work is research, internship, or capstone scale"
+    }
+  ],
+  "missing_skills": [
+    "LiDAR (explicitly listed in profile DO NOT HAVE)",
+    "GPS (explicitly listed in profile DO NOT HAVE)",
+    "Full IMU with gyroscope and magnetometer (only ADXL345 accelerometer present)",
+    "CAN protocol experience",
+    "GMSL protocol experience",
+    "Mechanical design / structures / thermal / ingress protection",
+    "Commercial manufacturing / QA / vendor procurement at scale"
+  ],
+  "top_ats_keywords": [
+    "LiDAR",
+    "IMU",
+    "GPS",
+    "ToF",
+    "ROS2",
+    "ROS",
+    "calibration",
+    "perception",
+    "autonomy",
+    "robotics",
+    "embedded",
+    "sensor integration",
+    "edge AI",
+    "optics",
+    "signal processing"
+  ],
+  "required_skills": [
+    "LiDAR",
+    "depth cameras",
+    "IMUs",
+    "GPS",
+    "ToF sensors",
+    "ROS/ROS2",
+    "embedded compute",
+    "sensor calibration (intrinsic/extrinsic)",
+    "optics",
+    "signal processing",
+    "electromagnetic wave propagation",
+    "electrical integration (USB/Ethernet/I2C/CAN/GMSL)",
+    "systems integration"
+  ],
+  "preferred_skills": [
+    "cross-functional collaboration",
+    "field deployment experience",
+    "vendor management/procurement",
+    "manufacturing at scale",
+    "sensor architecture design"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "sensor system design and architecture",
+    "sensor integration (electrical/software/mechanical)",
+    "calibration (intrinsic/extrinsic)",
+    "performance characterization",
+    "real-time synchronization and latency minimization",
+    "production/manufacturing support and QA",
+    "root cause analysis",
+    "field deployment health monitoring"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

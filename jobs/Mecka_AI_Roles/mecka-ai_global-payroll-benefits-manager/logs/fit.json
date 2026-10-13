@@ -1,0 +1,107 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Global Payroll & Benefits Manager",
+  "job_slug": "global-payroll-benefits-manager",
+  "match_pct": 13.6,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 9,
+    "jd_ask_size": 11,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "vendor management"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "HRIS / systems integration",
+      "you_have": "API"
+    }
+  ],
+  "missing_skills": [
+    "end-to-end payroll (Canada + US)",
+    "Canadian federal/provincial payroll (tax, CPP, EI, T4, ROE)",
+    "US federal/state/local payroll (taxes, deductions, W-2)",
+    "benefits program administration",
+    "payroll reconciliation / reporting",
+    "audit controls / documentation",
+    "HRIS/payroll integration",
+    "multi-state / multi-provincial payroll",
+    "open enrollment / benefits renewals"
+  ],
+  "top_ats_keywords": [
+    "payroll",
+    "benefits",
+    "Canada payroll",
+    "US payroll",
+    "T4",
+    "W-2",
+    "ROE",
+    "CPP",
+    "EI",
+    "HRIS",
+    "reconciliation",
+    "vendor management",
+    "open enrollment",
+    "payroll tax",
+    "audit",
+    "PEO",
+    "employer of record",
+    "Rippling"
+  ],
+  "required_skills": [
+    "end-to-end payroll (Canada + US)",
+    "Canadian federal/provincial payroll (tax, CPP, EI, T4, ROE)",
+    "US federal/state/local payroll (taxes, deductions, W-2)",
+    "benefits program administration (health, dental, retirement, life/disability)",
+    "vendor/broker/PEO management",
+    "payroll reconciliation, reporting, data management",
+    "HRIS/payroll systems integration",
+    "audit controls / documentation"
+  ],
+  "preferred_skills": [
+    "international payroll experience",
+    "employer of record / global payroll provider (Deel)",
+    "Rippling / modern HRIS",
+    "multi-entity / multiple employment models",
+    "payroll accounting / SOC 2 / finance integrations",
+    "payroll/benefits certification (PCP, PLP, CPP, CEBS)",
+    "high-growth tech environment"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own end-to-end payroll for Canada and US employees",
+    "Administer benefits programs across Canada and US",
+    "Serve as internal SME and employee contact for payroll/benefits",
+    "Own accuracy and integrations of payroll/benefits data across systems",
+    "Manage vendors, controls, documentation and audit-readiness"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

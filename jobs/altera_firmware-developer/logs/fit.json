@@ -1,0 +1,107 @@
+{
+  "company": "Altera",
+  "company_slug": "altera",
+  "role": "Firmware Developer",
+  "job_slug": "firmware-developer",
+  "match_pct": 46.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 13,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "debugging tools",
+    "system-level debug"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "device driver development",
+      "you_have": "GPIO/I2C/SPI/UART bare-metal peripheral drivers (STM32)"
+    },
+    {
+      "jd_skill": "CPU architecture",
+      "you_have": "Cortex-M4 bare-metal embedded experience"
+    },
+    {
+      "jd_skill": "firmware design specifications",
+      "you_have": "embedded firmware project documentation (STM32/RTOS builds)"
+    },
+    {
+      "jd_skill": "unit test / system test",
+      "you_have": "general test/validation experience across embedded and ML projects"
+    }
+  ],
+  "missing_skills": [
+    "assembly",
+    "production security and crypto",
+    "functional safety / FuSA compliance",
+    "FPGA",
+    "Emulator/FPGA Silicon validation"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "firmware",
+    "C/C++",
+    "assembly",
+    "RTOS",
+    "device driver",
+    "CPU architecture",
+    "crypto",
+    "security",
+    "FuSA",
+    "functional safety",
+    "system-level debug",
+    "emulator"
+  ],
+  "required_skills": [
+    "C/C++ programming (5+ years)",
+    "BS/MS in CS/CE/EE or equivalent"
+  ],
+  "preferred_skills": [
+    "C/C++",
+    "assembly",
+    "debugging tools",
+    "RTOS",
+    "device driver development",
+    "CPU architecture",
+    "production security and crypto",
+    "functional safety / FuSA compliance"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Write firmware design specifications from product/hardware specs",
+    "Implement configuration and security features of FPGA devices in C/C++",
+    "Write unit and system tests for firmware features",
+    "Validate user flows on Emulator and/or FPGA Silicon",
+    "Collaborate with hardware/validation engineers on system-level debug"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

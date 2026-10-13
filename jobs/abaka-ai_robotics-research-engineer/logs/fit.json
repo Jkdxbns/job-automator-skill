@@ -1,0 +1,187 @@
+{
+  "company": "Abaka AI",
+  "company_slug": "abaka-ai",
+  "role": "Robotics Research Engineer",
+  "job_slug": "robotics-research-engineer",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 12,
+    "missing_count": 18,
+    "jd_ask_size": 40,
+    "req_cov": 0.821,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Machine Learning",
+    "Model evaluation",
+    "Robotics",
+    "Kinematics",
+    "Coordinate frames",
+    "Robot hardware",
+    "Model training",
+    "Auto-labeling"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LeRobot",
+      "you_have": "LeRobot-structured data collection pipeline"
+    },
+    {
+      "jd_skill": "Imitation learning",
+      "you_have": "LeRobot data collection + pick-place arm"
+    },
+    {
+      "jd_skill": "Point clouds",
+      "you_have": "ZoeDepth monocular depth / 3D surface recon"
+    },
+    {
+      "jd_skill": "Camera models",
+      "you_have": "OpenCV, homography stitching"
+    },
+    {
+      "jd_skill": "3D vision",
+      "you_have": "ZoeDepth, depth estimation"
+    },
+    {
+      "jd_skill": "Sim-to-real",
+      "you_have": "CARLA synthetic data generation"
+    },
+    {
+      "jd_skill": "Isaac Sim",
+      "you_have": "CARLA simulator"
+    },
+    {
+      "jd_skill": "Vision-language models",
+      "you_have": "Gemini/HF transformers"
+    },
+    {
+      "jd_skill": "Time synchronization",
+      "you_have": "multi-camera capture, timer-synced sensing"
+    },
+    {
+      "jd_skill": "Camera calibration",
+      "you_have": "sensor software calibration"
+    },
+    {
+      "jd_skill": "Data curation",
+      "you_have": "dataset prep for GPT-2/SLM"
+    },
+    {
+      "jd_skill": "VLA",
+      "you_have": "Transformers, SmolVLA inference engine (personal)"
+    }
+  ],
+  "missing_skills": [
+    "Diffusion Policy",
+    "ACT",
+    "OpenVLA",
+    "RL fine-tuning",
+    "COLMAP",
+    "SLAM",
+    "3DGS/NeRF",
+    "World models",
+    "MuJoCo",
+    "Domain randomization",
+    "Teleoperation",
+    "ALOHA",
+    "Multi-view geometry",
+    "Bimanual manipulation",
+    "Tactile sensing",
+    "Egocentric datasets",
+    "Hand pose estimation",
+    "Publications"
+  ],
+  "top_ats_keywords": [
+    "imitation learning",
+    "diffusion policy",
+    "VLA",
+    "LeRobot",
+    "MuJoCo",
+    "Isaac Sim",
+    "teleoperation",
+    "ALOHA",
+    "point clouds",
+    "COLMAP",
+    "SLAM",
+    "sim-to-real",
+    "camera calibration",
+    "robot learning"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Machine Learning",
+    "Model evaluation",
+    "Robotics",
+    "Kinematics",
+    "Coordinate frames",
+    "Robot hardware",
+    "3D vision",
+    "Camera models",
+    "Multi-view geometry",
+    "Point clouds",
+    "Imitation learning",
+    "Model training"
+  ],
+  "preferred_skills": [
+    "LeRobot",
+    "ACT",
+    "Diffusion Policy",
+    "OpenVLA",
+    "VLA",
+    "RL fine-tuning",
+    "COLMAP",
+    "SLAM",
+    "3DGS/NeRF",
+    "World models",
+    "MuJoCo",
+    "Isaac Sim",
+    "Domain randomization",
+    "Sim-to-real",
+    "Teleoperation",
+    "ALOHA",
+    "Camera calibration",
+    "Time synchronization",
+    "Vision-language models",
+    "Auto-labeling",
+    "Data curation",
+    "Bimanual manipulation",
+    "Tactile sensing",
+    "Egocentric datasets",
+    "Hand pose estimation",
+    "Publications"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Train/evaluate robot policies",
+    "Data pipelines: synthesis, auto-labeling, curation",
+    "Eval infrastructure"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Mountain View, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,24 @@
+{
+  "company": "CrowdStrike",
+  "company_slug": "crowdstrike",
+  "role": "Software Engineer – Sensor, SaO (Hybrid)",
+  "job_slug": "software-engineer-sensor-sao-r29874",
+  "match_pct": 60,
+  "missing_skills": ["OS internals", "concurrency", "compilers", "assembly (x86-64/ARM64)", "WinDbg", "GDB/LLDB", "reverse engineering", "disassembly", "Windows internals", "kernel/driver development", "malware analysis", "vulnerability research"],
+  "adjacent_skills": ["data structures and algorithms (grad coursework, not on resume)", "computer architecture (embedded/STM32 hardware work)", "memory management (bare metal embedded C)"],
+  "top_ats_keywords": ["C", "C++", "data structures and algorithms", "systems fundamentals", "Windows internals", "WinDbg", "assembly", "reverse engineering", "Python", "AI tooling"],
+  "key_responsibilities": [
+    "Postmortem memory dump analysis in WinDbg across Windows user mode and kernel mode",
+    "Correlate disassembly and source code to explain runtime behavior with evidence",
+    "Drive investigations to precise conclusions, communicate confidence and uncertainty",
+    "Partner with Sensor dev teams to turn findings into engineering improvements",
+    "Build tooling/automation that makes deep runtime analysis faster and repeatable",
+    "Write clearly for engineering, QA, and leadership audiences"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

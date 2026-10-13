@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "company": "Ring (Amazon)",
+    "role": "Embedded Software Engineer",
+    "company_slug": "ring",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with RTOS production experience building microcontroller firmware in C++ on STM32, including interrupt-driven ISRs, FreeRTOS task synchronization with mutexes, and SPI/I2C/UART sensor drivers. Debugged full-stack embedded systems from bare-metal register programming through real-time AI/ML inference pipelines on Jetson hardware.",
+  "skills": {
+    "Embedded": [
+      "RTOS (FreeRTOS)",
+      "Interrupt Service Routines / ISR",
+      "STM32 Bare-Metal C",
+      "UART/I2C/SPI",
+      "Bluetooth / BLE",
+      "NVIDIA Jetson",
+      "Raspberry Pi"
+    ],
+    "Languages & Systems": [
+      "C++",
+      "Python",
+      "Bare-Metal C"
+    ],
+    "AI/ML on Embedded": [
+      "TensorRT",
+      "YOLO",
+      "Real-time Inference"
+    ],
+    "Tools": [
+      "EAGLE PCB Design",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometer sensor drivers with a Raspberry Pi and HC-05 Bluetooth (BLE), translating 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom low-level sensor driver with z-axis differential-threshold tap detection; resolved hardware sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented UART and I2C serial-protocol sensor communication with closed-loop feedback control."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 microcontroller firmware in bare-metal C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions and interrupt-driven sample capture (ISRs), plus a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for inter-task synchronization and shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands (ISRs) and user override.",
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 microcontroller over UART."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system: Flutter client, Flask-SocketIO edge server, Jetson+Arduino microcontroller controller over a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO (5.2x speedup, 17.6\u219292 FPS) for real-time AI/ML inference, plus dual VL53L0X ToF sensors for contact-aware grasping via I2C mux.",
+        "Resolved 11 full-stack integration failures through rigorous testing discipline in embedded context, from hardware bring-up through field-style defects; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

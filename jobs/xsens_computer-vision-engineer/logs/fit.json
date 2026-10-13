@@ -1,0 +1,152 @@
+{
+  "company": "Xsens",
+  "company_slug": "xsens",
+  "role": "Computer Vision Engineer",
+  "job_slug": "computer-vision-engineer",
+  "match_pct": 58.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 17,
+    "req_cov": 0.222,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "ROS",
+    "OpenCV",
+    "Computer Vision",
+    "GPU-accelerated computing (CUDA)",
+    "Deep learning-based perception",
+    "Robotics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-view geometry / camera & lens models",
+      "you_have": "Homography-based image stitching, monocular depth estimation (ZoeDepth)"
+    },
+    {
+      "jd_skill": "6-DoF pose estimation",
+      "you_have": "6-DoF/5-DoF robot arm forward kinematics (DH parameters), validated in ROS2/MoveIt"
+    },
+    {
+      "jd_skill": "IMU signal processing / inertial sensor models",
+      "you_have": "ADXL345 accelerometer integration (gesture-recognition glove, 3-DoF motion tracking)"
+    },
+    {
+      "jd_skill": "Linear algebra / probability theory",
+      "you_have": "Applied linear algebra and statistics in MPI Hodgkin-Huxley simulation and robotics kinematics coursework"
+    }
+  ],
+  "missing_skills": [
+    "Visual-Inertial Odometry (VIO)",
+    "SLAM (hands-on system)",
+    "State estimation / Kalman filtering",
+    "Sensor synchronization pipelines",
+    "Camera calibration routines"
+  ],
+  "top_ats_keywords": [
+    "VIO",
+    "SLAM",
+    "Python",
+    "C++",
+    "ROS",
+    "OpenCV",
+    "GPU",
+    "IMU",
+    "6-DoF pose estimation",
+    "sensor fusion"
+  ],
+  "required_skills": [
+    "Multi-view geometry",
+    "Camera and lens models and physics",
+    "Visual Odometry or SLAM (hands-on)",
+    "Open source VO/SLAM frameworks",
+    "Python",
+    "C++",
+    "Linear algebra",
+    "Probability theory",
+    "State estimation"
+  ],
+  "preferred_skills": [
+    "Automotive/robotics industry experience",
+    "IMU signal processing",
+    "Inertial sensor models",
+    "GPU-accelerated computing",
+    "Real-time optimization",
+    "Deep learning-based perception",
+    "ROS",
+    "OpenCV",
+    "Robotics tooling"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design and implement VIO and SLAM pipelines combining inertial sensor data with monocular/stereo camera inputs",
+    "Develop and maintain camera models, calibration routines, and sensor synchronization pipelines",
+    "Apply optimization and filtering methods for robust 6-DoF pose estimation",
+    "Track CV/research landscape and assess feasibility of new techniques",
+    "Collaborate with hardware, firmware, and software teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Enschede, Overijssel, Netherlands",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Homography-based image-stitching pipeline (BARC) with custom wavelet denoising, PSNR 65->86 \u2014 real multi-image geometric registration work, not just a keyword",
+      "ZoeDepth monocular depth estimation deployed for crack-depth profiling with quantified +-8% error on 3D surface reconstruction \u2014 genuine depth/perception deployment",
+      "Custom SE(3) math engine (Frame Simulator project): DSL parser + 4x4 transform composition, recursive world-transform chaining, live pose inspection \u2014 directly relevant pose/geometry math foundation, stronger than the keyword pass credited",
+      "DH-table forward kinematics for 6-DoF UR5e / 5-DoF AL5B validated against MoveIt/RViz \u2014 solid applied geometry and coordinate-frame reasoning",
+      "TensorRT-optimized YOLO visual servoing + multi-sensor (camera + dual ToF) fusion for contact-aware grasping (COFFIN capstone) \u2014 real-time perception pipeline ownership, including a form of sensor fusion for control",
+      "Robot Perception, Digital Signal Processing, and Random Signal Analysis coursework back the stated math prerequisites (linear algebra/probability) at least at an academic level"
+    ],
+    "real_gaps": [
+      "No SLAM implementation anywhere in the profile \u2014 visual, LIDAR, or otherwise",
+      "No Visual-Inertial Odometry or any odometry/localization system built end-to-end",
+      "No Kalman filter, EKF, particle filter, or other state-estimation/filtering work",
+      "No stereo vision project \u2014 depth work is monocular (ZoeDepth), not classical stereo triangulation",
+      "No camera calibration routine described (intrinsics/extrinsics, lens distortion) despite heavy image-processing work",
+      "IMU experience is limited to an ADXL345 tap-detection/gesture-recognition glove \u2014 accelerometer-only, no gyroscope fusion, no inertial navigation math",
+      "No production-scale industry ownership of a perception system \u2014 all experience is internship, capstone, or coursework scope"
+    ],
+    "overstated_by_keywords": [
+      "OpenCV counted as a strong Have, but no bullet names OpenCV directly \u2014 the closest evidence (homography stitching, image processing) is plausible but not confirmed OpenCV usage",
+      "6-DoF pose estimation counted as Adjacent via DH/forward-kinematics, which is robot-arm kinematics, not camera-based pose estimation from visual/inertial data \u2014 a real but narrower connection than the label implies"
+    ],
+    "understated_by_keywords": [
+      "The Frame Simulator's custom SE(3) math engine (rotation/translation composition, 4x4 matrix chaining) is stronger geometry-math backing than the keyword pass credited \u2014 it never matched to 'multi-view geometry' or '6-DoF pose estimation' at all",
+      "Robot Perception graduate coursework was never picked up as keyword evidence for the math/perception prerequisites"
+    ],
+    "screening_gaps": [
+      "No hands-on SLAM or VIO system built \u2014 that is the literal core deliverable of this role and there is nothing to point to",
+      "No state estimation / filtering experience (Kalman, EKF, bundle adjustment) \u2014 the required math domain is simply absent from the profile",
+      "No camera-IMU sensor fusion or calibration/synchronization work \u2014 the closest analog (ADXL345 tap detection) is a different problem at a much smaller scale"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has real, quantified depth in image geometry (homography stitching), pose/transform math (SE(3) engine, DH kinematics), and real-time CV deployment (TensorRT YOLO, sensor-fused grasping), which is more than the keyword pass gave him credit for. But the role's actual center of gravity is VIO/SLAM and state estimation, and none of that exists anywhere in the profile \u2014 not even a toy implementation \u2014 which is the kind of gap a technical screener would catch immediately given this is a 3+ year, non-entry position.",
+    "calibration_delta": 13.8
+  }
+}

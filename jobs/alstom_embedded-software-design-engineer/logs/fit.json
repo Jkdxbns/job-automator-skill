@@ -1,0 +1,136 @@
+{
+  "company": "Alstom",
+  "company_slug": "alstom",
+  "role": "Embedded Software Design Engineer",
+  "job_slug": "embedded-software-design-engineer",
+  "match_pct": 34.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 23,
+    "req_cov": 0.477,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "Version control",
+    "Unit testing",
+    "Integration testing",
+    "Embedded software design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ARM9",
+      "you_have": "ARM Cortex-M4 (STM32)"
+    },
+    {
+      "jd_skill": "Fault analysis",
+      "you_have": "hardware debugging"
+    },
+    {
+      "jd_skill": "Factory/site testing and commissioning",
+      "you_have": "testing and validation"
+    },
+    {
+      "jd_skill": "Change control",
+      "you_have": "Git"
+    }
+  ],
+  "missing_skills": [
+    "C#",
+    ".NET",
+    "Visual Studio",
+    "Windows CE",
+    "MFC",
+    "Visual Basic",
+    "8051",
+    "PIC",
+    "x86",
+    "SQL",
+    "Assembler",
+    "TypeScript/JavaScript/HTML/CSS",
+    "Rail standards"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "C#",
+    ".NET",
+    "RTOS",
+    "ARM9",
+    "8051",
+    "PIC",
+    "x86",
+    "SQL",
+    "Assembler",
+    "Visual Studio",
+    "MFC",
+    "Windows CE",
+    "unit testing",
+    "integration testing",
+    "version control"
+  ],
+  "required_skills": [
+    "Embedded software design",
+    "C/C++",
+    "C#",
+    ".NET",
+    "Visual Studio",
+    "Windows CE 5.0/6.0",
+    "MFC",
+    "Visual Basic",
+    "ARM9",
+    "8051",
+    "PIC",
+    "x86",
+    "SQL",
+    "Assembler",
+    "RTOS",
+    "Fault analysis",
+    "Unit testing",
+    "Integration testing",
+    "Factory acceptance testing",
+    "Site testing and commissioning",
+    "Version control",
+    "Change control"
+  ],
+  "preferred_skills": [
+    "Rail industry standards",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Embedded software designs for electronics systems",
+    "Regulatory compliance (EU, rail)",
+    "Fault analysis and testing through commissioning"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mansfield, UK (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

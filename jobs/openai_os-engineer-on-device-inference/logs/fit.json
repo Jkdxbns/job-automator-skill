@@ -1,0 +1,166 @@
+{
+  "company": "OpenAI",
+  "company_slug": "openai",
+  "role": "Operating Systems Engineer, On-Device Inference | Consumer Devices",
+  "job_slug": "os-engineer-on-device-inference",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 5,
+    "jd_ask_size": 18,
+    "req_cov": 0.65,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "quantization",
+    "inference runtime integration",
+    "machine learning in resource-constrained environments",
+    "CPU/GPU/neural accelerator inference",
+    "profiling"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "operating system components",
+      "you_have": "Linux, systemd service management, FreeRTOS"
+    },
+    {
+      "jd_skill": "system services",
+      "you_have": "systemd service (Jetson arm bridge)"
+    },
+    {
+      "jd_skill": "concurrent programming",
+      "you_have": "FreeRTOS mutexes, MPI"
+    },
+    {
+      "jd_skill": "scheduling",
+      "you_have": "MPI task scheduling, FreeRTOS"
+    },
+    {
+      "jd_skill": "memory management",
+      "you_have": "CUDA memory coalescing, VRAM profiling"
+    },
+    {
+      "jd_skill": "performance and power measurement",
+      "you_have": "pynvml profiling, benchmarking"
+    },
+    {
+      "jd_skill": "compression",
+      "you_have": "8-bit quantization, pruning"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "tracing",
+    "power management",
+    "thermal",
+    "shipped on-device inference"
+  ],
+  "top_ats_keywords": [
+    "on-device inference",
+    "C++",
+    "Rust",
+    "quantization",
+    "scheduling",
+    "memory management",
+    "profiling",
+    "tracing",
+    "power management",
+    "thermal",
+    "concurrency",
+    "inference runtime",
+    "operating systems"
+  ],
+  "required_skills": [
+    "operating system components",
+    "system services",
+    "C++",
+    "concurrent programming",
+    "memory ownership",
+    "inference runtime integration",
+    "machine learning in resource-constrained environments",
+    "scheduling",
+    "memory management",
+    "performance and power measurement"
+  ],
+  "preferred_skills": [
+    "quantization",
+    "compression",
+    "CPU/GPU/neural accelerator inference",
+    "Rust",
+    "shipped on-device inference"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build OS inference platform/services",
+    "Fit models to device constraints",
+    "Scheduling and resource policy",
+    "Performance and power management",
+    "Trace/profile debugging",
+    "Measure and validate on physical devices",
+    "Ship to production"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Model fitting with measured quality trade-off: SLM Compression project, 8-bit LLM.int8() on TinyLlama 1.1B cut GPU memory ~55% with <1% accuracy loss and +0.09 perplexity, peak VRAM and latency profiled with pynvml/psutil",
+      "Inference optimization with repeatable numbers: COFFIN TensorRT YOLO 56.7 to 10.9 ms (5.2x) vs eager PyTorch on Jetson; CUDA VGG16 kernels 73.3 to 49.2 ms via memory coalescing, constant memory and preallocated buffers (data-movement awareness)",
+      "Workload-competition reasoning: MPI ray tracer compared static vs dynamic task-queue scheduling; Hodgkin-Huxley sim quantified up to 65% degradation from load imbalance",
+      "Device-side service ops: Jetson arm bridge run as a systemd service with restart backoff and non-root isolation; FreeRTOS mutex task coordination on the turret"
+    ],
+    "real_gaps": [
+      "No OS component, kernel, driver or platform-service development beyond a systemd unit file and a low-level STM32 I2C driver",
+      "No evidence of C++ systems depth: concurrent programming, memory ownership and resource lifetime management are not shown (C++ appears as Arduino IK and CUDA kernels)",
+      "No power, energy, battery or thermal work anywhere in the profile",
+      "No tracing tooling (ftrace, perf, Perfetto, eBPF); profiling is VRAM and latency sampling only",
+      "No scheduling policy work at the OS or device level, only application-level MPI work distribution and FreeRTOS use",
+      "No shipped product, no production debugging; all work is capstone, research or internship scope",
+      "No Rust; no CPU/NPU inference runtime integration (ExecuTorch, ONNX Runtime, llama.cpp style) beyond TensorRT and TFLite export",
+      "Seniority: JD asks for substantial hands-on OS experience against 0 full-time years (noted only, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "C++ (Have): supported by Arduino IK and CUDA C++ kernels, not concurrency or ownership-heavy systems code",
+      "inference runtime integration (Have): TensorRT engine use via export, not building or integrating a runtime into a service",
+      "profiling (Have): pynvml/psutil VRAM and latency measurement, not system-level tracing",
+      "operating system components / system services (Adjacent): one systemd unit file is deployment, not OS development"
+    ],
+    "understated_by_keywords": [
+      "SLM Compression project shows the exact loop the JD describes for model fitting: quantize, measure memory, benchmark quality on HellaSwag/GSM8K/ARC",
+      "CUDA coalescing and preallocated buffers directly evidence the JD's data movement and memory allocation concerns",
+      "MPI load-imbalance analysis is real evidence of reasoning about workloads competing for shared resources"
+    ],
+    "screening_gaps": [
+      "No OS or platform-service engineering: the role's core is designing and debugging OS components, and the profile has a systemd unit file plus a bare-metal I2C driver against a 'substantial hands-on' requirement",
+      "No demonstrated C++ systems depth (concurrency, memory ownership, lifetimes) and no Rust",
+      "No power, thermal, energy or tracing work, which are the role's stated optimization targets, and nothing shipped to production"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Model fitting and measured inference speedups are genuinely backed, but the role's centre of gravity is OS-level scheduling, power and thermal policy and production platform code, which the profile does not evidence. The role is a stretch on skill fit alone, independent of seniority.",
+    "calibration_delta": 5.8
+  }
+}

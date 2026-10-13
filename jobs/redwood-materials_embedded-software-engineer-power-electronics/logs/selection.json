@@ -1,0 +1,154 @@
+{
+  "experience": [
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 2.53,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Research Intern (Capstone)",
+      "name": "Research Intern (Capstone)",
+      "score": 1.57,
+      "matched": [
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 1.57,
+      "matched": [
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 1.49,
+      "matched": [
+        "testing and validation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 9.61,
+      "matched": [
+        "ARM Cortex-M",
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 6.02,
+      "matched": [
+        "ARM Cortex-M",
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 4.9,
+      "matched": [
+        "ARM Cortex-M",
+        "networking",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 3.06,
+      "matched": [
+        "profiling and benchmarking",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 1.57,
+      "matched": [
+        "profiling and benchmarking"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "ARM Cortex-M",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "ARM Cortex-R",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "oscilloscopes/logic analyzers/JTAG/SWD debuggers",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "JTAG",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "SWD",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "high-speed ADC sampling",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "high-resolution PWM",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "hardware timers",
+      "for_skill": "peripheral programming"
+    },
+    {
+      "use_jd_wording": "bare-metal firmware",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "multi-core memory optimization",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "Ethernet",
+      "for_skill": "networking"
+    },
+    {
+      "use_jd_wording": "Make/CMake build systems",
+      "for_skill": "build systems"
+    },
+    {
+      "use_jd_wording": "test automation",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "profiling on real-time multi-core targets",
+      "for_skill": "RTOS"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Rust or C",
+    "functional isolation / freedom from interference (multi-core safety)",
+    "CAN/CAN-FD",
+    "CI/CD"
+  ]
+}

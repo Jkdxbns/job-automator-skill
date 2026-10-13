@@ -1,0 +1,151 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Edge ML Engineer\u2013 Computer Vision",
+  "job_slug": "edge-ml-engineer-computer-vision",
+  "match_pct": 68.8,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 16,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python programming",
+    "C/C++ programming",
+    "CV model training (PyTorch)",
+    "CV evaluation / accuracy",
+    "embedded Linux / resource-constrained deploy",
+    "quantization",
+    "model conversion",
+    "inference optimization (GPU/NPU)",
+    "performance profiling"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "accelerator runtimes",
+      "you_have": "TensorRT deployment"
+    },
+    {
+      "jd_skill": "custom operators",
+      "you_have": "kernel-level optimization"
+    },
+    {
+      "jd_skill": "camera/video pipelines",
+      "you_have": "vision pipeline experience"
+    },
+    {
+      "jd_skill": "rigorous evaluation",
+      "you_have": "calibrated/benchmarked evaluation"
+    }
+  ],
+  "missing_skills": [
+    "dataset curation (no dataset/curation keyword)",
+    "debugging (no debug keyword in list)",
+    "latency / memory / power / sustained-operation targets (only memory coalescing present; no latency/power/sustained-op keywords)"
+  ],
+  "top_ats_keywords": [
+    "Edge AI",
+    "Computer Vision",
+    "embedded",
+    "C++",
+    "Python",
+    "PyTorch",
+    "quantization",
+    "model conversion",
+    "inference optimization",
+    "CPU",
+    "GPU",
+    "NPU",
+    "embedded Linux",
+    "resource-constrained",
+    "latency",
+    "memory",
+    "power",
+    "sustained operation",
+    "dataset",
+    "evaluation",
+    "YOLO",
+    "OpenCV",
+    "TensorRT"
+  ],
+  "required_skills": [
+    "Python programming",
+    "C/C++ programming",
+    "debugging and performance profiling",
+    "training and evaluating CV models (PyTorch)",
+    "embedded Linux deployment on resource-constrained hardware",
+    "quantization, model conversion, inference optimization (CPU/GPU/NPU)",
+    "evaluate accuracy / false positives / missed detections across conditions"
+  ],
+  "preferred_skills": [
+    "accelerator runtimes / custom operators",
+    "camera and video pipelines",
+    "dataset curation",
+    "rigorous CV evaluation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Train/evaluate CV models for embedded deployment",
+    "Build C++ inference pipelines integrated with embedded Linux",
+    "Optimize for latency, memory, power, sustained operation",
+    "Test on hardware; investigate errors across preprocessing/inference/integration",
+    "Lead position: set architecture/evaluation standards"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 71,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Edge deployment with measured latency: COFFIN 'TensorRT-optimized YOLO (5.2x speedup: 56.7->10.9 ms, 17.6->92 FPS vs eager PyTorch)' on Jetson.",
+      "Training and evaluating CV models in PyTorch: 'YOLOv8n on 1,133 annotated images achieving 83% mAP@50', U-Net with VGG-16/VGG-19/ResNet-50 evaluated on Dice and IoU, CARLA YOLO11n (mAP50~0.85) and UFLD fine-tuning.",
+      "Quantization and conversion: 'LLM.int8() ... ~55% GPU memory reduction', 8-bit quantization, ONNX and TFLite export, and a QAT project with integer-only inference.",
+      "Profiling for memory and latency: pynvml and psutil peak-VRAM/latency profiling across prompts; CUDA kernel work with memory coalescing.",
+      "Errors across integration: COFFIN 'resolved 11 integration failures (false-positive detections... stale-frame capture)'."
+    ],
+    "real_gaps": [
+      "Production C++ inference pipelines on embedded Linux: C++ appears in CUDA kernels and Arduino firmware, but no C++ runtime wrapping a model and camera.",
+      "Power consumption as an optimization target: latency and memory are measured, power never is.",
+      "Systematic accuracy evaluation across lighting and motion conditions on representative field data: evaluation is on held-out sets, not condition-stratified."
+    ],
+    "overstated_by_keywords": [
+      "'C++' as HAVE for 'efficient C++ inference pipelines': the backing is kernels and microcontroller code, not an inference runtime."
+    ],
+    "understated_by_keywords": [
+      "CARLA's automated dataset generation (~5,000 YOLO frames with zero manual annotation) is real dataset-curation depth the role lists as nice-to-have and the keyword pass missed."
+    ],
+    "screening_gaps": [
+      "No C++ inference pipeline built on embedded Linux",
+      "No power-consumption optimization or measurement",
+      "No condition-stratified evaluation (lighting/motion) of a deployed CV model"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Training, quantizing, converting and measuring CV models on Jetson-class hardware is the core of the role, and COFFIN plus the YOLO and quantization work back it with specific numbers. The gap is that the runtime side is Python/TensorRT rather than hand-built C++, and power is unmeasured.",
+    "calibration_delta": -2.2
+  },
+  "semantic_pending": false
+}

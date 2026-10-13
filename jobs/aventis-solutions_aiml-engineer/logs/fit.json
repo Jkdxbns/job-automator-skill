@@ -1,0 +1,77 @@
+{
+  "company": "Aventis Solutions (FinTech client)",
+  "company_slug": "aventis-solutions",
+  "role": "AI/ML Engineer",
+  "job_slug": "aiml-engineer",
+  "match_pct": 64,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "deep learning",
+    "AI/ML frameworks",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_wants": "LLM integration",
+      "you_have": "Transformers, GPT-2, TinyLlama, Hugging Face"
+    },
+    {
+      "jd_wants": "APIs",
+      "you_have": "Flask, WebSocket, Flask-SocketIO"
+    },
+    {
+      "jd_wants": "CI/CD / DevOps",
+      "you_have": "GitLab, Git"
+    },
+    {
+      "jd_wants": "Distributed systems",
+      "you_have": "MPI, SLURM"
+    },
+    {
+      "jd_wants": "Performance optimisation",
+      "you_have": "CUDA kernel optimization, memory coalescing"
+    }
+  ],
+  "missing_skills": [
+    "AWS",
+    "Azure",
+    "Microservices",
+    "Docker/Containerisation",
+    "Data platforms",
+    "FinTech domain"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "AI/ML",
+    "LLM",
+    "AWS",
+    "Azure",
+    "microservices",
+    "CI/CD",
+    "cloud",
+    "distributed systems",
+    "APIs"
+  ],
+  "key_responsibilities": [
+    "Designing and implementing scalable AI-driven solutions",
+    "Building robust, secure, production-grade applications",
+    "System design and performance optimisation",
+    "LLM integration and AI/ML framework usage",
+    "Cloud platform development (AWS/Azure)"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraints": {
+    "sponsorship": "UNKNOWN \u2014 staffing firm (Aventis Solutions) not on known_sponsors list; JD says global-friendly",
+    "experience": "MISMATCH \u2014 LinkedIn shows Mid-Senior level vs new-grad",
+    "location": "CLEAR \u2014 remote-first, NY HQ",
+    "clearance": "CLEAR",
+    "notice": "4 weeks, EAD pending"
+  },
+  "hard_blocker_triggered": false
+}

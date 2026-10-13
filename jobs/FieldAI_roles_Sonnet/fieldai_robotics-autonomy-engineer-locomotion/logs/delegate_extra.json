@@ -1,0 +1,20 @@
+{
+  "strengths": [
+    "ROS2 + kinematics + embedded real-time are directly relevant to robotics autonomy",
+    "Embedded C / STM32 / FreeRTOS / UART / PWM is a hard match",
+    "YOLO + TensorRT + Jetson deployment pipeline maps directly to edge autonomy deployment",
+    "CUDA optimization shows strong systems-level GPU capability",
+    "Multiple completed end-to-end hardware projects prove ability to ship on real devices"
+  ],
+  "real_gaps": [
+    "No legged/humanoid locomotion-specific experience (gait, balance, footstep planning, biped dynamics)",
+    "No company-scale production field deployment record",
+    "No full-time professional experience",
+    "No explicit simulation stack for legged robotics (MuJoCo/Isaac/Pinocchio)",
+    "No formal safety/explainability certification"
+  ],
+  "reasoning": "JD targets a senior-level autonomy role (team includes DeepMind, Boston Dynamics, SpaceX alumni; responsibilities include \"lead development\" of legged/humanoid controllers with field deployment). Candidate is a strong new-grad with 7 internships/projects in adjacent robotics/embedded/ML domains \u2014 ROS2, embedded real-time, YOLO/TensorRT, CUDA, and real-hardware deployment all map well. The critical gap is the absence of legged/humanoid locomotion controller experience and company-scale production deployment. No sponsorship/clearance/citizenship/ITAR blockers found in JD text. Experience-level mismatch is real but not a formal hard blocker per rules (title not senior/lead/director; no years >3 stated). Role fits broadly within edge_ai_robotics but the specific locomotion domain is a significant mismatch for this candidate profile.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/00be5e27-c434-4cde-b367-f1688aa7bd2b",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

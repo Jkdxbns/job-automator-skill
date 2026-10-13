@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "company": "Lunar Outpost",
+    "role": "Robotics Engineering Intern - Summer 2027 (GNC)",
+    "company_slug": "lunar-outpost",
+    "job_slug": "robotics-eng-intern-gnc-2027"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on ROS2 robotics experience across manipulator kinematics, real-time embedded control, and simulation-based validation. Built and validated forward-kinematic chains for a 6-DoF UR5e and 5-DoF AL5B in ROS 2 Humble and ROS Noetic, and integrated multi-sensor perception (ToF, IMU, vision) into C++ and Python control pipelines on Jetson and STM32 platforms. Validated autonomous control stacks in CARLA simulation and delivered 100% task reliability across repeated real-hardware trials.",
+  "skills": {
+    "Languages & Systems": ["Python", "C/C++", "ROS2"],
+    "Robotics & Perception": ["ROS/ROS2", "MoveIt", "RViz", "Forward kinematics", "DH parameters", "Visual servoing", "YOLO"],
+    "Embedded": ["STM32 (Bare-Metal C)", "FreeRTOS", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "UART/I2C/SPI", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2× speedup, 17.6→92 FPS) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping via TCA9548A I2C mux.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence", "Multiple Processor Systems", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Random Signal Analysis"]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

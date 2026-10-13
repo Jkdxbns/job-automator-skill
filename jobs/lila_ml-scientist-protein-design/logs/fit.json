@@ -1,0 +1,100 @@
+{
+  "company": "Lila Sciences",
+  "company_slug": "lila",
+  "role": "Machine Learning Scientist I/II, Protein Design",
+  "job_slug": "ml-scientist-protein-design",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 5,
+    "jd_ask_size": 12,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "MS in quantitative field (Computer Engineering)",
+    "Strong software engineering and system design fundamentals",
+    "GPU efficiency (CUDA kernel optimization)",
+    "Distributed training/compute (MPI, SLURM)",
+    "Model evaluation (benchmark scoring: GSM8K, HellaSwag)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Reasoning models, agents, planning systems",
+      "you_have": "Transformer/LLM work (GPT-2, TinyLlama, tokenization) - no agent/planning systems"
+    },
+    {
+      "jd_skill": "Evaluation harnesses, model registries, benchmark suites",
+      "you_have": "Model evaluation experience (GSM8K/HellaSwag scoring), no registry/harness infra built"
+    }
+  ],
+  "missing_skills": [
+    "Domain expertise in protein sequence, structure, and function",
+    "Antibody/nanobody/enzyme/peptide design experience",
+    "Computational biology/biophysics background",
+    "Drug discovery / biologics program experience",
+    "AI for Science publications or open-source outputs"
+  ],
+  "top_ats_keywords": [
+    "protein design",
+    "biologics",
+    "computational biology",
+    "biophysics",
+    "antibodies",
+    "nanobodies",
+    "enzymes",
+    "peptides",
+    "benchmarks",
+    "evaluation infrastructure",
+    "GPU efficiency",
+    "distributed training",
+    "reasoning models",
+    "agents"
+  ],
+  "required_skills": [
+    "MS or PhD in CS/ML/computational biology/biophysics/bioengineering",
+    "Strong software engineering and system design fundamentals",
+    "Rigor in evaluation and dataset design",
+    "Domain expertise in protein sequence, structure, and function",
+    "Strong cross-functional communication skills"
+  ],
+  "preferred_skills": [
+    "Reasoning models, agents, planning systems, multi-step ML orchestration",
+    "Antibody/nanobody/enzyme/peptide design experience in design-test-learn loops",
+    "Evaluation harnesses, model registries, benchmark suites",
+    "Distributed training, GPU efficiency, high-throughput inference at scale",
+    "Publications/open-source in AI for Science venues"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design molecules for active biologics programs",
+    "Develop reasoning capabilities for drug discovery / orchestrate design workflows",
+    "Design and maintain benchmarks and evaluation infrastructure",
+    "Own reproducibility, throughput, and inference cost of design workflows"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

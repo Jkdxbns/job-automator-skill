@@ -1,0 +1,38 @@
+{
+  "company": "AeroVect",
+  "company_slug": "aerovect",
+  "role": "Mapping Engineer",
+  "job_slug": "mapping-engineer",
+  "match_pct": 100,
+  "missing_skills": ["JOSM", "Lanelet2", "OpenDRIVE", "QGIS", "point clouds", "CI/CD pipelines", "AWS S3"],
+  "adjacent_skills": ["coordinate frames (via DH-parameter forward kinematics)", "aerial imagery alignment (via image stitching/registration work)", "ROS/ROS2 (arm-focused, not ground-vehicle route mapping)"],
+  "top_ats_keywords": ["JOSM", "Lanelet2", "OpenStreetMap", "OpenDRIVE", "QGIS", "HD maps", "Map CI", "ROS2", "CARLA", "Git", "Python", "Linux", "coordinate frames", "point clouds", "geospatial"],
+  "key_responsibilities": [
+    "Own the mapping request queue end to end (intake, scope, communicate status)",
+    "Create and edit HD maps (lanes, intersections, routes, regulatory elements, goal poses) in JOSM/Lanelet2/OpenStreetMap",
+    "Submit map changes as PRs through a maps-as-code workflow, pass Map CI (validation, connectivity, path-feasibility)",
+    "Validate every change in simulation first, then on the physical tractor",
+    "Capture evidence (sim videos, test results, before/after diffs) and document testing results",
+    "Maintain map hygiene (dedup, naming/versioning consistency, scalable process documentation)",
+    "Coordinate with external mapping vendors on large-scale map deliveries"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Methodical, safety-minded precision work: BARC capstone iteratively improved PSNR 65->86 via custom wavelet bank design; COFFIN systematically resolved 11 named integration failure modes",
+      "CARLA (We Prefer) is a direct, deep match: built automated data pipelines with semantic segmentation and raycast occlusion filtering to produce structured, validated training data",
+      "End-to-end ownership under shifting priorities: General Secretary, Agnel Robotics Club led 25 members across competitions, owning mechanical/PCB/sensor integration scope and running 10+ training workshops",
+      "Coordinate-frame rigor via DH-parameter forward kinematics (UR5e/AL5B), validated against MoveIt/RViz/URDF"
+    ],
+    "real_gaps": [
+      "Zero point-cloud experience anywhere in the profile",
+      "Zero exposure to JOSM/Lanelet2/OpenDRIVE/QGIS specifically - though AeroVect states this is trained on",
+      "No salary listed on this posting"
+    ],
+    "overstated_by_keywords": [],
+    "reasoning": "Every required You-Have line traces to a specific, real, quotable achievement rather than a loose keyword hit, and the one real gap (mapping tools themselves) is explicitly stated as trainable. This is the opposite pattern from Integration Engineer, where keyword match overstated fit; here the semantic read confirms and slightly strengthens the keyword read."
+  }
+}

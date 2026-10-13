@@ -1,0 +1,131 @@
+{
+  "company": "Clorox",
+  "company_slug": "clorox",
+  "role": "AI Platform Engineer - Integration & HyperAutomation",
+  "job_slug": "ai-platform-engineer-integration-hyperautomation",
+  "match_pct": 10.4,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 20,
+    "jd_ask_size": 24,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "REST APIs",
+      "you_have": "Flask / WebSocket"
+    },
+    {
+      "jd_skill": "Security controls",
+      "you_have": "Env-based secrets separation, non-root systemd isolation"
+    },
+    {
+      "jd_skill": "AI agents",
+      "you_have": "LLM fine-tuning (TinyLlama, GPT-2, HF Transformers)"
+    }
+  ],
+  "missing_skills": [
+    "Middleware",
+    "Cloud integrations",
+    "SAP integrations",
+    "Automation technologies",
+    "MuleSoft",
+    "Azure API Management",
+    "UiPath",
+    "SAP BTP",
+    "OAuth/OIDC",
+    "Entra ID",
+    "Observability",
+    "MCP",
+    "A2A",
+    "ServiceNow",
+    "Databricks",
+    "Microsoft Fabric",
+    "Denodo",
+    "SAP S/4HANA",
+    "API lifecycle management",
+    "Azure"
+  ],
+  "top_ats_keywords": [
+    "REST APIs",
+    "MuleSoft",
+    "Azure API Management",
+    "UiPath",
+    "SAP BTP",
+    "SAP S/4HANA",
+    "OAuth/OIDC",
+    "Entra ID",
+    "MCP",
+    "A2A",
+    "AI agents",
+    "Observability",
+    "Python",
+    "ServiceNow",
+    "Databricks"
+  ],
+  "required_skills": [
+    "REST APIs",
+    "Middleware",
+    "Cloud integrations",
+    "SAP integrations",
+    "Automation technologies",
+    "MuleSoft",
+    "Azure API Management",
+    "UiPath",
+    "SAP BTP",
+    "OAuth/OIDC",
+    "Entra ID",
+    "Observability",
+    "Security controls",
+    "Python"
+  ],
+  "preferred_skills": [
+    "MCP",
+    "A2A",
+    "AI agents",
+    "ServiceNow",
+    "Databricks",
+    "Microsoft Fabric",
+    "Denodo",
+    "SAP S/4HANA",
+    "API lifecycle management",
+    "Azure"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Configure enterprise platforms for APIs, MCP endpoints, intelligent automations and integration services",
+    "Build integrations across MuleSoft, Azure APIM, SAP S/4HANA, SAP BTP, ServiceNow, UiPath, Databricks, Fabric, Denodo",
+    "Implement governance controls for agent actions: authn/authz, logging, monitoring, human approval workflows",
+    "Establish API, integration and A2A standards and lifecycle management"
+  ],
+  "role_category": "ml_systems",
+  "location": "Dublin, Ireland (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

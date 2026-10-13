@@ -1,0 +1,135 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Infrastructure Security Engineer",
+  "job_slug": "infrastructure-security-engineer",
+  "match_pct": 8.8,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 30,
+    "jd_ask_size": 34,
+    "req_cov": 0.042,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "software engineering / programming fundamentals (Python, C/C++, CUDA, Cython across 7 internships and COFFIN capstone; Git, CMake, Linux)",
+    "Linux / systems administration fundamentals (COFFIN capstone: systemd deployment (auto-restart, non-root isolation, static IP/network config))"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "networking and systems fundamentals",
+      "you_have": "COFFIN capstone (systemd/static IP/network config, Linux admin); embedded UART/I2C/SPI/Bluetooth (Agnel Robotics Club, STM32 projects)"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI Hodgkin-Huxley neuron simulation (10.49x speedup, SLURM cluster); Parallel Ray Tracer with MPI (up to 30x speedup)"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes security",
+    "cloud-native infrastructure security",
+    "CI/CD systems",
+    "software supply chains / build pipelines / deployment workflows",
+    "identity and access management",
+    "secrets management",
+    "containerized workloads / runtime environment hardening",
+    "threat modeling",
+    "security architecture reviews",
+    "vulnerability management",
+    "large-scale distributed / cloud-native systems security",
+    "software supply chain / artifact signing / build provenance",
+    "runtime security / Kubernetes production hardening",
+    "platform engineering / SRE / infrastructure engineering",
+    "offensive security / penetration testing / adversarial assessments",
+    "mission-critical production environments",
+    "Kubernetes",
+    "container",
+    "CI/CD",
+    "cloud-native",
+    "infrastructure security",
+    "supply chain",
+    "identity/authentication",
+    "secrets management",
+    "threat modeling",
+    "vulnerability management",
+    "security architecture",
+    "runtime security",
+    "platform engineering",
+    "SRE"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "container",
+    "CI/CD",
+    "cloud-native",
+    "infrastructure security",
+    "supply chain",
+    "identity/authentication",
+    "secrets management",
+    "threat modeling",
+    "vulnerability management",
+    "security architecture",
+    "distributed systems",
+    "runtime security",
+    "platform engineering",
+    "SRE"
+  ],
+  "required_skills": [
+    "Kubernetes security",
+    "cloud-native infrastructure security",
+    "CI/CD systems",
+    "software supply chains / build pipelines / deployment workflows",
+    "identity and access management",
+    "secrets management",
+    "containerized workloads / runtime environment hardening",
+    "threat modeling",
+    "security architecture reviews",
+    "vulnerability management",
+    "software engineering / programming fundamentals",
+    "networking and systems fundamentals"
+  ],
+  "preferred_skills": [
+    "large-scale distributed / cloud-native systems security",
+    "software supply chain / artifact signing / build provenance",
+    "runtime security / Kubernetes production hardening",
+    "platform engineering / SRE / infrastructure engineering",
+    "offensive security / penetration testing / adversarial assessments",
+    "mission-critical production environments"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and improve security architecture of cloud-native infrastructure and Kubernetes environments",
+    "Secure CI/CD systems, software supply chains, build pipelines, and deployment workflows",
+    "Improve identity, authentication, secrets management, and access control across production systems",
+    "Harden Kubernetes clusters, containerized workloads, and runtime environments",
+    "Conduct threat modeling and security reviews across infrastructure and operational systems",
+    "Integrate security controls into development and operational workflows",
+    "Investigate vulnerabilities affecting production infrastructure and drive remediation",
+    "Define security standards and best practices for large-scale distributed systems"
+  ],
+  "role_category": "general_swe",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

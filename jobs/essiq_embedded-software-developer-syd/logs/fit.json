@@ -1,0 +1,100 @@
+{
+  "company": "ESSIQ",
+  "company_slug": "essiq",
+  "role": "Embedded Software Developer (ESSIQ Syd)",
+  "job_slug": "embedded-software-developer-syd",
+  "match_pct": 83.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 0,
+    "missing_count": 1,
+    "jd_ask_size": 6,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded systems development",
+    "C/C++",
+    "Python",
+    "Hardware-software interaction",
+    "Resource-constrained systems"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Agile development"
+  ],
+  "top_ats_keywords": [
+    "embedded systems",
+    "C/C++",
+    "Python",
+    "agile",
+    "resource-constrained"
+  ],
+  "required_skills": [
+    "Embedded systems development",
+    "C/C++",
+    "Scripting language (Python)",
+    "Agile development",
+    "Hardware-software interaction",
+    "Resource-constrained systems"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Develop embedded software for customer projects",
+    "Work close to hardware in resource-limited systems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Malm\u00f6, Sk\u00e5ne, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 71.4,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 Cortex-M4 bare-metal C: GPIO/TIM2/ADC1/I2C1 drivers, 3.68 KB Flash / 1.58 KB RAM, 1 Hz deterministic (resource-limited, close to hardware)",
+      "Robocon Arduino Due: interrupt-driven quadrature decoding, PWM motor control, closed-loop heading",
+      "Object Tracking Turret: FreeRTOS mutexes, interrupt-driven UART between Jetson and STM32",
+      "Python and C/C++ across projects; Cython speedup 4-5.5x"
+    ],
+    "real_gaps": [
+      "No agile/Scrum team evidence",
+      "No 5 years of embedded work; embedded depth is coursework, club and one internship",
+      "No production shipped firmware, no consulting or customer-facing delivery"
+    ],
+    "overstated_by_keywords": [
+      "Embedded systems development counts as Have but is academic and capstone scope, not professional"
+    ],
+    "understated_by_keywords": [
+      "Team lead of 7 and General Secretary of a 25-member team show collaboration and ownership the keyword pass did not credit"
+    ],
+    "screening_gaps": [
+      "5+ years embedded experience required; has 0 full-time years",
+      "No professional agile process experience",
+      "Consultancy role with Swedish work permit needed from abroad; salary floor risk for junior pay"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core skill set (embedded C/C++, bare-metal peripherals, Python scripting) is genuinely backed. The five-year requirement is the main barrier and a consultancy will likely screen on it. Stated start of early to spring 2027 fits the timeline.",
+    "calibration_delta": 11.9
+  },
+  "semantic_pending": false
+}

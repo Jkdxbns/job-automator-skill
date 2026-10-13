@@ -1,0 +1,125 @@
+{
+  "company": "Andson Biotech",
+  "company_slug": "andson-biotech",
+  "role": "Embedded Systems Engineer",
+  "job_slug": "embedded-systems-engineer",
+  "match_pct": 73.9,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 2,
+    "missing_count": 5,
+    "jd_ask_size": 23,
+    "req_cov": 0.917,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Microcontrollers",
+    "Firmware",
+    "UART",
+    "SPI",
+    "I2C",
+    "CAN",
+    "Git",
+    "sensors",
+    "motors",
+    "power electronics",
+    "embedded Linux",
+    "schematics",
+    "datasheets"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PCB design",
+      "you_have": "hardware bring-up / board-level debugging on custom boards"
+    },
+    {
+      "jd_skill": "oscilloscope/logic analyzer",
+      "you_have": "lab debugging on embedded coursework/projects"
+    }
+  ],
+  "missing_skills": [
+    "Altium/KiCad/OrCAD/Eagle formal PCB design tool experience",
+    "RS-232/RS-485",
+    "Modbus",
+    "EMI/EMC/signal integrity debugging",
+    "prototype-to-production experience"
+  ],
+  "top_ats_keywords": [
+    "Firmware",
+    "Microcontrollers",
+    "PCB design",
+    "C",
+    "C++",
+    "UART",
+    "SPI",
+    "I2C",
+    "CAN",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "microcontroller firmware",
+    "PCB debugging",
+    "UART",
+    "SPI",
+    "I2C",
+    "CAN",
+    "RS-232/RS-485",
+    "oscilloscope",
+    "logic analyzer",
+    "schematics/datasheets"
+  ],
+  "preferred_skills": [
+    "Altium/KiCad/OrCAD/Eagle",
+    "embedded Linux",
+    "PC test/diagnostic software",
+    "USB",
+    "Ethernet",
+    "TCP/IP",
+    "Modbus",
+    "Git",
+    "automated hardware testing",
+    "EMI/EMC debugging",
+    "prototype-to-production"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "PCB/circuit design and debug",
+    "embedded firmware development",
+    "serial comms troubleshooting",
+    "board bring-up",
+    "lab equipment debugging",
+    "test tool development",
+    "root cause analysis",
+    "documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Atlanta, GA, US",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Visa: US citizen/visa only (Citizenship/Visa) \u2014 startup does not sponsor; F-1 OPT does not qualify"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

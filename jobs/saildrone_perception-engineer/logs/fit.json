@@ -1,0 +1,151 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Perception Engineer",
+  "job_slug": "perception-engineer",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 16,
+    "req_cov": 0.682,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Computer Vision",
+    "Python",
+    "Debugging",
+    "Benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-Object Tracking",
+      "you_have": "YOLOv8 detect+track (Object Tracking Turret)"
+    },
+    {
+      "jd_skill": "Sensor Fusion",
+      "you_have": "ToF + camera gating (Turret/COFFIN)"
+    },
+    {
+      "jd_skill": "Sensor Calibration",
+      "you_have": "ADXL345 software calibration, I2C/SPI sensor integration"
+    },
+    {
+      "jd_skill": "Robotics Math",
+      "you_have": "SE(3) transforms, DH/FK/IK"
+    }
+  ],
+  "missing_skills": [
+    "State Estimation",
+    "Localization",
+    "Radar",
+    "Kalman Filtering",
+    "SLAM",
+    "Visual Odometry",
+    "Field Deployment"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Computer Vision",
+    "Sensor Fusion",
+    "State Estimation",
+    "Localization",
+    "Multi-Object Tracking",
+    "Radar",
+    "Kalman Filter",
+    "SLAM",
+    "Visual Odometry",
+    "Sensor Calibration",
+    "Python",
+    "Benchmarking"
+  ],
+  "required_skills": [
+    "C++",
+    "Computer Vision",
+    "Sensor Fusion",
+    "State Estimation",
+    "Localization",
+    "Multi-Object Tracking",
+    "Radar",
+    "Sensor Calibration",
+    "Robotics Math",
+    "Debugging",
+    "Benchmarking"
+  ],
+  "preferred_skills": [
+    "Kalman Filtering",
+    "SLAM",
+    "Visual Odometry",
+    "Field Deployment",
+    "Python"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "perception/localization/state-estimation/MOT/sensor fusion",
+    "camera+radar processing",
+    "production C++",
+    "real-vehicle validation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 41,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Computer vision depth: TensorRT YOLO visual servoing at 92 FPS (COFFIN), YOLO11n mAP50~0.85 + UFLD in CARLA, BARC homography stitching + ZoeDepth depth estimation, plus RIT Robot Perception course",
+      "Benchmarking and integration debugging: COFFIN resolved 11 integration failures (stale frames, false positives, brown-out), 5.2x measured inference speedup",
+      "Geometry foundation: SE(3) transform engine (Frame Simulator), DH/FK on physical UR5e, the same math as sensor extrinsics and frame chaining",
+      "Real sensors on physical systems: dual ToF via I2C mux, ADXL345, multi-camera capture, closed-loop Jetson+MCU control"
+    ],
+    "real_gaps": [
+      "No state estimation, Kalman/EKF, or localization anywhere in the profile, and this is the role's stated core",
+      "No radar, and no probabilistic fusion of heterogeneous sensors",
+      "No tracker with data association or motion model; tracking is YOLO detection driving a turret",
+      "No production C++ perception codebase; C++ is Arduino IK and CUDA kernels",
+      "No field deployment on a vehicle; autonomy work is CARLA simulation",
+      "No SLAM or visual odometry"
+    ],
+    "overstated_by_keywords": [
+      "Sensor Fusion (adjacent): ToF range gating plus camera detection is threshold logic, not fusion with covariances",
+      "Multi-Object Tracking (adjacent): one bullet on YOLOv8 detect and track, no association or filtering",
+      "Sensor Calibration (adjacent): ADXL345 jitter tuning is not intrinsic or extrinsic calibration",
+      "C++ (have): real, but firmware and kernel scale, not production perception software"
+    ],
+    "understated_by_keywords": [
+      "CARLA pipeline integrated learned perception into a control stack, validated with 30 vehicles and 10 pedestrians, the closest thing to closed-loop autonomy validation",
+      "SE(3) engine and DH/FK work is real backing for the robotics-math requirement, stronger than plain Adjacent",
+      "BARC homography and depth-estimation work shows geometric CV beyond detection"
+    ],
+    "screening_gaps": [
+      "No Kalman filtering, state estimation or localization experience, which is the role's core",
+      "No radar, multi-sensor fusion or true multi-object tracking (data association) on real data",
+      "No production C++ perception code or on-vehicle field deployment; autonomy experience is simulation only"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role is a state-estimation and sensor-fusion job, and the profile evidences vision, benchmarking and geometry but none of the estimation core. Keyword adjacency (43.8%) is generous on fusion, tracking and calibration; the real backing is one YOLO-tracking bullet and simple sensor gating. It is a stretch, worth attempting only if a referral or a way to show filtering work exists.",
+    "calibration_delta": 2.8
+  }
+}

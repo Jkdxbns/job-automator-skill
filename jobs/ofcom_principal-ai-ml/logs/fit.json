@@ -1,0 +1,118 @@
+{
+  "company": "Ofcom",
+  "company_slug": "ofcom",
+  "role": "AI & Machine Learning, Principal",
+  "job_slug": "principal-ai-ml",
+  "match_pct": 28.6,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 14,
+    "jd_ask_size": 21,
+    "req_cov": 0.235,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Model evaluation",
+    "Python",
+    "Technical writing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Generative AI",
+      "you_have": "GPT-2 / SLM / LLM fine-tuning and quantization"
+    },
+    {
+      "jd_skill": "Robustness assessment",
+      "you_have": "Benchmarking of quantized models (GSM8K, HellaSwag, WER)"
+    }
+  ],
+  "missing_skills": [
+    "Responsible AI",
+    "AI assurance",
+    "AI governance",
+    "Risk-management frameworks",
+    "Fairness assessment",
+    "Agentic AI",
+    "Recommender systems",
+    "Automated content classification",
+    "Trust and safety",
+    "Technical leadership of programmes",
+    "Senior stakeholder influence",
+    "Mentoring",
+    "External representation",
+    "Standards bodies"
+  ],
+  "top_ats_keywords": [
+    "Responsible AI",
+    "AI assurance",
+    "AI governance",
+    "Model evaluation",
+    "Generative AI",
+    "Agentic AI",
+    "Recommender systems",
+    "Content classification",
+    "Trust and safety",
+    "Fairness",
+    "Robustness"
+  ],
+  "required_skills": [
+    "AI/ML expertise",
+    "Responsible AI",
+    "AI assurance",
+    "Model evaluation",
+    "Generative AI",
+    "Agentic AI",
+    "Recommender systems",
+    "Automated content classification",
+    "Trust and safety",
+    "AI governance",
+    "Risk-management frameworks",
+    "Fairness and robustness assessment",
+    "Technical leadership",
+    "Stakeholder influence",
+    "Mentoring",
+    "Technical writing",
+    "External representation"
+  ],
+  "preferred_skills": [
+    "Standards bodies engagement",
+    "Horizon scanning"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead AI/ML programmes for online safety",
+    "Assess AI systems of regulated services",
+    "Shape AI governance and assurance approach",
+    "Technical research and horizon scanning",
+    "Represent Ofcom externally",
+    "Lead and mentor teams"
+  ],
+  "role_category": "ml_systems",
+  "location": "Manchester / London, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

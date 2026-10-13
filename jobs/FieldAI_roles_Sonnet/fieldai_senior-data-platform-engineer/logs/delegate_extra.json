@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization (35% VGG16 speedup, custom kernels)",
+    "Edge AI deployment (Jetson + TensorRT + YOLO, 5.2x speedup on capstone)",
+    "Embedded bare-metal C (STM32 Cortex-M4, FreeRTOS, UART/I2C/SPI)",
+    "ROS2/robotics perception (DH kinematics, MoveIt, visual servoing, ToF sensors)",
+    "ML model optimization (8-bit quantization, ~55% VRAM reduction; YOLO ONNX/TFLite export)"
+  ],
+  "real_gaps": [
+    "Senior-level full-time industry experience (0 years FT, 7 internships)",
+    "Production-scale distributed data platform / data pipeline engineering at enterprise scope",
+    "Enterprise cloud / data infra (AWS/GCP data services) at scale",
+    "Formal safety / functional-safety certification (ISO 26262, safety-critical robotics)"
+  ],
+  "reasoning": "Strong technical overlap in edge/perception/robotics skills (CUDA, TensorRT, YOLO, ROS2, embedded C, Jetson, ML optimization) \u2014 these match the JD's robotics/perception focus well. However, the role is explicitly 'Senior Data Platform Engineer' in perception, requiring production-scale data platform experience and senior-level industry tenure (5+ years inferred from title). Candidate is a new-grad (May 2026) with 0 full-time years. The JD also implies globally deployed production systems; candidate's production-scope experience is personal/research/capstone only. No sponsorship, ITAR, clearance, or citizenship constraints mentioned. No location block (willing to relocate to Irvine, CA). Hard blocker is senior experience gap against senior title; adjacent areas include data platform engineering (some Linux/admin exposure) and leadership (led research team, capstone). Overall: strong skill-adjacent for robotics/perception, but blocked by senior-level experience requirement.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/57ebf22c-7a7d-48ba-ad41-4d0732bc7110",
+  "team": "Perception",
+  "location": "Irvine, CA"
+}

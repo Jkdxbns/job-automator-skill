@@ -1,0 +1,140 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Product Engineer, Sciences",
+  "job_slug": "senior-product-engineer-sciences",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 7,
+    "missing_count": 10,
+    "jd_ask_size": 24,
+    "req_cov": 0.45,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "frontend / UI fundamentals",
+    "backend / web framework",
+    "data-related work",
+    "AI / vision models",
+    "production / deployment basics",
+    "scientific / experimental exposure",
+    "hardware / instrument interfaces"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "full-stack product engineering (independent shipping, end-to-end ownership)",
+      "you_have": "Python/C development; embedded/robotics project delivery (ROS2, Jetson, STM32); capstone/internship scope"
+    },
+    {
+      "jd_skill": "strong backend fundamentals (data processing, integrations)",
+      "you_have": "Python backend basics (Flask); data acquisition; API work"
+    },
+    {
+      "jd_skill": "scientific fluency / bench work or sustained experimental-scientist collaboration",
+      "you_have": "Scientific project exposure via BraTS (medical imaging), microscopy, CanSat; no sustained lab/research collaboration"
+    },
+    {
+      "jd_skill": "data-modeling fundamentals",
+      "you_have": "No direct data-modeling / database design evidence; closest is structured data acquisition and embedded state-machine work"
+    },
+    {
+      "jd_skill": "instrument integrations / experimental data systems",
+      "you_have": "Embedded hardware interfaces (ADC, UART/I2C/SPI, GPIO) \u2014 instrument-level, not scientific-instrument integrations"
+    },
+    {
+      "jd_skill": "practical AI features for inspection / validation / correction",
+      "you_have": "AI vision pipelines (YOLO, object detection) but no user-facing validation/correction tools for AI outputs"
+    },
+    {
+      "jd_skill": "production testing, deployment, monitoring, debugging at org scale",
+      "you_have": "Basic production awareness (systemd, benchmarking) but no org-scale production ownership experience"
+    }
+  ],
+  "missing_skills": [
+    "independently shipping full-stack products from ambiguous problem through sustained production use",
+    "strong frontend engineering (no React/Vue/web production UI evidence; only desktop GUI libraries)",
+    "strong backend / data-modeling engineering at production scale (no DB design, no service architecture evidence)",
+    "product judgment demonstrated by user-facing scope decisions and tradeoffs",
+    "scientific fluency from sustained bench work or long collaboration with experimental scientists (only short project exposure)",
+    "founder / early-stage engineering responsibility (users, architecture, delivery)",
+    "instrument integrations for scientific / lab workflows",
+    "experimental data systems (reviewing complex scientific datasets at scale)",
+    "hands-on org-scale production ownership (testing, deploying, monitoring, debugging over growing usage)",
+    "deployment / monitoring / debugging experience at organization scale"
+  ],
+  "top_ats_keywords": [
+    "Senior Product Engineer",
+    "full-stack",
+    "frontend",
+    "backend",
+    "data-modeling",
+    "data processing",
+    "scientific data",
+    "production",
+    "deployment",
+    "monitoring",
+    "production debugging",
+    "AI-assisted annotation",
+    "processing",
+    "QA",
+    "data models",
+    "integrations",
+    "scientific software",
+    "instrument integrations",
+    "experimental data"
+  ],
+  "required_skills": [
+    "full-stack product engineering (frontend, backend, data-modeling)",
+    "independent shipping of products from ambiguous problem through launch and sustained use",
+    "strong frontend fundamentals",
+    "strong backend fundamentals",
+    "data-modeling fundamentals",
+    "data processing",
+    "integrations",
+    "scientific fluency (bench work or sustained development with experimental scientists)",
+    "product judgment (user needs, scope selection, technical tradeoffs)",
+    "testing / deployment / monitoring / production debugging"
+  ],
+  "preferred_skills": [
+    "scientific software used in everyday laboratory or research work",
+    "founder or early engineering experience (users, architecture, delivery responsibility)",
+    "instrument integrations",
+    "experimental data systems",
+    "tools for reviewing complex datasets",
+    "practical AI features for user inspection, validation and correction of outputs"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Understand scientific/operational workflows, identify important problems, and turn ambiguous needs into product scope",
+    "Design and implement interfaces, backend services, data models and integrations; carry products from prototype to daily use",
+    "Build reliable processing, validation and delivery workflows for complex inputs and changing requirements",
+    "Own production performance: test, deploy, monitor and debug software; improve reliability and operating cost",
+    "Work with engineering and ML specialists on processing, QA and AI-assisted annotation"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

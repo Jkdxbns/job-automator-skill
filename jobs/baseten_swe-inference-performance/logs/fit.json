@@ -1,0 +1,142 @@
+{
+  "company": "Baseten",
+  "company_slug": "baseten",
+  "role": "Software Engineer - Inference Performance",
+  "job_slug": "swe-inference-performance",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 25,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorRT",
+    "quantization",
+    "LLM",
+    "GPU architecture",
+    "profiling",
+    "benchmarking",
+    "CUDA"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "FP8/FP4/AWQ/GPTQ",
+      "you_have": "LLM.int8 8-bit quantization"
+    },
+    {
+      "jd_skill": "Triton/CUTLASS",
+      "you_have": "CUDA C++"
+    },
+    {
+      "jd_skill": "LoRA",
+      "you_have": "Fine-tuned (SLM)"
+    },
+    {
+      "jd_skill": "autoscaling/load balancing",
+      "you_have": "MPI/SLURM"
+    }
+  ],
+  "missing_skills": [
+    "vLLM",
+    "SGLang",
+    "speculative decoding",
+    "KV-cache management",
+    "continuous batching",
+    "chunked prefill",
+    "prefill/decode disaggregation",
+    "guided generation",
+    "request scheduling/routing",
+    "upstream OSS contributions"
+  ],
+  "top_ats_keywords": [
+    "inference",
+    "LLM",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "speculative decoding",
+    "KV-cache",
+    "quantization",
+    "continuous batching",
+    "prefill/decode disaggregation",
+    "CUDA",
+    "Triton",
+    "CUTLASS",
+    "PyTorch",
+    "GPU",
+    "benchmarking",
+    "profiling",
+    "LoRA",
+    "FP8",
+    "AWQ",
+    "GPTQ"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorRT",
+    "TensorRT-LLM",
+    "quantization",
+    "speculative decoding",
+    "continuous batching",
+    "GPU architecture",
+    "LLM"
+  ],
+  "preferred_skills": [
+    "vLLM",
+    "SGLang",
+    "CUDA",
+    "Triton",
+    "CUTLASS",
+    "FP8/FP4",
+    "AWQ",
+    "GPTQ",
+    "autoscaling",
+    "load balancing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "quantization, speculative decoding, KV-cache reuse, chunked prefill, LoRA, guided generation",
+    "profile end to end kernel to scheduler",
+    "tokens per GPU-hour cost",
+    "bring up new models on new hardware",
+    "benchmarking frameworks",
+    "upstream vLLM/SGLang/TRT-LLM"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco; Montreal; New York; Seattle; Toronto (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

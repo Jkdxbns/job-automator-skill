@@ -1,0 +1,108 @@
+{
+  "company": "Cadence",
+  "company_slug": "cadence",
+  "role": "Software Engineer II (AI Systems)",
+  "job_slug": "software-engineer-ii-ai-systems",
+  "match_pct": 28.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 19,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "troubleshooting",
+    "technical documentation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "validate updates don't break functionality",
+      "you_have": "testing and validation"
+    },
+    {
+      "jd_skill": "build/test pipelines",
+      "you_have": "CMake / build systems"
+    },
+    {
+      "jd_skill": "deploy services",
+      "you_have": "systemd and deployment"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "Docker",
+    "cloud deployment",
+    "CI/CD",
+    "GitHub Actions",
+    "Azure DevOps",
+    "Azure",
+    "open-source maintenance",
+    "open-source contributions",
+    "internal package publishing",
+    "dependency patching",
+    "system health monitoring"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "Docker",
+    "CI/CD",
+    "GitHub Actions",
+    "Azure DevOps",
+    "Azure",
+    "open-source",
+    "C++"
+  ],
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "Docker",
+    "cloud deployment",
+    "CI/CD",
+    "open-source software",
+    "codebase troubleshooting"
+  ],
+  "preferred_skills": [
+    "C++",
+    "Azure",
+    "open-source contributions",
+    "internal package publishing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "maintain/update dependencies, patches, security fixes",
+    "support integrations",
+    "maintain CI/CD pipelines",
+    "run containerised cloud services",
+    "package/version/document internal tooling",
+    "monitor system health"
+  ],
+  "role_category": "ml_systems",
+  "location": "Nottingham, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

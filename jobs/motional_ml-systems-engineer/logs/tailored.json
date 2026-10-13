@@ -1,0 +1,89 @@
+{
+  "_meta": { "company": "Motional", "role": "Machine Learning Systems Engineer", "company_slug": "motional", "job_slug": "ml-systems-engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with hands on experience in CUDA kernel optimization, PyTorch model training, and distributed parallel computing on SLURM managed clusters. Built custom CUDA C++ kernels using memory coalescing and constant memory buffers for 1.5-2x inference speedups, and engineered data pipelines for large scale multi modal training workloads. Experienced in GPU performance profiling with pynvml and in analyzing load balancing and scaling behavior across distributed MPI worker pools.",
+  "skills": {
+    "HPC / Parallel Computing": ["CUDA Kernel Optimization", "Memory Coalescing", "MPI", "SLURM Cluster Scheduling", "Load Balancing & Scaling Analysis"],
+    "ML / Deep Learning": ["PyTorch", "Hugging Face Transformers", "8-bit Quantization", "GPU Profiling (pynvml)", "Model Training Pipelines"],
+    "Languages & Systems": ["Python", "C/C++", "CUDA C++", "Linux"],
+    "Tools": ["Git", "JupyterHub"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API, adding domain specific special tokens and resizing decoder embedding layers.",
+        "Fine-tuned a transformer based document understanding model on a custom dataset, improving validation accuracy from 55% to 93% through preprocessing and training tuning."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with batch loading and memory management for large scale 3D volumetric training inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; reported accuracy-latency trade-offs across architectures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Achieved 1.5-2x speedup in convolution operations by replacing TorchScript conv layers with custom CUDA C++ kernels using memory coalescing and constant memory for weights and biases.",
+        "Eliminated per-layer allocation overhead with preallocated global buffers, cutting runtime from 77.5ms (CPU TorchScript) to 49.2ms, a ~35% speedup with identical accuracy."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Achieved up to 10.49x speedup with 12 slave processes by implementing distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM managed cluster.",
+        "Characterized scaling behavior across dendrite counts and compartment depths; identified load imbalance effects causing up to 65% performance degradation under uneven work distribution."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch, including multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a custom training loop with a TikToken based tokenizer, early stopping, and perplexity evaluation; validated text generation quality against training loss."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, profiling peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC, achieving under 1% accuracy degradation with only a +0.09 perplexity increase."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["High Performance Architecture", "Machine Intelligence", "Deep Learning", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

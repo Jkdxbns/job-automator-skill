@@ -1,0 +1,89 @@
+{
+  "company": "Blue River Technology (John Deere)",
+  "company_slug": "blue-river-technology",
+  "role": "Software Engineer, See & Spray",
+  "job_slug": "swe-see-and-spray",
+  "match_pct": 87.5,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 0,
+    "missing_count": 1,
+    "jd_ask_size": 8,
+    "req_cov": 0.909,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Linux",
+    "Git",
+    "Python",
+    "Computer Vision",
+    "Robotics",
+    "Debugging"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Ansible"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Linux",
+    "Bash",
+    "Git",
+    "SSH",
+    "Ansible",
+    "Raspberry Pi",
+    "distributed robotics"
+  ],
+  "required_skills": [
+    "C++",
+    "Linux",
+    "Bash",
+    "Git",
+    "SSH",
+    "Raspberry Pi",
+    "Ansible",
+    "Distributed Systems",
+    "Robotics",
+    "Debugging",
+    "Documentation"
+  ],
+  "preferred_skills": [
+    "Sensor Integration",
+    "Computer Vision",
+    "GPU Computing",
+    "Edge Devices",
+    "Python"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Distributed robotics software in C++ on Linux",
+    "Remote and in-field troubleshooting",
+    "Documentation",
+    "Estimation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Santa Clara, CA (Remote)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "No sponsorship: \"Visa sponsorship: Not available.\""
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

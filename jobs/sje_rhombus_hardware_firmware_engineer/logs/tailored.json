@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "company": "SJE",
+    "role": "Hardware Firmware Engineer",
+    "company_slug": "sje",
+    "job_slug": "hardware_firmware_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate (RIT, May 2026) with hands-on embedded firmware and hardware design experience across STM32 bare-metal, Arduino, and Jetson platforms. Skilled in C/C++ embedded control, schematic/prototype/test cycles, PCB design (EAGLE), and real-time system reliability \u2014 including brown-out detection, ACK/retry protocols, and safety cutoffs.",
+  "skills": {
+    "Embedded Firmware & Hardware": [
+      "STM32 (Bare-Metal C)",
+      "Arduino / Embedded C++",
+      "UART / I2C / SPI",
+      "FreeRTOS",
+      "PWM / Servo Control",
+      "Interrupt-Driven Design"
+    ],
+    "Design & Prototyping": [
+      "Schematic Design",
+      "BOM / Sourcing",
+      "PCB Fabrication (EAGLE)",
+      "Prototyping",
+      "Verification / Validation Testing",
+      "Design Documentation"
+    ],
+    "Embedded Control & Reliability": [
+      "Embedded Control Applications",
+      "Control Panels",
+      "Brown-Out / Safety Cutoffs",
+      "Real-Time Monitoring",
+      "Firmware Architecture",
+      "Debugging / Validation"
+    ],
+    "Project & Collaboration": [
+      "Project Planning / Quoting",
+      "Status Communication",
+      "Cross-Functional Collaboration",
+      "Team Leadership"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Architected a Mixed Reality headset concept integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF motion into HID commands via embedded C.",
+        "Produced full claims documentation and BOM; designed wearable gesture-recognition hardware with custom tap-detection and software calibration."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and embedded C/I2C/UART integration end-to-end.",
+        "Fabricated PCBs in EAGLE; managed sourcing and documentation for 10+ workshops."
+      ]
+    },
+    {
+      "title": "MS Capstone \u2014 Hardware Firmware Engineer (COFFIN)",
+      "company": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2025 \u2013 Apr 2026",
+      "bullets": [
+        "Built embedded voice-controlled robotic arm with STM32 + Arduino C++ control, PWM servo drive, UART protocol, and VL53L0X ToF integration \u2014 validated 10/10 reliability.",
+        "Implemented brown-out reset detection, 3-retry ACK protocol (400 ms timeout), crash-safe logging, and deployed as systemd service with static IP networking."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": "2026",
+      "bullets": [
+        "Built Cortex-M4 embedded C firmware with timer-triggered ADC scans, interrupt-driven I2C display driver, and real-time 1 Hz temperature monitoring at 3.68 KB Flash / 1.58 KB RAM.",
+        "Programmed peripherals directly (GPIO, TIM2, ADC1, I2C1) in bare-metal C; validated in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": "2025",
+      "bullets": [
+        "Integrated YOLOv8 on Jetson with STM32 servo controller over UART; implemented PWM multi-servo control and FreeRTOS mutex coordination.",
+        "Integrated VL53L0X ToF sensor with OLED distance visualization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing",
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize \u2014 Poster Presentation (Image Mosaicing), F.C.R.I.T. 2024; 1st Prize \u2014 CanSat Workshop 2023; 10th \u2014 Robocon 2022"
+  ]
+}

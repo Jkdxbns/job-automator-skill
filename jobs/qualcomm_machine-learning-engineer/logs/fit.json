@@ -1,0 +1,161 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 4,
+    "jd_ask_size": 19,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Machine Learning (PyTorch, Keras, TensorFlow, CUDA)",
+    "Python",
+    "C/C++",
+    "Embedded C/C++ (STM32 bare-metal)",
+    "Edge AI deployment (Jetson + TensorRT + YOLO)",
+    "Linux",
+    "ROS2 / Perception / ASR pipelines",
+    "Quantization / Model optimization",
+    "Low-level OS/Hardware interaction (bare-metal embedded)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Statistics and probability (Bayes, conditional probability)",
+      "you_have": "Random Signal Analysis / Digital Signal Processing courses (B.E.)"
+    },
+    {
+      "jd_skill": "Embedded system optimization + ML application domain",
+      "you_have": "Embedded C/C++ + Edge AI + ASR (multimedia-adjacent)"
+    },
+    {
+      "jd_skill": "Large matrixed organization experience",
+      "you_have": "7 internships across research, embedded, robotics, ML (no full-time enterprise experience)"
+    },
+    {
+      "jd_skill": "Caffe / Caffe2 framework",
+      "you_have": "TensorFlow / PyTorch / Keras (equivalent ML framework experience)"
+    },
+    {
+      "jd_skill": "NLP / Multimedia ML domain experience",
+      "you_have": "ASR pipeline + Speech recognition (multimedia-adjacent NLP)"
+    },
+    {
+      "jd_skill": "QNX / Android OS-level interaction",
+      "you_have": "Linux embedded + Bare-metal C (related OS layer; no direct QNX/Android)"
+    }
+  ],
+  "missing_skills": [
+    "Direct statistics/probability coursework or published application (Bayes, conditional probability)",
+    "Direct Android or QNX OS-level interaction experience",
+    "Caffe / Caffe2 framework experience",
+    "Full-time large-scale matrixed organization experience (0 full-time years)"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Keras",
+    "Caffe",
+    "Embedded system development",
+    "Embedded",
+    "Python",
+    "C++",
+    "C",
+    "Statistics",
+    "Probability",
+    "NLP",
+    "Multimedia",
+    "Linux",
+    "Android",
+    "QNX",
+    "Kernel optimization",
+    "Compiler tools",
+    "Model efficiency",
+    "AI models",
+    "Hardware co-design",
+    "Edge AI"
+  ],
+  "required_skills": [
+    "Machine Learning frameworks (TensorFlow, PyTorch, Keras)",
+    "Embedded system development with ML optimization",
+    "Python / C / C++ programming",
+    "Statistics and probability",
+    "Linux / embedded OS interaction",
+    "Low-level OS/hardware interaction"
+  ],
+  "preferred_skills": [
+    "Master's degree in CS / Engineering",
+    "NLP or multimedia ML domain experience",
+    "Large matrixed organization experience",
+    "Caffe / Caffe2 experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Extend training/runtime ML frameworks with new features/optimizations",
+    "Model/architecture/develop ML hardware co-designed with software",
+    "Develop optimized software (kernels, compiler tools, model efficiency) for AI on hardware",
+    "Apply ML techniques to products and AI solutions",
+    "Develop/prototype ML algorithms, models, frameworks aligned with roadmap"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Diego, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 65,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep hands-on ML framework experience (PyTorch, TensorFlow, Keras, CUDA kernels) backed by custom CUDA C++ VGG16 optimization (35% speedup), 8-bit quantization (~55% VRAM reduction), and ASR pipeline from scratch.",
+      "Strong embedded C/C++ + low-level OS/hardware interaction: bare-metal STM32 (Cortex-M4) with timer-triggered ADC, I2C, UART; Jetson-based edge deployment with systemd, static IP, XRDP.",
+      "Embedded ML optimization directly demonstrated: TensorRT-optimized YOLO (5.2x speedup) on Jetson, edge AI + vision servoing with contact-aware grasping, real-time perception pipelines.",
+      "Programming languages exactly match: Python (full pipeline work), C/C++ (bare-metal, CUDA C++, IK, embedded), plus ROS2 / robotics integration.",
+      "ML model efficiency / compiler-level tools demonstrated: quantization, kernel coalescing, memory coalescing, ONNX/TFLite exports, inference profiling (pynvml)."
+    ],
+    "real_gaps": [
+      "Direct statistics / probability (Bayes, conditional probability) application \u2014 only coursework-level (Random Signal Analysis, Digital Signal Processing); no published statistical modeling or Bayesian inference work.",
+      "No direct Android or QNX OS-level interaction experience; closest is Linux embedded / bare-metal. Qualcomm's core mobile/edge platforms (Snapdragon, Android, QNX in auto) require deeper OS-level familiarity.",
+      "No Caffe / Caffe2 framework experience; profile uses TensorFlow / Keras / PyTorch. Minor framework gap for Qualcomm's internal Caffe-based training/runtime stacks.",
+      "No full-time large-scale matrixed organization experience (0 years full-time; 7 internships/research positions only). Role explicitly asks for 1+ year experience in matrixed orgs."
+    ],
+    "overstated_by_keywords": [
+      "'Statistics and probability' counted as adjacent (coursework only); real depth for Qualcomm's ML hardware co-design roles likely requires applied statistical modeling or Bayesian inference experience, which is absent.",
+      "'Embedded system development + ML optimization' adjacent classification may overstate fit \u2014 profile's embedded work is robotics/perception-focused (ARM, STM32, Jetson), not mobile/edge-optimized Android/Qualcomm-specific embedded optimization."
+    ],
+    "understated_by_keywords": [
+      "Profile's CUDA kernel optimization (custom CUDA C++, coalesced memory, preallocated buffers) and model-efficiency tooling (quantization, profiling) are stronger than the keyword pass suggests for a role focused on 'ML kernels, compiler tools, model efficiency'.",
+      "Real-time embedded ML deployment (systemd service, WebSocket pipeline, multi-device networking) is deeper than 'Linux / low-level interaction' implies; profile owns full-stack deployment, not just scripting."
+    ],
+    "screening_gaps": [
+      "No full-time enterprise / matrixed-organization experience (0 years full-time) \u2014 role asks 1+ year experience in a large matrixed organization; internships/research roles may not satisfy hiring manager expectations for collaboration scale.",
+      "Missing direct Android / QNX OS-level experience \u2014 Qualcomm's core mobile and automotive platforms rely on these; lack of OS-layer interaction with Snapdragon-class hardware is a disqualifying gap for embedded-ML roles targeting Qualcomm's product lines.",
+      "Statistics / probability is coursework-level only (no applied statistical modeling, Bayesian inference, or probability theory projects); for ML framework/model-efficiency roles at Qualcomm, deeper statistical backing is expected."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Profile shows genuine, project-level depth in ML frameworks, CUDA optimization, embedded deployment, and model efficiency \u2014 all core to this Qualcomm ML Engineer role. The entry-level framing ('Works under supervision', '0 required years', new-grad friendly) makes the seniority/alignment fine. The three screening gaps (no full-time matrixed org experience, no Android/QNX OS-level, statistics coursework-only) are real but learnable for an entry-level hire. Keyword score (60%) captures the framework/hardware overlap well; semantic read confirms real depth in ML kernels/optimization but flags the Qualcomm-specific platform (Android/QNX) gap. Apply with awareness of platform-specific gaps.",
+    "calibration_delta": -5.0
+  }
+}

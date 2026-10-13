@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "company": "Zipline",
+    "role": "Embedded Firmware Engineer",
+    "company_slug": "zipline",
+    "job_slug": "embedded_firmware_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds C++ embedded firmware for microcontroller systems, from register-level STM32 bare-metal drivers to FreeRTOS task coordination with mutexes and interrupt-driven serial communication. Experienced implementing peripheral drivers directly against electrical schematics and datasheets, including custom PCB fabrication, I2C multiplexing, and sensor integration, and debugging at the hardware-software boundary with oscilloscopes and logic analyzers. Comfortable across embedded Linux platforms, including NVIDIA Jetson, for real-time system integration.",
+  "skills": {
+    "Embedded": ["STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"],
+    "Languages & Systems": ["C/C++", "Python", "Bash"],
+    "Tools": ["Linux", "Oscilloscopes", "Logic Analyzers", "Proteus", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove integrating ADXL345 accelerometers with a Raspberry Pi and HC-05 Bluetooth to translate hand motion into HID cursor commands.",
+        "Implemented a custom tap detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and firmware integration end to end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate, verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on an NVIDIA Jetson to detect and track objects, sending control commands to an STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided pick-and-place system across a mobile client, edge server, and a Jetson and Arduino controller pair linked by a unified WebSocket fabric.",
+        "Integrated dual VL53L0X ToF sensors (camera range-gate and gripper-triggered close at 25 mm) for contact-aware grasping via a TCA9548A I2C multiplexer.",
+        "Resolved 11 integration failures (false detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at about 11.5 seconds end to end latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Multiple Processor Systems", "High Performance Architecture", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

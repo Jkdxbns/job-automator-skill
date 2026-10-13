@@ -1,0 +1,56 @@
+{
+  "company": "Autonomous Solutions Inc (ASI Robots)",
+  "company_slug": "asi",
+  "role": "Perception Engineer IV (Autonomous Logistics)",
+  "job_slug": "perception_engineer_IV_logistics",
+  "match_pct": 93,
+  "missing_skills": [
+    "Point-cloud processing (PCL)",
+    "LiDAR point-cloud registration/clustering/mapping",
+    "Occupancy grids / free-space detection / semantic mapping",
+    "Kalman filtering / Bayesian estimation / probabilistic robotics sensor fusion",
+    "Docking / pallet / container detection (precision positioning)",
+    "Functional safety principles for autonomous/safety-critical systems",
+    "Industrial/outdoor/warehouse environment validation"
+  ],
+  "adjacent_skills": [
+    "Sensor fusion (have multi-sensor robotics: ToF, camera, kinematics; missing LiDAR/radar/GPS-GNSS/IMU fusion specifically)",
+    "Camera/LiDAR/radar/GPS/inertial sensing (have camera + ToF; no LiDAR/radar/GNSS experience)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "computer vision",
+    "object detection",
+    "object tracking",
+    "sensor fusion",
+    "LiDAR",
+    "point-cloud processing",
+    "Linux",
+    "real-time embedded systems",
+    "GPU optimization",
+    "TensorRT",
+    "CUDA",
+    "simulation/SITL/HITL",
+    "Kalman filtering",
+    "occupancy grids",
+    "calibration",
+    "coordinate transformations"
+  ],
+  "key_responsibilities": [
+    "Lead complex perception features (detection, classification, segmentation, tracking, free-space ID) end-to-end",
+    "Fuse camera/LiDAR/radar/GPS-GNSS/inertial data for environmental modeling",
+    "Own perception architecture and technical design decisions for the platform",
+    "Optimize perception algorithms for embedded CPU/GPU real-time execution",
+    "Lead field-failure troubleshooting, sensor calibration, and validation campaigns",
+    "Mentor other engineers and run design/code reviews"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": "93% keyword match, but this is fundamentally a senior IC/tech-lead role: 'typically eight or more years', architecture ownership, mentoring, design-review leadership. None of that is bridgeable by tailoring -- it's a different job, not a stretch version of the same job. Recommend: skip entirely; not a realistic target pre-graduation.",
+  "notes": "Level IV / senior role requiring 'typically eight or more years' experience and independent technical leadership + mentoring. Justin is an upcoming May 2026 M.S. grad with 0 years full-time experience (7 internships). Keyword overlap is very high (93%) because the role maps tightly onto his CUDA/edge-AI/ROS2/embedded skill set, but the seniority/experience gap is severe (8+ yrs required vs 0 yrs FT) -- this is a Level IV individual-contributor-leadership role, not an entry point. Sponsorship not explicitly addressed in JD; company not in known_sponsors list -- verify before applying."
+}

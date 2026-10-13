@@ -1,0 +1,50 @@
+{
+  "company": "Scale AI",
+  "company_slug": "scaleai",
+  "role": "Frontier Agents Engineer (Applied AI)",
+  "job_slug": "frontier-agents-engineer",
+  "match_pct": 43,
+  "missing_skills": [
+    "production AI agents / agent frameworks (LangChain, LlamaIndex, CrewAI, etc.)",
+    "MCP",
+    "vector databases / RAG / semantic search / knowledge graphs",
+    "8+ years professional software/ML/applied AI experience",
+    "distributed production systems",
+    "AWS/Azure/GCP",
+    "Docker/Kubernetes/CI/CD",
+    "direct enterprise customer engagement",
+    "OpenAI/Claude API production integration"
+  ],
+  "adjacent_skills": [
+    "ML fundamentals / transformer models (PyTorch, TensorFlow, Hugging Face Transformers)",
+    "small language model fine-tuning and quantization (TinyLlama, GPT-2, LLM.int8, 8-bit quantization)",
+    "quantitative model evaluation (Dice, PSNR, IoU, WER) \u2014 CV/ASR domain, not agent evals",
+    "multimodal AI (VisionEncoderDecoder, DONUT document model)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "LLMs",
+    "agent frameworks",
+    "MCP",
+    "RAG",
+    "vector databases",
+    "production AI systems",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "key_responsibilities": [
+    "Design and deploy production AI agents combining LLMs, retrieval, memory, tool use",
+    "Build evaluation frameworks for LLM/agentic systems (offline benchmarks, A/B, LLM-as-judge)",
+    "Own full experimentation lifecycle from hypothesis to production rollout",
+    "Partner directly with enterprise customers on production deployments",
+    "Design agent guardrails, tracing, monitoring for high-stakes environments"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

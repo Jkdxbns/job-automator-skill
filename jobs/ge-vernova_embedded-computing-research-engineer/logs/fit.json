@@ -1,0 +1,214 @@
+{
+  "company": "GE Vernova",
+  "company_slug": "ge-vernova",
+  "role": "Embedded Computing Research Engineer - Embedded Systems",
+  "job_slug": "embedded-computing-research-engineer",
+  "match_pct": 44.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 7,
+    "missing_count": 20,
+    "jd_ask_size": 42,
+    "req_cov": 0.639,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Linux",
+    "Python",
+    "microcontrollers",
+    "SPI",
+    "I2C",
+    "UART",
+    "RTOS",
+    "hardware debugging",
+    "Git",
+    "embedded lifecycle",
+    "HIL testing",
+    "networking",
+    "Python test automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "networking / serial protocols"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "serial protocols (UART/SPI/I2C)"
+    },
+    {
+      "jd_skill": "memory management",
+      "you_have": "C/C++ embedded"
+    },
+    {
+      "jd_skill": "multithreading",
+      "you_have": "MPI / RTOS tasks"
+    },
+    {
+      "jd_skill": "SMP/AMP",
+      "you_have": "MPI multiprocessor"
+    },
+    {
+      "jd_skill": "RTOS scheduling",
+      "you_have": "RTOS coursework"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux / Jetson"
+    }
+  ],
+  "missing_skills": [
+    "Modbus",
+    "DNP3",
+    "OPC UA",
+    "IEC 61850",
+    "MQTT",
+    "BACnet",
+    "Protocol Buffers",
+    "JSON",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "GitHub Actions",
+    "secure boot",
+    "IEC 62443",
+    "JavaScript",
+    "TypeScript",
+    "FPGA",
+    "Verilog",
+    "industrial control/PLC",
+    "1+ yr professional embedded"
+  ],
+  "top_ats_keywords": [
+    "embedded",
+    "firmware",
+    "C/C++",
+    "RTOS",
+    "Linux",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "Ethernet",
+    "Modbus",
+    "MQTT",
+    "Docker",
+    "Kubernetes",
+    "HIL",
+    "Python",
+    "CI/CD",
+    "GitHub Actions",
+    "cybersecurity",
+    "FPGA"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "Ethernet",
+    "Modbus",
+    "DNP3",
+    "OPC UA",
+    "MQTT",
+    "JSON",
+    "Linux",
+    "RTOS",
+    "embedded lifecycle",
+    "HIL testing",
+    "1+ yr professional embedded"
+  ],
+  "preferred_skills": [
+    "RTOS scheduling",
+    "Docker",
+    "Kubernetes",
+    "Python",
+    "CI/CD",
+    "GitHub Actions",
+    "Jenkins",
+    "multithreading",
+    "networking",
+    "secure boot",
+    "IEC 62443",
+    "JavaScript",
+    "TypeScript",
+    "FPGA",
+    "Verilog",
+    "SMP/AMP",
+    "memory management"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "edge/embedded firmware C/C++",
+    "HIL test automation",
+    "prototype-to-product transition",
+    "secure-by-design"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Niskayuna, NY (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded C/C++ on MCUs and peripherals: Object Tracking Turret (STM32 over UART, interrupt-driven UART, multi-servo PWM) and COFFIN (VL53L0X ToF via TCA9548A I2C mux, Arduino C++ IK)",
+      "RTOS: FreeRTOS tasks with mutexes for shared-memory coordination in the turret, plus CMPE 663 RTOS coursework",
+      "Linux and edge deployment: Jetson systemd service with auto-restart and non-root isolation, static IP, WebSocket fabric across three devices",
+      "Hardware debug: oscilloscope and logic analyzer, 11 integration failures resolved in COFFIN",
+      "Python tooling and a fixed-point/golden-vector verification flow (QAT project exports int8 weights and 100 golden test vectors)"
+    ],
+    "real_gaps": [
+      "Zero industrial protocol exposure: Modbus, DNP3, OPC UA, IEC 61850, MQTT, BACnet",
+      "No CAN or Ethernet driver-level work in the profile",
+      "No Docker, Kubernetes, Jenkins or GitHub Actions",
+      "No embedded security: secure boot, crypto primitives, IEC 62443 / NIST 800-82",
+      "No FPGA/Verilog/Vivado and no clock-domain or timing-closure work",
+      "No PLC / grid / energy domain",
+      "No proposals, technical reports or government-program experience; 0 years full-time (internships and capstone only)",
+      "No real HIL framework or automated test-plan ownership on record"
+    ],
+    "overstated_by_keywords": [
+      "HIL testing: no hardware-in-the-loop framework in the profile, only bench testing of own hardware",
+      "embedded lifecycle and Python test automation: requirements-to-verification ownership is capstone scale, not product scale",
+      "networking: static IP and WebSockets, not Ethernet stack or industrial networking"
+    ],
+    "understated_by_keywords": [
+      "QAT project (int8 .mem export plus golden vectors) shows a testbench-style verification habit relevant to the FPGA verification line, though no HDL",
+      "Multiprocessing and MPI back the SMP/concurrency ask only loosely"
+    ],
+    "screening_gaps": [
+      "No industrial protocol stack experience (Modbus/DNP3/OPC UA/MQTT), the center of the JD's required list",
+      "0 years full-time against a stated minimum of 1 year professional embedded experience",
+      "No CI/CD, Docker, or embedded security evidence for the secure-by-design and edge-to-cloud asks"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded C/C++, RTOS and peripheral skills are genuinely backed, so this is not a wrong-domain role. The industrial and OT protocol layer, security and CI/CD are all unevidenced, and the research-program framing favors someone with prior professional years. Plausible as a stretch application, not a strong one.",
+    "calibration_delta": -2.0
+  },
+  "semantic_pending": false
+}

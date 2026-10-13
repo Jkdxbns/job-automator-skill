@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "company": "Mecka AI",
+    "role": "Robotics Systems Engineer",
+    "company_slug": "mecka-ai",
+    "job_slug": "robotics-systems-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. I build and debug robotics systems end to end: a voice-controlled Jetson and Arduino robotic arm with TensorRT YOLO perception, kinematics and SE(3) coordinate-transform tooling, and closed-loop control on encoder odometry. Strong Python and C++ on Linux, with 11 integration failures diagnosed and resolved across software, electronics and sensors through systematic hardware debugging.",
+  "skills": {
+    "Robotics & Control": [
+      "Kinematics and coordinate transforms (DH parameters, SE(3))",
+      "Control loops (closed-loop feedback)",
+      "Robot interfaces",
+      "Quadrature Encoders",
+      "Odometry (Dead Reckoning)",
+      "PWM Motor Control",
+      "Visual servoing",
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Linux",
+      "Bash"
+    ],
+    "Perception / ML": [
+      "PyTorch",
+      "YOLO",
+      "TensorRT",
+      "OpenCV",
+      "faster-whisper"
+    ],
+    "Embedded & Hardware": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "Raspberry Pi",
+      "UART/I2C/SPI",
+      "EAGLE PCB Design",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Deployment": [
+      "systemd service management (unit files, auto-restart, non-root isolation)",
+      "Static IP / network configuration"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system (hardware and software integration): Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller on a WebSocket fabric.",
+        "Integrated perception and machine-learning models into the running robot: TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms) for visual servoing, faster-whisper STT (1.0\u20131.4s), and dual VL53L0X ToF sensors (gripper close at 25 mm) via a TCA9548A I2C mux.",
+        "Diagnosed and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through hardware debugging; evaluated 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection.",
+        "Deployed the Jetson arm bridge as a systemd service (auto-restart with backoff, non-root isolation, environment-file config) with static IP networking for reliable multi-device registration."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Frame Simulator \u2014 Desktop 3D Coordinate-Frame Visualizer",
+      "date": "Oct 2025",
+      "bullets": [
+        "Built a PySide6/OpenGL desktop tool with a custom SE(3) math engine for composing parent-child coordinate-frame transforms and inspecting live 4x4 matrices per frame."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a 4-wheel holonomic robot on Arduino Due: derived actual heading from dual-axis quadrature encoder odometry (2400 CPR, 2.9 cm wheels) and fed angular error back into rotation PWM, holding course during translation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

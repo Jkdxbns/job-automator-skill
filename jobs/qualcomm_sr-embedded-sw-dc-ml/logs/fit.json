@@ -1,0 +1,176 @@
+{
+  "company": "Qualcomm",
+  "company_slug": "qualcomm",
+  "role": "Senior Embedded Software Engineer (Cloud Edge & Data Center Machine Learning)",
+  "job_slug": "sr-embedded-sw-dc-ml",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 10,
+    "missing_count": 14,
+    "jd_ask_size": 38,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "Git",
+    "Python",
+    "RTOS",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "PyTorch",
+    "interrupts",
+    "timers",
+    "logic analyzers",
+    "JTAG/SWD debugging",
+    "profilers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux/BeagleBone exposure"
+    },
+    {
+      "jd_skill": "unit testing for C",
+      "you_have": "testing and validation"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal peripheral programming"
+    },
+    {
+      "jd_skill": "board bring-up",
+      "you_have": "STM32 bare-metal"
+    },
+    {
+      "jd_skill": "SoC architecture",
+      "you_have": "Cortex-M4"
+    },
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "Llama.cpp",
+      "you_have": "TinyLlama/LLM inference"
+    },
+    {
+      "jd_skill": "PMBus/SPMI/AVSBus",
+      "you_have": "I2C"
+    },
+    {
+      "jd_skill": "multi-threaded programming",
+      "you_have": "MPI/FreeRTOS"
+    },
+    {
+      "jd_skill": "emulators",
+      "you_have": "hardware debugging"
+    }
+  ],
+  "missing_skills": [
+    "BSP",
+    "secure boot",
+    "TrustZone",
+    "PCIe",
+    "DMA",
+    "LPDDR",
+    "UFS",
+    "RAS/ECC",
+    "QuRT",
+    "Glink",
+    "QDSS",
+    "DVFS/DCVS",
+    "clock tree management",
+    "Gerrit"
+  ],
+  "top_ats_keywords": [
+    "Embedded C",
+    "Git",
+    "Python",
+    "BSP",
+    "RTOS",
+    "TrustZone",
+    "secure boot",
+    "PCIe",
+    "DMA",
+    "I2C",
+    "SPI",
+    "UART",
+    "JTAG",
+    "device driver"
+  ],
+  "required_skills": [
+    "C",
+    "embedded C",
+    "JTAG/SWD debugging",
+    "BSP",
+    "device drivers",
+    "board bring-up",
+    "RTOS",
+    "secure boot",
+    "TrustZone",
+    "embedded Linux",
+    "unit testing",
+    "SoC architecture",
+    "multi-threaded programming",
+    "Git/Gerrit",
+    "DMA",
+    "PCIe",
+    "I2C/SPI/UART",
+    "clock tree management"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "JAX",
+    "Llama.cpp",
+    "LPDDR",
+    "USB",
+    "UFS",
+    "RAS/ECC",
+    "SPMI",
+    "AVSBus",
+    "PMBus",
+    "QuRT",
+    "Glink",
+    "QDSS",
+    "DVFS/DCVS",
+    "interrupt controller",
+    "timers",
+    "profilers",
+    "logic analyzers",
+    "emulators"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "firmware for cloud edge/data center ML silicon",
+    "ML acceleration, process in memory, memory management, virtualization"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

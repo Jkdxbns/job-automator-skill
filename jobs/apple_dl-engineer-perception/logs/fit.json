@@ -1,0 +1,73 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Deep Learning Engineer - Perception Algorithms",
+  "job_slug": "dl-engineer-perception",
+  "location": "Sunnyvale, CA",
+  "remote_ok": false,
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": true,
+  "clearance_required": false,
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "role_category": "edge_ai_robotics",
+  "match_pct": 87,
+  "have_skills": [
+    "deep learning",
+    "object detection (YOLOv8/YOLO11n)",
+    "semantic segmentation (U-Net)",
+    "image classification",
+    "PyTorch",
+    "Python",
+    "C/C++",
+    "real-time inference (TensorRT ~18 FPS)",
+    "low-power/edge deployment (Jetson + TFLite)",
+    "data curation & annotation (YOLOv8 dataset at Tusk; CARLA pipeline)",
+    "model benchmarking & accuracy-latency tradeoffs"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "panoptic segmentation",
+      "have": "semantic segmentation (U-Net, CARLA)"
+    },
+    {
+      "jd_term": "vision-language models / CLIP",
+      "have": "VisionEncoderDecoder (IIT Bombay); Gemini intent classification"
+    }
+  ],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "deep learning",
+    "object detection",
+    "semantic segmentation",
+    "PyTorch",
+    "real-time inference",
+    "on-device",
+    "TensorRT",
+    "perception",
+    "data curation",
+    "computer vision",
+    "image understanding",
+    "C/C++",
+    "model optimization"
+  ],
+  "key_responsibilities": [
+    "Data curation for perception task training and evaluation sets",
+    "Research, design, train, and evaluate ML/DL algorithms for scene understanding",
+    "Benchmark and analyze algorithms to understand limitations",
+    "Optimize for real-time and low-power constraints",
+    "Support algorithm integration into Apple products"
+  ],
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "constraint_flags": {
+    "sponsorship": "Apple is a known H1B sponsor \u2014 no red-flag phrases in JD",
+    "experience": "JD requires 3 yrs full-time; Justin has 0 FT + 7 internships \u2014 soft gap, below 4-yr hard threshold",
+    "location": "Sunnyvale CA \u2014 willing to relocate",
+    "clearance": "None required"
+  },
+  "hard_blocker_triggered": false,
+  "date_analyzed": "2026-06-05"
+}

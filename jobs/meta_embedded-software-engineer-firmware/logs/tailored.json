@@ -1,0 +1,74 @@
+{
+  "_meta": { "company": "Meta", "role": "Embedded Software Engineer, Firmware", "company_slug": "meta", "job_slug": "embedded-software-engineer-firmware" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on embedded software development and firmware experience across STM32 microcontrollers, NVIDIA Jetson, and Raspberry Pi. Builds bare-metal C/C++ device drivers and peripheral firmware (UART, SPI, I2C, GPIO, Bluetooth) alongside FreeRTOS task coordination for real-time embedded systems. Integrates computer vision and ML inference (CUDA, TensorRT, YOLO) into embedded pipelines, with additional depth in Linux systemd service management and TCP/IP networking for headless device deployment.",
+  "skills": {
+    "Embedded & Firmware": ["C/C++", "STM32 microcontrollers", "bare-metal firmware", "FreeRTOS (RTOS)", "UART", "SPI", "I2C", "GPIO", "device drivers", "Bluetooth", "interrupt-driven programming"],
+    "Systems & Networking": ["TCP/IP networking", "systemd service management", "Linux", "static IP configuration"],
+    "Compute & Vision": ["CUDA", "TensorRT", "computer vision (YOLO)"],
+    "Tools": ["Git", "CMake", "Python", "EAGLE PCB Design"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition device for hands-free cursor control, integrating ADXL345 accelerometer sensors with Raspberry Pi and HC-05 Bluetooth microcontroller firmware to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through firmware-level calibration and resolution tuning on embedded microcontroller hardware."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 microcontroller temperature-monitoring firmware in bare-metal C, with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C device driver on STM32 microcontroller hardware.",
+        "Programmed peripherals directly in bare-metal C/C++ (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 computer vision on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 microcontroller over UART device-driver-level serial communication.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override on bare-metal embedded C firmware.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via a TCA9548A I2C multiplexer device driver, alongside TensorRT-optimized YOLO computer vision (5.2× speedup: 56.7→10.9 ms) for visual servoing.",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart, non-root isolation) with static IP TCP/IP networking for reliable multi-device WebSocket registration; configured XRDP for remote embedded device administration."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Machine Intelligence", "Deep Learning", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Image Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

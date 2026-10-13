@@ -1,0 +1,67 @@
+{
+  "company": "scalr (early-stage AI research startup \u2014 unnamed)",
+  "company_slug": "scalr",
+  "role": "AI/Research Engineer",
+  "job_slug": "ai-engineer",
+  "match_pct": 72,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "deep learning",
+    "ML/AI fundamentals",
+    "model evaluation",
+    "Hugging Face Transformers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_wants": "LLM training / fine-tuning",
+      "you_have": "fine-tuned GPT-2, TinyLlama; HuggingFace Transformers; tokenization"
+    },
+    {
+      "jd_wants": "Distributed training / inference infra",
+      "you_have": "SLURM, MPI (HPC); TensorRT inference; CUDA kernels"
+    },
+    {
+      "jd_wants": "Evaluation frameworks / reasoning",
+      "you_have": "GSM8K, HellaSwag benchmarks; model evaluation in profile"
+    }
+  ],
+  "missing_skills": [
+    "RLHF / DPO / reward modeling",
+    "Synthetic data generation",
+    "Agentic AI workflows"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "LLM",
+    "fine-tuning",
+    "RLHF",
+    "DPO",
+    "distributed training",
+    "inference",
+    "post-training",
+    "evaluation"
+  ],
+  "key_responsibilities": [
+    "LLM post-training and fine-tuning",
+    "RLHF / DPO / reward modeling",
+    "Synthetic data generation",
+    "Evaluation frameworks and reasoning systems",
+    "Distributed training and inference infrastructure",
+    "Agentic AI workflows and production deployments"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraints": {
+    "sponsorship": "HIGH RISK \u2014 early-stage startup via staffing firm (scalr); not on known_sponsors list; no explicit no-sponsorship phrase but small startups rarely sponsor H1B",
+    "experience": "MISMATCH \u2014 Mid-Senior level, 80-220k salary range signals 3-5+ years expected",
+    "location": "FLAG \u2014 5 days onsite in San Francisco only; full Bay Area relocation required",
+    "clearance": "CLEAR",
+    "notice": "4 weeks, EAD pending"
+  },
+  "hard_blocker_triggered": false
+}

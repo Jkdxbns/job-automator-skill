@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "company": "Zoox",
+    "role": "Perception Deployment Engineer - Model Deployment & Optimization",
+    "company_slug": "zoox",
+    "job_slug": "perception-deployment-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology. Cut TinyLlama 1.1B LLM GPU memory ~55% with 8-bit quantization at <1% accuracy loss, trained a quantization-aware model to 97.43% integer-only accuracy, and sped up YOLO 5.2× with TensorRT on Jetson. Wrote custom CUDA C++ kernels and fine-tuned transformers in PyTorch.",
+  "skills": {
+    "Model Optimization & Deployment": [
+      "Quantization (8-bit)",
+      "QAT",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "LLM",
+      "Model evaluation",
+      "pynvml Profiling",
+      "Edge AI",
+      "NVIDIA Jetson"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Bash",
+      "Memory coalescing",
+      "Kernel optimization"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Transformer",
+      "YOLO",
+      "OpenCV",
+      "NumPy"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy of a fine-tuned DONUT (OCR-free visual document understanding transformer) from 55% to 93% on a custom medical billing dataset through improved preprocessing and model tuning.",
+        "Built PyTorch training pipelines with the HuggingFace VisionEncoderDecoder API; added special tokens and resized the decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B LLM, with <1% accuracy degradation and +0.09 perplexity across HellaSwag, GSM8K, and ARC.",
+        "Ran latency benchmarking of peak VRAM and inference latency across prompt types with pynvml and psutil."
+      ]
+    },
+    {
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "date": "May 2026",
+      "bullets": [
+        "Implemented quantization-aware training (QAT) in PyTorch for a bias-free 256-64-10 MLP using straight-through-estimator fake quantization, int8 per-layer symmetric weights, and uint8 activations; integer-only inference reaches 97.43% on the 10,000-image MNIST test set at 16×16.",
+        "Calibrated the hidden-activation scale with an EMA observer and froze it for the final 25% of training so weights adapt to the deployed scale; folded it into a fixed-point requantization multiplier and shift.",
+        "Built a pure-integer reference model and exported int8 weights, scales, and 100 golden test vectors; fixed-point requantization matches the float reference on 99.996% of hidden values."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory, and preallocated global buffers; coalesced kernel ran 49.2 ms vs 73.3 ms uncoalesced and 77.5 ms CPU TorchScript (~35% faster than naive GPU) with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO for visual servoing on Jetson: 5.2× speedup (56.7→10.9 ms, 17.6→92 FPS) over eager PyTorch, within a Flutter, Flask-SocketIO, and Jetson+Arduino voice-controlled pick-and-place pipeline; 100% pick reliability (10/10 trials)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

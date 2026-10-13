@@ -1,0 +1,163 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Perception & Sensor Fusion Engineer",
+  "job_slug": "perception-sensor-fusion-engineer",
+  "match_pct": 59.1,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 2,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.769,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "Object detection",
+    "Computer vision",
+    "Tracking",
+    "Sensor fusion",
+    "Machine learning",
+    "PyTorch",
+    "Autonomous systems",
+    "Robotics",
+    "Perception",
+    "Production deployment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Visual tracking",
+      "you_have": "Visual servoing"
+    },
+    {
+      "jd_skill": "Multimodal fusion",
+      "you_have": "Sensor fusion experience via autonomous systems"
+    }
+  ],
+  "missing_skills": [
+    "LiDAR",
+    "Radar",
+    "Sonar",
+    "State estimation",
+    "Sensor cueing",
+    "Camera control systems",
+    "Multi-sensor calibration",
+    "Active perception frameworks"
+  ],
+  "top_ats_keywords": [
+    "object detection",
+    "tracking",
+    "computer vision",
+    "sensor fusion",
+    "machine learning",
+    "PyTorch",
+    "autonomous systems",
+    "robotics",
+    "perception algorithms",
+    "state estimation",
+    "multimodal fusion",
+    "LiDAR",
+    "radar",
+    "sonar",
+    "production deployment"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "Perception algorithms",
+    "Computer vision",
+    "Sensor fusion",
+    "Tracking algorithms",
+    "Robotics algorithms",
+    "Real sensor data experience",
+    "Object detection",
+    "Multi-object tracking",
+    "State estimation",
+    "Machine learning for perception",
+    "Production system integration"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "Modern ML framework",
+    "Multimodal fusion",
+    "Cameras",
+    "Radar",
+    "LiDAR",
+    "Sonar",
+    "Active perception",
+    "Sensor cueing",
+    "Visual tracking",
+    "Camera control",
+    "Autonomous vehicles deployment",
+    "Robotics systems deployment",
+    "Aerospace systems deployment"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop perception and sensor-fusion algorithms combining observations from multiple sensor modalities",
+    "Develop and evaluate algorithms for object detection, classification, tracking, and estimation",
+    "Train, evaluate, and deploy machine-learning models",
+    "Develop algorithms that use information from one sensor to guide or cue another sensor, including PTZ cameras",
+    "Analyze real-world sensor data to identify failures, edge cases, and opportunities",
+    "Integrate perception outputs with production software and cloud applications",
+    "Validate and continuously improve perception capabilities using real operational data"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Strong object detection and computer vision foundation: trained YOLOv8 across 4 projects (TUSK 83% mAP, COFFIN visual servoing, Tracking Turret, CARLA autonomous driving 0.85 mAP50) with production optimization",
+      "Proven production deployment of perception systems: deployed TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms), Flask-SocketIO edge servers, and systemd services on Jetson with real sensor integration",
+      "Active sensing demonstrated: COFFIN capstone integrated dual VL53L0X ToF sensors with YOLO for contact-aware grasping, showing sensor-guided actuation and real-world integration complexity",
+      "Practical machine learning for perception: fine-tuned U-Net segmentation (VGG/ResNet backbones), trained custom ASR models, deployed ONNX/TFLite exports; extensive PyTorch and TensorRT optimization",
+      "Real-world perception and debugging: metal surface crack detection with wavelet denoising, autonomous driving with 30 vehicles+10 pedestrians (zero collisions), resolved 11 COFFIN integration failures (false positives, servo brownout, frame capture)"
+    ],
+    "real_gaps": [
+      "No LiDAR, radar, or sonar experience\u2014critical for maritime sensor fusion; profile limited to camera and ToF sensing only",
+      "State estimation theory not demonstrated\u2014Robot Perception course listed but Kalman filtering, particle filters, or probabilistic tracking frameworks not evidenced; tracking relies on empirical YOLO frame-to-frame detection",
+      "Active perception framework narrowly scoped\u2014COFFIN's ToF+gripper is tactical actuator control, not general sensor orchestration; no PTZ camera control, multi-sensor cueing, or mission-level sensor coordination demonstrated"
+    ],
+    "overstated_by_keywords": [
+      "Multimodal fusion: marked adjacent but profile shows only vision + ToF (2 modalities), not the maritime suite (cameras, radar, LiDAR, sonar) Saildrone emphasizes",
+      "Sensor cueing: counted as adjacent but demonstrated only for single-actuator control, not the broader mission-operator-facing sensor direction and camera control in JD responsibilities"
+    ],
+    "understated_by_keywords": [
+      "Integration and debugging depth: COFFIN resolved 11 failures across false-positive detections, servo brownout, and stale-frame capture\u2014demonstrates real-world robustness thinking beyond algorithm development",
+      "TensorRT optimization at production scale: 5.2\u00d7 speedup on YOLO shows latency-critical perception thinking aligned with edge AI demands in autonomous systems",
+      "Distributed perception architecture: multi-layer pipeline (Flutter client \u2192 Flask-SocketIO \u2192 Jetson+Arduino via WebSocket) demonstrates systems thinking and production integration complexity"
+    ],
+    "screening_gaps": [
+      "No LiDAR/radar/sonar sensor experience\u2014Saildrone explicitly combines cameras, radar, LiDAR, sonar; maritime domain demands sensor modalities absent from profile",
+      "Formal state estimation theory missing\u2014no Kalman filters, particle filters, or probabilistic tracking frameworks demonstrated; empirical YOLO tracking insufficient for robust multi-object tracking in noisy maritime environments",
+      "Narrow active perception scope\u2014ToF+gripper is single-actuator; JD requires general sensor orchestration and PTZ camera cueing at mission-operator scale"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin has strong computer vision, object detection, and production perception deployment skills backed by multiple capstone and industry projects. Sensor fusion experience exists but is limited to vision+ToF, not the full maritime sensor suite Saildrone emphasizes. State estimation theory is a gap\u2014his tracking is empirical (YOLO frame-to-frame), not probabilistic. These gaps are real but not disqualifying if he learns LiDAR/radar APIs quickly and formalizes state estimation during onboarding. Role aligns with robotics+perception foundation; risk is sensor modality narrowness and theory depth.",
+    "calibration_delta": -7.9
+  }
+}

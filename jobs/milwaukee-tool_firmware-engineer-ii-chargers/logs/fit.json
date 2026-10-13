@@ -1,0 +1,113 @@
+{
+  "company": "Milwaukee Tool",
+  "company_slug": "milwaukee-tool",
+  "role": "Firmware Engineer II - Chargers",
+  "job_slug": "firmware-engineer-ii-chargers",
+  "match_pct": 42.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 1,
+    "missing_count": 11,
+    "jd_ask_size": 20,
+    "req_cov": 0.769,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded C/C++",
+    "Real-time embedded firmware",
+    "Oscilloscopes",
+    "Data acquisition",
+    "Bare-metal C/C++",
+    "PCB design CAD",
+    "Master's degree",
+    "Software configuration management"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Automated testing",
+      "you_have": "simulation/benchmark scripting"
+    }
+  ],
+  "missing_skills": [
+    "LabVIEW",
+    "TestStand",
+    "National Instruments hardware",
+    "Hardware in the loop",
+    "CI/CD",
+    "DevOps",
+    "Unit testing",
+    "Defect tracking",
+    "Power supplies",
+    "Electronic loads",
+    "UL/CE/ANSI regulatory"
+  ],
+  "top_ats_keywords": [
+    "embedded C/C++",
+    "LabVIEW",
+    "TeststandNI",
+    "HIL",
+    "CI/CD",
+    "DevOps",
+    "unit testing",
+    "oscilloscopes",
+    "data acquisition",
+    "bare-metal",
+    "PCB",
+    "UL",
+    "CE",
+    "ANSI",
+    "defect tracking"
+  ],
+  "required_skills": [
+    "Embedded C/C++",
+    "Real-time embedded firmware",
+    "Unit testing",
+    "Automated testing",
+    "Hardware in the loop",
+    "CI/CD",
+    "Software configuration management",
+    "Defect tracking",
+    "Oscilloscopes",
+    "Power supplies",
+    "Electronic loads",
+    "Data acquisition",
+    "Test plans"
+  ],
+  "preferred_skills": [
+    "Bare-metal C/C++",
+    "PCB design CAD",
+    "Master's degree"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design/test embedded firmware for chargers",
+    "Test plans",
+    "Lab equipment",
+    "UL/CE/ANSI qualification"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Brookfield, WI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

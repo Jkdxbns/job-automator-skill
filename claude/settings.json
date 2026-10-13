@@ -1,0 +1,147 @@
+{
+  "cleanupPeriodDays": 36500,
+  "permissions": {
+    "allow": [
+      "Read(//home/jkdxbns/.claude/skills/job-automator/**)",
+      "Bash(python scripts/extract_profile.py references/resume.docx)",
+      "Bash(python scripts/generate_pdf.py ~/job_search/motorola-solutions_embedded-software-engineer_tailored.json ~/resumes/)",
+      "Bash(python scripts/scrape_linkedin.py \"https://www.linkedin.com/in/aneesh-gurram-a20227165/\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python scripts/print_draft.py ~/job_search/motorola-solutions_embedded-software-engineer_outreach.json)",
+      "Read(//home/jkdxbns/resumes/**)",
+      "Bash(pwd)",
+      "Read(//tmp/**)"
+    ],
+    "deny": [
+      "mcp__gworkspace__send_gmail_message",
+      "mcp__gworkspace__manage_gmail_label",
+      "mcp__gworkspace__modify_gmail_message_labels",
+      "mcp__gworkspace__batch_modify_gmail_message_labels",
+      "mcp__gworkspace__manage_gmail_filter"
+    ],
+    "defaultMode": "auto"
+  },
+  "model": "opus",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/protect_resumes.py",
+            "timeout": 10,
+            "statusMessage": "Checking for protected-file deletion"
+          },
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/gate_resume_build.py",
+            "timeout": 10,
+            "statusMessage": "Checking fit verdict before resume build"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/lint_skill_on_edit.py",
+            "timeout": 25,
+            "statusMessage": "Linting edited SKILL.md"
+          }
+        ]
+      }
+    ]
+  },
+  "worktree": {
+    "baseRef": "fresh"
+  },
+  "enableWorkflows": true,
+  "enabledPlugins": {
+    "skill-creator@anthropic-plugin-directory": true,
+    "superpowers@anthropic-plugin-directory": true,
+    "learn-with-coursera@anthropic-plugin-directory": true,
+    "cc-plugin-you-should-know@builtin": false
+  },
+  "extraKnownMarketplaces": {},
+  "syntaxHighlightingDisabled": true,
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-opus-5": {
+      "effortLevel": "high"
+    },
+    "claude-sonnet-5": {
+      "effortLevel": "medium"
+    },
+    "thinkingmachines/inkling:free": {
+      "effortLevel": "high"
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b:free": {
+      "effortLevel": "high"
+    },
+    "claude-haiku-4-5": {
+      "effortLevel": "medium"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "high"
+    },
+    "claude-sonnet-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "askUserQuestionTimeout": "never",
+  "dialogExpiry": "never",
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "timeFormat": "auto",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "editorMode": "normal",
+  "verbose": false,
+  "preferredNotifChannel": "kitty",
+  "autoCompactEnabled": true,
+  "switchModelsOnFlag": false,
+  "remoteControlAtStartup": false,
+  "agentPushNotifEnabled": false,
+  "useAutoModeDuringPlan": true,
+  "autoMode": {
+    "soft_deny": [
+      "$defaults",
+      "Bash(rm:.tex,.pdf,.docx artifacts in home directory without confirmation)"
+    ],
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: Not queryable here (no git remotes configured in this working directory; tracked file count is 0) — assume private until a remote is added",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: None configured",
+      "**Default / protected branches**: Not queryable here (no origin remote; default branch unset)",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Host containment**: None configured — assume Claude Code runs on an ordinary developer machine with open internet",
+      "**Source control**: The trusted repo and its remote(s) only (no additional orgs configured) — no remotes are currently configured in this working directory",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: any file or store holding personal data, confidential business data, credentials, regulated data, or similarly sensitive material; preserve exact handles when known and share only with audiences cleared at the [named+specifics] bar — note: this home directory contains multiple credential-shaped paths (e.g. .claude/.credentials.json, .config/claude-pa/credentials.json, .config/gcal/credentials.json, .hermes/.env and related hermes-agent credential/secrets modules, backup/fedora-backup/secrets.tar.gpg) that should never be read into chat, committed, or transmitted",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "### User-specific",
+      "**Primary use of Claude Code**: software development, personal assistant automation (Google Workspace), job-application pipeline automation, and local meeting-copilot tooling, per ~/.claude/CLAUDE.md and installed skills",
+      "**Trusted repo**: No git repository is currently active in this working directory (0 tracked files, no remotes) — there is nothing to scope commit/push trust to yet; treat any future repo here as needing its own visibility check before pushing",
+      "**Org-specific CLIs**: None configured",
+      "**Routine under jkdxbns/ prefix**: N/A — no evidence of an org or username-scoped routine path beyond the personal home directory (/home/jkdxbns) and ~/.claude skill tooling"
+    ]
+  },
+  "voiceEnabled": true
+}

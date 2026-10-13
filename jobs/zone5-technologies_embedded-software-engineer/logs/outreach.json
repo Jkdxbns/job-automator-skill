@@ -1,0 +1,21 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Embedded Software Engineer I/II \u2014 M.S. CE, STM32/FreeRTOS Background",
+    "greeting": "Hi Aaron,",
+    "body": "I am Justin Mascarenhas, a recent M.S. Computer Engineering graduate from Rochester Institute of Technology. I wanted to reach out about the Embedded Software Engineer I/II opening at Zone 5 \u2014 my background in real-time firmware, multi-sensor integration, and hardware debugging maps directly to what the role requires.\n\nTwo projects most relevant to Zone 5's work: I built an STM32-based object-tracking turret running FreeRTOS, communicating with an NVIDIA Jetson over UART for real-time control commands, with multi-servo PWM, interrupt-driven command parsing, and VL53L0X ToF ranging over I2C. In a bare-metal firmware project, I programmed STM32 peripherals directly in C \u2014 GPIO, TIM2, ADC1, and I2C1 \u2014 achieving a 3.68 KB Flash / 1.58 KB RAM footprint at a deterministic 1 Hz update rate, verified in Proteus. Both projects were debugged with oscilloscopes and logic analyzers.\n\nOn the systems side, I have fabricated single-layer PCBs in EAGLE, read schematics for sensor integration, and resolved 11 hardware integration failures on a physical robotic system \u2014 the kind of hands-on bring-up and troubleshooting work that shows up in UAS flight test environments. Zone 5's focus on autonomous systems for complex real-world missions is exactly the application space I want to work in.\n\nI have attached my resume and would welcome a conversation about the role.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: https://www.linkedin.com/in/justinmascarenhas/",
+    "word_count": 241,
+    "hook_used": "Recruiter outreach \u2014 direct application for open role",
+    "followup_days": 7
+  },
+  "target": {
+    "full_name": "Aaron Wessel",
+    "current_title": "Technical Recruiter",
+    "current_company": "Zone 5 Technologies"
+  },
+  "meta": {
+    "company": "Zone 5 Technologies",
+    "role": "Embedded Software Engineer I/II"
+  }
+}

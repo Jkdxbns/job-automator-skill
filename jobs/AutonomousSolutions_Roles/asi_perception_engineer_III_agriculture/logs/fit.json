@@ -1,0 +1,67 @@
+{
+  "company": "Autonomous Solutions Inc (ASI Robots)",
+  "company_slug": "asi",
+  "role": "Perception Engineer III - Project Based (Agriculture)",
+  "job_slug": "perception_engineer_III_agriculture",
+  "match_pct": 92,
+  "missing_skills": [
+    "5+ years professional perception/robotics experience",
+    "LiDAR point-cloud processing/PCL",
+    "Radar",
+    "GPS/GNSS sensor integration",
+    "Kalman filtering / Bayesian estimation / probabilistic robotics",
+    "Agricultural domain experience (crop rows, vegetation segmentation, field boundaries)",
+    "Functional safety validation",
+    "HIL/SIL testing experience",
+    "Outdoor/dusty/high-vibration environment validation"
+  ],
+  "adjacent_skills": [
+    "Computer vision / ML algorithms (YOLO, OpenCV, PyTorch, TensorFlow) -> sensor-fusion specific exp not shown",
+    "Coordinate transforms (DH parameters, forward kinematics) -> not sensor calibration/sync specific",
+    "Production-quality SW (Git) -> CI/CD not explicit",
+    "Dataset evaluation (model evaluation, benchmarking) -> not large-scale field dataset specific",
+    "Camera-based perception -> LiDAR/radar/GNSS sensing absent",
+    "Troubleshooting sensor/system integration -> embedded(STM32/Jetson) not field-vehicle specific"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "Computer Vision",
+    "Sensor Fusion",
+    "LiDAR",
+    "GPS/GNSS",
+    "Point Cloud",
+    "Linux",
+    "OpenCV",
+    "PyTorch",
+    "TensorFlow",
+    "CUDA",
+    "Object Detection",
+    "Traversability Analysis",
+    "Embedded Computing"
+  ],
+  "key_responsibilities": [
+    "Develop/integrate/validate perception algorithms for autonomous ag vehicles",
+    "Obstacle detection, classification, tracking, terrain understanding, traversability analysis",
+    "Process camera/LiDAR/radar/GPS-GNSS/inertial sensor data",
+    "Multi-sensor fusion for environmental awareness",
+    "Own perception features end-to-end through field validation",
+    "Evaluate perception via simulation/SIL/HIL/field testing",
+    "Improve perception SW for real-time embedded execution",
+    "Collaborate with GNC, embedded, systems, test, field ops teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "Not mentioned in JD; ASI Robots not on known_sponsors list (unknown, neutral)",
+    "experience": "JD requires 'typically five or more years' (Level III/mid-senior) vs candidate's 0 full-time years (7 internships) -- exceeds experience_threshold_years=3, significant mismatch",
+    "location": "Not explicitly stated in JD text (ASI Robots HQ is North Logan, UT); field-vehicle validation work implies on-site/relocation likely required",
+    "clearance": "None required -- no ITAR/EAR/clearance/citizenship language found (prescreen CLEAR)",
+    "hard_blocker_triggered": false
+  },
+  "llm_analysis": "92% keyword match is misleading -- it reflects domain overlap (CV/ROS2/PyTorch/CUDA reused across ASI's whole perception stack), not seniority fit. This is a Level III role requiring 5+ years; candidate has 0 FT years. Years-of-experience is typically a hard filter independent of skill coverage. Agriculture-specific domain gap (crop rows, vegetation segmentation, field boundaries) compounds it. Recommend: skip unless pursued via warm referral that can bypass the years filter -- not winnable through resume tailoring alone."
+}

@@ -1,0 +1,69 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "Software Engineer - Embedded Firmware",
+  "job_slug": "embedded-firmware",
+  "match_pct": 75.0,
+  "missing_skills": [
+    "Rust",
+    "hardware-in-the-loop (HIL) testing",
+    "avionics / flight safety-critical software / fault management strategies"
+  ],
+  "adjacent_skills": [
+    "embedded Linux (candidate has Jetson/Raspberry Pi Linux, not framed as embedded Linux integration)",
+    "electrical schematics / datasheet-driven peripheral driver debugging (candidate has PCB/EAGLE design, not explicit schematic-driven driver work)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "RTOS",
+    "bare metal",
+    "microcontrollers",
+    "embedded Linux",
+    "peripheral drivers",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "PWM",
+    "ADC",
+    "fault management",
+    "hardware-in-the-loop",
+    "avionics",
+    "safety critical",
+    "firmware"
+  ],
+  "key_responsibilities": [
+    "Design and build software for critical flight and safety processes on a network of microcontrollers, in cooperation with embedded Linux edge computers",
+    "Improve reliability of the flight software system, develop fault management strategies and hardware-in-the-loop tests",
+    "Analyze runtime characteristics of avionics software in flight for reliability and performance",
+    "Develop metrics, monitoring and troubleshooting capabilities for field deployment at scale",
+    "Design and build data collection and testing tools for evaluating new sensors, comms systems, and microcontroller platforms"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Direct register-level bare-metal C on STM32 (GPIO/TIM2/ADC1/I2C1, no HAL) in the STM32 Bare-Metal Temperature Monitor project - this is genuine datasheet-driven peripheral work, stronger than the keyword pass gave credit for (it filed schematics/datasheets as only Adjacent).",
+      "Real RTOS experience: FreeRTOS with mutexes for shared-memory task coordination and interrupt-driven UART on the Object Tracking Turret - matches the RTOS requirement directly, not just a resume keyword.",
+      "The COFFIN robotic arm project (Jetson + Arduino over a unified comms fabric, dual ToF sensors via I2C mux) is the closest real analog to microcontrollers cooperating with an embedded Linux edge computer, which is the JD's core architecture pattern.",
+      "Consistent low-level driver pattern across projects: I2C, SPI, UART, GPIO, PWM, ADC, sensor bring-up (ADXL345, VL53L0X, TCA9548A) - real peripheral bring-up reps, not just listed skills."
+    ],
+    "real_gaps": [
+      "Zero safety-critical or fault-tolerant design experience anywhere in the profile. Every embedded project is single-unit, demo or capstone scale (e.g. COFFIN arm validated on 10/10 trials, temp monitor verified only in Proteus simulation) with no watchdogs, redundancy, failure-mode analysis, or fault management strategy design, which is the explicit center of this role ('most safety-critical software on our aircraft', 'comprehensive fault management strategies').",
+      "No hardware-in-the-loop testing experience. Testing across the profile is manual/trial-based or circuit-simulated (Proteus), not an automated HIL harness against real hardware, a named JD deliverable.",
+      "No aviation or flight-systems domain experience at all. COFFIN is a stationary pick-and-place arm and the Object Tracking Turret is also stationary; neither involves flight dynamics, airborne control loops, or aircraft systems. This is a real domain gap the keyword pass could not see since it only checked for 'embedded Linux' as a term, not for flight-domain fit.",
+      "No production or fleet-scale field deployment experience. The JD wants monitoring/telemetry/troubleshooting built for a fleet of aircraft running unattended in remote, network-constrained locations. All of Justin's embedded work is single-device, lab or capstone scale with no field deployment or long-tail edge-case hardening story.",
+      "Rust: total gap, no adjacent experience anywhere in the profile (confirmed, not just a missing keyword)."
+    ],
+    "overstated_by_keywords": [
+      "C/C++ as a flat 'Have': Justin's substantial C++ depth is mostly CUDA kernels and a two-servo Arduino IK implementation, not large modern C++ (RAII, templates, systems-scale codebases) that a firmware team shipping to production aircraft would run day to day. The bare-metal C work is real but is C, not idiomatic modern C++."
+    ],
+    "reasoning": "The raw skill vocabulary lines up well (bare metal, RTOS, peripheral drivers, MCU plus Linux edge compute), and some of that is genuinely deeper than the keyword pass credited. But the role is really asking for safety-critical, fault-tolerant, field-deployed aircraft firmware, and none of Justin's projects operate at that bar: everything is demo-scale, manually validated, and has zero flight-domain or HIL-testing exposure. The real fit is more Partial than the 75% keyword score suggests."
+  }
+}

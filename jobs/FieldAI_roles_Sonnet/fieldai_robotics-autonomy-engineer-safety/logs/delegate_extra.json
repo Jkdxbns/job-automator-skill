@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "ROS2 + MoveIt + RViz robotics stack with real hardware (Jetson + Arduino + servo + dual ToF + I2C mux)",
+    "Edge AI deployment: TensorRT-optimized YOLO (5.2x speedup), ONNX/TFLite export, quantization (~55% VRAM reduction)",
+    "Embedded bare-metal: STM32 Cortex-M4, FreeRTOS with mutexes, interrupt-driven ADC, I2C/UART drivers",
+    "Perception + vision: YOLOv8 (83% mAP@50), OpenCV, visual servoing, real-time object tracking turret",
+    "CUDA/GPU: custom CUDA C++ kernels, memory coalescing, 35% speedup on VGG16",
+    "Robotics fundamentals: DH tables, forward kinematics, ROS drivers (UR5e, AL5B)",
+    "Cross-functional collaboration: led 7-person research fellowship; full-stack capstone (Flutter + Flask + Jetson + Arduino)"
+  ],
+  "real_gaps": [
+    "No formal functional-safety or ISO26262 certification (safety-focused role preference, not hard blocker)",
+    "No company-scale global field deployment experience \u2014 deployments are student/research-level (capstone, internships, fellowship)",
+    "No enterprise-scale production distributed ML / cloud infra (personal Docker/k3s exposure only)",
+    "Limited to basic planning/localization/manipulation algorithms \u2014 primarily uses MoveIt rather than designing original autonomy planners/localizers"
+  ],
+  "reasoning": "New-grad candidate (0 full-time years, 7 internships, M.S. Computer Engineering RIT May 2026) maps strongly to the core hard skills of this entry-level Robotics Autonomy Engineer - Safety role at Field AI: ROS2/robotics middleware, perception/CV (YOLO, OpenCV), deep learning (PyTorch, HuggingFace, quantization), edge AI deployment (Jetson + TensorRT + ONNX), embedded C/C++ bare-metal (STM32 + FreeRTOS + sensors), CUDA/GPU optimization, and real hardware-in-the-loop deployments. The role category (edge_ai_robotics) aligns with the candidate's strongest domains (edge AI + embedded + robotics + CUDA). No hard blockers: no sponsorship denial in JD, no ITAR/citizenship/clearance requirement, location relocatable (willing to relocate to Irvine, CA), experience level matches (0 years full-time, entry engineer, not senior/staff). Key gaps are preferred/advanced skills \u2014 formal safety-certification (ISO26262), original planning/localization/manipulation algorithm design (beyond MoveIt usage), and company-scale global deployment operations \u2014 none of which are stated as required in the JD. Production-scope gap exists but is not required by JD (asks field-ready, not enterprise-scale production distributed systems). Candidate's real hardware deployments (capstone, internships, fellowship) directly support the JD's emphasis on 'real robots, real sensors, field-ready' autonomy. Fit: strong for core; gaps are preferred/scope-level, not blockers.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/80363431-4bee-4c82-b6e4-8b556c1a2fd4",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

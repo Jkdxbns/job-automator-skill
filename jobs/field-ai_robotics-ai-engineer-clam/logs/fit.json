@@ -1,0 +1,165 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics AI Engineer \u2013 Calibration, Localization, and Mapping",
+  "job_slug": "robotics-ai-engineer-clam",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 19,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS",
+    "3D geometry",
+    "3D kinematics",
+    "Version control",
+    "Real-time computationally constrained platforms"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Lie theory",
+      "you_have": "SE(3) transform math engine (Frame Simulator)"
+    },
+    {
+      "jd_skill": "Linear algebra",
+      "you_have": "SE(3) 4x4 transforms, DH parameters, IK"
+    },
+    {
+      "jd_skill": "Sensor calibration",
+      "you_have": "Software calibration of tap sensor, ToF range-gating"
+    },
+    {
+      "jd_skill": "State estimation / sensor fusion",
+      "you_have": "Camera + ToF range-gated grasping"
+    },
+    {
+      "jd_skill": "LiDAR-inertial odometry and SLAM",
+      "you_have": "Encoder odometry (Robocon), CARLA driving"
+    }
+  ],
+  "missing_skills": [
+    "Visual-inertial odometry and SLAM",
+    "Probability theory",
+    "Numerical optimization",
+    "Time synchronization",
+    "Outlier-resilient algorithms",
+    "Radar / doppler-LiDAR / GPS",
+    "Publications / patents"
+  ],
+  "top_ats_keywords": [
+    "calibration",
+    "localization",
+    "mapping",
+    "SLAM",
+    "LiDAR-inertial odometry",
+    "visual-inertial odometry",
+    "sensor fusion",
+    "state estimation",
+    "Lie theory",
+    "ROS",
+    "C++",
+    "Python",
+    "time synchronization",
+    "extrinsics",
+    "intrinsics",
+    "3D geometry",
+    "kinematics",
+    "Git"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "ROS",
+    "Linear algebra",
+    "Probability theory",
+    "Numerical optimization",
+    "3D geometry",
+    "Lie theory",
+    "3D kinematics",
+    "State estimation / sensor fusion",
+    "LiDAR-inertial odometry and SLAM",
+    "Visual-inertial odometry and SLAM",
+    "Sensor calibration",
+    "Time synchronization"
+  ],
+  "preferred_skills": [
+    "Outlier-resilient algorithms",
+    "Real-time computationally constrained platforms",
+    "Radar / doppler-LiDAR / GPS",
+    "Version control",
+    "Publications / patents"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design calibration, localization, mapping algorithms for quadrupeds and humanoids",
+    "Build validation and benchmarking tools and metrics",
+    "Write C++ and Python",
+    "Integrate and deploy into real systems"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA (fully onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 43,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "3D frame/pose math is real: Frame Simulator wrote a custom SE(3) engine (local/world composition, recursive transform chaining, 4x4 inspection) in Python",
+      "Kinematics depth: hand-derived DH tables and full forward-kinematic chains for UR5e (6-DoF) and AL5B, validated against MoveIt/RViz in ROS 2 Humble and Noetic; two-link IK in C++ on the capstone arm",
+      "Geometric vision exposure at BARC: homography stitching and ZoeDepth monocular depth for 3D crack-surface reconstruction (\u00b18% error)",
+      "Runs perception under compute limits on Jetson (TensorRT YOLO 56.7 to 10.9 ms) with systemd-deployed ROS-adjacent services and Git/GitLab"
+    ],
+    "real_gaps": [
+      "No localization or mapping of any kind: no LiDAR, no visual-inertial odometry, no SLAM, no point clouds, no factor graphs",
+      "No state estimation: no Kalman/EKF/UKF, particle filter, or probabilistic modelling anywhere in the profile",
+      "No sensor calibration in the JD's sense (camera intrinsics, LiDAR/camera/IMU extrinsics, hand-eye) and no time synchronization work",
+      "Lie theory and numerical optimization are absent beyond SE(3) composition: no manifold calculus, no nonlinear least squares or bundle adjustment",
+      "ROS is used as a consumer (UR driver, MoveIt, RViz); no evidence of designing and deploying own nodes in a complex robotic system",
+      "C++ evidence is Arduino-level IK and CUDA kernels, not modern-C++ library or algorithm code",
+      "No publications or patents, no radar/GPS/doppler-LiDAR, no outlier-resilient estimation (RANSAC, robust loss)"
+    ],
+    "overstated_by_keywords": [
+      "State estimation / sensor fusion counted Adjacent: the capstone ToF is a threshold range-gate, not fusion with any filter or covariance",
+      "LiDAR-inertial odometry and SLAM counted Adjacent: Robocon encoder dead-reckoning is wheel odometry for heading hold and CARLA work is detection and lane-following, neither localizes in a map",
+      "ROS counted Have: depth is arm driver and MoveIt use, weaker than the JD's 'designing, building, deploying your own nodes'",
+      "Sensor calibration counted Adjacent: ADXL345 tap-threshold tuning is not intrinsics/extrinsics calibration"
+    ],
+    "understated_by_keywords": [
+      "BARC homography stitching plus monocular depth is genuine multi-view geometry experience that matches no keyword here",
+      "Frame Simulator is the strongest single proof for the 3D geometry and transform-chain side of the JD (frame hierarchies are what extrinsics are)"
+    ],
+    "screening_gaps": [
+      "No localization, SLAM or odometry experience (LiDAR-inertial or visual-inertial) when that is the team's entire product",
+      "No state estimation or probabilistic/optimization foundation (Kalman family, factor graphs, Lie-group optimization)",
+      "No sensor calibration or time synchronization experience, and ROS depth is as a user rather than a node author"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role is a state-estimation and SLAM specialist seat on a small team, and the profile has solid kinematics, SE(3) math and perception-on-edge work but nothing in localization, filtering, calibration or mapping, which is the core of every responsibility. The transferable pieces (SE(3) engine, DH/FK, ROS, geometric vision) get you past a resume skim for a robotics role in general but not past a CLAM-team technical screen. Keyword scoring slightly flatters the fit by crediting threshold gating and wheel odometry as sensor fusion and LiDAR odometry.",
+    "calibration_delta": 7.0
+  }
+}

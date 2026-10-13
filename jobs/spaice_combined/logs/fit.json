@@ -1,0 +1,202 @@
+{
+  "company": "SPAICE",
+  "company_slug": "spaice",
+  "role": "Forward Deployed Engineer + Robotics & Embedded Systems Engineer (combined)",
+  "job_slug": "combined",
+  "match_pct": 68.8,
+  "score_detail": {
+    "have_count": 22,
+    "adjacent_count": 11,
+    "missing_count": 7,
+    "jd_ask_size": 40,
+    "req_cov": 0.804,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "networking",
+    "embedded systems",
+    "robotics",
+    "hardware integration",
+    "debugging across software/OS/sensors/networks/hardware",
+    "edge AI",
+    "systems integration and deployment",
+    "C/C++",
+    "Version control (Git)",
+    "Linux networking",
+    "Oscilloscopes",
+    "Logic analysers",
+    "Schematics / PCB",
+    "Sensor integration (I2C/SPI/UART)",
+    "Microcontroller firmware",
+    "RTOS",
+    "Edge AI deployment (Jetson/TensorRT)",
+    "Deep learning optimization",
+    "System services (systemd)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "simulation",
+      "you_have": "CARLA / Gazebo-style sim"
+    },
+    {
+      "jd_skill": "hardware-in-the-loop testing",
+      "you_have": "testing and validation on hardware rigs"
+    },
+    {
+      "jd_skill": "field trials",
+      "you_have": "hardware demos/testing"
+    },
+    {
+      "jd_skill": "autopilot",
+      "you_have": "closed-loop control"
+    },
+    {
+      "jd_skill": "customer-facing communication",
+      "you_have": "internship stakeholder work"
+    },
+    {
+      "jd_skill": "Inter-process communication",
+      "you_have": "ROS2 / WebSocket messaging"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab (BARC cert)"
+    },
+    {
+      "jd_skill": "Drone autopilots",
+      "you_have": "COFFIN drone on ChibiOS"
+    },
+    {
+      "jd_skill": "Cross-compilation",
+      "you_have": "STM32/Jetson toolchains"
+    },
+    {
+      "jd_skill": "Soldering / wiring",
+      "you_have": "PCB and hardware builds"
+    },
+    {
+      "jd_skill": "Embedded Linux drivers",
+      "you_have": "Linux + BBB exposure"
+    }
+  ],
+  "missing_skills": [
+    "GNSS-denied navigation",
+    "middleware",
+    "Time synchronisation (PTP/PPS)",
+    "Containers (Docker)",
+    "Hardware-in-the-loop CI",
+    "Fleet provisioning/OTA",
+    "Health monitoring and auto-recovery"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "networking",
+    "embedded",
+    "robotics",
+    "hardware-in-the-loop",
+    "simulation",
+    "field trials",
+    "edge AI",
+    "APIs",
+    "middleware",
+    "autopilot",
+    "GNSS-denied navigation",
+    "embedded Linux",
+    "sensor synchronisation",
+    "CI/CD",
+    "containers",
+    "inter-process communication",
+    "cross-compilation",
+    "RTOS",
+    "microcontroller",
+    "oscilloscope",
+    "logic analyser",
+    "Yocto"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "networking",
+    "embedded systems",
+    "robotics",
+    "hardware integration",
+    "debugging across software/OS/sensors/networks/hardware",
+    "simulation",
+    "hardware-in-the-loop testing",
+    "field trials",
+    "systems integration and deployment",
+    "customer-facing communication",
+    "travel",
+    "C/C++",
+    "Linux internals",
+    "cross-compilation",
+    "sensor integration",
+    "time synchronisation",
+    "containers",
+    "Linux networking",
+    "inter-process communication",
+    "oscilloscopes",
+    "logic analysers",
+    "soldering",
+    "schematics",
+    "version control",
+    "CI/CD"
+  ],
+  "preferred_skills": [
+    "edge AI deployment",
+    "deep learning optimization",
+    "microcontroller firmware",
+    "RTOS",
+    "drone autopilots"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "integrate perception/navigation software with drones and customer platforms",
+    "deploy and field-test on edge AI hardware",
+    "customer collaboration with defence/aerospace stakeholders",
+    "hardware integration",
+    "sensor time sync",
+    "embedded Linux drivers",
+    "onboard runtime services",
+    "fleet deployment tooling",
+    "HIL benches in CI/CD",
+    "edge AI optimisation",
+    "autopilot integration and field testing"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-30",
+    "channel": "application",
+    "notes": "Form rejection: not an ideal fit. No feedback."
+  }
+}

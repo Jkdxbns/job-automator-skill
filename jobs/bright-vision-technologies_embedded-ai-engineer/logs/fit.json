@@ -1,0 +1,131 @@
+{
+  "company": "Bright Vision Technologies",
+  "company_slug": "bright-vision-technologies",
+  "role": "Embedded AI Engineer",
+  "job_slug": "embedded-ai-engineer",
+  "match_pct": 45.7,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 23,
+    "req_cov": 0.647,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "quantization",
+    "pruning",
+    "TensorFlow Lite",
+    "Edge AI",
+    "benchmarking",
+    "profiling"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ONNX Runtime",
+      "you_have": "ONNX export"
+    },
+    {
+      "jd_skill": "Core ML",
+      "you_have": "TFLite/ONNX/TensorRT deployment"
+    },
+    {
+      "jd_skill": "NPU/DSP/mobile GPU optimization",
+      "you_have": "Jetson GPU + TensorRT + CUDA"
+    },
+    {
+      "jd_skill": "on-device LLM optimization",
+      "you_have": "TinyLlama/SLM/GPT-2 on Jetson"
+    },
+    {
+      "jd_skill": "mobile/embedded architectures",
+      "you_have": "STM32 Cortex-M4, Jetson"
+    }
+  ],
+  "missing_skills": [
+    "distillation",
+    "model update/rollback",
+    "edge-cloud architecture",
+    "telemetry pipelines",
+    "model protection/integrity verification",
+    "federated learning",
+    "custom NPU/DSP toolchains",
+    "safety-critical",
+    "open-source edge AI contributions",
+    "on-device privacy"
+  ],
+  "top_ats_keywords": [
+    "Edge AI",
+    "quantization",
+    "pruning",
+    "TensorFlow Lite",
+    "ONNX Runtime",
+    "Core ML",
+    "NPU",
+    "DSP",
+    "Python",
+    "C++",
+    "federated learning"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "quantization",
+    "pruning",
+    "distillation",
+    "TensorFlow Lite",
+    "ONNX Runtime",
+    "Core ML",
+    "NPU/DSP/mobile GPU optimization",
+    "model compression",
+    "performance profiling",
+    "mobile/embedded architectures",
+    "on-device privacy and security",
+    "model update/rollback",
+    "edge-cloud architecture",
+    "telemetry pipelines",
+    "benchmarking"
+  ],
+  "preferred_skills": [
+    "custom NPU/DSP toolchains",
+    "federated learning",
+    "safety-critical",
+    "open-source edge AI contributions",
+    "on-device LLM optimization"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "edge AI on NPUs/mobile SoCs",
+    "quantization/pruning/distillation",
+    "TFLite/ONNX Runtime/Core ML runtimes",
+    "OTA model update and rollback",
+    "benchmarking suites"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Remote (US)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "\"We are unable to sponsor new H-1B visa petitions for this position.\" \u2014 No Sponsorship (explicit refusal of H-1B sponsorship)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

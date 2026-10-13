@@ -1,0 +1,167 @@
+{
+  "company": "Version 1",
+  "company_slug": "version1",
+  "role": "AI Engineer",
+  "job_slug": "ai-engineer-uk",
+  "match_pct": 37.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 7,
+    "missing_count": 17,
+    "jd_ask_size": 33,
+    "req_cov": 0.524,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Hugging Face",
+    "Scikit-learn",
+    "Supervised learning",
+    "Model evaluation",
+    "Model optimization / inference performance",
+    "Fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLM applications",
+      "you_have": "Transformers/SLM, GPT-2 from scratch, Gemini"
+    },
+    {
+      "jd_skill": "Model deployment REST API",
+      "you_have": "Flask, TensorRT/Jetson deployment"
+    },
+    {
+      "jd_skill": "Statistics",
+      "you_have": "ML/Random Signal Analysis coursework"
+    },
+    {
+      "jd_skill": "Unsupervised learning",
+      "you_have": "ML/Deep Learning"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "Git, GitLab"
+    },
+    {
+      "jd_skill": "Model monitoring",
+      "you_have": "Profiling and benchmarking"
+    },
+    {
+      "jd_skill": "Feature engineering",
+      "you_have": "Pandas/NumPy"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "RAG",
+    "AI agents",
+    "Vector search",
+    "LangChain",
+    "LlamaIndex",
+    "Semantic Kernel",
+    "LangGraph",
+    "MLflow",
+    "Databricks",
+    "Snowflake",
+    "Cloud AI services",
+    "Feature stores",
+    "Drift detection"
+  ],
+  "top_ats_keywords": [
+    "RAG",
+    "LLM",
+    "MLflow",
+    "Databricks",
+    "Snowflake",
+    "LangChain",
+    "LlamaIndex",
+    "LangGraph",
+    "Semantic Kernel",
+    "vector search",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "PyTorch",
+    "Hugging Face",
+    "scikit-learn",
+    "SQL",
+    "MLOps",
+    "feature store"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "Scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "Hugging Face",
+    "Cloud AI services",
+    "Supervised learning",
+    "Unsupervised learning",
+    "Model evaluation",
+    "Feature engineering",
+    "Statistics",
+    "RAG",
+    "AI agents",
+    "LLM applications",
+    "Vector search",
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "MLflow",
+    "Model deployment REST API"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "LangChain",
+    "LlamaIndex",
+    "Semantic Kernel",
+    "LangGraph",
+    "Databricks",
+    "Snowflake"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build RAG systems and agents",
+    "Train/fine-tune/evaluate/deploy ML models",
+    "MLOps pipelines, drift monitoring",
+    "Optimize inference"
+  ],
+  "role_category": "ml_systems",
+  "location": "UK (London/Birmingham/Manchester/Newcastle/Edinburgh/Belfast), hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-09",
+    "channel": "application",
+    "notes": "Rejected: AI Engineer role requires occasional on-site attendance in the UK. Location/work-authorization, not skills."
+  }
+}

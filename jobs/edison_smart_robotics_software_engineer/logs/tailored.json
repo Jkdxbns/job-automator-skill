@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "company": "Edison Smart® (robotics startup)",
+    "role": "Robotics Software Engineer",
+    "company_slug": "edison_smart",
+    "job_slug": "robotics_software_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT (May 2026) specializing in robotics software and edge AI. Built and deployed a vision-guided pick-and-place arm using TensorRT YOLO on Jetson at 18 FPS with 100% pick reliability. Proficient in ROS2, C++, Python, computer vision, and hardware-software integration across capstone, competition, and internship work.",
+  "skills": {
+    "Robotics & Perception": [
+      "ROS/ROS2", "MoveIt", "RViz", "Visual servoing", "Forward kinematics", "DH parameters", "Motion planning"
+    ],
+    "Languages": [
+      "C/C++", "Python", "CUDA", "RAPID", "Bash"
+    ],
+    "Computer Vision & Edge AI": [
+      "OpenCV", "YOLO / YOLOv8", "TensorRT", "Depth estimation", "Object detection"
+    ],
+    "Embedded / Hardware": [
+      "NVIDIA Jetson", "STM32 (Bare-Metal C)", "FreeRTOS", "Arduino", "UART / I2C / SPI", "EAGLE PCB"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led 25-member robotics team across national competitions owning mechanical design, PCB fabrication, and AI/ML integration; ranked 10th nationally at Robocon (45 universities).",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction in a live industrial inspection pipeline.",
+        "Architected a full metal surface inspection system combining custom image stitching, wavelet denoising, and depth estimation for microscopic crack analysis."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated a custom YOLOv8 detection dataset; improved classification accuracy from 78% to 97.5% and deployed model in a consumer mobile app."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency; resolved 11 hardware-software integration failures including false-positive detections, servo crosstalk, and rolling-shutter stereo depth.",
+        "Integrated TensorRT YOLO visual servoing at ~18 FPS, dual VL53L0X ToF sensors for contact-aware grasping, and implemented two-link IK on Arduino in C++."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Executed collision-free pick-and-place on a physical UR5e via UR ROS 2 driver; AL5B repeatability <2mm over 10 trials.",
+        "Derived full FK chains (0T6) for 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on Jetson for real-time tracking; commanded STM32 over UART with FreeRTOS mutex-protected shared state, interrupt-driven UART, and VL53L0X ToF sensing."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Simulated ABB RobotStudio workcell for press-to-packing assembly; programmed in RAPID with TCP socket pose acquisition and interrupt-driven press-bench logic."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

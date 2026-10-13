@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "company": "Torc Robotics",
+    "role": "ML Engineer, II - Simulation Enablement",
+    "company_slug": "torc",
+    "job_slug": "ml-engineer-ii-simulation-enablement"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience building autonomous vehicle simulation pipelines, robotics perception systems, and large scale data workflows in Python. Built CARLA based simulation pipelines that generated zero annotation training data for YOLO and lane detection models, and integrated Jetson based perception stacks with real time object tracking and visual servoing. Comfortable working across the full stack, from data ingestion through model evaluation to debugging distributed pipelines end to end.",
+  "skills": {
+    "Simulation & Perception": ["CARLA", "YOLO / YOLOv8 / YOLO11n", "UFLD", "TensorRT", "Object tracking", "Visual servoing", "Depth estimation (ZoeDepth)", "Semantic segmentation"],
+    "ML / Deep Learning": ["PyTorch", "Hugging Face Transformers", "U-Net / ResNet / VGG backbones", "Model evaluation", "Fine-tuning"],
+    "Robotics": ["NVIDIA Jetson", "STM32", "FreeRTOS"],
+    "Embedded & Systems Integration": ["UART / I2C", "PWM", "WebSocket", "Flask-SocketIO"],
+    "Tools & Data": ["Python", "C/C++", "GitLab", "JupyterHub", "PyQt", "Matplotlib"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; restructured task distribution and delivered the full pipeline within the 6-week window."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures spanning the full stack from sensing to actuation; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a voice-controlled, vision-guided pick-and-place system over a distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller) integrating TensorRT-optimized YOLO (5.2× speedup) for visual servoing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Deep Learning", "Machine Intelligence", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

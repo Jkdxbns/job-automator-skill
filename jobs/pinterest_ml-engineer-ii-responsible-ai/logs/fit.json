@@ -1,0 +1,103 @@
+{
+  "company": "Pinterest",
+  "company_slug": "pinterest",
+  "role": "Machine Learning Engineer II, Responsible AI",
+  "job_slug": "ml-engineer-ii-responsible-ai",
+  "match_pct": 52.9,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 17,
+    "req_cov": 0.312,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Transformer architectures",
+    "LLMs (from-scratch GPT-2/SLM build)",
+    "Hugging Face Transformers",
+    "quantization",
+    "CUDA"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "large-scale Search and Recommender Systems",
+      "you_have": "ML inference/serving systems (CUDA engine, TensorRT)"
+    },
+    {
+      "jd_skill": "realtime stream systems",
+      "you_have": "Jetson-side realtime inference pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Responsible AI / fairness track record",
+    "bias mitigation methodology",
+    "2-tower architectures",
+    "production-scale user-facing ML systems ownership",
+    "2+ years full-time ML engineering experience",
+    "mentoring junior engineers professionally",
+    "publications at top ML conferences"
+  ],
+  "top_ats_keywords": [
+    "Responsible AI",
+    "ML Fairness",
+    "Generative AI",
+    "transformer-based models",
+    "2-tower architectures",
+    "LLMs",
+    "Search",
+    "Recommender Systems",
+    "production systems",
+    "bias mitigation"
+  ],
+  "required_skills": [
+    "production ML systems experience",
+    "responsible AI / fairness / ethics track record",
+    "transformer-based models",
+    "2-tower architectures",
+    "LLMs",
+    "large-scale Search and Recommender Systems",
+    "measuring/deploying fairness interventions",
+    "Masters or PhD in CS or related field"
+  ],
+  "preferred_skills": [
+    "publications at top ML conferences",
+    "Cursor/Copilot/Codex AI coding assistants",
+    "LLM-powered productivity tools (doc search, experiment analysis, SQL/data exploration)",
+    "scalable realtime stream-processing systems"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "identify/mitigate ML bias including generative AI",
+    "collaborate with trust & safety, user modeling, content understanding teams",
+    "mentor junior engineers",
+    "drive technical strategy with senior leaders"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco / Remote (US)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,162 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Perception Machine Learning Engineer",
+  "job_slug": "perception-ml-engineer",
+  "match_pct": 84.1,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 5,
+    "missing_count": 1,
+    "jd_ask_size": 22,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Computer Vision",
+    "Model evaluation",
+    "Object detection",
+    "Segmentation",
+    "Depth estimation",
+    "Classification",
+    "C++",
+    "Robotics",
+    "Autonomous vehicles",
+    "Edge/embedded ML deployment",
+    "ONNX",
+    "TensorRT",
+    "CUDA",
+    "Inference optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sensor fusion",
+      "you_have": "ToF-gated vision on COFFIN"
+    },
+    {
+      "jd_skill": "3D perception",
+      "you_have": "ZoeDepth monocular depth"
+    },
+    {
+      "jd_skill": "Multimodal perception",
+      "you_have": "SmolVLA / VLM work"
+    },
+    {
+      "jd_skill": "Production deployment of ML/CV",
+      "you_have": "internship deployments, Jetson edge"
+    },
+    {
+      "jd_skill": "Scene understanding",
+      "you_have": "detection + depth"
+    }
+  ],
+  "missing_skills": [
+    "Aerospace/defense domain"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "computer vision",
+    "object detection",
+    "segmentation",
+    "depth estimation",
+    "scene understanding",
+    "classification",
+    "model evaluation",
+    "C++",
+    "ONNX",
+    "TensorRT",
+    "CUDA",
+    "sensor fusion",
+    "3D perception",
+    "multimodal",
+    "edge ML",
+    "autonomous vehicles"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Computer Vision",
+    "Model evaluation",
+    "Production deployment of ML/CV"
+  ],
+  "preferred_skills": [
+    "C++",
+    "Robotics",
+    "Autonomous vehicles",
+    "Edge/embedded ML deployment",
+    "Sensor fusion",
+    "3D perception",
+    "Multimodal perception",
+    "ONNX",
+    "TensorRT",
+    "CUDA",
+    "Inference optimization",
+    "Aerospace/defense"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop ML perception for autonomous vehicles",
+    "Train/evaluate CV models on real-world sensor data",
+    "Failure-mode analysis workflows",
+    "Detection/classification/segmentation/depth/scene understanding",
+    "Integrate models into production perception"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 77,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Detection/segmentation/depth all backed: YOLOv8n 83% mAP@50 (Tusk), U-Net BraTS Dice/IoU (Teesside), ZoeDepth crack-depth \u00b18% (BARC)",
+      "Train/evaluate loop on synthetic-to-real style data: CARLA pipeline ~5,000 YOLO and ~3,000 UFLD frames, YOLO11n mAP50 ~0.85, zero collisions in Town02",
+      "Deployment and inference optimization: TensorRT YOLO 5.2x (56.7 to 10.9 ms) on Jetson, ONNX/TFLite export, custom CUDA kernels 35% over naive GPU",
+      "Failure-mode habit: resolved 11 integration failures incl. false-positive detections and stale-frame capture on COFFIN"
+    ],
+    "real_gaps": [
+      "No real-world vehicle or outdoor sensor data; CARLA is simulation, BARC/COFFIN are lab or bench",
+      "No LiDAR/radar/multi-sensor fusion; only ToF-gated vision and monocular depth",
+      "No production ML ownership at fleet scale; internship and capstone scope",
+      "C++ is Arduino IK and CUDA kernels, not a production perception codebase",
+      "No maritime, aerospace or defense domain exposure"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted Have but working depth only",
+      "Autonomous vehicles counted Have but backed by simulator only"
+    ],
+    "understated_by_keywords": [
+      "Failure-mode analysis: COFFIN 11-failure log and CARLA occlusion filtering show the habit even though the term never matched"
+    ],
+    "screening_gaps": [
+      "No real-world vehicle sensor data experience (simulator and lab only)",
+      "No production perception system ownership beyond internship/capstone scope",
+      "C++ depth for production perception is thin (Arduino and CUDA kernels)"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core CV stack (PyTorch, detection, segmentation, depth, TensorRT/ONNX on Jetson) is concretely backed by projects. Gaps are real-world vehicle data, production scope and C++ depth, all learnable on the job for a new-grad-level perception role.",
+    "calibration_delta": 7.1
+  }
+}

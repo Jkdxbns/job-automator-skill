@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "company": "Motorola Solutions",
+    "role": "Embedded Software Engineer",
+    "company_slug": "motorola_solutions",
+    "job_slug": "embedded_sw_engineer_dsp"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering candidate at RIT (May 2026) with bare-metal firmware on ARM Cortex-M4 (STM32), FreeRTOS device driver design, and real-time Edge AI deployment (TensorRT/C++) on NVIDIA Jetson; academic background in Digital Signal Processing and Electronics & Telecommunication.",
+  "skills": {
+    "Embedded": ["STM32 (Bare-Metal C)", "FreeRTOS", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "UART/I2C/SPI", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"],
+    "Languages": ["C/C++", "Python", "CUDA"],
+    "Edge AI / Signal Processing": ["TensorRT", "YOLO", "faster-whisper", "mel spectrograms", "wavelet filtering"],
+    "Tools": ["Git", "Proteus", "Linux"],
+    "ML / Deep Learning": ["PyTorch"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter via software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank for noise suppression achieving PSNR of 86; built optimized signal processing pipeline targeting memory-constrained inspection hardware.",
+        "Architected a metal surface inspection system using image stitching, wavelet denoising, and monocular depth estimation for microscopic crack profiling."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member team across national-level competitions owning PCB fabrication, firmware integration, and AI/ML deployment end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret — STM32 + Jetson Edge AI",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending real-time control commands to STM32 over UART.",
+        "Implemented FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and interrupt-driven UART command handling."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C device driver on ARM Cortex-M4.",
+        "Programmed peripherals in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT YOLO (~18 FPS) and VL53L0X ToF sensors via TCA9548A I2C mux on Jetson; implemented two-link IK in C++ on Arduino for contact-aware grasping.",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency after resolving 11 firmware and integration failures."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Machine Intelligence", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Random Signal Analysis"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

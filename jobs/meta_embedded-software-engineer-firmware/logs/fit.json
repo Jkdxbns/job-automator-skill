@@ -1,0 +1,179 @@
+{
+  "company": "Meta",
+  "company_slug": "meta",
+  "role": "Embedded Software Engineer, Firmware",
+  "job_slug": "embedded-software-engineer-firmware",
+  "match_pct": 60.9,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 32,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "UART",
+    "SPI",
+    "I2C",
+    "GPIO",
+    "interrupt",
+    "RTOS",
+    "FreeRTOS",
+    "bare-metal",
+    "microcontrollers",
+    "STM32",
+    "CPU",
+    "GPU",
+    "Bluetooth",
+    "computer vision",
+    "machine learning",
+    "oscilloscopes",
+    "logic analyzers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "device drivers",
+      "you_have": "STM32 bare-metal peripheral drivers (UART/I2C/SPI/ADC)"
+    },
+    {
+      "jd_skill": "TCP/IP / Ethernet / 802.11",
+      "you_have": "static IP/network config, TCP/IP telemetry gateway work"
+    },
+    {
+      "jd_skill": "DSP",
+      "you_have": "CUDA/GPU kernel optimization"
+    }
+  ],
+  "missing_skills": [
+    "5+ years industry software development experience",
+    "3+ years embedded industry experience",
+    "large-scale C/C++ production codebase",
+    "kernel/OS-level systems software",
+    "CSI-2",
+    "USB",
+    "low-power SoCs / silicon bring-up",
+    "FPGA / pre-silicon environments",
+    "H.264 / compression / camera pipelines",
+    "time synchronization (PTP/NTP/IRIG-B)",
+    "active power management / power optimization"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "kernel",
+    "device drivers",
+    "firmware",
+    "RTOS",
+    "bare-metal",
+    "UART",
+    "SPI",
+    "I2C",
+    "GPIO",
+    "USB",
+    "Bluetooth",
+    "Wi-Fi",
+    "power management",
+    "boot loaders"
+  ],
+  "required_skills": [
+    "C/C++ (large-scale codebase)",
+    "embedded software development",
+    "kernel/OS-level systems software",
+    "device drivers"
+  ],
+  "preferred_skills": [
+    "UART",
+    "SPI",
+    "CSI-2",
+    "I2C",
+    "GPIO",
+    "USB",
+    "low-power SoCs",
+    "silicon bring-up",
+    "RTOS",
+    "TCP/IP",
+    "Ethernet",
+    "Bluetooth",
+    "802.11",
+    "FPGA/pre-silicon",
+    "H.264/compression/camera pipelines",
+    "microcontrollers",
+    "DSP",
+    "CPU/GPU architectures",
+    "time synchronization (PTP/NTP)",
+    "power management",
+    "computer vision/ML",
+    "oscilloscopes/logic analyzers"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "kernel/systems software",
+    "device drivers",
+    "hardware bring-up",
+    "silicon integration",
+    "power/performance optimization",
+    "firmware for sensing/imaging/haptic/audio devices",
+    "RTOS/bare-metal firmware/system interfaces"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "STM32 bare-metal peripheral drivers (UART/I2C/SPI/ADC/TIM2) \u2014 Object Tracking Turret and Cortex-M4 Temperature Monitor both hand-roll register-level GPIO/ADC/I2C drivers",
+      "FreeRTOS with mutex-based shared-memory task coordination on the Object Tracking Turret",
+      "Interrupt-driven UART command handling and VL53L0X ToF sensor integration across two projects",
+      "Hands-on oscilloscope and logic analyzer use, matching the JD's lab-instrumentation ask",
+      "Deep CV/ML crossover (CUDA, TensorRT, YOLO) matching the JD's computer-vision/ML collaboration ask"
+    ],
+    "real_gaps": [
+      "No kernel or OS-level systems work (memory allocators, schedulers, synchronization primitives, I/O subsystems) \u2014 everything is bare-metal or RTOS application-level, not OS internals",
+      "No silicon bring-up, device manufacturing, or low-power SoC experience",
+      "No boot loader development",
+      "No FPGA or pre-silicon/virtual-platform experience",
+      "No wired/wireless protocol stack work beyond using a Bluetooth module (no TCP/IP, Ethernet, 802.11 stack development)",
+      "No compression, camera/video pipeline, or H.264 encoding work",
+      "No time synchronization protocol work (PTP/NTP/IRIG-B)",
+      "No active power management or power optimization work",
+      "5+ years industry software experience (3+ embedded) vs. 0 full-time years / internship-and-capstone-scope profile"
+    ],
+    "overstated_by_keywords": [
+      "\"device drivers\" scored adjacent, but actual work is toy-scale bare-metal register access, not a production driver stack",
+      "\"RTOS\" scored have, but depth is limited to FreeRTOS mutex coordination, not scheduling, boot loaders, or power-aware RTOS integration"
+    ],
+    "understated_by_keywords": [
+      "systemd service management and Linux administration (auto-restart, non-root isolation, static IP) show real OS-adjacent ops depth the keyword pass didn't credit toward the kernel/OS bucket"
+    ],
+    "screening_gaps": [
+      "5+ years industry software experience (3+ embedded) required vs. 0 full-time years \u2014 this is explicitly a senior IC role, not new-grad",
+      "No kernel/OS-level systems development (allocators, schedulers, sync primitives) \u2014 all evidence is bare-metal/RTOS application code, not OS internals",
+      "No silicon bring-up, device manufacturing, or low-power SoC experience \u2014 the JD's core hardware-bring-up ask has no backing in the profile"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has genuine embedded bare-metal and RTOS-adjacent depth (STM32 drivers, FreeRTOS, ToF/UART integration) plus a strong CV/ML crossover that matches part of the JD, but this is a senior/staff-scoped kernel-and-silicon role requiring years of industry experience and production hardware bring-up that his profile \u2014 capstone and internship scope \u2014 does not evidence. The gap is seniority and production scope, not raw keyword overlap.",
+    "calibration_delta": 13.9
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "company": "ArcBest",
+  "company_slug": "arcbest",
+  "role": "Robotics Engineer I - Perception - Vaux",
+  "job_slug": "robotics-engineer-i-perception-vaux",
+  "match_pct": 55.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++ (CUDA Kernel Optimization for VGG16 project; ROS-Based Robotic Arm AL5B/UR5e; HPC/Parallel skills)",
+    "Python (COFFIN vision-guided arm Flask server, PyTorch ML pipeline, OpenCV/YOLO in tracking turret, Autonomous Driving in CARLA; Languages & Systems)",
+    "CUDA / GPGPU (CUDA Kernel Optimization for VGG16; 49.2ms coalesced kernels, 1.5-2x speedup; HPC/Parallel skills)",
+    "ROS / ROS2 (COFFIN capstone ROS2 Humble, ROS-Based Arm with MoveIt/RViz, Object Tracking Turret UART control; Robotics & Perception skills)",
+    "Computer Vision / Perception (COFFIN: TensorRT-optimized YOLO visual servoing 5.2x speedup; Object Tracking Turret YOLOv8 Jetson; Autonomous Driving YOLO11n/UFLD in CARLA; Frame Simulator 3D coordinate-frame; OpenCV/YOLO skills)",
+    "Machine Learning (SLM Compression on TinyLlama 1.1B; QAT int8 MNIST 97.43%; GPT-2 Transformer from scratch; faster-whisper ASR; Edge AI / CV / Speech skills)",
+    "Robotics / Mechanical Control (COFFIN 6-DoF vision-guided pick-and-place with TCA9548A I2C mux; ROS arm DH/forward kinematics; Object Tracking Turret PWM/interrupt UART; Robocon holonomic drive + quadrature encoder odometry; Robotics & Perception skills; Embedded skills)",
+    "Embedded / Sensors (STM32 bare-metal temperature monitor; Jetson + Arduino controllers; PWM/BLDC/stepper, quadrature encoders, UART/I2C/SPI, VL53L0X ToF; Embedded skills)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D point cloud processing",
+      "you_have": "3D coordinate-frame visualizer with SE(3) math engine (Frame Simulator); visual servoing with dual VL53L0X ToF sensors, but no LiDAR/PCL/explicit point-cloud pipeline"
+    },
+    {
+      "jd_skill": "System requirements docs / controls systems design",
+      "you_have": "Visual servoing and adaptive control stacks in COFFIN and CARLA; DH-derived forward kinematics and closed-loop heading correction; no formal requirements-documentation evidence"
+    },
+    {
+      "jd_skill": "Basic hydraulics, electro-mechanical actuators, sensors, mechanics, dynamics",
+      "you_have": "Embedded motor control (PWM, BLDC/stepper), quadrature encoders, ToF sensors, SolidWorks/Proteus design, closed-loop feedback; no hydraulics or industrial-scale mechanical dynamics evidence"
+    },
+    {
+      "jd_skill": "Agile / CI",
+      "you_have": "No Agile practices or CI/CD pipeline experience listed; Git + Linux administration only"
+    },
+    {
+      "jd_skill": "Dynamic simulations",
+      "you_have": "CARLA simulation and Frame Simulator 3D viewport; no physics/mechanical dynamics simulation (e.g., multibody dynamics) evidence"
+    }
+  ],
+  "missing_skills": [
+    "Explicit 3D point cloud processing (PCL / LiDAR) experience",
+    "Formal system-requirements documentation writing",
+    "Agile / CI development practices",
+    "Dynamic physics/mechanical simulations (beyond CARLA/3D viewport)",
+    "Hydraulics experience",
+    "Full-time industry experience in computer vision / AI (only internships / capstone / research)"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "computer vision",
+    "point cloud",
+    "machine learning",
+    "CUDA",
+    "C++",
+    "Python",
+    "robotics",
+    "controls",
+    "systems design"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Python",
+    "computer vision",
+    "machine learning / AI",
+    "perception algorithms",
+    "robotics",
+    "control systems",
+    "GPGPU / CUDA",
+    "systems analysis / system requirements docs"
+  ],
+  "preferred_skills": [
+    "Master's in Robotics / EE / CS",
+    "3D point cloud processing",
+    "hydraulics / electro-mechanical actuators / sensors / mechanics / dynamics",
+    "Agile / CI",
+    "dynamic simulations"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, test, build robotic software systems",
+    "Advanced perception algorithms",
+    "Computer vision algorithms for perception pipelines",
+    "3D point cloud processing",
+    "Machine learning for perception robustness and speed",
+    "System requirements docs",
+    "Controls systems design",
+    "Basic knowledge of hydraulics, electro-mechanical actuators, sensors, mechanics, dynamics",
+    "Agile development / CI",
+    "Dynamic simulations"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fort Smith, Arkansas",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

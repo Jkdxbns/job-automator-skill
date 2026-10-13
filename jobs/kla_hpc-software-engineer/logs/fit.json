@@ -1,0 +1,49 @@
+{
+  "company": "KLA",
+  "company_slug": "kla",
+  "role": "High Performance Computing (HPC) - Software Engineer",
+  "job_slug": "hpc-software-engineer",
+  "match_pct": 62.5,
+  "missing_skills": [
+    "DNS/DHCP",
+    "NFS",
+    "Virtualization (VMware/Proxmox/KVM)",
+    "HPC cluster ops experience",
+    "SGE",
+    "Kubernetes/containers",
+    "Config management (Ansible/Puppet/Chef/Salt)",
+    "CI/CD frameworks",
+    "Storage (NAS/RAID/parallel filesystems)"
+  ],
+  "adjacent_skills": [
+    "TCP/IP networking (embedded protocol exposure, not sysadmin networking)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Bash",
+    "Linux",
+    "SLURM",
+    "CUDA",
+    "NVIDIA",
+    "Git",
+    "TCP/IP",
+    "RHEL"
+  ],
+  "key_responsibilities": [
+    "Develop and maintain Python, Bash, and system automation tools",
+    "Support Linux-based HPC clusters (RHEL, Rocky, AlmaLinux, Ubuntu)",
+    "Deploy/maintain compute nodes, storage, and networking infrastructure",
+    "Configure and troubleshoot schedulers (SGE, SLURM)",
+    "Build tooling for cluster monitoring, provisioning, software deployment",
+    "Debug performance/scalability/reliability issues across distributed systems",
+    "Code reviews, CI/CD, testing, release activities",
+    "Runbooks, deployment procedures, technical documentation",
+    "Support customer and manufacturing escalations"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

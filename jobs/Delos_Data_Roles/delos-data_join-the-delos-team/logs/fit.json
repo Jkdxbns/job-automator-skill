@@ -1,0 +1,65 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Join the Delos Team!",
+  "job_slug": "join-the-delos-team",
+  "match_pct": 10.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 4,
+    "jd_ask_size": 5,
+    "req_cov": 1.0,
+    "cap_applied": "zero_have"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI data center / large-scale cluster performance",
+      "you_have": "Edge AI + CUDA/GPU kernel optimization + ML model optimization"
+    }
+  ],
+  "missing_skills": [
+    "Specific role definition",
+    "Required or preferred skills",
+    "Experience requirements",
+    "Concrete production-system ownership scope"
+  ],
+  "top_ats_keywords": [
+    "large-scale AI data center",
+    "performance",
+    "scalability",
+    "resiliency",
+    "foundational technology",
+    "AI clusters"
+  ],
+  "required_skills": [],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "other",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

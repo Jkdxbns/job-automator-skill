@@ -1,0 +1,123 @@
+{
+  "company": "Axle (NIH Standardized Organoid Model Center)",
+  "company_slug": "axle",
+  "role": "AI/ML Scientist/Developer",
+  "job_slug": "ai-ml-scientist-developer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 19,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "machine learning model development",
+    "deep learning",
+    "multi-modal datasets"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "differential equations",
+      "you_have": "MPI Hodgkin-Huxley neuron simulation"
+    },
+    {
+      "jd_skill": "in silico simulation",
+      "you_have": "Hodgkin-Huxley simulation"
+    },
+    {
+      "jd_skill": "biological data types",
+      "you_have": "BraTS multi-modal MRI, microscopic image analysis"
+    },
+    {
+      "jd_skill": "deep learning for biological applications",
+      "you_have": "BraTS 2020 MRI segmentation"
+    },
+    {
+      "jd_skill": "computational methods in biological laboratory settings",
+      "you_have": "microscopic crack/image mosaicing, MRI pipeline (non-wet-lab)"
+    }
+  ],
+  "missing_skills": [
+    "R",
+    "organoid systems",
+    "tissue engineering",
+    "experimental design",
+    "systems biology modeling",
+    "cloud computing",
+    "containerization"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "Python",
+    "R",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "deep learning",
+    "in silico modeling",
+    "multi-modal datasets",
+    "differential equations",
+    "systems biology",
+    "experimental design",
+    "cloud",
+    "containerization"
+  ],
+  "required_skills": [
+    "Python",
+    "R",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "machine learning model development",
+    "computational methods in biological laboratory settings",
+    "experimental design",
+    "biological data types"
+  ],
+  "preferred_skills": [
+    "organoid systems",
+    "tissue engineering",
+    "differential equations",
+    "systems biology modeling",
+    "deep learning for biological applications",
+    "cloud computing",
+    "containerization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "ML models predicting organoid outcomes",
+    "in silico growth simulation",
+    "experiment-computation feedback loops",
+    "multi-modal data integration"
+  ],
+  "role_category": "ml_systems",
+  "location": "Bethesda, MD (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

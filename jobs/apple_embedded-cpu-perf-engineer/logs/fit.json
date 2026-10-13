@@ -1,0 +1,129 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Embedded CPU Performance Engineer, Platform Architecture",
+  "job_slug": "embedded-cpu-perf-engineer",
+  "match_pct": 37.5,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 9,
+    "jd_ask_size": 20,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "data structures and algorithms",
+    "MS/PhD ECE"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CPU architecture",
+      "you_have": "High Performance Architecture coursework"
+    },
+    {
+      "jd_skill": "microarchitecture",
+      "you_have": "High Performance Architecture coursework"
+    },
+    {
+      "jd_skill": "memory hierarchy",
+      "you_have": "CUDA memory coalescing"
+    },
+    {
+      "jd_skill": "SIMD",
+      "you_have": "CUDA"
+    },
+    {
+      "jd_skill": "accelerator architectures",
+      "you_have": "CUDA / Jetson GPU"
+    },
+    {
+      "jd_skill": "performance simulation",
+      "you_have": "pynvml profiling/benchmarking"
+    },
+    {
+      "jd_skill": "SoC architecture",
+      "you_have": "Cortex-M4 / Jetson embedded"
+    }
+  ],
+  "missing_skills": [
+    "Perl",
+    "branch prediction",
+    "prefetching",
+    "pipeline optimization",
+    "datapath",
+    "RTL",
+    "power-performance modeling",
+    "low-power design",
+    "system-level power management"
+  ],
+  "top_ats_keywords": [
+    "microarchitecture",
+    "performance modeling",
+    "RTL",
+    "C++",
+    "Python",
+    "Perl",
+    "branch prediction",
+    "prefetching",
+    "memory hierarchy",
+    "SIMD"
+  ],
+  "required_skills": [
+    "CPU architecture",
+    "SoC architecture",
+    "microarchitecture",
+    "performance simulation",
+    "C++",
+    "Perl",
+    "Python"
+  ],
+  "preferred_skills": [
+    "branch prediction",
+    "prefetching",
+    "pipeline optimization",
+    "datapath",
+    "memory hierarchy",
+    "SIMD",
+    "vector architectures",
+    "accelerator architectures",
+    "power-performance trade-offs",
+    "power management",
+    "low-power design",
+    "data structures and algorithms",
+    "MS/PhD ECE"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "model embedded CPU PPA tradeoffs",
+    "correlate RTL with performance simulator",
+    "workload bottleneck analysis"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Beaverton, OR",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

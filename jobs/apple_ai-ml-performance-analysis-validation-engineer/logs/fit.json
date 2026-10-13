@@ -1,0 +1,70 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "AI/ML Performance Analysis and Validation Engineer",
+  "job_slug": "ai-ml-performance-analysis-validation-engineer",
+  "match_pct": 88.9,
+  "missing_skills": [
+    "3+ years industry/research experience specifically validating AI/ML on dedicated accelerators",
+    "JAX",
+    "CoreML",
+    "data center architecture modeling",
+    "simulation technology building (formal)"
+  ],
+  "adjacent_skills": [
+    "Computer Architecture (memory systems/interconnects) -> bare-metal embedded C/C++, CUDA memory coalescing, High Performance Architecture coursework",
+    "Performance modeling/characterization -> CUDA kernel optimization, pynvml profiling, TensorRT benchmarking",
+    "Distributed computing performance trade-offs -> MPI, SLURM-managed clusters",
+    "Data reasoning -> model evaluation, benchmarking across research projects"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "CUDA",
+    "Computer Architecture",
+    "performance models",
+    "AI/ML accelerators",
+    "distributed computing",
+    "Transformer",
+    "CNN",
+    "JAX",
+    "CoreML",
+    "memory systems",
+    "interconnects"
+  ],
+  "key_responsibilities": [
+    "Build models of applications and platforms to project performance",
+    "Analyze and validate use cases on existing products against performance goals",
+    "Analyze and reason about performance data",
+    "Collaborate cross-functionally (product, hardware architecture, software driver, firmware, frameworks, applications)",
+    "Help define technical requirements of future Apple products"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Hand-optimized CUDA kernels for VGG16 with memory coalescing and measured speedup (49.2ms vs 73.3ms vs 77.5ms) \u2014 real, quantified performance-characterization skill at the kernel level (project: CUDA Kernel Optimization for VGG16 Inference).",
+      "Distributed performance analysis with real scaling/load-imbalance findings: MPI Hodgkin-Huxley sim (10.49x speedup, 65% degradation under imbalance) and Parallel Ray Tracer (30x speedup comparing 4 scheduling strategies) \u2014 genuine distributed-systems performance reasoning, though on HPC research workloads, not ML.",
+      "Model-level benchmarking on real hardware: pynvml/psutil profiling of quantized TinyLlama (VRAM/latency across prompt types), TensorRT-optimized YOLO measured at 5.2x speedup on Jetson \u2014 shows he can instrument and characterize ML inference performance on existing accelerators.",
+      "Formal computer architecture and parallel systems coursework (High Performance Architecture, Multiple Processor Systems) gives him vocabulary and some grounding, though it has not been applied at industry depth."
+    ],
+    "real_gaps": [
+      "The JD's central ask is 3+ years building PERFORMANCE MODELS to PROJECT performance of ML applications on hardware that doesn't exist yet (pre-silicon). Everything in Justin's background is post-hoc measurement and optimization on hardware that already exists (Jetson, existing GPUs) \u2014 he has never built a predictive/analytical model used to forecast performance on future silicon. This is a different discipline from benchmarking, and it's the single largest real gap.",
+      "No exposure to pre-silicon modeling methodology or tooling \u2014 architectural simulators, cycle-approximate models, roofline-style analytical projection \u2014 the actual craft this Apple team practices for future Apple Silicon.",
+      "CoreML is explicitly named in the JD (Apple's own ML framework) and is entirely absent from the profile; JAX is also missing (PyTorch-only background).",
+      "No data center architecture modeling experience \u2014 all distributed work is academic HPC cluster (SLURM/MPI), not production data center or serving infrastructure.",
+      "Scope/seniority mismatch: the JD talks about influencing next-generation hardware platform design and helping define Apple's future product requirements alongside hardware architecture, driver, and firmware teams \u2014 that level of cross-org influence and trust typically comes with real industry tenure. Justin's leadership experience (student robotics club, internship team lead) is a good collaboration signal but not equivalent scope."
+    ],
+    "overstated_by_keywords": [
+      "\"Computer Architecture (memory/interconnects)\" was marked Adjacent on the strength of CUDA memory coalescing plus coursework \u2014 but CUDA memory coalescing is GPU programming optimization, not chip-level interconnect/SoC architecture reasoning. The real depth here is shallower than \"Adjacent\" implies.",
+      "\"Performance modeling/characterization\" was marked Adjacent via CUDA kernel opt + pynvml profiling + TensorRT benchmarking \u2014 these are real skills, but they're empirical optimization of existing systems. The JD's word \"modeling\" means predictive performance projection for unbuilt hardware, a materially different skill the keyword match conflated with benchmarking.",
+      "\"Distributed computing performance trade-offs\" credited via MPI/SLURM \u2014 real, but scoped to research-cluster HPC workloads (neuron sims, ray tracing), not the data-center/production ML systems the JD is likely referencing."
+    ],
+    "reasoning": "Justin has genuine, well-quantified performance-analysis and benchmarking experience, but almost all of it is post-hoc optimization on hardware that already exists, while this role's core ask is pre-silicon performance modeling to project how ML workloads will run on future Apple Silicon \u2014 a different discipline he has no direct exposure to. Combined with the explicit 3+ years experience requirement and the cross-org influence scope implied by the JD, the honest fit is meaningfully weaker than the 88.9% keyword match suggests."
+  }
+}

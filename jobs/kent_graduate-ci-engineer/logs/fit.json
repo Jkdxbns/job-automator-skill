@@ -1,0 +1,185 @@
+{
+  "company": "Kent",
+  "company_slug": "kent",
+  "role": "Graduate Controls and Instrumentation Engineer",
+  "job_slug": "graduate-ci-engineer",
+  "match_pct": 26.9,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 9,
+    "missing_count": 24,
+    "jd_ask_size": 39,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Ethernet",
+    "TCP/IP networking",
+    "Control systems",
+    "Closed-Loop Feedback Control",
+    "Technical documentation",
+    "Automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Field instrumentation",
+      "you_have": "MEMS/ToF sensor integration over I2C/SPI/UART (MPU6050, ADXL345, VL53L0X, TF-Luna)"
+    },
+    {
+      "jd_skill": "Instrumentation and automation equipment selection",
+      "you_have": "Sensor and board selection for robotics/embedded builds"
+    },
+    {
+      "jd_skill": "SCADA",
+      "you_have": "Flask/PySide6 real-time telemetry dashboards over WebSocket/TCP"
+    },
+    {
+      "jd_skill": "Modbus TCP",
+      "you_have": "C++17 epoll TCP/IP socket server (telemetry gateway)"
+    },
+    {
+      "jd_skill": "Network architecture",
+      "you_have": "Static IP / multi-node network configuration, k3s cluster networking"
+    },
+    {
+      "jd_skill": "Master's degree in Electrical/Instrumentation/Control/Systems/Automation/Robotics (IET accredited)",
+      "you_have": "M.S. Computer Engineering, RIT (ABET, not IET-accredited)"
+    },
+    {
+      "jd_skill": "Engineering drawings and diagrams",
+      "you_have": "EAGLE PCB design, Proteus schematics, SolidWorks"
+    },
+    {
+      "jd_skill": "PLC",
+      "you_have": "Bare-metal STM32 state-machine control and FreeRTOS tasks"
+    },
+    {
+      "jd_skill": "Technical specifications and calculations",
+      "you_have": "Design specs and benchmark reports for embedded/CUDA projects"
+    }
+  ],
+  "missing_skills": [
+    "Control & Instrumentation system design",
+    "DCS",
+    "ICSS",
+    "SIS/ESD safety instrumented systems",
+    "Fire & Gas systems",
+    "Modbus",
+    "EtherNet/IP",
+    "OPC/OPC UA",
+    "Industrial cybersecurity",
+    "OT/IT systems",
+    "FEED and detailed design",
+    "Commissioning and start-up support",
+    "Process operations",
+    "Safeguarding systems",
+    "Instrument and equipment schedules",
+    "Instrument datasheets",
+    "Technical Requisitions",
+    "P&ID",
+    "International industry standards and codes",
+    "Safety and Quality procedures",
+    "ISO 9001 quality procedures",
+    "ISO 14001",
+    "Oil and gas / renewables / utilities domain",
+    "Right to work in the UK"
+  ],
+  "top_ats_keywords": [
+    "Control and Instrumentation",
+    "C&I engineering",
+    "field instrumentation",
+    "PLC",
+    "DCS",
+    "SCADA",
+    "SIS",
+    "ESD",
+    "Fire and Gas",
+    "Modbus",
+    "EtherNet/IP",
+    "OPC UA",
+    "TCP/IP",
+    "Ethernet",
+    "industrial cybersecurity",
+    "FEED",
+    "commissioning",
+    "instrument datasheets",
+    "instrument schedules",
+    "Technical Requisitions",
+    "oil and gas",
+    "automation",
+    "control systems"
+  ],
+  "required_skills": [
+    "Control & Instrumentation system design",
+    "Field instrumentation",
+    "Instrument and equipment schedules",
+    "Instrument datasheets",
+    "Technical specifications and calculations",
+    "Technical Requisitions",
+    "Engineering drawings and diagrams",
+    "International industry standards and codes",
+    "Safety and Quality procedures",
+    "Master's degree in Electrical/Instrumentation/Control/Systems/Automation/Robotics (IET accredited)",
+    "Technical documentation",
+    "Right to work in the UK"
+  ],
+  "preferred_skills": [
+    "PLC",
+    "DCS",
+    "SCADA",
+    "ICSS",
+    "SIS/ESD safety instrumented systems",
+    "Fire & Gas systems",
+    "Modbus",
+    "Modbus TCP",
+    "EtherNet/IP",
+    "OPC/OPC UA",
+    "Ethernet",
+    "TCP/IP networking",
+    "Network architecture",
+    "Industrial cybersecurity",
+    "OT/IT systems",
+    "FEED and detailed design",
+    "Commissioning and start-up support",
+    "Process operations",
+    "Safeguarding systems",
+    "Instrumentation and automation equipment selection",
+    "ISO 9001 quality procedures",
+    "ISO 14001"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Contribute to design of C&I systems from concept/feasibility through FEED, detailed design, construction, commissioning and start-up",
+    "Prepare C&I deliverables: instrument schedules, datasheets, drawings, specifications, calculations, Technical Requisitions",
+    "Understand process operations and interaction of process systems, field instrumentation, control and safeguarding systems",
+    "Support specification and selection of instrumentation, control and automation equipment",
+    "Gain exposure to PLC, DCS, SCADA, ICSS, SIS/ESD and Fire & Gas systems",
+    "Learn industrial comms protocols (Modbus, Modbus TCP, EtherNet/IP, OPC UA) and OT/IT networking plus industrial cybersecurity",
+    "Comply with ISO quality procedures and Design Integrity processes",
+    "Complete the Kent Graduate Development Programme"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Woking, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

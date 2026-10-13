@@ -1,0 +1,131 @@
+{
+  "company": "Aptiv",
+  "company_slug": "aptiv",
+  "role": "Embedded Systems Architect",
+  "job_slug": "embedded-systems-architect",
+  "match_pct": 58.7,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 23,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2",
+    "Embedded C/C++ bare-metal",
+    "Real-time software (FreeRTOS/RTOS)",
+    "I2C",
+    "SPI",
+    "UART",
+    "Linux embedded systems",
+    "ML inference deployment on embedded hardware (Jetson+TensorRT+YOLO)",
+    "Perception / computer vision (YOLO, OpenCV, ROS2 pipelines)",
+    "Embedded GPU optimization (CUDA kernel opt, quantization)",
+    "Sensor integration (IMU, ToF, depth)",
+    "Bluetooth (wireless)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "MCU/FPGA/DSP architectures",
+      "you_have": "STM32 MCU (Cortex-M4), no FPGA/DSP"
+    },
+    {
+      "jd_skill": "Agile/CI-CD/DevOps",
+      "you_have": "Git/GitLab, no explicit CI/CD pipeline experience"
+    },
+    {
+      "jd_skill": "USB",
+      "you_have": "HID/peripheral interfacing, not explicit USB stack work"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "Systems engineering / requirements analysis (MBSE)",
+    "Polarion",
+    "DOORS",
+    "Automotive SPICE / ISO 26262 / functional safety",
+    "Cybersecurity / secure embedded design",
+    "Ethernet (industrial/real-time)",
+    "FMEA / hazard analysis / fault injection"
+  ],
+  "top_ats_keywords": [
+    "ROS",
+    "ROS2",
+    "CAN",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "Linux",
+    "MBSE",
+    "ISO 26262",
+    "embedded C/C++",
+    "GPU",
+    "NPU",
+    "ML inference",
+    "Polarion",
+    "DOORS",
+    "Agile",
+    "CI/CD",
+    "functional safety"
+  ],
+  "required_skills": [
+    "Embedded systems architecture design",
+    "Embedded software development",
+    "Sensor integration",
+    "Real-time software systems",
+    "Systems engineering / requirements analysis",
+    "Model-Based Systems Engineering (MBSE)",
+    "Requirements management tools (Polarion/DOORS)",
+    "System integration, validation, troubleshooting",
+    "Cross-functional hardware/software collaboration"
+  ],
+  "preferred_skills": [
+    "ROS/ROS2",
+    "Agile/CI-CD/DevOps",
+    "Perception systems / computer vision / ML",
+    "ML inference deployment on embedded hardware",
+    "Linux-based embedded systems",
+    "Embedded CPU/GPU/NPU/DSP optimization",
+    "Automotive SPICE / ISO 26262 / functional safety",
+    "Cybersecurity / secure embedded design",
+    "MCU/FPGA/DSP architectures",
+    "CAN, Ethernet, SPI, I2C, UART, USB, wireless",
+    "Startup / fast-paced environment"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/maintain embedded system architectures for AMR/drone platforms",
+    "Sensor integration requirements (camera, lidar, radar, depth, IMU)",
+    "Runtime inference/diagnostics/health management",
+    "System bring-up, integration, validation, troubleshooting",
+    "Cross-functional collaboration with hardware/SoC/autonomy/safety teams",
+    "Hazard analysis, FMEA, fault injection, degraded-mode testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Troy, MI - USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

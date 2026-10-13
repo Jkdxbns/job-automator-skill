@@ -1,0 +1,60 @@
+{
+  "company": "Autonomous Solutions Inc (ASI Robots)",
+  "company_slug": "asi",
+  "role": "Perception Engineer IV - Project Based (Autonomous Reach Stackers)",
+  "job_slug": "perception_engineer_IV_reach_stacker",
+  "match_pct": 87,
+  "missing_skills": [
+    "Point-cloud processing / PCL",
+    "Environmental modeling / free-space detection",
+    "8+ years professional experience",
+    "Container yard / reach stacker / intermodal domain experience"
+  ],
+  "adjacent_skills": [
+    "Sensor fusion (embedded multi-sensor work, no formal Kalman/fusion algorithms)",
+    "Object tracking (strong detection via YOLO, no explicit multi-object tracking)",
+    "LiDAR/radar/GPS/inertial sensors (camera-centric; ADXL345 accelerometer only)",
+    "Coordinate systems/calibration (robot kinematics/DH params, not sensor calibration)"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "computer vision",
+    "sensor fusion",
+    "LiDAR",
+    "ROS/ROS2",
+    "C++",
+    "Python",
+    "object tracking",
+    "Linux",
+    "real-time embedded",
+    "point-cloud processing",
+    "sensor calibration",
+    "CUDA",
+    "TensorRT",
+    "GPU optimization"
+  ],
+  "key_responsibilities": [
+    "Lead complex perception features: detection, classification, segmentation, tracking, free-space ID",
+    "Fuse camera/LiDAR/radar/GPS/IMU/encoder data for container-yard environmental modeling",
+    "Container identification, stack-position recognition, precision vehicle alignment",
+    "Optimize perception algorithms for real-time execution on embedded CPU/GPU",
+    "Lead workstreams end-to-end: requirements through architecture, integration, test, release",
+    "Mentor less-experienced engineers, conduct design/code reviews",
+    "Lead field-failure troubleshooting and corrective-action development"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "Not mentioned in JD; no known-sponsor match either way",
+    "experience": "MISMATCH \u2014 JD requires 'typically eight or more years' (Level IV/senior, threshold=3); Justin has 0 full-time years (7 internships, M.S. graduating May 2026)",
+    "location": "Not specified in JD text \u2014 verify onsite requirement (container-yard field work implied)",
+    "clearance": "None detected",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null,
+    "defense_category_scan": "No defense/government/ITAR/clearance/citizenship phrases matched; container yards/ports read as commercial logistics, not defense"
+  },
+  "llm_analysis": "Same as the Logistics IV role -- 8+ years required, leadership/mentoring scope, plus container-yard/intermodal domain experience the candidate doesn't have. High keyword score is an artifact of ASI reusing the same perception vocabulary across all four levels. Recommend: skip."
+}

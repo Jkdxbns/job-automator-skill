@@ -1,0 +1,167 @@
+{
+  "company": "MOBY Robotics",
+  "company_slug": "moby-robotics",
+  "role": "Computer Vision Engineer",
+  "job_slug": "computer-vision-engineer",
+  "match_pct": 47.6,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 8,
+    "missing_count": 18,
+    "jd_ask_size": 42,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "CUDA",
+    "TensorRT",
+    "NVIDIA Jetson",
+    "OpenCV",
+    "PyTorch",
+    "ROS 2",
+    "Deep learning",
+    "Computer Vision",
+    "Object detection",
+    "Tracking",
+    "Real-time perception",
+    "Edge deployment",
+    "PWM",
+    "Vision-guided manipulation/grasping"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ONNX Runtime",
+      "you_have": "ONNX export"
+    },
+    {
+      "jd_skill": "LibTorch",
+      "you_have": "TorchScript / PyTorch"
+    },
+    {
+      "jd_skill": "Image restoration",
+      "you_have": "Wavelet denoising (crack inspection)"
+    },
+    {
+      "jd_skill": "Camera models",
+      "you_have": "Homography stitching"
+    },
+    {
+      "jd_skill": "Epipolar geometry",
+      "you_have": "Homography stitching"
+    },
+    {
+      "jd_skill": "3D reconstruction",
+      "you_have": "ZoeDepth 3D surface reconstruction"
+    },
+    {
+      "jd_skill": "Vision-Language Models",
+      "you_have": "VisionEncoderDecoder (DONUT)"
+    },
+    {
+      "jd_skill": "Sensor fusion",
+      "you_have": "Encoder odometry (dead reckoning)"
+    }
+  ],
+  "missing_skills": [
+    "Visual SLAM",
+    "Visual-Inertial SLAM",
+    "ORB-SLAM3",
+    "VINS-Mono",
+    "OKVIS",
+    "PCL/Open3D",
+    "Feature extraction",
+    "Underwater vision",
+    "Camera calibration",
+    "SfM",
+    "Multi-view stereo",
+    "3D Gaussian Splatting",
+    "NeRF",
+    "Photogrammetry",
+    "Hardware-triggered multi-camera synchronization",
+    "DVL/sonar/IMU multi-modal fusion",
+    "Stereo vision",
+    "IMU"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision",
+    "Visual SLAM",
+    "3D reconstruction",
+    "Camera calibration",
+    "Object detection",
+    "Tracking",
+    "Real-time perception",
+    "Edge deployment",
+    "Multi-view stereo",
+    "SfM"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "CUDA",
+    "TensorRT",
+    "NVIDIA Jetson",
+    "ONNX Runtime",
+    "OpenCV",
+    "PyTorch",
+    "LibTorch",
+    "ROS 2",
+    "PCL/Open3D",
+    "Visual SLAM",
+    "Visual-Inertial SLAM",
+    "Sensor fusion",
+    "Epipolar geometry",
+    "Camera models",
+    "Image restoration",
+    "Feature extraction",
+    "Deep learning",
+    "Underwater vision"
+  ],
+  "preferred_skills": [
+    "3D Gaussian Splatting",
+    "NeRF",
+    "Photogrammetry",
+    "Hardware-triggered multi-camera synchronization",
+    "Vision-Language Models",
+    "Vision-guided manipulation/grasping",
+    "DVL/sonar/IMU multi-modal fusion",
+    "Stereo vision"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Real-time perception (detection, tracking, hazard avoidance) on embedded GPU",
+    "Visual SLAM / state estimation in feature-sparse underwater scenes",
+    "C++/CUDA/TensorRT runtime optimization",
+    "Offline 3D reconstruction (MVS, 3DGS, NeRF, SfM)",
+    "Semantic tagging with VLMs",
+    "Camera calibration for refractive optics",
+    "Camera/lighting sync and IMU fusion with hardware team",
+    "Field-testing on ROV/AUV feeds"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

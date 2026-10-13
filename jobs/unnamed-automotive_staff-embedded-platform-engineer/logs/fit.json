@@ -1,0 +1,157 @@
+{
+  "company": "Unnamed (automotive, Long Beach CA)",
+  "company_slug": "unnamed-automotive",
+  "role": "Staff Embedded Platform Engineer",
+  "job_slug": "staff-embedded-platform-engineer",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 18,
+    "req_cov": 0.55,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C",
+    "RTOS",
+    "SPI",
+    "I2C",
+    "low-level drivers",
+    "real-time control systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JTAG",
+      "you_have": "hardware debugging"
+    },
+    {
+      "jd_skill": "GDB",
+      "you_have": "hardware debugging"
+    },
+    {
+      "jd_skill": "middleware",
+      "you_have": "microcontroller firmware"
+    }
+  ],
+  "missing_skills": [
+    "MISRA C",
+    "ISO 26262",
+    "CAN",
+    "LIN",
+    "automotive Ethernet",
+    "Renode",
+    "Bazel",
+    "CANoe/CANalyzer/CANape",
+    "ASIL"
+  ],
+  "top_ats_keywords": [
+    "Embedded C",
+    "MISRA C",
+    "ISO 26262",
+    "CAN",
+    "LIN",
+    "Ethernet",
+    "SPI",
+    "I2C",
+    "RTOS",
+    "JTAG",
+    "GDB",
+    "Renode",
+    "Bazel",
+    "CANoe",
+    "ASIL",
+    "HSI"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "MISRA C",
+    "ISO 26262",
+    "CAN",
+    "LIN",
+    "JTAG",
+    "GDB",
+    "RTOS configuration",
+    "low-level drivers",
+    "middleware"
+  ],
+  "preferred_skills": [
+    "Renode",
+    "Bazel",
+    "CANoe",
+    "CANalyzer",
+    "CANape",
+    "real-time control systems",
+    "automotive Ethernet",
+    "SPI",
+    "I2C"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "platform architecture and roadmap",
+    "RTD/RTOS config",
+    "networking stacks",
+    "ISO 26262 memory layouts",
+    "mentoring"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Long Beach, CA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 31,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Bare-metal C and FreeRTOS on STM32 with mutex-based task coordination and interrupt-driven UART (Object Tracking Turret)",
+      "I2C/SPI/UART peripheral work: dual VL53L0X ToF over a TCA9548A I2C mux (COFFIN), UART/I2C sensor links with closed-loop feedback (ARC)",
+      "Hardware-level debugging with oscilloscopes and logic analyzers; 11 integration failures diagnosed and resolved in COFFIN, including servo brown-out",
+      "Closed-loop control and PWM servo/motor control; two-link IK on Arduino in C++"
+    ],
+    "real_gaps": [
+      "No CAN, LIN or automotive Ethernet experience anywhere in the profile",
+      "No ISO 26262, ASIL or functional-safety process exposure",
+      "No MISRA C compliance or static-analysis workflow",
+      "No JTAG/SWD/GDB on-target debugging evidence; debugging is scope and logic-analyzer based",
+      "No driver-layer or middleware architecture: peripherals were used directly, not abstracted for upper layers",
+      "No AUTOSAR/RTD, Bazel, Renode or CANoe/CANalyzer/CANape",
+      "Staff-level scope (platform roadmap, standards, mentoring across org) vs capstone and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "RTOS counted as Have, but the evidence is FreeRTOS in one turret project, not RTOS configuration for deterministic automotive targets",
+      "low-level drivers counted as Have, but the profile shows peripheral use rather than reusable driver or HAL development",
+      "real-time control systems counted as Have, but this is hobby-scale servo control, not safety-critical control software"
+    ],
+    "understated_by_keywords": [
+      "Debugging method under real fault conditions (brown-out, stale-frame, false-positive gating) is real diagnostic depth, though not on the JD's named tools",
+      "ARC leadership of a 25-member team is the only mentoring or leadership evidence, and it is student-club scope"
+    ],
+    "screening_gaps": [
+      "No ISO 26262 / MISRA C / ASIL background for a role that centres on embedding functional safety in platform architecture",
+      "No CAN or LIN protocol experience, a stated hard requirement",
+      "Staff-level platform ownership and mentoring, versus 0 years full-time and capstone-scope work"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The embedded core is real but entry-level: bare-metal STM32, FreeRTOS and I2C/SPI/UART. The role is a Staff platform job built on automotive buses, functional safety and MISRA, none of which has any backing in the profile. The keyword gap here is mostly a true domain and seniority gap, not a vocabulary miss.",
+    "calibration_delta": 10.7
+  },
+  "semantic_pending": false
+}

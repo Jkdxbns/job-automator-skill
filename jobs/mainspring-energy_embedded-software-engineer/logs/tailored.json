@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "Mainspring Energy",
+    "role": "Embedded Software Engineer",
+    "company_slug": "mainspring-energy",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded software experience in bare-metal C and C++ on STM32 and Arduino microcontrollers, FreeRTOS real-time tasks, and UART/I2C/SPI serial interfaces. Built Python tools for real-time data acquisition and hardware bring-up, and debugged hardware/software integration failures with logic analyzers and oscilloscopes.",
+  "skills": {
+    "Embedded": [
+      "Bare-metal C",
+      "C/C++",
+      "RTOS (FreeRTOS)",
+      "STM32 (Cortex-M4)",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Serial protocols",
+      "Interrupt-driven firmware",
+      "PWM Motor Control",
+      "Raspberry Pi"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "Bash",
+      "Git",
+      "GitLab",
+      "CMake",
+      "Flask"
+    ],
+    "Debugging & Hardware": [
+      "Logic Analyzers",
+      "Oscilloscopes",
+      "Hardware bring-up",
+      "Proteus"
+    ],
+    "Linux": [
+      "Linux",
+      "systemd service management",
+      "Static IP / network configuration",
+      "NVIDIA Jetson"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 temperature monitoring firmware in embedded C at a deterministic 1 Hz update rate using only 3.68 KB Flash / 1.58 KB RAM; verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1)."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place system over a Flask-SocketIO edge server and Jetson+Arduino controller; achieved 100% pick reliability (10/10 trials).",
+        "Resolved 11 hardware/software integration failures (servo brown-out, false-positive detections, stale-frame capture); added dual VL53L0X ToF sensors over a TCA9548A I2C mux for contact-aware grasping.",
+        "Implemented two-link IK on Arduino in C++ driving five servos with range-gated contact detection.",
+        "Deployed the Jetson arm bridge as a systemd service (auto-restart with backoff, non-root isolation) with static IP networking."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on STM32, integrating VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override; YOLOv8 on Jetson sent control commands to the STM32 over UART."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Encoder Odometry & Motor Control",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Implemented interrupt-driven quadrature decoding (2400 CPR) as a 4-bit A/B transition state machine on Arduino Due; fed heading error into 15 kHz PWM closed-loop correction across four motor channels.",
+        "Added a fail-safe state machine halting all motors on controller disconnect; integrated Xbox 360 control over USB Host Shield with 4x Cytron motor drivers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

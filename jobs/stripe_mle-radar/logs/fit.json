@@ -1,0 +1,148 @@
+{
+  "company": "Stripe",
+  "company_slug": "stripe",
+  "role": "Machine Learning Engineer, Radar",
+  "job_slug": "mle-radar",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 15,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "deep learning",
+    "model training and evaluation",
+    "data analysis"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "model deployment",
+      "you_have": "TensorRT/ONNX edge deployment"
+    },
+    {
+      "jd_skill": "real-time low-latency ML infrastructure",
+      "you_have": "Jetson TensorRT real-time inference"
+    },
+    {
+      "jd_skill": "software engineering",
+      "you_have": "Git/GitLab, C++/Python"
+    },
+    {
+      "jd_skill": "statistics",
+      "you_have": "Random Signal Analysis coursework"
+    },
+    {
+      "jd_skill": "experiment design",
+      "you_have": "benchmarking/ablation work"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Spark",
+    "fraud detection",
+    "trust and safety",
+    "production ML systems at scale"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "Spark",
+    "PyTorch",
+    "deep learning",
+    "fraud detection",
+    "production ML",
+    "real-time",
+    "low-latency",
+    "experiment design",
+    "statistics"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "Spark",
+    "PyTorch",
+    "production ML systems",
+    "model training and evaluation",
+    "model deployment",
+    "data analysis",
+    "statistics",
+    "experiment design"
+  ],
+  "preferred_skills": [
+    "software engineering",
+    "real-time low-latency ML infrastructure",
+    "fraud detection",
+    "trust and safety"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "build train evaluate deploy fraud models",
+    "research token theft patterns",
+    "apply deep learning",
+    "co-build products with customers"
+  ],
+  "role_category": "ml_systems",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "PyTorch model training and evaluation with measured results: DONUT fine-tune 55% to 93% validation accuracy (IIT Bombay), YOLOv8n 83% mAP@50 on 1,133 images (Tusk), YOLO11n mAP50~0.85 (CARLA)",
+      "Deep learning from first principles: GPT-2 style Transformer in PyTorch, Whisper-style ASR with 15% WER, QAT with 99.996% fixed-point match to float reference",
+      "Latency-focused inference engineering: TensorRT YOLO 56.7 to 10.9 ms (5.2x), custom CUDA kernels ~35% faster, <500ms intent classification in COFFIN",
+      "Honest metric-driven evaluation habits: SLM compression benchmarked on HellaSwag/GSM8K/ARC with <1% accuracy loss and +0.09 perplexity"
+    ],
+    "real_gaps": [
+      "No SQL or Spark anywhere in the profile; Radar's data work is large-scale tabular/event data",
+      "No fraud, abuse, integrity or trust and safety work, and no adversarial or concept-drift setting",
+      "All models are vision/speech/LLM on small datasets; no tabular/sequence models on transaction-scale data, no class imbalance or delayed-label handling",
+      "No production ML ownership: no model monitoring, retraining loops, online serving at scale, or on-call",
+      "No A/B testing or formal experiment design and no statistics beyond coursework",
+      "Role expects 2+ years production ML; profile is internships and capstone scope"
+    ],
+    "overstated_by_keywords": [
+      "model deployment counted Adjacent: ONNX/TFLite export and Jetson systemd services are edge deployment, not serving models behind a high-QPS payments path",
+      "real-time low-latency ML infrastructure counted Adjacent: latencies are single-device inference, not distributed low-latency infra",
+      "data analysis counted Have: Pandas/Jupyter use is light and not at warehouse scale"
+    ],
+    "understated_by_keywords": [
+      "Bit-exact integer-only QAT reproduction and 99.996% match shows rigor in validating model behavior, relevant to model correctness checks",
+      "Automated data generation pipelines (CARLA, ~8,000 labelled frames, zero manual annotation) show data-pipeline instinct, though not on tabular data"
+    ],
+    "screening_gaps": [
+      "No SQL/Spark or large-scale data experience, a stated minimum",
+      "No production ML experience (2+ years deploying and running models in production)",
+      "No fraud/trust and safety or tabular/adversarial modeling background for a fraud-detection team"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Solid deep learning and PyTorch fundamentals with measurable results, but the evidence is vision, speech and edge inference on small datasets. Radar's core is fraud modeling on large tabular and event data with SQL/Spark and production ownership, which the profile does not back. A long shot that would need a strong referral or a data-heavy angle to clear screening.",
+    "calibration_delta": 6.0
+  },
+  "semantic_pending": false
+}

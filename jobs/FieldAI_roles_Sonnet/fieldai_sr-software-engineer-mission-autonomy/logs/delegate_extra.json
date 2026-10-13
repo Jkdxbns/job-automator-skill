@@ -1,0 +1,25 @@
+{
+  "strengths": [
+    "ROS2 + robotics/perception (MoveIt, RViz, visual servoing, DH kinematics)",
+    "Edge AI / Jetson + TensorRT + YOLO deployment (5.2x speedup)",
+    "CUDA C++ kernel optimization + memory coalescing",
+    "Embedded C bare-metal (STM32 Cortex-M4, FreeRTOS, UART/I2C/SPI)",
+    "Embedded Linux networking / systemd service management",
+    "Computer vision pipelines (YOLO, OpenCV, faster-whisper ASR)",
+    "ML model optimization (8-bit quantization ~55% VRAM reduction, TensorRT export)",
+    "Real-time embedded + sensor integration (VL53L0X ToF, TCA9548A mux, multi-servo PWM)",
+    "Autonomous driving perception (semantic segmentation, lane detection in CARLA)"
+  ],
+  "real_gaps": [
+    "Senior-level / full-time industry experience (new-grad, 0 years full-time)",
+    "Production-scale autonomous deployment (only research/internship scale)",
+    "Formal SLAM/localization framework at field scale",
+    "Formal safety/explainability framework (no ISO26262, no explainable-AI certification)",
+    "Enterprise distributed systems / large-team production ownership",
+    "Sponsorship status unclear in JD (candidate requires long-term sponsorship)"
+  ],
+  "reasoning": "Role is 'Sr. Software Engineer - Mission Autonomy' at Field AI \u2014 senior-level autonomy engineering for unstructured-environment robots, with an elite team background (DeepMind, JPL, Boston Dynamics, NVIDIA, Tesla Autopilot, SpaceX). Candidate (Justin Mascarenhas, M.S. 2026 new-grad, 0 full-time years, 7 internships/research) has very strong adjacent technical alignment in ROS2, embedded/edge AI (Jetson+TensorRT+YOLO), CUDA kernels, STM32 bare-metal, CV/ASR, and robotics perception \u2014 matching the domain well. However, the 'Sr.' title implies 5+ years of production autonomy/systems experience the candidate does not have. No sponsorship statement in JD, and candidate requires F-1 OPT/EAD sponsorship. The company is not a federal/defense contractor in the JD text (mentions DARPA in team history, not as a contract requirement), so no ITAR/clearance flag applies. Hard blocker triggered by senior-level title vs new-grad profile and sponsorship mismatch; role category is edge_ai_robotics. Fit is moderate-to-strong technically but blocked on experience level and sponsorship ambiguity.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/a0cfd4fe-7feb-4c65-9d20-1dc7967051f8",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

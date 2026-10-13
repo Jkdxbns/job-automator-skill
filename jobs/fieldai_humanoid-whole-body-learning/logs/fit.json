@@ -1,0 +1,132 @@
+{
+  "company": "FieldAI",
+  "company_slug": "fieldai",
+  "role": "Research / Software Engineer - Humanoid Whole Body Learning",
+  "job_slug": "humanoid-whole-body-learning",
+  "match_pct": 42.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 7,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Kinematics",
+    "Control",
+    "GPU-accelerated simulation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Imitation Learning",
+      "you_have": "LeRobot / SmolVLA policy work"
+    },
+    {
+      "jd_skill": "Generative Models",
+      "you_have": "Flow-matching SmolVLA, GPT-2, transformers"
+    },
+    {
+      "jd_skill": "Robot simulation",
+      "you_have": "CARLA, URDF/MoveIt/RViz"
+    },
+    {
+      "jd_skill": "Physical hardware deployment",
+      "you_have": "UR5e, Jetson, COFFIN drone"
+    },
+    {
+      "jd_skill": "Humanoid robots",
+      "you_have": "6DOF arm / robot arms"
+    },
+    {
+      "jd_skill": "Scalable RL training infrastructure",
+      "you_have": "SLURM, MPI, CUDA"
+    },
+    {
+      "jd_skill": "Sim-to-real",
+      "you_have": "CARLA and hardware validation"
+    }
+  ],
+  "missing_skills": [
+    "Reinforcement Learning",
+    "Dynamics",
+    "Whole-body loco-manipulation",
+    "Isaac Sim",
+    "Isaac Lab",
+    "Newton",
+    "Motion retargeting",
+    "Automated robot testing"
+  ],
+  "top_ats_keywords": [
+    "reinforcement learning",
+    "imitation learning",
+    "generative models",
+    "kinematics",
+    "dynamics",
+    "sim-to-real",
+    "Isaac Sim",
+    "Isaac Lab",
+    "motion retargeting",
+    "humanoid",
+    "whole-body loco-manipulation",
+    "GPU-accelerated simulation"
+  ],
+  "required_skills": [
+    "Reinforcement Learning",
+    "Imitation Learning",
+    "Generative Models",
+    "Kinematics",
+    "Dynamics",
+    "Control",
+    "Robot simulation",
+    "Physical hardware deployment",
+    "Python",
+    "PyTorch"
+  ],
+  "preferred_skills": [
+    "Humanoid robots",
+    "Whole-body loco-manipulation",
+    "Isaac Sim",
+    "Isaac Lab",
+    "Newton",
+    "Motion retargeting",
+    "Sim-to-real",
+    "Scalable RL training infrastructure",
+    "Automated robot testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Train whole-body loco-manipulation policies",
+    "Deploy policies to humanoids",
+    "Motion retargeting",
+    "Reduce sim-to-real gap",
+    "Automated eval",
+    "RL infra scalability"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

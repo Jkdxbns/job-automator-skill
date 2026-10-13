@@ -1,0 +1,138 @@
+{
+  "company": "NeuroHire",
+  "company_slug": "neurohire",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 30.8,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 2,
+    "missing_count": 17,
+    "jd_ask_size": 26,
+    "req_cov": 0.389,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "LLMs/GenAI",
+    "HuggingFace",
+    "Git",
+    "supervised/unsupervised ML"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TensorFlow",
+      "you_have": "Keras"
+    },
+    {
+      "jd_skill": "NLP",
+      "you_have": "ASR/tokenization/transformer pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Scikit-learn",
+    "statistics/probability",
+    "Pandas",
+    "NumPy",
+    "SQL",
+    "embeddings",
+    "semantic search",
+    "OpenAI API",
+    "LangChain",
+    "recommendation systems",
+    "ranking algorithms",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "CI/CD",
+    "MLOps"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "Pandas",
+    "NumPy",
+    "SQL",
+    "NLP",
+    "Transformers",
+    "LLM",
+    "Generative AI",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Git",
+    "CI/CD",
+    "MLOps",
+    "MLflow",
+    "recommendation systems"
+  ],
+  "required_skills": [
+    "Python",
+    "Scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "supervised/unsupervised ML",
+    "statistics/probability",
+    "Pandas",
+    "NumPy",
+    "SQL"
+  ],
+  "preferred_skills": [
+    "NLP",
+    "Transformers",
+    "embeddings",
+    "semantic search",
+    "LLMs/GenAI",
+    "OpenAI API",
+    "HuggingFace",
+    "LangChain",
+    "recommendation systems",
+    "ranking algorithms",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Git",
+    "CI/CD",
+    "MLOps"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Build/train/evaluate ML models",
+    "data preprocessing/feature engineering",
+    "classification/prediction/ranking/recommendation",
+    "NLP support",
+    "model pipelines",
+    "documentation"
+  ],
+  "role_category": "ml_systems",
+  "location": "Orange, TX / California City, CA / +2 (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

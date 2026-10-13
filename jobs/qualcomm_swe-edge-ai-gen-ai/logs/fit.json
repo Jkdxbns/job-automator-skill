@@ -1,0 +1,116 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Software Engineer - Edge AI/Gen AI",
+  "job_slug": "swe-edge-ai-gen-ai",
+  "match_pct": 65.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 1,
+    "missing_count": 3,
+    "jd_ask_size": 10,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "API",
+    "Git/Perforce/SCM",
+    "Edge AI",
+    "Embedded software"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Gen AI",
+      "you_have": "GPT-2 / Hugging Face Transformers / TinyLlama fine-tuning"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "Database Management Software",
+    "Unit testing"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Java",
+    "Python",
+    "Database Management Software",
+    "API",
+    "Git",
+    "Perforce",
+    "Edge AI",
+    "Gen AI",
+    "Embedded software",
+    "Unit testing"
+  ],
+  "required_skills": [],
+  "preferred_skills": [
+    "C/C++",
+    "Java",
+    "Python",
+    "Database Management Software",
+    "API",
+    "Git/Perforce/SCM"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, develop, create, modify, and validate embedded and cloud edge software",
+    "Analyze user needs and software requirements",
+    "Design and implement small software features",
+    "Unit testing, minor debugging fixes, integration efforts",
+    "Code reviews and regression tests",
+    "Write technical documentation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Diego, California, United States of America",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 74,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Edge AI deployment depth (Jetson + TensorRT + YOLO, 5.2x inference speedup) directly matches the 'Edge AI' half of the title and the 'embedded and cloud edge software' responsibility",
+      "Gen AI / transformer engineering undersold by the keyword pass: GPT-2 built from scratch, HuggingFace VisionEncoderDecoder fine-tuning (DONUT), TinyLlama 8-bit quantization \u2014 real hands-on generative model work, not just library calls",
+      "C/C++ and Python both backed by multiple production-adjacent projects (COFFIN capstone, STM32 firmware, CUDA kernels), well past surface-level familiarity",
+      "Git/SCM backed by GitLab use at BARC and Git across all recent projects; the JD accepts any one of Git/Perforce/SCM so this line item is fully satisfied"
+    ],
+    "real_gaps": [
+      "No Java anywhere in the profile \u2014 zero evidence, not even adjacent",
+      "No database/API backend development bullet \u2014 internships and projects are ML/embedded-focused, nothing touching a DB schema or REST API service (COFFIN uses WebSocket/Flask but not DB-backed)",
+      "No formal unit testing or QA process experience \u2014 no pytest/JUnit/CI test-suite bullet anywhere, despite the JD naming unit testing and regression tests as core day-to-day duties",
+      "'Works under supervision' / small-feature scope is a good match for background, but nothing in the profile demonstrates working inside an existing large codebase with established review/test process"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "Gen AI depth (GPT-2 from scratch, DONUT fine-tuning, TinyLlama quantization) is stronger than the single ADJACENT keyword credit suggests"
+    ],
+    "screening_gaps": [
+      "No Java experience \u2014 if this team's stack leans Java over C++/Python, ATS or resume screen risk",
+      "No database or backend API development bullet \u2014 the profile has no evidence of DB-schema or REST-service work",
+      "No named unit-testing/QA framework experience, despite it being called out as a core daily responsibility"
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is a broad, entry-level generalist SWE req (degree is the only hard minimum qualification) where the title's 'Edge AI/Gen AI' framing plays directly to Justin's strongest material \u2014 Jetson/TensorRT deployment and from-scratch transformer/LLM work. The gaps (Java, DB, formal unit testing) are real but are 'or' items or generic engineering-process skills, not core technical blockers, and are learnable on the job at this supervision level.",
+    "calibration_delta": -9.0
+  }
+}

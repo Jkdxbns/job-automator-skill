@@ -1,0 +1,84 @@
+{
+  "_meta": { "company": "Xsens", "role": "Embedded Software Engineer", "company_slug": "xsens", "job_slug": "embedded-software-engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate (Rochester Institute of Technology) with embedded software development experience across STM32 microcontrollers, Arduino, and NVIDIA Jetson platforms. Builds bare-metal C firmware, FreeRTOS task coordination, and UART/I2C sensor integration for real-time systems, with direct experience debugging across the hardware/software boundary and reading hardware schematics for custom PCB designs.",
+  "skills": {
+    "Embedded": ["STM32 (Bare-Metal C)", "FreeRTOS", "Arduino", "UART/I2C/SPI", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"],
+    "Languages & Systems": ["C/C++", "Python"],
+    "Robotics & Perception": ["NVIDIA Jetson", "YOLO", "Inverse Kinematics", "Raspberry Pi"],
+    "Tools": ["Linux", "Git", "systemd", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers over I2C with Raspberry Pi and HC-05 Bluetooth (BLE/Classic) to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; debugged and resolved sensor jitter across the hardware/software boundary through calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots, reading and producing hardware schematics; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and embedded firmware integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal embedded C on STM32 microcontrollers (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz real-time update rate, verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver for real-time sensor data acquisition."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on STM32; implemented multi-servo PWM control with interrupt-driven UART command handling and user override.",
+        "Integrated VL53L0X ToF sensing over I2C with OLED distance visualization; relayed object-tracking commands from a Jetson-based YOLOv8 detector to STM32 over UART."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors (camera range-gate + gripper-triggered close at 25 mm) via a TCA9548A I2C multiplexer for contact-aware grasping; implemented two-link inverse kinematics on Arduino in embedded C++ driving five servos.",
+        "Resolved 11 hardware/software integration failures (servo brown-out, stale-frame capture, false-positive detections) debugging across the Jetson-Arduino boundary; deployed the arm bridge as a systemd service with static IP networking over Ethernet for reliable multi-device communication."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Multiple Processor Systems", "Principles of Robotics", "Robot Perception", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

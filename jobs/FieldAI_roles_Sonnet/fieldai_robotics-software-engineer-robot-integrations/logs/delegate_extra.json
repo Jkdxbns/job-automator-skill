@@ -1,0 +1,20 @@
+{
+  "strengths": [
+    "ROS2 / robotics integration (direct match to role title and team mission)",
+    "Perception + YOLO + TensorRT edge deployment (direct match to embodied AI / sensor work)",
+    "Embedded C/C++ + real-time (STM32, FreeRTOS, Jetson) matches real-hardware requirement",
+    "Sensor integration and multi-modal fusion (ToF, I2C mux, Bluetooth, accelerometer) matches real-sensor deployment",
+    "Real deployment track record (COFFIN arm, tracking turret, autonomous driving) demonstrates shipping to hardware, not just lab code",
+    "CUDA/GPU + ML optimization (quantization, TensorRT, custom CUDA kernels) supports performance-critical autonomy"
+  ],
+  "real_gaps": [
+    "0 years full-time industry experience \u2014 candidate is a new-grad with 7 internships/research roles",
+    "No production-scale multi-robot / globally-deployed commercial fleet experience",
+    "No formal safety / risk-certification (ISO26262, explainable-AI framework) cited",
+    "No enterprise production ML infrastructure / cloud-at-scale experience"
+  ],
+  "reasoning": "The JD asks for a robotics software engineer to build real-robot integrations with perception, planning, manipulation, and field deployment \u2014 exactly the candidate's strongest domain (ROS2, YOLO/TensorRT on Jetson, embedded STM32, real sensor pipelines, robotic arm deployment). No sponsorship prohibition, ITAR, clearance, citizenship, or senior-level barrier is present; title is not senior/staff and required years is 0, so no hard blocker. Main gaps are new-grad status (0 full-time years) vs. a team that works with globally-deployed solutions, plus absence of formal safety certification and production-scale distributed robotics experience. Fit is strong on technical skills but moderate-to-strong overall because of the experience-level gap against production-scale deployment expectations.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/b5f58151-9a46-441f-badf-2e91244bfd39",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

@@ -1,0 +1,167 @@
+{
+  "company": "Tesla",
+  "company_slug": "tesla",
+  "role": "Embedded Platform Software Engineer, Optimus",
+  "job_slug": "embedded-platform-optimus",
+  "match_pct": 71.4,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 6,
+    "missing_count": 3,
+    "jd_ask_size": 21,
+    "req_cov": 0.808,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "Python",
+    "ADC",
+    "PWM",
+    "SPI",
+    "I2C",
+    "RTOS",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "Multimeters",
+    "Drivers",
+    "Firmware profiling"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C++",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "Electrical schematics",
+      "you_have": "EAGLE PCB design"
+    },
+    {
+      "jd_skill": "Multicore",
+      "you_have": "MPI / Multiple Processor Systems"
+    },
+    {
+      "jd_skill": "Automated tests",
+      "you_have": "Git/GitLab workflow"
+    },
+    {
+      "jd_skill": "Build infrastructure",
+      "you_have": "CMake"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "TCP/IP socket + UART/USB"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "MISRA C",
+    "Power optimization"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "Python",
+    "C++",
+    "RTOS",
+    "ADC",
+    "PWM",
+    "SPI",
+    "I2C",
+    "Ethernet",
+    "CAN",
+    "MISRA C",
+    "multicore",
+    "oscilloscope",
+    "logic analyzer",
+    "multimeter",
+    "schematics",
+    "drivers",
+    "automated tests",
+    "profiling"
+  ],
+  "required_skills": [
+    "C",
+    "Real-time embedded software",
+    "Microcontroller peripheral bring-up (ADC, PWM, SPI, I2C)",
+    "Ethernet",
+    "CAN",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "Multimeters",
+    "Electrical schematics",
+    "RTOS",
+    "Multicore",
+    "Firmware profiling and optimization",
+    "MISRA C"
+  ],
+  "preferred_skills": [
+    "Python",
+    "C++"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Drivers and comms stacks",
+    "RTOS integration",
+    "Peripheral bring-up",
+    "Automated firmware tests"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Palo Alto, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal peripheral bring-up on STM32 Cortex-M4: timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver on GPIO/TIM2/ADC1/I2C1 in 3.68 KB Flash / 1.58 KB RAM (STM32 Temperature Monitor)",
+      "Interrupt-driven quadrature decoding from first principles plus 15 kHz PWM on Arduino Due (Robocon)",
+      "FreeRTOS tasks with mutexes and interrupt-driven UART on the turret; UART/I2C sensor links with TCA9548A mux in COFFIN",
+      "Bench tool use (oscilloscope, logic analyzer, multimeter) and EAGLE PCB design backs the schematic and debug ask"
+    ],
+    "real_gaps": [
+      "No CAN or Ethernet bring-up anywhere in the profile, and both are named explicitly",
+      "No MISRA C or safety-critical coding standard evidence",
+      "No reusable driver framework, HAL or build-infrastructure ownership; peripheral work is single-purpose firmware",
+      "No multicore firmware design; MPI is cluster-level, not multicore MCU/SoC",
+      "No automated firmware test, CI or HIL evidence",
+      "Power optimization of firmware is not evidenced; profiling is GPU/ML-side (pynvml)",
+      "Seniority: asks 2+ years real-time embedded, profile is student/intern scope"
+    ],
+    "overstated_by_keywords": [
+      "Ethernet counted adjacent via sockets, but there is no MAC/PHY or Ethernet stack bring-up",
+      "Multicore counted adjacent via MPI, which is a different domain from multicore MCU design",
+      "Firmware profiling counted Have, but the profiling is GPU/inference, not firmware performance, memory or power"
+    ],
+    "understated_by_keywords": [
+      "Flash/RAM footprint figure (3.68 KB / 1.58 KB) shows real memory-conscious firmware work",
+      "Systemd/Linux service work on Jetson shows multi-device system debugging"
+    ],
+    "screening_gaps": [
+      "No CAN or Ethernet bring-up",
+      "No MISRA C or safety-critical standard experience",
+      "No reusable driver/platform or automated firmware testing ownership"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Real STM32 bare-metal and FreeRTOS foundations cover the peripheral and RTOS core, but the role is about owning a reusable platform with CAN, Ethernet, MISRA and multicore, none of which has backing. Keyword score is generous on adjacents; depth is closer to half-backed. Worth applying, with CAN and MISRA as the likely rejection points.",
+    "calibration_delta": 24.4
+  },
+  "semantic_pending": false
+}

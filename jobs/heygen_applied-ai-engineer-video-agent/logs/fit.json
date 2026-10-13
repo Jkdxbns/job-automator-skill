@@ -1,0 +1,121 @@
+{
+  "company": "HeyGen",
+  "company_slug": "heygen",
+  "role": "Applied AI Engineer, Video Agent",
+  "job_slug": "applied-ai-engineer-video-agent",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 16,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI agent / tool calling",
+      "you_have": "Gemini intent classification in voice-to-pick pipeline (COFFIN)"
+    },
+    {
+      "jd_skill": "prompt and context design",
+      "you_have": "Gemini intent classification (<500ms)"
+    },
+    {
+      "jd_skill": "LLM evals / test sets",
+      "you_have": "Model evaluation (GSM8K, HellaSwag, WER, mAP, trial-based reliability)"
+    },
+    {
+      "jd_skill": "backend services and long-running workflows",
+      "you_have": "Flask-SocketIO edge server, systemd services"
+    },
+    {
+      "jd_skill": "full-stack engineering",
+      "you_have": "Flutter client + Flask-SocketIO server"
+    },
+    {
+      "jd_skill": "LLM",
+      "you_have": "Hugging Face Transformers, TinyLlama, GPT-2"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "React",
+    "Go",
+    "A/B testing",
+    "feature flags",
+    "multi-turn",
+    "code-to-video",
+    "video agent models"
+  ],
+  "top_ats_keywords": [
+    "AI agent",
+    "LLM",
+    "tool calling",
+    "prompt engineering",
+    "evals",
+    "A/B testing",
+    "feature flags",
+    "TypeScript",
+    "React",
+    "Python",
+    "Go",
+    "full-stack",
+    "backend services",
+    "fine-tuning",
+    "multi-turn"
+  ],
+  "required_skills": [
+    "AI agent (tool calling, multi-step planning)",
+    "LLM evals / test sets",
+    "A/B testing and feature-flag experiments",
+    "TypeScript",
+    "React",
+    "Python",
+    "Go",
+    "backend services and long-running workflows",
+    "prompt and context design",
+    "full-stack engineering"
+  ],
+  "preferred_skills": [
+    "model fine-tuning",
+    "code-to-video models",
+    "video agent models"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "design agent tools, prompts and context",
+    "build evals and offline session replays",
+    "run A/B tests behind feature flags",
+    "ship React/TypeScript features",
+    "build Python/Go backend workflows"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco / Palo Alto / Los Angeles / Toronto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

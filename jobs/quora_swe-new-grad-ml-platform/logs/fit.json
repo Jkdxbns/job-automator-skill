@@ -1,0 +1,142 @@
+{
+  "company": "Quora",
+  "company_slug": "quora",
+  "role": "Software Engineer New Grad, Machine Learning Platform",
+  "job_slug": "swe-new-grad-ml-platform",
+  "match_pct": 55.9,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 17,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorFlow",
+    "profiling",
+    "benchmarking",
+    "optimization",
+    "internship experience"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Go",
+      "you_have": "C++/Python (no Go evidence)"
+    },
+    {
+      "jd_skill": "NVIDIA Triton",
+      "you_have": "TensorRT/ONNX GPU inference optimization"
+    },
+    {
+      "jd_skill": "Ray/distributed systems",
+      "you_have": "MPI parallel computing"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "EKS",
+    "Docker",
+    "AWS",
+    "feature store production experience",
+    "large-scale production ML serving"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Go",
+    "C++",
+    "PyTorch",
+    "Kubernetes",
+    "NVIDIA Triton",
+    "Ray",
+    "AWS",
+    "distributed systems",
+    "GPU serving"
+  ],
+  "required_skills": [
+    "Python",
+    "Go",
+    "C++"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "profiling",
+    "benchmarking",
+    "optimization",
+    "internship experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "ML platform infra",
+    "distributed model serving",
+    "GPU serving optimization",
+    "developer tooling",
+    "feature store",
+    "on-call"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote - US/Canada",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "CUDA kernel optimization on VGG16 (custom coalesced kernels, 1.5-2x speedup) and TensorRT-optimized YOLO in the COFFIN capstone (5.2x speedup, 56.7->10.9ms) are direct evidence of GPU serving latency work",
+      "SLM Compression project (8-bit quantization of TinyLlama, ~55% VRAM reduction, pynvml/psutil latency profiling) maps closely onto 'optimizing latency, throughput, and cost to support larger and more capable models'",
+      "MPI Hodgkin-Huxley simulation and Parallel Ray Tracer (up to 30x speedup, SLURM-managed clusters) show real distributed/parallel-computing depth, even though the stack differs from Ray/Kubernetes",
+      "COFFIN capstone's systemd service deployment (auto-restart with backoff, non-root isolation, static IP networking) shows a production-reliability instinct beyond a one-off script"
+    ],
+    "real_gaps": [
+      "No Kubernetes, EKS, or Docker experience anywhere in the profile",
+      "No AWS or any cloud-provider experience",
+      "No exposure to NVIDIA Triton, Ray, or any production model-serving framework \u2014 all serving work is single-device/edge, not a fleet",
+      "No Go anywhere in the profile",
+      "No experience with feature stores or internal ML developer-tooling platforms",
+      "No on-call rotation or SRE-style production-incident experience for a live multi-user service",
+      "All ML/infra work is research, capstone, or student-club scale \u2014 never operated at the '100M+ users' scale this team owns"
+    ],
+    "overstated_by_keywords": [
+      "'profiling/benchmarking/optimization' counted as HAVE is real but all at single-kernel/single-model level, not fleet or service level",
+      "'internship experience' counted as HAVE spans 6 internships, none in software/platform infrastructure \u2014 they are ML research, embedded, and robotics"
+    ],
+    "understated_by_keywords": [
+      "The COFFIN systemd deployment (auto-restart, isolation, static IP) is closer evidence toward 'serving reliability' than the keyword pass credited",
+      "The TinyLlama 8-bit quantization work is a stronger analog to 'GPU model serving for larger models' than a plain keyword match conveys"
+    ],
+    "screening_gaps": [
+      "Zero Kubernetes/Docker/AWS experience \u2014 the entire deployment stack this team runs on is unevidenced",
+      "No production-scale model-serving system experience (Triton, Ray, or equivalent) \u2014 everything is single-machine or edge scale, not the fleet-scale infra this role owns",
+      "No Go, and existing C++ work reads as embedded/robotics rather than backend-services flavored"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The GPU-inference-optimization and parallel-computing depth is genuine and transfers, but it was built at edge/research scale, not the cloud fleet-serving scale this team owns, and the specific stack (Kubernetes, Ray, Triton, AWS, Go) has zero coverage. The JD explicitly says no prior ML-infra experience is required and pairs new grads with a mentor, which is the strongest argument for applying despite the stack gap.",
+    "calibration_delta": 10.9
+  }
+}

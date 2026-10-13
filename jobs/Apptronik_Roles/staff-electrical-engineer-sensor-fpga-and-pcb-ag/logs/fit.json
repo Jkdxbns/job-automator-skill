@@ -1,0 +1,128 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff Electrical Engineer - Sensor FPGA and PCB (Aggregator)",
+  "job_slug": "staff-electrical-engineer-sensor-fpga-and-pcb-ag",
+  "match_pct": 15.6,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 5,
+    "missing_count": 11,
+    "jd_ask_size": 16,
+    "req_cov": 0.3,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "High-speed digital interfaces (CSI-2, GMSL, SerDes, Ethernet, PCIe)",
+      "you_have": "Embedded UART/I2C/SPI interfaces and embedded networking"
+    },
+    {
+      "jd_skill": "PCBA schematic capture / layout guidance",
+      "you_have": "EAGLE PCB design and custom PCB fabrication"
+    },
+    {
+      "jd_skill": "Lab equipment (oscilloscopes, protocol analyzers) / hardware debugging",
+      "you_have": "Oscilloscopes and Logic Analyzers listed; embedded debugging experience"
+    },
+    {
+      "jd_skill": "Signal integrity / impedance-controlled routing / differential pairs / stack-up",
+      "you_have": "PCB design (EAGLE) and mechanical design (SolidWorks)"
+    },
+    {
+      "jd_skill": "Ethernet-based sensor streaming / network architecture",
+      "you_have": "Distributed network/WebSocket pipeline and Linux static IP/network config"
+    }
+  ],
+  "missing_skills": [
+    "FPGA hardware design and architecture experience",
+    "RTL development in VHDL and/or Verilog (no VHDL/Verilog in profile)",
+    "FPGA tool flows: Vivado, Quartus, Lattice Radiant and simulation (ModelSim/Questa)",
+    "MIPI CSI-2 interface design experience",
+    "GMSL2 / FPD-Link / PoC / high-speed SerDes design experience",
+    "10GbE high-speed Ethernet interface design",
+    "ISP (image signal processor) integration",
+    "Timing closure, clock-domain crossing, FPGA resource optimization",
+    "Integration of high-speed transceivers and external PHY devices",
+    "Production lifecycle / PLM / DFM-DFA / manufacturing release at volume",
+    "8+ years electrical engineering experience"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "RTL",
+    "VHDL",
+    "Verilog",
+    "CSI-2",
+    "GMSL",
+    "FPD-Link",
+    "10GbE",
+    "SerDes",
+    "MIPI",
+    "ISP",
+    "Vivado",
+    "Quartus",
+    "ModelSim",
+    "signal integrity",
+    "impedance-controlled routing",
+    "differential pairs",
+    "transceivers",
+    "PHY",
+    "PCBA",
+    "schematic",
+    "layout",
+    "timing closure",
+    "clock-domain crossing",
+    "production",
+    "manufacturing",
+    "Apollo",
+    "robotics"
+  ],
+  "required_skills": [
+    "FPGA device selection and architecture definition",
+    "RTL development in VHDL and/or Verilog",
+    "High-speed interface design (CSI-2, GMSL/SerDes, Ethernet, PCIe)",
+    "Timing closure, clock-domain crossing, and resource optimization",
+    "Integration of high-speed transceivers and external PHY devices",
+    "FPGA tool flows (Vivado, Quartus, Lattice Radiant) and simulation (ModelSim/Questa)",
+    "High-speed digital design: signal integrity, impedance-controlled routing, differential pairs, stack-up, timing analysis",
+    "Camera/image sensor hardware: SerDes (GMSL, FPD-Link), MIPI CSI-2, and ISP integration",
+    "Ethernet-based sensor streaming and sensor bridges",
+    "Production lifecycle / PLM / DFM-DFA / manufacturing release"
+  ],
+  "preferred_skills": [
+    "Automotive or robotics vision systems experience"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own full electrical and FPGA stack of sensor bridge board: requirements, architecture, schematic, layout guidance, RTL, bring-up, validation, production release",
+    "Design multi-Gbps mixed-signal PCBA aggregating camera sensor data and HRI functions",
+    "Develop RTL for CSI-2 ingest, Ethernet packetization, timestamp/metadata insertion, camera/IMU synchronization",
+    "Validate latency, bandwidth, synchronization with lab equipment; debug link training, timing violations, ISP misconfiguration",
+    "Own component lifecycle through PLM; manage vendors/CMs for production scaling"
+  ],
+  "role_category": "other",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

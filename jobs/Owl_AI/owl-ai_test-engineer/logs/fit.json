@@ -1,0 +1,125 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Test Engineer",
+  "job_slug": "test-engineer",
+  "match_pct": 54.8,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 21,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python scripting / automation",
+    "C/C++ programming",
+    "Git / software workflows",
+    "Embedded systems / bare-metal development",
+    "Data acquisition",
+    "Test / measurement equipment (oscilloscopes, multimeters)",
+    "Image / sensor processing",
+    "ROS2 / robotics / perception",
+    "Embedded C / FreeRTOS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded / electronics systems",
+      "you_have": "Embedded C / STM32 bare-metal"
+    },
+    {
+      "jd_skill": "Image / camera / sensor testing",
+      "you_have": "Image processing, ToF, YOLO, visual servoing"
+    },
+    {
+      "jd_skill": "Automation / scripting",
+      "you_have": "Python, Bash"
+    },
+    {
+      "jd_skill": "Hardware/software integration testing",
+      "you_have": "ROS2 embedded/perception integration"
+    },
+    {
+      "jd_skill": "Fast-paced multidisciplinary environment communication",
+      "you_have": "Communicated / organized / written documentation experience implied by profile"
+    }
+  ],
+  "missing_skills": [
+    "2+ years full-time professional test/verification experience (candidate is new-grad, 0 full-time years)",
+    "Thermal imaging / infrared sensor experience (not in profile keywords)",
+    "Automated test fixtures design/build",
+    "Formal V&V / quality management process experience",
+    "Requirements and defect tracking systems (no keyword match)",
+    "Environmental / reliability / qualification testing experience",
+    "Image/sensor-specific analysis tools beyond general processing"
+  ],
+  "top_ats_keywords": [
+    "Bachelor's degree in Electrical/Mechanical/Computer/Systems Engineering or related",
+    "2+ years experience in imaging test, verification, validation, systems engineering, or product development",
+    "Experience developing and executing structured test systems, plans, and procedures",
+    "Experience troubleshooting technical issues involving both hardware and software",
+    "Ability to interpret engineering requirements, specifications, schematics, drawings, and technical documentation",
+    "Experience with data collection, analysis, and technical reporting",
+    "Strong problem-solving and root-cause analysis skills",
+    "Ability to work in fast-paced multidisciplinary environment",
+    "Strong written and verbal communication skills",
+    "High attention to detail and methodical approach to testing and documentation",
+    "Ability to lift up to 40 pounds",
+    "Domestic travel ability"
+  ],
+  "required_skills": [
+    "Bachelor's degree in Electrical/Mechanical/Computer/Systems Engineering or related",
+    "2+ years experience in imaging test, verification, validation, systems engineering, or product development",
+    "Experience developing and executing structured test systems, plans, and procedures",
+    "Experience troubleshooting technical issues involving both hardware and software",
+    "Ability to interpret engineering requirements, specifications, schematics, drawings, and technical documentation",
+    "Experience with data collection, analysis, and technical reporting",
+    "Strong problem-solving and root-cause analysis skills",
+    "Ability to work in fast-paced multidisciplinary environment",
+    "Strong written and verbal communication skills",
+    "High attention to detail and methodical approach to testing and documentation",
+    "Ability to lift up to 40 pounds",
+    "Domestic travel ability"
+  ],
+  "preferred_skills": [
+    "Experience with image testing systems, cameras, sensors, electronics, embedded systems, or autonomous/robotic systems",
+    "Experience with thermal imaging or infrared sensors",
+    "Experience with automated testing and scripting using Python or similar",
+    "Familiarity with test and measurement equipment (oscilloscopes, multimeters, power supplies, electronic loads, data acquisition systems)",
+    "Experience developing or maintaining automated test fixtures",
+    "Experience with hardware/software integration testing",
+    "Familiarity with Git and software development workflows",
+    "Experience within formal product development, quality management, or V&V process",
+    "Experience with environmental, reliability, or qualification testing",
+    "Experience working with image or sensor data and associated analysis tools",
+    "Experience with requirements and defect tracking systems"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Fairport, NY \u2013 Hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Posting states position could be subject to contractual requirements requiring successful candidate to be a U.S. Citizen; candidate is F-1 OPT and requires sponsorship/work authorization"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

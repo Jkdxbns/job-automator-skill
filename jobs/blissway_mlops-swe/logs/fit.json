@@ -1,0 +1,136 @@
+{
+  "company": "Blissway",
+  "company_slug": "blissway",
+  "role": "Software Engineer, Machine Learning Operations",
+  "job_slug": "mlops-swe",
+  "match_pct": 45.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 7,
+    "missing_count": 9,
+    "jd_ask_size": 23,
+    "req_cov": 0.438,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "object detection",
+    "classification",
+    "computer vision",
+    "edge deployment",
+    "edge AI",
+    "PyTorch"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "segmentation",
+      "you_have": "BraTS / Dice (medical segmentation)"
+    },
+    {
+      "jd_skill": "model serving",
+      "you_have": "TensorRT / ONNX on Jetson"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "training infrastructure",
+      "you_have": "SLURM"
+    },
+    {
+      "jd_skill": "self-hosted servers",
+      "you_have": "Linux / systemd admin"
+    },
+    {
+      "jd_skill": "production backend services",
+      "you_have": "Flask / WebSocket"
+    },
+    {
+      "jd_skill": "resource-constrained hardware",
+      "you_have": "Jetson / STM32"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "MLOps",
+    "model versioning",
+    "rollback",
+    "drift monitoring",
+    "observability",
+    "embeddings",
+    "re-identification",
+    "retraining"
+  ],
+  "top_ats_keywords": [
+    "MLOps",
+    "Python",
+    "TypeScript",
+    "model deployment",
+    "monitoring",
+    "edge",
+    "computer vision",
+    "detection",
+    "segmentation",
+    "classification",
+    "embeddings",
+    "re-identification",
+    "pipelines",
+    "observability"
+  ],
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "MLOps",
+    "model deployment",
+    "model serving",
+    "model versioning",
+    "rollback",
+    "training infrastructure",
+    "monitoring",
+    "observability",
+    "drift monitoring",
+    "edge deployment",
+    "computer vision",
+    "CI/CD",
+    "production backend services",
+    "self-hosted servers"
+  ],
+  "preferred_skills": [
+    "edge AI",
+    "resource-constrained hardware",
+    "retraining"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "own training/serving infra, versioning, deployment, rollback",
+    "11M images/day vision pipeline",
+    "edge model deployment and updates",
+    "drift monitoring"
+  ],
+  "role_category": "ml_systems",
+  "location": "Denver, CO (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

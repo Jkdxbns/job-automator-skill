@@ -1,0 +1,123 @@
+{
+  "company": "Treefera",
+  "company_slug": "treefera",
+  "role": "AI/ML Engineer, Weather & Earth Observation Forecasting",
+  "job_slug": "ml-forecasting-weather-eo",
+  "match_pct": 39.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.458,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Git",
+    "Deep Learning",
+    "Model evaluation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "time series",
+      "you_have": "Digital Signal Processing"
+    },
+    {
+      "jd_skill": "remote sensing",
+      "you_have": "Image Processing"
+    },
+    {
+      "jd_skill": "spatial data modelling",
+      "you_have": "Computer Vision"
+    },
+    {
+      "jd_skill": "orchestration",
+      "you_have": "SLURM"
+    },
+    {
+      "jd_skill": "scikit-learn",
+      "you_have": "Keras/TensorFlow"
+    }
+  ],
+  "missing_skills": [
+    "xarray",
+    "scipy",
+    "weather and climate data",
+    "forecast verification",
+    "experiment tracking",
+    "cloud infrastructure",
+    "risk modelling",
+    "commodity markets",
+    "backtesting"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "scikit-learn",
+    "scipy",
+    "xarray",
+    "Python",
+    "time series",
+    "remote sensing",
+    "reanalysis",
+    "forecast verification",
+    "experiment tracking",
+    "orchestration",
+    "cloud",
+    "Git",
+    "backtesting"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "scikit-learn",
+    "scipy",
+    "xarray",
+    "deep learning time series",
+    "spatial data modelling",
+    "experiment tracking",
+    "orchestration",
+    "cloud infrastructure",
+    "version control",
+    "evaluation and uncertainty"
+  ],
+  "preferred_skills": [
+    "weather and climate data",
+    "remote sensing",
+    "risk modelling and commodity markets",
+    "backtesting"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "build and ship forecasting models",
+    "extend staged weather pipeline",
+    "satellite optical and radar vegetation stress",
+    "prototype to production",
+    "evaluation and uncertainty"
+  ],
+  "role_category": "ml_systems",
+  "location": "UK (city not stated)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

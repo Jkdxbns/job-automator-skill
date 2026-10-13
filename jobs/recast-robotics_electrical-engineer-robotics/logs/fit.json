@@ -1,0 +1,168 @@
+{
+  "company": "ReCAST Robotics",
+  "company_slug": "recast-robotics",
+  "role": "Electrical Engineer (Robotics)",
+  "job_slug": "electrical-engineer-robotics",
+  "match_pct": 39.7,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 5,
+    "missing_count": 21,
+    "jd_ask_size": 39,
+    "req_cov": 0.403,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "PCB bring-up and debugging",
+    "PCB schematic design",
+    "sensor and actuator integration",
+    "IMUs",
+    "optical sensors",
+    "oscilloscopes",
+    "logic analyzers",
+    "I2C",
+    "SPI",
+    "UART",
+    "prototyping",
+    "C/C++",
+    "Python test automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "component selection",
+      "you_have": "BOM (bill of materials) experience"
+    },
+    {
+      "jd_skill": "motor controllers",
+      "you_have": "PWM signal generation (Arduino/STM32)"
+    },
+    {
+      "jd_skill": "test procedure development",
+      "you_have": "benchmarking / model evaluation methodology"
+    },
+    {
+      "jd_skill": "Altium Designer",
+      "you_have": "EAGLE PCB Design, Proteus"
+    },
+    {
+      "jd_skill": "KiCad",
+      "you_have": "EAGLE PCB Design"
+    }
+  ],
+  "missing_skills": [
+    "BLDC motors",
+    "tactile sensors",
+    "wiring harness design",
+    "grounding",
+    "strain relief",
+    "shielding",
+    "test fixture design",
+    "power distribution validation",
+    "DC-DC converter validation",
+    "thermal load testing",
+    "signal integrity debugging",
+    "EMI/EMC mitigation",
+    "bench power supplies",
+    "digital multimeters",
+    "CAN bus",
+    "fine-pitch soldering",
+    "assembly rework",
+    "Cadence",
+    "power electronics design",
+    "switching regulators",
+    "battery management systems (BMS)"
+  ],
+  "top_ats_keywords": [
+    "I2C",
+    "SPI",
+    "UART",
+    "CAN bus",
+    "oscilloscope",
+    "logic analyzer",
+    "DMM",
+    "soldering",
+    "Altium",
+    "KiCad",
+    "BLDC",
+    "IMU",
+    "BMS",
+    "C/C++",
+    "Python"
+  ],
+  "required_skills": [
+    "PCB bring-up and debugging",
+    "PCB schematic design",
+    "component selection",
+    "sensor and actuator integration",
+    "BLDC motors",
+    "motor controllers",
+    "IMUs",
+    "tactile sensors",
+    "optical sensors",
+    "wiring harness design",
+    "grounding",
+    "strain relief",
+    "shielding",
+    "test procedure development",
+    "test fixture design",
+    "power distribution validation",
+    "DC-DC converter validation",
+    "thermal load testing",
+    "signal integrity debugging",
+    "EMI/EMC mitigation",
+    "oscilloscopes",
+    "logic analyzers",
+    "bench power supplies",
+    "digital multimeters",
+    "I2C",
+    "SPI",
+    "UART",
+    "CAN bus",
+    "fine-pitch soldering",
+    "prototyping",
+    "assembly rework"
+  ],
+  "preferred_skills": [
+    "Altium Designer",
+    "KiCad",
+    "Cadence",
+    "C/C++",
+    "Python test automation",
+    "power electronics design",
+    "switching regulators",
+    "battery management systems (BMS)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Board bring-up and debugging of PCBAs",
+    "PCB schematic/layout design support",
+    "Sensor and actuator integration (BLDC, IMU, tactile, optical)",
+    "Wiring harness design and documentation",
+    "Validation testing (power, thermal, DC-DC)",
+    "Cross-functional debugging with firmware/mechanical teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Carlos, CA (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

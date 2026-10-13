@@ -1,0 +1,135 @@
+{
+  "company": "Capital One",
+  "company_slug": "capital-one",
+  "role": "Applied Researcher 4 (AI Foundations, LLM Customization and Finetuning)",
+  "job_slug": "applied-researcher-4-llm-finetuning",
+  "match_pct": 34.1,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 11,
+    "jd_ask_size": 22,
+    "req_cov": 0.542,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "Hugging Face",
+    "Deep Learning",
+    "tokenization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "training optimization",
+      "you_have": "CUDA kernel optimization, quantization"
+    },
+    {
+      "jd_skill": "supervised fine-tuning",
+      "you_have": "Fine-tuned TinyLlama/SLM"
+    },
+    {
+      "jd_skill": "LLM pre-training",
+      "you_have": "GPT-2 from scratch"
+    },
+    {
+      "jd_skill": "AWS Ultraclusters",
+      "you_have": "SLURM/HPC, MPI"
+    },
+    {
+      "jd_skill": "transfer learning",
+      "you_have": "fine-tuning"
+    },
+    {
+      "jd_skill": "deploy fine-tuned LLM",
+      "you_have": "Jetson edge LLM deployment"
+    },
+    {
+      "jd_skill": "reproduce peer-reviewed research",
+      "you_have": "UFLD/ZoeDepth reproductions"
+    }
+  ],
+  "missing_skills": [
+    "Lightning",
+    "self-supervised learning",
+    "RLHF",
+    "robustness",
+    "explainability",
+    "applied research experience",
+    "publications",
+    "10B+ parameter training",
+    "instruction tuning",
+    "parameter-efficient tuning",
+    "dataset curation"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "Hugging Face",
+    "Lightning",
+    "AWS",
+    "LLM",
+    "fine-tuning",
+    "RLHF",
+    "self-supervised learning",
+    "pre-training",
+    "instruction tuning",
+    "transfer learning",
+    "tokenization",
+    "foundation models"
+  ],
+  "required_skills": [
+    "PyTorch",
+    "Hugging Face",
+    "Deep Learning",
+    "AWS Ultraclusters",
+    "Lightning",
+    "training optimization",
+    "self-supervised learning",
+    "RLHF",
+    "robustness",
+    "explainability",
+    "applied research experience",
+    "publications"
+  ],
+  "preferred_skills": [
+    "supervised fine-tuning",
+    "instruction tuning",
+    "parameter-efficient tuning",
+    "transfer learning",
+    "LLM pre-training",
+    "10B+ parameter training",
+    "tokenization",
+    "dataset curation",
+    "deploy fine-tuned LLM",
+    "reproduce peer-reviewed research"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "build AI foundation models design to deployment",
+    "applied research",
+    "tech reports/conference submissions"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose CA / McLean VA / Cambridge MA / New York NY",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "company": "Stryker",
+    "role": "Senior Computer Vision Engineer",
+    "company_slug": "stryker",
+    "job_slug": "senior-cv-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience developing and deploying computer vision and deep learning algorithms from research to production. Developed U-Net medical image segmentation on MRI data (BraTS 2020) with VGG/ResNet backbones, ZoeDepth monocular depth estimation for 3D surface reconstruction, and real-time object tracking pipelines on edge hardware. Skilled in PyTorch, TensorFlow, OpenCV, and C++ across medical imaging, perception, and edge AI applications.",
+  "skills": {
+    "Languages": [
+      "Python",
+      "C/C++",
+      "Bash"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Hugging Face Transformers",
+      "scikit-learn",
+      "Model training & evaluation",
+      "Structured Pruning",
+      "Quantization (8-bit)"
+    ],
+    "Computer Vision": [
+      "OpenCV",
+      "YOLO / YOLOv8",
+      "U-Net segmentation",
+      "Depth estimation",
+      "Image stitching & mosaicing",
+      "Object tracking"
+    ],
+    "Medical Imaging": [
+      "MRI (BraTS 2020)",
+      "3D volumetric data",
+      "Dice Score",
+      "IoU",
+      "Microscopic image analysis"
+    ],
+    "Edge & Tools": [
+      "NVIDIA Jetson",
+      "TensorRT",
+      "Linux",
+      "Git",
+      "Flask",
+      "CMake",
+      "Docker"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction.",
+        "Developed a custom image-stitching pipeline using bit manipulation and averaging, achieving PSNR of 86 vs. 65 for homography-based baseline."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset for health-level classification using YOLOv8.",
+        "Trained, evaluated, and deployed model improving classification accuracy from 78% to 97.5% in a consumer mobile application."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset using PyTorch.",
+        "Built standardized preprocessing and training pipelines; improved validation accuracy from 55% to 93% via improved augmentation and model tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-Time Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time object detection and tracking; transmitted control commands to STM32 over UART at deterministic intervals."
+      ]
+    },
+    {
+      "name": "Vision-Guided Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built TensorRT-accelerated YOLO visual servoing pipeline running at ~18 FPS on Jetson for pick-and-place guidance; integrated dual VL53L0X ToF sensors for contact-aware grasping.",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency across a distributed edge pipeline (Flutter client \u2192 Flask-SocketIO server \u2192 Jetson+Arduino)."
+      ]
+    },
+    {
+      "name": "Autonomous Driving Perception in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated CV data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 lane-detection training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and ResNet-18-based UFLD; validated zero collisions and correct traffic light compliance across multiple laps in Town02."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

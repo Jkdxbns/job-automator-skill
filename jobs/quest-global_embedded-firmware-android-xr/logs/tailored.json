@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "company": "Quest Global",
+    "role": "Embedded Firmware Engineer \u2013 Android XR MCU Bring-Up",
+    "company_slug": "quest-global",
+    "job_slug": "embedded-firmware-android-xr"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded firmware experience in bare-metal C/C++ on ARM Cortex-M (STM32) and FreeRTOS. Built peripheral drivers over SPI, I2C, UART and ADC, MCU-to-host communication, and sensor integration for wearable devices, with oscilloscope and logic analyzer debugging.",
+  "skills": {
+    "Embedded": [
+      "Bare-Metal C/C++",
+      "STM32 (ARM Cortex-M4)",
+      "FreeRTOS",
+      "RTOS",
+      "UART/I2C/SPI",
+      "ADC/DAC",
+      "GPIO",
+      "PWM",
+      "USB Host Shield",
+      "Bluetooth (BLE/Classic)",
+      "EAGLE PCB Design"
+    ],
+    "Debug & Tools": [
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Multimeters",
+      "Git",
+      "Linux",
+      "systemd"
+    ],
+    "Languages & Scripting": [
+      "C/C++",
+      "Python",
+      "Bash (Shell scripting)"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning.",
+        "Architected a Mixed Reality headset concept using AI-based real-time chroma keying without a green screen; produced full claims documentation and BOM."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built MCU-to-host communication between an NVIDIA Jetson running YOLOv8 and an STM32, sending control commands over interrupt-driven UART with user override.",
+        "Implemented multi-servo PWM control with FreeRTOS tasks and mutexes for shared-memory coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms) for visual servoing and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Deployed the Jetson-side arm bridge as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable multi-device WebSocket registration; configured XRDP for remote desktop administration of the headless Jetson."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Implemented interrupt-driven quadrature decoding from first principles \u2014 a 4-bit A/B transition state machine on hardware interrupts \u2014 and drove four motor channels at 15 kHz PWM via DuePWM.",
+        "Integrated Xbox 360 control over USB Host Shield with 4x Cytron motor drivers, dual claw subsystems with per-claw IR sensing, and a catapult thrower; added a fail-safe state machine halting all motors on controller disconnect."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

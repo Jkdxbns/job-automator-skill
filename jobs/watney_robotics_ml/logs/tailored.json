@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Watney Robotics",
+    "role": "Machine Learning Engineer",
+    "company_slug": "watney-robotics",
+    "job_slug": "machine-learning-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT. Built ML training pipelines and data curation systems across seven projects including CUDA kernel optimization, SLM quantization, CARLA autonomous driving data generation, and voice-controlled robotic arm integration. Experienced in PyTorch model training, real-world data cleaning, and metrics-driven evaluation for robotics and edge deployment.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Python",
+      "TensorFlow",
+      "Hugging Face Transformers",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Model evaluation"
+    ],
+    "Robotics & Perception": [
+      "ROS2",
+      "Robotics",
+      "Computer Vision",
+      "Visual servoing",
+      "YOLO",
+      "OpenCV"
+    ],
+    "ML Systems & Data": [
+      "Data Curation",
+      "Model Training",
+      "CUDA",
+      "C/C++",
+      "SLURM",
+      "MPI"
+    ],
+    "Embedded & Edge": [
+      "NVIDIA Jetson",
+      "STM32",
+      "FreeRTOS",
+      "Raspberry Pi",
+      "UART/I2C/SPI"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT transformer on medical billing dataset using PyTorch and HuggingFace VisionEncoderDecoder, improving accuracy from 55% to 93%",
+        "Built training pipelines with domain-specific tokens and resized decoder embedding layer"
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated 1,133-image dataset for YOLOv8 health classification; trained YOLOv8n achieving 83% mAP@50, exported to ONNX and TFLite"
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Designed custom wavelet bank (sym6+bior3.5) with optimized homography stitching achieving PSNR of 86; deployed ZoeDepth for crack-depth profiling at ±8% error",
+        "Architected metal surface inspection pipeline using image stitching, wavelet denoising, and depth estimation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built voice-controlled vision-guided robotic pick-and-place over three-layer pipeline: Flutter client, Flask-SocketIO server, Jetson+Arduino via WebSocket fabric",
+        "Integrated faster-whisper STT (1.0–1.4s), Gemini intent (<500ms), TensorRT-optimized YOLO (5.2x speedup) for visual servoing, dual VL53L0X ToF for contact-aware grasping",
+        "Resolved 11 integration failures; 100% pick reliability (10/10) at ~11.5s latency; built LeRobot multi-camera data collection with multiprocessing"
+      ]
+    },
+    {
+      "name": "CARLA Autonomous Driving Pipeline",
+      "date": null,
+      "bullets": [
+        "Built automated data pipelines using CARLA semantic segmentation generating ~8,000 frames with zero manual annotation",
+        "Trained YOLO11n (mAP50~0.85) and UFLD (ResNet-18) in adaptive control stack; zero collisions in Town02 with 30 vehicles and 10 pedestrians"
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing, constant memory, preallocated buffers; ~35% speedup (49.2ms vs 73.3ms)"
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory by ~55% via 8-bit quantization on TinyLlama 1.1B; <1% accuracy drop across HellaSwag, GSM8K, ARC"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

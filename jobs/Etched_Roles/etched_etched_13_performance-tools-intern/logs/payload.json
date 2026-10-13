@@ -1,0 +1,140 @@
+{
+ "jd": {
+  "company_name": "Etched",
+  "company_slug": "etched",
+  "job_title": "Performance Tools Intern",
+  "job_slug": "etched_13_performance-tools-intern",
+  "required_skills": [
+   "C++ or Rust",
+   "Python",
+   "Computer architecture (CPUs, GPUs/AI accelerators, memory hierarchies, parallel programming)",
+   "Low-level performance analysis, profiling, optimization",
+   "Operating systems, compilers, firmware, drivers, low-level systems software"
+  ],
+  "preferred_skills": [
+   "Performance analysis tools (Nsight, VTune, Xprof, Perfetto)",
+   "Direct experience developing performance analysis or debugging tools",
+   "ML accelerator architectures (GPUs, TPUs)",
+   "Kernel-mode driver development (Linux or Windows)"
+  ],
+  "all_keywords": [
+   "C++",
+   "Rust",
+   "Python",
+   "computer architecture",
+   "CPUs",
+   "GPUs",
+   "AI accelerators",
+   "memory hierarchies",
+   "parallel programming",
+   "performance analysis",
+   "profiling",
+   "performance optimization",
+   "Nsight",
+   "VTune",
+   "Xprof",
+   "Perfetto",
+   "operating systems",
+   "compilers",
+   "firmware",
+   "drivers",
+   "low-level systems software",
+   "hardware performance counters",
+   "execution traces",
+   "memory behavior",
+   "host-side runtime",
+   "accelerator execution",
+   "CPU API calls",
+   "driver submissions",
+   "PCIe",
+   "PCIe transfers",
+   "memory access inefficiencies",
+   "PCIe bandwidth saturation",
+   "custom ML accelerator"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose (in-person, Santana Row)",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Build components of performance analysis and profiling infrastructure",
+   "Collect and analyze performance data from custom ML accelerators (hardware counters, execution traces, memory behavior)",
+   "Develop tooling to trace host-side runtime and accelerator execution",
+   "Correlate performance events across CPUs, accelerators, storage, networking, distributed workloads",
+   "Build analysis and visualization tools for bottleneck identification and model optimization",
+   "Work with hardware, compiler, firmware, and inference engineers"
+  ],
+  "ats_keywords": [
+   "C++",
+   "Rust",
+   "Python",
+   "performance analysis",
+   "profiling",
+   "profiling infrastructure",
+   "hardware counters",
+   "execution traces",
+   "memory behavior",
+   "PCIe",
+   "accelerator",
+   "GPU",
+   "AI accelerator",
+   "low-level",
+   "drivers",
+   "firmware",
+   "operating systems",
+   "parallel programming",
+   "computer architecture"
+  ],
+  "role_category": "embedded_systems"
+ },
+ "have": [
+  "Python",
+  "C/C++ (covers C++ component of C++/Rust requirement)"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "Rust",
+   "you_have": "C/C++ (systems programming language in same low-level domain)"
+  },
+  {
+   "jd_skill": "Computer architecture / memory hierarchies / parallel programming",
+   "you_have": "CUDA C++, MPI, Memory coalescing, Kernel optimization; CUDA/HPC inference profiling"
+  },
+  {
+   "jd_skill": "Low-level performance analysis, profiling, optimization",
+   "you_have": "pynvml Profiling, CUDA kernel timing/inference profiling, VRAM profiling"
+  },
+  {
+   "jd_skill": "Performance analysis / debugging tools (Nsight, VTune, Xprof, Perfetto)",
+   "you_have": "pynvml Profiling (related NVIDIA profiling tool experience)"
+  },
+  {
+   "jd_skill": "Operating systems / compilers / firmware / drivers / low-level systems software",
+   "you_have": "STM32 bare-metal C, FreeRTOS, Linux systemd/admin, embedded drivers"
+  },
+  {
+   "jd_skill": "ML accelerator architectures (GPUs, TPUs, AI accelerators)",
+   "you_have": "NVIDIA Jetson, CUDA, TensorRT deployment"
+  }
+ ],
+ "missing": [
+  "Direct experience developing performance analysis or debugging tools (profile builds ML/embedded/robotics pipelines, not profiling/debugging infrastructure)",
+  "Kernel-mode driver development (Linux or Windows) \u2014 profile has user-space Linux/systemd and embedded bare-metal, no kernel-mode driver work",
+  "PCIe / PCIe-based accelerator interaction \u2014 profile covers UART/I2C/SPI, not PCIe",
+  "Execution traces and hardware performance counter collection frameworks specifically \u2014 closest is inference profiling, not accelerator trace collection"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": false
+ },
+ "production_scope_required": false,
+ "semantic": null
+}

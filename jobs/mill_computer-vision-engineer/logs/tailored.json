@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "Mill",
+    "role": "Computer Vision Engineer",
+    "company_slug": "mill",
+    "job_slug": "computer-vision-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Hands-on experience training and evaluating segmentation, classification, and detection models, from fine-tuning VLMs like DONUT to building CUDA-optimized edge inference pipelines. Built automated ground-truth data generation pipelines and rigorous eval harnesses (Dice, IoU, mAP) to close accuracy gaps under real deployment constraints, moving fluidly between PyTorch model development, OpenCV-based perception, and production edge deployment on Jetson hardware.",
+  "skills": {
+    "Computer Vision & Deep Learning": ["PyTorch", "OpenCV", "YOLO", "YOLOv8", "Hugging Face Transformers", "Model evaluation (Dice, IoU, mAP)", "TensorRT"],
+    "VLMs & Foundation Models": ["DONUT (VisionEncoderDecoder)", "Gemini", "Quantization (8-bit)"],
+    "Languages & Edge Deployment": ["Python", "C/C++", "CUDA", "CUDA C++", "ONNX", "TFLite"],
+    "Embedded / IoT Hardware": ["NVIDIA Jetson", "Arduino", "Flask", "UART/I2C"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for 3D volumetric inputs.",
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones; evaluated using Dice Score and IoU, and reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free visual document understanding transformer, on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API, improving validation accuracy from 55% to 93% through preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for edge deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system integrating a Flask-SocketIO edge server with a Jetson and Arduino controller over a unified WebSocket fabric.",
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2x speedup: 56.7→10.9 ms) for visual servoing with dual VL53L0X ToF sensors for contact-aware grasping.",
+        "Resolved 11 integration failures through systematic root-cause analysis; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; validated in a closed-loop control stack with zero collisions across multiple laps."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, profiling peak VRAM and inference latency with pynvml.",
+        "Built an evaluation harness across HellaSwag, GSM8K, and ARC benchmarks; measured <1% accuracy degradation for near-lossless edge deployment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "Robot Perception", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Digital Signal Processing", "Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

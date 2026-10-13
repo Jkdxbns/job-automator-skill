@@ -1,0 +1,98 @@
+{
+  "company": "VEIR",
+  "company_slug": "veir",
+  "role": "Technical Lead - High Voltage and Fault Handling",
+  "job_slug": "technical-lead-high-voltage-and-fault-handling",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 10,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Computer Engineering (related field)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Systems-level thinking",
+      "you_have": "ROS2 / perception system integration"
+    },
+    {
+      "jd_skill": "Hands-on engineering / design",
+      "you_have": "Embedded C/C++ bare-metal (STM32)"
+    }
+  ],
+  "missing_skills": [
+    "Bachelor's/Master's specifically in Electrical Engineering (Computer Engineering is adjacent but not EE/power-focused)",
+    "10+ years experience in complex electrical/power systems, dielectric design, insulation, fault behavior",
+    "Deep understanding of high/medium/low voltage systems, electrical insulation principles, protection concepts",
+    "Experience leading or managing engineering teams (candidate is new grad / 7 internships only)",
+    "Familiarity with cryogenic or superconducting environments",
+    "High voltage testing and fault-focused validation experience",
+    "Superconducting cable / power delivery domain expertise"
+  ],
+  "top_ats_keywords": [
+    "High Voltage",
+    "Fault Handling",
+    "dielectric systems",
+    "insulation design",
+    "high voltage testing",
+    "fault behavior",
+    "protection strategies",
+    "superconducting cable",
+    "cryogenics",
+    "electrical engineering",
+    "test campaigns",
+    "certification",
+    "reliability",
+    "technical lead"
+  ],
+  "required_skills": [
+    "Bachelor's or Master's in Electrical Engineering or closely related field",
+    "10+ years experience in complex electrical/power systems (dielectric design, insulation, fault behavior)",
+    "Deep understanding of high/medium/low voltage systems, insulation principles, protection concepts",
+    "Experience leading/managing a small engineering team or serving as technical owner",
+    "Systems-level thinking balancing execution with scalability"
+  ],
+  "preferred_skills": [
+    "Familiarity with cryogenic or superconducting environments",
+    "Hands-on high voltage testing and fault-focused design reviews",
+    "Cross-functional collaboration with systems engineering and program management"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, develop, and integrate dielectric systems and fault handling architectures across all product platforms",
+    "Lead and manage a small specialized engineering team and set technical direction",
+    "Own the technical roadmap for dielectric design and fault handling",
+    "Lead development of internal high voltage test capabilities and manage external test campaigns",
+    "Identify, model, and de-risk critical failure modes (dielectric breakdown, transient events, fault recovery)"
+  ],
+  "role_category": "other",
+  "location": "Woburn, Massachusetts, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,152 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Silicon Validation Engineer, Software",
+  "job_slug": "etched_01_silicon-validation-engineer-software",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 21,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++ firmware and bare-metal development",
+    "Python for validation automation and scripting",
+    "Linux development and system-level service deployment",
+    "Low-level embedded / register / interrupt programming and device drivers",
+    "RTOS experience (FreeRTOS)",
+    "UART / serial debug and lab instrumentation",
+    "Embedded systems / firmware development",
+    "Bachelor's / Master's in EE/CE/Computer Engineering"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SoC / computer architecture (CPU, memory, caches, interconnects)",
+      "you_have": "Computer Engineering coursework; embedded multi-device pipeline architecture"
+    },
+    {
+      "jd_skill": "Silicon bring-up / post-silicon characterization and root-cause debug",
+      "you_have": "Hardware initialization, boot/debug, and integration failure resolution experience"
+    },
+    {
+      "jd_skill": "JTAG / debuggers (Lauterbach/GDB) and serial/UART debug consoles",
+      "you_have": "UART and logic-analyzer lab experience; no JTAG/GDB cited"
+    },
+    {
+      "jd_skill": "Pre-silicon / FPGA / emulation / RTL simulation exposure",
+      "you_have": "Simulation and verification-environment experience (not FPGA/emulation)"
+    },
+    {
+      "jd_skill": "Validation automation / CI/CD regression frameworks",
+      "you_have": "Automation pipeline scripting; system-level service deployment"
+    }
+  ],
+  "missing_skills": [
+    "2+ years of ASIC/SoC-specific firmware development (0 full-time years; internships are embedded/ML, not ASIC firmware)",
+    "PCIe / DDR / LPDDR / HBM / SerDes / die-to-die / chiplet interconnect interfaces",
+    "CI/CD regression and test-automation frameworks at scale",
+    "Reading RTL (Verilog / SystemVerilog) and simulation debug \u2014 not in profile",
+    "UVM / verification methodology",
+    "RISC-V firmware development",
+    "UEFI / ACPI / BMC / BIOS platform/system firmware",
+    "Silicon-specific post-silicon lab characterization with BERTs / signal-integrity awareness (profile has basic lab instruments but no BERT or signal-integrity work)"
+  ],
+  "top_ats_keywords": [
+    "ASIC",
+    "silicon validation",
+    "firmware",
+    "embedded",
+    "C/C++",
+    "Python",
+    "Linux",
+    "bootloader",
+    "HAL",
+    "device driver",
+    "register",
+    "interrupt",
+    "bare-metal",
+    "RTOS",
+    "JTAG",
+    "UART",
+    "FPGA",
+    "emulation",
+    "RTL",
+    "Verilog",
+    "SystemVerilog",
+    "PCIe",
+    "DDR",
+    "SerDes",
+    "chiplet",
+    "interconnect",
+    "CI/CD",
+    "regression",
+    "automation",
+    "bring-up",
+    "characterization",
+    "test plan",
+    "IP block",
+    "subsystem",
+    "memory subsystem",
+    "high-speed interface"
+  ],
+  "required_skills": [
+    "C/C++ firmware and bare-metal development",
+    "Python for validation automation and scripting",
+    "SoC / computer architecture understanding",
+    "Low-level embedded fundamentals (bootloaders, HALs, device drivers, register/interrupt programming, bare-metal/RTOS)",
+    "Linux development and debugging",
+    "Bachelor's degree in EE/CE/CS (Master's a plus)"
+  ],
+  "preferred_skills": [
+    "2+ years developing firmware/embedded software for ASICs or SoCs",
+    "Hands-on silicon bring-up and low-level debug (boot, initialization, root-causing failures)",
+    "JTAG and debuggers (Lauterbach/GDB) and UART debug consoles",
+    "Pre-silicon (emulation, FPGA, RTL simulation) and post-silicon (lab bring-up, characterization)",
+    "High-speed interfaces: PCIe, DDR/LPDDR/HBM, SerDes, die-to-die / chiplet interconnect",
+    "Validation automation and regression frameworks (CI/CD)",
+    "RTOS experience (FreeRTOS, Zephyr, NuttX) or RISC-V firmware",
+    "Platform/system firmware (UEFI, ACPI, BMC, BIOS)",
+    "Read RTL (Verilog/SystemVerilog) and debug in simulation",
+    "Lab instrumentation (oscilloscopes, logic/protocol analyzers, BERTs) and signal-integrity awareness"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop and own low-level validation firmware in C/C++ across emulation and physical silicon",
+    "Drive early bring-up of first silicon: boot, initialization, feature enablement, debug",
+    "Deep-dive debug of silicon issues spanning firmware, RTL, electrical, protocol, system levels",
+    "Build firmware infrastructure: HALs and low-level device drivers for compute, memory, high-speed interfaces",
+    "Develop validation automation, result-capture, and regression frameworks (CI/CD)",
+    "Author firmware-driven test plans and execute functional, performance, stress/corner-case testing",
+    "Validate custom IP blocks on pre- and post-silicon platforms",
+    "Use debug consoles and lab tooling (JTAG, UART, logic/protocol analyzers) for silicon debug",
+    "Collaborate with design, verification, architecture, DFT, and driver teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship refusal, ITAR/EAR/export-control, citizenship/permanent-residency, or security-clearance language found in the posting."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

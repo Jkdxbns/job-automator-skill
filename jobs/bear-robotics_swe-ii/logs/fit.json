@@ -1,0 +1,65 @@
+{
+  "company": "Bear Robotics",
+  "company_slug": "bear-robotics",
+  "role": "Software Engineer II",
+  "job_slug": "swe-ii",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 10,
+    "req_cov": 0.25,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python"
+  ],
+  "missing_skills": [
+    "Golang",
+    "Distributed systems",
+    "Cloud computing (AWS/GCP/Azure)",
+    "Technical leadership / mentoring",
+    "Terraform / IaC",
+    "Docker / Kubernetes",
+    "gRPC / Protocol Buffers"
+  ],
+  "adjacent_skills": [
+    "Data structures & algorithms / design patterns",
+    "API design"
+  ],
+  "top_ats_keywords": [
+    "Golang",
+    "distributed systems",
+    "cloud computing",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "gRPC",
+    "Protocol Buffers"
+  ],
+  "key_responsibilities": [
+    "Mentor junior engineers and guide technical implementations",
+    "Participate in system design/architecture for scalability and maintainability",
+    "Design/develop/test/maintain production software",
+    "Drive critical projects to delivery",
+    "Troubleshoot production issues, conduct post-mortems",
+    "Establish testing/CI practices"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "screening_gaps": [
+    "No Golang experience \u2014 JD explicitly names it as the primary required language",
+    "No distributed systems or cloud computing (AWS/GCP/Azure) experience anywhere in the profile",
+    "Zero full-time years against a role that expects mentoring and architectural ownership"
+  ],
+  "hard_blocker_triggered": false
+}

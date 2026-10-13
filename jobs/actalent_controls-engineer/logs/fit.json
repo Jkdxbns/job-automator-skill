@@ -1,0 +1,109 @@
+{
+  "company": "Actalent",
+  "company_slug": "actalent",
+  "role": "Controls Engineer",
+  "job_slug": "controls-engineer",
+  "match_pct": 20.8,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 12,
+    "req_cov": 0.417,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Universal Robots integration",
+      "you_have": "UR5e pick-and-place via ROS 2 driver (academic)"
+    },
+    {
+      "jd_skill": "Multi-brand industrial robotics (FANUC, Denso)",
+      "you_have": "ROS robotic arms (UR5e, AL5B), COFFIN capstone"
+    },
+    {
+      "jd_skill": "Machine vision inline inspection",
+      "you_have": "OpenCV/YOLO, metal surface inspection pipeline (not inline/industrial)"
+    },
+    {
+      "jd_skill": "Data collection setup",
+      "you_have": "LeRobot-structured multi-camera data collection pipeline"
+    },
+    {
+      "jd_skill": "Closed-loop automation control",
+      "you_have": "Closed-Loop Feedback Control, PWM motor control, encoder odometry (Robocon)"
+    }
+  ],
+  "missing_skills": [
+    "Rockwell/Allen-Bradley ControlLogix/CompactLogix",
+    "PLC programming (ladder logic)",
+    "HMI/operator screen configuration",
+    "Emerson/other PLC platforms",
+    "Automotive manufacturing experience",
+    "Process monitoring/reporting systems",
+    "Shop-floor equipment commissioning"
+  ],
+  "top_ats_keywords": [
+    "PLC",
+    "Allen-Bradley",
+    "ControlLogix",
+    "CompactLogix",
+    "HMI",
+    "FANUC",
+    "Denso",
+    "Universal Robots",
+    "machine vision",
+    "data collection",
+    "automation",
+    "robotics",
+    "automotive manufacturing",
+    "Emerson"
+  ],
+  "required_skills": [
+    "Rockwell/Allen-Bradley PLC (ControlLogix/CompactLogix)",
+    "PLC programming",
+    "Multi-brand industrial robot integration (FANUC, Denso, Universal Robots)",
+    "HMI/operator screens",
+    "Machine vision inline inspection",
+    "Data collection setup"
+  ],
+  "preferred_skills": [
+    "Automotive manufacturing",
+    "Emerson/other PLC platforms",
+    "Operator-friendly HMI applications",
+    "Manufacturing data collection, reporting, process monitoring"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design/program PLC logic, HMI, robot routines for assembly equipment",
+    "50-70% shop floor time",
+    "Improve first-pass yield and cycle time",
+    "Implement vision inspection and data collection"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Milwaukie, Oregon, USA (fully onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

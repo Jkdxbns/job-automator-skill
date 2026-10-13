@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "direct 3D perception + navigation experience via ROS2/MoveIt, depth estimation, ToF sensors, CARLA autonomy pipeline",
+    "real hardware deployment (Jetson, STM32, Arduino, sensors, Bluetooth) matching 'real robots, real sensors'",
+    "TensorRT/YOLO/CUDA optimization aligns with performance demands on deployed systems",
+    "embodied AI full-stack (voice control + perception + manipulation on physical arm) closely mirrors 'embodied AI meets real robots'",
+    "real-time embedded reliability (FreeRTOS, mutexes, interrupt-driven) supports 'risk-aware, reliable' requirement"
+  ],
+  "real_gaps": [
+    "0 full-time years \u2014 all experience is internships/research; JD implies production team with senior backgrounds",
+    "no ISO26262 / functional-safety certification despite safety emphasis in JD",
+    "no enterprise cloud/scale infrastructure (Docker/k3s exposure only via personal projects)",
+    "no direct Tier-1 autonomy company experience listed in JD context (DeepMind, JPL, Boston Dynamics, NVIDIA, Tesla, Cruise, Zoox)"
+  ],
+  "reasoning": "Strong fit for an entry-level/new-grad Perception Engineer role at a field-robotics company: candidate's entire portfolio (embedded C, ROS2, YOLO, TensorRT, depth/perception, real sensor integration, embodied arm system, autonomous driving pipeline) maps directly to the core responsibilities. The main gaps are lack of full-time industry tenure and formal safety certification, neither of which is stated as a hard requirement in the JD. Sponsorship status is not addressed in the JD, so no blocker is triggered; candidate is F-1 OPT (EAD pending) requiring long-term sponsorship. Role category is clearly edge_ai_robotics. Not a hard blocker, but the team context (DeepMind, NASA JPL, Boston Dynamics alumni; DARPA segments) suggests high bar \u2014 candidate's 7 internships and capstone projects are credible but unproven at that caliber.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/bb127cde-930c-446f-908d-52e2c6f24cc9",
+  "team": "Perception",
+  "location": "Irvine, CA"
+}

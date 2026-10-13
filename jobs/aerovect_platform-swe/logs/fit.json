@@ -1,0 +1,81 @@
+{
+  "company": "AeroVect",
+  "company_slug": "aerovect",
+  "role": "Software Engineer, Platform",
+  "job_slug": "platform-swe",
+  "match_pct": 50.0,
+  "required_have": [
+    "C/C++",
+    "Python",
+    "ROS 1/ROS 2",
+    "SPI",
+    "I2C",
+    "Git"
+  ],
+  "required_adjacent": [
+    "3+ years Linux embedded/robotics platform experience (have bare-metal MCU + Jetson edge deployment across internships, not 3+ yrs full-time production Linux ownership)",
+    "Ubuntu/Linux systems administration (systemd, networking, kernel config) (hands-on Jetson/Ubuntu deployment, not systemd/kernel-config depth)"
+  ],
+  "missing_skills": [
+    "kernel module / user-space driver development",
+    "USB",
+    "Ethernet",
+    "CAN bus",
+    "PCIe",
+    "real-time performance tuning / profiling (perf, eBPF, tracing)",
+    "Docker/OCI containers",
+    "automated build systems (Yocto, Buildroot)"
+  ],
+  "adjacent_skills": [
+    "3+ years Linux embedded/robotics platform experience (have bare-metal MCU + Jetson edge deployment across internships, not 3+ yrs full-time production Linux ownership)",
+    "Ubuntu/Linux systems administration (systemd, networking, kernel config) (hands-on Jetson/Ubuntu deployment, not systemd/kernel-config depth)"
+  ],
+  "preferred_have": [
+    "Nvidia Orin/Jetson",
+    "CUDA (heterogeneous compute)"
+  ],
+  "preferred_missing": [
+    "ptp4l",
+    "v4l2/gstreamer",
+    "PREEMPT_RT kernel patches",
+    "DDS internals/QoS tuning (Cyclone DDS, Fast DDS)",
+    "Vulkan",
+    "MISRA/ISO 26262 functional safety",
+    "prior AV/drone safety-critical robotics work"
+  ],
+  "top_ats_keywords": [
+    "ROS 2",
+    "Linux",
+    "C/C++",
+    "Python",
+    "Jetson/Orin",
+    "CUDA",
+    "DDS",
+    "Yocto",
+    "Docker",
+    "kernel drivers"
+  ],
+  "key_responsibilities": [
+    "Build/maintain custom Ubuntu/Linux distros for real-time safety-critical AV workloads",
+    "Tune ROS 2 DDS middleware (Cyclone DDS, Fast DDS)",
+    "Develop kernel modules/user-space drivers for LiDAR, camera, radar, GNSS/INS, CAN",
+    "Observability/logging for lab and field deployments",
+    "Profile CPU/GPU bottlenecks with autonomy/perception/controls teams",
+    "Harden platform: security patches, secure boot, OTA pipelines",
+    "Own CI/CD for OS images and driver packages",
+    "On-call support during field trials/customer pilots"
+  ],
+  "role_category": "embedded_systems",
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "location": "Atlanta, GA (Hybrid)",
+  "remote_ok": false,
+  "clearance_required": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

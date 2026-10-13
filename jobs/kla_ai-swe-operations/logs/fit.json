@@ -1,0 +1,61 @@
+{
+  "company": "KLA",
+  "company_slug": "kla",
+  "role": "AI Software Engineer - Operations",
+  "job_slug": "ai-swe-operations",
+  "match_pct": 28.6,
+  "missing_skills": [
+    "LangChain",
+    "Semantic Kernel",
+    "LlamaIndex",
+    "RAG (vector-db production use)",
+    "Pinecone",
+    "FAISS",
+    "Azure Cognitive Search",
+    "Milvus",
+    "Neo4j",
+    "agent-based workflow orchestration",
+    "conversational/chat interface design",
+    "scalable microservices architecture",
+    "React",
+    "Angular",
+    "JavaScript",
+    "Snowflake",
+    "SAP"
+  ],
+  "adjacent_skills": [
+    "API integration (generic, not enterprise-data-platform specific)",
+    "Model evaluation (not LLM-output grounding/hallucination specific)",
+    "Fine-tuned (model fine-tuning, not prompt-optimization/lifecycle specific)"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "LangChain",
+    "RAG",
+    "vector database",
+    "Milvus",
+    "Neo4j",
+    "prompt engineering",
+    "agent-based systems",
+    "React",
+    "Angular",
+    "microservices",
+    "OpenAI",
+    "Azure OpenAI",
+    "Anthropic"
+  ],
+  "key_responsibilities": [
+    "Build backend services orchestrating LLM interactions, prompts, workflows",
+    "Prototype UIs for human-AI interaction",
+    "Integrate LLM APIs (OpenAI, Azure OpenAI, Anthropic)",
+    "Implement RAG architectures",
+    "Design data pipelines/connectors to enterprise systems",
+    "Monitor/evaluate AI app performance (latency, cost, quality)"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

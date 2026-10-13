@@ -1,0 +1,120 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 3.3,
+      "matched": [
+        "Python",
+        "hardware/software integration"
+      ]
+    },
+    {
+      "label": "experience:Research Intern (Capstone)",
+      "name": "Research Intern (Capstone)",
+      "score": 3.02,
+      "matched": [
+        "MPI",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 1.83,
+      "matched": [
+        "Python"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 1.66,
+      "matched": [
+        "microcontroller firmware"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 5.39,
+      "matched": [
+        "ARM Cortex-M",
+        "C",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 3.02,
+      "matched": [
+        "ARM Cortex-M",
+        "C++"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 3.02,
+      "matched": [
+        "profiling and benchmarking",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 3.02,
+      "matched": [
+        "C++",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 1.83,
+      "matched": [
+        "Python"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Linux (processes/threads/memory/I/O/filesystems/debugging)",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "ARM embedded hardware development",
+      "for_skill": "ARM Cortex-M"
+    },
+    {
+      "use_jd_wording": "system profiling/resource measurement",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "concurrency/timing/integrity/recovery reasoning",
+      "for_skill": "MPI"
+    },
+    {
+      "use_jd_wording": "reproducible releases/hardware testing",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "hardware-in-the-loop testing",
+      "for_skill": "testing and validation"
+    },
+    {
+      "use_jd_wording": "shell scripting",
+      "for_skill": "Bash"
+    },
+    {
+      "use_jd_wording": "board bring-up",
+      "for_skill": "hardware/software integration"
+    }
+  ],
+  "unbacked_jd_terms": []
+}

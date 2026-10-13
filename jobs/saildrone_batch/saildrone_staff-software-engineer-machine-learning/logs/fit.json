@@ -1,0 +1,163 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Staff Software Engineer, Machine Learning",
+  "job_slug": "staff-software-engineer-machine-learning",
+  "match_pct": 70.4,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 27,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Computer Vision",
+    "Edge AI deployment",
+    "NVIDIA Jetson",
+    "TensorRT optimization",
+    "Linux",
+    "CUDA",
+    "Model optimization",
+    "Deep learning",
+    "Machine learning",
+    "Robotics",
+    "Autonomous systems",
+    "Sensor fusion",
+    "C++",
+    "Model deployment",
+    "Inference optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "MLOps",
+      "you_have": "CI/CD best practices (mentioned in qualifications but not deeply in candidate profile)"
+    },
+    {
+      "jd_skill": "Cloud-based training pipelines",
+      "you_have": "Distributed computing and batch processing experience (MPI, SLURM)"
+    }
+  ],
+  "missing_skills": [
+    "MLOps infrastructure tools (explicit mention)",
+    "Docker/Kubernetes containerization",
+    "Cloud computing platforms (AWS/GCP/Azure)",
+    "Dataset engineering/data pipeline tooling",
+    "10+ years production software engineering leadership",
+    "Formal mentoring experience documentation",
+    "on-premise maritime/defense system deployment"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "Edge AI",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "Computer Vision",
+    "Sensor Fusion",
+    "MLOps",
+    "NVIDIA Jetson",
+    "TensorRT",
+    "Autonomy",
+    "Robotics",
+    "CI/CD",
+    "Linux",
+    "Cloud Training"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch or TensorFlow",
+    "TensorRT",
+    "Computer vision",
+    "Edge AI (Jetson/AGX deployment)",
+    "Sensor fusion",
+    "MLOps and CI/CD",
+    "Linux/Unix",
+    "Production ML systems",
+    "Autonomous systems"
+  ],
+  "preferred_skills": [
+    "Cloud-based training pipelines",
+    "Dataset engineering",
+    "Robotics",
+    "Radar/lidar sensor integration"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Design and deploy production-grade ML models for real-time perception",
+    "Own full ML lifecycle architecture for edge deployment on Jetson/AGX",
+    "Lead multi-modal sensor fusion integration",
+    "Drive dataset and robustness engineering",
+    "Architect cloud-based training pipelines and CI/CD workflows",
+    "Lead technical decisions for compute efficiency using TensorRT",
+    "Direct large-scale ML projects from concept to completion",
+    "Mentor junior and senior engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Exceptional edge AI deployment: COFFIN capstone shows end-to-end Jetson deployment with systemd service management, XRDP administration, and resolved 11 integration failures; full-stack production-ready architecture with real-time latency optimization (11.5s end-to-end voice-to-pick)",
+      "TensorRT optimization expertise: documented 5.2\u00d7 speedup (56.7\u219210.9ms YOLO inference, 17.6\u219292 FPS) with inference profiling (pynvml) on Jetson; core skill for mission-critical edge AI",
+      "Computer vision systems: YOLO-based object detection and tracking (three separate projects with mAP scores), UFLD lane detection, custom image stitching with wavelet denoising achieving PSNR 86",
+      "CUDA kernel optimization: VGG16 convolution kernels with memory coalescing achieving 35% speedup and 1.5-2\u00d7 convolution performance; demonstrates low-level optimization thinking required for edge efficiency",
+      "Real-time inference pipelines: COFFIN integrates faster-whisper ASR (1.0-1.4s), Gemini intent classification (<500ms), TensorRT YOLO, and dual VL53L0X ToF sensors with I2C muxing; shows systems thinking under tight timing budgets",
+      "Hardware-software codesign: integrates embedded C (Arduino), FreeRTOS, UART/I2C/SPI firmware with Jetson ML inference; rare combination demonstrates ability to drive intelligence from firmware to edge compute",
+      "Distributed computing foundation: MPI and SLURM experience (10.49\u00d7 speedup on Hodgkin-Huxley neuron simulation, 30\u00d7 on ray tracer) applicable to scaling training pipelines"
+    ],
+    "real_gaps": [
+      "No MLOps infrastructure: missing Kubeflow, Airflow, model registry, data versioning, or model versioning tools\u2014core to JD's 'architect and scale cloud-based training pipelines and CI/CD workflows'",
+      "No cloud training experience: has MPI/SLURM (HPC cluster scheduling), not cloud-based training pipelines (AWS SageMaker, GCP VertexAI, Azure ML); cannot architect production cloud training at scale",
+      "No containerization: Docker and Kubernetes not mentioned; Saildrone's global fleet and CI/CD emphasis likely requires container orchestration for reliable edge deployment",
+      "Limited multimodal sensor fusion: COFFIN demonstrates dual VL53L0X ToF sensors; Saildrone requires integrating cameras, radar, lidar, hydrophones, and bathymetric sensors in complex maritime environments\u2014orders of magnitude more complex",
+      "Significant seniority mismatch: M.S. graduate (May 2026) with ~2 years professional experience vs. Staff-level role requiring 10+ years; JD emphasizes 'Serve as a technical authority', 'Direct large-scale ML projects', 'Mentor junior and senior engineers'\u2014established track record in production-scale systems not demonstrated",
+      "No documented professional mentoring: led 25-member student robotics club and 7-person research teams; no record of mentoring junior or senior professional engineers in production settings or shaping multi-team technical roadmaps",
+      "Dataset engineering at scale: COFFIN data collection with multiprocessing and image stitching pipelines demonstrated; large-scale dataset management, versioning, quality assurance frameworks, and robustness evaluation across variable conditions not shown"
+    ],
+    "overstated_by_keywords": [
+      "Production ML systems: COFFIN is a capstone project with strong engineering depth but not sustained production (24/7 fleet operations) or mission-critical defense deployment over months/years",
+      "Autonomous systems: CARLA autonomous driving and COFFIN voice-control are academic and capstone projects; not autonomous maritime fleet operations or defense-grade autonomy in hostile environments",
+      "Sensor fusion: dual VL53L0X ToF sensors in COFFIN is single-modality (depth only); Saildrone's multimodal fusion (camera+radar+lidar+hydrophone+bathymetric) is orders of magnitude more complex and requires different architectural thinking"
+    ],
+    "understated_by_keywords": [
+      "Distributed systems thinking: MPI/SLURM experience in HPC contexts; designed distributed inference architecture in COFFIN (Flutter client \u2192 Flask-SocketIO server \u2192 Jetson controller) showing ability to reason about distributed systems beyond single-machine optimization",
+      "Hardware-software codesign: embedded systems integration (FreeRTOS, bare-metal C, UART/I2C/SPI) combined with Jetson ML inference shows end-to-end thinking from firmware to ML\u2014rare profile not typical in pure ML backgrounds",
+      "Real-time constraint mastery: COFFIN explicitly targets latencies (1.0-1.4s ASR, <500ms intent, 10.9ms inference, 11.5s end-to-end); demonstrates systems thinking under tight timing budgets, valuable for maritime edge compute and mission-critical reliability"
+    ],
+    "screening_gaps": [
+      "Seniority and scale mismatch: Staff-level role requires 10+ years experience and proven track record leading large-scale projects and mentoring senior engineers; candidate is M.S. graduate with ~2 years professional experience",
+      "MLOps and cloud infrastructure: no experience with cloud-based training pipelines, model registries, data versioning, or CI/CD at production scale; Saildrone emphasizes 'Architect and scale cloud-based training pipelines and CI/CD workflows' as core responsibility",
+      "Production fleet autonomy systems: no demonstrated experience in deployed autonomous systems operating 24/7 in harsh maritime environments or mission-critical defense contexts; JD requires 'serve as technical authority for edge AI systems operating in mission-critical environments'"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin demonstrates exceptional technical depth in core edge AI competencies\u2014TensorRT optimization, CUDA kernel engineering, computer vision, and real-time inference architecture\u2014all validated in the COFFIN capstone. However, significant gaps exist in MLOps infrastructure, cloud training pipelines, and the seniority mismatch (2 years vs. 10+ required for Staff-level) is substantial. He is well-positioned for a mid-level technical role (Senior SWE IC) but may be rejected for Staff or routed downward; applying carries screening risk on seniority, though his IC depth and production systems thinking merit consideration.",
+    "calibration_delta": -1.6
+  }
+}

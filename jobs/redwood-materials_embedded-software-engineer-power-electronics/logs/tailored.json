@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "company": "Redwood Materials",
+    "role": "Embedded Software Engineer - Power Electronics",
+    "company_slug": "redwood-materials",
+    "job_slug": "embedded-software-engineer-power-electronics"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with bare-metal embedded firmware experience on ARM Cortex-M (STM32) microcontrollers, building real-time control loops around high-resolution PWM generation, high-speed ADC sampling, and hardware timers. Skilled in UART/I2C/SPI peripheral drivers, FreeRTOS multi-task coordination, and hardware debugging with oscilloscopes, logic analyzers, and JTAG/SWD. Experienced integrating embedded C/C++ firmware with networked infrastructure and CMake/Git-based build workflows.",
+  "skills": {
+    "Embedded / Firmware": ["STM32 (ARM Cortex-M, Bare-Metal Firmware)", "High-resolution PWM generation", "High-speed ADC sampling", "Hardware Timers", "UART/I2C/SPI", "FreeRTOS", "Interrupt-driven design", "Oscilloscopes, Logic Analyzers, JTAG/SWD Debuggers"],
+    "Build & Test": ["Git", "Make/CMake build systems", "Test automation and validation"],
+    "Networking / Systems": ["Ethernet/WebSocket networking", "systemd service management", "Static IP configuration"],
+    "Languages": ["C/C++", "Python"],
+    "Tools": ["EAGLE PCB Design", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi over I2C and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and timing/resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built bare-metal embedded C firmware on an ARM Cortex-M4 (STM32) microcontroller with timer-triggered high-speed ADC sampling and interrupt-driven capture for real-time sensing.",
+        "Programmed microcontroller peripherals directly (GPIO, TIM2 hardware timers, ADC1, I2C1), achieving a deterministic 1 Hz update rate within 3.68 KB Flash / 1.58 KB RAM.",
+        "Verified timing and signal integrity in Proteus and with an oscilloscope prior to hardware bring-up."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo, high-resolution PWM control with interrupt-driven UART command handling and user override on an ARM Cortex-M (STM32) target.",
+        "Used FreeRTOS with mutexes for shared-memory multi-task coordination; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials).",
+        "Deployed the Jetson-side controller as a systemd service (auto-restart, non-root isolation) with static IP networking over Ethernet for reliable multi-device WebSocket registration."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

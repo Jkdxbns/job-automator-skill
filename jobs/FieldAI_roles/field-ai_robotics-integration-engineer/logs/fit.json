@@ -1,0 +1,87 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Systems Integration Engineer, Robotics Hardware",
+  "job_slug": "robotics-integration-engineer",
+  "job_url": "https://jobs.lever.co/field-ai/f8b38e05-ef2e-40bf-9f53-842c8955a135",
+  "location": "Irvine, CA (fully on-site)",
+  "remote_ok": false,
+  "required_experience_years": "3-9",
+  "experience_level_stated": "mid-level (3-9 years)",
+  "sponsorship_mentioned": false,
+  "clearance_required": false,
+  "role_category": "edge_ai_robotics",
+  "required_skills": [
+    "ROS/ROS2",
+    "Python",
+    "C++",
+    "Robotics software generalist (controls, navigation, systems integration across legged/wheeled platforms)",
+    "Sim-to-real validation of RL/autonomy policies (Isaac, Gazebo, MuJoCo)",
+    "Motors, actuation, BLDC motor controllers, power distribution",
+    "CAN bus / EtherCAT communication protocols",
+    "Cross-domain systems thinking (mechanical, electrical, controls, autonomy)"
+  ],
+  "preferred_skills": [
+    "Multi-platform integration (legged/quadruped, humanoid, wheeled UGVs e.g. Unitree, Boston Dynamics, Clearpath)",
+    "Field deployment in harsh industrial environments (construction, mining, oil & gas)",
+    "Functional safety standards (ISO 26262, ASIL, SOTIF/ISO 21448)",
+    "Advanced controls (whole-body control, impedance/admittance control, MPC, trajectory optimization)",
+    "Fleet operations, auto-docking/charging infrastructure, teleoperation"
+  ],
+  "skill_classification": {
+    "have": ["ROS/ROS2", "Python", "C++"],
+    "adjacent": [
+      "Robotics software generalist (ROS2/perception present, legged/wheeled platform integration limited)",
+      "Motors/actuation/power electronics (PWM, GPIO, embedded hardware present; not BLDC-specific)",
+      "Cross-domain systems thinking (embedded + robotics background spans mechanical/electrical/software)"
+    ],
+    "missing": [
+      "Sim-to-real with Isaac/Gazebo/MuJoCo (candidate has CARLA, a different sim domain)",
+      "CAN bus/EtherCAT communication protocols",
+      "Multi-platform legged/quadruped/humanoid integration",
+      "Functional safety standards (ISO 26262/ASIL/SOTIF)",
+      "Fleet/docking/charging infrastructure, teleoperation"
+    ]
+  },
+  "match_pct": 75,
+  "missing_skills": [
+    "Sim-to-real with Isaac/Gazebo/MuJoCo",
+    "CAN bus/EtherCAT protocols",
+    "Legged/quadruped/humanoid platform integration",
+    "Functional safety standards (ISO 26262/ASIL/SOTIF)",
+    "Fleet & docking/charging infrastructure"
+  ],
+  "adjacent_skills": [
+    "Robotics software generalist (ROS2 present, legged/wheeled experience limited)",
+    "Motors/actuation/power electronics (PWM/GPIO present, not BLDC-specific)",
+    "Cross-domain systems integration (mechanical/electrical/controls/autonomy)"
+  ],
+  "top_ats_keywords": [
+    "ROS/ROS2", "Python", "C++", "CAN bus", "EtherCAT", "Isaac", "Gazebo",
+    "MuJoCo", "BLDC motor controllers", "ISO 26262", "ASIL", "SOTIF",
+    "sim-to-real", "quadruped", "humanoid", "UGV", "whole-body control",
+    "MPC", "trajectory optimization", "teleoperation", "SIL/HIL testing"
+  ],
+  "key_responsibilities": [
+    "Build platform abstraction layers between robots' native control stacks (ROS/ROS2) and Field AI's systems",
+    "Ensure navigation and controls stacks run correctly on physical hardware across quadruped, humanoid, and wheeled platforms",
+    "Electro-mechanical integration: mechanical saddles and electrical power distribution boards",
+    "Validate sim-to-real transfer of RL-based autonomy policies (Isaac, Gazebo, MuJoCo) on real terrain/stairs",
+    "Coordinate across Autonomy/RL, Manipulation, Mechanical, and Electrical teams to bring new platforms online",
+    "SIL/HIL testing for safety, reliability, and Operational Design Domain validation",
+    "Implement e-stop and fault-tolerant safety layers per ISO 26262/ASIL as practices mature",
+    "Support charging/docking infrastructure for data offload and communications",
+    "Handle field deployment logistics across construction, mining, and oil & gas environments"
+  ],
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "flags": {
+    "sponsorship_flag": "Field AI not in known_sponsors list; no explicit no-sponsorship phrase found in JD",
+    "experience_flag": "Required 3-9 years exceeds candidate's 0 full-time years (threshold 3) -- experience mismatch",
+    "location_flag": "Fully on-site in Irvine, CA; candidate is willing to relocate, so no blocker"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null
+}

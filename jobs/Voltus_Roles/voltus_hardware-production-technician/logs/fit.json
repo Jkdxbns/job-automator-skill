@@ -1,0 +1,108 @@
+{
+  "company": "Voltus",
+  "company_slug": "voltus",
+  "role": "Hardware Production Technician",
+  "job_slug": "hardware-production-technician",
+  "match_pct": 22.2,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 9,
+    "req_cov": 0.231,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "data acquisition"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "low-voltage electrical systems, wiring diagrams, hand tools, basic hardware troubleshooting",
+      "you_have": "embedded electronics / PCB design"
+    },
+    {
+      "jd_skill": "program / test / troubleshoot data acquisition hardware",
+      "you_have": "embedded programming and hardware validation"
+    }
+  ],
+  "missing_skills": [
+    "Microsoft Office and digital record-keeping systems",
+    "ERP / CRM (Salesforce) / manufacturing work orders / inventory processes",
+    "telemetry or hardware configuration platforms",
+    "SOP documentation experience",
+    "quality control (QC) process experience",
+    "physical assembly / hand-tool / order fulfillment experience"
+  ],
+  "top_ats_keywords": [
+    "Hardware Production Technician",
+    "assembly",
+    "testing",
+    "troubleshooting",
+    "quality control",
+    "SOP",
+    "wiring diagrams",
+    "low-voltage",
+    "data acquisition",
+    "MS Office",
+    "ERP",
+    "manufacturing",
+    "order fulfillment",
+    "hand tools"
+  ],
+  "required_skills": [
+    "low-voltage data acquisition hardware assembly",
+    "wiring",
+    "programming (hardware)",
+    "testing",
+    "troubleshooting",
+    "SOPs / wiring diagrams",
+    "quality control (QC) processes",
+    "order fulfillment",
+    "accurate digital records",
+    "Microsoft Office",
+    "low-voltage electrical systems",
+    "hand tools",
+    "basic hardware troubleshooting"
+  ],
+  "preferred_skills": [
+    "ERP / CRM systems",
+    "Salesforce",
+    "manufacturing work orders",
+    "inventory processes",
+    "telemetry or hardware configuration platforms",
+    "SOP documentation"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Assemble, wire, program, test, and troubleshoot low-voltage data acquisition hardware (Voltlets)",
+    "Follow SOPs, wiring diagrams, and QC processes to ensure consistent and reliable hardware",
+    "Prepare and package hardware for deployment to customer sites and maintain accurate records in internal systems",
+    "Work with Project Engineers to fulfill hardware orders and troubleshoot field hardware issues",
+    "Maintain production documentation and identify opportunities to improve quality, reliability, and efficiency"
+  ],
+  "role_category": "other",
+  "location": "Georgetown,TX",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "JD states: 'Please note that at this time, we do not sponsor visas or transfers for new hires.' (Category a: explicit refusal of sponsorship for all new hires, including OPT/STEM-OPT transitions). Also states teammates must be 'authorized to work from their home location' without sponsorship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

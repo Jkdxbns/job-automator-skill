@@ -1,0 +1,115 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Data Platform Engineer, Data Pipelines",
+  "job_slug": "data-platform-engineer-data-pipelines",
+  "match_pct": 55.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 17,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS2 / robotics systems (MoveIt, RViz, visual servoing, DH parameters, kinematics)",
+    "Python / C++ programming and integration",
+    "Embedded sensor data experience (UART, I2C, SPI, VL53L0X ToF, ADXL345, STM32)",
+    "Real-time embedded systems (FreeRTOS, bare-metal C, interrupt-driven)",
+    "Edge AI / CUDA / Jetson / TensorRT / YOLO deployment",
+    "ML model training and optimization (PyTorch, fine-tuning, quantization, ONNX/TFLite export)",
+    "Robotics autonomy domain (CARLA autonomous driving, object tracking turret)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Data pipeline design / ETL engineering",
+      "you_have": "Python integration work (Flask-SocketIO, ROS2 pipelines, OCR stitching pipeline, ASR pipeline); no production-scale ETL framework experience"
+    },
+    {
+      "jd_skill": "Telemetry and operational data ingestion",
+      "you_have": "Embedded telemetry via UART/I2C/SPI (STM32, Jetson, VL53L0X ToF, ADXL345); ROS2 sensor integration; no distributed robot fleet ingestion at scale"
+    },
+    {
+      "jd_skill": "Data integration / analytics data flows",
+      "you_have": "Data integration for ML training (document OCR, MRI segmentation, crack-depth profiling); not analytics/operational data platform flows"
+    },
+    {
+      "jd_skill": "Real-time / streaming data systems",
+      "you_have": "Real-time embedded systems (FreeRTOS, interrupt-driven ADC, PWM multi-servo control); not streaming data pipeline infrastructure"
+    },
+    {
+      "jd_skill": "Field deployment / globally distributed robot data",
+      "you_have": "Robotics deployment concepts (object tracking turret, wearable glove, autonomous driving simulation); no production field-robot fleet data experience"
+    }
+  ],
+  "missing_skills": [
+    "Production-scale data pipeline / ETL engineering (no Spark, Airflow, Kafka, or similar)",
+    "Telemetry and operational data ingestion at distributed-robot scale",
+    "Analytics / ML training data platform architecture",
+    "Full-time industry data-engineering experience (candidate is new-grad, 0 full-time years, 7 internships)",
+    "Data backbone architecture for globally deployed robotics systems"
+  ],
+  "top_ats_keywords": [
+    "data pipelines",
+    "telemetry",
+    "sensor logs",
+    "robotics",
+    "autonomy",
+    "ML training",
+    "data platform",
+    "data integration",
+    "analytics",
+    "deployment operations",
+    "embedded AI",
+    "field robotics"
+  ],
+  "required_skills": [
+    "Data pipeline design and build",
+    "Telemetry and sensor data ingestion",
+    "Data integration / ETL systems",
+    "Analytics and ML data flows",
+    "Cross-functional collaboration with robotics/autonomy/deployment teams"
+  ],
+  "preferred_skills": [
+    "Real-time / streaming data systems",
+    "Field robotics deployment experience",
+    "ML training data infrastructure",
+    "Production-scale distributed data systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and build systems to move data reliably from robots in the field",
+    "Capture autonomy interventions, anomalies, and operational signals",
+    "Build data backbone for analytics, autonomy, ML training, and deployment operations",
+    "Collaborate with robotics, autonomy, and deployment teams",
+    "Turn raw robot signals into ranked problem lists driving engineering roadmap"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship/citizenship/clearance/ITAR language in JD; experience level not explicitly senior (no >3-year or staff/senior signal); candidate is new-grad with 7 internships in relevant robotics/embedded/ML domains. Role does not state years required. Onsite in Irvine, CA; candidate is in Arlington, TX but states willing to relocate and remote OK (JD says fully onsite with flexible hours, not remote). No hard blocker."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,152 @@
+{
+  "company": "SPAICE",
+  "company_slug": "spaice",
+  "role": "Forward Deployed Engineer",
+  "job_slug": "forward-deployed-engineer",
+  "match_pct": 73.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 2,
+    "jd_ask_size": 17,
+    "req_cov": 0.821,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "networking",
+    "embedded systems",
+    "robotics",
+    "hardware integration",
+    "debugging across software/OS/sensors/networks/hardware",
+    "edge AI",
+    "systems integration and deployment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "simulation",
+      "you_have": "CARLA / Gazebo-style sim"
+    },
+    {
+      "jd_skill": "hardware-in-the-loop testing",
+      "you_have": "testing and validation on hardware rigs"
+    },
+    {
+      "jd_skill": "field trials",
+      "you_have": "hardware demos/testing"
+    },
+    {
+      "jd_skill": "autopilot",
+      "you_have": "closed-loop control"
+    },
+    {
+      "jd_skill": "customer-facing communication",
+      "you_have": "internship stakeholder work"
+    }
+  ],
+  "missing_skills": [
+    "GNSS-denied navigation",
+    "middleware"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "networking",
+    "embedded",
+    "robotics",
+    "hardware-in-the-loop",
+    "simulation",
+    "field trials",
+    "edge AI",
+    "APIs",
+    "middleware",
+    "autopilot",
+    "GNSS-denied navigation"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "networking",
+    "embedded systems",
+    "robotics",
+    "hardware integration",
+    "debugging across software/OS/sensors/networks/hardware",
+    "simulation",
+    "hardware-in-the-loop testing",
+    "field trials",
+    "systems integration and deployment",
+    "customer-facing communication",
+    "travel"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "integrate perception/navigation software with drones and customer platforms",
+    "deploy and field-test on edge AI hardware",
+    "customer collaboration with defence/aerospace stakeholders"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 64,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Edge-hardware integration and deployment: COFFIN capstone wired Flutter client, Flask-SocketIO server and Jetson+Arduino over WebSockets, TensorRT YOLO 5.2x speedup, 100% pick reliability (10/10)",
+      "Field-style Linux ops: Jetson arm bridge as systemd service with auto-restart, non-root isolation, static IP networking, XRDP on a headless box",
+      "Cross-stack debugging: resolved 11 integration failures (servo brown-out, stale-frame capture, false positives) spanning software, power, sensors and network",
+      "Sensor/hardware interface depth: VL53L0X ToF via TCA9548A I2C mux, UART/I2C/SPI, bare-metal Cortex-M4 drivers, oscilloscope and logic analyzer use",
+      "Robotics stack: ROS2 Humble, MoveIt, UR5e physical trajectories via UR ROS 2 driver, CARLA simulation validated with zero collisions"
+    ],
+    "real_gaps": [
+      "No drone, autopilot, flight computer or MAVLink/PX4 experience",
+      "No GNSS, visual-inertial navigation, SLAM or state estimation beyond wheel-encoder odometry",
+      "No customer-facing, defence or government stakeholder work; club leadership and team lead are the only proxies",
+      "No formal hardware-in-the-loop rig or real field trials; validation was lab bench trials",
+      "Networking is application-level (WebSocket, static IP), no DDS, UDP telemetry, radio links or protocol debugging",
+      "C++ is working depth: Arduino IK and CUDA kernels, not production C++ on Linux; scope is capstone, not owned production systems",
+      "Defence/aerospace context may carry citizenship or export-control limits not stated in the JD"
+    ],
+    "overstated_by_keywords": [
+      "hardware-in-the-loop testing counted Adjacent but the profile shows bench validation only",
+      "customer-facing communication counted Adjacent but no client-facing work exists",
+      "C++ counted Have but depth is working, not production"
+    ],
+    "understated_by_keywords": [
+      "systemd, static IP and XRDP administration on a headless Jetson is real deploy-tooling evidence for the Linux configuration ask",
+      "11-failure integration log in COFFIN backs the debug-across-the-stack ask more strongly than keywords show"
+    ],
+    "screening_gaps": [
+      "No drone, autopilot or GNSS-denied navigation experience for a role whose products are exactly that",
+      "No customer-facing or defence stakeholder experience for a forward-deployed role",
+      "No real field trial or HIL evidence, and production-scale ownership is missing"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The integration, Linux deployment and cross-stack debugging core of the role is backed by the COFFIN capstone, and the embedded and robotics base is strong. The domain layer (drones, navigation, field trials, customers) has no direct backing, so this reads as a stretch that a hiring manager would call a learnable gap only if the deployment story lands.",
+    "calibration_delta": 9.5
+  }
+}

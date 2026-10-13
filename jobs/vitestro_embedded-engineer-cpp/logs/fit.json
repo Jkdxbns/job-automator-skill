@@ -1,0 +1,122 @@
+{
+  "company": "Vitestro",
+  "company_slug": "vitestro",
+  "role": "Embedded Engineer (C++)",
+  "job_slug": "embedded-engineer-cpp",
+  "match_pct": 38.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 17,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Linux",
+    "Profiling and debugging on Linux",
+    "Networked subsystems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Real-time embedded Linux",
+      "you_have": "RTOS (STM32/ChibiOS) + BBB embedded Linux exposure"
+    },
+    {
+      "jd_skill": "Automated performance testing / regression detection",
+      "you_have": "Benchmarking + profiling (Jetson, CUDA)"
+    },
+    {
+      "jd_skill": "Software update and patching mechanisms",
+      "you_have": "systemd deployment"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab + Git"
+    },
+    {
+      "jd_skill": "Troubleshooting system-level issues",
+      "you_have": "Hardware debugging"
+    }
+  ],
+  "missing_skills": [
+    "EtherCAT",
+    "AWS IoT Core",
+    "Device provisioning",
+    "Embedded device security",
+    "Regulated industries (medical)",
+    "Post-market field support",
+    "CAN bus",
+    "Remote diagnostics"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "real-time",
+    "C++",
+    "profiling",
+    "debugging",
+    "CI/CD",
+    "nightly testing",
+    "performance testing",
+    "regression",
+    "CAN bus",
+    "EtherCAT",
+    "AWS IoT Core",
+    "medical devices",
+    "OTA updates",
+    "networking"
+  ],
+  "required_skills": [
+    "Real-time embedded Linux",
+    "Networked subsystems",
+    "C/C++",
+    "Profiling and debugging on Linux",
+    "Automated performance testing",
+    "Regression detection",
+    "Software update and patching mechanisms",
+    "Troubleshooting system-level issues"
+  ],
+  "preferred_skills": [
+    "CAN bus",
+    "EtherCAT",
+    "Regulated industries",
+    "Remote diagnostics",
+    "Device provisioning",
+    "AWS IoT Core",
+    "Post-market field support",
+    "Embedded device security"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "OS and networked subsystem changes",
+    "Nightly performance testing pipeline",
+    "Root-cause analysis of complex issues",
+    "Diagnostic tooling"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Utrecht, Netherlands (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

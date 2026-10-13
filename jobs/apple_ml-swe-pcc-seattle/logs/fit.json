@@ -1,0 +1,32 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "ML Software Engineer (Private Cloud Compute)",
+  "job_slug": "ml-swe-pcc-seattle",
+  "match_pct": 66.7,
+  "missing_skills": [
+    "large-scale distributed systems serving ML inference in production (processes/hosts/service tiers)",
+    "Go, Rust, Java, or Swift",
+    "gRPC / Protocol Buffers / RPC networking stacks",
+    "OpenTelemetry, Splunk, SLO/error-budget, on-call, production incident root-cause",
+    "KV cache, batching, sparsity for inference serving",
+    "XPC, Instruments, Swift Concurrency (Apple platform)"
+  ],
+  "adjacent_skills": [
+    "ML performance/latency-throughput reasoning (have: CUDA kernel optimization, TensorRT, memory coalescing — at the model/kernel level, not the distributed-service level)",
+    "Multi-node coordination (have: SLURM/MPI for HPC batch jobs — not production service-tier serving)"
+  ],
+  "top_ats_keywords": ["Python", "C++", "distributed systems", "ML inference", "latency", "throughput", "quantization", "GPU acceleration", "tokenization", "concurrency"],
+  "key_responsibilities": [
+    "Distribute/coordinate ML inference across SoC acceleration hardware and multi-node clusters",
+    "Integrate inference code into a full production service stack",
+    "Improve stability and performance of Private Cloud Compute",
+    "Bring up inference stack on new SoCs/hardware acceleration IP"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

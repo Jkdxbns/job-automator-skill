@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Infosys (ITL USA)",
+    "role": "GenAI Platform / LLM Inference Optimization Engineer (Cloud)",
+    "company_slug": "infosys",
+    "job_slug": "genai-llm-inference-cloud"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, focused on GPU inference optimization and performance benchmarking for deep learning workloads. Hands on with TensorRT and 8 bit quantization, delivering measurable inference speedups and memory footprint reduction on transformer and CNN models, with profiling built on pynvml and custom CUDA kernels. Background in distributed and parallel computing across MPI and SLURM managed clusters, with C/C++ and Python tooling for reproducible benchmarking pipelines.",
+  "skills": {
+    "ML / Inference Optimization": [
+      "TensorRT",
+      "Quantization (8-bit)",
+      "pynvml Profiling",
+      "Model evaluation",
+      "PyTorch"
+    ],
+    "GPU / HPC": [
+      "CUDA",
+      "CUDA C++",
+      "Memory coalescing",
+      "Kernel optimization",
+      "MPI",
+      "SLURM"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "Cython",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment.",
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with batch-loading memory management for large-scale 3D volumetric inputs."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; tuned model and decoder embedding layers for a custom document-extraction task.",
+        "Improved validation accuracy from 55% to 93% through iterative preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to improve PSNR from 65 to 86.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) \u2014 ~35% speedup over naive GPU with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO for visual servoing, achieving a 5.2\u00d7 inference speedup (56.7\u219210.9 ms, 17.6\u219292 FPS) versus eager-mode PyTorch."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49\u00d7 speedup with 12 slave processes; characterized scaling behavior across dendrite counts and compartment depths."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

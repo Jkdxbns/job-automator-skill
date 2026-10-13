@@ -1,0 +1,152 @@
+{
+  "company": "Filtronic",
+  "company_slug": "filtronic",
+  "role": "Senior Electronics Engineer",
+  "job_slug": "senior-electronics-engineer",
+  "match_pct": 39.7,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 15,
+    "jd_ask_size": 29,
+    "req_cov": 0.56,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ADC",
+    "Microprocessors",
+    "I2C",
+    "SPI",
+    "USB",
+    "Oscilloscopes",
+    "Logic analysers",
+    "PCB design",
+    "Schematic capture"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Altium Designer",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "Digital circuit design",
+      "you_have": "Digital Electronics"
+    },
+    {
+      "jd_skill": "Mixed-signal design",
+      "you_have": "ADC + digital electronics"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "Static IP / network configuration"
+    }
+  ],
+  "missing_skills": [
+    "Analogue circuit design",
+    "Signal conditioning",
+    "Filters",
+    "Amplifiers",
+    "Power supply design",
+    "DAC",
+    "PCIe",
+    "EMC/EMI",
+    "Spectrum analysers",
+    "Thermal analysis",
+    "MTBF",
+    "Tolerance analysis",
+    "RF/microwave",
+    "High-volume manufacturing",
+    "Surface mount technology"
+  ],
+  "top_ats_keywords": [
+    "Altium Designer",
+    "EMC",
+    "EMI",
+    "mixed-signal",
+    "PCB stack-up",
+    "spectrum analyser",
+    "oscilloscope",
+    "logic analyser",
+    "ADC",
+    "DAC",
+    "PCIe",
+    "CAN",
+    "I2C",
+    "SPI",
+    "USB",
+    "Ethernet",
+    "MTBF",
+    "RF",
+    "SMT"
+  ],
+  "required_skills": [
+    "Analogue circuit design",
+    "Digital circuit design",
+    "Mixed-signal design",
+    "Signal conditioning",
+    "Filters",
+    "Amplifiers",
+    "Power supply design",
+    "Microprocessors",
+    "ADC",
+    "DAC",
+    "Schematic capture",
+    "PCB design",
+    "PCIe",
+    "USB",
+    "Ethernet",
+    "CAN",
+    "I2C",
+    "SPI",
+    "EMC/EMI",
+    "Oscilloscopes",
+    "Spectrum analysers",
+    "Logic analysers",
+    "Thermal analysis",
+    "MTBF",
+    "Tolerance analysis"
+  ],
+  "preferred_skills": [
+    "Altium Designer",
+    "RF/microwave",
+    "High-volume manufacturing",
+    "Surface mount technology"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Analogue/digital/mixed-signal design",
+    "Schematic and PCB requirements",
+    "System integration and V&V",
+    "Design reviews",
+    "Obsolescence management",
+    "Thermal/MTBF/tolerance analysis"
+  ],
+  "role_category": "embedded_systems",
+  "location": "UK (not stated in JD)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

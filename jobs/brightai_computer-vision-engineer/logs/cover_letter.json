@@ -1,0 +1,15 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "BrightAI Corporation",
+  "role": "Computer Vision Engineer — Perception & 3D",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I recently graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology and I want to work on the CV pipeline this role owns end to end, from raw annotation through deployed model. At Tusk I curated and annotated a custom detection dataset from scratch and trained YOLOv8n on it to 83% mAP@50, then exported it to ONNX and TFLite for mobile deployment, so I have already done the annotate-train-deploy loop this role is built around.",
+    "The 3D and perception side of the role maps directly onto two projects I have shipped. At BARC I built a custom image-stitching and wavelet-denoising pipeline that pushed PSNR from 65 to 86, and deployed ZoeDepth monocular depth estimation for crack-depth profiling at ±8% error, which is hands-on 3D surface reconstruction work, not just familiarity with the concept. Separately, at Teesside University I trained U-Net segmentation models with VGG and ResNet backbones on the BraTS 2020 volumetric MRI dataset, evaluated on Dice and IoU, so segmentation and 3D volumetric data are not new to me either.",
+    "On the deployment side, my capstone at RIT integrated a TensorRT-optimized YOLO model into a real-time visual servoing pipeline, a 5.2x speedup over eager PyTorch that took inference from 56.7ms to 10.9ms, and I debugged it through 11 distinct integration failures to reach 100% pick reliability across 10 trials. I also spent time on AR/VR adjacent work at Planctech, architecting a mixed reality headset concept around real-time chroma keying, so the AR/VR and autonomy interest areas in the posting are not unfamiliar territory.",
+    "I would welcome the chance to bring this background to BrightAI and help build out the perception and 3D tooling this role covers. I am happy to share more of my dataset, model, and pipeline work, or to talk through any of it directly."
+  ],
+  "sign_off": "Sincerely,"
+}

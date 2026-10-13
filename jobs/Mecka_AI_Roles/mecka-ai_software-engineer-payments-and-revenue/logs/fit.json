@@ -1,0 +1,137 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Software Engineer, Payments and Revenue",
+  "job_slug": "software-engineer-payments-and-revenue",
+  "match_pct": 37.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 15,
+    "jd_ask_size": 27,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Shell / Bash",
+    "Degree (CS / Computer Engineering)",
+    "APIs",
+    "Git",
+    "Linux",
+    "Python web backend"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "high-concurrency / concurrent programming",
+      "you_have": "MPI (message-passing concurrency)"
+    },
+    {
+      "jd_skill": "distributed / event-driven systems",
+      "you_have": "ROS2 middleware"
+    },
+    {
+      "jd_skill": "event-driven messaging / webhooks",
+      "you_have": "WebSocket"
+    },
+    {
+      "jd_skill": "production backend services",
+      "you_have": "Flask (Python web framework)"
+    }
+  ],
+  "missing_skills": [
+    "payments / payouts / billing",
+    "fintech / banking / transactional systems",
+    "Java",
+    "Go",
+    "cloud infrastructure",
+    "databases",
+    "idempotency",
+    "retries",
+    "transaction boundaries",
+    "reconciliation",
+    "revenue recognition / deferred revenue / AP/AR",
+    "production ownership / incident response / monitoring",
+    "wallets / ledgers / payout orchestration",
+    "cross-border / FX / multi-currency",
+    "high-volume marketplace / B2C payments"
+  ],
+  "top_ats_keywords": [
+    "payments",
+    "backend",
+    "distributed systems",
+    "Python",
+    "C++",
+    "Java",
+    "Go",
+    "cloud",
+    "fintech",
+    "Stripe",
+    "reconciliation",
+    "revenue recognition",
+    "idempotency",
+    "transaction",
+    "event-driven",
+    "database",
+    "concurrency",
+    "production",
+    "monitoring",
+    "incident response",
+    "billing",
+    "invoicing",
+    "API",
+    "webhooks",
+    "settlement",
+    "audit trail"
+  ],
+  "required_skills": [
+    "backend development (production)",
+    "programming (C++, Java, Go, Python, Shell)",
+    "payments / billing / fintech / transactional systems",
+    "systems design (APIs, concurrency, idempotency, retries, transaction boundaries, event-driven, reconciliation)",
+    "production ownership (monitoring, incident response, critical systems)",
+    "computer science / computer engineering degree"
+  ],
+  "preferred_skills": [
+    "fintech/payments company experience (Stripe, Coinbase, Block, Adyen, Plaid, Brex, Ramp, Wise)",
+    "B2C marketplace experience (Uber, Airbnb, DoorDash, Shopify)",
+    "financial systems (wallets, ledgers, payout systems, billing, reconciliation engines)",
+    "revenue systems (billing, invoicing, usage-based revenue, revenue recognition)",
+    "global payments (cross-border, FX, multi-currency settlement)",
+    "finance/accounting concepts (double-entry, deferred revenue, AP/AR, clearing accounts)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build and own payments/revenue infrastructure (payouts, reconciliation, invoicing)",
+    "Integrate with payment platforms, banks, and financial systems",
+    "Automate reconciliation across payouts, invoices, bank transactions",
+    "Design reliable money movement (idempotency, audit trails, safe recovery)",
+    "Build billing, collections, revenue recognition, and internal finance tools"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

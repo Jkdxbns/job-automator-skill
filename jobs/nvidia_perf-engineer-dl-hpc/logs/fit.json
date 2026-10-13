@@ -1,0 +1,138 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Performance Engineer, Deep Learning and HPC",
+  "job_slug": "perf-engineer-dl-hpc",
+  "match_pct": 70.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 15,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Linux",
+    "Bash",
+    "benchmarking",
+    "Deep Learning",
+    "HPC",
+    "data analysis",
+    "debugging",
+    "automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "compiling from source",
+      "you_have": "CMake / build systems (CUDA, STM32, Jetson builds)"
+    },
+    {
+      "jd_skill": "Ubuntu/CentOS",
+      "you_have": "Linux (Jetson Ubuntu, systemd admin)"
+    },
+    {
+      "jd_skill": "written reports",
+      "you_have": "Matplotlib/Pandas result analysis"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Singularity",
+    "CentOS"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Linux",
+    "Bash",
+    "benchmarking",
+    "Deep Learning",
+    "HPC",
+    "Docker",
+    "Singularity",
+    "Ubuntu",
+    "CentOS",
+    "compiling from source",
+    "data analysis",
+    "debugging",
+    "automation"
+  ],
+  "required_skills": [
+    "Python",
+    "Unix shell",
+    "Linux",
+    "Ubuntu/CentOS",
+    "compiling from source",
+    "Docker/Singularity",
+    "data analysis",
+    "written reports",
+    "debugging"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "benchmark DL and HPC frameworks",
+    "analyze and report results",
+    "Python test automation",
+    "debug performance issues",
+    "automated testing tooling"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Benchmarking and profiling are real depth: SLM Compression project profiled peak VRAM and latency with pynvml across HellaSwag, GSM8K and ARC, and the COFFIN TensorRT work measured 56.7 to 10.9 ms (5.2x) against eager PyTorch",
+      "CUDA kernel work is backed by numbers: VGG16 custom kernels at 49.2 ms vs 73.3 ms uncoalesced vs 77.5 ms CPU TorchScript",
+      "HPC exposure: MPI Hodgkin-Huxley and parallel ray tracer projects plus SLURM-managed cluster workloads on the BARC capstone",
+      "Python data analysis and plotting from the BARC Python Developer internship (PyQt and Matplotlib acquisition and visualization) and Pandas/NumPy in the ML stack",
+      "Linux administration is hands-on: systemd units, static IP, XRDP on a headless Jetson"
+    ],
+    "real_gaps": [
+      "No Docker or Singularity anywhere in the profile",
+      "No evidence of compiling large third-party DL/HPC stacks from source and debugging build failures; CMake use is on own projects",
+      "No Ubuntu/CentOS multi-distro server administration; Linux evidence is Jetson and one capstone box",
+      "No datacenter-scale GPU benchmarking (multi-GPU, multi-node, competitor hardware comparisons)",
+      "No written benchmark reports aimed at sales, marketing or product teams",
+      "Seniority: 2+ years stated, profile is internships and a capstone"
+    ],
+    "overstated_by_keywords": [
+      "automation counted as Have but evidence is test scripts for own projects, not a reusable benchmarking harness"
+    ],
+    "understated_by_keywords": [
+      "SLM benchmarking project is nearly the exact job loop: run models, collect latency/VRAM/accuracy, compare trade-offs, report"
+    ],
+    "screening_gaps": [
+      "No Docker or Singularity container experience",
+      "No full-time or 2+ years experience; internship and capstone scope only",
+      "No datacenter-scale or multi-GPU benchmarking and no build-from-source of large HPC/DL stacks"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The core loop of the job, running DL workloads, measuring latency and memory, comparing results and scripting it in Python, is backed by the SLM benchmarking, TensorRT and CUDA kernel projects. The gaps are tooling (containers, source builds, multi-distro) and datacenter scale, which are learnable on the job.",
+    "calibration_delta": -2.0
+  },
+  "semantic_pending": false
+}

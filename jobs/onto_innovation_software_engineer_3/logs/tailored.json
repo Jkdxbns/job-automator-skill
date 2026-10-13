@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "company": "Onto Innovation",
+    "role": "Software Engineer 3",
+    "company_slug": "onto_innovation",
+    "job_slug": "software_engineer_3"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (May 2026) with applied experience building computer vision and image processing pipelines for inspection and detection systems. Developed a metal surface inspection pipeline at BARC using image stitching, wavelet denoising, and depth estimation; trained U-Net segmentation models on multi-modal MRI data; deployed TensorRT YOLO on Jetson for real-time visual servoing.",
+  "skills": {
+    "ML & Computer Vision": [
+      "Python",
+      "PyTorch",
+      "YOLO",
+      "U-Net",
+      "TensorRT",
+      "image segmentation",
+      "object detection",
+      "depth estimation"
+    ],
+    "Image Processing & Inspection": [
+      "wavelet denoising",
+      "image stitching",
+      "PSNR",
+      "Dice Score / IoU",
+      "medical imaging augmentation"
+    ],
+    "GPU & Performance": [
+      "CUDA C++",
+      "memory coalescing",
+      "constant memory"
+    ],
+    "Hardware & Embedded": [
+      "C/C++",
+      "Jetson",
+      "Arduino",
+      "Raspberry Pi",
+      "Bluetooth"
+    ],
+    "Tools": [
+      "Git",
+      "Linux",
+      "FreeRTOS",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation.",
+        "Achieved PSNR of 86 with a custom wavelet bank + optimized stitching; homography baseline reached PSNR of 65.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8 classification model improving accuracy from 78% to 97.5%; deployed in a consumer mobile app.",
+        "Curated and annotated a custom object detection dataset for health-level classification using YOLOv8."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 multi-modal MRI data; evaluated on Dice Score and IoU.",
+        "Engineered a custom data pipeline with medical imaging augmentation and memory-efficient batch loading for large-scale 3D volumetric inputs."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning.",
+        "Developed a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and Bluetooth; translated 3-DoF motion into HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency; resolved 11 integration failures including false-positive detections and rolling-shutter stereo depth errors.",
+        "Deployed TensorRT YOLO at ~18 FPS with ToF sensors for contact-aware grasping; implemented two-link IK on Arduino in C++."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing and constant memory; 49.2ms vs. 73.3ms (uncoalesced) \u2014 ~35% speedup, 1.5\u20132\u00d7 over CPU baseline."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

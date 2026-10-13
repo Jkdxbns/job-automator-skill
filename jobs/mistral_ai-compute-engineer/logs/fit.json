@@ -1,0 +1,20 @@
+{
+  "company": "Mistral",
+  "company_slug": "mistral",
+  "role": "AI Compute Engineer",
+  "job_slug": "ai-compute-engineer",
+  "match_pct": 55,
+  "missing_skills": ["Kubernetes (production admin)", "distributed storage", "high performance networking", "cloud security", "customer-facing technical support / incident on-call"],
+  "adjacent_skills": ["Linux (used extensively in ML/embedded work, not sysadmin-at-scale)", "Slurm (used as HPC job scheduler for research, not cluster administration)"],
+  "top_ats_keywords": ["Linux", "Slurm", "Kubernetes", "GPU orchestration", "distributed storage", "high performance networking", "cloud security", "customer support", "incident troubleshooting", "sovereign AI"],
+  "key_responsibilities": [
+    "Own and operate infrastructure (Linux, cloud, AI workloads)",
+    "Troubleshoot and resolve incidents for high availability/performance/security",
+    "Collaborate with research/product/infra teams",
+    "Provide technical support to customers and internal teams",
+    "Contribute to Kubernetes/GPU orchestration modernization"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

@@ -1,0 +1,114 @@
+{
+  "company": "Scarlet",
+  "company_slug": "scarlet",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 15,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Deep Learning",
+    "Document understanding",
+    "Dataset creation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ML evaluation / statistics",
+      "you_have": "Model evaluation (WER, Dice, IoU, perplexity)"
+    },
+    {
+      "jd_skill": "Production deployment & monitoring",
+      "you_have": "Jetson systemd service deployment"
+    },
+    {
+      "jd_skill": "Systems design",
+      "you_have": "COFFIN edge system architecture"
+    },
+    {
+      "jd_skill": "Agent systems",
+      "you_have": "LLM/transformer fine-tuning (GPT-2, TinyLlama)"
+    }
+  ],
+  "missing_skills": [
+    "Agent tool use",
+    "Context management",
+    "Information retrieval",
+    "Security judgment",
+    "Agent safeguards",
+    "Retrieval with source-evidence verification",
+    "Hallucination mitigation"
+  ],
+  "top_ats_keywords": [
+    "agents",
+    "RAG",
+    "retrieval",
+    "document understanding",
+    "evals",
+    "hallucination",
+    "citations",
+    "deep learning",
+    "Python",
+    "production",
+    "deployment",
+    "monitoring",
+    "security",
+    "datasets"
+  ],
+  "required_skills": [
+    "Python",
+    "Deep Learning",
+    "Agent systems",
+    "Agent tool use",
+    "Context management",
+    "Information retrieval",
+    "Document understanding",
+    "Dataset creation",
+    "ML evaluation / statistics",
+    "Production deployment & monitoring",
+    "Security judgment",
+    "Systems design"
+  ],
+  "preferred_skills": [
+    "Agent safeguards",
+    "Retrieval with source-evidence verification",
+    "Document understanding with source verification"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Agentic document understanding",
+    "Custom agent harnesses for evidence retrieval with source attribution",
+    "Evals and benchmarks for retrieval quality and citation correctness",
+    "Applied AI alignment"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

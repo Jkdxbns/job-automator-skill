@@ -1,0 +1,63 @@
+{
+  "company": "Medallion Instrumentation Systems (Patrick Industries)",
+  "company_slug": "medallion_instrumentation",
+  "role": "Embedded Platform Engineer",
+  "job_slug": "embedded_platform_engineer",
+  "match_pct": 36.4,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 2,
+    "missing_count": 13,
+    "jd_ask_size": 22,
+    "req_cov": 0.346,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Expert-level C (bare-metal)",
+    "FreeRTOS / RTOS real-time design (interrupts, task scheduling)",
+    "Git",
+    "Linux (Jetson/Raspberry Pi userspace)",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "CI/CD-adjacent tooling"
+  ],
+  "missing_skills": [
+    "Board Support Packages (BSP)",
+    "Assembly language",
+    "Bringing products through production launch",
+    "Linux kernel / device driver development",
+    "Bootloaders (U-Boot / ARM Trusted Firmware)",
+    "DDR/DRAM bring-up",
+    "Yocto (build system authoring)",
+    "Buildroot",
+    "Android platform integration (bootloader/kernel/BSP/HAL)",
+    "JTAG",
+    "Kernel driver support (graphics/display/camera/audio/wireless/storage)",
+    "OTA update / A-B partitioning / rollback",
+    "Formal technical leadership / mentoring"
+  ],
+  "adjacent_skills": [
+    "ARM/ARM64 (have ARM Cortex-M4 bare-metal, not ARM64 application processors)",
+    "Yocto/Buildroot/Ubuntu build environments (have Ubuntu-based Jetson/RPi deployment, not distro build/BSP integration)"
+  ],
+  "top_ats_keywords": ["Linux", "BSP", "ARM64", "C", "RTOS", "Yocto", "Android", "JTAG", "DDR", "bootloader"],
+  "key_responsibilities": [
+    "Embedded platform bring-up (U-Boot, ARM Trusted Firmware, custom bootloaders)",
+    "DDR/DRAM bring-up and tuning",
+    "Linux kernel/device driver development",
+    "Embedded firmware for MCU/Cortex-M subsystems, FreeRTOS",
+    "OTA update / A-B partitioning / rollback",
+    "Android platform bring-up",
+    "Technical leadership and mentoring"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

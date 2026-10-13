@@ -1,0 +1,102 @@
+{
+  "company": "Expedium Consulting",
+  "company_slug": "expedium-consulting",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 58.3,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 12,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Embedded Software Design",
+    "Embedded Operating Systems",
+    "Test Plans",
+    "Hardware Bring-up"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Linux (strong), BeagleBone Black embedded Linux (exposure)"
+    },
+    {
+      "jd_skill": "Device Drivers",
+      "you_have": "STM32/bare-metal peripheral code (I2C, ADC, GPIO)"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "MQTT",
+    "DNP",
+    "OPC UA"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Java",
+    "Embedded Linux",
+    "Device Drivers",
+    "MQTT",
+    "DNP",
+    "OPC UA",
+    "Embedded Software",
+    "Embedded Operating Systems",
+    "Test Plans",
+    "Bring-up"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Java",
+    "Embedded Linux",
+    "Device Drivers",
+    "Embedded Operating Systems",
+    "Embedded Software Design",
+    "MQTT",
+    "DNP",
+    "OPC UA",
+    "Test Plans",
+    "Hardware Bring-up"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "grid-edge consumer hardware",
+    "embedded Linux build and deploy with drivers",
+    "DNP/MQTT/OPC UA interfaces",
+    "test apps and plans",
+    "prototype bring-up",
+    "customer demos"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Minneapolis, MN (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

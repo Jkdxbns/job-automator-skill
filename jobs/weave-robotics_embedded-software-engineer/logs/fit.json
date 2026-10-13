@@ -1,0 +1,86 @@
+{
+  "company": "Weave Robotics",
+  "company_slug": "weave-robotics",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 0.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 0,
+    "missing_count": 0,
+    "jd_ask_size": 0,
+    "req_cov": 1.0,
+    "cap_applied": "no_skills_classified"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "embedded",
+    "firmware",
+    "C++",
+    "drivers",
+    "bring-up",
+    "real-time",
+    "CAN",
+    "SPI",
+    "I2C",
+    "RS-485",
+    "EtherCAT",
+    "SerDes"
+  ],
+  "required_skills": [
+    "Embedded C++",
+    "C",
+    "Python",
+    "Device Drivers",
+    "RTOS",
+    "CAN",
+    "SPI",
+    "I2C",
+    "RS-485",
+    "Board Bring-up",
+    "Oscilloscope",
+    "Logic Analyzer"
+  ],
+  "preferred_skills": [
+    "Bootloader",
+    "Secure Boot",
+    "PTP",
+    "Rust",
+    "Production Test Tooling"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "MCU firmware",
+    "drivers",
+    "board bring-up",
+    "real-time systems",
+    "bus ownership"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Visa: US citizen/visa only (YC job-board field) - Citizenship"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

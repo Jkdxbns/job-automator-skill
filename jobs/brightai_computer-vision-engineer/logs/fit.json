@@ -1,0 +1,41 @@
+{
+  "company": "BrightAI Corporation",
+  "company_slug": "brightai",
+  "role": "Computer Vision Engineer — Perception & 3D",
+  "job_slug": "computer-vision-engineer",
+  "match_pct": 92,
+  "missing_skills": ["model-assisted labeling workflow tooling", "Gaussian splatting", "annotation format conversion tooling"],
+  "adjacent_skills": ["NumPy", "3D reconstruction (photogrammetry)", "segmentation masks", "AR/VR", "SLAM/autonomy"],
+  "top_ats_keywords": ["Python", "OpenCV", "YOLO", "PyTorch", "3D reconstruction", "segmentation", "annotation", "AR/VR", "SLAM", "autonomy"],
+  "key_responsibilities": [
+    "Annotate and QA images/video for detection, segmentation, classification; build tooling to do it at scale",
+    "3D reconstruction (photogrammetry, Gaussian splatting) for AR/VR and autonomy",
+    "Python tooling to convert annotation formats, validate label integrity, generate dataset stats",
+    "Shape labeling schemas and class taxonomies",
+    "Run baseline YOLO training experiments to evaluate dataset quality"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Yes", "apply": "Can Try"},
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real depth/3D reconstruction experience: BARC capstone built a custom image-stitching pipeline (PSNR 65 to 86) plus ZoeDepth monocular depth estimation for crack-depth profiling — directly relevant to the '3D reconstruction' and 'depth estimation' asks, even though not photogrammetry/Gaussian-splatting specifically",
+      "Dataset curation and annotation depth: Tusk internship involved curating and annotating a custom YOLOv8 dataset (1,133 images, 83% mAP@50) — matches 'annotate and QA' and 'run baseline YOLO training experiments to evaluate dataset quality' almost verbatim",
+      "Segmentation experience is real but domain-shifted: BraTS 2020 U-Net segmentation (Dice/IoU, VGG/ResNet backbones) is genuine segmentation work, just medical imaging rather than general object/scene segmentation",
+      "YOLO/PyTorch production depth exceeds what a 'nice to have' bullet implies: COFFIN capstone shipped TensorRT-optimized YOLO at 5.2x speedup for real-time visual servoing, well past hobby-level familiarity",
+      "CARLA project used auto-generated semantic segmentation labels at scale with zero manual annotation — shows label-pipeline thinking even if not the exact 'format conversion tooling' ask"
+    ],
+    "real_gaps": [
+      "No evidence of building annotation/labeling tooling itself (format converters, label-integrity validators) — profile shows using and curating datasets, not building the QA infrastructure around them",
+      "No Gaussian splatting experience specifically; photogrammetry exposure is adjacent (custom stitching/homography) rather than direct",
+      "No AR/VR product experience — the Mixed Reality headset work at Planctech was a chroma-keying concept, not an AR/VR perception pipeline",
+      "Role is core-scoped around annotation/QA-at-scale as the day-to-day, not R&D — profile skews toward building/optimizing full ML pipelines and kernels, which is a different day-to-day than a labeling-and-tooling role even with the same keyword surface"
+    ],
+    "overstated_by_keywords": [
+      "'3D reconstruction' was counted as Adjacent/Have from ZoeDepth and image stitching, but the JD specifically names photogrammetry and Gaussian splatting, which are a step beyond what's shown",
+      "'Segmentation' credit comes entirely from a medical MRI project (BraTS), not general-purpose object/scene segmentation masks used for labeling pipelines"
+    ],
+    "reasoning": "The technical surface area overlaps heavily — YOLO, PyTorch, depth estimation, segmentation, dataset work are all real and demonstrated with metrics. But the role's actual center of gravity is annotation tooling and QA-at-scale for a 6 to 12 month temp contract, which is a narrower and more production-support-flavored slice of CV work than anything in the profile, which consistently shows R&D/optimization ownership rather than labeling infrastructure. Worth applying, but expect the interview to probe whether the day-to-day (annotation tooling, not model R&D) is actually what's wanted."
+  }
+}

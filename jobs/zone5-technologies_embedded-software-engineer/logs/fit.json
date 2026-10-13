@@ -1,0 +1,53 @@
+{
+  "company": "Zone 5 Technologies",
+  "company_slug": "zone5-technologies",
+  "role": "Embedded Software Engineer I/II",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 75,
+  "have_skills": [
+    "C/C++ bare-metal embedded (STM32 Cortex-M4)",
+    "FreeRTOS / RTOS",
+    "SPI / UART / I2C protocols",
+    "GPIO / PWM / ADC",
+    "Oscilloscope / logic analyzer debugging",
+    "PCB / schematics (EAGLE)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN bus",
+      "you_have": "SPI/UART/I2C (same embedded comms family)"
+    },
+    {
+      "jd_skill": "VxWorks",
+      "you_have": "FreeRTOS (similar RTOS paradigm)"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "Simulink"
+  ],
+  "top_ats_keywords": [
+    "embedded software",
+    "FreeRTOS",
+    "C/C++",
+    "RTOS",
+    "SPI",
+    "UART",
+    "CAN bus",
+    "firmware",
+    "STM32",
+    "oscilloscope"
+  ],
+  "key_responsibilities": [
+    "Design and implement embedded software for UAS hardware",
+    "Sensor and processor integration (autopilots, payloads, radios)",
+    "Debug and troubleshoot with oscilloscope/logic analyzer",
+    "Read and interpret electrical schematics",
+    "Configuration control and peer code review"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

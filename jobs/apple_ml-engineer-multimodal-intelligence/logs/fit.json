@@ -1,0 +1,139 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Engineer - Multimodal Intelligence",
+  "job_slug": "ml-engineer-multimodal-intelligence",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 15,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Multimodal (vision+text: VisionEncoderDecoder/DONUT)",
+    "Fine-tuned",
+    "On-device deployment (Jetson/TensorRT/TFLite/ONNX)",
+    "Rapid research prototyping/reproduction (GPT-2, ResNet, VGG, ASR)",
+    "Production systems under latency/memory/power constraints (quantization, TensorRT optimization)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Deep expertise in large multimodal foundation models",
+      "you_have": "smaller-scale from-scratch models (GPT-2, TinyLlama)"
+    },
+    {
+      "jd_skill": "Reproducible evaluation and regression testing pipelines",
+      "you_have": "Model evaluation (WER, IoU, Dice, PSNR metrics)"
+    },
+    {
+      "jd_skill": "Large-scale distributed training pipelines",
+      "you_have": "MPI, SLURM-managed distributed jobs"
+    }
+  ],
+  "missing_skills": [
+    "Data curation at scale",
+    "Pre-training at scale",
+    "Alignment",
+    "Published research track record"
+  ],
+  "top_ats_keywords": [
+    "multimodal",
+    "foundation models",
+    "PyTorch",
+    "JAX",
+    "Python",
+    "deep learning",
+    "on-device deployment",
+    "data curation",
+    "fine-tuning",
+    "evaluation",
+    "distributed training"
+  ],
+  "required_skills": [
+    "Deep learning in multimodal systems (vision/language/video/audio)",
+    "Python",
+    "PyTorch or JAX",
+    "Rapid prototyping/reproduction/validation of research ideas",
+    "Clear communication of analysis results"
+  ],
+  "preferred_skills": [
+    "Deep expertise in multimodal foundation models",
+    "Published/industry track record translating research to production",
+    "Data curation",
+    "Pre-training",
+    "Fine-tuning",
+    "Alignment",
+    "Evaluation methodology",
+    "Large-scale training pipelines",
+    "Distributed systems",
+    "Bridging research and production constraints"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build data curation and training pipelines",
+    "Fine-tune/optimize large multimodal models for on-device and hybrid execution",
+    "Stand up reproducible evaluation and regression testing",
+    "Harden approaches into production systems under latency/memory/power/privacy constraints"
+  ],
+  "role_category": "ml_systems",
+  "location": "Seattle, Washington, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "On-device/edge production hardening is real and specific: COFFIN capstone ships a systemd-managed, auto-restarting, non-root-isolated Jetson service with static IP networking and a measured end-to-end latency budget (~11.5s voice-to-picked, 100% pick reliability) -- directly maps to the JD's 'production systems under latency/memory/power constraints'",
+      "Multimodal model fine-tuning is concrete, not just adjacent: DONUT (vision-to-text transformer) fine-tuned via HuggingFace VisionEncoderDecoder on a custom dataset, improving accuracy 55%->93%",
+      "Data curation experience exists but is undersold by the keyword pass: CARLA pipeline generated ~8,000 labeled frames with zero manual annotation, and the YOLOv8 toothbrush project involved curating and annotating a custom dataset from scratch",
+      "On-device optimization stack (TensorRT, ONNX, TFLite, 8-bit quantization on TinyLlama with <1% accuracy loss) matches the 'optimizing for on-device execution' ask directly"
+    ],
+    "real_gaps": [
+      "No experience with large-scale pretrained foundation models (billions of parameters) -- all model work is small-scale (TinyLlama 1.1B, from-scratch GPT-2, DONUT) versus Apple's production foundation models",
+      "No published research or peer-reviewed track record demonstrating research-to-production translation",
+      "No true large-scale distributed training infrastructure -- MPI/SLURM work is HPC coursework (neuron simulation, ray tracer), not model training at scale",
+      "No explicit alignment/RLHF or safety-tuning experience",
+      "Evaluation work is metric-reporting (WER, Dice, IoU) rather than standing up an automated regression-testing harness"
+    ],
+    "overstated_by_keywords": [
+      "'Foundation models' counted as adjacent, but the gap to Apple's actual foundation-model scale is large, not just a naming mismatch"
+    ],
+    "understated_by_keywords": [
+      "Data curation: CARLA zero-manual-annotation pipeline and YOLOv8 dataset curation demonstrate real pipeline-building depth the keyword pass missed",
+      "Cross-modal integration: COFFIN combines ASR (audio), LLM intent classification (language), and vision (YOLO+depth) in one production pipeline -- genuinely multimodal systems experience beyond a single vision-language fine-tune"
+    ],
+    "screening_gaps": [
+      "No experience with production-scale multimodal foundation models -- everything shipped is small/from-scratch, not the billion-parameter class Apple Intelligence runs",
+      "No published work or industry track record specifically translating research into shipped production ML systems",
+      "No large-scale distributed training pipeline experience -- MPI/SLURM exposure is academic HPC, not production training infra"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong genuine overlap on the production/on-device engineering half of this role (COFFIN's hardening work is a real match), and multimodal fine-tuning experience exists and is concrete, not just keyword-deep. The gap is scale: this candidate has never touched a foundation-model-sized system or a real production training pipeline, which is the crux of what the JD is actually hiring for. Worth applying as a new-grad candidate, but expect the foundation-model-scale gap to be the first thing a technical screen probes.",
+    "calibration_delta": 2.0
+  }
+}

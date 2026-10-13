@@ -1,0 +1,169 @@
+{
+  "company": "Diversified Services Network, Inc. (DSN)",
+  "company_slug": "dsn",
+  "role": "Embedded Software Engineer - Engine Controls",
+  "job_slug": "embedded-sw-engine-controls",
+  "match_pct": 54.3,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 23,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C programming",
+    "Embedded software development",
+    "Debuggers / debugging & troubleshooting",
+    "Ethernet",
+    "Embedded operating system (RTOS)",
+    "Python scripting",
+    "Electrical systems troubleshooting",
+    "Test plan creation & verification criteria",
+    "Bench testing / test bench setup",
+    "Software build & configuration",
+    "Automated testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded control software development",
+      "you_have": "STM32 bare-metal firmware + closed-loop feedback control"
+    },
+    {
+      "jd_skill": "Application software development & integration",
+      "you_have": "hardware/software integration"
+    },
+    {
+      "jd_skill": "Software flash files",
+      "you_have": "MCU firmware flashing"
+    }
+  ],
+  "missing_skills": [
+    "Model-Based Development",
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "CAN / SAE J1939",
+    "Engine / machine controls",
+    "Software requirements analysis",
+    "Embedded software library development",
+    "Diesel engine / electrified powertrain domain"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "embedded software",
+    "Model-Based Development",
+    "Simulink",
+    "Stateflow",
+    "MATLAB",
+    "CAN",
+    "SAE J1939",
+    "Ethernet",
+    "Python",
+    "debuggers",
+    "engine controls",
+    "embedded operating system",
+    "software flash files",
+    "bench testing",
+    "test plans",
+    "verification",
+    "troubleshooting",
+    "software integration",
+    "embedded control systems"
+  ],
+  "required_skills": [
+    "C programming",
+    "Model-Based Development",
+    "Embedded control software development",
+    "Debuggers / debugging & troubleshooting"
+  ],
+  "preferred_skills": [
+    "Application software development & integration",
+    "CAN / SAE J1939",
+    "Ethernet",
+    "Embedded operating system",
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "Python scripting",
+    "Engine / machine controls",
+    "Electrical systems troubleshooting"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Analyze software requirements and develop verification criteria",
+    "Develop embedded software library activities",
+    "Configure and build embedded software, including design, development and validation of software flash files for application teams",
+    "Create, execute and document test plans",
+    "Set up and configure test bench hardware and software",
+    "Complete mandatory and feature-specific testing using manual and automated methods",
+    "Troubleshoot software and system defects and provide customer support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mossville, IL",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bench setup and hardware-level defect triage is genuinely strong: 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' in COFFIN is exactly the troubleshoot-defects-and-support-application-teams responsibility, and the Tools list carries oscilloscopes, logic analyzers, multimeters, spectrum analyzers.",
+      "Embedded C at register level is real, not a keyword: STM32 Bare-Metal Temperature Monitor programs GPIO/TIM2/ADC1/I2C1 directly, with timer-triggered ADC scan conversions and an interrupt-driven low-level I2C driver at 3.68 KB Flash / 1.58 KB RAM and a deterministic 1 Hz rate.",
+      "Closed-loop control implemented from first principles: Robocon derives heading from dual-axis quadrature encoder odometry (2400 CPR) and feeds angular error back into rotation PWM at 15 kHz, plus a 4-bit A/B transition state machine on hardware interrupts and a fail-safe state machine halting motors on controller disconnect.",
+      "Verification discipline with golden references, which is the closest thing in the profile to 'develop verification criteria': QAT exported 100 golden test vectors and a pure-integer reference model, matching the float reference on 99.996% of hidden values at identical test accuracy.",
+      "Embedded OS experience is backed at working depth: Object Tracking Turret runs FreeRTOS with mutexes for shared-memory task coordination alongside interrupt-driven UART and multi-servo PWM.",
+      "Automated test and benchmark harness construction recurs across the profile (HellaSwag/GSM8K/ARC evaluation, pynvml/psutil profiling, four MPI work-distribution strategies benchmarked head to head), which maps onto 'manual and automated methods' testing."
+    ],
+    "real_gaps": [
+      "Model-Based Development, MATLAB, Simulink and Stateflow appear nowhere in the profile. MBD is a REQUIRED qualification here and it is the toolchain the application and library team works in daily; the role's build-and-validate-flash-files work is generated from models.",
+      "CAN and SAE J1939 have no backing at any depth. Serial work is UART/I2C/SPI only; no bus arbitration, no DBC/J1939 PGN-SPN work, no CAN tooling (CANoe, CANalyzer, Busmaster).",
+      "No engine, powertrain, machine or vehicle controls domain exposure. Nothing in the profile touches diesel, battery-electric or fuel-cell systems, so the entire product context would be learned from zero.",
+      "Formal software requirements analysis and traceable verification criteria are unevidenced. The profile shows ad-hoc validation against physical outcomes (10/10 pick trials, <2mm repeatability) rather than requirements-driven V-model verification with documented criteria.",
+      "'Develop embedded software library activities' has no analogue. Every firmware artifact in the profile is a single-purpose application; there is no reusable library owned across multiple consuming application teams, and no configuration management of software variants at product-line scale.",
+      "Flash-file configuration and build at production scale is unevidenced. He flashes his own MCU images and uses CMake, but there is no evidence of building, versioning and releasing calibration/variant flash files as a deliverable handed to downstream application teams.",
+      "Seniority, noted as prose and deliberately not scored here: 0 years full-time against a 5+ year requirement, and the posting describes a contributor already fluent in an established toolchain rather than someone being trained into it.",
+      "No named debugger or debug-probe experience. Debugging depth is real but is logic-analyzer/oscilloscope/Proteus-shaped; no bullet names JTAG, SWD, GDB, Trace32, Lauterbach or an ECU calibration tool such as ETAS INCA or Vector CANape."
+    ],
+    "overstated_by_keywords": [
+      "Ethernet \u2014 scored Have via a generic 'networking' canonical, but the evidence is application-layer and Linux-admin: WebSocket fabric, Flask-SocketIO, static IP configuration and systemd service networking. There is no embedded Ethernet stack work (lwIP, raw sockets on an MCU, switched in-vehicle Ethernet), which is what an engine-controls posting means by the term.",
+      "Debuggers / debugging & troubleshooting \u2014 scored Have at 'strong' depth through aliases including JTAG and GDB, but no profile bullet actually names a debugger or debug probe. The underlying skill is hardware bring-up and bench triage, which is adjacent but not the same claim.",
+      "Software flash files \u2014 counted Adjacent via 'MCU firmware flashing', which understates the distance. The JD means designing and validating release flash images for other teams to consume, a configuration-management activity, not programming your own board.",
+      "Test plan creation & verification criteria \u2014 scored Have via a broad 'testing and validation' canonical. He executes and documents validation, but 'analyze software requirements and develop verification criteria' is the upstream half, and that half has no backing."
+    ],
+    "understated_by_keywords": [
+      "Embedded control software development was only counted Adjacent, yet the Robocon project is a complete closed-loop controller built from scratch \u2014 error derivation from encoder odometry, feedback into PWM, interrupt-driven quadrature decoding as a state machine, and angle-weighted joystick-to-wheel mixing derived from atan2 to kill PWM saturation at 45 degrees. For a controls role this is stronger than Adjacent.",
+      "Requirements-to-verification thinking is better evidenced than any keyword suggested, through the QAT golden-vector flow: a pure-integer reference implementation plus 100 exported golden vectors used as the pass/fail criterion. That is bit-exact regression methodology, which is how flash-file validation is actually judged.",
+      "Systems-integration troubleshooting across a multi-team boundary never string-matched anything, but 'customer support for system and software issues' is precisely what the COFFIN three-layer pipeline work and the ARC role (owning wiring, interfacing and integration across mechanical and design teams) demonstrate.",
+      "Hands-on electrical troubleshooting is undersold by a single keyword hit: custom single-layer PCB design and fabrication in EAGLE, sensor comms over UART/I2C with closed-loop feedback, and diagnosing a servo brown-out are real electrical-system fault-finding."
+    ],
+    "screening_gaps": [
+      "Zero Model-Based Development / Simulink / Stateflow \u2014 it is listed under REQUIRED qualifications, not preferred, and it is the medium the application and library team actually works in. A screener filters on this term first and the profile cannot answer it at any depth.",
+      "Zero years professional industry experience against an explicit 5+ year requirement, with no production engine or machine controls work to offset it. Seven internships and a capstone do not read as five years of shipped controls software to a recruiter screening for a Fortune 100 client site.",
+      "No CAN or SAE J1939 at all \u2014 this is the bus every ECU on a diesel and electrified off-highway product line speaks, and it is absent even at hobby level in the profile, so bench and integration tasks would start from zero on day one."
+    ],
+    "recommend_apply": false,
+    "reasoning": "The bench-and-integration half of this job is genuinely backed \u2014 register-level embedded C, closed-loop control written from first principles, FreeRTOS with mutexes, golden-vector regression validation, and a specific, credible defect-triage narrative. The other half is not: Model-Based Development is a required qualification with zero evidence, and MATLAB/Simulink/Stateflow, CAN/J1939 and the entire engine/electrified-powertrain domain are all absent, which is also why the keyword and semantic reads land within three points of each other instead of the usual wide gap. Against a 5+ year requirement at a staffing firm placing into a Fortune 100 client site with sponsorship unstated, this does not survive a screen on its own merits.",
+    "calibration_delta": 2.3
+  },
+  "semantic_pending": false
+}

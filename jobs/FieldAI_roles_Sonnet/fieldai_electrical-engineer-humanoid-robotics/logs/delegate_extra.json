@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "Strong embedded systems and robotics integration (ROS2, STM32 bare-metal, sensor fusion, I2C/UART)",
+    "Robotics/perception pipeline experience (YOLO, MoveIt, RViz, visual servoing, kinematics)",
+    "PCB design experience (EAGLE) and use of electrical test equipment (oscilloscopes, logic analyzers)",
+    "Cross-functional systems integration spanning software, embedded hardware, and mechanical components (capstone robotic arm)",
+    "Embedded sensor integration experience (ToF VL53L0X, ADXL345 accelerometer, I2C multiplexing)"
+  ],
+  "real_gaps": [
+    "Core electrical engineering: power architecture (regulated rails, DC/DC, grounding, fault isolation) \u2014 largely absent",
+    "Wire harness design, shielding, strain relief, and connector selection \u2014 no evidence",
+    "CAN, GMSL, and Ethernet hardware/protocol design \u2014 not present",
+    "EMI/EMC and noise/vibration robustness engineering \u2014 not mentioned",
+    "Production/manufacturing lifecycle (vendor procurement, incoming QA, field servicing documentation) \u2014 no experience",
+    "Full-time industry experience and production-scale deployment \u2014 0 years full-time, only internships/projects"
+  ],
+  "reasoning": "Field AI's Electrical Engineer, Humanoid Robotics role is primarily an electrical/hardware systems engineering position focused on power architecture, wire harness, PCB design (KiCAD/Altium), networking protocols (USB/Ethernet/CAN/I2C/GMSL/wireless), EMI/EMC, and production/field support. The candidate is a new-grad M.S. in Computer Engineering with 7 internships/research positions spanning ML, embedded, and robotics. Strong overlaps exist in robotics/perception (ROS2, YOLO, sensor integration), embedded C (STM32, FreeRTOS), basic PCB design (EAGLE), and test equipment (oscilloscopes). However, the core electrical skills demanded \u2014 power system design (DC/DC, voltage rails, grounding), wire harness engineering, CAN/GMSL/Ethernet hardware protocols, EMI/EMC compliance, and manufacturing/vendor workflow \u2014 are largely missing from the profile. The candidate has no full-time industry experience and no production-scale hardware deployment. The role explicitly recruits entry-level, so the new-grad status is not a blocker. Sponsorship is not mentioned in the JD, so no explicit denial. No clearance/ITAR/citizenship restrictions appear. The fit is weak-to-moderate: the robotics/perception and embedded background provides cross-functional value, but the core electrical engineering responsibility is not covered by the candidate's experience. Recommendation: only if the team values robotics/embedded cross-functionality heavily and is willing to train on power/harness/EMI fundamentals.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/93042d45-ffe3-46a1-8eaf-e229ea228b06",
+  "team": "Hardware Engineering",
+  "location": "Boston, MA"
+}

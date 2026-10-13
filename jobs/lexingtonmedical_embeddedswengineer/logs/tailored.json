@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "company": "Lexington Medical",
+    "role": "Embedded Software Engineer",
+    "company_slug": "lexingtonmedical",
+    "job_slug": "embeddedswengineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on embedded firmware experience on ARM Cortex-M microcontrollers. Built bare-metal C and FreeRTOS firmware driving SPI, I2C, and UART peripherals, PWM motor control, and closed-loop sensor feedback for robotic and embedded hardware. Debugged firmware, hardware, and mechanism failures at the bench with oscilloscopes and logic analyzers during hardware bring-up, and designed and fabricated the PCBs the firmware ran on.",
+  "skills": {
+    "Embedded Systems": ["STM32 (Bare-Metal C)", "ARM Cortex-M4", "FreeRTOS", "SPI/I2C/UART", "PWM", "Interrupt-driven design"],
+    "Languages": ["C/C++", "Python"],
+    "Hardware & Debug Tools": ["Oscilloscopes", "Logic Analyzers", "EAGLE PCB Design", "Proteus"],
+    "Robotics & Sensors": ["Motor control", "ToF/accelerometer sensor integration", "Closed-loop feedback", "Bluetooth (BLE/Classic)"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth (BLE/Classic) to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and firmware integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM motor control with interrupt-driven UART command handling and user override on STM32.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization for closed-loop feedback.",
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate, verified in Proteus.",
+        "Built Cortex-M4 temperature monitoring firmware with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) by isolating faults across firmware, hardware, and mechanism; achieved 100% pick reliability (10/10 trials).",
+        "Integrated dual VL53L0X ToF sensors (camera range-gate + gripper ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

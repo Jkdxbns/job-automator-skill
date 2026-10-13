@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "company": "Diversified Services Network, Inc. (DSN)",
+    "role": "Software Engineer - Precision Mining (Embedded Controls)",
+    "company_slug": "dsn",
+    "job_slug": "swe-precision-mining-embedded-controls"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded controls and perception experience across STM32, NVIDIA Jetson, and Raspberry Pi. Builds real-time features in embedded C++ and bare-metal C on Linux, with ROS1 and ROS2 stacks validated on physical UR5e and AL5B arms. OpenCV and Machine Learning development across industrial image-inspection pipelines, YOLO object detection, and segmentation models.",
+  "skills": {
+    "Embedded Software & Controls": [
+      "Embedded C++",
+      "C",
+      "C++",
+      "Python",
+      "bare-metal firmware",
+      "integration and testing"
+    ],
+    "Robotics & Perception": [
+      "ROS2",
+      "ROS1",
+      "MoveIt",
+      "RViz",
+      "visual servoing",
+      "forward/inverse kinematics"
+    ],
+    "Computer Vision & Machine Learning": [
+      "OpenCV",
+      "YOLO",
+      "PyTorch",
+      "TensorRT",
+      "image processing",
+      "segmentation"
+    ],
+    "Platforms, Linux & Tools": [
+      "STM32 (bare-metal C)",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "ADC/DAC",
+      "Linux",
+      "systemd",
+      "Ethernet networking",
+      "Git / GitHub"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline in Python and OpenCV for microscopic crack analysis using custom image stitching, wavelet denoising, and monocular depth estimation.",
+        "Designed an alpha-blended sym6+bior3.5 wavelet bank with concurrency-optimized homography stitching, raising PSNR from 65 to 86; profiled crack depth via ZoeDepth at plus/minus 8% error."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Led a culturally diverse team of 7 as the sole Machine Learning-experienced member, taking over as lead mid-project to deliver the full pipeline within the 6-week window.",
+        "Trained U-Net segmentation on the multi-modal BraTS 2020 MRI dataset with VGG-16/19 and ResNet-50 backbones; evaluated on Dice Score and IoU for deployment trade-offs."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi over I2C and HC-05 Bluetooth, mapping 3-DoF hand motion to HID commands in Python.",
+        "Implemented z-axis differential tap detection; triaged and resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided robotic pick-and-place system across a three-layer distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson + Arduino controller) over a WebSocket fabric on Ethernet.",
+        "Integrated TensorRT-optimized YOLO for visual servoing (5.2x speedup, 56.7 to 10.9 ms) and dual VL53L0X ToF sensors via an I2C mux for contact-aware grasping; implemented two-link inverse kinematics on Arduino in embedded C++.",
+        "Triaged 11 integration failures to 100% pick reliability over 10 validation trials; deployed the Jetson bridge as a Linux systemd service with auto-restart, non-root isolation, and static IP networking."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS2 Humble and ROS1 Noetic.",
+        "Executed collision-free pick-and-place trajectories on the physical UR5e via the UR ROS2 driver; AL5B repeatability under 2 mm over 10 trials."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 monitoring firmware in bare-metal embedded C with timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed GPIO, TIM2, ADC1 and I2C1 directly at 3.68 KB Flash / 1.58 KB RAM with a deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

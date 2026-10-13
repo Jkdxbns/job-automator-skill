@@ -1,0 +1,102 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Principal Package Engineer",
+  "job_slug": "principal-package-engineer",
+  "match_pct": 9.1,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 11,
+    "req_cov": 0.125,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "B.S./M.S. in Electrical Engineering or related field",
+      "you_have": "Recent M.S. Computer Engineering (RIT, May 2026)"
+    },
+    {
+      "jd_skill": "substrate/interposer physical design, PCB-level hardware design",
+      "you_have": "PCB design / EAGLE PCB design experience"
+    }
+  ],
+  "missing_skills": [
+    "multi-die package design (MCM, 2.5D, 3D, fan-out, CoWoS, InFO, CPC, CPO)",
+    "UCIe (AP/SP) integration",
+    "substrate materials, stack-ups, mechanical constraints",
+    "SI/PI concepts",
+    "subcontractor and vendor management",
+    "TSMC / OSAT interface for bumping/packaging",
+    "high-speed signal escaping, routing and power distribution network design",
+    "package modeling tools (HFSS, Sigrity)",
+    "package-level bring-up, failure analysis, debug, qualification"
+  ],
+  "top_ats_keywords": [
+    "Principal Package Engineer",
+    "multi-die",
+    "CoWoS",
+    "interposer",
+    "substrate",
+    "bump pitch",
+    "ball pitch",
+    "UCIe",
+    "TSMC",
+    "OSAT",
+    "SI/PI",
+    "high-speed routing",
+    "package architecture",
+    "AI accelerator",
+    "semiconductor packaging"
+  ],
+  "required_skills": [
+    "multi-die package design (MCM, 2.5D, 3D, fan-out, CoWoS, InFO, CPC, CPO)",
+    "UCIe (AP/SP) integration",
+    "substrate materials, stack-ups, mechanical constraints",
+    "SI/PI collaboration",
+    "subcontractor/vendor management",
+    "TSMC/OSAT interface",
+    "high-speed signal escaping, routing and PDN design",
+    "package-level bring-up, failure analysis, debug, qualification"
+  ],
+  "preferred_skills": [
+    "HFSS",
+    "Sigrity",
+    "package modeling tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Architect and select advanced multi-die package types balancing electrical, thermal, cost, manufacturability",
+    "Define substrate stack-ups, bump/ball maps, interposer specs, routing, materials",
+    "Perform high-speed signal escaping, routing and power distribution network design",
+    "Manage subcontractors and interface with TSMC/OSAT on bumping and packaging flows",
+    "Partner with IC/SI/PI/board teams and support package bring-up, debug, qualification"
+  ],
+  "role_category": "other",
+  "location": "Palo Alto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

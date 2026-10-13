@@ -1,0 +1,110 @@
+{
+  "company": "VEIR",
+  "company_slug": "veir",
+  "role": "Sr. Engineer - System Integration",
+  "job_slug": "sr-engineer-system-integration",
+  "match_pct": 7.1,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 19,
+    "jd_ask_size": 21,
+    "req_cov": 0.35,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "hardware selection and specification",
+      "you_have": "embedded hardware / PCB design"
+    }
+  ],
+  "missing_skills": [
+    "structural systems / large infrastructure",
+    "field operations / installation support",
+    "analytical methods (forces, tolerances, loads)",
+    "CAD",
+    "BIM",
+    "mechanical process design",
+    "technical writing / process documentation",
+    "vendor and contractor management",
+    "travel / field deployment",
+    "site safety / code compliance",
+    "MATLAB",
+    "continuous improvement / innovation",
+    "interpersonal / collaboration / mentoring",
+    "structural engineering",
+    "mechanical engineering",
+    "trade studies",
+    "superconducting",
+    "field installation",
+    "process documentation"
+  ],
+  "top_ats_keywords": [
+    "structural engineering",
+    "mechanical engineering",
+    "CAD",
+    "BIM",
+    "MATLAB",
+    "Python",
+    "field installation",
+    "process documentation",
+    "trade studies",
+    "vendor management",
+    "superconducting",
+    "hardware specification"
+  ],
+  "required_skills": [
+    "structural systems / large infrastructure engineering",
+    "hardware selection and specification",
+    "field operations and installation support",
+    "analytical methods (forces, tolerances, allowable loads)",
+    "CAD and BIM",
+    "mechanical process design",
+    "technical writing and process documentation",
+    "vendor and contractor management",
+    "travel / field deployment",
+    "site safety standards and code compliance"
+  ],
+  "preferred_skills": [
+    "MATLAB",
+    "Python or similar languages",
+    "continuous improvement and innovation mindset",
+    "interpersonal skills / collaboration / team mentoring"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Serve as SME for installation of low/medium-voltage superconducting cable systems in all environments",
+    "Specify and design installation hardware/equipment, including custom equipment",
+    "Plan and execute testing to align cable mechanical design with installation methods",
+    "Translate specs into field installation manuals; design training and provide field support to partners",
+    "Ensure site safety/code compliance and manage external contractors at planning and execution stages"
+  ],
+  "role_category": "other",
+  "location": "Woburn, Massachusetts, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

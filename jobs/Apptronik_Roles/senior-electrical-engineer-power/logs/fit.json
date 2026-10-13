@@ -1,0 +1,117 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior Electrical Engineer - Power",
+  "job_slug": "senior-electrical-engineer-power",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 8,
+    "jd_ask_size": 15,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PCB design and embedded electronics prototyping",
+    "Embedded electronics / microcontroller systems (STM32, Arduino, Jetson, Raspberry Pi)",
+    "Lab equipment and embedded verification"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Simulation tools (LTSpice, PSpice)",
+      "you_have": "Proteus simulation environment"
+    },
+    {
+      "jd_skill": "Root-cause analysis / hardware debugging",
+      "you_have": "Embedded/robotics integration debugging and failure resolution"
+    },
+    {
+      "jd_skill": "Rapid prototyping at system and board level",
+      "you_have": "Rapid embedded/robotics prototyping across Jetson, Arduino, STM32, Raspberry Pi"
+    },
+    {
+      "jd_skill": "Test fixtures / design documentation / assembly instructions",
+      "you_have": "Embedded design documentation and test verification"
+    }
+  ],
+  "missing_skills": [
+    "Power electronics (DC/DC isolated/non-isolated, PMSM/BLDC three-phase motor control, FET/GaN switching topologies, thermal analysis, efuses/bus-sizing protection schemes)",
+    "Battery modules, battery management systems (BMS), battery chargers",
+    "Multi-layer mixed-signal PCBA design (candidate experience limited to single-layer EAGLE boards)",
+    "CAD design rules development and maintenance (Altium specifically)",
+    "PLM / component lifecycle management (Arena or equivalent)",
+    "Production-scale manufacturing / contract manufacturer (CM) management and DFM/DFA",
+    "DVT/PVT production validation and lifecycle management at scale",
+    "Vendor/third-party hardware vendor relationship management"
+  ],
+  "top_ats_keywords": [
+    "Senior Electrical Engineer",
+    "Power Electronics",
+    "DC/DC converters",
+    "PMSM",
+    "BLDC motor control",
+    "Battery",
+    "BMS",
+    "PCB Design",
+    "Altium",
+    "LTSpice",
+    "PSpice",
+    "DVT",
+    "PVT",
+    "PLM Arena",
+    "DFM DFA",
+    "Hardware Debugging",
+    "Power Distribution"
+  ],
+  "required_skills": [
+    "Power electronics (DC/DC converters isolated/non-isolated, PMSM/BLDC motor control, FET/GaN switching, thermal analysis, power protection/efuses, bus sizing)",
+    "Battery modules, BMS, and battery chargers",
+    "PCB/PCBA design, prototyping, debugging (Altium or similar CAD)",
+    "CAD design rules development and maintenance",
+    "Product lifecycle / PLM systems (Arena)",
+    "Simulation and lab tools (LTSpice, PSpice, oscilloscopes, logic analyzers)",
+    "Design documentation (schematics, block diagrams, test plans, fabrication/assembly drawings)",
+    "DVT/PVT validation and test fixture design",
+    "Hardware/firmware root-cause analysis and debugging",
+    "Cross-functional collaboration and vendor/CM management"
+  ],
+  "preferred_skills": [
+    "Mentoring junior engineers on hardware design and documentation",
+    "Travel up to 10% US/international",
+    "Fast-paced high-growth environment with production scaling focus"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Electronics owner from concept to production for multi-layer mixed-signal PCBAs",
+    "Battery module owner with internal and vendor partners",
+    "DVT/PVT validation, test fixtures, and lab evaluation (oscilloscopes, logic analyzers)",
+    "Root-cause analysis of hardware/firmware defects and corrective actions",
+    "Full component lifecycle through PLM; vendor/CM relationships for production scaling",
+    "Cross-functional collaboration (systems, mechanical, thermal, software, manufacturing) and mentoring"
+  ],
+  "role_category": "other",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

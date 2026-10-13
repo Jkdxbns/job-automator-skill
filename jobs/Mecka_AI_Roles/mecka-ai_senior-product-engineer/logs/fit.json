@@ -1,0 +1,125 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Product Engineer",
+  "job_slug": "senior-product-engineer",
+  "match_pct": 58.7,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 23,
+    "req_cov": 0.286,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA / GPU optimization",
+    "TensorRT",
+    "YOLO / object detection",
+    "ROS / ROS2",
+    "Jetson / Edge AI",
+    "Embedded bare-metal",
+    "PyTorch",
+    "OpenCV",
+    "Flask / backend API"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Full-stack execution",
+      "you_have": "Partial backend + Python web tools; no frontend/UX stack"
+    },
+    {
+      "jd_skill": "Data-driven / metrics / instrumentation",
+      "you_have": "Basic data acquisition"
+    },
+    {
+      "jd_skill": "Product / UX / design craft",
+      "you_have": "Some GUI frameworks (no UX/product design evidence)"
+    },
+    {
+      "jd_skill": "Robotics / embodied AI domain",
+      "you_have": "Robotics/edge-AI engineering stack (not the product/data-infra work)"
+    },
+    {
+      "jd_skill": "Startup / high-agency product ownership",
+      "you_have": "No startup/founder or 0\u21921 product-shipping evidence listed"
+    }
+  ],
+  "missing_skills": [
+    "Frontend development skills (React, HTML/CSS, modern web UI)",
+    "UX design / interaction quality / product craft",
+    "Data instrumentation, analytics, success-metric definition",
+    "Production-scale systems / petabyte-scale data workflows",
+    "7+ years of professional engineering experience (candidate: new grad, 0 FT years)",
+    "Startup / founder / end-to-end product ownership track record",
+    "Security / identity skills not relevant; sponsorship status not addressed"
+  ],
+  "top_ats_keywords": [
+    "full-stack",
+    "product engineer",
+    "0\u21921",
+    "scale",
+    "production",
+    "frontend",
+    "backend",
+    "UX",
+    "design-oriented",
+    "data-driven",
+    "metrics",
+    "instrumentation",
+    "startup",
+    "founder",
+    "high agency",
+    "systems"
+  ],
+  "required_skills": [
+    "Full-stack software engineering",
+    "Frontend + backend execution",
+    "Shipping products 0\u21921 and scaling in production",
+    "Product / UX reasoning",
+    "Design craft",
+    "Data-driven iteration (metrics, instrumentation)",
+    "Clean systems / high-agency ownership"
+  ],
+  "preferred_skills": [
+    "Early-stage startup or founder experience",
+    "End-to-end product ownership",
+    "Writing clean systems + caring deeply about UX",
+    "Relentless ship/measure/iterate"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Turn ambiguous problems into shipped product: concept \u2192 prototype \u2192 production",
+    "Own scope, trade-offs, delivery, and quality in production",
+    "Build end-to-end full-stack workflows across frontend + backend",
+    "Define success metrics, instrumentation, and data-driven prioritization",
+    "Partner with design and ship durable, simple, fast-to-iterate product primitives"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

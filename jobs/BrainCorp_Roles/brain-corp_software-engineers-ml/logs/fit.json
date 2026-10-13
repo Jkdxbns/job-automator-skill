@@ -1,0 +1,38 @@
+{
+  "company": "Brain Corp",
+  "company_slug": "brain-corp",
+  "role": "Software Engineers (ML/AI - Detection Models)",
+  "job_slug": "software-engineers-ml",
+  "match_pct": 88,
+  "missing_skills": ["Pandas", "large-scale cloud data pipelines", "production on-call ownership"],
+  "adjacent_skills": ["Keras (backing unclear vs PyTorch/TensorFlow usage)", "robot sensor data pipelines (has ROS/Jetson robotics data, not cloud-scale)"],
+  "top_ats_keywords": ["PyTorch", "Keras", "Jupyter notebooks", "detection models", "object detection", "text detection", "GPT", "LLM", "Python production coding", "Master's degree Computer Science/Statistics/Data Science"],
+  "key_responsibilities": [
+    "Build/iterate detection models on sensor data (object and text detection)",
+    "Contribute to Python codebase for customer insights",
+    "ML tool chains: Pandas, PyTorch, Keras, Jupyter",
+    "Automated testing, review, deployment with data-driven success criteria",
+    "Resolve production/customer issues, root cause engineering"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Object detection training/optimization depth: YOLOv8 toothbrush classifier (83% mAP@50, ONNX/TFLite export), TensorRT-optimized YOLO in COFFIN capstone (5.2x speedup, 92 FPS), YOLO11n in CARLA pipeline",
+      "Text/document detection and recognition: fine-tuned DONUT (OCR-free document understanding transformer) on medical billing data, improved validation accuracy 55% to 93%",
+      "GPT/LLM applications beyond surface use: built GPT-2 style Transformer from scratch in PyTorch, 8-bit quantized TinyLlama with near-lossless accuracy, used Gemini for real-time intent classification in a production-style pipeline",
+      "PyTorch and HuggingFace Transformers depth across multiple projects, not just listed"
+    ],
+    "real_gaps": [
+      "No Pandas usage anywhere in experience or project bullets - JD lists it explicitly alongside PyTorch/Keras/Jupyter",
+      "No large-scale cloud data pipeline experience (JD wants insights from 'robot data capture and cloud processing pipelines' at fleet scale across 30,000+ AMRs) - candidate's data pipelines are project/lab scale, not cloud-managed production scale",
+      "JD emphasizes production ownership: automated test cases for release quality, resolving live customer issues with root-cause engineering. Candidate's experience is internship/capstone scope, not sustained production on-call ownership"
+    ],
+    "overstated_by_keywords": [
+      "Keras counted as Have by keyword match, but no bullet actually demonstrates it - BraTS project used VGG/ResNet backbones without specifying framework, likely TensorFlow/Keras but unconfirmed"
+    ],
+    "reasoning": "Genuinely strong on the core ML ask, detection model training and GPT/LLM application depth are real and specific, not just keyword hits. The gaps are about production scale and ownership rather than raw skill: no Pandas, no cloud-scale data pipeline experience, and no sustained on-call production ownership, all reasonable for a new grad but worth being upfront about if it comes up."
+  }
+}

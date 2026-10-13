@@ -1,0 +1,163 @@
+{
+  "company": "Actalent",
+  "company_slug": "actalent",
+  "role": "Sr. Software Perception Engineer",
+  "job_slug": "sr-software-perception-engineer",
+  "match_pct": 54.2,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 2,
+    "missing_count": 10,
+    "jd_ask_size": 24,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS",
+    "OpenCV",
+    "PyTorch/TensorFlow",
+    "Computer Vision",
+    "Deep Learning",
+    "Object Detection",
+    "Tracking",
+    "Classification",
+    "Camera Data",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sensor Fusion",
+      "you_have": "ToF-triggered + camera range-gating fusion (COFFIN grasping)"
+    },
+    {
+      "jd_skill": "Mobile Robotics Perception (off-road autonomy)",
+      "you_have": "CARLA autonomous driving + Object Tracking Turret (research/capstone scale, not off-road machinery)"
+    }
+  ],
+  "missing_skills": [
+    "Lidar",
+    "Radar",
+    "Agile SDLC",
+    "Docker",
+    "CMake",
+    "Eigen",
+    "Azure DevOps/Jira",
+    "SonarQube/GoogleTest/Artifactory/Clang",
+    "AWS (EC2/S3/Batch)",
+    "CI/CD"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "sensor fusion",
+    "object detection",
+    "tracking",
+    "classification",
+    "computer vision",
+    "machine learning",
+    "deep learning",
+    "C++",
+    "Python",
+    "ROS",
+    "OpenCV",
+    "TensorFlow",
+    "PyTorch",
+    "lidar",
+    "radar",
+    "camera",
+    "autonomy",
+    "Agile"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "ROS",
+    "OpenCV",
+    "PyTorch/TensorFlow",
+    "Computer Vision",
+    "Deep Learning",
+    "Object Detection",
+    "Tracking",
+    "Classification",
+    "Sensor Fusion",
+    "Camera Data",
+    "Lidar",
+    "Radar",
+    "Mobile Robotics Perception (off-road autonomy)",
+    "Agile SDLC"
+  ],
+  "preferred_skills": [
+    "Git",
+    "Docker",
+    "CMake",
+    "Eigen",
+    "Azure DevOps/Jira",
+    "SonarQube/GoogleTest/Artifactory/Clang",
+    "AWS (EC2/S3/Batch)",
+    "CI/CD"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/implement/test perception algorithms (sensor fusion, object detection, tracking, classification) for mobile off-road machines",
+    "Collaborate on integrating perception into broader autonomy software stack and hardware platform",
+    "Analyze/annotate perception data for ML training, participate in ML training cycles",
+    "Document architecture, designs, verification/test plans, safety procedures"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Dallas, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Object detection/tracking: YOLOv8 across three separate builds (Object Tracking Turret, COFFIN visual servoing, CARLA lane pipeline, Tusk toothbrush detection) - real, repeated depth, not a one-off.",
+      "Classification: VGG16 CUDA kernel work, Tusk health-level classification, U-Net segmentation at Teesside - genuine breadth across CV tasks.",
+      "ROS/robotics stack: ROS2 Humble + ROS Noetic, MoveIt, RViz, forward kinematics on two physical arms (UR5e, AL5B) - solid, verifiable depth.",
+      "Perception data pipelines: Tusk (annotated dataset curation) and CARLA (automated zero-manual-annotation data generation) both show real ML-training-data engineering, matching JD responsibility 3 directly."
+    ],
+    "real_gaps": [
+      "Lidar: no project or internship touches lidar at all.",
+      "Radar: no project or internship touches radar at all.",
+      "Off-road/heavy-mobile-machinery domain: all perception work is on a robotic arm, a desktop turret, or simulated on-road driving (CARLA) - none in the construction/ag/mining equipment vertical this role targets.",
+      "Agile SDLC: no bullet anywhere references sprints, backlogs, or an Agile process.",
+      "QA/production tooling named in the JD (GoogleTest, SonarQube, Jira/Azure DevOps, CI/CD): absent from every project and internship.",
+      "Multi-modal sensor fusion algorithms (Kalman/particle-filter-style fusion across camera+lidar+radar): the one fusion-adjacent example (ToF+camera range-gating in COFFIN) is a simple threshold gate, not the fusion the JD implies."
+    ],
+    "overstated_by_keywords": [
+      "Mobile Robotics Perception (off-road autonomy) was scored Adjacent, but the actual gap is a full industry vertical (off-road heavy machinery vs. arms/turret/simulated on-road driving), not just a terminology mismatch."
+    ],
+    "understated_by_keywords": [
+      "CMake is a real, listed Tools skill but did not surface in the keyword pass at all.",
+      "ZoeDepth monocular depth estimation (BARC) and U-Net medical segmentation (Teesside) show perception depth beyond object detection that the keyword list undercounts."
+    ],
+    "screening_gaps": [
+      "No lidar or radar experience anywhere in the profile - two of three sensor modalities the JD lists as essential are completely absent.",
+      "Zero experience in the off-road/heavy-machinery domain - every robotics/autonomy project is arm, turret, or simulated on-road (CARLA) scale, not industrial mobile equipment, which a screener filtering for 3-5 industry years in this vertical would catch immediately.",
+      "No evidence of Agile process or production QA/CI tooling (Jira, GoogleTest, SonarQube, CI/CD) anywhere in experience or projects."
+    ],
+    "recommend_apply": false,
+    "reasoning": "Object detection, tracking, classification, and ROS depth are genuinely strong and repeat across multiple independent builds, so the CV/ML core of this role is well covered. But two of the three named sensor modalities (lidar, radar) never appear anywhere in the profile, the off-road heavy-machinery domain is a full vertical this candidate has no exposure to (arm/turret/sim-driving is a different world), and there is no trace of Agile process or the QA tooling the JD names - for a Sr.-titled, 3-5-year industry role, those three gaps compound rather than average out.",
+    "calibration_delta": 7.2
+  }
+}

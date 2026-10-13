@@ -1,0 +1,40 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, Firmware, Pixel Video",
+  "job_slug": "swe-firmware-pixel-video",
+  "match_pct": 100,
+  "missing_skills": ["data structures and algorithms (industry-demonstrated)", "accessible technologies experience", "software test engineering", "video codec / compression domain experience"],
+  "adjacent_skills": ["embedded operating systems (FreeRTOS/bare-metal STM32 + Linux, vs. Google's likely large-scale embedded Linux/Android stack)", "Master's in Computer Science (candidate has M.S. Computer Engineering)", "performance/large-scale systems data analysis (Benchmarked/Profiling present, but not at Google's scale)"],
+  "top_ats_keywords": ["C/C++", "embedded operating systems", "FreeRTOS", "RTOS", "Linux", "debugging", "data structures and algorithms", "performance analysis"],
+  "key_responsibilities": [
+    "Optimize video codec pipeline (capture to consumption) for Pixel devices",
+    "Improve compression efficiency, power consumption, and low-latency playback",
+    "Work across full-stack systems critical to Google's needs",
+    "Diagnose and resolve code/system health issues; software test engineering"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 50,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Genuine low-level C/C++ depth: direct register programming on STM32 Cortex-M4 (GPIO/TIM2/ADC1/I2C1) in the Temperature Monitor project, plus C++ two-link IK on Arduino in the COFFIN capstone — this is real bare-metal systems programming, not just C++ application code",
+      "Real RTOS experience: FreeRTOS with mutexes for shared-memory task coordination in the Object Tracking Turret project — actual embedded OS concurrency primitives, not just bare-metal loops",
+      "Signal/image-quality rigor that conceptually overlaps with codec work: the BARC image-stitching research measured PSNR (65 to 86 via custom wavelet denoising) — PSNR is the same quality metric family used to evaluate video compression, a connection keyword matching can't see",
+      "Systematic performance benchmarking mindset: CUDA kernel optimization (35% speedup via memory coalescing) and LLM quantization benchmarking (VRAM/latency profiling with pynvml) show comfort with the kind of latency/efficiency tradeoff analysis this team does, even though the domain differs"
+    ],
+    "real_gaps": [
+      "Zero video codec/media pipeline exposure anywhere in the profile — no compression standards (H.264/H.265/AV1), no hardware video codec work, no camera/ISP pipeline experience. This is the actual subject matter of the team and nothing in the resume touches it",
+      "'2 years embedded operating systems' is thin in practice: total RTOS exposure is one project (FreeRTOS on a turret) plus bare-metal-only STM32 work with no OS at all. No embedded Linux/Android systems experience, which is almost certainly what Pixel Video firmware actually runs on — a different scale of embedded OS work than microcontroller FreeRTOS",
+      "No demonstrated software test engineering anywhere (no unit test frameworks, CI, test infrastructure mentioned) and no accessible-technologies experience — both stated preferred quals with zero backing",
+      "'Large-scale systems data analysis/visualization tools' in the JD implies production-scale telemetry and tooling; the profile's benchmarking work (pynvml, Matplotlib) is single-machine, single-project scale — the keyword match already flagged this as merely 'Adjacent' but the real gap is larger than that label suggests",
+      "DSA '2 years academic or industry' has no explicit backing — coursework isn't itemized for algorithms specifically, and no project bullet demonstrates algorithmic engineering depth"
+    ],
+    "overstated_by_keywords": [
+      "embedded operating systems (counted as Adjacent, but the real experience is one RTOS project — thinner than 2 years implies)",
+      "large-scale systems data analysis (counted as Adjacent, but actual work is single-machine profiling, not production-scale systems analysis)"
+    ],
+    "reasoning": "The minimum quals look satisfied on paper because they're written broadly, but the team's actual subject matter, video codec engineering, has zero footprint anywhere in the profile, which keyword matching can't penalize since there's no overlapping term to flag as missing. The genuine strengths (bare-metal C/C++, one real RTOS project, PSNR-based image-quality research) are real but narrower in scope than the JD implies, so this reads as a partial fit rather than the strong-on-paper match the keyword score suggests."
+  }
+}

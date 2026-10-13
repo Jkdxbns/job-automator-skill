@@ -1,0 +1,89 @@
+{
+  "company": "DV Trading",
+  "company_slug": "dvtrading",
+  "role": "Trade Support Engineer",
+  "job_slug": "trade-support-engineer",
+  "match_pct": 45.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 10,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Linux",
+    "TCP/IP",
+    "Bash",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "automation / process improvement",
+      "you_have": "testing and validation / scripting automation"
+    }
+  ],
+  "missing_skills": [
+    "Multicast",
+    "trade support role experience",
+    "packet capture analysis (Wireshark/tcpdump)",
+    "order event stream tracing",
+    "trading platform monitoring"
+  ],
+  "top_ats_keywords": [
+    "Linux",
+    "TCP/IP",
+    "Multicast",
+    "Bash",
+    "Python",
+    "packet captures",
+    "trade support",
+    "trading platforms"
+  ],
+  "required_skills": [
+    "trade support experience",
+    "Linux",
+    "TCP/IP",
+    "Multicast",
+    "Bash",
+    "Python",
+    "packet capture analysis",
+    "order event stream tracing"
+  ],
+  "preferred_skills": [
+    "large Python projects"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Monitor and manage trading platforms across multiple markets",
+    "Monitor and support Linux environments",
+    "Support traders and trading infrastructure",
+    "Onboard new trading opportunities",
+    "Automation and process improvement"
+  ],
+  "role_category": "embedded_systems",
+  "location": "New York, NY",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

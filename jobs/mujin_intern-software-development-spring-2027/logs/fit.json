@@ -1,0 +1,84 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Intern - Software Development (Spring 2027)",
+  "job_slug": "intern-software-development-spring-2027",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 8,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Computer Engineering degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning",
+      "you_have": "MoveIt (UR5e)"
+    },
+    {
+      "jd_skill": "simulation",
+      "you_have": "RViz/URDF, CARLA"
+    }
+  ],
+  "missing_skills": [
+    "multi-agent planning",
+    "unit testing",
+    "agile"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "motion planning",
+    "unit tests",
+    "simulation",
+    "agile"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Computer Engineering degree"
+  ],
+  "preferred_skills": [
+    "motion planning",
+    "unit testing",
+    "simulation",
+    "agile"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "real-time planners for fleet mgmt / warehouse execution",
+    "features and evaluation metrics",
+    "unit and integration tests"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

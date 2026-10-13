@@ -1,0 +1,108 @@
+{
+  "company": "Dentsply Sirona (Wellspect Healthcare)",
+  "company_slug": "dentsply-sirona",
+  "role": "Embedded System Engineer",
+  "job_slug": "embedded-system-engineer",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 1,
+    "missing_count": 10,
+    "jd_ask_size": 18,
+    "req_cov": 0.273,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Git",
+    "Version Control",
+    "Technical Documentation",
+    "Digital Circuits"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Analog Circuits",
+      "you_have": "digital/mixed-signal coursework (ADC/I2C sensor interfacing)"
+    }
+  ],
+  "missing_skills": [
+    "Electrical Engineering degree",
+    "5+ years embedded systems medical devices Class II-III experience",
+    "PCB design (Altium/Eagle/KiCad)",
+    "Battery-operated devices design",
+    "Design for manufacturability",
+    "Production test system spec",
+    "Contract manufacturing experience",
+    "Medical device industry standards",
+    "EMC/ESD/Radio compliance testing",
+    "LabView"
+  ],
+  "top_ats_keywords": [
+    "Embedded Systems",
+    "C",
+    "C++",
+    "Python",
+    "PCB Design",
+    "Altium",
+    "Medical Device",
+    "Class II-III",
+    "EMC",
+    "ESD",
+    "Analog",
+    "Digital Circuits",
+    "Production Test",
+    "Contract Manufacturing"
+  ],
+  "required_skills": [
+    "Electrical Engineering degree",
+    "5+ years embedded systems medical devices Class II-III",
+    "C",
+    "C++",
+    "Python",
+    "PCB design (Altium/Eagle/KiCad)",
+    "analogue and digital circuit design",
+    "battery-operated devices",
+    "design for manufacturability",
+    "production test",
+    "contract manufacturing"
+  ],
+  "preferred_skills": [
+    "medical device industry standards",
+    "LabView",
+    "Git or version control"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own design and technical documentation of firmware/software in medical devices",
+    "Support PCB/electrical schematic design changes and reviews",
+    "Electronic design, prototyping, EMC/ESD/Radio compliance testing",
+    "Develop test methods, perform tests, analyze results",
+    "Own production test system equipment spec with contract manufacturers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "M\u00f6lndal, Sweden (company HQ; on-site role, no US location stated)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Foreign on-site work authorization: role is on-site at Wellspect (Dentsply Sirona), headquartered in M\u00f6lndal, Sweden, with no US location stated and no sponsorship/relocation-visa offer mentioned. F-1 OPT only authorizes employment inside the United States (candidate_context.md foreign_onsite_no_us_authorization policy)."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

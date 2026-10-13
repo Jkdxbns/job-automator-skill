@@ -1,0 +1,57 @@
+{
+  "company": "ALTEN Technology USA",
+  "company_slug": "alten-technology-usa",
+  "role": "Embedded Software Application Engineer",
+  "job_slug": "embedded-software-application-engineer",
+  "location": "Greensboro, North Carolina",
+  "match_pct": 28.8,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 8,
+    "missing_count": 29,
+    "jd_ask_size": 44,
+    "req_cov": 0.458,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's degree (EE/CE/CS)",
+    "C/C++",
+    "Python",
+    "Debugging",
+    "Troubleshooting",
+    "Root cause analysis",
+    "Work independently"
+  ],
+  "adjacent_skills": [
+    "CAN protocol (via I2C/SPI/UART experience)",
+    "Vehicle communication networks (vs embedded protocols)",
+    "JIRA (typical CS graduate)",
+    "Sensor integration (Object Tracking Turret: YOLO, VL53L0X ToF)",
+    "Sensor packaging (STM32 + ToF + OLED project)",
+    "Electronics knowledge (EAGLE PCB design, STM32 bare-metal)",
+    "HIL/SIL concepts (CARLA simulation experience)",
+    "Debugging in embedded real-time (FreeRTOS + STM32)"
+  ],
+  "missing_skills": [
+    "2+ years automotive embedded systems (0 full-time years)",
+    "Vehicle electronics domain",
+    "ADAS/Active Safety systems",
+    "CANoe, CANalyzer, Vehicle Spy tools",
+    "Wireshark for CAN analysis",
+    "Software configuration management",
+    "Software baselines and release processes",
+    "ECU architecture",
+    "AUTOSAR framework",
+    "Functional safety concepts (ISO 26262)",
+    "Field issue investigation",
+    "Commercial vehicle experience"
+  ],
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "reason": "Below minimum threshold (28.8% < 40% can-try baseline) and 2+ years automotive domain requirement vs 0 full-time years"
+  },
+  "hard_blocker_triggered": false
+}

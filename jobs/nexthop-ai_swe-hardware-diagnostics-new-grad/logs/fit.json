@@ -1,0 +1,125 @@
+{
+  "company": "Nexthop AI",
+  "company_slug": "nexthop-ai",
+  "role": "Software Engineer - Hardware Diagnostics - New Grad",
+  "job_slug": "swe-hardware-diagnostics-new-grad",
+  "match_pct": 70.5,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 7,
+    "missing_count": 3,
+    "jd_ask_size": 22,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C / bare-metal embedded C",
+    "Embedded systems (STM32 Cortex-M4, FreeRTOS)",
+    "Schematics / component datasheets",
+    "PCB design & fabrication (EAGLE)",
+    "Hardware debug instrumentation (oscilloscopes, logic analyzers)",
+    "Prototype / board bring-up",
+    "Linux",
+    "Git",
+    "Bash",
+    "GPU & AI accelerator hardware (CUDA, TensorRT, Jetson, pynvml)",
+    "Peripheral driver code (UART, I2C, SPI, GPIO, PWM, ADC)",
+    "Cross-functional HW/mechanical collaboration (SolidWorks, PCB, robotics teams)"
+  ],
+  "adjacent_skills": [
+    "Distributed systems -> MPI + SLURM cluster parallelism",
+    "User-space driver/interface code -> Python/C sensor layers, ROS2 nodes",
+    "Hardware validation & diagnostics -> integration failure debug, scope/LA work",
+    "Custom test suites / test automation -> ad hoc benchmark + profiling harnesses",
+    "Stress & performance verification -> GPU/Jetson latency and VRAM profiling",
+    "Large-scale / datacenter deployment -> SLURM-managed cluster, JupyterHub",
+    "Platform software architecture -> custom RTOS scheduler, 3-layer pipeline design"
+  ],
+  "missing_skills": [
+    "Linux kernel-space driver development (kernel modules, device tree, ioctl, PCIe)",
+    "L2 networking protocols (Ethernet/MAC, VLAN, STP, LLDP)",
+    "Datacenter / server hardware domain (NICs, PCIe fabric, BMC/IPMI, power & thermal validation)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C",
+    "platform driver",
+    "kernel space",
+    "user space",
+    "embedded systems",
+    "distributed systems",
+    "schematics",
+    "datasheets",
+    "L2 networking",
+    "hardware validation",
+    "bring-up",
+    "test suites",
+    "stress test",
+    "systems software",
+    "Linux",
+    "datacenter",
+    "cross-functional"
+  ],
+  "key_responsibilities": [
+    "Design and write platform driver code across kernel and user space to model, stress, and verify hardware performance",
+    "Drive architectural decisions for platform software",
+    "Partner cross-functionally with hardware, software and mechanical teams to build custom test suites",
+    "End-to-end system enablement from prototype bring-up to large-scale AI datacenter deployment"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 71,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hard qualifications land squarely: Python across every internship, and real bare-metal C on Cortex-M4 programming GPIO/TIM2/ADC1/I2C1 registers directly (STM32 Temperature Monitor, 3.68 KB Flash / 1.58 KB RAM, deterministic 1 Hz).",
+      "Driver-level embedded work is genuine, not surface: low-level I2C driver, interrupt-driven UART, multi-servo PWM, FreeRTOS mutex task coordination (Object Tracking Turret, STM32 monitor).",
+      "Schematics/datasheets is backed by fabrication, not just reading: single-layer EAGLE PCBs for competition robots, plus datasheet-level sensor bring-up (VL53L0X, ADXL345, TCA9548A I2C mux).",
+      "The hardware/software boundary is the literal subject of the MS capstone: COFFIN spans Flutter client -> Flask-SocketIO server -> Jetson -> Arduino -> servos and ToF sensors over one WebSocket fabric.",
+      "Real hardware diagnostics narrative: resolved 11 integration failures including servo brown-out, stale-frame capture and false-positive detection, reaching 10/10 pick reliability.",
+      "'Model, stress, and verify hardware performance' has direct evidence: pynvml/psutil VRAM and latency profiling, CUDA coalesced-vs-uncoalesced kernel benchmarking (49.2ms vs 73.3ms), MPI load-imbalance characterization showing 65% degradation.",
+      "AI-accelerator context is a plus at an AI infra company: CUDA C++ kernels, TensorRT (5.2x YOLO speedup), Jetson deployment, 8-bit quantization."
+    ],
+    "real_gaps": [
+      "No Linux kernel-space development anywhere: no kernel modules, char devices, ioctl, device tree, or PCIe drivers. All driver work is MCU register programming, which does not transfer directly.",
+      "No datacenter or server-class hardware: no NIC, PCIe fabric, BMC/IPMI/Redfish, rack power or thermal validation. Hardware experience tops out at dev boards and robotics.",
+      "No L2 networking at all (Ethernet/MAC, VLAN, STP, LLDP). Listed as a plus, but at an AI infrastructure company the fabric is central.",
+      "Distributed systems is thin: MPI and SLURM are HPC batch parallelism, not distributed systems as a discipline (RPC, consensus, fault tolerance, partial failure).",
+      "No formal test-suite engineering: benchmarking is ad hoc scripts, not pytest harnesses, regression suites or CI-driven validation frameworks.",
+      "Seniority note only (not scored here): 0 full-time years, but the role is explicitly New Grad with 1:1 mentorship, so this is not a real obstacle."
+    ],
+    "overstated_by_keywords": [
+      "'distributed systems' counted as adjacent via MPI/SLURM; a systems interviewer will find it thin",
+      "'driver code' counted as Have; bare-metal register writes are not Linux platform drivers",
+      "'datacenter deployment' counted as adjacent via a SLURM cluster, which is a very different scale"
+    ],
+    "understated_by_keywords": [
+      "The 11-integration-failure debug story is hardware diagnostics work and matches no keyword",
+      "Oscilloscopes and logic analyzers sit in the Tools list but never appear in a bullet, despite being a direct match for hardware validation",
+      "MPI load-imbalance characterization is performance verification under stress, which the keyword pass read only as HPC"
+    ],
+    "screening_gaps": [
+      "No Linux kernel-space driver development, while the first listed responsibility is platform driver code across kernel and user space",
+      "No datacenter or server hardware exposure (PCIe, NICs, BMC, power/thermal); hardware experience is dev-board and robotics scale",
+      "No L2 networking knowledge, which is load-bearing at an AI infrastructure company even though the JD marks it a plus"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The stated qualifications, which are what actually gate a new-grad screen, are met almost fully: Python, C, embedded systems, schematics and datasheets are all backed by hands-on work, and the capstone is a real hardware/software bring-up and debug story. The gaps are in kernel-space drivers, datacenter hardware and L2 networking, which are genuine but are exactly the things a New Grad role with 1:1 mentorship expects to teach. Apply, and lead with bare-metal driver work and hardware debug rather than the ML projects.",
+    "calibration_delta": -0.5
+  },
+  "job_url": "https://nexthopai.bamboohr.com/careers/107/",
+  "outcome": {
+    "stage": "replied",
+    "date": "2026-09-29",
+    "channel": "application",
+    "notes": "Michael Teng (Recruiting @ Nexthop AI) via BambooHR requested undergraduate transcript before deciding on a first round interview. Reply drafted in Gmail thread 1a0ee94e05c1b24a; transcript still needs to be attached manually."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "company": "Maxonic Inc.",
+    "role": "Firmware Engineer (BMC)",
+    "company_slug": "maxonic",
+    "job_slug": "firmware-engineer-bmc-bios"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (May 2026) with hands-on firmware development across STM32 Cortex-M4, FreeRTOS, and Linux-based embedded systems. Experienced in bare-metal C, low-level peripheral drivers (I2C, SPI, UART, ADC), sensor integration, and hardware-firmware debugging aligned with BMC firmware and server hardware interfacing.",
+  "skills": {
+    "Embedded Firmware": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS/RTOS",
+      "UART/I2C/SPI",
+      "ADC/GPIO",
+      "EAGLE PCB Design",
+      "Raspberry Pi",
+      "Arduino"
+    ],
+    "Languages": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "CUDA"
+    ],
+    "Tools & Debug": [
+      "Linux",
+      "Logic Analyzers",
+      "Oscilloscopes",
+      "Proteus",
+      "Git",
+      "CMake"
+    ],
+    "Edge AI / Systems": [
+      "NVIDIA Jetson",
+      "YOLOv8",
+      "TensorRT",
+      "OpenCV",
+      "ROS2"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth; implemented sensor data acquisition and firmware stack for 3-DoF HID command translation.",
+        "Implemented a tap-detection algorithm using z-axis differential thresholding with software calibration to eliminate sensor jitter across use cases."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member team across national-level competitions, owning PCB fabrication, embedded hardware integration, and firmware debugging end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed STM32 Cortex-M4 peripherals in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM firmware footprint at a deterministic 1 Hz update rate; verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver from scratch without HAL abstractions."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination across sensor-reading and actuator-control tasks on STM32.",
+        "Implemented interrupt-driven UART communication between STM32 and Jetson host; integrated VL53L0X ToF sensor via I2C for real-time distance measurement.",
+        "Debugged hardware-firmware interactions between STM32 and peripheral devices using logic analyzers and oscilloscopes."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors via TCA9548A I2C multiplexer for contact-aware grasping; resolved 11 integration failures across sensor, servo, and system-level interactions.",
+        "Deployed full pipeline on NVIDIA Jetson running Linux; coordinated multi-layer debugging across hardware and embedded software layers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

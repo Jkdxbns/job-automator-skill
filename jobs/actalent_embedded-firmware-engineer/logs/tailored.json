@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "company": "Actalent",
+    "role": "Embedded Firmware Engineer",
+    "company_slug": "actalent",
+    "job_slug": "embedded-firmware-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with a B.E. in Electronics and Telecommunication. Embedded firmware engineer writing bare-metal C on 32-bit ARM Cortex-M microcontrollers, programming GPIO, timers, ADC and I2C at the register level and hand-writing low-level drivers. Built interrupt-driven motor control firmware with PWM drive, quadrature encoder feedback and closed-loop correction, and owned hardware bring-up from PCB fabrication through integration and debug.",
+  "skills": {
+    "Embedded Firmware": [
+      "C",
+      "C++",
+      "Bare-metal firmware development",
+      "32-bit microcontrollers (ARM Cortex-M4)",
+      "Interrupt-driven systems",
+      "Low-level drivers",
+      "Peripheral programming (GPIO, timers, ADC, PWM)"
+    ],
+    "Motor Control": [
+      "PWM motor control",
+      "Quadrature encoders",
+      "Closed-loop feedback control",
+      "Control-loop tuning"
+    ],
+    "Protocols & Interfaces": [
+      "UART",
+      "SPI",
+      "I2C",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Hardware & Debug": [
+      "Hardware bring-up",
+      "Hardware/software integration",
+      "Oscilloscopes",
+      "Logic analyzers",
+      "EAGLE PCB design"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "Python",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition device integrating ADXL345 accelerometers with a Raspberry Pi over I2C and HC-05 Bluetooth, translating hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots, then handled hardware bring-up with UART and I2C sensor communication and closed-loop feedback, leading a 25-member team alongside electrical and software sub-teams."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed 32-bit ARM Cortex-M4 peripherals directly at the register level in bare-metal C, covering GPIO, TIM2, ADC1 and I2C1, in a 3.68 KB Flash and 1.58 KB RAM footprint.",
+        "Implemented timer-triggered ADC scan conversions and interrupt-driven sample capture, and wrote a low-level I2C driver rather than using vendor HAL libraries.",
+        "Held a deterministic 1 Hz update rate; verified peripheral timing and register configuration in Proteus before deployment."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Motor Control & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Implemented interrupt-driven quadrature decoding from first principles as a 4-bit A/B transition state machine on hardware interrupts, and drove four motor channels at 15 kHz PWM.",
+        "Built closed-loop heading correction on a 4-wheel holonomic drive, deriving heading from dual-axis encoder odometry (2400 CPR) and feeding angular error back into rotation PWM.",
+        "Added a fail-safe state machine halting all motor channels on controller disconnect; integrated four motor drivers and per-claw IR sensing."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 hardware and integration failures during bring-up, including servo brown-out and stale-frame capture, reaching 100% pick reliability over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

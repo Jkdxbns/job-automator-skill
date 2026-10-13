@@ -1,0 +1,147 @@
+{
+  "company": "Unknown (IoT device maker)",
+  "company_slug": "unknown-iot-device-maker",
+  "role": "Senior/Staff Embedded Test Engineer",
+  "job_slug": "senior-staff-embedded-test-engineer",
+  "match_pct": 38.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 14,
+    "jd_ask_size": 26,
+    "req_cov": 0.562,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "BLE",
+    "FreeRTOS",
+    "Embedded Linux",
+    "Logic analyzers",
+    "Digital multimeters",
+    "GitLab"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "HTTPS",
+      "you_have": "Flask / WebSocket"
+    },
+    {
+      "jd_skill": "RF network analyzers",
+      "you_have": "Spectrum Analyzers / Oscilloscopes"
+    },
+    {
+      "jd_skill": "Hardware-in-the-Loop",
+      "you_have": "Jetson+Arduino hardware rigs / RTOS coursework"
+    },
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Static IP / network configuration"
+    }
+  ],
+  "missing_skills": [
+    "MQTT",
+    "CoAP",
+    "Protobuf",
+    "NB-IoT / Cellular",
+    "LoRaWAN",
+    "Wireshark",
+    "AWS IoT Core / Azure IoT Hub",
+    "Zephyr",
+    "Mbed OS",
+    "TLS / AES / ECC",
+    "OTA update validation",
+    "Secure boot",
+    "Power profiling (microamp)",
+    "Fleet-scale simulation"
+  ],
+  "top_ats_keywords": [
+    "IoT",
+    "MQTT",
+    "CoAP",
+    "Wireshark",
+    "HIL",
+    "GitLab CI/CD",
+    "BLE",
+    "Wi-Fi",
+    "LoRaWAN",
+    "OTA",
+    "TLS",
+    "Python",
+    "C/C++",
+    "FreeRTOS",
+    "Zephyr",
+    "Embedded Linux",
+    "AWS IoT Core",
+    "Azure IoT Hub"
+  ],
+  "required_skills": [
+    "Python",
+    "C/C++",
+    "MQTT",
+    "CoAP",
+    "HTTPS",
+    "Wi-Fi",
+    "BLE",
+    "NB-IoT",
+    "AWS IoT Core / Azure IoT Hub",
+    "Wireshark",
+    "Logic analyzers",
+    "Digital multimeters",
+    "RF network analyzers",
+    "Zephyr / FreeRTOS / Embedded Linux / Mbed OS",
+    "Hardware-in-the-Loop",
+    "GitLab CI/CD"
+  ],
+  "preferred_skills": [
+    "LoRaWAN",
+    "Cellular",
+    "Protobuf",
+    "CoAP",
+    "TLS",
+    "AES",
+    "ECC",
+    "OTA update validation",
+    "secure boot",
+    "power profiling"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Edge-to-cloud IoT validation",
+    "Network simulation",
+    "Fleet-scale stress testing",
+    "HIL rigs",
+    "Cloud API test automation",
+    "GitLab CI/CD integration",
+    "RF/wireless testing",
+    "Protocol analysis",
+    "Power profiling",
+    "Security and OTA validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Palo Alto, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

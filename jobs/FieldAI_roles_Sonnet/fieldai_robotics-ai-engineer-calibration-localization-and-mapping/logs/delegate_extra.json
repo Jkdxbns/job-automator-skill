@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "ROS2 + robotics kinematics and perception (direct match to CLAM robotics context)",
+    "Embedded AI on Jetson with TensorRT/YOLO (edge deployment aligns with field robots)",
+    "Computer vision (YOLO, OpenCV, depth estimation) and autonomous driving (CARLA)",
+    "Strong C/C++ embedded (STM32 bare-metal) and CUDA/GPU optimization",
+    "Multi-sensor embedded integration experience (ToF, I2C, UART, FreeRTOS)"
+  ],
+  "real_gaps": [
+    "No formal SLAM, geometric calibration, or mapping algorithm theory/implementation (bundle adjustment, factor graphs, VIO, LiDAR-camera calibration)",
+    "No experience streamlining a calibration pipeline or building environment-agnostic localization/mapping subsystems",
+    "New-grad (0 full-time years) with no production-scale autonomy subsystem delivery; JD expects production-quality code in a fast-paced small team on globally deployed robots",
+    "Sponsorship status unclear for long-term (F-1 OPT, EAD pending, requires sponsorship) \u2014 not mentioned as offered"
+  ],
+  "reasoning": "Strong adjacent match in robotics/perception/embedded AI and ROS2, with excellent edge-AI deployment (Jetson+TensorRT) and computer vision. Critical gap: JD is specifically a Calibration/Localization/Mapping (CLAM) role requiring deep theoretical SLAM/geometric calibration and production mapping/localization subsystems \u2014 the candidate has robotics vision and navigation (CARLA, ROS arm) but no dedicated SLAM/calibration theory, no calibration pipeline work, and no mapping algorithm experience. Also a new-grad with 0 full-time years applying to a production robotics subsystem role at a globally deployed field-robotics company. Not a hard blocker (entry-level title, 0 years required, no clearance/sponsorship denial), but a significant fit gap. Recommend applying only if willing to emphasize vision/perception and embedded AI strengths and acknowledge the SLAM/calibration learning curve; otherwise better fit for pure robotics perception or embedded-AI roles rather than CLAM.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/ca85d200-ee59-4d7f-93ac-655e7077b398",
+  "team": "CLAM",
+  "location": "Irvine, CA"
+}

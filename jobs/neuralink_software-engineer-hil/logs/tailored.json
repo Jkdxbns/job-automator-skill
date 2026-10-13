@@ -1,0 +1,86 @@
+{
+  "_meta": { "company": "Neuralink", "role": "Software Engineer - HIL", "company_slug": "neuralink", "job_slug": "software-engineer-hil" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on embedded systems and firmware experience across STM32, Jetson, and Arduino platforms. Built HIL testing and test rigs for system-level verification of robotic hardware, running automated test pipelines that reproduce integration faults and debug async systems, concurrent systems, and timing failures across firmware and software layers. Comfortable working close to drivers, firmware, and communication buses (UART/I2C/SPI), with Python used throughout for test tooling.",
+  "skills": {
+    "Testing & Verification": ["HIL testing", "Test rigs / system-level verification", "Automated test pipelines", "Async systems debugging", "Concurrent systems debugging", "Timing failure debugging", "Proteus hardware simulation"],
+    "Embedded / Firmware": ["STM32 (Bare-Metal C)", "FreeRTOS", "Arduino", "UART/I2C/SPI", "PWM Motor Control", "Interrupt-driven programming", "GPIO/Timer/ADC peripheral programming", "Closed-Loop Feedback Control"],
+    "Languages & Tools": ["Python", "C/C++", "Git/GitLab", "Linux", "PyQt", "Matplotlib"],
+    "Robotics & Sensors": ["NVIDIA Jetson", "YOLOv8", "ToF Sensing (VL53L0X)", "I2C Multiplexing", "Quadrature Encoders"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth over serial buses; resolved sensor jitter and false-trigger faults through a custom z-axis differential tap-detection algorithm and calibration tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "",
+      "bullets": [
+        "Built a Python GUI (PyQt/Matplotlib) for real-time data acquisition and automated experimental verification in a laboratory test environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone",
+      "date": null,
+      "bullets": [
+        "Ran HIL testing and system-level verification on a 3-layer hardware/software pipeline, reproducing and resolving 11 integration faults (false-positive detections, servo brown-out, stale-frame capture) via repeated automated test pipelines; verified 100% pick reliability (10/10 trials).",
+        "Integrated dual VL53L0X ToF sensors over a TCA9548A I2C bus multiplexer for contact-aware grasping, combining range-gated camera detection with gripper-proximity triggering at 25 mm for reliable pick execution."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver for hardware bring-up and bus communication.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1), debugging timing failures to reach a deterministic 1 Hz update rate at 3.68 KB Flash / 1.58 KB RAM; verified via HIL testing in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for concurrent systems debugging of shared-memory task coordination between object-tracking and servo-control threads, resolving async systems race conditions and timing failures under real-time constraints.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override, driving control signals from a Jetson-based YOLOv8 tracker to STM32 firmware."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot — Holonomic Drive & Encoder Odometry",
+      "date": null,
+      "bullets": [
+        "Implemented interrupt-driven quadrature decoding from first principles — a 4-bit A/B transition state machine on hardware interrupts — driving four motor channels at 15 kHz PWM for real-time closed-loop control."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Robot Perception", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

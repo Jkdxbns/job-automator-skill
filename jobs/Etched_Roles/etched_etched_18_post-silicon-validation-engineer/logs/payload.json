@@ -1,0 +1,216 @@
+{
+ "jd": {
+  "company_name": "Etched",
+  "company_slug": "etched",
+  "job_title": "Post-Silicon Validation Engineer",
+  "job_slug": "etched_18_post-silicon-validation-engineer",
+  "required_skills": [
+   "post-silicon validation",
+   "ASIC bring-up",
+   "ASIC debug",
+   "silicon characterization",
+   "C",
+   "Python",
+   "oscilloscopes",
+   "logic analyzers",
+   "protocol analyzers",
+   "BERT",
+   "pattern generators",
+   "firmware",
+   "bootloaders",
+   "low-level silicon debug",
+   "peripheral interfaces",
+   "I2C",
+   "SPI",
+   "UART",
+   "JTAG"
+  ],
+  "preferred_skills": [
+   "PCIe",
+   "Ethernet",
+   "HBM",
+   "DDR",
+   "memory subsystems",
+   "performance characterization",
+   "thermal characterization",
+   "AI/ML model profiling",
+   "workload correlation",
+   "system-level validation",
+   "accelerator validation",
+   "server platform validation"
+  ],
+  "all_keywords": [
+   "post-silicon validation",
+   "bring-up",
+   "debug",
+   "ASIC",
+   "AI/ML accelerator",
+   "functional correctness",
+   "performance",
+   "reliability",
+   "custom IP blocks",
+   "stress testing",
+   "corner case analysis",
+   "validation infrastructure",
+   "automation",
+   "test suites",
+   "regression frameworks",
+   "signal characterization",
+   "test coverage",
+   "test escapes",
+   "yield",
+   "silicon errata",
+   "firmware/driver workarounds",
+   "C",
+   "Python",
+   "scripting",
+   "oscilloscopes",
+   "analyzers",
+   "BERTs",
+   "pattern generators",
+   "firmware",
+   "bootloaders",
+   "RTL",
+   "DFT",
+   "ATE",
+   "low-speed peripheral interfaces",
+   "high-speed protocols",
+   "memory subsystems"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "mid",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose, CA",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Drive early bring-up of first silicon including boot, initialization, and debug of ASICs",
+   "Perform deep-dive debug of silicon issues across RTL, firmware, and system levels",
+   "Collaborate with design, verification, and board teams to root-cause and resolve functional and electrical issues",
+   "Validate and characterize custom IP blocks and accelerator components",
+   "Execute functional and performance validation of compute units and specialized processing elements",
+   "Conduct IP-level and full-chip stress testing and corner case analysis",
+   "Develop and extend post-silicon validation infrastructure, automation, and test suites",
+   "Implement efficient result capture, analysis, and regression frameworks",
+   "Utilize lab instrumentation (oscilloscopes, analyzers, BERTs, pattern generators) for signal and system characterization",
+   "Define validation strategies and coverage metrics",
+   "Partner with RTL, DFT, ATE, firmware, and system architecture teams",
+   "Provide critical feedback on test escapes, yield issues, and silicon errata"
+  ],
+  "ats_keywords": [
+   "post-silicon validation",
+   "ASIC",
+   "bring-up",
+   "silicon debug",
+   "RTL",
+   "firmware",
+   "C",
+   "Python",
+   "oscilloscopes",
+   "analyzers",
+   "PCIe",
+   "Ethernet",
+   "HBM",
+   "DDR"
+  ],
+  "role_category": "embedded_systems"
+ },
+ "have": [
+  "C",
+  "Python",
+  "I2C",
+  "SPI",
+  "UART",
+  "Oscilloscopes",
+  "Logic Analyzers",
+  "Embedded firmware / bare-metal",
+  "Arduino",
+  "FreeRTOS",
+  "Low-level embedded C",
+  "System-level embedded integration"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "post-silicon validation / ASIC bring-up",
+   "you_have": "embedded bring-up and integration"
+  },
+  {
+   "jd_skill": "debug of silicon issues",
+   "you_have": "embedded debug and integration troubleshooting"
+  },
+  {
+   "jd_skill": "firmware / bootloaders",
+   "you_have": "embedded firmware (STM32, Arduino, FreeRTOS)"
+  },
+  {
+   "jd_skill": "BERT / pattern generators / protocol analyzers",
+   "you_have": "test instrumentation awareness (oscilloscopes, logic analyzers)"
+  },
+  {
+   "jd_skill": "RTL",
+   "you_have": "no RTL design or verification experience"
+  },
+  {
+   "jd_skill": "DFT / ATE",
+   "you_have": "no DFT or ATE experience"
+  },
+  {
+   "jd_skill": "peripheral interfaces (I2C, SPI, UART, JTAG)",
+   "you_have": "I2C, SPI, UART (not JTAG)"
+  },
+  {
+   "jd_skill": "PCIe",
+   "you_have": "no PCIe experience"
+  },
+  {
+   "jd_skill": "Ethernet",
+   "you_have": "no Ethernet / high-speed protocol experience"
+  },
+  {
+   "jd_skill": "Memory subsystems (HBM, DDR)",
+   "you_have": "no memory subsystem design/validation"
+  },
+  {
+   "jd_skill": "AI/ML accelerator hardware",
+   "you_have": "AI accelerator software/inference (TensorRT, YOLO, Jetson)"
+  }
+ ],
+ "missing": [
+  "post-silicon validation",
+  "ASIC bring-up",
+  "ASIC debug",
+  "first silicon bring-up",
+  "RTL knowledge",
+  "firmware for ASIC bootloaders",
+  "low-level silicon debug environments",
+  "BERT",
+  "pattern generators",
+  "protocol analyzers",
+  "JTAG",
+  "PCIe",
+  "Ethernet",
+  "HBM",
+  "DDR",
+  "memory subsystems",
+  "performance and thermal characterization of silicon",
+  "AI/ML accelerator hardware validation",
+  "system-level server platform validation",
+  "DFT",
+  "ATE",
+  "test escapes analysis",
+  "yield analysis",
+  "silicon errata feedback loop (hardware-level)"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": true
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

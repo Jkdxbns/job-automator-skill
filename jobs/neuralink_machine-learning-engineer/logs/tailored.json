@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "Neuralink",
+    "role": "Machine Learning Engineer",
+    "company_slug": "neuralink",
+    "job_slug": "machine-learning-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate of Rochester Institute of Technology (RIT). Built a voice-controlled robotic arm on Jetson and Arduino with a 5.2x inference speedup and 100% pick reliability, plus signal processing pipelines (wavelet denoising, ZoeDepth depth estimation) for crack analysis. Writes production-level C/C++ and Python across embedded, GPU, and distributed systems, translating raw sensor and audio signals into real-time robotic and typed output.",
+  "skills": {
+    "Languages & Systems": ["Python", "C/C++", "Cython"],
+    "ML / Deep Learning": ["Deep Learning", "Transformer", "U-Net Segmentation", "TensorRT", "YOLO"],
+    "Signal Processing": ["Wavelet Denoising", "Image Stitching / Homography", "Depth Estimation (ZoeDepth)", "PSNR-based Evaluation"],
+    "Embedded & Robotics": ["NVIDIA Jetson", "Arduino", "Raspberry Pi", "Bluetooth (BLE/Classic)", "Visual Servoing"],
+    "HPC / Parallel": ["MPI", "SLURM"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation on the BraTS 2020 MRI dataset with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU.",
+        "Led a cross cultural team of 7 as the sole ML experienced student, restructuring task distribution to deliver the full pipeline within a 6 week window."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha blended sym6+bior3.5) to suppress low frequency noise, combined with optimized homography stitching to achieve a PSNR of 86.",
+        "Architected a metal surface inspection pipeline using custom image stitching, wavelet denoising, and ZoeDepth depth estimation (±8% error)."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a tap detection algorithm using z-axis differential thresholding, resolving sensor jitter through calibration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice controlled, vision guided robotic pick and place system across a Flutter client, Flask-SocketIO server, and Jetson+Arduino controller with TensorRT-optimized YOLO (5.2x speedup) for visual servoing and dual VL53L0X ToF sensors for contact aware grasping.",
+        "Achieved 100% pick reliability (10/10 trials) at roughly 11.5s end to end latency; implemented two link inverse kinematics on Arduino in C++ across five servos."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end to end ASR pipeline: 80 channel mel spectrogram encoder, 4 block causal Transformer decoder with cross attention, achieving 15% WER on a Hindi English dataset.",
+        "Designed a custom BPE tokenizer with a Cython accelerated backend achieving 4 to 5.5x speedup over pure Python, processing 6M characters in 15 minutes."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM managed cluster, modeling neuron level electrical dynamics.",
+        "Achieved up to 10.49x speedup with 12 slave processes; identified load imbalance effects causing up to 65% degradation under uneven work distribution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "Robot Perception", "Principles of Robotics", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Random Signal Analysis", "Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

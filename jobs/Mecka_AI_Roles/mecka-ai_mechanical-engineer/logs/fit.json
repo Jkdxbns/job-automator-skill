@@ -1,0 +1,122 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Mechanical Engineer",
+  "job_slug": "mechanical-engineer",
+  "match_pct": 10.9,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 19,
+    "jd_ask_size": 23,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "wearable products"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "prototype building and testing physical assemblies",
+      "you_have": "Calibrated / Benchmarked"
+    },
+    {
+      "jd_skill": "robot end effectors / robotics-related mechanisms",
+      "you_have": "ROS2 / robotics pipeline"
+    },
+    {
+      "jd_skill": "package electronics and sensors",
+      "you_have": "embedded electronics / PCB / sensor integration"
+    }
+  ],
+  "missing_skills": [
+    "3D CAD (SolidWorks / Onshape)",
+    "engineering drawings",
+    "mechanics / materials / tolerances / fits / fasteners / dimensional inspection",
+    "prototype building (mechanical / physical assembly scope)",
+    "manufacturing processes (machining / molding / sheet metal / additive)",
+    "supplier review and manufacturability resolution",
+    "handheld mechanisms",
+    "precision sensor mounts",
+    "flexible materials",
+    "thermal analysis",
+    "fatigue and durability testing",
+    "CAD",
+    "tolerances",
+    "loads",
+    "manufacturing",
+    "supplier",
+    "machining",
+    "molding",
+    "additive"
+  ],
+  "top_ats_keywords": [
+    "mechanical engineering",
+    "SolidWorks",
+    "Onshape",
+    "CAD",
+    "tolerances",
+    "loads",
+    "sensor alignment",
+    "prototype",
+    "supplier",
+    "manufacturing",
+    "machining",
+    "molding",
+    "sheet metal",
+    "additive manufacturing",
+    "thermal",
+    "durability"
+  ],
+  "required_skills": [
+    "3D CAD (SolidWorks / Onshape)",
+    "engineering drawings",
+    "mechanics / materials / tolerances / fits / fasteners / dimensional inspection",
+    "prototype building and physical assembly testing",
+    "manufacturing processes (machining / molding / sheet metal / additive)",
+    "packaging electronics and sensors (thermal / assembly / maintenance)",
+    "supplier review and manufacturability resolution"
+  ],
+  "preferred_skills": [
+    "wearable products",
+    "robot end effectors",
+    "handheld mechanisms",
+    "precision sensor mounts",
+    "flexible materials",
+    "thermal analysis",
+    "fatigue and durability testing"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design mechanical systems supporting accurate recording with manufacturability and serviceability",
+    "Build and test prototypes for fit, weight, stiffness, and ease of use",
+    "Analyze tolerances, loads, and sensor alignment; validate with physical measurements",
+    "Partner with electrical/sensor engineers on packaging, thermal paths, cable routing, and service access",
+    "Review parts with suppliers and refine designs via assembly, reliability, and field feedback"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

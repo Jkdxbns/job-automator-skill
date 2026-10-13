@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "company": "Nordson Test & Inspection",
+    "role": "Firmware Engineer",
+    "company_slug": "nordson",
+    "job_slug": "firmware_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands on embedded systems experience across STM32 bare metal C, custom PCB design in EAGLE, and I2C/SPI/UART sensor integration. Background includes firmware on Cortex-M4 microcontrollers, Proteus based hardware verification, and digital signal and image processing work, including a wavelet denoising pipeline that raised PSNR from 65 to 86 on a microscopic surface inspection system. Comfortable across the electrical and software boundary, from schematic level PCB work to Python and Git based development.",
+  "skills": {
+    "Languages": [
+      "C",
+      "C++",
+      "Python"
+    ],
+    "Embedded Systems": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Bluetooth (BLE/Classic)",
+      "EAGLE PCB Design"
+    ],
+    "Signal & Image Processing": [
+      "Digital Signal Processing",
+      "Image Processing",
+      "Wavelet Denoising",
+      "Depth Estimation",
+      "YOLO Object Detection"
+    ],
+    "Tools": [
+      "Git/GitLab",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Built a wearable gesture recognition glove integrating an ADXL345 accelerometer, Raspberry Pi, and HC-05 Bluetooth to translate hand motion into HID commands via Python, resolving sensor jitter through custom calibration."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single layer PCBs in EAGLE for locomotive robots; implemented UART and I2C sensor communication with closed loop feedback.",
+        "Led a 25 member robotics team across national competitions, owning mechanical design, PCB fabrication, and firmware integration end to end."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank to suppress low frequency noise in high resolution image stitching, raising PSNR from 65 to 86 through optimized homography and concurrency.",
+        "Architected a metal surface inspection pipeline for microscopic crack analysis combining image stitching, wavelet denoising, and depth estimation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson to detect and track objects, sending real time control commands to an STM32 microcontroller over UART.",
+        "Implemented multi servo PWM control with interrupt driven UART commands and manual override logic in embedded C.",
+        "Used FreeRTOS with mutex protected task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 temperature monitoring firmware in bare metal embedded C with timer synchronized sensing and real time display.",
+        "Implemented timer triggered ADC conversions, interrupt driven sampling, and a low level I2C driver against GPIO, TIM2, ADC1, and I2C1 registers.",
+        "Achieved 3.68 KB Flash and 1.58 KB RAM at a deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two link inverse kinematics in C++ on Arduino, driving five servos with range gated contact detection via a TCA9548A I2C sensor multiplexer and closed loop feedback."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": []
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

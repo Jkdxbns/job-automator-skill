@@ -1,0 +1,140 @@
+{
+  "company": "Lightmatter",
+  "company_slug": "lightmatter",
+  "role": "Embedded Software Engineer, Lasers",
+  "job_slug": "embedded-software-engineer-lasers",
+  "match_pct": 53.4,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 29,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "bare-metal firmware",
+    "RTOS",
+    "FreeRTOS",
+    "logic analyzers",
+    "oscilloscopes",
+    "Git",
+    "CMake",
+    "telemetry"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "closed-loop control",
+      "you_have": "visual servoing / PID-adjacent robotics control"
+    },
+    {
+      "jd_skill": "test automation/HIL/CI for firmware",
+      "you_have": "GitHub Actions CD + 3-node k3s pipeline (telemetry_gateway project)"
+    },
+    {
+      "jd_skill": "thermal/wavelength stabilization",
+      "you_have": "Peltier-based thermal regulation (smart fan project)"
+    }
+  ],
+  "missing_skills": [
+    "GDB",
+    "JTAG",
+    "Zephyr",
+    "CMIS",
+    "OpenBMC",
+    "DMTF",
+    "laser physics",
+    "photonics",
+    "optical transceiver firmware",
+    "optical test and measurement",
+    "shipped embedded product experience",
+    "firmware bring-up (production HW)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "RTOS",
+    "FreeRTOS",
+    "bare-metal",
+    "GDB",
+    "JTAG",
+    "CMake",
+    "Git",
+    "CMIS",
+    "OpenBMC",
+    "DMTF",
+    "laser",
+    "photonics",
+    "telemetry"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "bare-metal firmware",
+    "RTOS",
+    "GDB",
+    "JTAG",
+    "logic analyzers",
+    "oscilloscopes",
+    "Git",
+    "CMake",
+    "shipped embedded product experience"
+  ],
+  "preferred_skills": [
+    "closed-loop control",
+    "optical transceiver firmware",
+    "CMIS",
+    "OpenBMC",
+    "DMTF/Redfish",
+    "laser physics",
+    "thermal/wavelength stabilization",
+    "optical test and measurement",
+    "test automation/HIL/CI for firmware"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "laser control and stabilization firmware",
+    "photonic transceiver diagnostics/telemetry firmware",
+    "CMIS/OpenBMC/DMTF integration",
+    "hardware bring-up and debug",
+    "optical test automation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

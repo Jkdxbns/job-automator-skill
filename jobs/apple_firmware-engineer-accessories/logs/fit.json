@@ -1,0 +1,157 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer-accessories",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 20,
+    "req_cov": 0.591,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "ARM Cortex-M/R/A (Cortex-M4/STM32)",
+    "I2C",
+    "SPI",
+    "UART",
+    "system integration on low-power microcontrollers",
+    "sensor integration (ADXL345 accelerometer)",
+    "Bluetooth/BLE",
+    "RTOS (FreeRTOS)",
+    "firmware (bare-metal STM32)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "hardware bring-up",
+      "you_have": "PCB design/EAGLE, oscilloscope & logic analyzer bring-up on personal STM32/RTOS builds"
+    },
+    {
+      "jd_skill": "schematic reading",
+      "you_have": "EAGLE PCB Design (schematic capture on own boards)"
+    },
+    {
+      "jd_skill": "chip-level debugging",
+      "you_have": "Logic Analyzers, Oscilloscopes on STM32 bare-metal projects"
+    },
+    {
+      "jd_skill": "compiler toolchains",
+      "you_have": "CMake cross-compilation for STM32/embedded builds"
+    }
+  ],
+  "missing_skills": [
+    "USB",
+    "1+ year embedded firmware professional experience (high-volume consumer/mobile hardware)",
+    "power delivery/power management",
+    "battery charging architectures",
+    "proprietary short-range wireless",
+    "automated firmware test frameworks"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "firmware",
+    "ARM Cortex-M",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "RTOS",
+    "BLE",
+    "hardware bring-up",
+    "schematics",
+    "power management",
+    "battery charging",
+    "sensor integration"
+  ],
+  "required_skills": [
+    "C",
+    "ARM Cortex-M/R/A",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "hardware bring-up",
+    "schematic reading",
+    "chip-level debugging",
+    "system integration on low-power microcontrollers",
+    "1+ year embedded firmware professional experience (high-volume consumer/mobile hardware)"
+  ],
+  "preferred_skills": [
+    "power delivery/power management",
+    "battery charging architectures",
+    "sensor integration (accelerometers, thermal sensors)",
+    "Bluetooth/BLE",
+    "proprietary short-range wireless",
+    "compiler toolchains",
+    "RTOS",
+    "automated firmware test frameworks"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "system integration & delivery",
+    "hardware bring-up",
+    "cross-functional coordination",
+    "software feature design/development/prototyping",
+    "testing/characterization/validation and reporting"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cupertino, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 bare-metal C at register level (GPIO/TIM2/ADC1/I2C1) on the Temperature Monitor project \u2014 direct chip-level firmware, not a HAL wrapper",
+      "Object Tracking Turret: FreeRTOS with mutexes, interrupt-driven UART command handling, PWM servo control, I2C ToF sensing \u2014 real RTOS + peripheral integration depth",
+      "Agnel Robotics Club: designed and fabricated custom PCBs in EAGLE, then debugged UART/I2C sensor comms with closed-loop feedback on the fabricated boards \u2014 genuine hardware bring-up (schematic to working board)",
+      "Planctech internship: ADXL345 accelerometer integration with hands-on jitter debugging via z-axis threshold tuning and resolution calibration \u2014 real sensor integration depth, not just wiring",
+      "COFFIN capstone: resolved integration failures including servo brown-out across a multi-device Jetson+Arduino system, plus I2C mux (TCA9548A) fan-out for multiple ToF sensors"
+    ],
+    "real_gaps": [
+      "No paid/professional embedded firmware role at any employer \u2014 every embedded data point is an internship, capstone, or personal project, and none targeted a high-volume consumer accessory or mobile hardware product",
+      "No USB peripheral or host-controller experience anywhere in the profile despite USB being listed alongside I2C/SPI/UART as a required bus interface",
+      "No power delivery, power management, or battery charging architecture work in any project or internship",
+      "BLE tag in profile is Classic Bluetooth over HC-05 UART AT-command module, not real BLE GATT/stack development \u2014 the JD is specifically after BLE or proprietary short-range wireless protocol work",
+      "No automated firmware test framework experience (all validation described is manual bench verification with oscilloscope/Proteus, not CI-style test harnesses)",
+      "No compiler toolchain / cross-compilation depth beyond CMake build config \u2014 nothing on toolchain selection, linker scripts, or bring-up of a new compiler target"
+    ],
+    "overstated_by_keywords": [
+      "Bluetooth/BLE \u2014 counted as HAVE from keyword match, but actual depth is a Classic Bluetooth serial module (HC-05), not BLE stack work",
+      "system integration on low-power microcontrollers \u2014 counted HAVE, but every instance is a single-board personal/capstone build, not multi-vendor consumer-product system integration"
+    ],
+    "understated_by_keywords": [
+      "Cross-functional, multi-device system debugging under real integration failures (COFFIN: false-positive detections, servo brown-out, stale-frame capture resolved across Jetson/Arduino/Flask/Flutter layers) maps directly to the JD's \"System Integration & Delivery\" and \"Cross-Functional Coordination\" responsibilities, but never string-matched any keyword"
+    ],
+    "screening_gaps": [
+      "No professional experience in embedded firmware for high-volume consumer or mobile hardware \u2014 this is the JD's literal first minimum qualification and the single biggest disqualifier a recruiter or ATS would flag",
+      "No USB experience at all, despite USB being named as a required bus interface alongside I2C/SPI/UART",
+      "No power delivery, power management, or battery charging background \u2014 a named preferred specialty for an Accessories/wearables team (Beats, AirPods-adjacent products live and die on power budgets)"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The hands-on bare-metal C, RTOS, and bus-interface (I2C/SPI/UART) depth is real and would hold up in a technical interview, and the hardware bring-up/PCB/sensor-debugging track record is a genuine match for the role's day-to-day. But the JD's first minimum qualification is 1+ year of professional firmware experience on high-volume consumer accessories, which this profile does not have at all, and USB plus power/battery work are both absent \u2014 those are the three things a recruiter screen is most likely to catch.",
+    "calibration_delta": 2.0
+  }
+}

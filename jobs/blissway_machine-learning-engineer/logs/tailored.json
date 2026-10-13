@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "company": "Blissway",
+    "role": "Machine Learning Engineer",
+    "company_slug": "blissway",
+    "job_slug": "machine-learning-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. in Computer Engineering from Rochester Institute of Technology. I take computer vision models from raw sensor data to deployed inference: curating and generating training datasets, training detection and segmentation models in PyTorch, and optimizing them with TensorRT and 8-bit quantization for NVIDIA Jetson edge hardware. My work spans classical computer vision through custom models trained on vehicle and lane-marking data.",
+  "skills": {
+    "Computer Vision": [
+      "OpenCV",
+      "YOLOv8 / YOLO11",
+      "U-Net Segmentation",
+      "UFLD Lane Detection",
+      "Image Stitching",
+      "Wavelet Denoising",
+      "Monocular Depth Estimation"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "8-bit Quantization",
+      "Model Evaluation (mAP, IoU, Dice)"
+    ],
+    "Data & Pipelines": [
+      "Dataset Curation & Annotation",
+      "Synthetic Data Generation",
+      "Training Pipelines",
+      "Multi-Camera Capture"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Linux",
+      "Git",
+      "WebSocket"
+    ],
+    "Edge & Hardware": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "ToF Sensors (VL53L0X)",
+      "I2C / UART"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset for health-level classification, owning the data from collection through model handoff.",
+        "Trained YOLOv8n on 1,133 images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device inference."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation.",
+        "Designed an alpha-blended sym6+bior3.5 wavelet bank with optimized homography stitching to reach a PSNR of 86 against a 65 baseline; deployed ZoeDepth depth estimation for crack profiling at +/-8% error."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Engineered custom data and training pipelines for the BraTS 2020 multi-modal dataset with augmentation and batch-loading memory management for large 3D inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving Perception Stack (CARLA)",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using semantic segmentation and raycast occlusion filtering to produce ~8,000 detection and lane training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) for vehicle detection and fine-tuned UFLD (ResNet-18) for lane-marking segmentation; drove Town02 collision-free."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT-optimized YOLO for visual servoing on NVIDIA Jetson, achieving a 5.2x inference speedup (56.7 to 10.9 ms, 17.6 to 92 FPS) over eager PyTorch.",
+        "Built a multiprocessing multi-camera data collection pipeline feeding a three-layer distributed system over a WebSocket fabric.",
+        "Debugged 11 integration failures in physical operation (false positives, servo brown-out, stale-frame capture) to reach 100% pick reliability across 10 trials."
+      ]
+    },
+    {
+      "name": "Model Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Cut GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8) and profiled peak VRAM and inference latency with pynvml.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC at under 1% accuracy degradation, quantifying the efficiency-versus-accuracy trade-off for edge deployment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

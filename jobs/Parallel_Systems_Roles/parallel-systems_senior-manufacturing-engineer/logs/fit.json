@@ -1,0 +1,104 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Senior Manufacturing Engineer",
+  "job_slug": "senior-manufacturing-engineer",
+  "match_pct": 0.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 0,
+    "missing_count": 13,
+    "jd_ask_size": 13,
+    "req_cov": 0.111,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "manufacturing engineering (no manufacturing, production, or assembly keywords in list)",
+    "NPI / prototype-to-production transition (not in keywords)",
+    "assembly line / work-cell design (not in keywords)",
+    "fixture / tooling / capital equipment sourcing (not in keywords; PCB/Proteus unrelated)",
+    "DFM / design-for-manufacturability (not in keywords)",
+    "PFMEA (not in keywords)",
+    "process flow / station layout / cycle time / takt time (not in keywords)",
+    "manufacturing documentation / work instructions / routers (not in keywords)",
+    "SPC / production data / dashboards (not in keywords)",
+    "rail / transit / aerospace / heavy equipment (not in keywords)",
+    "large/heavy vehicle subassemblies / crane-assisted handling (not in keywords)",
+    "hardware gate processes / CDR (not in keywords)",
+    "5+ years manufacturing engineering experience (candidate is new grad with 0 full-time years)"
+  ],
+  "top_ats_keywords": [
+    "manufacturing engineer",
+    "NPI",
+    "assembly line",
+    "work-cell",
+    "fixtures",
+    "jigs",
+    "tooling",
+    "capital equipment",
+    "DFM",
+    "PFMEA",
+    "SPC",
+    "rail",
+    "transit",
+    "aerospace",
+    "heavy equipment",
+    "process documentation",
+    "work instructions",
+    "takt time",
+    "greenfield production site"
+  ],
+  "required_skills": [
+    "manufacturing engineering",
+    "NPI program ownership (prototype to production)",
+    "assembly line / work-cell operation design",
+    "fixture/tooling/capital equipment specification and sourcing",
+    "DFM (design-for-manufacturability)",
+    "PFMEA",
+    "process flow / station layout / cycle time",
+    "manufacturing process documentation (work instructions, routers)",
+    "SPC / production data capture / dashboards"
+  ],
+  "preferred_skills": [
+    "rail/transit/aerospace/heavy equipment manufacturing",
+    "large/heavy vehicle subassemblies and crane-assisted handling",
+    "PFMEA methodology",
+    "hardware development gate processes (CDR)",
+    "startup/small-team experience building manufacturing from scratch"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own R&D-to-production transition and design greenfield production site (layout, sequencing, cycle time)",
+    "Lead NPI from engineering prototype to validated, repeatable manufacturing process",
+    "Specify/design/source fixtures, jigs, tooling, and capital equipment",
+    "Partner with engineering on DFM issues and lead PFMEA",
+    "Build manufacturing documentation and partner on quality/SPC data capture"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

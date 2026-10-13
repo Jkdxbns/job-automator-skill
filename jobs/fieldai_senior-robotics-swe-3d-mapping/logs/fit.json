@@ -1,0 +1,45 @@
+{
+  "company": "FieldAI",
+  "company_slug": "fieldai",
+  "role": "Senior Robotics Software Engineer, 3D Mapping",
+  "job_slug": "senior-robotics-swe-3d-mapping",
+  "match_pct": 61.5,
+  "missing_skills": [
+    "Point cloud data structures (ICP, NDT)",
+    "LiDAR SLAM algorithms",
+    "Ceres / GTSAM / g2o optimization",
+    "PCL / Open3D / Autoware",
+    "LiDAR systems & 3D data formats (PCD, PLY, E57, LAS)"
+  ],
+  "adjacent_skills": [
+    "3D geometry"
+  ],
+  "top_ats_keywords": [
+    "LiDAR SLAM",
+    "point cloud",
+    "ICP",
+    "NDT",
+    "Ceres",
+    "GTSAM",
+    "g2o",
+    "PCL",
+    "Open3D",
+    "Autoware",
+    "ROS",
+    "C++",
+    "Python"
+  ],
+  "key_responsibilities": [
+    "Design and develop scalable LiDAR mapping algorithms for autonomous robot operations",
+    "Improve accuracy, robustness, and scalability of point cloud processing pipelines",
+    "Deploy large-scale mapping systems and data processing pipelines in production",
+    "Validate mapping systems and algorithms on real robots in unstructured environments",
+    "Collaborate cross-functionally on documentation and customer deliverables"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,120 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Network Software Engineer, Real-Time Systems",
+  "job_slug": "network-software-engineer-real-time-systems",
+  "match_pct": 44.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 17,
+    "req_cov": 0.125,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Real-Time Systems (FreeRTOS, embedded C, ROS2)",
+    "Edge AI / Robotics / Perception (YOLO, Jetson, TensorRT, ROS2, MoveIt, RViz)",
+    "Embedded communication protocols (UART/I2C/SPI, Bluetooth BLE/Classic)",
+    "Distributed basics (MPI, SLURM, ROS2 distributed nodes)",
+    "Low-latency programming (embedded real-time loops, CUDA kernel optimization)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "edge-to-cloud systems",
+      "you_have": "NVIDIA Jetson edge deployment + Flask/web services; no production edge-to-cloud infrastructure"
+    },
+    {
+      "jd_skill": "low-latency high-reliability communication",
+      "you_have": "real-time embedded control and ROS2 messaging; not network-level reliability / QoS"
+    },
+    {
+      "jd_skill": "intermittent connectivity / degraded conditions",
+      "you_have": "embedded resilience (systemd, auto-restart, bare-metal); not cellular/network-layer graceful degradation"
+    },
+    {
+      "jd_skill": "network handoffs / mobility management",
+      "you_have": "robot mobility / visual servoing; not telecom/network-layer handoff"
+    },
+    {
+      "jd_skill": "distributed device infrastructure",
+      "you_have": "MPI/ROS2 distributed experience; not company-scale device fleet/network infra"
+    }
+  ],
+  "missing_skills": [
+    "cellular networks (4G/5G)",
+    "TCP/IP and network stack design at scale",
+    "network connectivity layer for remote operators",
+    "intermittent connectivity management (network layer)",
+    "network handoffs (telecom/network layer)",
+    "production edge-to-cloud distributed device infrastructure",
+    "field-deployment networking under mobility/interference"
+  ],
+  "top_ats_keywords": [
+    "Network Software Engineer",
+    "Real-Time Systems",
+    "cellular",
+    "4G/5G",
+    "edge-to-cloud",
+    "distributed device",
+    "low-latency",
+    "high-reliability",
+    "intermittent connectivity",
+    "network handoffs",
+    "mobility",
+    "interference",
+    "degraded conditions",
+    "remote operators",
+    "embodied AI",
+    "connectivity layer"
+  ],
+  "required_skills": [
+    "network connectivity layer design",
+    "low-latency high-reliability communication systems",
+    "cellular networks (4G/5G)",
+    "edge-to-cloud systems",
+    "distributed device infrastructure",
+    "network handoffs",
+    "intermittent connectivity management",
+    "real-time performance under mobility/interference/degraded network conditions"
+  ],
+  "preferred_skills": [
+    "robotics/perception background",
+    "embedded/networking cross-domain experience",
+    "field deployment / hardware testing experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "design and deploy low-latency high-reliability communication systems for robotic platforms",
+    "build connectivity layer enabling real-time interaction between robots and remote operators",
+    "work across cellular networks (4G/5G), edge-to-cloud systems, and distributed device infrastructure",
+    "tackle network handoffs, intermittent connectivity, and maintain real-time performance under mobility, interference, and degraded conditions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship/citizenship/clearance/experience-level blocker; new-grad profile does not conflict with unstated experience requirement. Substantial domain (networking/cellular) gap is a fit issue, not a formal blocker."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

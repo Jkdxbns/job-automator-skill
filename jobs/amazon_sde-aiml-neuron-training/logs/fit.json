@@ -1,0 +1,99 @@
+{
+  "company": "Amazon (AWS Annapurna Labs)",
+  "company_slug": "amazon",
+  "role": "Software Engineer, AI/ML, Amazon Neuron Training",
+  "job_slug": "sde-aiml-neuron-training",
+  "match_pct": 36.7,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 1,
+    "missing_count": 9,
+    "jd_ask_size": 15,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "LLM / Transformers (attention fundamentals)",
+    "PyTorch",
+    "Machine Learning / Model Training",
+    "Profiling and Performance Engineering",
+    "GPU Optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    }
+  ],
+  "missing_skills": [
+    "Autoregressive Decoding / KV-Cache internals",
+    "Distributed Training Parallelism (data/tensor/pipeline)",
+    "Distributed Libraries and Frameworks",
+    "RL Frameworks",
+    "Reinforcement Learning",
+    "Workload Characterization (compute/memory/network-bound)",
+    "Open Source Project Contributions",
+    "TPU",
+    "Computer Architecture (custom silicon)"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "JAX",
+    "LLM",
+    "Transformers",
+    "Distributed Training",
+    "Reinforcement Learning",
+    "RLHF",
+    "GPU",
+    "TPU",
+    "Trainium",
+    "parallelism",
+    "profiling"
+  ],
+  "required_skills": [
+    "Full software development lifecycle in production",
+    "Python, C/C++",
+    "System design (design patterns, reliability, scaling)",
+    "LLM/transformer fundamentals: attention, autoregressive decoding, KV-cache, parallelism"
+  ],
+  "preferred_skills": [
+    "Developing/deploying LLMs in production on GPU/Neuron/TPU",
+    "PyTorch/JAX",
+    "Distributed libraries and frameworks",
+    "RL frameworks",
+    "End-to-end model training",
+    "Performance engineering: profiling, workload characterization",
+    "Open source projects"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Implement/tune distributed training stack components (data/tensor/pipeline parallelism)",
+    "Apply reduced-precision formats under guidance of senior engineers",
+    "Profile workloads for compute/memory/collectives/host bottlenecks",
+    "Build internal tooling, benchmarks, tests"
+  ],
+  "role_category": "ml_systems",
+  "location": "Cupertino, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

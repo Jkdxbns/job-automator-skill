@@ -1,0 +1,137 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior IT & Security Operations Engineer",
+  "job_slug": "senior-it-security-operations-engineer",
+  "match_pct": 28.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 17,
+    "jd_ask_size": 26,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python scripting \u2014 listed in Skills; used in COFFIN capstone (Flask-SocketIO), ASR/BPE tokenizer, GUI (PyQt/Matplotlib), embedded projects",
+    "Bash scripting \u2014 listed in Skills; used in Linux admin/systemd deployment in Voice-Controlled Robotic Arm capstone",
+    "Linux (listed in Tools)",
+    "systemd service management (unit files, auto-restart, non-root isolation, static IP/network config) \u2014 Voice-Controlled Robotic Arm capstone",
+    "Robotics / hardware / lab background \u2014 Voice-Controlled Robotic Arm capstone (Jetson + Arduino + sensors), STM32 bare-metal temp monitor, embedded glove intern, robotics club (PCB fabrication, UART/I2C), multiple embedded/robotics internships",
+    "Git \u2014 listed in Tools; used across internships/projects"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux internals (systemd, kernel, networking subsystems, package management, SSO integration, host-level diagnostics)",
+      "you_have": "systemd deployment (auto-restart, non-root isolation, static IP/network config) and Linux admin listed in Tools \u2014 Voice-Controlled Robotic Arm capstone; does not extend to deep kernel/network diagnostics, package mgmt at scale, or SSO integration"
+    },
+    {
+      "jd_skill": "Python / Bash scripting for IT and identity automation",
+      "you_have": "Python and Bash are core skills; used for embedded/robotics/ML automation (COFFIN, ASR tokenizer, GUI), not IT/identity automation specifically"
+    },
+    {
+      "jd_skill": "GitHub administration / cloud / SaaS tooling",
+      "you_have": "Git (not GitHub admin) listed in Tools; AWS/Jira/Workspace not present \u2014 profile explicitly excludes cloud platforms"
+    }
+  ],
+  "missing_skills": [
+    "JumpCloud MDM",
+    "macOS endpoint administration at scale",
+    "Enterprise network operations (professional-grade switches/firewalls/Wi-Fi/VLAN/VPN, layer 1-7 packet troubleshooting)",
+    "CrowdStrike Falcon EDR / XDR",
+    "SOC 2",
+    "ISO 27001",
+    "SSO / SAML / OIDC / SCIM provisioning",
+    "IAM hygiene",
+    "Google Workspace administration",
+    "AWS administration",
+    "Jira Cloud administration",
+    "Endpoint fleet management at scale",
+    "Endpoint security (EDR/XDR) incident triage",
+    "IT automation / runbook creation for infrastructure",
+    "Incident response / on-call security experience",
+    "Vendor management / procurement",
+    "MDM policy authoring / configuration profiles / rollout strategies"
+  ],
+  "top_ats_keywords": [
+    "JumpCloud",
+    "CrowdStrike Falcon",
+    "SOC 2",
+    "ISO 27001",
+    "macOS",
+    "Linux",
+    "systemd",
+    "MDM",
+    "EDR",
+    "XDR",
+    "SSO",
+    "SAML",
+    "OIDC",
+    "SCIM",
+    "IAM",
+    "endpoint fleet management",
+    "network operations",
+    "endpoint security",
+    "compliance",
+    "Google Workspace",
+    "GitHub",
+    "AWS",
+    "Jira Cloud",
+    "VLAN",
+    "VPN",
+    "firewall",
+    "Wi-Fi",
+    "packet-level troubleshooting",
+    "automation",
+    "runbooks"
+  ],
+  "required_skills": [
+    "JumpCloud MDM administration and fleet management",
+    "macOS endpoint administration at scale",
+    "Linux internals (systemd, kernel, networking, package management, SSO integration, host diagnostics)",
+    "Enterprise network operations (switches, firewalls, Wi-Fi, VLAN, VPN, layer 1-7 troubleshooting)",
+    "CrowdStrike Falcon EDR deployment, policy tuning, and incident triage",
+    "SOC 2 and ISO 27001 compliance operationalization (evidence collection, audit response)",
+    "Cloud/SaaS administration (Google Workspace, GitHub, AWS, Jira Cloud)",
+    "SSO/SAML/OIDC/SCIM provisioning and IAM hygiene"
+  ],
+  "preferred_skills": [
+    "Python or Bash scripting for IT/identity automation",
+    "Standing up or maturing a JumpCloud deployment from scratch",
+    "Background supporting robotics, hardware, or lab environments",
+    "Prior on-call or incident response experience in a security-conscious environment",
+    "IT vendor management and procurement for security tooling"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own macOS/Linux endpoint fleet lifecycle through JumpCloud MDM (enrollment, config, patches, compliance)",
+    "Operate office/lab network end-to-end (switches, firewalls, Wi-Fi, VLAN, VPN) with deep troubleshooting",
+    "Operate CrowdStrike Falcon EDR (sensor deploy, prevention/detection policies, tuning, incident response)",
+    "Partner with Security/Legal on SOC 2 and ISO 27001 (operational controls, automated evidence, audit response)",
+    "Serve as senior technical escalation (complex incidents, runbook documentation, root-cause automation)"
+  ],
+  "role_category": "non_technical",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

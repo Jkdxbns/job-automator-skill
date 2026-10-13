@@ -1,0 +1,119 @@
+{
+  "company": "Knightscope",
+  "company_slug": "knightscope",
+  "role": "Forward Deployed Engineer",
+  "job_slug": "forward-deployed-engineer",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 18,
+    "req_cov": 0.542,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Engineering degree",
+    "Scripting",
+    "Hardware troubleshooting",
+    "Software troubleshooting",
+    "Sensors",
+    "Diagnostics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Networking (LTE/5G)",
+      "you_have": "Static IP / network configuration"
+    },
+    {
+      "jd_skill": "Robotics/autonomous systems deployment",
+      "you_have": "ROS2 / Jetson edge deployment"
+    },
+    {
+      "jd_skill": "Log analysis",
+      "you_have": "pynvml profiling, logic analyzer/oscilloscope capture"
+    }
+  ],
+  "missing_skills": [
+    "Sales engineering",
+    "Technical architecture",
+    "Wi-Fi",
+    "VPN",
+    "Client-facing communication",
+    "Physical security systems (VMS)",
+    "Access control",
+    "Field service",
+    "Government/regulated environments"
+  ],
+  "top_ats_keywords": [
+    "LTE/5G",
+    "Wi-Fi",
+    "VPN",
+    "VMS",
+    "access control",
+    "site survey",
+    "field service",
+    "sales engineer",
+    "scripting",
+    "log analysis",
+    "diagnostics",
+    "robotics",
+    "autonomous systems",
+    "sensors"
+  ],
+  "required_skills": [
+    "Sales engineering",
+    "Technical architecture",
+    "Engineering degree",
+    "Networking (LTE/5G)",
+    "Wi-Fi",
+    "VPN",
+    "Hardware troubleshooting",
+    "Software troubleshooting",
+    "Scripting",
+    "Log analysis",
+    "Diagnostics",
+    "Client-facing communication"
+  ],
+  "preferred_skills": [
+    "Robotics/autonomous systems deployment",
+    "Physical security systems (VMS)",
+    "Access control",
+    "Sensors",
+    "Field service",
+    "Government/regulated environments"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Site surveys and deployment engineering",
+    "Commission/configure/integrate in client environments",
+    "Technical scoping with Mission Advisors in sales cycle",
+    "End-to-end field troubleshooting",
+    "Feed field learnings to engineering"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Sunnyvale, CA (onsite, extensive travel)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

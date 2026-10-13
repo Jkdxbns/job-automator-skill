@@ -1,0 +1,95 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Software Development Engineer in Test - AI",
+  "job_slug": "software-development-engineer-in-test-ai",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 8,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "interacts with drivers/firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "high-performance networking protocols or distributed file systems",
+      "you_have": "network protocols / distributed"
+    }
+  ],
+  "missing_skills": [
+    "test automation frameworks for complex back-end systems",
+    "troubleshoot automated test failures in large-scale distributed systems",
+    "containerization (Docker/Kubernetes)",
+    "modern CI/CD tools (GitHub Actions, GitLab CI, or Jenkins)",
+    "Kubernetes or Terraform or Ansible"
+  ],
+  "top_ats_keywords": [
+    "SDET",
+    "test automation",
+    "distributed systems",
+    "GPU kernels",
+    "AI training",
+    "AI inference",
+    "stress testing",
+    "telemetry",
+    "profiling",
+    "Python",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "GitHub Actions",
+    "GitLab CI",
+    "Jenkins",
+    "Terraform",
+    "Ansible"
+  ],
+  "required_skills": [
+    "Python",
+    "test automation frameworks for complex back-end systems",
+    "troubleshoot automated test failures in large-scale distributed systems",
+    "containerization (Docker/Kubernetes)",
+    "modern CI/CD tools (GitHub Actions, GitLab CI, or Jenkins)"
+  ],
+  "preferred_skills": [
+    "Kubernetes or Terraform or Ansible for managing test-bed environments",
+    "high-performance networking protocols or distributed file systems",
+    "software that interacts directly with drivers or firmware"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and maintain automated testing framework for distributed AI training/inference",
+    "Develop end-to-end system integration, stress test, and hardware-software boundary test plans",
+    "Partner with System Engineers to debug deep-seated issues in distributed clusters using telemetry and profiling"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Palo Alto",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

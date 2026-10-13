@@ -1,0 +1,148 @@
+{
+  "company": "ArcBest / Vaux",
+  "company_slug": "arcbest",
+  "role": "Robotics Software Engineer III - Infrastructure - Vaux - FS/BOS",
+  "job_slug": "robotics-software-engineer-iii-infrastructure-vaux",
+  "match_pct": 52.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 25,
+    "req_cov": 0.444,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2 (Skills: Languages & Systems: ROS2; Projects: Voice-Controlled Robotic Arm (COFFIN) uses ROS2 edge server + ROS2 drivers, ROS-Based Robotic Arm (AL5B & UR5e) validated in ROS2 Humble and ROS Noetic)",
+    "Python / C / C++ (Skills: Languages & Systems: Python, C/C++, CUDA, Cython; used in all 14 projects)",
+    "Embedded / real-time hardware-integrated systems (Projects: STM32 Bare-Metal Temperature Monitor (Cortex-M4 bare-metal C, interrupt-driven ADC/I2C); Object Tracking Turret (STM32 over UART, FreeRTOS mutexes, PWM, interrupt UART); Robocon Robot (15kHz PWM, interrupt quadrature decoding, closed-loop heading))",
+    "Robotics / autonomous systems development (Projects: Voice-Controlled Robotic Arm (COFFIN), ROS-Based Robotic Arm, Autonomous Driving in CARLA (YOLO11n + UFLD + adaptive control), Object Tracking Turret (YOLOv8 on Jetson), Frame Simulator (SE(3) math + DSL); Skills: Robotics & Perception: ROS/ROS2, MoveIt, RViz, YOLO, visual servoing, forward kinematics, DH parameters, odometry)",
+    "CUDA / GPU optimization (Project: CUDA Kernel Optimization for VGG16 Inference \u2014 custom CUDA C++ kernels, memory coalescing, constant memory; Skills: HPC/Parallel: CUDA C++, memory coalescing, kernel optimization; Languages: CUDA)",
+    "Linux systems (Skills: Linux, Linux Administration: systemd, static IP/network config, XRDP, environment-based secrets/config separation; used across embedded/robotics builds)",
+    "Simulation exposure (Projects: Autonomous Driving in CARLA \u2014 automated data generation, semantic segmentation, raycast occlusion filtering; Frame Simulator \u2014 3D coordinate-frame visualizer with PySide6/Qt + OpenGL-backed VisPy viewport; robot trajectory validation in RViz/MoveIt)",
+    "Computer vision / perception (Projects: Voice-Controlled Robotic Arm (TensorRT-optimized YOLO for visual servoing); Object Tracking Turret (YOLOv8 on Jetson); Autonomous Driving in CARLA (YOLO11n, UFLD); Skills: Edge AI / CV / Speech: OpenCV, YOLO, TensorRT, faster-whisper, ASR pipelines, tokenization)",
+    "Distributed computing / high-performance systems (Project: MPI Hodgkin-Huxley Neuron Simulation \u2014 10.49x speedup with 12 processes on SLURM cluster; Project: Parallel Ray Tracer with MPI \u2014 up to 30x speedup; Skills: HPC/Parallel: MPI, SLURM, memory coalescing, kernel optimization)",
+    "ML / deep learning model work (Projects: SLM Compression and Benchmarking for Edge Deployment \u2014 8-bit quantization bitsandbytes LLM.int8(), ~55% GPU memory reduction, pynvml/psutil profiling; Quantization-Aware Training \u2014 int8 weights/uint8 activations, 97.43% MNIST, int8 .mem weights; Skills: ML/Deep Learning: PyTorch, NumPy, scikit-learn, TensorFlow, Keras, Hugging Face Transformers, TensorRT, 8-bit quantization, pynvml profiling, model evaluation)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "DevOps / CI-CD / build tooling / artifact management at production scale",
+      "you_have": "Flask-SocketIO edge server deployment (COFFIN), Python/CMake/Linux build experience across capstone/internship projects; no CI/CD pipeline, Docker, Kubernetes, or binary/artifact versioning experience (explicitly not in background)"
+    },
+    {
+      "jd_skill": "MLOps \u2014 dataset versioning, model lineage, training reproducibility, model promotion/deployment/rollback",
+      "you_have": "TensorRT model packaging + 8-bit quantization deployments to Jetson; model profiling with pynvml/psutil; evaluation on benchmarks (HellaSwag, GSM8K, ARC, MNIST, WER); no dataset versioning, reproducible training pipeline, or multi-stage model promotion infrastructure experience"
+    },
+    {
+      "jd_skill": "Containerized environments (Docker / Kubernetes) \u2014 required",
+      "you_have": "None \u2014 container experience is explicitly listed as NOT part of candidate background"
+    },
+    {
+      "jd_skill": "SIL/HIL regression simulation framework integration into CI with pass/fail criteria",
+      "you_have": "Simulation exposure (CARLA automated data generation, Frame Simulator, RViz/MoveIt trajectory validation); no formal SIL/HIL framework, regression workflow, or CI-integrated simulation-testing pipeline experience"
+    },
+    {
+      "jd_skill": "Functional safety / regulated environments \u2014 ISO 3691-4 / ISO 13849 / IEC 61508 experience",
+      "you_have": "Embedded robotics development (STM32, closed-loop control, sensor integration); explicitly no functional-safety-standard experience or certifications (listed in NOT background)"
+    },
+    {
+      "jd_skill": "Designing/maintaining multi-team production systems at org scale (platform/reference architecture, field observability, traceability, mentoring)",
+      "you_have": "Capstone/research-scale systems (COFFIN arm, CARLA pipeline, ROS arm); no multi-team production infrastructure, vehicle-level distributed tracing, field-observability, or traceability-system experience"
+    }
+  ],
+  "missing_skills": [
+    "Full-time software infrastructure / platform engineering / DevOps experience (candidate has 0 full-time years, 7 internships; JD requests 4 years preferred)",
+    "Containerized environments (Docker / Kubernetes) production experience \u2014 explicitly not in background",
+    "CI/CD pipeline design, build automation, and artifact versioning (binaries/firmware/config/calibration/maps/params) at production scale",
+    "MLOps dataset versioning, training reproducibility, model promotion/deployment pipeline infrastructure",
+    "Functional safety / ISO 3691-4 / ISO 13849 / IEC 61508 experience or certifications \u2014 explicitly not in background",
+    "SIL/HIL regression simulation workflow design and CI integration with pass/fail criteria",
+    "Bitbucket / Jira automation experience",
+    "Vehicle-level distributed observability (logging, metrics, tracing) and field-observability / traceability infrastructure",
+    "Production-scale multi-team reference architecture and mentoring experience (candidate's scope is capstone/research/internship)"
+  ],
+  "top_ats_keywords": [
+    "Robotics Software Engineer",
+    "Infrastructure",
+    "Platform Engineering",
+    "DevOps",
+    "CI/CD",
+    "Build Systems",
+    "SIL",
+    "HIL",
+    "Simulation",
+    "Regression",
+    "MLOps",
+    "Dataset Versioning",
+    "Model Lifecycle",
+    "Deployment Pipeline",
+    "Observability",
+    "Tracing",
+    "Functional Safety",
+    "ISO 3691-4",
+    "ISO 13849",
+    "ROS2",
+    "Embedded Systems",
+    "Real-Time",
+    "Linux",
+    "Containerized"
+  ],
+  "required_skills": [
+    "Linux-based systems",
+    "containerized environments",
+    "CI/CD systems",
+    "build tooling",
+    "artifact management",
+    "complex/distributed/real-time/hardware-integrated systems support",
+    "simulation/heavy environment exposure",
+    "robotics/autonomous systems/embedded SW development",
+    "ROS/ROS2 (preferred, but backed by role)"
+  ],
+  "preferred_skills": [
+    "Bitbucket/Jira automation",
+    "MLOps (dataset/model versioning, deployment pipelines)",
+    "SIL/HIL testing",
+    "functional safety / ISO 3691-4 / ISO 13849",
+    "vehicle systems/sensors/real-world deployment",
+    "designing/maintaining multi-team systems",
+    "Master's or equivalent in robotics/autonomous/distributed systems"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Shared infra for Source/Build/Test/Simulate/Deploy/Monitor lifecycle across robotics SW, embedded, simulation",
+    "Standardize build systems / CI-CD across robotics and embedded",
+    "Artifact versioning (binaries/firmware/config/calibration/maps/params)",
+    "SIL/HIL/regression simulation workflows integrated into CI with pass/fail criteria",
+    "ML model lifecycle infra (dataset versioning, lineage, reproducibility, promotion)",
+    "Deployment pipelines to dev/test/production vehicles",
+    "Vehicle-level observability (logging, metrics, distributed tracing)",
+    "Traceability for safety-critical systems; support functional safety and audits (ISO 3691-4/13849)",
+    "Collaborate with Functional Safety Engineering; mentor engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fort Smith, Arkansas / Boston, Massachusetts",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

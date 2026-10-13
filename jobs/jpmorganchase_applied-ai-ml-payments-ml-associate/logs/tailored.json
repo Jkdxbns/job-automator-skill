@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "company": "JPMorganChase",
+    "role": "Applied AI ML - Payments Machine Learning (Associate)",
+    "company_slug": "jpmorganchase",
+    "job_slug": "applied-ai-ml-payments-ml-associate"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds and evaluates machine learning and generative AI systems end to end: transformers and LLMs from scratch in PyTorch, 8-bit quantization benchmarked across HellaSwag, GSM8K and ARC, and vision-language transformers fine-tuned with Hugging Face. Deploys models with TensorRT, ONNX and systemd-managed services, applying Python software engineering, profiling and measured latency-accuracy trade-offs.",
+  "skills": {
+    "Machine Learning & Generative AI": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "LLMs",
+      "Transformers",
+      "NLP",
+      "Quantization (8-bit)",
+      "Model evaluation",
+      "Benchmarking",
+      "YOLO"
+    ],
+    "Python & Software Engineering": [
+      "Python",
+      "Cython",
+      "C/C++",
+      "CUDA",
+      "Bash",
+      "Git",
+      "GitLab",
+      "CMake"
+    ],
+    "Deployment & Serving": [
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "Flask-SocketIO",
+      "systemd services",
+      "Linux",
+      "Real-time and batch inference"
+    ],
+    "Data & Evaluation": [
+      "Feature engineering pipelines",
+      "Dataset curation and annotation",
+      "Evaluation harnesses",
+      "pynvml profiling",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "JupyterHub"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT document-understanding transformer for structured field extraction, lifting validation accuracy 55% to 93%.",
+        "Built preprocessing, feature engineering and training pipelines in PyTorch with the Hugging Face VisionEncoderDecoder API."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n to 83% mAP@50 on held-out validation; exported to ONNX and TFLite to move from training to serving.",
+        "Curated and annotated a custom detection dataset, defining the labelling strategy and class definitions."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Engineered a feature engineering and batch-loading data pipeline for the BraTS 2020 multi-modal MRI dataset.",
+        "Trained U-Net segmentation with VGG-16/VGG-19/ResNet-50 backbones; designed the Dice Score and IoU evaluation."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Built a Python GUI (PyQt, Matplotlib) for real-time data acquisition and analysis; GitLab version control, JupyterHub docs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, monitoring peak VRAM and inference latency with pynvml and psutil.",
+        "Built the evaluation harness across HellaSwag, GSM8K and ARC: <1% accuracy loss at +0.09 perplexity."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, weight tying.",
+        "Built a TikToken-based tokenizer wrapper and a custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled pick-and-place system as a three-layer Flutter / Flask-SocketIO / Jetson WebSocket service.",
+        "Integrated an LLM-powered workflow: Gemini intent classification, faster-whisper STT, TensorRT YOLO serving (5.2x).",
+        "Deployed the Jetson inference service as a systemd unit with auto-restart backoff; 100% pick reliability, 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

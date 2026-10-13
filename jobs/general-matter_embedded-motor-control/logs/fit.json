@@ -1,0 +1,170 @@
+{
+  "company": "General Matter",
+  "company_slug": "general-matter",
+  "role": "Embedded Software Engineer, Motor Control & Real-Time Systems",
+  "job_slug": "embedded-motor-control",
+  "match_pct": 48.5,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 9,
+    "missing_count": 13,
+    "jd_ask_size": 34,
+    "req_cov": 0.643,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "PWM",
+    "ADC",
+    "SPI",
+    "I2C",
+    "USB",
+    "STM32",
+    "RTOS",
+    "interrupt latency",
+    "data acquisition",
+    "closed-loop control",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "field-oriented control",
+      "you_have": "PWM Motor Control"
+    },
+    {
+      "jd_skill": "discrete-time control",
+      "you_have": "Closed-Loop Feedback Control"
+    },
+    {
+      "jd_skill": "digital filtering",
+      "you_have": "Digital Signal Processing"
+    },
+    {
+      "jd_skill": "Kalman filtering",
+      "you_have": "EMA / odometry state estimation"
+    },
+    {
+      "jd_skill": "PREEMPT_RT",
+      "you_have": "Linux + RTOS"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "Linux/BBB driver coursework"
+    },
+    {
+      "jd_skill": "TI C2000",
+      "you_have": "STM32"
+    },
+    {
+      "jd_skill": "PCBA bring-up",
+      "you_have": "EAGLE PCB + oscilloscopes/logic analyzers"
+    },
+    {
+      "jd_skill": "CANopen",
+      "you_have": "CAN modules (hardware only)"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "sensorless control",
+    "EtherCAT",
+    "EtherNet/IP",
+    "Modbus",
+    "Xenomai",
+    "MATLAB/Simulink",
+    "power electronics",
+    "gate drivers",
+    "PCIe",
+    "SIL/HIL",
+    "safety analysis",
+    "fault protection"
+  ],
+  "top_ats_keywords": [
+    "PREEMPT_RT",
+    "FOC",
+    "EtherCAT",
+    "CANopen",
+    "EtherNet/IP",
+    "PWM",
+    "ADC",
+    "SPI",
+    "I2C",
+    "USB",
+    "PCIe",
+    "Simulink",
+    "C2000",
+    "STM32",
+    "Kalman filter",
+    "HIL",
+    "SIL",
+    "RTOS",
+    "device drivers",
+    "Rust"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Rust",
+    "field-oriented control",
+    "sensorless control",
+    "PWM",
+    "closed-loop current control",
+    "discrete-time control",
+    "digital filtering",
+    "state estimation",
+    "real-time systems",
+    "interrupt latency",
+    "device drivers",
+    "concurrency",
+    "PREEMPT_RT"
+  ],
+  "preferred_skills": [
+    "power electronics",
+    "gate drivers",
+    "TI C2000",
+    "STM32",
+    "MATLAB/Simulink",
+    "Kalman filtering",
+    "EtherCAT",
+    "CANopen",
+    "EtherNet/IP",
+    "Modbus",
+    "Xenomai",
+    "kernel drivers",
+    "PCBA bring-up",
+    "SIL/HIL"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "real-time Linux control software",
+    "FOC motor firmware",
+    "fieldbus masters",
+    "kHz data acquisition drivers",
+    "SIL/HIL infrastructure",
+    "safety analysis"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

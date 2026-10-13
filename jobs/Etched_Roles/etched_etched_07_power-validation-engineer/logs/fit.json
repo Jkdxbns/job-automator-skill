@@ -1,0 +1,170 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Power Validation Engineer",
+  "job_slug": "etched_07_power-validation-engineer",
+  "match_pct": 32.9,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 7,
+    "missing_count": 20,
+    "jd_ask_size": 35,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Python for test automation / scripting",
+    "Linux",
+    "Embedded / bare-metal (STM32, Arduino, Jetson, Raspberry Pi)",
+    "CUDA / GPU optimization",
+    "Oscilloscope / lab instruments (general electronics)",
+    "Data analysis / reporting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ASIC / silicon design concepts",
+      "you_have": "Embedded systems / microcontroller-level design"
+    },
+    {
+      "jd_skill": "Power delivery / VRM / PDN",
+      "you_have": "Embedded power / PWM motor control / basic circuit design"
+    },
+    {
+      "jd_skill": "PCB / package design feedback",
+      "you_have": "PCB design (EAGLE single-layer)"
+    },
+    {
+      "jd_skill": "LLM inference stacks (vLLM, TensorRT-LLM)",
+      "you_have": "TensorRT optimization / faster-whisper / ASR"
+    },
+    {
+      "jd_skill": "BMC / PMBus / OpenBMC / IPMI",
+      "you_have": "None \u2014 embedded telemetry only (I2C, UART, sensor reading)"
+    },
+    {
+      "jd_skill": "Multi-phase VR / power electronics",
+      "you_have": "None directly"
+    },
+    {
+      "jd_skill": "High voltage testing (800V+)",
+      "you_have": "None"
+    }
+  ],
+  "missing_skills": [
+    "Precision shunts and isolated differential probes (bench measurement)",
+    "VNA-based PDN impedance measurement",
+    "Multi-phase VR solutions with high dynamic content / low tolerance",
+    "VR tuning to well-defined power test plans for CPU/ASIC",
+    "Silicon bring-up experience (chip-level, not MCU bring-up)",
+    "Oscilloscope fluency for rare transient events / multi-channel capture correlation (specific technique not demonstrated)",
+    "Power transient profiling (ramp rates, droop, recovery) correlated with on-die monitors",
+    "PDN impedance / decoupling strategy / capacitor placement / plane geometry / de-cap strategy (design-level, not just PCB layout)",
+    "PMBus telemetry accuracy validation",
+    "BMC alert thresholds / OpenBMC / IPMI",
+    "FAT / SFT / RIN qualification stages (production qualification)",
+    "LLM inference workload construction (vLLM, TensorRT-LLM) for power characterization",
+    "Memory power management interfaces / HBM power characterization",
+    "Linux kernel power management",
+    "Statistical analysis / automated power sweep frameworks for DUT qualification",
+    "72h+ continuous stress workload execution and thermal profiling",
+    "Root-cause analysis of electrical component defects / failure analysis at board/chip level",
+    "Power sequencing validation (cold-start, hot-restart, fault-injection)",
+    "Feedback loop to RTL / physical design for DVFS and clock gating",
+    "Production-scale electrical characterization of system-level PDN from converter to ASIC"
+  ],
+  "top_ats_keywords": [
+    "Power Validation",
+    "ASIC",
+    "PDN",
+    "VRM",
+    "power delivery",
+    "silicon bring-up",
+    "PMBus",
+    "BMC",
+    "FAT",
+    "SFT",
+    "RIN",
+    "thermal",
+    "power characterization",
+    "VRM load step",
+    "PCIe power compliance",
+    "derating curves",
+    "transient response",
+    "power sequencing",
+    "multi-phase",
+    "oscilloscope",
+    "VNA",
+    "shunt",
+    "probe",
+    "power virus",
+    "LLM inference"
+  ],
+  "required_skills": [
+    "ASIC and system-level power delivery (VRM topology, PDN impedance, decoupling strategy, transient response)",
+    "Precision shunts, isolated differential probes, VNA-based PDN impedance measurement",
+    "Multi-phase VR solutions with high dynamic content",
+    "VR tuning to power test plans",
+    "Silicon bring-up",
+    "Oscilloscope and lab instrument fluency (triggering on rare transient events, multi-channel captures)",
+    "Design experiments isolating root cause in hardware-software stack",
+    "Power sequencing, PMBus telemetry, BMC alert thresholds",
+    "PCB/package design feedback (capacitor placement, plane geometry, de-cap strategy)",
+    "Python for test automation and statistical analysis"
+  ],
+  "preferred_skills": [
+    "Masters Degree in Power Electronics",
+    "High voltage testing (800V+)",
+    "Power validation on AI accelerators/GPUs/high-performance server platforms",
+    "HBM power characterization",
+    "Memory power management interfaces",
+    "OpenBMC / IPMI / custom BMC firmware",
+    "LLM inference stacks (vLLM, TensorRT-LLM)",
+    "Linux kernel power management",
+    "Debugging PMBus register dumps, BMC sensor logs, firmware traces"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own end-to-end power characterization of ASIC and mezzanine card platform from silicon bring-up through production qualification",
+    "Design and execute power measurement campaigns across voltage rails under LLM inference and power virus workloads",
+    "Characterize peak/sustained/idle power envelopes across PVT corners and define derating curves",
+    "Validate PDN performance (VRM load step, PCIe compliance, impedance) and translate to PCB/package design feedback",
+    "Profile power transient events and correlate with on-die performance monitors; build automated sweep frameworks",
+    "Run 72h+ stress workloads for reliability/throttling; instrument multi-zone thermal profiles",
+    "Support overseas partners with SLT, production, and debugging",
+    "Validate power sequencing, PMBus telemetry accuracy, BMC alert thresholds across cold-start/hot-restart/fault-injection",
+    "Own pass/fail criteria across FAT, SFT, RIN qualification",
+    "Feed characterization data back to RTL/physical design for DVFS, clock gating, leakage optimization",
+    "Write precise validation reports",
+    "Lead electrical characterization/qualification of on-board system-level power distribution network",
+    "Provide debug/component validation/failure analysis support; troubleshoot root causes of electrical defects",
+    "Develop automated/scripted test procedures for DUT qualification",
+    "Collaborate with hardware/diagnostics teams"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,49 @@
+{
+  "company": "Fieldpiece Instruments",
+  "company_slug": "fieldpiece",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 77,
+  "missing_skills": [
+    "PIC microcontroller",
+    "manufacturing/production support experience",
+    "offshore vendor coordination"
+  ],
+  "adjacent_skills": [
+    "ESP32 (has Arduino/STM32 microcontroller experience)",
+    "embedded Linux (has Jetson/Linux exposure via ROS2, not deep embedded Linux BSP work)",
+    "board bring-up (has hardware debugging, not explicit bring-up)",
+    "validation/test plans (has project-level testing, not formal validation docs)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "ARM Cortex-M",
+    "RTOS",
+    "FreeRTOS",
+    "BLE",
+    "UART",
+    "SPI",
+    "I2C",
+    "embedded firmware",
+    "low-level drivers",
+    "hardware/software integration",
+    "debugging"
+  ],
+  "key_responsibilities": [
+    "Develop/maintain embedded firmware for microcontroller-based products (ARM Cortex-M, ESP32, PIC)",
+    "Design software for connected handheld instruments, wireless systems, sensors",
+    "Develop low-level drivers, comm stacks, middleware, application layer",
+    "Optimize for performance, memory, power efficiency, reliability",
+    "Board bring-up, system integration, debugging, validation testing, production readiness",
+    "Cross-functional collaboration with hardware, product, QA, manufacturing"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null,
+  "experience_flag": "JD wants 3+ years professional embedded experience; candidate has 0 full-time years but 7 internships including embedded/STM32/Cortex-M4 bare-metal work",
+  "sponsorship_flag": "No sponsorship language in JD; Fieldpiece Instruments is not on known_sponsors list (small/mid-size private HVACR instrument maker) \u2014 sponsorship likelihood unconfirmed",
+  "location_flag": "Orange, CA onsite/hybrid, not remote \u2014 candidate willing to relocate, no blocker"
+}

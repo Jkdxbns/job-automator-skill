@@ -1,0 +1,158 @@
+{
+  "company": "CoStar Group",
+  "company_slug": "costar-group",
+  "role": "Associate Embedded Software Engineer",
+  "job_slug": "associate-embedded-software-engineer",
+  "match_pct": 72.5,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 20,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "signal processing",
+    "computer vision",
+    "robotics",
+    "embedded systems",
+    "depth",
+    "calibration",
+    "APIs",
+    "documentation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "ROS2 perception pipelines"
+    },
+    {
+      "jd_skill": "LiDAR",
+      "you_have": "TF-Luna ToF / depth estimation"
+    },
+    {
+      "jd_skill": "anomaly detection",
+      "you_have": "ML model evaluation"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "Agile",
+    "SQL",
+    "cloud"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "MATLAB",
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "signal processing",
+    "computer vision",
+    "sensor fusion",
+    "robotics",
+    "embedded systems",
+    "LiDAR",
+    "depth",
+    "anomaly detection",
+    "calibration",
+    "Agile",
+    "APIs",
+    "SQL"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "MATLAB",
+    "software engineering fundamentals",
+    "real-world imperfect data"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "signal processing",
+    "computer vision",
+    "sensor fusion",
+    "robotics",
+    "embedded systems",
+    "documentation",
+    "Agile",
+    "APIs",
+    "web services",
+    "databases",
+    "cloud"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "sensor data analysis pipelines",
+    "anomaly detection",
+    "calibration modeling",
+    "data quality checks"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 73,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Sensor/signal work: BARC custom sym6+bior3.5 wavelet bank for low-frequency noise suppression (PSNR 65 to 86) and ZoeDepth crack-depth profiling at \u00b18% error",
+      "Planctech ADXL345 gesture glove with tap-detection thresholding and software calibration of sensor jitter",
+      "COFFIN capstone: dual VL53L0X ToF sensors with range-gating, TensorRT YOLO, perception pipelines",
+      "BARC Python data-acquisition GUI (PyQt/Matplotlib) with GitLab/JupyterHub documentation",
+      "CARLA automated data-generation and filtering pipeline; PyTorch/OpenCV/YOLO depth across many projects"
+    ],
+    "real_gaps": [
+      "No MATLAB anywhere in the profile",
+      "No LiDAR or sensor-fusion (Kalman/EKF) work",
+      "No anomaly-detection or statistical data-quality project",
+      "No Agile/SQL/cloud evidence",
+      "No optical or reliability test-bench analysis"
+    ],
+    "overstated_by_keywords": [
+      "sensor fusion counted adjacent via ROS2 perception, but the profile has no multi-sensor state estimation",
+      "LiDAR counted adjacent via ToF, which is a single-point range sensor"
+    ],
+    "understated_by_keywords": [
+      "BARC wavelet denoising and PSNR evaluation is real signal processing on imperfect imagery",
+      "Planctech sensor jitter calibration and BARC DAQ show hands-on work with real imperfect data"
+    ],
+    "screening_gaps": [
+      "Enrollment gate: JD requires currently pursuing a degree with expected graduation Dec 2026 to Jun 2027, but the M.S. was completed May 2026, so the application is likely auto-rejected as ineligible",
+      "Role is framed as a student/early-career pipeline; he is already graduated, so the intern-style basic qualifications cannot be met as written",
+      "No MATLAB, LiDAR, sensor fusion or anomaly-detection evidence for a sensor-analytics role"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Skill fit is solid for the sensor-data analysis duties, with BARC, Planctech and COFFIN backing most of them. The problem is eligibility, not skills: the posting is restricted to students graduating Dec 2026 to Jun 2027 and Justin graduated in May 2026. The posting body also describes web application tooling for sales and research teams, which does not match the sensor-data duties or the Embedded title, so the posting itself is inconsistent.",
+    "calibration_delta": -0.5
+  },
+  "semantic_pending": false
+}

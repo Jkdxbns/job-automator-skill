@@ -1,0 +1,143 @@
+{
+  "company": "Luminous Robotics",
+  "company_slug": "luminous-robotics",
+  "role": "Field Tech",
+  "job_slug": "robotics-field-technician",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 15,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++ embedded programming",
+    "Python development",
+    "ROS / ROS2 robotics",
+    "Embedded hardware (STM32 / Jetson / Raspberry Pi / UART-I2C)",
+    "Computer vision / YOLO",
+    "PCB fabrication and electronic integration",
+    "Embedded motor / sensor control (PWM, encoders, ADC)",
+    "Build documentation and BOM"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Assemble robotic components / electromechanical sub-system assembly (wiring)",
+      "you_have": "Embedded prototyping and wiring integration"
+    },
+    {
+      "jd_skill": "Low voltage systems experience",
+      "you_have": "Embedded sensor/motor electronics (ADC, I2C, PWM, low-level drivers)"
+    },
+    {
+      "jd_skill": "System validation testing / documenting results",
+      "you_have": "Robotics reliability testing and performance documentation"
+    },
+    {
+      "jd_skill": "Soldering",
+      "you_have": "PCB design and fabrication (soldering not stated)"
+    }
+  ],
+  "missing_skills": [
+    "Prior employment in an assembly/manufacturing environment",
+    "Ability to interpret technical drawings and electrical schematics",
+    "Experience using standard shop equipment"
+  ],
+  "top_ats_keywords": [
+    "assembly",
+    "manufacturing",
+    "electromechanical",
+    "technical drawings",
+    "electrical schematics",
+    "build documentation",
+    "validation testing",
+    "troubleshooting",
+    "calibration",
+    "production",
+    "robotics",
+    "deployment",
+    "low voltage",
+    "wiring",
+    "soldering",
+    "field technician"
+  ],
+  "required_skills": [
+    "Prior employment in an assembly/manufacturing environment",
+    "Ability to interpret technical drawings, electrical schematics, and build documentation",
+    "Clear communication skills and team-first mindset in high-collaboration environments",
+    "Comfortable lifting objects following OSHA standards"
+  ],
+  "preferred_skills": [
+    "Assemble robotic components according to instructions and specifications",
+    "Build and integrate electro-mechanical sub-systems, including wiring and soldering",
+    "Low voltage systems experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and maintain infrastructure supporting rapid development and assembly of robotic systems",
+    "Assemble, test, and refine complex electromechanical systems",
+    "Perform system validation testing and document results",
+    "Report anomalies and conduct light troubleshooting",
+    "Maintain tools and equipment; perform or monitor calibrations",
+    "Support upkeep and cleanliness of production floor",
+    "Travel to different locations within the US"
+  ],
+  "role_category": "embedded_systems",
+  "location": "South Boston, MA (travel within US)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Custom PCB design and fabrication in EAGLE (ARC experience, skills list) backs the schematic and build-documentation ask",
+      "Hardware bring-up and sensor/motor wiring on COFFIN (STM32, Jetson, ToF sensors, PWM and encoders) backs electromechanical integration and low-voltage work",
+      "Oscilloscope and logic analyzer use in the skills list backs system validation and troubleshooting"
+    ],
+    "real_gaps": [
+      "No employment in an assembly or manufacturing environment (listed as the first qualification)",
+      "No evidence of working to build instructions or specifications on a production floor",
+      "No shop equipment, OSHA lifting or tool/calibration upkeep experience",
+      "Soldering is not stated anywhere in the profile",
+      "Role is >travel-heavy technician work with floor upkeep duties, not engineering"
+    ],
+    "overstated_by_keywords": [
+      "C/C++, Python, ROS2 and YOLO counted as Have but the JD asks for none of them; they do not help a technician screen",
+      "Low voltage systems counted Adjacent from embedded electronics, which is bench prototyping rather than field or production low-voltage work"
+    ],
+    "understated_by_keywords": [
+      "Schematic reading is implied by EAGLE PCB design and fabrication but never string-matched",
+      "System validation testing and documenting results is backed by the COFFIN integration failure log and benchmarking work"
+    ],
+    "screening_gaps": [
+      "No prior employment in an assembly or manufacturing environment",
+      "Overqualified engineering profile for an hourly technician role, so a screener will question intent and retention",
+      "No shop equipment, hand-tool or soldering evidence"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role is a production-floor assembly and testing technician job, and the profile is an edge-AI and embedded engineering profile. Hardware wiring, PCB work and test instruments carry over, but the first listed requirement, manufacturing employment, has no backing. Skills score high only because the keyword list includes software terms the technician JD never asks for.",
+    "calibration_delta": 16.0
+  },
+  "semantic_pending": false
+}

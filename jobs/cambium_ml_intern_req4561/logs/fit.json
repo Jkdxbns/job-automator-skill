@@ -1,0 +1,67 @@
+{
+  "company": "Cambium Learning Group",
+  "company_slug": "cambium",
+  "role": "Machine Learning Intern (REQ-4561)",
+  "job_slug": "ml_intern_req4561",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Familiarity with written Spanish (stated as an asset, not required)",
+    "Automated scoring / psychometric evaluation experience (QWK, SMD)",
+    "Educational assessment / measurement domain background"
+  ],
+  "adjacent_skills": [
+    "Multilingual NLP (Hindi-English and Indian-English ASR pipeline work)",
+    "Transformer fine-tuning (GPT-2, TinyLlama)",
+    "Tokenization / BPE implementation",
+    "Model evaluation experience (WER, benchmark scoring on GSM8K/HellaSwag)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "NLP",
+    "transformer",
+    "multilingual",
+    "text classification",
+    "Hugging Face Transformers",
+    "model evaluation"
+  ],
+  "key_responsibilities": [
+    "Design and implement an experiment comparing approaches for automated scoring of Spanish constructed response items",
+    "Write Python code to ingest/clean data, build models, evaluate results",
+    "Evaluate using QWK, accuracy, SMD",
+    "Document, archive, and present work",
+    "Collaborate with psychometricians and data scientists"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Built a GPT-2 style Transformer from scratch (multi-head self-attention, MLP blocks, layer norm) \u2014 real architectural understanding of the exact model family this role is built on, not just an API user",
+      "Fine-tuned a pretrained transformer (DONUT) on a custom dataset for a structured field-extraction task via HuggingFace, including special-token and embedding-layer surgery \u2014 the same core skill (adapt a pretrained transformer to a new labeled task) this role needs, just applied to documents instead of scored text",
+      "Built a custom BPE tokenizer with a Cython-accelerated backend \u2014 direct text-preprocessing engineering experience",
+      "Demonstrated rigorous, varied model-evaluation methodology across projects (perplexity, WER, Dice/IoU, mAP) \u2014 shows he can design and run an evaluation pipeline against a metric he hasn't used before, which is what QWK/SMD would require",
+      "Genuine multilingual/cross-accent modeling experience: 15% WER on a Hindi-English ASR dataset \u2014 proves he can work with non-English/code-switched data, even if the modality (speech) differs from this role's (text)"
+    ],
+    "real_gaps": [
+      "No text classification or scoring/regression model experience anywhere in the profile \u2014 every NLP project is generative (ASR, from-scratch LM) or structured extraction (DONUT), not predicting a score against human-rater agreement",
+      "Zero Spanish-language work of any kind \u2014 his multilingual experience is audio (Hindi-English ASR), not Spanish text",
+      "No exposure to psychometrics or educational-assessment concepts (rater agreement, item scoring, QWK/SMD) \u2014 this is genuinely new domain vocabulary for him, not just an unused keyword",
+      "No experience collaborating specifically with psychometricians, though he has general cross-functional research team experience (Teesside fellowship team lead)"
+    ],
+    "overstated_by_keywords": [
+      "\"NLP/text tool experience\" was marked a full Have, but on closer read most of that experience is speech (ASR) or document-image extraction, not classic text classification/scoring \u2014 a real but narrower match than the keyword pass implied",
+      "\"Multilingual\" was marked Adjacent via Hindi-English ASR, but that's a speech dataset; the JD's multilingual language models are almost certainly text encoders (e.g. XLM-R/mBERT-class models), a different modality than what he's built"
+    ],
+    "reasoning": "The hard eligibility bar (enrollment, Python, general NLP, autonomous+collaborative) is fully cleared, and he has real transformer engineering depth that would let him ramp fast. But the specific task, scoring Spanish constructed responses against psychometric agreement metrics, has almost no direct precedent in his history: no scoring/classification models, no Spanish, no assessment-domain exposure. This reads as a legitimate stretch internship where the transferable skills (transformer fine-tuning, tokenization, evaluation rigor) carry him in, not a role where his background maps cleanly onto the day-to-day work."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-08-20",
+    "channel": "application",
+    "notes": "Form rejection (REQ-4561). No feedback."
+  }
+}

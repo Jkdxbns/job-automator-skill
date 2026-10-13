@@ -1,0 +1,114 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Senior Electrical Engineer, Server Hardware \u8cc7\u6df1\u4f3a\u670d\u5668\u786c\u9ad4\u5de5\u7a0b\u5e2b",
+  "job_slug": "senior-electrical-engineer-server-hardware",
+  "match_pct": 14.3,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 14,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "lab equipment (oscilloscopes, logic analyzers)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "schematic capture / PCB design",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "high-performance compute / accelerator hardware",
+      "you_have": "CUDA / GPU / embedded accelerator experience"
+    }
+  ],
+  "missing_skills": [
+    "board-level schematic design for server/data-center boards (candidate has only embedded EAGLE PCB work)",
+    "power-tree / power architecture / server-class VRMs and multiphase regulators",
+    "system architecture for server platforms (CPU, accelerator, memory subsystems, high-speed IO)",
+    "high-speed interfaces: PCIe, CXL, DDR, Ethernet, CPO, UCIe",
+    "server / data-center hardware development experience",
+    "Taiwan ODM engagement (Quanta, Wistron, Inventec, Foxconn)",
+    "protocol analyzers and full board bring-up / system-level validation",
+    "cross-functional collaboration with packaging, SI/PI, firmware, mechanical teams",
+    "manufacturing / DFM / DFT / factory build support",
+    "SI/PI fundamentals",
+    "8+ years of board and system-level hardware development experience"
+  ],
+  "top_ats_keywords": [
+    "Senior Electrical Engineer",
+    "board design",
+    "system design",
+    "server hardware",
+    "data center",
+    "high-speed digital design",
+    "PCIe",
+    "CXL",
+    "DDR",
+    "Ethernet",
+    "CPO",
+    "ODM",
+    "Quanta",
+    "Wistron",
+    "schematic capture",
+    "power architecture",
+    "oscilloscope",
+    "logic analyzer",
+    "protocol analyzer",
+    "DFM",
+    "DFT",
+    "manufacturing"
+  ],
+  "required_skills": [
+    "board-level schematic design",
+    "component selection",
+    "power-tree / power architecture",
+    "system architecture",
+    "high-speed interface requirements (PCIe, CXL, DDR, Ethernet, CPO, UCIe)",
+    "server / data-center hardware development",
+    "Taiwan ODM engagement (Quanta, Wistron, Inventec, Foxconn)",
+    "lab equipment use (oscilloscopes, logic analyzers, protocol analyzers)",
+    "board bring-up / debug",
+    "DFM / DFT / manufacturing support"
+  ],
+  "preferred_skills": [
+    "SI/PI fundamentals",
+    "server-class power delivery (VRMs, multiphase regulators)"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead schematic design, component selection, and power-tree definition for server boards",
+    "Define system architecture, high-speed interfaces, power delivery, and thermal/mechanical constraints",
+    "Engage Taiwan ODMs (Quanta, Wistron, Inventec, Foxconn) on reviews, schedules, and manufacturing readiness",
+    "Lead board bring-up, debug, and validation using scopes, logic analyzers, and protocol analyzers",
+    "Drive DFM/DFT reviews and support factory builds / production issue resolution"
+  ],
+  "role_category": "other",
+  "location": "Taiwan",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

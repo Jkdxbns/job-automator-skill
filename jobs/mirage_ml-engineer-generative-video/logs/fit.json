@@ -1,0 +1,23 @@
+{
+  "company": "Mirage",
+  "company_slug": "mirage",
+  "role": "ML Engineer, Generative Video",
+  "job_slug": "ml-engineer-generative-video",
+  "match_pct": 75.0,
+  "missing_skills": ["Triton", "diffusion models", "distillation", "video/multimodal generation", "large-scale distributed training (FSDP)"],
+  "adjacent_skills": ["distributed training (SLURM multi-node, not FSDP)", "autoregressive generation (GPT-2/TinyLlama LM, not video)", "low-latency inference at scale (TensorRT edge, not cluster-scale serving)"],
+  "top_ats_keywords": ["PyTorch", "CUDA", "Triton", "FSDP", "distributed training", "quantization", "distillation", "pruning", "diffusion", "autoregressive generation", "GPU utilization", "low-latency inference"],
+  "key_responsibilities": [
+    "Train and optimize large-scale video and multimodal models",
+    "Improve efficiency across training and inference (memory, latency, cost)",
+    "Implement distillation, quantization, and pruning to accelerate diffusion and autoregressive generation",
+    "Build and maintain distributed training systems",
+    "Optimize GPU utilization, parallelism, and throughput",
+    "Develop tooling for experimentation, evaluation, and debugging",
+    "Translate research models into production-ready systems",
+    "Monitor and improve model performance in real-world usage"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {"matches": "Partial", "apply": "Yes"},
+  "llm_analysis": null
+}

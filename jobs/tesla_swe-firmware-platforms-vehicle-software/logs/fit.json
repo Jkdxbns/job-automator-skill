@@ -1,0 +1,94 @@
+{
+  "company": "Tesla",
+  "company_slug": "tesla",
+  "role": "Software Engineer, Firmware Platforms, Vehicle Software",
+  "job_slug": "swe-firmware-platforms-vehicle-software",
+  "match_pct": 53.8,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 0,
+    "missing_count": 6,
+    "jd_ask_size": 13,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "microcontroller firmware",
+    "RTOS",
+    "C",
+    "software engineering fundamentals",
+    "build systems",
+    "testing and validation",
+    "hardware/software integration"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "low-level debuggers (JTAG/SWD)",
+    "applied cryptography",
+    "over-the-air updates",
+    "assembly language",
+    "static analysis",
+    "fuzzing"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "RTOS",
+    "microcontroller bring-up",
+    "low-level debugging",
+    "cryptography",
+    "OTA updates",
+    "toolchains",
+    "debuggers",
+    "controls software",
+    "TDD",
+    "automated testing",
+    "assembly",
+    "static analysis",
+    "fuzzing"
+  ],
+  "required_skills": [
+    "embedded development in robotics/real-time controls/system software",
+    "proficiency in C",
+    "software design for maintainability",
+    "embedded microprocessor toolchains and debuggers",
+    "controls software and algorithm development",
+    "test-driven development / automated testing",
+    "communicate complex technical concepts"
+  ],
+  "preferred_skills": [
+    "physics and basic electronics",
+    "assembly language",
+    "static analysis, fuzzing, verification tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "deliver C code in real-time embedded environment",
+    "design embedded subsystem functionality",
+    "firmware architecture through integration, test, high-volume manufacturing",
+    "hardware bring-up, system debugging, code optimization"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Palo Alto, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

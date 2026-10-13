@@ -1,0 +1,86 @@
+{
+  "company": "Lyft",
+  "company_slug": "lyft",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine_learning_engineer",
+  "job_id": "111064",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Deep learning",
+    "Real-time model deployment/inference",
+    "ML performance evaluation metrics"
+  ],
+  "missing_skills": [
+    "Golang",
+    "Recommendation systems",
+    "Feature pipelines / feature store",
+    "A/B experimentation vs business KPIs",
+    "Petabyte-scale data (Spark/big data)",
+    "Marketplace matching / optimization"
+  ],
+  "adjacent_skills": {
+    "Model training workflows": "fine-tuning runs on SLURM-managed GPU cluster",
+    "Model serving infrastructure": "ONNX/TensorRT/Flask serving on Jetson edge",
+    "Statistical concepts (hypothesis testing, regression)": "Random Signal Analysis coursework + model eval metrics",
+    "Translating SOTA research to production": "reimplemented UFLD/DONUT/ZoeDepth papers, but project-scope not production",
+    "Distributed systems": "MPI + SLURM multi-node, not distributed services",
+    "Production-level code / code review": "internship Git/GitLab workflow",
+    "Data-driven insight / data science": "pynvml profiling, benchmarking, Matplotlib"
+  },
+  "top_ats_keywords": [
+    "machine learning",
+    "PyTorch",
+    "TensorFlow",
+    "deep learning",
+    "recommendation systems",
+    "Python",
+    "Golang",
+    "feature pipelines",
+    "model training",
+    "serving infrastructure",
+    "real-time",
+    "production",
+    "experimentation",
+    "hypothesis testing",
+    "regression analysis",
+    "model evaluation",
+    "ML platform",
+    "business KPIs",
+    "petabyte-scale",
+    "distributed systems",
+    "code review",
+    "cross-functional"
+  ],
+  "key_responsibilities": [
+    "Design, build, deploy ML models for real-time applications",
+    "Translate state-of-the-art research into production-ready solutions",
+    "Design feature pipelines, model training workflows, serving infrastructure on Lyft's ML platform",
+    "Evaluate ML system performance against business KPIs, run experiments",
+    "Partner cross-functionally with PMs, data scientists, engineers",
+    "Write production-level code and participate in code reviews"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA",
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,111 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "AI Compiler Engineer - New College Grad 2027",
+  "job_slug": "ai-compiler-engineer-ncg-2027",
+  "match_pct": 42.3,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 13,
+    "req_cov": 0.643,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "GPU programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ML compilers",
+      "you_have": "TensorRT / ONNX / TorchScript deployment"
+    },
+    {
+      "jd_skill": "LLM inference kernels",
+      "you_have": "Custom CUDA C++ conv kernels (VGG16) + LLM.int8 TinyLlama"
+    },
+    {
+      "jd_skill": "ML systems development",
+      "you_have": "TensorRT, quantization, edge inference optimization"
+    },
+    {
+      "jd_skill": "FlashInfer / Flash Attention",
+      "you_have": "CUDA kernel optimization + transformer (GPT-2)"
+    },
+    {
+      "jd_skill": "ML systems research and productization",
+      "you_have": "Research internships + ASR/quantization work"
+    }
+  ],
+  "missing_skills": [
+    "Apache TVM",
+    "MLIR",
+    "kernel generation",
+    "AI agent driven solutions",
+    "open source contributions"
+  ],
+  "top_ats_keywords": [
+    "ML compilers",
+    "LLM inference kernels",
+    "kernel generation",
+    "GPU programming",
+    "Python",
+    "C/C++",
+    "Apache TVM",
+    "MLIR",
+    "FlashInfer",
+    "Flash Attention",
+    "AI agents"
+  ],
+  "required_skills": [
+    "ML compilers",
+    "LLM inference kernels",
+    "kernel generation",
+    "ML systems development",
+    "Python",
+    "C/C++",
+    "GPU programming"
+  ],
+  "preferred_skills": [
+    "Apache TVM",
+    "MLIR",
+    "AI agent driven solutions",
+    "FlashInfer / Flash Attention",
+    "ML systems research and productization",
+    "open source contributions"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop ML compiler and systems technologies",
+    "Design, implement, optimize compilers for AI workloads",
+    "Build agent-driven dev-flow automation",
+    "Co-design agent systems with AI compiler tech",
+    "Collaborate with NVIDIA SW/HW teams"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara CA / Seattle WA / Remote PA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,37 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhoda_ai",
+  "role": "Research Member of Technical Staff - Training Systems",
+  "job_slug": "training_systems_rmts",
+  "match_pct": 30,
+  "missing_skills": [
+    "distributed training at scale (thousands of GPUs)",
+    "FSDP / ZeRO-style sharded training",
+    "tensor/pipeline/data parallelism strategies",
+    "communication overlap / NCCL collective scheduling",
+    "MFU / throughput / scaling-curve measurement",
+    "sequence packing/bucketing for multimodal training",
+    "graph capture and execution optimization",
+    "training framework internals (Megatron, DeepSpeed, etc.)"
+  ],
+  "adjacent_skills": [
+    "CUDA kernel optimization -> GPU kernel/compiler nice-to-have",
+    "TensorRT graph optimization -> operator fusion / runtime optimization",
+    "PyTorch model work -> PyTorch required stack",
+    "Profiling/benchmarking (pynvml) -> performance attribution mindset"
+  ],
+  "top_ats_keywords": ["PyTorch", "distributed training", "parallelism", "FSDP", "GPU cluster scaling", "MFU", "throughput", "CUDA", "Triton", "multimodal training"],
+  "key_responsibilities": [
+    "Own training systems performance end-to-end for large-scale multimodal training",
+    "Design parallelism strategies (data/tensor/pipeline/sharding)",
+    "Build performance attribution and regression detection tooling",
+    "Partner with research scientists to translate model innovations into scalable implementations",
+    "Improve cluster-level efficiency with infra/SRE teams"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

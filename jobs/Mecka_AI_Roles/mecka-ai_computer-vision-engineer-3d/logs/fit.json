@@ -1,0 +1,137 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Computer Vision Engineer, 3D",
+  "job_slug": "computer-vision-engineer-3d",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 19,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Production programming (Python / C++)",
+    "Computer vision / image processing basics",
+    "Deep learning / model interaction",
+    "Robotics / ROS pipeline context",
+    "Embedded / hardware programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Inverse kinematics and articulated-structure constraints",
+      "you_have": "IK and kinematics keywords"
+    },
+    {
+      "jd_skill": "Classical geometric vision / spatial reconstruction",
+      "you_have": "Visual servoing / perception"
+    },
+    {
+      "jd_skill": "Production Python / C++ software engineering",
+      "you_have": "Python and C/C++"
+    },
+    {
+      "jd_skill": "ML model interaction (pose/mesh regressors)",
+      "you_have": "Detection / classification models"
+    },
+    {
+      "jd_skill": "Pipeline / visualization / QA tooling",
+      "you_have": "GUI and vision tooling"
+    },
+    {
+      "jd_skill": "Robotics / articulated systems",
+      "you_have": "ROS2 robotics experience"
+    }
+  ],
+  "missing_skills": [
+    "5+ years professional software engineering and computer vision experience",
+    "Multi-view geometry (triangulation, PnP, camera calibration, reprojection, coordinate transforms)",
+    "Temporal filtering / Kalman-family filters / interpolation / smoothness-fidelity trade-offs",
+    "Inverse kinematics with rigid-body / bone-length constraints (only IK keyword present, no constraints/filtering)",
+    "Data-quality / delivery-gating / production-scale pipeline QA",
+    "Pose and mesh regression / human hand-body reconstruction",
+    "Bayesian filtering / state estimation / Ceres / GTSAM",
+    "Stereo / multi-view / ego-exo capture experience"
+  ],
+  "top_ats_keywords": [
+    "computer vision engineer",
+    "3D",
+    "multi-view geometry",
+    "triangulation",
+    "PnP",
+    "camera calibration",
+    "reprojection",
+    "coordinate transforms",
+    "temporal filtering",
+    "Kalman",
+    "interpolation",
+    "inverse kinematics",
+    "rigid-body",
+    "bone-length",
+    "articulated structures",
+    "pose regression",
+    "mesh regression",
+    "data quality",
+    "production pipeline",
+    "visualizer",
+    "overlay",
+    "QA dashboard",
+    "stereo",
+    "multi-view",
+    "ego-exo",
+    "Bayesian filtering",
+    "Ceres",
+    "GTSAM"
+  ],
+  "required_skills": [
+    "5+ years professional software engineering and computer vision",
+    "Production Python (C++ a plus)",
+    "Multi-view geometry: triangulation, PnP, camera calibration, reprojection, coordinate transforms",
+    "Temporal filtering / signal processing: low-pass, Kalman-family filters, interpolation",
+    "Inverse kinematics and rigid-body / bone-length constraints on articulated structures",
+    "Work with deep models (pose and mesh regressors) \u2014 outputs, failure modes \u2014 without training them",
+    "Data-quality mindset: noisy real-world data, QA that catches problems before delivery"
+  ],
+  "preferred_skills": [
+    "Human pose or mesh reconstruction (hand/body), keypoint and mesh pipelines",
+    "Depth in Bayesian filtering or state estimation; Ceres or GTSAM",
+    "CV tooling: trajectory visualizers, overlay / QA dashboards",
+    "Stereo, multi-view, or ego-exo capture experience",
+    "Light temporal ML (small networks for smoothing or gap-filling)"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own classical 3D geometry (multi-view, calibration, PnP, reprojection) for spatial reconstructions",
+    "Design/tune temporal filters (low-pass, Kalman-family, interpolation) to remove jitter",
+    "Run inverse kinematics with rigid-body / bone-length constraints; build checks that reject bad frames",
+    "Turn model output into clean delivered data (per-frame results, reports, QA metrics) at scale",
+    "Build visualizers/dashboards for trajectories, overlays, and failure cases"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,104 @@
+{
+  "_meta": { "company": "United Imaging Intelligence", "role": "Software Engineer (Computer Vision & Robotics)", "company_slug": "uii", "job_slug": "software-engineer-cv-robotics" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering, Rochester Institute of Technology. Build real time computer vision and perception systems on NVIDIA Jetson, optimizing deep learning inference with TensorRT and CUDA for closed loop robotic control. Hands on with camera and depth sensor integration (RGB, ToF), YOLO detection pipelines, and medical image segmentation, backed by production C++/Python and GitLab CI/CD workflows.",
+  "skills": {
+    "Languages & Systems": ["C/C++", "Python", "CUDA", "ROS2", "Linux", "Bash"],
+    "Computer Vision / Perception": ["OpenCV", "YOLO", "Visual servoing", "Depth/ToF sensing", "Camera integration", "Image segmentation"],
+    "AI / Deep Learning": ["PyTorch", "TensorRT", "ONNX", "8 bit quantization", "Model evaluation (Dice, IoU, mAP)"],
+    "Robotics": ["ROS/ROS2", "MoveIt", "RViz", "Forward kinematics", "Inverse kinematics"],
+    "Embedded / Hardware": ["NVIDIA Jetson", "Raspberry Pi", "UART/I2C/SPI"],
+    "Tools & Workflow": ["GitLab (version control, CI/CD)", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a data pipeline for the BraTS 2020 multi modal MRI dataset with medical imaging augmentation and batch loading memory management for large scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16/19 and ResNet-50 backbones, evaluated on Dice Score and IoU.",
+        "Led a cross cultural team of 7 as the sole ML experienced student, restructuring task distribution to deliver the full pipeline within a 6 week window."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated a custom object detection dataset and trained YOLOv8n on 1,133 annotated images, achieving 83% mAP@50 on held out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove integrating ADXL345 accelerometers with Raspberry Pi over Bluetooth to translate 3-DoF hand motion into real time HID commands via Python.",
+        "Implemented a custom motion detection algorithm using differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision guided robotic pick and place system on Jetson and Arduino, integrating TensorRT optimized YOLO (5.2x speedup: 56.7 to 10.9 ms, 17.6 to 92 FPS vs eager PyTorch) for real time visual servoing.",
+        "Integrated dual VL53L0X ToF depth sensors via I2C mux for camera range gating and contact aware grasping, achieving 100% pick reliability (10/10 trials) at ~11.5s end to end latency.",
+        "Implemented two link inverse kinematics in C++ on the embedded controller, driving five servos with range gated contact detection."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson to detect and track objects, driving multi servo PWM control over UART with ToF range sensing."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing and constant memory, achieving 49.2ms vs 77.5ms CPU baseline (~35% speedup) with identical accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Deep Learning", "High Performance Architecture", "Machine Intelligence", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing"]
+    }
+  ],
+  "awards": []
+}

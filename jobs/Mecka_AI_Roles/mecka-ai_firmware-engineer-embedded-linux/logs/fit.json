@@ -1,0 +1,165 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Firmware Engineer, Embedded Linux",
+  "job_slug": "firmware-engineer-embedded-linux",
+  "match_pct": 64.0,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 6,
+    "missing_count": 6,
+    "jd_ask_size": 25,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "ARM embedded hardware",
+    "system profiling",
+    "shell scripting",
+    "embedded development",
+    "data integrity/recovery",
+    "reproducible releases",
+    "device platforms (boot/system/provisioning)",
+    "remote updates/recovery",
+    "hardware testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "V4L2",
+      "you_have": "Camera/sensor interfaces (I2C/UART/SPI/GPIO)"
+    },
+    {
+      "jd_skill": "GStreamer",
+      "you_have": "Media/pipeline processing"
+    },
+    {
+      "jd_skill": "Yocto/Buildroot",
+      "you_have": "Embedded build/tooling"
+    },
+    {
+      "jd_skill": "camera ISPs",
+      "you_have": "Image processing / vision"
+    },
+    {
+      "jd_skill": "signed updates",
+      "you_have": "Update/recovery concepts"
+    },
+    {
+      "jd_skill": "hardware-in-the-loop testing",
+      "you_have": "Embedded hardware testing"
+    }
+  ],
+  "missing_skills": [
+    "Yocto (not in keywords)",
+    "Buildroot (not in keywords)",
+    "V4L2 specifically (not in keywords)",
+    "GStreamer specifically (not in keywords)",
+    "sustained long-session recording systems at production scale (candidate has research/internship scale, not multi-year deployed-device scale)",
+    "deep Linux kernel/driver development (candidate is bare-metal/embedded Linux user, not kernel-driver developer)"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "firmware",
+    "camera systems",
+    "device platforms",
+    "V4L2",
+    "GStreamer",
+    "Yocto",
+    "Buildroot",
+    "ARM",
+    "C/C++",
+    "Python",
+    "shell scripting",
+    "boot/provisioning",
+    "remote updates",
+    "rollback",
+    "recovery",
+    "data integrity",
+    "sustained recording",
+    "board bring-up"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Linux (processes/threads/memory/I/O/filesystems/debugging)",
+    "ARM embedded hardware development",
+    "system profiling/resource measurement",
+    "concurrency/timing/integrity/recovery reasoning",
+    "reproducible releases/hardware testing"
+  ],
+  "preferred_skills": [
+    "V4L2",
+    "GStreamer",
+    "camera ISPs",
+    "Yocto",
+    "Buildroot",
+    "signed updates",
+    "hardware-in-the-loop testing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop/debug embedded Linux software on real capture hardware from board bring-up to deployment",
+    "Build reliable services/data paths preserving recordings through long sessions/interruptions",
+    "Measure and improve system performance/power/resource/recovery behavior",
+    "Reproduce field failures with hardware/test engineers and validate fixes across device configurations"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 53,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded Linux services: COFFIN 'deployed the Jetson-side arm bridge as a systemd service (auto-restart with backoff, non-root user/group isolation, environment-file-based config)' with static IP and XRDP administration.",
+      "ARM hardware: NVIDIA Jetson and Raspberry Pi, with Python, C/C++ and Bash.",
+      "Failure investigation: COFFIN's 11 resolved integration failures, including stale-frame capture and servo brown-out.",
+      "Concurrency in capture: 'multiprocessing for multi-camera frame capture' in the LeRobot-structured pipeline."
+    ],
+    "real_gaps": [
+      "Camera systems depth: no V4L2, GStreamer, ISP, Linux capture driver or sustained-recording work; multi-camera capture was Python multiprocessing, not a driver or media pipeline.",
+      "Device platforms depth: no boot images, Yocto/Buildroot, provisioning, OTA updates, signed updates or rollback.",
+      "Linux internals: no kernel module, driver or filesystem/storage-throughput work beyond systemd administration.",
+      "Reproducible release and hardware-in-the-loop testing: not present."
+    ],
+    "overstated_by_keywords": [
+      "'embedded Linux' as HAVE: the evidence is Linux service administration on a Jetson, not firmware or board bring-up."
+    ],
+    "understated_by_keywords": [
+      "Nothing material; the camera and device-platform specializations the role requires have no hidden backing."
+    ],
+    "screening_gaps": [
+      "No depth in either required specialization (camera systems or device platforms)",
+      "No Linux driver, kernel or board bring-up experience",
+      "No Yocto/Buildroot, OTA/rollback or hardware-in-the-loop testing experience"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The role says to bring depth in camera systems or device platforms and the profile has neither; what exists is Linux service administration and Python capture on a Jetson. The keyword score of 64 reflects shared words (C/C++, Python, Linux, ARM), not the firmware depth the JD is hiring for.",
+    "calibration_delta": 11.0
+  },
+  "semantic_pending": false
+}

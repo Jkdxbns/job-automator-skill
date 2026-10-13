@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "company": "Rhoda AI",
+    "role": "Firmware Engineer",
+    "company_slug": "rhoda_ai",
+    "job_slug": "firmware_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), with a B.E. in Electronics and Telecommunication from the University of Mumbai. Built bare-metal C firmware on ARM Cortex-M4 (STM32) with interrupt-driven ADC and I2C sampling, and used FreeRTOS with mutex-protected task coordination for real-time multi-servo control. Designed and validated UART, I2C, SPI, and PWM sensor and actuator interfaces on an oscilloscope and logic analyzer, and led PCB design and sensor integration for a 25-member competitive robotics team.",
+  "skills": {
+    "Embedded / Firmware": [
+      "ARM Cortex-M4 (STM32)",
+      "Bare-Metal C",
+      "FreeRTOS",
+      "RTOS Task Scheduling",
+      "UART",
+      "I2C",
+      "SPI",
+      "PWM",
+      "ADC",
+      "GPIO",
+      "Interrupt-Driven Design",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Debug & Validation": [
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Proteus"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Git",
+      "CMake",
+      "Linux"
+    ],
+    "PCB & Hardware": [
+      "EAGLE PCB Design",
+      "SolidWorks"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free control, integrating ADXL345 accelerometers over I2C with a Raspberry Pi and HC-05 Bluetooth to translate 3-DoF motion into real-time HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and interrupt-driven sampling resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and firmware integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 temperature monitoring firmware in bare-metal C with timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly (GPIO, TIM2, ADC1, I2C1) with no HAL/RTOS overhead; achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate, verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination between a Jetson vision node and an STM32 motion controller communicating over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART command handling and user override.",
+        "Integrated dual VL53L0X ToF sensors over I2C for range gating, with real-time OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Implemented two-link inverse kinematics on Arduino in C++, driving five servos with range-gated, contact-aware grasp control.",
+        "Integrated dual VL53L0X ToF sensors via a TCA9548A I2C multiplexer for camera range-gating and gripper contact detection.",
+        "Debugged and resolved 11 integration failures (servo brown-out, stale-frame capture, false-positive detections); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Random Signal Analysis",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

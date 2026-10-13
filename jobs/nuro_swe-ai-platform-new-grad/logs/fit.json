@@ -1,0 +1,21 @@
+{
+  "company": "Nuro",
+  "company_slug": "nuro",
+  "role": "Software Engineer, AI Platform - New Grad",
+  "job_slug": "swe-ai-platform-new-grad",
+  "match_pct": 94,
+  "missing_skills": ["FPGA", "large-scale production distributed systems", "cloud IaaC / storage services (PB-scale)", "CI/CD engineering productivity tooling"],
+  "adjacent_skills": ["distributed systems (MPI/SLURM, not web-scale)", "data storage/processing (research pipelines)", "multithreading (MPI/multiprocessing/RTOS mutexes)", "x86 architecture (HPC Architecture coursework)"],
+  "top_ats_keywords": ["C++", "Python", "machine learning", "software performance tuning and optimization", "distributed systems", "data storage and processing", "multithreading", "robotics software frameworks", "CPU/GPU/FPGA compute modalities", "x86 architecture"],
+  "key_responsibilities": ["Data Platform: data annotation, ingestion, mining, autonomy eval infra", "Onboard Systems: high-performance onboard platform, HW/SW integration, resolve onboard perf problems", "ML Infrastructure", "Simulation", "Technical Infrastructure: compute platform, PB-scale storage, cloud IaaC, CI/CD"],
+  "role_category": "ml_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": ["Software performance tuning/optimization is deeply backed (CUDA kernel opt VGG16 ~35% speedup, TensorRT YOLO 5.2x, 8-bit quantization ~55% VRAM, Cython BPE 4-5.5x)", "C++ and Python across CUDA + embedded + ML projects", "Robotics software frameworks real (ROS2 Humble/Noetic, MoveIt, UR5e)", "Onboard/HW-SW integration directly backed by COFFIN Jetson+Arduino pipeline and STM32 bare-metal firmware", "Simulation team fit backed by CARLA autonomous-driving data-gen + control stack"],
+    "real_gaps": ["No production large-scale distributed systems / cloud infra / PB-scale storage / CI/CD tooling — the Technical Infrastructure and much of Data Platform scope has no real backing", "Distributed experience is academic HPC (MPI/SLURM) and a 3-node robotics pipeline, not web-scale services"],
+    "overstated_by_keywords": ["distributed systems (keyword counts MPI/SLURM; JD means production distributed systems)", "data storage and processing systems (his are small research pipelines, not storage services)"],
+    "reasoning": "Deliberately broad new-grad JD spanning five sub-teams; Justin is a genuinely strong fit for the ML/perf-heavy sub-teams (Onboard Systems, ML Infrastructure, Simulation) where his CUDA/TensorRT/embedded/robotics depth maps cleanly, and a weak fit for the pure-infra sub-teams (Technical Infrastructure, parts of Data Platform). Eligible on degree and grad date; overall a clear apply that should be steered toward the performance/onboard/simulation areas."
+  }
+}

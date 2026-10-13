@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "Systems Software Engineer - New College Grad 2026",
+    "company_slug": "nvidia",
+    "job_slug": "systems-sw-engineer-ncg-2026"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on experience in CUDA kernel development and GPU accelerated computing. Built custom CUDA C++ kernels with memory coalescing that cut VGG16 inference latency by 35%, and designed distributed algorithms across MPI and SLURM managed clusters, quantifying up to 30x speedup and characterizing workload imbalance effects up to 65% degradation. Background also spans deep learning model optimization, including near-lossless 8-bit quantization and Transformer fine-tuning for structured extraction tasks.",
+  "skills": {
+    "HPC / Parallel Computing": [
+      "CUDA",
+      "CUDA C++",
+      "MPI",
+      "SLURM",
+      "Memory Coalescing",
+      "Kernel Optimization"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "8-bit Quantization",
+      "Model Evaluation",
+      "Tokenization",
+      "pynvml Profiling"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) combined with optimized homography stitching and concurrency, raising PSNR from 65 to 86 over the baseline pipeline."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free visual document understanding Transformer, on a custom dataset for structured field extraction, improving validation accuracy from 55% to 93%."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset, implementing batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones, evaluating architecture trade-offs via Dice Score and IoU."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers in VGG16 with custom CUDA C++ kernels using memory coalescing and constant memory, cutting layer latency from 77.5ms (CPU) to 49.2ms, a 35% speedup with identical accuracy.",
+        "Eliminated per-layer allocation overhead via preallocated global memory buffers, achieving 1.5 to 2x speedup in convolution operations."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI worker processes on a SLURM-managed cluster, achieving up to 10.49x speedup with 12 slave processes while identifying load imbalance effects causing up to 65% degradation under uneven work distribution."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four work distribution algorithms (static strip, block, cyclic, dynamic queue) for rendering 5000x5000 pixel scenes over MPI, achieving up to 30x speedup with static strip partitioning across 55 processes.",
+        "Showed dynamic task queue scheduling outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by approximately 55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, benchmarking across HellaSwag, GSM8K, and ARC at under 1% accuracy degradation."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch (attention, MLP, residual, layer norm), with a custom training loop using early stopping to control overfitting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Deep Learning",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": []
+}

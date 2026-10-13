@@ -1,0 +1,163 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Supercomputing Software Engineer (Taiwan)",
+  "job_slug": "etched_12_supercomputing-software-engineer-taiwan",
+  "match_pct": 39.1,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 9,
+    "missing_count": 15,
+    "jd_ask_size": 32,
+    "req_cov": 0.222,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Linux",
+    "system logging / diagnostics",
+    "embedded firmware / bare-metal C",
+    "test plans / validation",
+    "Git",
+    "hardware interfaces / UART/I2C/SPI"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "BIOS / BMC firmware",
+      "you_have": "embedded firmware (bare-metal C / STM32 / FreeRTOS)"
+    },
+    {
+      "jd_skill": "server boot processes / NetBoot",
+      "you_have": "embedded boot / initialization"
+    },
+    {
+      "jd_skill": "root of trust / security principles",
+      "you_have": "embedded security / access isolation"
+    },
+    {
+      "jd_skill": "DRAM timing / PCIe configurations",
+      "you_have": "embedded memory/peripheral interfaces"
+    },
+    {
+      "jd_skill": "data center orchestration (Kubernetes / Docker)",
+      "you_have": "node-level deployment and service management"
+    },
+    {
+      "jd_skill": "kernel-mode driver development",
+      "you_have": "low-level embedded drivers"
+    },
+    {
+      "jd_skill": "performance testing / benchmarking",
+      "you_have": "benchmarking and profiling"
+    },
+    {
+      "jd_skill": "tracing (perf / eBPF / ftrace)",
+      "you_have": "performance profiling"
+    },
+    {
+      "jd_skill": "Rust",
+      "you_have": "none"
+    }
+  ],
+  "missing_skills": [
+    "BIOS architecture (deep, server-specific)",
+    "BMC firmware architecture (deep)",
+    "NetBoot",
+    "DRAM timing analysis",
+    "PCIe configuration/analysis",
+    "root-of-trust verification implementation",
+    "secure boot processes",
+    "advanced server-system logging (not embedded display)",
+    "Linux kernel-mode driver development",
+    "Kubernetes",
+    "Docker",
+    "Rust",
+    "perf / eBPF / ftrace",
+    "gProf / vTune / Wireshark",
+    "CI/CD pipelines (no mention in profile)"
+  ],
+  "top_ats_keywords": [
+    "BIOS",
+    "BMC",
+    "firmware",
+    "boot",
+    "NetBoot",
+    "root of trust",
+    "security",
+    "Linux",
+    "DRAM",
+    "PCIe",
+    "kernel-mode driver",
+    "system logging",
+    "Kubernetes",
+    "Docker",
+    "C/C++",
+    "Python"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "BIOS",
+    "BMC firmware",
+    "server boot processes",
+    "NetBoot",
+    "root of trust",
+    "security principles",
+    "Linux",
+    "server hardware",
+    "system logging",
+    "diagnostic tools",
+    "kernel-mode drivers",
+    "PCIe configurations",
+    "DRAM timing",
+    "data center orchestration",
+    "Kubernetes",
+    "Docker"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "perf",
+    "eBPF",
+    "ftrace",
+    "gProf",
+    "vTune",
+    "Wireshark",
+    "CI/CD pipelines"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Integrate and maintain BIOS and BMC firmware",
+    "Analyze DRAM timings, PCIe configurations, power state transitions",
+    "Validate root-of-trust security features",
+    "Design system logging and diagnostic capabilities",
+    "Integrate Kubernetes/Docker node-level orchestration",
+    "Develop comprehensive test plans",
+    "Collaborate with hardware and software teams on system-level issues"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Taipei",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

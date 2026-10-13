@@ -1,0 +1,93 @@
+{
+  "company": "Meta",
+  "company_slug": "meta",
+  "role": "Computer Vision Engineer (Reality Labs)",
+  "job_slug": "computer_vision_engineer_reality_labs",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 8,
+    "req_cov": 0.4286,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C++/Python development",
+    "ML model training and evaluation (data recipes, train/eval splits, hyperparameter tuning)",
+    "M.S. Computer Engineering (preferred degree)"
+  ],
+  "adjacent_skills": [
+    "Camera/perception specialization (calibration, state estimation, sensor fusion, 3D reconstruction, pose estimation, SfM) -> has depth estimation (ZoeDepth), visual servoing, image mosaicing but no calibration/pose-estimation/SLAM projects",
+    "AI/generative models applied in practice -> has LLM fine-tuning (GPT-2, TinyLlama, HuggingFace Transformers) but not agentic coding-assistant tooling or image/video generation"
+  ],
+  "missing_skills": [
+    "Computer graphics / rendering pipelines (ray tracing, shaders, physically-based rendering, Unreal/Unity/Blender, synthetic data generation)",
+    "Data lifecycle at scale (curation, QA, augmentation, dataset versioning, domain-gap analysis)",
+    "SLAM / production-scale scene reconstruction"
+  ],
+  "top_ats_keywords": [
+    "Camera Calibration",
+    "Sensor Fusion",
+    "3D Reconstruction",
+    "Camera Pose Estimation",
+    "Structure-from-Motion",
+    "SLAM",
+    "C++",
+    "Python",
+    "rendering pipelines",
+    "synthetic data",
+    "generative models",
+    "data lifecycle",
+    "ML model training"
+  ],
+  "key_responsibilities": [
+    "Design and develop novel calibration algorithms for sensors and displays",
+    "Design and prototype automation for calibration with mechanical engineers and prototyping technicians",
+    "Collaborate cross-functionally across CV, ML, graphics, optics, camera hardware, manufacturing",
+    "Define projects for other engineers to achieve impact based on your direction",
+    "Contribute to engineering best practices: code quality, AI-assisted engineering, technical culture"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Ray tracing implemented directly (Parallel Ray Tracer with MPI Task Scheduling) \u2014 a literal, specific match to the JD's rendering-pipeline ask, invisible to keyword matching since the project name wasn't in the JD's term list.",
+      "Synthetic data generation for perception model training via CARLA (an Unreal Engine based simulator): built automated pipelines with zero manual annotation producing ~5,000 YOLO + ~3,000 UFLD training frames \u2014 directly matches 'generating and leveraging synthetic data for training and evaluating perception models.'",
+      "3D reconstruction depth backed by two award winning projects: homography based image stitching (2D/3D Image Mosaicing, 1st Prize) and ZoeDepth monocular depth estimation explicitly used for '3D surface reconstruction' with quantified error (+-8%) at BARC.",
+      "Strong, repeated ML model build/train/eval track record: BraTS U-Net segmentation (Dice/IoU across three backbones), YOLOv8 training with mAP, DONUT fine-tuning (55%->93% accuracy via preprocessing and tuning), TinyLlama quantization benchmarked across three eval suites.",
+      "Has applied a generative model inside a live multi-component engineering pipeline (Gemini intent classification in the COFFIN capstone), showing some practical generative-model integration experience beyond training loops."
+    ],
+    "real_gaps": [
+      "No camera or display calibration algorithm work anywhere in the profile \u2014 this is the JD's first listed responsibility and one of its named specialization areas; the closest analog (software calibration of an accelerometer glove) is a different domain entirely.",
+      "No SLAM or camera pose estimation experience \u2014 the role overview explicitly names SLAM and scene reconstruction as core technical areas.",
+      "No shader, PBR, or 3D scene/asset authoring experience in Unreal, Unity, or Blender \u2014 CARLA experience is as a simulation consumer, not an engine-level graphics author.",
+      "No evidence of production-scale data lifecycle work (dataset versioning, systematic domain-gap analysis, curation pipelines beyond project scope) \u2014 all annotation/curation work tops out at ~5,000 samples.",
+      "No documented use of coding assistants or agentic dev tooling for engineering productivity, or of AI models for image/video generation \u2014 the profile's generative-model work is fine-tuning and inference integration, not the dev-productivity framing the JD asks for.",
+      "Track record mismatch: the JD asks for 2+ years designing CV/perception algorithms for robotics plus 'defining projects for other engineers to achieve impact based on your direction' \u2014 an ownership/lead scope with zero full-time-year backing."
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "Ray tracing (Parallel Ray Tracer with MPI) \u2014 missed entirely by keyword matching",
+      "CARLA synthetic data generation for perception training on an Unreal-based engine \u2014 missed entirely",
+      "3D reconstruction via homography-based image stitching + ZoeDepth depth estimation \u2014 keyword pass only credited generic 'depth estimation' and 'image mosaicing' as loosely adjacent rather than recognizing this as real 3D-reconstruction specialization depth"
+    ],
+    "screening_gaps": [
+      "No camera/display calibration algorithm experience \u2014 the JD's literal first responsibility and a named specialization area",
+      "No SLAM or camera pose estimation experience \u2014 explicitly named in the role overview",
+      "Track record: 2+ years plus 'define projects for other engineers' implies ownership scope that internship-only experience does not demonstrate on paper, regardless of technical relevance"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The keyword pass undersold this role by missing genuine, specific matches: a real ray tracer, CARLA-based synthetic data generation on an Unreal engine, and 3D reconstruction depth from an award winning image stitching plus depth estimation pipeline. Those cover a meaningful slice of what the JD actually describes (rendering, synthetic data, 3D reconstruction, ML training). The real gap is calibration algorithms and SLAM specifically, which is unbacked anywhere in the profile, plus a track record stretch given the ownership language in the JD. Worth applying if the resume foregrounds the ray tracer, CARLA pipeline, and 3D reconstruction work explicitly rather than leaning on generic CV keywords.",
+    "calibration_delta": -8.0
+  }
+}

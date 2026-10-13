@@ -1,0 +1,41 @@
+{
+  "company": "Aptiv",
+  "company_slug": "aptiv",
+  "role": "Embedded Systems Architect - Robotics & Drones",
+  "job_slug": "embedded-systems-architect-robotics-drones",
+  "match_pct": 60,
+  "missing_skills": [
+    "5+ years professional embedded systems experience",
+    "Systems engineering / requirements analysis / MBSE",
+    "Requirements management tools (Polarion, DOORS)",
+    "Translating customer requirements into production-ready products (industry track record)",
+    "Automotive SPICE / ISO 26262 / functional safety",
+    "Cybersecurity / secure embedded design",
+    "FPGA-based architectures"
+  ],
+  "adjacent_skills": [
+    "Cross-functional hardware/software/product team experience (project scope, not industry)",
+    "Agile/CI/CD/DevOps (has git/GitLab, no explicit CI/CD pipeline experience)",
+    "MCU-based architectures (STM32 present, FPGA absent)",
+    "Embedded comms protocols (SPI/I2C/UART/Bluetooth present; CAN/Ethernet not evident)"
+  ],
+  "top_ats_keywords": [
+    "ROS2", "embedded systems", "sensor integration", "real-time systems",
+    "Linux", "TensorRT", "YOLO", "Jetson", "computer vision", "STM32",
+    "bare-metal C/C++", "perception", "CUDA", "ML inference on embedded hardware"
+  ],
+  "key_responsibilities": [
+    "Design/develop/maintain embedded system architectures for AMR and drone platforms",
+    "Sensor integration and data acquisition (cameras, lidar, radar, depth sensors, IMUs)",
+    "Runtime inference, diagnostics, monitoring, health management",
+    "System bring-up, integration, validation, troubleshooting",
+    "Optimize architectures for performance, power, scalability, cost",
+    "Safety engineering: hazard analysis, FMEA, fault injection, degraded-mode validation"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,171 @@
+{
+  "company": "SpaceXAI",
+  "company_slug": "spacexai",
+  "role": "Infrastructure Security Engineer (Bare Metal & Platform)",
+  "job_slug": "infra-security-engineer-bare-metal",
+  "match_pct": 19.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 6,
+    "missing_count": 22,
+    "jd_ask_size": 31,
+    "req_cov": 0.344,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Bash",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux hardening / OS baselines",
+      "you_have": "Linux + systemd unit/service management"
+    },
+    {
+      "jd_skill": "Firewalls/segmentation",
+      "you_have": "Static IP / network configuration"
+    },
+    {
+      "jd_skill": "Firmware security",
+      "you_have": "STM32 bare-metal C"
+    },
+    {
+      "jd_skill": "GitHub Actions / CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Secure AI/GPU workloads",
+      "you_have": "CUDA / Jetson / SLURM-managed GPU cluster"
+    },
+    {
+      "jd_skill": "Fleet management",
+      "you_have": "SLURM / JupyterHub administration"
+    }
+  ],
+  "missing_skills": [
+    "Puppet",
+    "Terraform",
+    "Kubernetes",
+    "BMC/iDRAC/iLO",
+    "PXE/Kickstart",
+    "UEFI/secure boot",
+    "CIS benchmarks",
+    "Active Directory",
+    "LDAP",
+    "Kerberos",
+    "SAML/OIDC",
+    "PAM",
+    "PKI",
+    "NAC",
+    "IDS/IPS",
+    "SIEM/Wazuh",
+    "Prometheus/Grafana",
+    "Golang",
+    "PCI/HIPAA/GDPR/NIST CSF",
+    "VMware/OpenStack/Proxmox",
+    "Site-to-site VPN/Direct Connect",
+    "Security certifications"
+  ],
+  "top_ats_keywords": [
+    "Puppet",
+    "Terraform",
+    "Kubernetes",
+    "BMC",
+    "iDRAC",
+    "iLO",
+    "PXE",
+    "Kickstart",
+    "UEFI",
+    "secure boot",
+    "CIS benchmarks",
+    "Active Directory",
+    "LDAP",
+    "Kerberos",
+    "SAML",
+    "OIDC",
+    "PAM",
+    "PKI",
+    "NAC",
+    "IDS/IPS",
+    "SIEM",
+    "Wazuh",
+    "Prometheus",
+    "Grafana",
+    "Python",
+    "Bash",
+    "Golang",
+    "GitHub Actions",
+    "PCI",
+    "HIPAA",
+    "GDPR",
+    "NIST CSF",
+    "OpenStack",
+    "Proxmox",
+    "VMware",
+    "Linux",
+    "firewall",
+    "VPN"
+  ],
+  "required_skills": [
+    "Puppet",
+    "BMC/iDRAC/iLO",
+    "PXE/Kickstart",
+    "Firmware security",
+    "Bare-metal security",
+    "Kubernetes security",
+    "Terraform",
+    "Active Directory/LDAP/Kerberos",
+    "Cloud IAM",
+    "Firewalls/segmentation",
+    "Python",
+    "Bash",
+    "Golang",
+    "Regulatory compliance (PCI/NIST/HIPAA/GDPR)",
+    "Linux hardening",
+    "Hybrid connectivity/VPN"
+  ],
+  "preferred_skills": [
+    "VMware/OpenStack/Proxmox",
+    "Security certifications",
+    "GitHub Actions",
+    "Prometheus/Grafana",
+    "Wazuh/SIEM",
+    "Secure AI/GPU workloads"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Secure bare-metal/private-cloud fleets",
+    "BMC/PXE provisioning",
+    "Puppet fleet hardening",
+    "Network security and PKI/NAC/IDS",
+    "Hybrid identity",
+    "Kubernetes security on bare metal",
+    "SIEM pipelines"
+  ],
+  "role_category": "ml_systems",
+  "location": "Palo Alto CA; Austin TX; New York NY; Seattle WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

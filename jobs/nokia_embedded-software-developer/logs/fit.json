@@ -1,0 +1,173 @@
+{
+  "company": "Nokia of America Corp",
+  "company_slug": "nokia",
+  "role": "Embedded Software Developer",
+  "job_slug": "embedded-software-developer",
+  "match_pct": 63.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "ARM",
+    "MCU",
+    "FreeRTOS",
+    "Python",
+    "Bash",
+    "schematics and datasheets",
+    "board bring-up"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "DSP",
+      "you_have": "Digital Signal Processing coursework"
+    },
+    {
+      "jd_skill": "Linux kernel",
+      "you_have": "Linux / embedded Linux"
+    },
+    {
+      "jd_skill": "real-time scheduling",
+      "you_have": "RTOS"
+    },
+    {
+      "jd_skill": "PREEMPT_RT",
+      "you_have": "RTOS / Linux"
+    },
+    {
+      "jd_skill": "WiFi",
+      "you_have": "Bluetooth (HC-05)"
+    }
+  ],
+  "missing_skills": [
+    "FPGA",
+    "secure boot",
+    "5G/LTE",
+    "OTA firmware update"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "ARM",
+    "MCU",
+    "DSP",
+    "FPGA",
+    "Linux kernel",
+    "secure boot",
+    "FreeRTOS",
+    "PREEMPT_RT",
+    "RTOS",
+    "Python",
+    "Bash",
+    "OTA",
+    "WiFi",
+    "5G",
+    "LTE",
+    "board bring-up",
+    "schematics",
+    "datasheets"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "ARM",
+    "MCU",
+    "DSP",
+    "FPGA",
+    "Linux kernel",
+    "secure boot",
+    "real-time scheduling",
+    "FreeRTOS",
+    "PREEMPT_RT",
+    "Python",
+    "Bash",
+    "schematics and datasheets",
+    "WiFi",
+    "5G/LTE",
+    "OTA firmware update",
+    "board bring-up"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "firmware in C/C++",
+    "WiFi and 5G/LTE module integration",
+    "board bring-up",
+    "CPU/DSP/FPGA/power optimization",
+    "secure OTA updates",
+    "HW/SW debug"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated (US20)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 43,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "C/embedded C on MCUs: STM32 Bare-Metal Temperature Monitor (Cortex-M4, direct GPIO/TIM2/ADC1/I2C1 register programming, 3.68 KB Flash / 1.58 KB RAM, deterministic 1 Hz)",
+      "FreeRTOS with mutexes and interrupt-driven UART on STM32 in Object Tracking Turret",
+      "Low-level peripheral work and HW debug: UART/I2C/SPI, quadrature decoding from hardware interrupts (Robocon), servo brown-out fix in COFFIN, oscilloscope and logic analyzer use",
+      "PCB design in EAGLE (Agnel Robotics Club) supports reading schematics and datasheets",
+      "Python and Bash scripting, Linux/systemd administration on Jetson (COFFIN)"
+    ],
+    "real_gaps": [
+      "No cellular (5G/LTE) or WiFi module integration anywhere in the profile; Bluetooth is only an HC-05 UART bridge",
+      "No Linux kernel work: no drivers, device tree, or PREEMPT_RT; Linux depth is userspace administration",
+      "No secure boot, firmware signing, or OTA update mechanism",
+      "No FPGA or DSP firmware; DSP is undergraduate coursework only",
+      "No true board bring-up on a new design; PCBs were single-layer club boards and all other boards were dev kits",
+      "No production-scale firmware ownership or team code-review process; 5+ years asked, 0 full-time (seniority noted as prose only, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "Linux kernel counted Adjacent: profile shows systemd and network config, not kernel architecture",
+      "PREEMPT_RT counted Adjacent: a small FreeRTOS turret is not Linux real-time tuning",
+      "WiFi counted Adjacent to Bluetooth: an HC-05 serial module gives no wireless-stack integration experience",
+      "board bring-up counted Have: dev-kit and club-PCB work is much lighter than validating new hardware",
+      "DSP counted Adjacent: coursework only, no DSP firmware"
+    ],
+    "understated_by_keywords": [
+      "Hardware-software debugging with scope and logic analyzer, plus the COFFIN servo brown-out and stale-frame fixes, backs the debug responsibility better than the keyword pass credited",
+      "Jetson-to-STM32/Arduino UART command links (turret, COFFIN) show module-to-MCU integration and real-time coordination"
+    ],
+    "screening_gaps": [
+      "No 5G/LTE or WiFi module integration, the centre of the role",
+      "No secure boot or OTA firmware update experience",
+      "No Linux kernel/PREEMPT_RT or FPGA/DSP work against a 5+ year embedded ask"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile shows solid MCU-level C, FreeRTOS and hardware debug fundamentals, which cover perhaps a third of the role. The defining work, cellular and WiFi module integration with secure OTA and kernel-level real-time behaviour, has no backing even adjacent. The keyword read is generous on Linux kernel, PREEMPT_RT and WiFi, so the true skill fit is well below the 63.9% keyword score.",
+    "calibration_delta": 20.9
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-02",
+    "channel": "application",
+    "notes": "Form rejection (req 37823): role needs a different combination of skills and experience."
+  }
+}

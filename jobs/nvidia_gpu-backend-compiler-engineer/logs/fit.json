@@ -1,0 +1,113 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "GPU Backend Compiler Engineer",
+  "job_slug": "gpu-backend-compiler-engineer",
+  "match_pct": 22.2,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 13,
+    "jd_ask_size": 18,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "CUDA",
+    "GPU"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "OpenGL",
+      "you_have": "OpenGL-backed VisPy viewport (visualization only)"
+    },
+    {
+      "jd_skill": "deep learning compiler",
+      "you_have": "TensorRT / ONNX model optimization"
+    }
+  ],
+  "missing_skills": [
+    "compiler code generation",
+    "compiler passes and optimizations",
+    "LLVM",
+    "instruction scheduling",
+    "software pipelining",
+    "register allocation",
+    "GlobalISel",
+    "TableGen",
+    "LLVM IR",
+    "Machine IR",
+    "DirectX",
+    "Vulkan",
+    "PTX"
+  ],
+  "top_ats_keywords": [
+    "compiler",
+    "code generation",
+    "C++",
+    "LLVM",
+    "instruction scheduling",
+    "register allocation",
+    "GlobalISel",
+    "TableGen",
+    "LLVM IR",
+    "MIR",
+    "CUDA",
+    "OpenGL",
+    "Vulkan",
+    "DirectX",
+    "PTX",
+    "GPU"
+  ],
+  "required_skills": [
+    "compiler code generation",
+    "C++",
+    "compiler passes and optimizations",
+    "software engineering"
+  ],
+  "preferred_skills": [
+    "LLVM",
+    "instruction scheduling",
+    "software pipelining",
+    "register allocation",
+    "GlobalISel",
+    "TableGen",
+    "LLVM IR",
+    "Machine IR",
+    "CUDA",
+    "DirectX",
+    "OpenGL",
+    "Vulkan"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "modify proprietary GPU compiler backend in C++",
+    "develop compiler passes and optimizations"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Austin TX / Remote US",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

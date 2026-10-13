@@ -1,0 +1,40 @@
+{
+  "company": "Tower Research Capital",
+  "company_slug": "tower-research",
+  "role": "Machine Learning Research Engineer",
+  "job_slug": "ml-research-engineer",
+  "match_pct": 87.5,
+  "missing_skills": [
+    "Direct Ray or Dask hands-on experience",
+    "Quantitative finance / trading domain exposure"
+  ],
+  "adjacent_skills": [
+    "Ray/Dask/PyTorch Distributed \u2192 you have SLURM-managed multi-node HPC + MPI",
+    "Agentic AI frameworks \u2192 you have Hugging Face Transformers/LLM fine-tuning + quantization (GPT-2, TinyLlama)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Ray",
+    "distributed training",
+    "GPU profiling",
+    "agentic workflows",
+    "LLM tooling",
+    "API design",
+    "benchmarking"
+  ],
+  "key_responsibilities": [
+    "Run complex models through the full ML pipeline to test training and inference infra",
+    "Build high-level abstractions to remove setup friction for ML researchers",
+    "Enable rapid iteration and distributed training via Ray",
+    "Use AI agents/auto-research workflows to stress-test distributed clusters",
+    "Document and publish empirical findings; advise engineering and research teams"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

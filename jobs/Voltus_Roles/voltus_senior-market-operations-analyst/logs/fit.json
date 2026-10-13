@@ -1,0 +1,94 @@
+{
+  "company": "Voltus",
+  "company_slug": "voltus",
+  "role": "Senior Market Operations Analyst",
+  "job_slug": "senior-market-operations-analyst",
+  "match_pct": 30.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 10,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "SQL"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Python automation for operational workflows",
+      "you_have": "Python scripting / automation"
+    },
+    {
+      "jd_skill": "Clear strategic analysis",
+      "you_have": "Model evaluation / benchmarking / analysis"
+    }
+  ],
+  "missing_skills": [
+    "Energy / clean tech domain experience",
+    "4+ years of full-time business-critical ownership (candidate is new grad with 0 years full-time, 7 internships)",
+    "SQL (no direct evidence in keyword list)",
+    "Market operations / energy markets knowledge (MISO, PJM, SPP, BYOC, OR/PR)",
+    "Senior-level leadership / managing junior analysts (candidate has no management experience)",
+    "Clean-energy mission alignment evidence (resume-focused on embedded/GPU/robotics not energy markets)"
+  ],
+  "top_ats_keywords": [
+    "Market Operations",
+    "BYOC",
+    "MISO",
+    "PJM",
+    "SPP",
+    "OR/PR",
+    "energy markets",
+    "Python automation",
+    "SQL",
+    "clean energy"
+  ],
+  "required_skills": [
+    "Python (operational workflow automation)",
+    "4+ years owning business-critical outcomes in low-structure environments",
+    "clear strategic analysis / distillation",
+    "collaborative teamwork / mentoring"
+  ],
+  "preferred_skills": [
+    "SQL",
+    "Energy or clean tech experience",
+    "mission alignment with clean energy transition",
+    "coaching / mentoring junior teammates"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own markets' operational success (availability, offers, interval data, performance calculations, deadlines)",
+    "Deliver high-stakes analyses that shape revenue and competitiveness",
+    "Grow into leading larger initiatives (OR/PR transformation, SPP program launches)",
+    "Lead ambiguous decisions and root-cause analysis with durable fixes",
+    "Build new program / product capabilities"
+  ],
+  "role_category": "other",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "JD states: 'Please note that at this time, we do not sponsor visas or transfers. Voltus teammates need to be authorized to work from their home location (in the US or Canada, unless otherwise indicated on the role description).' Candidate is on F-1 OPT and requires sponsorship long-term. Category (a): explicit refusal of sponsorship (CPT/OPT/STEM-OPT included via 'visas or transfers')."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,130 @@
+{
+  "company": "Caterpillar Inc.",
+  "company_slug": "caterpillar",
+  "role": "Autonomy Development Engineer",
+  "job_slug": "autonomy-development-engineer",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 0,
+    "missing_count": 9,
+    "jd_ask_size": 16,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Software Development Life Cycle",
+    "Software Testing",
+    "Problem Solving",
+    "Verification and Validation",
+    "Robotics"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Requirements Engineering",
+    "Camera Sensors",
+    "Radar Sensors",
+    "DevOps",
+    "Collision Mitigation/Avoidance",
+    "Driver Monitoring Systems",
+    "Safety Procedures Documentation",
+    "Architecture Specifications",
+    "Mining/Construction Industry Experience"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Software Development Life Cycle",
+    "Software Testing",
+    "Problem Solving",
+    "Requirements",
+    "Verification and Validation",
+    "Camera Sensors",
+    "Radar Sensors",
+    "DevOps",
+    "Collision Mitigation",
+    "Robotics",
+    "Driver Monitoring Systems",
+    "Safety Procedures",
+    "Architecture Specifications"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Software Development Life Cycle",
+    "Software Product Testing",
+    "Problem Solving"
+  ],
+  "preferred_skills": [
+    "Mining/Construction Industry Experience",
+    "Requirements Engineering Experience",
+    "Software Development for Machine Applications",
+    "Camera and Radar Sensor Test Verification",
+    "DevOps Experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and development of application software for collision mitigation/avoidance systems",
+    "Document architecture specs, design descriptions, verification plans, test cases, safety procedures",
+    "Debug/test/maintain software and hardware for robotic and driver monitoring tools",
+    "Assist verification and validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Irving, TX / Mossville, IL",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "CARLA Autonomous Driving project directly demonstrates collision-avoidance domain: adaptive control stack with lane-following/waypoint fallback, validated zero collisions across multiple laps with 30 vehicles and 10 pedestrians in Town02 \u2014 technically the closest possible match to 'machine collision mitigation and avoidance systems'",
+      "COFFIN robotic arm and Object Tracking Turret show real hardware/software integration debugging on sensor-driven robotic systems (dual VL53L0X ToF via I2C mux, resolved 11 integration failures, closed-loop servo control) \u2014 matches the JD's 'debug/test/maintain software and hardware of robotic tools' ask",
+      "C++ backed by STM32 bare-metal firmware and Arduino IK control; Python backed by PyQt GUI and ML pipelines \u2014 both languages have concrete production-adjacent code behind them, not just listed keywords"
+    ],
+    "real_gaps": [
+      "No radar sensor experience anywhere in the profile \u2014 all distance/perception sensing is camera (YOLO) or optical ToF (VL53L0X), never radar",
+      "No driver-monitoring-system experience (in-cabin sensing, drowsiness/attention detection)",
+      "No mining or construction industry exposure of any kind",
+      "No formal safety-critical documentation process \u2014 no verification plans, safety procedures, or architecture specification deliverables in an industrial SDLC sense; all testing evidence is informal (repeatability trials, accuracy metrics) rather than documented V&V process",
+      "No requirements-engineering experience \u2014 no evidence of writing, tracing, or managing formal software requirements",
+      "No CI/CD or DevOps pipeline experience \u2014 systemd/XRDP work in COFFIN is deployment/ops adjacent but not DevOps"
+    ],
+    "overstated_by_keywords": [
+      "Software Testing / Verification and Validation credited as HAVE, but the real depth is informal validation (measuring repeatability, accuracy, latency) rather than the formal verification-plan/test-case documentation process the JD explicitly names",
+      "Software Development Life Cycle credited as HAVE, but nearly all evidence is solo or small-team academic/research work, not a managed product SDLC with requirements-to-release process"
+    ],
+    "understated_by_keywords": [
+      "CARLA project's zero-collision validation across a populated simulated town is genuine collision-avoidance domain evidence that the keyword pass fully missed (it marked 'Collision Mitigation/Avoidance' 100% missing)",
+      "COFFIN's multi-sensor integration debugging (contact-aware grasping via ToF gating, resolving false-positive detections and servo brown-out) is real robotic-hardware debugging depth the keyword pass didn't specifically credit"
+    ],
+    "screening_gaps": [
+      "No mining/construction industry experience \u2014 explicitly called out as required for top candidates, and the first filter an OEM recruiter applies",
+      "No radar sensor experience \u2014 the JD explicitly pairs camera and radar; profile only covers camera and optical ToF",
+      "No formal safety-critical/verification documentation experience \u2014 everything is academic-scale, not a documented industrial safety process"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The technical core is closer than the keyword score suggests \u2014 the CARLA collision-avoidance project and robotic sensor-integration debugging are genuinely on-domain \u2014 but the role's explicit differentiators (mining/construction background, radar sensing, formal safety-critical documentation) have zero backing in the profile. This reads as a role where the resume would need the CARLA/COFFIN work reframed hard toward collision-avoidance and integration debugging, with the domain gaps disclosed rather than papered over.",
+    "calibration_delta": -3.2
+  }
+}

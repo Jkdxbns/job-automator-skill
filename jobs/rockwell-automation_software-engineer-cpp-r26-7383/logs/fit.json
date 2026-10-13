@@ -1,0 +1,129 @@
+{
+  "company": "Rockwell Automation",
+  "company_slug": "rockwell-automation",
+  "role": "Software Engineer - C++",
+  "job_slug": "software-engineer-cpp-r26-7383",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 19,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Qt",
+    "Linux",
+    "Visual Studio Code",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C#",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": ".NET",
+      "you_have": "PySide6/Qt"
+    },
+    {
+      "jd_skill": "React",
+      "you_have": "PySide6/Qt GUI"
+    },
+    {
+      "jd_skill": "TypeScript",
+      "you_have": "Python/C++"
+    },
+    {
+      "jd_skill": "AI models for design/debugging",
+      "you_have": "Gemini/LLM tooling"
+    },
+    {
+      "jd_skill": "WSL",
+      "you_have": "Linux"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "MariaDB",
+    "GitHub Actions",
+    "Visual Studio",
+    "Unit testing",
+    "Test automation"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Qt",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "MariaDB",
+    "GitHub Actions",
+    "Visual Studio",
+    "Linux",
+    "WSL",
+    "C#",
+    "TypeScript",
+    "React",
+    ".NET",
+    "unit tests",
+    "test automation"
+  ],
+  "required_skills": [
+    "C++",
+    "Software product development",
+    "Unit testing",
+    "Test automation"
+  ],
+  "preferred_skills": [
+    "C#",
+    "TypeScript",
+    "Qt",
+    "React",
+    ".NET",
+    "Kubernetes",
+    "Helm",
+    "Docker",
+    "MariaDB",
+    "AI models for design/debugging",
+    "GitHub Actions",
+    "Visual Studio",
+    "VS Code",
+    "Linux/WSL"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Implement HMI features",
+    "Unit and automated testing",
+    "Debug anomalies",
+    "Design/code reviews"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Milwaukee, WI (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,151 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Senior Embedded Audio Software Engineer",
+  "job_slug": "senior-embedded-audio-software-engineer",
+  "match_pct": 70.6,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 17,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Embedded Software",
+    "Real-Time Operating Systems",
+    "Data Structures",
+    "Algorithms",
+    "Embedded Driver Development",
+    "Debugging Tools",
+    "ARM/DSP SoC"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Audio Software",
+      "you_have": "Digital Signal Processing / ASR pipelines"
+    },
+    {
+      "jd_skill": "Multi-threaded Programming",
+      "you_have": "MPI / CUDA parallelism"
+    },
+    {
+      "jd_skill": "Power/Memory/Performance Optimization",
+      "you_have": "CUDA memory coalescing, quantization"
+    },
+    {
+      "jd_skill": "Computer Architecture",
+      "you_have": "High Performance Architecture coursework"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "Multimedia/Audio Framework",
+    "Software Design Patterns"
+  ],
+  "top_ats_keywords": [
+    "Embedded Software",
+    "Audio",
+    "C/C++",
+    "Python",
+    "RTOS",
+    "Multi-threaded",
+    "Drivers",
+    "ARM",
+    "DSP",
+    "Snapdragon",
+    "Design Patterns",
+    "Optimization",
+    "Debugging"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Java",
+    "Embedded Software",
+    "Audio Software",
+    "Multi-threaded Programming",
+    "Real-Time Operating Systems"
+  ],
+  "preferred_skills": [
+    "Software Design Patterns",
+    "Computer Architecture",
+    "Data Structures",
+    "Algorithms",
+    "Power/Memory/Performance Optimization",
+    "Multimedia/Audio Framework",
+    "Embedded Driver Development",
+    "Debugging Tools",
+    "ARM/DSP SoC"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Technically lead embedded audio software design and development on Snapdragon",
+    "Meet performance, latency, power, robustness metrics",
+    "Requirements analysis and documentation",
+    "Driver and framework troubleshooting"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded C/C++ with interrupt-driven peripherals: STM32 bare-metal temp monitor (I2C driver, TIM2, ADC1, 3.68 KB Flash / 1.58 KB RAM)",
+      "Real-time task coordination: Object Tracking Turret on FreeRTOS with mutexes",
+      "Speech/audio signal path: from-scratch ASR with 80-channel mel spectrogram front end, 15% WER; faster-whisper STT in COFFIN",
+      "Performance and memory optimization with measured results: CUDA coalescing 49.2 vs 73.3 ms, TensorRT 5.2x, 8-bit quantization ~55% memory cut",
+      "Debug tooling: oscilloscopes, logic analyzers, 11 integration failures resolved in COFFIN"
+    ],
+    "real_gaps": [
+      "No audio or multimedia framework work (codecs, audio pipelines, DMA audio buffers, ALSA/HAL-style stacks)",
+      "No DSP-core or Snapdragon-class SoC experience; ARM exposure is Cortex-M4 only",
+      "No power-management or latency-budget work on a shipping device",
+      "No Java",
+      "Design patterns only lightly evidenced (mix-in pattern in Frame Simulator)",
+      "Senior 'technically lead' scope vs internship/capstone track record"
+    ],
+    "overstated_by_keywords": [
+      "ARM/DSP SoC counted Have but is Cortex-M4 bare-metal, not an application SoC or DSP",
+      "Embedded Driver Development is one I2C driver plus peripheral setup, not driver framework work",
+      "Audio Software adjacent credit rests on ASR front end, which is ML, not real-time audio DSP"
+    ],
+    "understated_by_keywords": [
+      "Measured memory/latency optimization across CUDA, TensorRT and quantization is real depth toward the performance-metric responsibility"
+    ],
+    "screening_gaps": [
+      "No audio/multimedia software framework or codec/DSP experience in an audio-centric role",
+      "Senior tech-lead scope with 0 years full-time and no shipped production embedded software",
+      "No Snapdragon/DSP-core or power/latency-budget work on a commercial SoC"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong embedded C/C++, RTOS and optimization base, and the ASR mel-spectrogram work touches the audio domain, but the role's core (audio framework on Snapdragon, DSP, power) is unevidenced. Min quals (Master's + 1 yr, 2+ yrs C/C++ academic) are met; the senior lead scope is the real risk.",
+    "calibration_delta": 13.6
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "Embedded Software Engineer Intern (Fall 2026)",
+  "job_slug": "embedded_software_engineer_intern_fall_2026",
+  "url": "https://www.zipline.com/open-roles/7765240003",
+  "date_analyzed": "2026-07-16",
+  "location": "South San Francisco, California, USA",
+  "remote_ok": false,
+  "compensation": "$54/hour + relocation support, housing stipend, overtime pay",
+  "term": "September to December 2026, full-time, in-person",
+  "match_pct": 90,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "RTOS (FreeRTOS)",
+    "Embedded Linux (Jetson)",
+    "Bare-metal (STM32 Cortex-M4)",
+    "Electromechanical systems / robots (Robocon, UR5e, AL5B, turret)",
+    "Reading schematics (EAGLE, Proteus)",
+    "Oscilloscope / logic analyzer debugging",
+    "SPI",
+    "UART",
+    "I2C",
+    "GPIO / interrupts / PWM / ADC",
+    "Perception pipelines (ROS2, YOLO, depth estimation)"
+  ],
+  "adjacent_skills": [
+    "Rust -> has C/C++ (JD requires only one of C/C++/Python/Rust)",
+    "HIL testing -> has bench-top validation, logic analyzers, ToF-triggered test rigs",
+    "RF/antenna validation -> has PCB design, signal debugging, Bluetooth/BLE"
+  ],
+  "missing_skills": [
+    "CAN bus"
+  ],
+  "top_ats_keywords": [
+    "embedded C",
+    "C++",
+    "RTOS",
+    "embedded Linux",
+    "firmware",
+    "SPI",
+    "UART",
+    "CAN",
+    "I2C",
+    "GPIO",
+    "ADC",
+    "oscilloscope",
+    "schematics",
+    "safety-critical",
+    "real-time",
+    "hardware-in-the-loop",
+    "sensor integration",
+    "perception",
+    "Python",
+    "drivers"
+  ],
+  "key_responsibilities": [
+    "Develop firmware for real-time coprocessors managing high-frequency signals and I/O expansion for Linux camera subsystems",
+    "Build high data rate voltage/current telemetry systems in RTOS using ADCs, I2C devices, GPIO interrupts",
+    "Build RF radio test setups validating antenna performance at production end-of-line, including HIL integration and simulation",
+    "Rapidly iterate on perception system concepts, integrating compute modules and sensor prototypes",
+    "Improve ground systems behavior for faster aircraft launch and landing; verify via bench-top and flight-test methods",
+    "Deploy embedded software to devices globally; fault response and handling"
+  ],
+  "role_category": "embedded_systems",
+  "constraint_flags": {
+    "sponsorship": "Not mentioned in JD. Intern roles normally run on CPT/OPT, not H1B sponsorship.",
+    "enrollment": "BLOCKING - JD requires 'Pursuing a degree'. Justin graduated May 2026 and is no longer enrolled.",
+    "ead_timing": "BLOCKING - EAD not approved as of 2026-07-14, expected late September 2026. Internship starts September 2026.",
+    "location": "OK - South San Francisco in-person; willing_to_relocate = true; relocation + housing stipend offered.",
+    "clearance": "None required.",
+    "opt_burn": "STRATEGIC - a Sept-Dec internship consumes OPT runway and ends exactly when status risk peaks (~late Dec)."
+  },
+  "hard_blocker_triggered": false,
+  "prescreen_result": "CLEAR",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "No"
+  },
+  "verdict_notes": "Skills match strongly (90%). Keyword logic alone would return 'Can Try', but two binding eligibility constraints (enrollment status + EAD timing) override. Not a skills problem.",
+  "llm_analysis": null
+}

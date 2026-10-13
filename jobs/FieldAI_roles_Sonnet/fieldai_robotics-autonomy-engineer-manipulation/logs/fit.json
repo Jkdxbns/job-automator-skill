@@ -1,0 +1,128 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Manipulation",
+  "job_slug": "robotics-autonomy-engineer-manipulation",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 17,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS/ROS2 robotics + MoveIt (COFFIN arm capstone, AL5B, UR5e)",
+    "Computer vision: YOLOv8, OpenCV, U-Net (BraTS MRI), visual servoing",
+    "Deep learning / ML: PyTorch, TensorFlow, Keras, HuggingFace, quantization (bitsandbytes), ASR (faster-whisper)",
+    "Edge AI deployment: NVIDIA Jetson, TensorRT-optimized YOLO (5.2x speedup), TFLite/ONNX export",
+    "CUDA / GPU optimization: custom CUDA C++ kernels, memory coalescing, 35% VGG16 speedup",
+    "Embedded C/C++ bare-metal: STM32 Cortex-M4, FreeRTOS, interrupt-driven ADC/I2C drivers, UART/BL/ToF integration",
+    "Python + C++ programming and real-time embedded sensor integration",
+    "Robotics manipulation: DH parameters, forward kinematics, dual-sensor integration, 100% pick reliability system",
+    "Hardware-in-the-loop deployment: Jetson + Arduino + sensors (ToF, I2C mux, Bluetooth LE)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Field autonomy / planning in unstructured outdoor/unknown environments",
+      "you_have": "ROS manipulation/perception pipelines (COFFIN, turret); basic MoveIt planning; no full SLAM/field-planning at production scale"
+    },
+    {
+      "jd_skill": "Production-scale globally deployed autonomy / reliability engineering",
+      "you_have": "Internship/research-scale deployments (gesture glove, robot arm, crack-depth profiling); no commercial-scale field operations"
+    },
+    {
+      "jd_skill": "Safety-critical / risk-aware reliability / explainability for real-world use",
+      "you_have": "Robust embedded and robotics systems with sensor redundancy; no formal functional-safety (ISO 26262) or explainability framework"
+    },
+    {
+      "jd_skill": "Cross-disciplinary AI + rigorous engineering at commercial scale",
+      "you_have": "Strong ML + embedded/hardware integration across 7 internships/research; scale is academic/internship, not company-scale production"
+    }
+  ],
+  "missing_skills": [
+    "Full-time industry autonomy/robotics engineering experience (0 full-time years; 7 internships/research)",
+    "Production-scale globally deployed field-autonomy systems (only research/internship scale)",
+    "Formal functional-safety / risk-aware reliability certification (ISO 26262, safety-critical robotics)",
+    "Advanced SLAM / navigation planning for unstructured field environments beyond basic ROS MoveIt"
+  ],
+  "top_ats_keywords": [
+    "embodied AI",
+    "robotics autonomy",
+    "manipulation",
+    "perception",
+    "planning",
+    "localization",
+    "ROS2",
+    "MoveIt",
+    "real-time",
+    "field deployment",
+    "unstructured environments",
+    "Deep Learning",
+    "PyTorch",
+    "TensorRT",
+    "Jetson",
+    "CUDA",
+    "OpenCV",
+    "YOLO",
+    "embedded C",
+    "STM32",
+    "FreeRTOS",
+    "Python",
+    "C++"
+  ],
+  "required_skills": [
+    "Robotics autonomy (manipulation, embodied AI)",
+    "Real-world hardware deployment with sensors",
+    "Perception, planning, localization for unstructured environments",
+    "Learning systems (ML/DL) + rigorous software engineering",
+    "Real-time embedded / sensor integration",
+    "Cross-disciplinary AI + robotics collaboration"
+  ],
+  "preferred_skills": [
+    "ROS/ROS2, MoveIt, RViz",
+    "Computer vision (OpenCV, YOLO, U-Net)",
+    "Deep learning / PyTorch / model deployment (TensorRT, TFLite, quantization)",
+    "CUDA / GPU optimization",
+    "Embedded C/C++ (bare-metal, FreeRTOS)",
+    "Safety / risk-awareness for field systems",
+    "Production-scale deployment experience",
+    "Python, C++"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and test autonomy/manipulation systems on real robots and sensors",
+    "Ship perception, planning, localization, and manipulation pipelines for field deployment",
+    "Operate in unstructured, previously unknown environments outside the lab",
+    "Combine rigorous engineering with ML/learning systems for reliable deployment",
+    "Collaborate across AI, software, robotics engineering, and field deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No mandatory year requirement stated (0 years); title is non-senior engineer; no sponsorship/clearance/citizenship/ITAR restrictions in JD; candidate is willing to relocate to Irvine, CA"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

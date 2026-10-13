@@ -1,0 +1,158 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Embedded Software Engineer - Vehicle Software",
+  "job_slug": "embedded-software-engineer-vehicle-software",
+  "match_pct": 71.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 2,
+    "jd_ask_size": 16,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ systems programming",
+    "Embedded / bare-metal / RTOS development",
+    "SPI / I2C / UART protocols",
+    "State machines",
+    "Interrupts / hardware interfaces",
+    "Hardware debugging tools",
+    "Robotics / autonomous perception",
+    "Digital electronics / signal processing",
+    "Real-time embedded development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN protocol",
+      "you_have": "UART/I2C/SPI digital protocols"
+    },
+    {
+      "jd_skill": "Memory management (embedded)",
+      "you_have": "Memory coalescing (GPU/embedded memory concept)"
+    },
+    {
+      "jd_skill": "Rust (basic systems programming covered by C/C++)",
+      "you_have": "C/C++ systems programming"
+    },
+    {
+      "jd_skill": "Autonomous rail / automotive domain",
+      "you_have": "Robotics / autonomous perception"
+    },
+    {
+      "jd_skill": "Control systems / PID / motion control",
+      "you_have": "Closed-loop / PWM motor control"
+    }
+  ],
+  "missing_skills": [
+    "Direct Rust production embedded experience (preferred; basic C/C++ covers the basic systems-programming ask)",
+    "CAN bus protocol specifically (required; UART/I2C/SPI present but CAN directly absent)"
+  ],
+  "top_ats_keywords": [
+    "Rust",
+    "embedded software",
+    "C/C++",
+    "microcontrollers",
+    "real-time",
+    "RTOS",
+    "bare-metal",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "state machines",
+    "interrupts",
+    "memory management",
+    "hardware interfaces",
+    "autonomous vehicles",
+    "robotics",
+    "autonomous rail",
+    "control systems",
+    "PID",
+    "hardware debugging",
+    "oscilloscopes",
+    "logic analyzers",
+    "embedded development",
+    "real-time software"
+  ],
+  "required_skills": [
+    "C/C++/Rust systems programming",
+    "Embedded systems / microcontrollers / real-time development",
+    "Digital communication protocols (SPI, I2C, UART, CAN)",
+    "State machines, interrupts, memory management, hardware interfaces",
+    "Debugging technical systems / hardware-software integration",
+    "Problem-solving with direct hardware",
+    "Willingness to learn Rust"
+  ],
+  "preferred_skills": [
+    "Bare-metal or RTOS-based development experience",
+    "Hardware debugging tools (oscilloscopes, logic analyzers, debuggers)",
+    "Robotics / autonomous systems / automotive / aerospace / industrial automation",
+    "Control systems / PID controllers / motion control",
+    "Electrical engineering / digital electronics coursework or projects",
+    "Experience with Rust / production embedded software in Rust"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop and maintain embedded software for bare-metal and RTOS-based systems",
+    "Implement and test digital communication protocols (SPI, I2C, UART, CAN)",
+    "Contribute to state machines and command/control software for autonomous vehicle systems",
+    "Write reliable, memory-conscious embedded software (primarily in Rust)",
+    "Work with hardware engineers to integrate, debug, and validate hardware-software interfaces"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Bare-metal firmware: STM32 Temperature Monitor 'programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1)', 'timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver', 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz.",
+      "RTOS work: Object Tracking Turret 'used FreeRTOS with mutexes for shared-memory task coordination', interrupt-driven UART commands, multi-servo PWM.",
+      "State machines and interrupts: Robocon 'interrupt-driven quadrature decoding... a 4-bit A/B transition state machine' and a 'fail-safe state machine halting all motors on controller disconnect'.",
+      "Protocols and debug tooling: UART/I2C/SPI across projects, plus oscilloscopes, logic analyzers and spectrum analyzers in the skills list.",
+      "Control and motion: closed-loop heading correction and 15 kHz PWM drive for a holonomic robot (the JD's 'motion control')."
+    ],
+    "real_gaps": [
+      "Rust: none in the profile; the JD calls it the primary language but frames it as 'willingness to learn'.",
+      "CAN bus: no CAN bus work anywhere in the profile (UART/I2C/SPI only).",
+      "Hardware test stands and automated unit/integration tests for embedded code: COFFIN trial runs (10/10) are manual validation, not a test-stand framework."
+    ],
+    "overstated_by_keywords": [
+      "'real-time' counted as HAVE: the evidence is deterministic timer-driven loops and FreeRTOS tasks, not formally analysed real-time behavior."
+    ],
+    "understated_by_keywords": [
+      "Robocon's fail-safe state machine and interrupt-driven decoder are direct hits on 'state machines, interrupts, memory-conscious' that the keyword list scored as generic C/embedded."
+    ],
+    "screening_gaps": [
+      "No Rust experience (primary language of the role)",
+      "No CAN bus experience",
+      "No embedded test-stand / automated hardware-in-the-loop testing experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is an early-career embedded role and the profile maps almost one-to-one: bare-metal STM32 with interrupts and ADC/I2C, FreeRTOS, UART/I2C/SPI, state machines, closed-loop control and bench instruments. The real gaps are Rust and CAN, and the JD itself says it will teach Rust.",
+    "calibration_delta": -10.1
+  },
+  "semantic_pending": false
+}

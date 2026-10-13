@@ -1,0 +1,123 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Developer, Embedded Systems/Firmware, DNN Frameworks",
+  "job_slug": "embedded-firmware-dnn-frameworks",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 10,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "embedded systems",
+    "firmware",
+    "embedded operating systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "DNN frameworks",
+      "you_have": "PyTorch / TensorRT / TFLite"
+    },
+    {
+      "jd_skill": "software testing/launching products",
+      "you_have": "internship and project testing"
+    },
+    {
+      "jd_skill": "software design and architecture",
+      "you_have": "RTOS and inference engine design"
+    },
+    {
+      "jd_skill": "data structures and algorithms",
+      "you_have": "coursework, DSA prep"
+    }
+  ],
+  "missing_skills": [
+    "technical leadership",
+    "Android development"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded systems",
+    "firmware",
+    "embedded operating systems",
+    "DNN",
+    "Android",
+    "software architecture",
+    "testing"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded operating systems",
+    "embedded systems",
+    "firmware",
+    "software testing",
+    "software design and architecture"
+  ],
+  "preferred_skills": [
+    "data structures and algorithms",
+    "technical leadership",
+    "Android development"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "DNN deployment depth: TensorRT-optimized YOLO 5.2x speedup (56.7 to 10.9 ms) on Jetson, ONNX/TFLite export, 8-bit quantization",
+      "Embedded C/C++ across STM32 bare-metal, Arduino IK in C++, UART/I2C/SPI, ToF sensor integration",
+      "CUDA kernel optimization and inference profiling, relevant to DNN framework internals"
+    ],
+    "real_gaps": [
+      "No production firmware or embedded OS ownership: embedded OS work is coursework FreeRTOS plus personal builds, not shipped devices",
+      "No Android development",
+      "No professional C/C++ years: 0 full-time, internships were mostly Python/ML",
+      "No evidence of designing or maintaining a DNN framework or compiler/runtime stack (consumer of TensorRT, not builder)",
+      "Technical leadership limited to student club and team lead in a 6-week fellowship"
+    ],
+    "overstated_by_keywords": [
+      "embedded operating systems counted Have, but backed by RTOS coursework and personal projects only",
+      "firmware counted Have, but no shipped firmware"
+    ],
+    "understated_by_keywords": [
+      "From-scratch C++/CUDA inference engine and custom RTOS projects show framework-level interest, though not yet at professional depth"
+    ],
+    "screening_gaps": [
+      "5 years of C/C++ and 3 years of embedded OS experience required; 0 full-time years",
+      "No shipped or maintained firmware/software product (3 years testing/launching required)",
+      "No Android or DNN framework internals experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Domain is a strong topical match (DNN on embedded hardware, C/C++, Jetson/TensorRT), but the minimum qualifications are written for a 5+ year engineer and the profile is new-grad scope. Years are the likely screen-out, not skills.",
+    "calibration_delta": 3.0
+  },
+  "semantic_pending": false
+}

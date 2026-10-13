@@ -1,0 +1,138 @@
+{
+  "company": "Wolverine Trading",
+  "company_slug": "wolverine-trading",
+  "role": "Entry Level C++ Software Engineer",
+  "job_slug": "entry-level-cpp-swe",
+  "match_pct": 63.6,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 2,
+    "jd_ask_size": 11,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "performance tuning",
+    "real-time systems",
+    "profiling",
+    "testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "object-oriented design",
+      "you_have": "C++ (embedded/CUDA projects), Python"
+    },
+    {
+      "jd_skill": "C++17/20",
+      "you_have": "C++ (working depth, no modern-C++ evidence)"
+    },
+    {
+      "jd_skill": "multi-threaded programming",
+      "you_have": "FreeRTOS mutexes, MPI, CUDA parallelism"
+    },
+    {
+      "jd_skill": "troubleshooting",
+      "you_have": "hardware debugging (oscilloscope, logic analyzer)"
+    }
+  ],
+  "missing_skills": [
+    "data structures and algorithms",
+    "financial markets"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C++17/20",
+    "object-oriented design",
+    "data structures",
+    "algorithms",
+    "multi-threaded programming",
+    "performance tuning",
+    "real-time systems",
+    "profiling",
+    "testing",
+    "troubleshooting",
+    "financial markets"
+  ],
+  "required_skills": [
+    "C++",
+    "object-oriented design",
+    "data structures and algorithms",
+    "multi-threaded programming",
+    "performance tuning",
+    "real-time systems"
+  ],
+  "preferred_skills": [
+    "C++17/20",
+    "financial markets"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design, develop, test C++ trading applications",
+    "Translate trader requirements into technical solutions",
+    "Monitor, profile, troubleshoot applications",
+    "Full lifecycle from idea to production support"
+  ],
+  "role_category": "ml_systems",
+  "location": "Chicago, IL (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Performance tuning is real depth: CUDA kernel work took VGG16 from 73.3 ms to 49.2 ms, TensorRT YOLO got 5.2x (56.7 to 10.9 ms), and the MPI ray tracer reached 30x with measured load-imbalance analysis",
+      "Real-time and concurrency-adjacent: STM32 bare-metal ISR/timer firmware at deterministic 1 Hz in 3.68 KB Flash, FreeRTOS with mutexes on the turret, multiprocessing capture pipeline in COFFIN",
+      "Profiling and troubleshooting habit: pynvml VRAM/latency profiling on TinyLlama; resolved 11 integration failures to reach 10/10 pick reliability"
+    ],
+    "real_gaps": [
+      "No data structures and algorithms evidence anywhere in the profile",
+      "C++ is shown only as CUDA kernels and Arduino IK; no C++ application with class design, STL, or C++17/20 features",
+      "Threading is RTOS mutexes and MPI processes; no std::thread, atomics, lock-free or contention work",
+      "No finance, market data, order book or low-latency network work",
+      "All production-style work is capstone/research/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "object-oriented design counted Adjacent, but the modular Frame Simulator is Python and the C++ work is procedural kernels",
+      "C++17/20 counted Adjacent to C++, but there is no modern-C++ evidence"
+    ],
+    "understated_by_keywords": [
+      "MPI scaling studies and CUDA memory coalescing show genuine performance-engineering reasoning that maps to latency-sensitive trading code",
+      "Bare-metal ISR and timer work is real determinism experience"
+    ],
+    "screening_gaps": [
+      "No demonstrable data structures and algorithms strength, which prop-firm C++ screens (coding rounds) lean on hardest",
+      "No C++ application-level evidence (OOD, STL, C++17/20, std::thread/atomics); C++ appears only in CUDA and Arduino contexts",
+      "No finance or low-latency trading-systems exposure to show the interest the JD asks for"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role is entry level and rewards performance tuning, real-time thinking and measurement, which are your strongest genuine areas. The risk is the screen itself: a trading firm will test DSA and C++ fluency directly, and the profile has no evidence for either beyond kernels and firmware. Worth applying, but only if you are ready for a C++/DSA coding round.",
+    "calibration_delta": 11.6
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-29",
+    "channel": "application",
+    "notes": "Rejected after completing the online assessment; moved forward with other candidates. No feedback."
+  }
+}

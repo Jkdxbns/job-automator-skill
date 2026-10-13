@@ -1,0 +1,196 @@
+{
+  "company": "Hextronics (Hex)",
+  "company_slug": "hextronics",
+  "role": "Embedded Firmware Engineer",
+  "job_slug": "embedded-firmware-engineer",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 28,
+    "req_cov": 0.969,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "bare metal",
+    "RTOS",
+    "STM32",
+    "microcontrollers",
+    "peripheral configuration",
+    "schematic and board layout reading",
+    "oscilloscope",
+    "logic analyzer",
+    "root cause analysis",
+    "debugging",
+    "firmware",
+    "embedded"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "clock and power management",
+      "you_have": "STM32 TIM2/ADC1 bare-metal config; servo brown-out fix"
+    },
+    {
+      "jd_skill": "hardware bring-up",
+      "you_have": "custom EAGLE PCBs + UART/I2C sensor integration"
+    },
+    {
+      "jd_skill": "datasheet reading",
+      "you_have": "VL53L0X/ADXL345/TCA9548A driver integration"
+    },
+    {
+      "jd_skill": "test and validation procedures",
+      "you_have": "10/10 pick trials, benchmark harnesses"
+    },
+    {
+      "jd_skill": "Altium",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "motor control",
+      "you_have": "multi-servo PWM control"
+    },
+    {
+      "jd_skill": "UAV robotics aerospace",
+      "you_have": "ROS2 robotics projects"
+    }
+  ],
+  "missing_skills": [
+    "LoRa",
+    "Wi-Fi HaLow",
+    "hardware-in-the-loop",
+    "automated test rig",
+    "power electronics",
+    "FCC regulatory testing",
+    "shipped product firmware"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded",
+    "C",
+    "C++",
+    "STM32",
+    "RTOS",
+    "bare metal",
+    "microcontroller",
+    "oscilloscope",
+    "logic analyzer",
+    "schematic",
+    "datasheet",
+    "bring-up",
+    "peripheral",
+    "validation",
+    "root cause analysis",
+    "LoRa",
+    "Altium",
+    "motor control",
+    "hardware-in-the-loop",
+    "FCC",
+    "UAV"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "bare metal",
+    "RTOS",
+    "STM32",
+    "microcontrollers",
+    "peripheral configuration",
+    "clock and power management",
+    "schematic and board layout reading",
+    "datasheet reading",
+    "oscilloscope",
+    "logic analyzer",
+    "hardware bring-up",
+    "test and validation procedures",
+    "root cause analysis",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "LoRa",
+    "Wi-Fi HaLow",
+    "hardware-in-the-loop",
+    "automated test rig",
+    "motor control",
+    "power electronics",
+    "FCC regulatory testing",
+    "Altium",
+    "shipped product firmware",
+    "UAV robotics aerospace"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "firmware for drone and dock platforms (bare metal + RTOS)",
+    "board bring-up and peripheral validation",
+    "debug with scope and logic analyzer",
+    "read schematics/layouts/datasheets",
+    "test and validation procedures",
+    "first point of contact for integration",
+    "root cause analysis",
+    "architecture decisions"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Miami, FL (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal STM32: Cortex-M4 firmware programming GPIO, TIM2, ADC1, I2C1 directly, 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz (STM32 Bare-Metal Temperature Monitor)",
+      "RTOS on STM32: FreeRTOS mutexes, interrupt-driven UART, multi-servo PWM (Object Tracking Turret)",
+      "Hardware-side literacy: custom single-layer EAGLE PCBs with UART/I2C sensor comms, and servo brown-out / 11 integration failures resolved in COFFIN"
+    ],
+    "real_gaps": [
+      "No shipped or professional firmware, 0 FT years vs 2-5 targeted",
+      "Board bring-up from schematic and layout: evidence is dev boards and Proteus simulation, not powering up a new board",
+      "Scope/logic-analyzer debugging listed as tools, no bullet showing a firmware-vs-hardware bug traced with them",
+      "Clock tree and power management, low-power design",
+      "LoRa / Wi-Fi HaLow, HIL rigs, power electronics, FCC, Altium, drones"
+    ],
+    "overstated_by_keywords": [
+      "Oscilloscopes / Logic Analyzers (tool list only)",
+      "STM32 peripheral config (verified in Proteus simulation)",
+      "Datasheet reading (inferred from sensor driver work)"
+    ],
+    "understated_by_keywords": [
+      "Hands-on building outside formal work is strongly evidenced (COFFIN, turret, robotics club PCBs), which the JD explicitly asks for and which the keyword pass has no term for"
+    ],
+    "screening_gaps": [
+      "No professional or shipped firmware, 0 years against a 2-5 year target",
+      "Thin proof of real board bring-up and scope/logic-analyzer debugging on hardware",
+      "No backing for clock/power management, low-power, motor control or power electronics depth"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core stack (C/C++, STM32 bare metal, FreeRTOS, PCB design, sensor buses) is genuinely backed, and the JD explicitly opens the door to earlier-career candidates with hands-on projects. The gap is bench-level bring-up and product experience, not the language or MCU family.",
+    "calibration_delta": 5.5
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-05",
+    "channel": "application",
+    "notes": "Form rejection: not an ideal fit. No feedback."
+  }
+}

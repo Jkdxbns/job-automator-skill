@@ -1,0 +1,137 @@
+{
+  "company": "Welocalize",
+  "company_slug": "welocalize",
+  "role": "Data Labeling Analyst - Speech & Voice AI",
+  "job_slug": "data-labeling-analyst-speech",
+  "match_pct": 60.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Command-line tools",
+    "ASR",
+    "Machine learning",
+    "Model evaluation",
+    "Data analysis",
+    "Python",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Natural language processing",
+      "you_have": "Tokenization/Transformers"
+    },
+    {
+      "jd_skill": "LLM evaluation",
+      "you_have": "GSM8K/HellaSwag benchmarking"
+    },
+    {
+      "jd_skill": "Synthetic data",
+      "you_have": "ML datasets"
+    }
+  ],
+  "missing_skills": [
+    "Data annotation",
+    "Quality assurance",
+    "Linguistics",
+    "Multilingual data"
+  ],
+  "top_ats_keywords": [
+    "ASR",
+    "LLM evaluation",
+    "data annotation",
+    "NLP",
+    "Python",
+    "Linux",
+    "command-line",
+    "quality assurance",
+    "machine learning"
+  ],
+  "required_skills": [
+    "Command-line tools",
+    "Data annotation",
+    "Quality assurance",
+    "Natural language processing",
+    "Data analysis",
+    "Model evaluation",
+    "Machine learning"
+  ],
+  "preferred_skills": [
+    "Linguistics",
+    "Multilingual data",
+    "Synthetic data"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "dataset updates",
+    "annotation guidelines",
+    "model training via CLI",
+    "model evaluation",
+    "manual QA",
+    "ASR bug tracking",
+    "LLM evaluation"
+  ],
+  "role_category": "ml_systems",
+  "location": "CA / New York / US remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN Whisper-style ASR from scratch: 15% WER on NPTEL Indian-English, custom BPE tokenizer, direct speech/ASR error-analysis relevance",
+      "Curated and annotated 1,133-image toothbrush dataset (YOLOv8), real hands-on annotation",
+      "CARLA automated synthetic data generation (~5,000 YOLO / ~3,000 UFLD frames), maps to synthetic data updates",
+      "SLM benchmarking on HellaSwag, GSM8K, ARC maps to LLM evaluation",
+      "Python, Linux, Bash CLI, Pandas/NumPy for analysis and model training runs"
+    ],
+    "real_gaps": [
+      "No annotation guideline authoring or inter-annotator arbitration experience",
+      "No linguistics or computational linguistics background; NLP exposure is tokenization and ASR modeling only",
+      "No manual QA or bug-reporting workflow for UX research teams, no written analysis reports on utterance quality",
+      "No multilingual or translation data work",
+      "Profile is a hardware/CUDA/edge-AI engineer; role is an analyst and annotation operations job, so seniority and domain are an underuse of the profile"
+    ],
+    "overstated_by_keywords": [
+      "NLP counted adjacent but backed only by tokenizer and ASR decoder work, not linguistic analysis",
+      "Data analysis counted Have but evidence is model metrics, not error-pattern analysis of labeled data"
+    ],
+    "understated_by_keywords": [
+      "Data annotation marked Missing but the toothbrush YOLOv8 dataset shows real annotation and curation",
+      "Synthetic data counted only Adjacent but CARLA pipelines are genuine synthetic dataset generation"
+    ],
+    "screening_gaps": [
+      "No linguistics or annotation-guideline background",
+      "No evidence of manual QA, arbitration or analyst-style reporting for UX research",
+      "Engineering-heavy profile for an analyst role, risk of being read as overqualified or flight risk"
+    ],
+    "recommend_apply": true,
+    "reasoning": "ASR project and the annotated and synthetic datasets give real backing for the speech, evaluation and CLI parts of the role. The linguistic, guideline and QA-reporting core has no direct evidence. It is a plausible entry route into speech AI but well below the CUDA/embedded target track.",
+    "calibration_delta": 2.7
+  },
+  "semantic_pending": false
+}

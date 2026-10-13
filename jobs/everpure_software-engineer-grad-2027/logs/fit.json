@@ -1,0 +1,127 @@
+{
+  "company": "Everpure",
+  "company_slug": "everpure",
+  "role": "Software Engineer Grad 2027",
+  "job_slug": "software-engineer-grad-2027",
+  "match_pct": 59.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 11,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "data structures",
+    "algorithms",
+    "performance optimization",
+    "automated testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "concurrency",
+      "you_have": "CUDA / MPI / RTOS"
+    },
+    {
+      "jd_skill": "replication / WAN networking",
+      "you_have": "TCP/IP networking"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI"
+    }
+  ],
+  "missing_skills": [
+    "storage",
+    "cloud",
+    "deduplication"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "data structures",
+    "algorithms",
+    "concurrency",
+    "automated testing",
+    "distributed systems",
+    "storage",
+    "replication",
+    "performance optimization",
+    "cloud"
+  ],
+  "required_skills": [
+    "C++",
+    "data structures",
+    "algorithms",
+    "concurrency",
+    "computer science fundamentals",
+    "design principles"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "data deduplication and reclamation",
+    "WAN replication",
+    "performance and scalability",
+    "automated testing"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara, CA (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Low-level systems depth: bare-metal C on STM32, FreeRTOS with mutexes, interrupt-driven UART (Object Tracking Turret) maps to the 'low-level hardware' half of the role",
+      "Performance engineering with measured results: CUDA coalescing 73.3ms to 49.2ms, TensorRT YOLO 5.2x, Cython BPE 4-5.5x faster (backs 'enhance system performance')",
+      "Parallelism exposure across levels: MPI/SLURM clusters, CUDA kernels, multiprocessing multi-camera capture in COFFIN",
+      "Golden-vector verification in QAT project (100 vectors, 99.996% match) shows a test-against-reference habit"
+    ],
+    "real_gaps": [
+      "No storage, file system, or data-reduction work (dedup, compression, reclamation, garbage collection)",
+      "No WAN replication or distributed-state work; networking is device-level WebSocket/TCP only",
+      "No cloud or large-scale service experience",
+      "C++ is mostly CUDA kernels and Arduino IK, with no evidence of STL-heavy or modern C++ at scale",
+      "No classical data-structure/algorithm implementation in the profile (hash tables, trees, LRU, etc.)",
+      "No CI/automated test infrastructure; concurrency is RTOS mutexes and MPI, not lock-free or multithreaded C++ services"
+    ],
+    "overstated_by_keywords": [
+      "data structures and algorithms counted Have via the generic 'software engineering fundamentals' alias; the profile shows no concrete DS&A artifacts",
+      "automated testing counted Have; backing is one golden-vector set, not a test framework or CI",
+      "C++ counted Have; depth is 'working' and mostly kernel/embedded style"
+    ],
+    "understated_by_keywords": [
+      "Cython-accelerated BPE tokenizer (6M chars in 15 min) is real algorithmic and performance work on a data-processing hot path, closer to the 'optimize data efficiency' theme than the keyword pass credited"
+    ],
+    "screening_gaps": [
+      "No demonstrated data-structures and algorithms depth in C++ (the role's core screen, usually a live coding round)",
+      "No storage, dedup, or replication-type systems exposure for a data-storage company",
+      "No multithreaded C++ concurrency beyond RTOS mutexes and MPI"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The keyword pass is roughly right that about half the stated asks have some backing, but the backing is embedded and GPU performance work, not storage or backend C++. As a new-grad role that screens on DS&A and C++ fundamentals, it is a reasonable stretch only if the coding screen is passable; the domain gaps are teachable, the DS&A evidence gap is the real risk.",
+    "calibration_delta": 12.1
+  },
+  "semantic_pending": false
+}

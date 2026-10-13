@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "company": "Exelixis",
+    "role": "Associate Engineer - AI and Agentic",
+    "company_slug": "exelixis",
+    "job_slug": "associate-engineer-ai-agentic"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on experience building AI enabled applications and integrating large language models into working software. Built a GPT-2 style Transformer from scratch and compressed TinyLlama 1.1B for edge deployment with under 1% accuracy loss, and integrated the Gemini API for real time intent classification inside a multi service robotic pick and place system. Comfortable across the full software development lifecycle in Python, from Git based version control and API integration to writing test and evaluation pipelines and maintaining technical documentation.",
+  "skills": {
+    "AI / ML & LLM": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Transformer architecture",
+      "Tokenization (BPE)",
+      "8-bit Quantization",
+      "Model evaluation and benchmarking",
+      "LLM API integration (Gemini)"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "Git / GitLab",
+      "Flask / Flask-SocketIO",
+      "WebSocket and REST APIs",
+      "Jupyter / JupyterHub",
+      "Cython"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free visual document understanding Transformer, on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized the decoder embedding layer.",
+        "Improved validation accuracy from 55% to 93% through iterative preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation on the BraTS 2020 dataset; evaluated on Dice Score and IoU and documented accuracy-latency trade-offs.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student to deliver the full pipeline within a 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer and a custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; measured under 1% accuracy degradation with a +0.09 perplexity increase, a near-lossless compression result."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled pick-and-place system: Flutter client, Flask-SocketIO edge server, Jetson plus Arduino controller over a unified WebSocket fabric.",
+        "Integrated faster-whisper speech-to-text and the Gemini API for real-time intent classification (under 500ms) to drive robot commands from natural language.",
+        "Resolved 11 integration failures across the pipeline; achieved 100% pick reliability across 10 of 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

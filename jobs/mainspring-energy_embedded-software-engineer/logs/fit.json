@@ -1,0 +1,163 @@
+{
+  "company": "Mainspring Energy",
+  "company_slug": "mainspring-energy",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 63.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Bare metal",
+    "RTOS",
+    "USB",
+    "Logic analyzers",
+    "Linux",
+    "UART",
+    "Real-time"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Linux + systemd"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "Static IP / network configuration"
+    },
+    {
+      "jd_skill": "Physical debuggers",
+      "you_have": "STM32 bare-metal"
+    },
+    {
+      "jd_skill": "Multimeters",
+      "you_have": "Oscilloscopes"
+    },
+    {
+      "jd_skill": "Self-diagnostics",
+      "you_have": "state machine / auto-restart"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "Modbus",
+    "MQTT",
+    "Non-volatile fault logging"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Embedded Linux",
+    "Bare metal",
+    "RTOS",
+    "Real-time",
+    "CAN",
+    "Modbus",
+    "MQTT",
+    "Serial",
+    "USB",
+    "Ethernet",
+    "Logic analyzer",
+    "Multimeter",
+    "Debugger",
+    "HMI",
+    "Fault logging",
+    "Hardware bring-up"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Embedded Linux",
+    "Bare metal",
+    "RTOS",
+    "Serial",
+    "USB",
+    "CAN",
+    "Ethernet",
+    "Modbus",
+    "MQTT",
+    "Logic analyzers",
+    "Multimeters",
+    "Physical debuggers"
+  ],
+  "preferred_skills": [
+    "Real-time",
+    "Non-volatile fault logging",
+    "Self-diagnostics"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "C++ firmware for embedded Linux and bare metal/RTOS",
+    "Python CLI tooling over Serial/USB/CAN/Ethernet",
+    "Modbus/MQTT/standard API diagnostic interfaces for HMIs",
+    "Self-diagnostics and non-volatile fault logging"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Menlo Park, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal firmware: STM32 Cortex-M4 temperature monitor (direct GPIO/TIM2/ADC1/I2C1 in C, timer-triggered ADC, interrupt-driven capture, 3.68 KB Flash / 1.58 KB RAM, deterministic 1 Hz)",
+      "Interrupt-driven and RTOS work: quadrature decoding state machine on Arduino Due (Robocon); FreeRTOS + mutexes + interrupt-driven UART on the turret",
+      "Python tooling that talks to hardware: PyQt/Matplotlib real-time data acquisition GUI (BARC), Flask-SocketIO edge server, Jetson to Arduino/STM32 serial links",
+      "Linux service ops: systemd unit with auto-restart/backoff, non-root isolation, env-file config, static IP (COFFIN Jetson bridge)",
+      "Bench debugging tools listed (logic analyzer, oscilloscope) plus multi-fault debugging: 11 integration failures resolved on COFFIN, including servo brown-out"
+    ],
+    "real_gaps": [
+      "CAN: no evidence anywhere",
+      "Modbus and MQTT: no evidence; no industrial or standards-based protocol work at all",
+      "Non-volatile fault logging and field-service diagnostics: nothing persisted to flash/EEPROM in any project",
+      "C++ as a production firmware language: firmware is C; C++ is limited to Arduino IK code and CUDA kernels",
+      "Embedded Linux development (drivers, BSP, Yocto/Buildroot): Linux evidence is admin of a Jetson, not embedded Linux engineering",
+      "Seniority: JD wants 3+ years of embedded work; profile is internship and capstone scope, no production or manufacturing-test ownership"
+    ],
+    "overstated_by_keywords": [
+      "Embedded Linux counted adjacent, but it is systemd and IP config on a Jetson, not embedded Linux development",
+      "RTOS and Real-time counted Have, but it is one FreeRTOS turret with mutexes; no scheduling, timing analysis or priority design shown",
+      "Ethernet counted adjacent, but it is static IP setup, not Ethernet protocol or stack work",
+      "Self-diagnostics counted adjacent, but a fail-safe motor-halt state machine is not a diagnostic or fault-reporting routine"
+    ],
+    "understated_by_keywords": [
+      "Python tooling is deeper than one keyword: BARC DAQ GUI, Flask edge server and serial bridging map onto the CLI/bring-up tooling responsibility",
+      "COFFIN's 11-failure integration debugging (brown-out, stale frames) is real hardware/software boundary debugging that string matching misses",
+      "Robocon fail-safe halt on controller disconnect is genuine fault-handling behavior"
+    ],
+    "screening_gaps": [
+      "No CAN/Modbus/MQTT experience for a role whose second and third responsibilities are device comms and HMI protocols",
+      "No production embedded C++ (3+ years asked); firmware evidence is C on small MCUs and student-scope",
+      "No non-volatile fault logging or field-diagnostics work, which is a named responsibility"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The core embedded foundation is real (bare-metal C on STM32, interrupts, FreeRTOS, UART/I2C/SPI, Python hardware tooling), but the role's distinctive parts are industrial protocols, C++ firmware and diagnostic fault logging, none of which are evidenced. It is a plausible reach for a new grad on Python tooling and bring-up strength, but expect the protocol and years-of-experience gaps to be the screen-out.",
+    "calibration_delta": 16.9
+  }
+}

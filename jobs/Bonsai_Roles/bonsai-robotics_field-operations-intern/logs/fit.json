@@ -1,0 +1,113 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Field Operations Intern",
+  "job_slug": "field-operations-intern",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 16,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Calibration / equipment calibration",
+    "Data collection"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Agricultural / related engineering degree",
+      "you_have": "Computer Engineering (M.S., RIT)"
+    },
+    {
+      "jd_skill": "Hands-on mechanical / electronics / outdoor machinery",
+      "you_have": "STM32 (Bare-Metal C)"
+    },
+    {
+      "jd_skill": "Troubleshooting integrated hardware and software",
+      "you_have": "bare-metal"
+    },
+    {
+      "jd_skill": "Autonomous / robotics systems",
+      "you_have": "ROS2"
+    },
+    {
+      "jd_skill": "Machine vision sensors",
+      "you_have": "YOLOv8n"
+    },
+    {
+      "jd_skill": "Test plan execution / prototype calibration",
+      "you_have": "Calibrated"
+    }
+  ],
+  "missing_skills": [
+    "Currently pursuing Bachelor's/Master's (candidate graduated May 2026)",
+    "Valid driver's license",
+    "Local Davis CA residency / ability to work on-site at Davis test farm",
+    "Physical / outdoor readiness and lifting capability",
+    "Communication and teamwork skills (no related keyword in list)",
+    "Agriculture / agronomy domain knowledge",
+    "Field test farm / logistics / inventory management",
+    "Mechanical machinery maintenance experience (beyond embedded electronics)"
+  ],
+  "top_ats_keywords": [
+    "autonomous",
+    "robotics",
+    "machine vision",
+    "field operations",
+    "hardware",
+    "software",
+    "electronics",
+    "troubleshooting",
+    "test farm",
+    "calibration",
+    "prototype",
+    "data collection",
+    "logistics"
+  ],
+  "required_skills": [
+    "Currently pursuing Bachelor's or Master's in Agricultural/Mechanical/Electrical/Ag Systems/Agronomy or related technical field",
+    "Hands-on experience with mechanical tools, basic electronics, or outdoor machinery",
+    "Practical troubleshooting of integrated hardware and software equipment",
+    "Strong communication and teamwork",
+    "Ability to work outdoors and lift 25-50 lbs",
+    "Based locally near Davis CA; valid driver's license; occasional travel up to 15%"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Daily setup, staging, operation, and field testing of autonomous vehicles at Davis test farm",
+    "Maintain organized, safe testing environment; manage equipment staging; assist with local transport",
+    "Execute structured test plans for hardware, software, machine vision sensors, and system performance",
+    "Diagnose mechanical, electrical, and software issues; assist with immediate field fixes and routine hardware maintenance",
+    "Meticulously collect, log, and document test run results, issues, and performance metrics",
+    "Maintain inventory; prepare prototype equipment; ensure test rigs and tools are organized and calibrated",
+    "Collaborate with field operations, hardware, and software engineering teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Davis, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

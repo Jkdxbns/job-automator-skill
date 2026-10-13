@@ -1,0 +1,127 @@
+{
+  "company": "General Motors",
+  "company_slug": "gm",
+  "role": "Software Engineer, Advanced Analytics",
+  "job_slug": "swe-advanced-analytics",
+  "match_pct": 19.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 4,
+    "missing_count": 15,
+    "jd_ask_size": 21,
+    "req_cov": 0.125,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FastAPI",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "PySpark",
+      "you_have": "Pandas/NumPy"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "data pipelines",
+      "you_have": "data acquisition / ASR pipelines"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "SQL",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "Databricks",
+    "Delta Lake",
+    "Kubernetes",
+    "Azure",
+    "GitOps",
+    "infrastructure as code",
+    "observability",
+    "automotive PLM/BOM"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "React",
+    "SQL",
+    "PostgreSQL",
+    "FastAPI",
+    "SQLAlchemy",
+    "Databricks",
+    "PySpark",
+    "Kubernetes",
+    "Azure",
+    "CI/CD",
+    "infrastructure as code",
+    "data pipelines"
+  ],
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "SQL",
+    "relational data modeling",
+    "production software",
+    "stakeholder communication"
+  ],
+  "preferred_skills": [
+    "FastAPI",
+    "SQLAlchemy",
+    "Next.js",
+    "PostgreSQL",
+    "Databricks",
+    "PySpark",
+    "Delta Lake",
+    "Kubernetes",
+    "Azure",
+    "GitOps",
+    "infrastructure as code",
+    "automotive PLM/BOM"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Python services and relational data models",
+    "TypeScript/React interfaces",
+    "data pipelines",
+    "operate Kubernetes on Azure with CI/CD and IaC",
+    "stakeholder partnership"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote - United States / Warren, MI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

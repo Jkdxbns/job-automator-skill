@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "company": "Cummins Inc.",
+    "role": "Embedded Software Engineer",
+    "company_slug": "cummins",
+    "job_slug": "embedded-sw-engineer-seattle"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering candidate at Rochester Institute of Technology with hands-on embedded C/C++ development across STM32 Cortex-M4, FreeRTOS-based real-time systems, and bare-metal peripheral drivers. Designed and debugged interrupt-driven firmware for sensor integration and motor control; proficient in UART/I2C/SPI communication protocols and hardware verification using Proteus simulation.",
+  "skills": {
+    "Embedded Systems": [
+      "C/C++",
+      "STM32 Cortex-M4 (Bare-Metal)",
+      "FreeRTOS",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Bluetooth (HC-05)",
+      "Interrupt-driven firmware"
+    ],
+    "Hardware & Tools": [
+      "EAGLE PCB Design",
+      "Proteus Simulation",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "GitLab/Git"
+    ],
+    "Software": [
+      "Python",
+      "Linux",
+      "Bash",
+      "PyQt",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico over SPI and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands via embedded C/C++.",
+        "Implemented tap-detection algorithm using z-axis differential thresholding; performed root-cause analysis on sensor jitter and resolved via software calibration and ADC resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary \u2014 Robotics",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback on Arduino.",
+        "Led a 25-member team across 10+ national-level competitions; ranked 10th at Robocon among 45 universities."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Built a PyQt/Matplotlib GUI for real-time data acquisition and experimental visualization; used GitLab for version control and collaborative technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals in bare-metal C (GPIO, TIM2, ADC1, I2C1) on Cortex-M4; achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified timing in Proteus.",
+        "Implemented timer-triggered ADC scan conversions and interrupt-driven sample capture with a low-level I2C driver; debugged interrupt priority conflicts through register-level inspection."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination across UART command parsing, PWM servo control, and VL53L0X ToF sensing on STM32.",
+        "Implemented interrupt-driven UART command reception and multi-servo PWM control; resolved servo crosstalk through PWM timing analysis."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm \u2014 MS Capstone (COFFIN)",
+      "date": null,
+      "bullets": [
+        "Implemented two-link inverse kinematics on Arduino in C++; drove five servos with range-gated contact detection using dual VL53L0X ToF sensors via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (servo crosstalk, rolling-shutter stereo depth, false-positive detections) through systematic root-cause analysis; achieved 100% pick reliability (10/10 trials)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation - 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon - National-level robotics competition among 45 universities (2022)"
+  ]
+}

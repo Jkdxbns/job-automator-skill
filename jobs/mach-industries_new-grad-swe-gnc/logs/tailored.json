@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "company": "Mach Industries",
+    "role": "New Graduate Engineer, Software / GNC",
+    "company_slug": "mach-industries",
+    "job_slug": "new-grad-swe-gnc"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands on experience building real time embedded and robotics software in C++, Python, and bare metal C. Built a voice controlled, vision guided robotic arm system spanning Jetson and Arduino firmware to a networked control application, combining multi sensor integration with closed loop actuator control under tight timing budgets. Comfortable across the stack, from interrupt driven STM32 firmware and FreeRTOS scheduling to simulation based autonomy testing in CARLA.",
+  "skills": {
+    "Languages": ["C++", "C", "Python", "Bash"],
+    "Embedded & Real-Time Systems": ["STM32 (Bare-Metal C)", "FreeRTOS", "Interrupt-driven firmware", "UART/I2C/SPI", "PWM", "ADC", "NVIDIA Jetson", "Arduino", "Bluetooth (BLE/Classic)"],
+    "Simulation & Autonomy": ["CARLA", "YOLO", "Visual servoing", "Multi-sensor integration", "Autonomous control stack"],
+    "Tools": ["Linux", "Git", "CMake", "EAGLE PCB Design", "Oscilloscopes", "Logic Analyzers"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove, integrating an accelerometer with a Raspberry Pi over Bluetooth to translate three degree of freedom hand motion into HID commands.",
+        "Implemented a custom tap detection algorithm using z axis differential thresholding, resolving sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25 member robotics team across national level competitions, owning mechanical design, PCB fabrication, and embedded sensor integration end to end.",
+        "Designed and fabricated custom PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end to end voice to picked latency on a voice controlled, vision guided robotic pick and place system spanning a Jetson and Arduino embedded controller, a Flask-SocketIO edge server, and a Flutter mobile client over a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO (5.2x speedup: 56.7 to 10.9 ms) for visual servoing and dual VL53L0X ToF sensors for contact aware grasping over an I2C multiplexed bus.",
+        "Resolved 11 hardware and software integration failures (false positive detections, servo brown out, stale frame capture) through systematic root cause debugging across the embedded to application stack."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a real time object tracking turret using YOLOv8 on NVIDIA Jetson to detect and track targets, sending control commands to an STM32 microcontroller over UART.",
+        "Implemented multi servo PWM control with interrupt driven UART command handling and user override, using FreeRTOS with mutexes for shared memory task coordination."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines in the CARLA simulator, producing roughly 8,000 annotation free training frames for perception models.",
+        "Trained YOLO11n and fine-tuned UFLD for an adaptive autonomous control stack with lane following and waypoint fallback; validated with zero collisions across multiple laps in a 30 vehicle, 10 pedestrian simulated environment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Principles of Robotics", "Robot Perception", "Multiple Processor Systems", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Random Signal Analysis"]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

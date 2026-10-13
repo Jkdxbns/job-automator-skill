@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "company": "Autonomous Solutions, Inc. (ASI)",
+    "role": "Perception Engineer I - Project Based",
+    "company_slug": "asi",
+    "job_slug": "perception-engineer-i"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering candidate at Rochester Institute of Technology (RIT) graduating May 2026, focused on perception and embedded robotics. Built ROS2 and YOLO-based perception pipelines integrating cameras, ToF range sensors, and inertial sensors for real-time obstacle detection and visual servoing on Jetson and STM32 platforms. Experienced validating perception software through simulation (CARLA), recorded-data testing, and physical field trials in C++ and Python on Linux.",
+  "skills": {
+    "Robotics & Perception": ["ROS2 (Humble, Noetic)", "MoveIt", "RViz", "Visual servoing", "Forward kinematics", "DH parameters"],
+    "Computer Vision": ["OpenCV", "YOLO", "YOLOv8", "YOLO11n", "TensorRT", "Depth estimation", "Semantic segmentation"],
+    "ML / Deep Learning": ["PyTorch", "Model evaluation", "ONNX", "TFLite"],
+    "Sensors & Embedded": ["NVIDIA Jetson", "STM32 (Bare-Metal C)", "FreeRTOS", "Arduino", "UART/I2C/SPI", "ToF sensors", "Inertial sensors (ADXL345)"],
+    "Languages & Tools": ["C/C++", "Python", "Linux", "Git", "CMake"],
+    "Simulation & Testing": ["CARLA", "Recorded-data evaluation", "Field testing"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling, achieving ±8% error on 3D surface reconstruction.",
+        "Architected a full perception pipeline for microscopic crack analysis combining image processing, denoising, and depth estimation."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition system integrating ADXL345 inertial sensors with Raspberry Pi over I2C and HC-05 Bluetooth.",
+        "Implemented a custom sensor-processing algorithm using z-axis thresholding; resolved sensor jitter via software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and labeled a custom object-detection dataset of 1,133 images for health-level classification using YOLOv8.",
+        "Trained YOLOv8n achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for embedded/mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided perception pipeline with TensorRT-optimized YOLO (5.2x speedup, 17.6->92 FPS) fused with dual VL53L0X ToF sensors via I2C for contact-aware obstacle/grasp detection.",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency on a Jetson+Arduino embedded stack; resolved 11 field-integration failures (false positives, stale frames, sensor timing)."
+      ]
+    },
+    {
+      "name": "Autonomous Driving Perception in CARLA",
+      "date": null,
+      "bullets": [
+        "Built CARLA simulation pipelines using semantic segmentation and raycast occlusion filtering to auto-generate ~5,000 YOLO and ~3,000 lane-detection training frames.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned a ResNet-18 lane-detection model; integrated into a perception-to-control stack with waypoint fallback.",
+        "Validated in simulation with 30 vehicles and 10 pedestrians, achieving zero collisions and correct traffic-light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a real-time perception-to-actuation pipeline using YOLOv8 on NVIDIA Jetson to detect/track objects, sending control commands to an STM32 over UART.",
+        "Integrated VL53L0X ToF range sensing alongside camera detection for redundant obstacle awareness, with FreeRTOS-based multi-servo PWM control."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt/RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; measured AL5B repeatability at <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

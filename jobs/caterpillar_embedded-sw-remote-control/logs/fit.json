@@ -1,0 +1,61 @@
+{
+  "company": "Caterpillar Inc.",
+  "company_slug": "caterpillar",
+  "role": "Embedded Software Engineering Specialist - Remote Control",
+  "job_slug": "embedded-sw-remote-control",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 14,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C/C++ (bare-metal, STM32)",
+    "RTOS (FreeRTOS)",
+    "Git/GitLab",
+    "AI/ML (CUDA, TensorRT, PyTorch, YOLO)",
+    "Real-time embedded control software"
+  ],
+  "missing_skills": [
+    "AUTOSAR (Classic), BSW, RTE",
+    "MATLAB/Simulink",
+    "CAN bus",
+    "Ethernet (vehicle/machine networks)",
+    "Leading/mentoring distributed engineering teams",
+    "Cybersecurity and functional safety",
+    "Sprint planning / Agile process ownership"
+  ],
+  "adjacent_skills": [
+    "Software architecture (embedded systems built solo/student scope, no production/org-scale architecture ownership)",
+    "Debuggers/cross-compilers (has logic analyzers, oscilloscopes; no explicit cross-compiler toolchain evidence)"
+  ],
+  "top_ats_keywords": [
+    "Embedded C/C++",
+    "RTOS",
+    "AUTOSAR",
+    "CAN",
+    "Ethernet",
+    "MATLAB/Simulink",
+    "Software Architecture"
+  ],
+  "key_responsibilities": [
+    "Define and drive software architecture for Remote Control and autonomy systems",
+    "Lead AUTOSAR-based software architecture and development using Embedded C/C++",
+    "Architect and guide software integration across system, hardware, and platform layers",
+    "Mentor software developers and provide technical leadership across distributed teams",
+    "Align delivery with global teams and production readiness goals"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

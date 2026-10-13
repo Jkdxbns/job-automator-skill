@@ -1,0 +1,163 @@
+{
+  "company": "JPMorganChase",
+  "company_slug": "jpmorganchase",
+  "role": "Applied AI ML Lead - Machine Learning Engineer - Agentic Commerce",
+  "job_slug": "lead-ml-engineer-agentic-commerce",
+  "match_pct": 21.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 24,
+    "jd_ask_size": 33,
+    "req_cov": 0.278,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Machine Learning",
+    "Data Structures and Algorithms",
+    "LLM fine-tuning",
+    "Small language model inference"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Statistics",
+      "you_have": "Random Signal Analysis"
+    },
+    {
+      "jd_skill": "Tracing and evaluations and guardrails",
+      "you_have": "Model evaluation"
+    },
+    {
+      "jd_skill": "Batch and online inference",
+      "you_have": "TensorRT/ONNX inference optimization"
+    },
+    {
+      "jd_skill": "LLM agentic applications in production",
+      "you_have": "Transformers/HuggingFace NLP (no agent work)"
+    }
+  ],
+  "missing_skills": [
+    "Information Retrieval",
+    "RAG",
+    "Graph RAG",
+    "Embeddings and vector stores",
+    "Kubernetes (AWS EKS)",
+    "AWS",
+    "Azure",
+    "Databricks",
+    "SageMaker",
+    "MLflow",
+    "SQL (Postgres)",
+    "NoSQL (OpenSearch, Redis)",
+    "Data model design",
+    "MLOps",
+    "Agent frameworks",
+    "A2A",
+    "MCP",
+    "Agent memory",
+    "Knowledge graphs",
+    "Next.js",
+    "Svelte",
+    "JavaScript/TypeScript",
+    "Financial/payments domain",
+    "LLM-as-judge"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "LLM",
+    "RAG",
+    "Graph RAG",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "Databricks",
+    "SageMaker",
+    "MLflow",
+    "MCP",
+    "A2A",
+    "vector search",
+    "embeddings",
+    "SQL",
+    "Postgres",
+    "Redis",
+    "OpenSearch",
+    "MLOps",
+    "fine-tuning",
+    "LLM-as-judge",
+    "knowledge graph",
+    "Next.js",
+    "TypeScript",
+    "machine learning",
+    "information retrieval"
+  ],
+  "required_skills": [
+    "Python",
+    "Machine Learning",
+    "Data Structures and Algorithms",
+    "Statistics",
+    "Information Retrieval",
+    "LLM agentic applications in production",
+    "Tracing and evaluations and guardrails",
+    "RAG",
+    "Embeddings and vector stores",
+    "Kubernetes (AWS EKS)",
+    "AWS",
+    "Databricks",
+    "SageMaker",
+    "MLflow",
+    "SQL (Postgres)",
+    "NoSQL (OpenSearch, Redis)",
+    "Data model design",
+    "MLOps"
+  ],
+  "preferred_skills": [
+    "Agent frameworks",
+    "A2A",
+    "MCP",
+    "Agent memory",
+    "Knowledge graphs",
+    "Graph RAG",
+    "LLM fine-tuning",
+    "Small language model inference",
+    "Next.js",
+    "Svelte",
+    "JavaScript/TypeScript",
+    "Financial/payments domain"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Ship production agents on NEO",
+    "Graph RAG retrieval",
+    "Agent memory",
+    "Multi-agent A2A + MCP",
+    "Agent evals",
+    "Cloud deploy AWS/Azure",
+    "ML training pipelines + MLOps",
+    "Batch and online inference"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK (Canary Wharf)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,41 @@
+{
+  "company": "Conduit",
+  "company_slug": "conduit",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 70,
+  "missing_skills": [
+    "Docker",
+    "4+ years hands-on robotics/ML experience",
+    "shipped production robotics system others depended on",
+    "VLA policies",
+    "diffusion policies",
+    "imitation learning",
+    "KUKA",
+    "FANUC",
+    "Yaskawa",
+    "force/impedance control",
+    "safety-rated cells",
+    "Isaac Sim/Isaac Lab/Cosmos/GR00T"
+  ],
+  "adjacent_skills": [
+    "ABB / UR5e (has these arms, JD also wants KUKA/FANUC/Yaskawa)",
+    "classical robotics fundamentals (has DH parameters, forward/inverse kinematics, URDF, visual servoing, MoveIt; missing explicit force control and safety-rated cell work)",
+    "modern ML perception (has YOLO, depth estimation, robot perception pipelines; missing VLA/diffusion/imitation learning specifically)",
+    "industrial sensing (has ToF/VL53L0X; JD wants Ouster lidar, structured light, machine vision)"
+  ],
+  "top_ats_keywords": ["Python", "C++", "Linux", "ROS", "ROS2", "Docker", "GPU", "motion planning", "calibration", "VLA policies", "imitation learning", "3D perception"],
+  "key_responsibilities": [
+    "Generalize production robots (UR, FANUC, KUKA, ABB, Yaskawa) across factory deployments",
+    "Prototype/adapt modern ML for manipulation, inspection, machine tending, material handling",
+    "Run the ML pipeline: collect demos, label/curate data, build eval harnesses, ship checkpoints",
+    "Apply classical robotics fundamentals to make learned policies survive a factory floor",
+    "Spend meaningful time onsite at customer factories"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

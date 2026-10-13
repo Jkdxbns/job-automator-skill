@@ -1,0 +1,159 @@
+{
+  "company": "Anthropic",
+  "company_slug": "anthropic",
+  "role": "AV Engineer, Platform & Automation",
+  "job_slug": "av-engineer-platform-automation",
+  "match_pct": 36.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 13,
+    "jd_ask_size": 26,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Bash",
+    "Linux",
+    "REST APIs",
+    "Logging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "AV-over-IP / network fundamentals",
+      "you_have": "Static IP / network configuration"
+    },
+    {
+      "jd_skill": "DSP",
+      "you_have": "Digital Signal Processing (coursework)"
+    },
+    {
+      "jd_skill": "Prometheus/Grafana monitoring",
+      "you_have": "pynvml profiling"
+    },
+    {
+      "jd_skill": "LLM agentic automation",
+      "you_have": "LLM fine-tuning / Gemini"
+    },
+    {
+      "jd_skill": "Go/TypeScript/Lua",
+      "you_have": "Python, C/C++"
+    },
+    {
+      "jd_skill": "Control system programming",
+      "you_have": "Embedded state machines"
+    }
+  ],
+  "missing_skills": [
+    "Q-SYS",
+    "Logitech Sync",
+    "Google Meet hardware",
+    "Crestron/Extron",
+    "Dante/AES67/NDI",
+    "Jira API",
+    "Slack API",
+    "PagerDuty API",
+    "GCP",
+    "Terraform",
+    "Google Workspace APIs",
+    "Multicast/VLAN/QoS",
+    "Containerized deployment"
+  ],
+  "top_ats_keywords": [
+    "Q-SYS",
+    "Lua",
+    "Python",
+    "Go",
+    "TypeScript",
+    "CI/CD",
+    "REST API",
+    "Terraform",
+    "GCP",
+    "Prometheus",
+    "Grafana",
+    "PagerDuty",
+    "Jira",
+    "Slack",
+    "Dante",
+    "AES67",
+    "NDI",
+    "Crestron",
+    "Extron"
+  ],
+  "required_skills": [
+    "Python",
+    "Lua",
+    "Go",
+    "TypeScript",
+    "Shell scripting",
+    "Git",
+    "CI/CD",
+    "REST APIs",
+    "Q-SYS",
+    "DSP and control",
+    "AV-over-IP",
+    "Logging and observability",
+    "Automated testing"
+  ],
+  "preferred_skills": [
+    "Q-SYS Lua",
+    "Logitech Sync",
+    "Google Meet hardware",
+    "Google Workspace APIs",
+    "GCP",
+    "Terraform",
+    "Jira API",
+    "Slack API",
+    "PagerDuty API",
+    "Crestron",
+    "Extron",
+    "Dante",
+    "AES67",
+    "NDI",
+    "Multicast/VLAN/QoS",
+    "LLM agentic automation",
+    "MCP",
+    "Prometheus",
+    "Grafana",
+    "Containerized deployment"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Fleet health monitoring and automated room testing",
+    "AV/IT platform integrations",
+    "Config drift detection and provisioning automation",
+    "Firmware release management",
+    "Engineering practices for AV team"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA | New York City, NY (50% in office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

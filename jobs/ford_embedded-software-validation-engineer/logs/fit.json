@@ -1,0 +1,124 @@
+{
+  "company": "Ford Motor Company",
+  "company_slug": "ford",
+  "role": "Embedded Software Validation Engineer (Associate)",
+  "job_slug": "embedded-software-validation-engineer",
+  "match_pct": 39.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 19,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Embedded systems debugging (module/system level)",
+    "Sensing/measurement/DAQ",
+    "Electrical wiring/schematics",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Domain enthusiasm: IoT/network comm/UI",
+      "you_have": "WebSocket, Bluetooth (BLE/Classic), Flutter GUI, PWM/power control"
+    },
+    {
+      "jd_skill": "Ethernet (MQTT/gRPC/DDS)",
+      "you_have": "WebSocket/Flask-SocketIO, Bluetooth"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab, systemd service management"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Automated test frameworks (Pytest/Slash/Robot Framework)",
+    "Software testing methodologies (unit/integration/system, requirements-driven)",
+    "Automotive diagnostic tools",
+    "CAN/CAN-FD",
+    "LIN",
+    "DBC/LDF/ARXML IDLs",
+    "HIL/SIL testing on Linux",
+    "Android/iOS testing",
+    "ISO 26262"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Rust",
+    "C/C++",
+    "Pytest",
+    "Robot Framework",
+    "CAN",
+    "CAN-FD",
+    "LIN",
+    "MQTT",
+    "gRPC",
+    "DDS",
+    "HIL",
+    "SIL",
+    "ISO 26262",
+    "Android",
+    "DBC",
+    "ARXML",
+    "CI/CD",
+    "Linux"
+  ],
+  "required_skills": [
+    "Python",
+    "Rust",
+    "automated test frameworks (Pytest/Slash/Robot Framework)",
+    "embedded systems debugging (module/system level, regression triage)",
+    "software testing methodologies (unit/integration/system, requirements-driven)",
+    "domain enthusiasm: network comm/IoT/multimedia/Android/UI/power distribution"
+  ],
+  "preferred_skills": [
+    "C/C++",
+    "automotive diagnostic tools",
+    "CAN/CAN-FD",
+    "Ethernet (MQTT/gRPC/DDS)",
+    "LIN",
+    "DBC/LDF/ARXML IDLs",
+    "HIL/SIL testing on Linux",
+    "Android/iOS testing",
+    "ISO 26262",
+    "sensing/measurement/DAQ",
+    "electrical wiring/schematics",
+    "CI/CD"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop/maintain automated Python tests on embedded automotive software (firmware, infotainment/UI, Android, multimedia)",
+    "Build and bring up remotely accessible test stations with production-intent hardware",
+    "Create/execute test plans, cases, scripts for functional/non-functional/regression testing",
+    "Cross-functional collaboration on requirements review, test infra, bug triage",
+    "Participate in code reviews"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Palo Alto, CA, United States (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

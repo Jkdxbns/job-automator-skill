@@ -1,0 +1,60 @@
+{
+  "company": "Applicantz (Fortune 350 semiconductor client)",
+  "company_slug": "applicantz-semiconductor",
+  "role": "Mechatronics Engineer",
+  "job_slug": "mechatronics-engineer",
+  "match_pct": 70,
+  "have_skills": [
+    "ROS/ROS2 + MoveIt + URDF + RViz",
+    "C++ / Python (Linux)",
+    "OpenCV + YOLO (computer vision)",
+    "PyTorch (deep learning)",
+    "Robot perception + visual servoing",
+    "SolidWorks (MCAD)",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "6-axis robot manipulation",
+      "you_have": "ROS2 + MoveIt + UR5e arm work"
+    },
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "FreeRTOS + STM32 bare-metal"
+    },
+    {
+      "jd_skill": "Sensor integration on robot",
+      "you_have": "ToF + IMU + SPI/I2C on embedded + ROS2"
+    }
+  ],
+  "missing_skills": [
+    "Reinforcement learning",
+    "Behavior Trees",
+    "DOE / Six Sigma",
+    "3-10 yrs experience"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "robotic manipulation",
+    "computer vision",
+    "MoveIt",
+    "C++",
+    "Python",
+    "OpenCV",
+    "PyTorch",
+    "sensor integration",
+    "6-axis robot"
+  ],
+  "key_responsibilities": [
+    "Program 6-axis robotic arm paths and behaviors",
+    "ROS/ROS2 integration for manipulation",
+    "Computer vision learning pipeline design",
+    "Sensor and actuator integration + optimization",
+    "DOE experiments and performance benchmarking"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Perception Deployment Engineer - Model Deployment & Optimization",
+  "job_slug": "perception-deployment-engineer",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 8,
+    "missing_count": 20,
+    "jd_ask_size": 40,
+    "req_cov": 0.621,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "CUDA",
+    "CUDA kernels",
+    "TensorRT",
+    "ONNX",
+    "PyTorch",
+    "quantization",
+    "INT8",
+    "LLM",
+    "latency benchmarking",
+    "edge deployment",
+    "Computer Vision"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C++ (14/17/20, production)",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "mixed precision",
+      "you_have": "8-bit quantization (LLM.int8)"
+    },
+    {
+      "jd_skill": "VLM",
+      "you_have": "VisionEncoderDecoder / DONUT"
+    },
+    {
+      "jd_skill": "concurrent inference",
+      "you_have": "concurrency (image stitching), MPI"
+    },
+    {
+      "jd_skill": "parity checking",
+      "you_have": "benchmarking across models"
+    },
+    {
+      "jd_skill": "multi-modal sensor fusion",
+      "you_have": "perception pipelines (vision + ToF)"
+    },
+    {
+      "jd_skill": "attention optimization",
+      "you_have": "Transformer / GPT-2 attention"
+    },
+    {
+      "jd_skill": "memory-safe real-time",
+      "you_have": "RTOS / bare-metal embedded"
+    }
+  ],
+  "missing_skills": [
+    "PTQ",
+    "QAT",
+    "pruning",
+    "FP8",
+    "BF16",
+    "FP16",
+    "TensorRT plugins",
+    "custom ML ops",
+    "FlashAttention",
+    "linear attention",
+    "KV-cache optimization",
+    "PagedAttention",
+    "torch.compile",
+    "TensorRT-LLM",
+    "LiDAR",
+    "Radar",
+    "BEV",
+    "3D occupancy",
+    "temporal 3D object detection",
+    "VLA"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "CUDA",
+    "TensorRT",
+    "ONNX",
+    "PyTorch",
+    "quantization",
+    "PTQ",
+    "QAT",
+    "pruning",
+    "mixed precision",
+    "INT8",
+    "FP8",
+    "BF16",
+    "FP16",
+    "FlashAttention",
+    "KV-cache",
+    "PagedAttention",
+    "torch.compile",
+    "TensorRT plugins",
+    "LLM",
+    "VLM",
+    "VLA",
+    "sensor fusion",
+    "LiDAR",
+    "Radar",
+    "BEV",
+    "3D occupancy",
+    "TensorRT-LLM",
+    "latency benchmarking",
+    "edge deployment"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "CUDA",
+    "CUDA kernels",
+    "TensorRT",
+    "TensorRT plugins",
+    "custom ML ops",
+    "ONNX",
+    "torch.compile",
+    "quantization",
+    "PTQ",
+    "QAT",
+    "pruning",
+    "mixed precision",
+    "INT8",
+    "FP8",
+    "BF16",
+    "FP16",
+    "FlashAttention",
+    "linear attention",
+    "KV-cache optimization",
+    "PagedAttention",
+    "LLM",
+    "VLM",
+    "multi-modal sensor fusion",
+    "latency benchmarking",
+    "parity checking",
+    "concurrent inference",
+    "memory-safe C++"
+  ],
+  "preferred_skills": [
+    "3D object detection",
+    "BEV",
+    "3D occupancy networks",
+    "LiDAR",
+    "Radar",
+    "VLA",
+    "foundation models",
+    "TensorRT-LLM"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Production C++/CUDA perception code on vehicle SOCs",
+    "PTQ/QAT/pruning/mixed-precision optimization of fusion models, LLMs, VLMs",
+    "TensorRT conversion/compilation pipelines",
+    "PyTorch-vs-engine parity and latency benchmarking",
+    "Custom ML ops and TensorRT plugins in CUDA"
+  ],
+  "role_category": "ml_systems",
+  "location": "Foster City, CA / Boston, MA / Seattle, WA / San Diego, CA (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 41.3,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "TensorRT conversion + latency benchmarking vs eager PyTorch: COFFIN YOLO 56.7\u219210.9 ms (5.2x), ONNX/TFLite export on Tusk YOLOv8n",
+      "Hand-written CUDA C++ kernels with memory coalescing, constant memory, preallocated buffers: VGG16 conv 49.2 ms vs 73.3 ms uncoalesced vs 77.5 ms CPU, identical accuracy",
+      "Quantization with a measured quality/efficiency trade-off: TinyLlama 1.1B LLM.int8, ~55% VRAM cut, <1% accuracy loss, +0.09 perplexity, profiled with pynvml/psutil",
+      "Edge deployment on Jetson under latency constraints (COFFIN, Turret), plus 2D AV perception in CARLA (YOLO11n mAP50 ~0.85, UFLD lanes)"
+    ],
+    "real_gaps": [
+      "No PTQ calibration or QAT, pruning, or FP8/FP16/BF16 mixed-precision engine work on any shipped model; only a library-flag int8 on a 1.1B LLM",
+      "No TensorRT plugin or custom-op authoring: the CUDA kernels replaced TorchScript conv layers, they were never wrapped as a TRT plugin",
+      "No FlashAttention, linear attention, KV-cache/PagedAttention or TensorRT-LLM; GPT-2 from scratch shows attention understanding, not attention optimization",
+      "No 3D perception or sensor fusion: no LiDAR, radar, BEV, occupancy or temporal 3D detection; ToF range-gating is not fusion",
+      "No modern C++ (14/17/20) production inference code, concurrency or memory-safety work evidenced; C++ is Arduino IK and CUDA C++ kernels",
+      "No accuracy-recovery loop or PyTorch-vs-engine output parity (cosine/max-diff) shown, only latency and end-task accuracy",
+      "Seniority: the JD asks for deep, proven, production-scale expertise on vehicle SOCs; the profile is capstone/research/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "C++ (14/17/20, production) counted Adjacent via C/C++: no C++17-style or concurrent inference code",
+      "multi-modal sensor fusion counted Adjacent via vision + ToF: that is range-gating, not a fusion model",
+      "VLM counted Adjacent via DONUT: doc-understanding fine-tune, not VLM optimization",
+      "mixed precision counted Adjacent via int8: single-precision int8 only, no FP16/BF16 mix",
+      "concurrent inference counted Adjacent via stitching/MPI: not concurrent GPU inference serving",
+      "LLM/quantization counted Have: real, but one 1.1B model through bitsandbytes"
+    ],
+    "understated_by_keywords": [
+      "parity checking: SLM benchmark (HellaSwag/GSM8K/ARC, perplexity delta) and CARLA/COFFIN eager-vs-TRT comparisons are genuine quality-vs-latency evaluation",
+      "AV perception domain: CARLA pipeline (auto-labelled data, YOLO + UFLD, closed-loop validation) is relevant bonus-adjacent context, though 2D only"
+    ],
+    "screening_gaps": [
+      "No large-model compression beyond a library int8 flag: no PTQ/QAT calibration, pruning or FP8/FP16/BF16 mixed precision on fusion/VLM-scale models",
+      "No TensorRT plugin or custom ML op authoring, the role's headline responsibility",
+      "No LLM-serving internals (FlashAttention, KV-cache, TensorRT-LLM) and no 3D sensor-fusion perception"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has real, defensible depth in three of the five core areas: TensorRT conversion with benchmarking, hand-written CUDA kernels, and measured int8 quantization. The role's centre of gravity, though, is advanced compression, TensorRT plugins and LLM/VLM attention and cache optimization at vehicle-SOC scale, and none of that has concrete backing in the profile. A cold application is a long shot; it is only worth the slot with a referral or a deliberate stretch decision.",
+    "calibration_delta": -1.3
+  }
+}

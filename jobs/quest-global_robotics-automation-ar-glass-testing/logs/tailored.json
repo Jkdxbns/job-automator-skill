@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "company": "Quest Global",
+    "role": "Robotics Automation Engineer \u2013 AR Glass Testing",
+    "company_slug": "quest-global",
+    "job_slug": "robotics-automation-ar-glass-testing"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "website_root": "justinmascarenhas.com",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built and ran robotic automation on a physical Universal Robots UR5e using ROS 2, MoveIt and Python, with forward kinematics and coordinate-frame transforms derived by hand. Delivered computer vision pipelines (OpenCV, YOLO visual servoing), Python automation and data acquisition tools, and sensor integration over UART, USB and Bluetooth on Linux.",
+  "skills": {
+    "Robotics & Automation": [
+      "Universal Robots (UR5e)",
+      "ROS/ROS2",
+      "MoveIt",
+      "Motion planning",
+      "Forward kinematics",
+      "Robot coordinate systems",
+      "Visual servoing",
+      "DH parameters"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "Bash",
+      "C/C++",
+      "Linux",
+      "Git",
+      "GitLab",
+      "REST APIs (Flask)",
+      "TCP/IP (WebSocket)"
+    ],
+    "Computer Vision": [
+      "OpenCV",
+      "Computer vision",
+      "Machine vision",
+      "YOLO",
+      "Object detection",
+      "Image processing",
+      "TensorRT"
+    ],
+    "Interfaces & Sensors": [
+      "UART",
+      "USB",
+      "Bluetooth",
+      "I2C/SPI",
+      "IMU (ADXL345)",
+      "ToF sensors",
+      "Data acquisition",
+      "Sensor calibration"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 IMU accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Built ball detection by training a YOLOv3 model from scratch on webcam video, then used color masks on the detections to generate and transmit motor commands for closed-loop visual servoing of the competition robot."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on a physical Universal Robots UR5e via the UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials.",
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline linked by a unified WebSocket fabric (TCP/IP): Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller; achieved 100% pick reliability (10/10 trials).",
+        "Integrated TensorRT-optimized YOLO machine vision for visual servoing (5.2\u00d7 speedup: 56.7\u219210.9 ms) and dual VL53L0X ToF sensors via a TCA9548A I2C mux for contact-aware grasping; resolved 11 integration failures.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture; deployed the Jetson-side arm bridge as a systemd service on Linux with static IP networking."
+      ]
+    },
+    {
+      "name": "Frame Simulator \u2014 Desktop 3D Coordinate-Frame Visualizer",
+      "date": "Oct 2025",
+      "bullets": [
+        "Built a PySide6/Qt desktop GUI with an OpenGL-backed VisPy 3D viewport to visualize coordinate-frame hierarchies, parent-child transform chains, and SE(3) poses in real time."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

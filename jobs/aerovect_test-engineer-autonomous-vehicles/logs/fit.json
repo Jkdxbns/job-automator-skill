@@ -1,0 +1,34 @@
+{
+  "company": "AeroVect",
+  "company_slug": "aerovect",
+  "role": "Test Engineer, Autonomous Vehicles",
+  "job_slug": "test-engineer-autonomous-vehicles",
+  "match_pct": 85,
+  "missing_skills": ["real-world full-scale vehicle operation experience"],
+  "adjacent_skills": ["software testing (research/validation-style, not formal QA)", "autonomous vehicles (via CARLA simulation, not a real full-size vehicle)"],
+  "top_ats_keywords": ["Linux", "CLI", "software testing", "autonomous vehicles", "robotics", "embedded systems", "debugging", "root cause", "logs", "system data"],
+  "key_responsibilities": [
+    "Operate the autonomous tractor to test new features in the field",
+    "Identify opportunities to optimize processes and tooling",
+    "Report abnormal behavior and work with engineers to analyze logs and system data",
+    "Debug and help root cause issues"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Yes", "apply": "Can Try"},
+  "llm_analysis": {
+    "llm_match_pct": 80,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Report abnormal behavior / analyze logs / debug and root cause issues -- directly backed by COFFIN capstone: resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) via structured log/behavior analysis",
+      "Exposure to autonomous vehicles, robotics, embedded systems -- CARLA (AV simulation, obstacle avoidance, zero collisions across multi-agent runs), ROS2/robotics (arm kinematics, MoveIt/RViz), embedded (STM32, Jetson, FreeRTOS)",
+      "Hands-on, independent, comfortable with ambiguity -- led 25-member robotics team, took over as team lead mid-project at Teesside, built open-ended capstone from scratch",
+      "Linux/CLI -- used continuously across SLURM cluster jobs, JupyterHub, embedded toolchains"
+    ],
+    "real_gaps": [
+      "Zero experience operating a full-scale ground vehicle in real-world field conditions -- closest analog is simulated CARLA vehicle and small robotic platforms",
+      "Role-level ambiguity -- despite 'Engineer' title, day-to-day (operate tractor, weekend shifts, no years/degree requirement) reads closer to field test operator than a role using CUDA/ML/embedded specialization"
+    ],
+    "overstated_by_keywords": [],
+    "reasoning": "Unlike Integration Engineer, this JD has no specific hardware stack or years-of-experience floor -- it is written around problem-solving, debugging, and comfort with ambiguity, which matches the shape of Justin's project history directly. The one real gap (operating a full-size vehicle) is narrow, not structural."
+  }
+}

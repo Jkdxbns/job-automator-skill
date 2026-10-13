@@ -1,0 +1,112 @@
+{
+  "company": "SJE",
+  "company_slug": "sje",
+  "role": "Hardware Firmware Engineer",
+  "job_slug": "hardware_firmware_engineer",
+  "match_pct": 64.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "embedded electronics design",
+    "embedded firmware C/C++",
+    "control panels with embedded devices",
+    "verification/validation testing",
+    "project leadership",
+    "firmware architecture/design reviews",
+    "C or C++",
+    "design documentation"
+  ],
+  "missing_skills": [
+    "manufacturing integration (at scale)",
+    "hardware design standards / procedures",
+    "sustaining engineering / parts obsolescence",
+    "technical support / PCA production"
+  ],
+  "adjacent_skills": [
+    "schematic/BOM/prototyping \u2192 profile has prototyping/circuit design but BOM/schematic generation is adjacent (not a highlighted project)",
+    "marketing/sales collaboration \u2192 profile has collaboration experience but not specifically with marketing/sales for product development"
+  ],
+  "top_ats_keywords": [
+    "embedded",
+    "firmware",
+    "C++",
+    "C/C++",
+    "hardware design",
+    "schematic",
+    "BOM",
+    "prototyping",
+    "verification",
+    "validation",
+    "manufacturing",
+    "control panels",
+    "embedded control",
+    "design documentation"
+  ],
+  "key_responsibilities": [
+    "Design embedded controller applications end-to-end (spec \u2192 schematic \u2192 BOM \u2192 prototype \u2192 test \u2192 manufacturing \u2192 docs)",
+    "Write embedded firmware in C or C++ (specs, architecture, coding, debug, validation, docs)",
+    "Design control panels incorporating embedded control devices",
+    "Provide sustaining engineering (updates, parts obsolescence)",
+    "Lead project teams: plan, quote, schedule, status communication",
+    "Collaborate with Marketing, Sales, external customers on new product lines"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep embedded C/C++ firmware experience: STM32 bare-metal (timer/ADC/I2C/UART), Arduino C++, FreeRTOS \u2014 backed by STM32 Temperature Monitor, Haptics Rig, Object Tracking Turret, and COFFIN capstone.",
+      "Prototyping through validation: multiple projects that go from spec/design through prototype, testing, validation, and documentation (COFFIN, Haptics Rig, Turret, Temperature Monitor).",
+      "Control application design: built control loops, PWM servo control, I2C/TCA9548A mux integration, UART command protocols, and embedded control applications (COFFIN, Turret).",
+      "PCB design and circuit-level work: EAGLE single-layer PCB fabrication, UART/I2C sensor integration, schematic-level design implied in multiple projects (ARC team lead, Planctech intern, COFFIN).",
+      "Project leadership at scale: led 25-member ARC robotics team, led 7-person ML team at Teesside, led capstone COFFIN \u2014 with scheduling, documentation, and cross-functional collaboration."
+    ],
+    "real_gaps": [
+      "Manufacturing integration at commercial scale \u2014 profile is capstone/research/internship scope; no full-time product manufacturing release, DFM, or manufacturing engineering experience.",
+      "Sustaining engineering / parts obsolescence \u2014 no post-release product maintenance, component replacement, or lifecycle management experience.",
+      "Technical support to production / PCA production teams \u2014 no production-floor support, manufacturing engineering, or quality/test engineering role.",
+      "Hardware design standards / company-wide design procedures \u2014 no documented work creating or maintaining design standards, component libraries, or standard design blocks.",
+      "Commercial embedded control product domain \u2014 profile covers robotics/ML/inference; role is industrial water/wastewater pump control (different product category).",
+      "Full-time post-graduation experience \u2014 role prefers 1-3 years; profile is 0 FT years (new-grad with internships only)."
+    ],
+    "overstated_by_keywords": [
+      "'hardware design' / schematic/BOM \u2014 profile has circuit-level prototyping and EAGLE PCB work, but no commercial schematic-to-manufacturing flow with formal BOM management.",
+      "'manufacturing integration' \u2014 keyword may match 'manufacturing' from description but profile has no commercial manufacturing engineering experience.",
+      "'control panels with embedded control devices' \u2014 profile builds embedded controllers and robotic systems, but not specifically industrial pump/alarm/level-monitoring control panels."
+    ],
+    "understated_by_keywords": [
+      "Firmware reliability / brown-out safety / production-grade reliability \u2014 haptics rig implemented brown-out reset detection, 3-retry ACK protocol, host-side safety cutoff, and crash-safe logging; very relevant to industrial embedded products.",
+      "PCB fabrication (EAGLE) and UART/I2C sensor integration \u2014 strongly relevant to embedded control panel design but may be under-weighted by keyword scoring.",
+      "Embedded control architecture (COFFIN three-layer pipeline, Turret multi-device WebSocket fabric) \u2014 demonstrates system-level embedded architecture relevant to control products."
+    ],
+    "screening_gaps": [
+      "No manufacturing/sustaining engineering experience \u2014 role's core includes manufacturing integration, parts obsolescence, and production support; profile has none of these.",
+      "No full-time embedded hardware/firmware experience \u2014 preferred 1-3 years; profile is new-grad with 6 internships, none in commercial embedded manufacturing.",
+      "No industrial embedded control / pump/alarm panel domain experience \u2014 role targets water/wastewater industrial controls; profile is robotics/research, not this domain."
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile demonstrates strong embedded C/C++ firmware depth (STM32 bare-metal, Arduino C++, FreeRTOS) and real prototyping-to-documentation cycles across 5+ projects, which maps well to the role's embedded controller and firmware development responsibilities. However, the role's core also requires manufacturing integration, sustaining engineering, production support, and commercial embedded control panel experience \u2014 areas where the profile has no real backing. The profile is research/internship scope (capstone, internships) with 0 full-time years, while the role is a manufacturing-oriented embedded engineering position preferring 1-3 years. This is a genuine skill/domain gap, not a keyword-matching artifact. Recommend against tailoring/applying; the role is a poor fit for the profile's current scope.",
+    "calibration_delta": 6.3
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "constraint_flags": {
+    "sponsorship_ok": true,
+    "location_on_site": true,
+    "experience_stretch": true
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "company": "Blissway",
+  "company_slug": "blissway",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 70.7,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 29,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Machine learning / deep learning",
+    "Computer vision",
+    "Object detection (YOLOv8 / YOLO11n)",
+    "Semantic segmentation (U-Net, UFLD)",
+    "Image classification (ResNet, VGG)",
+    "Classical CV / OpenCV (wavelets, stitching, homography)",
+    "Model training & fine-tuning",
+    "Edge inference deployment (Jetson)",
+    "Model optimization (TensorRT, 8-bit quantization)",
+    "PyTorch",
+    "TensorFlow / Keras",
+    "ONNX / TFLite export",
+    "Raw sensor data + field hardware (ToF, IMU, STM32, PCB)",
+    "Model evaluation metrics (mAP, IoU, Dice, PSNR)",
+    "Linux",
+    "Git",
+    "Transformers"
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "Production model deployment (live traffic)",
+    "Deployment monitoring / post-ship ownership",
+    "Re-identification / metric learning",
+    "High-throughput scale (11M images/day)",
+    "2\u20136 yrs professional SWE/ML experience"
+  ],
+  "adjacent_skills": [
+    "Embeddings \u2192 transformer/attention + DONUT VisionEncoderDecoder, no metric learning",
+    "Dataset curation \u2192 CARLA auto-annotation + Tusk manual annotation + LeRobot capture",
+    "Cloud compute / own servers \u2192 SLURM HPC cluster, MPI, not cloud infra",
+    "Production-quality code / SWE fundamentals \u2192 distributed 3-layer WebSocket system, no CI/tests/service ownership",
+    "Data collection pipelines \u2192 multiprocess multi-camera capture, BraTS batch-loading"
+  ],
+  "top_ats_keywords": [
+    "computer vision",
+    "object detection",
+    "segmentation",
+    "classification",
+    "embeddings",
+    "re-identification",
+    "PyTorch",
+    "Python",
+    "TypeScript",
+    "edge inference",
+    "model deployment",
+    "dataset curation",
+    "model monitoring",
+    "classical computer vision",
+    "production ML",
+    "sensor data",
+    "training pipelines",
+    "quantization"
+  ],
+  "key_responsibilities": [
+    "Own pipeline end to end: collection, dataset curation, training, deployment, monitoring, iteration",
+    "Vision at scale: 11M images/day \u2014 detection, segmentation, classification, embeddings, re-identification",
+    "Classical CV through custom SOTA models; pick the right tool",
+    "Push inference to roadside edge hardware: fast, small, power-efficient without losing accuracy",
+    "Work on real field devices and multi-sensor roadside data",
+    "Write production-quality code (Python, TypeScript)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "constraint_flags": {
+    "application_deadline_passed": "Deadline to apply was 2026-07-16; today is 2026-09-09 (~8 weeks past). Cohort-based two-week window is closed.",
+    "sponsorship": "Not mentioned in JD. <30-person startup, not on known_sponsors list \u2014 H-1B path uncertain.",
+    "location": "Denver, CO \u2014 hybrid, in-person, relocation expected (relocation bonus offered). willing_to_relocate = true.",
+    "workload": "JD states 55 hrs/week average, 70+ hour bursts."
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Edge CV deployment is a direct hit: TensorRT-optimized YOLO on Jetson at 5.2x speedup (56.7->10.9 ms) is exactly the 'push inference onto roadside hardware, fast/small/power-efficient' half of the role.",
+      "Classical-vs-heavy-model judgment is genuinely evidenced at BARC: custom sym6+bior3.5 wavelet bank + bit-manipulation stitching reached PSNR 86 where a homography baseline gave 65 \u2014 he picked a filter over a network and it won.",
+      "Dataset collection and curation at source: CARLA semantic-segmentation + raycast occlusion pipeline produced ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation; Tusk dataset curated and annotated by hand to 83% mAP@50.",
+      "Physical-world robustness: resolved 11 integration failures (false positives, servo brown-out, stale-frame capture) to 100% pick reliability \u2014 this is the 'systems that stand up to the unpredictability of the physical world' ask.",
+      "Efficiency without accuracy loss: 8-bit LLM.int8 quantization cut GPU memory ~55% with <1% accuracy degradation; CUDA kernel work gave ~35% speedup over naive GPU."
+    ],
+    "real_gaps": [
+      "No model has ever served production traffic \u2014 the JD's mission line is 'ships the model, not just trains it', and every deployment in the profile terminates at a capstone demo, a mobile export, or a benchmark.",
+      "No deployment monitoring, drift detection, retraining loop, or post-ship iteration anywhere in the profile.",
+      "No re-identification or metric learning (triplet/contrastive/embedding search); embeddings appear only as transformer internals.",
+      "Scale mismatch: largest dataset is ~5,000 frames against 11M images/day; no distributed training, sharded data infra, or throughput/cost engineering.",
+      "No TypeScript (soft \u2014 they explicitly say they don't care what you're proficient in today).",
+      "0 full-time years against a 2\u20136 year band; all evidence is internships, research fellowships, and coursework capstones.",
+      "No cloud infrastructure ownership \u2014 SLURM batch compute is not the same as running your own servers."
+    ],
+    "overstated_by_keywords": [
+      "'Deployment' \u2014 ONNX/TFLite export and a TensorRT engine are deployment engineering, not a served, monitored production system.",
+      "'Cloud' \u2014 SLURM/MPI is HPC batch scheduling, not cloud infrastructure or self-hosted serving.",
+      "'Embeddings' \u2014 matched on transformer attention, not on the embedding/re-ID work the JD actually means."
+    ],
+    "understated_by_keywords": [
+      "Classical CV depth never string-matched: wavelet denoising, custom stitching, PSNR-driven tuning is precisely the 'not reaching for a transformer when a filter will do' requirement.",
+      "Synthetic data generation with zero manual annotation is a strong answer to 'you decide which problems are worth solving, then take them from raw sensor data' \u2014 no keyword captured it.",
+      "Multi-sensor roadside-style fusion (camera + dual ToF over I2C mux, range gating) maps directly onto 'multiple other sensors on the road'."
+    ],
+    "screening_gaps": [
+      "No production ML ownership \u2014 never deployed, monitored, or iterated a model against live traffic, which is the role's stated mission, not a nice-to-have.",
+      "Zero full-time years against a 2 to 6 year band, with all evidence from internships and academic capstones.",
+      "No experience anywhere near their data volume \u2014 about 5,000 frames at most versus 11 million images a day."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The technical overlap on the edge-CV half of this role is unusually specific \u2014 Jetson plus TensorRT plus YOLO on real sensor hardware is his capstone, and the classical-CV judgment they ask for is genuinely evidenced at BARC rather than claimed. What is missing is the other half of the mission statement: nothing in the profile has ever shipped, been monitored, or been iterated in production, and that is the exact thing they lead with. Worth an application as a stretch at the bottom of the band, but the production-ownership gap is what a human reader will catch first.",
+    "calibration_delta": 2.7
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-28",
+    "channel": "application",
+    "notes": "Form rejection: not an ideal fit (ML Engineer, Cohort 2). No feedback."
+  }
+}

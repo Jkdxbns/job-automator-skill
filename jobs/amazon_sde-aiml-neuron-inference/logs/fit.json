@@ -1,0 +1,155 @@
+{
+  "company": "Amazon (AWS Annapurna Labs)",
+  "company_slug": "amazon",
+  "role": "Software Development Engineer, AI/ML, AWS Neuron, Model Inference",
+  "job_slug": "sde-aiml-neuron-inference",
+  "match_pct": 45.8,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 24,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Machine Learning",
+    "LLM / Transformers",
+    "C++",
+    "Python",
+    "Parallel Computing (MPI)",
+    "Operating Systems / RTOS",
+    "Debugging",
+    "Profiling",
+    "PyTorch",
+    "CUDA / kernel development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "TensorRT",
+      "you_have": "Model Optimization"
+    }
+  ],
+  "missing_skills": [
+    "System Performance (deep, at ML-accelerator scale)",
+    "Memory Management (low-level)",
+    "Computer Architecture (custom silicon)",
+    "Large-Scale Production Systems",
+    "JIT Compilation / AOT Tracing (torch.jit/fx)",
+    "CUTLASS",
+    "FlashInfer",
+    "Triton (tile-level kernels)",
+    "vLLM",
+    "SGLang",
+    "Inference Serving (production)",
+    "Distributed Inference"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "JAX",
+    "CUDA",
+    "Triton",
+    "vLLM",
+    "SGLang",
+    "TensorRT",
+    "CUTLASS",
+    "FlashInfer",
+    "C++",
+    "Python",
+    "LLM",
+    "Trainium",
+    "Inferentia",
+    "kernel",
+    "distributed inference"
+  ],
+  "required_skills": [
+    "Machine learning fundamentals and LLM architecture/training/inference lifecycle",
+    "C++ or Python",
+    "System performance and memory management",
+    "Parallel computing principles",
+    "Computer architecture and OS-level software",
+    "Debugging and profiling at scale",
+    "Software engineering best practices in large-scale systems"
+  ],
+  "preferred_skills": [
+    "PyTorch",
+    "JIT compilation / AOT tracing",
+    "CUDA kernels or equivalent low-level kernels",
+    "CUTLASS",
+    "FlashInfer",
+    "Triton tile-level semantics",
+    "vLLM",
+    "SGLang",
+    "TensorRT",
+    "inference serving in production"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design/optimize ML models and frameworks for custom ML hardware accelerators",
+    "Build distributed inference support for PyTorch in Neuron SDK",
+    "Write high-performance kernels for ML ops on Trainium/Inferentia",
+    "Performance profiling and bottleneck resolution",
+    "Work directly with customers to enable and optimize their ML models"
+  ],
+  "role_category": "ml_systems",
+  "location": "Cupertino, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 38,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Custom CUDA C++ kernel optimization (VGG16 project): memory coalescing, constant memory, preallocated buffers \u2014 35-50% speedup over naive/CPU baselines, real low-level kernel engineering",
+      "TensorRT-optimized YOLO in COFFIN capstone: 5.2x inference speedup (56.7ms to 10.9ms) \u2014 applied inference-optimization experience with measured results",
+      "GPT-2-style Transformer and Whisper-style ASR built from scratch in PyTorch \u2014 implementation-level understanding of attention/transformer architecture, deeper than typical framework-usage exposure",
+      "MPI-based distributed computing (Hodgkin-Huxley neuron sim, parallel ray tracer) on SLURM cluster with measured speedups up to 10.49x and 30x \u2014 genuine parallel-computing depth",
+      "8-bit quantization work (SLM compression on TinyLlama 1.1B, ~55% memory reduction, <1% accuracy loss) \u2014 directly analogous to 'optimize customer models' responsibility"
+    ],
+    "real_gaps": [
+      "No framework-internals or compiler engineering experience (torch.jit/fx, AOT tracing, custom autograd/backend integration) \u2014 this is the core mechanism of building 'distributed inference support for PyTorch in Neuron SDK'",
+      "No exposure to custom ML accelerator architecture (Trainium/Inferentia-class silicon) \u2014 all kernel work is on commodity NVIDIA GPUs, a different ISA/toolchain/compiler stack entirely",
+      "Zero backing for CUTLASS, FlashInfer, Triton tile-level kernels, vLLM, SGLang \u2014 named preferred skills with no trace in the profile",
+      "No production-scale or distributed inference-serving experience \u2014 every project is single-node, research/capstone scope",
+      "No evidence of direct customer-facing model-enablement work"
+    ],
+    "overstated_by_keywords": [
+      "PyTorch counted as Have, but usage is applied model training/fine-tuning (GPT-2, Whisper, quantization), not framework-internals or compiler-level engineering the SDK role needs",
+      "CUDA / kernel development counted as Have, but scoped to single commodity-GPU kernel exercises, not accelerator-ISA-level kernel authoring"
+    ],
+    "understated_by_keywords": [
+      "COFFIN's systemd production deployment (auto-restart, non-root isolation, static-IP networking) shows real large-scale-systems engineering discipline the keyword pass undercounted",
+      "Building GPT-2 and an ASR encoder-decoder entirely from scratch demonstrates deeper transformer-internals grounding than a single 'PyTorch' keyword hit implies"
+    ],
+    "screening_gaps": [
+      "No framework-internals/compiler engineering experience (torch.jit/fx, AOT tracing) \u2014 the role's core function of extending PyTorch for a custom accelerator SDK",
+      "No production-scale distributed inference-serving experience (vLLM/SGLang/TensorRT-serving) \u2014 everything in the profile is single-node/research scale",
+      "No exposure to custom silicon/ML-accelerator architecture (Trainium/Inferentia) \u2014 kernel work is commodity-GPU only"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has genuine kernel-optimization and parallel-computing depth (CUDA, MPI) plus unusually thorough from-scratch transformer/ASR builds, covering the general ML-fundamentals half of this role. But the role's core is compiler/SDK engineering for a custom silicon accelerator with production-scale distributed inference serving, and none of that framework-internals or accelerator-specific work appears anywhere in the profile, so the underlying skill match is weaker than the keyword count suggests.",
+    "calibration_delta": 7.8
+  }
+}

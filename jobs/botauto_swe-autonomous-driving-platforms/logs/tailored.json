@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "company": "Bot Auto",
+    "role": "Software Engineer, Autonomous Driving Platforms",
+    "company_slug": "botauto",
+    "job_slug": "swe-autonomous-driving-platforms"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Built a three layer distributed system connecting a mobile client, a Flask backend, and an edge device controller over a unified WebSocket architecture, handling real time sensor data and event driven control commands. Experienced in Python backend development, real time data visualization tooling, and simulation based autonomous vehicle pipelines using CARLA.",
+  "skills": {
+    "Backend & Real-Time Systems": ["Python", "Flask", "Flask-SocketIO", "WebSocket", "Distributed Systems", "Event-Driven Architecture"],
+    "Machine Learning & Data Pipelines": ["YOLOv8 / YOLO11n", "ONNX", "TFLite", "TensorRT", "Model Evaluation", "Dataset Curation & Annotation"],
+    "Simulation & Autonomous Systems": ["CARLA", "Autonomous Vehicle Simulation", "Lane Detection (UFLD / ResNet-18)"],
+    "Tools & Version Control": ["Git / GitLab", "PyQt", "Matplotlib", "JupyterHub"],
+    "Embedded / Edge Devices": ["NVIDIA Jetson", "Arduino", "C/C++"]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset for health level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice controlled, vision guided robotic pick and place system across a three layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson plus Arduino controller, connected through a unified WebSocket architecture.",
+        "Integrated faster-whisper speech to text (1.0 to 1.4s latency), Gemini intent classification (under 500ms), and TensorRT optimized YOLO detection (5.2x speedup, 56.7 to 10.9 ms) into a real time control pipeline for visual servoing.",
+        "Resolved 11 integration failures across the distributed system, including false positive detections, servo brown out, and stale frame capture; achieved 100% pick reliability (10 of 10 trials) at approximately 11.5s end to end latency.",
+        "Implemented inverse kinematics and multi servo control in C++ on Arduino, with contact aware grasping driven by dual time of flight sensors over I2C."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce roughly 5,000 detection and 3,000 lane training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 approximately 0.85) and fine tuned a lane detection model (UFLD, ResNet-18 backbone); integrated into an adaptive control stack with lane following and waypoint fallback.",
+        "Validated the system in CARLA's Town02 map with 30 vehicles and 10 pedestrians, achieving zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Multiple Processor Systems", "Machine Intelligence", "Deep Learning", "Robot Perception", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,153 @@
+{
+  "company": "Dresden comms client (via recruiter)",
+  "company_slug": "dresden-comms-client",
+  "role": "Embedded Linux C/C++, Python Developer (m/f/d) - Communication Systems",
+  "job_slug": "embedded-linux-cpp-python-dev",
+  "match_pct": 65.6,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 3,
+    "jd_ask_size": 16,
+    "req_cov": 0.889,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded Linux",
+    "C/C++",
+    "Python",
+    "Linux programming",
+    "real-time operating systems",
+    "debugging",
+    "version control",
+    "embedded ARM"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "communication protocols",
+      "you_have": "SPI/I2C/UART/BLE/CAN"
+    },
+    {
+      "jd_skill": "software testing",
+      "you_have": "validation/benchmarking"
+    },
+    {
+      "jd_skill": "continuous integration",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "modulation / SNR",
+      "you_have": "DSP, Random Signal Analysis"
+    },
+    {
+      "jd_skill": "communication technologies",
+      "you_have": "Bluetooth, GSM, networking"
+    }
+  ],
+  "missing_skills": [
+    "German",
+    "virtualization",
+    "satellite communication"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "C",
+    "C++",
+    "Python",
+    "real-time",
+    "protocols",
+    "unit tests",
+    "CI",
+    "Git",
+    "virtualization",
+    "ARM",
+    "German"
+  ],
+  "required_skills": [
+    "Embedded Linux",
+    "C/C++",
+    "Python",
+    "Linux programming",
+    "software testing",
+    "communication protocols",
+    "real-time operating systems",
+    "debugging",
+    "German"
+  ],
+  "preferred_skills": [
+    "virtualization",
+    "version control",
+    "continuous integration",
+    "communication technologies",
+    "modulation",
+    "SNR",
+    "embedded ARM"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "satellite comms software",
+    "protocol implementation",
+    "unit/system tests",
+    "RT OS configuration"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Dresden, Germany (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52.4,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on Cortex-M4 with interrupt-driven ADC/I2C/UART (STM32 temperature monitor)",
+      "FreeRTOS tasks and mutexes on the turret project: real-time OS exposure",
+      "Jetson Linux deployment as a systemd service with static IP and non-root isolation (COFFIN)",
+      "B.E. Electronics & Telecommunication plus DSP and Random Signal Analysis coursework: communications fundamentals, SNR and modulation vocabulary",
+      "Python across GUIs, pipelines and ASR; Git/GitLab used at BARC"
+    ],
+    "real_gaps": [
+      "German at the very good level, stated as a requirement",
+      "No satellite or RF communication work",
+      "No protocol-stack implementation (framing, state machines over a link) beyond SPI/I2C/UART/WebSocket",
+      "No kernel, driver, Yocto or Buildroot work; embedded Linux is deployment-level",
+      "No unit/system test framework or CI pipeline in the profile",
+      "No virtualization or containers in the profile",
+      "Series-production support experience absent"
+    ],
+    "overstated_by_keywords": [
+      "Embedded Linux counted as Have: backed by systemd service setup on Jetson, not by kernel, driver or BSP work",
+      "Version control counted as Have: GitLab use at BARC is light"
+    ],
+    "understated_by_keywords": [
+      "B.E. Electronics & Telecommunication and DSP coursework give more communications grounding than the adjacent bucket shows",
+      "Quadrature-decoding state machine and UART command handling show protocol-style thinking"
+    ],
+    "screening_gaps": [
+      "Very good German is a stated requirement and Justin has none",
+      "No satellite, RF or protocol-stack implementation experience for a communication-systems team",
+      "Embedded Linux depth is deployment only, with no kernel, driver or BSP work and no test/CI evidence"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The core stack (C/C++, Python, Linux, RTOS, ARM) is genuinely backed, and the telecom degree helps. The German requirement, the satellite-comms domain and the missing test/CI evidence are the real screens, and the German one is the hardest to close.",
+    "calibration_delta": 13.2
+  },
+  "semantic_pending": false
+}

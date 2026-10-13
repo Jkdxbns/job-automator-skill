@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "company": "Haystack (partner undisclosed)",
+    "role": "AI Engineer",
+    "company_slug": "haystack",
+    "job_slug": "ai-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience optimizing and deploying AI models across edge and hybrid AI architectures. Fine-tuned vision-language models (DONUT), compressed LLMs via structured pruning and 8-bit quantization, and built production-grade inference pipelines using TensorRT and CUDA C++ on NVIDIA Jetson.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "Model evaluation"
+    ],
+    "Edge AI / Inference": [
+      "NVIDIA Jetson",
+      "YOLO",
+      "YOLOv8",
+      "OpenCV",
+      "faster-whisper",
+      "TorchScript"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Bash"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "Flask",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free vision-language transformer) on a custom dataset; improved validation accuracy from 55% to 93% via preprocessing and architecture tuning.",
+        "Built PyTorch preprocessing and training pipelines to standardize model training, evaluation, and reproducibility workflows."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained and evaluated YOLOv8 computer vision models, improving classification accuracy from 78% to 97.5%; deployed to a production consumer mobile app.",
+        "Curated and annotated a custom object detection dataset for health-level classification."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline using custom image stitching, wavelet denoising, and ZoeDepth depth estimation; achieved PSNR of 86 vs. 65 (homography baseline).",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place system over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller.",
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), and TensorRT YOLO visual servoing at ~18 FPS; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via structured pruning and 8-bit quantization for edge deployment.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; characterized ~7% accuracy drop and +6.3 perplexity increase to quantify compression trade-offs."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights, and preallocated global buffers.",
+        "Achieved ~35% speedup (49.2ms vs 73.3ms uncoalesced; 77.5ms CPU baseline) \u2014 1.5\u20132\u00d7 improvement in convolution throughput with identical accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "company": "Jobright.ai",
+  "company_slug": "jobrightai",
+  "role": "AI Engineer, Entry Level",
+  "job_slug": "ai-engineer-entry",
+  "match_pct": 88,
+  "have_skills": [
+    "python",
+    "llm api",
+    "api integration",
+    "async programming",
+    "git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "agentic workflows",
+      "candidate_has": "ROS2 autonomous pipelines, ASR pipelines"
+    },
+    {
+      "jd_term": "generative ai",
+      "candidate_has": "Transformer models, HuggingFace Transformers"
+    }
+  ],
+  "missing_skills": [
+    "prompt engineering",
+    "langchain/crewai",
+    "vector databases",
+    "rag"
+  ],
+  "top_ats_keywords": [
+    "python",
+    "llm",
+    "agentic",
+    "prompt engineering",
+    "rag",
+    "langchain",
+    "openai api",
+    "hugging face",
+    "generative ai",
+    "multi-agent"
+  ],
+  "key_responsibilities": [
+    "Build autonomous AI agents for real-world user problems",
+    "Develop prompt engineering workflows and multi-agent orchestration",
+    "Integrate LLMs into production application with low latency",
+    "Implement RAG systems and fine-tune models"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "sponsorship_flag": "UNKNOWN \u2014 startup, not on known sponsors list; no explicit no-sponsorship",
+  "experience_flag": "0-2 years required \u2014 perfect match",
+  "location": "United States (Remote)",
+  "role_alignment": "LOW \u2014 LLM application engineering vs. Justin target of Edge AI / Embedded ML / GPU"
+}

@@ -1,0 +1,104 @@
+{
+  "_meta": {"company": "Google", "role": "Software Engineer III, AI/ML, AI and Infrastructure", "company_slug": "google", "job_slug": "swe3-aiml-ai-infra"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience building and optimizing ML infrastructure in Python and C++. Built ASR pipelines from architecture through deployment, including a from scratch speech recognition model reaching 15% WER, and optimized inference through 8-bit quantization and TensorRT for up to 5.2x speedup. Debugged and resolved integration failures across distributed, multi-device ML systems end to end.",
+  "skills": {
+    "ML / Deep Learning": ["PyTorch", "Model evaluation", "TensorRT", "Quantization (8-bit)", "pynvml Profiling", "Hugging Face Transformers"],
+    "Edge AI / Speech / CV": ["ASR pipelines", "faster-whisper", "Tokenization", "YOLO", "OpenCV"],
+    "Languages & Systems": ["Python", "C/C++", "CUDA", "Cython", "Bash"],
+    "HPC / Parallel": ["CUDA C++", "Memory coalescing", "Kernel optimization"],
+    "Tools": ["Linux", "Git", "GitLab", "Flask"]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU and reported accuracy latency trade offs for deployment.",
+        "Engineered a data processing pipeline for the BraTS 2020 multi modal MRI dataset with augmentation and batch loading memory management for large scale volumetric inputs."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace to fine tune a document understanding transformer for structured field extraction.",
+        "Improved validation accuracy from 55% to 93% by debugging and iterating on preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI for real time data acquisition and experimental visualization in a laboratory environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper speech to text and TensorRT optimized YOLO (5.2x speedup, 17.6 to 92 FPS) for visual servoing across a Flutter, Flask-SocketIO, and Jetson plus Arduino pipeline linked by WebSocket.",
+        "Debugged and resolved 11 integration failures across the distributed system; reached 100% pick reliability over 10 trials at about 11.5s end to end latency."
+      ]
+    },
+    {
+      "name": "COFFIN - Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end to end speech recognition pipeline: an 80 channel mel spectrogram encoder and a 4 block causal Transformer decoder with cross attention, trained on Indian-English audio samples.",
+        "Designed a custom BPE tokenizer with a Cython accelerated backend for 4 to 5.5x speedup over pure Python; reached 15% word error rate on a Hindi-English dataset."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by about 55% via 8-bit quantization on TinyLlama 1.1B; profiled peak VRAM and latency using pynvml, benchmarking accuracy across HellaSwag, GSM8K, and ARC with under 1% degradation."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing and constant memory, reaching about 35% speedup over naive GPU execution with identical classification accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,155 @@
+{
+  "company": "Yale School of Medicine (Dept. of Neurosurgery, ARIA)",
+  "company_slug": "yale",
+  "role": "Machine Learning and Neuro-Artificial Intelligence Specialist",
+  "job_slug": "ml-neuro-ai-specialist",
+  "match_pct": 48.1,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 7,
+    "missing_count": 10,
+    "jd_ask_size": 26,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Slurm",
+    "CUDA",
+    "HPC",
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed/Multi-GPU Training",
+      "you_have": "MPI + CUDA"
+    },
+    {
+      "jd_skill": "Generative Models",
+      "you_have": "GPT-2 / SLM"
+    },
+    {
+      "jd_skill": "Foundation Models",
+      "you_have": "GPT-2 / SLM / HuggingFace"
+    },
+    {
+      "jd_skill": "FlashAttention",
+      "you_have": "CUDA kernels + attention"
+    },
+    {
+      "jd_skill": "fMRI",
+      "you_have": "BraTS MRI segmentation"
+    },
+    {
+      "jd_skill": "Time-Series Modeling",
+      "you_have": "Digital Signal Processing"
+    },
+    {
+      "jd_skill": "Mixed Precision",
+      "you_have": "Quantization / LLM.int8"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Apptainer",
+    "Conda",
+    "Self-Supervised Learning",
+    "Representation Learning",
+    "iEEG/ECoG/EEG",
+    "fNIRS",
+    "Brain-Computer Interface",
+    "Activation Checkpointing",
+    "Research Publications"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "Transformers",
+    "Slurm",
+    "CUDA",
+    "Docker",
+    "Apptainer",
+    "Conda",
+    "distributed training",
+    "multi-GPU",
+    "self-supervised learning",
+    "representation learning",
+    "foundation models",
+    "iEEG",
+    "EEG",
+    "fNIRS",
+    "fMRI",
+    "time-series",
+    "FlashAttention",
+    "mixed precision",
+    "activation checkpointing"
+  ],
+  "required_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Distributed Training",
+    "Multi-GPU Training",
+    "Slurm",
+    "CUDA",
+    "Docker",
+    "Apptainer",
+    "Conda",
+    "HPC",
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "Self-Supervised Learning",
+    "Representation Learning",
+    "Generative Models",
+    "Foundation Models",
+    "Linux"
+  ],
+  "preferred_skills": [
+    "iEEG/ECoG/EEG",
+    "fNIRS",
+    "fMRI",
+    "Time-Series Modeling",
+    "Brain-Computer Interface",
+    "FlashAttention",
+    "Mixed Precision",
+    "Activation Checkpointing",
+    "Research Publications"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Train multimodal brain-data models",
+    "Brain foundation models",
+    "Optimize GPU/HPC pipelines",
+    "Reproducible code",
+    "Manuscripts/grants",
+    "Mentoring"
+  ],
+  "role_category": "ml_systems",
+  "location": "New Haven, CT (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

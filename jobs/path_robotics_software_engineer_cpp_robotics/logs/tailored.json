@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "company": "Path Robotics",
+    "role": "Software Engineer, C++/Robotics",
+    "company_slug": "path_robotics",
+    "job_slug": "software_engineer_cpp_robotics"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology building real-time robotics systems in C++ and ROS2. Designed distributed perception-to-control pipelines with concurrent, thread-safe execution, from FreeRTOS mutex-coordinated servo control to collision-free motion planning validated on a physical UR5e. Strong in computer vision, motion planning, and low-level sensor integration for industrial robot control.",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "ROS/ROS2",
+      "CMake",
+      "Bash"
+    ],
+    "Robotics & Motion": [
+      "MoveIt",
+      "RViz",
+      "URDF",
+      "Motion planning",
+      "Visual servoing",
+      "Forward kinematics",
+      "DH parameters"
+    ],
+    "Concurrency & Real-Time": [
+      "Multithreading",
+      "FreeRTOS",
+      "Mutexes / synchronization",
+      "Interrupt-driven I/O",
+      "Deterministic real-time control"
+    ],
+    "Computer Vision / Edge AI": [
+      "OpenCV",
+      "YOLO",
+      "TensorRT",
+      "NVIDIA Jetson",
+      "PyTorch"
+    ],
+    "Embedded & Interfaces": [
+      "STM32 (Bare-Metal C)",
+      "UART/I2C/SPI",
+      "Arduino",
+      "VL53L0X ToF"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "WebSocket / Flask-SocketIO"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline for microscopic crack analysis via custom image stitching, wavelet denoising, and depth estimation.",
+        "Combined custom wavelet denoising with optimized homography stitching and concurrency to reach a PSNR of 86 on high-resolution reconstruction."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; restructured task distribution mid-project to deliver the full pipeline within a 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place system over a three-layer distributed pipeline (Flutter, edge server, Jetson+Arduino) on a WebSocket fabric; 100% pick reliability.",
+        "Implemented two-link inverse kinematics on Arduino in C++; resolved 11 integration failures across perception and motion control."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at under 2mm over 10 trials.",
+        "Derived DH tables and forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for thread-safe shared-memory task coordination; implemented multi-servo PWM control with interrupt-driven UART commands and user override."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

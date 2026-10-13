@@ -1,0 +1,111 @@
+{
+  "company": "Verisure",
+  "company_slug": "verisure",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 47.2,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 18,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded Linux (Yocto, exposure)",
+    "System-level debugging/troubleshooting",
+    "C/C++",
+    "Linux",
+    "Scripting (Bash)",
+    "Networking (TCP/IP, sockets)",
+    "systemd/service management"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Bluetooth/BLE wireless communication"
+    },
+    {
+      "jd_skill": "Linux kernel/driver-level development",
+      "you_have": "MCU peripheral/driver development (register-level, GPIO/UART/I2C/SPI)"
+    },
+    {
+      "jd_skill": "IoT / large-scale deployed systems",
+      "you_have": "NVIDIA Jetson edge AI deployment"
+    }
+  ],
+  "missing_skills": [
+    "GSM/modem",
+    "D-Bus",
+    "DDS",
+    "Middleware libraries (Linux)",
+    "HAL (Linux hardware abstraction layer)",
+    "System security (access control, secure comms)",
+    "Data persistence mechanisms",
+    "Vendor/chipset collaboration"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "Yocto",
+    "C/C++",
+    "Wi-Fi",
+    "D-Bus",
+    "DDS",
+    "middleware",
+    "HAL",
+    "systemd",
+    "networking",
+    "debugging"
+  ],
+  "required_skills": [
+    "Embedded Linux (Yocto)",
+    "System-level debugging/troubleshooting",
+    "C/C++ in Linux environments",
+    "Scripting and tooling"
+  ],
+  "preferred_skills": [
+    "Wi-Fi",
+    "GSM",
+    "HAL",
+    "middleware on Linux",
+    "kernel or driver-level development",
+    "networking (routing, firewalling, connectivity)",
+    "vendor collaboration",
+    "IoT or large-scale deployed systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop and maintain embedded Linux solutions across Wi-Fi, modem, and system connectivity stacks",
+    "Design, integrate, and improve middleware libraries and HAL components",
+    "Implement and harden system security capabilities",
+    "Build and maintain persistence mechanisms",
+    "Work with Linux IPC and service frameworks including D-Bus and DDS",
+    "Integrate and optimize core system services (time sync, power management, lifecycle)",
+    "Debug and resolve complex field issues using logs, telemetry, crash dumps"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pozuelo de Alarc\u00f3n, Madrid, Spain (or Malm\u00f6, Sweden)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Foreign on-site work authorization: role is on-site in Madrid, Spain or Malm\u00f6, Sweden with no visa/relocation sponsorship mentioned. F-1 OPT only authorizes employment inside the United States (candidate_context.md foreign_onsite_no_us_authorization rule)."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

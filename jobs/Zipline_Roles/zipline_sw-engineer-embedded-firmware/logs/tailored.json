@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "company": "Zipline",
+    "role": "Software Engineer - Embedded Firmware",
+    "company_slug": "zipline",
+    "job_slug": "sw-engineer-embedded-firmware"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT with embedded firmware experience across STM32 bare metal C, FreeRTOS, and Linux on Jetson. Wrote peripheral drivers from datasheets, validated hardware with oscilloscopes and logic analyzers, and resolved several integration failures to achieve production level reliability on real hardware.",
+  "skills": {
+    "Embedded & Hardware": [
+      "STM32 (Bare Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "ADC",
+      "GPIO Interrupts",
+      "EAGLE PCB Design",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "CUDA",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake",
+      "Proteus"
+    ],
+    "Edge AI / CV": [
+      "YOLO",
+      "TensorRT",
+      "OpenCV",
+      "PyTorch"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove integrating accelerometers with Raspberry Pi and Bluetooth to translate 3 DoF hand motion into HID commands via Python over UART.",
+        "Implemented a custom z-axis differential tap detection algorithm; resolved sensor jitter through software calibration and ADC resolution tuning on live hardware."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated single layer PCBs in EAGLE for electromechanical locomotion robots; implemented closed loop sensor communication over UART and I2C.",
+        "Led 25 member robotics team across national competitions owning mechanical design, PCB fabrication, and firmware integration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual ToF sensors via an I2C multiplexer for contact aware grasping; implemented two link IK on Arduino; drove five servos with ADC range gated contact detection at a 25 mm close threshold.",
+        "Deployed on Linux on Jetson as a production systemd service with automatic restart and WebSocket reconnect; serial UART passthrough to the hardware controller.",
+        "Resolved several integration failures through fault isolation and telemetry analysis; achieved 100% pick reliability (10/10 trials) at approximately 11.5 s end to end latency."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "STM32 firmware in bare metal C and FreeRTOS: interrupt driven UART command parser, multiple servo PWM control with user override, and mutex guarded shared state task coordination.",
+        "Wrote peripheral drivers for a ToF sensor over I2C with real time OLED distance visualization; YOLO on Jetson sent tracking commands over UART to the STM32.",
+        "Validated PWM timing, signal integrity, and dead band limits under servo load using oscilloscope and logic analyzer."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Cortex-M4 firmware in bare metal C: timer triggered ADC scan conversions, interrupt driven sample capture, and a low level I2C driver; all implemented via direct register access to GPIO, timers, ADC, and I2C peripherals.",
+        "Achieved 3.68 KB Flash and 1.58 KB RAM at a deterministic 1 Hz update rate; verified timing in Proteus before hardware bring up."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Principles of Robotics",
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

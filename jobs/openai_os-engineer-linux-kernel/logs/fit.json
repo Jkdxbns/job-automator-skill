@@ -1,0 +1,117 @@
+{
+  "company": "OpenAI",
+  "company_slug": "openai",
+  "role": "Operating Systems Engineer, Linux Kernel | Consumer Devices",
+  "job_slug": "os-engineer-linux-kernel",
+  "match_pct": 27.5,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 12,
+    "jd_ask_size": 20,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "Embedded systems",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "kernel concurrency and synchronization",
+      "you_have": "RTOS coursework (CMPE 663)"
+    },
+    {
+      "jd_skill": "scheduling",
+      "you_have": "RTOS coursework (CMPE 663)"
+    },
+    {
+      "jd_skill": "profiling",
+      "you_have": "GPU profiling (pynvml)"
+    },
+    {
+      "jd_skill": "high-speed peripherals",
+      "you_have": "UART/I2C/SPI bare-metal"
+    },
+    {
+      "jd_skill": "userspace",
+      "you_have": "systemd services on Jetson"
+    }
+  ],
+  "missing_skills": [
+    "Linux kernel subsystems",
+    "Linux kernel C",
+    "memory management (kernel)",
+    "memory ownership and resource lifetimes",
+    "reviewable upstream patches",
+    "Linux community participation",
+    "Rust",
+    "device drivers",
+    "power management",
+    "virtualization",
+    "networking (kernel)",
+    "tracing"
+  ],
+  "top_ats_keywords": [
+    "Linux kernel",
+    "C",
+    "Rust",
+    "memory management",
+    "networking",
+    "power management",
+    "scheduling",
+    "virtualization",
+    "tracing",
+    "profiling",
+    "device drivers",
+    "embedded systems",
+    "userspace",
+    "concurrency",
+    "upstream patches"
+  ],
+  "required_skills": [
+    "Linux kernel subsystems",
+    "C (kernel)",
+    "kernel concurrency and synchronization",
+    "memory ownership and resource lifetimes",
+    "kernel and userspace interfaces",
+    "reviewable upstream-style patches"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "Linux community participation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and maintain Linux kernel subsystem changes",
+    "Own features across kernel and userspace",
+    "Debug with tracing and profiling",
+    "Validate performance, power, reliability",
+    "Upstream patches"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

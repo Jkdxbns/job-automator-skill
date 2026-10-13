@@ -1,0 +1,103 @@
+{
+  "company": "Johnson Controls",
+  "company_slug": "johnson_controls",
+  "role": "Linux Firmware Engineer",
+  "job_slug": "linux_firmware_engineer",
+  "req_id": "WD30278360",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 16,
+    "req_cov": 0.4,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "C/C++",
+    "Firmware development (bare-metal embedded C)",
+    "Board diagnostics (oscilloscope / logic analyzer)",
+    "Bluetooth",
+    "Motor controller (multi-servo PWM, closed-loop)"
+  ],
+  "missing_skills": [
+    "Buildroot",
+    "U-Boot",
+    "Linux kernel modification",
+    "Device tree",
+    "Cyber security technology",
+    "PACS / physical access control domain"
+  ],
+  "adjacent_skills": [
+    "Zephyr OS -> FreeRTOS (RTOS tasks/mutexes)",
+    "Linux device driver -> bare-metal register-level peripheral drivers (GPIO/TIM/ADC/I2C)",
+    "C/C++ on Linux/Zephyr -> C++ on Arduino + CUDA C++; Linux-side work is mostly Python",
+    "Board bring-up -> STM32 bare-metal bring-up + custom EAGLE PCB fabrication"
+  ],
+  "top_ats_keywords": [
+    "Linux",
+    "Zephyr",
+    "Buildroot",
+    "U-Boot",
+    "kernel",
+    "device driver",
+    "device tree",
+    "C/C++",
+    "board bring-up",
+    "diagnostics",
+    "firmware",
+    "Bluetooth",
+    "motor controller",
+    "PACS",
+    "embedded Linux",
+    "cyber security"
+  ],
+  "key_responsibilities": [
+    "Hands-on PACS (Physical Access Control System) feature development and field support",
+    "Firmware development using Linux and Zephyr OS; mentor others in the area",
+    "Modify and update Buildroot, U-Boot, kernel, device drivers, device tree",
+    "C/C++ development on Linux/Zephyr",
+    "Board bring-up and diagnostics",
+    "Drive product improvement and innovation"
+  ],
+  "location": "Westford, MA (onsite)",
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register-level embedded C firmware: STM32 Cortex-M4 bare-metal temperature monitor (timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver, 3.68KB Flash / 1.58KB RAM) directly backs 'C/C++ development' and 'device driver' work at the peripheral layer.",
+      "Board bring-up and diagnostics: custom single-layer EAGLE PCBs fabricated for locomotive robots with UART/I2C sensor comms and closed-loop feedback; oscilloscopes and logic analyzers listed as working tools.",
+      "Bluetooth (the JD's 'plus'): HC-05 Bluetooth wearable gesture glove translating 3-DoF motion into HID commands.",
+      "Motor controller (the JD's other 'plus'): multi-servo PWM control with interrupt-driven UART commands and user override on the Object Tracking Turret; five-servo drive with two-link IK in C++ on COFFIN.",
+      "Field-debug temperament: resolved 11 integration failures on COFFIN (false-positive detections, servo brown-out, stale-frame capture) to 10/10 pick reliability, which maps to the 'field support' half of the role."
+    ],
+    "real_gaps": [
+      "Embedded Linux BSP is the core of this role and is entirely unevidenced: no Buildroot, no U-Boot, no kernel build/patch, no device tree. Nothing in the profile touches kernel space or a board support package.",
+      "Zephyr OS: zero exposure. FreeRTOS on the turret is the only RTOS evidence, and per the repo notes the drone stack is ChibiOS, not FreeRTOS, so even the RTOS claim needs care.",
+      "Linux experience is user-space and application-level (Jetson deployment, ROS2, Python, TensorRT) rather than platform/firmware-level, which is the opposite end of the stack from what this JD asks for.",
+      "No cyber security work, and no physical access control / PACS domain exposure.",
+      "Seniority: JD asks 2 to 6 years of solid software engineering with significant Linux/Zephyr time; Justin has 0 full-time years."
+    ],
+    "overstated_by_keywords": [
+      "'Linux' scores as a HAVE but the JD means kernel, bootloader, and BSP work; the profile's Linux is running applications on top of a distro someone else built.",
+      "'C/C++' is real but is C on Cortex-M and CUDA C++, not C++ on a Linux userspace/Zephyr firmware codebase.",
+      "Zephyr counted as adjacent via FreeRTOS, but RTOS familiarity does not transfer to Zephyr's build system, west, Kconfig, or devicetree overlays."
+    ],
+    "understated_by_keywords": [
+      "'Board bring-up and diagnostics' never string-matched but is genuinely backed twice over (bare-metal STM32 peripheral bring-up from reset, plus PCB design and fabrication with scope/logic-analyzer debug).",
+      "Both JD 'plus' items (Bluetooth and motor controller) are fully backed, which the keyword pass treated as low-weight extras."
+    ],
+    "reasoning": "The two technologies in the title, embedded Linux platform work and Zephyr, are the exact two things with no backing anywhere in the profile. What is real is the layer below and beside: register-level bare-metal firmware, peripheral drivers, custom board bring-up, scope-level diagnostics, Bluetooth, and motor control, which covers the JD's board bring-up requirement and both of its 'plus' items outright. This is a genuine embedded engineer being asked for a BSP specialization he has never done, so it is a Partial Fit that lives or dies on whether Johnson Controls will train the Buildroot/U-Boot/kernel/device-tree half.",
+    "calibration_delta": 6.0
+  }
+}

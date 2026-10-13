@@ -1,0 +1,130 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "PMIC Architect",
+  "job_slug": "pmic-architect",
+  "match_pct": 12.5,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 1,
+    "missing_count": 17,
+    "jd_ask_size": 20,
+    "req_cov": 0.062,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ADC",
+    "I2C"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI/ML infrastructure expertise (power delivery for AI accelerators)",
+      "you_have": "CUDA, Edge AI deployment, GPU optimization, Jetson"
+    }
+  ],
+  "missing_skills": [
+    "15+ years in power IC architecture",
+    "5+ years at Principal level in PMIC environment",
+    "Multi-phase synchronous buck converter design",
+    "Gate driver design",
+    "Current sensing (analog sensor design)",
+    "Analog control loops (circuit-level)",
+    "On-chip/in-package passive components",
+    "Flip-chip and advanced packaging (2.5D/3D integration)",
+    "SPICE simulation",
+    "PVT corner methodology",
+    "Tape-out experience",
+    "Silicon bring-up and characterization",
+    "Power IC mixed-signal expertise",
+    "CMOS process design",
+    "Power density optimization",
+    "PMBus protocol",
+    "FIVR/voltage regulator architecture"
+  ],
+  "top_ats_keywords": [
+    "PMIC architect",
+    "power IC",
+    "buck converter",
+    "mixed-signal IC",
+    "tape-out",
+    "power delivery",
+    "AI accelerator",
+    "gate driver",
+    "current sensing",
+    "analog design",
+    "SPICE",
+    "2.5D/3D packaging"
+  ],
+  "required_skills": [
+    "15+ years in power IC architecture",
+    "5+ years at Principal level or higher in fabless/IDM/PMIC environment",
+    "Deep expertise in multi-phase synchronous buck converter design",
+    "Gate driver design",
+    "Current sensing techniques (DCR/integrated sense)",
+    "Analog control loops",
+    "ADC/DAC integration in CMOS processes",
+    "Integrated passive components (on-chip/in-package inductors, capacitors)",
+    "Advanced packaging: flip-chip, 2.5D/3D integration, bump map design",
+    "Experience driving power IC tape-outs from architecture through silicon bring-up",
+    "SPICE-level transient analysis",
+    "AC loop stability analysis",
+    "PVT corner sweeps and margin targets",
+    "On-chip thermal diodes design",
+    "Oscillator/clock generation",
+    "ESD and latch-up protection strategy"
+  ],
+  "preferred_skills": [
+    "Kilowatt-class power delivery for AI accelerators/GPUs/high-performance CPUs",
+    "In-package voltage regulator architectures (FIVR, LEGO-style VR)",
+    "Substrate-embedded passives",
+    "PMBus/I2C/proprietary digital power management interfaces",
+    "Legacy to die-to-die control fabric migration",
+    "Startup experience or early-stage technical execution"
+  ],
+  "required_experience_years": 15,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define IVR architecture: multi-phase interleaved buck converter topology, phase count, switching frequency, efficiency targets",
+    "Architect digital control engine: duty cycle control, current balance, DVFS sequencing, transient response",
+    "Define control and telemetry interface",
+    "Establish power domain architecture for multi-domain compute targets",
+    "Define input power spec and inrush management",
+    "Define analog subsystem requirements: gate drivers, current sensing, thermal diodes, oscillators",
+    "Oversee integrated inductor evaluation and selection",
+    "Establish PVT corner strategy and margin targets",
+    "Drive analog-digital co-design for control loop stability",
+    "Define ESD and latch-up protection strategy",
+    "Guide process node selection for Gen 1 and roadmap",
+    "Lead IP evaluation for gate driver, ADC, reference blocks",
+    "Drive DFT strategy for power chiplet",
+    "Define packaging integration requirements",
+    "Translate AI compute power delivery requirements into product specs",
+    "Interface with foundry partners on process capability",
+    "Support technical due diligence for partnerships",
+    "Define multi-generation architecture roadmap"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA (preferred), Remote (United States)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

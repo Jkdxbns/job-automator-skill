@@ -1,0 +1,142 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Embedded Systems Engineer, Robotics Hardware",
+  "job_slug": "embedded-systems-engineer-robotics-hardware",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded platforms: Jetson, Raspberry Pi, STM32 (bare-metal C / FreeRTOS)",
+    "Linux system config, scripting, headless deployment (systemd, static IP, network config)",
+    "Microcontroller firmware \u2014 bare-metal (STM32 Cortex-M4) and RTOS (FreeRTOS)",
+    "C++ / Python for embedded and application-level code",
+    "ROS / ROS2 (Humble / Noetic), device drivers, TF, data streaming, RViz, MoveIt",
+    "I2C, SPI, UART, Bluetooth (BLE/Classic) protocols",
+    "Hardware debugging \u2014 oscilloscopes, logic analyzers, profiling (pynvml)",
+    "Sensor integration \u2014 LiDAR, camera, ToF (VL53L0X), IMU concepts",
+    "Performance / diagnostic optimization (CUDA profiling, memory coalescing, kernel speedup)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "USB / Ethernet / GMSL / CAN",
+      "you_have": "UART/I2C/SPI/Bluetooth; USB/Ethernet via SBC/I/O work; CAN/GMSL not used directly"
+    },
+    {
+      "jd_skill": "Thermal profiling / latency measurement / power draw",
+      "you_have": "GPU/compute profiling (pynvml), CUDA optimization; no dedicated thermal analysis"
+    },
+    {
+      "jd_skill": "Production vendor procurement / QA / scaling",
+      "you_have": "Only prototyping/intern-scale builds; no production/vendor management"
+    },
+    {
+      "jd_skill": "Watchdogs / health checks / monitoring",
+      "you_have": "Performance monitoring via profiling; no watchdog/health-check implementation listed"
+    },
+    {
+      "jd_skill": "Yocto / JetPack Linux customization",
+      "you_have": "General Linux (Ubuntu, systemd, static IP) but not Yocto/JetPack specifically"
+    }
+  ],
+  "missing_skills": [
+    "CAN bus interface experience",
+    "GMSL interface experience",
+    "Production-scale hardware procurement / QA / scaling",
+    "Formal thermal analysis / power-budget management at production level"
+  ],
+  "top_ats_keywords": [
+    "embedded compute",
+    "ARM",
+    "x86",
+    "SBC",
+    "Jetson",
+    "Raspberry Pi",
+    "Linux",
+    "Ubuntu",
+    "Yocto",
+    "JetPack",
+    "ROS",
+    "ROS2",
+    "device drivers",
+    "TF",
+    "data streaming",
+    "C++",
+    "Python",
+    "USB",
+    "Ethernet",
+    "GMSL",
+    "I2C",
+    "SPI",
+    "CAN",
+    "firmware",
+    "bare-metal",
+    "RTOS",
+    "FreeRTOS",
+    "debug",
+    "oscilloscope",
+    "logic analyzer",
+    "thermal",
+    "power draw",
+    "latency",
+    "watchdog",
+    "health check",
+    "robotics",
+    "Field AI"
+  ],
+  "required_skills": [
+    "Embedded platforms (Jetson, Raspberry Pi, x86 NUCs, custom SBCs)",
+    "Linux system configuration / scripting / headless deployment",
+    "Microcontroller firmware (bare-metal, RTOS)",
+    "C++ and Python (embedded/app-level)",
+    "USB / Ethernet / I2C / SPI / CAN / GMSL interfaces",
+    "ROS ecosystem (device drivers, TF, data streaming / publishing)",
+    "Hardware/software debugging tools (oscilloscopes, logs, power monitors, analyzers)",
+    "Systems diagnostics (thermal, timing, I/O, compute optimization)"
+  ],
+  "preferred_skills": [
+    "Thermal profiling / latency measurement / power draw analysis",
+    "Vendor hardware procurement / QA / production scaling",
+    "Root-cause debugging (boot, connectivity, throughput)",
+    "Watchdog / health-check / monitoring tool implementation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Compute System Design \u2014 architecture, Linux/ROS setup, sensor/compute integration, thermal/power/bandwidth analysis",
+    "Compute System Implementation \u2014 bring up sensors/peripherals (USB/Ethernet/GMSL/I2C/SPI/CAN), build ROS nodes/drivers/data pipelines, system tests (thermal, latency, power), docs/budgets",
+    "Compute System Production & Servicing \u2014 vendor procurement, QA checks, payload integration/scaling, root-cause debugging (boot/connectivity/throughput), watchdog/health-check monitoring"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

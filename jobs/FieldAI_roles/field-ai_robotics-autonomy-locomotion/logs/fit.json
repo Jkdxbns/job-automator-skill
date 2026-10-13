@@ -1,0 +1,63 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Locomotion",
+  "job_slug": "robotics-autonomy-locomotion",
+  "match_pct": 44.4,
+  "missing_skills": [
+    "PhD in Robotics/CS/Engineering (strongly preferred)",
+    "Deep reinforcement learning expertise for continuous control",
+    "2+ years locomotion policy deployment on real legged robots",
+    "Hands-on legged robot platforms (quadruped, bipedal, exoskeleton)",
+    "Isaac Gym / Isaac Lab / MuJoCo / PyBullet simulation proficiency",
+    "Sim-to-real transfer (domain randomization, system identification, adaptive methods)",
+    "Publications or open-source contributions in locomotion/RL/control",
+    "Multi-agent learning or terrain-adaptive control experience"
+  ],
+  "adjacent_skills": [
+    "Kinematics / DH parameters / inverse kinematics from robotic arm work (adjacent to contact dynamics and control theory)",
+    "CARLA simulation experience (adjacent to Isaac Gym/Isaac Lab/MuJoCo/PyBullet, different domain)",
+    "Jetson/TensorRT edge deployment and real-time inference on resource-constrained hardware (adjacent to onboard-compute NN controller deployment, listed as a preferred extra not a required skill)",
+    "UR5e/AL5B robotic arm manipulation experience (adjacent to manipulation/loco-manipulation extras)"
+  ],
+  "top_ats_keywords": [
+    "Reinforcement Learning",
+    "Isaac Gym",
+    "Isaac Lab",
+    "MuJoCo",
+    "PyBullet",
+    "sim-to-real",
+    "domain randomization",
+    "locomotion",
+    "quadruped",
+    "humanoid",
+    "PyTorch",
+    "TensorFlow",
+    "ROS/ROS2",
+    "control theory",
+    "kinematics",
+    "Python",
+    "C++",
+    "Linux"
+  ],
+  "key_responsibilities": [
+    "Architect and implement RL-based locomotion/manipulation pipelines, integrating Isaac Gym/Isaac Lab/MuJoCo with custom training workflows",
+    "Design reward functions, policy architectures, and domain randomization strategies to close the sim-to-real gap",
+    "Deploy and validate agile locomotion behaviors on quadruped and humanoid hardware; solve balance, contact-rich dynamics, and terrain variability challenges",
+    "Build and scale GPU-accelerated simulation infrastructure for domain-randomized training and evaluation",
+    "Collaborate with systems engineers, perception experts, and embedded teams; incorporate field telemetry to improve model generalization"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "constraint_flags": {
+    "sponsorship": "Not explicitly mentioned in JD; Field AI is not in known_sponsors list (unverified startup sponsorship policy)",
+    "experience": "JD states 2+ years locomotion deployment (preferred) and 3+ years industry robotics (extra); at/near experience_threshold_years=3 while candidate has 0 full-time years / 7 internships",
+    "location": "Irvine, CA (Mission Viejo HQ) — explicitly On-site, no remote option; candidate is remote_ok/willing_to_relocate=true so no conflict"
+  },
+  "llm_analysis": null
+}

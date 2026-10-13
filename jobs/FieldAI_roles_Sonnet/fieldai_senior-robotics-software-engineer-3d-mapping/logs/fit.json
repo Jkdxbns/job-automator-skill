@@ -1,0 +1,112 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Robotics Software Engineer, 3D Mapping",
+  "job_slug": "senior-robotics-software-engineer-3d-mapping",
+  "match_pct": 56.2,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 16,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "robotics software (Python/C++, ROS/ROS2, MoveIt, sensors)",
+    "embedded AI / vision (YOLO, OpenCV, TensorRT, Jetson)",
+    "embedded C / STM32 / FreeRTOS / UART-I2C-SPI",
+    "CUDA / GPU kernel optimization / memory coalescing",
+    "depth estimation / visual servoing / forward kinematics / TOF sensors",
+    "ML model optimization (quantization, pruning, ASR, transformers)",
+    "team leadership (7-person research team)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D mapping / SLAM / localization",
+      "you_have": "depth estimation (ZoeDepth), image stitching (PSNR 86), visual servoing, TOF sensors, forward kinematics \u2014 perception geometry but not production SLAM/3D mapping"
+    },
+    {
+      "jd_skill": "field deployment / embedded AI at scale",
+      "you_have": "embedded systems + Jetson + ROS2 deployments (personal/capstone), no company-scale field deployment"
+    },
+    {
+      "jd_skill": "safety / reliability / risk-aware autonomy engineering",
+      "you_have": "general engineering rigor, no formal safety engineering, ISO 26262, or production reliability experience"
+    },
+    {
+      "jd_skill": "Field Foundational Models / large-scale ML",
+      "you_have": "PyTorch/HuggingFace model training, quantization, custom ASR/SLM \u2014 not enterprise-scale foundation model engineering"
+    }
+  ],
+  "missing_skills": [
+    "production-scale 3D mapping / SLAM experience",
+    "formal functional-safety / ISO 26262 certification",
+    "field deployment at company/global scale",
+    "full-time industry experience (candidate is new-grad, 0 FT years)",
+    "enterprise cloud / distributed systems at scale"
+  ],
+  "top_ats_keywords": [
+    "3D mapping",
+    "SLAM",
+    "localization",
+    "robotics software engineer",
+    "perception",
+    "computer vision",
+    "embedded AI",
+    "sensor fusion",
+    "CUDA",
+    "edge AI",
+    "field deployment",
+    "autonomy",
+    "safety engineering"
+  ],
+  "required_skills": [
+    "3D mapping / SLAM / localization",
+    "robotics software (C++ / Python, ROS, sensors)",
+    "perception / computer vision / sensor fusion",
+    "field deployment / embedded AI systems",
+    "safety / reliability / risk-aware autonomy engineering"
+  ],
+  "preferred_skills": [
+    "Field Foundational Models / large-scale ML systems",
+    "CUDA / GPU-accelerated vision",
+    "explainability / safety engineering",
+    "experience with DeepMind / JPL / Boston Dynamics / NVIDIA-level robotics stacks"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and test 3D mapping/perception systems on real robot hardware",
+    "Deploy autonomous systems in unstructured real-world environments",
+    "Perception/planning/localization/manipulation pipelines",
+    "Safety/reliability/explainability for field autonomy",
+    "Cross-functional collaboration with AI/robotics/software/product teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

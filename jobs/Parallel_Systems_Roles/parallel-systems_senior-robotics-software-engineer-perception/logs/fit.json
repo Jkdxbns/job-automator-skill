@@ -1,0 +1,148 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Senior Robotics Software Engineer, Perception",
+  "job_slug": "senior-robotics-software-engineer-perception",
+  "match_pct": 34.1,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 11,
+    "jd_ask_size": 22,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "ROS2 / robotics middleware",
+    "ML-based perception / computer vision (YOLO, TensorRT, PyTorch)",
+    "Embedded real-time / bare-metal"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "geometry-based computer vision and robotics algorithms",
+      "you_have": "vision / robotics vision libraries"
+    },
+    {
+      "jd_skill": "real-time high-throughput multi-modal sensor fusion",
+      "you_have": "Edge AI on Jetson with multi-modal processing"
+    },
+    {
+      "jd_skill": "linear algebra / 3D geometry / optimization for state estimation",
+      "you_have": "robot kinematics / geometry"
+    },
+    {
+      "jd_skill": "real-time embedded / production systems",
+      "you_have": "bare-metal embedded RTOS"
+    },
+    {
+      "jd_skill": "autonomous vehicles / field robotics / robotics",
+      "you_have": "robotics / perception experience"
+    },
+    {
+      "jd_skill": "sensor calibration / state estimation",
+      "you_have": "calibration / measurement experience (limited)"
+    },
+    {
+      "jd_skill": "C/C++ and Rust",
+      "you_have": "C/C++ only"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "lidar / camera / IMU / GPS sensor fusion implementation",
+    "Kalman filters / particle filters",
+    "multi-view geometry",
+    "GStreamer",
+    "sensor calibration (intrinsic/extrinsic/temporal)",
+    "localization / SLAM / online calibration",
+    "sensor selection and system-level tradeoffs for production 24/7",
+    "publication record in top robotics venues",
+    "IP-rated ruggedized hardware design experience",
+    "4+ years full-time hands-on robotics/perception deployment"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "sensor fusion",
+    "lidar",
+    "camera",
+    "IMU",
+    "GPS",
+    "real-time",
+    "robotics",
+    "autonomous",
+    "Rust",
+    "C/C++",
+    "calibration",
+    "geometry-based computer vision",
+    "state estimation",
+    "tracking",
+    "optimization",
+    "Kalman filters",
+    "particle filters",
+    "multi-view geometry",
+    "GStreamer",
+    "ROS2",
+    "ML-based",
+    "sensor selection",
+    "production",
+    "24/7",
+    "simulation",
+    "validation"
+  ],
+  "required_skills": [
+    "geometry-based computer vision and robotics algorithms (multi-view geometry, filtering, tracking)",
+    "real-time sensor fusion across lidar, camera, IMU, GPS",
+    "state estimation / optimization (Kalman/particle filters, non-linear optimization)",
+    "sensor calibration (intrinsic, extrinsic, temporal)",
+    "C/C++",
+    "Rust",
+    "real-time high-throughput multi-modal sensor data handling",
+    "production deployment of robotics/perception software"
+  ],
+  "preferred_skills": [
+    "ML-based perception approaches",
+    "real-time sensor fusion implementation and validation methodology",
+    "localization / SLAM / online calibration",
+    "GStreamer for real-time pipelines",
+    "ROS2 or similar robotics middleware",
+    "sensor selection and system-level tradeoffs",
+    "test and validation plans for 24/7 production",
+    "publications in ICRA/IROS/RSS/CoRL",
+    "hardware experience with IP-rated ruggedized enclosures",
+    "background in autonomous vehicles / field robotics / safety-critical domains"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build real-time robotics software that fuses high-throughput multi-modal sensor data (lidar, camera, IMU, GPS)",
+    "Implement and validate real-time sensor fusion code across simulation and real-world deployments",
+    "Perform sensor calibration and apply linear algebra / 3D geometry / optimization to state estimation",
+    "Design geometry-based CV and robotics algorithms (multi-view geometry, filtering, tracking); ML bonus",
+    "Own a perception or sensor fusion subsystem end-to-end in production"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,116 @@
+{
+  "company": "Exotec",
+  "company_slug": "exotec",
+  "role": "Software Integration Engineer - Automation & Robotics",
+  "job_slug": "software-integration-engineer-automation-robotics",
+  "match_pct": 23.5,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 17,
+    "req_cov": 0.35,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "troubleshooting/root cause analysis",
+    "Bachelor's degree CS/SWE/CpE"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "REST APIs",
+      "you_have": "Flask/Flask-SocketIO API development"
+    },
+    {
+      "jd_skill": "WMS/WCS/WES exposure",
+      "you_have": "Robotics/automation projects (ROS2, COFFIN, turret)"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "JavaScript",
+    "Node.js",
+    "SQL",
+    "software integration/middleware",
+    "Agile",
+    "cloud platforms",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "messaging platforms (Kafka/RabbitMQ)",
+    "enterprise integrations"
+  ],
+  "top_ats_keywords": [
+    "Java",
+    "JavaScript",
+    "Node.js",
+    "Python",
+    "SQL",
+    "REST APIs",
+    "middleware",
+    "APIs",
+    "Agile",
+    "WMS",
+    "WCS",
+    "WES",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "Kafka",
+    "RabbitMQ"
+  ],
+  "required_skills": [
+    "Java",
+    "JavaScript",
+    "Node.js",
+    "Python",
+    "SQL",
+    "REST APIs",
+    "software integration/middleware",
+    "Agile",
+    "troubleshooting/root cause analysis",
+    "Bachelor's degree CS/SWE/CpE"
+  ],
+  "preferred_skills": [
+    "WMS/WCS/WES exposure",
+    "cloud platforms",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "messaging platforms (Kafka/RabbitMQ)",
+    "enterprise integrations"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "software integrations with WMS/WCS/ERP",
+    "APIs/middleware/data flows",
+    "integration testing/UAT/go-live",
+    "root cause analysis across software/DB/API/messaging",
+    "customer-facing deployment support"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Atlanta, Georgia, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

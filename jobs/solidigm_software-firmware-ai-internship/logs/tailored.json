@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "company": "Solidigm",
+    "role": "2027 Graduate Software, Firmware & AI Engineering Internship",
+    "company_slug": "solidigm",
+    "job_slug": "software-firmware-ai-internship"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering candidate at Rochester Institute of Technology with hands-on firmware and embedded software experience across STM32, Jetson, and Arduino platforms. Built bare-metal embedded C firmware on STM32 microcontrollers, real-time task coordination with FreeRTOS, and low-level systems programming over UART/I2C/SPI. Applied AI/ML techniques (TensorRT, quantization, YOLO) inside real-time embedded pipelines and validated system behavior through structured debugging and root-cause analysis.",
+  "skills": {
+    "Embedded": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Arduino",
+      "UART/I2C/SPI"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Bash"
+    ],
+    "ML / AI": [
+      "PyTorch",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "YOLO"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition embedded system for hands-free cursor control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; debugged and resolved sensor jitter through software calibration and resolution tuning.",
+        "Architected a Mixed Reality headset concept using AI-based real-time chroma keying; produced full technical claims documentation."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used Git-based version control (GitLab) and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system on a Jetson+Arduino embedded controller, integrating faster-whisper STT and TensorRT-optimized YOLO (5.2x speedup) for visual servoing.",
+        "Implemented two-link inverse kinematics in embedded C++ on Arduino, driving five servos with range-gated contact detection via dual VL53L0X ToF sensors over an I2C (TCA9548A) mux.",
+        "Debugged and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through root-cause analysis; validated 100% pick reliability (10/10 trials).",
+        "Deployed the Jetson-side firmware bridge as a systemd service with auto-restart and non-root isolation, using static IP networking for reliable multi-device communication."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built embedded firmware on STM32 running FreeRTOS with mutex-coordinated tasks, driving multi-servo PWM control from interrupt-driven UART commands sent by a Jetson running YOLOv8 object detection.",
+        "Integrated VL53L0X time-of-flight sensing and OLED distance visualization into the real-time embedded control loop."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built low-level systems firmware in bare-metal embedded C on an STM32 Cortex-M4 microcontroller, programming GPIO, TIM2, ADC1, and I2C1 peripherals directly at the register level.",
+        "Implemented timer-triggered ADC scan conversions and an interrupt-driven I2C sampling pipeline; validated deterministic 1 Hz operation in Proteus at 3.68 KB Flash / 1.58 KB RAM."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Applied 8-bit quantization (bitsandbytes LLM.int8()) to a 1.1B-parameter language model, reducing GPU memory footprint by ~55% with under 1% accuracy degradation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    }
+  ],
+  "awards": []
+}

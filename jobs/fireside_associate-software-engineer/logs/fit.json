@@ -1,0 +1,117 @@
+{
+  "company": "Fireside (Fireside21)",
+  "company_slug": "fireside",
+  "role": "Associate Software Engineer",
+  "job_slug": "associate-software-engineer",
+  "match_pct": 32.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 17,
+    "req_cov": 0.312,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Linux/Unix",
+    "Bash",
+    "Generative AI/LLM"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object-oriented language (.NET/C#)",
+      "you_have": "C++"
+    },
+    {
+      "jd_skill": "Production server setup and maintenance",
+      "you_have": "Linux + systemd service management"
+    },
+    {
+      "jd_skill": "Backend/internal APIs",
+      "you_have": "Flask"
+    }
+  ],
+  "missing_skills": [
+    "Angular",
+    "MSSQL",
+    "SQL",
+    "Redis",
+    "HTML/CSS/JavaScript",
+    "HTML email newsletters",
+    "AWS",
+    "nginx",
+    "Jira",
+    "Data pipelines (ingestion/validation)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C#",
+    ".NET",
+    "Angular",
+    "MSSQL",
+    "SQL",
+    "Redis",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Linux",
+    "AWS",
+    "Bash",
+    "nginx",
+    "Jira",
+    "data pipelines",
+    "Generative AI",
+    "LLM"
+  ],
+  "required_skills": [
+    "Python",
+    "Object-oriented language (.NET/C#)",
+    "Angular",
+    "MSSQL",
+    "Redis",
+    "Linux/Unix",
+    "HTML/CSS/JavaScript",
+    "HTML email newsletters"
+  ],
+  "preferred_skills": [
+    "AWS",
+    "Bash",
+    "nginx",
+    "SQL",
+    "Generative AI/LLM interest",
+    "Cloud environments"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Support front-line team and escalate bugs in Jira",
+    "Fix client technical issues (printers, email, back-end data updates)",
+    "Monitor and maintain production servers",
+    "Debug websites and HTML email newsletters",
+    "SQL queries and data pipeline validation"
+  ],
+  "role_category": "ml_systems",
+  "location": "United States - Remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

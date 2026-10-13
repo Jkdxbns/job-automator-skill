@@ -1,0 +1,139 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "MTS, Inference Performance Visibility",
+  "job_slug": "etched_06_mts-inference-performance-visibility",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 22,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Computer architecture / memory hierarchies / interconnect understanding",
+    "Performance analysis and profiling / bottleneck identification",
+    "ML accelerator architectures (GPU, custom accelerator)",
+    "Embedded / firmware development",
+    "Working close to hardware (device interaction, drivers at user-space/service level)",
+    "Distributed / multi-process computing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Performance analysis tools (Nsight, uProf, VTune, perf, Tracy, ETW)",
+      "you_have": "Custom profiling with pynvml / psutil / benchmark pipelines"
+    },
+    {
+      "jd_skill": "Hardware performance counters / device driver interfaces / PCIe-level tracing",
+      "you_have": "Embedded driver interaction (UART/I2C/SPI), CUDA profiling, Jetson service deployment"
+    },
+    {
+      "jd_skill": "Kernel-mode driver development",
+      "you_have": "Embedded bare-metal and user-space systemd service deployment"
+    },
+    {
+      "jd_skill": "Compiler internals / code generation / optimization",
+      "you_have": "CUDA kernel optimization, custom integer-only quantization, custom tokenizer backend"
+    },
+    {
+      "jd_skill": "PCIe protocol / PCIe analyzers / in-depth PCIe knowledge",
+      "you_have": "No direct PCIe mention; closest is CUDA memory/interconnect awareness"
+    },
+    {
+      "jd_skill": "Multi-chip / multi-host accelerator systems (TPU pods, DGX clusters)",
+      "you_have": "MPI distributed computing, SLURM cluster workloads"
+    },
+    {
+      "jd_skill": "Hardware description languages (Verilog / VHDL)",
+      "you_have": "No HDL mentioned"
+    }
+  ],
+  "missing_skills": [
+    "Rust (explicit language requirement; not in profile)",
+    "Specific performance analysis tools named in JD (Nsight, AMD uProf, Intel VTune, perf, Tracy, ETW)",
+    "Kernel-mode Linux/Windows driver development",
+    "In-depth PCIe protocol knowledge and PCIe analyzer experience",
+    "Direct hardware performance counter reading on custom PCIe accelerator",
+    "Multi-chip / multi-host accelerator clustering (TPU pods / DGX)",
+    "Hardware description languages (Verilog / VHDL)"
+  ],
+  "top_ats_keywords": [
+    "performance analysis",
+    "hardware performance counters",
+    "PCIe",
+    "driver",
+    "trace",
+    "correlation",
+    "bottleneck",
+    "accelerator",
+    "C++",
+    "Rust",
+    "Python",
+    "kernel driver",
+    "compiler",
+    "multi-host",
+    "firmware",
+    "Verilog"
+  ],
+  "required_skills": [
+    "C++ or Rust",
+    "Python (plus)",
+    "Computer architecture (CPU, GPU, accelerators)",
+    "Memory hierarchies (caches, DRAM)",
+    "PCIe interconnects",
+    "Low-level performance analysis and profiling",
+    "Bottleneck identification on complex hardware (GPU, CPU, FPGA, custom accelerator)",
+    "Performance counter / hardware tracing experience",
+    "Working with device drivers / driver interfaces"
+  ],
+  "preferred_skills": [
+    "Direct experience developing performance/debugging tools",
+    "Experience with ML accelerator architectures (GPU, TPU)",
+    "Kernel-mode driver development (Linux/Windows)",
+    "Compiler internals / code generation",
+    "In-depth PCIe protocol / PCIe analyzers",
+    "Multi-chip / multi-host accelerator systems (TPU pods, DGX clusters)",
+    "Firmware or embedded systems development",
+    "Hardware description languages (Verilog, VHDL)",
+    "Performance analysis tools (Nsight, uProf, VTune, perf, Tracy, ETW)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Lead design and architecture of performance analysis suite (data collection, processing, analysis, CLI/GUI)",
+    "Capture performance data from custom ML accelerator via hardware counters, execution status, memory patterns through driver interfaces",
+    "Implement tracing for host-side API calls, driver interactions, CPU activity, PCIe traffic, memory usage, network contention",
+    "Correlate events across host CPU, device driver, PCIe bus, multiple accelerators, multiple hosts with precise time synchronization",
+    "Build analysis modules identifying compute-bound, memory-bound, latency-bound, PCIe-bound, and hardware-specific bottlenecks",
+    "Develop intuitive visualizations (timelines, dependency graphs, resource charts, statistical summaries)",
+    "Work with hardware architects, firmware engineers, driver developers, compiler engineers, and ML application engineers"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "JD does not mention sponsorship denial, ITAR/EAR/export control, US citizenship/permanent residency, or security clearance. Fully in-person in San Jose, but candidate is willing to relocate (willing_to_relocate=true) and no sponsorship blocker is stated."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

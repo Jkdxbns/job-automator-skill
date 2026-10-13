@@ -1,0 +1,124 @@
+{
+  "company": "Verkada",
+  "company_slug": "verkada",
+  "role": "Software Engineer - Computer Vision",
+  "job_slug": "cv_engineer",
+  "match_pct": 72.5,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 22,
+    "req_cov": 0.85,
+    "cap_applied": "low_required_cov",
+    "calibration_delta": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "C++",
+    "CUDA",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "Deep Learning",
+    "YOLO",
+    "YOLOv8",
+    "OpenCV",
+    "TensorRT",
+    "Edge AI",
+    "GPU",
+    "ML/Deep Learning",
+    "Neural Networks / MLP",
+    "Quantization"
+  ],
+  "missing_skills": [
+    "1-3 years full-time industry experience (new-grad: 0 ft yrs, 7 internships)",
+    "Traditional computer vision algorithms (classical feature extraction, SIFT/HOG-style)",
+    "Data structures / architecture (adjacent only; no dedicated systems-design bullet in profile)"
+  ],
+  "adjacent_skills": [
+    "Agile team development (inferred from internships)",
+    "Data structures and architecture (project-level, not dedicated)"
+  ],
+  "top_ats_keywords": [
+    "computer vision",
+    "C++",
+    "deep learning",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "object detection",
+    "machine learning",
+    "neural networks",
+    "edge AI",
+    "TensorRT",
+    "YOLO"
+  ],
+  "key_responsibilities": [
+    "Creating algorithms for people/vehicle detection, license plate recognition, intelligent video analysis",
+    "Binary classifier using TensorFlow for binary states across millions of cameras",
+    "Detecting unusual object addition/removal",
+    "Counting object/people frequencies",
+    "Training text image embedding and vision-language models",
+    "Implementing LPR and real-time facial recognition on edge devices",
+    "Writing clean, modular C++ code"
+  ],
+  "role_category": "edge_ai_robotics",
+  "url": null,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": true
+  },
+  "constraint_flags": {
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null,
+    "soft_flags": [
+      "Sponsorship: JD explicitly offers sponsorship (positive)",
+      "Location: On-site 5 days/week (San Mateo, CA) \u2014 user is in Arlington, TX but willing to relocate",
+      "Experience: JD requires 1-3 yrs industry; candidate has 0 full-time yrs but 7 internships \u2014 flag as Mismatch per A5.5",
+      "Seniority: Mismatch (new-grad vs 1-3yr required) \u2014 this is the dominant real gap, not keywords"
+    ]
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Direct deep-learning CV experience with PyTorch, TensorFlow, Keras, YOLO, OpenCV",
+      "Edge AI / inference expertise (TensorRT, Jetson, edge deployment) aligns with 'implementing on edge' in JD",
+      "C/C++ and CUDA skills match C++ modular coding + GPU-accelerated vision requirements",
+      "Experience with quantization (8-bit, pruning) supports model optimization work implied by binary classifiers and vision models at scale",
+      "Robotics/perception (ROS2, STM32, sensor fusion) complements video analytics / object tracking context"
+    ],
+    "real_gaps": [
+      "1-3 years full-time industry experience required; candidate has 0 full-time years (new-grad, May 2026), only internships \u2014 dominant real gap",
+      "No explicit 'traditional computer vision' classical algorithms experience (feature extraction, geometric vision, classical image processing) \u2014 JD mentions both traditional and deep learning; only deep side is covered",
+      "Production-scope requirement: JD centers on shipping, operating, and owning systems at scale (millions of cameras) \u2014 profile is capstone/research/internship scale; seniority mismatch",
+      "No dedicated 'data structures and architecture' bullet \u2014 only project-level inference, not large-scale systems design for distributed CV pipelines"
+    ],
+    "overstated_by_keywords": [
+      "'Computer vision' \u2014 has edge AI / YOLO CV experience but not broad industrial video analytics; no license plate recognition, facial recognition, or vision-language model experience explicitly in profile"
+    ],
+    "understated_by_keywords": [
+      "Edge deployment + TensorRT skills are highly relevant to 'implementing LPR / facial recognition on edge' but not captured by generic 'computer vision' keyword overlap alone"
+    ],
+    "screening_gaps": [
+      "Experience gap: 0 full-time years vs 1-3 required \u2014 this is the #1 screen-out risk for a new-grad applying to mid-level roles",
+      "No traditional/classical CV algorithms \u2014 the JD lists both 'traditional computer vision algorithms' and 'deep learning networks'; the profile only covers the deep-learning side",
+      "Production-scale / systems architecture \u2014 'millions of cameras', binary-state classifiers at scale, and face recognition at production scale require systems-level design not shown in capstone/internship-level work"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Keywords are strong (72.5%) \u2014 PyTorch, TF, Keras, YOLO, C++, CUDA, TensorRT, Edge AI, Deep Learning all present \u2014 but the dominant gap is track-record: 1-3 years industry experience is a hard floor and the role's production scope (millions of cameras, real-time facial recognition, binary-state classifiers at scale) is well beyond internship/capstone scope. Seniority mismatch is ~59% of real gaps in semantic reads; here it is decisive. The semantic verdict is Partial Fit, recommend_apply is False \u2014 don't tailor yet; user should decide whether to try anyway given the sponsorship offer and on-site constraint.",
+    "calibration_delta": 4.5
+  },
+  "notes": "Semantic read completed by reasoning agent. Verdict: Partial Fit (68%). Key gap: 0 full-time years vs 1-3yr required + production-scale scope mismatch. Keywords exceed apply bar (72.5%), but seniority and scope gaps make recommend_apply = False. Sponsorship offered (positive). On-site in San Mateo, CA (relocation from Arlington, TX needed).",
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-13",
+    "channel": "application",
+    "notes": "Form rejection; resume kept on file. No feedback."
+  }
+}

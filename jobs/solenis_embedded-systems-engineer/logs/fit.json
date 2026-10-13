@@ -1,0 +1,58 @@
+{
+  "company": "Solenis",
+  "company_slug": "solenis",
+  "role": "Embedded Systems Engineer",
+  "job_slug": "embedded-systems-engineer",
+  "match_pct": 61.5,
+  "missing_skills": [
+    "Automated test frameworks (regression/functional/integration/performance)",
+    "Hardware-in-the-loop (HIL) test systems / simulators",
+    "CI/CD pipelines for firmware",
+    "OTA firmware update process",
+    "Security scanning"
+  ],
+  "adjacent_skills": [
+    "Cloud/mobile/backend integration (have Flask, WebSocket, Flutter, API \u2014 not cloud platforms like AWS/Azure IoT)",
+    "Board bring-up/oscilloscopes/logic analyzers (have both tools, JTAG not evidenced)",
+    "IoT platforms & APIs (have API/WebSocket work, no IoT platform integration)"
+  ],
+  "have_skills": [
+    "C/C++ bare-metal firmware",
+    "UART/I2C/SPI/Bluetooth protocols",
+    "PCB design & prototype review (EAGLE, Proteus)",
+    "Sensor/actuator work (ADC, PWM, GPIO, ToF, IMU)",
+    "Git/GitLab source control"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "firmware",
+    "UART",
+    "I2C",
+    "SPI",
+    "JTAG",
+    "oscilloscope",
+    "logic analyzer",
+    "CI/CD",
+    "OTA",
+    "HIL",
+    "git",
+    "PCB"
+  ],
+  "key_responsibilities": [
+    "Develop/debug embedded firmware in C, drivers, comm protocols",
+    "Integrate embedded devices with cloud/mobile/backend services",
+    "Hardware validation: board bring-up, oscilloscopes, logic analyzers, JTAG",
+    "Build automated test frameworks: regression, functional, integration, performance, HIL",
+    "Implement CI/CD pipelines, automate build/test/deploy, manage source control & releases",
+    "Support OTA firmware updates and security scanning",
+    "System integration with IoT platforms, APIs, mobile apps",
+    "Field issue investigation and product support",
+    "Technical documentation and process improvement"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

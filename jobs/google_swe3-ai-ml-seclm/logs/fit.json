@@ -1,0 +1,67 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer III, AI/ML (SecLM)",
+  "job_slug": "swe3-ai-ml-seclm",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "RAG (Retrieval-augmented generation)",
+    "agentic workflows",
+    "GoLang",
+    "data structures and algorithms (explicit)",
+    "large-scale distributed system design (production)",
+    "data processing pipelines",
+    "security/threat intelligence domain",
+    "natural language processing (explicit)"
+  ],
+  "adjacent_skills": [
+    "Generative AI (has LLM fine-tuning/quantization/transformer work, not framed as building generative AI applications)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Generative AI",
+    "RAG",
+    "agentic workflows",
+    "GoLang",
+    "data structures and algorithms",
+    "distributed computing",
+    "model optimization",
+    "ML infrastructure"
+  ],
+  "key_responsibilities": [
+    "Write product or system development code",
+    "Collaborate via design and code reviews",
+    "Contribute to documentation",
+    "Triage/debug/resolve product or system issues",
+    "Implement solutions in specialized ML areas, ML infrastructure, model optimization, data processing"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 50,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python depth across 6+ internships and every project: PyTorch training pipelines (DONUT fine-tune, GPT-2-from-scratch, Whisper-style ASR-from-scratch), Flask-SocketIO backend in the COFFIN capstone, PyQt GUI at BARC \u2014 this is real, sustained Python usage, not a resume line.",
+      "Model optimization is a genuine strength, not a keyword hit: 8-bit quantization on TinyLlama 1.1B (~55% VRAM reduction, <1% accuracy loss), custom CUDA kernels for VGG16 inference (~35% speedup), TensorRT YOLO optimization (5.2x speedup) \u2014 directly backs the JD's 'contribute to model optimization' line.",
+      "Built transformer/LLM internals from scratch twice (GPT-2 style model, Whisper-style ASR encoder-decoder) plus fine-tuned a vision-encoder-decoder transformer (DONUT) \u2014 real architectural depth under the Generative AI umbrella, even though it's not framed as GenAI application building.",
+      "Literal Gemini API integration in the COFFIN capstone (Gemini intent classification, <500ms) \u2014 a specific, real hook for a Gemini-platform team that keyword matching completely missed since it isn't in the tracked keyword list."
+    ],
+    "real_gaps": [
+      "No RAG anywhere in the profile \u2014 no vector DB, no embeddings retrieval, no grounding pipeline. SecLM's stated architecture is built on RAG; this is a structural gap, not a phrasing one.",
+      "No agentic workflow experience. The one Gemini call in COFFIN is a single-shot intent classifier, not multi-step agent orchestration or tool-calling \u2014 meaningfully narrower than what 'agentic workflows' implies.",
+      "Zero security/threat-intelligence domain exposure across all 6 internships and every project \u2014 no malware analysis, no vulnerability data, no threat-actor-profile work. SecLM's whole value prop is Google + Mandiant threat intel; this is a real domain gap that keyword matching can't see because it isn't a skill, it's a domain.",
+      "No GoLang anywhere \u2014 profile is 100% Python/C++/CUDA. Preferred, not required, but worth knowing going in.",
+      "No explicit DSA/algorithms signal (no coursework, no competitive programming) despite it being a preferred qual and central to Google's interview loop regardless of what the JD lists.",
+      "Scale mismatch: every project is research/internship/academic scope (single device, small SLURM cluster, prototype pipelines). The JD explicitly frames the team's problems as 'massive scale' / 'billions of users' \u2014 nothing in the profile demonstrates production or cloud-scale system ownership.",
+      "'ML infrastructure' in the profile means single-node edge inference (Jetson) and a coursework SLURM cluster, not cloud ML infra (no Vertex AI, Kubernetes, distributed training, MLOps) \u2014 likely a thinner match than the JD's 'utilize ML infrastructure' responsibility implies."
+    ],
+    "overstated_by_keywords": [
+      "'distributed computing' \u2014 counted as Have on MPI/SLURM cluster work and a 3-layer robotics pipeline, but that's HPC/robotics distributed computing, not cloud service distributed systems (RPC, load balancing, multi-datacenter) which is what a Google Cloud SWE role usually means.",
+      "'Generative AI' \u2014 counted as Adjacent, but the credit rests almost entirely on transformer/LLM internals plus one Gemini API call. Actual GenAI application-building experience (prompting strategy, retrieval, agent design) is close to absent, so 'Adjacent' is generous relative to what a hiring team means by '1 year of Generative AI experience.'"
+    ],
+    "reasoning": "The 100% keyword match is real but narrow \u2014 it's measured against only the two minimum-qual lines (Python, 1yr GenAI), both of which are genuinely covered. The role's actual substance is a security-focused RAG and agentic AI platform at Google Cloud scale, and nothing in six internships or eleven projects touches RAG, agentic orchestration, or the security domain. The strongest asset here is one keyword matching couldn't find: a working Gemini API integration in the COFFIN capstone. That's a real hook, but it's a single API call, not the RAG/agentic system-building this role is actually built around."
+  }
+}

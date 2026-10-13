@@ -1,0 +1,48 @@
+{
+  "company": "Q2",
+  "company_slug": "q2",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "req_id": "REQ-12736",
+  "match_pct": 58.3,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 8,
+    "missing_count": 6,
+    "jd_ask_size": 24,
+    "req_cov": 0.69,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["Python", "TensorFlow", "PyTorch", "ML model development", "ML model deployment", "model evaluation / experimental methods", "real-time low-latency inference", "training pipelines", "inference systems", "AI-assisted dev tools (Claude Code)"],
+  "adjacent_skills": ["scikit-learn", "statistics", "probability theory", "optimization", "cloud platforms", "scalable computing (SLURM/MPI)", "end-to-end ML systems", "APIs/backend (Flask)", "distributed systems"],
+  "missing_skills": ["R", "Java", "fraud detection / risk modeling", "large-scale data processing frameworks (Spark)", "production ML monitoring", "data pipelines (ETL)", "production testing practices"],
+  "top_ats_keywords": ["Python", "PyTorch", "TensorFlow", "scikit-learn", "machine learning", "model deployment", "real-time", "low-latency", "ML infrastructure", "data pipelines", "cloud", "fraud detection", "monitoring", "statistics", "distributed systems", "APIs"],
+  "key_responsibilities": [
+    "Research fraud/abuse patterns into detection approaches",
+    "Build ML products across identity, behavior, transaction fraud",
+    "Build/optimize real-time low-latency ML infrastructure",
+    "Build training/evaluation/inference pipelines, productionalize models",
+    "Write clean, well-tested production code",
+    "Monitor and troubleshoot production ML systems"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false,
+    "blocking_reason": "Explicit no-sponsorship statement; Q2 not in known_sponsors"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Partial Fit",
+    "strengths": ["Real-time low-latency inference (TensorRT/ONNX on Jetson, FPS+latency optimization)", "Model development + deployment end to end on real hardware", "Rigorous evaluation habits (WER, IoU, Dice, benchmark harnesses)", "Python/PyTorch/TensorFlow depth"],
+    "real_gaps": ["Fraud/risk/abuse domain: zero exposure", "Cloud platforms (AWS/GCP/Azure): no evidence, SLURM is not equivalent", "Production data pipelines and ML monitoring: nothing in profile", "Large-scale data processing (Spark/Flink): none", "Tabular/behavioral modeling and experimental design (A/B, stats) vs deep-learning-on-images focus", "0 full-time years vs 2+ required, and no production system ownership at org scale"],
+    "overstated_by_keywords": ["optimization (kernel optimization is not mathematical/statistical optimization)", "scalable computing (HPC batch scheduling is not cloud-scale serving)"],
+    "understated_by_keywords": ["low-latency serving experience is genuinely rare and directly matches the infra half of this role"],
+    "reasoning": "The infrastructure half of this role (real-time, low-latency inference serving) is genuinely backed. The fraud/risk modeling half, the cloud and data-pipeline half, and the production-monitoring half are not backed anywhere in the profile. Edge inference on a Jetson does not transfer cleanly to cloud transaction-scoring at two-trillion-dollar volume.",
+    "calibration_delta": 12.3
+  }
+}

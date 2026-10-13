@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "company": "Itron",
+    "role": "Intern - Firmware Engineer (Spring 2027)",
+    "company_slug": "itron",
+    "job_slug": "firmware-engineer-intern-spring-2027"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on firmware and embedded systems experience spanning STM32 bare-metal C, FreeRTOS, and embedded Linux platforms (NVIDIA Jetson, Raspberry Pi). Builds, tests, and debugs firmware -- GPIO/ADC/UART/I2C/SPI drivers, oscilloscope/logic-analyzer hardware debugging, and systemd automation -- plus AI-related exposure (YOLO, ONNX) most firmware candidates lack.",
+  "skills": {
+    "Embedded Systems & Firmware": ["STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "PWM", "GPIO", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "EAGLE PCB Design"],
+    "Hardware Debugging & Test": ["Oscilloscopes", "Logic Analyzers", "Proteus"],
+    "Linux & Automation": ["Linux", "systemd service management (unit files, auto-restart, non-root isolation)", "Static IP / network configuration", "XRDP remote desktop administration"],
+    "AI / Edge Deployment": ["YOLO", "ONNX", "TFLite"],
+    "Languages": ["Python", "C/C++", "Bash"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth for hands-free HID control.",
+        "Implemented a tap-detection algorithm; resolved sensor jitter via hardware debugging, software calibration, and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed custom PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) -- MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures through hardware/firmware debugging; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Deployed the Jetson-side arm bridge as a systemd service with auto-restart and static IP networking; configured XRDP for headless remote administration."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Robot Perception", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Image Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop -- Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon -- National-level robotics competition among 45 universities (2022)"
+  ]
+}

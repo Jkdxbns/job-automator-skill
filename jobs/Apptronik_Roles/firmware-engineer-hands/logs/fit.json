@@ -1,0 +1,143 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Firmware Engineer \u2013 Hands",
+  "job_slug": "firmware-engineer-hands",
+  "match_pct": 52.1,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 24,
+    "req_cov": 0.923,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ embedded programming",
+    "Python",
+    "Git",
+    "Embedded firmware for resource-constrained MCUs",
+    "Real-time embedded firmware (FreeRTOS, interrupt-driven)",
+    "PWM motor control / closed-loop feedback",
+    "Hardware debugging tools (oscilloscopes, logic analyzers)",
+    "PCB / schematic design and interpretation",
+    "Electromechanical integration / cross-functional mechanical collaboration",
+    "Humanoid / dexterous manipulation / compact electromechanical systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "BLDC motor control (FOC, current control, position control, torque loops)",
+      "you_have": "PWM motor control and closed-loop angular-feedback control (non-BLDC specific)"
+    },
+    {
+      "jd_skill": "Distributed embedded networks connecting multiple MCUs over real-time buses",
+      "you_have": "Multi-device UART/I2C/SPI inter-MCU communication with FreeRTOS coordination (STM32 + Jetson + Arduino)"
+    },
+    {
+      "jd_skill": "Electrical schematics / datasheet reading (Altium Designer preferred)",
+      "you_have": "EAGLE PCB schematic design and fabrication experience"
+    },
+    {
+      "jd_skill": "Tactile / force / position sensor integration",
+      "you_have": "Position/distance and motion sensor integration (ToF, encoders, accelerometers) in embedded systems"
+    },
+    {
+      "jd_skill": "Firmware deployment pipelines / embedded build and developer tooling",
+      "you_have": "Embedded deployment (systemd, Proteus) and build tooling (CMake, Git, environment-based config)"
+    }
+  ],
+  "missing_skills": [
+    "Docker (required skill \u2014 not present in profile)",
+    "CAN protocol (not in profile; UART/I2C/SPI only)",
+    "RS485 protocol (not in profile)",
+    "TI C2000 microcontroller development (C/C++)",
+    "EtherCAT for real-time embedded communications",
+    "MISRA C / ISO 26262 safety-critical standards",
+    "Agile workflows (sprint planning, design reviews, code reviews \u2014 no Agile mention)",
+    "MATLAB / Simulink / model-based design tools",
+    "HIL (Hardware-in-the-Loop) and SIL (Software-in-the-Loop) testing experience"
+  ],
+  "top_ats_keywords": [
+    "firmware engineer",
+    "embedded software",
+    "C/C++",
+    "motor control",
+    "BLDC",
+    "real-time",
+    "MCU",
+    "SPI",
+    "UART",
+    "CAN",
+    "RS485",
+    "oscilloscope",
+    "logic analyzer",
+    "schematics",
+    "Altium",
+    "humanoid robotics",
+    "dexterous hand",
+    "hardware bring-up",
+    "HIL",
+    "SIL",
+    "telemetry",
+    "production scale"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Git",
+    "Embedded firmware (resource-constrained MCUs)",
+    "Real-time embedded firmware (FreeRTOS/interrupts)",
+    "Motor control (current / position / torque loops)",
+    "Distributed embedded networks (multi-MCU real-time buses)",
+    "Firmware deployment to embedded devices",
+    "Hardware debugging (oscilloscopes, logic analyzers)",
+    "Electrical schematics / datasheet reading (Altium preferred)",
+    "Embedded comms (SPI, UART, RS485, CAN)",
+    "Electromechanical integration / mechanical collaboration",
+    "Sensor integration (tactile, force, position)"
+  ],
+  "preferred_skills": [
+    "Humanoid robotics / dexterous manipulation / compact electromechanical systems",
+    "Experience with EtherCAT",
+    "TI C2000 microcontroller development (C/C++)",
+    "Safety-critical embedded standards (MISRA C, ISO 26262)",
+    "Agile workflows (sprint planning, design/code reviews)",
+    "Model-based design (MATLAB/Simulink)",
+    "Firmware tooling / build systems / developer infrastructure"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop/deploy/maintain firmware for in-house dexterous hand designs (motor control, sensor I/O, real-time communications)",
+    "Work closely with mechanical engineers as hand evolves from prototype to production",
+    "Contribute to motor control firmware for small hand motors (current control, basic position/torque loops)",
+    "Develop firmware for distributed embedded networks connecting multiple MCUs",
+    "Shape and execute HIL and SIL testing strategy for hand performance/safety/reliability at scale",
+    "Drive firmware quality/reliability/field performance for fleets of hundreds of hands (telemetry, diagnostics, root-cause analysis)",
+    "Bring up hand hardware from prototype through production with cross-functional teams",
+    "Participate in code/design reviews and pair debugging"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

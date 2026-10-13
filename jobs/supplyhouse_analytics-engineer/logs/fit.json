@@ -1,0 +1,103 @@
+{
+  "company": "SupplyHouse.com",
+  "company_slug": "supplyhouse",
+  "role": "Analytics Engineer",
+  "job_slug": "analytics-engineer",
+  "match_pct": 10.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 13,
+    "jd_ask_size": 15,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Code review",
+      "you_have": "Git / GitLab team workflow"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Data modeling",
+    "Cloud data warehouse",
+    "dbt",
+    "Dataform",
+    "BigQuery",
+    "Google Cloud",
+    "CI",
+    "Automated data testing",
+    "Dimensional modeling",
+    "Semantic layer",
+    "Power BI",
+    "E-commerce domain"
+  ],
+  "top_ats_keywords": [
+    "SQL",
+    "BigQuery",
+    "Dataform",
+    "dbt",
+    "Git",
+    "CI",
+    "data modeling",
+    "dimensional modeling",
+    "Power BI",
+    "Google Cloud",
+    "data warehouse"
+  ],
+  "required_skills": [
+    "SQL",
+    "Data modeling",
+    "Cloud data warehouse",
+    "dbt/Dataform",
+    "Git",
+    "Automated testing",
+    "Code review",
+    "CI",
+    "Dimensional modeling"
+  ],
+  "preferred_skills": [
+    "BigQuery",
+    "Dataform",
+    "Semantic layer",
+    "Google Cloud",
+    "E-commerce domain"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Build layered data model in BigQuery via Dataform",
+    "Migrate ad hoc scheduled queries into tested models",
+    "Define canonical business metrics",
+    "Data testing and CI",
+    "Document lineage",
+    "Support self-serve BI"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote, US (listed states); HQ Melville NY, 6 trips/yr",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

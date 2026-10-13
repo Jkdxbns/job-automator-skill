@@ -1,0 +1,60 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "Systems Software Engineer - New College Grad 2026",
+  "job_slug": "systems-sw-engineer-ncg-2026",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "software development for semiconductor manufacturing/design",
+    "computational geometry",
+    "diffractive optics"
+  ],
+  "adjacent_skills": [
+    "research/industry experience in advanced computational AI systems",
+    "low-level perf optimization: cache compression / workload balancing for distributed systems",
+    "algorithms/data structures/computational theory (no explicit DSA evidence)",
+    "massively distributed computing (MPI/SLURM exposure)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "deep learning",
+    "GPU",
+    "parallel programming",
+    "algorithm development",
+    "memory management",
+    "distributed systems",
+    "model optimization"
+  ],
+  "key_responsibilities": [
+    "Build advanced computational methods for semiconductor manufacturing and design",
+    "Exploit GPU to accelerate software solutions",
+    "Accelerate semiconductor yield and time to market"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "CUDA kernel engineering is real and benchmarked, not surface level: replaced TorchScript conv layers in VGG16 with hand-written CUDA C++ using memory coalescing and constant memory, cutting layer time from 77.5ms (CPU) / 73.3ms (naive GPU) to 49.2ms",
+      "Distributed workload balancing has direct, quantified evidence: MPI Hodgkin-Huxley neuron sim on a SLURM cluster measured up to 65% degradation from uneven work distribution and 10.49x speedup at 12 workers; the parallel ray tracer benchmarked four work distribution strategies (static strip/block/cyclic, dynamic queue) up to 30x speedup",
+      "Deep learning fundamentals are demonstrated by building from primitives, not just calling libraries: a GPT-2 style Transformer from scratch (attention, MLP, residual, layer norm, weight tying) and a Whisper-style ASR encoder-decoder from scratch, plus 8-bit quantization work showing understanding of the accuracy/compression tradeoff (<1% degradation, +0.09 perplexity)",
+      "MS coursework directly covers two of the JD's named fields: High Performance Architecture and Multiple Processor Systems"
+    ],
+    "real_gaps": [
+      "Zero exposure anywhere in the profile to semiconductor manufacturing, chip design, EDA tooling, photomask, or lithography, which is the one explicit hard requirement in the JD's 'what we need to see' list, not just a nice-to-have",
+      "The intro paragraph names computational geometry and diffractive optics as fields this team expects expertise in. Justin's optics-adjacent work (BARC image stitching, wavelet denoising, ZoeDepth crack-depth profiling) is computational imaging for structural inspection, not diffractive optics or photolithography, and there is no computational geometry coursework or project (robotics IK/DH is applied kinematics, not computational geometry)",
+      "This is NVIDIA's Advanced Technology Group, which does computational lithography and source-mask optimization for chip manufacturing. That is a physics- and optics-heavy specialization typically staffed by PhDs from that exact background; nothing in the profile signals that specific domain even adjacently",
+      "The JD's framing ('seen as a technical leader and an industry expert in several of the underlying fields') is unusually senior language for a 'New College Grad' req, suggesting either a recycled senior posting or a genuinely narrow, high-bar team where a general MS in embedded/robotics/edge AI is not the target profile"
+    ],
+    "overstated_by_keywords": [
+      "'Low-level performance optimization: memory management, cache compression, workload balancing for distributed systems' was scored Adjacent by keyword match, but the underlying project evidence (MPI load-imbalance study, CUDA memory coalescing, ray tracer scheduling strategies) is actually strong and specific \u2014 the keyword table undersold this one",
+      "'Research/industry experience in advanced computational AI systems' scored Adjacent, but that credit rests entirely on medical imaging, OCR, and ASR research \u2014 none of which is computational or semiconductor systems research in the sense this JD means",
+      "The overall 85.7% keyword match is inflated by generic CUDA/deep-learning term overlap; it does not capture that the role's actual specialization (semiconductor EDA / computational lithography) has zero real backing"
+    ],
+    "reasoning": "Justin's CUDA and distributed-computing depth is genuinely strong and well past surface level, and his deep learning fundamentals are unusually well backed by from-scratch implementations rather than library calls. But this specific NVIDIA team builds computational methods for chip manufacturing and design, likely computational lithography, which needs semiconductor/optics/computational geometry background that is completely absent from the profile. The keyword match reads high because CUDA and ML terms overlap generically, but the one requirement that actually defines this team's work has no support anywhere in the resume or CV."
+  }
+}

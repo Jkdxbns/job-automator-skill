@@ -1,0 +1,91 @@
+{
+  "company": "NXP",
+  "company_slug": "nxp",
+  "role": "Embedded AI Microprocessors (MPU) Field Applications Engineer",
+  "job_slug": "embedded-ai-mpu-fae",
+  "match_pct": 45.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 5,
+    "missing_count": 14,
+    "jd_ask_size": 30,
+    "req_cov": 0.409,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Embedded firmware development",
+    "UART",
+    "ARM Cortex-M",
+    "Register-level programming (bare-metal)",
+    "FreeRTOS",
+    "Edge AI deployment",
+    "CNNs",
+    "LLMs",
+    "VLMs"
+  ],
+  "missing_skills": [
+    "FAE / semiconductor industry experience",
+    "Ethernet",
+    "MIPI",
+    "SDIO",
+    "LPDDR4/5",
+    "USB2.0/3.0",
+    "ARM Cortex-A",
+    "ARM Cortex-R",
+    "QNX",
+    "Zephyr",
+    "U-Boot",
+    "Graphics/video subsystems & drivers",
+    "Schematic review",
+    "Technical training of sales staff/distributors"
+  ],
+  "adjacent_skills": {
+    "Embedded systems (MPU-based)": "STM32 bare-metal (MCU, not full Linux-capable MPU)",
+    "Quad/Octal SPI": "SPI on STM32, not Quad/Octal specifically",
+    "Embedded Linux user-space": "Jetson deployment work (application layer, not OS dev)",
+    "Embedded Linux kernel": "Jetson/Linux platform exposure, no kernel-level work",
+    "Agentic AI": "Claude Code / agent tooling exposure, not a shipped agentic product"
+  },
+  "top_ats_keywords": [
+    "MPU",
+    "FAE",
+    "ARM Cortex",
+    "RTOS",
+    "Embedded Linux",
+    "SoC",
+    "U-Boot",
+    "QNX",
+    "FreeRTOS",
+    "Zephyr",
+    "MIPI",
+    "SDIO",
+    "DDR",
+    "SPI",
+    "USB",
+    "UART",
+    "Edge AI",
+    "CNN",
+    "LLM",
+    "VLM"
+  ],
+  "key_responsibilities": [
+    "Deliver technical support to assigned semiconductor customers",
+    "Drive design wins / design-in activity at customer sites",
+    "Lead proof of concept, solution design, demonstrations",
+    "Own system software architect role for customer proposals",
+    "Educate Field Sales Engineers on new tech/products",
+    "Build system-level knowledge of Industrial/IoT vertical markets"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": null,
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

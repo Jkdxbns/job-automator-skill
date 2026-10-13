@@ -1,0 +1,155 @@
+{
+  "company": "Luminous Robotics",
+  "company_slug": "luminous-robotics",
+  "role": "Software Co-op/Intern, Robotics",
+  "job_slug": "swe-coop-robotics",
+  "match_pct": 46.6,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 9,
+    "missing_count": 11,
+    "jd_ask_size": 29,
+    "req_cov": 0.773,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "ROS/ROS2",
+    "Computer Vision / Camera",
+    "State Machines / Behavior Logic",
+    "MoveIt / Motion Planning",
+    "Git / Version Control",
+    "Real-Time / Production Embedded Deployment",
+    "Multi-Sensor Integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SLAM",
+      "you_have": "ROS/ROS2 + vision/odometry experience; no SLAM algorithm implemented"
+    },
+    {
+      "jd_skill": "Localization",
+      "you_have": "Dead-reckoning odometry / encoder-based heading correction"
+    },
+    {
+      "jd_skill": "Mapping",
+      "you_have": "Image-stitching and depth-estimation pipelines (not robot mapping)"
+    },
+    {
+      "jd_skill": "Path-planning",
+      "you_have": "MoveIt trajectory execution"
+    },
+    {
+      "jd_skill": "Navigation",
+      "you_have": "ROS trajectory execution / MoveIt planning; no autonomous outdoor navigation stack"
+    },
+    {
+      "jd_skill": "LiDAR",
+      "you_have": "VL53L0X ToF sensors (not LiDAR)"
+    },
+    {
+      "jd_skill": "IMU",
+      "you_have": "ADXL345 accelerometer only; no IMU / gyroscope"
+    },
+    {
+      "jd_skill": "Sensor Fusion",
+      "you_have": "Multi-sensor integration (vision + ToF + audio)"
+    },
+    {
+      "jd_skill": "Off-road / Outdoor Robotics",
+      "you_have": "CARLA simulated outdoor driving; no real-world outdoor/off-road deployment"
+    }
+  ],
+  "missing_skills": [
+    "SLAM algorithm design / implementation",
+    "LiDAR processing / LiDAR-based mapping",
+    "IMU (beyond a single accelerometer)",
+    "GPS / GPS-degraded localization algorithms",
+    "Docker",
+    "Cloud infrastructure",
+    "AI coding assistants (Claude Code / OpenAI developer tools)",
+    "Agile / Jira workflow",
+    "Communication / Team Leadership",
+    "GPS",
+    "Clean Tech / Renewable Energy"
+  ],
+  "top_ats_keywords": [
+    "SLAM",
+    "localization",
+    "mapping",
+    "path-planning",
+    "navigation",
+    "behavior logic",
+    "state machines",
+    "ROS2",
+    "C++",
+    "Python",
+    "LiDAR",
+    "IMU",
+    "GPS",
+    "production code",
+    "Git",
+    "Agile",
+    "Jira",
+    "Docker",
+    "cloud",
+    "sensor fusion"
+  ],
+  "required_skills": [
+    "SLAM",
+    "localization",
+    "mapping",
+    "path-planning",
+    "robot behaviors / state machines / task sequencing",
+    "C++",
+    "Python",
+    "ROS/ROS2",
+    "Git / version control",
+    "sensor data analysis (LiDAR, camera, IMU, GPS)",
+    "production coding practices / code reviews"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "cloud infrastructure",
+    "sensor fusion",
+    "off-road / outdoor robotics",
+    "renewable energy / clean tech interest",
+    "AI coding assistants (Claude Code / OpenAI developer tools)",
+    "Agile / Jira"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Contribute to core LUMI robotics stack (SLAM, navigation/mapping, behaviors)",
+    "Design/test localization, mapping, and path-planning for outdoor GPS-degraded solar sites",
+    "Build behavior logic (state machines, task sequencing)",
+    "Write production code; code reviews and documentation",
+    "Analyze LiDAR/camera/IMU/GPS sensor data; build visualization/debugging tools",
+    "Work with Deployment Engineering to fix field-observed issues"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "South Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

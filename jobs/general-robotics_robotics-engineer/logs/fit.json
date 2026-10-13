@@ -1,0 +1,143 @@
+{
+  "company": "General Robotics",
+  "company_slug": "general-robotics",
+  "role": "Robotics Engineer",
+  "job_slug": "robotics-engineer",
+  "match_pct": 71.9,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 16,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "ROS/ROS2",
+    "Python",
+    "C++",
+    "machine learning",
+    "computer vision",
+    "NVIDIA Jetson",
+    "edge compute optimization",
+    "data acquisition",
+    "model deployment",
+    "control algorithms"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "end-to-end robot learning",
+      "you_have": "LeRobot-structured data / SmolVLA inference engine"
+    },
+    {
+      "jd_skill": "multiple robotic platforms",
+      "you_have": "6DOF arm, COFFIN, turret, drone"
+    },
+    {
+      "jd_skill": "experimental design",
+      "you_have": "benchmarking / ablations"
+    }
+  ],
+  "missing_skills": [
+    "customer field deployment/travel",
+    "secure data protocols",
+    "cloud-native runtime"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "Python",
+    "C++",
+    "Jetson",
+    "computer vision",
+    "machine learning",
+    "robot learning",
+    "edge compute",
+    "latency",
+    "data acquisition",
+    "controllers",
+    "model deployment"
+  ],
+  "required_skills": [
+    "ROS/ROS2",
+    "Python",
+    "C++",
+    "robot learning",
+    "control algorithms",
+    "machine learning",
+    "computer vision",
+    "model deployment",
+    "edge compute optimization",
+    "data acquisition"
+  ],
+  "preferred_skills": [
+    "NVIDIA Jetson",
+    "multiple robotic platforms",
+    "secure data handling"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "robot system integration",
+    "AI model deployment on hardware",
+    "field experiments",
+    "data collection for fine-tuning",
+    "edge optimization",
+    "customer site deployments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Redmond, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Jetson edge deployment with measured optimization: COFFIN TensorRT YOLO 56.7\u219210.9 ms (5.2\u00d7), plus Turret YOLOv8 on Jetson",
+      "Full-stack integration on physical hardware: COFFIN Jetson+Arduino+ToF sensors, 100% pick reliability (10/10), 11 integration failures resolved",
+      "ROS2 Humble on a physical UR5e via UR ROS 2 driver with MoveIt/RViz",
+      "LeRobot-structured multi-camera data collection pipeline and CARLA auto-labelled data generation, matching the data-engineering duty",
+      "Edge compression and latency profiling (LLM.int8 ~55% memory cut, CUDA kernels ~35% speedup) maps to bandwidth/compute/latency tradeoffs"
+    ],
+    "real_gaps": [
+      "No trained or evaluated end-to-end robot learning policy (imitation/VLA) in the profile; only the data collection side",
+      "No customer-site or field deployment experience",
+      "No handling of sensitive data under formal security protocols",
+      "2+ years of professional robotics experience: all work is academic, internship or club scope",
+      "Cloud-native runtime / platform-scale skill packaging absent"
+    ],
+    "overstated_by_keywords": [
+      "control algorithms: backed by Robocon heading correction and servo PWM, but classical low-level control rather than controllers deployed across platforms"
+    ],
+    "understated_by_keywords": [
+      "Inference-engine and Jetson benchmarking depth fits the Systems Optimization and Model Deployment duties more strongly than the keyword pass credited",
+      "Experimental design is backed by the benchmark and ablation work (SLM compression, MPI scaling, ray tracer strategy comparison)"
+    ],
+    "screening_gaps": [
+      "No demonstrated end-to-end robot learning system (train, deploy, evaluate a policy)",
+      "No professional or field deployment experience; role is customer-facing with travel",
+      "Work authorization wording ('current and ongoing') needs a clear answer for F-1 OPT with EAD pending"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core stack (ROS2, Python, C++, Jetson, TensorRT, perception, data collection) is concretely backed, and the capstone is close to the day-to-day integration work. The weak point is the robot learning requirement, where only data collection is evidenced, plus the lack of field deployment history.",
+    "calibration_delta": 4.9
+  },
+  "semantic_pending": false
+}

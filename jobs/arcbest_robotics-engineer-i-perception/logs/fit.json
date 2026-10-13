@@ -1,0 +1,132 @@
+{
+  "company": "ArcBest",
+  "company_slug": "arcbest",
+  "role": "Robotics Engineer I - Perception",
+  "job_slug": "robotics-engineer-i-perception",
+  "match_pct": 64.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Linux",
+    "Computer Vision",
+    "Machine Learning",
+    "GPGPU (CUDA)",
+    "Robotics software systems",
+    "Troubleshooting Technical Problems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Systems analysis and design",
+      "you_have": "software engineering fundamentals"
+    },
+    {
+      "jd_skill": "Hydraulics/fluid/electro-mechanical actuators",
+      "you_have": "motor control / actuator control"
+    }
+  ],
+  "missing_skills": [
+    "3D Point Cloud processing",
+    "Agile/Continuous Integration",
+    "Dynamic simulations",
+    "Mathematical modeling"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "C",
+    "Linux",
+    "Computer Vision",
+    "CUDA",
+    "GPGPU",
+    "Machine Learning",
+    "Robotics",
+    "Troubleshooting"
+  ],
+  "required_skills": [
+    "C/C++/Python",
+    "Computer Vision",
+    "3D Point Cloud processing",
+    "Machine Learning algorithms",
+    "GPGPU (CUDA)",
+    "Linux",
+    "Systems analysis and design",
+    "Robotics software systems"
+  ],
+  "preferred_skills": [
+    "Strong programming skills",
+    "Agile/Continuous Integration",
+    "Dynamic simulations",
+    "Basic knowledge of hydraulics/fluid/electro-mechanical actuators"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/test/build robotic software systems",
+    "Perception algorithms (CV, 3D point cloud, ML)",
+    "C/C++/Python development",
+    "Dynamic simulations",
+    "Agile/CI practices",
+    "Document system requirements"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fort Smith, Arkansas, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Perception + CV pipelines with real-time constraints: YOLO + TensorRT on Jetson in COFFIN (5.2x speedup, 56.7->10.9ms) directly matches 'ML to enhance perception systems for robustness and/or speed'",
+      "Robotic software systems end-to-end: COFFIN's three-layer distributed pipeline (Flutter/Flask-SocketIO/Jetson+Arduino) and Object Tracking Turret (Jetson+STM32+FreeRTOS) show shipped robotic software, not just models",
+      "C/C++/Python across the board: Arduino C++ IK, CUDA C++ kernels, PyTorch/Python ML pipelines",
+      "Simulation experience the keyword pass missed: CARLA autonomous driving project built full sensor/traffic simulation with YOLO11n + UFLD lane-following, validated zero-collision across multiple laps in Town02 - this is real 'dynamic simulations' depth",
+      "GPGPU/CUDA depth beyond the generic keyword: custom CUDA C++ kernels for VGG16 with memory coalescing, 1.5-2x speedup"
+    ],
+    "real_gaps": [
+      "No 3D point cloud processing - all CV work is 2D RGB (YOLO) plus single-point ToF ranging, never LiDAR/depth-camera point clouds or PCL-style processing",
+      "No hydraulics, fluid power, or electro-mechanical actuator domain knowledge - JD asks for 'basic knowledge of high-performance hydraulics' which is outside any project (robotics work is small-motor/servo, not industrial hydraulics)",
+      "No documented Agile/CI process experience - projects are solo/capstone work, no sprint or CI pipeline evidence",
+      "No formal systems-requirements documentation process (JD explicitly asks to 'develop and document system requirements')"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "Dynamic simulations (CARLA project) - keyword pass missed this because the term never string-matched, but it is a full simulation + perception + control stack",
+      "Perception-for-robustness/speed optimization work (TensorRT, CUDA kernel tuning) is more specific to this JD's actual ask than the generic 'Machine Learning' keyword conveys"
+    ],
+    "screening_gaps": [
+      "Zero 3D point cloud / depth-sensing experience - ArcBest's robotics perception stack (likely warehouse/dock automation) almost certainly leans on LiDAR or depth cameras, and this is a named requirement with no profile evidence at all",
+      "No hydraulics/fluid/electro-mechanical actuator exposure - industrial robotics context (ArcBest is logistics, not consumer robotics) likely probes this even though it's listed as only 'basic knowledge'",
+      "No Agile/CI process track record - a logistics company with a formal engineering org will likely ask about sprint/CI workflow experience that isn't backed by any solo-project bullet"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core perception/CV/ML/C++/Python asks are solidly backed by concrete, specific project depth (COFFIN's real-time TensorRT perception, CUDA kernel work, CARLA simulation), making this a genuinely good technical match for an entry-level perception role. The real risk is the 3D point cloud and industrial hydraulics/actuator asks, which sit outside any current project and would surface quickly in a technical screen.",
+    "calibration_delta": -7.7
+  },
+  "semantic_pending": false
+}

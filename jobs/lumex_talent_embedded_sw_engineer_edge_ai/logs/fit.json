@@ -1,0 +1,62 @@
+{
+  "company": "Lumex Talent (unnamed YC startup)",
+  "company_slug": "lumex_talent",
+  "role": "Embedded Software Engineer (Camera & Edge AI Systems)",
+  "job_slug": "embedded_sw_engineer_edge_ai",
+  "match_pct": 71,
+  "have_skills": [
+    "C (bare-metal)",
+    "Git",
+    "Embedded Linux (Jetson/Pi)",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "Edge AI (TensorRT/Jetson)",
+    "C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_wants": "Linux Kernel / device driver dev",
+      "you_have": "STM32 bare-metal C + RTOS (FreeRTOS) \u2014 register-level HW, not kernel drivers"
+    },
+    {
+      "jd_wants": "BSP engineering",
+      "you_have": "bare-metal board bring-up (STM32) \u2014 adjacent concept, no Linux BSP"
+    }
+  ],
+  "missing_skills": [
+    "MIPI bus",
+    "V4L2",
+    "ISP / Image Signal Processing",
+    "Android BSP"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "Linux Kernel",
+    "Device Driver",
+    "BSP",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO",
+    "C",
+    "C++",
+    "Edge AI",
+    "SoC/SoM",
+    "bare-metal",
+    "firmware"
+  ],
+  "key_responsibilities": [
+    "Develop/port/optimize Linux device drivers for imaging sensors",
+    "Modify/maintain BSPs for custom hardware peripherals",
+    "Debug embedded anomalies across HW/firmware/OS boundaries",
+    "Optimize data pipelines for low-latency ML video ingestion",
+    "Document firmware designs and board bring-up procedures"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

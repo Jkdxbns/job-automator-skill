@@ -1,0 +1,123 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Product Infrastructure",
+  "job_slug": "software-engineer-product-infrastructure",
+  "match_pct": 13.3,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 15,
+    "req_cov": 0.056,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python programming (Python Developer Intern (BARC): PyQt/Matplotlib real-time GUI, GitLab, JupyterHub; AI/ML Intern (IIT Bombay): PyTorch + HuggingFace VisionEncoderDecoder; COFFIN capstone: Flask-SocketIO backend; SLM Compression: bitsandbytes LLM.int8(); embedded/ML/robotics pipelines across 7 internships/capstone)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Debugging and incident response across infrastructure and application layers",
+      "you_have": "COFFIN capstone: resolved 11 integration failures spanning embedded sensors (dual VL53L0X ToF), ROS2, Jetson AI (TensorRT YOLO), Arduino, systemd deployment, Bluetooth, static IP/network config; STM32 bare-metal embedded C with timer-triggered ADC and interrupt-driven I2C debugging"
+    },
+    {
+      "jd_skill": "Cross-functional collaboration and end-to-end ownership",
+      "you_have": "General Secretary, Agnel Robotics Club: led 25-member team, PCB fabrication (EAGLE), UART/I2C sensor communications; COFFIN capstone: end-to-end system spanning Flutter frontend, Flask backend, Jetson AI pipeline, Arduino control, dual ToF sensors, I2C mux (TCA9548A), faster-whisper STT, Gemini intent classification, and systemd deployment"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes (production systems at scale) \u2014 profile explicitly excludes Kubernetes; no Docker/k3s/container orchestration mentioned",
+    "AWS infrastructure (networking, IAM, compute, storage, observability) \u2014 profile explicitly excludes cloud platforms (AWS/GCP/Azure)",
+    "Infrastructure-as-code (Terraform, AWS CDK, CloudFormation) \u2014 no IaC tooling in profile",
+    "Go programming language \u2014 profile skills list: Python, C/C++, CUDA, not Go",
+    "TypeScript programming language \u2014 profile skills list: Python, C/C++, CUDA, not TypeScript",
+    "Distributed systems and event-driven architectures at production scale \u2014 profile has embedded/robotics/HPC (MPI, ROS2) but no company-scale distributed systems",
+    "CI/CD systems and deployment automation (GitHub Actions, ArgoCD, GitOps) \u2014 profile explicitly states no CI/CD tooling; has systemd deployment but not CI/CD",
+    "Observability tooling (Prometheus, Grafana, OpenTelemetry, Datadog) \u2014 profile has pynvml profiling and OpenCV, no infra monitoring/observability stack",
+    "Distributed data systems (Kafka, PostgreSQL, Redis) \u2014 no database or streaming systems in profile",
+    "Autoscaling systems (KEDA) \u2014 profile has systemd auto-restart but not autoscaling infrastructure",
+    "Internal developer platforms / shared engineering infrastructure \u2014 no platform/infrastructure team experience in profile",
+    "10+ years infrastructure / platform / DevOps experience \u2014 candidate is new-grad (M.S. May 2026), 0 years full-time, 7 internships in ML/embedded/robotics/research, not infrastructure"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "AWS",
+    "Terraform",
+    "AWS CDK",
+    "CloudFormation",
+    "CI/CD",
+    "GitHub Actions",
+    "ArgoCD",
+    "Python",
+    "Go",
+    "TypeScript",
+    "distributed systems",
+    "event-driven architectures",
+    "observability",
+    "monitoring",
+    "alerting",
+    "autoscaling",
+    "incident response",
+    "developer experience",
+    "deployment velocity",
+    "production reliability",
+    "networking",
+    "IAM",
+    "DevOps",
+    "platform engineering",
+    "infrastructure engineering"
+  ],
+  "required_skills": [
+    "Kubernetes (production systems at scale)",
+    "AWS infrastructure (networking, IAM, compute, storage, observability)",
+    "Infrastructure-as-code (Terraform, AWS CDK, CloudFormation)",
+    "Programming (Python, Go, or TypeScript)",
+    "Distributed systems and event-driven architectures",
+    "Debugging and incident response (infrastructure + application layers)",
+    "CI/CD systems and deployment automation pipelines",
+    "Cross-functional collaboration and end-to-end ownership",
+    "10+ years infrastructure / platform / DevOps experience"
+  ],
+  "preferred_skills": [
+    "GitOps workflows (ArgoCD)",
+    "Observability tooling (Prometheus, Grafana, OpenTelemetry, Datadog)",
+    "Distributed data systems (Kafka, PostgreSQL, Redis)",
+    "Autoscaling systems (KEDA)",
+    "Internal developer platforms / shared engineering infrastructure"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and deploy cloud infrastructure on AWS using infrastructure-as-code",
+    "Build and maintain Kubernetes platforms across cloud and internal environments",
+    "Develop CI/CD systems, deployment workflows, and GitOps tooling",
+    "Improve reliability, scalability, observability, and operational maturity across distributed systems and data pipelines",
+    "Debug and resolve production issues spanning application, infrastructure, networking, and deployment layers",
+    "Partner with engineering teams to improve developer productivity, deployment velocity, and operational efficiency",
+    "Implement monitoring, alerting, autoscaling, and incident response best practices",
+    "Define infrastructure standards, deployment patterns, and operational best practices"
+  ],
+  "role_category": "general_swe",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

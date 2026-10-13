@@ -1,0 +1,93 @@
+{
+  "company": "Snowflake",
+  "company_slug": "snowflake",
+  "job_title": "AI Systems R&D Engineer \u2014 LLM Inference Systems & Optimization",
+  "job_slug": "llm_inference_optimization",
+  "match_pct": 37.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 16,
+    "jd_ask_size": 29,
+    "req_cov": 0.29,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "CUDA / CUDA C++ (custom VGG16 CUDA kernels; coalesced memory; constant memory; global buffers)",
+    "TensorRT (TensorRT-optimized YOLO; 5.2\u00d7 speedup; TensorRT deployment for edge inference)",
+    "Quantization (8-bit quantization; bitsandbytes LLM.int8(); quantization-aware training; int8 weights / uint8 activations)",
+    "Kernel optimization / GPU execution (memory coalescing, preallocated buffers, 35% speedup VGG16 conv; constant/constant memory usage)",
+    "C/C++ / bare-metal / embedded systems (STM32 Cortex-M4; Arduino; embedded C; firmware)",
+    "Linux / system administration (systemd, static IP, XRDP, non-root isolation; Linux admin)",
+    "Performance benchmarking / profiling (pynvml profiling, psutil, profiling GPU memory/latency; benchmarked across HellaSwag/GSM8K/ARC; latency numbers reported)",
+    "High-performance / parallel computing (MPI distributed neuron simulation; 10.5\u00d7 speedup; SLURM cluster; load balancing; memory coalescing analysis)",
+    "ML model optimization / evaluation (pruning via quantization; model evaluation; accuracy-latency trade-offs; fine-tuning DONUT; YOLOv8 training/export)"
+  ],
+  "missing_skills": [
+    "vLLM (no experience mentioned)",
+    "SGLang (no experience mentioned)",
+    "TensorRT-LLM as an inference serving framework (TensorRT used for YOLO edge export, not for LLM serving/runtime)",
+    "Triton / Triton Inference Server (not mentioned)",
+    "Speculative decoding (Arctic Speculator-style; not implemented)",
+    "Parallel decoding (Jacobi Forcing-style; not implemented)",
+    "Disaggregated inference (prefill/decode split across nodes/GPUs; not done)",
+    "Adaptive parallelism / Shift Parallelism (not done)",
+    "KV-cache optimization / SwiftKV-style techniques (not mentioned)",
+    "Continuous batching / scheduling for multi-tenant LLM serving (not done)",
+    "Multi-model serving / dynamic model swapping / Semi-Persistence-style (not done; single-model edge deployment only)",
+    "CUTLASS / cuBLAS / cuDNN (not mentioned in profile or experience)",
+    "Nsight Systems / Nsight Compute profiling (not mentioned; pynvml/psutil used instead)",
+    "MoE (Mixture of Experts) kernel optimization (not done)",
+    "GPU kernels specifically for attention / MoE / communication in LLM serving context (CUDA kernels done for VGG16, not LLM attention/MoE)",
+    "Production-scale distributed LLM serving (edge/inference on single Jetson; no multi-GPU or cluster LLM serving experience)"
+  ],
+  "adjacent_skills": [
+    "GPU architectures / CUDA programming \u2014 direct experience (CUDA kernels, memory coalescing, constant memory, global buffers); not specifically Triton / CUTLASS / cuBLAS / cuDNN",
+    "LLM / inference \u2014 built custom ASR pipeline (Whisper-style; causal Transformer decoder; BPE tokenizer with Cython backend; 4\u20135.5\u00d7 tokenizer speedup); SLM compression / quantization for TinyLlama; NOT modern LLM serving frameworks (vLLM, SGLang, TensorRT-LLM runtime extension)",
+    "Distributed systems \u2014 MPI distributed neuron simulation (SLURM); NOT multi-node GPU distributed inference / tensor/pipeline/sequence parallelism / disaggregated serving",
+    "Performance profiling \u2014 pynvml / psutil for GPU/VRAM profiling; NOT Nsight Systems / Nsight Compute / end-to-end inference system profiling"
+  ],
+  "top_ats_keywords": [
+    "LLM inference",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "CUDA",
+    "Triton",
+    "adaptive parallelism",
+    "speculative decoding",
+    "disaggregated inference",
+    "KV-cache optimization",
+    "quantization"
+  ],
+  "key_responsibilities": [
+    "Design high-performance LLM inference systems spanning distributed serving, runtime systems, GPU execution, and performance-critical kernels",
+    "Develop novel techniques to improve inference latency, generation speed, throughput, memory efficiency, scalability, and cost",
+    "Explore speculative and parallel decoding, prefill/decode disaggregation, adaptive parallelism, continuous batching and scheduling, KV-cache management",
+    "Analyze and optimize GPU kernels for attention, MoE, communication, and performance-critical model components",
+    "Collaborate with model researchers, infrastructure, and product teams to deploy innovations in production"
+  ],
+  "role_category": "ml_systems",
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "constraints": {
+    "remote_ok": false,
+    "clearance_required": false,
+    "experience_years_required": 5,
+    "experience_level_stated": "senior",
+    "location": "Bellevue, Washington"
+  },
+  "experience_years_stated": "senior",
+  "required_experience_years": 5,
+  "remote_ok": false,
+  "clearance_required": false
+}

@@ -1,0 +1,120 @@
+{
+  "company": "CEiiA",
+  "company_slug": "ceiia",
+  "role": "Engenheiro | Embedded Linux (Eletr\u00f3nica e Sistemas Embebidos)",
+  "job_slug": "embedded-linux-engineer",
+  "match_pct": 85.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 1,
+    "missing_count": 1,
+    "jd_ask_size": 10,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded Linux",
+    "PCB design / hardware development",
+    "C/C++",
+    "Python",
+    "Advanced electrical/electronics systems",
+    "Lab equipment (oscilloscopes, logic analyzers)",
+    "Complex algorithms",
+    "Technical documentation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Integration architecture",
+      "you_have": "ROS/embedded systems integration (turret, RTOS, telemetry gateway projects)"
+    }
+  ],
+  "missing_skills": [
+    "Java"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "PCB",
+    "C/C++",
+    "Java",
+    "Python",
+    "Sistemas Embebidos",
+    "Eletr\u00f3nica"
+  ],
+  "required_skills": [
+    "Embedded Linux",
+    "PCB design / hardware development",
+    "C/C++",
+    "Java",
+    "Python",
+    "Advanced electrical/electronics systems",
+    "Integration architecture",
+    "Lab equipment (oscilloscopes, logic analyzers)"
+  ],
+  "preferred_skills": [
+    "Complex algorithms",
+    "Test plans",
+    "Technical documentation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Test plans for safety/scalability/performance",
+    "Develop software+hardware solutions, resolve bugs",
+    "Design embedded systems/electronics/PCBs",
+    "Project documentation",
+    "Implement complex algorithms"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Matosinhos, Porto, Portugal",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 86,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "PCB design/fabrication is real and hands-on: designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots (ARC robotics club), matching the JD's PCB hardware development ask directly",
+      "Embedded Linux depth is concrete: deployed a Jetson-side controller as a systemd service (auto-restart, non-root isolation, env-based config) with static IP networking and XRDP admin",
+      "Lab equipment handling is explicit in the skills list (Oscilloscopes, Logic Analyzers, Proteus) and backed by the STM32 bare-metal temperature monitor project verified in Proteus",
+      "Complex algorithm implementation is well evidenced: two-link IK on Arduino, quantization-aware training, custom CUDA kernels, FreeRTOS mutex-based task coordination",
+      "Test-plan and documentation habits show up repeatedly: 36-trial state machine with crash-safe logging and simulated-board end-to-end tests, full BOM and claims documentation"
+    ],
+    "real_gaps": [
+      "No Java anywhere in the profile",
+      "Degree is M.S. Computer Engineering, not the Licenciatura em Engenharia Eletronica/Fisica the JD asks for",
+      "Integration architecture experience is project-scope, not a formal systems-architecture-definition role",
+      "Role is on-site in Portugal; candidate is based in Arlington TX on F-1 OPT, which authorizes US work only"
+    ],
+    "overstated_by_keywords": [
+      "Integration architecture credited as adjacent, but real backing is ad-hoc project integration, not formal architecture-definition"
+    ],
+    "understated_by_keywords": [
+      "Linux systems administration depth (systemd unit files, auto-restart/backoff, static IP config, XRDP) is stronger than a bare Embedded Linux keyword match implies"
+    ],
+    "screening_gaps": [
+      "On-site Portugal role vs. F-1 OPT (US-only work authorization) \u2014 likely reason this gets screened out or needs a slow/costly EU work visa",
+      "Licenciatura em Engenharia Eletronica/Fisica required; candidate holds M.S. Computer Engineering",
+      "Java required alongside C/C++/Python; profile has zero Java evidence"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Skill and domain depth is a strong match on PCB fabrication, embedded Linux systems work, hardware lab equipment, and algorithm implementation. But this is a contract, on-site role in Portugal, and F-1 OPT authorizes work in the US only; that is a practical blocker independent of skill fit.",
+    "calibration_delta": -1.0
+  }
+}

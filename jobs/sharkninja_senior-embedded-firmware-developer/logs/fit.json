@@ -1,0 +1,135 @@
+{
+  "company": "SharkNinja",
+  "company_slug": "sharkninja",
+  "role": "Senior Embedded Firmware Developer",
+  "job_slug": "senior-embedded-firmware-developer",
+  "match_pct": 47.5,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.529,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Strong embedded C",
+    "C++ on resource-constrained platforms",
+    "RTOS",
+    "Microcontroller peripherals/drivers/low-level HW interfaces",
+    "Sensor/actuator integration",
+    "Git-based workflows",
+    "Bachelor's degree CompE/EE/CS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "HAL implementation",
+      "you_have": "STM32 bare-metal register-level C driver work (no formal reusable HAL layer)"
+    },
+    {
+      "jd_skill": "Motor control",
+      "you_have": "Robot arm kinematics/servo control (UR5e, DH params, IK) \u2014 not motor driver firmware"
+    },
+    {
+      "jd_skill": "CI builds (gcc, CMake, headless)",
+      "you_have": "CMake build systems; GitHub Actions CD in telemetry_gateway (in-progress project, not yet on resume)"
+    },
+    {
+      "jd_skill": "Debug on target hardware (oscilloscopes, logic analyzers, JTAG/SWD, trace)",
+      "you_have": "Oscilloscopes, Logic Analyzers (JTAG/SWD/trace not evidenced)"
+    },
+    {
+      "jd_skill": "Consumer electronics/home appliances/robotics experience",
+      "you_have": "Robotics (turret, robot arm, drone) \u2014 no consumer appliance experience"
+    }
+  ],
+  "missing_skills": [
+    "5+ years embedded firmware experience",
+    "Power management",
+    "Unit testing (Ceedling or equivalent)",
+    "Static analysis",
+    "OTA update mechanisms",
+    "Device security fundamentals",
+    "CI/CD and build infrastructure for embedded systems (strongly preferred)",
+    "Reviewing/integrating partner-delivered code"
+  ],
+  "top_ats_keywords": [
+    "embedded C",
+    "C++",
+    "RTOS",
+    "HAL",
+    "motor control",
+    "sensor integration",
+    "actuator integration",
+    "power management",
+    "Git",
+    "CMake",
+    "gcc",
+    "CI/CD",
+    "Ceedling",
+    "static analysis",
+    "JTAG/SWD",
+    "oscilloscopes",
+    "logic analyzers",
+    "OTA",
+    "device security",
+    "production firmware"
+  ],
+  "required_skills": [
+    "5+ years embedded firmware experience",
+    "Strong embedded C",
+    "C++ on resource-constrained platforms",
+    "RTOS",
+    "HAL implementation",
+    "Microcontroller peripherals/drivers/low-level HW interfaces",
+    "Motor control",
+    "Sensor/actuator integration",
+    "Power management",
+    "Git-based workflows",
+    "CI builds (gcc, CMake, headless)",
+    "Unit testing (Ceedling or equivalent)",
+    "Static analysis",
+    "Debug on target hardware (oscilloscopes, logic analyzers, JTAG/SWD, trace)",
+    "OTA update mechanisms",
+    "Device security fundamentals",
+    "Bachelor's degree CompE/EE/CS"
+  ],
+  "preferred_skills": [
+    "Consumer electronics/home appliances/robotics experience",
+    "CI/CD and build infrastructure for embedded systems",
+    "Reviewing/integrating partner-delivered code"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/implement/debug production embedded firmware",
+    "Build and maintain HAL layers, shared drivers, core device firmware components",
+    "Motor control, sensor/actuator integration, power management",
+    "Participate in design reviews, review partner-delivered code",
+    "Build/maintain CI pipeline, static analysis config, test-harness infra",
+    "Bring up firmware on target hardware, debug HW/SW integration"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Needham, Massachusetts",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

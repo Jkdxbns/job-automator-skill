@@ -1,0 +1,132 @@
+{
+  "company": "Capital One",
+  "company_slug": "capitalone",
+  "role": "AI Engineer 4 (MLX, Agentic AI, Gen AI Platform Services)",
+  "job_slug": "ai-engineer-4-mlx-agentic-ai",
+  "match_pct": 35.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 1,
+    "missing_count": 19,
+    "jd_ask_size": 30,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "CUDA",
+    "LLM Inference",
+    "PyTorch",
+    "C++",
+    "distributed systems",
+    "model training",
+    "model evaluation",
+    "foundation model optimization",
+    "GPU utilization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Similarity Search and VectorDBs",
+      "you_have": "RAG (retrieval-augmented generation)"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Scala",
+    "Java",
+    "AWS",
+    "Google Cloud",
+    "Azure",
+    "Guardrails",
+    "Memory (AI agent memory)",
+    "C#",
+    "Agentic AI systems",
+    "agentic workflows",
+    "online inference",
+    "model governance",
+    "lineage tracking",
+    "petabyte scale",
+    "HuggingFace",
+    "observability",
+    "experimentation",
+    "multi-agent workflows"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "HuggingFace",
+    "observability",
+    "experimentation",
+    "multi-agent workflows",
+    "VectorDBs",
+    "guardrails",
+    "CUDA",
+    "Python",
+    "AWS",
+    "GPU/TPU",
+    "distributed systems"
+  ],
+  "required_skills": [
+    "Python",
+    "Go",
+    "Scala",
+    "CUDA",
+    "Java",
+    "AI/ML algorithm development"
+  ],
+  "preferred_skills": [
+    "AWS",
+    "Google Cloud",
+    "Azure",
+    "LLM Inference",
+    "Similarity Search",
+    "VectorDBs",
+    "Guardrails",
+    "Memory (AI agent memory)",
+    "C++",
+    "C#",
+    "Agentic AI systems",
+    "agentic workflows",
+    "distributed systems",
+    "model training",
+    "model evaluation",
+    "online inference",
+    "model governance",
+    "lineage tracking",
+    "foundation model optimization",
+    "GPU utilization",
+    "petabyte scale distributed systems"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, develop, test, deploy, support AI software: foundation model training, LLM inference, agents and multi-agent workflows, similarity search, guardrails, model evaluation, experimentation, governance, observability",
+    "Own end-to-end architecture for complex AI systems",
+    "Define and maintain SLOs for AI reliability (latency, uptime, drift)",
+    "Optimize GPU/TPU utilization and inference pipelines",
+    "Lead cross-functional technical reviews for AI system deployments",
+    "Mentor Principal and Senior Associates on scalable design and research-to-production translation"
+  ],
+  "role_category": "ml_systems",
+  "location": "McLean VA / San Francisco CA / Cambridge MA / San Jose CA / New York NY",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

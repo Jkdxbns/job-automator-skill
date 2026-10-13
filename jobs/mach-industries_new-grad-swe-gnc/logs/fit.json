@@ -1,0 +1,24 @@
+{
+  "company": "Mach Industries",
+  "company_slug": "mach-industries",
+  "role": "New Graduate Engineer, Software / GNC (December 2026)",
+  "job_slug": "new-grad-swe-gnc",
+  "match_pct": 90,
+  "missing_skills": ["Rust", "CI/CD pipeline ownership", "formal state estimation / sensor fusion coursework or project"],
+  "adjacent_skills": ["GNC/controls (via robotics kinematics, visual servoing, IK/FK)", "simulation (CARLA experience adjacent to SIL/HIL)", "distributed/concurrent systems (SLURM/MPI adjacent)"],
+  "top_ats_keywords": ["C++", "Python", "C", "Rust", "embedded systems", "RTOS", "GNC", "controls", "sensor fusion", "state estimation", "robotics", "simulation", "SIL/HIL", "Linux", "CI/CD", "real-time systems", "UAVs", "autonomous vehicles"],
+  "key_responsibilities": [
+    "Develop, test, maintain software for autonomous defense platforms",
+    "Write clean, efficient, well-tested code in C++, Rust, Python, or C",
+    "Develop across the stack: low-level embedded/firmware to autonomy/mission applications",
+    "Integrate software with electromechanical systems alongside GNC/embedded/hardware engineers",
+    "Optimize for real-time execution, low-latency, resource-constrained embedded platforms",
+    "Build simulation/testing/dev infrastructure",
+    "Debug HW/SW integration issues",
+    "Contribute to CI/CD and automated testing"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": null,
+  "notes": "Sponsorship/citizenship not explicitly stated in this JD (prescreen CLEAR, no literal hard-blocker phrase), but Mach Industries is a defense-tech company building autonomous weapons platforms ('lethal systems', 'defense platforms') -- this profile almost always carries an unstated ITAR/US-Person requirement enforced later in the pipeline even when the posting itself is silent on it. Flagged manually as a soft risk since it fell outside the literal defense_category_keywords list."
+}

@@ -1,0 +1,137 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer-watch-sensing",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 15,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Deep Learning",
+    "Model training and optimization",
+    "Model evaluation/metrics",
+    "Signal processing",
+    "M.S. Computer Engineering (related field)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multimodal sensor data modeling",
+      "you_have": "Embedded sensor fusion (IMU/ToF/GPS) + telemetry pipelines"
+    },
+    {
+      "jd_skill": "Scalable modeling pipelines",
+      "you_have": "SLURM-managed / Cython-accelerated training pipelines"
+    },
+    {
+      "jd_skill": "Data collection",
+      "you_have": "Embedded data acquisition systems"
+    },
+    {
+      "jd_skill": "HCI background",
+      "you_have": "Wearable/embedded human-interfacing device projects"
+    }
+  ],
+  "missing_skills": [
+    "Time-series predictive modeling (dedicated project)",
+    "Ph.D.-level research background",
+    "Production-scale shipped ML feature experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Deep Learning",
+    "Time-series",
+    "Multimodal sensor data",
+    "HCI",
+    "Signal processing",
+    "Data pipelines",
+    "Model training",
+    "Model optimization"
+  ],
+  "required_skills": [
+    "M.S. or Ph.D. in ML/CS or related field",
+    "Python",
+    "PyTorch or TensorFlow",
+    "Time-series sensor data modeling",
+    "Multimodal sensor data",
+    "Data collection",
+    "Model training and optimization",
+    "Defining metrics",
+    "Failure analysis",
+    "Communication and collaboration skills"
+  ],
+  "preferred_skills": [
+    "Scalable modeling pipelines",
+    "Signal processing techniques"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Train, evaluate, and debug deep learning models for complex tasks",
+    "Guide new features from early prototypes to shipping products"
+  ],
+  "role_category": "ml_systems",
+  "location": "Cupertino, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep learning training/eval/debugging depth: GPT-2 built from scratch, Whisper-style ASR from scratch (15% WER), DONUT fine-tuning (55%->93% accuracy), U-Net segmentation (Dice/IoU) \u2014 directly backs train/evaluate/debug responsibility",
+      "Strong Python + PyTorch depth shown across nearly every project, not surface mentions",
+      "Real signal-processing depth from coursework (DSP, Random Signal Analysis) plus a custom wavelet bank + homography stitching pipeline at BARC \u2014 backs the signal processing preferred qualification",
+      "Consistent quantified evaluation/failure-analysis rigor (PSNR, WER, mAP, Dice, perplexity) across nearly all projects"
+    ],
+    "real_gaps": [
+      "No project trains a predictive ML model directly on time-series/multimodal sensor streams \u2014 the wearable gesture-recognition glove used classical z-axis thresholding, not a trained model",
+      "No HCI or human-interaction-design background (explicitly called a plus in the JD)",
+      "No production-scale shipping experience \u2014 all work is capstone/internship/research scope",
+      "Scalable modeling pipeline experience is data-pipeline-adjacent (BraTS, CARLA generation) rather than production training infra"
+    ],
+    "overstated_by_keywords": [
+      "Multimodal sensor data counted Adjacent by keyword pass, but real depth is classical signal thresholding, not a trained predictive model",
+      "Time-series sensor modeling has no dedicated backing project despite being core to the role"
+    ],
+    "understated_by_keywords": [
+      "Signal-processing depth (custom wavelet bank + optimized homography pipeline) is stronger than the keyword match suggests",
+      "COFFIN capstone integration-debugging rigor (11 failure modes resolved, 100% reliability) shows product-hardening instinct beyond a simple keyword hit"
+    ],
+    "screening_gaps": [
+      "No demonstrated project training/evaluating an ML model on time-series or multimodal sensor data \u2014 the literal core of the role (DoubleTap, handwashing detection, Raise-to-Speak are all sensor time-series classification features)",
+      "No HCI or human-interaction-design background, explicitly noted as a plus",
+      "All experience is capstone/internship/research scope, no evidence of shipping a production feature to consumer scale"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Deep learning training/eval/debugging skills are extensive and well-evidenced across from-scratch model builds with rigorous quantitative evaluation, and signal-processing coursework plus the custom wavelet work partially cover the preferred qualification. But the role centers on training predictive models directly on time-series/multimodal wearable sensor data for shipped interaction features, and none of the sensor-adjacent work is a trained ML model on sensor time-series \u2014 it is classical thresholding or rule-based logic. That gap, plus no HCI background and no production-scale shipping experience, is the real screening risk.",
+    "calibration_delta": 2.0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, Early Career, Campus",
+  "job_slug": "swe-early-career-campus",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Information retrieval",
+    "Developing large software systems",
+    "Security software development",
+    "Accessible technologies"
+  ],
+  "adjacent_skills": [
+    "Distributed/parallel systems -> MPI, SLURM, CUDA",
+    "NLP -> ASR pipelines, BPE, Transformer, GPT-2",
+    "Web/mobile app dev -> Flask, Flutter, GUI apps",
+    "Networking -> TCP, WebSocket, UART/I2C/SPI (embedded-scale, not internet-scale)"
+  ],
+  "top_ats_keywords": [
+    "data structures",
+    "algorithms",
+    "Python",
+    "C++",
+    "AI productivity tools",
+    "Unix/Linux",
+    "distributed systems",
+    "machine learning"
+  ],
+  "key_responsibilities": [
+    "Design, develop, test, deploy, maintain, and improve software",
+    "Manage project priorities, deadlines, and deliverables",
+    "Own tasks through to completion despite roadblocks"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Distributed/parallel systems (Google preferred qual) has real depth, not just adjacency: MPI Hodgkin-Huxley Neuron Simulation (10.49x speedup, 12 workers, quantified load-imbalance analysis) and Parallel Ray Tracer with MPI (30x speedup, 4 scheduling strategies benchmarked) on SLURM-managed clusters.",
+      "Machine learning (Google preferred qual) exceeds typical new-grad depth: from-scratch GPT-2 Transformer, from-scratch Whisper-style ASR with custom BPE tokenizer, DONUT fine-tuning (55%->93% accuracy), YOLOv8 training pipeline -- genuine model-building, not just library calls.",
+      "Unix/Linux environments (Google preferred qual) is real and load-bearing across the HPC/SLURM work and Jetson embedded deployment, not a resume checkbox."
+    ],
+    "real_gaps": [
+      "No explicit data structures/algorithms signal anywhere in master_profile -- no coursework bullet, no competitive programming, no LeetCode-style project. Google's minimum qual only asks for DS&A 'during coursework/projects' which technical projects can arguably satisfy, but Google's actual interview loop is DSA-heavy, and the resume itself won't visibly demonstrate this the way it does ML/embedded depth.",
+      "No large-scale software systems experience -- all experience/projects are single-developer or small-team builds (capstone, internships, competitions), not systems operating at production/distributed-service scale. HPC/parallel computing (MPI/SLURM) is a different discipline from the 'large software systems' Google means (backend services, infra at scale).",
+      "No information retrieval, security software development, or accessible technologies experience anywhere in the profile -- all three preferred quals are flatly missing, not adjacent.",
+      "Web/mobile application development is thin: Flutter and Flask-SocketIO appear only as two components inside the COFFIN capstone's robotics pipeline (a mobile client and an edge server), not as standalone web/mobile development work with any depth of its own."
+    ],
+    "overstated_by_keywords": [
+      "'AI productivity tools' was marked Have in the keyword pass based on real day-to-day Claude Code usage, but nothing in master_profile.json documents this as an achievement or bullet -- there is no resume-citable evidence for it as written today."
+    ],
+    "reasoning": "This is Google's broad generalist new-grad posting, and on paper the keyword match is inflated because the stated minimum quals are deliberately loose. The real technical caliber here is strong and arguably above typical new-grad bar in ML and parallel/distributed computing specifically, both of which are explicit Google preferred quals with genuine depth behind them. But the profile is a specialist's portfolio (embedded, robotics, ML systems) being pointed at a generalist role, so several preferred quals (IR, security, accessible tech, large-scale systems) are flatly absent rather than adjacent, and the DS&A signal Google's interview process actually weights heaviest has no visible backing in the resume material at all."
+  }
+}

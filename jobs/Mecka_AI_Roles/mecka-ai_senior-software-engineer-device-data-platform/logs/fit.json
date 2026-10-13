@@ -1,0 +1,133 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Software Engineer, Device & Data Platform",
+  "job_slug": "senior-software-engineer-device-data-platform",
+  "match_pct": 34.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 12,
+    "jd_ask_size": 22,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python backend programming",
+    "API design",
+    "versioning",
+    "connected hardware",
+    "device interfaces"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SDK / CLI developer experience",
+      "you_have": "API (related)"
+    },
+    {
+      "jd_skill": "release practices",
+      "you_have": "version control"
+    },
+    {
+      "jd_skill": "video/sensor datasets",
+      "you_have": "image and sensor processing"
+    },
+    {
+      "jd_skill": "operational service tooling",
+      "you_have": "system service management"
+    },
+    {
+      "jd_skill": "sensor / video data",
+      "you_have": "time-of-flight sensing"
+    }
+  ],
+  "missing_skills": [
+    "Go / TypeScript backend programming",
+    "telemetry, monitoring, diagnostics",
+    "SQL, database, query performance",
+    "data schema design",
+    "distributed systems failure modes (retries, duplicate events, interrupted transfers, intermittent connectivity)",
+    "authentication and authorization",
+    "automated testing",
+    "production service reliability at organization scale",
+    "asynchronous workflows",
+    "operational web applications",
+    "public SDK building (distinct from API)",
+    "backward compatibility / documentation maintenance"
+  ],
+  "top_ats_keywords": [
+    "service",
+    "API",
+    "SDK",
+    "Python",
+    "Go",
+    "TypeScript",
+    "telemetry",
+    "monitoring",
+    "diagnostics",
+    "SQL",
+    "database",
+    "distributed systems",
+    "authentication",
+    "authorization",
+    "testing",
+    "versioning",
+    "release",
+    "connected hardware",
+    "video",
+    "sensor",
+    "data integrity",
+    "production reliability",
+    "asynchronous workflows",
+    "CLI"
+  ],
+  "required_skills": [
+    "Python/Go/TypeScript backend programming",
+    "production service operation",
+    "service reliability (telemetry, monitoring, diagnostics)",
+    "API/SDK/CLI developer experience",
+    "data schema and database design (SQL)",
+    "distributed systems failure modes (retries, duplicates, interrupted transfers)",
+    "authentication and authorization",
+    "automated testing, versioning, release practices",
+    "debug across services, clients, device interfaces"
+  ],
+  "preferred_skills": [
+    "connected hardware or operational web apps",
+    "public SDK experience",
+    "large video and sensor datasets"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own service and API design for connected hardware and data-intensive workflows",
+    "Keep data accurate/complete and production services reliable",
+    "Build telemetry, diagnostics, and operational tools",
+    "Develop APIs, SDKs, and CLI tools for hardware/data customers",
+    "Implement async workflows (retries, duplicates, interrupted transfers)"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

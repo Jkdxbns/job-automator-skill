@@ -1,0 +1,44 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "R&D Technician, Robotics Hardware",
+  "job_slug": "rd-technician-robotics-hw",
+  "match_pct": 42.86,
+  "missing_skills": [
+    "2+ years hands-on technician experience (robotics/aerospace/electronics/automotive assembly)",
+    "Hand tools, power tools, torque drivers, machine-shop tools",
+    "Documentation discipline / QA deviation reporting",
+    "Physical: lift 50 lbs, workshop/lab/field environment",
+    "Soldering, crimping, IPC-certified workmanship",
+    "Thermal management, weather sealing, EMI/EMC",
+    "Fixture/jig design for assembly repeatability"
+  ],
+  "adjacent_skills": [
+    "Reading wiring diagrams/mechanical drawings (EAGLE PCB, SolidWorks CAD)",
+    "Wire harness / low-voltage electrical work (GPIO, UART/SPI/I2C wiring on embedded projects)",
+    "Prototype build / rapid iteration experience (custom RTOS board, robotics turret builds)"
+  ],
+  "top_ats_keywords": [
+    "LiDAR", "cameras", "IMUs", "GPS", "wire harness", "Linux", "ROS2",
+    "embedded compute", "soldering", "crimping", "IPC-certified",
+    "thermal management", "EMI/EMC", "CAN", "GMSL", "Ethernet", "USB",
+    "torque drivers", "machine-shop tools"
+  ],
+  "key_responsibilities": [
+    "Assemble and integrate perception/compute payloads (LiDAR, cameras, IMUs, GPS, CPU/GPU compute modules)",
+    "Build and route wire harnesses for power, data, sync, and control",
+    "Electrical/power bring-up: continuity, grounding/EMI checks, power-rail validation; assist Linux/ROS2 embedded bring-up",
+    "System testing and QA: functional tests, calibration checks, documentation of results/rework",
+    "Debugging and continuous improvement of build processes",
+    "Field and operations support: staging, servicing, and repairing payloads during deployments/trials"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "llm_analysis": null,
+  "notes": "This is a hands-on Assembly/R&D Technician role (electro-mechanical build, harnessing, soldering, torque tools), not a software/ML/embedded engineering role. Justin's profile is CUDA/ML/embedded-firmware engineering, not technician-track build experience. Required-skill match is low (1 Have + 2 Adjacent of 7 required items = 42.86%), below the 45% Can-Try floor. Salary band ($50k-90k) and job function are also misaligned with an M.S. Computer Engineering new-grad engineering track."
+}

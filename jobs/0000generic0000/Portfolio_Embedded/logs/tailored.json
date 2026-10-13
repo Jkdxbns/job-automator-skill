@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "company": "Generic",
+    "role": "Embedded Firmware Engineer",
+    "company_slug": "generic",
+    "job_slug": "portfolio_embedded"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Dallas–Fort Worth, TX"
+  },
+  "summary": "Computer engineer (M.S. Computer Engineering, RIT, 2026) who builds the firmware between the sensor and the model: register-level bare-metal C on Cortex-M, interrupt-driven motor and servo control, and the Linux services that tie microcontrollers to NVIDIA Jetson edge compute.",
+  "skills": {
+    "Embedded & Firmware": [
+      "Bare-metal C (STM32 Cortex-M4)",
+      "Arduino (AVR, Due)",
+      "FreeRTOS",
+      "Interrupts & timers",
+      "PWM motor & servo control",
+      "Quadrature encoders",
+      "UART / I2C / SPI",
+      "ADC"
+    ],
+    "Embedded Linux & Edge": [
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "systemd services",
+      "Static IP networking",
+      "TensorRT",
+      "CUDA"
+    ],
+    "Hardware & Debug": [
+      "Oscilloscopes",
+      "Logic analyzers",
+      "EAGLE PCB design",
+      "Proteus",
+      "Multimeters"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Engineered a wearable gesture-recognition glove for hands-free cursor control, streaming 3-DoF accelerometer motion from a Raspberry Pi over I2C and Bluetooth into HID commands."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a metal-surface inspection pipeline for microscopic crack analysis that combines custom image stitching, wavelet denoising and depth estimation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated single-layer PCBs in EAGLE for locomotive robots, with UART and I2C sensor communication and closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link inverse kinematics in C++ on the Arduino, driving five servos with contact-aware grasping from dual time-of-flight sensors on an I2C multiplexer: a camera range gate plus a gripper that closes at 25 mm.",
+        "Deployed the Jetson arm bridge as a systemd service (auto-restart with backoff, non-root isolation, environment-based config) on static-IP networking for reliable multi-device WebSocket registration.",
+        "Drove the system to 100% pick reliability (10/10 trials) at ~11.5 s voice-to-pick by hardening it against false-positive detections, servo brown-out and stale-frame capture."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Engineered Cortex-M4 temperature-monitoring firmware in bare-metal embedded C, with timer-synchronized sensing and a real-time display and no HAL or RTOS layer.",
+        "Programmed every peripheral at the register level (GPIO, TIM2, ADC1, I2C1): timer-triggered ADC scan conversions, interrupt-driven sample capture, and a hand-written I2C driver.",
+        "Fit the complete firmware in 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a real-time tracking turret: YOLOv8 on an NVIDIA Jetson detects and tracks targets and streams control commands over UART to STM32 firmware.",
+        "Wrote multi-servo PWM control driven by interrupt-driven UART command handling, with a manual user override.",
+        "Coordinated sensing, control and display tasks under FreeRTOS with mutex-protected shared memory, adding time-of-flight range sensing and a live OLED distance readout."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot — Holonomic Drive & Encoder Odometry",
+      "date": "2022 – 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a four-wheel holonomic robot on Arduino Due, deriving heading from dual-axis quadrature-encoder odometry (2400 CPR) and feeding the angular error back into rotation PWM.",
+        "Implemented interrupt-driven quadrature decoding from first principles as a 4-bit A/B transition state machine, and drove four motor channels at 15 kHz PWM."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Principles of Robotics",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

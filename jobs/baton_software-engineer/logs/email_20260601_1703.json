@@ -1,0 +1,21 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Software Engineer opening at Baton \u2014 Justin Mascarenhas",
+    "greeting": "Hi Alison,",
+    "body": "I am Justin Mascarenhas, a recent M.S. Computer Engineering graduate from Rochester Institute of Technology. I came across Baton's Software Engineer opening and wanted to reach out to someone on the backend engineering team directly.\n\nMy most relevant work: I built a multi-modal agentic pipeline end-to-end for my MS capstone \u2014 STT \u2192 Gemini LLM intent classification \u2192 TensorRT YOLO visual servoing \u2192 robotic action \u2014 shipped over a distributed Flask-SocketIO/WebSocket stack, achieving 100% pick reliability (10/10 trials) at ~11.5s voice-to-action latency. I've also fine-tuned a document understanding transformer (DONUT) from 55% to 93% accuracy and deployed a production YOLOv8 model to a consumer mobile app (78% \u2192 97.5%) \u2014 both end-to-end, from training through deployment.\n\nBeyond that, I've built a GPT-2 style Transformer from scratch in PyTorch and benchmarked LLM compression trade-offs on TinyLlama 1.1B, which gives me grounding in the LLM layer that Baton's agentic platform sits on. Python is my primary language. I'm particularly drawn to Baton because the from concept to production ownership model described in the JD is exactly how I've approached every project in my background.\n\nI'd love to connect briefly and would appreciate a referral if my background seems relevant. Resume attached.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: linkedin.com/in/justinmascarenhas",
+    "word_count": 251,
+    "hook_used": "Engineer in same technical domain \u2014 end-to-end ownership angle",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Alison Thurston",
+    "current_title": "Senior Backend Engineer",
+    "current_company": "Baton"
+  },
+  "meta": {
+    "company": "Baton",
+    "role": "Software Engineer"
+  }
+}

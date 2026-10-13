@@ -1,0 +1,42 @@
+# Memory Index
+
+- [Verify Authorship on Team Projects](feedback_verify_authorship_team_projects.md) — Ask before crediting code from club/team repos (e.g. ARC) as Justin's own work
+- [Batch-Delegate Dashboard](reference_batch_delegate_dashboard.md) — Live "Delegate Ops" Artifact URL; skill ships source only, publish own instance
+- [Resume Project Selection Rules](feedback_resume_project_selection.md) — When to include/exclude CUDA, ROS, STM32 projects based on JD requirements
+- [TBC Interview Pipeline](project_tbc_pipeline.md) — CLOSED/REJECTED after R3 (Mitch Gaines, senior/embedded-Linux); cleared R1 recruiter + R2 technical first
+- [Interview Prep Style](feedback_interview_prep_style.md) — Deep quiz format, why-not-that focus, one project at a time, rebuild from code up
+- [Interview Prep Files](reference_interview_prep_files.md) — 17 analysis files at ~/Desktop/interview_prep/projects/ (17 = undergrad/personal projects + provenance), priority ratings per role
+- [Match Scoring Approach](feedback_match_scoring_approach.md) — Keyword-based scoring is default; only use LLM analysis if explicitly requested
+- [Jetson SSH Credentials](reference_jetson_ssh.md) — SSH to 192.168.0.146 (key auth set up), COFFIN venv, model file paths, benchmark results
+- [Turret Virtual Build](project_turret_virtual_build.md) — Object Tracking Turret: keep CV as-is, master missing skills via virtual build on L476RG; gap-closing curriculum
+- [COFFIN Repo Landmines](project_coffin_repo_landmines.md) — Public GitHub is STALE; notes ARE accurate vs local source. ToF gate is real, firmware CAN pick. Avoid STM32 (it's Arduino) & FreeRTOS (drone=ChibiOS) framing errors
+- [Grad Date Language](feedback_grad_date_language.md) — Check current date vs May 2026: use "graduated" not "graduating" once past that date
+- [Outreach Style Rules](feedback_outreach_style_rules.md) — No hyphens, plain/uneven language, name+degree opener, no numbers, no "no worries/no rush" permission language in follow ups
+- [Outreach Research](feedback_outreach_research.md) — Recruiter data: 120-170 word emails, one ask only, real hooks only (no generic "recruiting background" filler), enforce follow ups
+- [Outreach Ask Type](feedback_outreach_ask_type.md) — Conversation ask ("virtual coffee") beats document ask for university/early career recruiters; no run on sentences, no restating the ask twice
+- [Custom RTOS Project](project_custom_rtos.md) — Flagship embedded build on STM32 L476RG; specs at ~/Desktop/projects/rtos/, scoped from the 68-role skill survey
+- [Inference Engine Project](project_inference_engine.md) — From-scratch C++/CUDA engine for SmolVLA on Jetson (hybrid depth, flow-matching not autoregressive); OLD 4-backend CNN plan archived; GUIDEBOOK.md at ~/Desktop/projects/inference_engine/
+- [EAD Clock](project_ead_clock.md) — EAD NOT yet approved as of 2026-07-14; expects late-Sept approval → clock starts then → status-risk ~late Dec; DON'T check status until Justin says approved
+- [Resume Defensibility](feedback_resume_defensibility.md) — Loses interviews on depth-probes of undefendable claims (C++ standard version, sensor-selection, STM32/FreeRTOS framing); audit resume, do DSA now, drill sensor tradeoffs
+- [JobApplications Sheet](project_jobapplications_sheet.md) — mark-submitted also appends a styled row to the JobApplications Google Sheet; ID, columns, light-yellow styling
+- [Job Alert Tools](reference_job_alert_tools.md) — Notify.careers (paid) + RefereeAI (free) + First2Apply + Emploive; shared search profile at ~/job_search/tracker_search_profile.md
+- [Amazon Embedded Pipeline](project_amazon_embedded_pipeline.md) — ACTIVE: generic req 3177934 + Embedded specialization DOES route to embedded org; OA invited (DSA gate). Leo req 3144341 is export-control blocked
+- [Outreach Reengagement & Seniority](feedback_outreach_reengagement_and_seniority.md) — Own the silence on stale/ghosted threads, drop old ask; CEOs get lighter "stay connected" ask, not "hear your story"
+- [Outreach Templates](reference_outreach_templates.md) — Guidance-ask templates + finalized direct two-branch referral-ask system (with-note/without-note x accept-message), 300 char cap fix
+- [Workspace Tiling Setup](project_workspace_tiling_setup.md) — GNOME named workspaces + Tiling Shell panel layouts to consolidate multi-window projects into one workspace
+- [LinkedIn Outreach Threads](project_linkedin_outreach_threads.md) — Verbatim replied-to DM threads (Sreelakshmi, Jorge, Swarna, Tanmay/NVIDIA, Vincent); append new replies here, don't re-paste
+- [Draft Formatting](feedback_draft_formatting.md) — No markdown blockquotes for drafts in chat, the left bar breaks copy-paste
+- [Calendar Reminder Format](feedback_calendar_reminder_format.md) — Follow-up reminders: 3 min duration, zero alerts, overrides both pa and job-automator skill defaults
+- [OPT Disclosure Timing](feedback_opt_disclosure_timing.md) — Don't raise F-1 OPT/visa/EAD logistics in early recruiter outreach; defer until after interviews progress
+- [Interview Log](reference_interview_log.md) — Master post-mortem: all processes + cross-interview pattern (2/3 losses = C++ fluency, 1/3 = reasoning structure, 0 = domain gaps)
+- [Master Profile Permission](feedback_master_profile_permission.md) — NEVER edit master_profile.json without explicit permission; Object Tracking Turret STAYS (backed by 7 verified CMPE 663 RTOS coursework projects)
+- [Pipeline Guardrails](project_pipeline_guardrails.md) — Anti-drift: A7 rendered only by render_report.py, validate_skill.py linter, and 2 live hooks (protect_resumes rm-block + lint_skill_on_edit); don't bypass
+- [Hardware Inventory](reference_hardware_inventory.md) — Owned boards/sensors (BBB, L476RG, Jetson Orin Nano Super, Pico, MPU6050, ADXL345, GPS M10, TF-Luna, CAN modules…); Arduinos are 5 V, never on BBB pins
+- [Telemetry Gateway Project](project_telemetry_gateway.md) — LOCKED 2026-09-10: BBB+MPU6050 C driver → C++ epoll TCP/IP (Jetson eth + laptop Wi-Fi) + 3-arch Docker + GitHub Actions CI/CD; steps skip 5; does NOT replace embedded_linux_bbb
+- [Master Profile Claim Audit](project_master_profile_claim_audit.md) — all 8 "NOT FOUND" claims audited 2026-09-12 and CLEARED (smart_fan proves ADC/I2C; BARC cert proves GitLab/JupyterHub); don't re-raise
+- [Resume Project Curation](project_resume_project_curation.md) — 2026-09-14: removed QAT/RobotStudio/Steganography; KEEP SLM, GPT-2, CUDA (as is), both MPI; Haptics/Thermal Illusion project REMOVED (not safety-critical; COFFIN covers it); ASR 15% WER settled
+- [Metrics Not Cross-Checked](feedback_metrics_not_cross_checked.md) — Interviewers never check code or ask to prove numbers, only what/why; never flag metric-vs-source mismatches or ask him to verify figures
+- [LLMOps Model Serving Idea](project_llmops_model_serving.md) — future project, NOT yet scoped: telemetry_gateway's container/K8s/CI-CD pattern applied to serving an AI model, for cloud/LLM-serving/RAG gaps
+- [Zoox Firmware Pipeline](project_zoox_firmware_pipeline.md) — CLOSED: Drive Systems rejected 9/15 → redirected to Body Systems → rejected 10/7 after tech screen, no reason given by recruiter
+- [Portfolio Site](project_portfolio_site.md) — LIVE at justinmascarenhas.com (repo Jkdxbns/justinmascarenhas.com, Cloudflare DNS-only + Zoho mail records); system-hero design, content rules, track resumes; Home/Projects/CV/About pages, MPI + 2FA in Archive, per-filter order, headshot live, contact form live (Web3Forms)
+- [Browser or Prompt](feedback_browser_or_prompt.md) — For dashboard-only changes (Cloudflare, GitHub UI): use Claude in Chrome or give exact steps; still confirm before saving account/DNS changes

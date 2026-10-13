@@ -1,0 +1,179 @@
+{
+  "company": "Nidec (Roboteq Greece IKE)",
+  "company_slug": "nidec-roboteq",
+  "role": "Firmware Engineer II",
+  "job_slug": "firmware-engineer-ii",
+  "match_pct": 68.2,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 6,
+    "missing_count": 4,
+    "jd_ask_size": 22,
+    "req_cov": 0.944,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C",
+    "STM32",
+    "ARM Cortex microcontrollers",
+    "MCU peripherals",
+    "Git",
+    "PWM",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "Debugging and root-cause analysis",
+    "Technical documentation and specifications",
+    "Embedded systems",
+    "Bachelor's/Master's in Engineering or CS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ADC noise characterization",
+      "you_have": "ADC data acquisition (STM32 ADC1, smart fan controller)"
+    },
+    {
+      "jd_skill": "Firmware optimization (determinism, memory footprint)",
+      "you_have": "Bare-metal / FreeRTOS timing work + memory-constrained edge optimization"
+    },
+    {
+      "jd_skill": "Motor-drive fundamentals",
+      "you_have": "PWM motor control, quadrature encoders, closed-loop feedback control"
+    },
+    {
+      "jd_skill": "Hardware bring-up and new board revisions",
+      "you_have": "PCB design (EAGLE, Proteus) and sensor/board bring-up on STM32, Arduino, BeagleBone"
+    },
+    {
+      "jd_skill": "Firmware architecture and modularity",
+      "you_have": "State-machine-driven bare-metal firmware structure"
+    },
+    {
+      "jd_skill": "Firmware test and release",
+      "you_have": "Embedded validation and benchmarking on target hardware"
+    }
+  ],
+  "missing_skills": [
+    "CAN decoding / CAN bus",
+    "NXP MCUs",
+    "Renesas MCUs",
+    "Code review in a collaborative professional development environment"
+  ],
+  "top_ats_keywords": [
+    "Embedded C",
+    "Firmware",
+    "STM32",
+    "ARM Cortex-M",
+    "MCU peripherals",
+    "Git",
+    "Motor drive",
+    "CAN",
+    "PWM",
+    "ADC",
+    "Oscilloscope",
+    "Logic analyzer",
+    "Hardware bring-up",
+    "Code review",
+    "Root-cause analysis",
+    "Technical documentation",
+    "NXP",
+    "Renesas"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "ARM Cortex microcontrollers",
+    "STM32",
+    "MCU peripherals",
+    "Git",
+    "Motor-drive fundamentals",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "CAN decoding",
+    "PWM timing validation",
+    "ADC noise characterization",
+    "Firmware optimization (performance, determinism, memory footprint)",
+    "Debugging and root-cause analysis",
+    "Hardware bring-up",
+    "Firmware architecture and modularity",
+    "Technical documentation and specifications",
+    "Code review",
+    "Firmware test and release"
+  ],
+  "preferred_skills": [
+    "NXP MCUs",
+    "Renesas MCUs",
+    "Master's degree"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Lead development of robust modules for embedded systems",
+    "Design, implement, test, and release firmware features from specification to production",
+    "Optimize firmware for performance, determinism, memory footprint, and reliability",
+    "Drive complex debugging and deep root-cause analysis",
+    "Review technical specifications, test procedures, and code contributions from team members",
+    "Support hardware bring-up and new board revisions",
+    "Improve firmware architecture, modularity, and maintainability",
+    "Contribute to process improvements (code reviews, Git workflows, documentation standards)"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Markopoulo, Greece (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep debugging / root-cause evidence, which is a named core responsibility: COFFIN resolved 11 distinct integration failures (false-positive detections, servo brown-out, stale-frame capture) to 10/10 pick reliability; Robocon traced PWM saturation at 45-degree diagonals to naive vector summation clipping at 2x full scale and fixed it with atan2 angle-weighted mixing.",
+      "Determinism and memory-footprint optimization is directly evidenced, not claimed: STM32 bare-metal temperature monitor hit 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate with timer-triggered ADC scan conversions and interrupt-driven capture.",
+      "Bare-metal register-level peripheral work on ARM Cortex-M4 (GPIO, TIM2, ADC1, I2C1) plus a hand-written low-level I2C driver \u2014 the JD's 'strong experience with MCU peripherals' is backed at driver level, not library level.",
+      "Real motor-control foundation from Robocon: interrupt-driven quadrature decoding written from first principles as a 4-bit A/B transition state machine, 2400 CPR encoder odometry, four motor channels at 15 kHz PWM, closed-loop heading correction, and a fail-safe state machine halting all motors on controller disconnect.",
+      "Hardware bring-up and board revisions have concrete backing: designed and fabricated custom single-layer PCBs in EAGLE, brought up sensor comms over UART and I2C, verified firmware in Proteus."
+    ],
+    "real_gaps": [
+      "CAN bus / CANopen \u2014 zero evidence anywhere in the profile. Roboteq's product line is motor controllers whose field interface is CAN, and the JD names CAN decoding explicitly as a validation task.",
+      "Motor-drive fundamentals at the power-electronics level: no BLDC commutation, no field-oriented control, no current sensing or shunt measurement, no gate drivers or power stage. All motor work goes through off-the-shelf driver modules (Cytron) and hobby servos.",
+      "Owning a firmware module end-to-end from specification to production release \u2014 no shipped product firmware, no release process, no field-return or reliability-qualification experience. Everything is capstone, coursework, or competition scope.",
+      "Reviewing code contributions, test procedures and specs from team members \u2014 team leadership is evidenced (25-member ARC club, 7-person Teesside team, Robocon coding team) but formal code review is not.",
+      "Collaborative Git workflow \u2014 Git and GitLab are used, but there is no evidence of branching strategy, pull requests, or review gates in a professional repo.",
+      "Oscilloscope and logic-analyzer work is listed as a tool skill but no bullet in the profile shows a scope-based timing or protocol-level debug session.",
+      "NXP and Renesas MCUs (preferred only) \u2014 no exposure.",
+      "Track record: the JD asks for 3+ years of professional embedded firmware; Justin has 0 full-time years. Also an on-site role in Greece, which needs relocation plus an EU work permit the posting says nothing about."
+    ],
+    "overstated_by_keywords": [
+      "Oscilloscopes / Logic Analyzers \u2014 present in the skills list, absent from every bullet. The JD asks for protocol-level validation (CAN decoding, PWM timing, ADC noise characterization); nothing in the profile demonstrates instrument-driven debug.",
+      "ADC noise characterization \u2014 counted as adjacent off 'ADC scan conversions', but that is data acquisition, not noise floor or signal-integrity characterization.",
+      "Embedded C / STM32 depth rests on two projects (bare-metal temperature monitor, object tracking turret). Broad peripheral coverage, but thin volume against 'deep understanding'."
+    ],
+    "understated_by_keywords": [
+      "The Robocon holonomic drive project is the single strongest asset for this specific employer and the keyword pass barely touched it: closed-loop motor control, quadrature decoding from first principles, 15 kHz PWM across four channels, PWM saturation analysis, and a motor-halt fail-safe. For a motor-controller company that is far more relevant than any ML project in the profile.",
+      "Firmware architecture and modularity was scored as adjacent, but the Frame Simulator shows deliberate module decomposition with a mix-in pattern, and the turret shows FreeRTOS task coordination with mutexes \u2014 both are architecture evidence the string match missed.",
+      "Systems-integration breadth: COFFIN spans Jetson, Arduino, STM32, ToF sensors over an I2C mux, and a WebSocket fabric across three devices, which is exactly the 'cross-functional system integration' the JD asks for."
+    ],
+    "screening_gaps": [
+      "0 years professional embedded firmware against an explicit '3+ years professional' requirement for a mid-level Engineer II role \u2014 every firmware bullet is capstone, coursework or competition scope, not a shipped product.",
+      "No CAN experience of any kind at a motor-controller manufacturer where CAN/CANopen is the primary field bus, and the JD names CAN decoding as a validation skill.",
+      "No motor-drive depth below the PWM abstraction \u2014 no commutation, FOC, current sensing, or power-stage work \u2014 which is the domain core of the entire business."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The embedded fundamentals line up better than the profile's ML-heavy surface suggests: bare-metal Cortex-M4 peripheral programming, deterministic timing with a measured 3.68 KB Flash footprint, first-principles quadrature decoding, and genuinely strong root-cause debugging stories. What is missing is the part that makes it a Roboteq role rather than a generic firmware role \u2014 CAN, and motor drive below the PWM layer \u2014 plus zero professional years against a stated 3+ mid-level bar. Worth applying because the Robocon motor-control work is a real hook, but expect the experience bar and the CAN gap to be the screen.",
+    "calibration_delta": 5.2
+  }
+}

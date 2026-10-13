@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Zoox",
+    "role": "Embedded Software Engineer",
+    "company_slug": "zoox",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on embedded firmware experience across STM32 Cortex-M4, Arduino/AVR, Raspberry Pi, and NVIDIA Jetson platforms. Writes bare-metal embedded C at the register level, including low-level I2C, timer-triggered ADC, and interrupt-driven UART drivers for real-time distributed electromechanical systems.",
+  "skills": {
+    "Embedded & Firmware": [
+      "Bare-Metal C",
+      "Embedded C++",
+      "ARM Cortex-M4",
+      "STM32",
+      "Arduino/AVR",
+      "Device Drivers",
+      "Interrupt Handling",
+      "Timers/PWM",
+      "ADC",
+      "Real-Time Control"
+    ],
+    "Protocols & Interfaces": [
+      "UART",
+      "I2C",
+      "USB Serial",
+      "Bluetooth (BLE/Classic)",
+      "I2C Multiplexing (TCA9548A)"
+    ],
+    "Platforms & OS": [
+      "Linux",
+      "Embedded Linux (systemd)",
+      "NVIDIA Jetson",
+      "Raspberry Pi"
+    ],
+    "Hardware & Lab": [
+      "EAGLE PCB Design",
+      "Schematic Review",
+      "PCB Fabrication",
+      "Proteus",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Board Bring-Up"
+    ],
+    "Languages & Tools": [
+      "C",
+      "C++",
+      "Python",
+      "Git",
+      "GitLab",
+      "PyQt"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating an ADXL345 accelerometer with a Raspberry Pi over I2C and an HC-05 Bluetooth link, translating 3-DoF hand motion into HID cursor commands."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots, reading and revising schematics through to hardware bring-up and bench debug.",
+        "Implemented sensor communication over UART and I2C with closed-loop feedback control across competition robot platforms."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Built a PyQt data acquisition GUI for real-time instrument readout and experimental visualization in a laboratory environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor (Cortex-M4)",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal embedded C at the register level (GPIO, TIM2, ADC1, I2C1) with no HAL abstraction, fitting the full firmware in 3.68 KB Flash and 1.58 KB RAM.",
+        "Implemented timer-triggered ADC scan conversion, interrupt-driven sample capture, and a low-level I2C display driver at a deterministic 1 Hz update rate; validated bus timing in Proteus before bring-up."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a distributed electromechanical pick-and-place system: embedded Linux services on NVIDIA Jetson (systemd-managed) driving an Arduino/AVR motion controller over USB serial.",
+        "Wrote the microcontroller firmware in embedded C++: two-link inverse kinematics, five-servo PWM actuation, and range-gated contact detection using dual VL53L0X ToF sensors multiplexed over I2C via a TCA9548A.",
+        "Debugged 11 hardware and low-level software failures (servo brown-out on simultaneous attach, serial errno-5 disconnect recovery, stale-frame capture) to reach 100% pick reliability across 10 trials."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Streamed target commands from an NVIDIA Jetson running YOLOv8 detection to a microcontroller over UART for real-time servo tracking.",
+        "Implemented interrupt-driven UART command parsing, multi-servo PWM control, a manual override path, and VL53L0X ToF ranging over I2C with OLED readout."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

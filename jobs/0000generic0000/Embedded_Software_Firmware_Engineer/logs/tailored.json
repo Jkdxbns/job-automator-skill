@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "company": "Generic",
+    "role": "Embedded Software / Firmware Engineer",
+    "company_slug": "generic",
+    "job_slug": "embedded_firmware"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on embedded systems and firmware experience across STM32 bare-metal C, FreeRTOS, and interrupt-driven peripheral control (UART/I2C/SPI/ADC/GPIO). Built real-time embedded pipelines integrating sensors, actuators, and wireless links on STM32, Arduino, and Raspberry Pi, validated on oscilloscopes and logic analyzers. Comfortable owning firmware end to end, from register-level drivers through PCB bring-up and system integration.",
+  "skills": {
+    "Embedded / Firmware": [
+      "Bare-Metal C (STM32 Cortex-M4)",
+      "FreeRTOS",
+      "Board Bring-up",
+      "Interrupt-driven peripheral control",
+      "UART / I2C / SPI / Ethernet",
+      "GPIO / ADC / Timers",
+      "Bluetooth (BLE/Classic)",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino"
+    ],
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "Bash"
+    ],
+    "Hardware & Debug Tools": [
+      "Root-Cause Analysis",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "EAGLE PCB Design",
+      "Proteus",
+      "SolidWorks"
+    ],
+    "Dev Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Flask"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, interfacing ADXL345 accelerometers with a Raspberry Pi over I2C and streaming 3-DoF motion data via HC-05 Bluetooth to translate gestures into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding in embedded C; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback for national-level competitions.",
+        "Led a 25-member robotics team end to end across mechanical design, PCB fabrication, and firmware/AI integration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in bare-metal embedded C with timer-synchronized sensing and real-time display, with no HAL or RTOS abstraction.",
+        "Programmed peripherals directly at the register level (GPIO, TIM2, ADC1, I2C1): timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified timing and signal integrity in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a real-time embedded control system on STM32 with FreeRTOS, using mutex-protected shared memory for task coordination between sensing, control, and display tasks.",
+        "Implemented multi-servo PWM control driven by interrupt-driven UART commands from a Jetson-based vision front end, with a manual user override path.",
+        "Integrated VL53L0X time-of-flight sensing over I2C with OLED distance visualization for closed-loop targeting."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built the embedded control layer of a distributed pick-and-place robot: two-link IK in C++ on Arduino driving five servos, with dual VL53L0X ToF sensors muxed over I2C via TCA9548A for contact-aware grasping at 25mm.",
+        "Designed interrupt-driven serial command handling between the Jetson vision pipeline and Arduino motion controller over a WebSocket-to-UART bridge.",
+        "Root-caused 11 field integration failures (servo brown-out, stale-frame capture) via oscilloscope/logic analyzer traces; reached 100% pick reliability (10/10) at ~11.5s end-to-end latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Principles of Robotics",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "PathAI",
+    "role": "Machine Learning Engineer II (Applied Research & Model Development)",
+    "company_slug": "pathai",
+    "job_slug": "ml_engineer_ii_applied_research"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Developed and evaluated deep learning models for medical imaging, including a custom data pipeline and U-Net segmentation stack for the BraTS 2020 multi-modal MRI dataset and a high-resolution microscopy inspection pipeline. Fine-tuned vision transformers in PyTorch on medical-domain data, and comfortable owning experimental design, model evaluation, and ML pipeline development alongside cross-functional research teams.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Hugging Face Transformers",
+      "8-bit quantization",
+      "Model evaluation & benchmarking",
+      "ONNX",
+      "TFLite"
+    ],
+    "Medical Imaging & Computer Vision": [
+      "Medical image segmentation (U-Net)",
+      "VGG-16 / VGG-19 / ResNet-50",
+      "Dice Score / IoU",
+      "Microscopy image stitching",
+      "Wavelet denoising",
+      "Monocular depth estimation",
+      "YOLOv8",
+      "OpenCV"
+    ],
+    "Data & Experimentation": [
+      "Custom data pipelines",
+      "Medical imaging augmentation",
+      "Dataset curation & annotation",
+      "Experimental design & ablation studies",
+      "Model benchmarking",
+      "pynvml profiling"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "Bash",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for 3D volumetric inputs.",
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment.",
+        "Led a cross-functional team of 7 as the sole ML-experienced member, delivering the full pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document understanding transformer, on a custom medical dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API with domain-specific tokens.",
+        "Improved validation accuracy from 55% to 93% through preprocessing redesign and model tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Architected a surface inspection pipeline for microscopic crack analysis combining custom image stitching, wavelet denoising, and monocular depth estimation.",
+        "Designed an alpha-blended sym6+bior3.5 wavelet bank to suppress low-frequency noise, reaching PSNR 86 against a PSNR 65 baseline."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom detection dataset and trained YOLOv8n on 1,133 images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Model Compression and Benchmarking for Constrained Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC: under 1% accuracy degradation with a +0.09 perplexity increase."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Random Signal Analysis",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation - 2D and 3D Image Mosaicing of Microscopic Images (2024)"
+  ]
+}

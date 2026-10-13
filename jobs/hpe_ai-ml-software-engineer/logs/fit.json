@@ -1,0 +1,136 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "AI & ML Software Engineer",
+  "job_slug": "ai-ml-software-engineer",
+  "match_pct": 47.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 20,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Machine Learning",
+    "Model Evaluation",
+    "HPC",
+    "LLMs",
+    "Performance Analysis"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed Systems",
+      "you_have": "MPI/SLURM, 3-tier WebSocket pipeline"
+    },
+    {
+      "jd_skill": "Monitoring",
+      "you_have": "pynvml/psutil profiling, STM32 temp monitor"
+    },
+    {
+      "jd_skill": "Telemetry",
+      "you_have": "data acquisition/sensor logging"
+    },
+    {
+      "jd_skill": "Data Engineering",
+      "you_have": "BraTS custom data pipeline"
+    },
+    {
+      "jd_skill": "Deployment",
+      "you_have": "systemd service, Jetson edge deploy"
+    },
+    {
+      "jd_skill": "GenAI",
+      "you_have": "TinyLlama/GPT-2 work"
+    },
+    {
+      "jd_skill": "Go",
+      "you_have": "C/C++"
+    }
+  ],
+  "missing_skills": [
+    "React",
+    "Agentic Systems",
+    "Anomaly Detection",
+    "Forecasting",
+    "Observability",
+    "Root Cause Analysis",
+    "Production Systems at scale"
+  ],
+  "top_ats_keywords": [
+    "Go",
+    "Python",
+    "React",
+    "LLM",
+    "agentic",
+    "anomaly detection",
+    "root cause analysis",
+    "forecasting",
+    "observability",
+    "telemetry",
+    "monitoring",
+    "distributed systems",
+    "HPC",
+    "supercomputing",
+    "data engineering",
+    "machine learning",
+    "GenAI"
+  ],
+  "required_skills": [
+    "Python",
+    "Go",
+    "React",
+    "Machine Learning",
+    "LLMs",
+    "GenAI",
+    "Agentic Systems",
+    "Anomaly Detection",
+    "Forecasting",
+    "Distributed Systems",
+    "Observability",
+    "Production Systems",
+    "Data Engineering",
+    "Model Evaluation",
+    "Deployment"
+  ],
+  "preferred_skills": [
+    "HPC",
+    "Telemetry",
+    "Monitoring",
+    "Performance Analysis"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "AI/ML for anomaly detection, root cause analysis, forecasting",
+    "Production services in Go, Python, React",
+    "LLM workflows and agentic systems",
+    "Full ML lifecycle incl. data engineering, deployment, monitoring"
+  ],
+  "role_category": "ml_systems",
+  "location": "Ft. Collins, Colorado, US (hybrid 2 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

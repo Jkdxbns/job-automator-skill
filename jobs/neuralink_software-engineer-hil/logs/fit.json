@@ -1,0 +1,150 @@
+{
+  "company": "Neuralink",
+  "company_slug": "neuralink",
+  "role": "Software Engineer - HIL",
+  "job_slug": "software-engineer-hil",
+  "match_pct": 63.9,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 18,
+    "req_cov": 0.692,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "testing and validation (HIL/test rigs/system-level verification)",
+    "robotics",
+    "drivers (peripheral programming)",
+    "firmware (microcontroller firmware)",
+    "hardware/firmware debugging",
+    "Git/version control",
+    "C/C++",
+    "Linux",
+    "RTOS/real-time systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "buses (vehicle/system buses)",
+      "you_have": "serial protocols I2C/SPI/UART + CAN modules (hardware inventory), not production vehicle-bus experience"
+    },
+    {
+      "jd_skill": "async and concurrent systems debugging",
+      "you_have": "MPI multithreading + interrupt-driven embedded concurrency (ISR/mutex coordination), not async software/RPC debugging"
+    },
+    {
+      "jd_skill": "automated test pipelines / CI pipeline",
+      "you_have": "GitHub Actions CD pipeline experience, not a formal automated test pipeline"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "RPC",
+    "telemetry (formal telemetry/observability system)",
+    "timing failure debugging (production-scale)",
+    "Bazel"
+  ],
+  "top_ats_keywords": [
+    "Rust",
+    "Python",
+    "HIL",
+    "test rigs",
+    "system-level verification",
+    "drivers",
+    "firmware",
+    "buses",
+    "async",
+    "concurrent",
+    "RPC",
+    "telemetry",
+    "timing",
+    "automated test pipelines",
+    "Bazel",
+    "CI pipeline",
+    "traceability"
+  ],
+  "required_skills": [
+    "Rust",
+    "Python",
+    "HIL testing",
+    "test rigs / system-level verification",
+    "drivers",
+    "firmware",
+    "buses",
+    "async systems debugging",
+    "concurrent systems debugging",
+    "RPC",
+    "telemetry",
+    "timing failure debugging",
+    "automated test pipelines"
+  ],
+  "preferred_skills": [
+    "Bazel"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "own robot HIL test system",
+    "write automated HIL tests for integration/timing/faults/bring-up",
+    "define pass/fail, coverage, acceptance criteria",
+    "wire SIL/HIL/hardware acceptance into one CI pipeline",
+    "own release-gating tests, reproduce escaped failures"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX / South San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Object Tracking Turret: Jetson-to-STM32 UART command link with FreeRTOS mutex-guarded shared state and interrupt-driven servo control \u2014 real hardware-in-the-loop style bring-up and fault handling",
+      "COFFIN capstone: resolved 11 concrete integration failures (false-positive detections, servo brown-out, stale-frame capture) across a 3-layer distributed pipeline; measured 100% pick reliability over 10/10 trials and deployed as a self-recovering systemd service with auto-restart/backoff",
+      "STM32 Bare-Metal Temperature Monitor: direct peripheral/timing work (GPIO, TIM2, ADC1, I2C1) with deterministic 1 Hz update rate, verified against Proteus",
+      "Python used as primary tooling/orchestration language across nearly every project (Flask-SocketIO, GUI, data pipelines) \u2014 matches the JD ask for Python test tooling",
+      "MPI projects show real concurrency debugging instincts (load-imbalance characterization, distributed worker coordination) even though the domain is HPC, not embedded/software concurrency"
+    ],
+    "real_gaps": [
+      "Zero Rust experience anywhere in the profile \u2014 the JD headline requirement is entirely unbacked",
+      "No experience owning a unified CI pipeline gating SIL + HIL + hardware acceptance tests; all profile-level verification is single-project (Proteus, MoveIt/RViz, CARLA sim), not an owned test-infrastructure system",
+      "No RPC framework or formal telemetry/observability system experience \u2014 profile debugging depth is embedded/hardware-level (ISR races, sensor jitter, brownout), not software-systems-level async/RPC/telemetry debugging",
+      "No production-scale vehicle/robot-fleet bus experience (e.g. CAN) \u2014 only ad hoc UART/I2C on hobbyist boards",
+      "production_scope_required: JD language (\"at scale\", \"hundreds of threads\", \"unattended day and night\") implies owning production test infrastructure, a scope beyond capstone/internship work"
+    ],
+    "overstated_by_keywords": [
+      "automated test pipelines counted as HAVE/adjacent from a GitHub Actions CD pipeline, which is deployment automation, not a test-gating pipeline",
+      "async/concurrent systems debugging counted via MPI and ISR-level concurrency, which is a different debugging discipline than RPC/telemetry-level async debugging"
+    ],
+    "understated_by_keywords": [
+      "Hands-on fault reproduction and bring-up debugging (COFFIN's 11 resolved integration failures) is a closer real-world match to \"reproduce faults, automate verification\" than any single keyword captures",
+      "Deterministic, hardware-close firmware work (STM32 timer/ADC/interrupt programming) directly demonstrates comfort \"close to drivers, firmware, and buses\""
+    ],
+    "screening_gaps": [
+      "No Rust \u2014 explicit headline skill requirement with zero backing, likely the first resume-screen filter",
+      "No owned production CI/HIL test-infrastructure experience \u2014 everything in the profile is single-project verification, not release-gating test ownership",
+      "No RPC/telemetry/distributed-systems debugging experience \u2014 the JD's debugging ask sits at the software-systems layer; the profile's debugging depth sits at the embedded/hardware layer"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong embedded/firmware/hardware-debugging fundamentals (peripheral programming, real-time systems, fault reproduction, reliability engineering) genuinely back the HIL/test-rig/firmware core of this role, but the two headline asks \u2014 Rust and owned production CI/test-pipeline infrastructure \u2014 have no real backing in the profile. Worth applying given the explicit junior-friendly hiring bar, but expect a Rust and systems-design probe.",
+    "calibration_delta": 5.9
+  }
+}

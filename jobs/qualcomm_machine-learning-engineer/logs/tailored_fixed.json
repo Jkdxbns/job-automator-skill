@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "company": "Qualcomm Technologies, Inc.",
+    "role": "Machine Learning Engineer",
+    "company_slug": "qualcomm",
+    "job_slug": "machine-learning-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering (RIT, May 2026). Developed optimized ML inference on embedded hardware \u2014 TensorRT-optimized YOLO (5.2\u00d7 speedup) on NVIDIA Jetson, custom CUDA C++ kernels (35% speedup), and 8-bit quantization (~55% VRAM reduction). Built real-time embedded ML systems with bare-metal STM32 C, PyTorch pipelines, and model-efficiency tooling (compiler-level optimization, profiling, edge deployment).",
+  "skills": {
+    "Language / Systems": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Linux"
+    ],
+    "ML / Frameworks": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "CUDA kernels",
+      "ONNX",
+      "TFLite"
+    ],
+    "Embedded / Edge AI": [
+      "NVIDIA Jetson",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "UART/I2C/SPI",
+      "Edge AI deployment"
+    ],
+    "Perception / ML Pipelines": [
+      "YOLO",
+      "ROS2",
+      "Real-time inference",
+      "ASR pipelines",
+      "OpenCV"
+    ],
+    "Performance / Tools": [
+      "Memory coalescing",
+      "CMake",
+      "Git",
+      "pynvml Profiling",
+      "System profiling"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Built embedded C / Python ML pipelines on ARM devices; optimized real-time gesture recognition (ADXL345 + Pi) via software calibration.",
+        "Implemented real-time gesture recognition pipeline using ADXL345 + Raspberry Pi + Bluetooth (BLE) with 3-DoF motion translation; optimized latency via software calibration.",
+        "Demonstrated low-level OS/hardware interaction: UART/I2C, timer-synchronized ADC, embedded C drivers \u2014 core to Qualcomm's embedded ML engineering role."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned vision-language transformer (DONUT) using PyTorch + HuggingFace VisionEncoderDecoder; improved validation accuracy from 55% \u2192 93% via preprocessing and model tuning.",
+        "Built training/inference pipelines in PyTorch with custom tokenizer and decoder adjustments \u2014 mirrors Qualcomm's framework extension/optimization responsibilities.",
+        "Applied statistics and signal analysis (Digital Signal Processing coursework) to structured data extraction \u2014 adjacent to Qualcomm's probability/statistics preference."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n (83% mAP@50); exported to ONNX/TFLite for embedded deployment \u2014 framework/compiler/tooling match.",
+        "Used quantization and model-efficiency techniques (ONNX/TFLite export, 8-bit concepts) \u2014 aligns with Qualcomm's kernel/compiler/model-efficiency tools responsibilities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "TensorRT-optimized YOLO (5.2\u00d7 speedup) on NVIDIA Jetson for vision servoing; real-time embedded pipeline with Flask-SocketIO + Arduino IK.",
+        "Built custom CUDA C++ kernel optimization (memory coalescing, constant memory, preallocated buffers) for VGG-16 inference \u2014 35% speedup over naive GPU; aligns with Qualcomm's ML kernel / compiler work.",
+        "Custom CUDA C++ kernel optimization (coalesced memory, preallocated buffers) for VGG-16 \u2014 35% speedup; aligns with Qualcomm ML kernel/compiler work.",
+        "8-bit quantization pipeline: ~55% VRAM reduction (LLM.int8) with profiling (pynvml); systemd service deployment (auto-restart, non-root isolation)."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript with custom CUDA C++ kernels (memory coalescing) \u2014 35% speedup; compiler-level optimization concepts applied."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Achieved ~55% GPU memory reduction via 8-bit quantization (LLM.int8) with pynvml profiling \u2014 direct model-efficiency/tooling match."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Random Signal Analysis",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize \u2014 Poster Presentation (2D/3D Microscopic Image Mosaicing), F.C.R.I.T. (2024)",
+    "1st Prize \u2014 CanSat Workshop (Arduino Nano atmospheric data, free fall), F.C.R.I.T. (2023)",
+    "Ranked 10th \u2014 Robocon (National-level robotics, 45 universities), 2022"
+  ]
+}

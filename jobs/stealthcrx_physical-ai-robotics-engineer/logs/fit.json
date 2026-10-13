@@ -1,0 +1,46 @@
+{
+  "company": "StealthCRX",
+  "company_slug": "stealthcrx",
+  "role": "Physical AI / Robotics Engineer",
+  "job_slug": "physical-ai-robotics-engineer",
+  "match_pct": 72.7,
+  "missing_skills": [
+    "mobile robot localization / field SLAM-AMCL debugging",
+    "shipped ROS2 mobile robot in production",
+    "startup or small-team industry experience",
+    "wheel encoders",
+    "LiDAR",
+    "GCP / cloud telemetry pipelines"
+  ],
+  "adjacent_skills": [
+    "ROS2 stack (Humble/Noetic, URDF, MoveIt, RViz on a 6DOF arm, not a mobile base)",
+    "sensor integration/calibration (RGB + ToF + IMU, not wheel encoders/LiDAR)",
+    "sensor fusion (multi-camera capture pipeline)",
+    "simulation as dev tool (CARLA, ABB RobotStudio, not Gazebo/Isaac Sim)"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "Nav2",
+    "URDF",
+    "C++",
+    "Python",
+    "sensor fusion",
+    "Gazebo",
+    "Isaac Sim",
+    "localization",
+    "field debugging"
+  ],
+  "key_responsibilities": [
+    "Ship a working ROS2 mobile robot in production or near-production",
+    "Integrate and calibrate multi-sensor perception (camera, depth, IMU, encoders, LiDAR)",
+    "Debug real-world robot failures: localization, sensor dropouts, field edge cases",
+    "Use simulation (Gazebo/Isaac Sim) as first-class dev workflow",
+    "Use AI coding tools daily to ship faster"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

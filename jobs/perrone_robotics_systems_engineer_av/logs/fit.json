@@ -1,0 +1,42 @@
+{
+  "company": "Perrone Robotics",
+  "company_slug": "perrone_robotics",
+  "role": "Systems Engineer - Autonomous Vehicle (AV) Hardware & Integration",
+  "job_slug": "systems_engineer_av",
+  "match_pct": 62,
+  "missing_skills": [
+    "LiDAR/RADAR sensor calibration and firmware management (Ouster, Livox)",
+    "Vehicle networking/diagnostic interfaces (CAN, Modbus, Ethernet/UDP)",
+    "Cellular/networking hardware and carrier-side troubleshooting (SIM provisioning)"
+  ],
+  "adjacent_skills": [
+    "Vehicle electrical/mobile robotics hardware integration -> has PCB design, Arduino/STM32 circuit builds, robot hardware integration",
+    "Motor controllers/actuator systems -> has UR5e robot arm visual servoing, DoF/actuator work (industrial, not automotive)",
+    "Technical writing (SOPs, BOMs, wiring diagrams) -> has EAGLE PCB schematic/wiring documentation, not formal SOP authorship"
+  ],
+  "top_ats_keywords": [
+    "LiDAR",
+    "RADAR",
+    "CAN",
+    "Modbus",
+    "SOP",
+    "BOM",
+    "Python",
+    "ROS",
+    "DevOps",
+    "AWS S3"
+  ],
+  "key_responsibilities": [
+    "Own hardware/sensor/connectivity/safety-critical systems for deployed AV fleet",
+    "Diagnose and escalate LiDAR/RADAR/firmware issues to vendors",
+    "Author SOPs, BOMs, wiring diagrams for third-party outfitters",
+    "Support software/firmware deployment to vehicle compute hardware",
+    "Manage cellular/RTK/GPS connectivity and carrier troubleshooting"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

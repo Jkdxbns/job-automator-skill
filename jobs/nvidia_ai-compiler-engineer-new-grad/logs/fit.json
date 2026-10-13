@@ -1,0 +1,113 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "AI Compiler Engineer - New College Grad 2027",
+  "job_slug": "ai-compiler-engineer-new-grad",
+  "match_pct": 39.3,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "GPU programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ML compilers",
+      "you_have": "TensorRT / TorchScript / ONNX"
+    },
+    {
+      "jd_skill": "LLM inference kernels",
+      "you_have": "CUDA kernel optimization + GPT-2/TinyLlama LLM work"
+    },
+    {
+      "jd_skill": "kernel generation",
+      "you_have": "CUDA C++ kernel optimization, memory coalescing"
+    },
+    {
+      "jd_skill": "domain specific compiler/library for LLM inference/training",
+      "you_have": "TensorRT-optimized, ONNX, TorchScript"
+    },
+    {
+      "jd_skill": "ML systems research and productization",
+      "you_have": "BraTS/ASR research + Jetson edge deployment productization"
+    }
+  ],
+  "missing_skills": [
+    "Apache TVM",
+    "MLIR",
+    "AI agent driven solutions/automation",
+    "FlashInfer",
+    "Flash Attention",
+    "Open source project ownership/contribution"
+  ],
+  "top_ats_keywords": [
+    "ML compilers",
+    "LLM inference kernels",
+    "kernel generation",
+    "Python",
+    "C/C++",
+    "GPU programming",
+    "MLIR",
+    "TVM",
+    "FlashInfer",
+    "Flash Attention",
+    "agentic automation"
+  ],
+  "required_skills": [
+    "ML compilers",
+    "LLM inference kernels",
+    "kernel generation",
+    "Python",
+    "C/C++",
+    "GPU programming"
+  ],
+  "preferred_skills": [
+    "Apache TVM",
+    "MLIR",
+    "AI agent driven solutions/automation",
+    "FlashInfer",
+    "Flash Attention",
+    "domain specific compiler/library for LLM inference/training",
+    "ML systems research and productization",
+    "Open source project ownership/contribution"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop ML compiler and systems technologies",
+    "Design/implement/optimize compilers for AI workloads",
+    "Build agent-driven automation for dev flow",
+    "Co-design agent systems with compiler tech",
+    "Collaborate with NVIDIA hardware/software teams"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara CA / Remote PA / Seattle WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,85 @@
+{
+  "company": "DigitalOcean",
+  "company_slug": "digitalocean",
+  "role": "Senior Engineer II, Serverless Inference",
+  "job_slug": "senior-engineer-ii-serverless-inference",
+  "match_pct": 18.2,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 11,
+    "req_cov": 0.143,
+    "cap_applied": "zero_have"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [],
+  "missing_skills": [
+    "Multi-tenant platform / distributed backend systems (7+ yrs)",
+    "SRE principles (incident management, capacity planning, operational automation)",
+    "Go / Golang (production)",
+    "Kubernetes (2+ yrs)",
+    "Cloud-native architectures / microservices / distributed systems fundamentals",
+    "API gateways / traffic routing / service mesh",
+    "vLLM / Triton (specific serving engines)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "Debugging performance/scalability/reliability in production",
+      "have": "Debugging and optimization across embedded, CUDA kernel, and inference pipelines (not at production distributed-systems scale)"
+    },
+    {
+      "jd_term": "Observability (TTFT/TPOT/GPU utilization)",
+      "have": "GPU profiling via pynvml, CUDA kernel optimization, memory coalescing (no TTFT/TPOT-specific LLM serving observability)"
+    },
+    {
+      "jd_term": "vLLM/TensorRT-LLM serving stacks",
+      "have": "TensorRT / TensorRT-optimized inference pipelines on Jetson (adjacent tooling, not the same serving stack)"
+    },
+    {
+      "jd_term": "Inference optimization / workload orchestration",
+      "have": "Quantization (8-bit), kernel optimization, model pruning for edge inference (single-device, not multi-tenant orchestration)"
+    }
+  ],
+  "top_ats_keywords": [
+    "Go",
+    "Golang",
+    "Kubernetes",
+    "SRE",
+    "observability",
+    "multi-tenant",
+    "distributed systems",
+    "microservices",
+    "cloud-native",
+    "GPU utilization",
+    "TTFT",
+    "TPOT",
+    "vLLM",
+    "Triton",
+    "TensorRT-LLM",
+    "API gateway",
+    "service mesh",
+    "traffic routing",
+    "rate limiting",
+    "workload orchestration",
+    "on-call"
+  ],
+  "key_responsibilities": [
+    "Design and build scalable multi-tenant AI inference and routing services",
+    "Strengthen platform resiliency: observability, capacity management, automation",
+    "Partner with platform/GPU infra/product teams on production-grade highly available APIs",
+    "Architecture decisions on traffic management, service orchestration, scalability",
+    "On-call rotation, incident reduction, service health improvement",
+    "Technical leadership, breaking down ambiguous problems for engineers",
+    "Coach junior/mid-level engineers"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

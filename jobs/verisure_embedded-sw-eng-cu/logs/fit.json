@@ -1,0 +1,101 @@
+{
+  "company": "Verisure",
+  "company_slug": "verisure",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-sw-eng-cu",
+  "match_pct": 46.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 15,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Linux",
+    "embedded systems",
+    "debugging/troubleshooting",
+    "scripting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Yocto/embedded Linux",
+      "you_have": "STM32/RTOS embedded (bare-metal, not Yocto Linux)"
+    },
+    {
+      "jd_skill": "kernel/driver development",
+      "you_have": "peripheral driver work (I2C/ADC) on microcontrollers"
+    }
+  ],
+  "missing_skills": [
+    "Yocto",
+    "Wi-Fi/modem stack development",
+    "D-Bus",
+    "DDS",
+    "GSM",
+    "IoT fleet-scale deployment",
+    "vendor collaboration"
+  ],
+  "top_ats_keywords": [
+    "Yocto",
+    "Embedded Linux",
+    "C/C++",
+    "Wi-Fi",
+    "D-Bus",
+    "DDS",
+    "HAL",
+    "Middleware"
+  ],
+  "required_skills": [
+    "embedded Linux (Yocto)",
+    "system-level debugging",
+    "C/C++ on Linux",
+    "scripting/tooling"
+  ],
+  "preferred_skills": [
+    "Wi-Fi",
+    "GSM",
+    "HAL",
+    "middleware",
+    "kernel/driver development",
+    "networking",
+    "vendor collaboration",
+    "IoT/large-scale deployed systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "embedded Linux dev across Wi-Fi/modem/connectivity",
+    "middleware/HAL design",
+    "security hardening",
+    "persistence mechanisms",
+    "D-Bus/DDS IPC",
+    "field debugging"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pozuelo de Alarcon, Madrid, Spain (or Malmo, Sweden)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Onsite role in Madrid, Spain or Malmo, Sweden ('office in Madrid or Malmo', 'Madrid and Malmo-based team') with no visa or relocation sponsorship mentioned. F-1 OPT only authorizes employment inside the United States (foreign_onsite_no_us_authorization rule)."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

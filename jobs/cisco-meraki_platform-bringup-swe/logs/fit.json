@@ -1,0 +1,132 @@
+{
+  "company": "Cisco Meraki",
+  "company_slug": "cisco-meraki",
+  "role": "Software Engineer - Platform Bringup",
+  "job_slug": "platform-bringup-swe",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 21,
+    "req_cov": 0.577,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Embedded systems",
+    "Linux",
+    "I2C",
+    "SPI",
+    "Schematics and datasheets",
+    "Multi-threaded/parallel programming",
+    "GPU"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux device drivers",
+      "you_have": "Low-level I2C driver (STM32 bare-metal)"
+    },
+    {
+      "jd_skill": "GNU toolchain",
+      "you_have": "CMake, Bash, bare-metal C builds"
+    },
+    {
+      "jd_skill": "BSP/SDK integration",
+      "you_have": "Jetson + TensorRT stack"
+    },
+    {
+      "jd_skill": "Image sensors",
+      "you_have": "OpenCV, multi-camera capture"
+    },
+    {
+      "jd_skill": "DSP",
+      "you_have": "Digital Signal Processing coursework"
+    }
+  ],
+  "missing_skills": [
+    "Buildroot/Yocto/OpenWRT",
+    "U-Boot/coreboot/UEFI bootloaders",
+    "Kernel configuration",
+    "Device trees",
+    "MDIO",
+    "Upstreaming Linux patches",
+    "ISP",
+    "H.264"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded systems",
+    "Linux",
+    "device drivers",
+    "bootloader",
+    "U-Boot",
+    "Yocto",
+    "buildroot",
+    "OpenWRT",
+    "device tree",
+    "I2C",
+    "SPI",
+    "MDIO",
+    "BSP",
+    "multi-threaded",
+    "H.264"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Embedded systems",
+    "Linux",
+    "GNU toolchain",
+    "Buildroot/Yocto/OpenWRT",
+    "U-Boot/coreboot/UEFI bootloaders",
+    "Kernel configuration",
+    "Device trees",
+    "I2C",
+    "SPI",
+    "MDIO",
+    "Linux device drivers",
+    "BSP/SDK integration"
+  ],
+  "preferred_skills": [
+    "Device drivers",
+    "Upstreaming Linux patches",
+    "Schematics and datasheets",
+    "Multi-threaded/parallel programming",
+    "Image sensors",
+    "GPU",
+    "ISP",
+    "DSP",
+    "H.264"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Prototype hardware bring-up to shipping product",
+    "Validate component selection with Hardware Engineering",
+    "Integrate vendor BSPs and SDKs with firmware and build systems",
+    "Develop, port and debug Linux device drivers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA (hybrid, 3x/week in office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

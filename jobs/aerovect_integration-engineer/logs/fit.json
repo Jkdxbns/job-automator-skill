@@ -1,0 +1,23 @@
+{
+  "company": "AeroVect",
+  "company_slug": "aerovect",
+  "role": "Integration Engineer",
+  "job_slug": "integration-engineer",
+  "match_pct": 60,
+  "missing_skills": ["LiDAR", "radar", "GPS/GNSS", "2-4 years hands-on field integration/testing experience", "networking fundamentals", "mentoring/training junior staff"],
+  "adjacent_skills": ["cameras (via OpenCV/YOLO vision work)", "autonomous vehicle platform architecture (via robotics platforms, not automotive/AV specifically)"],
+  "top_ats_keywords": ["LiDAR", "cameras", "radar", "GPS/GNSS", "embedded hardware", "Linux", "command-line tooling", "ROS2", "autonomy software stack", "fleet software", "sensor validation", "field testing", "release testing", "Python", "C++"],
+  "key_responsibilities": [
+    "Evaluate and validate new sensors and platform hardware",
+    "Fix minor bugs in autonomy software stack during field operations",
+    "Execute supervised autonomy testing runs and release-level testing",
+    "Collect data for edge-case maneuvers, sensor profiling, obstacle avoidance, controller tuning",
+    "Train and level up Test Operators",
+    "Maintain fleet software (updates, patches, config management)",
+    "Monitor fleet health and triage field issues",
+    "Document test results and field observations"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

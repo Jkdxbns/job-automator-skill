@@ -1,0 +1,121 @@
+{
+  "company": "Everpure",
+  "company_slug": "everpure",
+  "role": "Systems Software Engineer (MTS3)",
+  "job_slug": "systems-software-engineer-mts3",
+  "match_pct": 28.6,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 14,
+    "jd_ask_size": 21,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "multi-layer debugging (software/hardware/distributed)",
+    "test strategy and automated validation",
+    "embedded/platform software (microcontroller firmware)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI (parallel/distributed computing)"
+    },
+    {
+      "jd_skill": "CI/CD (Jenkins/GitLab)",
+      "you_have": "Git/GitHub Actions"
+    }
+  ],
+  "missing_skills": [
+    "high availability (HA)",
+    "storage architectures",
+    "state machines",
+    "workflow orchestration",
+    "health checks",
+    "error handling for critical systems",
+    "NVMe",
+    "iSCSI",
+    "PCIe",
+    "NUMA",
+    "HA failover design",
+    "array controller replacement dynamics",
+    "server/CPU hardware architecture",
+    "cross-functional stakeholder communication"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "distributed systems",
+    "high availability",
+    "storage architecture",
+    "state machines",
+    "workflow orchestration",
+    "health checks",
+    "CI/CD",
+    "Jenkins",
+    "GitLab",
+    "NVMe",
+    "iSCSI",
+    "PCIe",
+    "NUMA"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "distributed systems",
+    "high availability",
+    "storage architectures",
+    "hardware lifecycle / embedded platform software",
+    "state machines",
+    "workflow orchestration",
+    "health checks",
+    "error handling for critical systems",
+    "multi-layer debugging (software/hardware/distributed)",
+    "test strategy and automated validation",
+    "CI/CD (Jenkins/GitLab)",
+    "cross-functional communication"
+  ],
+  "preferred_skills": [
+    "NVMe",
+    "iSCSI",
+    "PCIe",
+    "NUMA",
+    "HA failover design",
+    "array controller replacement dynamics",
+    "server/CPU hardware architecture"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "controller-upgrade automation",
+    "state machine / workflow orchestration for upgrade safety",
+    "CI/CD and regression testing across hardware/software combos",
+    "observability and telemetry for upgrade execution"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Santa Clara, California",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

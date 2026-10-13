@@ -1,0 +1,115 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Sensor R&D Engineer",
+  "job_slug": "sensor-r-d-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python programming (signal processing, analysis, visualization)",
+    "Data acquisition / laboratory instrumentation",
+    "Embedded C / bare-metal programming",
+    "Embedded electronics interfaces (UART/I2C/SPI, ADC, GPIO, PWM)",
+    "PCB design / hardware integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Readout electronics and system integration",
+      "you_have": "Embedded electronics interfaces and board-level integration"
+    },
+    {
+      "jd_skill": "Controlled experiment design / distinguish signal from noise",
+      "you_have": "Testing, validation, benchmarking experience"
+    },
+    {
+      "jd_skill": "Calibration and measurement concepts",
+      "you_have": "Basic calibration awareness"
+    },
+    {
+      "jd_skill": "Embedded digital signal processing",
+      "you_have": "Basic DSP / signal analysis"
+    }
+  ],
+  "missing_skills": [
+    "Physical sensor development / integration (tactile, force, pressure) \u2014 3+ yrs required",
+    "Hands-on tactile, force, or pressure sensor development with sensing physics",
+    "Sensor fabrication and materials testing",
+    "Measurement uncertainty and packaging durability effects",
+    "Lab-to-manufacturing repeatable sensing technology (preferred)"
+  ],
+  "top_ats_keywords": [
+    "sensor development",
+    "sensor integration",
+    "sensing physics",
+    "tactile sensors",
+    "force sensors",
+    "pressure sensors",
+    "materials fabrication",
+    "characterization",
+    "readout electronics",
+    "calibration",
+    "signal processing",
+    "packaging",
+    "system validation",
+    "test fixtures",
+    "sensitivity",
+    "noise",
+    "hysteresis",
+    "drift",
+    "laboratory instrumentation",
+    "data acquisition",
+    "measurement uncertainty",
+    "controlled experiments",
+    "Python"
+  ],
+  "required_skills": [
+    "Physical sensor development / integration (tactile, force, pressure, sensing physics) \u2014 3+ yrs",
+    "Laboratory instrumentation and data acquisition (fabrication/materials OR readout electronics/system integration)",
+    "Controlled experiment design (signal vs noise, fixture effects, measurement error)",
+    "Python for signal processing, analysis, visualization",
+    "Calibration, measurement uncertainty, packaging effects on performance/durability"
+  ],
+  "preferred_skills": [
+    "Lab-to-manufacturing repeatable sensing technology"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop/integrate sensors and validate sensing approach via controlled experiments",
+    "Build test fixtures; characterize sensitivity, noise, hysteresis, drift, sample variation",
+    "Develop calibration and signal-processing methods for reliable measurements",
+    "Integrate sensors with electronics and synchronized recording systems",
+    "Validate packaged sensor performance after repeated use; document reproducible methods"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

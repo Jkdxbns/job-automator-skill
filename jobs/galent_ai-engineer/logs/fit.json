@@ -1,0 +1,96 @@
+{
+  "company": "Galent",
+  "company_slug": "galent",
+  "role": "AI Engineer",
+  "job_slug": "ai-engineer",
+  "match_pct": 43,
+  "have_skills": [
+    "python",
+    "flask",
+    "hugging face",
+    "model evaluation",
+    "transformers",
+    "attention mechanisms",
+    "pytorch",
+    "tensorflow",
+    "linux",
+    "git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "llms",
+      "have": "LLM experience (GPT, BERT, ASR pipelines)"
+    },
+    {
+      "jd_skill": "rest apis",
+      "have": "Flask/FastAPI experience"
+    }
+  ],
+  "missing_skills": [
+    "numpy",
+    "pandas",
+    "fastapi",
+    "prompt engineering",
+    "ml fundamentals",
+    "supervised learning",
+    "unsupervised learning",
+    "feature engineering",
+    "cnns",
+    "gcp",
+    "docker",
+    "sql",
+    "postgresql",
+    "mysql",
+    "bigquery",
+    "mongodb"
+  ],
+  "preferred_skills_have": [
+    "quantization",
+    "scikit-learn (adjacent)",
+    "xgboost (adjacent)"
+  ],
+  "top_ats_keywords": [
+    "python",
+    "pytorch",
+    "transformers",
+    "hugging face",
+    "llms",
+    "prompt engineering",
+    "docker",
+    "gcp",
+    "fastapi",
+    "rag"
+  ],
+  "key_responsibilities": [
+    "Build Python applications powered by LLMs (GPT, Claude, Gemini, LLaMA)",
+    "Develop RAG pipelines with vector databases",
+    "Design agent workflows with planning, tool calling, memory",
+    "Train/deploy ML models for classification, regression, clustering",
+    "Deploy workloads on Google Cloud Platform (Vertex AI, Cloud Run, GKE)",
+    "Build REST APIs with Flask/FastAPI"
+  ],
+  "role_category": "ml_systems",
+  "role_type": "Contract",
+  "employment_type": "Contract",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "Germantown, MD",
+  "remote_ok": false,
+  "clearance_required": false,
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "hard_blocker_triggered": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "Unknown \u2014 Galent not in known sponsors list; contract role may not sponsor",
+    "experience": "OK \u2014 entry/associate level, no years stated",
+    "location": "Germantown, MD (onsite Mon-Fri) \u2014 relocation required",
+    "clearance": "None required",
+    "notice": "4 weeks \u2014 EAD pending",
+    "employment_type": "Contract \u2014 verify H1B/OPT eligibility with staffing agency"
+  }
+}

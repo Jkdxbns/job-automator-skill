@@ -1,0 +1,129 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Machine Learning Platform Engineer",
+  "job_slug": "senior-machine-learning-platform-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 28,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA / GPU optimization",
+    "PyTorch",
+    "TensorFlow",
+    "ROS/ROS2",
+    "YOLO",
+    "OpenCV",
+    "TensorRT",
+    "Edge AI deployment (Jetson)",
+    "Embedded C/C++ (STM32 Cortex-M4)",
+    "Real-time embedded systems",
+    "ML model optimization (quantization, pruning, ASR)",
+    "Sensor pipelines (ToF, UART/I2C)",
+    "Flask",
+    "CMake",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embodied AI / field-deployed robotics",
+      "you_have": "ROS2 robotics, Jetson+YOLO+ToF sensor pipelines, capstone robotic arm, simulated CARLA \u2014 internships/research, not production global field scale"
+    },
+    {
+      "jd_skill": "ML Platform / Infra Engineering",
+      "you_have": "CUDA kernel optimization, Python ML pipelines, Flask, CMake, Git, model export (ONNX/TFLite) \u2014 strong ML/code, but no production distributed ML platform at company scale"
+    },
+    {
+      "jd_skill": "Field Foundational Models (perception, planning, localization, manipulation)",
+      "you_have": "YOLO perception, ROS MoveIt/manipulation, depth estimation, stereo vision, forward kinematics \u2014 related, not foundational-model-at-scale"
+    },
+    {
+      "jd_skill": "Safety / explainability / reliability for real-world deployment",
+      "you_have": "Embedded reliability practices, model evaluation metrics \u2014 no formal functional-safety/ISO certification"
+    },
+    {
+      "jd_skill": "Senior-level ML / Platform leadership",
+      "you_have": "Led 7-person research team, multiple capstone/internship leads \u2014 no full-time senior industry role"
+    },
+    {
+      "jd_skill": "Field deployment / unstructured real-world environments",
+      "you_have": "Lab/testbed robotics, wearable glove, simulated autonomous driving \u2014 not actual globally deployed field solutions"
+    }
+  ],
+  "missing_skills": [
+    "5+ years full-time senior experience (hard blocker: new-grad, 0 FT years)",
+    "Production-scale distributed ML infrastructure / platform at company scale",
+    "Formal functional-safety or ISO certification",
+    "Actual global field deployment track record",
+    "Senior industry-level ML platform leadership"
+  ],
+  "top_ats_keywords": [
+    "embodied AI",
+    "robotics",
+    "field deployment",
+    "real sensors",
+    "machine learning",
+    "platform",
+    "perception",
+    "planning",
+    "localization",
+    "manipulation",
+    "reliability",
+    "explainability",
+    "safety"
+  ],
+  "required_skills": [
+    "Machine learning platform engineering",
+    "Robotics / embodied AI",
+    "Real-time sensor integration",
+    "Production ML deployment",
+    "Software engineering for ML infrastructure"
+  ],
+  "preferred_skills": [
+    "Field deployment / unstructured environments",
+    "Safety / explainability / reliability",
+    "Foundational models (perception, planning, localization, manipulation)",
+    "Senior-level leadership"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build/test ML systems on real hardware with real sensors",
+    "Ship systems to operate in unstructured, unknown environments globally",
+    "Risk-aware, reliable, field-ready AI deployment",
+    "Collaborate across AI, robotics, software, and field deployment teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

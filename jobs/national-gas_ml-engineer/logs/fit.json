@@ -1,0 +1,112 @@
+{
+  "company": "National Gas",
+  "company_slug": "national-gas",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 16,
+    "req_cov": 0.545,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "pandas",
+    "scikit-learn",
+    "version control",
+    "Master's degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "model deployment in production",
+      "you_have": "TensorRT/ONNX edge deployment on Jetson"
+    },
+    {
+      "jd_skill": "Azure DevOps / cloud CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "dashboards / visualisation",
+      "you_have": "Matplotlib"
+    },
+    {
+      "jd_skill": "automated testing",
+      "you_have": "model evaluation / benchmarking"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "model monitoring",
+    "forecasting",
+    "optimisation (operational)",
+    "Azure Machine Learning",
+    "meteorological data",
+    "energy / utilities experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "pandas",
+    "scikit-learn",
+    "SQL",
+    "MLOps",
+    "model monitoring",
+    "version control",
+    "forecasting",
+    "Azure Machine Learning",
+    "Azure DevOps"
+  ],
+  "required_skills": [
+    "Python",
+    "pandas",
+    "scikit-learn",
+    "SQL",
+    "MLOps",
+    "model deployment",
+    "model monitoring",
+    "automated testing",
+    "version control",
+    "forecasting",
+    "optimisation"
+  ],
+  "preferred_skills": [
+    "Azure Machine Learning",
+    "Azure DevOps",
+    "meteorological data",
+    "energy / utilities"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "deploy/monitor/maintain ML in production",
+    "model monitoring + automated testing + deployment",
+    "productionise DS models",
+    "prepare large datasets",
+    "dashboards"
+  ],
+  "role_category": "ml_systems",
+  "location": "Warwick, GB (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

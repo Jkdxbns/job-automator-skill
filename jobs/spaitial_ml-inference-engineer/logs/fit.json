@@ -1,0 +1,101 @@
+{
+  "company": "SpAItial",
+  "company_slug": "spaitial",
+  "role": "ML Inference Engineer",
+  "job_slug": "ml-inference-engineer",
+  "match_pct": 54.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 12,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "GPU inference profiling",
+    "GPU memory optimization",
+    "Computer Vision",
+    "3D data"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Production APIs",
+      "you_have": "Flask-SocketIO edge server"
+    },
+    {
+      "jd_skill": "GPU inference platforms",
+      "you_have": "Jetson + TensorRT edge inference"
+    },
+    {
+      "jd_skill": "Generative AI / world models",
+      "you_have": "GPT-2 / SLM from scratch, ZoeDepth depth"
+    }
+  ],
+  "missing_skills": [
+    "Containerized services (Docker)",
+    "Batching",
+    "Cold start",
+    "Serving at scale / cost"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "API",
+    "containerized",
+    "GPU inference",
+    "profiling",
+    "batching",
+    "cold start",
+    "3D",
+    "computer vision",
+    "generative AI",
+    "world models",
+    "GPU utilization"
+  ],
+  "required_skills": [
+    "Python",
+    "Production APIs",
+    "Containerized services (Docker)",
+    "GPU inference platforms",
+    "GPU inference profiling",
+    "GPU memory optimization",
+    "Batching",
+    "Cold start"
+  ],
+  "preferred_skills": [
+    "3D data",
+    "Computer Vision"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own inference services and APIs",
+    "Optimize GPU utilization and memory footprint",
+    "Apply latest inference performance techniques",
+    "Deploy research models as production services with customer-specific configs"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK; Munich, Germany (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

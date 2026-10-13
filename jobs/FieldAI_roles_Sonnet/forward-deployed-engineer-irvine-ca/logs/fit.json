@@ -1,0 +1,137 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Forward Deployed Engineer - Irvine, CA",
+  "job_slug": "forward-deployed-engineer-irvine-ca",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Master's degree (Robotics, CS, EE, or equivalent) (M.S. Computer Engineering, Rochester Institute of Technology (RIT), graduated May 2026)",
+    "Python (IIT Bombay AI/ML Intern (DONUT fine-tuning with PyTorch/HuggingFace VisionEncoderDecoder), Tusk Deep Learning Intern (YOLOv8n, ONNX/TFLite export), BARC Python Developer Intern (PyQt/Matplotlib real-time acquisition GUI), COFFIN arm (Flask-SocketIO server, faster-whisper, Gemini intent classification))",
+    "C++ (CUDA Kernel Optimization project (custom CUDA C++ kernels, memory coalescing, 35% speedup); ROS-Based Robotic Arm (C++ ROS nodes); STM32 Bare-Metal Temperature Monitor (embedded C); MPI Hodgkin-Huxley simulation (C/C++))",
+    "Git (BARC Python Developer Intern (GitLab); all project repositories managed with Git)",
+    "ROS / ROS2 (ROS-Based Robotic Arm (AL5B & UR5e): DH tables, forward kinematics, MoveIt, RViz, ROS2 Humble + ROS Noetic; COFFIN arm uses ROS-related sensor/kinematics concepts; profile explicitly lists ROS/ROS2)",
+    "Linux-based systems (COFFIN Voice-Controlled Robotic Arm: systemd service management (unit files, auto-restart, non-root isolation), static IP/network configuration; profile explicitly lists Linux admin skills)",
+    "Field deployment experience (COFFIN Voice-Controlled Robotic Arm capstone: end-to-end deployment (Flutter + Flask-SocketIO + Jetson + Arduino + sensors + YOLO + TensorRT), 100% pick reliability (10/10 trials), resolved 11 integration failures under real-world conditions, systemd deployment for sustained operation)",
+    "Systems integration (Field Robotics) (COFFIN arm integrates Flutter client, Flask-SocketIO server, NVIDIA Jetson, Arduino, faster-whisper STT, Gemini classification, TensorRT-optimized YOLO, dual VL53L0X ToF sensors, TCA9548A I2C mux; ROS arm integrates AL5B/UR5e with DH parameters, MoveIt, RViz)",
+    "Troubleshooting across software/hardware/networking (COFFIN arm: resolved 11 unplanned integration failures spanning I2C/UART (hardware), Bluetooth (networking), SocketIO/STT/YOLO (software); embedded debugging skills (oscilloscopes, logic analyzers) listed in profile; STM32 bare-metal debugging experience)",
+    "Mission-critical system deployment (COFFIN arm deployed with systemd (auto-restart, non-root isolation, static IP), achieving 100% pick reliability (10/10) in sustained real-world operation)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Direct customer-facing technical support and customer enablement",
+      "you_have": "COFFIN arm is a user-facing autonomous system deployed end-to-end; General Secretary (Agnel Robotics Club) led 25-member team including training/coordination; Python Dev Intern built user-facing PyQt real-time acquisition GUI \u2014 deployment-adjacent but no formal external-customer support role"
+    },
+    {
+      "jd_skill": "Monitoring and diagnostic tools implementation",
+      "you_have": "COFFIN arm implements systemd service health monitoring and auto-restart; embedded UART/I2C diagnostic debugging present; no dedicated monitoring framework (e.g., Prometheus/Grafana) or formal diagnostic tool suite mentioned"
+    },
+    {
+      "jd_skill": "Ability to explain technical concepts to non-technical users",
+      "you_have": "Built PyQt GUI translating real-time acquisition data for users (BARC); led 25-member robotics club explaining concepts; wrote research documentation \u2014 communication skills present but no explicit formal experience translating complex autonomy concepts to non-technical external customers beyond COFFIN deployment"
+    }
+  ],
+  "missing_skills": [
+    "2-3 years of full-time experience in software engineering / systems integration in the Field Robotics industry (candidate: new-grad, 0 years full-time, 7 internships/research only)",
+    "Containerization (Docker, Kubernetes, etc.) \u2014 profile explicitly excludes; no project or internship backing it",
+    "Cloud infrastructure (AWS, GCP, Azure) \u2014 profile explicitly excludes; no project or internship backing it",
+    "Jira / Wrike / Confluence or formal program-management tooling \u2014 not present anywhere in profile",
+    "Scalable deployment practices and playbooks for multi-system/company-scale rollouts \u2014 only single-project (COFFIN) deployment experience, no company-scale rollout experience",
+    "Formal functional-safety / ISO certification (e.g., ISO 26262) \u2014 not in profile"
+  ],
+  "top_ats_keywords": [
+    "Forward Deployed Engineer",
+    "Autonomy",
+    "Field AI",
+    "Field deployment",
+    "Autonomous systems",
+    "Systems integration",
+    "Field Robotics",
+    "ROS",
+    "ROS2",
+    "Python",
+    "C++",
+    "Git",
+    "Linux-based systems",
+    "Containerization",
+    "Cloud infrastructure",
+    "Troubleshooting",
+    "Debugging",
+    "Mission-critical",
+    "Monitoring",
+    "Diagnostic tools",
+    "Customer enablement",
+    "Scalable deployment playbooks",
+    "Perception",
+    "Planning",
+    "Localization",
+    "Manipulation",
+    "Embodied intelligence",
+    "Real-world deployment",
+    "Field feedback"
+  ],
+  "required_skills": [
+    "Master's degree (Robotics, CS, EE, or equivalent)",
+    "Python",
+    "C++",
+    "Git",
+    "ROS",
+    "Linux-based systems",
+    "Containerization",
+    "Cloud infrastructure",
+    "Field deployment experience",
+    "Systems integration (Field Robotics)",
+    "Troubleshooting across software/hardware/networking",
+    "Self-starter / ambiguous environments"
+  ],
+  "preferred_skills": [
+    "Mission-critical system deployment",
+    "Jira / Wrike / Confluence or similar program management tools",
+    "Direct customer-facing technical support and enablement",
+    "Ability to explain technical concepts to non-technical users",
+    "Willingness to travel and work on-site with customers"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Lead end-to-end deployment of autonomous systems in customer environments",
+    "Configure, test, and ensure systems operational under real-world conditions",
+    "Troubleshoot and resolve technical issues quickly to maintain uptime",
+    "Gather/analyze field feedback and drive core-system enhancements",
+    "Implement monitoring and diagnostic tools for sustained reliability",
+    "Train and support customer operators to achieve operational readiness",
+    "Translate complex technical concepts into clear, actionable workflows",
+    "Bring field insights back to engineering, product, and AI research groups",
+    "Contribute to scalable deployment practices and playbooks"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

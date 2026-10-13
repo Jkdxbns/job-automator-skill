@@ -1,0 +1,646 @@
+{
+  "_doc": "CURATED layer. Hand-maintained, never auto-overwritten by build_skills_db.py. canonical -> {aliases, depth}. depth: strong=lead with it, defensible under deep probing | working=real usage, can discuss | exposure=touched it, do not lead. Credit weights live in skill_match.py.",
+  "skills": {
+    "C": {
+      "depth": "strong",
+      "aliases": [
+        "c programming",
+        "c language",
+        "embedded c",
+        "bare-metal c",
+        "bare metal c",
+        "c/c++",
+        "ansi c",
+        "low-level c",
+        "low level programming",
+        "systems programming"
+      ]
+    },
+    "C++": {
+      "depth": "working",
+      "aliases": [
+        "cpp",
+        "c++11",
+        "c++14",
+        "c++17",
+        "modern c++",
+        "object-oriented c++",
+        "c/c++",
+        "stl"
+      ]
+    },
+    "Python": {
+      "depth": "strong",
+      "aliases": [
+        "python3",
+        "python scripting",
+        "cpython",
+        "python programming"
+      ]
+    },
+    "Bash": {
+      "depth": "working",
+      "aliases": [
+        "shell scripting",
+        "shell",
+        "shell scripts",
+        "sh",
+        "scripting",
+        "unix shell",
+        "bash scripting",
+        "command line"
+      ]
+    },
+    "CUDA": {
+      "depth": "strong",
+      "aliases": [
+        "cuda c++",
+        "gpu programming",
+        "gpu kernels",
+        "kernel programming",
+        "cuda kernels",
+        "gpgpu"
+      ]
+    },
+    "Cython": {
+      "depth": "exposure",
+      "aliases": []
+    },
+    "microcontroller firmware": {
+      "depth": "strong",
+      "aliases": [
+        "microcontroller",
+        "microcontrollers",
+        "mcu",
+        "mcus",
+        "firmware",
+        "firmware development",
+        "firmware engineering",
+        "embedded firmware",
+        "bare-metal",
+        "bare metal",
+        "baremetal",
+        "embedded software",
+        "embedded systems",
+        "embedded systems concepts",
+        "embedded development",
+        "embedded programming",
+        "embedded system design"
+      ]
+    },
+    "RTOS": {
+      "depth": "working",
+      "aliases": [
+        "freertos",
+        "real-time operating system",
+        "real time os",
+        "real-time systems",
+        "rtos concepts",
+        "task scheduling",
+        "preemptive scheduling",
+        "real-time"
+      ]
+    },
+    "ARM Cortex-M": {
+      "depth": "strong",
+      "aliases": [
+        "arm",
+        "cortex-m",
+        "cortex-m4",
+        "arm cortex",
+        "stm32",
+        "arm architecture",
+        "32-bit microcontroller",
+        "arm mcu"
+      ]
+    },
+    "serial protocols": {
+      "depth": "strong",
+      "aliases": [
+        "uart",
+        "i2c",
+        "spi",
+        "serial communication",
+        "communication protocols",
+        "serial protocols",
+        "bus protocols",
+        "peripheral interfaces",
+        "serial interfaces",
+        "digital communication"
+      ]
+    },
+    "peripheral programming": {
+      "depth": "strong",
+      "aliases": [
+        "gpio",
+        "pwm",
+        "adc",
+        "dac",
+        "timers",
+        "interrupts",
+        "isr",
+        "peripherals",
+        "device drivers",
+        "driver development",
+        "register-level",
+        "register level programming",
+        "memory-mapped i/o",
+        "datasheet"
+      ]
+    },
+    "hardware/software integration": {
+      "depth": "working",
+      "aliases": [
+        "hardware-software interaction",
+        "hardware software integration",
+        "hardware bring-up",
+        "board bring-up",
+        "schematic",
+        "pcb",
+        "pcb design",
+        "sensor integration",
+        "hardware integration",
+        "hardware interfaces",
+        "electronics"
+      ]
+    },
+    "hardware debugging": {
+      "depth": "strong",
+      "aliases": [
+        "debugging",
+        "debug",
+        "debugging tools",
+        "oscilloscope",
+        "oscilloscopes",
+        "logic analyzer",
+        "logic analyzers",
+        "jtag",
+        "swd",
+        "gdb",
+        "troubleshooting",
+        "root cause analysis",
+        "bench testing",
+        "lab equipment",
+        "multimeter"
+      ]
+    },
+    "Bluetooth": {
+      "depth": "working",
+      "aliases": [
+        "ble",
+        "bluetooth low energy",
+        "wireless",
+        "wireless communication",
+        "rf"
+      ]
+    },
+    "Git": {
+      "depth": "strong",
+      "aliases": [
+        "version control",
+        "source control",
+        "github",
+        "gitlab",
+        "revision control",
+        "version control (git)",
+        "git workflows"
+      ]
+    },
+    "build systems": {
+      "depth": "working",
+      "aliases": [
+        "cmake",
+        "make",
+        "makefile",
+        "build system",
+        "compiler",
+        "compilers",
+        "toolchain",
+        "toolchains",
+        "cross-compilation",
+        "gcc",
+        "compilation",
+        "build tools",
+        "ide",
+        "integrated development environment",
+        "keil",
+        "iar",
+        "stm32cubeide",
+        "vscode",
+        "eclipse"
+      ]
+    },
+    "Linux": {
+      "depth": "strong",
+      "aliases": [
+        "unix",
+        "linux development",
+        "posix",
+        "linux environment",
+        "linux os"
+      ]
+    },
+    "embedded Linux": {
+      "depth": "exposure",
+      "aliases": [
+        "yocto",
+        "buildroot",
+        "device tree",
+        "linux bsp",
+        "kernel module",
+        "linux kernel"
+      ]
+    },
+    "testing and validation": {
+      "depth": "working",
+      "aliases": [
+        "testing",
+        "test",
+        "unit testing",
+        "unit tests",
+        "software testing",
+        "validation",
+        "verification",
+        "test automation",
+        "qa",
+        "quality assurance",
+        "integration testing",
+        "benchmarking",
+        "test benches",
+        "hardware-in-the-loop",
+        "regression testing",
+        "debugging and testing"
+      ]
+    },
+    "systemd and deployment": {
+      "depth": "working",
+      "aliases": [
+        "systemd",
+        "service management",
+        "daemon",
+        "deployment",
+        "systemd services",
+        "process management",
+        "secrets management",
+        "configuration management",
+        "environment variables"
+      ]
+    },
+    "networking": {
+      "depth": "working",
+      "aliases": [
+        "tcp/ip",
+        "networking",
+        "ssh",
+        "static ip",
+        "network configuration",
+        "sockets",
+        "ethernet",
+        "xrdp",
+        "remote desktop",
+        "remote access"
+      ]
+    },
+    "software engineering fundamentals": {
+      "depth": "working",
+      "aliases": [
+        "software development",
+        "software engineering",
+        "software development fundamentals",
+        "programming fundamentals",
+        "data structures",
+        "algorithms",
+        "object oriented programming",
+        "oop",
+        "design patterns",
+        "clean code",
+        "software design",
+        "problem solving",
+        "computer science fundamentals"
+      ]
+    },
+    "technical documentation": {
+      "depth": "working",
+      "aliases": [
+        "documentation",
+        "code review",
+        "code reviews",
+        "technical writing",
+        "design documents"
+      ]
+    },
+    "PyTorch": {
+      "depth": "strong",
+      "aliases": [
+        "torch",
+        "pytorch lightning"
+      ]
+    },
+    "TensorFlow": {
+      "depth": "working",
+      "aliases": [
+        "keras",
+        "tf",
+        "tensorflow lite",
+        "tflite"
+      ]
+    },
+    "machine learning": {
+      "depth": "strong",
+      "aliases": [
+        "ml",
+        "deep learning",
+        "dl",
+        "neural networks",
+        "neural network",
+        "model training",
+        "training pipelines",
+        "supervised learning",
+        "ai",
+        "artificial intelligence",
+        "ai/ml",
+        "cnn",
+        "convolutional neural network",
+        "model evaluation",
+        "evaluation metrics",
+        "model validation"
+      ]
+    },
+    "transformers and NLP": {
+      "depth": "strong",
+      "aliases": [
+        "transformer",
+        "transformers",
+        "nlp",
+        "natural language processing",
+        "llm",
+        "llms",
+        "large language model",
+        "large language models",
+        "attention",
+        "self-attention",
+        "bert",
+        "gpt",
+        "hugging face",
+        "language model",
+        "tokenization",
+        "generative ai"
+      ]
+    },
+    "computer vision": {
+      "depth": "strong",
+      "aliases": [
+        "cv",
+        "image processing",
+        "object detection",
+        "opencv",
+        "yolo",
+        "vision",
+        "visual perception",
+        "image classification",
+        "object tracking"
+      ]
+    },
+    "speech and audio": {
+      "depth": "working",
+      "aliases": [
+        "asr",
+        "speech recognition",
+        "speech",
+        "audio processing",
+        "dsp",
+        "signal processing",
+        "whisper",
+        "speech-to-text",
+        "stt",
+        "audio"
+      ]
+    },
+    "model optimization": {
+      "depth": "strong",
+      "aliases": [
+        "quantization",
+        "tensorrt",
+        "inference optimization",
+        "model compression",
+        "pruning",
+        "int8",
+        "8-bit quantization",
+        "edge ai",
+        "edge inference",
+        "onnx",
+        "inference engine",
+        "model deployment",
+        "latency optimization",
+        "throughput"
+      ]
+    },
+    "profiling and benchmarking": {
+      "depth": "strong",
+      "aliases": [
+        "profiling",
+        "performance analysis",
+        "performance optimization",
+        "nsight",
+        "pynvml",
+        "performance tuning",
+        "optimization",
+        "performance profiling"
+      ]
+    },
+    "ROS": {
+      "depth": "strong",
+      "aliases": [
+        "ros2",
+        "ros 2",
+        "robot operating system",
+        "rviz",
+        "moveit",
+        "gazebo",
+        "ros/ros2",
+        "rclpy",
+        "ros nodes"
+      ]
+    },
+    "robotics": {
+      "depth": "strong",
+      "aliases": [
+        "robot",
+        "manipulator",
+        "robotic arm",
+        "motion planning",
+        "kinematics",
+        "forward kinematics",
+        "inverse kinematics",
+        "dh parameters",
+        "visual servoing",
+        "pick and place",
+        "robot control",
+        "end effector",
+        "trajectory"
+      ]
+    },
+    "autonomous systems": {
+      "depth": "working",
+      "aliases": [
+        "autonomy",
+        "autonomous",
+        "self-driving",
+        "autonomous driving",
+        "autonomous vehicles",
+        "carla",
+        "perception",
+        "sensor fusion",
+        "adas",
+        "path planning"
+      ]
+    },
+    "MPI": {
+      "depth": "working",
+      "aliases": [
+        "message passing interface",
+        "distributed computing",
+        "parallel computing",
+        "hpc",
+        "high performance computing",
+        "slurm",
+        "cluster computing",
+        "parallel programming",
+        "multithreading",
+        "concurrency",
+        "distributed systems"
+      ]
+    },
+    "GPU optimization": {
+      "depth": "strong",
+      "aliases": [
+        "gpu",
+        "gpu optimization",
+        "kernel optimization",
+        "memory coalescing",
+        "parallel algorithms",
+        "gpu acceleration",
+        "gpu computing",
+        "shared memory"
+      ]
+    },
+    "NVIDIA Jetson": {
+      "depth": "strong",
+      "aliases": [
+        "jetson",
+        "jetson nano",
+        "jetson orin",
+        "edge device",
+        "embedded gpu",
+        "edge computing",
+        "edge deployment",
+        "embedded ai"
+      ]
+    },
+    "Raspberry Pi": {
+      "depth": "strong",
+      "aliases": [
+        "raspberry pi",
+        "rpi",
+        "single board computer",
+        "sbc"
+      ]
+    },
+    "Arduino": {
+      "depth": "strong",
+      "aliases": [
+        "atmega",
+        "avr",
+        "arduino nano",
+        "arduino ide"
+      ]
+    },
+    "PCB design": {
+      "depth": "working",
+      "aliases": [
+        "eagle",
+        "schematic capture",
+        "circuit design",
+        "bom",
+        "proteus",
+        "breadboard",
+        "soldering"
+      ]
+    },
+    "SolidWorks": {
+      "depth": "working",
+      "aliases": [
+        "cad",
+        "3d modeling",
+        "mechanical design",
+        "3d printing"
+      ]
+    },
+    "Flask": {
+      "depth": "exposure",
+      "aliases": [
+        "rest api",
+        "api",
+        "web api",
+        "backend",
+        "http"
+      ]
+    },
+    "motor control": {
+      "depth": "working",
+      "aliases": [
+        "motor driver",
+        "motor drivers",
+        "dc motor",
+        "dc motors",
+        "h-bridge",
+        "h bridge",
+        "servo control",
+        "pwm motor control",
+        "motor drive",
+        "actuator control",
+        "speed control",
+        "motor control systems"
+      ]
+    },
+    "quadrature encoders": {
+      "depth": "working",
+      "aliases": [
+        "quadrature encoder",
+        "rotary encoder",
+        "rotary encoders",
+        "incremental encoder",
+        "shaft encoder",
+        "quadrature decoding",
+        "encoder feedback",
+        "encoder counts",
+        "position feedback",
+        "wheel encoder",
+        "wheel encoders",
+        "motor encoder"
+      ]
+    },
+    "closed-loop control": {
+      "depth": "working",
+      "aliases": [
+        "closed loop",
+        "closed-loop",
+        "closed loop control",
+        "feedback control",
+        "control loop",
+        "control systems",
+        "control theory",
+        "error correction loop"
+      ]
+    },
+    "odometry": {
+      "depth": "working",
+      "aliases": [
+        "dead reckoning",
+        "wheel odometry",
+        "odometry estimation",
+        "pose tracking"
+      ]
+    }
+  }
+}

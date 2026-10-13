@@ -1,0 +1,133 @@
+{
+    "_meta": {
+        "company": "Brain Corp",
+        "role": "Software Engineers (ML/AI)",
+        "company_slug": "brain-corp",
+        "job_slug": "software-engineers-ml"
+    },
+    "personal_info": {
+        "name": "Justin Mascarenhas",
+        "phone": "585-303-1045",
+        "email": "jmascarenhas1998@gmail.com",
+        "linkedin": "linkedin.com/in/justinmascarenhas",
+        "github": "github.com/Jkdxbns",
+        "location": "Rochester, NY"
+    },
+    "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Experienced training and deploying detection models, including YOLO object detectors and OCR-free document understanding transformers, on real sensor and image data using PyTorch and Hugging Face Transformers. Built GPT style language models from scratch and applied LLMs for real-time intent classification within a working Python pipeline.",
+    "skills": {
+        "Machine Learning": [
+            "PyTorch",
+            "Detection models (YOLOv8/YOLO11)",
+            "Hugging Face Transformers",
+            "GPT/LLM applications",
+            "Model fine-tuning",
+            "8-bit quantization"
+        ],
+        "Programming": [
+            "Python",
+            "Cython"
+        ],
+        "Tools & Platforms": [
+            "ONNX",
+            "TFLite",
+            "TensorRT",
+            "GitLab",
+            "JupyterHub"
+        ],
+        "Data & Evaluation": [
+            "Model evaluation (mAP, Dice, IoU)",
+            "Dataset curation and annotation",
+            "PyQt",
+            "Matplotlib"
+        ]
+    },
+    "experience": [
+        {
+            "title": "AI/ML Intern",
+            "company": "Indian Institute of Technology Bombay",
+            "dates": "",
+            "bullets": [
+                "Fine-tuned DONUT, an OCR-free visual document understanding transformer, on a custom medical billing dataset for structured text detection and field extraction.",
+                "Built preprocessing and training pipelines in PyTorch using the Hugging Face VisionEncoderDecoder API; added domain-specific tokens and resized decoder embedding layers.",
+                "Improved validation accuracy from 55% to 93% through improved preprocessing and model tuning."
+            ]
+        },
+        {
+            "title": "Deep Learning Intern",
+            "company": "Tusk",
+            "dates": "",
+            "bullets": [
+                "Curated and annotated a custom object detection dataset of 1,133 images for health level classification using YOLOv8.",
+                "Trained YOLOv8n achieving 83% mAP@50 on held out validation; exported to ONNX and TFLite for production mobile deployment."
+            ]
+        },
+        {
+            "title": "Research Fellowship",
+            "company": "Teesside University",
+            "dates": "",
+            "bullets": [
+                "Engineered a data pipeline for the BraTS 2020 multi modal MRI dataset with augmentation and memory management for large scale volumetric inputs.",
+                "Trained U-Net segmentation models with VGG and ResNet-50 backbones; evaluated on Dice Score and IoU, reporting accuracy versus latency trade offs for deployment."
+            ]
+        },
+        {
+            "title": "Python Developer Intern",
+            "company": "Bhabha Atomic Research Centre (BARC)",
+            "dates": "",
+            "bullets": [
+                "Developed a Python GUI using PyQt and Matplotlib for real time data acquisition and experimental visualization; used GitLab and JupyterHub for version control and collaborative analysis."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "SLM Compression and Benchmarking for Edge Deployment",
+            "date": null,
+            "bullets": [
+                "Reduced GPU memory footprint by approximately 55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, profiling peak VRAM and inference latency across prompt types.",
+                "Benchmarked across HellaSwag, GSM8K, and ARC, achieving under 1% accuracy degradation for near lossless compression."
+            ]
+        },
+        {
+            "name": "GPT-2 Style Language Model from Scratch",
+            "date": null,
+            "bullets": [
+                "Implemented a GPT-2 style Transformer from scratch in PyTorch (self attention, MLP blocks, weight tying) with a TikToken based tokenizer and custom training loop."
+            ]
+        },
+        {
+            "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+            "date": null,
+            "bullets": [
+                "Built a voice controlled, vision guided robotic pick and place system with a Flask-SocketIO server bridging a mobile client and a Jetson controller over a unified WebSocket fabric.",
+                "Integrated TensorRT optimized YOLO (5.2x speedup, 92 FPS) for visual servoing and Gemini based LLM intent classification under 500ms for real time command interpretation.",
+                "Resolved 11 integration failures to reach 100% pick reliability across 10 of 10 trials."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "M.S., Computer Engineering",
+            "school": "Rochester Institute of Technology",
+            "location": "Rochester, NY",
+            "dates": "Aug 2024 \u2013 May 2026",
+            "courses": [
+                "Machine Intelligence",
+                "Deep Learning",
+                "Robot Perception",
+                "High Performance Architecture"
+            ]
+        },
+        {
+            "degree": "B.E., Electronics & Telecommunication",
+            "school": "University of Mumbai (F.C.R.I.T.)",
+            "location": "Mumbai, India",
+            "dates": "2020 \u2013 2024",
+            "courses": [
+                "Digital Signal Processing",
+                "Image Processing"
+            ]
+        }
+    ],
+    "awards": []
+}

@@ -1,0 +1,84 @@
+{
+  "company": "Snorkel AI",
+  "company_slug": "snorkel-ai",
+  "role": "Software Engineer (New Grad)",
+  "job_slug": "swe-new-grad",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 1,
+    "missing_count": 4,
+    "jd_ask_size": 8,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++",
+    "machine learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "web applications",
+      "you_have": "Flask / Flask-SocketIO / WebSocket"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Go",
+    "TypeScript",
+    "data systems"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Rust",
+    "Go",
+    "TypeScript",
+    "machine learning",
+    "data systems",
+    "web applications"
+  ],
+  "required_skills": [],
+  "preferred_skills": [
+    "Python",
+    "C++",
+    "Rust",
+    "Go",
+    "TypeScript",
+    "Machine Learning",
+    "Data Systems",
+    "Web Applications"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "deliver product features and infrastructure",
+    "review code and technical designs",
+    "participate in planning"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

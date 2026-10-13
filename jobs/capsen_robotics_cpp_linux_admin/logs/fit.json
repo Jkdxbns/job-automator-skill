@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-10",
+  "company": "Capsen Robotics",
+  "company_slug": "capsen-robotics",
+  "role": "C++ Software Developer & Linux Systems Administrator",
+  "job_slug": "cpp-linux-admin",
+  "location": "Pittsburgh, PA",
+  "job_dir": "/home/jkdxbns/Desktop/jobs/capsen_robotics_cpp_linux_admin",
+  "match_pct": 73.1,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 13,
+    "req_cov": 0.90,
+    "cap_applied": null,
+    "rescored_reason": "User surfaced verified systemd service deployment (jetson-arm-bridge.service: auto-restart, non-root isolation, env-file config), static IP networking, and secrets/config separation from COFFIN project files. Upgraded Ubuntu Linux administration and Networking from Adjacent to Have; Cybersecurity from Missing to Adjacent."
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": false,
+  "have_skills": [
+    "C++ (modern)",
+    "Git",
+    "Python",
+    "ROS",
+    "Robot arms",
+    "Bash scripting",
+    "Ubuntu Linux administration",
+    "Networking (TCP/IP, static IP, TCP sockets)"
+  ],
+  "adjacent_skills": [
+    "Mentorship capability",
+    "CI/CD pipelines",
+    "Cybersecurity (secrets separation, non-root service isolation)"
+  ],
+  "missing_skills": [
+    "Docker",
+    "ProtoBuffs"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Ubuntu Linux",
+    "networking",
+    "Git",
+    "ROS",
+    "Python",
+    "Bash",
+    "factory automation",
+    "embedded systems"
+  ],
+  "key_responsibilities": [
+    "Design, develop, test, maintain C++ applications for factory automation robots",
+    "Administer, configure, maintain Linux-based servers",
+    "Manage, monitor, troubleshoot network infrastructure",
+    "Develop and maintain automation scripts (Bash/Python)",
+    "Build and optimize CI/CD pipelines",
+    "Teach/mentor development teams"
+  ],
+  "role_category": "embedded_systems_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 76,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real-time C++ systems (COFFIN distributed pipeline, TensorRT optimization, embedded firmware)",
+      "Embedded robotics depth (voice-guided arm, FreeRTOS task scheduling, kinematics)",
+      "Linux/embedded OSes (Jetson, Raspberry Pi, STM32 bare metal)",
+      "Real Linux service administration: systemd unit deployment (auto-restart, non-root isolation, env-file config) for a persistent Jetson bridge service",
+      "Static IP network configuration and TCP socket programming (ABB RobotStudio project) back the networking requirement with real evidence",
+      "Basic security hygiene: secrets/config separation, non-root service accounts"
+    ],
+    "real_gaps": [
+      "No DNS/DHCP server administration specifically (static IP config is not the same as running/administering DHCP or DNS services)",
+      "Docker/containerization (completely absent from profile)",
+      "Professional mentorship experience (club setting, not SDLC/code review environment)",
+      "No evidence of managing multi-server or multi-host Linux fleets (single-device systemd deployment, not infrastructure at scale)"
+    ],
+    "overstated_by_keywords": [
+      "Mentorship capability (club leader, not professional tech lead)"
+    ],
+    "understated_by_keywords": [
+      "Real-time systems expertise (goes deeper than JD typical factory automation scope)",
+      "C++ depth (not just syntax, but embedded C++ with hard timing constraints)",
+      "Linux service administration (systemd unit design was previously invisible to keyword scoring)"
+    ],
+    "screening_gaps": [
+      "No Docker/containerization (JD lists as preferred; CI/CD in profile is data pipelines, not container deployments)",
+      "No DNS/DHCP administration specifically (has static IP config and TCP sockets, not DHCP/DNS server management)",
+      "Single-device scope, not multi-server infrastructure (systemd/XRDP experience is on one Jetson, not a fleet)"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Verified systemd deployment, static IP config, and secrets separation meaningfully close the sysadmin gap that originally drove this to Partial Fit. Remaining gaps (Docker, DNS/DHCP specifically, multi-host scale) are real but narrower and easier to address in an interview than a blanket 'no sysadmin experience.' This is now a solidly defensible Can Try, trending toward Strong Fit if Docker exposure is added before applying.",
+    "calibration_delta": -2.9
+  }
+}

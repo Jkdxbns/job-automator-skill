@@ -1,0 +1,115 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "Lead SoC Design Verification (DV) Engineer",
+  "job_slug": "lead-soc-dv-engineer",
+  "match_pct": 8.3,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 3,
+    "missing_count": 15,
+    "jd_ask_size": 18,
+    "req_cov": 0.667,
+    "cap_applied": "zero_have"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD scripting",
+      "you_have": "Bash, Git, CMake, Python scripting"
+    },
+    {
+      "jd_skill": "AI-driven verification",
+      "you_have": "Deep Learning, PyTorch, CUDA, ML-experienced"
+    },
+    {
+      "jd_skill": "RTL debugging",
+      "you_have": "Logic Analyzers, Oscilloscopes, embedded hardware debugging"
+    }
+  ],
+  "missing_skills": [
+    "SystemVerilog",
+    "UVM (Universal Verification Methodology)",
+    "Formal verification",
+    "SVA (SystemVerilog Assertions)",
+    "EDA tools (Cadence, Synopsys simulators)",
+    "Constrained-random verification",
+    "Functional coverage model design",
+    "Hardware emulation platforms",
+    "Testbench architecture",
+    "Power management (UPF)",
+    "Code coverage analysis",
+    "Regression testing frameworks",
+    "Complex hardware verification",
+    "ASIC/SoC design experience",
+    "Tape-out experience"
+  ],
+  "top_ats_keywords": [
+    "SystemVerilog",
+    "UVM",
+    "Formal verification",
+    "SVA",
+    "EDA tools",
+    "Constrained-random",
+    "Functional coverage",
+    "Hardware emulation",
+    "RTL debugging",
+    "Testbenches",
+    "Power management",
+    "Code coverage",
+    "Regression testing"
+  ],
+  "required_skills": [
+    "SystemVerilog",
+    "Universal Verification Methodology (UVM)",
+    "Constrained-random verification",
+    "Functional coverage model design",
+    "SystemVerilog Assertions (SVA)",
+    "EDA simulator and debug platforms",
+    "Hardware verification",
+    "Formal verification",
+    "Assertion-based verification"
+  ],
+  "preferred_skills": [
+    "Formal Verification methodologies",
+    "Hardware emulation platforms",
+    "CI/CD scripting",
+    "Continuous integration"
+  ],
+  "required_experience_years": 12,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead and mentor verification team",
+    "Architect overall verification environment",
+    "Design SystemVerilog and UVM testbenches",
+    "Deploy formal verification and assertion-based verification",
+    "Manage verification at block-level, subsystem, and full-chip levels",
+    "Track functional coverage, code coverage, and assertion metrics",
+    "Define bug-bar and signoff criteria",
+    "Collaborate with design, emulation, and firmware teams"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,27 @@
+{
+  "company": "Humanoid",
+  "company_slug": "humanoid",
+  "role": "Software Engineer - Platform Infrastructure",
+  "job_slug": "platform-infra-swe",
+  "match_pct": 68,
+  "have_skills": ["Python", "C/C++", "Linux", "Embedded systems (NVIDIA Jetson, STM32, FreeRTOS)", "Robotics / ROS2", "On-robot software", "AI tools"],
+  "adjacent_skills": [
+    {"jd_wants": "Backend services (AWS, ECS)", "you_have": "Flask backend / Python services"},
+    {"jd_wants": "Device identity / secure boot", "you_have": "Bare-metal C, STM32 firmware, boot-level embedded code"},
+    {"jd_wants": "Test automation pipelines", "you_have": "Eval/test pipelines across ML and robotics projects"}
+  ],
+  "missing_skills": ["AWS / Terraform / ECS / S3 / Postgres", "OTA update systems / fleet management", "PKI / certificate lifecycle / device attestation", "Disk encryption", "Manufacturing software / MES"],
+  "top_ats_keywords": ["Platform Infrastructure", "Embedded systems", "Python", "C/C++", "Linux", "On-robot software", "Robotics", "Backend services", "Cloud control plane", "Device identity"],
+  "key_responsibilities": [
+    "Build backend services and on-robot daemons for provisioning, OTA updates, telemetry",
+    "Develop secure manufacturing software: provisioning stations, calibration, end-of-line test automation",
+    "Implement device identity and security: secure boot, disk encryption, device attestation, certificate management",
+    "Collaborate with firmware, apps, cloud, and manufacturing teams across global offices"
+  ],
+  "role_category": "embedded_systems",
+  "sponsorship_status": "unknown",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  }
+}

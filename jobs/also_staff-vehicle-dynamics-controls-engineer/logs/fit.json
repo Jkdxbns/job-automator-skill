@@ -1,0 +1,147 @@
+{
+  "company": "ALSO",
+  "company_slug": "also",
+  "role": "Staff Vehicle Dynamics Controls Engineer",
+  "job_slug": "staff-vehicle-dynamics-controls-engineer",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 8,
+    "missing_count": 14,
+    "jd_ask_size": 24,
+    "req_cov": 0.393,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Git",
+    "Real-time embedded systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Control algorithm validation (simulation)",
+      "you_have": "CARLA closed-loop simulation"
+    },
+    {
+      "jd_skill": "Closed-loop virtual simulation environments",
+      "you_have": "CARLA"
+    },
+    {
+      "jd_skill": "Steering/stability control algorithms",
+      "you_have": "Closed-Loop Feedback Control (PWM motor control)"
+    },
+    {
+      "jd_skill": "Adaptive/robust control",
+      "you_have": "Closed-Loop Feedback Control"
+    },
+    {
+      "jd_skill": "Sensor fusion / state estimation",
+      "you_have": "ADXL345 / ToF sensor integration, odometry"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "Embedded automotive software workflows",
+      "you_have": "Embedded C/C++ bare-metal, RTOS"
+    },
+    {
+      "jd_skill": "Jenkins",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "Simscape",
+    "MSC Adams",
+    "CarSim",
+    "Vehicle dynamics",
+    "Traction control / VDC / ABS",
+    "Torque vectoring",
+    "Kalman filter",
+    "EtherCAT",
+    "Vector CANalyzer/CANape",
+    "System identification",
+    "Dyno / in-vehicle testing"
+  ],
+  "top_ats_keywords": [
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "Simscape",
+    "MSC Adams",
+    "CarSim",
+    "vehicle dynamics",
+    "traction control",
+    "VDC",
+    "ESP",
+    "ABS",
+    "torque vectoring",
+    "Kalman filter",
+    "sensor fusion",
+    "CAN",
+    "EtherCAT",
+    "CANalyzer",
+    "CANape",
+    "Git",
+    "Jenkins",
+    "system identification",
+    "adaptive control",
+    "robust control",
+    "model-based design"
+  ],
+  "required_skills": [
+    "MATLAB/Simulink",
+    "Stateflow",
+    "Vehicle dynamics",
+    "Traction control / VDC / ABS / torque vectoring calibration",
+    "Control algorithm validation (simulation + in-vehicle/dyno)",
+    "State estimation (Kalman filters, observers)",
+    "Sensor fusion",
+    "Real-time embedded systems",
+    "Embedded automotive software workflows",
+    "CAN",
+    "EtherCAT",
+    "Vector CANalyzer/CANape",
+    "Git",
+    "Jenkins"
+  ],
+  "preferred_skills": [
+    "Adaptive/robust control",
+    "System identification"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Develop/calibrate steering, stability, traction control",
+    "Build estimation and control algorithms",
+    "Multi-body plant models (Simscape, Adams, CarSim)",
+    "Closed-loop virtual simulation",
+    "Vehicle and dyno log troubleshooting"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Palo Alto, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

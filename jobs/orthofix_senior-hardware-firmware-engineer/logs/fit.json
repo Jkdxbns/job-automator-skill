@@ -1,0 +1,127 @@
+{
+  "company": "Orthofix",
+  "company_slug": "orthofix",
+  "role": "Senior Engineer - Hardware & Firmware Development",
+  "job_slug": "senior-hardware-firmware-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.45,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "C",
+    "Linux",
+    "PCB design/layout",
+    "QT (PySide6/Qt)",
+    "Deep Learning",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C#.Net",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "M.S. Electrical Engineering",
+      "you_have": "M.S. Computer Engineering"
+    },
+    {
+      "jd_skill": "Machine Learning",
+      "you_have": "Deep Learning/Neural Networks"
+    },
+    {
+      "jd_skill": "Computer Vision",
+      "you_have": "VisionEncoderDecoder/depth estimation work"
+    }
+  ],
+  "missing_skills": [
+    "Windows platform development",
+    "SEMCAD or SIM4Life simulation software",
+    "Azure",
+    "Docker",
+    "electromagnetic/ultrasound exposure modeling",
+    "FDA Cybersecurity requirements",
+    "Cloud-based servers",
+    "5+ years professional EE/firmware experience"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded systems",
+    "electrical engineer",
+    "C#",
+    "Python",
+    "C++",
+    "Azure",
+    "Docker",
+    "PCB design",
+    "SEMCAD",
+    "SIM4Life",
+    "machine learning",
+    "computer vision",
+    "deep learning",
+    "Linux",
+    "Windows",
+    "QT",
+    "FDA cybersecurity"
+  ],
+  "required_skills": [
+    "B.S. Electrical Engineering",
+    "5+ years EE/firmware experience",
+    "Windows platform development",
+    "Linux platform development",
+    "C#.Net",
+    "Python",
+    "SEMCAD or SIM4Life simulation software",
+    "Azure",
+    "Docker",
+    "PCB design/layout"
+  ],
+  "preferred_skills": [
+    "M.S. Electrical Engineering",
+    "2-3 years industry experience",
+    "C++",
+    "C",
+    "Visual Studio/VS Code/QT",
+    "FDA Cybersecurity requirements",
+    "Cloud-based servers"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "EM/ultrasound exposure modeling and optimization",
+    "circuit design for exposure devices",
+    "automated test system design",
+    "firmware for exposure systems",
+    "ML/CV for patient motion assessment",
+    "PEMF and ultrasound stimulation system development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Lewisville, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

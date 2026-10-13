@@ -1,0 +1,118 @@
+{
+  "company": "Meta",
+  "company_slug": "meta",
+  "role": "Software Engineer, Machine Learning (Central Integrity)",
+  "job_slug": "swe-ml-integrity-london",
+  "match_pct": 43.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 16,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "Tokenization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NLP",
+      "you_have": "GPT-2, SLM, BPE tokenizer, ASR"
+    },
+    {
+      "jd_skill": "Text preprocessing",
+      "you_have": "BPE tokenizer"
+    },
+    {
+      "jd_skill": "Data analysis",
+      "you_have": "Pandas, NumPy, model benchmarking"
+    },
+    {
+      "jd_skill": "Optimization techniques",
+      "you_have": "pruning, quantization, CUDA kernel optimization"
+    }
+  ],
+  "missing_skills": [
+    "Sentiment analysis",
+    "Information retrieval",
+    "Graph theory",
+    "Data structures and algorithms",
+    "Responsible AI",
+    "Prompt engineering",
+    "Agent orchestration"
+  ],
+  "top_ats_keywords": [
+    "NLP",
+    "tokenization",
+    "sentiment analysis",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "information retrieval",
+    "ranking",
+    "graph theory",
+    "responsible AI",
+    "prompt engineering",
+    "agent orchestration",
+    "data structures",
+    "algorithms"
+  ],
+  "required_skills": [
+    "Programming",
+    "Data analysis",
+    "Software engineering"
+  ],
+  "preferred_skills": [
+    "NLP",
+    "Text preprocessing",
+    "Tokenization",
+    "Sentiment analysis",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Responsible AI",
+    "Prompt engineering",
+    "Agent orchestration",
+    "Information retrieval",
+    "Data structures and algorithms",
+    "Graph theory",
+    "Optimization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build ML integrity systems at scale",
+    "Optimize code and performance",
+    "Architect scalable systems",
+    "Lead initiatives"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

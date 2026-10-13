@@ -1,0 +1,146 @@
+{
+  "company": "Badger Meter",
+  "company_slug": "badger-meter",
+  "role": "Engineer I - Firmware",
+  "job_slug": "engineer-i-firmware",
+  "match_pct": 64.7,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 2,
+    "missing_count": 5,
+    "jd_ask_size": 17,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "embedded microcontroller firmware",
+    "Git",
+    "digital circuit design",
+    "digital circuit troubleshooting",
+    "oscilloscopes",
+    "data acquisition",
+    "debugging embedded systems",
+    "prototyping embedded systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Altium / PCAD / Protel schematics",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "SVN",
+      "you_have": "Git"
+    }
+  ],
+  "missing_skills": [
+    "environmental chambers",
+    "power supplies",
+    "product and design verification testing",
+    "work instructions / ECR process",
+    "cross-department technical support"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded",
+    "microcontroller",
+    "C",
+    "C++",
+    "Git",
+    "SVN",
+    "Altium",
+    "oscilloscope",
+    "data acquisition",
+    "PCB",
+    "digital circuit",
+    "schematics",
+    "verification testing"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "embedded microcontroller firmware",
+    "Git",
+    "digital circuit design",
+    "digital circuit troubleshooting",
+    "schematics / ECAD (Altium, PCAD, Protel)",
+    "product and design verification testing"
+  ],
+  "preferred_skills": [
+    "oscilloscopes",
+    "power supplies",
+    "data acquisition",
+    "environmental chambers",
+    "debugging embedded systems",
+    "prototyping embedded systems",
+    "cross-department technical support"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "firmware component design with oversight",
+    "sustaining engineering support",
+    "product and design verification tests",
+    "work instructions / process docs",
+    "engineering change requests"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Milwaukee, WI / Racine, WI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 73,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4: GPIO, TIM2, ADC1 and a hand-written I2C driver, 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz (STM32 Temperature Monitor)",
+      "Interrupt-driven firmware from first principles: quadrature decoding state machine on hardware interrupts, 2400 CPR, four motor channels (Robocon, Arduino Due)",
+      "Real hardware bring-up and debugging: resolved 11 integration failures including servo brown-out and stale-frame capture (COFFIN capstone), the closest evidence to 'debugging and prototyping embedded systems'",
+      "Board-level work: designed and fabricated custom single-layer PCBs in EAGLE with UART and I2C sensor links (ARC); BOM and claims documentation at Planctech",
+      "Git and GitLab used for version control (BARC, plus project work)"
+    ],
+    "real_gaps": [
+      "No production or sustaining-engineering firmware; all work is capstone, research, club or internship scope",
+      "No Altium, PCAD or Protel; EAGLE is the only ECAD tool and it was single-layer boards",
+      "No formal product or design verification testing, no environmental chamber or power-supply characterisation work",
+      "No engineering change request or work-instruction process experience",
+      "No SVN",
+      "No cross-department technical support experience"
+    ],
+    "overstated_by_keywords": [
+      "Data acquisition: the BARC work is a Python/PyQt GUI for lab data, not hardware DAQ instrumentation",
+      "Oscilloscopes: listed as a skill, but no project bullet shows scope-based debugging"
+    ],
+    "understated_by_keywords": [
+      "Verification discipline: the QAT project produced 100 golden test vectors with a bit-exact integer reference model, which is real verification practice even though the string 'verification' never matched",
+      "Brown-out and jitter debugging (servo brown-out in COFFIN, sensor jitter in the Planctech glove) is genuine PCB-level troubleshooting"
+    ],
+    "screening_gaps": [
+      "No production or sustaining-engineering firmware experience at a shipping product company",
+      "No Altium or industry ECAD schematic work",
+      "No formal product/design verification test, bench-instrument characterisation or ECR/work-instruction process exposure"
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is a true entry-level embedded firmware role and the core ask, C/C++ on microcontrollers with I2C/ADC/interrupt work plus board-level debugging, is backed by concrete STM32 and Arduino projects. The gaps are tool and process specific (Altium, verification testing, ECRs) and learnable on the job. The Engineer I title sits below an M.S. level, which is a pay and level question, not a skills one.",
+    "calibration_delta": -8.3
+  },
+  "semantic_pending": false
+}

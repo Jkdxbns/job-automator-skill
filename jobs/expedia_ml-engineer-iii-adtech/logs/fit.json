@@ -1,0 +1,21 @@
+{
+  "company": "Expedia Group",
+  "company_slug": "expedia",
+  "role": "Machine Learning Engineer III",
+  "job_slug": "ml-engineer-iii-adtech",
+  "match_pct": 71.4,
+  "missing_skills": ["Spark", "SQL", "AWS", "Databricks", "ads/marketplace domain experience"],
+  "adjacent_skills": ["testing", "system design", "MLOps (edge deployment vs cloud MLOps)", "classification/NLP models (not ranking/recommendation)", "real-time systems (robotics vs ads bidding)"],
+  "top_ats_keywords": ["Python", "PyTorch", "TensorFlow", "Spark", "SQL", "MLOps", "distributed data processing", "AWS", "model deployment", "model evaluation", "ranking", "recommendation", "NLP"],
+  "key_responsibilities": [
+    "Design and implement scalable batch and real-time ML pipelines for ad delivery",
+    "Operationalize ML models into ad delivery, bidding, ranking, and campaign systems",
+    "Build and maintain data pipelines for ad impressions, clicks, conversions",
+    "Enable low-latency inference and real-time decisioning at scale",
+    "Develop reusable components, APIs, and orchestration workflows",
+    "Ensure reliability, scalability, performance via monitoring and alerting"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

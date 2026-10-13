@@ -1,0 +1,116 @@
+{
+  "company": "Hiscox",
+  "company_slug": "hiscox",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 18,
+    "req_cov": 0.65,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Machine Learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Generative AI / LLM",
+      "you_have": "GPT-2 from-scratch build, SLM project, ASR pipelines"
+    },
+    {
+      "jd_skill": "Data Science principles",
+      "you_have": "CV/ML coursework and inference-engine projects (applied ML, not classic tabular data science)"
+    },
+    {
+      "jd_skill": "Production ML deployment",
+      "you_have": "Jetson edge deployment (TensorRT/YOLO) - production-adjacent, not cloud-native"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Docker/containerization",
+    "Azure",
+    "Databricks",
+    "CI/CD tooling",
+    "Azure DevOps",
+    "JIRA",
+    "Infrastructure as code",
+    "Cloud-native deployment",
+    "Regulated industry (finance/insurance) experience",
+    "Fraud detection",
+    "Agentic AI commercial experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Machine Learning",
+    "MLOps",
+    "CI/CD",
+    "Kubernetes",
+    "Docker",
+    "Azure",
+    "Databricks",
+    "Git",
+    "JIRA",
+    "Generative AI",
+    "LLM",
+    "Cloud-native"
+  ],
+  "required_skills": [
+    "Python",
+    "Software engineering best practices",
+    "Data science principles",
+    "Production ML deployment",
+    "Cloud-native deployment",
+    "Containerization",
+    "Kubernetes",
+    "Git",
+    "CI/CD",
+    "Communication skills"
+  ],
+  "preferred_skills": [
+    "Azure",
+    "Databricks",
+    "Azure DevOps",
+    "JIRA",
+    "Regulated industry experience (finance/insurance)",
+    "LLMs / generative AI / agentic AI in commercial setting",
+    "Infrastructure as code"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design/evolve Data Science platform",
+    "Automate end-to-end DS lifecycle with CI/CD and IaC",
+    "Collaborate with data scientists/engineers on ML and GenAI deployment",
+    "Write production-quality Python",
+    "Contribute to modelling and architecture decisions"
+  ],
+  "role_category": "ml_systems",
+  "location": "York/Manchester, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

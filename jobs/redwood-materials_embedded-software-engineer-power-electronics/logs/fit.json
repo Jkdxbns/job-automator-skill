@@ -1,0 +1,176 @@
+{
+  "company": "Redwood Materials",
+  "company_slug": "redwood-materials",
+  "role": "Embedded Software Engineer - Power Electronics",
+  "job_slug": "embedded-software-engineer-power-electronics",
+  "match_pct": 64.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 2,
+    "missing_count": 8,
+    "jd_ask_size": 25,
+    "req_cov": 0.778,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "ARM Cortex-M (STM32)",
+    "Hardware debugging (oscilloscope/logic analyzer/JTAG/SWD)",
+    "High-speed ADC sampling",
+    "High-resolution PWM generation",
+    "Hardware timers",
+    "I2C",
+    "UART",
+    "SPI",
+    "Ethernet/networking",
+    "Make/CMake build systems",
+    "Test automation and validation",
+    "Bare-metal firmware",
+    "Git/version control",
+    "Profiling and optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ARM Cortex-R",
+      "you_have": "ARM Cortex-M (STM32 Cortex-M4)"
+    },
+    {
+      "jd_skill": "Profiling on real-time multi-core targets",
+      "you_have": "Single-core profiling/benchmarking (CUDA/Jetson)"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "CAN/CAN-FD",
+    "CI/CD pipeline",
+    "Functional isolation / freedom-from-interference (FFI)",
+    "Multi-core task architecture",
+    "Bootloaders",
+    "Secure boot",
+    "UL certification standards"
+  ],
+  "top_ats_keywords": [
+    "Rust",
+    "C",
+    "ARM Cortex-M",
+    "ARM Cortex-R",
+    "PWM",
+    "ADC",
+    "CAN",
+    "CAN-FD",
+    "Ethernet",
+    "I2C",
+    "UART",
+    "SPI",
+    "JTAG",
+    "SWD",
+    "CMake",
+    "CI/CD",
+    "bare-metal",
+    "firmware",
+    "multi-core",
+    "bootloader",
+    "secure boot"
+  ],
+  "required_skills": [
+    "Rust or C",
+    "ARM Cortex-M",
+    "ARM Cortex-R",
+    "oscilloscopes/logic analyzers/JTAG/SWD debuggers",
+    "high-speed ADC sampling",
+    "high-resolution PWM",
+    "hardware timers",
+    "functional isolation / freedom from interference (multi-core safety)",
+    "I2C",
+    "UART",
+    "SPI",
+    "CAN/CAN-FD",
+    "Ethernet",
+    "Make/CMake build systems",
+    "test automation",
+    "CI/CD",
+    "bare-metal firmware",
+    "multi-core memory optimization"
+  ],
+  "preferred_skills": [
+    "bootloaders",
+    "secure boot",
+    "UL certification standards for energy storage",
+    "CAN reverse-engineering / custom evaluation tools",
+    "profiling on real-time multi-core targets"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Bare-metal real-time control firmware for power conversion units",
+    "High-resolution PWM generation, ADC synchronization, complex timing logic",
+    "Microcontroller peripheral drivers (SPI, CAN, Ethernet)",
+    "Multi-core memory-efficient processing strategies on Cortex-R/Cortex-M",
+    "CI/CD pipeline and testable code for lab validation",
+    "Profile/optimize code across multi-core targets",
+    "Scale embedded systems from prototype to mass production"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Bare-metal STM32 Cortex-M4 peripheral programming with timer-synchronized ADC scans and PWM (STM32 Bare-Metal Temperature Monitor, Object Tracking Turret) directly backs the JD ask for high-resolution PWM/ADC/hardware-timer work",
+      "Hardware debugging depth (oscilloscopes, logic analyzers, Proteus verification) across multiple embedded projects backs the JTAG/SWD/scope debugging ask",
+      "UART/I2C/SPI protocol experience recurs across three separate embedded projects (Object Tracking Turret, ARC PCB robots, Temperature Monitor)",
+      "Git/CMake build tooling and test/validation habits (10/10 trial reliability testing on COFFIN) show some build-and-verify discipline"
+    ],
+    "real_gaps": [
+      "Zero full-time/professional firmware experience - profile is 100% internship, capstone, and coursework scope; JD wants 2+ years shipping products at scale",
+      "No power electronics domain exposure - PWM/ADC work is motor/servo and sensor sampling, never power-stage switching, thermal safety, or grid-stabilization control",
+      "No CAN or CAN-FD anywhere in the profile",
+      "No ARM Cortex-R experience - only Cortex-M4 (STM32)",
+      "No multi-core task architecture, memory partitioning, or functional isolation / freedom-from-interference work - all projects are single-core MCU or single-GPU",
+      "No CI/CD pipeline experience for embedded builds",
+      "No Rust, no bootloader, no secure boot work",
+      "No UL certification or safety-certification-standard exposure"
+    ],
+    "overstated_by_keywords": [
+      "ARM Cortex-R counted adjacent via string containment to Cortex-M, but Cortex-R real-time/lockstep architecture is a materially different chip family Justin has never touched",
+      "high-speed ADC sampling / high-resolution PWM matched on peripheral programming, but Justin's ADC/PWM work is at hobbyist/coursework sampling rates, not the power-stage switching frequencies this role implies"
+    ],
+    "understated_by_keywords": [
+      "The STM32 Bare-Metal Temperature Monitor project 1:1 mirrors the JD's bare-metal timer/ADC/interrupt pattern more closely than the keyword pass credited - it is a genuinely strong analog, just scoped tiny"
+    ],
+    "screening_gaps": [
+      "No professional/production embedded shipping experience - the JD explicitly wants a track record of taking products from prototype to mass-market scale; the profile has zero full-time years and no production system ownership",
+      "No power electronics domain background - every relevant project is general-purpose MCU peripheral work (motor control, sensors), never power conversion, switching, or thermal safety on a power stage",
+      "No CAN/CAN-FD and no multi-core/Cortex-R experience - both are named as core technical requirements with zero backing anywhere in the profile"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has real bare-metal MCU fundamentals (ADC/PWM/timers/UART/I2C/SPI, oscilloscope-level debugging) that map onto the mechanics of this role, but the JD is asking for a power-electronics domain specialist with 2+ years of production firmware experience on multi-core Cortex-R/M silicon and CAN networks, and the profile has no power electronics, no CAN, no multi-core, and no full-time shipping history to back that. The keyword score reads higher than the actual domain fit because peripheral-programming keywords overlap while the specific power-electronics and production-scale asks do not.",
+    "calibration_delta": 20.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-26",
+    "channel": "application",
+    "notes": "Form rejection: strong applicant pool. No feedback."
+  }
+}

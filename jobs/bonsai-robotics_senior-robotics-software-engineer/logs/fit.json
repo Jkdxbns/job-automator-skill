@@ -1,0 +1,142 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Senior Robotics Software Engineer",
+  "job_slug": "senior-robotics-software-engineer",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 14,
+    "req_cov": 0.938,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS2",
+    "Linux",
+    "Hardware/software debugging",
+    "State machine"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Testing",
+      "you_have": "unit testing / Git workflows"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Navigation",
+      "you_have": "Robocon odometry"
+    },
+    {
+      "jd_skill": "Optimization",
+      "you_have": "CUDA/model optimization"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Path planning",
+    "Production robots shipped",
+    "Navigation stack"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Rust",
+    "ROS2",
+    "Linux",
+    "CI/CD",
+    "Navigation",
+    "Path planning",
+    "State management",
+    "Autonomy",
+    "Embedded AI"
+  ],
+  "required_skills": [
+    "C++",
+    "ROS2",
+    "Python",
+    "Linux",
+    "CI/CD",
+    "Testing",
+    "Production robots shipped",
+    "Hardware/software debugging"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "Path planning",
+    "Optimization"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Autonomous tractor navigation, task execution, state management",
+    "GPS-denied operation",
+    "Fleet debugging",
+    "Code review"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "ROS2 on real hardware: UR5e via UR ROS 2 driver, collision-free pick-and-place trajectories in MoveIt, DH/FK validated in RViz (ROS-Based Robotic Arm project)",
+      "Cross hardware/software debugging: COFFIN resolved 11 integration failures (servo brown-out, stale-frame capture, false-positive detections) across Jetson, Arduino and sensors",
+      "Linux deployment: systemd service with auto-restart/backoff, non-root isolation, static IP, XRDP on a headless Jetson",
+      "Control-stack and state logic: CARLA lane-following with waypoint fallback, FreeRTOS tasks with mutexes, closed-loop feedback in ARC robots",
+      "Compute-constrained optimization: TensorRT 5.2x speedup (56.7 to 10.9 ms), custom CUDA kernels 35% faster"
+    ],
+    "real_gaps": [
+      "No Rust anywhere in the profile",
+      "No shipped production robot or customer fleet; no fleet-scale support/debug experience",
+      "No mobile-robot navigation stack (Nav2, localization, SLAM, GPS/GNSS, GPS-denied operation); odometry exists only as Robocon dead reckoning",
+      "No path-planning or optimization-solver work beyond arm trajectories and CARLA waypoint fallback",
+      "No CI/CD pipelines or automated test infrastructure evidenced (GitLab used only for version control)",
+      "No code review or design-doc ownership on a production codebase; role is 4+ years senior scope"
+    ],
+    "overstated_by_keywords": [
+      "CI/CD counted Adjacent via GitLab: that was version control only, not pipelines",
+      "Testing counted Adjacent: no unit/integration test suites evidenced in ROS2 work",
+      "Navigation counted Adjacent via Robocon odometry: encoder dead reckoning is not an autonomy nav stack",
+      "ROS2 counted Have: depth is manipulator driver and MoveIt use, not C++ ROS2 node architecture"
+    ],
+    "understated_by_keywords": [
+      "CARLA adaptive control stack with waypoint fallback is the closest evidence of behavior and state management for an autonomous vehicle",
+      "COFFIN three-layer distributed pipeline with a unified WebSocket fabric shows multi-device system integration and fault handling"
+    ],
+    "screening_gaps": [
+      "No production robots shipped to customers, and no years of full-time robotics software (senior, 4+ yrs, role owns mission-critical systems)",
+      "No mobile autonomy depth: navigation, GPS-denied localization, planning and state management for field vehicles",
+      "No Rust and no demonstrated CI/CD or test infrastructure for C++/ROS2 production code"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile backs ROS2 hardware work, cross-boundary debugging and Linux deployment, but the role's core is owning field-deployed vehicle autonomy with production scale, none of which is evidenced. Skill adjacency is real (manipulation and CARLA control), yet the screen-out risk is dominated by seniority and shipped-product requirements.",
+    "calibration_delta": 10.1
+  }
+}

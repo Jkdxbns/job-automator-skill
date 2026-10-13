@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "company": "Bertram Capital",
+    "role": "Forward Deployed AI Engineer",
+    "company_slug": "bertram_capital",
+    "job_slug": "forward_deployed_ai_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (May 2026). I rapidly build and validate AI prototypes leveraging large language models and emerging generative technologies to solve operational challenges. Experienced in deploying inference systems on resource-constrained edge devices, optimizing under latency and cost budgets, and defining technical requirements for handoff to scaling teams.",
+  "skills": {
+    "Languages & Systems": ["Python", "C++", "Bash", "Linux"],
+    "Deep Learning & LLMs": ["PyTorch", "TensorFlow", "Hugging Face Transformers", "TensorRT", "Generative AI"],
+    "Model Optimization & Deployment": ["CUDA", "8-bit Quantization", "Inference Optimization", "pynvml Profiling"],
+    "Edge AI & Inference": ["NVIDIA Jetson", "TensorRT Optimization", "Model Compression"],
+    "Tools & Frameworks": ["Git", "Flask", "CMake", "Docker"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Sep 2024 – May 2026",
+      "bullets": [
+        "Built a voice-controlled robotic system integrating three AI pipeline components: voice intent classification (Gemini LLM), visual servoing (TensorRT-optimized YOLO), and contact-aware grasping via ToF sensors—all coordinated through a unified WebSocket architecture spanning mobile client, Flask edge server, and Jetson+Arduino controller.",
+        "Achieved 5.2× inference speedup (56.7→10.9ms) via TensorRT quantization; debugged and resolved 11 integration failures (false-positive detections, servo brown-out, frame capture issues) to achieve 100% pick reliability at 11.5s end-to-end voice-to-picked latency.",
+        "Architected a LeRobot-compatible multi-camera data collection pipeline using multiprocessing for structured frame capture and action labeling, enabling seamless handoff to downstream training teams."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (Vision Transformer) for medical billing document understanding; engineered domain-specific preprocessing, special token integration, and embedding layer resizing to match custom vocabulary.",
+        "Improved validation accuracy 55%→93% through iterative model tuning and preprocessing refinement, delivering a functional prototype under tight 3-month timeline."
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Led a 7-person cross-cultural team as the sole ML expert; restructured task distribution mid-project and delivered a multi-modal MRI segmentation pipeline using U-Net with VGG/ResNet backbones, reporting accuracy-latency tradeoffs for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced LLM memory footprint by 55% via 8-bit quantization (bitsandbytes LLM.int8) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml.",
+        "Benchmarked quantized model on HellaSwag, GSM8K, and ARC with <1% accuracy degradation—validating near-lossless compression for resource-constrained edge deployment."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer in PyTorch: multi-head self-attention, residual connections, layer normalization; trained on custom text corpus with early stopping and perplexity evaluation.",
+        "Demonstrates foundational understanding of generative model architecture and transformer fundamentals."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Sep 2024 – May 2026",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

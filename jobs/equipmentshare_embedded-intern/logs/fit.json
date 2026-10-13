@@ -1,0 +1,83 @@
+{
+  "company": "EquipmentShare",
+  "company_slug": "equipmentshare",
+  "role": "Intern: Engineering (Embedded)",
+  "job_slug": "embedded-intern",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 7,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded firmware development",
+    "Automated software/tools development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Automated firmware testing",
+      "you_have": "Embedded systems dev (STM32 bare-metal C, ToF-triggered logic)"
+    },
+    {
+      "jd_skill": "Creo",
+      "you_have": "SolidWorks / EAGLE PCB Design"
+    }
+  ],
+  "missing_skills": [
+    "Mechanical hand tools (nuts/bolts)",
+    "Excel",
+    "Google Sheets"
+  ],
+  "top_ats_keywords": [
+    "embedded firmware",
+    "automated tests",
+    "Excel",
+    "Google Sheets",
+    "Creo"
+  ],
+  "required_skills": [
+    "Embedded firmware development",
+    "Automated firmware testing",
+    "Automated software/tools development",
+    "Mechanical hand tools (nuts/bolts)",
+    "Excel",
+    "Google Sheets",
+    "Creo"
+  ],
+  "preferred_skills": [
+    "Electrical/Computer Engineering/CS degree in progress"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Assist in development of embedded hardware and firmware",
+    "Create automated tests to verify firmware meets requirements",
+    "Assist in development of automated software and tools"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Columbia, Missouri",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

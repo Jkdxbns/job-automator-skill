@@ -1,0 +1,162 @@
+{
+  "company": "Focused Energy",
+  "company_slug": "focused-energy",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 33.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 7,
+    "missing_count": 17,
+    "jd_ask_size": 31,
+    "req_cov": 0.529,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Deep Learning",
+    "MPI",
+    "HPC",
+    "C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "OpenMP",
+      "you_have": "MPI / CUDA parallelism"
+    },
+    {
+      "jd_skill": "Neural Network Surrogates",
+      "you_have": "Deep Learning / MLP training"
+    },
+    {
+      "jd_skill": "Time-Series Sensor Data",
+      "you_have": "IMU/ADXL345 data acquisition"
+    },
+    {
+      "jd_skill": "ML Pipelines",
+      "you_have": "ASR / model eval pipelines"
+    },
+    {
+      "jd_skill": "MLflow / W&B / DVC",
+      "you_have": "Git / GitLab"
+    },
+    {
+      "jd_skill": "Fortran",
+      "you_have": "C/C++"
+    }
+  ],
+  "missing_skills": [
+    "Uncertainty Quantification",
+    "Probabilistic Models",
+    "Gaussian Processes",
+    "Reduced-Order Models",
+    "PDE Simulation Outputs",
+    "Feature Engineering",
+    "PINNs",
+    "Neural Operators",
+    "Bayesian Optimization",
+    "Active Learning",
+    "Reinforcement Learning",
+    "Anomaly Detection",
+    "Monte Carlo",
+    "MDO/DoE",
+    "Digital Twin",
+    "COMSOL/ANSYS",
+    "Laser/Plasma Physics"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "Surrogate Models",
+    "Reduced-Order Models",
+    "PINN",
+    "Uncertainty Quantification",
+    "Bayesian Optimization",
+    "Active Learning",
+    "Gaussian Processes",
+    "Digital Twin",
+    "Anomaly Detection",
+    "Reinforcement Learning",
+    "COMSOL",
+    "ANSYS",
+    "HPC",
+    "MPI",
+    "OpenMP",
+    "PyTorch",
+    "JAX",
+    "MLflow",
+    "Monte Carlo"
+  ],
+  "required_skills": [
+    "PyTorch",
+    "TensorFlow",
+    "JAX",
+    "Deep Learning",
+    "Uncertainty Quantification",
+    "Probabilistic Models",
+    "Python",
+    "HPC",
+    "MPI",
+    "OpenMP",
+    "Gaussian Processes",
+    "Neural Network Surrogates",
+    "Reduced-Order Models",
+    "Time-Series Sensor Data",
+    "PDE Simulation Outputs",
+    "ML Pipelines",
+    "Feature Engineering"
+  ],
+  "preferred_skills": [
+    "PINNs",
+    "Neural Operators",
+    "Laser/Plasma Physics",
+    "Digital Twin",
+    "MDO/DoE",
+    "Reinforcement Learning",
+    "Monte Carlo",
+    "MLflow",
+    "Weights & Biases",
+    "DVC",
+    "C++",
+    "Fortran"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Surrogate/ROM models for multiphysics simulation",
+    "PINNs",
+    "UQ ML pipelines",
+    "Active learning and Bayesian optimization",
+    "Digital Twin integration with HPC output",
+    "Anomaly detection",
+    "RL for laser parameter optimization"
+  ],
+  "role_category": "ml_systems",
+  "location": "Austin, TX (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,174 @@
+{
+  "company": "Klinge Corporation (Thermo King / Trane Technologies)",
+  "company_slug": "klinge",
+  "role": "Embedded Systems Engineer",
+  "job_slug": "embedded-systems-engineer",
+  "match_pct": 48.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 25,
+    "req_cov": 0.769,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "RTOS / real-time systems",
+    "BLE (Bluetooth)",
+    "Documentation / code reviews",
+    "Electrical schematics & datasheets",
+    "Hardware/software integration",
+    "PCB design (general)",
+    "Data structures & algorithms",
+    "Software engineering principles",
+    "Firmware/driver development & hardware debugging",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PIC 8/16-bit microcontrollers",
+      "you_have": "STM32/general microcontroller firmware"
+    },
+    {
+      "jd_skill": "Linux-based RTOS",
+      "you_have": "embedded RTOS work (BBB/STM32)"
+    }
+  ],
+  "missing_skills": [
+    "CAN / CAN bus",
+    "Wi-Fi",
+    "Cellular communication",
+    "Orcad (PCB design tool)",
+    "Three-phase electrical systems",
+    "iMX93 SoM",
+    "MATLAB",
+    "VBA",
+    "Modbus",
+    "RS-422/RS-485",
+    "Temperature/pressure transducers (0-10V/4-20mA)",
+    "Telematics/IoT domain"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "RTOS",
+    "CAN",
+    "Wi-Fi",
+    "BLE",
+    "cellular",
+    "PCB design",
+    "Orcad",
+    "SPI",
+    "I2C",
+    "Modbus",
+    "firmware",
+    "drivers",
+    "telematics",
+    "IoT",
+    "data structures",
+    "algorithms"
+  ],
+  "required_skills": [
+    "C/C++",
+    "real-time systems (RTOS)",
+    "hardware integration & troubleshooting",
+    "electrical schematics & datasheets",
+    "PCB design (Orcad)",
+    "data structures & algorithms",
+    "software engineering principles",
+    "CAN",
+    "Wi-Fi",
+    "Bluetooth Low Energy",
+    "cellular communication",
+    "code reviews",
+    "documentation"
+  ],
+  "preferred_skills": [
+    "three-phase electrical systems",
+    "PIC 8/16-bit microcontrollers",
+    "iMX93 system-on-module",
+    "MATLAB",
+    "Python",
+    "VBA",
+    "SPI",
+    "I2C",
+    "Modbus",
+    "RS-422",
+    "RS-485",
+    "CAN bus",
+    "temperature/pressure transducers",
+    "Orcad/EMA design software",
+    "Linux-based RTOS"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "embedded firmware/driver architecture and debugging",
+    "real-time C/C++ development",
+    "CAN/Wi-Fi/BLE/cellular connectivity integration",
+    "code review and best practices",
+    "compliance documentation",
+    "hardware/firmware/software troubleshooting",
+    "product validation and field testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "York, Pennsylvania (on-site 5 days)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 34,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Bare-metal, register-level peripheral programming (STM32 Bare-Metal Temperature Monitor: direct GPIO/TIM2/ADC1/I2C1 register manipulation) \u2014 real datasheet-driven driver work, not framework-level",
+      "FreeRTOS real-time task coordination with mutexes for shared-memory access (Object Tracking Turret) \u2014 genuine RTOS systems experience, not just exposure",
+      "Hands-on hardware/firmware/software troubleshooting under real integration failures (COFFIN: resolved 11 failures incl. servo brown-out, stale-frame capture; Planctech: resolved sensor jitter via calibration/resolution tuning)",
+      "PCB design experience (EAGLE, single-layer boards for ARC club robots) and comfort reading schematics/datasheets at the peripheral level"
+    ],
+    "real_gaps": [
+      "CAN / CAN bus \u2014 zero evidence anywhere in the profile, despite being the JD's lead connectivity ask",
+      "Wi-Fi RF/module-level integration \u2014 profile's networking work is software-layer (static IP, WebSocket/TCP-IP on Jetson), not RF driver/firmware Wi-Fi work",
+      "Cellular communication \u2014 no evidence",
+      "Orcad specifically \u2014 profile uses EAGLE, a different PCB CAD ecosystem",
+      "Industrial analog I/O: temperature/pressure transducers (0-10V/4-20mA), Modbus, RS-422/RS-485, three-phase electrical systems \u2014 zero exposure across the profile",
+      "PIC 8/16-bit microcontrollers and iMX93 SoM \u2014 profile is entirely STM32/ARM Cortex/Jetson/Arduino",
+      "MATLAB, VBA \u2014 not in profile",
+      "Formal product validation / field testing at company scale \u2014 profile's validation is academic/competition/capstone, not industrial process equipment",
+      "5 years hands-on experience \u2014 actual is 0 years full-time, ~4-5 months of formal embedded-specific internship"
+    ],
+    "overstated_by_keywords": [
+      "PCB design (general) credited as HAVE, but the real tool is EAGLE, not Orcad \u2014 different CAD ecosystem, real ramp-up needed",
+      "Hardware/software integration credited broadly, but the JD's specific integration asks (CAN/Wi-Fi/cellular) are exactly the parts with zero backing",
+      "BLE (Bluetooth) credited as HAVE, but the actual project used an HC-05 Bluetooth Classic UART bridge module, not BLE protocol stack work"
+    ],
+    "understated_by_keywords": [
+      "Register-level bare-metal peripheral programming is a stronger 'hardware integration & troubleshooting' signal than a generic keyword match conveys",
+      "FreeRTOS mutex-based task coordination is genuine RTOS systems work, not surface exposure"
+    ],
+    "screening_gaps": [
+      "No CAN bus experience anywhere in the profile \u2014 the JD's lead connectivity requirement for a Telematics/IoT role; its total absence is an immediate screen-out",
+      "5 years hands-on required vs 0 years full-time (only ~4-5 months of formal embedded internship) \u2014 the first thing a recruiter checks against the req",
+      "No Wi-Fi/cellular RF integration or industrial analog I/O experience (transducers, Modbus, three-phase) \u2014 networking work is software/TCP-IP layer, and there is zero exposure to the process-industry electrical domain this role lives in"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has genuine bare-metal C/RTOS/peripheral-debugging depth, but the role's core is industrial IoT/Telematics connectivity (CAN, Wi-Fi, cellular) and process-industry analog I/O (transducers, three-phase, Modbus) that are entirely unbacked in his profile, compounded by a 5-year experience ask against ~0 years full-time. It's a plausible entry point into industrial embedded work but would likely screen out on the connectivity-stack and years-of-experience gaps before a technical interview.",
+    "calibration_delta": 14.0
+  }
+}

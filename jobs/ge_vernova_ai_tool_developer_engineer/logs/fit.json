@@ -1,0 +1,42 @@
+{
+  "company": "GE Vernova",
+  "company_slug": "ge_vernova",
+  "role": "AI Tool Developer Engineer",
+  "job_slug": "ai_tool_developer_engineer",
+  "match_pct": 100,
+  "missing_skills": ["retrieval-augmented generation (RAG)", "data management", "workflow tool development", "cloud-based AI platforms (AWS/Azure/GCP)", "energy/power industry familiarity"],
+  "adjacent_skills": ["LLM concepts / prompt engineering (Gemini API intent classification, DONUT document transformer)", "document automation (DONUT OCR-free structured extraction)"],
+  "top_ats_keywords": ["large language models", "prompt engineering", "retrieval-augmented generation", "data management", "document automation", "workflow tool development", "Python", "APIs", "cloud-based AI platforms", "energy industry", "power conversion", "clean energy"],
+  "key_responsibilities": [
+    "Own and manage data flow and infrastructure for AI tool deployment",
+    "Review historical engineering content, extract relevant content for AI tools",
+    "Develop data collection methods, user interfaces, integrate with existing software tools",
+    "Test, validate, debug AI tool outputs",
+    "Work with AI Research Technology team on data requirements for model tuning"
+  ],
+  "role_category": "general",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Fine-tuned DONUT (OCR-free document understanding transformer) for structured field extraction at IIT Bombay — directly maps to 'review historical engineering content and extract relevant content for AI tools'",
+      "Built and integrated Gemini API intent classification into the COFFIN capstone pipeline — real prompt engineering / LLM API integration experience, not just theory",
+      "Built a from-scratch GPT-2 style Transformer and did LLM quantization/benchmarking (TinyLlama 8-bit) — genuine internals-level understanding of how LLMs work, beyond surface API calls",
+      "Python Developer Intern @ BARC built a real-time data acquisition GUI (PyQt) — relevant to the 'data flow infrastructure' and 'user interface' parts of the role",
+      "Entry-level role (Basic Qualifications = bachelor's + work auth only, no years-of-experience stated) fits a new-grad profile well"
+    ],
+    "real_gaps": [
+      "No RAG (retrieval-augmented generation) experience anywhere in the profile — this is explicitly named in the JD and is a real, not adjacent, gap",
+      "No document automation or workflow-tooling experience at the scale implied ('own and manage data flow and infrastructure' for an engineering org) — DONUT project was single-model research, not a deployed tool",
+      "No cloud-based AI platform experience (AWS Bedrock, Azure OpenAI, GCP Vertex) — profile is entirely local/on-device (Jetson, STM32) or research-cluster (SLURM/MPI)",
+      "Zero energy industry, power conversion, or clean energy domain exposure — listed as 'stand out' but a genuine blind spot",
+      "Role wants someone building internal AI tooling for a design engineering org (ECN/OTR processes, design reviews) — profile has no exposure to industrial engineering change-management workflows"
+    ],
+    "overstated_by_keywords": [
+      "'LLM.int8' keyword match reads as LLM experience in keyword scoring, but it's a narrow quantization-research result, not tool-building or deployment experience",
+      "'API' match is real (Flask, HuggingFace VisionEncoderDecoder API) but none of it is the kind of external/cloud AI platform API (OpenAI, Azure, Bedrock) this JD implies"
+    ],
+    "reasoning": "The Basic Qualifications bar is low (bachelor's + work authorization, no experience floor), so this reads as a genuine new-grad-friendly posting Justin's background can compete for. But the 'stand out' list is really the job: RAG, document automation, and workflow-tool development for an internal engineering audience, and none of that is deeply covered, only touched via one document-transformer research project and one LLM API integration. Real fit is moderate, not the near-lock the 100% required-skills match implies."
+  }
+}

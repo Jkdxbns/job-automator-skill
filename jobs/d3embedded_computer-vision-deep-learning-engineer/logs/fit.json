@@ -1,0 +1,113 @@
+{
+  "company": "D3 Embedded",
+  "company_slug": "d3embedded",
+  "role": "Computer Vision and Deep Learning Engineer",
+  "job_slug": "computer-vision-deep-learning-engineer",
+  "match_pct": 77.5,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 20,
+    "req_cov": 0.909,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "OpenCV",
+    "PyTorch / TensorFlow",
+    "Fine-tuning & transfer learning",
+    "End-to-end pipeline design",
+    "Object detection (YOLOv8)",
+    "Instance/semantic segmentation",
+    "Real-time embedded/edge deployment",
+    "Autonomous/industrial robotic platforms",
+    "Jetson + TensorRT",
+    "Edge AI accelerator integration & profiling",
+    "ROS / ROS2",
+    "CUDA / GPU programming"
+  ],
+  "missing_skills": [
+    "Intrinsic/extrinsic multi-modal sensor calibration",
+    "Camera optics & computational geometry",
+    "GStreamer"
+  ],
+  "adjacent_skills": [
+    "Sensor fusion (hardware-level, not classic vision multi-modal fusion)",
+    "Pose estimation (robot kinematics/visual servoing, not vision-based pose estimation)",
+    "Git + DVC (have Git, no DVC)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "OpenCV",
+    "PyTorch",
+    "TensorFlow",
+    "object detection",
+    "instance segmentation",
+    "sensor fusion",
+    "pose estimation",
+    "Jetson",
+    "TensorRT",
+    "ROS",
+    "CUDA",
+    "edge AI",
+    "fine-tuning"
+  ],
+  "key_responsibilities": [
+    "Research, develop, and integrate CV/AI solutions for perception problems (object detection, instance segmentation, sensor fusion, pose estimation)",
+    "Translate product feature requirements into design specs and high-level software architectures",
+    "Deploy real-time, optimized CV/AI solutions to embedded and edge platforms",
+    "Own full product lifecycle from proof of concept to integration",
+    "Participate in all phases of product development (requirements, design, implementation, integration, V&V, customer support)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real-time edge CV deployment: COFFIN capstone shipped TensorRT-optimized YOLO on Jetson at 5.2x speedup (56.7→10.9 ms, 17.6→92 FPS) inside a hardened systemd service (auto-restart, non-root isolation, static IP) — directly matches 'deploy real-time, optimized CV/AI solutions to embedded and edge platforms.'",
+      "Object detection depth: YOLOv8 (Tusk, 83% mAP@50, ONNX/TFLite export), YOLO11n in CARLA (mAP50~0.85), Object Tracking Turret (YOLOv8+Jetson+STM32) — not a single toy project, a repeated pattern.",
+      "Segmentation depth: U-Net with VGG-16/19/ResNet-50 backbones on BraTS 2020 MRI, evaluated on Dice/IoU — real segmentation technique depth, though domain is medical imaging rather than industrial/robotics CV.",
+      "Fine-tuning/transfer learning: DONUT fine-tuned via HuggingFace VisionEncoderDecoder on a custom dataset; UFLD (ResNet-18) fine-tuned with custom loss functions in CARLA.",
+      "End-to-end pipeline architecture: COFFIN's three-tier distributed system, the BARC metal-surface-inspection pipeline, and the from-scratch ASR pipeline all show designing and owning a full pipeline, not just a model — matches the JD's 'design end-to-end processing pipelines' requirement directly.",
+      "CUDA/edge accelerator depth: hand-written CUDA C++ kernels for VGG16 (memory coalescing, constant memory) plus TensorRT optimization and 8-bit quantization/pynvml profiling on TinyLlama — goes beyond 'used a GPU framework.'"
+    ],
+    "real_gaps": [
+      "Camera optics and computational geometry: no evidence anywhere in the profile of lens/projection modeling, distortion correction, or projective geometry work.",
+      "Intrinsic/extrinsic multi-modal sensor calibration procedures: closest analog is ad hoc accelerometer jitter/threshold tuning, not camera-to-sensor extrinsic calibration.",
+      "GStreamer: zero evidence.",
+      "Vision-based pose estimation: the profile's 'pose' work (DH parameters, forward kinematics for UR5e/AL5B) is robot joint-angle kinematics, not camera/object pose estimation from images — a different skill than what the JD is asking for under that term.",
+      "Formal sensor fusion techniques (early/mid/late fusion, e.g. Kalman-filter-style fusion of camera+lidar+IMU): the profile shows multi-sensor arbitration (ToF range-gating a camera detection, IMU+encoder coordination) which is adjacent but not the calibration-based fusion the JD preferred list describes."
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "Production hardening and V&V discipline on COFFIN (systemd auto-restart/non-root isolation, resolving 11 integration failures, achieving 100% pick reliability across 10/10 trials) reads as a much stronger match to the JD's 'own full life cycle... verification and validation' language than the flat 'real-time embedded/edge deployment' keyword conveys.",
+      "The BARC image-stitching work explicitly iterated a custom wavelet design from PSNR 65 to 86 while reporting 'accuracy-latency trade-offs for deployment' — this is literally the JD's 'guide design trade-off decisions' responsibility and no keyword captured it."
+    ],
+    "screening_gaps": [
+      "No camera optics / projective geometry or intrinsic-extrinsic calibration experience — the most CV-specific gap, likely to surface fast in a technical screen for this role.",
+      "No vision-based pose estimation experience — all 'pose' work is robot joint kinematics, a different technique than the JD is asking about.",
+      "No GStreamer experience — a real-time video pipeline tooling gap for embedded CV deployment."
+    ],
+    "recommend_apply": false,
+    "reasoning": "Skill fit is genuinely strong: nearly every core responsibility (real-time CV/DL on embedded/edge, object detection, fine-tuning, end-to-end pipeline ownership) has concrete, repeated backing, and the keyword score's 77.5% already tracked this well (calibration_delta -0.5). The real gaps are narrow and specific to camera geometry, calibration, and GStreamer rather than domain-wide. None of that changes the outcome here though: D3 Embedded's JD states outright that it does not sponsor visas, which is the actual reason to skip this one, not the skill read.",
+    "calibration_delta": -0.5
+  },
+  "sponsorship_flag": "D3 Embedded does not sponsor visas (explicit JD statement); requires_sponsorship=true for candidate",
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-17",
+    "channel": "application",
+    "notes": "Auto-rejection: application data showed sponsorship need; D3 says it cannot sponsor for this role (stated in posting). Not a skills rejection."
+  }
+}

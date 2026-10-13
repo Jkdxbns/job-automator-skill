@@ -1,0 +1,147 @@
+{
+  "company": "Fuse Energy",
+  "company_slug": "fuse-energy",
+  "role": "CUDA Engineer",
+  "job_slug": "cuda-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 15,
+    "req_cov": 0.778,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "CUDA",
+    "CUDA C++",
+    "GPU",
+    "memory coalescing",
+    "transformer",
+    "attention",
+    "quantization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "kernel fusion",
+      "you_have": "Kernel optimization"
+    },
+    {
+      "jd_skill": "profiling",
+      "you_have": "pynvml Profiling"
+    },
+    {
+      "jd_skill": "mixed precision",
+      "you_have": "8-bit quantization"
+    },
+    {
+      "jd_skill": "streams/async",
+      "you_have": "CUDA C++"
+    }
+  ],
+  "missing_skills": [
+    "PTX/SASS",
+    "multi-GPU",
+    "KV cache",
+    "autoregressive decoding"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "CUDA C++",
+    "GPU",
+    "kernel fusion",
+    "memory coalescing",
+    "quantization",
+    "mixed precision",
+    "transformer",
+    "attention",
+    "profiling",
+    "inference",
+    "KV cache",
+    "PTX",
+    "SASS",
+    "multi-GPU"
+  ],
+  "required_skills": [
+    "CUDA C++",
+    "GPU microarchitecture",
+    "profiling",
+    "kernel fusion",
+    "memory coalescing",
+    "quantization",
+    "mixed precision",
+    "streams",
+    "parallel algorithms"
+  ],
+  "preferred_skills": [
+    "transformer",
+    "attention",
+    "autoregressive decoding",
+    "PTX/SASS",
+    "multi-GPU"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Write/optimise CUDA kernels for transformer inference",
+    "Profile kernels",
+    "Kernel fusion",
+    "Quantisation-aware kernels",
+    "Caching for autoregressive decoding"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "London, UK (full remote)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Custom CUDA C++ VGG16 conv kernels with memory coalescing, constant memory and preallocated buffers: 49.2ms vs 73.3ms uncoalesced (~35%)",
+      "8-bit quantization (LLM.int8, ~55% VRAM cut) plus QAT with int8 requantization: real quantization numerics, though not at kernel level",
+      "GPT-2 style transformer with multi-head attention built from scratch, so attention structure is understood",
+      "TensorRT YOLO 5.2x speedup (56.7 to 10.9 ms) shows profiling-driven optimisation habit"
+    ],
+    "real_gaps": [
+      "No kernel fusion, no mixed-precision or quantised CUDA kernels, only fp32 conv kernels",
+      "No Nsight Systems/Compute work; profiling was pynvml/psutil VRAM and latency",
+      "No attention kernels, KV cache or autoregressive decoding implementation",
+      "No PTX/SASS reading, no occupancy/register-pressure tuning evidence, no multi-GPU",
+      "No production shipping of CUDA code; 4+ years asked"
+    ],
+    "overstated_by_keywords": [
+      "GPU / CUDA C++ counted Have, but backed by one coursework-scale kernel project",
+      "streams/async counted Adjacent with no stream usage in the profile"
+    ],
+    "understated_by_keywords": [
+      "Transformer-from-scratch plus quantization work shows transformer-inference literacy the keyword pass only partly credited"
+    ],
+    "screening_gaps": [
+      "4+ years production CUDA with shipped performance-critical kernels vs one academic VGG16 kernel project",
+      "No fused, quantised or mixed-precision kernels, the core of the posting",
+      "No attention/KV-cache decoding kernels or Nsight-level profiling and PTX/SASS validation"
+    ],
+    "recommend_apply": true,
+    "reasoning": "CUDA fundamentals are real (coalescing, constant memory, measured speedups) and quantization and transformer literacy are genuine, but the role is advanced inference-kernel work and the profile stops at fp32 conv kernels. A long shot on skills; seniority is the bigger wall.",
+    "calibration_delta": 8.0
+  },
+  "semantic_pending": false
+}

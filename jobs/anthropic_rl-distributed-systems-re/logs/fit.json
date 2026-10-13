@@ -1,0 +1,122 @@
+{
+  "company": "Anthropic",
+  "company_slug": "anthropic",
+  "role": "Research Engineer / Performance Engineer, RL Distributed Systems",
+  "job_slug": "rl-distributed-systems-re",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 4,
+    "missing_count": 14,
+    "jd_ask_size": 20,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "collective communication",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "ML training infrastructure",
+      "you_have": "SLURM, GPT-2/SLM training"
+    },
+    {
+      "jd_skill": "LLM training",
+      "you_have": "GPT-2, SLM fine-tuning"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "Go",
+    "consensus",
+    "fault tolerance",
+    "large-scale production systems",
+    "Kubernetes",
+    "RDMA",
+    "asyncio",
+    "Trio",
+    "schedulers",
+    "autoscaling",
+    "observability",
+    "sandboxed execution",
+    "reinforcement learning"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Rust",
+    "Go",
+    "distributed systems",
+    "Kubernetes",
+    "RDMA",
+    "asyncio",
+    "observability",
+    "fault tolerance",
+    "reinforcement learning",
+    "LLM training"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "Rust",
+    "Go",
+    "distributed systems",
+    "consensus",
+    "fault tolerance",
+    "large-scale production systems"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "RDMA",
+    "collective communication",
+    "asyncio",
+    "Trio",
+    "schedulers",
+    "autoscaling",
+    "observability",
+    "sandboxed execution",
+    "ML training infrastructure",
+    "reinforcement learning",
+    "LLM training"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "build RL distributed systems",
+    "fault tolerance",
+    "autoscaling",
+    "observability"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco / New York / Seattle",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

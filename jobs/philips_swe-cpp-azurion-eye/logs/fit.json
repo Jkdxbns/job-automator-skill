@@ -1,0 +1,117 @@
+{
+  "company": "Philips",
+  "company_slug": "philips",
+  "role": "Software Engineer - C++, Azurion Eye",
+  "job_slug": "swe-cpp-azurion-eye",
+  "match_pct": 36.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 1,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Git",
+    "CMake",
+    "Embedded Software / Real-Time Systems",
+    "Unit Testing",
+    "Technical Documentation / Code Review"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Qt / Desktop UI Framework",
+      "you_have": "PyQt/PySide (Python Qt bindings)"
+    }
+  ],
+  "missing_skills": [
+    "Visual Studio",
+    "Azure DevOps",
+    "Jenkins",
+    "GitHub Actions",
+    "Scrum/Kanban (Agile)",
+    "IEC 62304",
+    "IEC 82304",
+    "ISO 13485",
+    "ISO 14971",
+    "Static Code Analysis Tools",
+    "SDD process"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Qt",
+    "Visual Studio",
+    "Azure DevOps",
+    "Git",
+    "CMake",
+    "Jenkins",
+    "GitHub Actions",
+    "Scrum",
+    "Kanban",
+    "IEC 62304",
+    "IEC 82304",
+    "ISO 13485",
+    "ISO 14971",
+    "static code analysis",
+    "unit testing",
+    "SDD",
+    "real-time",
+    "embedded software",
+    "clinical imaging"
+  ],
+  "required_skills": [
+    "C++",
+    "Embedded Software",
+    "Qt",
+    "Visual Studio",
+    "Azure DevOps",
+    "Git",
+    "CMake",
+    "Jenkins",
+    "GitHub Actions",
+    "Scrum",
+    "Kanban",
+    "IEC 62304",
+    "IEC 82304",
+    "ISO 13485",
+    "ISO 14971"
+  ],
+  "preferred_skills": [
+    "Cross-functional collaboration",
+    "Communication"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Implement C++ features for clinical imaging application meeting real-time performance constraints",
+    "Static code analysis + peer review before integration",
+    "Create/maintain Software Design Description (SDD) documents",
+    "Development/unit testing incl. edge cases",
+    "Adhere to Philips Agile QMS processes, regulatory documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Plymouth, Minnesota, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

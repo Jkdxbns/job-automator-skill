@@ -1,0 +1,232 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "R&D Technician, Robotics Hardware",
+  "job_slug": "r-d-technician-robotics-hardware",
+  "match_pct": 42.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 14,
+    "missing_count": 16,
+    "jd_ask_size": 40,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "embedded compute / sensors / robotics hardware familiarity (Multiple internships with embedded compute (Jetson, RPi, STM32, Arduino) and robotics sensors)",
+    "Linux / ROS2 embedded systems (Linux admin (systemd, static IP), ROS2 Humble and ROS Noetic)",
+    "microcontroller-based subsystems (STM32 bare-metal C, Arduino, FreeRTOS with mutexes)",
+    "wire routing / electrical integration / communication interfaces (UART/I2C/SPI wiring, sensor communications, PCB design (EAGLE))",
+    "sensors and perception payload integration (YOLO vision, depth sensors, accelerometers, camera-based detection)",
+    "functional testing / reliability verification / debugging integration failures (100% pick reliability (10/10), resolved 11 integration failures)",
+    "mechanical/drawing tools (SolidWorks, PCB design) (SolidWorks, EAGLE PCB design, Proteus)",
+    "reading diagrams / build instructions / documentation (Built from engineering specs, documented test results, created build documentation)",
+    "hardware bring-up (boot, health, network, sensor calibration) (Boot/health/network verification, sensor calibration, compute health tests)",
+    "low-voltage electrical / wiring / harness experience (Built wire harnesses, routed sensor and power connections, handled low-voltage circuit integration)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "hands-on electro-mechanical assembly (robotics/electronics/automotive/aerospace) 2+ years",
+      "you_have": "Intern-level hands-on embedded/robotics assembly (not full-time production technician)"
+    },
+    {
+      "jd_skill": "hand tools / torque drivers / machine-shop tools",
+      "you_have": "Basic electronics lab tools (oscilloscopes, logic analyzers, soldering/PCB); no explicit torque drivers or machine-shop experience"
+    },
+    {
+      "jd_skill": "read and follow wiring diagrams / mechanical drawings / assembly instructions",
+      "you_have": "Read and built from engineering specs and component datasheets (PCB layouts, sensor wiring, mechanical assembly)"
+    },
+    {
+      "jd_skill": "experience with LiDAR integration",
+      "you_have": "No LiDAR experience (explicitly listed as missing)"
+    },
+    {
+      "jd_skill": "GPS receiver integration",
+      "you_have": "No GPS/navigation experience (explicitly listed as missing)"
+    },
+    {
+      "jd_skill": "CAN / GMSL communication interfaces",
+      "you_have": "UART/I2C/SPI experience; CAN/GMSL not mentioned"
+    },
+    {
+      "jd_skill": "continuity / grounding / EMI checks; power-rail validation",
+      "you_have": "Basic electrical debugging with oscilloscopes/logic analyzers; no explicit EMI/continuity/power-rail validation mentioned"
+    },
+    {
+      "jd_skill": "calibration / environmental / vibration / thermal characterization support",
+      "you_have": "Sensor calibration experience; no explicit environmental/vibration/thermal testing mentioned"
+    },
+    {
+      "jd_skill": "workmanship inspection / mechanical stability / electrical safety inspection",
+      "you_have": "Built reliable assemblies with 100% reliability; inspected wiring/integration; no formal inspection/procedural experience"
+    },
+    {
+      "jd_skill": "Ethernet / USB / CAN / GMSL link validation",
+      "you_have": "Ethernet/USB familiarity from Linux/networking; CAN/GMSL missing"
+    },
+    {
+      "jd_skill": "production/workflow process improvement feedback",
+      "you_have": "Improved build processes through debugging and team leadership; no production-line workflow experience"
+    },
+    {
+      "jd_skill": "rapid repairs and reconfigurations in dynamic field environments",
+      "you_have": "Rapid debugging/reconfiguration of robotic systems in lab; no formal field-deployment repair experience"
+    },
+    {
+      "jd_skill": "field deployment / staging / live demonstration support",
+      "you_have": "Lab/stage deployment (systemd deployment, static IP); no real-world field trial experience mentioned"
+    },
+    {
+      "jd_skill": "mechanical stability / structural hardware / thermal components / seals / gaskets",
+      "you_have": "Built enclosures and thermal components for capstone; structural hardware assembly"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "2+ years full-time hands-on technician experience (production-level)",
+      "reason": "Candidate is new-grad (0 years full-time) with 7 internships/research roles; no production assembly-line experience"
+    },
+    {
+      "jd_skill": "machine-shop tools (CNC, lathe, mill, etc.)",
+      "reason": "Profile lists hand tools, soldering, PCB design, oscilloscopes, logic analyzers; no machine-shop/CNC experience mentioned"
+    },
+    {
+      "jd_skill": "LiDAR integration / calibration / bring-up",
+      "reason": "Explicitly listed as missing in profile: 'DOES NOT HAVE: LiDAR'"
+    },
+    {
+      "jd_skill": "GPS receiver integration / GPS-based navigation",
+      "reason": "Explicitly listed as missing in profile: 'DOES NOT HAVE: GPS-based navigation'"
+    },
+    {
+      "jd_skill": "CAN bus communication interface validation",
+      "reason": "Profile mentions UART/I2C/SPI only; CAN not present anywhere"
+    },
+    {
+      "jd_skill": "GMSL (Gigabit Multimedia Serial Link) interface",
+      "reason": "Not mentioned in profile; typically automotive/high-speed camera link"
+    },
+    {
+      "jd_skill": "formal EMI / grounding / continuity testing procedures",
+      "reason": "Profile has basic electrical debugging (oscilloscope/logic analyzer) but no mention of EMI testing equipment or formal grounding/continuity procedures"
+    },
+    {
+      "jd_skill": "formal power-rail validation / low-voltage electrical certification",
+      "reason": "No mention of power-rail testing, voltage/current validation procedures, or electrical certification"
+    },
+    {
+      "jd_skill": "environmental / vibration / thermal characterization test support",
+      "reason": "Profile mentions thermal component installation but not environmental/vibration/thermal characterization testing"
+    },
+    {
+      "jd_skill": "workmanship / electrical safety inspection certification / formal QA procedures",
+      "reason": "Built reliable assemblies with 100% reliability; no formal inspection certification or QA procedure training mentioned"
+    },
+    {
+      "jd_skill": "lift up to 50 lbs / workshop physical requirements",
+      "reason": "Not mentioned in profile; no physical capability statement included"
+    },
+    {
+      "jd_skill": "field-deployment experience in unstructured outdoor/real-world environments",
+      "reason": "All experience is lab/research/prototype-based; profile explicitly excludes field-scale production/deployment experience"
+    },
+    {
+      "jd_skill": "production-line workflow / manufacturing process experience at company scale",
+      "reason": "Profile explicitly states 'DOES NOT HAVE: production-scale distributed systems experience at company scale'; all work is research/prototype/intern-level"
+    },
+    {
+      "jd_skill": "production-scale payload assembly / mass manufacturing",
+      "reason": "All builds are prototype/research level; no production/manufacturing scale mentioned"
+    },
+    {
+      "jd_skill": "full-time industry experience in robotics/electronics manufacturing",
+      "reason": "0 years full-time; 7 internships only. Profile explicitly notes 'new-grad, 0 years full-time'"
+    },
+    {
+      "jd_skill": "security clearance / ITAR / citizenship requirements (not present, but relevant for federal/defense context)",
+      "reason": "Not mentioned in JD; not a blocker. Candidate is F-1 OPT; company is private robotics (not federal/defense) so no federal/defense blocker applies."
+    }
+  ],
+  "top_ats_keywords": [
+    "LiDAR",
+    "cameras",
+    "IMUs",
+    "GPS",
+    "embedded compute",
+    "CPU/GPU",
+    "microcontroller",
+    "wire harness",
+    "power-rail",
+    "continuity",
+    "grounding",
+    "EMI",
+    "Linux",
+    "ROS2",
+    "Ethernet",
+    "USB",
+    "CAN",
+    "GMSL",
+    "connectorization",
+    "calibration",
+    "thermal",
+    "vibration",
+    "workmanship",
+    "payload assembly",
+    "field deployment",
+    "robotics hardware"
+  ],
+  "required_skills": [
+    "hands-on electro-mechanical assembly (robotics/electronics/automotive/aerospace)",
+    "hand tools, power tools, torque drivers, machine-shop tools",
+    "read wiring diagrams, mechanical drawings, assembly instructions",
+    "build wire harnesses; low-voltage electrical systems",
+    "embedded compute / sensors / robotics hardware familiarity",
+    "documentation discipline; reliable assembly delivery",
+    "workshop/lab/field environment; lift up to 50 lbs"
+  ],
+  "preferred_skills": [
+    "field deployment and rapid repair/reconfiguration experience",
+    "production/workflow process improvement feedback",
+    "experience with LiDAR, cameras, IMU, GPS sensor integration",
+    "Linux/ROS2 embedded bring-up experience"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Assemble perception payloads (LiDAR, cameras, IMU, GPS, aux sensors) using drawings",
+    "Integrate CPU/GPU compute modules, carrier boards, microcontroller subsystems",
+    "Build/route wire harnesses (power, high-speed data, sync, control)",
+    "Install mounts, enclosures, gaskets, seals, thermal components",
+    "Perform continuity, grounding/EMI, power-rail validation checks",
+    "Bring up Linux/ROS2 embedded compute; validate Ethernet/USB/CAN/GMSL links",
+    "Run functional/sensor/calibration/compute-boot/network tests; document results",
+    "Support environmental, vibration, thermal, mechanical alignment tests",
+    "Inspect workmanship, mechanical stability, electrical safety",
+    "Diagnose wiring faults, misalignments, intermittent comms, thermal faults",
+    "Improve build processes and documentation; prepare/stage payloads for deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

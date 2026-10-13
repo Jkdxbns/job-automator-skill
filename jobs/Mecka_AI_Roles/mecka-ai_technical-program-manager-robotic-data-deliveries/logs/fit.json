@@ -1,0 +1,114 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Technical Program Manager, Robotic Data & Deliveries",
+  "job_slug": "technical-program-manager-robotic-data-deliveries",
+  "match_pct": 23.1,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 13,
+    "req_cov": 0.125,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python scripting",
+    "Bash / scripting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ML/AI data and robotics domain experience",
+      "you_have": "ROS2 / CUDA / Jetson / YOLO / TensorRT robotics & edge-AI engineering experience"
+    },
+    {
+      "jd_skill": "hands-on scripting / prototyping tooling",
+      "you_have": "Python + Bash scripting at developer / research level (not delivery-ops / pipeline level)"
+    }
+  ],
+  "missing_skills": [
+    "5+ years TPM / delivery operations experience \u2014 no program-management or delivery-lead role in keywords",
+    "SQL \u2014 not in keyword list",
+    "MongoDB \u2014 not in keyword list",
+    "dataset delivery / QA / validation pipeline \u2014 closest keyword is \"data acquisition\" (acquisition, not delivery/QA)",
+    "customer-facing delivery partnership / sales alignment \u2014 not in keyword list",
+    "metrics / reporting / dashboards / SLA tracking \u2014 not in keyword list",
+    "workflow / tracking systems (Jira / Asana / Linear) \u2014 not in keyword list",
+    "senior IC leadership / influence without direct reports \u2014 not in keyword list",
+    "delivery pipeline automation / manifest / packaging tooling \u2014 not in keyword list"
+  ],
+  "top_ats_keywords": [
+    "Technical Program Manager",
+    "TPM",
+    "data delivery",
+    "ego-data",
+    "dataset",
+    "delivery pipeline",
+    "QA",
+    "quality",
+    "Python",
+    "SQL",
+    "MongoDB",
+    "Jira",
+    "Asana",
+    "Linear",
+    "automation",
+    "ML/AI",
+    "robotics",
+    "metrics",
+    "dashboard",
+    "SLA",
+    "delivery operations",
+    "data operations",
+    "program owner"
+  ],
+  "required_skills": [
+    "5+ years TPM / Technical Program / Delivery Operations lead",
+    "hands-on complex dataset delivery (spec + timeline) to external customers",
+    "SQL / MongoDB database querying",
+    "Python scripting for dataset reshape / validation / QA",
+    "senior IC leadership (influence without direct reports)",
+    "workflow / tracking systems (Jira / Asana / Linear)",
+    "customer-ready technical communication with AI-lab customers",
+    "metrics / reporting / dashboards (time-to-delivery, volume, yield, QA, SLA)"
+  ],
+  "preferred_skills": [
+    "ML/AI data or robotics domain experience",
+    "prototyping tooling / scripts / automation before productionizing",
+    "defining dataset specs, checklists, automated validation gates",
+    "delivery pipeline process / order-building at scale"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own end-to-end delivery program for highest-value ego-data dataset deliveries: master schedule, cross-functional execution across Sales / Data Ops / Labeling / Engineering",
+    "Build delivery tooling and automation: dataset packaging, validation, QA checks, manifest tooling, delivery dashboards; partner with Engineering to harden into durable infrastructure",
+    "Define and enforce dataset quality / delivery-readiness standards (completeness, metadata, taxonomy, formatting, QA gates) as reusable specs and automated validation",
+    "Partner with sales / delivery team and serve as senior point of contact on scope, status, escalations for key AI-lab accounts",
+    "Build data-driven delivery reporting (time-to-delivery, volume / yield, QA pass rate, rework, SLA adherence) and spot bottlenecks before they threaten delivery"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

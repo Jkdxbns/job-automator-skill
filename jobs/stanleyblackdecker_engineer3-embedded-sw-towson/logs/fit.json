@@ -1,0 +1,109 @@
+{
+  "company": "Stanley Black & Decker",
+  "company_slug": "stanleyblackdecker",
+  "role": "Engineer III, Embedded Software",
+  "job_slug": "engineer3-embedded-sw-towson",
+  "match_pct": 63.9,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 18,
+    "req_cov": 0.643,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C for 32-bit ARM MCUs",
+    "ARM Cortex-M4 architecture",
+    "Timers (TIM2)",
+    "GPIO",
+    "ADC",
+    "UART/I2C/SPI",
+    "PWM",
+    "RTOS (FreeRTOS, mutex-based task coordination)",
+    "Interrupt-driven / real-time processing",
+    "Distributed version control (Git/GitLab)"
+  ],
+  "missing_skills": [
+    "Brushless DC motor control (sensored/sensorless trapezoidal)",
+    "Li-Ion battery management systems & chargers",
+    "Assembly language coding",
+    "DMA & watchdog timer peripherals",
+    "Static analysis tools & formal bug tracking"
+  ],
+  "adjacent_skills": [
+    "Closed-loop control/feedback systems (robotics visual servoing, not motor current/speed loops)",
+    "Unit/integration testing (ad hoc project validation, not formal V&V process)",
+    "In-circuit/hardware debugging (Proteus sim + scope/logic analyzer, not confirmed JTAG/ICD on shipped hardware)"
+  ],
+  "top_ats_keywords": [
+    "FreeRTOS",
+    "STM32",
+    "ARM",
+    "UART",
+    "I2C",
+    "ADC",
+    "GPIO",
+    "PWM",
+    "interrupt",
+    "real-time",
+    "RTOS"
+  ],
+  "key_responsibilities": [
+    "Design/develop firmware for power tools: BLDC motor control, Li-Ion BMS, battery chargers",
+    "Implement/validate electronic designs via SW dev, testing, simulation",
+    "Develop SW verification/validation procedures (unit/integration tests)",
+    "Leadership toward cost/performance/quality objectives",
+    "Translate customer requirements into software specs",
+    "Interface with overseas contract manufacturers"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor: real bare-metal C on Cortex-M4 with timer-triggered ADC scans, interrupt-driven capture, low-level I2C driver \u2014 direct peripheral-level match",
+      "Object Tracking Turret: FreeRTOS with mutexes for shared-memory task coordination, interrupt-driven UART commands, multi-servo PWM \u2014 directly demonstrates real-time scheduling and race-condition avoidance, not just RTOS familiarity",
+      "Git/GitLab distributed version control used across multiple internships"
+    ],
+    "real_gaps": [
+      "Zero evidence of brushless DC motor control or sensored/sensorless trapezoidal commutation \u2014 the named core technical function of the role",
+      "Zero evidence of Li-Ion battery management systems or battery charger firmware",
+      "No assembly language coding evidenced",
+      "No DMA or watchdog timer peripheral work evidenced",
+      "No static analysis tooling or formal bug-tracking process evidenced",
+      "0 full-time years vs 3+ years required; profile is academic/capstone/internship scope, not production ownership at consumer-product scale",
+      "No experience interfacing with overseas contract manufacturers or production quality/cost objectives"
+    ],
+    "overstated_by_keywords": [
+      "Closed-loop control/feedback systems counted as a match but comes from robotics visual servoing and robot-arm kinematics, not power-electronics current/speed control loops for motor drives",
+      "ARM/Cortex-M4 experience is from small academic bare-metal projects, not shipped consumer/industrial firmware"
+    ],
+    "understated_by_keywords": [
+      "FreeRTOS + mutex-based task coordination on the Turret project is genuine real-time scheduling and race-condition-safe design, stronger than a bare RTOS keyword match implies",
+      "Interrupt-driven ADC/timer/I2C bare-metal work on the Temp Monitor project is real low-level peripheral programming, not just familiarity"
+    ],
+    "screening_gaps": [
+      "No brushless DC motor control experience \u2014 the core technical function the role is built around",
+      "No Li-Ion battery management system or charger firmware experience",
+      "No professional/production embedded experience \u2014 0 full-time years and no consumer-product manufacturing exposure vs a role built around cost/quality ownership with overseas contract manufacturers"
+    ],
+    "recommend_apply": true,
+    "reasoning": "General embedded fundamentals (bare-metal C on ARM Cortex-M4, RTOS/interrupt-driven design, common peripherals) are genuinely backed by two hands-on projects. But the role's actual center of gravity, BLDC motor control and Li-Ion battery/charger firmware for a shipped power tool, has zero backing anywhere in the profile, and the production/manufacturing scope is a real step up from academic and internship work.",
+    "calibration_delta": 8.9
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-29",
+    "channel": "application",
+    "notes": "Form rejection (email subject referenced a phone screen update). No feedback."
+  }
+}

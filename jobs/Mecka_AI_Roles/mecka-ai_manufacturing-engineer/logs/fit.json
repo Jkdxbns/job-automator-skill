@@ -1,0 +1,101 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Manufacturing Engineer",
+  "job_slug": "manufacturing-engineer",
+  "match_pct": 16.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 12,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Calibrated (production calibration context)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "sensor calibration / sensors",
+      "you_have": "Calibrated, ADC, ADXL345, ToF, VL53L0X"
+    },
+    {
+      "jd_skill": "electronic hardware development",
+      "you_have": "PCB, EAGLE PCB Design, STM32, bare-metal, Arduino"
+    }
+  ],
+  "missing_skills": [
+    "Experience taking electronic hardware/sensors/wearable products from development builds into production",
+    "Hands-on assembly process development, fixture design, production testing, factory troubleshooting",
+    "Process qualification, measurement repeatability, statistical process control, supplier quality",
+    "Connecting manufacturing variation to physical defects and product performance changes",
+    "Working with engineers/suppliers to document processes and resolve production problems",
+    "Flexible circuits",
+    "Textiles",
+    "Adhesives",
+    "Repair operations"
+  ],
+  "top_ats_keywords": [
+    "manufacturing",
+    "production readiness",
+    "supplier engineering",
+    "capacity planning",
+    "product quality",
+    "assembly",
+    "fixture design",
+    "calibration",
+    "production testing",
+    "yield",
+    "cycle-time",
+    "failure data",
+    "design for manufacturing",
+    "process qualification",
+    "statistical process control",
+    "supplier quality",
+    "sensor calibration"
+  ],
+  "required_skills": [
+    "Experience taking electronic hardware, sensors, or wearable products from development builds into production",
+    "Hands-on assembly process development, fixture design, production testing, and factory troubleshooting",
+    "Knowledge of process qualification, measurement repeatability, statistical process control, and supplier quality",
+    "Ability to connect manufacturing variation to physical defects and changes in product performance",
+    "Experience working with engineers and suppliers to document processes and resolve difficult production problems"
+  ],
+  "preferred_skills": [
+    "Experience with flexible circuits, textiles, adhesives, sensor calibration, or repair operations"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop production readiness and capacity plans with suppliers aligning assembly, tooling, quality, and delivery",
+    "Build and qualify fixtures, calibration equipment, and production tests",
+    "Use yield, cycle-time, and failure data to find production constraints and verify corrective actions",
+    "Improve designs for manufacturing",
+    "Establish repair, rework, and requalification processes"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,60 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, AI/ML, Google Lens",
+  "job_slug": "swe-ai-ml-lens",
+  "match_pct": 66.7,
+  "missing_skills": [
+    "Java",
+    "reinforcement learning",
+    "telemetry systems",
+    "event logging",
+    "applying statistics in production software",
+    "LLM-as-a-Judge grading",
+    "A/B testing / experimentation infrastructure",
+    "holdouts",
+    "product KPIs"
+  ],
+  "adjacent_skills": {
+    "ML infrastructure": "SLURM-managed HPC training, TensorRT/ONNX deployment pipelines",
+    "automated data pipelines": "LeRobot-structured dataset generation, ASR data processing",
+    "system architecture / API design": "Flask + Flask-SocketIO + WebSocket backends",
+    "generative AI / prompt engineering": "GPT-2 from scratch, TinyLlama, BPE tokenizers, HellaSwag/GSM8K eval",
+    "multimodal interfaces": "SmolVLA VLA model, DONUT VisionEncoderDecoder, ZoeDepth + YOLO fusion"
+  },
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "ML infrastructure",
+    "automated data pipelines",
+    "model evaluation",
+    "telemetry",
+    "event logging",
+    "model optimization",
+    "data processing",
+    "multimodal",
+    "conversational AI",
+    "generative AI",
+    "prompt engineering",
+    "synthetic data generation",
+    "LLM-as-a-Judge",
+    "A/B testing",
+    "API design",
+    "data structures and algorithms",
+    "large-scale systems",
+    "production debugging"
+  ],
+  "key_responsibilities": [
+    "Build automated evaluation and telemetry pipelines for conversational AI systems in Python/C++/Java",
+    "Design and code reviews in a cross-functional environment",
+    "Contribute to documentation and educational content",
+    "Triage, debug, and resolve production quality issues in conversational systems",
+    "Implement solutions in specialized ML areas, use ML infrastructure, contribute to model optimization and data processing"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

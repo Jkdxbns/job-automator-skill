@@ -1,0 +1,154 @@
+{
+  "company": "HP",
+  "company_slug": "hp",
+  "role": "Software Product Security Engineer - HP IQ",
+  "job_slug": "software-product-security-engineer-hp-iq",
+  "match_pct": 31.4,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 22,
+    "jd_ask_size": 35,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "embedded systems",
+    "firmware",
+    "Linux",
+    "debugging",
+    "testing",
+    "code review",
+    "source control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "application sandboxing",
+      "you_have": "non-root isolation (service hardening)"
+    },
+    {
+      "jd_skill": "access control",
+      "you_have": "non-root isolation (service hardening)"
+    },
+    {
+      "jd_skill": "key management",
+      "you_have": "environment-based secrets/config separation"
+    },
+    {
+      "jd_skill": "IoT",
+      "you_have": "Bluetooth, Jetson/edge devices"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "AOSP",
+    "Windows",
+    "secure boot",
+    "cryptography",
+    "device identity",
+    "authentication",
+    "PKI",
+    "TrustZone",
+    "TEE",
+    "Android Verified Boot",
+    "Keystore",
+    "SELinux",
+    "secure elements",
+    "TPM",
+    "biometric systems",
+    "threat modeling",
+    "vulnerability analysis",
+    "secure coding",
+    "GDPR",
+    "CCPA",
+    "ISO"
+  ],
+  "top_ats_keywords": [
+    "secure boot",
+    "cryptography",
+    "PKI",
+    "TrustZone",
+    "TEE",
+    "AOSP",
+    "SELinux",
+    "Keystore",
+    "TPM",
+    "threat modeling",
+    "embedded",
+    "firmware",
+    "C/C++",
+    "Java",
+    "Linux"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Java",
+    "embedded systems",
+    "firmware",
+    "Linux",
+    "AOSP",
+    "Windows",
+    "secure boot",
+    "cryptography",
+    "authentication",
+    "access control",
+    "PKI",
+    "application sandboxing",
+    "debugging",
+    "testing",
+    "code review",
+    "source control"
+  ],
+  "preferred_skills": [
+    "TrustZone",
+    "TEE",
+    "Android Verified Boot",
+    "Keystore",
+    "SELinux",
+    "secure elements",
+    "TPM",
+    "biometric systems",
+    "threat modeling",
+    "vulnerability analysis",
+    "secure coding",
+    "IoT",
+    "GDPR",
+    "CCPA",
+    "ISO"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "secure boot, key management, encryption, device identity",
+    "TrustZone/TEE/kernel-level security",
+    "secure device-to-service channels",
+    "threat modeling and vulnerability analysis",
+    "secure SDLC"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

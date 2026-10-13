@@ -1,0 +1,117 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Senior Software Engineer",
+  "job_slug": "senior-software-engineer",
+  "match_pct": 38.5,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 13,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ systems programming experience",
+    "Linux environments and low-level interactions"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Operating systems, networking, concurrency",
+      "you_have": "Embedded RTOS / low-level networking"
+    },
+    {
+      "jd_skill": "Memory management",
+      "you_have": "GPU/embedded memory management concepts"
+    },
+    {
+      "jd_skill": "Highly available, high-performance systems",
+      "you_have": "Performance benchmarking"
+    },
+    {
+      "jd_skill": "Debugging and performance optimization",
+      "you_have": "Kernel optimization and benchmarking"
+    },
+    {
+      "jd_skill": "Distributed / high-performance computing",
+      "you_have": "HPC cluster / MPI systems"
+    },
+    {
+      "jd_skill": "Safety-critical autonomous / industrial control",
+      "you_have": "Robotics / edge AI perception"
+    }
+  ],
+  "missing_skills": [
+    "Rust (required; role is written primarily in Rust)",
+    "Rust in production (preferred)",
+    "Rail control systems knowledge (preferred)",
+    "Docker / Kubernetes / containerized environments (preferred)",
+    "Cloud-based architectures (preferred)"
+  ],
+  "top_ats_keywords": [
+    "Rust",
+    "C",
+    "C++",
+    "systems programming",
+    "Linux",
+    "networking",
+    "concurrency",
+    "distributed systems",
+    "high-performance",
+    "low-latency",
+    "memory management",
+    "debugging",
+    "performance optimization",
+    "backend",
+    "fault-tolerant"
+  ],
+  "required_skills": [
+    "C/C++ systems programming",
+    "Rust (primary development language)",
+    "Operating systems, networking, concurrency",
+    "Linux, low-level system interactions, memory management",
+    "Highly available high-performance systems",
+    "Debugging and performance optimization for complex distributed systems"
+  ],
+  "preferred_skills": [
+    "Rust production experience",
+    "Safety-critical: autonomous vehicles / industrial control / aerospace",
+    "Rail control systems",
+    "Docker, Kubernetes, containerized environments",
+    "Cloud-based architectures"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and implement high-performance low-latency backend systems for critical train control",
+    "Develop and maintain system-level software written primarily in Rust",
+    "Optimize codebases for scalability, performance, and reliability",
+    "Architect fault-tolerant and distributed systems with cross-functional teams",
+    "Performance profiling, debugging, and system diagnostics for complex issues"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,57 @@
+{
+  "company": "Ford Motor Company",
+  "company_slug": "ford",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-sw-eng-sunrise",
+  "match_pct": 100,
+  "have_skills": [
+    "C (bare-metal STM32)",
+    "Embedded software (STM32/Jetson/RPi)",
+    "Hardware systems (I2C/SPI/UART/PCB)",
+    "Time-critical software (FreeRTOS/interrupt-driven)",
+    "Linux",
+    "Multi-threaded (FreeRTOS/MPI)",
+    "C++",
+    "SPI/UART/I2C",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "Object-oriented programming",
+      "you_have": "C++, Python (OOP-capable)"
+    },
+    {
+      "jd_term": "Ethernet",
+      "you_have": "TCP/WebSocket networking (application layer)"
+    }
+  ],
+  "missing_skills": [
+    "QNX (niche RTOS \u2014 not required, preferred only)"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "embedded",
+    "FreeRTOS",
+    "UART/I2C/SPI",
+    "Linux",
+    "C++",
+    "Python",
+    "time-critical"
+  ],
+  "key_responsibilities": [
+    "Device-side code for hardware testing",
+    "Local and remote team collaboration",
+    "Time-critical embedded software development"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "sponsorship_flag": "CONTRADICTORY \u2014 JD says both 'does not support' AND 'is available'. Verify with recruiter before applying.",
+  "experience_flag": "OK \u2014 6+ months embedded required (internship allowed); Justin has 7 internships",
+  "degree_flag": "OK \u2014 CE degree required (NOT CS/SWE); M.S. CE from RIT qualifies",
+  "location_flag": "Sunrise, FL \u2014 relocation required; willing_to_relocate = true",
+  "clearance_flag": "None required",
+  "hard_blocker_triggered": false
+}

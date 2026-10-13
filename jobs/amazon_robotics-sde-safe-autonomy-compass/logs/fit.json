@@ -1,0 +1,154 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Robotics SDE, Safe Autonomy, Compass",
+  "job_slug": "robotics-sde-safe-autonomy-compass",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.45,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS/ROS2",
+    "Embedded platforms (STM32/FreeRTOS)",
+    "Robotic systems software",
+    "Version control (Git)",
+    "Simulation environments (CARLA)",
+    "RL/foundation model deployment on robots (LeRobot/VLA)",
+    "Motion planning/perception/control integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Safety-critical applications",
+      "you_have": "Embedded real-time systems (FreeRTOS, STM32 bare-metal)"
+    },
+    {
+      "jd_skill": "Real-time communication frameworks",
+      "you_have": "UART/I2C/SPI + FreeRTOS real-time tasking"
+    },
+    {
+      "jd_skill": "Software abstractions/APIs/HALs for multi-platform deployment",
+      "you_have": "API design experience, no formal HAL"
+    },
+    {
+      "jd_skill": "RTOS / safety-rated firmware (IEC 61508, ISO 13849)",
+      "you_have": "FreeRTOS/RTOS experience, not safety-certified"
+    },
+    {
+      "jd_skill": "Multiple robot morphologies (mobile, legged)",
+      "you_have": "Robotic arm (UR5e) experience, no legged/mobile base"
+    }
+  ],
+  "missing_skills": [
+    "CI/CD pipelines",
+    "Automated/integration testing strategy",
+    "Control barrier functions",
+    "Formal safety verification methods"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "real-time",
+    "safety-critical",
+    "RTOS",
+    "CI/CD",
+    "APIs",
+    "HAL",
+    "control barrier functions",
+    "simulation"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Robotic systems / embedded platforms",
+    "Safety-critical applications",
+    "ROS/ROS2",
+    "Real-time communication frameworks",
+    "Software abstractions/APIs/HALs for multi-platform deployment",
+    "CI/CD",
+    "Automated testing",
+    "Version control"
+  ],
+  "preferred_skills": [
+    "Master's/PhD in Robotics/CS/Controls",
+    "Motion planners/perception/control integration on physical robots",
+    "Control barrier functions",
+    "Formal safety verification methods",
+    "RTOS / safety-rated firmware (IEC 61508, ISO 13849)",
+    "Multiple robot morphologies (mobile, arm, legged)",
+    "RL or foundation model deployment on robots",
+    "Simulation environments"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Integration layer for safety modules across robot platforms",
+    "Abstractions/APIs decoupling safety logic from hardware",
+    "Collaborate with motion planning/perception/controls teams",
+    "Interfaces to safety-rated firmware/hardware",
+    "Architect fleet-scale production software",
+    "C++/Python real-time robotics code",
+    "Simulation-based validation pipelines",
+    "Mentor junior engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Pasadena, CA / North Reading, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Real-time C++/Python across FreeRTOS+STM32 (Object Tracking Turret) and Arduino bare-metal IK (COFFIN) directly evidences real-time robotics applications in C++/Python",
+      "ROS2/MoveIt motion-planning depth: hand-derived DH tables and forward kinematics for UR5e+AL5B, validated in RViz/MoveIt, backs integrating software with motion planners on physical robots",
+      "CARLA simulation-based validation pipeline (zero-collision, multi-agent Town02 runs) directly backs simulation-based validation pipelines to verify behavior",
+      "COFFIN dual ToF contact-aware grasping (range-gate + gripper-close interlock) and 3-layer distributed architecture (Flutter/Flask-SocketIO/Jetson+Arduino over WebSocket) shows genuine platform-abstraction and safety-interlock design instinct, even though never labeled HAL or safety-rated"
+    ],
+    "real_gaps": [
+      "No certified/rated safety firmware experience (IEC 61508, ISO 13849) - all safety-adjacent work (ToF interlocks, collision-free trajectories) is ad hoc, not to a functional-safety standard",
+      "No control barrier functions or formal safety verification methods anywhere in the profile",
+      "No fleet-scale or production-deployment experience - every project is capstone/research/competition scope, not software running across a large deployed fleet",
+      "No legged-robot or mobile-base experience - arm manipulators and a fixed turret only",
+      "No explicit CI/CD pipeline experience in the profile"
+    ],
+    "overstated_by_keywords": [
+      "Safety-critical applications - keyword pass counts FreeRTOS/embedded broadly, but none of it was built to an actual safety standard or certification"
+    ],
+    "understated_by_keywords": [
+      "COFFIN systemd-service deployment (auto-restart, non-root isolation, env-based config) and WebSocket abstraction across three heterogeneous platforms is real multi-platform integration engineering the keyword pass did not credit"
+    ],
+    "screening_gaps": [
+      "No fleet-scale/production software experience - this role is explicitly about scaling across millions of deployed robots; every profile project is capstone/research scope",
+      "No functional-safety or safety-certification background (IEC 61508/ISO 13849, control barrier functions) - the role's entire premise is safety-rated integration",
+      "0 years full-time professional experience against a 3+ year bar that includes leading architecture decisions and mentoring junior engineers - a new-grad vs a mid-level expectation"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Strong technical overlap on the mechanics (real-time embedded C++/Python, ROS2 motion planning, simulation validation, sensor-driven safety interlocks) but the role's actual center of gravity is functional-safety certification and fleet-scale production software, neither of which the profile evidences at all. Combined with a 3+ year mid-level bar against 0 years full-time, this reads as a stretch application rather than a strong match.",
+    "calibration_delta": 8.0
+  }
+}

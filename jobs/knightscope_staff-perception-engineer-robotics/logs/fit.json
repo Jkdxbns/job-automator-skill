@@ -1,0 +1,140 @@
+{
+  "company": "Knightscope",
+  "company_slug": "knightscope",
+  "role": "Staff Perception Engineer \u2013 Robotics",
+  "job_slug": "staff-perception-engineer-robotics",
+  "match_pct": 52.1,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 24,
+    "req_cov": 0.853,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "CUDA",
+    "TensorRT",
+    "ONNX",
+    "ROS2",
+    "CARLA",
+    "Transformers",
+    "CNNs",
+    "Object detection"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D computer vision",
+      "you_have": "depth estimation / OpenCV"
+    },
+    {
+      "jd_skill": "multi-object tracking",
+      "you_have": "visual servoing / tracking"
+    },
+    {
+      "jd_skill": "VLM",
+      "you_have": "VisionEncoderDecoder / SmolVLA engine"
+    },
+    {
+      "jd_skill": "multi-view geometry",
+      "you_have": "image mosaicing / calibration"
+    },
+    {
+      "jd_skill": "production deployment",
+      "you_have": "Jetson edge AI deployment"
+    }
+  ],
+  "missing_skills": [
+    "LiDAR 3D detection",
+    "point cloud processing",
+    "sensor fusion",
+    "BEV",
+    "Isaac Sim",
+    "ReID",
+    "ALPR",
+    "evidence integrity",
+    "VLA"
+  ],
+  "top_ats_keywords": [
+    "LiDAR",
+    "point cloud",
+    "sensor fusion",
+    "BEV",
+    "TensorRT",
+    "ONNX",
+    "CUDA",
+    "C++",
+    "Python",
+    "ROS2",
+    "CARLA",
+    "Isaac",
+    "multi-object tracking",
+    "VLM",
+    "ReID",
+    "ALPR"
+  ],
+  "required_skills": [
+    "3D computer vision",
+    "LiDAR 3D object detection",
+    "point cloud processing",
+    "multi-view geometry",
+    "sensor fusion",
+    "CNNs",
+    "Transformers",
+    "TensorRT",
+    "ONNX",
+    "CUDA",
+    "C++",
+    "Python",
+    "ROS2",
+    "CARLA",
+    "Isaac",
+    "multi-object tracking",
+    "production deployment"
+  ],
+  "preferred_skills": [
+    "VLM",
+    "VLA",
+    "ALPR",
+    "ReID",
+    "face recognition",
+    "evidence integrity",
+    "MS"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "3D perception models",
+    "ML pipeline TensorRT/CUDA edge deploy",
+    "cross-sensor identity tracking",
+    "evidence capture",
+    "VLM integration",
+    "technical leadership"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Sunnyvale, CA (on-site, no relocation)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

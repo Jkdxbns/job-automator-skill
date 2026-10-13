@@ -1,0 +1,74 @@
+{
+  "company": "Motional",
+  "company_slug": "motional",
+  "role": "Perception Engineer",
+  "job_slug": "perception-engineer",
+  "job_url": "https://motional.com/open-positions?gh_jid=7826405003#/7826405003",
+  "match_pct": 92.3,
+  "missing_skills": [
+    "CI/CD pipelines",
+    "2 years automotive-industry software development"
+  ],
+  "adjacent_skills": [
+    "production-level software development",
+    "testing/debugging algorithms"
+  ],
+  "top_ats_keywords": [
+    "Perception",
+    "TensorRT",
+    "CUDA",
+    "PyTorch",
+    "C++",
+    "Python",
+    "GPU training",
+    "inference optimization",
+    "model deployment",
+    "robotics integration and validation",
+    "machine learning",
+    "Git",
+    "CI/CD",
+    "autonomous vehicles"
+  ],
+  "key_responsibilities": [
+    "Design, develop, implement and fix features in codebase",
+    "Train and deploy new AI models",
+    "Analyze model performance and identify improvements",
+    "Research/evaluate emerging technologies to enhance AI models",
+    "Prototype, evaluate, implement and iterate on solutions",
+    "Formulate problems, architect solutions, design processes"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA; Remote U.S. only",
+  "salary_range": "$165,000 - $197,698",
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "clearance_required": false,
+  "sponsorship_mentioned": false,
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "TensorRT/CUDA inference optimization is real depth, not a keyword: COFFIN capstone hit 5.2x YOLO speedup (56.7 -> 10.9 ms) and the VGG16 project hand-wrote coalesced CUDA C++ conv kernels beating TorchScript CPU by ~35%.",
+      "Model deployment on constrained hardware is genuinely demonstrated: Jetson YOLO, ONNX/TFLite export at Tusk, 8-bit quantization on TinyLlama with <1% accuracy loss.",
+      "Robotics integration and validation is backed by physical hardware: UR5e collision-free pick-and-place via ROS 2 driver, AL5B <2mm repeatability, 100% pick reliability over 10 trials after resolving 11 integration failures.",
+      "Autonomous-driving domain exposure exists via the CARLA project (~5,000 YOLO + ~3,000 UFLD frames from semantic segmentation and raycast occlusion filtering)."
+    ],
+    "real_gaps": [
+      "The binding requirement is 'Two years of industry experience in automotive industry software development.' Justin has 0 years full-time and no automotive employer. This is a stated minimum, not a preference.",
+      "No CI/CD pipeline experience anywhere in the profile. GitLab and Git are version control, not pipelines.",
+      "'Production-level software development' is unmet in the literal sense. Every entry is an internship, research fellowship, or academic project. Nothing shipped to a fleet or on-call service.",
+      "Perception here means AV perception at scale (multi-sensor, fleet data, large-scale training). Justin's perception work is single-camera object detection and monocular depth on desk-scale robots.",
+      "The posting has the structural hallmarks of a PERM labor-certification ad: a 'Ref. No. N322' printed twice, generic filler duties ('Connect/drive project-level impact through technology solutions..'), and a 'Requires... Experience must include:' enumerated qualification list. That format is written to match one specific incumbent already in the seat."
+    ],
+    "overstated_by_keywords": [
+      "GPU training \u2014 SLURM cluster coursework and single-model fine-tuning, not multi-GPU distributed training at AV data scale.",
+      "Machine learning applications \u2014 broad but shallow across many one-off projects rather than sustained ownership of a model in production.",
+      "Testing/debugging algorithms \u2014 real debugging happened (the 11 COFFIN integration failures) but there is no formal test infrastructure or regression suite anywhere."
+    ],
+    "reasoning": "On skills alone this is one of the closest keyword matches in the pipeline: TensorRT, CUDA, PyTorch, C++, Python, model deployment and robotics integration are all genuinely backed by hardware projects rather than name-dropped. The blocker is not skill, it is shape. The req asks for two years of automotive-industry software development at a $165k-$198k band, and the posting reads like a green-card labor-certification ad rather than an open search. Skills say yes, the hiring gate says this is not a new-grad seat."
+  }
+}

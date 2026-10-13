@@ -1,0 +1,165 @@
+{
+  "company": "Smile",
+  "company_slug": "smile",
+  "role": "Embedded Software Engineer MCU & RTOS \u2013 Zephyr / FreeRTOS",
+  "job_slug": "embedded-mcu-rtos",
+  "match_pct": 38.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 15,
+    "jd_ask_size": 27,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "FreeRTOS",
+    "STM32",
+    "UART",
+    "SPI",
+    "I2C",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motor control",
+      "you_have": "PWM Motor Control, closed-loop feedback"
+    },
+    {
+      "jd_skill": "low-level drivers",
+      "you_have": "bare-metal STM32 C"
+    },
+    {
+      "jd_skill": "Yocto/Buildroot",
+      "you_have": "Linux, systemd"
+    }
+  ],
+  "missing_skills": [
+    "Zephyr",
+    "BLDC",
+    "stepper",
+    "CAN",
+    "fieldbus",
+    "Microchip",
+    "NXP",
+    "GCC",
+    "STM32CubeIDE",
+    "Keil",
+    "IAR",
+    "J-Link",
+    "ST-Link",
+    "V-model",
+    "Agile"
+  ],
+  "top_ats_keywords": [
+    "Zephyr",
+    "FreeRTOS",
+    "STM32",
+    "motor control",
+    "BLDC",
+    "CAN",
+    "fieldbus",
+    "oscilloscope",
+    "logic analyzer",
+    "J-Link",
+    "ST-Link"
+  ],
+  "required_skills": [
+    "C/C++",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "STM32",
+    "motor control",
+    "BLDC",
+    "stepper",
+    "UART",
+    "SPI",
+    "I2C",
+    "CAN"
+  ],
+  "preferred_skills": [
+    "fieldbus",
+    "oscilloscope",
+    "logic analyzer",
+    "GCC",
+    "STM32CubeIDE",
+    "Keil",
+    "IAR",
+    "J-Link",
+    "ST-Link",
+    "Microchip",
+    "NXP",
+    "V-model",
+    "Agile",
+    "Yocto",
+    "Buildroot"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "MCU architecture",
+    "Zephyr/FreeRTOS apps",
+    "low-level drivers",
+    "motor control algorithms",
+    "industrial protocols",
+    "hardware-level validation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Europe (Smile, France; not stated in JD)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4 and FreeRTOS from CMPE 663 RTOS coursework projects, the core MCU and RTOS ask",
+      "UART/I2C/SPI sensor links with closed-loop feedback and quadrature encoders on ARC robots and COFFIN (TCA9548A I2C mux, Arduino servo control)",
+      "Oscilloscope and logic analyzer bench validation, matching the 'close to the hardware' requirement"
+    ],
+    "real_gaps": [
+      "No Zephyr",
+      "No BLDC or stepper work with a backing bullet (just added to skills only; evidence is PWM servo and DC drive)",
+      "No CAN or fieldbus",
+      "No Microchip/NXP, Keil/IAR, J-Link/ST-Link tooling",
+      "No V-model/Agile process evidence",
+      "Seniority: 4+ years with significant motor-control background vs 0 years full-time"
+    ],
+    "overstated_by_keywords": [
+      "motor control counted Adjacent from PWM/servo work, which is far from BLDC commutation or stepper drive"
+    ],
+    "understated_by_keywords": [
+      "Linux, systemd and Jetson bridge work is mild support for the Yocto/Buildroot interest, but not core to the role"
+    ],
+    "screening_gaps": [
+      "No demonstrable BLDC/stepper motor-control experience, the JD's stated differentiator",
+      "No Zephyr and no CAN/fieldbus",
+      "4+ years embedded experience required vs 0 years full-time"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Core MCU, RTOS and serial-protocol skills are genuinely backed, but the role centres on motor control, Zephyr and CAN, which have no real evidence. Fit is a partial skills overlap with the headline requirement unmet.",
+    "calibration_delta": -5.1
+  },
+  "semantic_pending": false
+}

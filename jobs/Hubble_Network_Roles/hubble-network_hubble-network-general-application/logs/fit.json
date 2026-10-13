@@ -1,0 +1,73 @@
+{
+  "company": "Hubble Network",
+  "company_slug": "hubble-network",
+  "role": "Hubble Network General Application",
+  "job_slug": "hubble-network-general-application",
+  "match_pct": 21.4,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 7,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Bluetooth / BLE"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IoT / embedded connectivity",
+      "you_have": "Embedded C/C++ bare-metal (STM32 Cortex-M4)"
+    }
+  ],
+  "missing_skills": [
+    "satellite communications",
+    "network-scale endpoint connectivity",
+    "modem-less/gateway-less direct-to-satellite architecture",
+    "maritime / logistics / AgTech domain knowledge",
+    "specific production-system ownership for a defined engineering role"
+  ],
+  "top_ats_keywords": [
+    "IoT",
+    "Bluetooth Low Energy",
+    "satellite",
+    "machine-to-machine connectivity",
+    "modem-less",
+    "gateway-less",
+    "logistics",
+    "AgTech",
+    "maritime"
+  ],
+  "required_skills": [],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "No specific role defined\u2014general application for future consideration"
+  ],
+  "role_category": "other",
+  "location": "Remote, Seattle, Washington, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

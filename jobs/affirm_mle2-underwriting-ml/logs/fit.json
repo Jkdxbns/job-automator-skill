@@ -1,0 +1,39 @@
+{
+  "company": "Affirm",
+  "company_slug": "affirm",
+  "role": "Machine Learning Engineer II (Underwriting ML)",
+  "job_slug": "mle2-underwriting-ml",
+  "match_pct": 60,
+  "missing_skills": [
+    "Gradient boosted decision trees (LightGBM/XGBoost/CatBoost)",
+    "ML lifecycle tooling (Kubeflow/Airflow/MLflow)"
+  ],
+  "adjacent_skills": [
+    "Distributed/parallel compute (SLURM/MPI) -> Spark/Ray/Dask"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "classification models",
+    "production-quality code",
+    "distributed data processing",
+    "ML lifecycle tooling",
+    "model monitoring",
+    "feature pipelines",
+    "real-time decision systems"
+  ],
+  "key_responsibilities": [
+    "Develop underwriting prediction models for tabular and sequential data",
+    "Build and scale feature pipelines and training datasets",
+    "Prototype modeling ideas, run offline experiments, ship to production with risk controls",
+    "Productionize models into batch and real-time decision systems",
+    "Instrument and monitor model/data health, define retraining/backtesting workflows",
+    "Collaborate across Engineering, Risk Analytics, Product, ML Platform"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

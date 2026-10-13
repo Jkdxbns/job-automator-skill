@@ -1,0 +1,192 @@
+{
+  "company": "Applied Intuition",
+  "company_slug": "applied-intuition",
+  "role": "Robot Infrastructure Engineer - Collection Tooling",
+  "job_slug": "robot-infra-collection-tooling",
+  "match_pct": 38.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 8,
+    "missing_count": 12,
+    "jd_ask_size": 26,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "ROS 2",
+    "LeRobot",
+    "data collection tooling",
+    "coordinate frames",
+    "APIs"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "teleoperation",
+      "you_have": "COFFIN voice/vision-controlled arm"
+    },
+    {
+      "jd_skill": "human-in-the-loop tooling",
+      "you_have": "COFFIN voice-driven arm control"
+    },
+    {
+      "jd_skill": "sensor calibration",
+      "you_have": "software calibration on tap-detection (ADXL345)"
+    },
+    {
+      "jd_skill": "synchronized multimodal time-series",
+      "you_have": "multi-camera + ToF capture in COFFIN"
+    },
+    {
+      "jd_skill": "debugging data pipelines",
+      "you_have": "CARLA / BraTS data pipelines"
+    },
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "camera range-gate + ToF grasp trigger"
+    },
+    {
+      "jd_skill": "annotation tools",
+      "you_have": "custom annotated toothbrush dataset"
+    },
+    {
+      "jd_skill": "video and trajectory inspection tools",
+      "you_have": "Frame Simulator VisPy 3D viewer, PyQt GUI"
+    }
+  ],
+  "missing_skills": [
+    "automated tests",
+    "versioned schemas",
+    "data provenance",
+    "MCAP",
+    "HDF5",
+    "VR teleoperation",
+    "leader-follower systems",
+    "motion retargeting",
+    "haptics",
+    "takeover-based learning",
+    "dataset validation",
+    "coverage analysis"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "ROS 2",
+    "MCAP",
+    "LeRobot",
+    "HDF5",
+    "teleoperation",
+    "leader arm",
+    "VR",
+    "calibration",
+    "coordinate frames",
+    "data provenance",
+    "schemas",
+    "time-series",
+    "sensor fusion",
+    "data collection"
+  ],
+  "required_skills": [
+    "Python",
+    "data collection tooling",
+    "teleoperation",
+    "human-in-the-loop tooling",
+    "APIs",
+    "automated tests",
+    "versioned schemas",
+    "debugging data pipelines",
+    "synchronized multimodal time-series",
+    "coordinate frames",
+    "sensor calibration",
+    "data provenance"
+  ],
+  "preferred_skills": [
+    "ROS 2",
+    "MCAP",
+    "LeRobot",
+    "HDF5",
+    "VR teleoperation",
+    "leader-follower systems",
+    "motion retargeting",
+    "haptics",
+    "takeover-based learning",
+    "video and trajectory inspection tools",
+    "annotation tools",
+    "dataset validation",
+    "sensor fusion",
+    "coverage analysis"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "teleoperation and operator tools for leader arms/VR",
+    "episode workflows and human takeover",
+    "collection quality checks (frame drops, timestamp alignment)",
+    "partner data validation adapters",
+    "reproducible export to training formats",
+    "coverage dashboards",
+    "hardware testing and documentation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Sunnyvale, CA (on-site, 5 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Python plus real-hardware robotics validation: COFFIN arm (Jetson+Arduino, 10/10 pick reliability, 11 integration failures resolved incl. stale-frame capture)",
+      "LeRobot-structured multi-camera collection pipeline built with multiprocessing in COFFIN, the only direct hit on the role's core domain",
+      "Coordinate-frame fluency: Frame Simulator with SE(3) math engine, parent-child transform chains, live 4x4 inspection",
+      "Operator-facing GUI and data-viewer experience: PyQt/Matplotlib real-time acquisition GUI (BARC), VisPy 3D viewer, Flutter client",
+      "Coursework in Robot Perception and Principles of Robotics plus ROS2, UR5e, DH and IK exposure"
+    ],
+    "real_gaps": [
+      "No teleoperation work: no leader-follower arms, VR, action mapping or retargeting; COFFIN is voice-driven autonomy, not human teleop",
+      "No episode workflow, human takeover or success-label tooling",
+      "No data-quality tooling: frame-drop and timestamp-alignment checks, missing-signal detection, calibration validity",
+      "No versioned schemas, data provenance, partner-data validation or reproducible normalization/export; no MCAP or HDF5",
+      "No coverage analysis or collection-progress dashboards",
+      "No automated-test evidence anywhere in the profile for a role that lists tests as a requirement",
+      "No tooling built for other operators and observed failing in real use; COFFIN and Frame Simulator are single-author",
+      "Seniority note: 0 years full-time against an infrastructure role, though the JD says it values demonstrated work over title"
+    ],
+    "overstated_by_keywords": [
+      "LeRobot: one bullet about multi-camera frame capture, no evidence of episode schema, action recording or dataset export",
+      "coordinate frames: Frame Simulator is a visualizer, not hand-eye or extrinsic calibration on a real robot",
+      "sensor calibration: accelerometer jitter tuning, not camera or kinematic calibration",
+      "sensor fusion: ToF range-gating is a threshold trigger, not fusion",
+      "teleoperation: counted adjacent via COFFIN, but it replaces the operator rather than capturing one"
+    ],
+    "understated_by_keywords": [
+      "Gesture-recognition glove (Planctech): ADXL345 3-DoF hand motion mapped to HID commands in Python is a human input device with action mapping, the closest thing to an operator interface",
+      "COFFIN 'stale-frame capture' fix shows real timestamp/latency debugging on a live multi-sensor rig",
+      "BARC real-time data acquisition GUI is genuine operator-tool experience"
+    ],
+    "screening_gaps": [
+      "No teleop, leader-arm or VR tooling, which is the role's central deliverable",
+      "No data-quality pipeline work: timestamp sync, frame-drop detection, versioned schemas, provenance, MCAP/HDF5",
+      "No evidence of automated tests or tools shipped to other operators, so 'tooling used by other people' is unproven"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The JD is a data-infrastructure and teleop tooling role. The profile has one strong-adjacent project (COFFIN with a LeRobot-structured capture pipeline) and solid Python/ROS2/frame math, but the core deliverables (teleop interfaces, episode workflows, quality checks, schemas, provenance) have no direct backing. The gesture glove and stale-frame debugging are real but small signals, so the role's core is largely unevidenced.",
+    "calibration_delta": -5.5
+  }
+}

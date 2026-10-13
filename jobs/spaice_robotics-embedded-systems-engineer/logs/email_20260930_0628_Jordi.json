@@ -1,0 +1,22 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Robotics and Embedded Systems Engineer role at SPAICE",
+    "greeting": "Hi Jordi,",
+    "body": "I am Justin Mascarenhas. I have an M.S. in Computer Engineering from Rochester Institute of Technology. I applied for the Robotics and Embedded Systems Engineer role at SPAICE. Your computer vision models have to run somewhere reliable, and that is the side of the stack I would be working on.\n\nI have shipped vision to hardware before. I deployed a YOLO tracker with TensorRT on a Jetson for a live robotic control loop, and it ran far faster than the same model in eager PyTorch. At a research centre I used monocular depth estimation to profile cracks in metal surfaces. I also compressed a small language model with quantization to fit a tight memory budget, and wrote custom CUDA kernels for convolution. The role is about getting models like these onto new embedded platforms, which matches what I have been doing.\n\nI would appreciate the opportunity to discuss the role further, if your time allows. I can share my resume if that would be helpful.",
+    "sign_off": "Best,\nJustin Mascarenhas\nlinkedin.com/in/justinmascarenhas",
+    "word_count": 165,
+    "hook_used": "same domain: computer vision models (depth, detection) that must run on embedded hardware",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Jordi Carbonell",
+    "current_title": "Computer Vision Scientist",
+    "current_company": "SPAICE",
+    "target_email": null
+  },
+  "meta": {
+    "company": "SPAICE",
+    "role": "Robotics & Embedded Systems Engineer"
+  }
+}

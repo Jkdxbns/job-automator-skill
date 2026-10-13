@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "company": "Cisco",
+    "role": "Machine Learning Engineer",
+    "company_slug": "cisco",
+    "job_slug": "machine-learning-engineer-cx-ai-incubation"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience developing, fine-tuning, and deploying Large and Small Language Models. Built transformer architectures from scratch in PyTorch, compressed a 1.1B-parameter SLM by 55% with under 1% accuracy loss on HellaSwag, GSM8K, and ARC, and deployed generative AI and perception models into distributed services on edge hardware using TensorRT, ONNX, and Hugging Face tooling.",
+  "skills": {
+    "LLM / NLP / Generative AI": [
+      "Transformer architecture",
+      "LLM & SLM fine-tuning",
+      "Hugging Face Transformers",
+      "BPE / TikToken tokenization",
+      "Benchmark evaluation (HellaSwag, GSM8K, ARC)",
+      "Gemini API integration",
+      "ASR pipelines"
+    ],
+    "ML Frameworks & Model Optimization": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "8-bit quantization (LLM.int8)",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "Model evaluation",
+      "pynvml profiling"
+    ],
+    "Languages & Deployment": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Cython",
+      "Bash",
+      "Flask / WebSocket services",
+      "NVIDIA Jetson",
+      "Linux",
+      "Git",
+      "SLURM"
+    ],
+    "Computer Vision": [
+      "OpenCV",
+      "YOLOv8 / YOLO11n",
+      "U-Net segmentation",
+      "ZoeDepth depth estimation"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% by fine-tuning DONUT, an OCR-free vision-language transformer, on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using the Hugging Face VisionEncoderDecoder API; added domain-specific special tokens and resized the decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device deployment."
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones; validated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment.",
+        "Led a cross-functional team of 7 as the sole ML-experienced member, restructuring task distribution mid-project to deliver the full pipeline in a 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, profiling peak VRAM and inference latency with pynvml and psutil.",
+        "Benchmarked on HellaSwag, GSM8K, and ARC with under 1% accuracy degradation and +0.09 perplexity increase, quantifying model efficiency against task performance."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer normalization, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and a custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed a generative AI application across a three-layer distributed pipeline (mobile client, Flask-SocketIO edge server, Jetson controller) on a unified WebSocket fabric.",
+        "Integrated faster-whisper speech-to-text and Gemini LLM intent classification (under 500ms) with a TensorRT-optimized YOLO model (5.2x speedup, 56.7 ms to 10.9 ms); 100% task reliability over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

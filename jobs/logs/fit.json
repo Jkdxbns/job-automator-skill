@@ -1,0 +1,82 @@
+{
+  "company": "OnLogic",
+  "company_slug": "onlogic",
+  "job_title": "Firmware Engineer",
+  "job_slug": "firmware_engineer",
+  "match_pct": 61.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 8,
+    "missing_count": 4,
+    "jd_ask_size": 21,
+    "req_cov": 2.25,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "Assembly",
+    "Linux",
+    "ARM",
+    "Git",
+    "embedded firmware",
+    "version control",
+    "JTAG",
+    "device drivers"
+  ],
+  "missing_skills": [
+    "industrial PC",
+    "volume production",
+    "ARM64 SoC deep architecture",
+    "device trees"
+  ],
+  "adjacent_skills": [
+    "x86",
+    "UEFI",
+    "BIOS",
+    "MCU",
+    "schematics",
+    "logic analyzers",
+    "manufacturing",
+    "prototype validation"
+  ],
+  "top_ats_keywords": [
+    "ARM SoC",
+    "Linux device drivers",
+    "C",
+    "firmware",
+    "embedded",
+    "MCU",
+    "Git",
+    "x86 UEFI"
+  ],
+  "key_responsibilities": [
+    "ARM firmware development",
+    "Linux device driver porting",
+    "x86 UEFI customization",
+    "prototype validation",
+    "manufacturing build support"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": "Sponsorship: JD states 'without visa sponsorship' \u2014 F-1 OPT requires sponsorship. A2.5 prescreen didn't flag citizenship phrases, but sponsorship policy makes this ineligible.",
+  "constraint_flags": {
+    "sponsorship": {
+      "mentioned": false,
+      "offered": false,
+      "blocked": true,
+      "reason": "JD says 'Ability to work in the U.S. without visa sponsorship.' Justin requires H-1B sponsorship (F-1 OPT)."
+    },
+    "clearance": false,
+    "location_remote": false,
+    "experience_years": 2
+  }
+}

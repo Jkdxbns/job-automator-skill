@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "company": "Stripe",
+    "role": "Machine Learning Engineer, Radar",
+    "company_slug": "stripe",
+    "job_slug": "mle-radar"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built, trained and evaluated PyTorch deep learning models across vision, speech and language, including a DONUT fine-tune that lifted validation accuracy from 55% to 93%. Handled model deployment and real-time low-latency inference with ONNX, TFLite and TensorRT (5.2\u00d7 speedup), backed by rigorous model evaluation and benchmarking.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Deep Learning",
+      "Model evaluation",
+      "Hugging Face Transformers",
+      "Quantization (8-bit)",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "YOLO",
+      "pynvml Profiling"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C/C++",
+      "Cython",
+      "Git",
+      "GitLab",
+      "Flask",
+      "Linux"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% by fine-tuning DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built PyTorch model training and preprocessing pipelines with the HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized the decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images, achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile model deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19 and ResNet-50 backbones; evaluated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment.",
+        "Engineered a BraTS 2020 MRI data pipeline with augmentation and batch-loading memory management for 3D volumetric inputs."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Cut YOLO inference from 56.7 to 10.9 ms (5.2\u00d7 speedup, 17.6\u219292 FPS vs eager PyTorch) with TensorRT for real-time, low-latency visual servoing in a voice-controlled pick-and-place system.",
+        "Integrated faster-whisper STT (1.0\u20131.4s) and Gemini intent classification (<500ms) over a Flask-SocketIO edge server; resolved 11 integration failures and achieved 100% pick reliability (10/10 trials)."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory ~55% with 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency with pynvml and psutil.",
+        "Benchmarked on HellaSwag, GSM8K and ARC: <1% accuracy degradation with +0.09 perplexity increase."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end Whisper-style ASR pipeline (80-channel mel encoder, 4-block causal Transformer decoder) in PyTorch, achieving 15% WER on 1,000 Indian-English samples.",
+        "Designed a custom BPE tokenizer with a Cython backend, 4\u20135.5\u00d7 faster than pure Python (6M characters in 15 minutes)."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch with multi-head self-attention, early stopping and perplexity evaluation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Random Signal Analysis",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

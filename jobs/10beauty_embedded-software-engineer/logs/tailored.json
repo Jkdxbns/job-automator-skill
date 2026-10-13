@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "10Beauty",
+    "role": "Embedded Software Engineer",
+    "company_slug": "10beauty",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with embedded systems experience across STM32, Jetson (Linux), and Raspberry Pi. Built FreeRTOS firmware, interrupt-driven UART bridges between Linux boards and microcontrollers, bare-metal C I2C/ADC drivers, and C++ ESC/servo control; deployed production Linux systemd services and resolved 11+ hardware-software integration failures on cross-functional robotics products.",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "CMake"
+    ],
+    "Embedded": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Bluetooth (BLE/Classic)",
+      "EAGLE PCB Design"
+    ],
+    "Robotics & Control": [
+      "ROS/ROS2",
+      "PWM servo/ESC control",
+      "Visual servoing",
+      "Forward kinematics",
+      "YOLO"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "Proteus",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "LibTorch (C++)"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed sensor integration firmware on Raspberry Pi (Linux) combining ADXL345 accelerometers and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands; debugged sensor jitter via z-axis differential thresholding and oscilloscope-guided calibration."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated single-layer PCBs in EAGLE for autonomous locomotive robots; implemented UART and I2C sensor communication with closed-loop feedback for actuator control.",
+        "Led cross-functional team of 25 (mechanical, electronics, software) across national-level competitions, owning hardware integration and PCB fabrication end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Bridged NVIDIA Jetson (Linux, YOLOv8) and STM32 over UART: Jetson serializes target coordinates; STM32 parses interrupt-driven commands and drives multi-servo PWM in real time.",
+        "Implemented FreeRTOS task architecture with mutex-protected shared memory between UART handler and servo control tasks; integrated VL53L0X ToF over I2C with OLED distance feedback."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Delivery Drone",
+      "date": null,
+      "bullets": [
+        "Wrote and deployed a Linux systemd service on Jetson Orin Nano: SIGTERM/SIGINT handling, WebSocket auto-reconnect loop, keepalive daemon thread, and serial passthrough to Arduino hardware.",
+        "Implemented Arduino flight controller in C++: clamped PWM throttle mapping to 4\u00d7 SimonK ESCs, Bluetooth command parser with arming sequence, and per-motor override logic."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed all peripherals in bare-metal C without HAL abstraction (GPIO, TIM2, ADC1, I2C1); implemented timer-triggered ADC scan, interrupt-driven sample capture, and a custom low-level I2C driver.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified timing and signal integrity in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link IK solver on Arduino in C++; drove 5 servos with range-gated contact detection via TCA9548A I2C multiplexer and dual VL53L0X ToF sensors.",
+        "Debugged 11 hardware-software integration failures (servo crosstalk, depth error, false detections); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Executed collision-free pick-and-place on physical UR5e via UR ROS 2 driver; AL5B repeatability <2mm over 10 trials.",
+        "Derived DH tables and FK chains for 6-DoF UR5e and 5-DoF AL5B; validated in ROS 2 Humble and ROS Noetic against MoveIt."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": []
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

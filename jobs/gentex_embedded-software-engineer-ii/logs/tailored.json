@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "company": "Gentex Corporation",
+    "role": "Embedded Software Engineer II",
+    "company_slug": "gentex",
+    "job_slug": "embedded-software-engineer-ii"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology with embedded software experience across STM32 Cortex-M4, Arduino, and NVIDIA Jetson platforms. Skilled in C and C++, bare-metal firmware, FreeRTOS task coordination, and low-level UART and I2C driver development for camera and sensor bring-up, carried from requirements and architecture through integration testing and hardware verification.",
+  "skills": {
+    "Languages": ["C", "C++", "Embedded C (bare-metal)", "Python"],
+    "Embedded & RTOS": ["STM32 Cortex-M4", "FreeRTOS (tasks, mutexes)", "Arduino / AVR", "NVIDIA Jetson", "Raspberry Pi", "Interrupt-driven I/O", "Timer-triggered ADC", "Multi-servo PWM"],
+    "Protocols & Drivers": ["UART", "I2C (hand-written driver)", "Bluetooth (BLE / Classic)", "USB-serial", "TCP / WebSocket", "TCA9548A I2C mux", "VL53L0X ToF", "ADXL345 IMU"],
+    "Hardware & Debug": ["EAGLE PCB design", "Proteus", "Oscilloscopes", "Logic analyzers", "Sensor bring-up & calibration", "Hardware/software integration debug"],
+    "Vision & Tools": ["OpenCV", "YOLOv8", "TensorRT", "Linux", "Git / GitLab", "Code review", "Cross-functional integration"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Built a wearable gesture-recognition glove integrating ADXL345 accelerometers with a Raspberry Pi and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands.",
+        "Implemented a tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member team across national competitions and ran 10+ technical workshops on Arduino and PCB design, mentoring junior members on embedded fundamentals."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline for microscopic crack analysis using custom image stitching, a wavelet denoising bank (PSNR 86), and monocular depth estimation at ±8% error."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1), with a hand-written I2C driver and timer-triggered ADC scans on interrupt-driven capture.",
+        "Achieved a 3.68 KB Flash / 1.58 KB RAM footprint at a deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Architected a three-layer embedded system: a Flask-SocketIO edge server, an NVIDIA Jetson vision client, and an Arduino C++ motion controller linked over WebSocket and USB-serial.",
+        "Brought up dual VL53L0X ToF sensors through a TCA9548A I2C mux for a camera range-gate and 25 mm gripper trigger; ran TensorRT-optimized YOLO at 5.2× over eager PyTorch (56.7 → 10.9 ms).",
+        "Debugged 11 hardware and software integration failures including false-positive detections, servo brown-out, and stale frames; validated 100% pick reliability over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

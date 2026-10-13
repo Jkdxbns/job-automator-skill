@@ -1,0 +1,126 @@
+{
+  "company": "DXC Technology",
+  "company_slug": "dxc-technology",
+  "role": "Forward Deployed Engineer \u2014 Cloud & Agentic AI",
+  "job_slug": "forward-deployed-engineer-cloud-agentic-ai",
+  "match_pct": 28.6,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 21,
+    "req_cov": 0.361,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "LLMs",
+    "REST APIs",
+    "English (professional)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FastAPI",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "AI agents",
+      "you_have": "Hugging Face Transformers / Gemini"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Networking",
+      "you_have": "Static IP / network configuration"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "React",
+    "Azure",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "RAG",
+    "MCP",
+    "Observability",
+    "Cloud security",
+    "Testing",
+    "Spanish (native)",
+    "Customer-facing experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "FastAPI",
+    "TypeScript",
+    "React",
+    "Azure",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "LLM",
+    "AI agents",
+    "RAG",
+    "MCP",
+    "Networking",
+    "Cloud security",
+    "Observability"
+  ],
+  "required_skills": [
+    "Python",
+    "FastAPI",
+    "TypeScript",
+    "React",
+    "Azure",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "LLMs",
+    "AI agents",
+    "RAG",
+    "MCP",
+    "REST APIs",
+    "Testing",
+    "Spanish (native)",
+    "English (professional)",
+    "Customer-facing experience"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 6,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Discover customer use cases and turn them into technical specs",
+    "Prototype and ship AI agents/automations (LLMs, RAG, MCP) to production",
+    "Embed with public cloud team (Kubernetes, Terraform, networking, security, observability)",
+    "Lead technical initiative across architecture, security, ops and business",
+    "Document reusable patterns"
+  ],
+  "role_category": "ml_systems",
+  "location": "Las Rozas, Madrid, Spain",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

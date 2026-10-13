@@ -1,0 +1,138 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Robot Perception Engineer",
+  "job_slug": "senior-robot-perception-engineer",
+  "match_pct": 52.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 25,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "MS degree in Computer Engineering (RIT, May 2026)",
+    "Python",
+    "C/C++",
+    "ROS/ROS2 (Humble + Noetic)",
+    "Embedded C / STM32 bare-metal",
+    "Sensor integration (ToF VL53L0X, I2C mux TCA9548A, Bluetooth, UART)",
+    "Robotics perception: YOLO, OpenCV, visual servoing, forward kinematics, DH parameters",
+    "End-to-end robotics projects (COFFIN arm, tracking turret, CARLA autonomous driving)",
+    "Hardware-close debugging and embedded deployment",
+    "Independent/project leadership (led 7-person research team, capstone lead)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "MS + 2+ years experience (or BS + 4+)",
+      "you_have": "MS (new-grad May 2026) with 7 internships/research projects but 0 full-time industry years; experience is applied/research, not full-time professional"
+    },
+    {
+      "jd_skill": "SLAM / localization / mapping",
+      "you_have": "Some mapping/research (image stitching, monocular depth estimation, ROS RViz/MoveIt), but no dedicated SLAM/VIO/LIO pipeline built or deployed professionally"
+    },
+    {
+      "jd_skill": "Field robotics perception deployment (not just sim)",
+      "you_have": "Real robot deployments (COFFIN arm, tracking turret, CARLA sim), but not in unstructured off-road/field conditions; field validation at industrial/federal scale missing"
+    },
+    {
+      "jd_skill": "Sensor fusion (LiDAR + camera + RADAR + inertial)",
+      "you_have": "Multi-sensor work (ToF + camera + IMU-like + I2C/Bluetooth) in embedded/robotics contexts; no LiDAR or RADAR specifically; fusion is basic, not production-grade"
+    },
+    {
+      "jd_skill": "Custom sensor rig calibration",
+      "you_have": "Some calibration/integration experience (ToF sensors, I2C mux, multi-device embedded rigs) but not at stereo/thermal/multi-LiDAR custom-rig scale"
+    },
+    {
+      "jd_skill": "Production-level subsystem ownership / long-term maintenance",
+      "you_have": "Led capstone and research subsystems end-to-end; no multi-year production maintenance of a deployed autonomy perception stack in industry"
+    }
+  ],
+  "missing_skills": [
+    "2+ years full-time industry experience (candidate has 0 full-time years)",
+    "Dedicated SLAM implementation experience (VIO/LIO)",
+    "LiDAR sensor experience",
+    "RADAR sensor experience",
+    "Thermal / LWIR / multispectral sensing",
+    "Custom multi-LiDAR or stereo thermal sensor rig integration",
+    "Field robotics in unstructured/off-road/federal environments",
+    "Production deployment and maintenance at company/industrial scale",
+    "Security clearance (potential federal/ITAR implication for F-1 OPT)"
+  ],
+  "top_ats_keywords": [
+    "robot perception",
+    "localization",
+    "mapping",
+    "SLAM",
+    "LiDAR",
+    "RADAR",
+    "multispectral",
+    "sensor fusion",
+    "VIO",
+    "LIO",
+    "ROS2",
+    "ROS",
+    "C++",
+    "Python",
+    "autonomy",
+    "field robotics",
+    "embedded",
+    "calibration",
+    "sim-to-real",
+    "production deployment"
+  ],
+  "required_skills": [
+    "MS degree in related field with 2+ years experience (or BS with 4+ years)",
+    "Robot perception, localization, and mapping (SLAM) for real-world systems",
+    "Hands-on perception software development/deployment in field robotics (not just sim)",
+    "Modern robotics software: C++, Python",
+    "ROS/ROS2 based systems",
+    "Robot perception and state estimation (VIO, LIO, mapping, sensor fusion)",
+    "Ownership of complex subsystems: design through field deployment and maintenance",
+    "Hardware-close debugging: sensor data, calibration, real-world failures",
+    "Independent problem solving in fast-moving small teams"
+  ],
+  "preferred_skills": [
+    "Thermal, LWIR, or multispectral passive sensing experience",
+    "Integrating and calibrating custom sensor rigs (stereo, thermal, multi-LiDAR)"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, implement, maintain perception systems for autonomous robots in real-world/unstructured/off-road environments",
+    "Develop robust localization and mapping (SLAM) capabilities with continuous testing/field validation",
+    "Implement multi-sensor perception algorithms fusing LiDAR, camera, RADAR, and inertial data",
+    "Support integration of new sensing modalities and sensor configurations",
+    "Deploy perception algorithms on physical robots; debug on-robot/field failures; integrate with autonomy/controls/platform stacks",
+    "Improve system robustness, scalability, code quality, testing, metrics, regression monitoring across multiple robots/environments/missions",
+    "Collaborate across engineering/research/operations; communicate designs/tradeoffs; support field ops/customer demos"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": true,
+    "citizenship_flag": true,
+    "itar_flag": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

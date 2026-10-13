@@ -1,0 +1,133 @@
+{
+  "company": "Fortil (client undisclosed)",
+  "company_slug": "fortil",
+  "role": "Embedded Software Engineer (R&D)",
+  "job_slug": "embedded-software-engineer-modena",
+  "match_pct": 42.3,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 2,
+    "missing_count": 14,
+    "jd_ask_size": 26,
+    "req_cov": 0.444,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Embedded software",
+    "Unit testing",
+    "PID control",
+    "Sensor interface",
+    "Debugging",
+    "English",
+    "Python",
+    "Qt",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN bus",
+      "you_have": "COFFIN CAN modules (hardware, not in profile)"
+    },
+    {
+      "jd_skill": "Model-Based Design",
+      "you_have": "Simulink-free control work / state machines"
+    }
+  ],
+  "missing_skills": [
+    "J1939",
+    "CANopen",
+    "CANopen Safety",
+    "Functional Safety",
+    "MISRA",
+    "EN ISO 13849",
+    "IEC 61508",
+    "Automatic code generation",
+    "Vector CAN tools",
+    "CODESYS",
+    "XML",
+    "SVN",
+    "V-model",
+    "French"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "MISRA",
+    "Functional Safety",
+    "J1939",
+    "CANopen",
+    "CAN bus",
+    "Model-Based Design",
+    "PID",
+    "ISO 13849",
+    "IEC 61508",
+    "Vector",
+    "Unit testing",
+    "CODESYS",
+    "Qt",
+    "Git",
+    "Python"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Embedded software",
+    "CAN bus",
+    "J1939",
+    "CANopen",
+    "CANopen Safety",
+    "Functional Safety",
+    "MISRA",
+    "Unit testing",
+    "EN ISO 13849",
+    "IEC 61508",
+    "PID control",
+    "Model-Based Design",
+    "Automatic code generation",
+    "Sensor interface",
+    "Debugging",
+    "Vector CAN tools",
+    "English"
+  ],
+  "preferred_skills": [
+    "CODESYS",
+    "Python",
+    "XML",
+    "Qt",
+    "Git",
+    "SVN",
+    "V-model",
+    "French"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Embedded software for central electronics",
+    "Control algorithms and safety functions",
+    "CAN J1939/CANopen integration",
+    "Lab and field debugging",
+    "Middleware and code-generation templates"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cavazzona (MO), Italy",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

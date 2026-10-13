@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "company": "KLA",
+    "role": "High Performance Computing (HPC) - Software Engineer",
+    "company_slug": "kla",
+    "job_slug": "hpc-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands on experience in high performance and parallel computing. Built distributed simulations on a SLURM managed Linux cluster using MPI and optimized CUDA C++ kernels for GPU inference with memory coalescing, alongside Python and Git based development work across research and lab environments.",
+  "skills": {
+    "HPC & Parallel Computing": ["CUDA", "CUDA C++", "MPI", "SLURM", "Memory coalescing"],
+    "Languages & Systems": ["Python", "Bash", "C/C++", "Cython", "Linux", "Git"],
+    "Dev Tools": ["GitLab", "JupyterHub"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace's VisionEncoderDecoder API; added domain specific special tokens and resized decoder embedding layer accordingly."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture recognition glove for hands free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Architected a Mixed Reality headset concept using AI based real time chroma keying without a green screen; produced full claims documentation and BOM."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Achieved up to 10.49x speedup with 12 slave processes on a SLURM managed cluster; characterized scaling behavior across dendrite counts and compartment depths.",
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates.",
+        "Identified load imbalance effects showing up to 65% performance degradation under uneven work distribution."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Achieved up to 30x speedup with static strip partitioning (55 processes) rendering 5000x5000 pixel scenes using MPI.",
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue); dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript), a ~35% speedup over naive GPU with identical classification accuracy.",
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights and biases, and preallocated global buffers to eliminate per layer allocation overhead."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Designed a custom BPE tokenizer with a Cython accelerated backend achieving 4 to 5.5x speedup over pure Python, processing 6M characters in 15 minutes.",
+        "Built an end-to-end ASR pipeline with an 80-channel mel spectrogram encoder and a 4-block causal Transformer decoder with cross-attention."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

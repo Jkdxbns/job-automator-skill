@@ -1,0 +1,181 @@
+{
+  "company": "Lila Sciences (LILA)",
+  "company_slug": "lila",
+  "role": "Machine Learning Scientist I / II, Protein Design",
+  "job_slug": "ml-scientist-protein-design",
+  "match_pct": 55.6,
+  "score_detail": {
+    "have_count": 20,
+    "adjacent_count": 10,
+    "missing_count": 15,
+    "jd_ask_size": 45,
+    "req_cov": 0.393,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "machine learning",
+    "AI/ML",
+    "benchmark",
+    "benchmarking",
+    "evaluation",
+    "reproducibility",
+    "system design",
+    "CMake",
+    "Linux",
+    "Git",
+    "dataset design",
+    "inference cost",
+    "throughput",
+    "GPU",
+    "CUDA",
+    "C/C++",
+    "Python",
+    "model evaluation",
+    "quantization",
+    "benchmark suite"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "protein design",
+      "you_have": "ML model design / architecture optimization"
+    },
+    {
+      "jd_skill": "computational biology",
+      "you_have": "computational modeling / signal processing background"
+    },
+    {
+      "jd_skill": "protein sequence / structure / function",
+      "you_have": "sequence modeling (ASR, tokenization, attention mechanisms)"
+    },
+    {
+      "jd_skill": "biophysics / bioengineering",
+      "you_have": "embedded systems / robotics engineering"
+    },
+    {
+      "jd_skill": "reasoning models / agents / planning",
+      "you_have": "LLM / transformer / agent experience (attention, GPT-2)"
+    },
+    {
+      "jd_skill": "design-test-learn loops",
+      "you_have": "iterative ML pipeline design"
+    },
+    {
+      "jd_skill": "autonomous science platforms",
+      "you_have": "autonomous robotics / autonomous systems (ROS2, Jetson)"
+    },
+    {
+      "jd_skill": "high-throughput inference",
+      "you_have": "TensorRT / GPU inference optimization"
+    },
+    {
+      "jd_skill": "distribution training / GPU efficiency",
+      "you_have": "CUDA kernel optimization / SLURM"
+    },
+    {
+      "jd_skill": "biologics / wet-lab",
+      "you_have": "hardware-in-the-loop / sensor data acquisition"
+    }
+  ],
+  "missing_skills": [
+    "protein sequence expertise",
+    "protein structure expertise",
+    "protein function expertise",
+    "computational biology (domain)",
+    "biophysics / bioengineering (domain)",
+    "antibody design",
+    "enzyme design",
+    "peptide design",
+    "therapeutic proteins",
+    "design-test-learn loops (biologics domain)",
+    "wet-lab validation experience",
+    "publications in AI for Science / biology venues",
+    "biological intuition / domain science",
+    "molecule design for active biologics programs",
+    "benchmark design for protein workflows"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "protein design",
+    "computational biology",
+    "biophysics",
+    "bioengineering",
+    "benchmark",
+    "evaluation",
+    "reproducibility",
+    "inference",
+    "GPU",
+    "distributed training",
+    "antibodies",
+    "enzymes",
+    "peptides",
+    "design-test-learn",
+    "autonomous science"
+  ],
+  "required_skills": [
+    "machine learning",
+    "computational biology",
+    "protein design",
+    "protein sequence",
+    "protein structure",
+    "function",
+    "benchmark design",
+    "evaluation infrastructure",
+    "reproducibility",
+    "inference cost optimization",
+    "design-test-learn loops",
+    "ML objectives",
+    "dataset design",
+    "system design"
+  ],
+  "preferred_skills": [
+    "reasoning models",
+    "multi-step ML orchestration",
+    "agent systems",
+    "antibody design",
+    "enzyme design",
+    "peptide design",
+    "therapeutic proteins",
+    "evaluation harnesses",
+    "model registries",
+    "benchmark suites",
+    "distributed training",
+    "GPU efficiency",
+    "high-throughput inference",
+    "publications",
+    "AI for Science venues"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Design molecules for active biologics programs",
+    "Translate target/mechanism/constraints into design hypotheses",
+    "Develop reasoning capabilities for drug discovery",
+    "Orchestrate design workflows",
+    "Design/maintain benchmarks and evaluation infrastructure",
+    "Own reproducibility, throughput, and inference cost",
+    "Work with domain scientists"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

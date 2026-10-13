@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "company": "Electric Hydrogen",
+    "role": "Embedded Firmware Engineer",
+    "company_slug": "electric-hydrogen",
+    "job_slug": "embedded-firmware-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology with a B.E. in Electronics and Telecommunication and hands-on embedded firmware experience across STM32 Cortex-M4, Arduino/AVR, and Linux-based platforms. Writes low-level, real-time firmware in C, programming peripherals directly at the register level (GPIO, timers, ADC, I2C) and building interrupt-driven device drivers for multi-sensor hardware. Experienced in UART, I2C, and SPI interfacing, PCB design in EAGLE, and debugging firmware and hardware interactions with oscilloscopes and logic analyzers.",
+  "skills": {
+    "Embedded & Firmware": [
+      "Embedded C",
+      "Bare-Metal C (STM32 Cortex-M4)",
+      "Register-Level Peripheral Programming",
+      "Device Drivers",
+      "Interrupt Handling",
+      "FreeRTOS",
+      "Real-Time Firmware",
+      "Arduino / AVR",
+      "NVIDIA Jetson",
+      "Raspberry Pi"
+    ],
+    "Protocols & Interfaces": [
+      "UART",
+      "I2C",
+      "SPI",
+      "ADC",
+      "GPIO",
+      "PWM",
+      "Timers",
+      "Bluetooth (BLE/Classic)",
+      "TCP / WebSocket"
+    ],
+    "Languages": [
+      "C",
+      "C++",
+      "Python",
+      "Bash"
+    ],
+    "Tools & Lab": [
+      "Git",
+      "GitLab",
+      "CMake",
+      "Linux",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "EAGLE PCB Design",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C on a Cortex-M4 (GPIO, TIM2, ADC1, I2C1) including a hand-written low-level I2C driver; 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions and interrupt-driven sample capture for real-time temperature sensing and display; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override on STM32.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing over I2C and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Designed a three-layer system communication fabric over a unified WebSocket link, with a USB-serial link from the Linux edge host down to the microcontroller.",
+        "Implemented two-link IK in C++ on an Arduino controller driving five servos; interfaced dual VL53L0X time-of-flight sensors through a TCA9548A I2C multiplexer for a 25 mm contact-aware grasp trigger.",
+        "Resolved 11 firmware and hardware integration failures (servo brown-out, stale-frame capture, serial reconnect); achieved 100% pick reliability across 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

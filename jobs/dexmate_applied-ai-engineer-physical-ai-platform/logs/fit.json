@@ -1,0 +1,34 @@
+{
+  "company": "Dexmate",
+  "company_slug": "dexmate",
+  "role": "Applied AI Engineer, Physical AI platform",
+  "job_slug": "applied-ai-engineer-physical-ai-platform",
+  "match_pct": 50.0,
+  "missing_skills": [
+    "production LLM/agentic application deployment",
+    "tool calling frameworks",
+    "RAG / context systems",
+    "orchestration (LangChain/LangGraph-style)"
+  ],
+  "adjacent_skills": [
+    "prompting (via benchmark eval prompts, not production prompt engineering)"
+  ],
+  "top_ats_keywords": [
+    "LLM", "agentic applications", "tool calling", "RAG", "context systems",
+    "prompting", "orchestration", "evals", "guardrails", "observability",
+    "multimodal models", "VLM", "VLA", "robotics", "Python"
+  ],
+  "key_responsibilities": [
+    "Design and deploy production-grade AI agents with tool calling, multi-step workflows, context, and memory",
+    "Build chatbot and agent experiences across digital and Physical AI applications",
+    "Develop evals, guardrails, fallback, and observability for reliable agent behavior",
+    "Integrate LLMs, multimodal models, APIs, and platform tools into end-to-end workflows",
+    "Own AI features from system design through implementation, rollout, and production monitoring"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

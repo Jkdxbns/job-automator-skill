@@ -1,0 +1,172 @@
+{
+  "jd": {
+    "company_name": "TYLsemi, Inc.",
+    "company_slug": "tylsemi",
+    "job_title": "Staff Embedded Firmware & System Software Engineer — Platform Controller and SoC Stack",
+    "job_slug": "staff-embedded-firmware-system-software-engineer",
+    "required_skills": [
+      "C language (8-10 years professional)",
+      "Modern C++ or Rust",
+      "RTOS on 32-bit ARM Cortex-M or RISC-V",
+      "Driver development against formal driver model",
+      "System software fundamentals (virtual memory, address translation, DMA, cache coherency, kernel/userspace)",
+      "PCIe architecture (enumeration, configuration space, BARs, MSI/MSI-X, transaction model)",
+      "IOMMU understanding (translation, isolation, DMA failure modes)",
+      "Ability to read hardware specifications and translate to testable software",
+      "Applied AI/ML knowledge",
+      "BS or MS in EE, CE, CS or equivalent practical experience"
+    ],
+    "preferred_skills": [
+      "PCIe and interconnect",
+      "IOMMU and virtualization",
+      "System software",
+      "RTOS and platform",
+      "Peripherals and subsystems"
+    ],
+    "all_keywords": [
+      "Zephyr RTOS",
+      "PCIe",
+      "IOMMU",
+      "bootloader",
+      "kernel drivers",
+      "device drivers",
+      "DMA",
+      "JTAG/SWD",
+      "ETM/ITM trace",
+      "protocol analyzers",
+      "logic analyzers",
+      "ARM Cortex-M",
+      "RISC-V",
+      "firmware",
+      "secure boot",
+      "ACPI",
+      "device tree",
+      "post-silicon bring-up",
+      "interrupt-driven peripherals",
+      "clock and reset validation",
+      "link training",
+      "address translation",
+      "cache coherency",
+      "DMA remapping",
+      "ISR design",
+      "synchronization primitives",
+      "bus drivers",
+      "PCIe link debugging",
+      "MSI/MSI-X",
+      "error handling",
+      "link power states"
+    ],
+    "required_experience_years": 8,
+    "experience_level_stated": "staff",
+    "sponsorship_mentioned": false,
+    "sponsorship_offered": null,
+    "sponsorship_raw_text": null,
+    "location": "San Jose, CA",
+    "remote_ok": true,
+    "clearance_required": false,
+    "key_responsibilities": [
+      "Design, implement, and maintain Zephyr RTOS firmware for platform management controllers",
+      "Write upstream-quality drivers against Zephyr driver model",
+      "Bring up and debug PCIe links on first silicon",
+      "Implement PCIe host controller and endpoint drivers",
+      "Configure and validate IOMMU behavior",
+      "Develop system software across boot and runtime path",
+      "Debug DMA correctness and coherency end-to-end",
+      "Perform post-silicon bring-up and first-boot debug",
+      "Debug complex hardware issues using JTAG/SWD, ETM/ITM, protocol analyzers, and logic analyzers"
+    ],
+    "ats_keywords": [
+      "Zephyr RTOS",
+      "PCIe",
+      "IOMMU",
+      "bootloader",
+      "kernel drivers",
+      "device drivers",
+      "DMA",
+      "JTAG/SWD",
+      "ETM/ITM trace",
+      "protocol analyzers",
+      "logic analyzers",
+      "Cortex-M",
+      "RISC-V",
+      "firmware",
+      "secure boot",
+      "ACPI",
+      "device tree",
+      "post-silicon bring-up",
+      "first silicon",
+      "link training",
+      "MSI/MSI-X"
+    ],
+    "role_category": "embedded_systems"
+  },
+  "have": [
+    "C/C++",
+    "Cortex-M4 (ARM Cortex-M)",
+    "STM32 (32-bit microcontroller)",
+    "FreeRTOS (RTOS experience)",
+    "bare-metal firmware development",
+    "interrupt-driven ISR design",
+    "I2C (peripheral protocol)",
+    "SPI (peripheral protocol)",
+    "UART (peripheral protocol)",
+    "GPIO (peripheral control)",
+    "ADC (analog peripheral)",
+    "Logic Analyzers (debugging tool)",
+    "AI/ML knowledge (Deep Learning, CUDA, TensorRT)",
+    "M.S. Computer Engineering degree"
+  ],
+  "adjacent": [
+    {
+      "jd_skill": "Zephyr RTOS",
+      "you_have": "FreeRTOS and deep RTOS experience on ARM Cortex-M"
+    },
+    {
+      "jd_skill": "bootloader and firmware-to-OS handoff",
+      "you_have": "bare-metal firmware development on STM32"
+    },
+    {
+      "jd_skill": "formal driver model (Zephyr devicetree, Kconfig, driver APIs)",
+      "you_have": "peripheral driver and interrupt-driven device development"
+    },
+    {
+      "jd_skill": "protocol analyzers and ETM/ITM trace",
+      "you_have": "Logic Analyzers for hardware debugging"
+    },
+    {
+      "jd_skill": "post-silicon bring-up and first-boot debug",
+      "you_have": "STM32 bare-metal hardware debugging and clock/reset validation experience"
+    },
+    {
+      "jd_skill": "system software fundamentals (kernel/userspace boundary, OS handoff)",
+      "you_have": "bare-metal firmware development bridging hardware and software interfaces"
+    }
+  ],
+  "missing": [
+    "PCIe architecture and debugging (enumeration, configuration space, BAR allocation, MSI/MSI-X)",
+    "IOMMU (address translation, DMA remapping, device isolation, fault reporting)",
+    "Virtual memory and address translation concepts",
+    "DMA and cache coherency problems",
+    "Kernel-level driver development (vs firmware-level)",
+    "Device tree and ACPI (platform description)",
+    "Secure boot mechanisms",
+    "JTAG/SWD protocol-specific debugging",
+    "RISC-V (experience limited to ARM Cortex-M)",
+    "Rust language",
+    "Modern C++ (C++17/C++20 standards)"
+  ],
+  "hard_blocker": {
+    "triggered": false,
+    "reason": null
+  },
+  "flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false,
+    "itar_export_control": false,
+    "clearance_required": false,
+    "citizenship_required": false
+  },
+  "production_scope_required": true,
+  "semantic": null
+}

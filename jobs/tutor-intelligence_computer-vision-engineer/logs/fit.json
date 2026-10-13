@@ -1,0 +1,173 @@
+{
+  "company": "Tutor Intelligence",
+  "company_slug": "tutor-intelligence",
+  "role": "Computer Vision Engineer",
+  "job_slug": "computer-vision-engineer",
+  "match_pct": 56.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 7,
+    "jd_ask_size": 23,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "object detection",
+    "OpenCV",
+    "deep learning framework",
+    "C++",
+    "GPU optimization",
+    "robot manipulation perception",
+    "learned visual models",
+    "depth",
+    "testing / reproducibility"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "segmentation",
+      "you_have": "CARLA semantic segmentation data generation"
+    },
+    {
+      "jd_skill": "tracking",
+      "you_have": "YOLO tracking / visual servoing"
+    },
+    {
+      "jd_skill": "coordinate frames / 3D geometry",
+      "you_have": "DH parameters, forward/inverse kinematics, URDF"
+    },
+    {
+      "jd_skill": "multi-camera / depth systems",
+      "you_have": "ZoeDepth depth estimation"
+    },
+    {
+      "jd_skill": "evaluation datasets",
+      "you_have": "Model evaluation, CARLA dataset generation"
+    },
+    {
+      "jd_skill": "geometric vision",
+      "you_have": "Image mosaicing, visual servoing"
+    }
+  ],
+  "missing_skills": [
+    "camera calibration",
+    "object pose estimation",
+    "3D scene understanding",
+    "SLAM",
+    "sensor fusion",
+    "Open3D",
+    "PCL"
+  ],
+  "top_ats_keywords": [
+    "computer vision",
+    "object detection",
+    "segmentation",
+    "pose estimation",
+    "camera calibration",
+    "OpenCV",
+    "Python",
+    "PyTorch",
+    "3D",
+    "depth",
+    "sensor fusion",
+    "SLAM",
+    "Open3D",
+    "PCL",
+    "C++",
+    "GPU"
+  ],
+  "required_skills": [
+    "Python",
+    "camera calibration",
+    "coordinate frames / 3D geometry",
+    "object detection",
+    "segmentation",
+    "object pose estimation",
+    "tracking",
+    "3D scene understanding",
+    "geometric vision",
+    "learned visual models",
+    "evaluation datasets",
+    "testing / reproducibility"
+  ],
+  "preferred_skills": [
+    "robot manipulation perception",
+    "multi-camera / depth systems",
+    "sensor fusion",
+    "SLAM",
+    "OpenCV",
+    "Open3D",
+    "PCL",
+    "deep learning framework",
+    "C++",
+    "GPU optimization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "own perception system for manipulation",
+    "calibration and transforms",
+    "reproducible datasets and evals",
+    "deploy on robot stack"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Watertown, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Deployed vision-guided pick-and-place on a physical arm (COFFIN): TensorRT YOLO 56.7->10.9 ms, visual servoing, 10/10 pick reliability, which is perception integrated with manipulation on hardware",
+      "Multi-camera frame capture in a LeRobot-structured data collection pipeline, plus ToF range-gating that is a runtime sensor sanity check",
+      "BARC: ZoeDepth monocular depth for crack profiling at +/-8% error, plus homography stitching, which is real geometric vision and 3D reconstruction work",
+      "CARLA pipeline using semantic segmentation and raycast occlusion filtering to generate ~5,000 YOLO labels, which shows dataset construction and occlusion awareness",
+      "U-Net segmentation with Dice/IoU evaluation, and YOLOv8n at 83% mAP@50 on a held-out set, so basic eval discipline"
+    ],
+    "real_gaps": [
+      "No camera calibration (intrinsics/extrinsics, hand-eye) anywhere in the profile beyond sensor jitter tuning",
+      "No object 6-DoF pose estimation, point clouds, Open3D or PCL",
+      "No SLAM, multi-camera extrinsic fusion or depth-sensor fusion",
+      "No evidence of preventing evaluation leakage or building structured eval suites across lighting/viewpoint/occlusion shifts",
+      "Perception is mostly detection plus 2D servoing, not 3D scene understanding for grasping",
+      "Seniority note: role expects owning a system over time and mentoring; profile is capstone/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "depth counted Have: it is monocular ZoeDepth on microscopy, not RGB-D or stereo for manipulation",
+      "robot manipulation perception counted Have: COFFIN is a 2-link arm with 2D YOLO servoing, not grasp pose or 3D",
+      "C++ and GPU optimization: real, but the role treats them as nice-to-have so they add little"
+    ],
+    "understated_by_keywords": [
+      "COFFIN's 11 resolved integration failures (stale-frame capture, false positives) show failure diagnosis on a physical robot, which the JD stresses",
+      "CARLA occlusion filtering and BARC homography work are closer to geometric vision than the Adjacent label suggests"
+    ],
+    "screening_gaps": [
+      "No camera calibration or hand-eye/coordinate-transform ownership",
+      "No 3D perception: object pose estimation, point clouds, Open3D/PCL",
+      "No evidence of owning a substantial perception system through to measured eval at production scope"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile has real on-robot detection and depth work, but the core of this role, calibration, 3D geometry and pose estimation, has no backing. A recruiter filtering on those would likely pass, though the COFFIN vision-to-grasp story is a credible hook if you apply anyway.",
+    "calibration_delta": 9.5
+  },
+  "semantic_pending": false
+}

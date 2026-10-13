@@ -1,0 +1,38 @@
+{
+  "company": "Conduit",
+  "company_slug": "conduit",
+  "role": "FDE (Vision and ML)",
+  "job_slug": "fde-vision-ml",
+  "match_pct": 60,
+  "missing_skills": [
+    "4+ years applied ML/CV in production",
+    "industrial work experience (manufacturing/logistics/warehousing/AV/energy)",
+    "customer-facing plant deployment experience",
+    "data labeling pipelines (weak supervision, pseudo-labeling, active learning)",
+    "streaming video at scale (RTSP, GStreamer, multi-cam sync)",
+    "industrial machine vision tools (Cognex, Keyence, Zebra, Halcon)",
+    "DeepStream",
+    "annotation platform experience (Scale, Labelbox, V7)"
+  ],
+  "adjacent_skills": [
+    "Triton inference server (have TensorRT/ONNX, not Triton specifically)",
+    "shipped inference pipeline someone else depended on (have Jetson deployments, not clearly production-dependent)",
+    "hardware speccing (have edge box deployment, not camera/GPU procurement)",
+    "pose estimation/ergonomics (have depth estimation/ZoeDepth, not pose specifically)"
+  ],
+  "top_ats_keywords": ["Python", "PyTorch", "TensorRT", "ONNX", "Jetson", "Edge AI", "YOLO", "Computer Vision"],
+  "key_responsibilities": [
+    "Own customer CV/ML deployments end to end",
+    "Build end-to-end pipelines: data collection, labeling, training, evaluation, deployment, monitoring",
+    "Stream and process video at industrial volume",
+    "Spec and order hardware (GPUs, edge boxes, cameras, lenses, lighting)",
+    "Translate customer needs into engineering briefs",
+    "Frequent travel to factory floors"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

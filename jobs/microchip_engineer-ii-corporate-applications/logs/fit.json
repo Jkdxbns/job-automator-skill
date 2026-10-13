@@ -1,0 +1,137 @@
+{
+  "company": "Microchip Technology",
+  "company_slug": "microchip",
+  "role": "Engineer II - Corporate Applications",
+  "job_slug": "engineer-ii-corporate-applications",
+  "match_pct": 71.4,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 14,
+    "req_cov": 0.846,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "embedded firmware",
+    "embedded hardware",
+    "oscilloscopes",
+    "logic analyzers",
+    "machine learning",
+    "schematics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Ethernet / networking protocols",
+      "you_have": "Static IP / network config, WebSocket, UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "technical presentations / training",
+      "you_have": "Poster Presentation"
+    }
+  ],
+  "missing_skills": [
+    "Microchip products and tools",
+    "customer support ticketing",
+    "knowledge-base / application note writing"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "embedded firmware",
+    "oscilloscopes",
+    "logic analyzers",
+    "machine learning",
+    "Ethernet",
+    "schematics"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "embedded firmware",
+    "embedded hardware",
+    "oscilloscopes",
+    "logic analyzers",
+    "schematic analysis",
+    "machine learning",
+    "root cause analysis",
+    "technical writing",
+    "customer support",
+    "Master's degree preferred"
+  ],
+  "preferred_skills": [
+    "Microchip products and tools",
+    "Ethernet",
+    "networking protocols",
+    "connected embedded systems"
+  ],
+  "required_experience_years": 2.5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Resolve customer cases via ticket, chat, phone",
+    "Guide customers on embedded HW/FW/SW design",
+    "Write KB articles, app notes, example code, chatbot content",
+    "Analyze schematics",
+    "Deliver demos and training"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Chandler, AZ",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63.4,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 C firmware with ADC/TIM2/I2C drivers and interrupt-driven capture (STM32 Temperature Monitor)",
+      "Multi-MCU system with UART, PWM, FreeRTOS, ToF sensing (Turret, COFFIN Jetson+Arduino)",
+      "Hardware bring-up: EAGLE PCBs, UART/I2C sensor links, oscilloscope/logic analyzer/spectrum analyzer familiarity",
+      "ML/AI framework depth (PyTorch, TF, TFLite, ONNX, TensorRT) fits the 'AI initiatives' ask",
+      "Taught Python course and ran 10+ workshops at ARC, which is real training/teaching evidence"
+    ],
+    "real_gaps": [
+      "No customer-facing support, ticket, chat or phone experience",
+      "No Microchip silicon (PIC/AVR/SAM), MPLAB X, or MCC/Harmony experience",
+      "No application notes or KB articles authored for external readers",
+      "Ethernet/TCP-IP stack work is only adjacent (WebSocket, static IP config)",
+      "Role is 2.5-5 yrs; Justin has 0 FT years"
+    ],
+    "overstated_by_keywords": [
+      "Schematic analysis counted as Have but evidence is single-layer EAGLE boards he designed, not reading third-party schematics"
+    ],
+    "understated_by_keywords": [
+      "Workshop teaching and Python course authoring back the training and documentation duties better than the keyword pass credited"
+    ],
+    "screening_gaps": [
+      "No Microchip product or MPLAB toolchain experience",
+      "No customer support or ticket-handling experience",
+      "Under the 2.5 year experience floor with no full-time embedded years"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded C/C++ and lab-debug skills map well to the technical half of the role. The support half (tickets, chat, customer guidance, app notes) has no direct backing, so this is a stretch on role shape more than on skills.",
+    "calibration_delta": 8.0
+  },
+  "semantic_pending": false
+}

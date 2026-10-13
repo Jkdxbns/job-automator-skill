@@ -1,0 +1,77 @@
+{
+  "company": "RemoteHunter (recruiter for undisclosed MA public health consulting firm)",
+  "company_slug": "remotehunter",
+  "role": "Junior Engineer, AI",
+  "job_slug": "junior_engineer_ai",
+  "match_pct": 50,
+  "missing_skills": [
+    "RAG (retrieval-augmented generation)",
+    "vector databases",
+    "cloud-native vector search",
+    "GCP",
+    "AWS",
+    "Azure",
+    "Google AppScript",
+    "LangChain",
+    "LlamaIndex",
+    "Docker/MLOps",
+    "SQL",
+    "BigQuery",
+    "Snowflake",
+    "Google DLP",
+    "public health domain"
+  ],
+  "adjacent_skills": [
+    "LLM APIs (has Gemini + HuggingFace transformers, not production OpenAI/Anthropic API work)",
+    "dashboards/internal apps (Flask, PyQt, Flask-SocketIO)",
+    "HPC scheduling (SLURM) vs cloud platforms"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "RAG",
+    "retrieval-augmented generation",
+    "LLM",
+    "large language models",
+    "vector database",
+    "GCP",
+    "AWS",
+    "Azure",
+    "OpenAI",
+    "Anthropic Claude",
+    "Gemini",
+    "AI agents",
+    "Google AppScript",
+    "LangChain",
+    "LlamaIndex",
+    "Docker",
+    "SQL",
+    "BigQuery",
+    "model evaluation",
+    "LLM output testing",
+    "prompt",
+    "automation"
+  ],
+  "key_responsibilities": [
+    "Build and deploy AI applications and automation tools on GCP, AWS, Azure, Anthropic/OpenAI APIs",
+    "Implement RAG pipelines for internal tools",
+    "Integrate LLMs, AI agents, and new frameworks",
+    "Develop lightweight internal apps and dashboards using AppScript",
+    "Communicate technical concepts to non-technical stakeholders",
+    "Establish testing and QA processes for AI system reliability",
+    "Monitor and optimize AI model performance, cost, and reliability"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null,
+  "flags": {
+    "sponsorship": "Not mentioned in JD. Staffing intermediary (RemoteHunter is NOT the Employer of Record); end client is a small MA consulting firm. Small consultancies rarely sponsor H1B.",
+    "experience": "1+ yr required, recent grads explicitly encouraged. OK.",
+    "location": "Remote, United States. OK.",
+    "clearance": "None. Client serves local/regional/state government, not federal defense. No hard blocker.",
+    "compensation": "$70,720 - $83,200"
+  },
+  "date_analyzed": "2026-07-09"
+}

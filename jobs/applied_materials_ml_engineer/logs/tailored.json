@@ -1,0 +1,92 @@
+{
+  "_meta": { "company": "Applied Materials", "role": "Machine Learning Engineer", "company_slug": "applied_materials", "job_slug": "ml_engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built generative language and speech models from scratch in PyTorch, including a GPT-2 style Transformer and a Whisper-style ASR decoder, and fine-tuned transformer models (DONUT, TinyLlama) with evaluation across benchmark suites such as HellaSwag, GSM8K, and ARC. Comfortable moving between classical ML and current generative architectures, with hands-on experience curating scientific datasets and validating models for real-world deployment.",
+  "skills": {
+    "ML / Deep Learning & Generative AI": ["PyTorch", "TensorFlow", "Hugging Face Transformers", "Transformer architectures", "LLM fine-tuning (DONUT, TinyLlama)", "8-bit quantization", "Model evaluation", "Benchmark suites (HellaSwag, GSM8K, ARC)"],
+    "Computer Vision & Scientific Imaging": ["U-Net segmentation", "ZoeDepth depth estimation", "Medical & scientific imaging (MRI, microscopic materials inspection)", "Dice / IoU evaluation"],
+    "Data & Evaluation": ["Dataset curation", "Cross-domain benchmarking (WER, perplexity, Dice/IoU)"],
+    "Languages & Tools": ["Python", "C/C++", "CUDA", "Cython", "Git", "Bash", "Linux", "JupyterHub"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built PyTorch training pipelines using HuggingFace VisionEncoderDecoder with domain-specific tokens.",
+        "Improved validation accuracy from 55% to 93% via preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Built a custom image-stitching and wavelet-denoising pipeline for microscopic materials inspection, improving PSNR from 65 to 86.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a data pipeline for the BraTS 2020 multi-modal MRI dataset with augmentation and memory-managed batch loading.",
+        "Trained U-Net segmentation (VGG-16/19, ResNet-50); evaluated on Dice Score and IoU, reporting accuracy-latency trade-offs.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student, restructuring tasks to deliver on a 6-week deadline."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: self-attention, MLP blocks, residual connections, weight tying.",
+        "Built a TikToken tokenizer and training loop with early stopping; validated text generation via perplexity evaluation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC: <1% accuracy loss with +0.09 perplexity increase, a near-lossless compression."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline (mel spectrogram encoder, causal Transformer decoder) achieving 15% WER.",
+        "Designed a Cython-accelerated BPE tokenizer with a 4–5.5× speedup over pure Python."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Digital Signal Processing", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

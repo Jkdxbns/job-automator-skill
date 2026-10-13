@@ -1,0 +1,121 @@
+{
+  "company": "Clorox",
+  "company_slug": "clorox",
+  "role": "Integration & HyperAutomation Engineer",
+  "job_slug": "integration-hyperautomation-engineer",
+  "match_pct": 28.1,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 16,
+    "req_cov": 0.231,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "API"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Java",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "C#",
+      "you_have": "C/C++"
+    },
+    {
+      "jd_skill": "Generative AI",
+      "you_have": "LLM/HuggingFace/GPT-2"
+    },
+    {
+      "jd_skill": "Agentic AI",
+      "you_have": "LLM tooling (SLM)"
+    },
+    {
+      "jd_skill": "Workflow automation",
+      "you_have": "Flask/systemd pipelines"
+    }
+  ],
+  "missing_skills": [
+    "MuleSoft",
+    "UiPath",
+    "RPA",
+    "SAP",
+    "ServiceNow",
+    "Workday",
+    "Azure",
+    "Power Platform",
+    "Enterprise integration"
+  ],
+  "top_ats_keywords": [
+    "MuleSoft",
+    "UiPath",
+    "RPA",
+    "API",
+    "Integration",
+    "Workflow automation",
+    "Python",
+    "Java",
+    "C#",
+    "Azure",
+    "SAP",
+    "ServiceNow",
+    "Workday",
+    "Power Platform",
+    "Generative AI",
+    "Agentic AI"
+  ],
+  "required_skills": [
+    "MuleSoft",
+    "UiPath",
+    "API development",
+    "Enterprise integration",
+    "RPA",
+    "Java",
+    "C#",
+    "Python",
+    "SAP",
+    "ServiceNow",
+    "Workday",
+    "Azure",
+    "Power Platform"
+  ],
+  "preferred_skills": [
+    "Workflow automation",
+    "Generative AI",
+    "Agentic AI"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build MuleSoft APIs and integrations",
+    "Build UiPath RPA automations",
+    "Reusable integration assets"
+  ],
+  "role_category": "ml_systems",
+  "location": "Dublin, Ireland",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

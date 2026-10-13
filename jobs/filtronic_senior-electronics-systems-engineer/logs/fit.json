@@ -1,0 +1,160 @@
+{
+  "company": "Filtronic",
+  "company_slug": "filtronic",
+  "role": "Senior Electronics Systems Engineer",
+  "job_slug": "senior-electronics-systems-engineer",
+  "match_pct": 30.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 22,
+    "jd_ask_size": 35,
+    "req_cov": 0.537,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ADC",
+    "I2C",
+    "SPI",
+    "Oscilloscopes",
+    "Logic analysers",
+    "PCB design",
+    "Digital circuit design",
+    "Microprocessors"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Altium Designer",
+      "you_have": "EAGLE PCB"
+    },
+    {
+      "jd_skill": "Schematic capture",
+      "you_have": "EAGLE / Proteus"
+    },
+    {
+      "jd_skill": "Mixed-signal design",
+      "you_have": "ADC sampling + STM32"
+    },
+    {
+      "jd_skill": "USB",
+      "you_have": "USB Host Shield"
+    },
+    {
+      "jd_skill": "Signal conditioning",
+      "you_have": "DSP coursework"
+    }
+  ],
+  "missing_skills": [
+    "Analog circuit design",
+    "EMC/EMI",
+    "Spectrum analysers",
+    "Multimeters",
+    "Filters",
+    "Amplifiers",
+    "Power supply design",
+    "DAC",
+    "CAN bus",
+    "Ethernet",
+    "PCIe",
+    "Thermal analysis",
+    "MTBF",
+    "Tolerance analysis",
+    "Wiring harness",
+    "RF/microwave",
+    "SMT manufacturing",
+    "IEC 62368-1",
+    "IEC 61000",
+    "CISPR",
+    "IPC/WHMA-A-620",
+    "AS50881"
+  ],
+  "top_ats_keywords": [
+    "Altium Designer",
+    "EMC",
+    "PCB",
+    "schematic capture",
+    "oscilloscope",
+    "spectrum analyser",
+    "logic analyser",
+    "I2C",
+    "SPI",
+    "CAN",
+    "PCIe",
+    "USB",
+    "Ethernet",
+    "ADC",
+    "DAC",
+    "MTBF"
+  ],
+  "required_skills": [
+    "Analog circuit design",
+    "Digital circuit design",
+    "Mixed-signal design",
+    "Schematic capture",
+    "PCB design",
+    "EMC/EMI",
+    "Oscilloscopes",
+    "Spectrum analysers",
+    "Logic analysers",
+    "Multimeters",
+    "Signal conditioning",
+    "Filters",
+    "Amplifiers",
+    "Power supply design",
+    "ADC",
+    "DAC",
+    "Microprocessors",
+    "I2C",
+    "SPI",
+    "CAN bus",
+    "USB",
+    "Ethernet",
+    "PCIe",
+    "Thermal analysis",
+    "MTBF",
+    "Tolerance analysis",
+    "Wiring harness"
+  ],
+  "preferred_skills": [
+    "Altium Designer",
+    "RF/microwave",
+    "SMT manufacturing",
+    "IEC 62368-1",
+    "IEC 61000",
+    "CISPR",
+    "IPC/WHMA-A-620",
+    "AS50881"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Analog/digital/mixed-signal design",
+    "System architecture for mains-powered products",
+    "Harness documentation",
+    "EMC/safety compliance",
+    "Integration and V&V"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cambridge, England, UK (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

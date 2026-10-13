@@ -1,0 +1,127 @@
+{
+  "company": "VEIR",
+  "company_slug": "veir",
+  "role": "Principal Electrical Compliance Engineer",
+  "job_slug": "principal-electrical-compliance-engineer",
+  "match_pct": 13.3,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 15,
+    "req_cov": 0.143,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "design and qualification of electrical interface components / connectors",
+      "you_have": "PCB design (EAGLE PCB Design) and embedded hardware (GPIO, UART/I2C/SPI, PWM)"
+    },
+    {
+      "jd_skill": "system-level integration and cross-functional technical leadership",
+      "you_have": "ROS2 / robotics systems integration and perception pipelines"
+    }
+  ],
+  "missing_skills": [
+    "12+ years electrical engineering experience",
+    "high-power datacenter / hyperscale electrical distribution",
+    "MV switchgear, transformers, UPS, PDU, busway expertise",
+    "NEC (NFPA 70), NFPA 70E, IEC 61439, IEC 62271, UL standards",
+    "high-current electrical connector / interface component design",
+    "FAT / SAT development for electrical power systems",
+    "BA/BS Electrical Engineering (candidate has M.S. Computer Engineering)",
+    "PE license / professional engineer",
+    "cryogenic / superconducting power delivery experience",
+    "IEEE 3006 reliability standards",
+    "AHJ / listing-approval process experience",
+    "TIA-942 / Uptime Tier datacenter standards"
+  ],
+  "top_ats_keywords": [
+    "electrical compliance",
+    "NEC",
+    "NFPA 70",
+    "NFPA 70E",
+    "IEC 61439",
+    "IEC 62271",
+    "UL 508A",
+    "UL standards",
+    "TIA-942",
+    "Uptime Tier",
+    "superconducting",
+    "cryogenic",
+    "MV switchgear",
+    "transformer",
+    "UPS",
+    "PDU",
+    "busway",
+    "connector",
+    "termination",
+    "interface component",
+    "FMEA",
+    "AHJ",
+    "third-party inspection",
+    "listing/approval",
+    "factory acceptance test",
+    "FAT",
+    "site acceptance test",
+    "SAT",
+    "single-line diagram",
+    "protection architecture",
+    "datacenter installation",
+    "commissioning",
+    "operations",
+    "professional engineer",
+    "PE license"
+  ],
+  "required_skills": [
+    "12+ years professional electrical engineering experience (significant portion in high-power datacenter / mission-critical facilities)",
+    "Direct experience with hyperscale/colocation datacenter electrical distribution (MV switchgear, transformers, UPS, PDUs, busway)",
+    "Deep working knowledge of NEC (NFPA 70), NFPA 70E, IEC 61439, IEC 62271, UL standards for power distribution / switchgear",
+    "Hands-on experience designing, qualifying, or specifying high-current electrical connectors and interface components",
+    "Experience developing and executing FAT / SAT for electrical power systems",
+    "BA/BS in Electrical Engineering required; MS/PhD preferred",
+    "PE license strongly preferred"
+  ],
+  "preferred_skills": [
+    "Familiarity with cryogenic systems (liquid helium, liquid nitrogen) and thermal/material constraints on electrical interfaces",
+    "Experience with superconducting or cryogenic power delivery applications",
+    "Knowledge of IEEE Std 3006 series or similar reliability standards",
+    "Prior involvement in AHJ engagements or novel equipment approval processes"
+  ],
+  "required_experience_years": 12,
+  "experience_level_stated": "principal",
+  "key_responsibilities": [
+    "Establish and maintain electrical compliance framework (NEC, NFPA 70E, IEC, UL, TIA-942, Uptime Tier) across design, test, and deployment",
+    "Own electrical integration interface designs between VEIR superconducting systems and datacenter distribution (MV/LV switchgear, busway, PDUs, rack busbars)",
+    "Lead connector/component design, qualification, FMEA, supplier qualification, and electrical test plans / acceptance procedures",
+    "Represent VEIR's electrical engineering perspective in customer-facing technical discussions, proposal development, and IP/patent strategy",
+    "Mentor junior engineers and build electrical engineering capability"
+  ],
+  "role_category": "other",
+  "location": "Woburn, Massachusetts, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

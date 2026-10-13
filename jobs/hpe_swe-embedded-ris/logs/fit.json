@@ -1,0 +1,123 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer - Embedded (RIS)",
+  "job_slug": "swe-embedded-ris",
+  "match_pct": 34.2,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 19,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Linux",
+    "Python",
+    "SPI",
+    "I2C"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object-oriented development",
+      "you_have": "C++/Python coursework and projects (CUDA inference engine, custom RTOS)"
+    },
+    {
+      "jd_skill": "Device drivers",
+      "you_have": "STM32 bare-metal GPIO/UART/I2C/SPI peripheral drivers"
+    },
+    {
+      "jd_skill": "System bring-up",
+      "you_have": "Embedded board bring-up (STM32 custom RTOS, PCB design)"
+    }
+  ],
+  "missing_skills": [
+    "Routing/forwarding software",
+    "Optics",
+    "PCIe",
+    "Retimers",
+    "FPGA",
+    "CPLD",
+    "MDIO",
+    "Flash storage drivers",
+    "FreeBSD/Linux internals",
+    "Diagnostics software (production)",
+    "High availability systems"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Linux",
+    "Python",
+    "SPI",
+    "I2C",
+    "PCIe",
+    "FPGA",
+    "CPLD",
+    "MDIO",
+    "Device drivers",
+    "FreeBSD",
+    "Routing",
+    "High Availability",
+    "Diagnostics",
+    "Object-oriented"
+  ],
+  "required_skills": [
+    "C programming",
+    "C++ programming",
+    "Linux",
+    "Maintain/enhance existing software"
+  ],
+  "preferred_skills": [
+    "Object-oriented development (C/C++/Python)",
+    "Routing/forwarding software",
+    "Optics",
+    "PCIe",
+    "SPI",
+    "I2C",
+    "Retimers",
+    "FPGA",
+    "CPLD",
+    "MDIO",
+    "Flash drivers",
+    "Device drivers",
+    "System bring-up",
+    "FreeBSD/Linux internals"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Routing Engine Redundancy / HA features",
+    "chassis and line card operations",
+    "fabric interconnects",
+    "optical module integration",
+    "diagnostics software",
+    "cross-functional collaboration with test teams",
+    "customer escalation support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, California, United States of America (Hybrid, 2 days/week onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

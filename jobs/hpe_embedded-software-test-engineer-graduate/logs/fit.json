@@ -1,0 +1,117 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Embedded Software Test Engineer Graduate",
+  "job_slug": "embedded-software-test-engineer-graduate",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 2,
+    "jd_ask_size": 9,
+    "req_cov": 0.222,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "embedded testing/debugging (bare-metal STM32)",
+    "system architecture (sensor/peripheral integration)",
+    "communication protocols (I2C/SPI/UART)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux (Jetson) + bare-metal embedded C (STM32)"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal peripheral drivers (I2C/SPI/UART/ADC)"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "formal test-plan authoring at scale"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C",
+    "Go",
+    "embedded Linux",
+    "device drivers",
+    "testing"
+  ],
+  "required_skills": [
+    "Python",
+    "C",
+    "Go",
+    "software systems testing methodology",
+    "test plan creation/execution",
+    "debugging",
+    "embedded Linux",
+    "device drivers",
+    "system architecture understanding"
+  ],
+  "preferred_skills": [
+    "communication protocols knowledge"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Define test plans/coverage for embedded software",
+    "Design/execute manual+automated tests",
+    "Debug and improve testing processes"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Spring, Texas",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Rigorous integration debugging and reliability validation on real hardware \u2014 COFFIN capstone resolved 11 distinct failure modes (false-positive detections, servo brown-out, stale-frame capture) and achieved 100% pick reliability across 10 trials, which is genuine systematic test-and-debug practice.",
+      "Bare-metal peripheral driver development (I2C/UART/SPI, direct register-level GPIO/TIM2/ADC) across multiple projects \u2014 real device driver depth, even though not Linux kernel drivers.",
+      "Embedded Linux deployment experience on Jetson (systemd service management, auto-restart, non-root isolation) is direct 'embedded Linux' evidence.",
+      "Proven team leadership record (led a cross-cultural 7-person team under deadline pressure; General Secretary of a 25-member robotics club) matches the JD's 'proven leadership abilities' ask."
+    ],
+    "real_gaps": [
+      "Zero Go language experience \u2014 explicitly named as one of three required languages (Python, C, Go).",
+      "No formal automated test framework or tooling experience (pytest, CI harnesses, structured test-plan documentation) \u2014 testing shown in the profile is ad hoc trial-based debugging, not a demonstrated test-engineering practice.",
+      "No Linux kernel or board-level device driver development \u2014 the device driver work is bare-metal MCU register drivers, a different stack from Linux embedded device drivers."
+    ],
+    "overstated_by_keywords": [
+      "'Device drivers' was marked adjacent, but the JD likely means Linux-side embedded device drivers, not bare-metal MCU peripheral drivers \u2014 the transfer is weaker than the keyword pass implies."
+    ],
+    "understated_by_keywords": [
+      "The keyword pass didn't capture the depth of the COFFIN capstone's systematic failure-mode resolution (11 distinct integration bugs fixed to reach 100% reliability) \u2014 this is a strong, concrete demonstration of the exact debug-and-validate loop the role asks for.",
+      "Leadership evidence (team lead roles) is real and directly matches 'proven leadership abilities in directing team activities', which the keyword pass treated as boilerplate and excluded."
+    ],
+    "screening_gaps": [
+      "Zero Go experience \u2014 one of three explicitly required languages.",
+      "No formal test-framework/tooling background (pytest, CI, structured test plans) \u2014 only informal trial-based validation.",
+      "No Linux kernel/board-level device driver development, only bare-metal MCU drivers."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The candidate's hands-on hardware debugging discipline and leadership record are real strengths that keyword matching undersells, but core language (Go) and formal test-tooling gaps are genuine. For an entry-level grad role this is a reasonable apply, with the Go gap being the most likely early screen-out.",
+    "calibration_delta": 3.0
+  }
+}

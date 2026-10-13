@@ -1,0 +1,129 @@
+{
+  "company": "Marks & Spencer (M&S)",
+  "company_slug": "marks-and-spencer",
+  "role": "Software Engineering Manager - AI Engineering",
+  "job_slug": "software-engineering-manager-ai-engineering",
+  "match_pct": 8.3,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 21,
+    "jd_ask_size": 24,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Model evaluation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GitHub Actions",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "DevOps",
+      "you_have": "Git / GitLab / systemd"
+    }
+  ],
+  "missing_skills": [
+    "polyglot senior software engineering",
+    "AI coding tools",
+    "agentic technologies",
+    "agentic workflows",
+    "agent frameworks",
+    "Copilot SDK",
+    "leading teams of senior engineers",
+    "people management",
+    "line management",
+    "system design",
+    "software architecture",
+    "cloud",
+    "testing strategies",
+    "reliability engineering",
+    "TypeScript",
+    "Kotlin",
+    "secure AI integrations",
+    "identity and access control",
+    "OKRs",
+    "vendor management",
+    "product thinking"
+  ],
+  "top_ats_keywords": [
+    "GitHub Actions",
+    "Copilot SDK",
+    "agentic workflows",
+    "model evaluation",
+    "agent frameworks",
+    "TypeScript",
+    "Kotlin",
+    "cloud",
+    "DevOps",
+    "system design",
+    "reliability engineering",
+    "people management",
+    "OKRs"
+  ],
+  "required_skills": [
+    "polyglot senior software engineering",
+    "AI coding tools",
+    "agentic technologies",
+    "leading teams of senior engineers",
+    "people management",
+    "line management",
+    "system design",
+    "software architecture",
+    "cloud",
+    "DevOps",
+    "testing strategies",
+    "reliability engineering",
+    "TypeScript",
+    "Kotlin"
+  ],
+  "preferred_skills": [
+    "GitHub Actions",
+    "Copilot SDK",
+    "agentic workflows",
+    "model evaluation",
+    "secure AI integrations",
+    "identity and access control",
+    "agent frameworks",
+    "orchestration",
+    "OKRs",
+    "vendor management",
+    "product thinking"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "manage AI Engineering platform team",
+    "line-manage Staff and Senior Engineers",
+    "recruitment and retention",
+    "OKR custodian",
+    "platform ownership",
+    "vendor partner management",
+    "contribute code"
+  ],
+  "role_category": "ml_systems",
+  "location": "United Kingdom (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

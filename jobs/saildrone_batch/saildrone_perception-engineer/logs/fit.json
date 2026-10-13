@@ -1,0 +1,198 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Perception Engineer",
+  "job_slug": "perception-engineer",
+  "match_pct": 65.4,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 12,
+    "missing_count": 3,
+    "jd_ask_size": 26,
+    "req_cov": 0.733,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "perception",
+    "computer vision",
+    "robotics",
+    "Python",
+    "sensor fusion",
+    "autonomous systems",
+    "debugging",
+    "benchmarking",
+    "sensor integration",
+    "autonomous vehicles"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "localization",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "localization",
+      "you_have": "autonomous systems"
+    },
+    {
+      "jd_skill": "state estimation",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "state estimation",
+      "you_have": "autonomous systems"
+    },
+    {
+      "jd_skill": "Kalman filtering",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "SLAM",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "visual odometry",
+      "you_have": "computer vision"
+    },
+    {
+      "jd_skill": "real sensor data experience",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "real sensor data experience",
+      "you_have": "embedded systems"
+    },
+    {
+      "jd_skill": "physical systems experience",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "mathematics of perception",
+      "you_have": "robotics"
+    },
+    {
+      "jd_skill": "field deployment",
+      "you_have": "autonomous systems"
+    }
+  ],
+  "missing_skills": [
+    "probabilistic state estimation (formalized)",
+    "SLAM (formalized)",
+    "visual odometry (formalized)"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "localization",
+    "sensor fusion",
+    "autonomous vehicles",
+    "C++",
+    "computer vision",
+    "robotics",
+    "state estimation",
+    "object tracking",
+    "maritime",
+    "USV",
+    "autonomous systems",
+    "edge computing",
+    "algorithms",
+    "production software",
+    "real-world testing"
+  ],
+  "required_skills": [
+    "C++",
+    "perception",
+    "computer vision",
+    "localization",
+    "state estimation",
+    "sensor fusion",
+    "robotics systems",
+    "mathematics underlying perception",
+    "real sensor data",
+    "physical systems",
+    "sensor integration",
+    "sensor calibration",
+    "debugging",
+    "benchmarking",
+    "autonomous systems"
+  ],
+  "preferred_skills": [
+    "probabilistic state estimation",
+    "Kalman filtering",
+    "SLAM",
+    "visual odometry",
+    "autonomous systems field deployment",
+    "Python"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop perception, localization, state-estimation, multi object tracking, and sensor-fusion algorithms",
+    "Process camera, radar, and similar sensor data",
+    "Implement, test, and optimize production C++",
+    "Analyze real-world data and vehicle behavior",
+    "Integrate perception capabilities with autonomy stack",
+    "Validate on real vehicles",
+    "Contribute to perception architecture and system design"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Strong production C++ across embedded, CUDA, and systemd services (COFFIN demonstrates multi-process WebSocket architecture with environment-based config isolation and non-root user/group handling)",
+      "Solid computer vision fundamentals with YOLOv8/v11 training/optimization, image stitching (PSNR 86), depth estimation (ZoeDepth), and CARLA semantic segmentation pipelines",
+      "Real robotics hardware integration experience: VL53L0X ToF dual sensing, ADXL345 accelerometers, UART/I2C/SPI protocols, servo control; demonstrated in COFFIN and Object Tracking Turret",
+      "Excellent debugging and performance optimization: resolved 11 integration failures in COFFIN, achieved 35% CUDA speedup via memory coalescing, comprehensive benchmarking with pynvml/psutil profiling",
+      "Real robot validation with measurable results: COFFIN 100% pick reliability (10/10 trials), AL5B <2mm repeatability over 10 trials, actual hardware testing on Jetson + Arduino platforms",
+      "Edge AI deployment expertise: TensorRT optimization (5.2\u00d7 speedup in COFFIN), inference profiling, latency-aware system design on Jetson-class devices",
+      "Multi-sensor hardware coordination demonstrated in COFFIN with time-synchronized camera capture, dual ToF sensing, and coordinated servo control"
+    ],
+    "real_gaps": [
+      "No formal state estimation or probabilistic methods: JD requires 'strong understanding of robotics and mathematics underlying perception and estimation.' Robot Perception coursework suggests theory exposure but zero Kalman filtering, EKF, particle filtering, or state estimation algorithm implementations across entire profile",
+      "No SLAM or visual odometry implementation: These are core autonomy components for navigation. No evidence of SLAM algorithm design, visual odometry tuning, loop closure, or map-building experience",
+      "No field deployment of autonomous systems: All robotics testing is lab-controlled (COFFIN on desk/lab, robotic arms on lab benches, CARLA simulation). Saildrone emphasizes 'combat-deployed systems,' '24/7/365' operational demands, and 'real-world operational experience around the world.' This is a critical gap for maritime defense autonomy",
+      "No sensor calibration procedures: JD explicitly lists 'integrating, configuring, and calibrating sensor systems.' No calibration work (distortion, extrinsic calibration, thermal compensation) appears in profile",
+      "No autonomous vehicle systems integration: CARLA lane detection + YOLO represents simulation only. No integration with real autonomy stacks, middlewares, or deployed navigation pipelines"
+    ],
+    "overstated_by_keywords": [
+      "Sensor fusion: Keyword pass marked as 'have,' but evidence is hardware coordination only (dual ToF + camera + servo multiplexing in COFFIN). True sensor fusion requires algorithmic fusion (Kalman weighting, covariance estimation, multi-hypothesis tracking)",
+      "Localization: Marked adjacent via 'robotics,' but zero algorithmic implementation. No GPS/INS integration, no pose estimation algorithms",
+      "State estimation: Marked adjacent via 'robotics,' but no formalized state-space implementation or covariance propagation"
+    ],
+    "understated_by_keywords": [
+      "Production systems engineering: Systemd service deployment (Type=simple, auto-restart with backoff), non-root user/group isolation, environment-file-based secrets/config separation, and XRDP remote administration in COFFIN shows maturity beyond academic projects",
+      "Real-world robot testing and validation: Actual pick reliability metrics (100% success rate), end-to-end latency measurements (11.5s voice-to-picked), and hardware failure diagnosis (servo brown-out resolution, false-positive detection mitigation) are tangible contributions",
+      "Edge AI optimization at production scale: TensorRT speedup benchmarking, inference profiling under memory constraints, and sustained performance on Jetson demonstrates production optimization mindset",
+      "Multi-modal sensor integration (hardware layer): Dual ToF + cameras + command coordination in COFFIN is non-trivial real-time sensor multiplexing"
+    ],
+    "screening_gaps": [
+      "No formal state estimation or Kalman filtering: Core perception capability. JD explicitly requires 'strong understanding of mathematics underlying perception and estimation.' Robot Perception course suggests theoretical exposure but zero algorithmic depth across projects. A perception engineer at an autonomous company must own state estimation algorithms; this is a fundamental gap",
+      "No SLAM or visual odometry implementation: Foundation for autonomous navigation. While listed as nice-to-haves, these are adjacent-core for USV autonomy stacks requiring localization without GPS. No evidence of algorithm design, integration, or tuning",
+      "No field deployment of autonomous systems: All robotics testing is lab-controlled. Saildrone operates 'combat-deployed' USVs with global operational demands. Field experience with environmental robustness, power constraints, and deployed troubleshooting is expected for this role and entirely absent from profile"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin has strong production C++ and computer vision foundations with genuine real-world robot integration (COFFIN demonstrates multi-tier architecture and actual hardware validation). However, Saildrone's perception role requires state estimation and localization algorithms (Kalman filtering, SLAM, visual odometry) that are entirely missing\u2014only theoretical exposure via coursework. Additionally, all robotics testing is lab-based; he lacks the field deployment experience that Saildrone emphasizes as core to their 'combat-deployed' systems operating 24/7 globally. He is strong on implementation and systems thinking but missing algorithmic depth in autonomy fundamentals and real-world operational experience.",
+    "calibration_delta": -0.6
+  }
+}

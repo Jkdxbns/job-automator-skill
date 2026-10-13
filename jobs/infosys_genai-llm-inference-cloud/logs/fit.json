@@ -1,0 +1,62 @@
+{
+  "company": "Infosys (ITL USA)",
+  "company_slug": "infosys",
+  "role": "GenAI Platform / LLM Inference Optimization Engineer (Cloud)",
+  "job_slug": "genai-llm-inference-cloud",
+  "match_pct": 15.0,
+  "missing_skills": [
+    "vLLM",
+    "Triton",
+    "SGLang",
+    "Tensor parallelism",
+    "Kubernetes",
+    "GKE",
+    "KServe / ML serving patterns",
+    "Helm",
+    "Operators",
+    "GPU orchestration/scheduling",
+    "GCP/Azure",
+    "Terraform",
+    "Cloud networking/landing zones/governance",
+    "HashiCorp Vault",
+    "Prometheus/Grafana",
+    "Logging/tracing",
+    "SRE/SLO"
+  ],
+  "adjacent_skills": [
+    "TensorRT-LLM -> TensorRT",
+    "Quantization (FP8/AWQ/GPTQ) -> 8-bit quantization / LLM.int8"
+  ],
+  "top_ats_keywords": [
+    "vLLM",
+    "TensorRT-LLM",
+    "Triton",
+    "SGLang",
+    "Kubernetes",
+    "GKE",
+    "KServe",
+    "Helm",
+    "Terraform",
+    "GCP",
+    "Azure",
+    "HashiCorp Vault",
+    "Prometheus",
+    "Grafana",
+    "SRE"
+  ],
+  "key_responsibilities": [
+    "Design/implement LLM inference serving stacks (vLLM, TensorRT-LLM, Triton, SGLang)",
+    "Inference optimization: continuous batching, speculative decoding, KV/prefix caching",
+    "Quantization (FP8/AWQ/GPTQ) and GPU utilization tuning",
+    "Build Kubernetes-based serving platforms (KServe, GKE, OpenShift)",
+    "Enable GenAI platforms and RAG use cases",
+    "Cloud infra: Terraform, landing zones, org policy governance",
+    "Observability/SRE: Prometheus/Grafana, logging, tracing, SLOs"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

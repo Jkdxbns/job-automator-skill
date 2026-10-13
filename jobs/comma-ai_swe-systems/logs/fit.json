@@ -1,0 +1,108 @@
+{
+  "company": "comma.ai",
+  "company_slug": "comma-ai",
+  "role": "Software Engineer, Systems",
+  "job_slug": "swe-systems",
+  "match_pct": 35.7,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 14,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "embedded Linux systems",
+    "debugging with hardware tools"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "resource usage optimization",
+      "you_have": "ML model optimization (quantization, pruning) / CUDA kernel optimization"
+    },
+    {
+      "jd_skill": "latency optimization",
+      "you_have": "Inference latency optimization on Jetson (TensorRT, ASR pipelines)"
+    },
+    {
+      "jd_skill": "hardware bring-up",
+      "you_have": "PCB design + sensor bring-up (EAGLE, I2C/SPI/UART peripherals) at microcontroller level"
+    },
+    {
+      "jd_skill": "hardware abstraction layers",
+      "you_have": "STM32 HAL / bare-metal peripheral drivers"
+    }
+  ],
+  "missing_skills": [
+    "Linux internals",
+    "kernel modules",
+    "bootloader",
+    "boot time optimization",
+    "kernel drivers",
+    "kernel logs debugging",
+    "platform stability/reliability/observability"
+  ],
+  "top_ats_keywords": [
+    "Linux kernel",
+    "bootloader",
+    "C/C++",
+    "embedded Linux",
+    "kernel modules",
+    "hardware bring-up",
+    "boot time",
+    "low-level systems",
+    "kernel logs",
+    "hardware abstraction layer"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded Linux systems",
+    "Linux internals",
+    "kernel modules",
+    "boot time optimization",
+    "resource usage optimization",
+    "latency optimization",
+    "debugging with hardware tools and kernel logs"
+  ],
+  "preferred_skills": [
+    "bootloader",
+    "kernel drivers",
+    "hardware abstraction layers",
+    "hardware bring-up",
+    "platform stability/reliability/observability"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Contribute to Linux kernel, bootloader, and low-level systems code",
+    "Optimize boot times and system-level performance on embedded devices",
+    "Support hardware bring-up for new platforms",
+    "Debug and improve platform stability, reliability, and observability",
+    "Work across kernel, drivers, and hardware abstraction layers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

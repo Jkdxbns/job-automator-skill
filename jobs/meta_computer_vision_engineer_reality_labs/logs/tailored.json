@@ -1,0 +1,98 @@
+{
+  "_meta": { "company": "Meta", "role": "Computer Vision Engineer (Reality Labs)", "company_slug": "meta", "job_slug": "computer_vision_engineer_reality_labs" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) building real-time computer vision and perception systems for robotics: 3D reconstruction, depth estimation, and synthetic data generation for training perception models in Unreal-based simulation. Experienced in C++ and Python across camera-guided robotic manipulation, ray-traced rendering, and applying generative models (Gemini, fine-tuned transformers) inside live engineering pipelines.",
+  "skills": {
+    "Computer Vision & Perception": ["OpenCV", "YOLO", "Visual servoing", "Depth estimation", "Homography stitching", "TensorRT"],
+    "Graphics & Synthetic Data": ["Ray tracing", "CARLA (Unreal Engine)", "Synthetic data generation"],
+    "ML / Robotics": ["PyTorch", "TensorFlow", "Inverse kinematics"],
+    "Languages & Systems": ["Python", "C/C++", "CUDA", "Linux", "Git"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Developed a custom image-stitching pipeline using homography estimation for high-resolution 3D surface reconstruction, achieving a PSNR of 65 against baseline stitching.",
+        "Designed a custom wavelet bank combined with optimized homography stitching to suppress noise, improving PSNR to 86.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling, achieving ±8% error on 3D surface reconstruction of metal surfaces."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Architected a Mixed Reality headset concept using AI-based real-time chroma keying without a green screen; produced full claims documentation and BOM.",
+        "Developed a wearable gesture-recognition glove with Raspberry Pi and Bluetooth, resolving sensor jitter through software calibration."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 multi-modal MRI dataset; evaluated on Dice Score and IoU across data recipes and augmentation pipelines for 3D volumetric inputs."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom object-detection dataset (1,133 images); trained YOLOv8n achieving 83% mAP@50 on held-out validation, exported to ONNX and TFLite."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated synthetic data generation pipelines in CARLA (Unreal Engine based simulator) with zero manual annotation, producing ~5,000 YOLO and ~3,000 UFLD training frames used to train YOLO11n (mAP50~0.85) and UFLD, validated in Town02 with zero collisions."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies for ray-traced rendering of 5000x5000 pixel scenes using MPI, achieving up to 30x speedup with static strip partitioning across 55 processes."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system integrating Gemini intent classification, TensorRT-optimized YOLO (5.2x speedup: 56.7 to 10.9 ms) for visual servoing, and dual ToF sensors for contact-aware grasping.",
+        "Resolved 11 integration failures; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency, driving five servos via two-link inverse kinematics in C++."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

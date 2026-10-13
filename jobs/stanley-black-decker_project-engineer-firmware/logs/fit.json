@@ -1,0 +1,90 @@
+{
+  "company": "Stanley Black & Decker",
+  "company_slug": "stanley-black-decker",
+  "role": "Project Engineer, Firmware",
+  "job_slug": "project-engineer-firmware",
+  "location": "Towson, MD (On-Site)",
+  "salary": "$90,000 - $144,900",
+  "match_pct": 81.8,
+  "have_skills": [
+    "BSEE/MSEE Electrical or Computer Engineering",
+    "C and C++ software development",
+    "Microcontrollers + peripherals (timers, ADC, UART, SPI, I2C)",
+    "Embedded SW concepts (hard real-time, interrupts, race conditions, RTOS)",
+    "Both hardware and software development (PCB design + firmware)",
+    "Lab equipment (oscilloscopes, logic analyzers, power supplies, DMM)"
+  ],
+  "adjacent_skills": [
+    "Closed loop control and feedback systems -> Robocon closed-loop sensor feedback + visual servoing, no control-theory/PID design",
+    "MCU peripherals incl. watchdog + DMA -> have GPIO/TIM2/ADC1/I2C1/UART, no watchdog or DMA anywhere",
+    "In-circuit debugger -> debugging experience present, no named ST-Link/SWD/JTAG workflow"
+  ],
+  "missing_skills": [
+    "Motor drive systems + Field Oriented Control (FOC) / sensorless motor control",
+    "Assembly programming"
+  ],
+  "top_ats_keywords": [
+    "motor control",
+    "sensorless motor control",
+    "Field Oriented Control",
+    "FOC",
+    "motor drive systems",
+    "embedded C",
+    "C++",
+    "assembly",
+    "microcontroller",
+    "timers",
+    "ADC",
+    "UART",
+    "SPI",
+    "I2C",
+    "DMA",
+    "GPIO",
+    "watchdog",
+    "closed loop control",
+    "feedback systems",
+    "RTOS",
+    "hard real time",
+    "interrupt processing",
+    "race conditions",
+    "cooperative multitasking",
+    "process scheduling",
+    "oscilloscope",
+    "logic analyzer",
+    "in-circuit debugger",
+    "firmware",
+    "embedded system",
+    "proof-of-concept prototypes",
+    "power electronics"
+  ],
+  "key_responsibilities": [
+    "Design and develop advanced motor control algorithms such as sensorless motor control on proof-of-concept prototypes",
+    "Design, simulate, implement, and test new motor control functionality in an embedded system",
+    "Develop solutions for electrification of Power Tools and Outdoor Equipment",
+    "Document all designs and decisions",
+    "Communicate with internal stakeholders; own and schedule objectives",
+    "Train and mentor junior team members"
+  ],
+  "role_category": "embedded_systems",
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "clearance_required": false,
+  "remote_ok": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "requisition_id": "REQ-1000050683",
+  "application_deadline": "2026-09-18",
+  "source": "Stanley Black & Decker Workday (canonical); also seen on job board aggregator",
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-29",
+    "channel": "application",
+    "notes": "Form rejection. No feedback."
+  }
+}

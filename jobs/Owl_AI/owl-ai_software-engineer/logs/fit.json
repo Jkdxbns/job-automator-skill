@@ -1,0 +1,168 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Software Engineer",
+  "job_slug": "software-engineer",
+  "match_pct": 65.2,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 23,
+    "req_cov": 0.667,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++ / C/C++",
+    "Python",
+    "CUDA / GPU kernel optimization",
+    "TensorRT",
+    "OpenCV / image processing / computer vision",
+    "Git",
+    "Embedded / bare-metal / firmware",
+    "Hardware interfaces (UART/I2C/SPI/GPIO)",
+    "Robotics / autonomous systems",
+    "Sensor / imaging-related software",
+    "GUI development",
+    "Production-quality code / testing practices"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded firmware / device drivers / hardware interfaces",
+      "you_have": "Embedded bare-metal C / STM32 / FreeRTOS / UART/I2C/SPI/GPIO"
+    },
+    {
+      "jd_skill": "Camera / imaging / sensor control software",
+      "you_have": "Sensor / imaging / perception pipelines (YOLO, ToF, OpenCV)"
+    },
+    {
+      "jd_skill": "Image processing / computer vision / imaging pipelines",
+      "you_have": "OpenCV, YOLO, image processing, visual servoing"
+    },
+    {
+      "jd_skill": "Graphical user interfaces",
+      "you_have": "GUI / PyQt / PySide6/Qt"
+    },
+    {
+      "jd_skill": "Robotics / autonomous vehicles / autonomous systems",
+      "you_have": "ROS2, robot perception, CARLA simulation"
+    },
+    {
+      "jd_skill": "GPU / computer vision technologies (CUDA, TensorRT, OpenCV)",
+      "you_have": "CUDA, CUDA C++, TensorRT, OpenCV, Kernel optimization"
+    }
+  ],
+  "missing_skills": [
+    "2+ years professional full-time experience (candidate: 0 FT years, 7 internships only)",
+    "Wafer / final / qualification / manufacturing test systems experience",
+    "Explicit device driver development experience (profile has embedded firmware, not named device drivers)",
+    "Thermal / infrared imaging experience",
+    "Agile / Scrum development experience"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Production-quality software development",
+    "Git / version control",
+    "Object-oriented programming",
+    "Data structures and algorithms",
+    "Software testing and debugging",
+    "Reading and translating technical requirements",
+    "Problem-solving and troubleshooting software/hardware interfaces",
+    "Written and verbal communication",
+    "Multidisciplinary collaboration",
+    "Adaptability to evolving technical priorities"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Production-quality software development",
+    "Git / version control",
+    "Object-oriented programming",
+    "Data structures and algorithms",
+    "Software testing and debugging",
+    "Reading and translating technical requirements",
+    "Problem-solving and troubleshooting software/hardware interfaces",
+    "Written and verbal communication",
+    "Multidisciplinary collaboration",
+    "Adaptability to evolving technical priorities"
+  ],
+  "preferred_skills": [
+    "Wafer-level / final product / qualification / manufacturing test systems",
+    "Embedded firmware and device drivers",
+    "Hardware interfaces and sensor control software",
+    "Camera / imaging / sensor / hardware-control software",
+    "Graphical user interfaces for engineering / imaging / technical applications",
+    "Image enhancement, image processing, computer vision, imaging pipelines",
+    "Thermal / infrared imaging or sensor technologies",
+    "OpenCV",
+    "CUDA",
+    "TensorRT",
+    "Computer vision / GPU technologies",
+    "Robotics / autonomous vehicles / ADAS / drones / autonomous systems",
+    "Agile / Scrum development"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Fairport, NY \u2013 Hybrid",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 73.6,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "GUI for imaging/technical apps: PyQt + Matplotlib real-time acquisition GUI (BARC Python Developer), PySide6/VisPy 3D viewer with custom math engine (Frame Simulator)",
+      "Embedded drivers and HW/SW interface debugging: low-level I2C driver and timer/ADC interrupt firmware on STM32, TCA9548A mux + dual VL53L0X integration, ADXL345 + HC-05 on Pi, validated with oscilloscopes and logic analyzers",
+      "CV/GPU stack named in JD: OpenCV, CUDA kernels (VGG16 conv 49.2 vs 73.3 ms), TensorRT YOLO (56.7 to 10.9 ms) in COFFIN, YOLOv8 turret on Jetson",
+      "Image enhancement: BARC wavelet-bank denoising, image stitching (PSNR 65 to 86), ZoeDepth depth profiling",
+      "Autonomy/perception integration: CARLA pipeline with YOLO + UFLD + control stack, COFFIN visual servoing, ROS2/MoveIt arm work",
+      "Debugging/profiling habit: 11 integration failures resolved in COFFIN, pynvml profiling, systemd service hardening"
+    ],
+    "real_gaps": [
+      "No wafer test, final product test, qualification or manufacturing-test software anywhere in the profile; a core of this role",
+      "No thermal/infrared imaging or sensor-characterization experience",
+      "No professional production software: all work is internships, coursework or club; no evidence of unit/integration test suites, code review or CI",
+      "No Agile/Scrum evidence",
+      "Seniority: 2+ years professional experience asked, candidate has 0 full-time years (noted, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "'Git' and 'GitLab' count as Have but only show basic version-control use, not team code review/config management",
+      "'Embedded' keywords (STM32, FreeRTOS, UART) are bare-metal hobby/coursework firmware, not imaging-hardware product drivers"
+    ],
+    "understated_by_keywords": [
+      "BARC wavelet denoising + stitching directly evidences 'image enhancement algorithms', which the keyword pass left unmatched",
+      "Frame Simulator and the BARC lab GUI evidence GUI development for engineering/technical apps",
+      "CARLA perception + control stack evidences ADAS/autonomous-vehicle exposure",
+      "Hardware bring-up with logic analyzers/oscilloscopes supports the 'embedded system bring-up and troubleshooting' duty"
+    ],
+    "screening_gaps": [
+      "No professional/production software experience (2+ years required; 0 full-time)",
+      "No wafer/final/qualification test or manufacturing test software, the role's first listed responsibility",
+      "No thermal/IR imaging experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Broad hands-on fit: Python/C++, imaging GUIs, low-level drivers, OpenCV/CUDA/TensorRT and autonomy projects map to most listed duties. The weak spots are product-test software and professional delivery, which a new grad can plausibly learn on the job; the posting also says the role 'could be subject to' a U.S. citizenship contract requirement, which is worth asking about before investing in a tailored application.",
+    "calibration_delta": -8.4
+  },
+  "semantic_pending": false
+}

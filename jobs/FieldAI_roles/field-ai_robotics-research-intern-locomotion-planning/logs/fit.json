@@ -1,0 +1,55 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Research Internship-Locomotion & Planning (Fall 2026)",
+  "job_slug": "robotics-research-intern-locomotion-planning",
+  "match_pct": 60.0,
+  "missing_skills": [
+    "Reinforcement learning research (continuous control / locomotion / learned planning)",
+    "Isaac Gym / Isaac Lab / MuJoCo / PyBullet physics simulators",
+    "Legged robot platforms (quadruped, bipedal, exoskeleton)",
+    "Sim-to-real transfer (domain randomization, system identification)",
+    "Contact dynamics",
+    "Publications/preprints/open-source contributions in RL, locomotion, or planning"
+  ],
+  "adjacent_skills": [
+    "Kinematics (forward kinematics, DH parameters, IK, visual servoing) -> partial match for control theory/kinematics requirement",
+    "CARLA simulation experience -> partial match for physics-based simulator familiarity (different domain: autonomous driving, not legged robotics)",
+    "NN controller deployment on Jetson/TensorRT/STM32 -> matches 'deploying neural network controllers on resource-constrained or real-time platforms' extra"
+  ],
+  "top_ats_keywords": [
+    "reinforcement learning",
+    "locomotion",
+    "learning-based planning",
+    "sim-to-real",
+    "Isaac Gym",
+    "Isaac Lab",
+    "MuJoCo",
+    "ROS/ROS2",
+    "motion planning",
+    "control theory",
+    "kinematics",
+    "domain randomization",
+    "GPU-accelerated simulation",
+    "Python",
+    "C++"
+  ],
+  "key_responsibilities": [
+    "Design, implement, and evaluate RL pipelines integrating locomotion control with learning-based planning",
+    "Develop sim-to-real transfer strategies (domain randomization, system identification, adaptive methods)",
+    "Build/leverage GPU-accelerated simulation environments (Isaac Gym, Isaac Lab, MuJoCo)",
+    "Test and iterate policies on real legged robot platforms in unstructured environments",
+    "Translate research concepts into working robotic systems tested on real hardware",
+    "Collaborate across systems engineers, perception experts, and embedded teams",
+    "Debug system-level issues spanning simulation, software, hardware, and learning"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "notes": "Role explicitly requires 'Current PhD student in Robotics, CS, ME, AI/ML' -- Justin holds an M.S. (graduated May 2026), not enrolled in a PhD program. This is a stated eligibility requirement, not one of the F-1/ITAR/clearance/citizenship hard-blocker categories, so it does not force a HARD BLOCK verdict under the defined rules, but it is likely a practical disqualifier worth flagging before applying. Role is fully onsite in Irvine, CA (no remote option) -- acceptable since candidate is willing to relocate. No explicit no-sponsorship or clearance/ITAR language found in JD.",
+  "llm_analysis": null
+}

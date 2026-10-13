@@ -1,0 +1,21 @@
+{
+  "company": "LuminX",
+  "company_slug": "luminx",
+  "role": "Robotics Systems Engineer",
+  "job_slug": "robotics_systems_engineer",
+  "match_pct": 96,
+  "missing_skills": ["Rockchip / RK3588", "MIPI CSI", "GMSL", "GigE", "V4L2", "GStreamer", "FFmpeg", "RTSP", "DeepStream", "Docker", "OTA updates", "fleet management", "cloud telemetry"],
+  "adjacent_skills": ["JetPack (via Jetson)", "multimeters (via oscilloscope/logic analyzer)", "IoT (via BLE/embedded)", "camera capture (via OpenCV/multiprocessing)"],
+  "top_ats_keywords": ["NVIDIA Jetson", "embedded Linux", "edge computing", "Python", "C++", "CUDA", "TensorRT", "camera integration", "sensor integration", "hardware bring-up", "device software", "Linux debugging", "robotics", "computer vision"],
+  "key_responsibilities": ["Develop/maintain software on Jetson and Rockchip edge devices", "Integrate and troubleshoot cameras, sensors, networking, peripherals", "Build device services (capture, health monitoring, telemetry, config, remote mgmt)", "Diagnose across Linux, device software, networking, power, hardware", "Create device provisioning/testing/deployment/OTA tooling", "Support bring-up and validation of new edge hardware", "Deploy and evaluate ML models on edge", "Travel to customer sites for installs and debugging"],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 88,
+    "llm_verdict": "Strong Fit",
+    "reasoning": "The core of this role (Jetson edge software, TensorRT model deployment, camera/sensor integration, and debugging at the hardware-software boundary) maps almost one-to-one onto Justin's COFFIN capstone and Object Tracking Turret. The real distance is production/field maturity, not skills: everything Justin has built is single-device lab/prototype scope, while this job is about fleets of devices running in customer warehouses.",
+    "strengths": ["Jetson + TensorRT + YOLO edge deployment (COFFIN: 5.2x TensorRT speedup, real multi-camera capture pipeline)", "Hardware-software boundary debugging (COFFIN: resolved servo brown-out, stale-frame capture, false-positive detections; Turret: Jetson->STM32 over UART)", "Camera/sensor integration (multi-camera multiprocessing capture; ADXL345, VL53L0X ToF, I2C sensors)", "Python + C++ across the whole stack (CUDA C++, bare-metal C)", "Practical hardware: PCB fab in EAGLE, oscilloscope/logic-analyzer bring-up, UART/I2C/SPI wiring"],
+    "real_gaps": ["Zero production fleet experience: no OTA updates, device provisioning, fleet management, or cloud telemetry", "No real-world/field customer deployment (all work is lab/academic)", "No Rockchip/RK3588, no camera-interface protocols (MIPI CSI, GMSL, GigE, V4L2), no video pipeline tooling (GStreamer/RTSP), no Docker", "Field electrical troubleshooting (tracing warehouse wiring, replacing components, multimeter work) is lighter than the resume's PCB/bench work implies"],
+    "overstated_by_keywords": ["Linux debugging (has Linux usage, not deep systemd-services/networking-stack debugging)", "electrical troubleshooting (bench/PCB depth, not field diagnostic depth)"]
+  }
+}

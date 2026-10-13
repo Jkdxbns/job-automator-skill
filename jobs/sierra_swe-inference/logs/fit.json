@@ -1,0 +1,122 @@
+{
+  "company": "Sierra",
+  "company_slug": "sierra",
+  "role": "Software Engineer, Inference",
+  "job_slug": "swe-inference",
+  "match_pct": 44.7,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 19,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "GPU",
+    "Linux",
+    "CUDA",
+    "Inference performance optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Inference serving",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "vLLM",
+      "you_have": "Hugging Face Transformers"
+    },
+    {
+      "jd_skill": "SGLang",
+      "you_have": "Hugging Face Transformers"
+    },
+    {
+      "jd_skill": "Speculative Decoding",
+      "you_have": "Kernel optimization"
+    },
+    {
+      "jd_skill": "Distributed Systems",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "GPU infrastructure",
+      "you_have": "SLURM"
+    },
+    {
+      "jd_skill": "Containers",
+      "you_have": "systemd"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Docker",
+    "MLOps",
+    "Large-scale production systems",
+    "Serving LLMs at scale",
+    "Post-training infrastructure",
+    "Routing/failover/quota"
+  ],
+  "top_ats_keywords": [
+    "Distributed Systems",
+    "Inference",
+    "GPU",
+    "vLLM",
+    "SGLang",
+    "Speculative Decoding",
+    "Kubernetes",
+    "Docker",
+    "MLOps",
+    "LLM serving",
+    "Python",
+    "Linux"
+  ],
+  "required_skills": [
+    "Distributed Systems",
+    "Large-scale production systems",
+    "Inference serving",
+    "Latency/reliability/cost tradeoffs",
+    "GPU infrastructure",
+    "Containers"
+  ],
+  "preferred_skills": [
+    "MLOps",
+    "Serving LLMs at scale",
+    "vLLM",
+    "SGLang",
+    "Post-training infrastructure",
+    "Inference performance optimization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Inference routing/failover/quota",
+    "Self-hosted GPU inference",
+    "Speculative decoding and serving engine optimization"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

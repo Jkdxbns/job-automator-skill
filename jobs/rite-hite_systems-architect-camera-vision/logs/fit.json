@@ -1,0 +1,24 @@
+{
+  "company": "Rite-Hite",
+  "company_slug": "rite-hite",
+  "role": "Systems Architect - Camera and Vision Technologies",
+  "job_slug": "systems-architect-camera-vision",
+  "match_pct": 70,
+  "missing_skills": ["optics", "cloud services", "enterprise cross-functional stakeholder leadership"],
+  "adjacent_skills": ["computer vision architectures (has pipeline-level, not enterprise-architecture-level)", "vision pipeline design (YOLO/TensorRT scale, not multi-product reference architecture scale)", "mobile applications (Flutter, single project)", "camera/optical sensing (ToF/depth sensors, not classic camera+optics)"],
+  "top_ats_keywords": ["camera systems", "vision pipelines", "edge platforms", "AI/ML", "computer vision architectures", "reference architecture", "image processing", "industrial automation", "cross-functional leadership"],
+  "key_responsibilities": [
+    "Define and maintain reference architectures for camera hardware, vision pipelines, edge-based vision processing",
+    "Guide architectural decisions on camera selection, optics, illumination, environmental constraints, edge compute limitations",
+    "Define integration patterns across edge AI/ML, device software, mobile apps, cloud platforms",
+    "Provide technical leadership and mentorship across product, AI/ML, hardware, and mobile teams (no direct reports)",
+    "Serve as technical voice for vision capabilities in strategic customer conversations"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "llm_analysis": null,
+  "notes": "match_pct meets keyword threshold on paper but this is a senior/staff+ architect role (8+ years, enterprise reference-architecture ownership, cross-team technical leadership with no direct reports). Justin has 0 full-time years and is a May 2026 MS grad. Seniority/scope mismatch overrides the keyword overlap -- downgraded from mechanical 'Can Try' to 'No'."
+}

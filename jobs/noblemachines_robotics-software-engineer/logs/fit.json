@@ -1,0 +1,72 @@
+{
+  "company": "Noble Machines",
+  "company_slug": "noblemachines",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 66.7,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 15,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "C++", "Python", "ROS/ROS2", "Serial (UART)", "GUI/tool development (PyQt, Flask-SocketIO)",
+    "Hardware bring-up / microcontroller dev / sensor integration (STM32, Arduino)",
+    "Relevant technical degree (M.S. Computer Engineering)",
+    "Open source / personal robotics projects", "Calibration & data collection tooling"
+  ],
+  "missing_skills": ["CAN bus", "Ethernet", "USB", "Docker / containerization"],
+  "adjacent_skills": [
+    "Simulation environments (has CARLA, not Gazebo/Isaac Sim/MuJoCo)",
+    "Telemetry/log analysis & diagnostics (strong debugging record, not telemetry-specific)"
+  ],
+  "top_ats_keywords": ["ROS2", "C++", "Python", "GUI", "STM32", "UART", "I2C", "hardware bring-up", "calibration", "diagnostics"],
+  "key_responsibilities": [
+    "Integrate new hardware prototypes with software systems",
+    "Build control, configuration, visualization, and diagnostic GUIs",
+    "Create reusable tools for hardware bring-up, testing, calibration, data collection, troubleshooting",
+    "Develop and maintain ROS 2 nodes, interfaces, drivers",
+    "Test integrated hardware/software behavior, analyze logs/telemetry, diagnose cross-subsystem issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes",
+    "apply_before_semantic": "Yes",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 74,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hardware/software integration debugging across subsystem boundaries -- COFFIN capstone resolved 11 integration failures (servo brown-out, stale-frame capture, false-positive detections) exactly matching the JD's core diagnostic responsibility",
+      "Diagnostic and visualization GUI building -- PyQt/Matplotlib real-time data acquisition GUI at BARC, Flask-SocketIO web control interface in COFFIN",
+      "Hardware bring-up, sensor integration, calibration -- STM32 bare-metal firmware, ToF sensors, ADXL345 accelerometer, UART/I2C sensor comms across multiple projects",
+      "Practical C++ and Python across nearly every project, from embedded firmware to ROS control code"
+    ],
+    "real_gaps": [
+      "No CAN bus experience, which the JD lists explicitly as a target communication interface for heavy-industry hardware",
+      "No Docker/containerization or Gazebo/Isaac Sim/MuJoCo simulation experience (only CARLA, a different simulation domain)",
+      "ROS2 experience is mostly validating existing drivers/MoveIt/RViz rather than authoring custom ROS2 nodes and drivers from scratch, which is the JD's stated day-one responsibility",
+      "No Ethernet or USB-specific interface work on record",
+      "All experience is capstone/internship/research scope, not a shipped production tool maintained over time -- though the JD's 0-2 yr bar already expects this"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "The keyword pass undercounts how directly the COFFIN integration-failure narrative answers the JD's most distinctive ask: diagnosing hardware/software issues across subsystem boundaries"
+    ],
+    "screening_gaps": [
+      "No CAN bus or vehicle/industrial network protocol experience",
+      "No Docker or robotics simulation environment (Gazebo/Isaac Sim/MuJoCo) experience",
+      "Thin ROS2 node/driver authorship -- used the ROS ecosystem more than built custom nodes"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong practical match on the role's core day-to-day work -- hardware bring-up, diagnostic GUIs, and cross-subsystem debugging are all directly evidenced, and the JD explicitly does not require deep ROS2/DDS expertise. The real gaps (CAN, Docker, sim environments) are learnable on the job and typical for an entry-level hire, not disqualifying.",
+    "calibration_delta": -7.3
+  }
+}

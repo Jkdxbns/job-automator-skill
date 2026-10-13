@@ -1,0 +1,101 @@
+{
+  "company": "Reactor",
+  "company_slug": "reactor",
+  "role": "Platform Engineer",
+  "job_slug": "platform-engineer",
+  "match_pct": 17.6,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 13,
+    "jd_ask_size": 17,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GPU observability",
+      "you_have": "pynvml profiling"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes in production",
+    "Terraform/IaC",
+    "GPU workloads on Kubernetes",
+    "GitOps (FluxCD/ArgoCD)",
+    "Helm",
+    "Redis",
+    "Prometheus/Grafana/OpenTelemetry",
+    "networking (load balancers, TLS, DNS, NAT)",
+    "GPU cloud providers",
+    "real-time media streaming",
+    "Go",
+    "ML model serving",
+    "FinOps"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "Terraform",
+    "Helm",
+    "ArgoCD",
+    "Redis",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "Go",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "Kubernetes in production",
+    "Terraform/IaC",
+    "GPU workloads on Kubernetes",
+    "GitOps (FluxCD/ArgoCD)",
+    "Helm",
+    "Redis",
+    "Prometheus/Grafana/OpenTelemetry",
+    "networking (load balancers, TLS, DNS, NAT)"
+  ],
+  "preferred_skills": [
+    "GPU cloud providers",
+    "real-time media streaming",
+    "Go",
+    "Python",
+    "ML model serving",
+    "FinOps"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "ml_systems",
+  "location": "San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

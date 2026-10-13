@@ -1,0 +1,120 @@
+{
+  "company": "TikTok",
+  "company_slug": "tiktok",
+  "role": "Machine Learning Engineer Graduate (Search Ads) - 2027 Start",
+  "job_slug": "ml-engineer-graduate-search-ads-2027-start",
+  "job_url": "https://lifeattiktok.com/search/7669698543896054069",
+  "job_code": "A28079",
+  "location": "San Jose, CA",
+  "salary_range": "$128,000 - $256,000",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "Ads systems / monetization",
+    "CTR/CVR estimation",
+    "Ranking / learning-to-rank",
+    "Information retrieval",
+    "Recommendation systems",
+    "Query understanding",
+    "Query classification",
+    "NER",
+    "Knowledge graph",
+    "Bidword optimization",
+    "Ads pacing algorithms",
+    "Ads traffic control",
+    "Large-scale distributed storage",
+    "Go",
+    "MXNet",
+    "Active learning",
+    "Behavioral feature engineering"
+  ],
+  "adjacent_skills": [
+    "seq2seq -> encoder-decoder Transformers (Whisper-style ASR, DONUT VisionEncoderDecoder)",
+    "Semantic matching -> multi-head self-attention / embeddings (GPT-2 from scratch)",
+    "Multi-modal text/photo/video -> CV + ASR + VLM pipelines",
+    "Large-scale distributed -> MPI + SLURM cluster workloads",
+    "Feature engineering -> image/audio preprocessing pipelines",
+    "Data analysis -> benchmarking + profiling (pynvml, HellaSwag/GSM8K/ARC)"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "C/C++",
+    "NLP",
+    "Ranking",
+    "CTR",
+    "CVR",
+    "Semantic matching",
+    "seq2seq",
+    "NER",
+    "Knowledge graph",
+    "Query understanding",
+    "Feature engineering",
+    "Recommendation",
+    "Information retrieval",
+    "Ads system",
+    "Go",
+    "Large-scale distributed systems",
+    "Model optimization",
+    "Transformer"
+  ],
+  "key_responsibilities": [
+    "Develop a large-scale Ads system",
+    "Relevance model and strategy optimization (semantic matching, active learning, multi-modal, ranking strategy)",
+    "Develop and iterate Ads algorithms using Machine Learning",
+    "NLP capability improvement and query understanding (query classification, seq2seq, NER, knowledge graph, bidword optimization)",
+    "CTR/CVR model estimation accuracy, data analysis, modeling, feature engineering",
+    "Research and develop Ads pacing algorithms and traffic control",
+    "Partner with PM and product strategy teams to define product strategy"
+  ],
+  "role_category": "ml_systems",
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "remote_ok": false,
+  "clearance_required": false,
+  "hard_blocker_triggered": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "start_date": "2027 start; onboarding commitment required. EAD pending, 90-day OPT unemployment clock likely expires ~late Dec 2026.",
+    "application_limit": "Max 2 applications globally across TikTok/ByteDance affiliates - this consumes one slot."
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Transformer internals built from scratch, not just used: GPT-2 style model in PyTorch with multi-head self-attention, MLP blocks, residuals, layer norm, weight tying - directly backs 'good theoretical grounding in ML' and the semantic-matching/seq2seq responsibilities",
+      "Whisper-style ASR from scratch: 80-channel mel encoder + 4-block causal Transformer decoder with cross-attention, 15% WER - genuine encoder-decoder/seq2seq depth",
+      "Custom BPE tokenizer with Cython backend, 4-5.5x speedup over pure Python, 6M chars in 15 min - real text-processing infrastructure work relevant to query pipelines",
+      "Systems/latency optimization depth: custom CUDA C++ kernels for VGG16 (49.2ms vs 73.3ms, ~35% speedup via memory coalescing) and 8-bit quantization on TinyLlama (~55% VRAM cut, <1% accuracy loss) - ads serving teams care about inference latency",
+      "Distributed compute reasoning: MPI + SLURM, 10.49x speedup with 12 workers, characterized 65% degradation under load imbalance",
+      "End-to-end model iteration on real data: DONUT fine-tune moved validation accuracy 55% -> 93%",
+      "Language coverage matches the 'one or more' clause exactly: strong Python and C/C++ (plus CUDA C++)"
+    ],
+    "real_gaps": [
+      "Zero ads domain exposure - pacing, traffic control, bidword optimization, auction mechanics, monetization all absent",
+      "No CTR/CVR estimation, click modeling, or probability calibration anywhere in the profile - this is a named core responsibility",
+      "No ranking or learning-to-rank, no information retrieval, no recommendation systems",
+      "Query understanding stack absent: no query classification, no NER, no knowledge graph work",
+      "Feature engineering experience is image and audio preprocessing, not behavioral/tabular feature pipelines over user logs",
+      "No production-scale distributed storage or online serving - MPI/SLURM is batch scientific computing, a different problem shape",
+      "No large-scale online A/B experimentation or metric-driven product iteration",
+      "No Go, no MXNet",
+      "Profile centre of mass is edge AI, robotics, CV, and embedded - this role is web-scale ads ranking, roughly the opposite end of ML engineering"
+    ],
+    "overstated_by_keywords": [
+      "NLP - counted as Have, but his NLP is generative (language modeling, ASR), not the search/query-understanding NLP this JD means",
+      "Machine Learning - technically Have, but the depth sits in CV, speech, and edge inference, not ads/recsys/ranking",
+      "Large-scale distributed - MPI/SLURM batch HPC is not large-scale distributed storage or online serving architecture",
+      "Feature engineering - image/audio preprocessing, not behavioral feature pipelines",
+      "Multi-modal - his multi-modal work is perception fusion, not text/photo/video ad creative ranking"
+    ],
+    "reasoning": "The minimum qualifications here are deliberately generic for a new-grad req and Justin clears every one of them, which is why keyword matching returns 100%. The real job is web-scale ads ranking: CTR/CVR prediction, retrieval, query understanding, and behavioral feature engineering, and none of that appears anywhere in his profile. What he does bring is unusually strong ML fundamentals (Transformers and a tokenizer built from scratch) plus systems and latency optimization depth, which is exactly the profile new-grad ads teams do hire and train into the domain. Worth applying, but the domain gap is real and will show up in interviews as ranking and CTR modeling questions he has no project to answer from."
+  }
+}

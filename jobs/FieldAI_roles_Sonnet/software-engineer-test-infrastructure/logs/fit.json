@@ -1,0 +1,133 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Test Infrastructure",
+  "job_slug": "software-engineer-test-infrastructure",
+  "match_pct": 53.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 13,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "strong Python programming (AI/ML Intern (IIT Bombay) \u2014 fine-tuned DONUT OCR-free transformer with PyTorch + HuggingFace VisionEncoderDecoder; Python Developer Intern (BARC) \u2014 PyQt/Matplotlib GUI for real-time data acquisition; Autonomous Driving (CARLA); SLM Compression; COFFIN ASR; ROS-Based Arm; Object Tracking Turret)",
+    "Linux-based development environments (Voice-Controlled Robotic Arm (MS Capstone) \u2014 systemd service management (unit files, auto-restart, non-root isolation, static IP/network config) deployed on Linux (Jetson/Pi); ROS2 Humble + Noetic on Linux)",
+    "strong debugging and problem-solving (Voice-Controlled Robotic Arm \u2014 resolved 11 integration failures; CARLA Autonomous Driving \u2014 zero collisions in Town02 via iterative debugging; embedded UART/I2C/SPI sensor integration troubleshooting)",
+    "familiarity with simulation environments / system-level validation (Autonomous Driving in CARLA \u2014 semantic segmentation + YOLO11n/UFLD lane detection, zero collisions in Town02 simulation; ROS-Based Robotic Arm \u2014 RViz + MoveIt simulation, DH forward kinematics validation; Voice-Controlled Arm \u2014 100% pick reliability (10/10) real-world system validation)",
+    "exposure to hardware-software integrated systems (Voice-Controlled Robotic Arm (COFFIN) \u2014 Flutter + Flask-SocketIO + Jetson + Arduino + dual VL53L0X ToF + TCA9548A I2C mux; Object Tracking Turret \u2014 YOLOv8 on Jetson + STM32 UART + FreeRTOS + VL53L0X ToF + multi-servo PWM; STM32 Bare-Metal Temperature Monitor)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "building testing frameworks / developer-facing tools",
+      "you_have": "Built system-level developer-facing deployment: Voice-Controlled Arm (systemd auto-restart, non-root isolation, static IP); Python Developer Intern PyQt GUI for data acquisition. No dedicated test framework built, but performed deep integration debugging (11 failures resolved) and reliability validation (100% pick)."
+    },
+    {
+      "jd_skill": "working closely with engineering teams on system quality",
+      "you_have": "Led 7-person research team (Teesside Univ \u2014 U-Net segmentation); led 25-member Agnel Robotics Club; 7 internships across BARC, IIT Bombay, Tusk, Teesside. System quality proven via metrics (100% reliability, 0 collisions, \u00b18% error profiling) rather than formal team-quality collaboration process."
+    },
+    {
+      "jd_skill": "experience testing robotics, distributed systems, or infrastructure platforms",
+      "you_have": "Robotics domain depth: Voice-Controlled Arm, ROS2/MoveIt Arm, Object Tracking Turret, CARLA autonomous driving, STM32 embedded controls. Focus is on building/deploying robotics/perception systems, not testing them; however, performed extensive system-level validation (100% pick reliability, zero simulation collisions). No distributed-systems-at-company-scale experience."
+    },
+    {
+      "jd_skill": "improve test reliability / reduce flakiness / increase signal",
+      "you_have": "Reliability focus demonstrated via Voice-Controlled Arm (100% pick reliability, 10/10), systemd auto-restart for uptime, and 11 integration-failure resolution; not within a dedicated test-automation framework context."
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "3+ years full-time software engineering / test / automation experience",
+      "you_have": "Candidate is new-grad (May 2026), 0 years full-time; 7 internships/research roles only."
+    },
+    {
+      "jd_skill": "CI/CD systems and large-scale test automation",
+      "you_have": "Profile explicitly has no CI/CD tooling (GitLab only as source control, not CI/CD pipelines); no large-scale test automation framework experience."
+    },
+    {
+      "jd_skill": "containerization (e.g., Docker)",
+      "you_have": "Profile explicitly excludes Docker; no Kubernetes or container orchestration present; no cloud (AWS/GCP/Azure)."
+    },
+    {
+      "jd_skill": "scalable test infrastructure at company/platform scale",
+      "you_have": "Experience is internship/research-scale (individual and small-team robotics/perception projects); no production-scale platform test infrastructure or company-scale distributed testing."
+    }
+  ],
+  "top_ats_keywords": [
+    "scalable test infrastructure",
+    "test automation",
+    "testing frameworks",
+    "unit testing",
+    "integration testing",
+    "system-level testing",
+    "reliability",
+    "coverage",
+    "simulation",
+    "real-world validation",
+    "debugging",
+    "test orchestration",
+    "failure analysis",
+    "CI/CD",
+    "developer workflows",
+    "flakiness",
+    "signal",
+    "Python",
+    "Linux",
+    "robotics",
+    "distributed systems",
+    "infrastructure platforms",
+    "containerization",
+    "hardware-software"
+  ],
+  "required_skills": [
+    "3+ years software engineering/test/automation experience",
+    "strong Python programming",
+    "building testing frameworks / developer-facing tools",
+    "Linux-based development environments",
+    "strong debugging and problem-solving",
+    "working closely with engineering teams on system quality"
+  ],
+  "preferred_skills": [
+    "experience testing robotics, distributed systems, or infrastructure platforms",
+    "familiarity with simulation environments / system-level validation",
+    "CI/CD systems and large-scale test automation",
+    "containerization (Docker)",
+    "exposure to hardware-software integrated systems"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "design and build scalable test infrastructure and automation",
+    "develop unit/integration/system-level testing frameworks",
+    "improve reliability and coverage across simulation and real-world validation",
+    "build debugging, test orchestration, and failure analysis tools",
+    "partner with engineering teams to close testing gaps and improve quality",
+    "integrate testing into CI/CD pipelines and developer workflows",
+    "improve test reliability and reduce flakiness"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

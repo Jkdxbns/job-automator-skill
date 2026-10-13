@@ -1,0 +1,116 @@
+{
+  "company": "Viridien",
+  "company_slug": "viridien",
+  "role": "Software Developer - High-Performance I/O & Storage Systems",
+  "job_slug": "swe-hpio-storage-systems",
+  "match_pct": 42.3,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 13,
+    "req_cov": 0.067,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Linux",
+    "performance optimization / benchmarking (throughput, latency, kernel-level)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems / microservices",
+      "you_have": "MPI distributed compute across SLURM-managed cluster workers"
+    },
+    {
+      "jd_skill": "backend services / APIs",
+      "you_have": "Flask-SocketIO / WebSocket backend service in a 3-layer distributed pipeline"
+    },
+    {
+      "jd_skill": "storage systems / hardware interaction",
+      "you_have": "embedded peripheral/hardware interfacing (I2C/SPI/UART, bare-metal Cortex-M4)"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "gRPC",
+    "Docker",
+    "Kubernetes / containerization",
+    "object storage (S3)",
+    "I/O-intensive storage APIs / data services"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Go",
+    "Python",
+    "gRPC",
+    "Docker",
+    "Kubernetes",
+    "distributed systems",
+    "microservices",
+    "object storage",
+    "S3",
+    "I/O",
+    "throughput",
+    "latency",
+    "Linux systems programming"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Go",
+    "Python",
+    "backend services",
+    "distributed systems",
+    "performance-critical components",
+    "storage systems / OS / hardware interaction",
+    "I/O-intensive systems",
+    "storage APIs",
+    "data services",
+    "performance analysis and optimization (throughput/latency)",
+    "gRPC API design",
+    "microservices architecture",
+    "containerization (Docker/Kubernetes)"
+  ],
+  "preferred_skills": [
+    "object storage (S3)",
+    "Linux systems programming / low-level perf tuning",
+    "high-performance / data-intensive environments experience",
+    "technical or project leadership"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design and develop high-performance services for data access and storage",
+    "Work with object storage systems",
+    "Optimise read and write paths for throughput/latency",
+    "Build and maintain gRPC-based APIs",
+    "Develop backend services for distributed data access",
+    "Analyse and improve performance across the full data path",
+    "Contribute to containerised deployments and distributed architectures"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Crawley, United Kingdom / Houston, United States of America",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

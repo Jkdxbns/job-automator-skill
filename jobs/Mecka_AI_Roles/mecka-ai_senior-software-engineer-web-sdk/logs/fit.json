@@ -1,0 +1,102 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Software Engineer, Web & SDK",
+  "job_slug": "senior-software-engineer-web-sdk",
+  "match_pct": 22.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 11,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "API / SDK interface design (partial)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Web / SDK-facing interfaces",
+      "you_have": "Python web backend / websocket APIs"
+    },
+    {
+      "jd_skill": "Data / sensor visualization",
+      "you_have": "Visualization and image-processing libraries"
+    },
+    {
+      "jd_skill": "Hardware-adjacent / embedded interface work",
+      "you_have": "Embedded hardware and sensor interfaces"
+    }
+  ],
+  "missing_skills": [
+    "Modern JS/TS framework (React, Angular, Vue, etc.) \u2014 no JS/TS in profile",
+    "Media/video web playback (multi-stream, timeline, sync) \u2014 no video/media web tooling",
+    "WebGL / WebCodecs",
+    "SDK design with versioning / external developer ergonomics (only partial API)",
+    "Production web app ownership at senior level (4\u20137+ years) \u2014 0 full-time years, 7 internships",
+    "Large time-series / sensor web visualization \u2014 desktop/embedded only",
+    "Web frontend / browser-based viewer engineering"
+  ],
+  "top_ats_keywords": [
+    "web viewers",
+    "SDK",
+    "media playback",
+    "JS/TS",
+    "frontend",
+    "API design",
+    "developer ergonomics",
+    "versioning",
+    "documentation",
+    "video/sensor",
+    "timeline",
+    "multi-stream",
+    "multiple interfaces",
+    "hardware/data seam"
+  ],
+  "required_skills": [
+    "Modern JS/TS + major framework",
+    "Media-heavy web frontend (video/sensor playback, timeline scrubbing, sync, large-data performance)",
+    "API/SDK design (interfaces other engineers depend on, ergonomics, versioning, documentation)",
+    "Production web app ownership (4+ years mid / 7+ senior)"
+  ],
+  "preferred_skills": [
+    "Video/media tooling",
+    "WebGL/WebCodecs",
+    "Large time-series/sensor visualization",
+    "SDK/developer-platform work with external consumers",
+    "Hardware/data-adjacent products"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and ship web viewers and players for egocentric capture data (multi-stream playback, timeline, sync, performance with large media)",
+    "Design and build SDKs for hardware/data \u2014 clean APIs, documentation, versioning, developer ergonomics",
+    "Own interface contracts at the hardware/data/consumer seam",
+    "Define and ship tooling/reference implementations for internal and external developers"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,103 @@
+{
+  "_meta": { "company": "MBN Solutions", "role": "Robotics Software Engineer – Perception & Edge AI", "company_slug": "mbn_solutions", "job_slug": "robotics_swe_perception_edge_ai" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT focused on real-time perception and Edge AI for robotics. I build and deploy computer vision and object-tracking software onto NVIDIA Jetson and embedded controllers, optimizing inference with TensorRT/CUDA and fusing multi-sensor input into robotic control loops in Python and C++.",
+  "skills": {
+    "Languages": ["Python", "C/C++", "CUDA", "ROS2", "Bash", "Linux", "Git"],
+    "Perception & Computer Vision": ["OpenCV", "YOLO / YOLOv8", "Object tracking", "Depth estimation", "Semantic segmentation", "Visual servoing"],
+    "Edge AI & Deployment": ["NVIDIA Jetson", "TensorRT", "ONNX", "TFLite", "8-bit Quantization", "CUDA C++ kernel optimization"],
+    "Robotics": ["ROS / ROS2", "MoveIt", "RViz", "Forward kinematics", "DH parameters", "Multi-sensor integration"],
+    "Embedded & Sensors": ["STM32 (Bare-Metal C)", "FreeRTOS", "Arduino", "Raspberry Pi", "UART/I2C/SPI", "ToF (VL53L0X)", "IMU / Accelerometer (ADXL345)", "PWM"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a metal-surface inspection perception pipeline (image stitching, wavelet denoising, ZoeDepth monocular depth estimation) achieving ±8% error on 3D crack-depth reconstruction."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on a custom 1,133-image object-detection dataset achieving 83% mAP@50; exported to ONNX and TFLite for on-device deployment."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Built a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and Bluetooth to translate 3-DoF hand motion into HID commands in Python, with custom z-axis tap detection and jitter calibration."
+      ]
+    },
+    {
+      "title": "General Secretary — Robotics",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national competitions; fabricated custom PCBs in EAGLE and implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled, Vision-Guided Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built a vision-guided robotic pick-and-place system across a distributed Jetson+Arduino edge stack (Flask-SocketIO server, WebSocket fabric); integrated TensorRT-optimized YOLO (5.2× speedup, 92 FPS) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping.",
+        "Resolved 11 integration failures (false detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "Autonomous Driving Perception Stack in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated CARLA data pipelines (semantic segmentation, raycast occlusion filtering) generating ~8,000 auto-labeled YOLO/UFLD frames; trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) into an adaptive lane-following control stack, validated at zero collisions in Town02."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret (Jetson + STM32)",
+      "date": null,
+      "bullets": [
+        "Ran YOLOv8 object detection/tracking on NVIDIA Jetson driving an STM32 over UART; implemented interrupt-driven multi-servo PWM control with FreeRTOS mutexes and VL53L0X ToF range sensing."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B, validated against MoveIt/RViz URDF models in ROS 2 Humble/Noetic; executed collision-free pick-and-place on physical UR5e via the UR ROS 2 driver (AL5B repeatability <2mm)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence", "Deep Learning", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

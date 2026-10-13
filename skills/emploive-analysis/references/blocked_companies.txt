@@ -1,0 +1,48 @@
+# Companies the skill never opens a session for, never fetches a JD for, never analyses.
+# One per line. Case-insensitive, whole-word match against the company name Emploive shows.
+# Lines starting with # are comments. Edit freely.
+
+# named by the user
+anduril
+anduril industries
+lockheed martin
+spacex
+space exploration technologies
+nasa
+actalent
+actalent services
+
+# US-citizen-only: federal agencies
+fbi
+federal bureau of investigation
+cia
+central intelligence agency
+nsa
+national security agency
+dhs
+department of homeland security
+department of defense
+dod
+department of the air force
+department of the army
+department of the navy
+us air force
+us army
+us navy
+space force
+us government
+federal government
+
+# US-citizen-only: defense primes and contractors (taken from candidate_context.md defense_category_keywords)
+raytheon
+rtx
+northrop grumman
+general dynamics
+l3harris
+bae systems
+saic
+leidos
+booz allen
+booz allen hamilton
+mitre
+boeing defense

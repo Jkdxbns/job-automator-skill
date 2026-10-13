@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "company": "Intrinsic",
+    "role": "Software Engineer, Perception",
+    "company_slug": "intrinsic",
+    "job_slug": "software-engineer-perception"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate (Rochester Institute of Technology) building deployed perception pipelines for robotics, spanning object detection, depth based 3D reconstruction, and CUDA accelerated inference. Hands on experience deploying TensorRT-optimized YOLO for visual servoing and contact-aware grasping on a real robotic pick-and-place system, plus quantizing deep learning models in PyTorch and TensorFlow for edge deployment.",
+  "skills": {
+    "Computer Vision & Perception": [
+      "Object Detection (YOLO/YOLOv8)",
+      "Depth Estimation",
+      "3D Reconstruction",
+      "Visual Servoing"
+    ],
+    "ML/DL Frameworks": [
+      "PyTorch",
+      "TensorFlow",
+      "HuggingFace Transformers",
+      "TensorRT",
+      "ONNX",
+      "TFLite"
+    ],
+    "GPU & Model Optimization": [
+      "CUDA C++",
+      "Kernel Optimization",
+      "Memory Coalescing",
+      "Quantization (8-bit)"
+    ],
+    "Robotics": [
+      "ABB RobotStudio/RAPID",
+      "NVIDIA Jetson"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "C++",
+      "RAPID",
+      "Git",
+      "JupyterHub"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction.",
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "",
+      "bullets": [
+        "Curated and annotated a custom object detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) in PyTorch using HuggingFace VisionEncoderDecoder API; improved validation accuracy from 55% to 93%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated faster-whisper STT (1.0-1.4s), Gemini intent classification (<500ms), and TensorRT-optimized YOLO (5.2x speedup: 56.7->10.9 ms, 17.6->92 FPS vs eager PyTorch) for visual servoing, plus dual VL53L0X ToF sensors for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Simulated a full ABB RobotStudio workcell for an end-to-end press-to-packing pipeline; programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven logic, validating full-cycle repeatability."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing and constant memory; coalesced kernel ran at 49.2ms vs 77.5ms CPU TorchScript, a ~35% speedup with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; benchmarked across HellaSwag, GSM8K, and ARC with <1% accuracy degradation, a near-lossless compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

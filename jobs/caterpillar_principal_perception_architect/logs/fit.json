@@ -1,0 +1,63 @@
+{
+  "company": "Caterpillar",
+  "company_slug": "caterpillar",
+  "role": "Principal Perception Architect - Detection and Fusion",
+  "job_slug": "principal_perception_architect",
+  "match_pct": 13.2,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 1,
+    "missing_count": 16,
+    "jd_ask_size": 19,
+    "req_cov": 0.17857142857142858,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "robotics",
+    "3d mapping"
+  ],
+  "missing_skills": [
+    "object detection",
+    "sensor fusion",
+    "lidar",
+    "radar",
+    "camera",
+    "tracking",
+    "autonomous vehicles",
+    "imu",
+    "gnss",
+    "point clouds",
+    "segmentation",
+    "construction autonomy",
+    "off-road autonomy",
+    "autonomous systems",
+    "edge computing",
+    "real-time systems"
+  ],
+  "adjacent_skills": [
+    "perception ml"
+  ],
+  "top_ats_keywords": [
+    "object detection",
+    "sensor fusion",
+    "lidar",
+    "radar",
+    "camera"
+  ],
+  "key_responsibilities": [
+    "Define modular perception ML architecture",
+    "Own sensor fusion architecture",
+    "Define object tracking and persistence",
+    "Own 3D mapping architecture",
+    "Define perception output interfaces"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

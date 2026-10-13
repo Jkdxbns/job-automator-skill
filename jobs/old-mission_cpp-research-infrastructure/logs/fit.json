@@ -1,0 +1,126 @@
+{
+  "company": "Old Mission",
+  "company_slug": "old-mission",
+  "role": "C++ Software Engineer - Research Infrastructure",
+  "job_slug": "cpp-research-infrastructure",
+  "match_pct": 46.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 7,
+    "missing_count": 5,
+    "jd_ask_size": 16,
+    "req_cov": 0.55,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "software engineering practices"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "cluster computing",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "high-throughput computing",
+      "you_have": "MPI / CUDA"
+    },
+    {
+      "jd_skill": "C++/Python data transmission",
+      "you_have": "Cython"
+    },
+    {
+      "jd_skill": "networking",
+      "you_have": "TCP/IP, SSH, sockets (COFFIN)"
+    },
+    {
+      "jd_skill": "process management",
+      "you_have": "systemd services"
+    },
+    {
+      "jd_skill": "data pipelines",
+      "you_have": "ML/ASR training pipelines"
+    },
+    {
+      "jd_skill": "APIs",
+      "you_have": "Flask"
+    }
+  ],
+  "missing_skills": [
+    "big data",
+    "data storage and indexing",
+    "data infrastructure at scale",
+    "mentoring / technical leadership",
+    "filesystems"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "data pipelines",
+    "big data",
+    "cluster computing",
+    "high-throughput computing",
+    "Linux",
+    "filesystems",
+    "networking",
+    "process management",
+    "APIs",
+    "data storage",
+    "indexing"
+  ],
+  "required_skills": [
+    "C++",
+    "Linux APIs (filesystems, networking, process management)",
+    "data pipelines",
+    "data infrastructure",
+    "big data tooling",
+    "cluster computing",
+    "high-throughput computing",
+    "software engineering practices",
+    "internal tooling and frameworks",
+    "technical leadership and mentoring"
+  ],
+  "preferred_skills": [
+    "Python",
+    "big data",
+    "C++/Python interop",
+    "API design",
+    "data storage and indexing"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build and maintain data pipelines and data infrastructure",
+    "Capture, archive, store and index firm-wide data",
+    "Big data tooling for cluster and high-throughput computing",
+    "C++ to Python data transmission",
+    "Re-architect APIs for scalability",
+    "Release process and production support",
+    "Storage capacity upgrades"
+  ],
+  "role_category": "ml_systems",
+  "location": "Chicago, IL",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

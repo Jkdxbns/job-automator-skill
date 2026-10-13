@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "company": "ByteDance",
+    "role": "Backend Inference Runtime Engineer Graduate (AML Inference)",
+    "company_slug": "bytedance",
+    "job_slug": "aml-inference-a152051"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on GPU and parallel computing experience: custom CUDA C++ kernel optimization, MPI distributed systems on SLURM-managed clusters, and quantization-based inference optimization. Built hand-written CUDA kernels for convolution inference achieving 1.5 to 2x speedup through memory coalescing and constant memory usage, and implemented distributed parallel systems analyzing load imbalance and scaling efficiency across up to 55 processes. Additional depth in Transformer architecture internals built from scratch in PyTorch and 8-bit quantization for edge inference deployment.",
+  "skills": {
+    "GPU & Parallel Computing": ["CUDA C++", "Kernel Optimization", "Memory Coalescing", "MPI", "SLURM", "Distributed Systems", "Load Balancing"],
+    "Machine Learning & Deep Learning": ["PyTorch", "Quantization (8-bit)", "Transformer Architecture", "HuggingFace Transformers", "ONNX", "TFLite"],
+    "Programming Languages": ["C/C++", "Python"],
+    "Tools & Platforms": ["Git", "GitLab", "Jupyter"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 multi-modal MRI dataset; evaluated on Dice Score and IoU and reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API to fine-tune a Transformer model; improved validation accuracy from 55% to 93% through preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for inference deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights and biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms uncoalesced and 77.5ms CPU TorchScript baseline, a 1.5 to 2x speedup in convolution operations with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip, block, cyclic, and dynamic task queue) for rendering 5000x5000 pixel scenes using MPI.",
+        "Achieved up to 30x speedup with static strip partitioning across 55 processes; showed dynamic task queue outperforming all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster, achieving up to 10.49x speedup with 12 slave processes.",
+        "Characterized scaling behavior across dendrite counts and compartment depths; identified load imbalance effects causing up to 65% performance degradation under uneven work distribution."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by approximately 55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml with under 1% accuracy degradation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Deep Learning", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

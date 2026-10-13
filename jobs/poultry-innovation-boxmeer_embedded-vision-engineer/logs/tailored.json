@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "company": "Poultry Innovation (Boxmeer, NL)",
+    "role": "Embedded Vision Engineer",
+    "company_slug": "poultry-innovation-boxmeer",
+    "job_slug": "embedded-vision-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, building real-time machine vision and Edge AI systems on Jetson-class ARM Linux platforms in C++ and Python. Deployed a TensorRT-optimized YOLO inference pipeline (5.2\u00d7 speedup, 92 FPS) as a systemd service on a headless Jetson, and built a metal-surface inspection pipeline at BARC. Hands-on with multi-camera image acquisition, sensor integration and hardware debugging, and led a 25-member robotics team.",
+  "skills": {
+    "Vision & Edge AI": [
+      "machine vision",
+      "computer vision",
+      "OpenCV",
+      "YOLO",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "PyTorch",
+      "Image Processing",
+      "Multi-camera capture"
+    ],
+    "Languages & Systems": [
+      "C++",
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Cython",
+      "Bash"
+    ],
+    "Embedded Linux & Platforms": [
+      "NVIDIA Jetson",
+      "Linux",
+      "systemd",
+      "Raspberry Pi",
+      "STM32 (Bare-Metal C)",
+      "Arduino",
+      "UART/I2C/SPI"
+    ],
+    "Tools": [
+      "Git",
+      "GitLab",
+      "CMake",
+      "ROS/ROS2",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full machine vision metal-surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation.",
+        "Developed a custom image-stitching pipeline with bit manipulation and averaging, achieving a PSNR of 65 vs. a homography-stitching baseline (sym6+bior3.5 wavelet bank lifted it to 86).",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Deployed the Jetson-side arm bridge as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable multi-device WebSocket registration; configured XRDP for remote desktop administration of the headless Jetson.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

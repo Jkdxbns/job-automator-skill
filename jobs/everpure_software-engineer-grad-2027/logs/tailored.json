@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "company": "Everpure",
+    "role": "Software Engineer Grad 2027",
+    "company_slug": "everpure",
+    "job_slug": "software-engineer-grad-2027"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built performance-critical C++ and CUDA C++ code with measured results (~35% faster GPU convolution kernels, up to 30x MPI speedup) and concurrent systems across CUDA, MPI and FreeRTOS. Shipped bare-metal embedded C firmware and a multi-device edge pipeline with 100% pick reliability over 10 trials.",
+  "skills": {
+    "Languages & Systems": [
+      "C++",
+      "C",
+      "CUDA C++",
+      "Python",
+      "Cython",
+      "Bash",
+      "CMake"
+    ],
+    "Concurrency & Performance": [
+      "Concurrency",
+      "MPI",
+      "SLURM",
+      "Multiprocessing",
+      "FreeRTOS (mutexes)",
+      "Memory coalescing",
+      "Kernel optimization",
+      "Performance optimization",
+      "Profiling and benchmarking",
+      "TensorRT"
+    ],
+    "Systems & Embedded": [
+      "STM32 (Bare-Metal C)",
+      "Interrupt-driven I/O",
+      "UART/I2C",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86.",
+        "Developed a custom image-stitching pipeline for high-resolution generation using bit manipulation and averaging, achieving a PSNR of 65 compared to homography-based stitching baseline."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) \u2014 ~35% speedup over naive GPU with identical classification accuracy.",
+        "Achieved 1.5\u20132\u00d7 speedup in convolution operations through efficient global memory utilization."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000\u00d75000 pixel scenes using MPI.",
+        "Achieved up to 30\u00d7 speedup with static strip partitioning (55 processes); demonstrated dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Machine Intelligence",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

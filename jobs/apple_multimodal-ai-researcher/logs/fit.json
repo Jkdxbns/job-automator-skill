@@ -1,0 +1,37 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Multimodal AI Researcher",
+  "job_slug": "multimodal-ai-researcher",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "diffusion models",
+    "reinforcement learning (RL)",
+    "flow matching",
+    "normalizing flow",
+    "foundation model training/tuning at scale",
+    "speech generation (TTS/audio-to-audio)",
+    "RLHF / post-training of foundation models"
+  ],
+  "adjacent_skills": [
+    "multimodal perception systems (vision-only YOLO/depth/robot perception + separate ASR, not fused video+audio+text)",
+    "real-time / streaming multimodal models (real-time edge inference via TensorRT/Jetson, not multimodal streaming)"
+  ],
+  "top_ats_keywords": [
+    "multimodal", "foundation models", "LLMs", "VLMs", "PyTorch", "Python",
+    "generative AI", "diffusion", "flow matching", "reinforcement learning",
+    "speech understanding", "speech generation", "real-time streaming"
+  ],
+  "key_responsibilities": [
+    "Develop foundation models for generative AI and multimodal systems fusing video, audio, and text",
+    "Research interactive models and audio-to-audio modeling/systems",
+    "Drive data requirements, validation strategies, and KPIs with cross-functional teams",
+    "Ship research into real product features (Personalized Spatial Audio, EyeSight, Persona class of work)"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

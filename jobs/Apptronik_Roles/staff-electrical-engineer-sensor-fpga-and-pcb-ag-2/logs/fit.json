@@ -1,0 +1,125 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff Electrical Engineer - Sensor FPGA and PCB (Aggregator)",
+  "job_slug": "staff-electrical-engineer-sensor-fpga-and-pcb-ag",
+  "match_pct": 48.1,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 26,
+    "req_cov": 0.417,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "ROS/ROS2",
+    "OpenCV / YOLO / computer vision (software)",
+    "TensorRT",
+    "Embedded C / STM32 / UART-I2C-SPI / PWM / FreeRTOS",
+    "EAGLE PCB Design",
+    "Oscilloscopes / Logic Analyzers / basic lab instrumentation",
+    "System-level multi-device integration / networking (WebSocket, static IP, systemd)",
+    "Robotics vision / camera-based perception / autonomous driving",
+    "Low-level embedded programming / bare-metal firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Leadership / team lead / mentoring",
+      "you_have": "(demoted from have: profile evidence is partial)"
+    },
+    {
+      "jd_skill": "Ethernet-based sensor streaming / sensor bridge networking",
+      "you_have": "Multi-device networked pipeline (Flask, WebSocket, static IP, systemd service)"
+    },
+    {
+      "jd_skill": "EE / Electrical Engineering degree (B.S./M.S./PhD)",
+      "you_have": "M.S. Computer Engineering (related field, not EE)"
+    }
+  ],
+  "missing_skills": [
+    "FPGA device selection and architecture definition",
+    "RTL development in VHDL and/or Verilog",
+    "Timing closure, clock-domain crossing, and resource optimization within FPGA",
+    "Integration of high-speed transceivers and external PHY devices",
+    "FPGA tool flows (Vivado, Quartus, or Lattice Radiant) and simulation (ModelSim/Questa or equivalent)",
+    "Deep signal integrity / impedance-controlled routing / differential pair / stack-up design across board-to-FPGA boundary",
+    "MIPI CSI-2 / GMSL2 / FPD-Link / SerDes hardware integration at board level",
+    "ISP integration and camera synchronization at hardware/RTL level",
+    "10GbE / PCIe hardware interface design",
+    "Production lifecycle management through PLM systems with contract manufacturer (CM) scaling and DFM/DFA",
+    "High-bandwidth protocol analyzers (beyond basic logic analyzers)",
+    "8+ years of electrical engineering experience"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "RTL",
+    "VHDL",
+    "Verilog",
+    "CSI-2",
+    "GMSL2",
+    "SerDes",
+    "10GbE",
+    "MIPI",
+    "ISP",
+    "signal integrity",
+    "timing closure",
+    "Vivado",
+    "PCBA",
+    "sensor bridge",
+    "embedded hardware"
+  ],
+  "required_skills": [
+    "FPGA device selection and architecture definition",
+    "RTL development in VHDL and/or Verilog",
+    "High-speed interface design (CSI-2, GMSL2/FPD-Link/SerDes, 10GbE, Ethernet, PCIe or comparable)",
+    "Timing closure, clock-domain crossing, and resource optimization",
+    "Integration of high-speed transceivers and external PHY devices",
+    "FPGA tool flows (Vivado, Quartus, or Lattice Radiant) and simulation (ModelSim/Questa or equivalent)",
+    "Deep understanding of high-speed digital design (signal integrity, impedance-controlled routing, differential pairs, stack-up, timing analysis)",
+    "Camera/image sensor hardware (SerDes, MIPI CSI-2, ISP integration)",
+    "Ethernet-based sensor streaming and sensor bridges",
+    "Mixed-signal PCBA design (schematic capture, layout guidance, power sequencing, EMC/ESD/thermal)",
+    "Production lifecycle management (PLM, DFM/DFA, vendor/CM scaling)",
+    "Lab hardware debugging (high-bandwidth oscilloscopes, protocol analyzers, logic analyzers)"
+  ],
+  "preferred_skills": [
+    "Robotics vision systems (automotive or robotics preferred)",
+    "Real-time networking / multi-camera synchronization"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Own full electrical and FPGA stack of sensor bridge board: requirements, architecture, schematic, layout guidance, RTL, bring-up, validation, and manufacturing release",
+    "Design multi-Gbps mixed-signal PCBA aggregating camera sensor data with high-speed interfaces",
+    "Develop RTL for CSI-2 ingest, Ethernet packetization, timestamp/metadata insertion, and camera synchronization",
+    "Define FPGA architecture, manage timing closure, clock-domain crossing, and resource/power budgeting",
+    "Validate board-level and FPGA-level designs using lab equipment; debug across hardware/RTL boundary",
+    "Manage component lifecycle through PLM; coordinate vendors and contract manufacturers for production scaling"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

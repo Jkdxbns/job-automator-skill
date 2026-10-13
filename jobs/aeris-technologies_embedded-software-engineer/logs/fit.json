@@ -1,0 +1,165 @@
+{
+  "company": "Aeris Technologies (Project Canary)",
+  "company_slug": "aeris-technologies",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 63.6,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 22,
+    "req_cov": 0.618,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "microcontroller firmware",
+    "C++",
+    "Linux",
+    "UART",
+    "I2C",
+    "SPI",
+    "oscilloscopes",
+    "logic analyzers",
+    "Python",
+    "revision control (Git)",
+    "technical documentation",
+    "protocol decoders (logic analyzers)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "OOP",
+      "you_have": "C++"
+    },
+    {
+      "jd_skill": "Wi-Fi/cellular IoT",
+      "you_have": "Bluetooth BLE/Classic, Jetson network edge"
+    },
+    {
+      "jd_skill": "board bring-up / schematics",
+      "you_have": "EAGLE PCB design, Proteus"
+    },
+    {
+      "jd_skill": "failure analysis / test",
+      "you_have": "testing and validation"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "CAN",
+    "USB",
+    "CI/CD",
+    "cloud data storage",
+    "startup experience"
+  ],
+  "top_ats_keywords": [
+    "embedded firmware",
+    "microcontroller",
+    "IoT",
+    "C++",
+    "Rust",
+    "Linux",
+    "UART",
+    "I2C",
+    "SPI",
+    "CAN",
+    "USB",
+    "OOP",
+    "oscilloscope",
+    "logic analyzer",
+    "protocol decoder",
+    "Python",
+    "wifi",
+    "cellular",
+    "CI/CD",
+    "cloud",
+    "revision control",
+    "board bring-up",
+    "datasheets",
+    "schematics",
+    "documentation",
+    "failure analysis"
+  ],
+  "required_skills": [
+    "microcontroller firmware",
+    "C++",
+    "Rust",
+    "Linux",
+    "UART",
+    "I2C",
+    "SPI",
+    "CAN",
+    "USB",
+    "OOP",
+    "oscilloscopes",
+    "logic analyzers",
+    "Python",
+    "Wi-Fi/cellular IoT",
+    "CI/CD",
+    "cloud data storage",
+    "startup experience"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Firmware for microcontroller-based IoT devices",
+    "Read datasheets/schematics, board bring-up, debug prototype hardware",
+    "Failure analysis and firmware test",
+    "Revision control, coding standards, documentation",
+    "Manufacturing config/test automation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Hayward, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4 (GPIO, TIM2, ADC1, I2C1, interrupt-driven sampling, 3.68 KB Flash / 1.58 KB RAM) is real MCU firmware depth",
+      "UART/I2C sensor links on the ARC PCB robots, Jetson-to-STM32 UART with FreeRTOS in the Turret, Jetson+Arduino controller in COFFIN",
+      "Designed and fabricated EAGLE PCBs (ARC), so schematics are not foreign",
+      "Linux/Python are strong; Git/GitLab used at BARC"
+    ],
+    "real_gaps": [
+      "No CAN, USB, or Rust anywhere in the profile",
+      "No Wi-Fi/cellular IoT, no cloud storage, no CI/CD pipelines",
+      "No datasheet-driven bring-up of new boards or production hardware debug; oscilloscope/logic analyzer appear only as tool names, no bullet shows them used",
+      "No manufacturing test automation or shipped-product firmware; seniority gap of 5+ years"
+    ],
+    "overstated_by_keywords": [
+      "oscilloscopes / logic analyzers / protocol decoders counted Have but are tool-list entries with no supporting bullet",
+      "C++ is working depth (CUDA C++ kernels, ROS), not firmware-style OOP C++"
+    ],
+    "understated_by_keywords": [
+      "Resolved 11 integration failures in COFFIN (servo brown-out, stale frames) is real system failure analysis experience"
+    ],
+    "screening_gaps": [
+      "No Rust, CAN, or USB, which the JD lists as core protocol and language asks",
+      "No IoT connectivity (Wi-Fi/cellular), cloud storage, or CI/CD",
+      "No board bring-up from datasheets/schematics on real prototype hardware, and no production firmware ownership"
+    ],
+    "recommend_apply": false,
+    "reasoning": "UART/I2C/SPI and STM32 bare-metal are backed, but the JD's IoT connectivity, CAN/USB/Rust, cloud/CI and bring-up work has no backing. Skill fit is a minority of core responsibilities, and the 5+ year ask sits on top of that.",
+    "calibration_delta": 16.6
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "_meta": {
+    "company": "TikTok",
+    "role": "ML Engineer Graduate (Multimodal Recommendation)",
+    "company_slug": "tiktok",
+    "job_slug": "mle_grad_multimodal_recommendation"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (May 2026) with hands-on experience building multimodal ML systems and fine-tuning large language models for production. Fine-tuned DONUT \u2014 an OCR-free multimodal visual-language transformer \u2014 improving validation accuracy 55% \u2192 93%; compressed TinyLlama 1.1B via structured pruning and 8-bit quantization with full LLM benchmark evaluation.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Hugging Face Transformers",
+      "TensorRT",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "Model evaluation"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Cython",
+      "Bash"
+    ],
+    "Multimodal / CV / Speech": [
+      "OpenCV",
+      "YOLO",
+      "faster-whisper",
+      "ASR pipelines",
+      "BPE Tokenization"
+    ],
+    "HPC / Efficiency": [
+      "CUDA",
+      "Memory coalescing",
+      "Kernel optimization",
+      "SLURM",
+      "MPI"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "Flask",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT \u2014 OCR-free multimodal visual-language transformer \u2014 on a custom dataset, improving validation accuracy 55% \u2192 93% via preprocessing and model tuning.",
+        "Built end-to-end PyTorch pipelines for multimodal content understanding, standardizing training and evaluation workflows across vision-language modalities."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net with VGG-16, VGG-19, ResNet-50 backbones on BraTS 2020 multi-modal MRI data; evaluated Dice Score and IoU, reporting accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full visual content understanding pipeline for automated microscopic inspection using image stitching, wavelet denoising, and ZoeDepth depth estimation; achieved PSNR of 86."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced TinyLlama 1.1B memory footprint by ~25% via structured pruning and 8-bit quantization for edge LLM deployment.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; observed ~7% accuracy drop and +6.3 perplexity increase \u2014 quantified LLM efficiency-accuracy trade-offs."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR Transformer from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end multimodal ASR pipeline: 80-channel mel spectrogram encoder, 6-block causal Transformer decoder with cross-attention; achieved 15% WER on Hindi-English multilingual data.",
+        "Designed a custom BPE tokenizer with Cython-accelerated backend achieving 4\u20135.5\u00d7 speedup over pure Python, processing 6M characters in 15 min."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), and TensorRT-optimized YOLO (~18 FPS) into a unified multimodal inference pipeline for real-time content understanding.",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency across vision, speech, and language modalities."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built zero-annotation data pipelines using CARLA semantic segmentation to produce ~5,000 YOLO and ~3,000 UFLD training frames \u2014 weakly-supervised content labeling at scale.",
+        "Fine-tuned YOLO11n (mAP50~0.85) and UFLD (ResNet-18) for video content understanding; validated zero collisions across multi-agent simulation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture",
+        "Robot Perception",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

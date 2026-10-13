@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "company": "Sony Interactive Entertainment",
+    "role": "Staff Software Engineer, Console GPU Inference",
+    "company_slug": "sony-interactive-entertainment",
+    "job_slug": "staff-swe-console-gpu-inference"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY focused on GPU programming and machine learning inference performance. Wrote custom CUDA C++ convolution kernels (~35% faster than the naive GPU baseline through memory coalescing) and cut inference latency 5.2\u00d7 with TensorRT. Built in C/C++ across embedded and GPU targets, with low-level profiling and 8-bit quantization for latency- and memory-constrained deployment.",
+  "skills": {
+    "GPU & Inference": [
+      "GPU programming",
+      "CUDA C++",
+      "Kernel optimization",
+      "Memory coalescing",
+      "TensorRT",
+      "ONNX",
+      "Quantization (8-bit)",
+      "pynvml Profiling",
+      "GPU architecture"
+    ],
+    "Languages & Systems": [
+      "C/C++",
+      "CUDA",
+      "Python",
+      "Bash",
+      "Cython"
+    ],
+    "Parallel / HPC": [
+      "MPI",
+      "SLURM",
+      "Ray tracing (parallel)"
+    ],
+    "ML / Deep Learning": [
+      "Machine learning",
+      "PyTorch",
+      "TensorFlow",
+      "Model evaluation"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile inference deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones (Dice, IoU) and reported accuracy-latency trade-offs; built the batch-loading pipeline for large 3D volumetric MRI inputs.",
+        "Led a team of 7 as team lead mid-project to deliver the full pipeline within the 6-week window."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) combined with optimized homography stitching and concurrency to reach PSNR 86 vs a 65 PSNR stitching baseline."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) \u2014 ~35% speedup over naive GPU with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000\u00d75000 pixel scenes using MPI.",
+        "Achieved up to 30\u00d7 speedup with static strip partitioning (55 processes); demonstrated dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

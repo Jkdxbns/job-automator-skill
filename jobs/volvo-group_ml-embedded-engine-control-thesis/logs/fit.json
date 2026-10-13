@@ -1,0 +1,83 @@
+{
+  "company": "Volvo Group",
+  "company_slug": "volvo-group",
+  "role": "Master Thesis: Enabling Machine Learning in Embedded Engine Control Development",
+  "job_slug": "ml-embedded-engine-control-thesis",
+  "match_pct": 56.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 1,
+    "missing_count": 3,
+    "jd_ask_size": 8,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded software",
+    "Machine learning",
+    "Model deployment",
+    "Embedded C"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Control engineering",
+      "you_have": "Closed-Loop Feedback Control"
+    }
+  ],
+  "missing_skills": [
+    "Simulink",
+    "TargetLink",
+    "Model-based development"
+  ],
+  "top_ats_keywords": [
+    "Simulink",
+    "TargetLink",
+    "Embedded",
+    "Machine Learning",
+    "Model-based development",
+    "Control engineering",
+    "Deployment"
+  ],
+  "required_skills": [
+    "Embedded software",
+    "Machine learning",
+    "Control engineering",
+    "Simulink",
+    "TargetLink",
+    "Model-based development",
+    "Model deployment"
+  ],
+  "preferred_skills": [
+    "Embedded C"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Develop, integrate and evaluate ML model in embedded engine control app",
+    "Tooling and deployment fit with model-based development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "G\u00f6teborg, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

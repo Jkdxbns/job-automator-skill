@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "company": "Nuro",
+    "role": "Embedded Software Engineer",
+    "company_slug": "nuro",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on embedded C programming and RTOS experience across STM32 and Jetson-class platforms. Built bare-metal firmware and FreeRTOS-based device driver development spanning microcontroller internals, GPIO/ADC/I2C peripherals, and concurrent, mutex-protected task scheduling, debugging on real hardware with oscilloscopes and logic analyzers. Comfortable working the full embedded stack, applying data structures and algorithm design from interrupt-driven peripheral drivers up through sensor-to-actuator control loops and systems-level integration debugging.",
+  "skills": {
+    "Embedded Systems": ["Embedded C Programming", "RTOS (FreeRTOS)", "Device Driver Development", "Microcontroller Internals and Peripherals", "STM32 / ARM Cortex-M", "UART/I2C/SPI", "NVIDIA Jetson", "Raspberry Pi"],
+    "Languages & Systems": ["C/C++", "Python", "Bash", "Data Structures", "Algorithm Design", "Concurrency"],
+    "Tools & Debugging": ["Git", "Linux", "Oscilloscopes", "Logic Analyzers", "CMake", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometer peripherals with a Raspberry Pi over I2C and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands.",
+        "Designed a custom tap-detection algorithm in embedded C using z-axis differential thresholding — an exercise in algorithm design over raw sensor peripherals; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built embedded C firmware for an STM32 Cortex-M4 microcontroller with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C device driver, programming GPIO, TIM2, ADC1, and I2C1 peripherals directly in bare-metal C.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified timing and signal behavior in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 microcontroller over UART.",
+        "Implemented multi-servo PWM device drivers with interrupt-driven UART command handling and user override.",
+        "Ran FreeRTOS with mutexes for concurrent, shared-memory task scheduling and coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) across a distributed embedded pipeline through systematic hardware-software debugging; achieved 100% pick reliability (10/10 trials).",
+        "Implemented two-link inverse kinematics on an embedded Arduino microcontroller in C++; drove five servos with range-gated contact detection via I2C-multiplexed dual VL53L0X ToF sensors.",
+        "Deployed the Jetson-side control bridge as a systemd service with auto-restart and non-root isolation, plus static IP networking, for reliable multi-device bring-up and communication."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Electronics"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

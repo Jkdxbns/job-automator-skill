@@ -1,0 +1,127 @@
+{
+  "company": "SEL (Schweitzer Engineering Laboratories)",
+  "company_slug": "sel",
+  "role": "Associate Firmware Engineer",
+  "job_slug": "associate-firmware-engineer",
+  "match_pct": 60.7,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "embedded systems firmware development",
+    "real-time firmware design",
+    "C",
+    "Python",
+    "other scripting languages",
+    "digital and analog circuitry",
+    "digital communications and signal processing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "modern communications protocols",
+      "you_have": "UART/I2C/SPI/CAN embedded protocols"
+    }
+  ],
+  "missing_skills": [
+    "assembly language",
+    "debuggers",
+    "industrial controls",
+    "3-phase electric power systems",
+    "project management"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded systems",
+    "real-time",
+    "C++",
+    "assembly",
+    "industrial controls",
+    "3-phase power systems",
+    "communications protocols",
+    "digital and analog circuitry",
+    "signal processing"
+  ],
+  "required_skills": [
+    "C++",
+    "assembly language",
+    "real-time firmware design",
+    "embedded systems firmware development"
+  ],
+  "preferred_skills": [
+    "C",
+    "Python",
+    "other scripting languages",
+    "debuggers",
+    "industrial controls",
+    "3-phase electric power systems",
+    "modern communications protocols",
+    "digital and analog circuitry",
+    "digital communications and signal processing",
+    "project management"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "design/implement/test firmware-software systems",
+    "collaborate with hardware engineers",
+    "develop design and test documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Boise, Idaho",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 74,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor: register-level GPIO/TIM2/ADC1/I2C1 firmware, interrupt-driven sampling, deterministic 1Hz real-time update loop",
+      "Object Tracking Turret: STM32 + FreeRTOS with mutex-based task coordination and interrupt-driven UART command handling \u2014 direct RTOS/real-time firmware experience",
+      "EAGLE PCB design plus Proteus simulation and oscilloscope/logic analyzer use across two internships and a robotics club \u2014 genuine hardware/firmware co-design and hands-on hardware debugging",
+      "Coursework in Digital Electronics, Digital Signal Processing, and Random Signal Analysis backs the analog/digital circuitry and signal-processing preferred asks"
+    ],
+    "real_gaps": [
+      "No assembly-language programming anywhere in the profile, despite it being an explicit required skill",
+      "Zero exposure to industrial controls or 3-phase electric power systems \u2014 SEL's core product domain (protective relays for power grids)",
+      "No named debugger tooling (GDB/JTAG) \u2014 hardware debugging is evidenced via oscilloscope/logic analyzer, not a software debugger",
+      "No formal project-management experience, only informal team-lead roles (robotics club, research fellowship)"
+    ],
+    "overstated_by_keywords": [
+      "Digital communications and signal processing is counted as HAVE from coursework (DSP, Random Signal Analysis) but has no applied signal-processing project behind it"
+    ],
+    "understated_by_keywords": [
+      "Real-time firmware design keyword match undersells the depth here \u2014 two separate register-level bare-metal/RTOS firmware builds (STM32 temperature monitor, FreeRTOS turret), not a surface mention"
+    ],
+    "screening_gaps": [
+      "No assembly language experience at all, and it is called out as an explicit required skill",
+      "No power-systems or industrial-controls domain exposure, which is SEL's entire product category",
+      "Hardware debugging is oscilloscope/logic-analyzer based, not named software debugger (GDB/JTAG) experience"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core firmware asks (C/C++, real-time embedded design, hardware-software collaboration, documentation) are backed by two concrete register-level embedded projects, which is unusually strong for an entry-level applicant. The gaps are assembly language and the power-systems domain itself, both plausibly picked up on the job for an Associate-level, explicitly training-focused posting.",
+    "calibration_delta": -13.3
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Software Developer, Robotic Data & Deliveries",
+  "job_slug": "software-developer-robotic-data-deliveries",
+  "match_pct": 20.6,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 12,
+    "jd_ask_size": 17,
+    "req_cov": 0.375,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (backend)",
+    "Data acquisition / dataset experience (limited)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Full-stack / backend engineering",
+      "you_have": "C/C++, embedded C programming"
+    },
+    {
+      "jd_skill": "Data pipeline / dataset work",
+      "you_have": "Image processing / vision pipeline work"
+    },
+    {
+      "jd_skill": "Internal product / tooling ownership",
+      "you_have": "Flask / PySide6 GUI and systemd service builds"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Go",
+    "SQL",
+    "MongoDB",
+    "3+ years full-stack / product engineer experience",
+    "0\u21921 builder track record at production scale",
+    "video / media ingestion",
+    "large-dataset / petabyte-scale ETL / metadata / search",
+    "UX / design instincts",
+    "production-scale dataset delivery and QA ownership"
+  ],
+  "top_ats_keywords": [
+    "TypeScript",
+    "React",
+    "Python",
+    "Node",
+    "Go",
+    "SQL",
+    "MongoDB",
+    "full-stack",
+    "product engineer",
+    "0\u21921",
+    "data pipeline",
+    "dataset",
+    "video",
+    "media",
+    "ETL",
+    "petabyte-scale",
+    "ingestion",
+    "metadata"
+  ],
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "full-stack software engineering",
+    "Python (or Node, Go)",
+    "0\u21921 product building",
+    "database/querying (SQL, MongoDB)",
+    "dataset validation",
+    "data pipeline design"
+  ],
+  "preferred_skills": [
+    "video/media ingestion and storage",
+    "large-dataset / petabyte-scale systems",
+    "UX/design instincts",
+    "internal tools / founding-engineer experience"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build internal products (review/QA UIs, delivery dashboards, data viewers, workflow interfaces) owning both UI and backend logic",
+    "Take fuzzy delivery problems from conversation to shipped v1, then iterate with real internal users and AI-lab customers",
+    "Build pipelines and APIs that package, validate, index, and serve ego datasets at petabyte scale",
+    "Turn manual scripts into reliable tools; maintain code and report data-quality honestly",
+    "Partner with Delivery Operations and TPM to eliminate recurring delivery pain"
+  ],
+  "role_category": "other",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

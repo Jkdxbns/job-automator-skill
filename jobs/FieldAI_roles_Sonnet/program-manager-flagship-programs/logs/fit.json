@@ -1,0 +1,130 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Program Manager, Flagship Programs",
+  "job_slug": "program-manager-flagship-programs",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 15,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Understanding of product-development and technology-delivery lifecycles (COFFIN MS capstone: full lifecycle from design through deployment (systemd service, static IP, dual ToF sensors, 100% pick reliability); autonomous driving CARLA pipeline (training\u2192deployment\u2192evaluation); STM32 embedded temperature monitor)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Cross-functional team coordination / indirect leadership of Technical Project Managers",
+      "you_have": "Led 25-member Agnel Robotics Club (PCB fabrication, UART/I2C sensor comms) and 7-person Teesside Univ research fellowship (U-Net MRI segmentation project)"
+    },
+    {
+      "jd_skill": "Integrated program planning with dependencies and multi-subsystem coordination",
+      "you_have": "COFFIN MS capstone: integrated multi-subsystem program plan across Flutter UI, Flask-SocketIO, Jetson YOLO, Arduino servo control, faster-whisper STT, Gemini intent classification, dual VL53L0X ToF sensors, TCA9548A I2C mux; resolved 11 integration failures"
+    },
+    {
+      "jd_skill": "Enterprise robotics / autonomous systems / AI / hardware-software deployments",
+      "you_have": "COFFIN voice-controlled robotic arm (Jetson TensorRT YOLO + Arduino + ToF sensors); autonomous driving in CARLA (YOLO11n + UFLD lane detection); object tracking turret (YOLOv8 Jetson + STM32 FreeRTOS UART + multi-servo PWM); wearable gesture glove (Raspberry Pi + ADXL345 + HC-05 Bluetooth + AI chroma keying)"
+    },
+    {
+      "jd_skill": "Program-level customer-facing technology delivery and budget/scope tracking at small scale",
+      "you_have": "BARC Python Developer Intern: delivered PyQt/Matplotlib real-time data acquisition GUI for metal surface inspection pipeline; IIT Bombay AI intern delivered fine-tuned DONUT OCR (55%\u219293% accuracy) to research/customer context"
+    }
+  ],
+  "missing_skills": [
+    "10+ years program/project management experience",
+    "Large complex customer-facing enterprise program leadership",
+    "Executive stakeholder engagement and influence at enterprise level",
+    "Program budget / financial performance monitoring and contract deliverables",
+    "Program governance (executive steering meetings, operating reviews, formal escalation paths)",
+    "Direct/indirect leadership of Technical Project Managers",
+    "Industrial sector program experience (energy/manufacturing/construction/logistics/automotive/mining)",
+    "Program management certification (PMP / PgPG)",
+    "Enterprise-scale organizational change and procurement/governance experience",
+    "Enterprise contract and procurement process familiarity"
+  ],
+  "top_ats_keywords": [
+    "Program Manager",
+    "Flagship Programs",
+    "program leadership",
+    "enterprise",
+    "integrated program plans",
+    "program governance",
+    "executive stakeholders",
+    "technical delivery teams",
+    "cross-functional dependencies",
+    "program budgets",
+    "contract deliverables",
+    "robotics",
+    "autonomous systems",
+    "industrial technology",
+    "PMP",
+    "PgMP"
+  ],
+  "required_skills": [
+    "10+ years program/project management experience",
+    "Large complex customer-facing technology program leadership",
+    "Customer business-to-technical translation and program requirements",
+    "Integrated program planning (scope/schedule/budget/resources/dependencies/risks/deliverables)",
+    "Indirect leadership and coordination of Technical Project Managers",
+    "Program governance (executive steering, operating reviews, escalation paths)",
+    "Executive stakeholder engagement and influence",
+    "Cross-functional dependency resolution and resource management",
+    "Product/Engineering alignment with customer commitments",
+    "Customer expectation management and professional presence",
+    "Financial performance monitoring / budget / contract deliverables",
+    "Accountability across internal/external teams without direct authority",
+    "Lessons learned and continuous improvement of program practices",
+    "Enterprise-scale adoption and expansion of programs"
+  ],
+  "preferred_skills": [
+    "Industrial sector experience (energy/manufacturing/construction/logistics/automotive/mining)",
+    "Enterprise robotics / autonomous systems / AI / hardware-software deployments",
+    "Program including product development, systems integration, field deployment, organizational change",
+    "Industrial operating environments / safety / procurement / governance processes",
+    "Project/program management certification (PMP / PgMP)"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead planning/execution of large complex customer programs",
+    "Serve as program-level interface between customer executives and internal Product/Engineering/Delivery teams",
+    "Translate customer business objectives into program requirements/priorities/milestones/success criteria",
+    "Develop and maintain integrated program plans covering scope/schedules/budgets/resources/dependencies/risks/deliverables",
+    "Indirectly lead Technical Project Managers to align workstreams with program objectives",
+    "Establish program governance (steering meetings, operating reviews, status reporting, escalation)",
+    "Communicate progress/risks/tradeoffs to executive and technical audiences",
+    "Resolve execution challenges/dependencies/resource constraints/scope changes",
+    "Partner with Product and Engineering to align commitments with roadmaps/feasibility",
+    "Manage customer expectations and maintain professional relationships",
+    "Monitor program financial performance and ensure on-time/on-budget/contract-compliant delivery",
+    "Drive accountability across teams without direct reporting authority",
+    "Capture lessons learned and improve enterprise program-management practices",
+    "Support expansion from initial deployments to enterprise-scale adoption"
+  ],
+  "role_category": "non_technical",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,82 @@
+{
+  "_meta": { "company": "AeroVect", "role": "Mapping Engineer", "company_slug": "aerovect", "job_slug": "mapping-engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Hands-on experience building and validating precision spatial data pipelines, from image registration and depth estimation on physical inspection surfaces to route and obstacle-avoidance validation in ROS2 and CARLA simulation, all version-controlled through Git and Python-based tooling on Linux. Led a 25-member robotics team end to end, owning technical scope, PCB and sensor integration, and workshop-based training under shifting competition deadlines.",
+  "skills": {
+    "Mapping-Adjacent & Simulation": ["CARLA", "ROS/ROS2", "RViz", "Forward kinematics"],
+    "Precision Imaging & Validation": ["Image registration/stitching", "Wavelet denoising", "Monocular depth estimation"],
+    "Languages & Tools": ["Python", "Git", "Linux", "C/C++"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Owned end-to-end technical scope for a 25-member robotics team across national-level competitions, intaking and prioritizing mechanical, PCB, and sensor integration work under shifting competition deadlines.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE; documented sensor communication schematics over UART and I2C with closed-loop feedback for team-wide reuse.",
+        "Ran 10+ technical workshops (Arduino, PCB design, SolidWorks), maintaining a consistent documentation and onboarding process as the team scaled beyond any one person."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) for a high-resolution image-stitching pipeline, iteratively improving alignment quality from PSNR 65 to PSNR 86 through methodical, repeatable validation passes.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling at ±8% error on 3D surface reconstruction, validating each pass against ground-truth measurements.",
+        "Architected a full metal surface inspection pipeline combining image stitching, wavelet denoising, and depth estimation for high-stakes, repeatable defect detection."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated CARLA data pipelines (~5,000 YOLO, ~3,000 UFLD frames, zero manual annotation) using semantic segmentation and raycast occlusion filtering to generate structured, validated training data.",
+        "Trained an adaptive control stack for lane-following, waypoint fallback, and obstacle avoidance; validated in Town02 against 30 vehicles and 10 pedestrians with zero collisions across multiple test runs."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed forward kinematic transform chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated coordinate-frame accuracy against MoveIt and RViz URDF models in ROS2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS2 driver; measured AL5B repeatability at <2mm over 10 trials through structured, repeatable test runs."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Diagnosed and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through structured, evidence-based testing; achieved 100% pick reliability (10/10 trials).",
+        "Integrated and validated a multi-sensor system (dual VL53L0X ToF + camera fused via TCA9548A I2C mux) across a distributed Jetson+Arduino pipeline, documenting each validation pass."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Digital Signal Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

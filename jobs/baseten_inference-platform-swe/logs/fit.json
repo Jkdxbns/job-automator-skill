@@ -1,0 +1,173 @@
+{
+  "company": "Baseten",
+  "company_slug": "baseten",
+  "role": "Software Engineer, Inference Platform",
+  "job_slug": "inference-platform-swe",
+  "match_pct": 27.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 9,
+    "missing_count": 21,
+    "jd_ask_size": 35,
+    "req_cov": 0.475,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "GPU",
+    "benchmarks",
+    "profiling",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLM inference",
+      "you_have": "Transformer/GPT-2 inference engine (CUDA, TensorRT)"
+    },
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "vLLM",
+      "you_have": "PyTorch/HuggingFace Transformers"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI, SLURM"
+    },
+    {
+      "jd_skill": "multimodal",
+      "you_have": "VisionEncoderDecoder, depth/VLA"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "large-scale APIs",
+      "you_have": "Flask, WebSocket"
+    },
+    {
+      "jd_skill": "GPU production",
+      "you_have": "Jetson/CUDA deployment"
+    },
+    {
+      "jd_skill": "observability",
+      "you_have": "pynvml profiling"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Kubernetes operators",
+    "service mesh",
+    "API gateway",
+    "autoscaling",
+    "scheduling",
+    "routing",
+    "rate limiting",
+    "authentication",
+    "quotas",
+    "metering",
+    "API versioning",
+    "tracing",
+    "capacity planning",
+    "SLO management",
+    "SGLang",
+    "TGI",
+    "Dynamo",
+    "structured outputs",
+    "tool calling",
+    "release automation"
+  ],
+  "top_ats_keywords": [
+    "distributed systems",
+    "Kubernetes",
+    "LLM inference",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "autoscaling",
+    "observability",
+    "structured outputs",
+    "tool calling",
+    "multimodal",
+    "GPU",
+    "rate limiting",
+    "metering",
+    "benchmarks",
+    "CI/CD",
+    "Python"
+  ],
+  "required_skills": [
+    "distributed systems",
+    "backend infrastructure",
+    "large-scale APIs",
+    "Kubernetes",
+    "LLM inference",
+    "routing",
+    "autoscaling",
+    "scheduling",
+    "rate limiting",
+    "authentication",
+    "quotas",
+    "metering",
+    "API versioning",
+    "observability",
+    "tracing",
+    "profiling",
+    "capacity planning",
+    "SLO management",
+    "GPU",
+    "Python"
+  ],
+  "preferred_skills": [
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "TGI",
+    "Dynamo",
+    "Kubernetes operators",
+    "custom resources",
+    "service mesh",
+    "API gateway",
+    "distributed scheduling",
+    "GPU production",
+    "CI/CD",
+    "release automation",
+    "open-source"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "distributed LLM inference runtime",
+    "Model APIs: structured outputs, tool calling, multimodal",
+    "platform fundamentals: auth, quotas, metering",
+    "observability and benchmarks",
+    "K8s/GPU production debugging"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco; Montreal; New York; Seattle; Toronto (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

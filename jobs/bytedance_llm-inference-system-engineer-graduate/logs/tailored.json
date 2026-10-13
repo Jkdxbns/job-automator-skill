@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "company": "ByteDance",
+    "role": "Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start",
+    "company_slug": "bytedance",
+    "job_slug": "llm-inference-system-engineer-graduate"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds and profiles GPU inference systems from the kernel up: custom CUDA C++ kernels with memory coalescing achieved a 35% speedup over an uncoalesced baseline, and 8-bit quantization on a 1.1B parameter language model cut GPU memory footprint by roughly 55% with under 1% accuracy loss. Also runs distributed workloads with MPI on SLURM-managed clusters, characterizing load balancing and scaling behavior up to 30x speedup.",
+  "skills": {
+    "HPC / Parallel": ["CUDA C++", "MPI", "SLURM", "Memory coalescing", "Kernel optimization"],
+    "Languages & Systems": ["Python", "C/C++", "CUDA"],
+    "ML / Deep Learning": ["PyTorch", "Hugging Face Transformers", "Quantization (8-bit)", "pynvml Profiling", "Model evaluation"],
+    "Tools": ["Linux", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; combined with optimized homography stitching and concurrency to achieve a PSNR of 86.",
+        "Developed a custom image-stitching pipeline for high-resolution generation using bit manipulation and averaging, achieving a PSNR of 65 compared to a homography-based stitching baseline."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free document understanding transformer) using PyTorch and HuggingFace VisionEncoderDecoder for structured field extraction.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript), a ~35% speedup over naive GPU with identical classification accuracy.",
+        "Achieved 1.5-2x speedup in convolution operations through efficient global memory utilization."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; under 1% accuracy degradation with a +0.09 perplexity increase, near-lossless compression."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster; achieved up to 10.49x speedup with 12 slave processes.",
+        "Characterized scaling behavior across dendrite counts and compartment depths; identified load imbalance effects showing up to 65% performance degradation under uneven work distribution."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000x5000 pixel scenes using MPI.",
+        "Achieved up to 30x speedup with static strip partitioning (55 processes); demonstrated dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and custom training loop with early stopping and perplexity evaluation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Machine Intelligence", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

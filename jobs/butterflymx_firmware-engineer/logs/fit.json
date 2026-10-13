@@ -1,0 +1,202 @@
+{
+  "company": "ButterflyMX",
+  "company_slug": "butterflymx",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 46.3,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 8,
+    "missing_count": 18,
+    "jd_ask_size": 41,
+    "req_cov": 0.324,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "bare-metal firmware",
+    "RTOS",
+    "embedded Linux",
+    "interrupts",
+    "ADC",
+    "oscilloscopes",
+    "logic analyzers",
+    "I2C",
+    "SPI",
+    "UART",
+    "BLE",
+    "WebSockets",
+    "schematics/PCB",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Zephyr",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "timers/DMA/bootloaders/watchdogs/low-power modes",
+      "you_have": "STM32 bare-metal register-level firmware"
+    },
+    {
+      "jd_skill": "signal conditioning/filtering/impedance/noise/grounding/signal integrity",
+      "you_have": "Digital Signal Processing / Random Signal Analysis coursework"
+    },
+    {
+      "jd_skill": "debuggers/multimeters",
+      "you_have": "lab hardware debugging on embedded projects"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "static IP / network configuration (systemd)"
+    },
+    {
+      "jd_skill": "REST/device-to-cloud APIs",
+      "you_have": "API/Flask-SocketIO web-backend integration"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "IoT connected-product firmware",
+      "you_have": "Jetson/Arduino embedded projects (research/coursework scope, not shipped IoT product)"
+    }
+  ],
+  "missing_skills": [
+    "Zephyr (direct)",
+    "CAN",
+    "RS-485",
+    "USB (host/device firmware)",
+    "Wi-Fi",
+    "cellular",
+    "secure boot",
+    "firmware signing",
+    "certificate signing",
+    "device identity",
+    "key provisioning",
+    "encrypted communications",
+    "secure OTA",
+    "MQTT",
+    "TLS",
+    "static analysis tooling",
+    "memory maps",
+    "peripheral driver production ownership"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "RTOS",
+    "Zephyr",
+    "embedded Linux",
+    "bare-metal",
+    "I2C",
+    "SPI",
+    "UART",
+    "CAN",
+    "RS-485",
+    "BLE",
+    "Wi-Fi",
+    "Ethernet",
+    "secure boot",
+    "OTA",
+    "MQTT",
+    "TLS",
+    "REST",
+    "WebSockets",
+    "Git",
+    "CI/CD",
+    "oscilloscopes",
+    "logic analyzers",
+    "PCB",
+    "schematics"
+  ],
+  "required_skills": [
+    "C/C++",
+    "bare-metal firmware",
+    "RTOS",
+    "Zephyr",
+    "embedded Linux",
+    "interrupts",
+    "timers",
+    "DMA",
+    "memory maps",
+    "bootloaders",
+    "watchdogs",
+    "peripheral drivers",
+    "low-power modes",
+    "register programming",
+    "ADC",
+    "signal conditioning",
+    "filtering",
+    "impedance",
+    "noise/grounding",
+    "signal integrity",
+    "oscilloscopes",
+    "logic analyzers",
+    "debuggers",
+    "multimeters",
+    "I2C",
+    "SPI",
+    "UART",
+    "CAN",
+    "RS-485",
+    "USB",
+    "BLE",
+    "Wi-Fi",
+    "Ethernet",
+    "cellular",
+    "secure boot",
+    "firmware signing",
+    "certificate signing",
+    "device identity",
+    "key provisioning",
+    "encrypted communications",
+    "secure OTA",
+    "MQTT",
+    "REST",
+    "WebSockets",
+    "TLS",
+    "device-to-cloud APIs",
+    "remote device management",
+    "schematics/PCB",
+    "Git",
+    "CI/CD",
+    "static analysis"
+  ],
+  "preferred_skills": [
+    "Zephyr",
+    "8+ years experience"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "bare-metal/RTOS/embedded Linux firmware",
+    "secure boot & OTA",
+    "device-to-cloud communication protocols",
+    "hardware bring-up & debug",
+    "production/manufacturing test firmware"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Remote (distributed workforce)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

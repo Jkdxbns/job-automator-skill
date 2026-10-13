@@ -1,0 +1,96 @@
+{
+  "company": "Lenovo",
+  "company_slug": "lenovo",
+  "role": "AI Application Development Engineer",
+  "job_slug": "ai_application_development_engineer",
+  "match_pct": 100,
+  "missing_skills": [
+    "chatbots",
+    "agent-based workflows",
+    "agentic orchestration",
+    "RAG / vector databases",
+    "prompt engineering",
+    "LangChain / LlamaIndex",
+    "cloud deployment (AWS/Azure/GCP)",
+    "Docker / Kubernetes",
+    "CI/CD",
+    "Mandarin Chinese"
+  ],
+  "adjacent_skills": [
+    "exploratory data analysis (EDA) -> Matplotlib, custom data pipelines, dataset curation",
+    "automation technologies -> multiprocessing pipelines, auto-annotation (CARLA)",
+    "backend systems -> Flask-SocketIO edge server, WebSocket fabric",
+    "scalable APIs -> Flask, WebSocket, Gemini API integration, HuggingFace APIs"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "LLM",
+    "machine learning",
+    "AI application development",
+    "API integration",
+    "deployment pipelines",
+    "data preprocessing",
+    "exploratory data analysis",
+    "model performance monitoring",
+    "PyTorch",
+    "Hugging Face",
+    "automation",
+    "cross-functional collaboration",
+    "technical documentation",
+    "testing and validation"
+  ],
+  "key_responsibilities": [
+    "Gather, clean, and preprocess datasets for AI model training",
+    "Perform exploratory data analysis (EDA) to extract insights",
+    "Integrate AI models into applications and backend systems",
+    "Develop APIs and pipelines for model deployment",
+    "Experiment with new AI technologies, tools, frameworks",
+    "Collaborate with data scientists, software engineers, product managers",
+    "Test and validate AI solutions; monitor model performance",
+    "Document AI workflows, technical specs, deployment processes"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "constraints": {
+    "sponsorship_mentioned": false,
+    "sponsorship_offered": null,
+    "location": "North Carolina, United States",
+    "remote_ok": false,
+    "hybrid": "3 days/week in office",
+    "clearance_required": false,
+    "experience_level_stated": "entry",
+    "required_experience_years": 0,
+    "applicants_at_scrape": 149
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python depth is real and varied: PyQt+Matplotlib real-time data-acquisition GUI at BARC, PyTorch training/preprocessing pipelines at IIT Bombay, Cython-accelerated BPE tokenizer (4-5.5x speedup).",
+      "LLM fundamentals are genuine, not surface: GPT-2 style Transformer implemented from scratch (multi-head attention, MLP blocks, weight tying); TinyLlama 1.1B 8-bit quantization with ~55% VRAM reduction benchmarked on HellaSwag/GSM8K/ARC at <1% accuracy loss.",
+      "Has actually shipped an LLM API into a working system: Gemini intent classification (<500ms) inside the COFFIN capstone pipeline.",
+      "Model integration + deployment pipelines: Flask-SocketIO edge server with unified WebSocket fabric (COFFIN); ONNX and TFLite export for mobile (Tusk); TensorRT optimization (5.2x speedup).",
+      "Data preparation and EDA map cleanly: BraTS 2020 multi-modal MRI pipeline with augmentation and batch-loading memory management; CARLA auto-annotation producing ~5,000 YOLO frames with zero manual labeling; toothbrush dataset curation and annotation.",
+      "Model performance monitoring is a direct hit: pynvml/psutil VRAM and latency profiling, Dice/IoU/mAP/perplexity evaluation, accuracy-latency trade-off reporting.",
+      "Stakeholder/communication evidence exists: took over as team lead mid-project for a 7-person cross-cultural team as the sole ML-experienced member; General Secretary leading a 25-member robotics team across national competitions."
+    ],
+    "real_gaps": [
+      "Chatbots: zero. Nothing conversational or dialogue-oriented anywhere in the profile. Gemini is used for one-shot intent classification, not chat.",
+      "Agent-based workflows: zero. No tool-calling, no orchestration frameworks, no LangChain/LlamaIndex, no multi-step agent design.",
+      "RAG, vector databases, and prompt engineering as a practiced discipline are entirely absent.",
+      "Cloud and production infra absent: no AWS/Azure/GCP, no Docker, no Kubernetes, no CI/CD anywhere in the profile.",
+      "Scope mismatch: every entry is research, academic, or internship. The JD is enterprise IT, translating business requirements into AI solutions for global stakeholders. No business-facing delivery context.",
+      "Mandarin Chinese (preferred only, low weight)."
+    ],
+    "overstated_by_keywords": [
+      "'API' -- profile hits are consuming APIs (Gemini, HuggingFace) and a research Flask-SocketIO server, not designing or serving production REST APIs for other teams.",
+      "'LLM' -- the LLM work is systems-flavored (compression, architecture, benchmarking). The JD wants the application layer (chat, agents, business workflows). Same word, different job.",
+      "'automation' -- profile matches are multiprocessing and auto-annotation scripts, not workflow/process automation. False friend.",
+      "'Bachelors in CS or Data Science or related field' -- Computer Engineering is neither named field, though it is unambiguously 'related' and will pass any screen."
+    ],
+    "reasoning": "The 100% keyword score is an artifact of a deliberately minimal basic-qualifications bar: a bachelor's degree and Python experience. Justin clears that bar without effort and has stronger LLM internals knowledge than most applicants to an entry-level role. But the job's actual center of gravity is LLM application development -- chatbots, agentic workflows, business-facing API integration -- and that is the one region of the LLM space his profile does not touch. He is an edge-AI and systems engineer being evaluated for an applied-AI product role. Apply, because the stated bar is met and the role is entry level, but expect the resume to be read as adjacent rather than on-target, and lead the tailored version with the Gemini integration, the Flask-SocketIO service, and the TinyLlama benchmarking work rather than CUDA or STM32."
+  }
+}

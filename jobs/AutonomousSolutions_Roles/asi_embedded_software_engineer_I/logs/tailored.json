@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "Autonomous Solutions Inc (ASI Robots)",
+    "role": "Embedded Software Engineer I - Project Based",
+    "company_slug": "asi",
+    "job_slug": "embedded_software_engineer_I"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate (May 2026) from Rochester Institute of Technology (RIT) with hands-on embedded real-time systems experience across STM32 bare-metal C, FreeRTOS, and UART/I2C/SPI protocol design. Built multithreaded RTOS firmware for a Jetson-STM32 object-tracking turret and a Cortex-M4 temperature monitor with deterministic 1 Hz sensor sampling, and developed ROS2-based robotic arm control validated against MoveIt/RViz. Writes clean, testable C/C++ following SOLID principles across distributed embedded pipelines.",
+  "skills": {
+    "Embedded & RTOS": ["STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "NVIDIA Jetson", "Arduino", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"],
+    "Languages & Systems": ["C/C++", "Python", "ROS/ROS2", "Bash"],
+    "Robotics & Perception": ["ROS/ROS2", "MoveIt", "RViz", "Forward kinematics", "DH parameters"],
+    "Tools": ["Linux", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus.",
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors via TCA9548A I2C mux for contact-aware grasping; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Built a voice-controlled pick-and-place system over a 3-layer pipeline: Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller over WebSocket.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Delivery Drone",
+      "date": null,
+      "bullets": [
+        "Architected a 4-layer distributed system (Flutter app, Flask/Socket.IO server, Jetson Orin Nano ROS 2 Humble, Arduino flight controller over Bluetooth) for voice-activated autonomous micro-delivery.",
+        "Deployed a Linux systemd service on Jetson with SIGTERM/SIGINT handling, WebSocket auto-reconnect, and serial passthrough to hardware.",
+        "Built Arduino flight controller in C++: PWM throttle mapping to 4x 30A ESCs, Bluetooth command parser, and per-motor override."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Multiple Processor Systems", "Principles of Robotics", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

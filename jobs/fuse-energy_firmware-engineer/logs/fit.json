@@ -1,0 +1,206 @@
+{
+  "company": "Fuse Energy",
+  "company_slug": "fuse-energy",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 65.6,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 10,
+    "missing_count": 6,
+    "jd_ask_size": 32,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "microcontroller firmware",
+    "SPI",
+    "I2C",
+    "UART",
+    "timers",
+    "ADC",
+    "Flash",
+    "RTOS",
+    "bare-metal",
+    "Git",
+    "oscilloscope",
+    "logic analyzer",
+    "JTAG/SWD",
+    "board bring-up",
+    "Digital Signal Processing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "DMA",
+      "you_have": "peripheral programming"
+    },
+    {
+      "jd_skill": "CAN",
+      "you_have": "serial protocols"
+    },
+    {
+      "jd_skill": "GNU toolchain",
+      "you_have": "build systems"
+    },
+    {
+      "jd_skill": "Docker",
+      "you_have": "systemd and deployment"
+    },
+    {
+      "jd_skill": "CI pipelines",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "real-time control software",
+      "you_have": "closed-loop control"
+    },
+    {
+      "jd_skill": "control systems",
+      "you_have": "closed-loop control"
+    },
+    {
+      "jd_skill": "bootloaders",
+      "you_have": "bare-metal"
+    },
+    {
+      "jd_skill": "linker scripts",
+      "you_have": "bare-metal"
+    },
+    {
+      "jd_skill": "memory maps",
+      "you_have": "bare-metal"
+    }
+  ],
+  "missing_skills": [
+    "IAR",
+    "power electronics",
+    "grid-connected converter controls",
+    "FIR",
+    "IIR",
+    "FFT"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded C",
+    "SPI",
+    "I2C",
+    "UART",
+    "DMA",
+    "ADC",
+    "CAN",
+    "RTOS",
+    "JTAG",
+    "SWD",
+    "bootloader",
+    "linker script",
+    "oscilloscope",
+    "logic analyser",
+    "Git",
+    "Docker",
+    "CI"
+  ],
+  "required_skills": [
+    "C",
+    "microcontroller firmware",
+    "SPI",
+    "I2C",
+    "UART",
+    "DMA",
+    "timers",
+    "ADC",
+    "Flash",
+    "CAN",
+    "RTOS",
+    "bare-metal",
+    "GNU toolchain",
+    "IAR",
+    "Git",
+    "Docker",
+    "CI pipelines",
+    "oscilloscope",
+    "logic analyzer",
+    "JTAG/SWD",
+    "real-time control software",
+    "bootloaders",
+    "linker scripts",
+    "board bring-up"
+  ],
+  "preferred_skills": [
+    "power electronics",
+    "grid-connected converter controls",
+    "control systems",
+    "DSP",
+    "FIR",
+    "IIR",
+    "FFT",
+    "memory maps"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "drivers",
+    "real-time control",
+    "board bring-up",
+    "bootloaders"
+  ],
+  "role_category": "embedded_systems",
+  "location": "London, UK (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 firmware: timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver, direct GPIO/TIM2/ADC1/I2C1 programming at 3.68 KB Flash / 1.58 KB RAM (STM32 Bare-Metal Temperature Monitor)",
+      "UART/I2C/SPI plus FreeRTOS mutex task coordination and interrupt-driven UART commands (Object Tracking Turret)",
+      "Interrupt-driven quadrature decoding and 15 kHz PWM motor drive, closed-loop feedback (Robocon project, PCB robots at IIT Bombay)",
+      "Oscilloscope and logic analyzer listed in tools; Git/GitLab used; PCB design in EAGLE gives hardware-side credibility"
+    ],
+    "real_gaps": [
+      "No DMA use anywhere in the profile",
+      "No CAN bus firmware",
+      "No bootloader, linker script or memory map work",
+      "No JTAG/SWD debug session evidence beyond tool lists",
+      "No power electronics or grid-connected converter control",
+      "No FIR/IIR/FFT firmware DSP",
+      "No Docker or CI pipeline work on firmware",
+      "No IAR toolchain; 0 years full-time against 2+ asked"
+    ],
+    "overstated_by_keywords": [
+      "JTAG/SWD counted Have, but only oscilloscope/logic analyzer are listed, no debugger work",
+      "board bring-up counted Have, but evidence is student/club PCB work, not production bring-up",
+      "Digital Signal Processing counted Have as a coursework keyword, not firmware filtering"
+    ],
+    "understated_by_keywords": [
+      "Closed-loop feedback control with PWM and encoder interrupts is real depth for the real-time control responsibility"
+    ],
+    "screening_gaps": [
+      "No full-time firmware experience against a 2+ year requirement",
+      "No DMA, CAN, bootloader or linker script work, which are core responsibilities",
+      "No power electronics, converter control or firmware DSP, the domain of energy devices"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core MCU peripheral, interrupt and RTOS skills are genuinely backed by bare-metal STM32 work, but several named responsibilities (DMA, CAN, bootloaders, linker scripts, DSP, power electronics) have no backing. Reasonable to apply for the embedded core; expect depth probes on those gaps.",
+    "calibration_delta": 7.6
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,131 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 4.62,
+      "matched": [
+        "Python",
+        "hardware/software integration",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 3.21,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 2.59,
+      "matched": [
+        "Python",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Research Intern (Capstone)",
+      "name": "Research Intern (Capstone)",
+      "score": 1.65,
+      "matched": [
+        "profiling and benchmarking"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 8.07,
+      "matched": [
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 4.25,
+      "matched": [
+        "C++",
+        "networking",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 3.91,
+      "matched": [
+        "RTOS",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 2.75,
+      "matched": [
+        "profiling and benchmarking",
+        "testing and validation"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 2.75,
+      "matched": [
+        "C++",
+        "profiling and benchmarking"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Real-time embedded software",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "Microcontroller peripheral bring-up (ADC, PWM, SPI, I2C)",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "Firmware profiling and optimization",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "Ethernet",
+      "for_skill": "networking"
+    },
+    {
+      "use_jd_wording": "Electrical schematics",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "schematics",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "automated tests",
+      "for_skill": "testing and validation"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "CAN",
+    "Multicore",
+    "MISRA C"
+  ]
+}

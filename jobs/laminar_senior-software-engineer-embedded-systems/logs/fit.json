@@ -1,0 +1,142 @@
+{
+  "company": "Laminar",
+  "company_slug": "laminar",
+  "role": "Senior Software Engineer, Embedded Systems",
+  "job_slug": "senior-software-engineer-embedded-systems",
+  "match_pct": 41.4,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 15,
+    "jd_ask_size": 29,
+    "req_cov": 0.404,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ADC",
+    "embedded C/C++",
+    "microcontrollers",
+    "firmware development",
+    "device driver model",
+    "driver development",
+    "signal chain design and debugging",
+    "board bring-up",
+    "sensors",
+    "unit testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Zephyr RTOS",
+      "you_have": "FreeRTOS (STM32 RTOS project, not Zephyr)"
+    },
+    {
+      "jd_skill": "digital signal processing",
+      "you_have": "speech/audio DSP (different signal domain)"
+    },
+    {
+      "jd_skill": "analog design / grounding / noise",
+      "you_have": "PCB design (analog circuit exposure, not signal-chain-level)"
+    },
+    {
+      "jd_skill": "CI",
+      "you_have": "GitHub Actions CD (software CI, not hardware-mock/embedded CI)"
+    }
+  ],
+  "missing_skills": [
+    "devicetree",
+    "Kconfig",
+    "west",
+    "filter design",
+    "sampling and aliasing",
+    "optical sensing",
+    "electrical sensing",
+    "productionizing sensing methodologies",
+    "calibration",
+    "OTA",
+    "instrumentation",
+    "hardware mocks",
+    "EMI",
+    "vibration",
+    "thermal drift"
+  ],
+  "top_ats_keywords": [
+    "Zephyr",
+    "devicetree",
+    "Kconfig",
+    "west",
+    "ADC",
+    "signal chain",
+    "calibration",
+    "firmware",
+    "embedded C/C++",
+    "OTA",
+    "device driver model"
+  ],
+  "required_skills": [
+    "embedded C/C++",
+    "microcontrollers",
+    "Zephyr RTOS",
+    "devicetree",
+    "Kconfig",
+    "west",
+    "device driver model",
+    "filter design",
+    "sampling and aliasing",
+    "signal chain design and debugging",
+    "ADC",
+    "analog design",
+    "grounding",
+    "noise",
+    "unit testing",
+    "hardware mocks",
+    "CI",
+    "optical sensing",
+    "electrical sensing",
+    "productionizing sensing methodologies",
+    "firmware development",
+    "board bring-up",
+    "calibration",
+    "OTA",
+    "driver development",
+    "instrumentation"
+  ],
+  "preferred_skills": [
+    "digital signal processing",
+    "EMI",
+    "vibration",
+    "thermal drift"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own ADC acquisition, filtering, integration/averaging, calibration signal chain",
+    "Integrate new detectors/sensing elements, board bring-up through production drivers",
+    "Noise rejection: vibration, EMI, thermal drift",
+    "Zephyr firmware for modular sensor stack",
+    "On-device calibration coefficient storage and provisioning",
+    "Ship drivers, OTA, health monitoring to Edge Gateway"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Somerville, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

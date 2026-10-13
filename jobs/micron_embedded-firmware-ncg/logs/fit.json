@@ -1,0 +1,73 @@
+{
+  "company": "Micron Technology",
+  "company_slug": "micron",
+  "role": "New College Grad - Embedded Firmware Engineer",
+  "job_slug": "embedded-firmware-ncg",
+  "match_pct": 90.0,
+  "missing_skills": [
+    "PCIe",
+    "Container experience (Docker)",
+    "DMM (digital multimeter) explicit",
+    "Board bring-up (explicit)"
+  ],
+  "adjacent_skills": [
+    "Lab equipment (oscilloscopes have, DMMs not explicit)",
+    "Board bring-up (PCB/EAGLE design experience is close but not explicit bring-up)",
+    "Firmware-electrical correlation (adjacent via PCB + bare-metal debug)",
+    "Signal integrity / power debugging (adjacent via Digital Signal Processing, Random Signal Analysis coursework)"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "bare metal",
+    "embedded Linux",
+    "GPIO",
+    "SPI",
+    "I2C",
+    "UART",
+    "PCIe",
+    "schematics",
+    "datasheets",
+    "oscilloscopes",
+    "logic analyzers",
+    "GNU toolchain",
+    "Python",
+    "containers",
+    "PCB",
+    "board bring-up"
+  ],
+  "key_responsibilities": [
+    "Develop embedded software from bare metal to embedded Linux plus higher level interface software",
+    "Code in C, C++, Bash, Python on bare metal and RHEL-compatible Linux in containers",
+    "Debug software-hardware interactions using schematics, datasheets, and lab equipment (oscilloscopes, logic analyzers, DMMs, SMUs)",
+    "Cross-discipline collaboration with electrical, control, and mechanical engineers across Boise, San Jose, Penang, Hyderabad",
+    "Hands-on daily work with electronics and lab equipment to root-cause system-level issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 65,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Register-level bare-metal peripheral programming (GPIO, TIM2, ADC1, I2C1 on STM32 Cortex-M4 in the Temperature Monitor project) is genuine signal/register-level debug experience, directly backing the JD minimum qualification",
+      "Cross-discipline team leadership (General Secretary, Agnel Robotics Club) coordinated mechanical, electrical, and software work across a 25-member team on PCB fabrication and AI/ML integration end to end, which maps to the JD ask for working in cross-discipline design teams",
+      "Multiple from-scratch full-stack hardware+software builds (COFFIN capstone spanning mobile client, edge server, Jetson+Arduino, multiple sensors over I2C/UART; Object Tracking Turret with STM32+UART+PWM+ToF) show real comfort building and integrating physical systems, not just isolated firmware snippets"
+    ],
+    "real_gaps": [
+      "No embedded Linux firmware experience. Every embedded project is bare-metal only (STM32) or uses Jetson/Raspberry Pi purely as an application-layer host, not as a target for bring-up, BSP work, or kernel/driver level firmware. The JD explicitly wants bare metal to embedded Linux, and RHEL-compatible Linux in containers, which is unaddressed",
+      "No PCIe experience anywhere in the profile, called out as a required interface",
+      "No container experience (Docker or similar), a stated preferred qualification",
+      "Board bring-up experience is not demonstrated. PCB work is single-layer EAGLE boards for robotics club locomotive robots; that is PCB design and fabrication, not first-power-on bring-up or debugging power rails, clocks, or interfaces on a new board, which is what the JD specifically asks about",
+      "Scale and domain mismatch: the JD is for custom in-house semiconductor manufacturing equipment, industrial control systems with SMU-level electrical characterization. The profile is entirely student and internship scope (robotics club boards, capstone project, coursework), a real step down in system complexity and stakes from equipment that runs a fab line"
+    ],
+    "overstated_by_keywords": [
+      "Oscilloscopes and Logic Analyzers are listed in the Tools skills section but no experience bullet anywhere describes actually using either to debug a real signal or timing issue, so the keyword match counted these as Have when the depth behind them is unverified",
+      "Schematics and datasheets: counted as Have because of PCB/EAGLE design experience, but that is drawing schematics for simple robotics boards, not reading and reasoning about someone else's datasheets and timing diagrams to root-cause a hardware interaction, which is the JD framing",
+      "PCB layout review for power/clocks/interfaces: the actual PCB experience is single-layer boards for locomotive robots, not the power and clock integrity review implied by the JD preferred qualification"
+    ],
+    "reasoning": "The keyword match looks strong because the surface vocabulary overlaps heavily (C/C++, GPIO/SPI/I2C/UART, oscilloscopes, PCB), but the JD is really asking for embedded Linux bring-up and independent hardware debug on industrial equipment, and the profile has neither embedded Linux firmware work nor board bring-up nor PCIe. The genuine strength is register-level bare-metal programming and cross-discipline systems building, which should carry real weight in an interview, but the resume should not imply Linux BSP or bring-up experience it does not have."
+  }
+}

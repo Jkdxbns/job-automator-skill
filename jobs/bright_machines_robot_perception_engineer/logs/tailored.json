@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "company": "Bright Machines",
+    "role": "Robot Perception Engineer - Smart Robotics",
+    "company_slug": "bright_machines",
+    "job_slug": "robot_perception_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT with hands-on experience in computer vision, deep learning, and real-time robotics perception. Deployed TensorRT YOLO visual servoing at ~18 FPS on a physical robotic arm and engineered a metal surface inspection pipeline using custom image stitching and ZoeDepth 3D reconstruction (\u00b18% depth error); custom CUDA C++ kernels achieved ~35% GPU inference speedup on NVIDIA Jetson.",
+  "skills": {
+    "Languages & GPU": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Bash",
+      "Memory coalescing",
+      "Kernel optimization"
+    ],
+    "Computer Vision & Perception": [
+      "OpenCV",
+      "YOLO",
+      "PyTorch",
+      "TensorRT",
+      "Visual servoing",
+      "Pose estimation",
+      "Depth estimation",
+      "Sensor integration",
+      "ROS2"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face Transformers",
+      "Quantization (8-bit)",
+      "Model evaluation"
+    ],
+    "Robotics & Edge": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "Forward kinematics",
+      "NVIDIA Jetson",
+      "STM32",
+      "Raspberry Pi",
+      "UART/I2C/SPI"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Flask"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis: custom image stitching (PSNR 86 vs. 65 baseline), wavelet denoising (alpha-blended sym6+bior3.5), and ZoeDepth 3D reconstruction at \u00b18% depth error.",
+        "Designed data capture strategies and augmentation pipeline for multi-resolution microscopic imaging; validated inspection output on defect classification tasks."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, ResNet-50 backbones on BraTS 2020 multi-modal MRI; built batch-loading data pipeline for 3D volumetric inputs; evaluated Dice Score and IoU across all backbones."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom detection dataset; trained YOLOv8n on 1,133 images achieving 83% mAP@50; exported to ONNX and TFLite for mobile inference deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT YOLO visual servoing at ~18 FPS on a physical robotic arm for vision-guided pick-and-place; integrated dual VL53L0X ToF sensors for contact-aware grasping.",
+        "Resolved 11 integration failures (false-positive detections, servo crosstalk, rolling-shutter depth artifacts); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights, and preallocated buffers; achieved 49.2ms vs 73.3ms (uncoalesced) \u2014 ~35% speedup at identical accuracy."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines (semantic segmentation + raycast occlusion) producing ~5,000 YOLO frames with zero manual annotation; trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); achieved zero collisions across Town02 with 30 vehicles."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and full forward kinematic chains (0T6) for 6-DoF UR5e and 5-DoF AL5B; executed collision-free pick-and-place on physical UR5e via ROS 2 driver with <2mm pose repeatability over 10 trials."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time object tracking; routed pose commands to STM32 over UART for closed-loop multi-servo control with VL53L0X ToF depth sensing and FreeRTOS task coordination."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Principles of Robotics",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

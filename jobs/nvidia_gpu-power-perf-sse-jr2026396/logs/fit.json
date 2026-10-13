@@ -1,0 +1,183 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "System Software Engineer - GPU Power and Performance Management",
+  "job_slug": "gpu-power-perf-sse-jr2026396",
+  "match_pct": 61.1,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 27,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "embedded",
+    "real-time",
+    "interrupt handling",
+    "hardware programming",
+    "operating systems",
+    "computer architecture",
+    "GPU",
+    "Linux",
+    "scripting",
+    "automation",
+    "control systems",
+    "debugging",
+    "concurrency"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal peripheral drivers (STM32/I2C/SPI/UART)"
+    },
+    {
+      "jd_skill": "telemetry",
+      "you_have": "pynvml GPU profiling"
+    },
+    {
+      "jd_skill": "hardware specifications",
+      "you_have": "datasheet-driven sensor bring-up"
+    },
+    {
+      "jd_skill": "validation",
+      "you_have": "benchmarking and model evaluation"
+    },
+    {
+      "jd_skill": "thermal management",
+      "you_have": "closed-loop feedback control"
+    }
+  ],
+  "missing_skills": [
+    "DVFS",
+    "P-states",
+    "power management controllers",
+    "clock control",
+    "voltage control",
+    "silicon bring-up",
+    "pre-silicon validation",
+    "kernel software"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "DVFS",
+    "P-states",
+    "power management",
+    "firmware",
+    "device drivers",
+    "operating systems",
+    "computer architecture",
+    "interrupt",
+    "concurrency",
+    "embedded",
+    "real-time",
+    "GPU",
+    "thermal",
+    "telemetry",
+    "silicon bring-up",
+    "validation",
+    "automation"
+  ],
+  "required_skills": [
+    "C",
+    "kernel software",
+    "operating systems",
+    "computer architecture",
+    "device drivers",
+    "embedded",
+    "real-time",
+    "concurrency",
+    "interrupt handling",
+    "hardware programming",
+    "debugging",
+    "hardware specifications"
+  ],
+  "preferred_skills": [
+    "GPU",
+    "power management",
+    "P-states",
+    "DVFS",
+    "clock control",
+    "voltage control",
+    "thermal management",
+    "control systems",
+    "validation",
+    "scripting",
+    "automation",
+    "telemetry",
+    "AI tools"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "P-state/DVFS software",
+    "control policies",
+    "pre-silicon to production support",
+    "HW/SW interfaces",
+    "triage"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47.3,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C plus interrupt-driven firmware: Object Tracking Turret (STM32 UART interrupts, multi-servo PWM, FreeRTOS mutexes) plus the CMPE 663 RTOS coursework backing it",
+      "Hardware programming and spec reading: COFFIN dual VL53L0X ToF over a TCA9548A I2C mux, 25 mm gripper-triggered close, ADXL345 on Raspberry Pi (Planctech)",
+      "GPU performance measurement: pynvml peak-VRAM and latency profiling in the SLM project; CUDA memory-coalescing kernels 73.3 -> 49.2 ms; TensorRT 56.7 -> 10.9 ms",
+      "Cross-layer debugging: 11 integration failures resolved across Jetson, Arduino, Flask and mobile client (servo brown-out, stale frames)"
+    ],
+    "real_gaps": [
+      "No DVFS, P-state, clock or voltage control work of any kind, and it is the role's core",
+      "No Linux kernel or device-driver code; drivers were MCU-level peripheral code, not OS-level (BBB C driver in telemetry_gateway is planned, not built)",
+      "No pre-silicon, emulation or silicon bring-up experience",
+      "No power-management controller or firmware-on-PMU work; no power or thermal telemetry beyond pynvml VRAM",
+      "Seniority: JD wants 2+ years, or equivalent project work; profile is internship and capstone scope"
+    ],
+    "overstated_by_keywords": [
+      "thermal management (closed-loop feedback control is servo positioning, not thermal or power control)",
+      "GPU (used as a compute target for CUDA and inference, not as a power-managed device)",
+      "control systems (position loops on servos, not power or performance control policies)"
+    ],
+    "understated_by_keywords": [
+      "Computer architecture depth from the High Performance Architecture and Multiple Processor Systems coursework plus CUDA memory-hierarchy tuning (coalescing, constant memory)",
+      "Measurement and automation mindset: benchmark harnesses across HellaSwag/GSM8K/ARC with latency and memory tables, similar to the JD's transition latency and perf-per-watt validation"
+    ],
+    "screening_gaps": [
+      "Zero DVFS/P-state/power-management evidence for a team that does exactly that",
+      "No OS-kernel or driver-level C (only MCU bare-metal), against the JD's kernel-software ask",
+      "No hardware-bring-up or low-level GPU/SoC hardware-software interface work, and no C-heavy production history"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The profile backs the generic low-level foundation (C, interrupts, RTOS, hardware programming, GPU profiling) but not the specific domain, which is DVFS and power-management firmware. The JD explicitly accepts coursework and project experience at entry level and NVIDIA sponsors, so it is worth applying to, but expect the C and OS-depth probe to decide it.",
+    "calibration_delta": 13.8
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-05",
+    "channel": "application",
+    "notes": "Form rejection (JR2026396). No feedback."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "company": "Town",
+  "company_slug": "town",
+  "role": "AI Engineer, Evals & Agent Quality",
+  "job_slug": "ai-engineer-evals-agent-quality",
+  "match_pct": 33.3,
+  "missing_skills": [
+    "Hands on eval framework tooling (e.g. LangSmith, Braintrust, promptfoo, custom harnesses)",
+    "Model routing / multi model cost quality speed tradeoff systems",
+    "Golden dataset curation and labeling loop ownership",
+    "Production online evaluation tooling",
+    "Senior or staff level ownership of a 0 to 1 system"
+  ],
+  "adjacent_skills": [
+    "LLM benchmarking and quality measurement (HellaSwag, GSM8K, ARC on TinyLlama 1.1B; perplexity and accuracy tradeoffs)",
+    "Applied ML measurement instinct (Dice/IoU evaluation, accuracy-latency tradeoff reporting)"
+  ],
+  "top_ats_keywords": [
+    "LLM evals",
+    "agent trajectories",
+    "golden datasets",
+    "labeling loop",
+    "model routing",
+    "online evaluation",
+    "quality measurement",
+    "0 to 1",
+    "senior engineer",
+    "staff engineer"
+  ],
+  "key_responsibilities": [
+    "Build a generalized eval system across every surface, including multi-step agent trajectories",
+    "Stand up golden datasets and the labeling loop that keeps them current",
+    "Build model routing and online evaluation tooling",
+    "Make every prompt and system change measurable",
+    "Partner with engineers to instrument quality and close the loop from signal to fix"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

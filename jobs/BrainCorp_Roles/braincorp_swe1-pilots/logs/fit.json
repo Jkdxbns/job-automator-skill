@@ -1,0 +1,37 @@
+{
+  "company": "Brain Corp",
+  "company_slug": "braincorp",
+  "role": "Software Engineer I, Pilots (multiple openings)",
+  "job_slug": "swe1-pilots",
+  "match_pct": 100,
+  "missing_skills": ["CI/CD tooling", "Agile/Scrum methodology"],
+  "adjacent_skills": ["path planning / AI navigation algorithms"],
+  "top_ats_keywords": ["C++", "Python", "embedded systems", "computer vision", "object detection", "recognition", "real-time", "multi-threaded", "ROS", "robotics frameworks"],
+  "key_responsibilities": [
+    "Build and review performance metrics and dashboards of production/pilot fleet",
+    "Analyze trends and identify recommendations for model training pipeline and operations",
+    "Develop code and deliver software features increasing customer value and scalability",
+    "Coordinate across hardware, firmware, platform, UX, quality, cloud, autonomy, Applied ML",
+    "Stay current on platform/AI/autonomy/navigation developments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Object Tracking Turret project is a near 1:1 mirror of the core ask: YOLOv8 object detection on Jetson driving an STM32 over UART, with FreeRTOS multi-threaded task coordination and ToF sensing — directly backs 'CV object detection' + 'C++/Python embedded' + 'soft real-time and multi-threaded systems'",
+      "COFFIN capstone shows CV model evaluation and optimization depth beyond just training: TensorRT-optimized YOLO for visual servoing with a 5.2x speedup benchmarked against eager PyTorch",
+      "ROS-Based Robotic Arm project (UR5e + AL5B, ROS 2 Humble, MoveIt, RViz) backs the 'things that make a difference' ROS/robotics-framework preference"
+    ],
+    "real_gaps": [
+      "No experience building production performance dashboards or monitoring fleet-scale metrics — the JD's first essential function ('build and review performance metrics and dashboards of the production and/or pilot fleet') has no direct backing; closest adjacent is a PyQt/Matplotlib lab data-acquisition GUI at BARC, which is single-user/offline scale, not fleet telemetry",
+      "No CI/CD or Agile/Scrum exposure anywhere in the profile",
+      "No cross-functional customer-facing coordination at company scale — all experience is academic, research, or internship scope; this role explicitly coordinates across hardware/firmware/platform/UX/quality/cloud/autonomy/Applied ML teams to deliver customer value on a live pilot"
+    ],
+    "overstated_by_keywords": [
+      "'Design patterns, data structures, advanced programming techniques' was counted as Have based on general CS/M.S. coursework and project breadth, not because any bullet explicitly names a design pattern or algorithm-design exercise"
+    ],
+    "reasoning": "The embedded CV + real-time systems core of this role is an unusually direct match, especially the turret project which combines nearly every required technical element in one system. The main real risk is scope: this is a production customer engineering role built around fleet-scale telemetry and multi-team coordination, and the profile's evidence for that specific slice is thin compared to its technical depth."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "company": "Lawrence Harvey (agency; end client = undisclosed early-stage AI/robotics inspection startup)",
+  "company_slug": "lawrence_harvey",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded_software_engineer",
+  "match_pct": 71.4,
+  "missing_skills": [
+    "Docker (named explicitly in the direct posting stack)",
+    "Kubernetes",
+    "observability / monitoring (Prometheus, Grafana, logging stacks)",
+    "24/7 unattended production reliability",
+    "deployment & configuration tooling (Ansible, CI/CD for fleets)",
+    "production edge fleet management"
+  ],
+  "adjacent_skills": [
+    "networking -> TCP, WebSocket, Flask-SocketIO",
+    "data streaming -> WebSocket streaming, high-throughput image pipelines on Jetson",
+    "production edge deployment -> Jetson + TensorRT deployment at project/research scale",
+    "industrial systems -> ABB RobotStudio/RAPID, UR5e"
+  ],
+  "top_ats_keywords": [
+    "Embedded software",
+    "Edge software",
+    "Python",
+    "C++",
+    "Linux",
+    "NVIDIA GPUs",
+    "Jetson",
+    "ML inference",
+    "TensorRT",
+    "machine vision",
+    "OpenCV",
+    "data streaming",
+    "networking",
+    "containerized services",
+    "Docker",
+    "reliability",
+    "observability",
+    "robotics",
+    "manufacturing systems",
+    "high-throughput image data"
+  ],
+  "key_responsibilities": [
+    "Building reliable embedded and edge software for AI-powered inspection systems",
+    "Streaming high-throughput image data through edge GPUs",
+    "Deploying and running ML inference services in production",
+    "Improving reliability, observability and recoverability of 24/7 systems",
+    "Developing deployment and configuration tools to scale the platform globally",
+    "Working with ML and hardware engineers",
+    "Troubleshooting across customer networks and manufacturing environments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null,
+  "direct_posting": {
+    "url": "https://www.lawrenceharvey.com/jobs/328358embeddedsoftwareengineer",
+    "ref": "328358",
+    "confirmed_same_role_as": "https://www.linkedin.com/jobs/view/4446214392/",
+    "salary_range": "$110k-$145k",
+    "experience_required": "2-4 years",
+    "employment_type": "Permanent, on-site US",
+    "recruiter": "Angie Van Vuuren <A.VanVuuren@wearelhi.com>",
+    "stack_named": [
+      "Python",
+      "C++",
+      "Linux",
+      "NVIDIA edge GPUs",
+      "Ethernet/networking",
+      "Docker"
+    ]
+  },
+  "constraint_notes": "Direct posting states 2-4 years experience; candidate has 0 FT years / 7 internships. Docker is a named stack item, not optional."
+}

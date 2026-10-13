@@ -1,0 +1,80 @@
+{
+  "company": "Verkada",
+  "company_slug": "verkada",
+  "role": "Software Engineer - Imaging Systems",
+  "job_slug": "software-engineer-imaging-systems",
+  "match_pct": 70,
+  "have_skills": [
+    "C++",
+    "C",
+    "embedded systems",
+    "sensor drivers (ADC/GPIO/SPI/I2C/UART)",
+    "image processing",
+    "OpenCV",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "systems programming",
+      "have": "bare-metal C, STM32 Cortex-M4"
+    },
+    {
+      "jd_term": "camera software",
+      "have": "embedded C++, image processing, OpenCV"
+    },
+    {
+      "jd_term": "camera pipeline",
+      "have": "image processing, ROS pipeline, OpenCV"
+    },
+    {
+      "jd_term": "sensor drivers",
+      "have": "ADC, GPIO, SPI, I2C, UART peripherals"
+    },
+    {
+      "jd_term": "image quality",
+      "have": "PSNR, image mosaicing, image processing"
+    }
+  ],
+  "missing_skills": [
+    "3A algorithms",
+    "autofocus control",
+    "auto-exposure algorithms",
+    "ISP tuning"
+  ],
+  "preferred_have": [
+    "embedded Linux (Linux)",
+    "IoT/edge devices (Jetson, Raspberry Pi)",
+    "image quality metrics (PSNR)",
+    "SDK integration (TensorRT)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded software",
+    "camera pipeline",
+    "3A algorithms",
+    "sensor drivers",
+    "ISP",
+    "image quality",
+    "embedded Linux",
+    "systems programming"
+  ],
+  "key_responsibilities": [
+    "Design and implement camera software across imaging stack (3A, pipeline, sensor drivers) in C++/C",
+    "Build tools for image system tuning and automated diagnostics",
+    "Collaborate with hardware, firmware, computer vision teams",
+    "Collaborate with external vendors on IQ tuning",
+    "Analyze system metrics and imaging data"
+  ],
+  "role_category": "embedded_systems",
+  "sponsorship": "CONFIRMED \u2014 Verkada explicitly states they sponsor employment visas",
+  "experience_required": 3,
+  "experience_match": "soft_gap",
+  "location": "San Mateo, CA \u2014 onsite 5 days/week, Justin willing to relocate",
+  "clearance_required": false,
+  "hard_blocker_triggered": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "date_analyzed": "2026-05-27"
+}

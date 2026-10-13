@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    "ROS/ROS2 (ROS2 Humble + ROS Noetic, MoveIt, RViz, custom drivers)",
+    "Perception (YOLOv8, U-Net, OpenCV, depth estimation, visual servoing, full-stack vision pipeline)",
+    "Embedded sensor integration (STM32 bare-metal, UART/I2C/SPI, VL53L0X ToF, ADXL345, HC-05 Bluetooth, FreeRTOS with mutexes)",
+    "Edge AI / GPU optimization (TensorRT YOLO 5.2x speedup, CUDA C++ kernels 35% speedup, 8-bit quantization, pynvml profiling)",
+    "Robotics control (DH parameters, forward kinematics, dual-servo PWM, robotic arm full-stack)",
+    "Full-stack autonomy prototypes (COFFIN arm with STT/intent/vision, autonomous driving CARLA, object tracking turret)"
+  ],
+  "real_gaps": [
+    "0 full-time years vs Senior title expectation",
+    "No production/industrial-scale autonomy deployment (oil/gas/mining/construction)",
+    "No explicit SLAM/localization algorithm experience beyond depth/sensor fusion",
+    "No formal safety/reliability certification (functional safety, ISO, harsh-environment validation)",
+    "No exposure to proprietary autonomy APIs or large-scale distributed robotics systems"
+  ],
+  "reasoning": "Candidate has strong technical overlap with ROS2/perception/sensor-integration/embedded/edge-AI \u2014 many direct matches. However, the 'Senior Software Engineer' title plus 'production-grade' and 'industrial field deployment' language creates a hard experience-level blocker for a new-grad (0 FT years, 7 internships/research). No sponsorship/ITAR/clearance flags. No location blocker (willing to relocate to Irvine, CA). The role demands senior production scope; candidate's depth is impressive but at research/internship scale. Recommendation: not a viable senior-level fit; might match a junior/entry ROS engineer role at same company with growth path.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/c3650d39-20eb-454e-97f8-4d38494e0fe6",
+  "team": "",
+  "location": "Irvine, CA"
+}

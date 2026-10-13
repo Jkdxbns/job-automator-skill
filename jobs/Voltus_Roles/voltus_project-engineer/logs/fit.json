@@ -1,0 +1,135 @@
+{
+  "company": "Voltus",
+  "company_slug": "voltus",
+  "role": "Project Engineer",
+  "job_slug": "project-engineer",
+  "match_pct": 17.5,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 7,
+    "missing_count": 13,
+    "jd_ask_size": 20,
+    "req_cov": 0.214,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "hardware commissioning",
+      "you_have": "STM32 (Bare-Metal C), bare-metal, embedded C/C++"
+    },
+    {
+      "jd_skill": "metering / metering solutions",
+      "you_have": "data acquisition, ADC, I2C, SPI"
+    },
+    {
+      "jd_skill": "hardware development / life-cycle",
+      "you_have": "STM32, PCB design, embedded hardware"
+    },
+    {
+      "jd_skill": "industrial controls",
+      "you_have": "BLDC Motors, PWM Motor Control, Closed-Loop Feedback Control"
+    },
+    {
+      "jd_skill": "data analysis",
+      "you_have": "Python, NumPy, Pandas, scikit-learn"
+    },
+    {
+      "jd_skill": "electrical / electrical schematics",
+      "you_have": "PCB design, digital electronics, sensor interfaces"
+    },
+    {
+      "jd_skill": "energy efficiency / energy storage / HVAC",
+      "you_have": "(none related)"
+    }
+  ],
+  "missing_skills": [
+    "troubleshooting",
+    "data platform integration",
+    "contractor management",
+    "Salesforce",
+    "PMP certification",
+    "HVAC",
+    "energy storage",
+    "energy efficiency",
+    "energy reduction",
+    "demand response",
+    "installation execution",
+    "project/installation project leadership",
+    "communication and customer service skills (not in keyword list)"
+  ],
+  "top_ats_keywords": [
+    "Project Engineer",
+    "installation execution",
+    "metering",
+    "product enablement",
+    "hardware life-cycle",
+    "energy reduction",
+    "demand response",
+    "Salesforce",
+    "hardware commissioning",
+    "troubleshooting",
+    "data platform integration",
+    "contractor management",
+    "PMP",
+    "electrical",
+    "HVAC",
+    "industrial controls",
+    "energy storage",
+    "energy efficiency",
+    "data analysis",
+    "electrical schematics"
+  ],
+  "required_skills": [
+    "hardware commissioning",
+    "troubleshooting",
+    "data platform integration",
+    "contractor management",
+    "Salesforce",
+    "Bachelor in Engineering/Technical related field or relevant work experience",
+    "communication and customer service skills"
+  ],
+  "preferred_skills": [
+    "PMP certification",
+    "background in electrical",
+    "HVAC",
+    "industrial controls",
+    "energy storage",
+    "energy efficiency",
+    "data analysis",
+    "reading/drawing electrical schematics"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Manage end-to-end installation execution projects including metering and product enablement",
+    "Provide technical support to Sales and assist customers with energy reduction strategies",
+    "Engage with Engineering to develop hardware and innovative metering solutions",
+    "Define and optimize processes to enhance efficiency and installation timelines",
+    "Ensure installations and technologies meet industry and market compliance standards"
+  ],
+  "role_category": "other",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Please note that at this time, we do not sponsor visas or transfers for new hires. (Category: a - no visa sponsorship offered, includes F-1 OPT)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

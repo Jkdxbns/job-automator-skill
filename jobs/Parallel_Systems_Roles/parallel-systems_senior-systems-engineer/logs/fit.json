@@ -1,0 +1,122 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Senior Systems Engineer",
+  "job_slug": "senior-systems-engineer",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 16,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's/Master's degree in related engineering/CS field",
+    "Python programming",
+    "CAD / SolidWorks familiarity"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Electromechanical fundamentals / electromechanical systems",
+      "you_have": "Embedded hardware and motor control skills"
+    },
+    {
+      "jd_skill": "Hardware-software integration",
+      "you_have": "Embedded/edge integration (ROS2, Jetson, STM32 bare-metal)"
+    },
+    {
+      "jd_skill": "Firmware (in hardware/firmware/software interface context)",
+      "you_have": "Bare-metal / RTOS embedded firmware"
+    },
+    {
+      "jd_skill": "System integration",
+      "you_have": "Robotics/perception pipeline integration"
+    }
+  ],
+  "missing_skills": [
+    "5+ years experience on complex hardware systems",
+    "Direct experience testing electromechanical systems with validation/testing",
+    "System/subsystem validation (acceptance, environmental, integration, deployment testing)",
+    "Railroad operations and train control software",
+    "Audit-ready safety/compliance documentation",
+    "Requirements management / DFMEA / functional architecture",
+    "Requirements database administration and verification traceability",
+    "Hardware/software integration specifically in regulated/safety-critical environment",
+    "Process improvements across engineering/manufacturing systems"
+  ],
+  "top_ats_keywords": [
+    "systems engineering",
+    "electromechanical",
+    "hardware",
+    "firmware",
+    "software",
+    "requirements",
+    "architecture",
+    "validation",
+    "integration",
+    "FMEA",
+    "compliance",
+    "audit-ready",
+    "train control",
+    "railroad",
+    "Python",
+    "SolidWorks",
+    "CAD",
+    "interface",
+    "design verification",
+    "traceability",
+    "safety-critical"
+  ],
+  "required_skills": [
+    "Bachelor's or Master's in ME/EE/Robotics/Controls/Aerospace/CS",
+    "5+ years complex hardware systems",
+    "Direct experience testing electromechanical systems (hardware/firmware/software)",
+    "Strong electromechanical fundamentals and system integration",
+    "System/subsystem validation (acceptance, environmental, integration, deployment)",
+    "Railroad operations and train control software experience",
+    "Audit-ready documentation for safety/compliance"
+  ],
+  "preferred_skills": [
+    "Requirements management / functional architecture / DFMEA",
+    "Requirements database and verification traceability",
+    "Hardware/software integration in regulated/safety-critical environment",
+    "Process improvements across engineering/manufacturing",
+    "Python or similar",
+    "SolidWorks / CAD familiarity"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define high-level needs/goals/objectives from business/customer desires",
+    "Develop product plans/roadmaps and guide team execution",
+    "Lead trade studies for best implementation",
+    "Develop system architecture, concepts, requirements, ICDs, compliance/verification plans",
+    "Manage requirements traceability, lead FMEA, provide technical guidance"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

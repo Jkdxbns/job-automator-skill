@@ -1,0 +1,169 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Entry level & Senior Software Engineer, Core AI Software (Onsite)",
+  "job_slug": "core-ai-software-engineer",
+  "match_pct": 78.0,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 5,
+    "missing_count": 3,
+    "jd_ask_size": 25,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Linux",
+    "Debugging",
+    "Testing",
+    "Embedded Software",
+    "LLMs",
+    "Generative AI",
+    "Hardware Acceleration",
+    "Edge Inference",
+    "CMake",
+    "Git",
+    "Python",
+    "CUDA",
+    "Deep Learning",
+    "Latency",
+    "Deployment",
+    "C"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "QNN",
+      "you_have": "TensorRT / ONNX"
+    },
+    {
+      "jd_skill": "Genie",
+      "you_have": "Custom C++/CUDA inference engine (SmolVLA)"
+    },
+    {
+      "jd_skill": "Low-level OS/Hardware Interaction",
+      "you_have": "Bare-metal STM32, RTOS, Linux drivers"
+    },
+    {
+      "jd_skill": "Data Structures and Algorithms",
+      "you_have": "C++ project work"
+    },
+    {
+      "jd_skill": "Agile",
+      "you_have": "GitLab / team projects"
+    }
+  ],
+  "missing_skills": [
+    "Android",
+    "Windows",
+    "QAIRT"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "Linux",
+    "Python",
+    "CUDA",
+    "Deep Learning",
+    "LLM",
+    "Latency",
+    "Git",
+    "CMake",
+    "Deployment",
+    "Embedded",
+    "Hardware Acceleration",
+    "QNN",
+    "Genie",
+    "Android"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Linux",
+    "Data Structures and Algorithms",
+    "Object-Oriented Design",
+    "Debugging",
+    "Testing",
+    "Communication"
+  ],
+  "preferred_skills": [
+    "Embedded Software",
+    "LLMs",
+    "Generative AI",
+    "Hardware Acceleration",
+    "Edge Inference",
+    "Android",
+    "Windows",
+    "Low-level OS/Hardware Interaction",
+    "CMake",
+    "QNN",
+    "Genie",
+    "Git",
+    "Agile"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop QAIRT/Genie runtime for GenAI on Snapdragon",
+    "Design inference runtime for low-power small-memory systems",
+    "Validate and optimize performance and accuracy",
+    "Debug and root cause analysis"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Edge GenAI optimization: TinyLlama 1.1B 8-bit quantization, ~55% VRAM cut, <1% accuracy loss, latency profiled with pynvml (SLM Compression project)",
+      "Inference latency work: TensorRT YOLO 56.7 to 10.9 ms (5.2x) and custom CUDA conv kernels 49.2 vs 73.3 ms (COFFIN, CUDA VGG16)",
+      "LLM architecture literacy: GPT-2 style Transformer and Whisper-style ASR with cross-attention built from scratch",
+      "Low-power fixed-point inference: integer-only QAT MLP with requantization multiplier/shift, 99.996% match to float reference",
+      "Resource-constrained C/C++: bare-metal STM32, FreeRTOS, Arduino IK in C++, Linux deployment via systemd"
+    ],
+    "real_gaps": [
+      "No C/C++ runtime or framework design: LLM work is Python/bitsandbytes, C++ is kernels and firmware, not an inference runtime with graph, memory planner or op dispatch",
+      "No NPU/DSP/accelerator SDK exposure (QNN, QAIRT, Genie, Hexagon); only NVIDIA TensorRT/CUDA",
+      "No Android or Windows development",
+      "DSA fluency not evidenced and depth-probed in past screens",
+      "Low-level OS/hardware interaction is MCU-level, no kernel/driver work shown",
+      "Embedded experience is internships and capstone, not 1+ yr professional"
+    ],
+    "overstated_by_keywords": [
+      "Genie adjacent: SmolVLA engine is not in the profile, so the match rests on TensorRT/ONNX only",
+      "Low-level OS/Hardware Interaction: bare-metal MCU is not OS-hardware interplay",
+      "Debugging/Testing counted Have: no dedicated testing or root-cause evidence in bullets beyond COFFIN's 11 integration failures"
+    ],
+    "understated_by_keywords": [
+      "Integer-only QAT with fixed-point requantization maps directly onto low-power accelerator deployment",
+      "From-scratch GPT-2 and ASR show LLM internals (attention, tokenizer, KV-style decoding) beyond name-dropping"
+    ],
+    "screening_gaps": [
+      "No C++ inference-runtime or framework-level design shown; LLM work is Python",
+      "No QNN/Hexagon/NPU or Android experience for a Snapdragon-targeted role",
+      "C++/DSA fluency under a live coding screen"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core themes (edge GenAI inference, quantization, latency, C/C++ on constrained hardware) are backed by concrete work, and the entry-level track asks only for projects or internships. The weak point is runtime-framework C++ and the Qualcomm accelerator stack, both learnable but visible to a screener.",
+    "calibration_delta": 15.0
+  }
+}

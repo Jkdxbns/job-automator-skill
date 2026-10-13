@@ -1,0 +1,130 @@
+{
+  "company": "Factory",
+  "company_slug": "factory",
+  "role": "Software Engineer, AI",
+  "job_slug": "software-engineer-ai",
+  "match_pct": 61.1,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 1,
+    "jd_ask_size": 9,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "LLMs",
+    "AI/ML engineering",
+    "SDLC"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "software engineering",
+      "you_have": "Git/GitLab, Python, C/C++"
+    },
+    {
+      "jd_skill": "large-scale data processing",
+      "you_have": "SLURM, MPI, Pandas"
+    },
+    {
+      "jd_skill": "data-intensive applications",
+      "you_have": "SLURM/MPI, ASR pipelines"
+    },
+    {
+      "jd_skill": "rapid prototyping",
+      "you_have": "internship/research prototypes"
+    },
+    {
+      "jd_skill": "scalability",
+      "you_have": "MPI/SLURM, CUDA"
+    }
+  ],
+  "missing_skills": [
+    "agentic systems"
+  ],
+  "top_ats_keywords": [
+    "LLMs",
+    "AI/ML",
+    "agentic systems",
+    "rapid prototyping",
+    "scalability",
+    "data processing",
+    "SDLC"
+  ],
+  "required_skills": [
+    "LLMs",
+    "AI/ML engineering",
+    "agentic systems",
+    "software engineering",
+    "SDLC"
+  ],
+  "preferred_skills": [
+    "data-intensive applications",
+    "large-scale data processing",
+    "rapid prototyping",
+    "scalability"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "design/deploy agentic AI systems",
+    "integrate AI research into product",
+    "rapid prototyping",
+    "product stability and scalability",
+    "large-scale data processing"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (in-office 5 days)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "LLM depth: GPT-2 from scratch in PyTorch, TinyLlama 8-bit quantization benchmarked on HellaSwag/GSM8K/ARC, Whisper-style ASR from scratch",
+      "LLM integration in a shipped system: Gemini intent classification (<500ms) in the COFFIN pipeline",
+      "Fine-tuning with measurable gains: DONUT transformer 55% to 93% at IIT Bombay (HuggingFace)",
+      "Rapid end-to-end prototyping across 7 internships and a capstone"
+    ],
+    "real_gaps": [
+      "No agentic systems: no tool-use loops, planners, multi-agent orchestration, or agent evals",
+      "No LLM applied to software-engineering tasks (code gen, PR review, test automation)",
+      "No production backend, cloud, or CI/CD ownership at org scale",
+      "No large-scale data processing beyond MPI/SLURM compute and dataset loaders",
+      "0 years full-time; JD asks 2+ years post-degree"
+    ],
+    "overstated_by_keywords": [
+      "large-scale data processing counted Adjacent via SLURM/MPI, but that is HPC compute, not data pipelines",
+      "scalability counted Adjacent via CUDA/MPI, but that is performance scaling, not service scalability"
+    ],
+    "understated_by_keywords": [
+      "Gemini API intent classification in COFFIN is real LLM application integration, closest thing to agentic plumbing"
+    ],
+    "screening_gaps": [
+      "No agentic systems or LLM-for-software-engineering work",
+      "0 years full-time AI/ML engineering versus 2+ required",
+      "No production-scale backend or platform reliability ownership"
+    ],
+    "recommend_apply": true,
+    "reasoning": "LLM fundamentals are real and deep, but the role centres on agentic systems for developer tooling at production scale, which the profile does not evidence. Realistic as a stretch application, not a strong match.",
+    "calibration_delta": 14.1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics AI Engineer – Calibration, Localization, and Mapping",
+  "job_slug": "robotics-ai-clam",
+  "match_pct": 55.6,
+  "missing_skills": [
+    "Sensor calibration (intrinsics/extrinsics) and time synchronization",
+    "LiDAR-inertial odometry / SLAM",
+    "State estimation frameworks for sensor fusion",
+    "Lie theory and advanced numerical optimization",
+    "Publications/patents in calibration, state estimation, odometry, or SLAM"
+  ],
+  "adjacent_skills": [
+    "3D kinematics/geometry (DH parameters, forward kinematics, IK, URDF) -> adjacent to Lie theory / 3D geometry math foundation",
+    "Depth estimation and visual servoing -> adjacent to visual-inertial odometry/SLAM",
+    "ToF sensor experience (VL53L0X) -> adjacent to other sensing modalities (radar, doppler-LiDAR, GPS)"
+  ],
+  "top_ats_keywords": [
+    "Calibration",
+    "Localization",
+    "Mapping",
+    "SLAM",
+    "LiDAR-inertial odometry",
+    "Visual-inertial odometry",
+    "Sensor fusion",
+    "State estimation",
+    "ROS",
+    "C++",
+    "Python",
+    "Sensor calibration",
+    "Time synchronization",
+    "Lie theory",
+    "3D kinematics",
+    "Linear algebra",
+    "Numerical optimization",
+    "Quadrupeds",
+    "Humanoids",
+    "Robot perception"
+  ],
+  "key_responsibilities": [
+    "Design and implement state-of-the-art calibration, localization, and mapping algorithms for autonomous quadrupeds and humanoids",
+    "Develop tools and metrics to continuously validate and benchmark subsystem performance",
+    "Write clean, efficient, and maintainable code in C++ and Python",
+    "Collaborate with cross-functional teams to integrate and deploy algorithms into real-world systems"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null
+}

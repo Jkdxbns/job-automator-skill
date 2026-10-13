@@ -1,0 +1,54 @@
+{
+  "company": "Ant Group",
+  "company_slug": "ant_group",
+  "role": "Research Engineer, Embodied AI",
+  "job_slug": "research_engineer_embodied_ai",
+  "match_pct": 90,
+  "have_skills": [
+    "robotics (ROS/ROS2, UR5e)",
+    "control (MoveIt, servo/motor)",
+    "physical robots (UR5e, STM32 turret)",
+    "simulation (CARLA, ABB RobotStudio)",
+    "manipulation (pick-and-place UR5e + COFFIN)",
+    "Python",
+    "C/C++"
+  ],
+  "adjacent_skills": [
+    "reinforcement learning \u2192 has PyTorch + CARLA (supervised/imitation)",
+    "multimodal learning \u2192 has COFFIN (vision+speech+LLM, VLA-adjacent)"
+  ],
+  "missing_skills": [
+    "teleoperation",
+    "behavior cloning",
+    "visuomotor policies",
+    "VLA (Vision-Language-Action)"
+  ],
+  "top_ats_keywords": [
+    "embodied AI",
+    "reinforcement learning",
+    "visuomotor policies",
+    "behavior cloning",
+    "VLA",
+    "robot perception",
+    "task planning",
+    "ROS2",
+    "Python",
+    "C++"
+  ],
+  "key_responsibilities": [
+    "Design/train/deploy learning-based visuomotor policies",
+    "Apply behavior cloning, RL, and VLA reasoning",
+    "Full pipeline: data collection on real robots \u2192 training \u2192 deployment",
+    "Robot perception, control, task planning, model training"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "hard_blocker_triggered": false,
+  "sponsorship_flag": "unknown",
+  "experience_flag": "mismatch (mid-senior vs new grad)",
+  "location_flag": "ok (willing to relocate, Sunnyvale CA)",
+  "clearance_flag": "not required"
+}

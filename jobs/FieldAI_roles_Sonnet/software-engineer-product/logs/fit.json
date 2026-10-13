@@ -1,0 +1,147 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Product",
+  "job_slug": "software-engineer-product",
+  "match_pct": 24.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 8,
+    "missing_count": 15,
+    "jd_ask_size": 25,
+    "req_cov": 0.05,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (Multiple internships (AI/ML Intern IIT Bombay; Python Developer Intern BARC; Deep Learning Intern Tusk) and capstone (Flask backend), plus PyTorch/TF model work.)",
+    "system architecture design (general / clean principles) (Voice-Controlled Robotic Arm (COFFIN) capstone designed end-to-end: Flutter + Flask-SocketIO + Jetson + Arduino + faster-whisper + Gemini + TensorRT YOLO + I2C mux + ToF sensors; also ROS arm architecture with DH/kinematics and MoveIt.)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "API design / data modeling",
+      "you_have": "Flask-SocketIO real-time data APIs in capstone; PyQt/Matplotlib real-time data acquisition GUI (BARC); ROS2 message architectures."
+    },
+    {
+      "jd_skill": "3D visualization (Three.js / WebGL specifically)",
+      "you_have": "SolidWorks (CAD modeling); RViz (ROS 2D/3D robot visualization) \u2014 both 3D-related but not web-based Three.js/WebGL."
+    },
+    {
+      "jd_skill": "complex / data-rich / real-time systems",
+      "you_have": "Voice-controlled arm real-time control loop (100% pick reliability, 10/10); object tracking turret with YOLO + FreeRTOS + UART; real-time PyQt acquisition GUI; ASR/STT pipelines (faster-whisper, custom tokenizer)."
+    },
+    {
+      "jd_skill": "embodied AI / robotics (domain context)",
+      "you_have": "Capstone robotic arm (COFFIN) with vision-language-action pipeline; object tracking turret (YOLO + STM32 + ROS); ROS arm (AL5B & UR5e); Agnel Robotics Club leadership (PCB, UART/I2C, 25 members); DARPA-style unstructured-environment work matches company mission."
+    },
+    {
+      "jd_skill": "Node.js (Express) \u2014 backend scalability concept",
+      "you_have": "No Node/Express in profile; closest is Flask (Python) serving real-time APIs in capstone, but different runtime/framework."
+    },
+    {
+      "jd_skill": "AWS deployment / operation (concept)",
+      "you_have": "Profile explicitly excludes AWS/cloud; closest is local Linux deployment with systemd (auto-restart, non-root isolation, static IP) on Jetson \u2014 same deployment concerns, different platform."
+    },
+    {
+      "jd_skill": "React / TypeScript / JavaScript (frontend)",
+      "you_have": "Flutter frontend in capstone (mobile/web-capable framework); no React/TS/JS. PyQt GUI experience shows UI/data-viz skill but not web stack."
+    },
+    {
+      "jd_skill": "MongoDB / Redis (database concept)",
+      "you_have": "No DB experience in profile; closest is data acquisition/storage design in PyQt GUI and ROS message persistence \u2014 no production DB usage."
+    }
+  ],
+  "missing_skills": [
+    "Node.js",
+    "Express",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "MongoDB",
+    "Redis",
+    "AWS (deployment / operation / SDK)",
+    "Three.js",
+    "WebGL",
+    "BIM / construction technology",
+    "monorepo architectures (Nx, Lerna)",
+    "Autodesk platforms (Revit, APS/Forge)",
+    "shaders (WebGL / GPU shaders in web context)",
+    "production-scale distributed backend at company scale (candidate has 0 full-time, 7 internships/research)"
+  ],
+  "top_ats_keywords": [
+    "Node.js",
+    "Express",
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Three.js",
+    "WebGL",
+    "MongoDB",
+    "Redis",
+    "AWS",
+    "API",
+    "data model",
+    "3D visualization",
+    "robotics",
+    "embodied AI",
+    "construction",
+    "BIM",
+    "real-time",
+    "production software"
+  ],
+  "required_skills": [
+    "Node.js (Express)",
+    "Python",
+    "TypeScript / JavaScript",
+    "React",
+    "MongoDB",
+    "Redis",
+    "AWS deployment/operation",
+    "3D visualization (Three.js / WebGL)",
+    "API design / data modeling",
+    "system architecture design"
+  ],
+  "preferred_skills": [
+    "BIM / construction technology",
+    "3D graphics (Three.js, WebGL, shaders)",
+    "monorepo architectures (Nx, Lerna)",
+    "Autodesk platforms (Revit, APS/Forge)",
+    "AWS SDK proficiency",
+    "complex / data-rich / real-time systems"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own full-stack product features from design through production",
+    "Build scalable backend services (Node.js / Python)",
+    "Develop modern frontends (React)",
+    "Implement 3D visualization (Three.js / WebGL)",
+    "Design APIs, data models, and system architectures",
+    "Partner with AI, robotics, product, and commercial teams",
+    "Debug performance and optimize rendering / data / API pipelines",
+    "Contribute to shared codebases and raise quality via reviews"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,137 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Staff Perception Hardware Engineer",
+  "job_slug": "staff-perception-hardware-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 29,
+    "req_cov": 0.3,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "ROS2 / ROS",
+    "YOLO / Object Detection",
+    "OpenCV",
+    "TensorRT",
+    "Embedded / Bare-Metal C (STM32, Arduino, Jetson)",
+    "PCB Design (EAGLE)",
+    "UART/I2C/SPI / Serial Communication",
+    "PWM Motor Control",
+    "Closed-Loop Feedback Control",
+    "Oscilloscopes / Logic Analyzers",
+    "Computer Vision / Image Processing",
+    "3D Geometry / Forward Kinematics / SE(3) Math",
+    "Multi-Camera Pipeline / Vision-Guided System Integration",
+    "System Integration / Hardware Debugging",
+    "Systemd / Linux Service Management / Static IP Networking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-camera arrays, stereo baselines, visual-inertial fusion (VIO)",
+      "you_have": "Multi-camera frame capture / vision-guided robotics / ToF depth sensing"
+    },
+    {
+      "jd_skill": "System-level EMI/EMC and signal-integrity debugging",
+      "you_have": "Integration troubleshooting / embedded signal debugging"
+    },
+    {
+      "jd_skill": "Cross-functional DfX adjudication (ID, Mechanical, Thermal)",
+      "you_have": "Cross-functional team leadership (robotics club, 25 members)"
+    }
+  ],
+  "missing_skills": [
+    "Custom-defined sensor modules through DVT and mass production (breadboard \u2192 production-ready camera assemblies)",
+    "Vendor / contract-manufacturer management (optical vendors, CMOS manufacturers, CMs)",
+    "ISP tuning on real robot hardware (auto-exposure, white balance, tone mapping)",
+    "CMOS sensor tuning and optical lens artifact physical mitigation",
+    "Multi-gigabit video backbone (GMSL2/3, FPD-Link) electrical bring-up",
+    "Sub-microsecond synchronization proof across cameras/LiDAR/IMUs with custom test fixtures",
+    "Calibration fixtures scaling from R&D lab to factory floor with intrinsic/extrinsic drift resolution",
+    "Launch-blocking / line-down staff-level troubleshooting authority (8+ years shipping experience)",
+    "Master/PhD in EE/Optical Engineering + 8+ years hands-on vision-hardware shipping experience"
+  ],
+  "top_ats_keywords": [
+    "Perception Hardware",
+    "Sensor Module",
+    "ISP",
+    "Image Quality",
+    "CMOS",
+    "Optical Vendor",
+    "GMSL",
+    "FPD-Link",
+    "DVT",
+    "EOL",
+    "EMI",
+    "EMC",
+    "Oscilloscope",
+    "Logic Analyzer",
+    "Calibration",
+    "Intrinsic",
+    "Extrinsic",
+    "Multi-Camera",
+    "Stereo",
+    "Visual-Inertial",
+    "Humanoid Robot",
+    "Robot",
+    "Apollo",
+    "Staff Engineer"
+  ],
+  "required_skills": [
+    "Custom sensor/camera module development (breadboard \u2192 DVT \u2192 mass production)",
+    "Vendor execution (optical vendors, CMOS manufacturers, CMs)",
+    "Hands-on ISP tuning (auto-exposure, white balance, tone mapping)",
+    "CMOS sensor tuning and optical lens artifact mitigation (flare, ghosting, distortion)",
+    "Multi-gigabit video backbone bring-up (GMSL2/3, FPD-Link) and signal-integrity validation",
+    "System-level EMI/EMC and high-speed signal-integrity debugging",
+    "Sub-microsecond hardware-level synchronization (cameras, LiDAR, IMUs)",
+    "Calibration fixtures and intrinsic/extrinsic alignment at scale (R&D \u2192 factory)",
+    "Cross-functional DfX adjudication (Industrial Design, Mechanical, Thermal)",
+    "Technical leadership and root-cause mentoring at staff level"
+  ],
+  "preferred_skills": [
+    "Agility in fast-paced, high-growth hardware environment",
+    "Influence without direct authority using empirical lab data"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Lead physical integration of Apollo's visual perception stack (prototype \u2192 production-ready camera assemblies)",
+    "Define electrical/optical/mechanical specs for custom sensor modules and drive vendors/CMs through build",
+    "Own bring-up, DVT, and End-of-Line (EOL) test plans for custom sensor modules",
+    "Hands-on ISP tuning and IQ validation in real-world robot environments",
+    "Lead electrical bring-up of multi-gigabit video backbone; ultimate escalation for EMI/EMC debugging",
+    "Implement and measure sub-microsecond hardware synchronization across cameras, LiDAR, and IMUs",
+    "Design/deploy calibration fixtures and algorithms; resolve intrinsic/extrinsic drift",
+    "Act as technical adjudicator between ID, Mechanical, and Thermal teams (DfX)",
+    "Lead cross-functional problem-solving for launch-blocking hardware bugs; mentor engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

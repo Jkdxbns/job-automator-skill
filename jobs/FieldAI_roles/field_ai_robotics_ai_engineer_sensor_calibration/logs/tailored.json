@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "company": "Field AI",
+    "role": "Robotics AI Engineer - Sensor Calibration",
+    "company_slug": "field_ai",
+    "job_slug": "robotics_ai_engineer_sensor_calibration"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Robotics and computer vision work spanning multi-sensor integration across cameras, ToF, and accelerometers, and 3D geometry including homography estimation, DH-based kinematic chains, and monocular depth reconstruction. Implements and optimizes algorithms in C++ and Python on ROS 2 and Ubuntu.",
+  "skills": {
+    "Robotics & Perception": [
+      "ROS 2 (Humble)",
+      "ROS (Noetic)",
+      "MoveIt",
+      "RViz",
+      "URDF",
+      "DH parameters",
+      "Forward & inverse kinematics",
+      "Visual servoing"
+    ],
+    "Computer Vision & 3D Geometry": [
+      "OpenCV",
+      "Homography estimation",
+      "Image stitching / mosaicing",
+      "Monocular depth estimation (ZoeDepth)",
+      "3D surface reconstruction",
+      "Semantic segmentation",
+      "YOLO"
+    ],
+    "Sensors & Data Pipelines": [
+      "Camera",
+      "ToF (VL53L0X)",
+      "Accelerometer (ADXL345)",
+      "I2C / UART / SPI",
+      "Software sensor calibration (offset & jitter compensation)",
+      "Large-scale dataset pipelines"
+    ],
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "Linux / Ubuntu",
+      "Git",
+      "CMake"
+    ],
+    "ML & Edge Deployment": [
+      "PyTorch",
+      "TensorRT",
+      "ONNX",
+      "NVIDIA Jetson"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline in Python and OpenCV combining custom image stitching, wavelet denoising, and monocular depth estimation for microscopic crack analysis.",
+        "Designed a custom wavelet bank (sym6+bior3.5) and optimized homography-based stitching with concurrency, raising reconstruction quality from PSNR 65 to PSNR 86 over the baseline.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling, achieving +/-8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove translating 3-DoF hand motion into HID commands, integrating ADXL345 accelerometers with a Raspberry Pi over Bluetooth in Python.",
+        "Calibrated accelerometer output in software, resolving sensor jitter through a z-axis differential thresholding algorithm and resolution tuning to stabilize tap detection."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ROS 2 Robotic Arm Kinematics (UR5e & AL5B)",
+      "date": null,
+      "bullets": [
+        "Derived DH parameter tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B, validating the transforms against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on the physical UR5e via the UR ROS 2 driver; AL5B repeatability measured at under 2 mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Voice-Controlled, Vision-Guided Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a multi-sensor pick-and-place system mapping image-space YOLO detections to arm workspace coordinates, range-gated by dual VL53L0X ToF sensors on a TCA9548A I2C mux; 100% pick reliability over 10 trials.",
+        "Implemented two-link inverse kinematics in C++ on the arm controller and deployed a TensorRT-optimized YOLO detector on Jetson for visual servoing, cutting inference from 56.7 ms to 10.9 ms (5.2x)."
+      ]
+    },
+    {
+      "name": "Autonomous Driving Perception Stack in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 lane-detection training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD lane detection (ResNet-18); integrated into an adaptive control stack validated in Town02 at zero collisions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024"
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation - 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Technical Lead Manager - Fleet Connect",
+  "job_slug": "technical-lead-manager-fleet-connect",
+  "match_pct": 35.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 17,
+    "jd_ask_size": 31,
+    "req_cov": 0.433,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "REST APIs / backend services",
+    "Git",
+    "Leadership / team direction",
+    "Robotics / automation domain",
+    "Embedded / hardware integration",
+    "Full-stack / GUI development (non-React)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "React / modern frontend framework",
+      "you_have": "Flutter mobile client and PySide6/Qt desktop GUI development"
+    },
+    {
+      "jd_skill": "Microservices / distributed backend architecture",
+      "you_have": "Flask-SocketIO distributed service pipeline design"
+    },
+    {
+      "jd_skill": "Industrial automation / embedded protocols",
+      "you_have": "UART/I2C/SPI embedded protocols and closed-loop control"
+    },
+    {
+      "jd_skill": "Enterprise messaging / integration patterns",
+      "you_have": "WebSocket multi-device messaging architecture"
+    },
+    {
+      "jd_skill": "Deployment / operational readiness (Linux admin / service deployment)",
+      "you_have": "Linux administration and systemd service deployment"
+    },
+    {
+      "jd_skill": "UI/UX collaboration",
+      "you_have": "Cross-functional design collaboration on GUI applications"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "React (candidate has Flutter/PyQt, not React)",
+    "gRPC / Protocol Buffers",
+    "Microservices framework expertise (Flask only, not microservices at scale)",
+    "OPC UA",
+    "EtherNet/IP",
+    "Profinet",
+    "Modbus TCP",
+    "MQTT",
+    "AMQP",
+    "Kafka",
+    "Kubernetes",
+    "Docker",
+    "Cloud platforms (AWS / Azure / GCP)",
+    "Enterprise WMS / ERP integration",
+    "Production fleet deployment at scale",
+    "Prior Tech Lead / Staff Engineer full-time experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "C++",
+    "React",
+    "REST API",
+    "gRPC",
+    "microservices",
+    "OPC UA",
+    "Modbus",
+    "MQTT",
+    "Kafka",
+    "Kubernetes",
+    "Docker",
+    "cloud",
+    "Git",
+    "technical lead",
+    "fleet management",
+    "robotics",
+    "industrial automation",
+    "production deployment"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "TypeScript",
+    "React (modern frontend framework)",
+    "REST APIs",
+    "gRPC / Protocol Buffers",
+    "Microservices / distributed backend",
+    "OPC UA / EtherNet/IP / Profinet / Modbus TCP",
+    "MQTT / AMQP / Kafka",
+    "Kubernetes",
+    "Docker",
+    "Cloud platforms",
+    "Git",
+    "Leadership / technical direction (2+ years)",
+    "Enterprise integration (WMS / ERP)"
+  ],
+  "preferred_skills": [
+    "Fleet management / multi-robot coordination",
+    "Prior Tech Lead / Staff Engineer experience",
+    "UI/UX collaboration",
+    "Robotics / automation / logistics domain experience"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Set architectural direction for Interface platform",
+    "Review designs/code and establish engineering standards",
+    "Translate roadmap priorities into executable plans",
+    "Mentor engineers and raise team technical depth",
+    "Full-stack development of operator-facing web apps and backend services",
+    "Architect REST APIs and gRPC services interfacing with robotics platform and customer WMS/ERP",
+    "Lead PLC, hardware safety system, and messaging integration",
+    "Own software quality: test strategy, observability, maintainability, operational readiness",
+    "Cross-functional collaboration with UI/UX, systems, hardware, applications, product, deployment teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Onsite - Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

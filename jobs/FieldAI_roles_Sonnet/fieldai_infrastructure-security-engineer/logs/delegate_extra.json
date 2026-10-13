@@ -1,0 +1,23 @@
+{
+  "strengths": [
+    "Python and C/C++ core engineering foundation",
+    "Linux systems administration (systemd, network, service isolation)",
+    "Robotics and embodied AI domain alignment with Field AI's mission",
+    "Embedded/deployment experience (Jetson, STM32, ROS2) relevant to autonomous system hardware",
+    "HPC/parallel computing background (MPI, CUDA, SLURM)"
+  ],
+  "real_gaps": [
+    "No Kubernetes or container-orchestration experience (hard requirement)",
+    "No cloud-native infrastructure or cloud security experience (AWS/GCP/Azure)",
+    "No CI/CD security or pipeline-hardening experience",
+    "No identity/access management (IAM, OAuth, SSO) experience",
+    "No software supply chain security (SBOM, signing, SLSA) experience",
+    "No production security engineering (threat modeling, vulnerability assessment, incident response) experience",
+    "No full-time industry experience in any security or infrastructure role",
+    "Sponsorship required (F-1 OPT, EAD pending) \u2014 JD does not mention sponsorship support"
+  ],
+  "reasoning": "Poor fit \u2014 near-zero overlap on the six hard-required skills (k8s, cloud infra, CI/CD security, supply chain, IAM, deployment platforms). Candidate is a new-grad robotics/ML/embedded engineer; role is a production infrastructure security position for autonomous systems. Company domain (embodied AI/robotics) aligns, but functional role (cloud security / distributed systems / IAM) is entirely outside the candidate's experience. JD language (\"design, assess, and improve\" large-scale production systems) implies mid-level seniority incompatible with 0 full-time years. Sponsorship status not addressed in JD; candidate requires long-term sponsorship.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/d2255c03-51f3-4efe-b27b-d8921e965153",
+  "team": "Infra & Platform Engineering",
+  "location": "Irvine, CA"
+}

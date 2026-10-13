@@ -1,0 +1,94 @@
+{
+  "company": "Cummins",
+  "company_slug": "cummins",
+  "role": "Placement Student - Electronic Controls",
+  "job_slug": "placement-electronic-controls",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 9,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "testing and validation",
+    "technical documentation",
+    "hardware debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ECU / engine controller",
+      "you_have": "microcontroller firmware"
+    },
+    {
+      "jd_skill": "engine control",
+      "you_have": "closed-loop control"
+    },
+    {
+      "jd_skill": "field data analysis",
+      "you_have": "data acquisition"
+    }
+  ],
+  "missing_skills": [
+    "ECU calibration",
+    "MATLAB",
+    "Simulink"
+  ],
+  "top_ats_keywords": [
+    "ECU",
+    "calibration",
+    "verification",
+    "validation",
+    "MATLAB",
+    "Simulink",
+    "troubleshooting",
+    "technical documentation",
+    "design reviews"
+  ],
+  "required_skills": [
+    "ECU calibration",
+    "verification and validation testing",
+    "field data analysis",
+    "troubleshooting",
+    "technical documentation",
+    "STEM degree enrolment"
+  ],
+  "preferred_skills": [
+    "MATLAB",
+    "Simulink"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Validate ECU calibrations",
+    "Plan and run V&V testing",
+    "Analyze field data and troubleshoot",
+    "Prepare design review documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Darlington, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

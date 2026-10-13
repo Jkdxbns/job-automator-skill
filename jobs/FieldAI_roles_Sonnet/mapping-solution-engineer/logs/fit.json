@@ -1,0 +1,220 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Mapping Solution Engineer",
+  "job_slug": "mapping-solution-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 15,
+    "missing_count": 10,
+    "jd_ask_size": 35,
+    "req_cov": 0.042,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Master's degree (technical field) (M.S. Computer Engineering, Rochester Institute of Technology (RIT), graduated May 2026 \u2014 covers robotics, embedded systems, AI/ML, aligned with related technical field requirement)",
+    "Python production-quality software (Python \u2014 Voice-Controlled Robotic Arm (Flask-SocketIO, Gemini intent classification, faster-whisper STT); AI/ML Intern IIT Bombay (PyTorch + HuggingFace VisionEncoderDecoder); Deep Learning Intern Tusk (YOLOv8n, ONNX/TFLite); Research Fellowship Teesside (U-Net, VGG/ResNet); Python Developer Intern BARC (PyQt/Matplotlib, real-time acquisition, GitLab, JupyterHub))",
+    "C/C++ programming (C/C++ listed in skills; STM32 bare-metal embedded C (Cortex-M4, timer-triggered ADC, interrupt-driven, I2C driver); CUDA C++ custom VGG16 kernels (memory coalescing, 35% speedup over naive GPU))",
+    "ROS / ROS2 (ROS/ROS2 skills; Voice-Controlled Robotic Arm (ROS2 Humble + Arduino); ROS-Based Robotic Arm AL5B & UR5e (ROS2 Humble, ROS Noetic, MoveIt, RViz, DH tables, forward kinematics, UR ROS2 driver))",
+    "Git (Git \u2014 Python Developer Intern at BARC (GitLab repository, version control); Git explicitly listed in skills)",
+    "Linux / Ubuntu development (Linux admin skills \u2014 systemd service management (unit files, auto-restart, non-root isolation, static IP/network config); Linux development environment for embedded/robotics projects)",
+    "Robotics / autonomous systems / deployment (Voice-Controlled Robotic Arm COFFIN (systemd deployment: auto-restart, non-root isolation, static IP; 100% pick reliability 10/10; resolved 11 integration failures); Object Tracking Turret (YOLOv8 on Jetson, STM32 over UART, FreeRTOS with mutexes, VL53L0X ToF, multi-servo PWM); Autonomous Driving in CARLA (semantic segmentation, YOLO11n + UFLD lane detection, zero collisions in Town02); ROS-Based Arm (MoveIt/RViz, DH parameters))",
+    "3D geometry / forward kinematics / kinematics (ROS-Based Robotic Arm AL5B & UR5e \u2014 DH parameter tables, forward kinematics calculations, MoveIt motion planning, RViz visualization, visual servoing)",
+    "Systems integration / cross-software-hardware-network troubleshooting (COFFIN MS Capstone \u2014 integrated Flutter + Flask-SocketIO + NVIDIA Jetson + Arduino + faster-whisper STT + Gemini intent + TensorRT-optimized YOLO + dual VL53L0X ToF sensors + TCA9548A I2C mux; resolved 11 integration failures; embedded glove wearable (ADXL345 accelerometer + Raspberry Pi + HC-05 Bluetooth); UART/I2C/SPI sensor communications across multiple embedded projects)",
+    "Deep Learning / Computer Vision (related to mapping/perception) (YOLOv8n toothbrush detection (83% mAP@50, exported ONNX/TFLite); faster-whisper STT for voice control; TensorRT-optimized YOLO (5.2x speedup); U-Net segmentation (BraTS 2020 MRI, VGG-16/19/ResNet-50 backbones, led 7-person team); ZoeDepth monocular depth estimation for crack-depth profiling (\u00b18% error); OpenCV skills)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "C++ production-quality application software (not just embedded/CUDA)",
+      "you_have": "C/C++ and CUDA C++ present (custom kernel optimization, 35% speedup, STM32 bare-metal C); however limited large-scale production C++ application development outside embedded kernels and CUDA (majority of application-level code is Python/Flask)"
+    },
+    {
+      "jd_skill": "2+ years robotics / mapping / field deployment experience",
+      "you_have": "New-grad (May 2026), 0 years full-time; 7 internships/research roles (Embedded at Planctech, BARC research, IIT Bombay AI/ML, Tusk DL, Teesside research fellowship, BARC Python dev, Agnel Robotics Club Secretary) \u2014 extensive robotics/embedded/AI work but no 2+ years continuous professional experience in 3D mapping or commercial field deployment"
+    },
+    {
+      "jd_skill": "Point cloud processing / 3D mapping algorithms (ICP, NDT)",
+      "you_have": "No point cloud libraries (PCL/Open3D) or ICP/NDT algorithms used; closest adjacent: 3D geometry/kinematics (DH parameters, forward kinematics, MoveIt planning), depth estimation research (ZoeDepth, \u00b18% crack-depth profiling), and visual servoing \u2014 these are spatial/perception but not point-cloud mapping or registration algorithms"
+    },
+    {
+      "jd_skill": "LiDAR systems and 3D data formats (PCD, PLY, E57, LAS)",
+      "you_have": "Profile explicitly excludes LiDAR ('DOES NOT HAVE: ... LiDAR'); closest sensors: VL53L0X ToF distance sensors (COFFIN arm, Object Tracking Turret) and depth estimation (ZoeDepth) \u2014 neither LiDAR nor survey formats (PCD/PLY/E57/LAS)"
+    },
+    {
+      "jd_skill": "Point cloud libraries (PCL / Open3D)",
+      "you_have": "Not present in profile; closest: OpenCV (YOLO, visual servoing, image stitching with PSNR 86), ROS/MoveIt for 3D motion planning \u2014 no PCL or Open3D usage"
+    },
+    {
+      "jd_skill": "Production-grade mapping automation / benchmarking infrastructure",
+      "you_have": "COFFIN deployed with systemd reliability features (auto-restart, non-root isolation, static IP); built PyQt/Matplotlib GUI for real-time data acquisition (BARC); some automation/tooling experience but not at commercial 3D mapping pipeline scale or with benchmarking infrastructure"
+    },
+    {
+      "jd_skill": "Field deployment of large-scale mapping systems",
+      "you_have": "Embedded glove wearable deployed (ADXL345 + Pi + Bluetooth); COFFIN robotic arm deployed with systemd for reliability; embedded temperature monitor (Cortex-M4, timer-triggered ADC, interrupt-driven); however no large-scale field deployment of 3D mapping systems in unstructured environments or customer site rollouts"
+    },
+    {
+      "jd_skill": "Geospatial / georeferencing / survey control / calibration workflows",
+      "you_have": "Not present; closest: depth profiling (\u00b18% error, metal surface inspection) and visual servoing \u2014 neither geospatial survey, coordinate-system calibration, nor survey control workflows"
+    },
+    {
+      "jd_skill": "Communication / explain complex concepts to technical and non-technical audiences",
+      "you_have": "General Secretary of Agnel Robotics Club (led 25-member team, PCB fabrication, UART/I2C sensor communications); MS Capstone led integration with 11 failures resolved; led 7-person research team \u2014 leadership and technical explanation present but no explicit customer-facing technical demonstration or non-technical stakeholder communication bullet"
+    },
+    {
+      "jd_skill": "Manage priorities / fast-paced ambiguous startup environment",
+      "you_have": "MS Capstone (COFFIN) led full-stack integration resolving 11 failures under capstone constraints; led 7-person Teesside research team; General Secretary led 25-member robotics club; ownership and multi-priority management shown but not in a startup / high-growth commercial setting"
+    },
+    {
+      "jd_skill": "Direct customer-facing / high-stakes technical pilot experience",
+      "you_have": "No customer-facing or pilot/demonstration experience mentioned; profile is all research/internship/project-based with no customer delivery, pilot evaluation, or high-stakes deployment to external stakeholders"
+    },
+    {
+      "jd_skill": "Mission-critical autonomous deployment at commercial scale",
+      "you_have": "COFFIN deployed with systemd (auto-restart, non-root isolation); Object Tracking Turret (FreeRTOS with mutexes); Autonomous Driving CARLA (zero collisions, semantic segmentation + lane detection); embedded glove \u2014 mission-capable and reliable but not at commercial/industrial mapping-system scale"
+    },
+    {
+      "jd_skill": "Startup / high-growth company ownership mindset",
+      "you_have": "MS Capstone full ownership (COFFIN: design, build, deploy, troubleshoot 11 failures); led 7-person research team; led 25-member club; strong ownership in academic/research settings but no startup/high-growth company experience"
+    },
+    {
+      "jd_skill": "Travel / on-site customer deployment willingness",
+      "you_have": "Profile explicitly states 'Willing to relocate. Remote OK.'; closest deployment experience: embedded wearable glove, COFFIN systemd deployment, embedded temperature monitor \u2014 mobility confirmed but no travel/on-site customer deployment history"
+    },
+    {
+      "jd_skill": "Project management tools (Jira / Wrike / Confluence)",
+      "you_have": "Used GitLab (Python Developer Intern BARC), JupyterHub; profile explicitly does not mention Jira, Wrike, or Confluence"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "2+ years continuous professional experience (hard requirement)",
+      "you_have": "Candidate is new-grad (May 2026), 0 years full-time; 7 internships/research roles but none accumulate to 2+ years of professional robotics/3D mapping/systems integration or field deployment at company scale; this is a genuine experience gap"
+    },
+    {
+      "jd_skill": "Point cloud processing algorithms (ICP, NDT)",
+      "you_have": "No ICP, NDT, or point-cloud registration algorithms found in any project, internship, or skill list; closest is spatial perception (YOLO, depth estimation, kinematics) but not mapping-point-cloud algorithms"
+    },
+    {
+      "jd_skill": "Point cloud libraries (PCL, Open3D)",
+      "you_have": "Not mentioned anywhere; profile uses OpenCV, ROS, PyTorch, TensorFlow but never PCL or Open3D"
+    },
+    {
+      "jd_skill": "LiDAR systems",
+      "you_have": "Profile explicitly excludes LiDAR under DO NOT HAVE; no LiDAR sensor experience in any internship or project"
+    },
+    {
+      "jd_skill": "3D survey data formats (PCD, PLY, E57, LAS)",
+      "you_have": "No mention of these formats; closest data-handling experience: image stitching pipeline, depth profiling, real-time acquisition GUI \u2014 not survey/3D mapping data formats"
+    },
+    {
+      "jd_skill": "Geospatial data / georeferencing / coordinate systems / survey control / calibration",
+      "you_have": "No geospatial, survey, calibration, or coordinate-system workflows in any internship or project; closest is visual servoing and depth estimation but not survey/geospatial"
+    },
+    {
+      "jd_skill": "Survey / mapping software (CloudCompare, Leica Cyclone, Faro Scene, Trimble RealWorks)",
+      "you_have": "Not mentioned; closest CAD/tools: SolidWorks, Proteus, EAGLE PCB design, Matplotlib \u2014 none are point-cloud/survey software"
+    },
+    {
+      "jd_skill": "Direct customer-facing experience in high-stakes technical environments",
+      "you_have": "No customer interaction, pilot evaluation, or stakeholder demonstration mentioned; all work is research/internship/project-based"
+    },
+    {
+      "jd_skill": "Project management / collaboration tools (Jira, Wrike, Confluence)",
+      "you_have": "Explicitly absent; profile mentions GitLab, Git, JupyterHub but not Jira, Wrike, or Confluence"
+    },
+    {
+      "jd_skill": "Commercial-scale 3D mapping pipeline deployment",
+      "you_have": "No experience deploying or maintaining 3D mapping data products (capture, processing, QA, handoff) in real-world unstructured environments for commercial customers; closest is academic/research deployment (COFFIN, embedded systems)"
+    }
+  ],
+  "top_ats_keywords": [
+    "Mapping Solution Engineer",
+    "3D mapping",
+    "point cloud",
+    "ICP",
+    "NDT",
+    "PCL",
+    "Open3D",
+    "LiDAR",
+    "PCD",
+    "PLY",
+    "E57",
+    "LAS",
+    "ROS",
+    "ROS2",
+    "C++",
+    "Python",
+    "production-grade software",
+    "field deployment",
+    "systems integration",
+    "geospatial",
+    "georeferencing",
+    "robotics",
+    "autonomous systems",
+    "deployment",
+    "mapping",
+    "mapping solutions"
+  ],
+  "required_skills": [
+    "Master's degree (Robotics/CS/EE/Mechanical/Geomatics or equivalent practical experience)",
+    "2+ years robotics software / 3D mapping / systems integration / field deployment",
+    "Strong C++ programming (production-quality)",
+    "Strong Python programming (production-quality)",
+    "3D geometry / point cloud processing (ICP, NDT)",
+    "Point cloud libraries (PCL or Open3D)",
+    "LiDAR systems and 3D data formats (PCD, PLY, E57, LAS)",
+    "ROS, Git, Linux/Ubuntu",
+    "Debug/troubleshoot across software, hardware, networking",
+    "Communication / explain complex concepts",
+    "Manage priorities in fast-paced, ambiguous environments",
+    "Travel / work on-site with customers"
+  ],
+  "preferred_skills": [
+    "Geospatial data / georeferencing / coordinate systems / survey control / calibration",
+    "Mission-critical robotics / autonomous deployment in real-world environments",
+    "Point cloud / survey software (CloudCompare, Leica Cyclone, Faro Scene, Trimble RealWorks)",
+    "Direct customer-facing in high-stakes technical environments",
+    "Project management tools (Jira, Wrike, Confluence)",
+    "Background in robotics / autonomous vehicles / drones / field robotics",
+    "Startup / high-growth company with ownership mindset"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design/develop production-grade 3D mapping software",
+    "Deploy large-scale mapping systems and pipelines",
+    "Validate mapping via robot/sensor/field testing",
+    "Build internal automation/benchmarking tooling",
+    "Lead end-to-end mapping data product delivery (capture, processing, QA, handoff)",
+    "Support on-site and remote deployments",
+    "Conduct technical demos/pilots for customers",
+    "Translate field challenges into technical improvements",
+    "Analyze field data to improve mapping reliability",
+    "Work across robotics/software/operations/customer teams",
+    "Support mission-critical deployments in dynamic environments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

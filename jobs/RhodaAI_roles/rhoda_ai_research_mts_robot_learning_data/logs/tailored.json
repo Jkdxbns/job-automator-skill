@@ -1,0 +1,91 @@
+{
+  "_meta": {"company": "Rhoda AI", "role": "Research Member of Technical Staff - Robot Learning Data", "company_slug": "rhoda_ai", "job_slug": "research_mts_robot_learning_data"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on experience building robotic data collection and synthetic data generation pipelines for real hardware systems. Built a LeRobot structured multi camera demonstration collection pipeline for a voice guided robotic arm, and an automated CARLA based synthetic data pipeline with semantic segmentation and occlusion filtering that produced thousands of zero manual annotation training frames. Comfortable working across robotic hardware, data pipelines, and downstream model performance.",
+  "skills": {
+    "Robotics & Data Collection": ["ROS2 / ROS", "MoveIt / RViz", "LeRobot-structured data pipelines", "Multi-camera capture", "Visual servoing", "Forward kinematics / DH parameters"],
+    "Data Curation & Synthetic Generation": ["Dataset curation & annotation", "CARLA synthetic data generation", "Semantic segmentation filtering", "Labeling / quality criteria"],
+    "ML / Deep Learning": ["YOLO / YOLOv8", "TensorRT", "Model evaluation"],
+    "Edge & Embedded Hardware": ["NVIDIA Jetson", "Raspberry Pi", "Arduino"],
+    "Tools": ["Python", "Git", "Flask", "ONNX / TFLite"]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification, defining labeling criteria and quality checks for a YOLOv8 training pipeline.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU, reporting accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free control, integrating ADXL345 accelerometers with Raspberry Pi to translate 3-DoF hand motion into real-time HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture, enabling clean demonstration data collection for a voice-controlled robotic manipulation system.",
+        "Built a voice-controlled, vision-guided robotic pick-and-place system across a three-layer distributed pipeline (mobile client, edge server, Jetson+Arduino controller) linked via a unified WebSocket fabric.",
+        "Integrated faster-whisper STT (1.0–1.4s), Gemini intent classification (<500ms), and TensorRT-optimized YOLO (5.2× speedup: 56.7→10.9 ms) for visual servoing, plus dual VL53L0X ToF sensors for contact-aware grasping."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Digital Signal Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

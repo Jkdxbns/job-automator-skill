@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "company": "AFRY",
+    "role": "Master Thesis Proposal: TinyML for Predictive Maintenance in Embedded Systems",
+    "company_slug": "afry",
+    "job_slug": "tinyml-predictive-maintenance-thesis"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, working where embedded systems and machine learning meet. I write bare-metal embedded C for microcontrollers with timer-synchronized data acquisition and interrupt-driven sensor capture, and build the model-optimization side too: quantization-aware training with integer-only inference and measured accuracy, memory, and latency trade-offs.",
+  "skills": {
+    "Embedded & Real-Time Systems": [
+      "Microcontrollers",
+      "STM32 (Bare-Metal C)",
+      "Cortex-M4",
+      "FreeRTOS / RTOS",
+      "Real-time control",
+      "Interrupt-driven firmware",
+      "Synchronized data acquisition",
+      "UART/I2C/SPI",
+      "ADC",
+      "PWM motor control",
+      "EAGLE PCB design"
+    ],
+    "Embedded ML & Model Optimization": [
+      "TFLite",
+      "ONNX",
+      "8-bit quantization",
+      "Quantization-aware training",
+      "Integer-only / fixed-point inference"
+    ],
+    "Machine Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "YOLOv8",
+      "Model training",
+      "Labeled dataset curation",
+      "Sensor-signal thresholding"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Git",
+      "GitLab",
+      "PyQt",
+      "Proteus"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Built a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, turning 3-DoF hand motion into HID commands.",
+        "Implemented a tap-detection algorithm on the raw accelerometer stream using z-axis differential thresholding, with software calibration to reject jitter."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated and annotated a labeled classification dataset, then trained YOLOv8n on 1,133 images to 83% mAP@50 on held-out validation.",
+        "Exported the trained model to ONNX and TFLite for resource-constrained on-device deployment."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Built a PyQt and Matplotlib GUI for real-time laboratory data acquisition and experimental visualization; version-controlled in GitLab."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "date": "May 2026",
+      "bullets": [
+        "Implemented quantization-aware training in PyTorch with straight-through-estimator fake quantization, int8 symmetric weights, and uint8 activations; integer-only inference reaches 97.43% on the MNIST test set.",
+        "Calibrated the activation scale with an EMA observer and folded it into a fixed-point requantization multiplier and shift; exported int8 weights and golden test vectors."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 microcontroller firmware in bare-metal embedded C at 3.68 KB Flash / 1.58 KB RAM, holding a deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a register-level I2C driver for synchronized sensor data acquisition."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for task coordination on an STM32 microcontroller, driving multi-servo PWM motor control from interrupt-driven UART commands.",
+        "Ran YOLOv8 on NVIDIA Jetson for real-time tracking, streaming commands to the microcontroller over UART; integrated VL53L0X ToF sensing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Random Signal Analysis",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

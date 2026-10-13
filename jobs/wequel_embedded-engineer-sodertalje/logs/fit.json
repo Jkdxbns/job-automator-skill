@@ -1,0 +1,139 @@
+{
+  "company": "WeQuel (consultancy; client undisclosed)",
+  "company_slug": "wequel",
+  "role": "Embedded Engineer",
+  "job_slug": "embedded-engineer-sodertalje",
+  "match_pct": 56.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 15,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded software development",
+    "System development",
+    "Testing, troubleshooting, verification",
+    "Master's degree",
+    "English",
+    "Prototyping",
+    "Embedded C/C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAN communication",
+      "you_have": "UART/I2C/SPI serial protocols"
+    },
+    {
+      "jd_skill": "System integration",
+      "you_have": "Jetson+Arduino / ROS2 integration"
+    },
+    {
+      "jd_skill": "Rig-based development and testing",
+      "you_have": "Bench testing with oscilloscopes and logic analyzers"
+    }
+  ],
+  "missing_skills": [
+    "Vehicle functions",
+    "Diagnostics",
+    "Electrification",
+    "Change request administration",
+    "Requirements management"
+  ],
+  "top_ats_keywords": [
+    "Embedded software",
+    "CAN",
+    "System integration",
+    "Diagnostics",
+    "Electrification",
+    "Verification",
+    "Prototyping",
+    "Test rigs",
+    "Requirements",
+    "Change requests"
+  ],
+  "required_skills": [
+    "Embedded software development",
+    "CAN communication",
+    "Vehicle functions / electronics / system integration",
+    "System development",
+    "Testing, troubleshooting, verification",
+    "Master's degree",
+    "English",
+    "Cross-team communication"
+  ],
+  "preferred_skills": [
+    "Diagnostics",
+    "Electrification",
+    "Client vehicle architecture and processes"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Concept development and prototyping",
+    "System integration across vehicle",
+    "Embedded software development",
+    "Testing, troubleshooting, verification",
+    "Taking prototypes to production",
+    "System change request administration",
+    "Rig-based development and testing"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sodertalje, Sweden (onsite 3-5 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4: timer-triggered ADC, interrupt-driven capture, low-level I2C driver in 3.68 KB Flash / 1.58 KB RAM (STM32 Temperature Monitor)",
+      "Real-time firmware discipline: FreeRTOS mutexes plus interrupt-driven UART and PWM (Object Tracking Turret); interrupt-driven quadrature decoding from first principles and a fail-safe motor-halt state machine (Robocon)",
+      "Hardware/software integration and fault-finding across layers: Jetson+Arduino+sensors, 11 integration failures resolved to 10/10 pick reliability (COFFIN); wiring/interfacing across mechanical and electrical teams (Robocon)",
+      "Prototype-to-working-system mindset with sensor-bus work (UART/I2C/SPI) and bench instruments (oscilloscope, logic analyzer, multimeter)"
+    ],
+    "real_gaps": [
+      "No CAN or any automotive bus (J1939, UDS) anywhere in the profile",
+      "No vehicle-domain work: no ECUs, vehicle functions, electrification or diagnostics (CARLA is simulation of perception/control, not vehicle electronics)",
+      "No production-readiness ownership: no requirements chain, change-request process, or shipped product",
+      "No rig/HIL testing against real vehicle hardware",
+      "Zero full-time years; consultancy placements usually expect immediate productivity"
+    ],
+    "overstated_by_keywords": [
+      "System integration (Jetson/ROS2 stack is software-level, not vehicle E/E integration)",
+      "Rig-based testing (bench debugging of student projects, not test-rig verification)"
+    ],
+    "understated_by_keywords": [
+      "Serial bus and interrupt depth (quadrature decoding, I2C driver from registers) is a credible base for learning CAN quickly",
+      "Fail-safe state-machine design in Robocon maps to safety-minded vehicle functions"
+    ],
+    "screening_gaps": [
+      "No CAN experience (stated hard requirement)",
+      "No automotive or vehicle systems exposure (functions, diagnostics, electrification)",
+      "No production or requirements/change-management experience; zero full-time years for a consultancy role"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Genuine low-level embedded and integration depth backs the core of the day-to-day coding and troubleshooting, but the vehicle domain, CAN and production ownership are unevidenced. The JD says curiosity and willingness to learn outweigh domain expertise, which helps, though a consultancy screener will still search for CAN first.",
+    "calibration_delta": 8.7
+  },
+  "semantic_pending": false
+}

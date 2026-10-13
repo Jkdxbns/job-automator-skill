@@ -1,0 +1,15 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "Infosys",
+  "role": "GenAI Platform / LLM Inference Optimization Engineer (Cloud)",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology, and the part of this role that draws me in is the inference optimization core underneath the platform work: getting models to run faster and leaner without giving up accuracy. That is the problem I have spent my graduate work on, from the CUDA kernel level up through full model deployment.",
+    "On the quantization and GPU utilization side, I compressed a TinyLlama 1.1B model with 8-bit quantization (bitsandbytes LLM.int8()), cutting GPU memory footprint by roughly 55% while profiling peak VRAM and inference latency across prompt types with pynvml, and holding accuracy degradation under 1% against HellaSwag, GSM8K, and ARC. That same discipline of measuring before and after every optimization carried into a lower level project where I replaced VGG16's convolution layers with custom CUDA C++ kernels, using memory coalescing and constant memory to cut per-layer allocation overhead, which took inference from 77.5ms down to 49.2ms.",
+    "On the serving and real-time side, my capstone at RIT integrated a TensorRT-optimized YOLO model into a live visual servoing pipeline, a 5.2x speedup that took inference from 56.7ms to 10.9ms, and I debugged it through 11 distinct integration failures to reach 100% pick reliability across 10 trials. I have also worked at the distributed systems layer, running dendrite simulations across MPI workers on a SLURM-managed cluster and getting a 10.49x speedup at 12 processes, which is where my interest in orchestration and scheduling for GPU workloads comes from. The production cloud stack this role runs on, Kubernetes, GKE, Terraform, is new ground for me, but it sits directly on top of the optimization work I already do by instinct.",
+    "I would welcome the chance to bring this background to the DNA team and talk through any of the projects above in more depth."
+  ],
+  "sign_off": "Sincerely,"
+}

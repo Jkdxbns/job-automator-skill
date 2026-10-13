@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "Deep Learning Computer Architect - New College Grad 2026",
+    "company_slug": "nvidia",
+    "job_slug": "dl-computer-architect"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience in CUDA kernel parallelization and optimization, LLM performance tuning, and GPU memory hierarchy analysis. Parallelized VGG16 conv layers with custom CUDA C++ kernels (1.5\u20132\u00d7 speedup), implemented Q/K/V projections and multi-head self-attention from first principles in PyTorch, and benchmarked four MPI parallelization strategies achieving 30\u00d7 speedup \u2014 characterizing load balance and scalability trade-offs across each approach.",
+  "skills": {
+    "Languages": [
+      "C/C++",
+      "Python",
+      "CUDA",
+      "CUDA C++",
+      "Bash"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "Deep Learning"
+    ],
+    "HPC / Parallel Computing": [
+      "CUDA Kernel Optimization",
+      "Parallelization",
+      "Memory Coalescing",
+      "MPI",
+      "Performance Benchmarking"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Jupyter"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020; characterized accuracy-latency trade-offs across backbone architectures using Dice Score and IoU; led a cross-cultural team of 7 to deliver the full pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT transformer on a custom dataset in PyTorch; improved validation accuracy from 55% to 93% via targeted preprocessing, standardized training pipelines, and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8 on a custom toothbrush detection dataset for health-level classification; improved accuracy from 78% to 97.5% through dataset curation, annotation, and model tuning.",
+        "Evaluated model performance end-to-end and deployed in a consumer mobile app."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Parallelized all 13 VGG16 Conv2D layers using the LibTorch C++ API with custom CUDA C++ kernels; profiled each layer via cudaEvent_t; optimized global memory access via coalescing, constant memory for weights, and preallocated buffers to eliminate per-layer allocation overhead.",
+        "Achieved ~35% speedup (49.2ms vs. 73.3ms uncoalesced, 77.5ms CPU TorchScript); identified global memory bandwidth as the primary bottleneck in the uncoalesced baseline and resolved it through memory hierarchy optimizations \u2014 1.5\u20132\u00d7 throughput gain at identical accuracy."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2-style Transformer in PyTorch from scratch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer and training loop with perplexity evaluation; implemented Q/K/V projections, scaled dot-product attention, and feed-forward blocks from first principles, applying theoretical study of Transformer internals from prior LLM compression work."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Applied structured pruning and 8-bit quantization to TinyLlama 1.1B in PyTorch as LLM performance tuning techniques; reduced memory footprint by ~25% and benchmarked task accuracy across HellaSwag, GSM8K, and ARC.",
+        "Characterized the accuracy-efficiency trade-off: ~7% accuracy drop and +6.3 perplexity increase post-compression; studied how quantization and weight sparsity affect model behavior as performance tuning levers for LLM deployment."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000\u00d75000 pixel scenes using MPI; characterized trade-offs in throughput, load balance, and scalability across each strategy.",
+        "Achieved up to 30\u00d7 speedup with static strip partitioning (55 processes); demonstrated dynamic task queue outperformed all static strategies under unpredictable workloads \u2014 identifying load imbalance as the primary bottleneck."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

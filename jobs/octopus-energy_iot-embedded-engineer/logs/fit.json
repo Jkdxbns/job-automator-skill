@@ -1,0 +1,165 @@
+{
+  "company": "Octopus Energy",
+  "company_slug": "octopus-energy",
+  "role": "IoT Embedded Software Engineer",
+  "job_slug": "iot-embedded-engineer",
+  "match_pct": 51.6,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 6,
+    "missing_count": 12,
+    "jd_ask_size": 31,
+    "req_cov": 0.708,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "FreeRTOS",
+    "RTOS",
+    "Python",
+    "Bash",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "oscilloscope",
+    "logic analyzer",
+    "multimeter",
+    "microcontrollers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "schematics and datasheets",
+      "you_have": "EAGLE PCB design, sensor datasheet driver work"
+    },
+    {
+      "jd_skill": "board bring-up",
+      "you_have": "STM32 bare-metal bring-up"
+    },
+    {
+      "jd_skill": "TCP/IP",
+      "you_have": "static IP networking, WebSocket on Jetson"
+    },
+    {
+      "jd_skill": "BLE",
+      "you_have": "HC-05 Bluetooth Classic"
+    },
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Jetson/Pi networking"
+    },
+    {
+      "jd_skill": "JTAG/SWD",
+      "you_have": "STM32 debugging"
+    }
+  ],
+  "missing_skills": [
+    "RS232",
+    "Modbus",
+    "TLS",
+    "DHCP",
+    "secure boot",
+    "encrypted flash",
+    "public key cryptography",
+    "ESP32",
+    "ESP-IDF",
+    "AWS IoT",
+    "OTA firmware updates",
+    "Zigbee"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "FreeRTOS",
+    "RTOS",
+    "Python",
+    "Bash",
+    "Git",
+    "SPI",
+    "I2C",
+    "UART",
+    "RS232",
+    "Modbus",
+    "TCP",
+    "TLS",
+    "DHCP",
+    "secure boot",
+    "JTAG",
+    "SWD",
+    "ESP32",
+    "ESP-IDF",
+    "AWS IoT",
+    "OTA",
+    "BLE",
+    "Wi-Fi",
+    "Zigbee",
+    "oscilloscope",
+    "logic analyzer"
+  ],
+  "required_skills": [
+    "C",
+    "RTOS",
+    "FreeRTOS",
+    "Python",
+    "Bash",
+    "Git",
+    "schematics and datasheets",
+    "SPI",
+    "I2C",
+    "UART",
+    "RS232",
+    "Modbus",
+    "TCP/IP",
+    "TLS",
+    "DHCP",
+    "secure boot",
+    "encrypted flash",
+    "public key cryptography",
+    "board bring-up",
+    "JTAG/SWD",
+    "oscilloscope",
+    "logic analyzer",
+    "multimeter",
+    "microcontrollers"
+  ],
+  "preferred_skills": [
+    "ESP32",
+    "ESP-IDF",
+    "AWS IoT",
+    "OTA firmware updates",
+    "BLE",
+    "Wi-Fi",
+    "Zigbee"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Embedded C firmware for connected IoT devices",
+    "Ticket and dev management with HW and SW teams",
+    "Code reviews",
+    "Bug investigation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

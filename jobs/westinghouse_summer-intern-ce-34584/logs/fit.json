@@ -1,0 +1,50 @@
+{
+  "company": "Westinghouse Electric Company",
+  "company_slug": "westinghouse",
+  "role": "Summer Intern - Computer Engineering / Software Engineering",
+  "job_slug": "summer-intern-ce-34584",
+  "match_pct": 100,
+  "missing_skills": [],
+  "adjacent_skills": [],
+  "top_ats_keywords": [
+    "software testing",
+    "verification",
+    "debugging",
+    "documentation",
+    "cybersecurity",
+    "secure coding",
+    "SDLC"
+  ],
+  "key_responsibilities": [
+    "Develop and test software applications and tools",
+    "Support system integration and verification activities",
+    "Help code, debugging, and troubleshooting",
+    "Participate in software validation and testing efforts",
+    "Maintain technical documentation",
+    "Support cybersecurity and secure coding projects"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 20,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Programming fundamentals and SDLC exposure are far exceeded, not just met \u2014 years of C/C++, Python, embedded firmware, and full pipeline builds (COFFIN capstone) cover 'develop and test software applications' many times over.",
+      "Debugging/troubleshooting depth backed by real hardware-software integration work (11 documented integration failures resolved on COFFIN: false-positive detections, servo brown-out, stale-frame capture).",
+      "Technical documentation habit shown in BARC and IIT Bombay internships (JupyterHub collaborative docs, claims documentation and BOM at Planctech)."
+    ],
+    "real_gaps": [
+      "Zero nuclear-industry, regulated-environment, or formal verification & validation (V&V) process experience \u2014 no NRC/DOE-style QA documentation, no safety-critical software lifecycle work anywhere in the profile.",
+      "No secure coding or cybersecurity-specific project or coursework in master_profile.json \u2014 the JD's 'support cybersecurity and secure coding projects' line has no backing bullet to draw on.",
+      "Eligibility mismatch is structural, not a skill gap: the req is explicitly scoped to a currently-enrolled undergraduate ('pursuing a bachelor's degree,' 'completed sophomore year'). Justin holds a completed M.S. \u2014 most corporate internship ATS systems hard-filter on class standing/degree-in-progress, so the application may never reach a human reviewer regardless of skill fit."
+    ],
+    "overstated_by_keywords": [
+      "'programming concepts' and 'SDLC familiarity' scored 100% Have, but the JD is written at an intro/sophomore level \u2014 matching it isn't a meaningful signal of fit when the candidate is two full degrees past that bar."
+    ],
+    "reasoning": "The keyword match reads as 100% only because the JD's technical bar is written for a rising sophomore and Justin's actual depth vastly exceeds it \u2014 that's not real fit, it's a seniority mismatch in the other direction. The one concrete gap that matters is secure coding/cybersecurity, which the profile doesn't cover at all. But the decisive issue is structural: this req's eligibility is scoped to enrolled undergraduates, and Justin already completed his M.S., which likely means an ATS class-standing filter screens the application out before a recruiter ever reads it, independent of how strong the resume is."
+  },
+  "notes": "Eligibility mismatch: role requires currently-enrolled undergrad (completed sophomore year, pursuing bachelor's). Justin already completed M.S. in May 2026. Nuclear industry citizenship risk not caught by regex blocker list."
+}

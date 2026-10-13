@@ -1,0 +1,118 @@
+{
+  "company": "Fortastra",
+  "company_slug": "fortastra",
+  "role": "Sr. Avionics Engineer ",
+  "job_slug": "sr-avionics-engineer",
+  "match_pct": 46.9,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 16,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "PCB design / review",
+    "Embedded C / bare-metal board bring-up",
+    "Serial bus interfaces (SPI, I2C, UART)",
+    "Python in Linux",
+    "Data acquisition and test instrumentation",
+    "M.S. in related engineering discipline"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Schematic capture",
+      "you_have": "PCB design tool experience"
+    },
+    {
+      "jd_skill": "Mission-critical domain experience",
+      "you_have": "Robotics / embedded systems"
+    },
+    {
+      "jd_skill": "Board-level firmware/debug experience",
+      "you_have": "Embedded firmware and flashing"
+    }
+  ],
+  "missing_skills": [
+    "CAN bus (no CAN keyword in list)",
+    "FPGA / RTL / VHDL / Verilog (no FPGA keywords)",
+    "Spacecraft / avionics / launch vehicle domain experience (no space keywords; robotics is adjacent only)",
+    "Power architecture and distribution design",
+    "Design-for-test and design-for-reliability principles",
+    "Interface Control Documents (ICDs)",
+    "5+ years full-time design engineering experience (candidate: 0 years full-time, 7 internships)"
+  ],
+  "top_ats_keywords": [
+    "avionics",
+    "PCB",
+    "schematic",
+    "embedded",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "C/C++",
+    "Python",
+    "Linux",
+    "FPGA",
+    "board bring-up",
+    "flight",
+    "telemetry",
+    "oscilloscopes",
+    "logic analyzers",
+    "mission-critical",
+    "ICD",
+    "power architecture",
+    "design-for-test",
+    "design-for-reliability"
+  ],
+  "required_skills": [
+    "Electrical engineering degree (B.S./M.S. EE/CE/related)",
+    "PCB schematic capture and layout review for complex digital/mixed-signal boards",
+    "Board bring-up: flashing firmware, exercising interfaces, debugging at bench",
+    "Embedded systems and common serial buses (CAN, SPI, I2C, UART)",
+    "Data acquisition and telemetry systems",
+    "C/C++ and Python in Linux-based environments for hardware bring-up/test automation",
+    "Mission-critical domain experience (spacecraft, automotive EV, robotics, defense, industrial)",
+    "Cross-disciplinary collaboration with software, mechanical, systems engineers"
+  ],
+  "preferred_skills": [
+    "Spacecraft / avionics experience",
+    "FPGA familiarity (RTL design, integration, constraints)",
+    "Background from automotive EVs, robotics, or defense"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own full lifecycle of avionics hardware: concept, architecture, schematic, PCB layout review, bring-up, integration, and flight support",
+    "Design flight computers and support boards (processor, memory, power management, sensor/actuator interfaces, communications)",
+    "Select/integrate electrical components (MCUs/SoCs, FPGAs, sensors, transceivers, power devices) for demanding environments",
+    "Implement board-level interfaces and data buses (CAN, SPI, I2C, UART, Ethernet, SpaceWire) across avionics network",
+    "Bring up new boards in lab: write test firmware, debug hardware, validate with oscilloscopes/logic analyzers/instrumentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Torrance, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "U.S. Citizenship required \u2014 JD Requirements section: \"U.S. Citizenship required\" (category c: US citizenship or permanent residency required)"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,97 @@
+{
+  "company": "Chalk",
+  "company_slug": "chalk",
+  "role": "Software Engineer - New Grad",
+  "job_slug": "swe-new-grad",
+  "match_pct": 31.8,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 11,
+    "req_cov": 0.688,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI"
+    },
+    {
+      "jd_skill": "compilers",
+      "you_have": "DSL parser (SE(3) engine), build systems"
+    },
+    {
+      "jd_skill": "systems engineering",
+      "you_have": "RTOS / embedded C / CUDA performance work"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "DBMS query planning",
+    "query optimization",
+    "data infrastructure",
+    "PaaS",
+    "static analysis"
+  ],
+  "top_ats_keywords": [
+    "query planning",
+    "query optimization",
+    "compilers",
+    "distributed systems",
+    "data infrastructure",
+    "Rust",
+    "C++",
+    "Python",
+    "static analysis",
+    "PaaS"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Rust",
+    "DBMS query planning",
+    "query optimization",
+    "compilers",
+    "distributed systems",
+    "systems engineering"
+  ],
+  "preferred_skills": [
+    "data infrastructure",
+    "PaaS"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/implement/ship query planning and execution engine components",
+    "Write C++, Python, Rust"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA; New York, NY (on-site, 5 days)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

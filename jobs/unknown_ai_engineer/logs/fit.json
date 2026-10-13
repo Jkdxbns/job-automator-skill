@@ -1,0 +1,99 @@
+{
+  "company": "Unknown (Requisition R5051916)",
+  "company_slug": "unknown_r5051916",
+  "role": "AI Engineer (Entry-Level)",
+  "job_slug": "ai_engineer_entry",
+  "match_pct": 48.5,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 6,
+    "missing_count": 14,
+    "jd_ask_size": 33,
+    "req_cov": 0.81,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "Data Structures",
+    "Algorithms",
+    "Software Testing",
+    "Git",
+    "PyTorch",
+    "TensorFlow",
+    "Hugging Face Transformers",
+    "Model Evaluation",
+    "GPU Computing",
+    "Distributed Computing (MPI)",
+    "Optimization (Quantization, Kernel)",
+    "Scientific Computing"
+  ],
+  "adjacent_skills": [
+    "REST APIs (Flask/SocketIO exposure)",
+    "scikit-learn (General ML background)",
+    "Prompt Engineering (Gemini classification)",
+    "Observability (pynvml Profiling)",
+    "Simulation (CARLA Autonomous Driving)"
+  ],
+  "missing_skills": [
+    "LangChain",
+    "Semantic Kernel",
+    "RAG (Retrieval-Augmented Generation)",
+    "AI Agents (Framework experience)",
+    "Vector Search",
+    "SQL",
+    "Cloud Services (AWS/GCP/Azure)",
+    "Docker",
+    "Kubernetes",
+    "CI/CD Pipelines",
+    "MLflow",
+    "Surrogate Models",
+    "Model Serving/Inference Deployment",
+    "Production ML Orchestration"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Machine Learning",
+    "Deep Learning",
+    "Model Evaluation",
+    "AI Applications",
+    "APIs",
+    "Git",
+    "Optimization"
+  ],
+  "key_responsibilities": [
+    "Build and test AI-enabled applications and model services",
+    "Integrate ML/GenAI with data sources and enterprise platforms",
+    "Translate Data Scientist prototypes into production software",
+    "Implement evaluation, validation, logging, monitoring",
+    "Use Git, code reviews, testing, CI practices",
+    "Package and deploy using cloud and container patterns",
+    "Optimize model and workflow performance",
+    "Collaborate with users and domain experts",
+    "Follow cybersecurity, privacy, and Responsible AI requirements"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null,
+  "hard_blocker": false,
+  "hard_blocker_reason": null,
+  "constraint_flags": {
+    "no_sponsorship_phrase": false,
+    "clearance_required": false,
+    "citizenship_required": false,
+    "itar_ear_required": false,
+    "location_mismatch": false,
+    "experience_gap": false
+  },
+  "application_deadline": "2026-09-30",
+  "days_left": 19
+}

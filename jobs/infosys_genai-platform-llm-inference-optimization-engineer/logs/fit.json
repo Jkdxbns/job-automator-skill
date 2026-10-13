@@ -1,0 +1,58 @@
+{
+  "company": "Infosys",
+  "company_slug": "infosys",
+  "role": "GenAI Platform / LLM Inference Optimization Engineer (Cloud)",
+  "job_slug": "genai-platform-llm-inference-optimization-engineer",
+  "match_pct": 18.18,
+  "missing_skills": [
+    "vLLM",
+    "Triton Inference Server",
+    "SGLang",
+    "tensor parallelism",
+    "Kubernetes",
+    "GKE",
+    "KServe / ML serving patterns",
+    "Helm",
+    "Operators",
+    "GCP",
+    "Azure",
+    "Terraform",
+    "Cloud networking / landing zones / governance",
+    "HashiCorp Vault",
+    "Observability & SRE",
+    "Prometheus/Grafana",
+    "logging/tracing",
+    "SRE/SLO mindset, reliability engineering"
+  ],
+  "adjacent_skills": [
+    "TensorRT-LLM -> you have TensorRT / TensorRT-optimized model deployment (Jetson)",
+    "Quantization (FP8/AWQ/GPTQ) -> you have quantization (8-bit, LLM.int8) experience",
+    "Performance benchmarking & tuning -> you have pynvml profiling / kernel benchmarking",
+    "GPU orchestration and scheduling -> you have SLURM-managed multi-GPU job scheduling"
+  ],
+  "top_ats_keywords": [
+    "vLLM",
+    "TensorRT-LLM",
+    "Kubernetes",
+    "GKE",
+    "Terraform",
+    "Prometheus",
+    "Grafana",
+    "GCP",
+    "Azure",
+    "SRE"
+  ],
+  "key_responsibilities": [
+    "Design and implement LLM inference serving stacks (vLLM, TensorRT-LLM, Triton, SGLang)",
+    "Inference optimization: continuous batching, speculative decoding, KV/prefix caching, quantization",
+    "Build Kubernetes-based serving platforms (KServe, GKE, OpenShift)",
+    "Enable GenAI/RAG platforms, integrate LLM services with RAG pipelines",
+    "Cloud infra: GCP/Azure, Terraform, Vault, observability (Prometheus/Grafana), SRE/SLO ownership"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

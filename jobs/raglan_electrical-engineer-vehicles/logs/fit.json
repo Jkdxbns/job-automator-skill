@@ -1,0 +1,140 @@
+{
+  "company": "Raglan",
+  "company_slug": "raglan",
+  "role": "Electrical Engineer / Electrical & Computer Engineer (Vehicles)",
+  "job_slug": "electrical-engineer-vehicles",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 6,
+    "missing_count": 6,
+    "jd_ask_size": 23,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Electrical Engineering / Computer Engineering degree (M.S. Computer Engineering)",
+    "Electrical circuits & electronics",
+    "Embedded systems",
+    "Schematics & wiring diagrams reading",
+    "Microcontrollers (STM32, Arduino)",
+    "UART",
+    "SPI",
+    "I2C",
+    "PCB design (Eagle)",
+    "Sensor integration",
+    "Communication interfaces (UART/SPI/I2C/Bluetooth)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Interest in vehicle systems (automotive/EV)",
+      "you_have": "Robotics/mobile systems interest (ROS2, robotic arm project, object tracking turret)"
+    },
+    {
+      "jd_skill": "Internship/project experience with vehicles or mobile systems",
+      "you_have": "Robotics & embedded projects (non-automotive)"
+    },
+    {
+      "jd_skill": "Lab/shop/test environment experience",
+      "you_have": "Hardware benchmarking & embedded testing (Jetson, STM32)"
+    },
+    {
+      "jd_skill": "Actuators",
+      "you_have": "Servo/motor control in robotics projects"
+    },
+    {
+      "jd_skill": "Power systems",
+      "you_have": "Embedded power management in telemetry gateway / robotics projects"
+    },
+    {
+      "jd_skill": "PCB design (Altium/KiCad)",
+      "you_have": "EAGLE PCB design"
+    }
+  ],
+  "missing_skills": [
+    "High-voltage vehicle systems safety experience",
+    "CAN protocol",
+    "LIN protocol",
+    "MATLAB",
+    "Excel",
+    "Power electronics / batteries / vehicle electrical architecture"
+  ],
+  "top_ats_keywords": [
+    "Electrical Engineering",
+    "Electrical & Computer Engineering",
+    "embedded systems",
+    "PCB design",
+    "schematic capture",
+    "CAN",
+    "LIN",
+    "UART",
+    "SPI",
+    "I2C",
+    "high-voltage",
+    "vehicle systems",
+    "sensors",
+    "actuators",
+    "power systems",
+    "communication interfaces",
+    "Altium",
+    "KiCad",
+    "Eagle",
+    "MATLAB",
+    "Excel"
+  ],
+  "required_skills": [
+    "Bachelor's degree in Electrical Engineering or related field",
+    "Electrical circuits and electronics understanding",
+    "Embedded systems foundational understanding",
+    "Interest in vehicle systems (automotive/off-road/robotics/EVs)",
+    "Read schematics and wiring diagrams",
+    "Safety-oriented, comfortable with high-voltage vehicle systems"
+  ],
+  "preferred_skills": [
+    "Internship/project/co-op experience with vehicles or mobile systems",
+    "Embedded systems / microcontrollers familiarity",
+    "CAN",
+    "LIN",
+    "UART",
+    "SPI",
+    "I2C",
+    "PCB design (Altium, KiCad, Eagle)",
+    "MATLAB",
+    "Excel",
+    "Power electronics / batteries / vehicle electrical architectures",
+    "Lab/shop/test environment experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop/test electrical and electronic systems for vehicles",
+    "Schematic capture, PCB design, component selection",
+    "Integration of sensors, actuators, power systems, communication interfaces",
+    "Diagnose/debug/resolve electrical issues during prototyping and testing",
+    "Vehicle-level testing and validation",
+    "Document designs, test results, engineering changes"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Wilmington, NC (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

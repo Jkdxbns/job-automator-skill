@@ -1,0 +1,57 @@
+{
+  "company": "Microsoft",
+  "company_slug": "microsoft",
+  "role": "Software Engineer: Intern Opportunities for University Students - CoreAI",
+  "job_slug": "swe-intern-coreai-mtv",
+  "match_pct": 100.0,
+  "missing_skills": [],
+  "adjacent_skills": [
+    "Data structures and algorithms (formal DSA coursework/interview prep not explicitly demonstrated in bullets)"
+  ],
+  "top_ats_keywords": [
+    "AI/ML",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "C/C++",
+    "Claude Code",
+    "Deep Learning",
+    "Machine Intelligence"
+  ],
+  "key_responsibilities": [
+    "Apply engineering principles and AI techniques to solve complex problems",
+    "Work with stakeholders (TPMs/PMs) to determine user requirements",
+    "Apply Microsoft responsible AI practices",
+    "Learn and adopt new AI technologies/tools/methods quickly",
+    "Improve availability, reliability, efficiency, observability, performance at scale"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "eligibility_blocker": {
+    "type": "academic_status_mismatch",
+    "detail": "JD Required Qualifications state candidate must be 'currently pursuing' a Bachelor's or Master's degree with 'at least one semester/term remaining following the completion of the internship.' Justin completed his M.S. in May 2026 and has zero terms remaining as of a Summer 2027 internship target start. This is a stated Required Qualification, not Preferred, and is independent of technical fit."
+  },
+  "llm_analysis": {
+    "llm_match_pct": 85,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Deep, from-scratch AI/ML build experience, not just framework usage: implemented a GPT-2 style Transformer from scratch (multi-head attention, MLP blocks, weight tying) and a Whisper-style ASR pipeline (mel-spectrogram encoder, causal Transformer decoder with cross-attention) end to end in PyTorch.",
+      "Real-world AI application delivery with measured outcomes: DONUT document-understanding fine-tune (55% to 93% validation accuracy), YOLOv8 toothbrush classifier (83% mAP@50 exported to ONNX/TFLite), 8-bit LLM quantization on TinyLlama (~55% VRAM reduction, <1% accuracy loss) \u2014 matches 'developing ML models... implementing AI solutions in real-world applications' directly.",
+      "AI coding tool fluency is genuinely current, not resume-listed filler \u2014 actively building this exact job-application pipeline with Claude Code, which is one of the three tools the JD names by name.",
+      "Cross-functional delivery under ambiguity: COFFIN capstone integrated STT, LLM intent classification, TensorRT vision, and sensor fusion across three hardware/software layers, resolving 11 integration failures solo \u2014 evidences the 'complex problems through sound and creative engineering' responsibility better than a single-tool project would."
+    ],
+    "real_gaps": [
+      "No large-scale production engineering environment experience \u2014 every AI/ML project is solo or small-team research/capstone scope; nothing shows working inside a big codebase, code review culture, or CI/CD process the way a Microsoft org runs.",
+      "Formal DSA/algorithms depth isn't demonstrated anywhere in the profile (coursework only, no bullet evidence) \u2014 this is a real gap for the loop's likely coding screen, not just a keyword miss.",
+      "'Observability... consistency in monitoring and operations at scale' is a stated responsibility with zero profile backing \u2014 all metrics in the profile are one-time benchmark numbers (latency, accuracy, speedup), not production monitoring or ops experience.",
+      "Datasets worked with are project-scale (hundreds to low-thousands of samples: 1,133 images, 1,000 ASR samples, ~8,000 CARLA frames) \u2014 genuinely real but not 'large-scale' in the sense a production ML org would mean it."
+    ],
+    "overstated_by_keywords": [
+      "TensorFlow \u2014 listed in the skills block and counted as a keyword Have, but no experience or project bullet anywhere actually uses TensorFlow; every hands-on deep learning bullet is PyTorch. The keyword match treated 'TensorFlow, PyTorch, or scikit-learn' as satisfied, which is technically true (PyTorch alone satisfies the 'or'), but crediting TensorFlow specifically overstates that line."
+    ],
+    "reasoning": "Setting the eligibility gate aside, this is a genuinely strong technical match \u2014 the profile shows an unusual amount of from-scratch AI/ML building (a hand-rolled GPT-2 and a hand-rolled ASR pipeline) that goes past typical intern-level framework usage, plus live, current use of the exact AI coding tools the JD names. The soft spots are formal DSA depth and large-scale production/observability exposure, both normal gaps for an internship candidate and not disqualifying on their own."
+  }
+}

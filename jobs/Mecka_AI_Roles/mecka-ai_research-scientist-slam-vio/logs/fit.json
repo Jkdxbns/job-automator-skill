@@ -1,0 +1,142 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Scientist- SLAM & VIO",
+  "job_slug": "research-scientist-slam-vio",
+  "match_pct": 46.8,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 7,
+    "missing_count": 13,
+    "jd_ask_size": 31,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Deep Learning",
+    "PyTorch",
+    "CUDA",
+    "Kernel optimization",
+    "Edge AI",
+    "TensorRT",
+    "YOLO",
+    "ROS2",
+    "object detection",
+    "quantization",
+    "Image Processing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D Computer Vision",
+      "you_have": "depth estimation"
+    },
+    {
+      "jd_skill": "deep learning scaling frameworks",
+      "you_have": "SLURM / CUDA"
+    },
+    {
+      "jd_skill": "custom CUDA kernels",
+      "you_have": "CUDA / Kernel optimization"
+    },
+    {
+      "jd_skill": "SLAM / VIO",
+      "you_have": "Odometry (Dead Reckoning)"
+    },
+    {
+      "jd_skill": "3D reconstruction",
+      "you_have": "depth estimation"
+    },
+    {
+      "jd_skill": "attention mechanisms",
+      "you_have": "attention"
+    },
+    {
+      "jd_skill": "egocentric motion modeling / dynamic scene",
+      "you_have": "visual servoing / object detection"
+    }
+  ],
+  "missing_skills": [
+    "Temporal/Video Modeling",
+    "training large-scale vision models from scratch",
+    "feed-forward 3D networks",
+    "dense motion estimation",
+    "massive multi-terabyte dataset curation",
+    "fast-paced adaptability",
+    "first-author publications CVPR/ICCV/ECCV/NeurIPS",
+    "egocentric video datasets (Ego4D/Ego-Exo4D)",
+    "multi-view ML / distributed multi-GPU training",
+    "optical flow models",
+    "3D Gaussian Splatting / NeRF",
+    "neural rendering",
+    "dense reconstruction pipelines (photorealistic environments)"
+  ],
+  "top_ats_keywords": [
+    "SLAM",
+    "VIO",
+    "3D reconstruction",
+    "optical flow",
+    "multi-view ML",
+    "multi-GPU distributed training",
+    "attention mechanisms",
+    "egocentric vision",
+    "dynamic scene understanding",
+    "neural rendering",
+    "3D Gaussian Splatting",
+    "NeRF",
+    "dense reconstruction",
+    "vision models",
+    "CUDA kernels",
+    "object tracking",
+    "multi-modal sensor fusion"
+  ],
+  "required_skills": [
+    "Deep Learning",
+    "3D Computer Vision",
+    "Temporal/Video Modeling",
+    "training large-scale vision models from scratch",
+    "feed-forward 3D networks",
+    "dense motion estimation",
+    "PyTorch",
+    "deep learning scaling frameworks",
+    "handling massive multi-terabyte image/video datasets",
+    "fast-paced adaptability"
+  ],
+  "preferred_skills": [
+    "first-author publications CVPR/ICCV/ECCV/NeurIPS",
+    "egocentric video datasets (Ego4D/Ego-Exo4D)",
+    "custom CUDA kernels (3D ops, ray marching, correlation volumes)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Architect and train proprietary foundation models for 3D reconstruction and spatial perception",
+    "Build robust optical flow architectures for egocentric/head-mounted camera motion",
+    "Scale multi-view ML architectures across multi-GPU clusters on proprietary datasets",
+    "Integrate model outputs into dense reconstruction pipelines (3D Gaussian Splatting, NeRF)",
+    "Rapid-prototype emergent perception solutions for downstream robotics and hardware integration"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

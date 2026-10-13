@@ -1,0 +1,170 @@
+{
+  "company": "Niantic Spatial",
+  "company_slug": "niantic-spatial",
+  "role": "AI Engineer, Computer Vision",
+  "job_slug": "ai-engineer-computer-vision",
+  "match_pct": 54.2,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 24,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "PyTorch",
+    "Computer Vision",
+    "Deep Learning",
+    "Python",
+    "GPU training",
+    "TensorRT",
+    "ONNX",
+    "Robotics",
+    "Model evaluation",
+    "Data pipelines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Large image datasets",
+      "you_have": "BARC high-res image stitching / OpenCV / BraTS MRI"
+    },
+    {
+      "jd_skill": "Vision foundation models",
+      "you_have": "Fine-tuned VLM / ZoeDepth / HuggingFace"
+    },
+    {
+      "jd_skill": "Pose estimation",
+      "you_have": "Forward kinematics / visual servoing"
+    },
+    {
+      "jd_skill": "Camera models / epipolar geometry",
+      "you_have": "BARC homography stitching / depth estimation"
+    },
+    {
+      "jd_skill": "Feature matching",
+      "you_have": "BARC homography-based stitching (matching not stated in profile)"
+    },
+    {
+      "jd_skill": "3D reconstruction",
+      "you_have": "BARC ZoeDepth 3D surface reconstruction (\u00b18%)"
+    }
+  ],
+  "missing_skills": [
+    "Visual localization",
+    "Image retrieval",
+    "SLAM",
+    "Structure-from-motion",
+    "CoreML",
+    "Self-supervised pretraining",
+    "Point clouds",
+    "Augmented reality"
+  ],
+  "top_ats_keywords": [
+    "PyTorch",
+    "computer vision",
+    "visual localization",
+    "feature matching",
+    "image retrieval",
+    "pose estimation",
+    "SLAM",
+    "structure-from-motion",
+    "GPU",
+    "TensorRT",
+    "ONNX",
+    "point clouds",
+    "3D reconstruction"
+  ],
+  "required_skills": [
+    "PyTorch",
+    "Computer Vision",
+    "Deep Learning",
+    "Python",
+    "GPU training",
+    "Visual localization",
+    "Feature matching",
+    "Camera models / epipolar geometry",
+    "Large image datasets",
+    "Data pipelines"
+  ],
+  "preferred_skills": [
+    "Image retrieval",
+    "Pose estimation",
+    "SLAM",
+    "Structure-from-motion",
+    "TensorRT",
+    "ONNX",
+    "CoreML",
+    "Vision foundation models",
+    "Self-supervised pretraining",
+    "Point clouds",
+    "3D reconstruction",
+    "Robotics",
+    "Augmented reality"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Train/evaluate visual localization models",
+    "Data pipelines",
+    "Experiments at scale",
+    "Benchmark",
+    "Production deployment"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "PyTorch training loops and fine-tuning with real eval: IIT Bombay DONUT 55%\u219293%, CARLA YOLO11n mAP50~0.85 + UFLD with custom losses",
+      "Data pipeline and curation: CARLA zero-annotation generation (~8k frames, occlusion filtering), BraTS 3D volumetric loader with augmentation",
+      "Multi-view geometry exposure: BARC homography stitching (PSNR 65\u219286) and ZoeDepth 3D surface reconstruction \u00b18%",
+      "GPU/inference optimization: TensorRT YOLO 5.2x, custom CUDA kernels 35%, ONNX export"
+    ],
+    "real_gaps": [
+      "No visual localization, image retrieval, SLAM, SfM or scene-coordinate regression anywhere in profile",
+      "No learned feature extraction/matching (SuperPoint/LightGlue style) \u2014 BARC stitching is classical homography and matching is not stated",
+      "No point-cloud or large-scale (billions of images) distributed training; largest scale is SLURM MPI sims and ~8k-frame datasets",
+      "No lighting/season robustness evaluation or localization benchmark metrics (pose recall, ATE)",
+      "No CoreML, no AR; production CV system ownership is capstone scale"
+    ],
+    "overstated_by_keywords": [
+      "Pose estimation counted Adjacent via forward kinematics/visual servoing \u2014 robot-arm kinematics is not camera pose estimation",
+      "Camera models / epipolar geometry counted Adjacent via homography and depth \u2014 no epipolar, intrinsics/extrinsics or triangulation work stated"
+    ],
+    "understated_by_keywords": [
+      "Frame Simulator project (SE(3) math engine, 4x4 pose composition) is real backing for pose parameterizations, which the JD names explicitly",
+      "Robocon encoder odometry shows dead-reckoning state estimation intuition relevant to localization"
+    ],
+    "screening_gaps": [
+      "No learned visual localization / feature matching / retrieval work \u2014 the team's entire problem domain",
+      "No evidence of epipolar geometry, camera calibration or SfM/SLAM \u2014 the geometry foundation the JD requires at least one of",
+      "No large-scale dataset or multi-GPU training experience beyond small datasets"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong generic CV-in-PyTorch, data-pipeline and GPU-optimization backing, and the role is explicitly entry-friendly with learn-on-the-job framing. But the core domain (visual localization, matching, retrieval, SfM) has no direct evidence, so this is a stretch application that needs a geometry-forward story built on BARC and Frame Simulator.",
+    "calibration_delta": 8.2
+  },
+  "semantic_pending": false
+}

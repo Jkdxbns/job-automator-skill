@@ -1,0 +1,82 @@
+{
+  "company": "XTEND",
+  "company_slug": "xtend",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded_software_engineer",
+  "match_pct": 92,
+  "have_skills": [
+    "Embedded C firmware (STM32 bare-metal C)",
+    "STM ARM microcontrollers (STM32 Cortex-M4)",
+    "I2C",
+    "UART",
+    "SPI",
+    "GPIO",
+    "oscilloscope/debug tools (oscilloscopes + logic analyzers)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd": "hardware/software integration",
+      "profile": "Eagle PCB design + sensor integration"
+    },
+    {
+      "jd": "schematics reading",
+      "profile": "Eagle PCB Design"
+    },
+    {
+      "jd": "low-level driver development",
+      "profile": "bare-metal register-level coding on STM32"
+    },
+    {
+      "jd": "embedded debugging",
+      "profile": "logic analyzers + oscilloscopes"
+    }
+  ],
+  "missing_skills": [
+    "hardware bring-up"
+  ],
+  "top_ats_keywords": [
+    "embedded C",
+    "firmware",
+    "STM32",
+    "ARM microcontroller",
+    "I2C",
+    "UART",
+    "SPI",
+    "GPIO",
+    "low-level driver",
+    "hardware integration",
+    "oscilloscope",
+    "ROS2"
+  ],
+  "key_responsibilities": [
+    "Embedded firmware development for tactical UAS platforms in C",
+    "Low-level driver development for I2C, UART, SPI, GPIO protocols",
+    "STM ARM microcontroller firmware implementation and bring-up",
+    "Hardware/software integration with sensors and peripherals",
+    "Debugging with oscilloscopes, logic analyzers, schematics",
+    "Bench testing and system integration validation"
+  ],
+  "role_category": "embedded_systems",
+  "jd_metadata": {
+    "required_experience_years": 3,
+    "experience_level_stated": "junior",
+    "sponsorship_mentioned": false,
+    "sponsorship_offered": null,
+    "location": "Tampa, FL",
+    "remote_ok": false,
+    "clearance_required": false,
+    "defense_adjacent": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "Unknown \u2014 XTEND not in known_sponsors; small Israeli drone startup",
+    "experience": "3+ years required; Justin has 0 FT years (7 internships)",
+    "location": "Tampa FL \u2014 relocation OK",
+    "clearance": "None stated; tactical UAS/defense context may surface requirement later",
+    "defense_note": "Tactical UAS company \u2014 no ITAR/clearance phrase in JD"
+  },
+  "date_analyzed": "2026-06-05"
+}

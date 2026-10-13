@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "company": "OrthoIQ",
+    "role": "Embedded Systems & Firmware Engineering Intern",
+    "company_slug": "orthoiq",
+    "job_slug": "embedded-systems-firmware-engineering-intern"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Built bare-metal embedded C/C++ firmware on an STM32 microcontroller, handling GPIO, timers, ADCs, and I2C at the register level for real-time firmware development on embedded systems, with hands on experience across multiple MCU and embedded platforms including STM32, Jetson, and Raspberry Pi. Designed and fabricated custom PCBs in EAGLE and built a real-time control system combining motor control, sensors, and communications between an STM32 and an NVIDIA Jetson. Comfortable with soldering, hardware-software integration, and hardware debugging across the full path from circuit design to firmware bring-up.",
+  "skills": {
+    "Embedded & Firmware": ["Embedded C/C++", "MCU / Microcontroller Firmware", "Real-Time Firmware Development", "STM32 (ARM Cortex-M4)", "FreeRTOS", "Real-Time Control Systems", "ADCs", "GPIO / Timers"],
+    "Communications & Sensors": ["Communications (UART/I2C/SPI)", "Sensors (ToF, Accelerometer)", "Bluetooth (BLE/Classic)"],
+    "Hardware & PCB": ["EAGLE PCB Design", "Hardware-Software Integration", "Soldering", "Oscilloscopes", "Logic Analyzers"],
+    "Languages & Tools": ["C/C++", "Python", "Git", "Linux"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented UART and I2C sensor communication with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometer sensor interfacing with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C on an ARM Cortex-M4 MCU (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz real-time update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver for real-time microcontroller sensing and display.",
+        "Built Cortex-M4 temperature-monitoring firmware in embedded C with timer-synchronized sensing; verified in Proteus circuit simulation."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM motor control with interrupt-driven UART commands and user override for real-time object tracking on an STM32 MCU.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination, driven by object-detection commands sent over UART from an NVIDIA Jetson.",
+        "Integrated VL53L0X time-of-flight sensor interfacing and OLED distance visualization for closed-loop range feedback."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Implemented two link inverse kinematics on an Arduino in C++, driving five servos with range gated contact detection for a real time pick and place system.",
+        "Integrated dual VL53L0X time of flight sensors through a TCA9548A I2C multiplexer for contact aware grasping, combining a camera based range gate with a gripper mounted proximity trigger.",
+        "Deployed the embedded control bridge as a self restarting systemd service with static IP networking for reliable operation on a headless Jetson."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

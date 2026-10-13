@@ -1,0 +1,92 @@
+{
+  "company": "Synechron",
+  "company_slug": "synechron",
+  "role": "Associate Gen AI with Python (Associate AI/ML/Data Science)",
+  "job_slug": "associate-gen-ai-python",
+  "match_pct": 45.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 10,
+    "req_cov": 0.357,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "machine learning",
+    "AI/ML"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "data visualization",
+      "you_have": "Matplotlib"
+    },
+    {
+      "jd_skill": "model deployment",
+      "you_have": "TensorRT/ONNX edge deployment"
+    },
+    {
+      "jd_skill": "data collection/cleaning",
+      "you_have": "data acquisition + Python pipelines"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "R",
+    "agile",
+    "model monitoring"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "R",
+    "machine learning",
+    "data visualization",
+    "agile",
+    "model deployment",
+    "AI/ML"
+  ],
+  "required_skills": [
+    "Python",
+    "machine learning algorithms",
+    "SQL",
+    "R",
+    "data cleaning and manipulation",
+    "data visualization",
+    "agile"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "assist develop and deploy AI/ML models",
+    "collect and analyze data",
+    "build and test models",
+    "integrate with existing systems",
+    "monitor and improve model performance"
+  ],
+  "role_category": "ml_systems",
+  "location": "Jersey City, NJ",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

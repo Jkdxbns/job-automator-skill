@@ -1,0 +1,22 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Computer Vision Engineer application, false positives and edge deployment",
+    "greeting": "Hi Clement,",
+    "body": "My name is Justin Mascarenhas and I have an M.S. in Computer Engineering from Rochester Institute of Technology. I applied for the Computer Vision Engineer opening and wanted to reach out since you run detection as a product.\n\nMost of my computer vision work has ended on a device rather than in a notebook. For my graduate capstone I put a YOLO detector through TensorRT on a Jetson for a robot picking objects in real time. The model was the easy part. Cutting false positive detections and handling stale camera frames took far longer, since a confident wrong detection did more damage than a missed one.\n\nThe same trade off likely shows up at Pano AI, where a false alarm costs a fire agency trust. Detection that holds up outdoors on live feeds is the problem I want to work on.\n\nI would appreciate the opportunity to discuss the role further, if your time allows. I can share my resume if that would be helpful.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: https://www.linkedin.com/in/justinmascarenhas/",
+    "word_count": 165,
+    "hook_used": "False positive tradeoff: as Detection PM his core metric is alert fatigue; capstone centered on debugging false positives",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Clement Kao",
+    "current_title": "Detection Product Manager",
+    "current_company": "Pano AI",
+    "target_email": null
+  },
+  "meta": {
+    "company": "Pano AI",
+    "role": "Computer Vision Engineer"
+  }
+}

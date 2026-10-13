@@ -1,0 +1,43 @@
+{
+  "company": "Unknown (likely Pfizer, based on IMRU / AIM2 team naming and Cambridge MA site — not stated explicitly in JD, confirm before proceeding)",
+  "company_slug": "unconfirmed-imru-aim2",
+  "role": "Machine Learning Data Engineer (AIM2)",
+  "job_slug": "ml-data-engineer-aim2",
+  "match_pct": 12,
+  "missing_skills": [
+    "Nextflow pipeline development",
+    "single-cell / NGS data analysis",
+    "functional genomics",
+    "proteomics data analysis",
+    "genetics / genomics domain experience",
+    "bioinformatics production pipelines",
+    "omics data platform engineering",
+    "2+ years data product/integration experience in research or industry",
+    "graduate degree in Computational Biology, Biology, Physics, or Statistics"
+  ],
+  "adjacent_skills": [
+    "M.S. Computer Engineering (RIT) → JD wants Computational Biology/Biology/Physics/Statistics/related technical discipline — weak adjacency at best",
+    "cloud/DevOps/CI-CD general exposure → JD wants this specifically applied to omics pipelines"
+  ],
+  "top_ats_keywords": [
+    "Nextflow", "bioinformatics", "NGS", "single-cell", "transcriptomics",
+    "ATACseq", "proteomics", "genomics", "omics", "functional genetics",
+    "Python", "DevOps", "CI/CD", "cloud infrastructure", "data pipelines",
+    "data integration", "pipeline lifecycle management"
+  ],
+  "key_responsibilities": [
+    "Develop, deploy, and operate production Nextflow pipelines on cloud infrastructure",
+    "Own pipeline lifecycle management: upgrades, troubleshooting, performance tuning, reliability",
+    "Implement DevOps best practices (CI/CD, automation, tooling)",
+    "Partner with wet-lab and research scientists on data analysis requirements",
+    "Process/harmonize/integrate omics data types (single-cell, bulk transcriptomics, ATACseq, proteomics, functional genetics) for ML training/inference",
+    "Develop an omics data platform delivering datasets as reusable data products",
+    "Collaborate with external partners/vendors on pipeline quality"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

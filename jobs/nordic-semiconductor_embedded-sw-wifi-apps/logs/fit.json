@@ -1,0 +1,141 @@
+{
+  "company": "Nordic Semiconductor",
+  "company_slug": "nordic-semiconductor",
+  "role": "Embedded SW Engineer - Wi-Fi Applications",
+  "job_slug": "embedded-sw-wifi-apps",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 15,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "microcontroller firmware",
+    "embedded debugging",
+    "RTOS",
+    "ARM Cortex-M",
+    "testing and validation",
+    "technical documentation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Zephyr RTOS",
+      "you_have": "RTOS (FreeRTOS turret, CMPE 663 RTOS coursework)"
+    },
+    {
+      "jd_skill": "Wi-Fi",
+      "you_have": "Bluetooth / TCP-IP networking"
+    },
+    {
+      "jd_skill": "Linux kernel",
+      "you_have": "embedded Linux (exposure)"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal peripheral drivers (I2C, ADC, GPIO)"
+    }
+  ],
+  "missing_skills": [
+    "nRF Connect SDK",
+    "embedded security",
+    "open-source contribution",
+    "low-power Wi-Fi"
+  ],
+  "top_ats_keywords": [
+    "nRF Connect SDK",
+    "Zephyr",
+    "Wi-Fi",
+    "low-power",
+    "embedded security",
+    "Arm",
+    "RTOS",
+    "device drivers",
+    "C/C++",
+    "Linux kernel"
+  ],
+  "required_skills": [
+    "C/C++",
+    "microcontroller firmware",
+    "embedded debugging",
+    "RTOS",
+    "Zephyr RTOS",
+    "ARM Cortex-M",
+    "Linux kernel",
+    "embedded security",
+    "Wi-Fi",
+    "device drivers",
+    "testing and validation",
+    "technical documentation"
+  ],
+  "preferred_skills": [
+    "open-source contribution",
+    "AI development tools"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Wi-Fi application development on nRF series",
+    "SDK components and platform porting in nRF Connect SDK",
+    "samples and performance examples",
+    "tests and documentation",
+    "Zephyr driver/API contributions"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated (Nordic Wi-Fi SW group: Norway/Poland, EU)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 C firmware with a low-level I2C driver, timer-triggered ADC and interrupt-driven capture (STM32 Bare-Metal Temperature Monitor): real Arm MCU and driver-level backing",
+      "FreeRTOS with mutexes plus interrupt-driven UART on STM32 (Object Tracking Turret): working RTOS and Arm experience",
+      "Hardware debugging with oscilloscopes and logic analyzers; 11 integration failures resolved on COFFIN"
+    ],
+    "real_gaps": [
+      "No Zephyr or nRF Connect SDK exposure at all",
+      "No Wi-Fi (802.11, WPA, provisioning, power-save) or MCU network stack; only BLE and host-level WebSocket/TCP work",
+      "No embedded security (secure boot, TLS on MCU, PSA, key storage)",
+      "No open-source or upstream contribution; no driver or API work submitted to a shared SDK",
+      "Linux kernel work is exposure only, no kernel module or device tree",
+      "JD says experienced engineer; profile is 0 years full-time, capstone and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "RTOS counted Have, but evidence is FreeRTOS in one turret project plus coursework, not Zephyr-level depth",
+      "Wi-Fi counted Adjacent via Bluetooth/TCP-IP, but those are different layers and the role is Wi-Fi first"
+    ],
+    "understated_by_keywords": [
+      "COFFIN's multi-device WebSocket fabric with static IP networking and systemd services shows real connected-device integration, which maps loosely to Wi-Fi sample and reference app work"
+    ],
+    "screening_gaps": [
+      "No Zephyr / nRF Connect SDK experience, the framework the whole role is built on",
+      "No Wi-Fi or MCU-level wireless network stack work (only BLE and host-side sockets)",
+      "No embedded security or open-source SDK contribution against an 'experienced engineer' bar"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The generic MCU, Arm, RTOS and C/C++ base is real, but the role's core (Wi-Fi on Zephyr and nRF Connect SDK, upstream contribution, embedded security) has no direct backing. It clears the keyword bar exactly at 60 and is a stretch; the EU location is not a blocker and sponsorship was not mentioned either way.",
+    "calibration_delta": 14.0
+  }
+}

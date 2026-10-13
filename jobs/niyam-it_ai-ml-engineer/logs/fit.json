@@ -1,0 +1,105 @@
+{
+  "company": "Niyam IT",
+  "company_slug": "niyam-it",
+  "role": "AI/ML Engineer",
+  "job_slug": "ai-ml-engineer",
+  "match_pct": 26.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 0,
+    "missing_count": 14,
+    "jd_ask_size": 19,
+    "req_cov": 0.333,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "SQL",
+    "REST APIs",
+    "Agile",
+    "AI/ML"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "YAML",
+    "JSON",
+    "Angular",
+    "Full Stack Development",
+    "NoSQL",
+    "Google Gemini AI",
+    "AWS",
+    "GitLab",
+    "CI/CD",
+    "Data Science",
+    "Predictive Analytics"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Angular",
+    "SQL",
+    "NoSQL",
+    "REST API",
+    "Agile",
+    "AI/ML"
+  ],
+  "required_skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "YAML",
+    "JSON",
+    "Angular",
+    "Full Stack Development",
+    "REST APIs",
+    "SQL",
+    "NoSQL",
+    "Agile"
+  ],
+  "preferred_skills": [
+    "AWS Certified Developer Associate",
+    "GitLab CI/CD",
+    "Live data/video streams",
+    "Predictive analytics",
+    "Data Science"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build AI/ML pilot applications integrating Google Gemini AI",
+    "Develop REST APIs",
+    "Work with SQL/NoSQL databases",
+    "Full stack Angular development",
+    "Agile delivery for federal client"
+  ],
+  "role_category": "ml_systems",
+  "location": "Ashburn, Virginia (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "US Citizenship with ability to successfully complete a federal background investigation. (Citizenship / Federal Background Investigation) -- also a federal-contractor/defense-category employer (CMMC Level 2, 'trusted partner to the U.S. Federal Government')"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

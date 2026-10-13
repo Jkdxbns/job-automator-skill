@@ -1,0 +1,116 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Software Engineer (Embedded / Cloud Edge)",
+  "job_slug": "software-engineer-embedded",
+  "match_pct": 58.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 18,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Shell",
+    "FreeRTOS",
+    "Embedded Linux",
+    "Peripheral control",
+    "Debugging tools",
+    "Firmware",
+    "DSP"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Board support",
+      "you_have": "BBB / STM32 bare-metal bring-up"
+    },
+    {
+      "jd_skill": "Processor architecture",
+      "you_have": "Cortex-M4 / High Performance Architecture coursework"
+    },
+    {
+      "jd_skill": "Cloud edge",
+      "you_have": "Edge AI on Jetson"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "Android",
+    "GNSS",
+    "3GPP",
+    "Automotive Grade Linux",
+    "AI code-assist in embedded"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Python",
+    "Shell",
+    "FreeRTOS",
+    "Embedded Linux",
+    "Android",
+    "Board support",
+    "Peripheral control",
+    "Debugging tools",
+    "GNSS",
+    "3GPP",
+    "Automotive Grade Linux",
+    "DSP",
+    "Firmware"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Embedded software",
+    "Java"
+  ],
+  "preferred_skills": [
+    "Shell",
+    "FreeRTOS",
+    "Embedded Linux",
+    "Android",
+    "Board support",
+    "Peripheral control",
+    "Processor architecture",
+    "Debugging tools",
+    "GNSS",
+    "3GPP",
+    "Automotive Grade Linux",
+    "AI code-assist",
+    "DSP",
+    "Firmware"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "design/develop/validate embedded and cloud edge software",
+    "collaborate with systems, hardware, test teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

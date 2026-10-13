@@ -1,0 +1,183 @@
+{
+  "company": "Cricut",
+  "company_slug": "cricut",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 73.8,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 7,
+    "missing_count": 2,
+    "jd_ask_size": 21,
+    "req_cov": 0.861,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Bare-metal microcontroller firmware",
+    "C",
+    "C++",
+    "UART",
+    "SPI",
+    "I2C",
+    "PWM",
+    "GPIO",
+    "Actuator control (motors)",
+    "Low-level debugging",
+    "Revision control",
+    "Sensor data integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PID tuning",
+      "you_have": "Closed-loop feedback control (heading correction, no PID in profile)"
+    },
+    {
+      "jd_skill": "Signal processing and noise reduction",
+      "you_have": "DSP coursework, wavelet noise suppression (image domain)"
+    },
+    {
+      "jd_skill": "USB",
+      "you_have": "USB Host Shield integration (Arduino)"
+    },
+    {
+      "jd_skill": "Board bring-up",
+      "you_have": "EAGLE PCB design, STM32 peripheral setup"
+    },
+    {
+      "jd_skill": "Electromechanical systems",
+      "you_have": "Robotics: servos, steppers, BLDC, encoders"
+    },
+    {
+      "jd_skill": "Internal test/automation tools",
+      "you_have": "Python/Bash tooling"
+    },
+    {
+      "jd_skill": "Code reviews",
+      "you_have": "Git/GitLab workflow"
+    }
+  ],
+  "missing_skills": [
+    "Assembly",
+    "Solenoid control"
+  ],
+  "top_ats_keywords": [
+    "bare-metal",
+    "microcontroller",
+    "C",
+    "C++",
+    "Assembly",
+    "PID",
+    "actuators",
+    "motors",
+    "solenoids",
+    "signal processing",
+    "noise reduction",
+    "USB",
+    "UART",
+    "SPI",
+    "I2C",
+    "PWM",
+    "GPIO",
+    "bring-up",
+    "debugging",
+    "revision control",
+    "embedded firmware"
+  ],
+  "required_skills": [
+    "Bare-metal microcontroller firmware",
+    "C",
+    "C++",
+    "Assembly",
+    "UART",
+    "SPI",
+    "I2C",
+    "PWM",
+    "GPIO",
+    "USB",
+    "Actuator control (motors, solenoids)",
+    "PID tuning",
+    "Sensor data integration",
+    "Signal processing and noise reduction",
+    "Board bring-up",
+    "Low-level debugging",
+    "Revision control",
+    "Electromechanical systems"
+  ],
+  "preferred_skills": [
+    "C++",
+    "Assembly",
+    "Robotics/control emphasis",
+    "Internal test/automation tools"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Bare-metal firmware",
+    "Board bring-up",
+    "Actuator control with PID",
+    "Sensor signal processing",
+    "USB/UART/SPI/I2C/PWM/GPIO debug",
+    "C/C++ internal tools",
+    "Code reviews and revision control"
+  ],
+  "role_category": "embedded_systems",
+  "location": "South Jordan, Utah (on-site 5 days)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on Cortex-M4: STM32 Temperature Monitor programs GPIO, TIM2, ADC1, I2C1 directly, writes a low-level I2C driver, 3.68 KB Flash / 1.58 KB RAM",
+      "Closed-loop motor control: Robocon holonomic robot, quadrature decoding on hardware interrupts, 15 kHz PWM on four channels, heading feedback into rotation PWM, fail-safe halt state machine",
+      "UART/I2C/SPI/PWM/GPIO exposure across STM32, Arduino Due and Jetson-to-STM32 UART turret with interrupt-driven servo PWM",
+      "Debug tooling named: oscilloscopes, logic analyzers, multimeters; resolved 11 integration failures incl. servo brown-out on COFFIN",
+      "Noise handling: tap-detection jitter fix via calibration, wavelet noise suppression at BARC"
+    ],
+    "real_gaps": [
+      "No PID tuning anywhere; closed-loop work is heading correction, not tuned PID or dynamic control",
+      "No solenoid or precision electromechanical product work; actuators are hobby servos, steppers and competition-robot motors",
+      "Signal processing on sensor streams (optical, thermal, reflective) is unbacked; DSP is coursework only and wavelets were image-domain",
+      "No Assembly",
+      "Board bring-up is limited to self-designed single-layer EAGLE PCBs; no bring-up of production boards with hardware engineers",
+      "No professional firmware job; all firmware is coursework, club or capstone. No code review or manufacturing/test-tool experience in firmware",
+      "USB experience is an Arduino Host Shield, not USB firmware debug"
+    ],
+    "overstated_by_keywords": [
+      "Closed-loop feedback control counted for PID tuning, but there is no PID or tuning evidence",
+      "Signal processing counted as adjacent, but DSP is a B.E. course title and the wavelet work was on images, not sensor signals",
+      "Electromechanical systems counted adjacent, though experience is hobby and competition scale, not precision product actuators"
+    ],
+    "understated_by_keywords": [
+      "Interrupt-driven hardware quadrature decoding from first principles is strong low-level evidence for the bare-metal and debugging asks",
+      "Fail-safe motor-halt state machine and servo brown-out diagnosis show real hardware-fault troubleshooting"
+    ],
+    "screening_gaps": [
+      "Cricut states it may decline to interview candidates without citizenship or permanent residency, and re-entering into hiring anyone who may need sponsorship later, which reads directly against F-1 OPT status",
+      "No evidenced PID tuning or dynamic control of precision actuators (motors, solenoids), the centerpiece of the role",
+      "No professional firmware or production board bring-up; also no Assembly or sensor signal-processing work"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core bare-metal C, peripheral protocols and motor PWM control are well backed, but the role's distinctive pieces (PID tuning, solenoids, sensor signal processing, bring-up) rest on adjacent evidence only. Skill fit is moderate; the stated citizenship/PR preference is the larger practical risk and sits outside the skill score.",
+    "calibration_delta": 6.8
+  },
+  "semantic_pending": false
+}

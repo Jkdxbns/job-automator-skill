@@ -1,0 +1,124 @@
+{
+  "company": "MY Humancapital GmbH",
+  "company_slug": "my-humancapital",
+  "role": "Software Architect Embedded Systems (m/f/d)",
+  "job_slug": "software-architect-embedded-dresden",
+  "match_pct": 81.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 2,
+    "missing_count": 1,
+    "jd_ask_size": 11,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Embedded Systems",
+    "Low-level software",
+    "Real-time",
+    "English",
+    "Operating systems",
+    "Hardware platforms"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Software architecture",
+      "you_have": "RTOS / system design (capstone-scope)"
+    },
+    {
+      "jd_skill": "Networked systems",
+      "you_have": "I2C/SPI/Bluetooth/CAN, Flask-SocketIO"
+    }
+  ],
+  "missing_skills": [
+    "German"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "embedded systems",
+    "real-time",
+    "networked systems",
+    "software architecture",
+    "low-level",
+    "German"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Embedded Systems",
+    "Low-level software",
+    "Software architecture",
+    "German",
+    "English"
+  ],
+  "preferred_skills": [
+    "Networked systems",
+    "Real-time applications",
+    "Operating systems",
+    "Hardware platforms"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop and evaluate embedded software architectures",
+    "Analyze system landscapes",
+    "Hardware-related software for real-time",
+    "Reusable components and interfaces"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Dresden, Germany",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52.4,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "C/C++ and Python used across STM32 bare-metal temperature monitor, COFFIN arm firmware, Embedded Systems Intern at Planctech",
+      "FreeRTOS / real-time and UART/I2C/SPI peripheral work, Object Tracking Turret and CMPE 663 RTOS coursework",
+      "Linux admin (systemd, static IP, config separation) and Jetson hardware platform experience"
+    ],
+    "real_gaps": [
+      "No German at any level in profile",
+      "No ownership of a multi-team system architecture or reusable platform/interface design at org scale",
+      "Networked and communication-system design is peripheral (Flask-SocketIO, Bluetooth), no protocol stack or distributed system work",
+      "No system-landscape analysis or architecture evaluation experience"
+    ],
+    "overstated_by_keywords": [
+      "Software architecture counted Adjacent, but evidence is single-project design, not architecture of long-lived platforms",
+      "Networked systems counted Adjacent on peripheral buses, which are not communication-system architecture"
+    ],
+    "understated_by_keywords": [
+      "Hardware-near design under resource limits is backed by STM32 bare-metal and COFFIN firmware work"
+    ],
+    "screening_gaps": [
+      "No German (JD requires strong German)",
+      "Role is architect level with 0 years full-time experience",
+      "No evidence of architecting reusable platforms or networked communication systems"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Core language and embedded skills match, but the role is an architect position for a German-speaking public-sector client and the profile has no German and no full-time architecture ownership. Skill fit is partial; the language requirement alone would likely stop screening.",
+    "calibration_delta": 29.4
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,104 @@
+{
+  "company": "Bertram Capital",
+  "company_slug": "bertram_capital",
+  "role": "Forward Deployed AI Engineer",
+  "job_slug": "forward_deployed_ai_engineer",
+  "match_pct": 71.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 19,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "AI/LLM",
+    "Prototyping",
+    "Python",
+    "C++",
+    "CUDA",
+    "PyTorch",
+    "TensorFlow",
+    "Inference optimization",
+    "Communication",
+    "Cross-functional collaboration",
+    "Edge deployment",
+    "Engineering degree"
+  ],
+  "adjacent_skills": [
+    "Business integration",
+    "Workflow optimization",
+    "Rapid iteration"
+  ],
+  "missing_skills": [
+    "Business/investing domain",
+    "Portfolio operations",
+    "Startup scaling",
+    "Enterprise stakeholder management"
+  ],
+  "top_ats_keywords": [
+    "AI",
+    "LLM",
+    "Prototyping",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "Communication",
+    "Cross-functional",
+    "Engineering",
+    "Inference",
+    "Edge deployment",
+    "Transformers",
+    "CUDA",
+    "Quantization",
+    "Rapid iteration"
+  ],
+  "key_responsibilities": [
+    "Workflow Identification: Work with non-tech companies to identify bottlenecks",
+    "AI Prototyping: Build LLM POCs",
+    "Cross-Functional Handoff: Package prototypes, define requirements",
+    "Business Integration: Drive ROI and operational efficiency",
+    "Cross-Functional Collaboration: Partner with management teams"
+  ],
+  "role_category": "general_ai",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": true
+  },
+  "llm_analysis": {
+    "llm_match_pct": 64,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "LLM/AI foundation: Hugging Face Transformers, inference engine work, capstone with Gemini + faster-whisper + TensorRT YOLO",
+      "Prototyping mindset: Inference engine (from-scratch C++/CUDA), custom RTOS, SmolVLA work = ship-and-iterate experience",
+      "Communication: Master profile bullets are clear and metric-driven, team lead experience",
+      "Cross-functional: Fellowship leadership (7-person team), capstone coordination across CV/hardware/systems",
+      "Engineering mindset: Willingness to pivot tools, optimize under constraints, validate tradeoffs"
+    ],
+    "real_gaps": [
+      "Business operations: JD centers on identifying operational bottlenecks; Justin has zero exposure to business process analysis, cost structures, or operational KPIs",
+      "Stakeholder management: All experience is explaining to technical peers; no evidence of pitching to C-suite or translating business constraints",
+      "Scaling perspective: Capstone and projects are research-scoped; no exposure to engineering evolution when handing to production team"
+    ],
+    "overstated_by_keywords": [
+      "Business integration: stated in global profile but not evidenced in projects",
+      "Workflow optimization: optimizes inference workflows, not business workflows"
+    ],
+    "understated_by_keywords": [
+      "Customer empathy from Jetson deployment (hardware constraints as user experience problem)",
+      "Architectural judgment (chose Gemini over fine-tune, flow-matching over autoregressive)"
+    ],
+    "screening_gaps": [
+      "No business operations background—role centers on identifying bottlenecks in portfolio companies; Justin has never analyzed business processes or operational metrics",
+      "Limited stakeholder communication at decision-maker level—all experience is explaining to technical peers; hasn't pitched to non-technical executives",
+      "May struggle with 'hand off and move on' scope—capstone shows depth-first, end-to-end building; risk of wanting to over-engineer or stay involved in scaling"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core AI and prototyping skills are well-backed and directly aligned. Cross-functional coordination is strong at peer level. The gap is business domain and C-suite communication—both expected for a new-grad hire and both learnable. Bertram buys capability to build and iterate; Justin delivers that."
+  }
+}

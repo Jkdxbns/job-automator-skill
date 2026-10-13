@@ -1,0 +1,148 @@
+{
+  "company": "Path Robotics",
+  "company_slug": "path-robotics",
+  "role": "Software Engineer - ML Infrastructure",
+  "job_slug": "swe-ml-infra",
+  "match_pct": 71.1,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 19,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "C++",
+    "ROS",
+    "robotics software stacks",
+    "GPU compute",
+    "Linux",
+    "model training",
+    "model deployment",
+    "hardware integration",
+    "evaluation",
+    "simulation environments"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "data pipelines",
+      "you_have": "ASR / data acquisition pipelines"
+    },
+    {
+      "jd_skill": "runtime monitoring",
+      "you_have": "pynvml profiling, systemd services"
+    },
+    {
+      "jd_skill": "sensor and telemetry data",
+      "you_have": "sensor data acquisition (Jetson, MPU/ToF)"
+    }
+  ],
+  "missing_skills": [
+    "MLOps",
+    "experiment tracking",
+    "model versioning",
+    "containerised workflows"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "C++",
+    "ROS",
+    "MLOps",
+    "experiment tracking",
+    "model versioning",
+    "data pipelines",
+    "simulation",
+    "containerised workflows",
+    "GPU compute",
+    "Linux",
+    "telemetry",
+    "model deployment",
+    "runtime monitoring"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "ML infrastructure / MLOps",
+    "data pipelines",
+    "containerised workflows",
+    "GPU compute",
+    "Linux",
+    "simulation environments",
+    "model deployment"
+  ],
+  "preferred_skills": [
+    "C++",
+    "ROS",
+    "robotics software stacks"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build ML infra for robot learning: training, experiment tracking, versioning, deployment",
+    "Pipelines for large-scale robotic sensor and telemetry data",
+    "Deploy AI models onto robots incl. simulation, HW integration, runtime monitoring, field feedback loops",
+    "Internal tools for dataset exploration, testing, evaluation"
+  ],
+  "role_category": "ml_systems",
+  "location": "Columbus, Ohio",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 63,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Robot-side deployment: TensorRT YOLO on Jetson, 5.2x speedup (56.7 to 10.9 ms), 100% pick reliability 10/10 (COFFIN)",
+      "Robot data collection: LeRobot-structured multi-camera pipeline with multiprocessing (COFFIN)",
+      "Simulation-driven data generation: CARLA pipeline producing ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation",
+      "PyTorch training depth: DONUT fine-tune 55% to 93%, GPT-2 from scratch, YOLO11n mAP50 ~0.85",
+      "ROS 2 hands-on: UR5e/AL5B with MoveIt and RViz, plus CUDA and GPU profiling with pynvml"
+    ],
+    "real_gaps": [
+      "No experiment tracking, model registry or versioning (MLflow, W&B, DVC) anywhere in the profile",
+      "No Docker/containers or orchestration on the resume",
+      "No production ML platform ownership: no CI/CD for models, no monitoring or field feedback loop at scale",
+      "Data pipelines are project scale, not large-scale telemetry curation; no Spark/Airflow-style tooling",
+      "0 years full time vs 3 to 6 asked (seniority concern, noted only)"
+    ],
+    "overstated_by_keywords": [
+      "simulation environments counted Have: CARLA is one project, not a sim platform",
+      "model training counted Have: mostly single-GPU course/project scale",
+      "C++ counted Have: working depth via CUDA kernels, not production C++"
+    ],
+    "understated_by_keywords": [
+      "CARLA automated data-generation pipeline is a direct match for data pipelines that the keyword pass only counted as Adjacent",
+      "LeRobot-structured data collection is the closest thing to robot data curation and never string-matched",
+      "pynvml/psutil profiling plus systemd is real runtime monitoring evidence"
+    ],
+    "screening_gaps": [
+      "No MLOps stack (experiment tracking, model versioning, registry)",
+      "No containerised workflows (Docker) on the resume",
+      "No production-scale ML infrastructure ownership; 0 years full time against a 3 to 6 year ask"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Deployment, robotics, PyTorch and GPU depth are real, and the CARLA and LeRobot pipelines back the data-pipeline ask better than keywords show. The core of the role, MLOps tooling and containerised infra, has no backing, and the seniority bar is a stretch. Worth applying, but expect a screen on MLOps.",
+    "calibration_delta": 8.1
+  }
+}

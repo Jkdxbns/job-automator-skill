@@ -1,0 +1,76 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Embedded Software Infrastructure Engineer",
+  "job_slug": "embedded-software-infrastructure-engineer",
+  "match_pct": 75,
+  "required_skills": [
+    "Python",
+    "Build/Test Automation",
+    "Debugging",
+    "Embedded Software"
+  ],
+  "have_skills": [
+    "Python",
+    "C/C++ (Embedded)",
+    "UART/I2C/SPI",
+    "FreeRTOS/RTOS",
+    "Firmware (bare-metal)",
+    "Debugging (oscilloscopes, logic analyzers)",
+    "Embedded Software (STM32)"
+  ],
+  "adjacent_skills": [
+    "Build/Test Automation \u2192 CMake + Bash scripting",
+    "JTAG \u2192 Logic analyzers / oscilloscopes",
+    "HIL systems \u2192 hardware bring-up on real HW",
+    "GenAI for devtools \u2192 ML/AI experience"
+  ],
+  "missing_skills": [
+    "CI/CD (Jenkins)",
+    "Grafana/Prometheus",
+    "Kubernetes/Docker",
+    "Ansible",
+    "Splunk",
+    "Cross-compilation toolchains",
+    "Log aggregation systems"
+  ],
+  "preferred_have": [
+    "C/C++ embedded",
+    "UART/I2C/SPI",
+    "FreeRTOS",
+    "Firmware"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "CI/CD",
+    "Jenkins",
+    "Embedded",
+    "RTOS",
+    "Firmware",
+    "C/C++",
+    "Docker",
+    "UART",
+    "JTAG",
+    "HIL",
+    "Grafana",
+    "Kubernetes"
+  ],
+  "key_responsibilities": [
+    "Design and operate CI/CD pipelines for embedded SW build to regression on real silicon",
+    "Log aggregation, failure triage, root cause analysis across large test fleets",
+    "Build/operate compute/storage resources on-prem and cloud",
+    "Deploy toolchain updates, integrate debug tools",
+    "Scale to thousands of daily builds across multiple target devices"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "sponsorship": "Apple is a known sponsor (H1B)",
+  "experience_required": 0,
+  "location": "Cupertino, CA",
+  "remote_ok": false,
+  "clearance_required": false,
+  "date": "2026-06-05"
+}

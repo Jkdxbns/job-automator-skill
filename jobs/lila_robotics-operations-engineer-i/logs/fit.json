@@ -1,0 +1,157 @@
+{
+  "company": "Lila",
+  "company_slug": "lila",
+  "role": "Robotics Operations Engineer I",
+  "job_slug": "robotics-operations-engineer-i",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 18,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "robotic systems hands-on experience",
+    "kinematics",
+    "sensors",
+    "ROS2",
+    "mechanical troubleshooting",
+    "electrical troubleshooting",
+    "Python scripting",
+    "mechanical/electrical/robotics/mechatronics degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "actuators",
+      "you_have": "PWM-driven servo/motor control (STM32, AL5B robotic arm)"
+    },
+    {
+      "jd_skill": "control systems",
+      "you_have": "Visual servoing / RTOS control loops"
+    },
+    {
+      "jd_skill": "cabling and fasteners maintenance",
+      "you_have": "Hands-on PCB/wiring assembly, sensor mounting"
+    }
+  ],
+  "missing_skills": [
+    "production rollout/pilot phase experience",
+    "Nav2",
+    "Behavior Trees",
+    "fleet management",
+    "monitoring dashboards",
+    "telemetry",
+    "issue-tracking systems"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "Nav2",
+    "Behavior Trees",
+    "Python",
+    "kinematics",
+    "sensors",
+    "actuators",
+    "control systems",
+    "fleet management",
+    "telemetry",
+    "monitoring dashboards"
+  ],
+  "required_skills": [
+    "robotic systems hands-on experience",
+    "kinematics",
+    "sensors",
+    "actuators",
+    "control systems",
+    "ROS2",
+    "mechanical troubleshooting",
+    "electrical troubleshooting",
+    "cabling",
+    "fasteners"
+  ],
+  "preferred_skills": [
+    "production rollout/pilot phase experience",
+    "Nav2",
+    "Behavior Trees",
+    "Python scripting",
+    "fleet management",
+    "monitoring dashboards",
+    "telemetry",
+    "issue-tracking systems",
+    "mechanical/electrical/robotics/mechatronics degree"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Monitor live robot operations",
+    "Intervene to pause/stop/reset robots",
+    "Document incidents (logs, sensor output, video)",
+    "Minor robot maintenance (cabling, sensor swaps, fasteners)",
+    "Robot swap procedures",
+    "Maintain fleet health records",
+    "Identify recurring failure patterns"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Cambridge, MA, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 50,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Two full ROS2 robotic-arm projects (AL5B & UR5e) with hand-derived DH tables and forward kinematics validated against MoveIt/RViz/URDF in ROS 2 Humble and Noetic",
+      "Object Tracking Turret and COFFIN capstone both show real closed-loop sensor-actuator integration (ToF range-gating, multi-servo PWM, interrupt-driven UART) and a user-override / fail-safe pattern that maps to 'intervene to pause/stop/reset'",
+      "COFFIN capstone: root-caused and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability \u2014 direct evidence of the failure-pattern-identification and fix-prioritization the JD asks for",
+      "Genuine hands-on PCB fabrication, wiring, and sensor-mounting across the Agnel Robotics Club (25-member national-competition team) and COFFIN, plus oscilloscope/logic-analyzer bench debugging",
+      "Deployed the COFFIN Jetson arm bridge as a systemd service with auto-restart, static IP networking, and XRDP administration \u2014 a real keep-it-running-reliably ops habit, even though it is lab-scale not fleet-scale"
+    ],
+    "real_gaps": [
+      "No live production-operations experience \u2014 all robotics work is academic, capstone, or research scope, never a deployed fleet with uptime/incident-response expectations",
+      "No fleet management, telemetry, monitoring-dashboard, or issue-tracking system experience of any kind",
+      "No Nav2 or Behavior Trees exposure \u2014 the JD names these specifically as its ROS2 tooling bonus",
+      "No robot-swap / spare-unit-validation procedure experience \u2014 that workflow does not exist in a single-unit academic project",
+      "ROS2 depth is motion-planning/kinematics validation (MoveIt, RViz, URDF), not the ops-side node/topic/launch-file/introspection debugging the JD calls out"
+    ],
+    "overstated_by_keywords": [
+      "'ROS2' scored Have, but the real depth is kinematics/motion-planning validation, not the launch-file/topic/introspection debugging workflow the JD specifically wants",
+      "'mechanical/electrical troubleshooting' scored Have, but the evidence is bench-level PCB design and circuit debugging, not field maintenance or swap procedures on a deployed fleet"
+    ],
+    "understated_by_keywords": [
+      "The 11-failure-mode debug log on COFFIN (servo brown-out, stale-frame capture, false positives) is a stronger match to 'identify recurring failure patterns' than a plain keyword pass credits",
+      "systemd auto-restart / static-IP / XRDP administration on the Jetson shows a real reliability-engineering habit the keyword list has no category for"
+    ],
+    "screening_gaps": [
+      "No production or live-fleet robot-operations experience \u2014 the entire profile is research, capstone, and academic-team scope, never a deployed system with uptime/incident-response accountability",
+      "No fleet management, telemetry, monitoring-dashboard, or issue-tracking tool experience \u2014 a named bonus ask with zero backing anywhere in the profile",
+      "No Nav2 or Behavior Trees exposure, despite ROS2 experience elsewhere \u2014 the JD names these specifically as its core tooling bonus"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin has real, hands-on robotics building blocks \u2014 kinematics, sensor-actuator integration, closed-loop control, and a genuine debugging track record on COFFIN \u2014 but almost none of it was earned in a production or fleet-operations context, which is the actual center of this role. The gap is domain (lab/capstone vs. live production fleet ops), not raw robotics skill, and it leaves most of the JD's core responsibilities (monitoring, swaps, fleet records, telemetry) without concrete backing.",
+    "calibration_delta": 2.8
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-03",
+    "channel": "application",
+    "notes": "Form rejection. No feedback."
+  }
+}

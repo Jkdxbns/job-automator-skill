@@ -1,0 +1,110 @@
+{
+  "company": "Proxima Fusion",
+  "company_slug": "proxima-fusion",
+  "role": "Embedded Control Engineer",
+  "job_slug": "embedded-control-engineer",
+  "match_pct": 53.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "embedded architectures",
+    "microcontrollers",
+    "real-time embedded software",
+    "systems programming",
+    "hardware interfaces and communication protocols",
+    "debugging on target hardware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "DSP",
+      "you_have": "Digital Signal Processing (coursework)"
+    },
+    {
+      "jd_skill": "power electronics control",
+      "you_have": "PWM motor control, BLDC, closed-loop feedback control"
+    },
+    {
+      "jd_skill": "automated testing",
+      "you_have": "benchmark/eval scripts"
+    }
+  ],
+  "missing_skills": [
+    "FPGA programming",
+    "industrial automation",
+    "model-based development",
+    "hardware-in-the-loop testing",
+    "safety-critical software"
+  ],
+  "top_ats_keywords": [
+    "embedded",
+    "real-time",
+    "microcontroller",
+    "DSP",
+    "FPGA",
+    "power electronics",
+    "control",
+    "hardware-in-the-loop",
+    "automated testing",
+    "safety-critical",
+    "model-based development",
+    "communication protocols",
+    "industrial automation"
+  ],
+  "required_skills": [
+    "embedded architectures",
+    "microcontrollers",
+    "real-time embedded software",
+    "FPGA programming",
+    "systems programming",
+    "hardware interfaces and communication protocols",
+    "debugging on target hardware",
+    "DSP",
+    "power electronics control",
+    "industrial automation"
+  ],
+  "preferred_skills": [
+    "model-based development",
+    "hardware-in-the-loop testing",
+    "automated testing",
+    "safety-critical software"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Define embedded controller architectures for power electronic converters",
+    "Select MCU/DSP/FPGA",
+    "Real-time deterministic control software",
+    "Test, debug, validate on target hardware",
+    "Automated test environments"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Zurich, Switzerland (Emploive listed Munich)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

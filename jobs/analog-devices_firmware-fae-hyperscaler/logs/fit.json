@@ -1,0 +1,110 @@
+{
+  "company": "Analog Devices",
+  "company_slug": "analog-devices",
+  "role": "Firmware Field Applications Engineer, Hyperscaler Data Center Accounts",
+  "job_slug": "firmware-fae-hyperscaler",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 1,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "RTOS",
+    "I2C",
+    "SPI",
+    "UART",
+    "JTAG",
+    "Python",
+    "Git",
+    "Microcontrollers",
+    "Firmware Debugging",
+    "Bare-Metal",
+    "HAL",
+    "Oscilloscope"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "USB",
+      "you_have": "UART/serial peripherals"
+    }
+  ],
+  "missing_skills": [
+    "PMBus",
+    "Power Semiconductors",
+    "Hyperscaler",
+    "Data Center"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "RTOS",
+    "I2C",
+    "PMBus",
+    "SPI",
+    "UART",
+    "USB",
+    "JTAG",
+    "Python",
+    "Git",
+    "firmware debugging",
+    "microcontroller",
+    "field applications engineer"
+  ],
+  "required_skills": [
+    "C",
+    "RTOS",
+    "I2C",
+    "PMBus",
+    "SPI",
+    "UART",
+    "USB",
+    "JTAG",
+    "Bare-Metal",
+    "HAL",
+    "Python",
+    "Git",
+    "Firmware Debugging",
+    "Microcontrollers",
+    "Oscilloscope"
+  ],
+  "preferred_skills": [
+    "Data Center",
+    "Power Semiconductors",
+    "Hyperscaler"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "pre-sales discovery",
+    "system architecture for hyperscaler customers",
+    "executive customer engagement"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Export control / deemed export: \"applicants for this position - except US Citizens, US Permanent Residents, and protected individuals ... may have to go through an export licensing review process\" (BIS/DDTC) [ITAR/EAR]"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

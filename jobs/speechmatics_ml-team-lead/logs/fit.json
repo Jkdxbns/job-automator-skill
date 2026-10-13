@@ -1,0 +1,130 @@
+{
+  "company": "Speechmatics",
+  "company_slug": "speechmatics",
+  "role": "Machine Learning Team Lead",
+  "job_slug": "ml-team-lead",
+  "match_pct": 39.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.529,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Transformer architectures",
+    "Speech recognition"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Mentoring ML engineers / team lead",
+      "you_have": "Led team of 7 (capstone, took over as lead)"
+    },
+    {
+      "jd_skill": "Distributed training",
+      "you_have": "MPI, SLURM clusters (HPC, not DDP/FSDP)"
+    },
+    {
+      "jd_skill": "Inference optimization",
+      "you_have": "TensorRT, quantization, CUDA kernels"
+    },
+    {
+      "jd_skill": "Deploying models at scale",
+      "you_have": "Edge deployment on Jetson"
+    },
+    {
+      "jd_skill": "Software engineering practices",
+      "you_have": "Git, GitLab, CMake"
+    }
+  ],
+  "missing_skills": [
+    "GQA",
+    "KV-caching",
+    "Dynamic batching",
+    "Flash attention",
+    "Speculative decoding",
+    "Cloud platforms",
+    "ML testing frameworks",
+    "Self-supervised models",
+    "Model serving"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "Speech recognition",
+    "Transformer",
+    "KV-caching",
+    "GQA",
+    "Distributed training",
+    "Flash attention",
+    "Speculative decoding",
+    "Dynamic batching",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "Cloud",
+    "Model serving",
+    "Self-supervised",
+    "Team lead",
+    "Mentoring"
+  ],
+  "required_skills": [
+    "Mentoring ML engineers",
+    "Work prioritization",
+    "Transformer architectures",
+    "GQA",
+    "KV-caching",
+    "Distributed training",
+    "Inference optimization",
+    "Dynamic batching",
+    "Flash attention",
+    "Speculative decoding",
+    "Deploying models at scale",
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Cloud platforms",
+    "Software engineering practices",
+    "ML testing frameworks"
+  ],
+  "preferred_skills": [
+    "Speech recognition",
+    "Self-supervised models",
+    "Model serving"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead, mentor and grow ML engineers",
+    "Technical oversight of end-to-end ML development",
+    "Guide software engineering best practices",
+    "Plan work and collaborate cross-functionally",
+    "Drive technical delivery to production"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, England, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

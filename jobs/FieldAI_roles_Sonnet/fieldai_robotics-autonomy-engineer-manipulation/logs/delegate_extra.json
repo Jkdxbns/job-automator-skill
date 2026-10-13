@@ -1,0 +1,20 @@
+{
+  "strengths": [
+    "Direct match on ROS2 + robotics manipulation (COFFIN arm capstone, UR5e, AL5B, DH/kinematics)",
+    "Edge AI deployment stack matches exactly: Jetson + TensorRT + YOLO + faster-whisper + sensor fusion",
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4, FreeRTOS) aligns with real-robot sensor/actuator integration",
+    "CUDA / GPU optimization (custom kernels, memory coalescing, quantization) supports high-performance on-robot inference",
+    "Computer vision + ML pipeline experience (YOLO, U-Net, quantization, ASR) covers perception and learning requirements",
+    "Hardware-in-the-loop deployment with real sensors (ToF, I2C, UART, Bluetooth) demonstrates field-readiness mindset"
+  ],
+  "real_gaps": [
+    "New-grad with zero full-time industry years; JD implies production-scale deployment and globally deployed solutions (experience gap, not skill gap)",
+    "No formal safety / reliability certification; JD emphasizes risk-aware, explainable, safe field deployment",
+    "Limited to internship/research-scale deployments rather than commercial production autonomy systems",
+    "Basic ROS MoveIt/perception but not full SLAM/navigation planning stack for unstructured outdoor environments"
+  ],
+  "reasoning": "The JD asks for an autonomy/manipulation engineer building real-world, field-deployable systems combining ML with rigorous robotics engineering. The candidate has strong direct matches in ROS/ROS2, computer vision, deep learning, CUDA, Jetson edge deployment, embedded C, and robotics manipulation \u2014 all core to the role. Key gaps are experience-level (0 full-time years vs. implied production/deployment scale), absence of formal safety/reliability certification, and limited advanced SLAM/planning for unstructured field environments. No sponsorship, clearance, citizenship, ITAR, or senior-level blocker is present in the JD, and the candidate is willing to relocate to Irvine, CA. Overall: high skill-fit with experience-scale mismatch; not a hard-blocker case.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/669f149b-a7a9-4f6e-8080-79b8b7903c83",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

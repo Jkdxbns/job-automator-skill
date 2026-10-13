@@ -1,0 +1,109 @@
+{
+  "company": "Platinum Dermatology Partners",
+  "company_slug": "platinum-dermatology-partners",
+  "role": "AI Engineer",
+  "job_slug": "ai-engineer",
+  "match_pct": 26.9,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 13,
+    "req_cov": 0.192,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "REST API"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Voice AI technologies",
+      "you_have": "ASR/STT pipelines (faster-whisper, WER-tuned)"
+    },
+    {
+      "jd_skill": "Practical daily LLM + AI coding agent workflow",
+      "you_have": "LLM fine-tuning/quantization (GPT-2, TinyLlama, HuggingFace)"
+    },
+    {
+      "jd_skill": "Frontend development for dashboards",
+      "you_have": "GUI/dashboard tooling (PyQt, Flutter, Flask-SocketIO, WebSocket)"
+    }
+  ],
+  "missing_skills": [
+    "FHIR/HL7 healthcare data standards",
+    "HIPAA compliance / PHI handling",
+    "Databricks/Spark data platform",
+    "Azure cloud infrastructure",
+    "SQL",
+    "Demonstrated production software shipping",
+    "Healthcare operations domain knowledge",
+    "Autonomous end-to-end project ownership"
+  ],
+  "top_ats_keywords": [
+    "FHIR",
+    "HL7",
+    "HIPAA",
+    "PHI",
+    "Databricks",
+    "Spark",
+    "Azure",
+    "Python",
+    "SQL",
+    "REST API",
+    "LLM",
+    "Voice AI",
+    "agentic workflows",
+    "dashboards"
+  ],
+  "required_skills": [
+    "FHIR/HL7 healthcare data standards",
+    "HIPAA compliance / PHI handling",
+    "Databricks/Spark data platform",
+    "Azure cloud infrastructure",
+    "Voice AI technologies",
+    "Practical daily LLM + AI coding agent workflow",
+    "Frontend development for dashboards",
+    "Demonstrated production software shipping",
+    "Python",
+    "SQL",
+    "REST API integration",
+    "Healthcare operations domain knowledge",
+    "Autonomous end-to-end project ownership"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, build, and deploy AI-powered automation for operations workflows (referrals, denials, patient outreach, credentialing, revenue cycle)",
+    "Develop and maintain features for pGPT, Platinum's internal enterprise AI platform",
+    "Integrate operational systems (ModMed EMA, NextGen PM, Paycom, Coupa, Monday.com, SharePoint, Google Ads) into Databricks",
+    "Build and maintain data pipelines using Databricks and Azure infrastructure",
+    "Deploy and maintain voice AI integrations for patient outreach and clinical dictation",
+    "Work with IT on infrastructure and security automation",
+    "Document integrations and workflows with runbooks"
+  ],
+  "role_category": "ml_systems",
+  "location": "Dallas, TX 75231",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

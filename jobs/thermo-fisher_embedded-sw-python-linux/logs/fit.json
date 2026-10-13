@@ -1,0 +1,144 @@
+{
+  "company": "Thermo Fisher Scientific",
+  "company_slug": "thermo-fisher",
+  "role": "Embedded Software Developer \u2013 Python/Linux (Software Engineer III)",
+  "job_slug": "embedded-sw-python-linux",
+  "match_pct": 78.6,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 1,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Git",
+    "Linux",
+    "C++",
+    "Networking",
+    "Communication protocols",
+    "Communication buses",
+    "Embedded systems",
+    "Automated testing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "Linux"
+    },
+    {
+      "jd_skill": "Instrument control",
+      "you_have": "Data acquisition / sensor interfacing"
+    },
+    {
+      "jd_skill": "DevOps",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Continuous integration",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "Scientific instrumentation"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Embedded Linux",
+    "Git",
+    "DevOps",
+    "Continuous integration",
+    "C++",
+    "Linux",
+    "Networking",
+    "Communication protocols",
+    "Embedded systems",
+    "Scientific instrumentation",
+    "Automated testing"
+  ],
+  "required_skills": [
+    "Python",
+    "Git",
+    "DevOps",
+    "Embedded Linux",
+    "Instrument control",
+    "Automated testing"
+  ],
+  "preferred_skills": [
+    "C++",
+    "Linux",
+    "Networking",
+    "Communication protocols",
+    "Communication buses",
+    "Embedded systems",
+    "Scientific instrumentation",
+    "Continuous integration"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Python for mass spec instruments",
+    "embedded Linux instrument control",
+    "debug communication/instrument-level problems",
+    "CI/DevOps"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Brno, Czechia (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 71,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Python is the main language across COFFIN (Flask-SocketIO edge server, multiprocessing capture pipeline) and the BARC lab DAQ GUI (PyQt/Matplotlib, real-time data acquisition in a laboratory)",
+      "Embedded Linux service work: Jetson arm bridge deployed as a systemd service with auto-restart, non-root isolation, env-file config, static IP networking",
+      "Hardware/software interfaces and buses: UART/I2C sensor links, TCA9548A I2C mux with dual VL53L0X, STM32 bare-metal I2C/ADC drivers, Jetson to STM32 UART",
+      "Debugging instrument-level faults: resolved 11 integration failures (servo brown-out, stale frames, false positives) in COFFIN",
+      "Git plus GitLab and JupyterHub at BARC"
+    ],
+    "real_gaps": [
+      "No CI pipeline or DevOps ownership shown (only GitLab for version control)",
+      "No Linux image/Yocto/kernel-level embedded Linux work, only application-level on Jetson",
+      "No mass spectrometry or analytical-instrument domain",
+      "No evidence of owning software architecture or code review process in a team product",
+      "Automated testing limited to golden-vector validation and manual trials"
+    ],
+    "overstated_by_keywords": [
+      "DevOps and Continuous integration counted adjacent via GitLab, which is version control only",
+      "Networking is socket/WebSocket level, not protocol-stack depth"
+    ],
+    "understated_by_keywords": [
+      "BARC PyQt lab data-acquisition GUI is direct evidence of scientific-instrument-adjacent Python",
+      "COFFIN systemd deployment and multi-device networking back embedded Linux more than the keyword pass credited"
+    ],
+    "screening_gaps": [
+      "No CI/DevOps pipeline experience",
+      "No scientific or analytical instrumentation domain",
+      "2+ years of professional experience requested, profile is new-grad with internships"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The core stack (Python on embedded Linux controlling hardware over serial buses, plus a lab DAQ GUI) is backed by real projects. The gaps are CI/DevOps and the mass spectrometry domain, both learnable. Czech Blue Card salary floor is about 35,400 EUR so no stated-salary flag applies.",
+    "calibration_delta": 7.6
+  },
+  "semantic_pending": false
+}

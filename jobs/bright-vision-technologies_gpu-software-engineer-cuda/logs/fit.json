@@ -1,0 +1,141 @@
+{
+  "company": "Bright Vision Technologies",
+  "company_slug": "bright-vision-technologies",
+  "role": "GPU Software Engineer (CUDA)",
+  "job_slug": "gpu-software-engineer-cuda",
+  "match_pct": 56.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 25,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "CUDA",
+    "C++",
+    "MPI",
+    "PyTorch",
+    "TensorRT",
+    "quantization",
+    "attention",
+    "memory coalescing",
+    "shared memory",
+    "GPU",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Nsight profiling",
+      "you_have": "pynvml profiling / CUDA profiling"
+    },
+    {
+      "jd_skill": "distributed training",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "vLLM",
+      "you_have": "inference engine / TensorRT"
+    },
+    {
+      "jd_skill": "linear algebra",
+      "you_have": "CUDA kernels"
+    },
+    {
+      "jd_skill": "custom kernels in ML frameworks",
+      "you_have": "CUDA + PyTorch"
+    }
+  ],
+  "missing_skills": [
+    "NCCL",
+    "RDMA",
+    "Triton",
+    "CUTLASS",
+    "LLVM",
+    "MLIR",
+    "FasterTransformer",
+    "open-source GPU contributions"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "Nsight",
+    "NCCL",
+    "RDMA",
+    "MPI",
+    "PyTorch",
+    "JAX",
+    "Triton",
+    "CUTLASS",
+    "TensorRT",
+    "vLLM",
+    "LLVM",
+    "MLIR",
+    "quantization",
+    "mixed-precision",
+    "shared memory",
+    "occupancy",
+    "memory coalescing",
+    "attention",
+    "C++"
+  ],
+  "required_skills": [
+    "CUDA C/C++",
+    "GPU architecture",
+    "memory hierarchy",
+    "Nsight profiling",
+    "NCCL",
+    "MPI",
+    "custom kernels in ML frameworks",
+    "C++",
+    "linear algebra",
+    "numerical methods"
+  ],
+  "preferred_skills": [
+    "Triton",
+    "CUTLASS",
+    "TensorRT",
+    "vLLM",
+    "LLVM",
+    "MLIR",
+    "distributed training"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "CUDA kernels",
+    "Nsight profiling",
+    "attention/linear algebra libraries",
+    "multi-GPU NCCL/RDMA",
+    "PyTorch/JAX/Triton custom ops",
+    "mixed-precision/quantized paths",
+    "mentorship"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Remote (US)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

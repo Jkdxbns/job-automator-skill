@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "company": "Saildrone",
+    "role": "Software Engineer, Autonomous Systems",
+    "company_slug": "saildrone",
+    "job_slug": "swe-autonomous-systems"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology, NY. Built autonomous perception and control pipelines validated in CARLA simulation (zero collisions) and on hardware, including TensorRT-optimized YOLO visual servoing at 92 FPS on Jetson. Experienced in C++, Python, sensor integration, and real-time systems.",
+  "skills": {
+    "Languages & Tools": [
+      "C++",
+      "Python",
+      "C",
+      "Linux",
+      "systemd",
+      "Flask",
+      "Proteus"
+    ],
+    "Autonomy & Robotics": [
+      "autonomous systems",
+      "simulation (CARLA)",
+      "perception",
+      "trajectory planning",
+      "visual servoing",
+      "sensor integration",
+      "ROS 2"
+    ],
+    "Perception / ML": [
+      "YOLO",
+      "TensorRT",
+      "UFLD",
+      "depth estimation"
+    ],
+    "Embedded & Real-Time": [
+      "real-time systems",
+      "STM32",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Arduino",
+      "UART/I2C"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2× speedup: 56.7→10.9 ms, 17.6→92 FPS vs eager PyTorch) for real-time visual servoing, plus dual VL53L0X ToF sensors for contact-aware grasping (gripper close at 25 mm).",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through hardware debugging; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Built a voice-controlled, vision-guided pick-and-place system: Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller over WebSockets.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection.",
+        "Deployed the Jetson-side arm bridge as a systemd service with auto-restart and non-root isolation on headless Linux."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Validated the autonomous driving stack in CARLA simulation (Town02, 30 vehicles, 10 pedestrians): zero collisions and correct traffic light compliance across multiple laps.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a real-time object tracker: YOLOv8 on NVIDIA Jetson sends control commands to STM32 over UART; FreeRTOS with mutexes for task coordination, interrupt-driven multi-servo PWM control, and VL53L0X ToF sensing."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed a Cortex-M4 in bare-metal C (ADC, TIM2, I2C1, interrupts) in 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Ran collision-free trajectory planning and pick-and-place on a physical UR5e via UR ROS 2 driver."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Random Signal Analysis",
+        "Digital Signal Processing",
+        "Image Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

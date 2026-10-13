@@ -1,0 +1,101 @@
+{
+  "company": "DiDi Labs",
+  "company_slug": "didi",
+  "role": "Technical Program Manager, Autonomy",
+  "job_slug": "tpm-autonomy",
+  "match_pct": 21.4,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 10,
+    "jd_ask_size": 14,
+    "req_cov": 0.071,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Robotics Interest",
+    "Autonomous Driving Interest"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Prior Technical Internship",
+      "you_have": "7 technical internships (ML/embedded/robotics), none in PM"
+    },
+    {
+      "jd_skill": "Cross-functional Coordination",
+      "you_have": "Team-based capstone/research project coordination, not formal program management"
+    }
+  ],
+  "missing_skills": [
+    "Technical Program Management",
+    "Project Scheduling",
+    "Software Development Lifecycle (process ownership)",
+    "Agile",
+    "Milestone Planning",
+    "Progress Tracking",
+    "Release Management",
+    "Jira",
+    "Confluence",
+    "ADAS"
+  ],
+  "top_ats_keywords": [
+    "Technical Program Manager",
+    "Agile",
+    "Jira",
+    "Confluence",
+    "Milestone Planning",
+    "Cross-functional",
+    "Software Development Lifecycle",
+    "Autonomous Driving",
+    "Robotics"
+  ],
+  "required_skills": [
+    "Technical Program Management",
+    "Project Scheduling",
+    "Cross-functional Coordination",
+    "Software Development Lifecycle",
+    "Agile",
+    "Communication Skills",
+    "Analytical Capability"
+  ],
+  "preferred_skills": [
+    "Autonomous Driving Interest",
+    "Robotics Interest",
+    "ADAS",
+    "Jira",
+    "Confluence",
+    "Prior Technical Internship"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Milestone Planning",
+    "Progress Tracking",
+    "Release Logistics",
+    "Process & Meetings",
+    "Reporting & Action"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

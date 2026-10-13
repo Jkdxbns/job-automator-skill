@@ -1,0 +1,26 @@
+{
+  "company": "Generic",
+  "company_slug": "generic",
+  "role": "HPC / CUDA / Parallel Systems Engineer",
+  "job_slug": "hpc_cuda",
+  "match_pct": null,
+  "missing_skills": [],
+  "adjacent_skills": ["OpenMP", "Distributed training clusters"],
+  "top_ats_keywords": [
+    "CUDA", "CUDA C++", "MPI", "SLURM", "Parallel computing",
+    "Memory coalescing", "Kernel optimization", "Load balancing",
+    "Performance benchmarking", "GPU programming", "C/C++",
+    "Distributed systems", "High performance computing"
+  ],
+  "key_responsibilities": [
+    "Write and optimize CUDA kernels for compute-heavy workloads",
+    "Design distributed/parallel algorithms using MPI on cluster hardware",
+    "Benchmark and profile performance across memory and compute bottlenecks",
+    "Manage cluster jobs via SLURM",
+    "Analyze scaling behavior and load balancing across workers"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {"matches": "Yes", "apply": "N/A - generic resume, no specific job"},
+  "llm_analysis": null,
+  "note": "Synthetic fit context for a role-category-generic HPC/CUDA resume, not tied to a specific job posting."
+}

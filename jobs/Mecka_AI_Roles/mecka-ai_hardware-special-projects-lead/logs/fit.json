@@ -1,0 +1,96 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Hardware, Special Projects Lead",
+  "job_slug": "hardware-special-projects-lead",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 6,
+    "jd_ask_size": 12,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "embedded software / bare-metal",
+    "robotics / ROS2",
+    "embedded electronics / sensing",
+    "prototype / integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "deep hands-on hardware expertise (mechanics/electronics/embedded)",
+      "you_have": "embedded C/C++ / electronics / sensors"
+    },
+    {
+      "jd_skill": "prototype \u2192 validation \u2192 deployment / manufacturing",
+      "you_have": "prototype/build experience only"
+    }
+  ],
+  "missing_skills": [
+    "Taking a complete hardware/robotics system through validation and deployment (candidate has capstone/research/intern scope, not end-to-end product ownership)",
+    "Deep mechanical design expertise (SolidWorks listed but only as an ATS keyword, no evidence of mechanical design practice)",
+    "Guiding engineers and suppliers through design reviews and technical decisions (leadership / supplier management - not in keyword list)",
+    "Product requirements definition and manufacturing/reliability tradeoffs at organization scale",
+    "Precision tracking / synchronized sensor systems (no GPS/IMU fusion, motion-capture, or multi-sensor sync keywords)",
+    "Moving research hardware into production (no manufacturing, supply chain, or field-deployment production experience)"
+  ],
+  "top_ats_keywords": [
+    "hardware",
+    "robotics",
+    "embedded",
+    "prototype",
+    "validation",
+    "deployment",
+    "manufacturing",
+    "mechanical design",
+    "electronics",
+    "sensors",
+    "production"
+  ],
+  "required_skills": [
+    "Complete hardware/robotics system from prototype through validation and deployment",
+    "Deep hands-on expertise in mechanical design, electronics, or embedded software",
+    "Define product requirements and make system tradeoffs (performance/cost/power/reliability/manufacturing)",
+    "Strong experimental, integration, and debugging skills across full system",
+    "Guide engineers and suppliers through technical decisions and design reviews"
+  ],
+  "preferred_skills": [
+    "Precision tracking",
+    "Synchronized sensor systems",
+    "Moving research hardware into production"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Translate user/technical goals into product requirements and acceptance criteria",
+    "Choose architectures and build prototypes to test hardest assumptions",
+    "Lead technical reviews across mechanics, electronics, sensing, and software",
+    "Work with suppliers and deployment teams to turn prototypes into reproducible deployed hardware"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

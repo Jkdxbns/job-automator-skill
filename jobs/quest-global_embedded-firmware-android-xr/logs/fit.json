@@ -1,0 +1,200 @@
+{
+  "company": "Quest Global",
+  "company_slug": "quest-global",
+  "role": "Embedded Firmware Engineer \u2013 Android XR MCU Bring-Up",
+  "job_slug": "embedded-firmware-android-xr",
+  "match_pct": 62.1,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 33,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "bare-metal",
+    "RTOS",
+    "FreeRTOS",
+    "ARM Cortex-M",
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "GPIO",
+    "PWM",
+    "ADC",
+    "oscilloscope",
+    "logic analyzer",
+    "Python",
+    "Shell scripting",
+    "IMU",
+    "proximity sensors"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Zephyr",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Linux / BeagleBone"
+    },
+    {
+      "jd_skill": "MCU bring-up",
+      "you_have": "STM32 bare-metal + EAGLE PCB"
+    },
+    {
+      "jd_skill": "JTAG/SWD",
+      "you_have": "STM32 debugging"
+    },
+    {
+      "jd_skill": "MCU-to-AP communication",
+      "you_have": "Jetson+Arduino UART"
+    }
+  ],
+  "missing_skills": [
+    "Android BSP/HAL",
+    "ADB/logcat",
+    "low-power/suspend-resume",
+    "watchdog",
+    "secure boot",
+    "bootloader",
+    "firmware update",
+    "touch controllers",
+    "haptic",
+    "sensor timestamping"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "Cortex-M",
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "JTAG",
+    "SWD",
+    "oscilloscope",
+    "logic analyzer",
+    "Android",
+    "BSP",
+    "HAL",
+    "IMU",
+    "bootloader",
+    "secure boot",
+    "watchdog",
+    "low-power",
+    "bring-up"
+  ],
+  "required_skills": [
+    "C/C++",
+    "bare-metal",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "ARM Cortex-M",
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "GPIO",
+    "PWM",
+    "ADC",
+    "JTAG/SWD",
+    "oscilloscope",
+    "logic analyzer",
+    "Python",
+    "Shell scripting",
+    "MCU bring-up",
+    "embedded Linux",
+    "Android BSP/HAL",
+    "IMU",
+    "low-power/suspend-resume",
+    "watchdog"
+  ],
+  "preferred_skills": [
+    "proximity sensors",
+    "touch controllers",
+    "haptic",
+    "MCU-to-AP communication",
+    "ADB/logcat",
+    "secure boot",
+    "bootloader",
+    "firmware update",
+    "sensor timestamping",
+    "XR/AR/VR wearables"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "MCU board bring-up",
+    "peripheral drivers",
+    "sensor integration",
+    "MCU-Android AP comms",
+    "low-power",
+    "debug with JTAG/scope"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Fremont, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 47,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal Cortex-M4 C with direct GPIO/TIM2/ADC1/I2C1 programming, interrupt-driven capture, 3.68 KB Flash / 1.58 KB RAM (STM32 Temperature Monitor)",
+      "FreeRTOS mutex task coordination plus interrupt-driven UART between Jetson and STM32 (Object Tracking Turret) maps to MCU-to-host messaging",
+      "Wearable/XR-adjacent sensor work: ADXL345 gesture glove with tap detection and jitter calibration, plus MR headset concept (Planctech)",
+      "VL53L0X ToF over a TCA9548A I2C mux, EAGLE PCB design, oscilloscope and logic analyzer use"
+    ],
+    "real_gaps": [
+      "No Android BSP/kernel/HAL, ADB or logcat exposure",
+      "No low-power work: suspend/resume, wake events, watchdog, fault recovery",
+      "No bootloader, secure boot or firmware-update/recovery work",
+      "No true custom-board bring-up (power sequencing, clocks, reset, boot config) on a board he did not buy as a dev kit",
+      "No haptics or touch controller work",
+      "No timestamping/latency analysis; no explicit JTAG/SWD or Zephyr; USB is only HID via Bluetooth, no USB stack"
+    ],
+    "overstated_by_keywords": [
+      "USB (no USB driver work in profile)",
+      "Shell scripting (Bash used only for systemd/admin)",
+      "Zephyr, JTAG/SWD counted adjacent via FreeRTOS/STM32 but nothing demonstrates them",
+      "IMU (single ADXL345 accelerometer, not a fused IMU)"
+    ],
+    "understated_by_keywords": [
+      "Planctech wearable glove + MR headset concept is real XR/wearable sensor-hub-adjacent evidence",
+      "Turret Jetson-to-STM32 UART command path is a small-scale MCU-to-application-processor link"
+    ],
+    "screening_gaps": [
+      "No Android platform integration (BSP/HAL/kernel/ADB), the role's central pairing",
+      "No low-power/watchdog/fault-recovery work",
+      "No bootloader/secure-boot/firmware-update and no real custom-board bring-up"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Peripheral-level bare-metal and RTOS firmware is genuinely backed and the JD states no years requirement, but the Android integration, low-power and bootloader halves of the role have no evidence. Worth applying as a stretch; expect probing on bring-up and Android interaction.",
+    "calibration_delta": 15.1
+  },
+  "semantic_pending": false
+}

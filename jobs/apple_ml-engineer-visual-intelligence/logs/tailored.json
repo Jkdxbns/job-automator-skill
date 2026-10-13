@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "company": "Apple",
+    "role": "Machine Learning Engineer - Visual Intelligence",
+    "company_slug": "apple",
+    "job_slug": "ml-engineer-visual-intelligence"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering, RIT (May 2026). Built real-time computer vision and perception systems: TensorRT YOLO visual servoing with ToF-based sensor fusion on Jetson, and camera-pipeline surface inspection using ISP-style wavelet denoising and monocular depth estimation. Experienced in simulation and evaluation pipelines for CV/ML models and ROS2-based robotics.",
+  "skills": {
+    "Computer Vision & Perception": [
+      "OpenCV",
+      "YOLO",
+      "TensorRT",
+      "Visual servoing",
+      "ZoeDepth",
+      "Real-time detection"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face Transformers",
+      "8-bit quantization",
+      "Model evaluation"
+    ],
+    "Sensor & Robotics": [
+      "ROS/ROS2",
+      "MoveIt",
+      "VL53L0X ToF",
+      "Sensor fusion",
+      "I2C/UART/SPI",
+      "Forward kinematics"
+    ],
+    "Languages & Edge": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "Bash",
+      "NVIDIA Jetson",
+      "STM32",
+      "FreeRTOS"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "Flask",
+      "Digital Signal Processing"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline with custom image stitching, ISP-style wavelet denoising (sym6+bior3.5), and ZoeDepth monocular depth for 3D crack-depth profiling at \u00b18% error.",
+        "Achieved PSNR of 86 (vs. homography baseline of 65) via alpha-blended wavelet bank suppressing low-frequency noise."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, UK",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Built a multi-modal medical imaging data pipeline for BraTS 2020 3D volumetric inputs; trained and evaluated U-Net with VGG-16/19 and ResNet-50 backbones on Dice Score and IoU.",
+        "Led team of 7 as sole ML-experienced member; restructured task distribution to deliver full CV pipeline within 6-week window."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT visual document understanding transformer; built PyTorch VisionEncoderDecoder pipeline improving validation accuracy from 55% to 93%."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led 25-member robotics team across national competitions; owned AI/ML integration, PCB fabrication, and sensor communication over UART and I2C."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT YOLO visual servoing at ~18 FPS with dual VL53L0X ToF sensor fusion for contact-aware grasping; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Built three-layer distributed perception pipeline (Jetson+Arduino+Flask-SocketIO); resolved 11 integration failures across sensor crosstalk, rolling-shutter depth, and false-positive detections."
+      ]
+    },
+    {
+      "name": "Autonomous Driving Simulation & Evaluation \u2014 CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated simulation data generation pipelines using CARLA semantic segmentation; produced ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18); validated zero collisions and traffic light compliance across Town02 evaluation runs."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret \u2014 Jetson + STM32",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 real-time perception on Jetson; fused camera detections with VL53L0X ToF for range-gated tracking with FreeRTOS task coordination and interrupt-driven UART bridge to STM32."
+      ]
+    },
+    {
+      "name": "ROS2-Based Robotic Arm \u2014 UR5e & AL5B",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains for 6-DoF UR5e and 5-DoF AL5B; planned collision-free pick-and-place via UR ROS 2 driver \u2014 AL5B repeatability <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Principles of Robotics",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

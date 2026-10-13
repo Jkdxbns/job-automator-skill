@@ -1,0 +1,112 @@
+{
+  "company": "Axon",
+  "company_slug": "axon",
+  "role": "Embedded software automation Engineer",
+  "job_slug": "embedded-software-automation-engineer",
+  "match_pct": 16.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 15,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Edge-to-cloud data pipelines",
+      "you_have": "Jetson edge AI deployment"
+    },
+    {
+      "jd_skill": "Connected devices",
+      "you_have": "COFFIN / embedded sensor networking"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "ArgoCD",
+    "Go/Java/Scala/C#",
+    "SQL/NoSQL",
+    "Distributed cloud systems",
+    "Kubernetes autoscaling",
+    "SLO/SLA",
+    "Observability",
+    "Supply-chain security"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "ArgoCD",
+    "Go",
+    "Java",
+    "Scala",
+    "C#",
+    "SQL",
+    "NoSQL",
+    "CI/CD",
+    "SLO",
+    "SLA",
+    "observability",
+    "distributed systems"
+  ],
+  "required_skills": [
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "Go/Java/Scala/C#",
+    "SQL/NoSQL",
+    "Distributed cloud systems",
+    "Highly-available systems"
+  ],
+  "preferred_skills": [
+    "ArgoCD",
+    "Kubernetes autoscaling",
+    "CI/CD",
+    "Software supply-chain security",
+    "Edge-to-cloud data pipelines",
+    "Connected devices"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Cloud architecture for Connected Devices Cloud",
+    "K8s service design and autoscaling",
+    "SLO/SLA and capacity planning",
+    "CI/CD with ArgoCD/Terraform",
+    "Mentoring and design reviews"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Seattle, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

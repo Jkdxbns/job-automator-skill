@@ -1,0 +1,116 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Robotics Software Engineer I/II - Integration",
+  "job_slug": "robotics-swe-i-ii-integration",
+  "match_pct": 55.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 17,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "ROS",
+    "linear algebra",
+    "3D geometry",
+    "multi-joint robot hardware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "networking stack",
+      "you_have": "WebSocket, Flask-SocketIO, static IP"
+    },
+    {
+      "jd_skill": "async I/O",
+      "you_have": "WebSocket, ISR-driven firmware"
+    },
+    {
+      "jd_skill": "robotics manipulation",
+      "you_have": "UR5e pick-and-place via MoveIt"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "collision checking",
+      "you_have": "MoveIt collision-free trajectories"
+    }
+  ],
+  "missing_skills": [
+    "AGV/AMR",
+    "Mandarin",
+    "multibody dynamics",
+    "concurrent systems",
+    "real-time controller comms"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "ROS",
+    "linear algebra",
+    "AGV",
+    "AMR",
+    "CI/CD",
+    "async I/O",
+    "motion planning"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "linear algebra",
+    "3D geometry",
+    "networking stack",
+    "async I/O",
+    "robotics manipulation",
+    "CI/CD",
+    "concurrent systems"
+  ],
+  "preferred_skills": [
+    "ROS",
+    "AGV/AMR",
+    "Mandarin",
+    "multibody dynamics",
+    "collision checking",
+    "multi-joint robot hardware"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "robotic system software C++/Python",
+    "real-time comms with controllers",
+    "CI/CD validation",
+    "customer-site support, 75% travel"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,99 @@
+{
+  "company": "Fortastra",
+  "company_slug": "fortastra",
+  "role": "Mechanical Engineer II",
+  "job_slug": "mechanical-engineer-ii",
+  "match_pct": 15.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 8,
+    "jd_ask_size": 10,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "BOM / bills of materials"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Robotics / automation domain experience",
+      "you_have": "ROS2 / robot perception pipeline background"
+    }
+  ],
+  "missing_skills": [
+    "Bachelor's in Mechanical/Aerospace Engineering",
+    "2-5 years mechanical design experience",
+    "3D CAD tools (NX, Creo, SolidWorks)",
+    "Basic structures, interfaces, packaging, mechanical integration",
+    "Engineering drawings, tolerances, revision-controlled docs",
+    "Fabrication methods (machining, sheet metal, welded/bolted)",
+    "Spacecraft / aerospace / defense mechanical domain",
+    "Configuration management / large-assembly practices"
+  ],
+  "top_ats_keywords": [
+    "Mechanical Engineer",
+    "CAD",
+    "NX",
+    "Creo",
+    "SolidWorks",
+    "spacecraft",
+    "robotics",
+    "aerospace",
+    "defense",
+    "structures",
+    "packaging",
+    "integration",
+    "BOM",
+    "fabrication",
+    "Torrance CA",
+    "U.S. Citizenship",
+    "on-site"
+  ],
+  "required_skills": [
+    "Bachelor's in Mechanical/Aerospace Engineering",
+    "2-5 years mechanical design (spacecraft/robotics/automotive/defense/high-reliability)",
+    "Proficiency with 3D CAD (NX, Creo, SolidWorks)",
+    "Basic structures, interfaces, packaging, mechanical integration",
+    "Engineering drawings, tolerances, revision-controlled documentation",
+    "Cross-functional collaboration"
+  ],
+  "preferred_skills": [
+    "Configuration management / large-assembly practices",
+    "Fabrication methods (machining, sheet metal, welded/bolted)",
+    "Ability to take feedback from senior engineers"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Spacecraft mechanical configuration, component layout, system interfaces",
+    "CAD modeling for parts and assemblies (mounts, brackets, panels, structural elements)",
+    "Identify and resolve mechanical interferences with harnessing/avionics/sensors",
+    "Generate and release detailed drawings, BOMs, and mechanical documentation",
+    "Support floor integration: fit checks, build support, hardware rework"
+  ],
+  "role_category": "other",
+  "location": "Torrance, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "U.S. Citizenship required \u2014 category (c): US citizenship or permanent residency required"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

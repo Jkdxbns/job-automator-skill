@@ -1,0 +1,100 @@
+{
+  "_meta": { "company": "Cerro Flow Products LLC", "role": "AI Intern", "company_slug": "cerroflow", "job_slug": "ai-intern" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience building, testing, and evaluating artificial intelligence tools across robotics, computer vision, and language model systems. Skilled at comparing model and tool tradeoffs through direct benchmarking, translating technical findings into practical recommendations, and documenting workflows for cross-functional teams. Background spans automation of both physical and data-driven processes, from manufacturing workcell simulation to real-time data dashboards.",
+  "skills": {
+    "Artificial Intelligence & ML Tools": ["PyTorch", "Hugging Face Transformers", "TensorRT", "Quantization (8-bit)", "YOLO", "faster-whisper", "Model evaluation & benchmarking"],
+    "Automation & Robotics": ["RAPID (ABB robot programming)", "NVIDIA Jetson", "Arduino"],
+    "Data Analysis & Visualization": ["PyQt", "Matplotlib", "pynvml/psutil profiling", "JupyterHub"],
+    "Documentation & Tools": ["GitLab", "SolidWorks", "CAD"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Organized 10+ exhibitions and technical workshops covering Arduino, PCB design, and SolidWorks."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and dashboard-style visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; took over as team lead mid-project to restructure task distribution and deliver the full pipeline within a 6-week window.",
+        "Trained U-Net segmentation with VGG-16/19 and ResNet-50 backbones; reported accuracy-latency tradeoffs for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures across the automation pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Integrated faster-whisper speech-to-text, Gemini prompt-based intent classification, and TensorRT-optimized YOLO (5.2x speedup) across a distributed edge pipeline."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; under 1% accuracy degradation, near-lossless compression."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Validated full-cycle repeatability of an ABB RobotStudio workcell built for an end-to-end press-to-packing assembly pipeline with CAD-modeled fixtures.",
+        "Programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,70 @@
+{
+  "company": "Amazon.com Services LLC (Amazon Robotics)",
+  "company_slug": "amazon",
+  "role": "Applied Scientist - Computer Vision, Amazon Robotics (Vulcan Stow Perception)",
+  "job_slug": "applied-scientist-cv-robotics",
+  "job_id": "10526302",
+  "match_pct": 75.0,
+  "missing_skills": [
+    "multi-view scene completion",
+    "semantic occupancy prediction",
+    "mesh reconstruction",
+    "semi-supervised learning",
+    "unsupervised learning",
+    "active learning",
+    "top-tier publications (CVPR/ICCV/ECCV/NeurIPS/CoRL/IROS)",
+    "patents",
+    "3+ years industry model building",
+    "mentoring applied scientists",
+    "statistical modeling"
+  ],
+  "adjacent_skills": [
+    "3D perception (has 2D/3D image mosaicing, ZoeDepth monocular depth, ToF)",
+    "pose estimation (has DH/forward kinematics, visual servoing on UR5e)",
+    "large-scale generative models (has GPT-2/TinyLlama LLM work, not vision generative)",
+    "large-volume data analysis (has SLURM cluster training, BraTS)"
+  ],
+  "top_ats_keywords": [
+    "computer vision",
+    "deep learning",
+    "PyTorch",
+    "semantic segmentation",
+    "object detection",
+    "pose estimation",
+    "3D perception",
+    "edge deployment",
+    "TensorRT",
+    "ONNX",
+    "ROS2",
+    "robotic manipulation",
+    "transformers",
+    "class imbalance",
+    "real-time inference",
+    "C++",
+    "Python",
+    "multi-camera fusion",
+    "simulation"
+  ],
+  "key_responsibilities": [
+    "Architect, design, implement ML models for vision systems on robotic platforms",
+    "Optimize, deploy and support ML models on the edge at scale",
+    "Prototype and test via simulation/emulators and live robotic equipment",
+    "Multi-camera fusion (pedestal + end-of-arm tool), occluded scene completion, semantic occupancy, sub-250ms mesh reconstruction",
+    "Mentor applied scientists and engineers; influence team strategy/roadmap"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "OK - Amazon is a known H1B sponsor; no no-sponsorship phrases in JD",
+    "experience": "MISMATCH - JD requires 3+ yrs building models / MS + 4 yrs; Justin has 0 full-time yrs (6 internships)",
+    "publications": "MISMATCH - Basic Qualification requires patents or top-tier publications; Justin has none (poster prize only)",
+    "location": "OK - onsite roles acceptable, willing to relocate",
+    "clearance": "None required",
+    "notice_weeks": 4,
+    "ead_pending": true
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,133 @@
+{
+  "company": "Ammortal Inc",
+  "company_slug": "ammortal",
+  "role": "Senior Embedded Linux Applications Engineer",
+  "job_slug": "senior-embedded-linux-apps-eng",
+  "match_pct": 47.8,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 23,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Linux",
+    "Git",
+    "I2C",
+    "SPI",
+    "Bash",
+    "Embedded Linux",
+    "CI/CD"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Serial/bus protocols",
+      "you_have": "UART, I2C, SPI"
+    },
+    {
+      "jd_skill": "Debian",
+      "you_have": "Linux (Ubuntu/Jetson)"
+    },
+    {
+      "jd_skill": "Testing",
+      "you_have": "RTOS coursework/benchmarks"
+    },
+    {
+      "jd_skill": "IoT protocols",
+      "you_have": "WebSocket/Socket"
+    }
+  ],
+  "missing_skills": [
+    "Go",
+    "Modbus",
+    "RS-485",
+    "Microservices",
+    "MQTT",
+    "Docker",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Jira"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux",
+    "Go",
+    "C++",
+    "Python",
+    "Modbus",
+    "I2C",
+    "SPI",
+    "RS-485",
+    "MQTT",
+    "Docker",
+    "Debian",
+    "Microservices",
+    "CI/CD",
+    "Git",
+    "Bash",
+    "React",
+    "TypeScript",
+    "Next.js"
+  ],
+  "required_skills": [
+    "Go/C/C++",
+    "Python",
+    "Serial/bus protocols",
+    "Modbus",
+    "I2C",
+    "SPI",
+    "RS-485",
+    "Linux",
+    "System-level debugging",
+    "Microservices",
+    "Distributed architecture",
+    "Git",
+    "CI/CD",
+    "Testing"
+  ],
+  "preferred_skills": [
+    "MQTT",
+    "Docker",
+    "Debian",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Bash",
+    "Jira"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own embedded Linux application software",
+    "Lead microservices architecture",
+    "Set code quality/testing standards",
+    "Field issue escalation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mars Hill, NC (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

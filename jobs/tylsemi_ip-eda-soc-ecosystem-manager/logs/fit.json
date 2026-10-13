@@ -1,0 +1,101 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "IP, EDA and SoC Ecosystem Manager",
+  "job_slug": "ip-eda-soc-ecosystem-manager",
+  "match_pct": 5.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 9,
+    "jd_ask_size": 10,
+    "req_cov": 0.0,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI/ML infrastructure silicon (accelerators, network switches, CPO platforms)",
+      "you_have": "CUDA GPU kernel optimization, edge AI deployment (Jetson + TensorRT + YOLO)"
+    }
+  ],
+  "missing_skills": [
+    "15+ years semiconductor ecosystem management experience",
+    "Direct SoC and chiplet design flow experience",
+    "Silicon fabrication and advanced packaging knowledge (CoWoS, InFO, 2.5D/3D)",
+    "RTL milestones, DV sign-off, PD handoffs, and silicon bringup familiarity",
+    "EDA tools proficiency (Synopsys, Cadence)",
+    "Semiconductor ecosystem partner coordination (foundries, OSAT, IP vendors)",
+    "PMIC and IVR integration experience",
+    "Tape-out and KGD testing knowledge",
+    "Connectivity IP standards (UCIe, PCIe Gen 5/6/7+, D2D interconnect)"
+  ],
+  "top_ats_keywords": [
+    "SoC",
+    "chiplet",
+    "tape-out",
+    "EDA",
+    "program management",
+    "RTL",
+    "DV",
+    "silicon bringup",
+    "packaging",
+    "OSAT",
+    "foundry",
+    "Synopsys",
+    "Cadence",
+    "interconnect",
+    "ecosystem"
+  ],
+  "required_skills": [
+    "15+ years technical ecosystem management in semiconductor/custom silicon",
+    "Direct experience interfacing with ecosystem partners and chip development schedules",
+    "Familiarity with silicon fabrication and advanced packaging (CoWoS, InFO, 2.5D/3D)",
+    "Technical fluency in SoC and chiplet design flows",
+    "Understanding of RTL milestones, DV sign-off, PD handoffs, and silicon bringup",
+    "Strong communication skills for internal and external stakeholders",
+    "Proficiency with program tracking tools and spreadsheets"
+  ],
+  "preferred_skills": [
+    "Familiarity with connectivity IPs (UCIe, PCIe Gen 5/6/7+, D2D interconnect)",
+    "Experience at chiplet startup, merchant silicon, or systems company",
+    "Background in AI/ML infrastructure silicon (accelerators, network switches, CPO platforms)",
+    "Familiarity with IVR/PMIC integration challenges in advanced packaging",
+    "Exposure to EDA infrastructure programs (Synopsys/Cadence cloud flows)"
+  ],
+  "required_experience_years": 15,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Manage all active customer engagements end-to-end from architectural spec through tape-out, KGD testing, packaging, and volume shipment",
+    "Ensure alignment with ecosystem partners including foundries, OSAT/packaging houses, EDA vendors, and IP partners",
+    "Translate customer requirements into internal program plans with clear owners and dates",
+    "Build and maintain program trackers, risk registers, and executive dashboards",
+    "Drive gate reviews and weekly program syncs across RTL/DV, physical design, and validation teams",
+    "Manage internal and external scoping and delivery timelines",
+    "Identify and escalate risks early with proposed mitigations"
+  ],
+  "role_category": "hardware_asic",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category_review": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

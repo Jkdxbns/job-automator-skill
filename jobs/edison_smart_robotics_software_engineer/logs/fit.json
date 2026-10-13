@@ -1,0 +1,66 @@
+{
+  "company": "Edison Smart® (recruiting for unnamed robotics startup)",
+  "company_slug": "edison_smart",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics_software_engineer",
+  "match_pct": 75,
+  "required_skills": [
+    "robotics software development",
+    "robotic systems in production environments",
+    "computer vision / vision-guided control systems",
+    "motion planning using 3D spatial or landmark-based data",
+    "C++ and/or Python",
+    "production-quality software",
+    "robotics simulation and testing",
+    "hardware-software troubleshooting"
+  ],
+  "have_skills": [
+    "robotics software development (ROS2, COFFIN robotic arm, Agnel Robotics Club)",
+    "computer vision / vision-guided control (TensorRT YOLO visual servoing, YOLOv8, OpenCV)",
+    "C++ / Python",
+    "production-quality software (7 internships, distributed pipelines)",
+    "hardware-software troubleshooting (STM32, Arduino, COFFIN hardware integration)"
+  ],
+  "adjacent_skills": [
+    {"jd_term": "motion planning using 3D spatial/landmark data", "have": "depth estimation (ZoeDepth), ToF sensors, forward kinematics, ROS2"},
+    {"jd_term": "robotic systems in production environments", "have": "academic/competition robotics + ML deployed in internships"},
+    {"jd_term": "robotics simulation and testing", "have": "RobotStudio exposure, hardware-in-loop testing on COFFIN"}
+  ],
+  "missing_skills": [],
+  "preferred_skills_have": [
+    "robotics hardware design (COFFIN, Agnel Robotics Club)",
+    "PCB development (single-layer PCBs in EAGLE, BARC)",
+    "custom electronics (sensor fusion, gesture glove)"
+  ],
+  "top_ats_keywords": [
+    "computer vision",
+    "ROS2",
+    "C++",
+    "Python",
+    "vision-guided",
+    "motion planning",
+    "hardware-software integration",
+    "robotic systems",
+    "depth estimation",
+    "YOLO"
+  ],
+  "key_responsibilities": [
+    "develop and maintain robotic systems in production industrial environments",
+    "implement vision-guided control using computer vision",
+    "motion planning from 3D spatial or landmark data",
+    "troubleshoot hardware-software interactions in real deployments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "New York City, NY",
+  "remote_ok": false,
+  "clearance_required": false,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "company": "Microchip Technology Inc.",
+  "company_slug": "microchip-technology",
+  "role": "Engineer II-Software (AI/ML, FPGA Division)",
+  "job_slug": "engineer-ii-software-ai-ml",
+  "match_pct": 100,
+  "missing_skills": [
+    "reinforcement learning",
+    "deep reinforcement learning",
+    "DRL",
+    "neural architecture search",
+    "graph-based learning",
+    "GNN",
+    "FPGA",
+    "ASIC",
+    "HDL",
+    "secure execution environments"
+  ],
+  "adjacent_skills": [
+    "hardware/software co-design -> CUDA + Jetson + STM32 bare-metal",
+    "accelerators -> GPU/TensorRT, not FPGA/ASIC",
+    "statistics -> Random Signal Analysis coursework",
+    "optimization algorithms -> kernel/inference optimization"
+  ],
+  "top_ats_keywords": [
+    "AI/ML",
+    "deep learning",
+    "reinforcement learning",
+    "Python",
+    "C/C++",
+    "PyTorch",
+    "Linux",
+    "hardware-aware model optimization",
+    "inference pipelines",
+    "training pipelines",
+    "benchmarks",
+    "simulation environments",
+    "hardware/software co-design",
+    "FPGA",
+    "accelerators",
+    "embedded processors",
+    "heterogeneous compute",
+    "quantization",
+    "latency",
+    "power",
+    "optimization"
+  ],
+  "key_responsibilities": [
+    "Develop and evaluate AI/ML model architectures, including deep learning and DRL systems",
+    "Explore reinforcement learning, neural architecture search, and hardware-aware model optimization",
+    "Contribute to system optimization pipelines balancing performance, power, latency, and cost",
+    "Develop AI/ML benchmarks, training/inference pipelines, and simulation environments",
+    "Build tools leveraging statistical modeling, graph-based learning, and optimization algorithms",
+    "Analyze data and collaborate across software, hardware, and product teams",
+    "Help define future AI/ML-enabled FPGA product directions"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Jose, CA",
+  "pay_range": "$70,304 - $143,000",
+  "required_experience_years": 0,
+  "experience_level_stated": "entry (JD: 0-4 yrs) / LinkedIn label: Mid-Senior",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "clearance_required": false,
+  "hard_blocker_triggered": false,
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hardware-aware model optimization (JD resp #2/#3) - TensorRT YOLO 5.2x speedup (56.7->10.9ms, 17.6->92 FPS); 8-bit LLM.int8 quantization cutting VRAM ~55% with <1% accuracy loss; CUDA C++ memory-coalesced VGG16 kernels at 49.2ms vs 73.3ms naive GPU",
+      "AI/ML benchmarks + training/inference pipelines + simulation environments (JD resp #4) - benchmarked TinyLlama across HellaSwag/GSM8K/ARC with pynvml/psutil VRAM+latency profiling; CARLA pipeline auto-generating ~5,000 YOLO frames with zero manual annotation",
+      "Python + C/C++ with ML frameworks (JD req #3) - real depth, not surface: GPT-2 Transformer from scratch, Whisper-style ASR from scratch, custom CUDA C++ kernels, Cython BPE tokenizer at 4-5.5x speedup",
+      "Heterogeneous compute / embedded processors + accelerators (JD intro) - Jetson + Arduino + STM32 Cortex-M4 bare-metal, distributed WebSocket pipeline, MPI on SLURM cluster"
+    ],
+    "real_gaps": [
+      "Reinforcement learning / deep RL - ZERO bullets anywhere in the profile. Named in requirement #5 and in responsibilities #1 and #2. This is the single biggest gap.",
+      "Neural architecture search - no exposure at all; named in responsibility #2",
+      "Graph-based learning / GNNs - no exposure; named in responsibility #5",
+      "FPGA / ASIC / HDL - zero. The entire division is FPGA. He has GPU and MCU, never fabric.",
+      "Statistical modeling - coursework (Random Signal Analysis) only, no applied bullets"
+    ],
+    "overstated_by_keywords": [
+      "'optimization' - keyword match reads his CUDA/TensorRT/quantization work as a hit, but the JD means optimization ALGORITHMS (search, evolutionary, Bayesian) driving NAS and DRL. Different meaning of the same word.",
+      "'accelerators' - his are GPU/TensorRT accelerators; the JD means FPGA fabric and ASIC accelerators",
+      "'reinforcement learning' in req #2 - he only clears it via the OR-clause ('AI/ML, deep learning, OR reinforcement learning'), while the role's center of gravity is RL",
+      "'statistics' - present as coursework, absent as demonstrated work"
+    ],
+    "reasoning": "The role splits into two halves: an AI/ML research half (DRL, NAS, graph learning) where Justin has literally nothing, and a hardware-aware optimization + benchmarking + pipelines half where he is genuinely strong and can point to hard numbers. Keyword matching scores 100% because the stated requirements are written loosely (0-4 yrs, 'interest in' co-design, 'and/or' on languages) and because 'optimization' collides across two different meanings. The stated bar is low enough that he clears it on paper, but he would be interviewing against candidates who have actually trained a DRL agent."
+  }
+}

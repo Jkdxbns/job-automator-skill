@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "company": "Ultralytics",
+    "role": "Embedded Computer Vision Engineer",
+    "company_slug": "ultralytics",
+    "job_slug": "embedded-cv-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, focused on taking YOLO models from PyTorch to edge hardware. Trained YOLO detectors from scratch, exported YOLOv8 to ONNX and TFLite and deployed a TensorRT-optimized YOLO on NVIDIA Jetson for a 5.2\u00d7 latency speedup (56.7 to 10.9 ms), and built INT8 quantization workflows in PyTorch with accuracy checked against a float reference. Configure, profile and debug Jetson and Raspberry Pi deployments under Linux, with Python and C++.",
+  "skills": {
+    "Edge AI & Deployment": [
+      "YOLO",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "INT8 quantization",
+      "pynvml Profiling",
+      "OpenCV"
+    ],
+    "ML / Computer Vision": [
+      "Machine Learning",
+      "PyTorch",
+      "TensorFlow",
+      "Computer Vision",
+      "Model evaluation"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Bash"
+    ],
+    "Tools & Linux": [
+      "Linux",
+      "Git",
+      "GitLab",
+      "systemd service management (unit files, auto-restart, non-root isolation)"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Built ball detection by training a YOLOv3 model from scratch on webcam video, then used color masks on the detections to generate and transmit motor commands for closed-loop visual servoing of the competition robot.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ],
+      "note": "SELECTION GUIDANCE, not resume text. Student club leadership, not professional experience. Keep below the BARC, IIT Bombay and Planctech entries. Include when the JD values leadership, mentoring or cross-team ownership; trim first when the page is tight."
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "date": "May 2026",
+      "bullets": [
+        "Implemented quantization-aware training (QAT) in PyTorch for a bias-free 256-64-10 MLP using straight-through-estimator fake quantization, int8 per-layer symmetric weights, and uint8 activations; integer-only inference reaches 97.43% on the 10,000-image MNIST test set at 16\u00d716.",
+        "Calibrated the hidden-activation scale with an EMA observer and froze it for the final 25% of training so weights adapt to the deployed scale; folded it into a fixed-point requantization multiplier and shift."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

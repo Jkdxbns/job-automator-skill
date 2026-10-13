@@ -1,0 +1,139 @@
+{
+  "company": "Quant finance firm (unnamed, London HQ)",
+  "company_slug": "quant-finance-firm",
+  "role": "Linux Platform Engineer",
+  "job_slug": "linux-platform-engineer",
+  "match_pct": 21.7,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 6,
+    "missing_count": 15,
+    "jd_ask_size": 23,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux internals / kernel modules",
+      "you_have": "Linux + systemd unit files, kernel optimization (CUDA)"
+    },
+    {
+      "jd_skill": "kernel performance tuning",
+      "you_have": "Kernel optimization, pynvml profiling"
+    },
+    {
+      "jd_skill": "observability / telemetry",
+      "you_have": "pynvml Profiling, data acquisition"
+    },
+    {
+      "jd_skill": "APIs",
+      "you_have": "Flask, WebSocket"
+    },
+    {
+      "jd_skill": "automation",
+      "you_have": "Bash"
+    },
+    {
+      "jd_skill": "agentic AI operations",
+      "you_have": "AI/ML, LLM tooling"
+    }
+  ],
+  "missing_skills": [
+    "RHEL",
+    "Ubuntu admin",
+    "Ansible",
+    "Infrastructure as Code",
+    "PXE boot",
+    "kickstart",
+    "cloud-init",
+    "eBPF",
+    "CIS benchmarks",
+    "Linux hardening",
+    "patch management",
+    "CVE triage",
+    "package management",
+    "OS image building",
+    "databases"
+  ],
+  "top_ats_keywords": [
+    "Linux",
+    "RHEL",
+    "Ubuntu",
+    "Ansible",
+    "PXE",
+    "kickstart",
+    "cloud-init",
+    "eBPF",
+    "CIS benchmarks",
+    "CVE",
+    "kernel",
+    "Python",
+    "observability",
+    "Infrastructure as Code",
+    "hardening",
+    "patch management"
+  ],
+  "required_skills": [
+    "Linux",
+    "RHEL",
+    "Ubuntu",
+    "Linux internals",
+    "kernel modules",
+    "Python",
+    "Ansible",
+    "Infrastructure as Code",
+    "Linux security hardening",
+    "patch management",
+    "CIS benchmarks",
+    "PXE boot",
+    "kickstart",
+    "cloud-init",
+    "package management",
+    "CVE triage"
+  ],
+  "preferred_skills": [
+    "eBPF",
+    "kernel performance tuning",
+    "agentic AI operations",
+    "observability"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Linux OS images",
+    "provisioning and lifecycle (PXE, kickstart, cloud-init)",
+    "APIs, databases, package tooling",
+    "Ansible IaC",
+    "CVE/vulnerability response",
+    "agentic remediation frameworks",
+    "observability and telemetry"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,146 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Design Verification Engineer - SoC",
+  "job_slug": "etched_09_design-verification-engineer-soc",
+  "match_pct": 38.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 9,
+    "missing_count": 11,
+    "jd_ask_size": 25,
+    "req_cov": 0.324,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA / CUDA C++",
+    "PyTorch",
+    "TensorRT"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SystemVerilog",
+      "you_have": "Verilog / HDL experience not present; closest is bare-metal C and embedded firmware"
+    },
+    {
+      "jd_skill": "RTL / digital design",
+      "you_have": "Embedded firmware and robotics control (Arduino, STM32) \u2014 low-level hardware interaction but not RTL design"
+    },
+    {
+      "jd_skill": "ASIC design flows",
+      "you_have": "None; profile is ML/embedded/robotics, no ASIC or chip design background"
+    },
+    {
+      "jd_skill": "performance verification / simulation",
+      "you_have": "Performance profiling (CUDA kernels, inference latency) and benchmarking experience"
+    },
+    {
+      "jd_skill": "testbenches / checkers",
+      "you_have": "Software test/check logic in embedded and ML pipelines (e.g., golden test vectors for QAT, validation accuracy tracking)"
+    },
+    {
+      "jd_skill": "coverage monitors",
+      "you_have": "None in hardware context; only ML model evaluation / coverage-style analysis"
+    },
+    {
+      "jd_skill": "memory hierarchies / interconnects / compute accelerators",
+      "you_have": "CUDA memory coalescing, MPI load balancing, pipeline concepts in ML/inference; no chip-level interconnect or systolic array experience"
+    },
+    {
+      "jd_skill": "kernel level performance metrics / profiling",
+      "you_have": "pynvml profiling, CUDA profiling, psutil, inference latency profiling"
+    },
+    {
+      "jd_skill": "compiler optimizations",
+      "you_have": "Cython-accelerated tokenizer backend (4-5.5x speedup)"
+    }
+  ],
+  "missing_skills": [
+    "SystemVerilog",
+    "RTL design",
+    "ASIC design flows",
+    "hardware testbenches",
+    "coverage monitors (hardware verification)",
+    "NoC verification",
+    "DMA engine verification",
+    "systolic array verification",
+    "silicon debug / post-silicon tuning",
+    "hardware-software co-verification (ASIC scale)",
+    "compiler optimization (advanced)"
+  ],
+  "top_ats_keywords": [
+    "SystemVerilog",
+    "verification",
+    "performance",
+    "RTL",
+    "ASIC",
+    "testbench",
+    "coverage",
+    "modeling",
+    "Python",
+    "silicon"
+  ],
+  "required_skills": [
+    "SystemVerilog",
+    "Python",
+    "digital design",
+    "RTL",
+    "ASIC design flows",
+    "performance verification",
+    "simulation",
+    "modeling",
+    "checkers",
+    "coverage monitors",
+    "testbenches",
+    "memory hierarchies",
+    "pipelines",
+    "interconnects",
+    "compute accelerators",
+    "performance bottleneck analysis",
+    "workload tuning"
+  ],
+  "preferred_skills": [
+    "kernel level performance metrics",
+    "profiling tools",
+    "compiler optimizations"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Verify performance features of design and correlate with performance models",
+    "Identify performance bottlenecks and tune software",
+    "Develop test plans and infrastructure for performance tuning",
+    "Improve and maintain architectural performance models",
+    "Develop tests in SystemVerilog, Python, or vectors",
+    "Develop SystemVerilog or Python-based checkers",
+    "Develop coverage monitors and analyze coverage",
+    "Debug performance issues and conduct performance tuning on silicon",
+    "Drive end-to-end performance tuning across ASIC design lifecycle"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

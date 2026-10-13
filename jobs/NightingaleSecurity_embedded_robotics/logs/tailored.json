@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "company": "Embedded Robotics Drone Co (Generic)",
+    "role": "Embedded Robotics Engineer",
+    "company_slug": "drone",
+    "job_slug": "embeddedrobotics"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, building embedded robotics systems that span real-time firmware, on-board perception, and the networking that ties them together. Designed COFFIN, a voice-controlled vision-guided manipulator with TensorRT-optimized YOLO visual servoing, ToF contact sensing over I2C, and a WebSocket-linked Jetson + Arduino stack. Comfortable from bare-metal C on Cortex-M up through ROS 2 autonomy and socket/Bluetooth comms.",
+  "skills": {
+    "Embedded & Real-Time": ["Embedded/Bare-Metal C", "STM32 (Cortex-M4)", "Arduino", "NVIDIA Jetson", "Raspberry Pi", "UART/I2C", "Servo/PWM control", "EAGLE PCB Design"],
+    "Robotics & Perception": ["ROS 2 / ROS Noetic", "Forward/inverse kinematics (DH)", "MoveIt / RViz", "Visual servoing", "Sensor integration (accelerometer, ToF, camera)", "Closed-loop control"],
+    "Networking & Comms": ["WebSocket", "Flask / Socket.IO", "TCP/IP sockets", "Bluetooth (BLE/Classic)", "UART serial"],
+    "Edge AI / Computer Vision": ["YOLO / YOLOv8 / YOLO11", "TensorRT", "OpenCV", "Object/lane detection", "PyTorch"],
+    "Languages & Systems": ["C/C++", "Python", "CUDA", "RAPID", "Linux", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Built a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF hand motion into real-time HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club, F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Vision-Guided Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Architected a voice-controlled, vision-guided pick-and-place robot as a three-layer distributed system — Flutter client, Flask-SocketIO edge server, and Jetson + Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated faster-whisper STT and Gemini intent classification with TensorRT-optimized YOLO visual servoing (5.2× speedup: 56.7→10.9 ms, 17.6→92 FPS) and dual VL53L0X ToF sensors over a TCA9548A I2C mux for contact-aware grasping.",
+        "Implemented two-link inverse kinematics on Arduino in C++ driving five servos with range-gated contact detection; debugged 11 integration failures (false detections, servo brown-out, stale frames) to reach 100% pick reliability (10/10) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1) with timer-triggered ADC scan conversions and interrupt-driven sample capture.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified end-to-end in Proteus."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (UR5e & AL5B)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt/RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Executed collision-free trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability measured <2 mm over 10 trials."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Cell",
+      "date": null,
+      "bullets": [
+        "Programmed an ABB RobotStudio press-to-packing workcell in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic; validated full-cycle repeatability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence", "Deep Learning"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

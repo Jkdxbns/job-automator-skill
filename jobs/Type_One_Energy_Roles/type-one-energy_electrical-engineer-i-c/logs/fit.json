@@ -1,0 +1,117 @@
+{
+  "company": "Type One Energy",
+  "company_slug": "type-one-energy",
+  "role": "Electrical Engineer I&C",
+  "job_slug": "electrical-engineer-i-c",
+  "match_pct": 34.6,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 13,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++, Python",
+    "Lab test equipment (oscilloscopes, logic analyzers)",
+    "Bachelor's/Master's in related engineering field"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed, real-time control systems / ROS-related control",
+      "you_have": "ROS / ROS2 (robotics control)"
+    },
+    {
+      "jd_skill": "Version control",
+      "you_have": "Git"
+    },
+    {
+      "jd_skill": "Multidisciplinary collaboration / system integration",
+      "you_have": "Embedded/robotics integration experience"
+    }
+  ],
+  "missing_skills": [
+    "5+ years instrumentation and control experience (0 years full-time)",
+    "PLC programming and interfacing (no PLC keyword)",
+    "Distributed real-time control at fusion/stellarator scale (only ROS/embedded)",
+    "Requirements management and systems engineering practices (not in keyword list)",
+    "CI/CD pipeline tools / Jenkins / GitHub Actions (only basic Git)",
+    "Nuclear/fusion regulatory and safety design experience",
+    "Production-scale I&C lifecycle ownership"
+  ],
+  "top_ats_keywords": [
+    "instrumentation",
+    "control",
+    "distributed control",
+    "real-time",
+    "PLC",
+    "C/C++",
+    "Python",
+    "Jenkins",
+    "GitHub",
+    "CI/CD",
+    "requirements management",
+    "verification",
+    "validation",
+    "nuclear",
+    "fusion",
+    "stellarator",
+    "oscilloscopes",
+    "logic analyzers"
+  ],
+  "required_skills": [
+    "Bachelor's or Master's in Electrical Engineering, Control Systems, or related",
+    "5+ years instrumentation and control systems",
+    "Distributed, real-time control systems",
+    "C/C++, Python, PLC programming",
+    "Programming and interfacing with PLCs",
+    "Requirements management and systems engineering",
+    "Version control and CI/CD (Jenkins/GitHub)",
+    "Lab test equipment (oscilloscopes, logic analyzers)",
+    "Multidisciplinary collaboration",
+    "Safety/reliability/regulatory (nuclear/fusion)"
+  ],
+  "preferred_skills": [
+    "Distributed control software development",
+    "Instrumentation/control architecture design",
+    "Full requirements lifecycle (requirements through V&V)",
+    "I&C driver development",
+    "Testing automation and software quality practices",
+    "System integration and commissioning",
+    "Troubleshooting control system issues"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop distributed control software for stellarator systems",
+    "Design and implement instrumentation/control architectures",
+    "Support full requirements lifecycle (dev through verification/validation)",
+    "Develop/maintain I&C drivers and contribute to CI/CD",
+    "Support system integration, commissioning, and troubleshooting"
+  ],
+  "role_category": "other",
+  "location": "Knoxville, TN",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

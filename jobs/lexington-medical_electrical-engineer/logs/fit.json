@@ -1,0 +1,81 @@
+{
+  "company": "Lexington Medical, Inc.",
+  "company_slug": "lexington-medical",
+  "role": "Electrical Engineer",
+  "job_slug": "electrical-engineer",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.688,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": false,
+  "have_skills": [
+    "Electronics fundamentals (Digital Electronics)",
+    "Microcontroller-based systems (STM32, Arduino, Cortex-M4)",
+    "Component selection / BOM",
+    "Sensing circuits (ADXL345, VL53L0X ToF, I2C/SPI sensor integration)",
+    "Actuation circuits (PWM, servo/motor control)",
+    "Hardware debugging (Logic Analyzers, Oscilloscopes)",
+    "Bench testing",
+    "System-level integration (ROS2 pipelines)",
+    "Firmware/hardware integration (bare-metal embedded C/C++)"
+  ],
+  "missing_skills": [
+    "Formal verification & validation (V&V) process experience",
+    "DHF (Design History File) / design control documentation",
+    "Traceability documentation",
+    "Risk documentation",
+    "Regulated industry experience",
+    "Medical device experience"
+  ],
+  "adjacent_skills": [
+    "Circuit analysis -> coursework-level (Digital Electronics, Random Signal Analysis), not professional analog design",
+    "Schematic capture -> EAGLE PCB Design experience, not verified on regulated/production boards",
+    "PCB design (rigid, flex, rigid-flex) -> general PCB/EAGLE experience, no flex or rigid-flex boards",
+    "Mixed-signal circuits -> ADC exposure on embedded projects, not dedicated mixed-signal design",
+    "Power management circuits -> embedded power/GPIO exposure, not dedicated power design",
+    "Hardware bring-up -> STM32/Arduino project bring-up, not board-level bring-up in a regulated flow"
+  ],
+  "top_ats_keywords": [
+    "schematic capture",
+    "PCB design",
+    "component selection",
+    "mixed-signal",
+    "power management",
+    "sensing circuits",
+    "actuation circuits",
+    "hardware bring-up",
+    "debugging",
+    "bench testing",
+    "system-level integration",
+    "verification and validation",
+    "DHF",
+    "traceability",
+    "design control",
+    "regulated industry",
+    "medical device"
+  ],
+  "key_responsibilities": [
+    "Design/develop/support embedded electrical subsystems for electromechanical surgical devices",
+    "Schematic capture, PCB design (rigid, flex, rigid-flex), component selection",
+    "Mixed-signal, microcontroller-based designs: power management, sensing, actuation",
+    "Hardware bring-up, debugging, bench testing, system-level integration",
+    "Collaborate with firmware and mechanical engineers",
+    "Electrical verification and validation, test execution and documentation",
+    "Design control documentation: DHF elements, traceability, risk documentation",
+    "Troubleshoot fielded products, implement documented design updates"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

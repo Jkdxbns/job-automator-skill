@@ -1,0 +1,99 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Senior Embedded Software Engineer, Microcontroller OS",
+  "job_slug": "senior-embedded-software-engineer-microcontroller-os",
+  "match_pct": 58.3,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 12,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Embedded systems and firmware programming",
+    "Realtime embedded programming for microcontrollers",
+    "RTOS (FreeRTOS/Zephyr)",
+    "CMake",
+    "Debugging with EEs/datasheets/reference manuals"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Software design and architecture",
+      "you_have": "Custom RTOS + Telemetry Gateway system design"
+    },
+    {
+      "jd_skill": "Zephyr",
+      "you_have": "FreeRTOS"
+    }
+  ],
+  "missing_skills": [
+    "Testing/maintaining/launching software products (professional track record)",
+    "Pigweed",
+    "Bazel",
+    "Consumer electronics to production"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded systems",
+    "firmware",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "Pigweed",
+    "CMake",
+    "Bazel",
+    "microcontroller",
+    "realtime",
+    "datasheets",
+    "production"
+  ],
+  "required_skills": [
+    "C++",
+    "Embedded systems and firmware programming",
+    "Realtime embedded programming for microcontrollers",
+    "Testing/maintaining/launching software products",
+    "Software design and architecture"
+  ],
+  "preferred_skills": [
+    "Pigweed",
+    "Zephyr",
+    "RTOS (FreeRTOS/Zephyr)",
+    "Bazel",
+    "CMake",
+    "Debugging with EEs/datasheets/reference manuals",
+    "Consumer electronics to production"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build MCU firmware framework/components for glasses product running Android microXR",
+    "Support low-power coprocessors alongside SoC"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

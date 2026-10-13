@@ -1,0 +1,132 @@
+{
+  "company": "Nebius",
+  "company_slug": "nebius",
+  "role": "Senior Applied Scientist, Efficient LLM Inference & Model Optimization",
+  "job_slug": "senior-applied-scientist-llm-inference",
+  "match_pct": 34.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 15,
+    "jd_ask_size": 25,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "quantization",
+    "CUDA",
+    "transformer inference",
+    "LLM",
+    "model compression"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "FlashAttention",
+      "you_have": "CUDA kernel optimization"
+    },
+    {
+      "jd_skill": "production deployment",
+      "you_have": "Jetson edge deployment"
+    }
+  ],
+  "missing_skills": [
+    "PhD",
+    "publication record",
+    "QAT",
+    "distillation",
+    "speculative decoding",
+    "KV-cache",
+    "MoE",
+    "vLLM",
+    "SGLang",
+    "Triton",
+    "FlashInfer",
+    "SFT",
+    "DPO",
+    "RLHF",
+    "VLM"
+  ],
+  "top_ats_keywords": [
+    "quantization",
+    "QAT",
+    "distillation",
+    "speculative decoding",
+    "KV-cache",
+    "MoE",
+    "PyTorch",
+    "Triton",
+    "CUDA",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "FlashAttention",
+    "LLM",
+    "VLM",
+    "SFT",
+    "DPO",
+    "RLHF"
+  ],
+  "required_skills": [
+    "PhD",
+    "publication record",
+    "Python",
+    "PyTorch",
+    "LLM/VLM inference",
+    "transformer inference",
+    "decoding algorithms",
+    "model compression",
+    "quantization",
+    "experimental design"
+  ],
+  "preferred_skills": [
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "FlashAttention",
+    "FlashInfer",
+    "Triton",
+    "CUDA",
+    "post-training",
+    "SFT",
+    "DPO",
+    "RLHF",
+    "production deployment"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "research programs in efficient LLM/VLM inference",
+    "quantization, QAT, distillation, speculative decoding, KV-cache, MoE",
+    "prototypes in PyTorch/Triton",
+    "publish papers"
+  ],
+  "role_category": "ml_systems",
+  "location": "Amsterdam / Berlin / London / Poland / Prague / Tel Aviv / Zurich",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

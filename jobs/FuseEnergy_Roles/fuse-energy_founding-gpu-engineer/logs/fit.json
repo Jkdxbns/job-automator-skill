@@ -1,0 +1,119 @@
+{
+  "company": "Fuse Energy",
+  "company_slug": "fuse-energy",
+  "role": "Founding GPU Engineer",
+  "job_slug": "founding-gpu-engineer",
+  "match_pct": 47.2,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 18,
+    "req_cov": 0.85,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "CUDA",
+    "C++",
+    "Python",
+    "GPU",
+    "MPI",
+    "Slurm",
+    "memory optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "kernel fusion",
+      "you_have": "Kernel optimization"
+    },
+    {
+      "jd_skill": "Nsight",
+      "you_have": "pynvml Profiling"
+    },
+    {
+      "jd_skill": "multi-GPU scaling",
+      "you_have": "MPI"
+    }
+  ],
+  "missing_skills": [
+    "NCCL",
+    "RDMA/InfiniBand",
+    "NVLink",
+    "Triton",
+    "cuDNN",
+    "cuBLAS",
+    "Kubernetes",
+    "power capping/DVFS"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "C++",
+    "Python",
+    "Nsight",
+    "NCCL",
+    "MPI",
+    "RDMA",
+    "InfiniBand",
+    "NVLink",
+    "kernel fusion",
+    "Slurm",
+    "Kubernetes",
+    "Triton",
+    "cuDNN",
+    "cuBLAS",
+    "GPU"
+  ],
+  "required_skills": [
+    "CUDA",
+    "C++",
+    "Python",
+    "Nsight",
+    "GPU architecture",
+    "multi-GPU scaling",
+    "NCCL",
+    "MPI",
+    "kernel fusion",
+    "memory optimization"
+  ],
+  "preferred_skills": [
+    "Triton",
+    "cuDNN",
+    "cuBLAS",
+    "Kubernetes",
+    "Slurm",
+    "data centre power management"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "CUDA kernels",
+    "GPU profiling",
+    "Power/grid tooling",
+    "Multi-GPU scaling",
+    "Power capping/DVFS"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "London, UK (full remote)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

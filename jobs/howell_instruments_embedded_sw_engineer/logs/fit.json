@@ -1,0 +1,85 @@
+{
+  "company": "Howell Instruments, Inc.",
+  "company_slug": "howell_instruments",
+  "role": "Software Engineer-II (Embedded Systems)",
+  "job_slug": "embedded_sw_engineer",
+  "match_pct": 62,
+  "have_skills": [
+    "C/C++",
+    "UART",
+    "SPI",
+    "I2C",
+    "FreeRTOS/RTOS",
+    "oscilloscope",
+    "logic analyzer",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_wants": "STM32F4/F7",
+      "you_have": "STM32 family (bare-metal C)"
+    },
+    {
+      "jd_wants": "Firmware/Embedded",
+      "you_have": "bare-metal C on STM32"
+    },
+    {
+      "jd_wants": "RS232/RS422",
+      "you_have": "UART/serial protocol experience"
+    },
+    {
+      "jd_wants": "OOP",
+      "you_have": "C++ (implies OOP)"
+    },
+    {
+      "jd_wants": "Packet parsing over serial/RTOS",
+      "you_have": "UART/I2C protocol work"
+    },
+    {
+      "jd_wants": "Schematic reading",
+      "you_have": "Eagle PCB design"
+    }
+  ],
+  "missing_skills": [
+    "ARINC429",
+    "ARINC825",
+    "MODBUS",
+    "DO-178B/C",
+    "C# GUI",
+    "FAA/DER audit experience",
+    "Formal V&V (avionics-grade)",
+    "SDLC"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "RTOS",
+    "STM32",
+    "UART",
+    "SPI",
+    "I2C",
+    "embedded",
+    "firmware",
+    "DO-178",
+    "ARINC",
+    "Git"
+  ],
+  "key_responsibilities": [
+    "RTOS-based firmware for aerospace data acquisition/display",
+    "DO-178B/C compliant SW development",
+    "FAA SOI audits with DER",
+    "STM32F4/F7 peripherals, timers, comms setup",
+    "ARINC825, ARINC429, RS232, RS422, MODBUS, I2C, UART, SPI integration",
+    "Flight test support through certification",
+    "V&V activities and peer reviews",
+    "SW test procedures and documentation"
+  ],
+  "role_category": "embedded_systems",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "required_experience_years": 3,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  }
+}

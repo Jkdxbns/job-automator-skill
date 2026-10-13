@@ -1,0 +1,175 @@
+{
+  "company": "Etched",
+  "company_slug": "etched",
+  "role": "Developer Experience Engineer",
+  "job_slug": "etched_11_developer-experience-engineer",
+  "match_pct": 26.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 21,
+    "jd_ask_size": 32,
+    "req_cov": 0.222,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Slurm",
+    "CMake",
+    "Linux / system administration",
+    "CUDA / GPU profiling",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "secrets/config management",
+      "you_have": "Environment-based secrets/config separation"
+    },
+    {
+      "jd_skill": "build systems (Bazel asked)",
+      "you_have": "CMake build experience"
+    },
+    {
+      "jd_skill": "FPGA / ASIC development exposure",
+      "you_have": "Embedded hardware / PCB design"
+    },
+    {
+      "jd_skill": "CI/CD pipeline automation",
+      "you_have": "Git + build automation"
+    },
+    {
+      "jd_skill": "AI/ML training and GPU workload monitoring",
+      "you_have": "ML training, TensorRT, CUDA profiling"
+    }
+  ],
+  "missing_skills": [
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "GitHub Actions",
+    "Jenkins",
+    "Buildkite",
+    "Bazel",
+    "Terraform",
+    "Ansible",
+    "AWS",
+    "GCP",
+    "Airflow",
+    "Prefect",
+    "Dagster",
+    "Vault",
+    "SOPS",
+    "AWS Secrets Manager",
+    "GCP Secret Manager"
+  ],
+  "top_ats_keywords": [
+    "DevOps",
+    "Python",
+    "Slurm",
+    "HPC",
+    "Grafana",
+    "Prometheus",
+    "OpenTelemetry",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "CI/CD",
+    "GitHub Actions",
+    "Jenkins",
+    "Buildkite",
+    "Bazel",
+    "CMake",
+    "Terraform",
+    "Ansible",
+    "AWS",
+    "GCP",
+    "secrets management",
+    "Airflow",
+    "Prefect",
+    "Dagster",
+    "GPU",
+    "FPGA",
+    "ASIC"
+  ],
+  "required_skills": [
+    "Python",
+    "Slurm",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "GitHub Actions",
+    "Jenkins",
+    "Buildkite",
+    "Bazel",
+    "CMake",
+    "Terraform",
+    "Ansible",
+    "AWS",
+    "GCP",
+    "secrets management",
+    "access control",
+    "Airflow",
+    "Prefect",
+    "Dagster",
+    "Vault",
+    "SOPS",
+    "AWS Secrets Manager",
+    "GCP Secret Manager",
+    "GPU workload monitoring"
+  ],
+  "preferred_skills": [
+    "Airflow",
+    "Prefect",
+    "Dagster",
+    "Bazel",
+    "Vault",
+    "SOPS",
+    "AWS Secrets Manager",
+    "GCP Secret Manager",
+    "FPGA",
+    "ASIC"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop and maintain automation tools for development, testing, and deployment workflows",
+    "Optimize and manage Slurm-based job scheduling for AI and simulation workloads",
+    "Build observability solutions with Grafana, Prometheus, and OpenTelemetry",
+    "Manage containerized environments using Docker and Kubernetes",
+    "Enhance CI/CD pipelines with GitHub Actions, Jenkins, Buildkite, or Bazel",
+    "Develop caching and artifact management systems",
+    "Integrate cloud resources (AWS, GCP) for hybrid compute and storage",
+    "Support security and compliance including secrets management and access control",
+    "Document best practices for developer tooling"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "San Jose",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

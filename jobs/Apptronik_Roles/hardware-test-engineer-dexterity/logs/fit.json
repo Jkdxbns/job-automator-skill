@@ -1,0 +1,152 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Hardware Test Engineer \u2013 Dexterity",
+  "job_slug": "hardware-test-engineer-dexterity",
+  "match_pct": 57.5,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 9,
+    "missing_count": 4,
+    "jd_ask_size": 20,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Ability to read mechanical drawings, electrical schematics, and component datasheets",
+    "Experience on multi-disciplinary hardware teams with fast iteration cycles",
+    "Systematic approach to debugging and root-cause analysis",
+    "Python competency for data processing and analysis",
+    "CAD experience (SolidWorks) for fixture design and drawing review",
+    "Prior R&D or prototype development environment experience",
+    "Robotic arm / manipulation / kinematics experience (preferred domain)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hands-on testing of mechanical/electromechanical hardware (setup, instrumentation, data collection, analysis)",
+      "you_have": "Embedded/hardware build and integration experience (not formal testing/validation)"
+    },
+    {
+      "jd_skill": "Designing and building test fixtures or benchtop test setups",
+      "you_have": "Hardware assembly and fixture-like build work (PCB fabrication, test rigs for robots)"
+    },
+    {
+      "jd_skill": "Data acquisition systems and benchtop instruments (force/torque sensors, encoders, DAQs)",
+      "you_have": "Sensor integration (encoders, ToF, accelerometer, UART/I2C) but no force/torque or dedicated DAQ"
+    },
+    {
+      "jd_skill": "Testing/characterizing electromechanical linear actuators",
+      "you_have": "Motor control / PWM / servo experience (related electromechanical control)"
+    },
+    {
+      "jd_skill": "Ability to leverage AI agents for debug and development support",
+      "you_have": "Python/ML engineering (relevant to AI tooling, not explicitly AI-agent debug)"
+    },
+    {
+      "jd_skill": "Mechanism characterization (stiffness, backlash, friction, ROM)",
+      "you_have": "Robot kinematics / control analysis (related mechanism math)"
+    },
+    {
+      "jd_skill": "Wire harnessing: routing, connector selection, and strain relief",
+      "you_have": "Wiring/integration and PCB routing experience (not dedicated harness design)"
+    },
+    {
+      "jd_skill": "PLM system experience (Arena, Windchill, Teamcenter)",
+      "you_have": "Version control / documentation (Git/GitLab) \u2014 closest analog"
+    },
+    {
+      "jd_skill": "Robotic hand, gripper, or dexterous manipulation hardware (preferred)",
+      "you_have": "Robotic arm / manipulation / pick-and-place (related but hand-specific)"
+    }
+  ],
+  "missing_skills": [
+    "Structured test plan authoring with traceable documentation (hard requirement \u2014 no evidence of writing test plans/procedures)",
+    "Explicit test execution experience on mechanical/electromechanical components (hard requirement \u2014 profile is design/build/ML, not validation/test)",
+    "Dedicated DAQ / force-torque instrumentation experience (hard requirement \u2014 only encoder/ToF/sensor work present)",
+    "Test fixture design specifically for validation/characterization (hard requirement \u2014 fixtures built for robot function, not validation fixtures)"
+  ],
+  "top_ats_keywords": [
+    "Hardware Test Engineer",
+    "Dexterity",
+    "Apptronik",
+    "robotic hand",
+    "test engineer",
+    "mechanical testing",
+    "electromechanical",
+    "test fixtures",
+    "instrumentation",
+    "force torque sensors",
+    "encoders",
+    "DAQ",
+    "data acquisition",
+    "test plans",
+    "pass/fail criteria",
+    "root cause analysis",
+    "Python",
+    "SolidWorks",
+    "CAD",
+    "PLM",
+    "wire harness",
+    "prototype",
+    "R&D",
+    "multi-disciplinary"
+  ],
+  "required_skills": [
+    "Hands-on testing of mechanical/electromechanical hardware (setup, instrumentation, data collection, analysis)",
+    "Structured test plan authoring with pass/fail criteria and traceable documentation",
+    "Test fixture / benchtop test setup design and fabrication",
+    "Reading mechanical drawings, electrical schematics, and component datasheets",
+    "Data acquisition systems and benchtop instruments (force/torque sensors, encoders, DAQs)",
+    "Multi-disciplinary hardware team collaboration with fast iteration",
+    "Systematic debugging and root-cause analysis",
+    "Python for data processing and analysis",
+    "Ability to leverage AI agents for debug and development support"
+  ],
+  "preferred_skills": [
+    "Robotic hand / gripper / dexterous manipulation hardware experience",
+    "Wire harnessing (routing, connector selection, strain relief)",
+    "PLM system (Arena, Windchill, Teamcenter)",
+    "CAD experience for fixture design and drawing review (SolidWorks, Onshape)",
+    "Mechanism characterization (stiffness, backlash, friction, range of motion)",
+    "Testing/characterizing electromechanical linear actuators (force, stroke, speed, backdrivability)",
+    "Prior R&D or prototype development environment experience"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Test Strategy & Planning (component/sub-assembly/system validation)",
+    "Test Plan Authoring",
+    "Test Article Assembly",
+    "Test Execution (components through integrated system)",
+    "Results Reporting & Recommendations",
+    "Design for Test Consulting",
+    "Test Fixture Design & Fabrication",
+    "Harnessing Support",
+    "PLM Engagement",
+    "Root-Cause Analysis & Feedback",
+    "Embedded Team Participation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

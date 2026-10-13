@@ -1,0 +1,141 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Mapping Solution Engineer",
+  "job_slug": "mapping-solution-engineer",
+  "match_pct": 46.2,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 11,
+    "jd_ask_size": 26,
+    "req_cov": 0.467,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "ROS",
+    "ROS2",
+    "Git",
+    "Linux / Ubuntu",
+    "debugging and troubleshooting",
+    "production-quality embedded/robotics software (personal/project scale)",
+    "real-world deployment experience (robotic arm, tracking turret, autonomous driving in CARLA)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D geometry / point cloud processing",
+      "you_have": "3D depth estimation (ZoeDepth crack-depth profiling, \u00b18%), image stitching, depth profiling \u2014 not point cloud geometry"
+    },
+    {
+      "jd_skill": "LiDAR systems",
+      "you_have": "VL53L0X ToF distance sensors used in robotics/perception \u2014 not LiDAR"
+    },
+    {
+      "jd_skill": "3D mapping / mapping pipelines",
+      "you_have": "mapping-related depth/inspection pipelines (image stitching, crack-depth profiling) but not 3D mapping"
+    },
+    {
+      "jd_skill": "PCL / Open3D",
+      "you_have": "OpenCV + YOLO + TensorRT image/perception pipelines \u2014 no PCL/Open3D"
+    },
+    {
+      "jd_skill": "production-quality software",
+      "you_have": "production-grade embedded C/CUDA, ROS2 nodes, TensorRT deployment \u2014 not company-scale production"
+    },
+    {
+      "jd_skill": "autonomous vehicles / drones / field robotics",
+      "you_have": "autonomous driving in CARLA; ROS2 robotic arm and tracking turret; embedded field systems \u2014 not deployed drones/vehicles"
+    }
+  ],
+  "missing_skills": [
+    "ICP",
+    "NDT",
+    "PCL (explicit library experience)",
+    "Open3D (explicit library experience)",
+    "3D data formats (PCD, PLY, E57, LAS)",
+    "geospatial data / georeferencing / coordinate systems / survey control / calibration workflows",
+    "CloudCompare / Leica Cyclone / Faro Scene / Trimble RealWorks",
+    "direct customer-facing / technical demonstration experience",
+    "Jira / Wrike / Confluence experience",
+    "2+ years full-time industry experience (candidate has 0 full-time, 7 internships/research)",
+    "mission-critical production mapping deployment at company scale"
+  ],
+  "top_ats_keywords": [
+    "3D mapping",
+    "point cloud",
+    "LiDAR",
+    "ROS",
+    "C++",
+    "Python",
+    "ICP",
+    "NDT",
+    "PCL",
+    "Open3D",
+    "field deployment",
+    "robotics",
+    "autonomous systems",
+    "geospatial"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "3D geometry",
+    "point cloud processing",
+    "ICP",
+    "NDT",
+    "PCL",
+    "Open3D",
+    "LiDAR systems",
+    "3D data formats (PCD, PLY, E57, LAS)",
+    "ROS",
+    "Git",
+    "Linux / Ubuntu",
+    "production-quality software",
+    "debugging and troubleshooting"
+  ],
+  "preferred_skills": [
+    "geospatial data / georeferencing / coordinate systems / survey control / calibration",
+    "mission-critical robotics / autonomous systems deployment",
+    "CloudCompare / Leica Cyclone / Faro Scene / Trimble RealWorks",
+    "customer-facing / technical demonstrations",
+    "Jira / Wrike / Confluence",
+    "robotics / autonomous vehicles / drones / field robotics",
+    "startup / high-growth / ownership mindset"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop/deploy 3D mapping software and data processing pipelines",
+    "Own end-to-end mapping data delivery (capture, processing, quality validation, customer handoff)",
+    "Field/on-site and remote deployments; technical demos/pilots",
+    "Bridge field operations and engineering; translate deployment challenges into technical improvements"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

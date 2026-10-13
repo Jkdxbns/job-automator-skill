@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "company": "KLA",
+    "role": "Software Engineer AI ML",
+    "company_slug": "kla",
+    "job_slug": "software_engineer_ai_ml"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology. Architected a microscopic surface inspection pipeline using image stitching, wavelet denoising, and depth estimation for automated defect characterization, and optimized deep learning inference in Linux with hand-written CUDA C++ kernels and TensorRT, cutting convolution latency ~35% and reaching a 5.2x end-to-end speedup on edge hardware.",
+  "skills": {
+    "Languages & Systems": ["Python", "C++", "C", "CUDA C++", "Bash", "Linux"],
+    "ML / Deep Learning": ["PyTorch", "HuggingFace Transformers", "TensorRT", "ONNX", "TFLite", "8-bit Quantization", "Model Training & Validation"],
+    "Computer Vision & Imaging": ["OpenCV", "YOLOv8", "U-Net Segmentation", "Image Stitching & Mosaicing", "Monocular Depth Estimation", "Wavelet Denoising", "Image Processing"],
+    "GPU & Tools": ["CUDA Kernel Optimization", "Memory Coalescing", "GPU Acceleration", "Performance Benchmarking", "NVIDIA Jetson", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation for automated defect characterization.",
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise, raising reconstruction quality to PSNR 86 from a PSNR 65 stitching baseline.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with +/-8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 imaging dataset, evaluated on Dice Score and IoU; engineered the data pipeline for large-scale 3D volumetric inputs."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document understanding transformer, in PyTorch with the HuggingFace VisionEncoderDecoder API, improving validation accuracy from 55% to 93%."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n object detection on 1,133 annotated images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Cut inference latency to 49.2 ms from 73.3 ms (uncoalesced GPU) and 77.5 ms (CPU TorchScript), a ~35% speedup at identical accuracy with 1.5-2x faster convolutions.",
+        "Replaced TorchScript convolution layers with hand-written CUDA C++ kernels using memory coalescing, constant memory for weights, and preallocated global buffers."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO inference with TensorRT for a 5.2x speedup (56.7 to 10.9 ms, 17.6 to 92 FPS) over eager PyTorch, enabling real-time visual servoing on NVIDIA Jetson.",
+        "Built a three-layer distributed pipeline over a unified WebSocket fabric; resolved 11 integration failures to reach 100% pick reliability across 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "High Performance Architecture", "Multiple Processor Systems", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation - 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

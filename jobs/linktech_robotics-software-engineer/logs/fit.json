@@ -1,0 +1,74 @@
+{
+  "company": "LinkTech",
+  "company_slug": "linktech",
+  "role": "Robotics Software Engineer",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 82,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Robotics / ROS2",
+    "Computer Vision (YOLO / TensorRT / perception)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "Hardware Integration",
+      "you_have": "STM32 bare-metal firmware, GPIO/ADC"
+    },
+    {
+      "jd_term": "Sensor Integration",
+      "you_have": "ADXL345, IMU, I2C/SPI peripherals"
+    },
+    {
+      "jd_term": "Motor Control",
+      "you_have": "Embedded C, PWM, STM32 Cortex-M4"
+    },
+    {
+      "jd_term": "Automated Testing / Diagnostics",
+      "you_have": "CI pipelines, benchmarking, performance analysis"
+    },
+    {
+      "jd_term": "Firmware",
+      "you_have": "bare-metal C/C++, RTOS, Cortex-M4"
+    },
+    {
+      "jd_term": "Embedded Systems",
+      "you_have": "STM32, Cortex-M4, bare-metal C"
+    }
+  ],
+  "missing_skills": [],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "robotics",
+    "computer vision",
+    "sensor integration",
+    "hardware integration",
+    "automated testing",
+    "ROS2",
+    "embedded",
+    "motor control"
+  ],
+  "key_responsibilities": [
+    "Motor and sensor selection, development, and integration for Poseidon robots",
+    "Software interfacing with hardware for robot behavior, safety, efficiency",
+    "Automated testing and diagnostic frameworks for robotic components",
+    "Failure mode analysis from field and in-house test data",
+    "Collaboration with mechanical, electrical, field, and software teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "UNKNOWN \u2014 LinkTech not in known-sponsors list; no explicit no-sponsorship language in JD",
+    "experience": "CLEAR \u2014 entry-level role, no year requirement",
+    "location": "El Segundo CA (100% in-person) \u2014 willing to relocate",
+    "clearance": "CLEAR",
+    "notice_weeks": 4,
+    "ead_pending": true
+  },
+  "date": "2026-06-01",
+  "hard_blocker_triggered": false
+}

@@ -1,0 +1,27 @@
+{
+  "company": "ClearObject",
+  "company_slug": "clearobject",
+  "role": "Vision AI Engineer",
+  "job_slug": "vision-ai-engineer",
+  "match_pct": 67,
+  "missing_skills": ["Docker", "GCP (Vertex AI/Cloud Vision/GKE)", "AWS (SageMaker/Rekognition/ECS)", "Kubernetes", "Terraform/Ansible (IaC)", "camera/lens/lighting hardware selection", "image quality fundamentals (exposure, focus, lens selection)", "MLOps tooling"],
+  "adjacent_skills": ["network/TCP/IP config (have UART/I2C/SPI, not deep network security)", "sensor fusion (have ToF/robotics sensor fusion, not LiDAR/radar)", "REST APIs (have Flask/WebSocket)"],
+  "top_ats_keywords": ["Vision AI", "computer vision", "Python", "C/C++", "Linux", "OpenCV", "PyTorch", "TensorFlow", "ONNX", "TensorRT", "edge AI", "edge compute", "Docker", "quantization", "object detection"],
+  "key_responsibilities": [
+    "Scope and design end to end Vision AI system architectures (camera, edge compute, cloud)",
+    "Select and integrate vision hardware (cameras, lenses, lighting, GPUs, edge compute)",
+    "Administer Linux systems, shell scripting, Docker containerized deployments",
+    "Deploy and optimize Vision AI inference across edge and cloud (GCP/AWS)",
+    "Develop production Python/C++ software for inference engines and system integration"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null,
+  "sponsorship_flag": {
+    "explicit_no_sponsorship": true,
+    "matched_text": "applicants must be legally authorized to work in the United States and should not require, now or in the future, sponsorship for employment visa status"
+  }
+}

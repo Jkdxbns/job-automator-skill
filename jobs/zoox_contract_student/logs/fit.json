@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-10",
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Contract Student Worker - Forward Deployed Automation Engineer",
+  "job_slug": "contract_student_fleet_automation",
+  "location": "Seattle, WA",
+  "remote_ok": false,
+  "match_pct": 35.7,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 14,
+    "req_cov": 0.35,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "production_scope_required": true,
+  "have_skills": [
+    "real-time monitoring",
+    "API integration",
+    "telemetry parsing"
+  ],
+  "adjacent_skills": [
+    "web application development (Flask backend, minimal UI)",
+    "vehicle telematics (CARLA autonomous driving)",
+    "AI/ML workflows (ML pipelines)",
+    "diagnostic tools (robotics diagnostics)"
+  ],
+  "missing_skills": [
+    "responsive UI",
+    "database design",
+    "SQL",
+    "NoSQL",
+    "dashboards",
+    "workflow automation",
+    "fleet management systems"
+  ],
+  "top_ats_keywords": [
+    "web applications",
+    "responsive UI",
+    "real-time systems",
+    "database optimization",
+    "dashboarding",
+    "fleet operations",
+    "telemetry",
+    "automation",
+    "SQL",
+    "NoSQL"
+  ],
+  "key_responsibilities": [
+    "Design and deploy mobile-first web applications",
+    "Build responsive UIs for real-time monitoring",
+    "Develop diagnostic tools for sensor data visualization",
+    "Architect automated ticketing systems",
+    "Integrate AI-driven workflows for log parsing",
+    "Construct live operational dashboards",
+    "Optimize database queries",
+    "Interface with hardware/software teams"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "constraints": {
+    "f1_opt_status": "Eligible (on-campus student worker, EAD pending)",
+    "location_requirement": "On-site Seattle \u2192 relocation needed",
+    "no_visa_sponsorship_required": true,
+    "no_clearance_required": true
+  },
+  "screening_gaps": [
+    "SQL/NoSQL database experience \u2014 core to fleet data analytics",
+    "Dashboard/visualization frameworks \u2014 essential for fleet monitoring UI",
+    "Web development & responsive UI \u2014 primary focus of application role"
+  ],
+  "llm_analysis": null,
+  "notes": "Strong embedded systems and real-time expertise, but significant gap in web development and data analytics tools required for this operations-focused role."
+}

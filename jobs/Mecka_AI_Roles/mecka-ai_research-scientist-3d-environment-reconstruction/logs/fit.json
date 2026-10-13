@@ -1,0 +1,135 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Scientist \u2013 3D Environment Reconstruction",
+  "job_slug": "research-scientist-3d-environment-reconstruction",
+  "match_pct": 39.7,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 15,
+    "jd_ask_size": 29,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "PyTorch",
+    "Python",
+    "CUDA / GPU kernel optimization",
+    "Multi-GPU / cluster scheduling",
+    "Embedded C / bare-metal",
+    "Computer Vision / depth estimation",
+    "Deep Learning / AI model training",
+    "ROS2 / robotics perception",
+    "Edge AI / embedded deployment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D Computer Vision",
+      "you_have": "Computer Vision + depth estimation"
+    },
+    {
+      "jd_skill": "custom CUDA kernels for 3D operations / ray marching",
+      "you_have": "CUDA kernel optimization"
+    },
+    {
+      "jd_skill": "scaling large-scale vision models from scratch",
+      "you_have": "Deep Learning + PyTorch modeling"
+    },
+    {
+      "jd_skill": "sim-to-real / robotics pipeline integration",
+      "you_have": "ROS2 / perception pipelines"
+    },
+    {
+      "jd_skill": "novel hardware sensor fusion for perception",
+      "you_have": "embedded sensor interfaces (I2C/SPI/UART/GPIO/ADC)"
+    }
+  ],
+  "missing_skills": [
+    "Neural Rendering",
+    "multi-view geometry",
+    "spatial modeling",
+    "3D Gaussian Splatting",
+    "NeRFs",
+    "dense 3D geometry extraction",
+    "multi-terabyte dataset experience",
+    "ray marching",
+    "rasterization",
+    "WebGL / custom rendering engines",
+    "optimizing splats for interactive viewing",
+    "first-author publications (CVPR/ICCV/ECCV) in 3D deep learning",
+    "client-facing 3D viewer optimization / packaging",
+    "dynamic actor / static environment separation (3D)",
+    "digital twins / physically accurate reconstruction"
+  ],
+  "top_ats_keywords": [
+    "3D reconstruction",
+    "Gaussian Splatting",
+    "NeRF",
+    "Neural Rendering",
+    "Computer Vision",
+    "CUDA",
+    "multi-GPU",
+    "PyTorch",
+    "ray marching",
+    "rasterization",
+    "WebGL",
+    "robotics",
+    "embodied AI",
+    "sim-to-real",
+    "digital twins",
+    "perception pipeline",
+    "spatial modeling"
+  ],
+  "required_skills": [
+    "3D Computer Vision",
+    "Neural Rendering",
+    "multi-view geometry",
+    "spatial modeling",
+    "PyTorch",
+    "custom CUDA kernels (3D operations, ray marching, rasterization)",
+    "scaling large-scale 3D vision models from scratch",
+    "multi-GPU clusters",
+    "multi-terabyte dataset experience"
+  ],
+  "preferred_skills": [
+    "first-author publications (CVPR/ICCV/ECCV) in 3D deep learning / neural rendering / spatial transformers",
+    "deploying 3D assets to WebGL / custom rendering engines",
+    "optimizing splats for interactive viewing",
+    "sim-to-real integration",
+    "emergent perception R&D"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, train, and scale 3D reconstruction models (Gaussian Splatting, NeRFs) on multi-GPU clusters",
+    "Integrate reconstructed environments into downstream robotics/perception and sim-to-real pipelines",
+    "Optimize and package massive 3D scenes for high-framerate interactive client viewing",
+    "Rapid prototype architectures for dynamic/static separation and algorithmic bottleneck resolution",
+    "Fuse novel hardware sensor integrations into perception pipelines"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,86 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Machine Learning Engineer - Generative AI",
+  "job_slug": "ml-engineer-generative-ai",
+  "match_pct": 62.5,
+  "location": "San Diego, California, United States (On-Site)",
+  "salary": "$104,000 - $156,000",
+  "experience_level_stated": "junior",
+  "required_experience_years": 0,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Transformer architecture (GPT-2 from scratch, ASR encoder-decoder)",
+    "Hugging Face Transformers",
+    "Model evaluation / benchmarking frameworks",
+    "Quantization (LLM.int8, 8-bit)",
+    "Model deployment (ONNX, TFLite, TensorRT)"
+  ],
+  "adjacent_skills": [
+    "LLM fine-tuning -> fine-tuned DONUT (vision transformer) on domain dataset via HuggingFace VisionEncoderDecoder",
+    "Cloud platforms (AWS/GCP/Azure) -> SLURM-managed HPC cluster + JupyterHub, no public cloud",
+    "MLOps / deployment pipelines -> edge deployment pipelines (ONNX/TFLite/TensorRT), not cloud MLOps"
+  ],
+  "missing_skills": [
+    "RAG architectures",
+    "Vector databases",
+    "Embedding models",
+    "Agentic workflows / autonomous agent systems",
+    "LangChain",
+    "LlamaIndex",
+    "Prompt engineering / chain-of-thought",
+    "Containerization (Docker)",
+    "Microservices architecture",
+    "Reinforcement Learning",
+    "Open-source AI contributions",
+    "AWS",
+    "GCP",
+    "Azure"
+  ],
+  "top_ats_keywords": [
+    "Large Language Models",
+    "LLM",
+    "Retrieval-Augmented Generation",
+    "RAG",
+    "fine-tuning",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Transformers",
+    "Hugging Face",
+    "evaluation frameworks",
+    "model performance",
+    "agentic workflows",
+    "vector databases",
+    "embedding models",
+    "prompt engineering",
+    "quantization",
+    "model deployment",
+    "generative AI"
+  ],
+  "key_responsibilities": [
+    "Design and implement RAG-based solutions to enhance LLM capabilities with external knowledge sources",
+    "Develop and optimize LLM fine-tuning strategies for domain adaptation",
+    "Create robust evaluation frameworks for measuring and improving model performance",
+    "Build and maintain agentic workflows for autonomous AI systems",
+    "Collaborate with cross-functional teams to implement AI solutions"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "constraint_flags": {
+    "sponsorship": "OK - Qualcomm is a known H1B sponsor; no restrictive language in JD",
+    "experience": "Minor - min qual is Bachelor's/0 yrs, listing tagged Junior 1-2 YOE, but summary says 'experienced'",
+    "location": "San Diego, On-Site - cross-country relocation required",
+    "clearance": "None required",
+    "notice_weeks": 4,
+    "ead_pending": true
+  },
+  "hard_blocker_triggered": false,
+  "llm_analysis": null,
+  "date_analyzed": "2026-08-04"
+}

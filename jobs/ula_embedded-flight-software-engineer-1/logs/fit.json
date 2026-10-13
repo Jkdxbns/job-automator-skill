@@ -1,0 +1,174 @@
+{
+  "company": "United Launch Alliance",
+  "company_slug": "ula",
+  "role": "Embedded Flight Software Engineer 1",
+  "job_slug": "embedded-flight-software-engineer-1",
+  "match_pct": 65.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 20,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "embedded programming",
+    "robotics",
+    "Linux",
+    "Git",
+    "Python",
+    "Raspberry Pi",
+    "Arduino",
+    "Hardware/Microprocessor/Software Integration",
+    "RTOS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object Oriented Design",
+      "you_have": "C++ / Python (PyQt GUI, class-based code)"
+    },
+    {
+      "jd_skill": "Ethernet / RS-422 / MIL-STD-1553",
+      "you_have": "UART/I2C/SPI, TCP/IP networking"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab, CMake/build systems"
+    },
+    {
+      "jd_skill": "Agile / TDD",
+      "you_have": "unit testing and validation"
+    }
+  ],
+  "missing_skills": [
+    "UML",
+    "AWS / cloud",
+    "AI-assisted tooling",
+    "Perl",
+    "JavaScript"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded",
+    "robotics",
+    "Object Oriented Design",
+    "Linux",
+    "Git",
+    "Python",
+    "Perl",
+    "JavaScript",
+    "CI/CD",
+    "TDD",
+    "Agile",
+    "Raspberry Pi",
+    "Arduino",
+    "Hardware/Microprocessor/Software Integration",
+    "Ethernet",
+    "RS-422",
+    "MIL-STD-1553",
+    "UML",
+    "AWS",
+    "RTOS"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "embedded programming",
+    "robotics",
+    "Object Oriented Design",
+    "Linux",
+    "Git",
+    "AI-assisted tooling"
+  ],
+  "preferred_skills": [
+    "Python",
+    "Perl",
+    "JavaScript",
+    "CI/CD",
+    "TDD",
+    "Agile",
+    "Raspberry Pi",
+    "Arduino",
+    "Hardware/Microprocessor/Software Integration",
+    "Ethernet",
+    "RS-422",
+    "MIL-STD-1553",
+    "UML",
+    "AWS",
+    "RTOS"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Develop real-time embedded flight control software",
+    "Full lifecycle: requirements, design, implementation, integration/component/unit tests",
+    "Agile cross-functional team"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Centennial, CO (ULA - Denver)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4: timer-triggered ADC, interrupt-driven capture, low-level I2C driver, 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz (STM32 Temperature Monitor)",
+      "Real-time multi-task firmware: FreeRTOS with mutexes, interrupt-driven UART and multi-servo PWM (Object Tracking Turret); interrupt-driven quadrature decoding and fail-safe state machine (Robocon)",
+      "Hardware/software integration under failure: resolved 11 integration failures to reach 10/10 pick reliability across Jetson, Arduino, ToF over an I2C mux (COFFIN)",
+      "Linux and Git working fluency: systemd service with auto-restart and non-root isolation, static IP config, GitLab at BARC"
+    ],
+    "real_gaps": [
+      "No requirements-driven flight/safety-critical lifecycle: no requirements refinement, traceability, or formal verification evidence",
+      "No unit/integration test framework evidence (gtest, Unity, HIL, TDD) despite the role owning component and unit tests",
+      "C++ is mostly Arduino-flavored and CUDA; no demonstrated OOD (class hierarchies, patterns), no UML",
+      "No avionics or deterministic-bus protocols: RS-422, MIL-STD-1553, Ethernet at a protocol level",
+      "No CI/CD pipeline authored, no AWS/cloud",
+      "No Perl or JavaScript; AI-assisted tooling not evidenced in profile"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted as Have, but evidence is Arduino C++ two-link IK and CUDA C++ kernels, not modern OO embedded C++",
+      "RTOS counted as Have, but evidence is a single FreeRTOS turret project, no scheduling analysis or priority/latency work",
+      "Hardware/Software Integration counted as Have, but it is hobby/capstone-scale, not flight-hardware integration"
+    ],
+    "understated_by_keywords": [
+      "Defensive firmware instincts: servo brown-out diagnosis, ToF-gated contact detection, fail-safe state machine on controller disconnect map to flight-control fault handling",
+      "Memory-constrained deterministic timing (1.58 KB RAM, 1 Hz deterministic update) is real-time evidence the keyword pass did not credit"
+    ],
+    "screening_gaps": [
+      "No testing-framework or verification evidence (unit/integration/HIL) for a role whose stated duty includes building those tests",
+      "C++ and Object Oriented Design shown only at Arduino/CUDA level, with no UML or design-pattern work, in a role that lists OOD as a basic qualification",
+      "No aerospace or deterministic-bus exposure (RS-422, MIL-STD-1553) and no requirements-driven development process"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded stack (bare-metal C, FreeRTOS, interrupts, Linux, Git, Pi/Arduino) is concretely backed and the role is entry level with no years required, so this is a legitimate shot. The weak spots are C++ and OOD depth plus any testing and process evidence, which are exactly what a technical screen on this role would probe.",
+    "calibration_delta": -2.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-05",
+    "channel": "application",
+    "notes": "Form rejection: qualifications \"not the correct match\" (ULA Embedded Flight Software Engineer 1, req 2204)."
+  }
+}

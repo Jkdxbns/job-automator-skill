@@ -1,0 +1,154 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 4.3,
+      "matched": [
+        "hardware/software integration",
+        "robotics",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 2.44,
+      "matched": [
+        "Git"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 2.08,
+      "matched": [
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 0.69,
+      "matched": [
+        "testing and validation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 7.64,
+      "matched": [
+        "C",
+        "microcontroller firmware",
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 5.41,
+      "matched": [
+        "C++",
+        "robotics",
+        "serial protocols",
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "score": 4.49,
+      "matched": [
+        "motor control",
+        "peripheral programming",
+        "robotics"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 3.48,
+      "matched": [
+        "peripheral programming",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 1.56,
+      "matched": [
+        "speech and audio"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Bare-metal microcontroller firmware",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "microcontroller",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "embedded firmware",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "Low-level debugging",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "debugging",
+      "for_skill": "hardware debugging"
+    },
+    {
+      "use_jd_wording": "Revision control",
+      "for_skill": "Git"
+    },
+    {
+      "use_jd_wording": "revision control",
+      "for_skill": "Git"
+    },
+    {
+      "use_jd_wording": "Actuator control (motors, solenoids)",
+      "for_skill": "motor control"
+    },
+    {
+      "use_jd_wording": "actuators",
+      "for_skill": "motor control"
+    },
+    {
+      "use_jd_wording": "Signal processing and noise reduction",
+      "for_skill": "speech and audio"
+    },
+    {
+      "use_jd_wording": "Board bring-up",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "bring-up",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "Robotics/control emphasis",
+      "for_skill": "robotics"
+    },
+    {
+      "use_jd_wording": "Internal test/automation tools",
+      "for_skill": "testing and validation"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Assembly",
+    "USB",
+    "PID tuning",
+    "Sensor data integration",
+    "Electromechanical systems"
+  ]
+}

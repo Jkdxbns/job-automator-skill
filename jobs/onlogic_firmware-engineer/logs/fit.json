@@ -1,0 +1,81 @@
+{
+  "company": "OnLogic",
+  "company_slug": "onlogic",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 59.5,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 21,
+    "req_cov": 0.722,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "ARM firmware (Cortex-M)",
+    "MCU firmware (STM32/Arduino)",
+    "C / C++",
+    "Git",
+    "Linux",
+    "Logic analyzers / oscilloscopes",
+    "Schematic reading + HW/SW integration",
+    "Electronics/PCB aptitude (EAGLE, Proteus)",
+    "Cross-discipline collaboration (mech/elec/test)",
+    "Bare-metal embedded firmware",
+    "UART / I2C / SPI bring-up"
+  ],
+  "missing_skills": [
+    "Linux device driver development",
+    "x86 UEFI/BIOS customization",
+    "Assembly",
+    "JTAG-based debugging",
+    "Device trees",
+    "Industrial PC / motherboard design",
+    "Product certification & compliance process"
+  ],
+  "adjacent_skills": [
+    "ARM64 SoC architecture -> Jetson (ARM64) deployment, not bring-up",
+    "Prototype validation -> lab bring-up on project hardware",
+    "CPU/SoC architectures -> HPC / GPU architecture coursework"
+  ],
+  "top_ats_keywords": [
+    "ARM SoC",
+    "Linux device drivers",
+    "device tree",
+    "UEFI",
+    "BIOS",
+    "MCU firmware",
+    "C",
+    "Assembly",
+    "JTAG",
+    "logic analyzer",
+    "Git",
+    "ARM64",
+    "bare-metal",
+    "schematics",
+    "bring-up"
+  ],
+  "key_responsibilities": [
+    "Firmware/software dev on ARM SoCs and MCUs",
+    "Port and develop Linux device drivers for ARM products",
+    "Support x86 UEFI customizations",
+    "Prototype builds and firmware/driver validation",
+    "Support certification/compliance and sustaining issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "constraints": {
+    "sponsorship": "BLOCKING - 'Ability to work in the U.S. without visa sponsorship.'",
+    "onsite": "South Burlington VT / Cary NC, onsite required",
+    "experience": "2+ yrs firmware vs 0 full-time"
+  },
+  "llm_analysis": null
+}

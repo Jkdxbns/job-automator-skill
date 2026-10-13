@@ -1,0 +1,107 @@
+{
+  "company": "The Home Depot",
+  "company_slug": "home-depot",
+  "role": "Associate Data Scientist - FP&A Pro Intelligence, Decision Analytics",
+  "job_slug": "associate-data-scientist-fpa",
+  "match_pct": 23.1,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 4,
+    "missing_count": 8,
+    "jd_ask_size": 13,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "predictive modeling",
+      "you_have": "scikit-learn / PyTorch model training"
+    },
+    {
+      "jd_skill": "model validation",
+      "you_have": "Model evaluation"
+    },
+    {
+      "jd_skill": "model deployment",
+      "you_have": "TensorRT / Jetson edge deployment"
+    },
+    {
+      "jd_skill": "dashboards",
+      "you_have": "Matplotlib / Pandas"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "BigQuery",
+    "Tableau",
+    "Excel",
+    "PowerPoint",
+    "statistical techniques",
+    "prescriptive modeling",
+    "business intelligence"
+  ],
+  "top_ats_keywords": [
+    "SQL",
+    "BigQuery",
+    "Tableau",
+    "Python",
+    "Excel",
+    "PowerPoint",
+    "business intelligence",
+    "predictive modeling",
+    "prescriptive modeling",
+    "statistics",
+    "dashboards",
+    "model deployment"
+  ],
+  "required_skills": [
+    "SQL",
+    "Tableau",
+    "BI dashboards",
+    "Python",
+    "statistical techniques"
+  ],
+  "preferred_skills": [
+    "Google BigQuery",
+    "Microsoft Excel",
+    "PowerPoint",
+    "prescriptive modeling",
+    "predictive modeling",
+    "model validation and performance monitoring",
+    "model deployment"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Maintain and build enterprise Tableau dashboards",
+    "Advanced SQL on large datasets",
+    "Predictive modeling with Data Scientists",
+    "Present insights to non-technical stakeholders"
+  ],
+  "role_category": "ml_systems",
+  "location": "Atlanta, GA (Onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

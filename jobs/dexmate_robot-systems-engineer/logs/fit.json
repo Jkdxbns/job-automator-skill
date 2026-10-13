@@ -1,0 +1,67 @@
+{
+  "company": "Dexmate",
+  "company_slug": "dexmate",
+  "role": "Robot Systems Engineer",
+  "job_slug": "robot-systems-engineer",
+  "match_pct": 82,
+  "missing_skills": [
+    "CAN bus protocol",
+    "EtherCAT",
+    "3+ years industrial full-time experience"
+  ],
+  "adjacent_skills": [
+    "robotic system architecture (compute/sensing/actuation/control) via ROS2 projects",
+    "Ethernet networking (TCP/websocket experience, not industrial fieldbus)",
+    "hardware bring-up (STM32/PCB level, not production robot commissioning)",
+    "electromechanical system validation"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "ROS2",
+    "Linux",
+    "embedded systems debugging",
+    "system integration",
+    "sensors",
+    "actuators",
+    "communication protocols",
+    "hardware bring-up",
+    "test frameworks",
+    "root cause analysis"
+  ],
+  "key_responsibilities": [
+    "Define system architectures spanning mechanical, electrical, firmware, software",
+    "System-level integration for new robot platforms (sensors, actuators, compute, comms)",
+    "Develop software to control and test robot platforms at system level",
+    "Build custom test frameworks and automation/diagnostic tools",
+    "Validate motion, sensing, control, manipulation capabilities",
+    "Commission and operate robots from bring-up through production deployment",
+    "Root cause analysis across hardware/firmware/software"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN capstone (Voice-Controlled Robotic Arm) is a real multi-subsystem integration build: Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller unified over WebSocket, with STT, LLM intent classification, TensorRT YOLO for visual servoing, and dual ToF sensors on an I2C mux. This is the same shape of work as the JD asks for (integration across compute, sensing, actuation, comms), just at capstone scale.",
+      "Resolved 11 integration failures on COFFIN (false-positive detections, servo brown-out, stale-frame capture) to hit 100% pick reliability \u2014 directly maps to the JDs root cause analysis and triage/debug across hardware, firmware, and software bullets.",
+      "Genuine hardware bring-up depth: STM32 bare-metal C with GPIO/TIM2/ADC1/I2C1 registers, custom EAGLE PCB fabrication, oscilloscopes and logic analyzers for debug. This is real bring-up experience, just on single boards rather than full robot platforms.",
+      "ABB RobotStudio project used an actual industrial robot brand (ABB) with RAPID programming and TCP socket-based integration \u2014 closer to industrial robotics than most of the CV portfolio.",
+      "ROS-based robotic arm project (UR5e + AL5B) shows hand-derived kinematics validated against MoveIt/RViz and executed on physical hardware, not just simulation."
+    ],
+    "real_gaps": [
+      "Zero exposure anywhere in the profile to CAN or EtherCAT, both named explicitly as required protocols. UART/I2C/SPI are a different layer and do not transfer directly.",
+      "Everything in the profile is academic, capstone, or competition scale. The JD language (own functional and performance readiness through the full product lifecycle, commission and operate through production deployment) describes accountability for a shipping product, which is a different kind of ownership than building a working capstone system solo.",
+      "The 3+ years industrial experience bar (with MS) is a real seniority gate, not just a number. 7 internships across different domains (ML, imaging, embedded, robotics club) reads as breadth without the sustained ownership of one production system the JD implies.",
+      "The JD frames this as a cross-functional architecture role coordinating separate mechanical, electrical, perception, controls, and AI teams. The profile shows Justin as the integrator/builder across those domains himself on small teams or solo, not as someone driving architecture decisions across other specialized engineers."
+    ],
+    "overstated_by_keywords": [
+      "Nothing was overstated in the wrong direction here \u2014 if anything the keyword pass undersold hardware bring-up and electromechanical validation, which are more concretely backed (STM32 register-level work, PCB fabrication, physical robot arm trajectories) than a surface keyword match usually implies."
+    ],
+    "reasoning": "The technical skill overlap is real and specific, not just keyword coincidence, especially the COFFIN capstone which mirrors the JD system-integration language closely. But the role reads as senior in practice, not just on the years line: it wants someone who has already owned a shipped robots functional readiness end to end and worked CAN/EtherCAT fieldbus protocols, and internship-plus-capstone experience does not fully cover either. Worth applying with the experience gap named upfront rather than downplayed, since the technical fit underneath it is genuinely strong."
+  }
+}

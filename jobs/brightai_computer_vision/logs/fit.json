@@ -1,0 +1,88 @@
+{
+  "company": "BrightAI Corporation",
+  "company_slug": "brightai",
+  "role": "Computer Vision Engineer — Perception for Autonomy",
+  "job_slug": "computer_vision",
+  "match_pct": 32.3,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 10,
+    "missing_count": 16,
+    "jd_ask_size": 31,
+    "req_cov": 0.40,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "autonomy",
+    "perception",
+    "auto-labeling",
+    "latency and power budgets",
+    "PyTorch / deep learning"
+  ],
+  "missing_skills": [
+    "Gaussian splatting / 3DGS / NeRF",
+    "bundle adjustment",
+    "SLAM / SfM / VIO (hands-on)",
+    "reconstruction (metric/georeferenced scenes)",
+    "sim-to-real / sim divergence characterization",
+    "sim-to-real transfer",
+    "learned dynamics",
+    "change detection",
+    "thermal / depth / lidar fusion",
+    "RTK/GNSS + IMU fusion",
+    "PX4 / ArduPilot",
+    "calibration rigs",
+    "flight logs (reading)",
+    "drone / moving platform (production)",
+    "multi-camera calibration (hands-on)",
+    "reconstruction-backed simulation for robot training"
+  ],
+  "adjacent_skills": [
+    "pose / state estimation (DH params, IK)",
+    "visual-inertial odometry (visual servoing, robot perception)",
+    "multi-camera calibration (indirect via COFFIN pipeline)",
+    "simulation for autonomy (CARLA)",
+    "sim-to-real (CARLA simulation only)",
+    "moving platform (CARLA ground vehicle, not drone)",
+    "photogrammetry (image stitching / mosaicing)",
+    "auto-labeling (YOLO dataset curation)",
+    "C++ alongside Python",
+    "hardware boundary (embedded / calibration indirect)"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision", "Perception", "Autonomy", "Reconstruction", "Gaussian splatting",
+    "Photogrammetry", "Bundle adjustment", "SLAM", "SfM", "Visual-inertial odometry",
+    "Multi-camera calibration", "Simulation", "Sim-to-real", "ROS2", "PX4", "C++",
+    "PyTorch", "Drone", "Moving platform", "Latency", "Power budget", "Thermal",
+    "Depth", "Lidar", "Flight logs", "Calibration", "Auto-labeling", "NeRF", "3DGS",
+    "RTK/GNSS", "IMU fusion"
+  ],
+  "key_responsibilities": [
+    "Own perception for moving platform — reconstruction, pose, simulation",
+    "Reconstruction: Gaussian splatting + photogrammetry pipelines",
+    "Pose / state estimation: bundle adjustment, RTK/GNSS + IMU, VIO, multi-camera calibration",
+    "Simulation for autonomy: reconstruction → training/eval environments, sim-to-real divergence",
+    "Change detection across reconstructions over time",
+    "Perception-planning interface + degradation handling",
+    "Auto-labeling / detection models on aircraft (latency + power)",
+    "Hardware boundary: camera sync, calibration rigs, flight logs"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "constraint_flags": {
+    "sponsorship": "Not mentioned — assume open, but F-1 OPT holder needs sponsorship",
+    "clearance": "None required",
+    "location": "Palo Alto / hybrid — requires relocation (current: Arlington, TX)",
+    "remote": "Not available (on-site required)"
+  },
+  "llm_analysis": null
+}

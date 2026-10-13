@@ -1,0 +1,115 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Robotic Sales Representative",
+  "job_slug": "robotic-sales-representative",
+  "match_pct": 17.9,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 14,
+    "req_cov": 0.111,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Edge AI / robotics-related deployment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "robotics / autonomous robots background",
+      "you_have": "robotics and perception pipeline skills"
+    },
+    {
+      "jd_skill": "AI tools for account research / pipeline tracking",
+      "you_have": "AI/ML and model optimization experience"
+    },
+    {
+      "jd_skill": "basic technical setup (site mapping, Wi-Fi, app config)",
+      "you_have": "embedded / robotics system configuration and build tools"
+    }
+  ],
+  "missing_skills": [
+    "B2B field sales (3+ years)",
+    "robotics / commercial cleaning / facility services / building technology background",
+    "GTA commercial real estate / facility management / janitorial services network",
+    "valid driver's license and vehicle for site visits",
+    "multi-stakeholder sales (operations, procurement, executives)",
+    "self-starter who can build a territory from zero with little structure",
+    "CRM and sales tools experience",
+    "channel / distributor / reseller sales experience",
+    "rental / lease / RaaS (Robotics-as-a-Service) model experience",
+    "basic technical setup (site mapping, Wi-Fi, app configuration) \u2014 partial"
+  ],
+  "top_ats_keywords": [
+    "robotics sales",
+    "autonomous service robots",
+    "B2B sales",
+    "GTA",
+    "Toronto",
+    "pipeline",
+    "prospecting",
+    "qualification",
+    "pilots",
+    "close",
+    "rental",
+    "lease",
+    "RaaS",
+    "deployment",
+    "service partners",
+    "channel partnerships",
+    "CRM",
+    "AI tools",
+    "account research"
+  ],
+  "required_skills": [
+    "B2B field sales",
+    "robotics / autonomous robots background",
+    "facility / building technology / commercial cleaning network",
+    "GTA commercial real estate / facility management / janitorial network",
+    "driver's license + vehicle for site visits",
+    "multi-stakeholder sales (operations, procurement, executives)",
+    "self-starter / build territory from zero",
+    "CRM and sales tools",
+    "AI tools (research accounts, pipeline tracking)"
+  ],
+  "preferred_skills": [
+    "sold or deployed autonomous robots (cleaning, delivery, warehouse)",
+    "channel / distributor / reseller sales",
+    "rental / lease / Robotics-as-a-Service (RaaS) models",
+    "basic technical setup (site mapping, Wi-Fi, app configuration)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own GTA pipeline end-to-end (prospecting, qualification, pilots, close)",
+    "Build channel partnerships",
+    "Qualify sites: floor area, surfaces, layout, hours, Wi-Fi/elevator access",
+    "Structure rental/purchase deals; negotiate terms and hand off to deployment/service",
+    "Work with service partners and deployment engineers for installation, training, and use"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

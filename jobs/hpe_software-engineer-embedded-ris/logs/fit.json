@@ -1,0 +1,113 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer - Embedded (RIS)",
+  "job_slug": "software-engineer-embedded-ris",
+  "match_pct": 52.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 20,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C programming",
+    "C++ programming",
+    "Linux",
+    "OOP in C/C++/Python",
+    "SPI",
+    "I2C",
+    "FreeBSD/Linux internals",
+    "embedded"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Flash Drivers",
+      "you_have": "Bare-metal flash memory access on STM32 Cortex-M4; firmware programming with flash operations"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "Bare-metal peripheral driver development (GPIO, ADC, TIM, UART, I2C, SPI) on STM32 Cortex-M4"
+    },
+    {
+      "jd_skill": "system bring-up",
+      "you_have": "Embedded system bring-up on STM32 (bare-metal) and Jetson Orin Nano (systemd services, static IP networking, XRDP)"
+    },
+    {
+      "jd_skill": "diagnostics",
+      "you_have": "Debugging tools, oscilloscopes, and logic analyzers for embedded system validation"
+    },
+    {
+      "jd_skill": "High Availability",
+      "you_have": "systemd auto-restart with backoff and non-root isolation; three-layer distributed architecture on COFFIN (mobile/jetson/arduino)"
+    }
+  ],
+  "missing_skills": [
+    "routing and forwarding software",
+    "Optically",
+    "PCIe",
+    "Retimers",
+    "FPGA",
+    "CPLD",
+    "MDIO"
+  ],
+  "top_ats_keywords": [
+    "embedded",
+    "diagnostics",
+    "High Availability"
+  ],
+  "required_skills": [
+    "C programming",
+    "C++ programming",
+    "Linux",
+    "OOP in C/C++/Python"
+  ],
+  "preferred_skills": [
+    "routing and forwarding software",
+    "Optically",
+    "PCIe",
+    "SPI",
+    "I2C",
+    "Retimers",
+    "FPGA",
+    "CPLD",
+    "MDIO",
+    "Flash Drivers",
+    "device drivers",
+    "system bring-up",
+    "FreeBSD/Linux internals"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design, implement, and maintain infrastructure software components such as Routing Engine Redundancy, High Availability features, chassis and line card operations, fabric interconnects, and optical module integration",
+    "Develop and deliver robust diagnostics tools to ensure the reliability and performance of HPE routers",
+    "Work closely with system and solution test teams to ensure high-quality product and solution delivery",
+    "Partner with the HPE Technical Assistance Center to provide engineering support for critical customer escalations and successful deployments"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, California, United States of America",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,134 @@
+{
+  "company": "Analog Devices",
+  "company_slug": "analog-devices",
+  "role": "Associate Embedded Software Engineer",
+  "job_slug": "associate-embedded-software-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 0,
+    "missing_count": 1,
+    "jd_ask_size": 18,
+    "req_cov": 0.143,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Git",
+    "Python",
+    "STM32 microcontroller",
+    "bare-metal",
+    "FreeRTOS",
+    "UART/I2C/SPI",
+    "GPIO",
+    "PWM",
+    "Logic Analyzers",
+    "Oscilloscopes",
+    "Cortex-M4",
+    "Bash",
+    "CMake",
+    "Arduino",
+    "Jetson embedded platform",
+    "PCB/hardware integration"
+  ],
+  "adjacent_skills": [],
+  "missing_skills": [
+    "professional embedded IDE/compiler toolchain exposure (e.g. IAR/Keil) beyond coursework"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded systems",
+    "microcontrollers",
+    "firmware",
+    "Git",
+    "version control",
+    "Python",
+    "Shell scripting",
+    "debugging",
+    "testing",
+    "validation",
+    "IDE",
+    "compiler"
+  ],
+  "required_skills": [
+    "C/C++",
+    "embedded systems concepts",
+    "microcontrollers",
+    "hardware-software interaction",
+    "debugging tools",
+    "version control (Git)",
+    "software development fundamentals"
+  ],
+  "preferred_skills": [
+    "firmware development",
+    "embedded software",
+    "low-level programming",
+    "software testing",
+    "validation/debugging methodologies",
+    "embedded development tools/IDEs/compilers",
+    "Python or Shell scripting",
+    "academic/internship/personal embedded project experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "develop/maintain/debug embedded software and firmware",
+    "software testing/debugging/documentation",
+    "integrate software with hardware platforms",
+    "verification/validation/troubleshooting",
+    "cross-functional collaboration",
+    "technical documentation/code reviews"
+  ],
+  "role_category": "embedded_systems",
+  "location": "US, MA Wilmington / CA San Jose / NC Durham",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 88,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor: bare-metal embedded C on Cortex-M4, direct register-level GPIO/TIM2/ADC1/I2C1 programming, timer-triggered ADC + interrupt-driven capture, verified in Proteus",
+      "Object Tracking Turret: FreeRTOS with mutexes for task coordination, interrupt-driven UART command handling, multi-servo PWM control on STM32 talking to a Jetson over UART",
+      "Embedded Systems Intern (Planctech): sensor integration (ADXL345 accelerometer via I2C) with Raspberry Pi, software calibration to resolve sensor jitter, hands-on hardware-software debugging",
+      "COFFIN capstone: C++ on Arduino for IK/servo control, systemd service deployment, multi-device network integration, and 11 logged/resolved integration failures showing real debugging methodology",
+      "Git/GitLab version control used across internships (BARC Python Developer Intern)"
+    ],
+    "real_gaps": [
+      "No named professional embedded IDE/compiler toolchain (Keil, IAR, STM32CubeIDE) \u2014 projects use bare-metal C + Proteus rather than a vendor IDE",
+      "No formal embedded test/validation framework (unit testing, hardware-in-loop) beyond ad hoc trial verification",
+      "No full-time industry embedded software role \u2014 internships and academic projects only, consistent with an Associate/entry-level posting"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "FreeRTOS mutex-based task coordination (Object Tracking Turret) directly matches \"embedded software\" + \"firmware\" responsibilities but is easy to undercount as just a keyword hit",
+      "The 11 resolved integration failures on COFFIN demonstrate the JD's \"troubleshooting efforts throughout the development cycle\" better than any single keyword captures"
+    ],
+    "screening_gaps": [
+      "No named embedded IDE/compiler toolchain (STM32CubeIDE/Keil/IAR) on the resume \u2014 screeners scanning for specific tool names may not see a hit",
+      "No dedicated full-time or industry embedded internship (Planctech was a broad mixed-scope internship, not pure firmware) \u2014 could read as thinner on real-world embedded team experience",
+      "No explicit unit-test or formal validation methodology language for embedded work, despite functional verification evidence"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Every core responsibility in this Associate-level JD (C/C++, microcontrollers, hardware-software interaction, debugging, Git, entry-level scope) is backed by concrete, specific project evidence \u2014 two hands-on STM32 builds, an FreeRTOS-based embedded project, and an embedded internship. The role is explicitly entry-level (0-2 yrs) so the lack of full-time experience is expected, not a gap.",
+    "calibration_delta": -28.0
+  }
+}

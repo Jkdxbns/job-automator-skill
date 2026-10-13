@@ -1,0 +1,121 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "DevOps Engineer",
+  "job_slug": "devops-engineer",
+  "match_pct": 19.4,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 13,
+    "jd_ask_size": 18,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS 2 messages and robot REST API (test/deployment infrastructure) (ROS2 Humble, ROS2 messages, robot REST API integration in Voice-Controlled Robotic Arm (COFFIN MS Capstone))",
+    "Linux administration, static IP/network config, service isolation (systemd service management (unit files, auto-restart, non-root isolation), static IP/network config in COFFIN MS Capstone; Linux Admin skill listed)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Data pipeline / real-time ingest concepts",
+      "you_have": "Real-time data acquisition pipeline with PyQt/Matplotlib GUI for sensor data (BARC Python Developer Intern) \u2014 not Airflow/robot dataset pipeline with registry and lifecycle"
+    },
+    {
+      "jd_skill": "Cloud security / access isolation / secrets practices",
+      "you_have": "systemd non-root isolation, basic service access paths (COFFIN capstone) \u2014 not SOC 2, AWS IAM, secrets management, or Tailscale/VPN"
+    },
+    {
+      "jd_skill": "Automation scripting / pipeline code",
+      "you_have": "Python scripting for data acquisition and device control (BARC, COFFIN) \u2014 not CI/CD pipeline automation, Airflow DAGs, or infrastructure orchestration"
+    }
+  ],
+  "missing_skills": [
+    "CI/CD design and operation at scale (GitHub Actions, self-hosted runners, container promotion, ECR, build/test gates)",
+    "AWS production services (S3, IAM roles and cross-account trust, VPC, EKS, Batch, ECS/Fargate)",
+    "Kubernetes in production (workload scheduling, resource governance, EKS)",
+    "Infrastructure as code (Terraform, CDK, Pulumi) with review/version discipline",
+    "Container tooling and multi-arch builds (Docker, BuildKit, Buildah, Kaniko)",
+    "Build optimization and remote caching (current uncached builds ~45 min; no change detection/caching experience in profile)",
+    "Apache Airflow / workflow orchestration stack ownership",
+    "Robot data pipeline (rosbag/MCAP ingest, episode segmentation, format conversion, dataset/mission registry, retention/lifecycle)",
+    "Cloud security and SOC 2 compliance (secrets, IAM policies, cross-account trust, SaaS/data-sharing controls)",
+    "Production-scale distributed systems / SRE experience (JD requires 4+ years; candidate is new-grad with 0 full-time years)",
+    "Real-time pipeline/live-demo troubleshooting at company scale",
+    "Architecture/runbook documentation for team onboarding at production scale",
+    "VPN/Tailscale connectivity and hardware-in-the-loop robot floor access management"
+  ],
+  "top_ats_keywords": [
+    "DevOps Engineer",
+    "CI/CD",
+    "GitHub Actions",
+    "AWS",
+    "EKS",
+    "S3",
+    "ECR",
+    "Kubernetes",
+    "Airflow",
+    "Terraform",
+    "Docker",
+    "BuildKit",
+    "Infrastructure as Code",
+    "ROS 2",
+    "SOC 2",
+    "SRE",
+    "platform engineering",
+    "data pipeline"
+  ],
+  "required_skills": [
+    "CI/CD pipeline design and operation at scale",
+    "GitHub Actions with self-hosted runners (ARM/AMD/CUDA/Jetson targets)",
+    "AWS production infrastructure: ECR, S3, IAM, VPC, EKS, Batch, ECS/Fargate",
+    "Kubernetes and EKS workload scheduling/resource governance",
+    "Infrastructure as code (Terraform, CDK, Pulumi) with review/version discipline",
+    "Container tooling and multi-arch builds (Docker, BuildKit, Buildah, Kaniko)",
+    "Build optimization and remote caching (current uncached builds ~45 min)",
+    "Apache Airflow / workflow orchestration stack ownership",
+    "Robot data pipeline (rosbag/MCAP capture, episode segmentation, registry, lifecycle)",
+    "Cloud security / SOC 2 compliance (secrets, IAM cross-account trust, data-sharing)",
+    "Linux administration, static IP/network config, VPN/Tailscale access"
+  ],
+  "preferred_skills": [
+    "4+ years DevOps/SRE/infrastructure experience",
+    "ROS 2 message-driven test infrastructure (sim/hardware/REST API)",
+    "Real-time troubleshooting during live demos",
+    "Reproducible research workflow discipline (versioned configs, pinned environments)"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Stand up CI/CD for humanoid monorepo (containerize, ECR, tests, promotion gates)",
+    "Build and own robot data pipeline (rosbag/MCAP ingest, segmentation, dataset/mission registry, lifecycle)",
+    "Own AWS footprint as code (ECR, S3, IAM, VPC, EKS, Batch, ECS/Fargate)",
+    "Operate Airflow stack for humanoid data processing",
+    "Close security/compliance gaps (SOC 2, secrets, IAM trust, access paths)",
+    "Write runbooks and architecture docs for day-one onboarding",
+    "Interface between FAIRI and Field AI platform/cloud/data teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Cambridge, MA / Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

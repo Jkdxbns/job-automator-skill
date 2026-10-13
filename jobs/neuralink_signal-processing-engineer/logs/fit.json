@@ -1,0 +1,65 @@
+{
+  "company": "Neuralink",
+  "company_slug": "neuralink",
+  "role": "Signal Processing Engineer",
+  "job_slug": "signal-processing-engineer",
+  "match_pct": 83.3,
+  "missing_skills": [
+    "3+ years professional DSP/embedded signal processing experience (0 full-time years)",
+    "Fixed-point arithmetic implementation (real hardware signal chains)",
+    "Verilog/VHDL / RTL",
+    "Dedicated DSP cores or accelerators"
+  ],
+  "adjacent_skills": [
+    "Signal processing fundamentals (coursework: Random Signal Analysis, Digital Signal Processing, Digital Electronics \u2014 no professional practice)",
+    "Quantization / numerical precision tradeoffs (ML quantization: 8-bit quantization, LLM.int8, TensorRT \u2014 different domain from real-time fixed-point DSP)",
+    "Power/latency optimization in constrained environments (kernel optimization, memory coalescing, STM32 bare-metal C \u2014 GPU/embedded, not ASIC/SoC)"
+  ],
+  "top_ats_keywords": [
+    "digital signal processing",
+    "fixed-point arithmetic",
+    "quantization",
+    "Python",
+    "C",
+    "embedded",
+    "SoC",
+    "spike detection",
+    "Verilog",
+    "VHDL",
+    "RTL"
+  ],
+  "key_responsibilities": [
+    "Design DSP algorithms for sensing neural activity (spike detection), electrode health monitoring",
+    "Custom data compression algorithms for radio throughput",
+    "Fixed-point/quantized algorithm implementations for constrained hardware",
+    "Algorithm-to-architecture mapping (accuracy/latency/power/resource tradeoffs)",
+    "Collaborate with digital design team on micro-architectures (dataflow, pipelining, parallelization)"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 42,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Custom wavelet bank design (alpha-blended sym6+bior3.5) to suppress low-frequency noise at BARC \u2014 real hand-designed filter/signal-processing algorithm work with a measured PSNR outcome (65 -> 86), not just applied ML. This is the single strongest piece of evidence for the role and keyword matching missed it entirely (wavelet isn't in the keyword index).",
+      "STM32 Bare-Metal Temperature Monitor: timer-triggered ADC scan conversions, interrupt-driven sampling, low-level I2C driver, hit a deterministic 1 Hz update rate inside a 3.68 KB Flash / 1.58 KB RAM budget. Real evidence of resource-constrained embedded signal acquisition, which is directly the 'power/area/latency in a constrained environment' preferred qualification.",
+      "CUDA kernel optimization for VGG16 (memory coalescing, constant memory, preallocated buffers) shows the algorithm-to-architecture mapping mindset the JD wants, just applied to a GPU target instead of a custom SoC.",
+      "8-bit quantization work (bitsandbytes LLM.int8 on TinyLlama) proves familiarity with the general concept of numerical precision tradeoffs, even though the specific technique differs from DSP fixed-point."
+    ],
+    "real_gaps": [
+      "Zero fixed-point arithmetic anywhere in the profile. Every quantitative project (CUDA, PyTorch, LLM.int8) runs in floating point or int8-for-neural-net-compression, which is a different numerical scheme from Q-format fixed-point DSP the JD explicitly asks for.",
+      "Zero Verilog/VHDL/RTL or any hardware description language. The JD's core loop is 'algorithm -> fixed-point -> hand off to a digital design team for RTL' -- there's no project anywhere that touches that handoff, and 'collaborate with the digital design team to define micro-architectures' assumes some fluency speaking that team's language.",
+      "No neural/biomedical signal domain experience -- no EEG, ECoG, spike sorting, or electrode-health work. The wavelet bank project is the closest analog (denoising via wavelets) but was applied to optical/image data, not electrophysiology.",
+      "No radio/RF telemetry or data-compression-for-throughput experience -- the JD's 'custom data compression to increase radio throughput' bullet has no matching project.",
+      "Professional experience level: this reads as a mid/senior IC role embedded inside a custom-silicon program with a dedicated digital design team -- production ASIC/SoC scope. Justin's DSP-adjacent work (BARC wavelet bank) was a solo capstone project that stopped at a floating-point prototype, not a chip-team production handoff. That's a scope gap on top of the literal 0-years-vs-3-years gap."
+    ],
+    "overstated_by_keywords": [
+      "'Quantization' (8-bit LLM quantization) was counted as Have/Adjacent by keyword match, but it's a different technique from the JD's 'fixed-point or quantized versions of algorithms' -- compressing neural net weights to int8 is not the same skill as converting a DSP algorithm's math to fixed-point for a real-time hardware pipeline. This likely inflated the keyword match_pct.",
+      "'Digital Signal Processing' as a keyword is backed mainly by one BE coursework listing (Random Signal Analysis, Digital Electronics) plus the BARC wavelet project -- solid but thin relative to '3+ years DSP algorithm development' as a hard requirement."
+    ],
+    "reasoning": "The keyword match (83.3%) overstates fit because it credits ML-domain quantization and coursework-level DSP as equivalent to what this role actually needs: production fixed-point signal chains handed off to an RTL team on custom neural-implant silicon. The one genuinely strong data point -- the hand-designed wavelet denoising bank at BARC -- shows real signal-processing algorithm chops that keyword matching missed, but it's a single solo capstone bullet, not the sustained professional DSP-to-hardware track record the JD is written for. Net: worth a shot if a referral or hook exists, but this is a stretch application with structural gaps (no RTL, no fixed-point, no neural-signal domain) rather than one where resume framing alone closes the distance."
+  }
+}

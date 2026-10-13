@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "company": "Thales",
+    "role": "Embedded Software Integrator and Validator",
+    "company_slug": "thales",
+    "job_slug": "embedded-sw-integrator-validator"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built and integrated embedded software across STM32 microcontrollers, FreeRTOS, and embedded Linux on Jetson, and resolved 11 hardware integration failures to reach 100% pick reliability (10/10 trials) on an end-to-end system. Write Python and Bash test tooling, and verify against golden test vectors with a 99.996% match to a reference model.",
+  "skills": {
+    "Languages & Scripting": [
+      "C/C++",
+      "Python",
+      "Bash"
+    ],
+    "Embedded & RTOS": [
+      "FreeRTOS",
+      "STM32 (Bare-Metal C)",
+      "Embedded Linux (Jetson, Raspberry Pi)",
+      "UART/I2C/SPI",
+      "ADC/DAC",
+      "Arduino"
+    ],
+    "Integration & Testing": [
+      "Embedded software integration",
+      "Verification and validation",
+      "Test automation",
+      "Git",
+      "GitLab",
+      "CMake",
+      "systemd"
+    ],
+    "Debug Tools": [
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Multimeters"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Integrated ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth in a wearable gesture-recognition glove, translating 3-DoF hand motion into HID commands via Python."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Integrated Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller over WebSockets with TensorRT-optimized YOLO (5.2\u00d7 speedup) and dual VL53L0X ToF sensors via a TCA9548A I2C mux.",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart with backoff, non-root isolation, environment-file config) with static IP networking on embedded Linux."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Quantization-Aware Training for Integer-Only Inference",
+      "date": "May 2026",
+      "bullets": [
+        "Built a pure-integer reference model and exported int8 weights (17,024-entry hex .mem file), scale parameters, and 100 golden test vectors; fixed-point requantization matches the float reference on 99.996% of hidden values with identical test accuracy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

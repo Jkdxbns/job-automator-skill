@@ -1,0 +1,143 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Full Stack Software Developer",
+  "job_slug": "senior-full-stack-software-developer",
+  "match_pct": 32.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 16,
+    "jd_ask_size": 29,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python / backend web frameworks",
+    "API development",
+    "AI / machine learning experience",
+    "LLM / AI tooling",
+    "Web backend / sockets",
+    "Version control / collaboration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JavaScript / TypeScript / React / Next.js (frontend)",
+      "you_have": "Flask / Python web backend (not React)"
+    },
+    {
+      "jd_skill": "Node.js (Express/Fastify) backend",
+      "you_have": "Python (Flask) backend only"
+    },
+    {
+      "jd_skill": "REST / GraphQL APIs",
+      "you_have": "Generic API exposure (Flask)"
+    },
+    {
+      "jd_skill": "PostgreSQL / relational databases / ORMs",
+      "you_have": "No database/ORM skills listed"
+    },
+    {
+      "jd_skill": "Production web applications at scale",
+      "you_have": "Capstone/research/internship scope web projects (Flask/SocketIO)"
+    },
+    {
+      "jd_skill": "Cloud deployment / CI/CD / Docker",
+      "you_have": "No cloud/devops skills listed"
+    },
+    {
+      "jd_skill": "Data pipelines / ETL",
+      "you_have": "Data acquisition (hardware-level, not pipeline/ETL)"
+    }
+  ],
+  "missing_skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "Node.js",
+    "Express / Fastify",
+    "PostgreSQL / relational DB / ORM",
+    "GraphQL",
+    "Full-stack production web app experience (5\u20137 years)",
+    "AWS / GCP / Azure",
+    "Docker",
+    "CI/CD deployment pipelines",
+    "React Native / mobile development",
+    "Design systems",
+    "Client-facing / consulting experience (production-level)",
+    "Data pipeline / ETL systems"
+  ],
+  "top_ats_keywords": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "Node.js",
+    "Python",
+    "FastAPI",
+    "Django",
+    "PostgreSQL",
+    "REST",
+    "GraphQL",
+    "full stack",
+    "web applications",
+    "production",
+    "AI",
+    "LLM",
+    "cloud",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Docker",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "React (JavaScript/TypeScript)",
+    "Modern web frameworks (Next.js)",
+    "Node.js / Python backend APIs",
+    "Relational databases (PostgreSQL) and ORMs",
+    "Full-stack web applications (production)"
+  ],
+  "preferred_skills": [
+    "Cloud environments (AWS/GCP/Azure)",
+    "Deployment pipelines (CI/CD, Docker)",
+    "AI/LLM API integrations",
+    "Data pipelines / ETL workflows",
+    "Consulting / client-facing experience",
+    "Mobile development (React Native) / design systems"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build and maintain production web apps (React/Next.js, Node.js/Python APIs) for data labeling, data capture, and operations management",
+    "Design intuitive UX for non-technical international users",
+    "Build backend services with permissions, retries, data integrity, and background workflows",
+    "Integrate AI capabilities (automated validation, LLM-based internal tooling) into products",
+    "Own features end-to-end through deployment, production monitoring, and performance improvement"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

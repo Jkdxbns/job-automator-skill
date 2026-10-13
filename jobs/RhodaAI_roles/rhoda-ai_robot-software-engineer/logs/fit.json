@@ -1,0 +1,48 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhoda-ai",
+  "role": "Robot Software Engineer",
+  "job_slug": "robot-software-engineer",
+  "match_pct": 83,
+  "missing_skills": [
+    "Rust",
+    "Cloud storage/data upload pipelines (AWS, GCP, S3, GCS)",
+    "gRPC/DDS/MQTT protocols",
+    "OTA updates and fleet deployment infrastructure"
+  ],
+  "adjacent_skills": [
+    "Networking/IPC (WebSocket, Flask-SocketIO, not gRPC/DDS/MQTT)",
+    "Telemetry/observability (pynvml profiling, benchmarking, not production fleet telemetry)",
+    "Streaming/low-latency data transport (WebSocket based, not robotics-fleet scale)"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "networking infrastructure",
+    "IPC",
+    "communication protocols",
+    "data collection pipelines",
+    "cloud storage",
+    "telemetry",
+    "observability",
+    "C++",
+    "Python",
+    "full stack debugging",
+    "field testing",
+    "perception and control integration"
+  ],
+  "key_responsibilities": [
+    "Build and maintain networking/communication infrastructure connecting onboard systems to cloud and teleop",
+    "Own data collection pipelines uploading sensor/telemetry/behavioral data to cloud storage",
+    "Build telemetry and observability systems for robot health and field performance",
+    "Develop internal tooling: deployment pipelines, logging infra, debugging tools, field testing utilities",
+    "Contribute to perception and control integration across sensor pipelines, onboard models, control systems",
+    "Support bring up and field testing of new hardware revisions",
+    "Collaborate with ML, perception, control engineers on data quality and reliability"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

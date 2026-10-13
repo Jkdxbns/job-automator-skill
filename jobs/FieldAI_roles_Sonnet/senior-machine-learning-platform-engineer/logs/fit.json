@@ -1,0 +1,213 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Machine Learning Platform Engineer",
+  "job_slug": "senior-machine-learning-platform-engineer",
+  "match_pct": 30.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 8,
+    "missing_count": 17,
+    "jd_ask_size": 30,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (Python Developer Intern (BARC): PyQt/Matplotlib real-time GUI; COFFIN Voice-Controlled Arm: Flask-SocketIO server; all ML projects (PyTorch, TensorFlow, Keras))",
+    "ML pipelines (distributed training and large-scale inference) (AI/ML Intern (IIT Bombay): fine-tuned DONUT OCR-free document transformer pipeline (PyTorch + HuggingFace VisionEncoderDecoder, 55%\u219293% accuracy); Deep Learning Intern (Tusk): YOLOv8n toothbrush detection training/evaluation pipeline with ONNX/TFLite export; Research Fellow (Teesside Univ): U-Net BraTS 2020 MRI segmentation pipeline (VGG-16/19/ResNet-50 backbones))",
+    "Data management / image and video dataset processing (BARC Research Intern: image-stitching pipeline (PSNR 86), ZoeDepth monocular depth estimation for crack-depth profiling, metal surface inspection pipeline; Deep Learning Intern (Tusk): toothbrush image dataset; Teesside Univ: BraTS 2020 MRI dataset)",
+    "Distributed systems (MPI Hodgkin-Huxley neuron simulation (10.49x speedup, SLURM cluster); Parallel Ray Tracer with MPI (up to 30x speedup))",
+    "GPU / CUDA optimization (CUDA Kernel Optimization for VGG16: custom CUDA C++ kernels, memory coalescing, 35% speedup over naive GPU; COFFIN Voice-Controlled Arm: TensorRT-optimized YOLO (5.2x speedup) deployed on NVIDIA Jetson)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "MLOps workflows / versioning / experiment tracking / reproducibility / CI/CD",
+      "you_have": "Python Developer Intern (BARC): Git/GitLab usage, JupyterHub; basic pipeline organization in IIT Bombay (DONUT fine-tuning tracking) and Tusk (YOLO evaluation); NO CI/CD tooling, MLflow, Kubeflow, or Airflow experience"
+    },
+    {
+      "jd_skill": "Infrastructure / scalable deployment / system administration",
+      "you_have": "COFFIN Voice-Controlled Robotic Arm: systemd service deployment (auto-restart, non-root isolation, static IP/network config); Linux admin (systemd, network config); NO Terraform/CloudFormation/IaC experience"
+    },
+    {
+      "jd_skill": "Mentoring and managing junior engineers",
+      "you_have": "General Secretary Agnel Robotics Club: led 25-member team (PCB fabrication, UART/I2C sensor comms); Research Fellow (Teesside Univ): led 7-person U-Net segmentation team"
+    },
+    {
+      "jd_skill": "Monitoring / reliability / observability in production",
+      "you_have": "COFFIN Voice-Controlled Arm: systemd auto-restart, non-root isolation, resolved 11 integration failures; basic Linux service reliability \u2014 NOT production-scale logging/alerting/observability stacks"
+    },
+    {
+      "jd_skill": "GPU orchestration and auto-scaling",
+      "you_have": "CUDA parallel kernel optimization (VGG16), TensorRT GPU optimization (COFFIN arm on Jetson); NO Karpenter, SageMaker, or EKS orchestration experience"
+    },
+    {
+      "jd_skill": "Agentic AI deployment / orchestration frameworks / RAG",
+      "you_have": "COFFIN Voice-Controlled Arm: Gemini intent classification + faster-whisper STT pipeline; NO agentic framework or RAG orchestration experience"
+    },
+    {
+      "jd_skill": "Security and compliance / maintainability",
+      "you_have": "COFFIN arm: systemd non-root isolation; basic Linux admin practices; NO formal ML/cloud security or compliance framework experience"
+    },
+    {
+      "jd_skill": "Distributed training frameworks (Horovod, DDP/FSDP, DeepSpeed, Ray)",
+      "you_have": "MPI parallel programming (neuron simulation 10.49x, ray tracer 30x) \u2014 parallel computation concepts similar but NOT ML-specific distributed training frameworks like Horovod/DDP/DeepSpeed/Ray"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "TypeScript",
+      "reason": "Profile lists Python, C/C++, CUDA, Cython, Bash \u2014 no TypeScript experience anywhere"
+    },
+    {
+      "jd_skill": "Cloud platforms (AWS preferred)",
+      "reason": "Profile explicitly has no AWS, GCP, or Azure experience"
+    },
+    {
+      "jd_skill": "Containerization and orchestration (Docker)",
+      "reason": "Profile explicitly states no Docker experience"
+    },
+    {
+      "jd_skill": "Containerization and orchestration (Kubernetes / EKS)",
+      "reason": "Profile explicitly states no Kubernetes/k3s experience"
+    },
+    {
+      "jd_skill": "Ray",
+      "reason": "No Ray framework experience in any project or internship"
+    },
+    {
+      "jd_skill": "Serverless",
+      "reason": "No serverless architecture experience in profile"
+    },
+    {
+      "jd_skill": "Infrastructure-as-code (Terraform, CloudFormation)",
+      "reason": "No Terraform, CloudFormation, or IaC tooling experience"
+    },
+    {
+      "jd_skill": "CI/CD pipelines",
+      "reason": "Profile explicitly states no CI/CD tooling; only Git/GitLab version control"
+    },
+    {
+      "jd_skill": "MLflow",
+      "reason": "Not mentioned in any internship, project, or skill list"
+    },
+    {
+      "jd_skill": "Kubeflow",
+      "reason": "Not mentioned in any internship, project, or skill list"
+    },
+    {
+      "jd_skill": "Airflow",
+      "reason": "Not mentioned in any internship, project, or skill list"
+    },
+    {
+      "jd_skill": "Video ingestion / indexing / storage systems at scale",
+      "reason": "Profile has image/video processing (stitching, depth, detection) but no large-scale ingestion/indexing/storage infrastructure experience"
+    },
+    {
+      "jd_skill": "Vector databases (OpenSearch, Pinecone, Weaviate)",
+      "reason": "Not mentioned in profile"
+    },
+    {
+      "jd_skill": "Production-scale distributed training (Horovod, DDP, DeepSpeed)",
+      "reason": "MPI parallel work exists but not ML-specific distributed training frameworks"
+    },
+    {
+      "jd_skill": "Auto-scaling / Karpenter / SageMaker",
+      "reason": "No cloud GPU orchestration or auto-scaling experience"
+    },
+    {
+      "jd_skill": "Agentic AI deployment / RAG orchestration",
+      "reason": "Only basic Gemini intent classification in COFFIN; no framework-level agentic deployment"
+    },
+    {
+      "jd_skill": "Formal security and compliance frameworks",
+      "reason": "Only basic systemd isolation; no formal compliance experience"
+    }
+  ],
+  "top_ats_keywords": [
+    "ML infrastructure",
+    "platform engineering",
+    "Terraform",
+    "CloudFormation",
+    "Docker",
+    "Kubernetes",
+    "EKS",
+    "Ray",
+    "AWS",
+    "ML pipelines",
+    "distributed training",
+    "inference",
+    "video ingestion",
+    "data systems",
+    "CI/CD",
+    "MLOps",
+    "MLflow",
+    "Kubeflow",
+    "Airflow",
+    "monitoring",
+    "observability",
+    "Python",
+    "TypeScript",
+    "distributed systems",
+    "serverless"
+  ],
+  "required_skills": [
+    "Python/TypeScript",
+    "distributed systems",
+    "cloud platforms (AWS preferred)",
+    "containerization and orchestration (Docker, Kubernetes/EKS, Ray)",
+    "serverless",
+    "ML pipelines (distributed training, large-scale inference)",
+    "data management at scale (video/image datasets)",
+    "CI/CD pipelines",
+    "infrastructure-as-code (Terraform, CloudFormation)",
+    "automation",
+    "MLOps (versioning, experiment tracking, reproducibility)",
+    "monitoring/logging/alerting (reliability/observability)",
+    "ML tools (MLflow, Kubeflow, Airflow)",
+    "security/compliance/maintainability",
+    "mentoring/managing junior engineers"
+  ],
+  "preferred_skills": [
+    "vector databases (OpenSearch, Pinecone, Weaviate)",
+    "distributed training frameworks (Horovod, DDP/FSDP, DeepSpeed, Ray)",
+    "GPU orchestration and auto-scaling (Karpenter, SageMaker, EKS)",
+    "agentic AI deployment/workflows and RAG",
+    "security and compliance in ML/cloud environments"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/manage scalable ML infrastructure with IaC",
+    "Develop cloud-based training/evaluation/inference pipelines",
+    "Build data systems for large-scale video ingestion/indexing/storage",
+    "Maintain MLOps workflows (versioning, experiment tracking, reproducibility, CI/CD)",
+    "Ensure reliability and observability (monitoring, logging, alerting)",
+    "Collaborate with AI/ML engineers to productionize workflows",
+    "Optimize infrastructure for performance and cost",
+    "Enforce security/compliance/maintainability best practices",
+    "Mentor and manage junior engineers"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

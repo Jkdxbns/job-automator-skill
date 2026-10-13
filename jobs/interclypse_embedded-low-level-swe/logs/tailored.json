@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "company": "Interclypse",
+    "role": "Embedded / Low-Level Software Engineer",
+    "company_slug": "interclypse",
+    "job_slug": "embedded-low-level-swe"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded software development and low-level systems experience in C/C++ and Python across STM32 Cortex-M4, Linux, and NVIDIA Jetson platforms. Wrote bare-metal firmware at the register level, including timer-triggered ADC conversions, interrupt-driven capture, and a low-level I2C driver, and coordinated concurrent tasks under an RTOS with mutex-protected shared memory.",
+  "skills": {
+    "Embedded & Low-Level": [
+      "Low-Level Software Development",
+      "Bare-Metal C (STM32 Cortex-M4)",
+      "FreeRTOS / RTOS",
+      "Interrupt-Driven Firmware",
+      "UART/I2C/SPI",
+      "GPIO, Timers, ADC, PWM",
+      "Quadrature Encoders",
+      "Closed-Loop Feedback Control",
+      "NVIDIA Jetson"
+    ],
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "Bash"
+    ],
+    "Linux & Tooling": [
+      "Linux",
+      "systemd Service Management",
+      "Static IP / Network Configuration",
+      "Git",
+      "GitLab",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with a Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; eliminated sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal embedded C (GPIO, TIM2, ADC1, I2C1), fitting the firmware into 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Coordinated concurrent firmware tasks under FreeRTOS using mutexes for shared-memory access, integrating VL53L0X ToF ranging with OLED distance visualization.",
+        "Implemented multi-servo PWM control driven by interrupt-driven UART commands with a user override path."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures across a three-layer distributed pipeline (mobile client, Flask-SocketIO edge server, Jetson+Arduino controller) to reach 100% pick reliability over 10 trials at ~11.5s end-to-end latency.",
+        "Deployed the Jetson-side controller as a systemd service on Linux with auto-restart backoff, non-root user isolation, and environment-file config over static IP networking; implemented two-link inverse kinematics in C++ on Arduino."
+      ]
+    },
+    {
+      "name": "Robocon Robot - Holonomic Drive & Encoder Odometry",
+      "date": "2022 - 2024",
+      "bullets": [
+        "Implemented interrupt-driven quadrature decoding from first principles on Arduino Due, a 4-bit A/B transition state machine on hardware interrupts, driving four motor channels at 15 kHz PWM.",
+        "Built closed-loop heading correction from dual-axis encoder odometry (2400 CPR) feeding angular error back into rotation PWM; added a fail-safe state machine halting all motors on controller disconnect."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

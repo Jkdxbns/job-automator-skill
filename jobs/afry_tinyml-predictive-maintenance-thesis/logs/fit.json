@@ -1,0 +1,184 @@
+{
+  "company": "AFRY",
+  "company_slug": "afry",
+  "role": "Master Thesis Proposal: TinyML for Predictive Maintenance in Embedded Systems",
+  "job_slug": "tinyml-predictive-maintenance-thesis",
+  "match_pct": 72.4,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 29,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Microcontrollers",
+    "Embedded systems",
+    "Git",
+    "RTOS / real-time embedded",
+    "Real-time control",
+    "Sensors",
+    "Signal processing",
+    "Data acquisition",
+    "Machine learning / model training",
+    "Quantization",
+    "Pruning",
+    "Model optimization",
+    "TFLite / embedded ML framework",
+    "Motor control",
+    "Electronics / PCB",
+    "Latency + memory benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TinyML (MCU-class ML deployment)",
+      "you_have": "Edge AI on Jetson (TensorRT/TFLite)"
+    },
+    {
+      "jd_skill": "Fault detection / classification",
+      "you_have": "CNN classification + object detection pipelines"
+    },
+    {
+      "jd_skill": "Anomaly detection",
+      "you_have": "Supervised classification + model evaluation"
+    },
+    {
+      "jd_skill": "Labeled dataset construction",
+      "you_have": "LeRobot-structured dataset curation"
+    },
+    {
+      "jd_skill": "Electromechanical system design",
+      "you_have": "SolidWorks + 6DOF arm / turret builds"
+    },
+    {
+      "jd_skill": "Energy consumption profiling",
+      "you_have": "GPU power/throughput profiling (pynvml)"
+    }
+  ],
+  "missing_skills": [
+    "Predictive maintenance",
+    "Condition monitoring",
+    "Vibration analysis",
+    "Fault injection framework",
+    "Knowledge distillation"
+  ],
+  "top_ats_keywords": [
+    "TinyML",
+    "embedded machine learning",
+    "microcontroller",
+    "C/C++",
+    "Python",
+    "quantization",
+    "pruning",
+    "knowledge distillation",
+    "RTOS",
+    "signal processing",
+    "data acquisition",
+    "sensors",
+    "fault diagnosis",
+    "predictive maintenance",
+    "motor control",
+    "TFLite",
+    "model optimization",
+    "real-time control",
+    "Git"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Microcontrollers",
+    "Embedded systems",
+    "Git"
+  ],
+  "preferred_skills": [
+    "RTOS / real-time embedded systems",
+    "TinyML",
+    "Embedded ML frameworks (TFLite)",
+    "Sensors",
+    "Signal processing",
+    "Data acquisition",
+    "Machine learning / model training",
+    "Electronics",
+    "Motor control"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Develop embedded software for real-time system control, fault injection, and synchronized data acquisition",
+    "Implement configurable, reproducible fault conditions at varying severity",
+    "Build a labeled dataset of normal and faulty operation",
+    "Train ML models in Python and deploy them on a resource-constrained microcontroller",
+    "Evaluate accuracy vs memory vs compute vs latency vs energy trade-offs",
+    "Apply quantization, pruning and knowledge distillation",
+    "Map detected faults to maintenance actions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Solna, Stockholm, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 74,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real-time embedded control with synchronized acquisition is directly evidenced: STM32 Bare-Metal Temperature Monitor (timer-triggered ADC scan conversions, interrupt-driven sample capture, low-level I2C driver, deterministic 1 Hz, 3.68 KB Flash / 1.58 KB RAM) is almost exactly the 'embedded software for real-time control and synchronized data acquisition' task.",
+      "Building the controllable electromechanical test rig is covered end-to-end: Robocon holonomic drive (quadrature decoding from a 4-bit A/B state machine on hardware interrupts, 15 kHz PWM via DuePWM, closed-loop heading correction from encoder odometry) plus EAGLE PCB fabrication and SolidWorks.",
+      "Quantization depth is unusually strong for a thesis applicant: QAT project implements straight-through-estimator fake quantization, int8 symmetric weights / uint8 activations, EMA activation-scale observer frozen for the final 25% of training, folded into a fixed-point requantization multiplier and shift, with integer-only inference at 97.43% on MNIST.",
+      "The accuracy / memory / latency trade-off evaluation the thesis asks for is a repeated pattern in his work: SLM compression (~55% VRAM reduction at <1% accuracy loss and +0.09 perplexity, profiled with pynvml and psutil) and CUDA VGG16 kernels (49.2 ms coalesced vs 73.3 ms uncoalesced vs 77.5 ms CPU).",
+      "Labeled-dataset construction is backed by more than one project: CARLA auto-generation of ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation, Tusk's 1,133-image annotated detection set, and the LeRobot-structured multi-camera capture pipeline in COFFIN.",
+      "Required stack is fully met with depth, not mentions: C/C++ (bare-metal STM32, Arduino IK, CUDA C++), Python (PyTorch, HF, Cython backend), microcontrollers (STM32 Cortex-M4, Arduino Due, Nano), Git/GitLab.",
+      "Sensor-combination studies have a real analogue: COFFIN's camera range-gate plus dual VL53L0X ToF over a TCA9548A I2C mux, where the sensing mix itself was the design decision."
+    ],
+    "real_gaps": [
+      "Predictive maintenance, condition monitoring and fault diagnosis as a domain is entirely absent from the profile \u2014 no vibration analysis, no bearing/motor fault signatures, no RUL or health-indicator work.",
+      "No ML model has ever run on a microcontroller. All edge deployment is Jetson-class (TensorRT, YOLO); the Tusk TFLite/ONNX export targeted mobile, and the QAT int8 export went to a hex .mem file rather than an MCU runtime. TFLite Micro, CMSIS-NN, Edge Impulse and microTVM are all unused.",
+      "Fault injection \u2014 designing configurable, reproducible faults at graded severity \u2014 has no backing. The nearest thing is the Robocon fail-safe state machine on controller disconnect and the 11 integration failures debugged in COFFIN, neither of which is deliberate fault synthesis.",
+      "Pruning appears in the profile's self-described strongest areas but no bullet anywhere demonstrates it. Knowledge distillation has no backing at all.",
+      "Energy consumption is one of the five trade-off axes the thesis names, and it is the one axis he has never measured \u2014 his profiling is memory, latency and throughput (pynvml, psutil, FPS, Flash/RAM), never joules or current draw.",
+      "Time-series / signal classification on sensor streams is thin. Depth exists in vision and speech; the closest sensor-stream work is the ADXL345 z-axis differential tap-detection threshold, which is hand-rolled rather than learned.",
+      "Mapping diagnosed faults to maintenance actions is a reliability-engineering layer with nothing comparable in the profile.",
+      "Eligibility, stated as prose rather than scored: the posting wants a final-year master's student registering a 30 ECTS thesis. He finished the M.S. in May 2026, so there is no enrolling university behind the application."
+    ],
+    "overstated_by_keywords": [
+      "Pruning \u2014 counted as Have off the strongest_areas line, but no project bullet demonstrates it.",
+      "TinyML \u2014 the Have/Adjacent credit rests on Jetson TensorRT and a mobile TFLite export, which is a different compute class from a Cortex-M microcontroller with kilobytes of RAM.",
+      "Energy consumption profiling \u2014 credited as adjacent to pynvml GPU power work, but no power or energy figure appears anywhere in the profile.",
+      "Fault detection / classification \u2014 credited via CNN and object-detection classifiers, which share the ML machinery but none of the fault-signature or sensor-stream specifics."
+    ],
+    "understated_by_keywords": [
+      "The QAT project is the single most relevant thing in the profile for this thesis and the keyword pass reduced it to 'quantization'. Exporting int8 weights as a 17,024-entry hex .mem file with scale parameters and 100 golden test vectors, with fixed-point requantization matching the float reference on 99.996% of hidden values, is MCU/FPGA-grade integer deployment engineering.",
+      "The STM32 temperature monitor's reported 3.68 KB Flash / 1.58 KB RAM footprint shows he already thinks in the memory budget TinyML lives in.",
+      "Automated dataset generation in CARLA (semantic segmentation plus raycast occlusion filtering, zero manual annotation) is directly transferable to generating a labeled normal-vs-fault dataset at graded severity.",
+      "Digital Signal Processing and Random Signal Analysis coursework plus the ADXL345 tap-detection work give a sensor-signal foundation the keyword pass scored only as 'signal processing'."
+    ],
+    "screening_gaps": [
+      "Not an enrolled student. The posting is a 30 ECTS master's thesis for two final-year students, and a thesis has to be registered against a home university; he graduated in May 2026. This is not a weak-fit concern, it is an eligibility bar, and it ends the application regardless of the skill match.",
+      "Never deployed a model on a microcontroller. The thesis's second half is TinyML on a resource-constrained MCU, and every edge deployment in the profile is Jetson-class; no TFLite Micro, CMSIS-NN or Edge Impulse anywhere.",
+      "No predictive maintenance, condition monitoring or vibration-analysis background, and no fault-injection or knowledge-distillation experience \u2014 the thesis's subject matter and two of its named optimization techniques."
+    ],
+    "recommend_apply": false,
+    "reasoning": "On pure skill and domain fit this is one of the better-matched postings he has seen: the embedded half (bare-metal real-time control, timer-synchronized acquisition, encoder/PWM motor control, PCB work) and the model-compression half (QAT with integer-only inference, int8 LLM quantization, memory and latency trade-off benchmarking) are both genuinely his, and the required stack is met with depth rather than mentions. The honest gaps are that TinyML has never actually touched a microcontroller for him, and the predictive-maintenance domain plus fault injection, pruning, distillation and energy measurement are unevidenced. The decisive problem is structural rather than technical: this is a 30 ECTS thesis for currently enrolled final-year master's students, he graduated in May 2026, and the stated start is Spring 2026, already past. It belongs on the project backlog, not the application list.",
+    "calibration_delta": -1.6
+  },
+  "semantic_pending": false
+}

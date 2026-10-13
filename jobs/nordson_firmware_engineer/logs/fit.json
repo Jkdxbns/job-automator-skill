@@ -1,0 +1,83 @@
+{
+  "company": "Nordson Test & Inspection",
+  "company_slug": "nordson",
+  "role": "Firmware Engineer (posting body describes Senior Embedded/Firmware Engineer)",
+  "job_slug": "firmware_engineer",
+  "match_pct": 100,
+  "missing_skills": [
+    "Yocto",
+    "Bitbake",
+    "U-Boot",
+    "embedded Linux driver development",
+    "SDIO",
+    "USB",
+    "Ethernet"
+  ],
+  "adjacent_skills": [
+    "2+ years custom electronic hardware experience (internships/projects, not full-time)",
+    "reading schematics/datasheets (EAGLE PCB Design)",
+    "multi-discipline engineering teams",
+    "Wi-Fi (have TCP/IP, not WiFi-specific)"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded systems",
+    "oscilloscopes",
+    "logic analyzers",
+    "SPI",
+    "I2C",
+    "UART",
+    "Bluetooth",
+    "PCB",
+    "schematics",
+    "Git",
+    "Python",
+    "Bash",
+    "image processing",
+    "digital signal processing"
+  ],
+  "key_responsibilities": [
+    "Design and implement embedded software for sensor projects",
+    "Debug/troubleshoot PCBAs with logic analyzers and oscilloscopes alongside EE",
+    "Contribute to hardware/software architecture for reuse across products",
+    "Document firmware architecture and communications interfaces",
+    "Design and maintain unit and stress tests for embedded software",
+    "Act as SME for embedded software on production sensors, field troubleshooting",
+    "Mentor less experienced embedded engineers and interns"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Repeated real depth in I2C/SPI/UART: bare-metal I2C driver on the STM32 Temperature Monitor, UART command handling with FreeRTOS on the Object Tracking Turret, custom PCB UART/I2C wiring at ARC, and a TCA9548A I2C mux in COFFIN.",
+      "Genuine image processing / DSP strength: BARC image-stitching and wavelet-denoising pipeline reaching PSNR 86, ZoeDepth depth estimation, DSP coursework at both degrees, plus YOLO-based vision work \u2014 this maps directly onto the JD's 'image processing and other digital signal processing in an embedded environment' line.",
+      "Real PCB design exposure: custom single-layer PCBs in EAGLE, verified in Proteus, for the ARC locomotive robots.",
+      "Leadership precedent for the mentoring duty: led a 25-member robotics club end to end, and stepped up as team lead on a 7-person cross-cultural research team at Teesside."
+    ],
+    "real_gaps": [
+      "Zero embedded Linux background (Yocto, Bitbake, U-Boot, driver development) despite this being central to what WaferSense/3D MRS actually are: multi-camera, multi-LED, DMD-coordinated sensors are embedded-Linux-class systems, not bare-metal MCU scope like the STM32/Arduino projects in the profile.",
+      "No unit or stress test methodology anywhere in the embedded work \u2014 this is an explicit essential duty in the JD ('design, implement, and maintain unit and stress tests') and there's nothing in any project bullet to back it.",
+      "No production or field-support experience at all \u2014 every embedded project is a solo or small-team academic/internship prototype, while the JD wants an SME who troubleshoots issues found in the field on shipped sensors.",
+      "USB, Ethernet, and SDIO are all unaddressed anywhere in the profile.",
+      "Scope/seniority mismatch: the body text ('elevated level of autonomy,' 'leads projects from a high level,' acts as SME, mentors other engineers) describes a mid or senior IC role riding on a 'Firmware Engineer' title with only a 2+ year stated minimum \u2014 day one expectations read well past new-grad scope regardless of internship count."
+    ],
+    "overstated_by_keywords": [
+      "'2+ years custom electronic hardware' was marked Adjacent, but the only internship with that exact title (Planctech, Embedded Systems Intern) ran about 5 months \u2014 the real shortfall against a 2-year bar is substantial, not a near-miss.",
+      "Oscilloscopes and Logic Analyzers were marked Have because they appear in the skills list, but no project bullet actually describes using either to debug a board \u2014 it's a surface-level claim, not demonstrated depth.",
+      "Wi-Fi was marked Adjacent via TCP/IP, but the TCP/IP exposure is application-socket work (RAPID/ABB, WebSocket app fabric), not RF or WiFi driver-level work \u2014 there's no real WiFi backing at all."
+    ],
+    "reasoning": "The technical keyword overlap looks perfect on paper, but a chunk of that is skills-list entries without bullet-level evidence (oscilloscopes, logic analyzers) or is achieved through internship titles that don't actually cover 2 years. The profile's genuine strengths, I2C/SPI/UART protocol work and image processing/DSP, are real, but the job's actual center of gravity, embedded Linux driver work on multi-camera sensor products plus SME-level production support, has no backing anywhere in the profile, and the body text describes a senior scope well past new-grad experience."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-16",
+    "channel": "application",
+    "notes": "Form rejection (REQ52413 Firmware Engineer): focusing on candidates who match more closely. No feedback."
+  }
+}

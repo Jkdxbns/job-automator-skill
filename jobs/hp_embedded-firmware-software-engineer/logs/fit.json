@@ -1,0 +1,146 @@
+{
+  "company": "HP Inc.",
+  "company_slug": "hp",
+  "role": "Embedded Firmware and Software Engineer",
+  "job_slug": "embedded-firmware-software-engineer",
+  "match_pct": 87.5,
+  "score_detail": {
+    "have_count": 17,
+    "adjacent_count": 1,
+    "missing_count": 2,
+    "jd_ask_size": 20,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "Embedded Software",
+    "Embedded Systems",
+    "Firmware",
+    "Firmware Development",
+    "Debugging",
+    "Git",
+    "Linux",
+    "Python",
+    "Algorithms",
+    "Computer Science",
+    "Operating Systems",
+    "Real-Time Operating Systems",
+    "Software Development",
+    "Software Engineering",
+    "Computer Engineering"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Electrical Engineering",
+      "you_have": "M.S. Computer Engineering (adjacent discipline)"
+    }
+  ],
+  "missing_skills": [
+    "Agile Methodology",
+    "New Product Development"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Embedded Software",
+    "Embedded Systems",
+    "Firmware",
+    "Firmware Development",
+    "Real-Time Operating Systems",
+    "Linux",
+    "Git",
+    "Debugging",
+    "Algorithms",
+    "Operating Systems",
+    "Python",
+    "Agile Methodology"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Embedded Software",
+    "Embedded Systems",
+    "Firmware",
+    "Firmware Development",
+    "Real-Time Operating Systems",
+    "Linux",
+    "Git (Version Control System)",
+    "Debugging",
+    "Algorithms",
+    "Operating Systems",
+    "Python",
+    "Agile Methodology",
+    "Software Development",
+    "Software Engineering",
+    "Computer Engineering",
+    "Computer Science",
+    "Electrical Engineering",
+    "New Product Development"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 4,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, develop, debug embedded software/firmware for hardware",
+    "Collaborate with hardware engineers to integrate SW/FW with hardware",
+    "Design DSP, embedded code, EFI drivers/applications, BIOS/UEFI subsystems",
+    "Write and execute testing plans/protocols/documentation",
+    "Lead a project team of other firmware engineers and outsourced partners",
+    "Represent firmware engineering team across larger/complex development projects, microarchitecture through firmware architecture"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Spring, Texas, United States of America / Singapore, South West, Singapore",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal STM32 Cortex-M4 firmware in C (GPIO, TIM2, ADC1, I2C1, interrupt-driven sampling) \u2014 STM32 Bare-Metal Temperature Monitor",
+      "FreeRTOS with mutexes for shared-memory task coordination on STM32, plus UART peripheral command handling and multi-servo PWM control \u2014 Object Tracking Turret",
+      "Cross-hardware integration debugging (I2C mux, dual ToF sensors, servo brown-out, stale-frame capture) with 11 resolved integration failures \u2014 COFFIN capstone",
+      "Linux systemd service deployment (auto-restart, non-root isolation, static IP networking) on Jetson \u2014 COFFIN capstone",
+      "Git/GitLab version control across academic and internship work"
+    ],
+    "real_gaps": [
+      "No DSP, EFI driver/application, or BIOS/UEFI firmware experience anywhere in the profile \u2014 this is the specific subsystem the JD names, and PC firmware (BIOS/UEFI) is core to HP's actual product surface",
+      "No evidence of professional software/firmware team leadership \u2014 leadership shown is a 25-member student robotics club and a 7-person research team, not an engineering team on a shipping firmware product",
+      "No production-scale firmware ownership \u2014 all firmware work is capstone/personal-project scope (single-board temperature monitor, turret), not a product shipping at company scale",
+      "No formal test-plan/protocol authorship for firmware validation, beyond ad hoc integration debugging"
+    ],
+    "overstated_by_keywords": [
+      "Operating Systems / Real-Time Operating Systems counted as HAVE via FreeRTOS on a hobbyist turret build, not a production RTOS deployment"
+    ],
+    "understated_by_keywords": [
+      "COFFIN's systemd deployment and I2C mux integration show real hardware/software integration discipline the keyword pass doesn't credit toward 'Embedded Software' depth"
+    ],
+    "screening_gaps": [
+      "Zero full-time professional experience against a stated 4-6 years (or 3-5 with an advanced degree) requirement, for a role that explicitly asks the hire to lead a project team",
+      "No BIOS/UEFI/EFI or DSP firmware background \u2014 the JD names these explicitly and they are core to HP's own firmware product line",
+      "No track record leading an engineering team in a professional/production setting, only student-org and research-team leadership"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded skills (bare-metal C, RTOS, peripheral-level I2C/UART/GPIO/ADC work, Linux deployment) transfer directly and most general firmware responsibilities are backed by real, specific project work. The BIOS/UEFI/EFI/DSP subsystem work named in the JD, and the years-of-experience plus team-lead expectation, are the two things most likely to trip screening \u2014 worth applying but expect this to read as a stretch, not a lock.",
+    "calibration_delta": 15.5
+  }
+}

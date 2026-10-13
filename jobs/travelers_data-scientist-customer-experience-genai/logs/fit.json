@@ -1,0 +1,127 @@
+{
+  "company": "Travelers",
+  "company_slug": "travelers",
+  "role": "Data Scientist - Customer Experience GenAI",
+  "job_slug": "data-scientist-customer-experience-genai",
+  "match_pct": 40.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 11,
+    "jd_ask_size": 22,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Generative AI",
+    "Classification",
+    "Machine Vision",
+    "Natural Language Processing",
+    "Deep Learning",
+    "Python",
+    "Model evaluation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "RAG pipelines",
+      "you_have": "LLM/transformer systems (SmolVLA inference engine, GPT-2, SLM from scratch)"
+    },
+    {
+      "jd_skill": "Prompt design",
+      "you_have": "LLM inference-level engineering, not prompt engineering"
+    },
+    {
+      "jd_skill": "Predictive Modeling",
+      "you_have": "ML/DL model development"
+    },
+    {
+      "jd_skill": "Data Analysis",
+      "you_have": "ML project data analysis"
+    }
+  ],
+  "missing_skills": [
+    "Statistical analysis",
+    "Statistical modeling",
+    "Advanced statistics",
+    "Regression",
+    "Statistical Methods",
+    "Business Intelligence (BI)",
+    "Data Storytelling",
+    "Actuarial",
+    "Tool use",
+    "Grounding/attribution",
+    "Hallucination mitigation"
+  ],
+  "top_ats_keywords": [
+    "GenAI",
+    "RAG",
+    "Prompt Engineering",
+    "Statistical Modeling",
+    "Regression",
+    "Classification",
+    "NLP",
+    "Deep Learning",
+    "Machine Vision",
+    "Predictive Modeling",
+    "Data Analysis",
+    "Business Intelligence",
+    "Actuarial",
+    "Python"
+  ],
+  "required_skills": [
+    "Generative AI",
+    "RAG pipelines",
+    "Prompt design",
+    "Statistical analysis",
+    "Statistical modeling",
+    "Advanced statistics",
+    "Model evaluation"
+  ],
+  "preferred_skills": [
+    "Regression",
+    "Classification",
+    "Machine Vision",
+    "Natural Language Processing",
+    "Deep Learning",
+    "Statistical Methods",
+    "Business Intelligence (BI)",
+    "Predictive Modeling",
+    "Data Storytelling",
+    "Data Analysis",
+    "Tool use",
+    "Grounding/attribution",
+    "Hallucination mitigation",
+    "Actuarial"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Assist in design/development of analytical and GenAI solutions",
+    "Support implementation of approved GenAI tools",
+    "Communicate analysis to business partners",
+    "Mentor less experienced analytic talent"
+  ],
+  "role_category": "ml_systems",
+  "location": "Hartford, CT",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

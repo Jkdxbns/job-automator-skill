@@ -1,0 +1,146 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Autonomy Engineer - Locomotion",
+  "job_slug": "robotics-autonomy-engineer-locomotion",
+  "match_pct": 38.7,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 17,
+    "jd_ask_size": 31,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Master's degree (Robotics/CS/Engineering) (M.S. Computer Engineering, Rochester Institute of Technology, May 2026)",
+    "Python and C++ Linux development (Python Developer Intern (BARC); C/C++ in skills list; Linux-based projects throughout)",
+    "PyTorch (AI/ML Intern (IIT Bombay): PyTorch + HuggingFace VisionEncoderDecoder; SLM Compression (bitsandbytes); GPT-2 from scratch; COFFIN ASR; multiple internships)",
+    "TensorFlow (Listed in skills; used at Deep Learning Intern (Tusk) for YOLOv8n export pipeline)",
+    "Kinematics (ROS-Based Robotic Arm (AL5B & UR5e): DH tables, forward kinematics)",
+    "ROS/ROS2 (ROS-Based Robotic Arm project: ROS2 Humble + ROS Noetic, MoveIt, RViz)",
+    "NVIDIA TensorRT / real-time onboard inference (Voice-Controlled Robotic Arm (COFFIN capstone): TensorRT-optimized YOLO, 5.2x speedup on Jetson)",
+    "ONNX (export) (Deep Learning Intern (Tusk): exported YOLOv8n to ONNX/TFLite)",
+    "Manipulation (ROS-Based Robotic Arm: MoveIt, visual servoing, pick reliability 10/10)",
+    "Passion for building things that move (Voice-Controlled Robotic Arm, Object Tracking Turret, Autonomous Driving in CARLA, ROS arm)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ONNX Runtime",
+      "you_have": "ONNX export (not runtime inference) \u2014 Deep Learning Intern (Tusk): YOLOv8n exported ONNX/TFLite"
+    },
+    {
+      "jd_skill": "Contact dynamics",
+      "you_have": "No explicit contact-dynamics bullet; closest is real-world balance/recovery discussion in capstone and robotics control but not formal dynamics modeling"
+    },
+    {
+      "jd_skill": "Control theory",
+      "you_have": "DH parameters / forward kinematics present (ROS arm); formal control theory (MPC, feedback controllers) not explicitly documented"
+    },
+    {
+      "jd_skill": "JAX",
+      "you_have": "Not present; closest is PyTorch + TensorFlow across multiple ML projects (IIT Bombay, Tusk, capstone)"
+    }
+  ],
+  "missing_skills": [
+    "Deep expertise in reinforcement learning for continuous control (no RL mentioned in profile at all)",
+    "Hands-on experience with legged robot platforms (only arm, turret, autonomous car; no quadruped/humanoid/biped)",
+    "Proficiency with simulation tools (Isaac Gym, Isaac Lab, MuJoCo, PyBullet \u2014 none mentioned)",
+    "Strong command of sim-to-real transfer with track record (no simulation work documented)",
+    "Contact dynamics (no explicit backing)",
+    "Control theory (no MPC/feedback controller backing)",
+    "3+ years industry/startup robotics (new-grad, 0 full-time years, 7 internships)",
+    "Publications or open-source contributions (none listed)",
+    "Loco-manipulation / whole-body coordination (no legged whole-body work)",
+    "Experience combining learned policies with MPC or whole-body controllers (no MPC mentioned)",
+    "Experience with motion imitation pipelines from motion capture or teleoperation (not present)",
+    "Experience debugging sim-to-real issues at scale (no simulation present to debug)",
+    "Contributions to RL libraries or simulation platforms (none)",
+    "Multi-agent learning or terrain-adaptive control systems (none)",
+    "Domain randomization (not mentioned)",
+    "Imitation learning / motion retargeting (not mentioned)",
+    "GPU-accelerated physics-based simulation (no simulation tools in profile)"
+  ],
+  "top_ats_keywords": [
+    "reinforcement learning",
+    "RL",
+    "locomotion",
+    "whole-body control",
+    "sim-to-real",
+    "domain randomization",
+    "Isaac Gym",
+    "Isaac Lab",
+    "MuJoCo",
+    "PyBullet",
+    "contact dynamics",
+    "kinematics",
+    "continuous control",
+    "imitation learning",
+    "motion retargeting",
+    "TensorRT",
+    "ONNX",
+    "ROS",
+    "ROS2",
+    "quadruped",
+    "humanoid",
+    "bipedal"
+  ],
+  "required_skills": [
+    "Master's degree or higher in Robotics, Computer Science, Engineering, or related field",
+    "Deep expertise in reinforcement learning for continuous control",
+    "Hands-on experience with legged robot platforms (quadruped, bipedal/humanoid, or exoskeleton)",
+    "Proficiency with simulation tools (Isaac Gym, Isaac Lab, MuJoCo, or PyBullet)",
+    "Strong command of sim-to-real transfer with track record",
+    "Solid understanding of contact dynamics, control theory, and kinematics",
+    "Strong Python and/or C++ development in Linux-based environments",
+    "Familiarity with ML frameworks (PyTorch, JAX, TensorFlow)"
+  ],
+  "preferred_skills": [
+    "3+ years in industry or startup robotics setting",
+    "Experience optimizing/deploying learning-based controllers (ONNX Runtime, NVIDIA TensorRT, real-time onboard inference)",
+    "Publications or open-source contributions in locomotion, RL, or control",
+    "Familiarity with ROS/ROS2 or custom middleware for real-time control",
+    "Background in manipulation, loco-manipulation, or whole-body coordination",
+    "Experience combining learned policies with MPC or whole-body controllers",
+    "Experience with motion imitation pipelines from motion capture or teleoperation",
+    "Experience debugging sim-to-real issues at scale",
+    "Contributions to RL libraries or simulation platforms",
+    "Prior work on multi-agent learning or terrain-adaptive control systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Architect RL pipelines for locomotion and whole-body control on legged/humanoid robots",
+    "Design policy architectures, training curricula, and domain randomization strategies",
+    "Integrate GPU-accelerated physics-based simulation with distributed training workflows",
+    "Train locomotion policies from human motion data via imitation learning and motion retargeting",
+    "Create agile, terrain-aware locomotion behaviors for quadruped and humanoid platforms",
+    "Validate on real hardware; solve balance, push recovery, contact-rich dynamics, and high-DOF coordination",
+    "Automate evaluation across domain-randomized scenarios and maintain simulation infrastructure",
+    "Collaborate with systems, perception, and embedded teams using real-world telemetry",
+    "Lead deployment from experiment through lab testing to field robot validation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

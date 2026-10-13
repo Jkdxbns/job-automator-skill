@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "company": "Parallel Systems",
+    "role": "Embedded Software Engineer - Vehicle Software",
+    "company_slug": "parallel-systems",
+    "job_slug": "embedded-sw-engineer-vehicle-software"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on embedded systems experience across STM32 bare-metal C, FreeRTOS, and sensor-integrated hardware platforms. Built and debugged firmware using interrupt-driven UART and I2C communication, closed-loop sensor feedback, and real-time state machine control on custom PCBs and microcontroller-driven systems. Comfortable working directly with hardware test stands, oscilloscopes, and logic analyzers to validate hardware-software interfaces end to end.",
+  "skills": {
+    "Embedded & Firmware": ["STM32 (Bare-Metal C)", "FreeRTOS", "Arduino (C/C++)", "UART", "I2C", "Interrupt-Driven I/O", "PWM", "GPIO", "ADC", "State Machines"],
+    "Languages": ["C/C++", "Python", "Bash"],
+    "Hardware Debugging & Tools": ["Oscilloscopes", "Logic Analyzers", "Proteus", "EAGLE PCB Design", "Git", "Linux"],
+    "Sensors & Protocols": ["VL53L0X ToF", "ADXL345 Accelerometer", "HC-05 Bluetooth (BLE/Classic)", "Closed-Loop Sensor Feedback"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with a Raspberry Pi and HC-05 Bluetooth module to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; debugged and resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used a Jetson-based vision pipeline to detect and track objects, sending control commands to an STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART command handling and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link inverse kinematics on an Arduino microcontroller in C++, driving five servos with range-gated, sensor-triggered contact detection for a vision-guided robotic arm.",
+        "Integrated dual VL53L0X time-of-flight sensors over a TCA9548A I2C multiplexer for contact-aware grasping, combining a camera range-gate with a 25mm gripper-triggered close threshold."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Principles of Robotics", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

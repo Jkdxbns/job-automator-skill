@@ -1,0 +1,138 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "DevOps Engineer, Web Platform",
+  "job_slug": "devops-engineer-web-platform",
+  "match_pct": 15.2,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 7,
+    "missing_count": 16,
+    "jd_ask_size": 23,
+    "req_cov": 0.125,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Monitor system performance, reliability, and uptime across production environments",
+      "you_have": "COFFIN capstone \u2014 systemd deployment (auto-restart, non-root isolation, static IP) with 100% pick reliability (10/10 runs)"
+    },
+    {
+      "jd_skill": "Debug and resolve production issues across application, infrastructure, and deployment layers",
+      "you_have": "COFFIN capstone \u2014 resolved 11 integration failures across Flutter+Flask-SocketIO+Jetson+Arduino stack"
+    },
+    {
+      "jd_skill": "Manage production systems / debug real-world issues",
+      "you_have": "COFFIN capstone \u2014 systemd service deployment (auto-restart, non-root isolation, static IP)"
+    },
+    {
+      "jd_skill": "Cross-functional work with engineering teams",
+      "you_have": "Agnel Robotics Club \u2014 led 25-member team (PCB fabrication, UART/I2C sensor comms); Teesside Univ \u2014 led 7-person U-Net research team"
+    },
+    {
+      "jd_skill": "Infrastructure / deployment reliability",
+      "you_have": "COFFIN systemd deployment; embedded sensor infrastructure (UART/I2C/SPI, Bluetooth, EAGLE PCB design); FreeRTOS with mutexes on Object Tracking Turret"
+    },
+    {
+      "jd_skill": "Testing/validation strategies",
+      "you_have": "COFFIN integration verification (10/10 reliability, 11 failures resolved); U-Net segmentation evaluation on BraTS 2020 MRI dataset"
+    },
+    {
+      "jd_skill": "Improving system reliability / uptime / deployment safety",
+      "you_have": "COFFIN systemd deployment (auto-restart/non-root isolation, 100% reliability); embedded FreeRTOS deployment on STM32 turret"
+    }
+  ],
+  "missing_skills": [
+    "CI/CD pipelines for web services/applications (Node.js, React)",
+    "Design and maintain release processes",
+    "Build/enforce testing and validation workflows for web releases",
+    "Manage/scale containerized infrastructure (Docker, Kubernetes) in AWS",
+    "Partner with full-stack engineers",
+    "Improve observability, logging, and alerting",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "CI/CD pipelines (GitHub Actions or similar)",
+    "Modern web stacks (Node.js, TypeScript, React)",
+    "MongoDB or similar production databases",
+    "Experience building internal tooling for developer workflows",
+    "Fast-paced startup experience",
+    "3\u20138 years experience in DevOps/infrastructure/production engineering",
+    "Release process ownership and production readiness at scale"
+  ],
+  "top_ats_keywords": [
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Node.js",
+    "React",
+    "TypeScript",
+    "DevOps",
+    "infrastructure",
+    "containerized",
+    "deployment",
+    "production",
+    "monitoring",
+    "observability",
+    "logging",
+    "alerting",
+    "release",
+    "testing",
+    "validation",
+    "MongoDB"
+  ],
+  "required_skills": [
+    "CI/CD pipelines for web services and applications (Node.js, React)",
+    "Design and maintain release processes",
+    "Build and enforce testing and validation workflows",
+    "Manage and scale containerized infrastructure (Docker, Kubernetes) in AWS",
+    "Monitor system performance, reliability, and uptime across production environments",
+    "Partner with full-stack engineers",
+    "Debug and resolve production issues across application, infrastructure, and deployment layers",
+    "Improving observability, logging, and alerting"
+  ],
+  "preferred_skills": [
+    "Experience owning release processes and production readiness for web applications",
+    "Experience improving system reliability, uptime, and deployment safety at scale",
+    "Familiarity with MongoDB or similar databases in production environments",
+    "Experience building internal tooling to improve developer workflows",
+    "Experience in fast-paced startup environments"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own and improve CI/CD pipelines for web services and applications (Node.js, React)",
+    "Design and maintain release processes that ensure safe, reliable deployments",
+    "Build and enforce testing and validation workflows to catch issues before production",
+    "Manage and scale containerized infrastructure (Docker, Kubernetes) in AWS",
+    "Monitor system performance, reliability, and uptime across production environments",
+    "Partner with full-stack engineers to improve deployment velocity and system stability",
+    "Debug and resolve production issues across application, infrastructure, and deployment layers",
+    "Improve observability, logging, and alerting to proactively detect failures"
+  ],
+  "role_category": "general_swe",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

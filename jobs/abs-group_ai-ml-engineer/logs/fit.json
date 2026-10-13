@@ -1,0 +1,143 @@
+{
+  "company": "ABS Group",
+  "company_slug": "abs-group",
+  "role": "AI/ML Engineer",
+  "job_slug": "ai-ml-engineer",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 7,
+    "missing_count": 7,
+    "jd_ask_size": 22,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "LLM",
+    "NLP",
+    "classification",
+    "data pipelines",
+    "generative AI"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "scikit-learn",
+      "you_have": "PyTorch / Keras"
+    },
+    {
+      "jd_skill": "MLOps",
+      "you_have": "ONNX/TFLite/TensorRT model export and edge deployment"
+    },
+    {
+      "jd_skill": "CI/CD for ML",
+      "you_have": "Git / GitLab"
+    },
+    {
+      "jd_skill": "model monitoring",
+      "you_have": "pynvml/psutil latency and VRAM profiling"
+    },
+    {
+      "jd_skill": "RAG",
+      "you_have": "Transformers / LLM work (TinyLlama, GPT-2)"
+    },
+    {
+      "jd_skill": "LLMOps",
+      "you_have": "SLM quantization and benchmarking"
+    },
+    {
+      "jd_skill": "production ML at scale",
+      "you_have": "Jetson edge deployment"
+    }
+  ],
+  "missing_skills": [
+    "vector databases",
+    "DevSecOps",
+    "AWS/Azure/GCP AI/ML services",
+    "AIOps",
+    "explainability / model governance",
+    "entity resolution",
+    "federal/regulated AI environments"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "MLOps",
+    "CI/CD",
+    "model monitoring",
+    "LLMOps",
+    "AIOps",
+    "RAG",
+    "vector databases",
+    "data pipelines",
+    "DevSecOps",
+    "generative AI",
+    "LLM",
+    "NLP",
+    "classification",
+    "AWS",
+    "Azure",
+    "GCP",
+    "explainability",
+    "model governance"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "MLOps",
+    "CI/CD for ML",
+    "model monitoring",
+    "data pipelines",
+    "LLM",
+    "RAG",
+    "vector databases",
+    "DevSecOps"
+  ],
+  "preferred_skills": [
+    "AWS/Azure/GCP AI/ML services",
+    "production ML at scale",
+    "NLP",
+    "classification",
+    "entity resolution",
+    "federal/regulated AI environments"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "operate AI/ML for production apps",
+    "data and model pipelines",
+    "MLOps deployment/monitoring/retraining",
+    "GenAI/LLM/RAG support",
+    "CI/CD and observability in secure environments",
+    "responsible AI and model governance"
+  ],
+  "role_category": "ml_systems",
+  "location": "Washington, DC metro; primary work in Suitland, MD",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

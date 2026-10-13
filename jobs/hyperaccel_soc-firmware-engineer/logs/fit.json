@@ -1,0 +1,142 @@
+{
+  "company": "HyperAccel",
+  "company_slug": "hyperaccel",
+  "role": "SoC Firmware Engineer (Entry-level/Experienced)",
+  "job_slug": "soc-firmware-engineer",
+  "match_pct": 53.1,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 6,
+    "missing_count": 12,
+    "jd_ask_size": 32,
+    "req_cov": 0.9,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Linux",
+    "RTOS",
+    "FreeRTOS",
+    "I2C",
+    "SPI",
+    "UART",
+    "Operating Systems",
+    "Firmware",
+    "Bare-metal",
+    "Multithreading",
+    "Mutex",
+    "Ring Buffer"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ARM Cortex-A",
+      "you_have": "STM32/Jetson ARM"
+    },
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "BeagleBone Linux"
+    },
+    {
+      "jd_skill": "Device Drivers",
+      "you_have": "MPU6050 C driver"
+    },
+    {
+      "jd_skill": "Computer Architecture",
+      "you_have": "coursework"
+    },
+    {
+      "jd_skill": "QEMU",
+      "you_have": "emulation exposure"
+    },
+    {
+      "jd_skill": "DMA",
+      "you_have": "STM32 peripherals"
+    }
+  ],
+  "missing_skills": [
+    "RISC-V",
+    "AXI",
+    "PCIe",
+    "UCIe",
+    "Trace32",
+    "ZEBU",
+    "Renode",
+    "Yocto",
+    "BSP",
+    "FPGA",
+    "Bootloader",
+    "Assembly"
+  ],
+  "top_ats_keywords": [
+    "Firmware",
+    "Bootloader",
+    "Bare-metal",
+    "RTOS",
+    "Embedded Linux",
+    "DMA",
+    "Device Drivers",
+    "Ring Buffer",
+    "Multithreading",
+    "Mutex",
+    "FPGA",
+    "Emulator"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Linux",
+    "Computer Architecture",
+    "Operating Systems"
+  ],
+  "preferred_skills": [
+    "ARM Cortex-A",
+    "RISC-V",
+    "Assembly",
+    "AXI",
+    "FreeRTOS",
+    "Renode",
+    "QEMU",
+    "ZEBU",
+    "Trace32",
+    "Yocto",
+    "BSP",
+    "PCIe",
+    "UCIe",
+    "I2C",
+    "SPI",
+    "UART"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "FPGA/emulator bring-up firmware and bootloader",
+    "post-silicon firmware",
+    "PCIe/platform drivers, DMA",
+    "ring buffer/multi-queue, RTOS optimization"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Seoul, South Korea (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Foreign on-site role (Seoul, South Korea; non-EU/UK) with no sponsorship offered. F-1 OPT authorizes work only inside the US. Category: Work Authorization"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,37 @@
+{
+  "company": "Rise Technical (recruiting for undisclosed deep-tech wearable/implantable device startup)",
+  "company_slug": "rise_technical",
+  "role": "Firmware Engineer (Embedded)",
+  "job_slug": "firmware_engineer",
+  "match_pct": 87.5,
+  "missing_skills": [
+    "low-power firmware stack design"
+  ],
+  "adjacent_skills": [
+    "low-level/register-level debugging (have: logic analyzer based hardware debug, not explicitly register-level MCU debug)",
+    "advanced MCU platforms (have: STM32 Cortex-M4 bare-metal, JD wants unspecified 'advanced' MCU)",
+    "register/hardware interface level debugging"
+  ],
+  "top_ats_keywords": [
+    "embedded firmware",
+    "C/C++",
+    "bare-metal",
+    "low-power",
+    "MCU",
+    "register-level debugging",
+    "sensors",
+    "communications"
+  ],
+  "key_responsibilities": [
+    "Lead bring-up and development of embedded firmware on advanced MCU platforms",
+    "Build and optimize low-power firmware stacks for sensors, communications, and device control",
+    "Debug complex systems at the register and hardware interface level",
+    "Collaborate with cross-functional engineering teams on production-ready products"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

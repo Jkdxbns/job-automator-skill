@@ -1,0 +1,127 @@
+{
+  "company": "Quest Global",
+  "company_slug": "quest-global",
+  "role": "System & Controls Engineer",
+  "job_slug": "system-controls-engineer",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 8,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "data acquisition",
+    "technical report generation",
+    "schematics and BOM review",
+    "control systems (closed-loop)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PID tuning / advanced control tuning",
+      "you_have": "closed-loop motor control"
+    },
+    {
+      "jd_skill": "systems engineering",
+      "you_have": "hardware/software integration"
+    },
+    {
+      "jd_skill": "electrical/electronic system design",
+      "you_have": "PCB design (EAGLE)"
+    },
+    {
+      "jd_skill": "sensor and actuator selection",
+      "you_have": "sensor/actuator integration (ToF, IMU, motors)"
+    },
+    {
+      "jd_skill": "HMI development",
+      "you_have": "PyQt/Qt GUI"
+    },
+    {
+      "jd_skill": "test rig development",
+      "you_have": "testing and validation, logic analyzers"
+    },
+    {
+      "jd_skill": "mechanical/control/DAQ subsystem integration",
+      "you_have": "Jetson+Arduino integration"
+    },
+    {
+      "jd_skill": "components selection",
+      "you_have": "hardware component integration"
+    }
+  ],
+  "missing_skills": [
+    "PLC programming",
+    "Bosch Rexroth",
+    "MATLAB/Simulink",
+    "machine directive compliance",
+    "UKCA/CE marking",
+    "EMC compliance",
+    "industrial automation commissioning",
+    "aerospace environmental testing"
+  ],
+  "top_ats_keywords": [
+    "PLC",
+    "Bosch Rexroth",
+    "MATLAB",
+    "Simulink",
+    "PID",
+    "DAQ",
+    "UKCA",
+    "CE marking",
+    "EMC",
+    "HMI",
+    "schematics",
+    "BOM"
+  ],
+  "required_skills": [
+    "systems engineering (industrial/automation/aerospace/test)",
+    "industrial automation and machine directive compliance",
+    "PLC programming",
+    "MATLAB/Simulink",
+    "control systems and PID tuning",
+    "data acquisition system design",
+    "electrical and electronic system design and review",
+    "schematics and BOM review",
+    "sensor and actuator selection",
+    "UKCA/CE marking and EMC compliance",
+    "technical report generation"
+  ],
+  "preferred_skills": [
+    "HMI development",
+    "test systems and test rig development",
+    "industrial automation commissioning",
+    "mechanical/control/DAQ subsystem integration",
+    "components selection for automation",
+    "aerospace environmental testing",
+    "advanced control tuning"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "embedded_systems",
+  "location": "Bristol, England, UK",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

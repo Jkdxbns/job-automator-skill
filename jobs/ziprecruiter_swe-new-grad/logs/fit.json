@@ -1,0 +1,92 @@
+{
+  "company": "ZipRecruiter",
+  "company_slug": "ziprecruiter",
+  "role": "Software Engineer - New Grad",
+  "job_slug": "swe-new-grad",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 1,
+    "missing_count": 10,
+    "jd_ask_size": 14,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Machine Learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "testing",
+      "you_have": "Model evaluation / benchmarking pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Java",
+    "Go",
+    "JavaScript",
+    "Kubernetes",
+    "React",
+    "HTML/CSS",
+    "SQL",
+    "Relational and non-relational databases",
+    "Big Data",
+    "Full Stack web development"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Java",
+    "Go",
+    "C++",
+    "JavaScript",
+    "Kubernetes",
+    "React",
+    "HTML",
+    "CSS",
+    "SQL",
+    "testing",
+    "Machine Learning",
+    "Big Data",
+    "Full Stack"
+  ],
+  "required_skills": [
+    "General-purpose programming language fluency (Python/Java/Go/C++/JS)"
+  ],
+  "preferred_skills": [
+    "Multiple programming languages",
+    "Relational and non-relational databases",
+    "React/JS/CSS/HTML frontend"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Full lifecycle of user-facing applications at scale",
+    "Write/test/instrument/deploy code to Kubernetes",
+    "Specialize in Big Data, Full Stack, or Machine Learning"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Monica, CA (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

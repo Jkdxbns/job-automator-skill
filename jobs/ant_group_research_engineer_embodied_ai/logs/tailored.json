@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "company": "Ant Group",
+    "role": "Research Engineer, Embodied AI",
+    "company_slug": "ant_group",
+    "job_slug": "research_engineer_embodied_ai"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering candidate at Rochester Institute of Technology (May 2026). Built an end-to-end embodied AI system integrating TensorRT visual servoing (18 FPS), multimodal intent classification, and contact-aware manipulation on a physical robot arm \u2014 100% pick reliability across 10 trials. Experienced with ROS2, real-robot control (UR5e, AL5B), simulation (CARLA), and LeRobot-structured data collection pipelines for visuomotor policy training.",
+  "skills": {
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "ROS2",
+      "Bash"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorRT",
+      "Hugging Face Transformers"
+    ],
+    "Robotics & Perception": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "YOLO",
+      "Visual servoing",
+      "Forward kinematics",
+      "DH parameters"
+    ],
+    "Edge AI / CV": [
+      "OpenCV",
+      "YOLO",
+      "TensorRT",
+      "faster-whisper"
+    ],
+    "Embedded": [
+      "NVIDIA Jetson",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "Arduino",
+      "UART/I2C/SPI"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "CMake",
+      "SolidWorks",
+      "EAGLE PCB Design"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset; improved validation accuracy from 55% to 93% via preprocessing and model tuning.",
+        "Built preprocessing and training pipelines in PyTorch to standardize training and evaluation workflows."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico over Bluetooth to translate 3-DoF hand motion into HID commands \u2014 an IMU-driven embodied control interface."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built end-to-end embodied AI pipeline: voice \u2192 TensorRT YOLO visual servoing (18 FPS) \u2192 Gemini intent classification (<500ms) \u2192 contact-aware pick-and-place; achieved 100% pick reliability (10/10 trials).",
+        "Constructed LeRobot-structured multi-camera data collection pipeline for visuomotor policy training; implemented two-link IK in C++ with contact-aware ToF grasping."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS2 driver; AL5B repeatability measured at <2mm over 10 trials.",
+        "Derived DH tables and forward kinematic chains (0T6) for 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built sim-to-real data pipelines in CARLA (semantic segmentation + raycast filtering) producing ~5,000 YOLO / ~3,000 UFLD frames; zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); validated zero-collision laps in Town02 with 30 vehicles and 10 pedestrians."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Closed the perception-to-actuation loop on physical hardware: YOLOv8 on Jetson → UART → STM32 PWM multi-servo control with FreeRTOS task coordination and VL53L0X range-gating."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)",
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

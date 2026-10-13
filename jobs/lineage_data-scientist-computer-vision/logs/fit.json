@@ -1,0 +1,118 @@
+{
+  "company": "Lineage",
+  "company_slug": "lineage",
+  "role": "Data Scientist - Computer Vision",
+  "job_slug": "data-scientist-computer-vision",
+  "match_pct": 83.3,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 1,
+    "missing_count": 1,
+    "jd_ask_size": 9,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Computer Vision",
+    "Machine Learning",
+    "Linux",
+    "Bash",
+    "C++",
+    "Advanced degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "ML lifecycle management (labeling to monitoring to scaling)",
+      "you_have": "Model training, fine-tuning, quantization, TensorRT deployment, pynvml profiling, SLURM-managed distributed jobs"
+    }
+  ],
+  "missing_skills": [
+    "Managing production software systems at organizational scale"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Computer Vision",
+    "Machine Learning",
+    "model deployment",
+    "model monitoring",
+    "Linux",
+    "Bash",
+    "C++",
+    "production systems"
+  ],
+  "required_skills": [
+    "Python",
+    "Computer Vision",
+    "Machine Learning",
+    "ML lifecycle management (labeling to deployment to monitoring to scaling)",
+    "Independent problem solving"
+  ],
+  "preferred_skills": [
+    "Advanced degree",
+    "Linux command line / bash",
+    "C++",
+    "Managing production software systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Train and maintain computer vision models",
+    "Write software to serve models in production",
+    "Manage ML lifecycle end-to-end (labeling, training, deployment, monitoring, scaling)",
+    "Operate systems on-prem and in cloud powering 24/7 automated warehouse facilities"
+  ],
+  "role_category": "ml_systems",
+  "location": "Novi, Michigan (Remote)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 76,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Deep CV model training/eval depth: YOLOv8/YOLOv8n (83% mAP@50), YOLO11n, UFLD lane detection, U-Net segmentation (Dice/IoU), ZoeDepth monocular depth estimation",
+      "Real model-serving experience: TensorRT-optimized YOLO deployment (5.2x speedup), ONNX/TFLite export, systemd-managed production service with auto-restart and non-root isolation on the COFFIN capstone",
+      "Actual data-labeling experience: curated and annotated a custom toothbrush-detection dataset end-to-end at Tusk, directly covering the labeling stage of the ML lifecycle the JD asks for",
+      "Strong Python/C++/Linux administration depth (systemd, static IP networking, XRDP) beyond typical new-grad Linux exposure"
+    ],
+    "real_gaps": [
+      "No cloud platform experience (AWS/GCP/Azure) anywhere in the profile; JD explicitly requires on-prem + cloud operation",
+      "No formal production monitoring/observability tooling (drift detection, alerting, dashboards) \u2014 only ad hoc GPU/latency profiling (pynvml/psutil) in research contexts",
+      "All CV/ML work is capstone, research-intern, or personal-project scope; no experience owning a system serving live, revenue-critical 24/7 operations at company scale",
+      "No explicit experience with ML lifecycle orchestration tools (MLflow, Kubeflow, Airflow, etc.)"
+    ],
+    "overstated_by_keywords": [
+      "ML lifecycle management counted as ADJACENT via training/deployment/scaling evidence, but the scaling evidence (SLURM/MPI) is HPC cluster scaling, not production request/traffic scaling \u2014 a materially different skill"
+    ],
+    "understated_by_keywords": [
+      "Data labeling/annotation was marked fully MISSING in the keyword pass, but the Tusk internship shows real end-to-end dataset curation and annotation",
+      "Production deployment discipline (systemd auto-restart, non-root isolation, static IP config) on the COFFIN capstone is stronger evidence of 'serving models in production' than the keyword pass credited"
+    ],
+    "screening_gaps": [
+      "No production-scale ML system ownership \u2014 everything is capstone/research/internship scope, not a live business-critical 24/7 system",
+      "No cloud infrastructure experience (AWS/GCP/Azure), which the JD explicitly names alongside on-prem",
+      "No formal MLOps monitoring/observability experience \u2014 only research-context profiling, not production alerting or drift monitoring"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core CV/ML technical depth is genuinely strong and even undersold by the keyword pass on labeling and deployment discipline. The gap is scope and infrastructure, not skill: no cloud experience and no track record running a model in a live, business-critical production environment, which is exactly what this small end-to-end CV team needs.",
+    "calibration_delta": 7.3
+  }
+}

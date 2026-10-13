@@ -1,0 +1,135 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "HPC & AI Performance Engineer",
+  "job_slug": "hpc-ai-performance-engineer",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 14,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "CUDA (kernel optimization, memory coalescing)",
+    "MPI",
+    "Python",
+    "C/C++",
+    "Linux",
+    "profiling (pynvml, TensorRT profiling)",
+    "parallel processing/GPU optimization",
+    "Masters degree in Computer Engineering (in progress/near-complete)",
+    "SLURM-managed HPC job scheduling"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "HIP",
+      "you_have": "CUDA C++"
+    },
+    {
+      "jd_skill": "OpenMP",
+      "you_have": "MPI-based parallel processing"
+    },
+    {
+      "jd_skill": "Fortran",
+      "you_have": "C/C++ systems programming"
+    }
+  ],
+  "missing_skills": [
+    "Storage benchmarking tools specific to HPC",
+    "PhD (preferred, not required)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "HIP",
+    "MPI",
+    "OpenMP",
+    "Fortran",
+    "Python",
+    "profiling",
+    "benchmarking",
+    "parallel programming",
+    "Linux"
+  ],
+  "required_skills": [
+    "storage/profiling benchmarks for HPC",
+    "parallel programming",
+    "Linux performance profiling/debugging tools",
+    "Compilers (C++, C, Fortran)",
+    "OpenMP",
+    "MPI & MPI-IO",
+    "Python",
+    "GPU programming (CUDA and HIP)",
+    "Masters degree (PhD preferred) in technical field"
+  ],
+  "preferred_skills": [
+    "HPC processor/network/accelerator/memory technologies"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Run HPC benchmark projects on supercomputing systems",
+    "Technical analysis of HPC I/O and application performance",
+    "Apply parallel processing/memory/profiling optimization techniques"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Bloomington, Minnesota",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 82,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Two dedicated, quantified MPI distributed-computing projects on SLURM-managed clusters: Hodgkin-Huxley neuron simulation (10.49x speedup with 12 processes, load-imbalance analysis up to 65% degradation) and a parallel ray tracer (30x speedup, 55 processes, comparing four work-distribution strategies) — directly matches the JD's MPI, SLURM, and parallel-programming asks with real benchmarking rigor.",
+      "CUDA Kernel Optimization for VGG16 project: custom CUDA C++ kernels with memory coalescing and constant memory, 35% speedup over naive GPU and 1.5-2x over TorchScript — direct, concrete GPU programming and memory-management evidence.",
+      "Linux-based performance profiling tool usage (pynvml, psutil) in the SLM compression project — matches 'Performance profiling tools and debugging tools on Linux based systems.'",
+      "M.S. Computer Engineering coursework directly backs the role: 'High Performance Architecture' and 'Multiple Processor Systems' courses map onto the JD's HPC architecture and parallel-systems asks.",
+      "Consistent benchmarking-oriented work pattern across three separate projects (GPU kernels, MPI neuron sim, MPI ray tracer) matches the role's core activity of running and analyzing HPC benchmarks."
+    ],
+    "real_gaps": [
+      "No Fortran experience anywhere — profile is Python/C/C++/CUDA only, and HPC scientific codebases are frequently Fortran-heavy.",
+      "No HIP (AMD GPU) programming — CUDA-only experience, while the JD explicitly wants both CUDA and HIP.",
+      "No storage or I/O-specific benchmarking — all benchmarking work is compute-bound (GPU kernels, MPI communication), not storage I/O as the JD specifically calls out."
+    ],
+    "overstated_by_keywords": [
+      "HIP, OpenMP, and Fortran were counted as 'adjacent' to CUDA/MPI/C++ in the keyword pass, but in reality there's zero hands-on evidence for any of the three — the adjacency credit is generous, not a real skill bridge."
+    ],
+    "understated_by_keywords": [
+      "The keyword pass just checked 'MPI' and 'CUDA' as present; the real depth is two separate quantified MPI benchmarking projects with load-imbalance analysis plus a dedicated CUDA kernel-optimization project with memory-coalescing techniques — this is specific, strong HPC performance-engineering evidence a simple match doesn't convey."
+    ],
+    "screening_gaps": [
+      "No Fortran experience — HPC scientific application codebases are frequently Fortran-based, and this is a named required compiler/language.",
+      "No HIP/AMD GPU programming — CUDA-only, while the role explicitly wants both CUDA and HIP.",
+      "No storage/I/O-specific benchmarking experience — all benchmarking work done is compute-bound, not storage I/O as specifically named in the JD."
+    ],
+    "recommend_apply": true,
+    "reasoning": "This is the strongest fit of the five roles: two quantified MPI/SLURM projects and a dedicated CUDA kernel-optimization project provide concrete, benchmarked evidence directly on the role's core activities, backed by directly relevant HPC coursework. The real gaps (Fortran, HIP, storage I/O) are specific and learnable rather than fundamental domain mismatches.",
+    "calibration_delta": -22.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-18",
+    "channel": "application",
+    "notes": "Form rejection (req 1206826): moved forward with another candidate. No feedback."
+  }
+}

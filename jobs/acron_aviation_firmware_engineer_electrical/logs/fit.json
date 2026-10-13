@@ -1,0 +1,47 @@
+{
+  "company": "Acron Aviation",
+  "company_slug": "acron_aviation",
+  "role": "Firmware Engineer (Electrical) (Evergreen)",
+  "job_slug": "firmware_engineer_electrical",
+  "match_pct": 15.8,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 15,
+    "jd_ask_size": 19,
+    "req_cov": 0.3,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": false,
+  "have_skills": ["RTOS integration (FreeRTOS on STM32)", "Embedded firmware design (bare-metal C)"],
+  "missing_skills": [
+    "FPGA/ASIC development",
+    "VHDL/Verilog RTL coding",
+    "DO-254 certification process",
+    "DO-160", "DO-178",
+    "TCAS/Mode S/ADS-B avionics surveillance systems",
+    "Avionics certification documentation (HRD/HDD/HCIA/PHAC)",
+    "RF design", "L-band RF",
+    "Model-Based Systems Engineering (MBSE)",
+    "FAA/EASA certified system development",
+    "Design to Cost / Design for Manufacturability",
+    "Pilot License / Part 107"
+  ],
+  "adjacent_skills": ["Requirements-based verification (informal, project-scope only)", "Systems engineering principles (informal, project-scope only)"],
+  "top_ats_keywords": ["FPGA", "VHDL", "Verilog", "DO-254", "RTL", "TCAS", "avionics", "RF", "requirements-based verification", "RTOS"],
+  "key_responsibilities": [
+    "Design/develop/verify FPGA-based hardware using VHDL/Verilog RTL",
+    "Requirements-based verification per DO-254",
+    "Hardware design & certification documentation (HRD/HDD/HCIA/PHAC)",
+    "Cross-functional collaboration with hardware/systems/certification teams"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

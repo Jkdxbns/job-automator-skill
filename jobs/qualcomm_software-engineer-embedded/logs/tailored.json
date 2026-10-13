@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Qualcomm Technologies, Inc.",
+    "role": "Software Engineer (Embedded / Cloud Edge)",
+    "company_slug": "qualcomm",
+    "job_slug": "software-engineer-embedded"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY with embedded software and firmware experience in C/C++ across STM32 microcontrollers, Arduino, and NVIDIA Jetson Embedded Linux. Built bare-metal and FreeRTOS firmware with board-level peripheral control over UART/I2C/SPI, and deployed edge inference services on Jetson under real-time and memory constraints.",
+  "skills": {
+    "Embedded & Firmware": [
+      "C/C++",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "Embedded Linux (NVIDIA Jetson)",
+      "Arduino",
+      "UART/I2C/SPI",
+      "PWM Motor Control"
+    ],
+    "Languages & Scripting": [
+      "C/C++",
+      "Python",
+      "Shell (Bash)"
+    ],
+    "Debugging Tools": [
+      "Debugging tools: Oscilloscopes, Logic Analyzers",
+      "Git",
+      "CMake"
+    ],
+    "Linux Administration": [
+      "systemd service management (unit files, auto-restart, non-root isolation)",
+      "Static IP / network configuration"
+    ],
+    "Edge AI": [
+      "TensorRT",
+      "YOLO",
+      "faster-whisper",
+      "OpenCV"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed embedded sensing firmware for a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus.",
+        "Built Cortex-M4 embedded firmware with timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided pick-and-place system across a Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a WebSocket fabric; TensorRT-optimized YOLO gave a 5.2× speedup (56.7→10.9 ms, 92 FPS).",
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency after resolving 11 integration failures (servo brown-out, stale-frame capture); implemented two-link IK in Arduino C++ with dual VL53L0X ToF sensors over a TCA9548A I2C mux.",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart with backoff, non-root isolation, environment-file config) on Embedded Linux with static IP networking."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands; used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline with an 80-channel mel spectrogram DSP front-end and a custom BPE tokenizer with a Cython-accelerated backend (4–5.5× speedup); achieved 15% WER on Indian-English NPTEL data."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Machine Intelligence",
+        "Robot Perception",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

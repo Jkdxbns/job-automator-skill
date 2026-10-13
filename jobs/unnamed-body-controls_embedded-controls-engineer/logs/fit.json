@@ -1,0 +1,126 @@
+{
+  "company": "Unnamed (not stated in paste)",
+  "company_slug": "unnamed-body-controls",
+  "role": "Embedded Controls Engineer, Body Controls",
+  "job_slug": "embedded-controls-engineer",
+  "match_pct": 54.8,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 3,
+    "missing_count": 8,
+    "jd_ask_size": 21,
+    "req_cov": 0.688,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "FreeRTOS",
+    "RTOS",
+    "bare-metal",
+    "oscilloscopes",
+    "CMake",
+    "Python",
+    "PCB",
+    "hardware bring-up",
+    "drivers"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motor control",
+      "you_have": "PWM motor control, quadrature encoders"
+    },
+    {
+      "jd_skill": "low-level debugging",
+      "you_have": "logic analyzers, STM32 bare-metal"
+    },
+    {
+      "jd_skill": "HIL/SIL testing",
+      "you_have": "CARLA sim, hardware test benches"
+    }
+  ],
+  "missing_skills": [
+    "MISRA C",
+    "CAN",
+    "LIN",
+    "Automotive Ethernet",
+    "functional safety",
+    "AUTOSAR",
+    "Bazel",
+    "low-power modes"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "MISRA C",
+    "FreeRTOS",
+    "RTOS",
+    "bare-metal",
+    "CAN",
+    "LIN",
+    "Automotive Ethernet",
+    "oscilloscope",
+    "functional safety",
+    "Python",
+    "CMake",
+    "Bazel",
+    "PCB",
+    "HIL",
+    "SIL",
+    "AUTOSAR",
+    "low-power"
+  ],
+  "required_skills": [
+    "C",
+    "MISRA C",
+    "RTOS",
+    "FreeRTOS",
+    "bare-metal",
+    "hardware bring-up",
+    "low-level debugging",
+    "low-power modes",
+    "CAN",
+    "LIN",
+    "Automotive Ethernet",
+    "oscilloscopes",
+    "functional safety",
+    "motor control",
+    "drivers",
+    "HIL/SIL testing"
+  ],
+  "preferred_skills": [
+    "Bazel",
+    "CMake",
+    "Python",
+    "PCB",
+    "circuit analysis"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "body controls firmware architecture",
+    "actuator/lighting control",
+    "HIL/SIL automation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Palo Alto, CA (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

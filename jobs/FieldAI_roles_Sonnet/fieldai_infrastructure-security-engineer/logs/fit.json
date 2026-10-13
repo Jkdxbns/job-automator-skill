@@ -1,0 +1,109 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Infrastructure Security Engineer",
+  "job_slug": "infrastructure-security-engineer",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.083,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Linux administration (systemd, network config)",
+    "Git",
+    "Bash",
+    "general programming/systems engineering"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Kubernetes / container orchestration",
+      "you_have": "Docker/k3s exposure mentioned in gaps only; no k8s production work"
+    },
+    {
+      "jd_skill": "CI/CD systems",
+      "you_have": "Git and Bash; minimal CI/CD exposure only via personal projects"
+    },
+    {
+      "jd_skill": "cloud-native infrastructure / production deployment",
+      "you_have": "Linux admin (systemd, static IP); bare-metal embedded deployment experience (Jetson, Raspberry Pi, STM32)"
+    },
+    {
+      "jd_skill": "large-scale distributed systems (production context)",
+      "you_have": "MPI/HPC parallel computing (10.49x-30x speedups) and ROS2 multi-node robotics; not production cloud-scale"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes security (hard ask)",
+    "cloud-native infrastructure design/security (AWS/GCP/Azure-level)",
+    "CI/CD pipeline security (hard ask)",
+    "software supply chain security / SBOM / SLSA (hard ask)",
+    "identity and access management / IAM / OAuth / SSO (hard ask)",
+    "production deployment platform security (hard ask)",
+    "security engineering / threat modeling / vulnerability assessment (hard ask)",
+    "full-time production-scale distributed systems experience",
+    "security clearance or compliance experience"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "cloud-native infrastructure",
+    "CI/CD",
+    "software supply chain",
+    "identity and access management",
+    "IAM",
+    "production deployment platforms",
+    "infrastructure security",
+    "distributed systems"
+  ],
+  "required_skills": [
+    "Kubernetes security",
+    "cloud-native infrastructure",
+    "CI/CD systems",
+    "software supply chains",
+    "identity and access management",
+    "production deployment platforms"
+  ],
+  "preferred_skills": [
+    "large-scale distributed systems security design",
+    "security assessment",
+    "autonomous systems deployment platforms"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "secure cloud infrastructure for autonomous robotic systems",
+    "design and assess security of large-scale distributed systems in production",
+    "improve Kubernetes, CI/CD, supply chain, IAM, and deployment platform security"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

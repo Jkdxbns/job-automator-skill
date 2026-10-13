@@ -1,0 +1,161 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Robot Perception Engineer",
+  "job_slug": "senior-robot-perception-engineer",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 21,
+    "req_cov": 0.133,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++ (C/C++ listed; CUDA C++ custom kernels (VGG16, 35% speedup); STM32 bare-metal embedded C; FreeRTOS mutex C)",
+    "Python (Python language; AI/ML Intern at IIT Bombay (PyTorch/HuggingFace); Deep Learning Intern at Tusk; Python Developer Intern at BARC)",
+    "ROS/ROS2 (ROS/ROS2 listed; ROS-Based Robotic Arm (AL5B & UR5e) with MoveIt/RViz; ROS2 Humble + ROS Noetic)",
+    "robot perception / cameras / vision (YOLOv8n toothbrush detection (83% mAP@50); OpenCV; visual servoing; faster-whisper STT + Gemini intent classification; COFFIN capstone)",
+    "deployment on physical robots (COFFIN voice-controlled robotic arm (100% pick reliability 10/10, systemd auto-restart, non-root isolation); Object Tracking Turret (Jetson + STM32 UART + FreeRTOS); wearable gesture glove (Raspberry Pi + HC-05))",
+    "complex subsystem ownership (COFFIN MS capstone (led design\u2192deployment, resolved 11 integration failures); led 25-member Agnel Robotics Club; led 7-person team at Teesside Univ (U-Net/BraTS))"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "robot perception / localization / mapping (SLAM)",
+      "you_have": "YOLO visual detection, visual servoing, ROS2 RViz, forward kinematics, DH parameters \u2014 closest: ROS-Based Robotic Arm perception, but no SLAM/mapping algorithm implemented"
+    },
+    {
+      "jd_skill": "mapping",
+      "you_have": "RViz visualization in ROS arm project; no explicit SLAM/mapping pipeline in profile"
+    },
+    {
+      "jd_skill": "inertial sensors",
+      "you_have": "ADXL345 accelerometer in wearable gesture glove; VL53L0X ToF distance sensors in turret and COFFIN; but no IMU-based navigation/state estimation for robotics"
+    },
+    {
+      "jd_skill": "real-world robot deployment (field/off-road)",
+      "you_have": "COFFIN arm and tracking turret deployed on real hardware with UART/I2C/Bluetooth, but environments are indoor/lab, not unstructured off-road/field conditions"
+    },
+    {
+      "jd_skill": "debugging sensor data / calibration",
+      "you_have": "UART/I2C sensor comms (robotics club, turret); systemd deployment and static IP config; resolved 11 COFFIN integration failures; closest to calibration/debugging but not formal sensor-calibration pipeline"
+    },
+    {
+      "jd_skill": "autonomy / autonomous robots",
+      "you_have": "Autonomous Driving in CARLA (semantic segmentation, YOLO11n + UFLD lane detection, zero collisions Town02) \u2014 simulation only, not physical robot field autonomy"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "SLAM",
+      "you_have": "none \u2014 no SLAM/VIO/LIO/mapping algorithm in profile (explicitly does not have GPS/LiDAR navigation)"
+    },
+    {
+      "jd_skill": "VIO",
+      "you_have": "none \u2014 no visual-inertial odometry in profile"
+    },
+    {
+      "jd_skill": "LIO",
+      "you_have": "none \u2014 no LiDAR-inertial odometry in profile"
+    },
+    {
+      "jd_skill": "sensor fusion (multi-modal: LiDAR + camera + RADAR + inertial)",
+      "you_have": "none \u2014 multi-sensor projects use UART/I2C/ToF/accelerometer separately, not fused LiDAR+camera+RADAR+IMU algorithm"
+    },
+    {
+      "jd_skill": "LiDAR",
+      "you_have": "none \u2014 explicitly listed as DOES NOT HAVE: LiDAR"
+    },
+    {
+      "jd_skill": "RADAR",
+      "you_have": "none \u2014 no RADAR mentioned anywhere in profile"
+    },
+    {
+      "jd_skill": "multispectral",
+      "you_have": "none \u2014 no multispectral/thermal/LWIR in profile"
+    },
+    {
+      "jd_skill": "thermal / LWIR",
+      "you_have": "none \u2014 preferred skill not present"
+    },
+    {
+      "jd_skill": "custom sensor rigs (stereo, thermal, multi-LiDAR)",
+      "you_have": "none \u2014 preferred skill not present; closest is TCA9548A I2C mux + dual VL53L0X ToF setup in COFFIN"
+    }
+  ],
+  "top_ats_keywords": [
+    "LiDAR",
+    "RADAR",
+    "multispectral",
+    "SLAM",
+    "VIO",
+    "LIO",
+    "ROS2",
+    "ROS",
+    "perception",
+    "localization",
+    "mapping",
+    "sensor fusion",
+    "autonomy",
+    "robotics",
+    "C++",
+    "Python",
+    "field deployment",
+    "embedded",
+    "calibration"
+  ],
+  "required_skills": [
+    "C++",
+    "Python",
+    "ROS/ROS2",
+    "robot perception / localization / mapping (SLAM)",
+    "VIO",
+    "LIO",
+    "mapping",
+    "sensor fusion",
+    "real-world robot deployment (not simulation)",
+    "LiDAR",
+    "cameras / vision",
+    "RADAR",
+    "inertial sensors",
+    "complex subsystem ownership (design \u2192 deployment \u2192 maintenance)",
+    "debugging sensor data / calibration"
+  ],
+  "preferred_skills": [
+    "thermal / LWIR / multispectral passive sensing",
+    "custom sensor rigs (stereo, thermal, multi-LiDAR)"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build and maintain perception systems for autonomous robots in unstructured/off-road environments",
+    "Develop perception algorithms fusing LiDAR, cameras, RADAR, and inertial sensors",
+    "Deploy perception software on physical robots; debug on-robot/field failures",
+    "Own localization/mapping (SLAM/VIO/LIO) and sensor integration",
+    "Scale perception across multiple platforms/environments; maintain code quality/tests"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "JD states role supports 'federal autonomy programs' \u2014 federal/defense/government-contractor signal; F-1 OPT holder (EAD pending) is routinely excluded from federal/defense work absent citizenship/clearance; no sponsorship path mentioned"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

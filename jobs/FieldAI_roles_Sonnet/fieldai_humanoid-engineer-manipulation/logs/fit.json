@@ -1,0 +1,128 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Humanoid Engineer, Manipulation",
+  "job_slug": "humanoid-engineer-manipulation",
+  "match_pct": 57.9,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.125,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "controls (ROS2/MoveIt, kinematics, robotic arm control)",
+    "perception (YOLO, OpenCV, visual servoing, depth estimation, computer vision)",
+    "robotics engineering (ROS/ROS2, MoveIt, RViz, DH parameters, forward kinematics)",
+    "embedded/edge AI (Jetson, STM32, Arduino, TensorRT, YOLO deployment)",
+    "real-world robot deployment and testing",
+    "sensor integration (ToF, IMU, I2C/UART/SPI)",
+    "AI/ML model optimization (TensorRT, quantization, pruning)",
+    "software engineering (Python, C++, Linux, CMake, Flask)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "manipulation / humanoid manipulation",
+      "you_have": "manipulation on robotic arms (AL5B, UR5e) and gesture-glove; no humanoid platform experience"
+    },
+    {
+      "jd_skill": "robot learning",
+      "you_have": "ML/research + robotics integration; no explicit manipulation-policy/learning research"
+    },
+    {
+      "jd_skill": "embodied AI",
+      "you_have": "capstone robotics + AI (voice-controlled arm) but not humanoid-scale embodied systems"
+    },
+    {
+      "jd_skill": "field deployment at scale",
+      "you_have": "personal/project-level deployment (capstone, turret); no company-scale global field deployment"
+    },
+    {
+      "jd_skill": "teleoperation",
+      "you_have": "voice-controlled and visual servoing control; no explicit teleoperation pipeline"
+    },
+    {
+      "jd_skill": "explainability / safety",
+      "you_have": "reliable deployment focus (100% pick reliability) but no formal explainability/safety framework"
+    }
+  ],
+  "missing_skills": [
+    "humanoid robot platforms (bipedal/humanoid hardware experience)",
+    "teleoperation systems / pipelines",
+    "manipulation research translated specifically to humanoid platforms",
+    "production-scale company-level field deployment experience",
+    "formal safety/explainability certification or framework"
+  ],
+  "top_ats_keywords": [
+    "humanoid",
+    "manipulation",
+    "robot learning",
+    "controls",
+    "perception",
+    "teleoperation",
+    "field deployment",
+    "embodied AI",
+    "robotics engineering",
+    "real-world",
+    "reliability",
+    "autonomy",
+    "safety",
+    "sensors"
+  ],
+  "required_skills": [
+    "manipulation on humanoid robots",
+    "robot learning",
+    "controls",
+    "perception",
+    "teleoperation",
+    "physical humanoid platform integration",
+    "real-world testing/deployment",
+    "field deployment"
+  ],
+  "preferred_skills": [
+    "robot learning",
+    "controls",
+    "perception",
+    "teleoperation",
+    "embodied AI",
+    "explainability",
+    "safety",
+    "sensor integration"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "develop/integrate/test manipulation on humanoid robots",
+    "translate manipulation research to robust capabilities on physical humanoid platforms",
+    "field deployment and real-world testing",
+    "work across robot learning, controls, perception, teleoperation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

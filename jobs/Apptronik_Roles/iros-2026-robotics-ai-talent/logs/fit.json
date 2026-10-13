@@ -1,0 +1,131 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "IROS 2026 - Robotics & AI Talent",
+  "job_slug": "iros-2026-robotics-ai-talent",
+  "match_pct": 76.5,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 1,
+    "jd_ask_size": 17,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "ROS/ROS2",
+    "C++",
+    "Python",
+    "Computer Vision",
+    "Embedded Systems",
+    "Motion Planning",
+    "Actuation",
+    "Mechanical Design",
+    "Mechatronics",
+    "Real-Time Operating Systems (RTOS)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LiDAR",
+      "you_have": "VL53L0X ToF distance sensors (time-of-flight sensing domain)"
+    },
+    {
+      "jd_skill": "Sensor Fusion",
+      "you_have": "Multi-sensor integration across vision, ToF, encoders, accelerometers"
+    },
+    {
+      "jd_skill": "SLAM",
+      "you_have": "Odometry (Dead Reckoning) / localization from encoder/state tracking"
+    },
+    {
+      "jd_skill": "State Estimation",
+      "you_have": "Dead reckoning / heading-state derivation from quadrature encoders"
+    },
+    {
+      "jd_skill": "Trajectory Optimization",
+      "you_have": "Trajectory planning / collision-free path execution via MoveIt"
+    },
+    {
+      "jd_skill": "Rapid Prototyping",
+      "you_have": "Rapid prototype development (PCB fabrication, headset/glove prototypes, distributed pipeline build)"
+    }
+  ],
+  "missing_skills": [
+    "Reinforcement Learning"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "ROS",
+    "C++",
+    "Python",
+    "OpenCV",
+    "YOLO",
+    "Computer Vision",
+    "Embedded",
+    "STM32",
+    "FreeRTOS",
+    "MoveIt",
+    "Motion Planning",
+    "Mechatronics",
+    "SolidWorks",
+    "Perception",
+    "Sensor Fusion",
+    "SLAM",
+    "Actuation",
+    "Real-Time Operating Systems",
+    "CUDA",
+    "TensorRT",
+    "Robotics",
+    "AI"
+  ],
+  "required_skills": [
+    "ROS/ROS2",
+    "C++",
+    "Python",
+    "Computer Vision",
+    "Embedded Systems",
+    "Motion Planning",
+    "Actuation",
+    "Mechanical Design",
+    "Mechatronics",
+    "Real-Time Operating Systems (RTOS)"
+  ],
+  "preferred_skills": [
+    "LiDAR",
+    "Sensor Fusion",
+    "SLAM",
+    "State Estimation",
+    "Trajectory Optimization",
+    "Reinforcement Learning",
+    "Rapid Prototyping"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Work on perception, control, software systems, and hardware/system design for humanoid robot development",
+    "Support Apollo robot commercialization across manufacturing and logistics applications"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, Texas & Sunnyvale, California ",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

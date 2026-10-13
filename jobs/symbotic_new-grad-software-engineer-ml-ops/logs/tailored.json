@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "company": "Symbotic",
+    "role": "New Grad - Software Engineer ML Ops",
+    "company_slug": "symbotic",
+    "job_slug": "new-grad-software-engineer-ml-ops"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with experience building and deploying ML systems for robotics and edge computing. Optimized TensorRT YOLO pipelines on Jetson hardware, built ONNX export and evaluation workflows, and developed dataset curation pipelines for computer vision training.",
+  "skills": {
+    "ML Deployment & Edge AI": ["Python", "TensorRT", "ONNX", "CUDA", "NVIDIA Jetson", "8-bit Quantization"],
+    "Computer Vision & Robotics": ["YOLOv8/YOLO11", "OpenCV", "ROS2", "MoveIt", "Visual Servoing"],
+    "Languages": ["Python", "C/C++", "CUDA C++", "Bash"],
+    "ML Frameworks": ["PyTorch", "HuggingFace Transformers", "TensorFlow", "faster-whisper"],
+    "Embedded & Sensors": ["STM32", "FreeRTOS", "Raspberry Pi", "ADXL345", "VL53L0X ToF", "UART/I2C/SPI"],
+    "Tools": ["Linux", "Git", "Flask", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50; exported to ONNX and TFLite for mobile edge deployment.",
+        "Curated and annotated a custom toothbrush detection dataset, building the end-to-end labeling-to-training pipeline."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% by rebuilding preprocessing and fine-tuning DONUT (VisionEncoderDecoder) on a custom medical billing dataset.",
+        "Built end-to-end PyTorch training pipelines with HuggingFace Transformers; added domain-specific tokens and resized decoder embeddings."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF sensor data into HID commands via Python."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency; deployed TensorRT YOLO visual servoing at ~18 FPS on Jetson across a three-layer distributed pipeline (Flutter client, Flask-SocketIO server, Jetson+Arduino).",
+        "Built a LeRobot-structured multi-camera data collection pipeline using multiprocessing; resolved 11 integration failures across detection, servo, and depth sensing subsystems."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data generation pipelines using CARLA semantic segmentation to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50 ~0.85) and fine-tuned UFLD (ResNet-18); validated with 30 vehicles — zero collisions across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson for real-time tracking; relayed commands to STM32 over UART with FreeRTOS mutex-protected shared memory and VL53L0X ToF distance sensing."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory by ~55% via 8-bit quantization on TinyLlama 1.1B with <1% accuracy degradation across HellaSwag, GSM8K, and ARC; profiled VRAM and latency using pynvml."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["Deep Learning", "Robot Perception", "Machine Intelligence", "High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

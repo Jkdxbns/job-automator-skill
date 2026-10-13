@@ -1,0 +1,135 @@
+{
+  "company": "Luma AI",
+  "company_slug": "luma-ai",
+  "role": "Software Engineer, Inference",
+  "job_slug": "software-engineer-inference",
+  "match_pct": 42.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 7,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.536,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Hugging Face",
+    "Linux",
+    "CUDA"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "vLLM",
+      "you_have": "TensorRT / HF inference optimization"
+    },
+    {
+      "jd_skill": "SGLang",
+      "you_have": "TensorRT / HF inference optimization"
+    },
+    {
+      "jd_skill": "Queues and scheduling",
+      "you_have": "MPI dynamic task queue (ray tracer)"
+    },
+    {
+      "jd_skill": "Fleet management",
+      "you_have": "SLURM cluster workloads"
+    },
+    {
+      "jd_skill": "System architecture",
+      "you_have": "3-layer distributed pipeline (COFFIN)"
+    },
+    {
+      "jd_skill": "100+ GPU systems",
+      "you_have": "SLURM multi-node MPI"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Kubernetes",
+    "Redis",
+    "S3-compatible storage",
+    "RDMA",
+    "InfiniBand",
+    "NVLink",
+    "FFmpeg"
+  ],
+  "top_ats_keywords": [
+    "inference",
+    "Kubernetes",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "Docker",
+    "Redis",
+    "S3",
+    "CI/CD",
+    "scheduling",
+    "GPU",
+    "RDMA",
+    "CUDA",
+    "FFmpeg"
+  ],
+  "required_skills": [
+    "Python",
+    "System architecture",
+    "PyTorch",
+    "Hugging Face",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "Queues and scheduling",
+    "Fleet management",
+    "Linux",
+    "Docker",
+    "Kubernetes",
+    "Redis",
+    "S3-compatible storage"
+  ],
+  "preferred_skills": [
+    "RDMA",
+    "InfiniBand",
+    "NVLink",
+    "100+ GPU systems",
+    "CUDA",
+    "FFmpeg"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Integrate new model architectures into inference engine",
+    "Scale deployments across thousands of machines",
+    "Build GPU scheduling systems meeting SLOs",
+    "CI/CD for model checkpoints and SDKs",
+    "Inference job profiling tooling"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK; Remote UK (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

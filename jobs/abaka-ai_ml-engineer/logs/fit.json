@@ -1,0 +1,163 @@
+{
+  "company": "Abaka AI",
+  "company_slug": "abaka-ai",
+  "role": "Machine Learning Engineer",
+  "job_slug": "ml-engineer",
+  "match_pct": 52.3,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.433,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "evaluation frameworks",
+    "Hugging Face",
+    "Deep Learning",
+    "vision models",
+    "3D data",
+    "data loaders / feature pipelines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "JAX",
+      "you_have": "PyTorch"
+    },
+    {
+      "jd_skill": "distributed training",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "multimodal data processing",
+      "you_have": "ASR + vision pipelines"
+    },
+    {
+      "jd_skill": "model serving",
+      "you_have": "TensorRT/Jetson deployment"
+    },
+    {
+      "jd_skill": "video models",
+      "you_have": "YOLO/CV"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Ray",
+    "Airflow",
+    "MLflow",
+    "AWS/GCP/Azure",
+    "diffusion models",
+    "hyperparameter tuning",
+    "experiment tracking"
+  ],
+  "top_ats_keywords": [
+    "multimodal",
+    "distributed training",
+    "hyperparameter tuning",
+    "experiment tracking",
+    "data loaders",
+    "feature pipelines",
+    "model serving",
+    "Kubernetes",
+    "Ray",
+    "Airflow",
+    "MLflow",
+    "AWS",
+    "GCP",
+    "Azure",
+    "diffusion",
+    "3D"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "JAX",
+    "distributed training",
+    "multimodal data processing",
+    "model serving",
+    "evaluation frameworks",
+    "Kubernetes",
+    "Ray",
+    "Airflow",
+    "MLflow",
+    "cloud training (AWS/GCP/Azure)",
+    "diffusion models",
+    "video models"
+  ],
+  "preferred_skills": [
+    "Master's degree"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "multimodal training pipelines",
+    "data workflows",
+    "diffusion/vision/video training",
+    "experiment automation",
+    "throughput bottlenecks"
+  ],
+  "role_category": "ml_systems",
+  "location": "Mountain View, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 51,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Multimodal breadth: DONUT vision-text fine-tune (IIT Bombay, 55% to 93% val acc), from-scratch Whisper-style ASR audio+text (15% WER), BraTS 3D multi-modal MRI, COFFIN vision+speech+LLM",
+      "Training-pipeline ownership: PyTorch pipelines with HF VisionEncoderDecoder, custom training loops, early stopping, perplexity/Dice/IoU/mAP evaluation",
+      "Data workflow depth: BraTS loader with batch-loading memory management for 3D volumes, CARLA zero-annotation data generation (~5,000 YOLO + ~3,000 UFLD frames), LeRobot-structured multi-camera collection",
+      "Bottleneck work: TensorRT 5.2x speedup, CUDA coalesced kernels ~35%, 8-bit quantization ~55% VRAM cut, Cython tokenizer 4-5.5x"
+    ],
+    "real_gaps": [
+      "No distributed deep-learning training (DDP/FSDP/DeepSpeed, multi-node GPU); MPI work is HPC simulation, not model training",
+      "No orchestration or MLOps tooling: Kubernetes, Ray, Airflow, MLflow, experiment tracking, sweep frameworks",
+      "No cloud training environment (AWS/GCP/Azure)",
+      "No diffusion models and no video-model training (YOLO is per-frame detection)",
+      "No JAX, dataset versioning or model governance",
+      "Seniority: 0 years full-time vs 3+ and first-US-ML-hire ownership (prose only, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "distributed training -> MPI/SLURM: CPU simulation and ray tracing, not gradient-synchronised model training",
+      "video models -> YOLO/CV: per-frame detection only, no temporal modelling",
+      "model serving -> TensorRT/Jetson: edge inference optimisation, not a served endpoint"
+    ],
+    "understated_by_keywords": [
+      "3D data: BraTS 3D volumetric MRI pipeline and ZoeDepth 3D surface reconstruction",
+      "Data loaders / dataset pipelines: BraTS, CARLA and LeRobot pipelines are real depth",
+      "Text-image pairing: DONUT fine-tune is genuine text-image model training"
+    ],
+    "screening_gaps": [
+      "No Kubernetes/Ray/Airflow/MLflow or cloud training experience, the infra core of a role that owns pipelines",
+      "No large-scale distributed model training (multi-GPU/multi-node) or diffusion/video model work",
+      "0 years full-time against 3+ years and org-level ownership, with all evidence at capstone/internship scale"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin has real, specific evidence across text, image, audio and 3D and has built training and data pipelines, but at single-GPU scale. The role is mostly distributed infra, MLOps and diffusion/video training, none of which appear in the profile, so this is a stretch that would rest on the multimodal data-pipeline story.",
+    "calibration_delta": 1.3
+  }
+}

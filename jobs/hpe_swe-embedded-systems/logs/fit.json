@@ -1,0 +1,116 @@
+{
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "role": "Software Engineer - Embedded System",
+  "job_slug": "swe-embedded-systems",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 16,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "algorithms",
+    "AI / Machine Learning",
+    "Embedded Systems",
+    "Unix/Linux",
+    "TCP/IP"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hardware Architecture",
+      "you_have": "Embedded systems / hardware debugging experience"
+    },
+    {
+      "jd_skill": "Ethernet switching",
+      "you_have": "Networking (working depth)"
+    }
+  ],
+  "missing_skills": [
+    "Open-source contribution experience",
+    "AI coding/debug tool usage",
+    "Routing protocols",
+    "IP forwarding",
+    "Quality of Service (QoS)",
+    "Firewall & access control",
+    "UDP"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "algorithms",
+    "AI",
+    "Embedded Systems",
+    "Hardware Architecture",
+    "Unix/Linux",
+    "open-source",
+    "Machine Learning",
+    "TCP/IP",
+    "UDP",
+    "Routing protocols",
+    "Ethernet switching",
+    "IP forwarding",
+    "Quality of Service",
+    "Firewall",
+    "access control",
+    "networking"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "algorithms",
+    "AI (basic knowledge)"
+  ],
+  "preferred_skills": [
+    "Embedded Systems",
+    "Hardware Architecture",
+    "Unix/Linux",
+    "open-source experience",
+    "Machine Learning",
+    "AI coding/debug tools",
+    "Routing protocols",
+    "Ethernet switching",
+    "IP forwarding",
+    "Quality of Service",
+    "Firewall & access control",
+    "TCP/IP",
+    "UDP"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and test multi-service networking and network security products",
+    "Work on hardware and virtual/containerized systems that secure networks",
+    "Resolve internal and external customer issues",
+    "Interface with product management, QA, and platform development teams",
+    "Build AI-based tooling for engineering debug/development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunnyvale, CA, 94089 (hybrid, expected onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

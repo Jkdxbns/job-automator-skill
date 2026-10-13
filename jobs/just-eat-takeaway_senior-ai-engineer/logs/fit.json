@@ -1,0 +1,120 @@
+{
+  "company": "Just Eat Takeaway.com",
+  "company_slug": "just-eat-takeaway",
+  "role": "Senior AI Engineer",
+  "job_slug": "senior-ai-engineer",
+  "match_pct": 21.4,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 15,
+    "jd_ask_size": 21,
+    "req_cov": 0.321,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "AI/ML"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Model serving",
+      "you_have": "TensorRT/Jetson edge inference"
+    },
+    {
+      "jd_skill": "Data pipelines",
+      "you_have": "ASR/perception pipelines"
+    },
+    {
+      "jd_skill": "Mentoring",
+      "you_have": "team project leadership"
+    }
+  ],
+  "missing_skills": [
+    "AWS",
+    "GCP",
+    "Terraform",
+    "CloudFormation",
+    "Ansible",
+    "Docker",
+    "Kubernetes",
+    "MLOps",
+    "Amazon Bedrock",
+    "Vertex AI",
+    "LangGraph",
+    "A2A",
+    "GitHub Copilot",
+    "Cursor",
+    "MCP"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "AWS",
+    "GCP",
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "MLOps",
+    "LangGraph",
+    "MCP",
+    "Bedrock",
+    "Vertex AI"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "AI/ML",
+    "AWS",
+    "GCP",
+    "Terraform",
+    "CloudFormation",
+    "Ansible",
+    "Docker",
+    "Kubernetes",
+    "MLOps",
+    "Model serving",
+    "Data pipelines",
+    "Mentoring"
+  ],
+  "preferred_skills": [
+    "Amazon Bedrock",
+    "Vertex AI",
+    "LangGraph",
+    "A2A",
+    "GitHub Copilot",
+    "Cursor",
+    "MCP"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Deploy AI-enabled apps",
+    "Lead AI projects",
+    "MLOps/AIOps",
+    "Optimise model serving and data pipelines"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK (Fleet Place)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

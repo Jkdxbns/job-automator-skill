@@ -1,0 +1,127 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Software Engineer - Embedded Linux Operating Systems",
+  "job_slug": "swe-embedded-linux-os",
+  "match_pct": 44.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 19,
+    "req_cov": 0.583,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "C",
+    "C++",
+    "Bash",
+    "Python",
+    "systemd"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "embedded Linux",
+      "you_have": "Jetson/Linux deployment"
+    },
+    {
+      "jd_skill": "kernel-space code",
+      "you_have": "CUDA kernels / RTOS"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal STM32 peripheral code"
+    },
+    {
+      "jd_skill": "robotics embedded Linux",
+      "you_have": "ROS2 on Jetson"
+    },
+    {
+      "jd_skill": "OTA update",
+      "you_have": "none direct"
+    }
+  ],
+  "missing_skills": [
+    "Yocto",
+    "U-Boot",
+    "cgroups/namespaces/chroot",
+    "filesystems",
+    "Rust",
+    "PKI",
+    "secure boot",
+    "hardware key storage"
+  ],
+  "top_ats_keywords": [
+    "Yocto",
+    "U-Boot",
+    "systemd",
+    "cgroups",
+    "namespaces",
+    "device drivers",
+    "kernel",
+    "Linux",
+    "C",
+    "C++",
+    "Rust",
+    "Bash",
+    "Python",
+    "secure boot",
+    "OTA",
+    "PKI"
+  ],
+  "required_skills": [
+    "Embedded Linux",
+    "Yocto",
+    "U-Boot",
+    "systemd",
+    "containerization (cgroups, namespaces, chroot)",
+    "filesystems",
+    "device drivers",
+    "kernel-space code",
+    "C",
+    "C++",
+    "Bash",
+    "Python"
+  ],
+  "preferred_skills": [
+    "Rust",
+    "robotics embedded Linux",
+    "PKI",
+    "secure boot",
+    "OTA update",
+    "hardware key storage"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "OS platform for on-bot devices",
+    "Yocto/U-Boot build and boot",
+    "drivers and kernel components",
+    "hardware bring-up and manufacturing support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Foster City, CA (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

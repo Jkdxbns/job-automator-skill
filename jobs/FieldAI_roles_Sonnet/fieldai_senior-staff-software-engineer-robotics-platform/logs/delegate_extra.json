@@ -1,0 +1,20 @@
+{
+  "strengths": [
+    "CUDA/GPU kernel optimization (custom CUDA C++, 35% speedup)",
+    "Edge AI deployment on Jetson (TensorRT, YOLO, faster-whisper)",
+    "Embedded bare-metal (STM32 Cortex-M4, FreeRTOS, UART/I2C)",
+    "ROS2 robotics and perception pipelines (COFFIN, AL5B, UR5e)",
+    "ML model optimization (quantization ~55% VRAM, ASR 15% WER)"
+  ],
+  "real_gaps": [
+    "Senior/Staff-level experience and production-scale architecture (hard blocker)",
+    "Full-time industry experience (0 years)",
+    "Production distributed middleware / fleet systems",
+    "Formal safety/reliability certifications",
+    "Enterprise-scale cloud/deployment infrastructure"
+  ],
+  "reasoning": "Candidate has strong technical overlap with the robotics/edge-AI/domain skills (ROS2, CUDA, Jetson+TensorRT, embedded C, ML optimization, perception) but the role is Senior/Staff founding-member requiring production-scale distributed-system architecture, significant cross-team influence, and full-time senior experience. Candidate is new-grad with 0 full-time years and 7 internships. No sponsorship/ITAR/clearance/citizenship constraints in JD. No location conflict (willing to relocate). Hard blocker triggered by experience-level mismatch; technical skills are adjacent-to-strong but not sufficient to offset the senior-level founding-member requirement.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/a0856b2f-3674-49fa-8546-9b823df597f2",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

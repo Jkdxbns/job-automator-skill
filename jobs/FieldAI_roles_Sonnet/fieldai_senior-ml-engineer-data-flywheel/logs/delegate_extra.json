@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "Edge AI deployment: Jetson + TensorRT-optimized YOLO (5.2x speedup), faster-whisper STT, real sensor integration",
+    "Embedded C/C++ bare-metal: STM32 Cortex-M4, FreeRTOS, interrupt-driven drivers, I2C/UART/SPI",
+    "ROS2 robotics & perception: MoveIt, RViz, visual servoing, DH parameters, YOLO object tracking, robotic arm control",
+    "CUDA/GPU kernel optimization: custom CUDA C++, memory coalescing, 35% VGG16 speedup, MPI parallelism",
+    "ML model optimization: 8-bit quantization (~55% VRAM, <1% loss), ASR pipeline (15% WER), custom tokenizer, OCR fine-tuning (55%\u219293%)"
+  ],
+  "real_gaps": [
+    "Senior-level industry experience: 0 full-time years vs. explicit 'Senior' title and production-deployment scope",
+    "Data flywheel / production MLOps: no experience building feedback loops for robot-learning at scale",
+    "Safety / reliability / explainability: no ISO26262, functional-safety certification, or formal risk-aware architecture",
+    "Enterprise production deployment: no company-scale distributed/cloud ML infrastructure experience"
+  ],
+  "reasoning": "Candidate profile aligns strongly with the technical domain (edge AI, robotics perception, embedded systems, CUDA, ROS2, Jetson deployment) \u2014 all core to Field AI's embodied-AI/perception mission. Real hardware experience (COFFIN robotic arm, STM32 bare-metal, Jetson+TensorRT, real sensors) is directly relevant. However, the JD title ('Senior ML Engineer') and scope ('globally deployed solutions', production field deployment, senior-level team background) clearly exceed a new-grad profile with 0 full-time years. Key hard gaps: data-flywheel pipeline experience (missing), formal safety/reliability engineering (missing), and senior-level production ML experience (missing). Sponsorship is not mentioned in the JD but the candidate requires it long-term (F-1 OPT, EAD pending). No ITAR, clearance, or citizenship restriction is stated. The role is in the correct category (edge_ai_robotics) and the technical fit is adjacent-to-strong, but the senior-level expectation is a hard blocker for a new-grad applicant.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/714d5db6-9d94-46da-ba96-ff1b8ccc2e94",
+  "team": "Perception",
+  "location": "Irvine, CA"
+}

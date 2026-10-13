@@ -1,0 +1,74 @@
+{
+  "company": "The Home Depot",
+  "company_slug": "homedepot",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 90.0,
+  "missing_skills": [
+    "CAN bus",
+    "Zephyr RTOS",
+    "OpenWRT",
+    "warehouse/logistics robotics domain experience",
+    "deployed robotic fleet field ops",
+    "Agile"
+  ],
+  "adjacent_skills": [
+    "Ethernet (have TCP/WebSocket)",
+    "embedded Linux device driver dev (have STM32 bare-metal + Jetson Linux)"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded Linux",
+    "real-time systems",
+    "multithreading",
+    "concurrency",
+    "UART",
+    "SPI",
+    "I2C",
+    "CAN",
+    "Ethernet",
+    "Git",
+    "RTOS",
+    "LiDAR",
+    "IMU",
+    "motor control",
+    "sensor fusion",
+    "navigation"
+  ],
+  "key_responsibilities": [
+    "Embedded software for robot motion control, sensing, comms, diagnostics, safety monitoring",
+    "Integrate LiDAR, cameras, IMUs, motor controllers, BMS, safety sensors, wireless comms, OTA",
+    "Hardware integration: drivers, board bring-up, hardware validation",
+    "Reliability: fault detection, recovery, graceful degradation",
+    "V&V: unit/integration/system tests, HIL validation"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Real time RTOS depth backed by actual code: Object Tracking Turret uses FreeRTOS with mutexes for shared memory task coordination across UART command handling and servo PWM control, not just a listed keyword.",
+      "Board level bring up and low level driver work: STM32 Bare Metal Temperature Monitor programs GPIO, TIM2, ADC1, and a hand written I2C driver directly against the register level, which is exactly the board bring up and hardware validation work the JD asks for.",
+      "Genuine hardware software integration debugging and fault recovery: COFFIN capstone documents resolving 11 concrete integration failures (false positive detections, servo brown out, stale frame capture) to reach 100% pick reliability, which maps directly to the JD reliability and root cause analysis responsibilities.",
+      "Multi sensor integration under real time constraints: COFFIN fuses camera based vision, dual ToF range sensors over an I2C multiplexer, and servo actuation into one control loop with measured end to end latency, showing hands on sensor plus actuator plus comms integration."
+    ],
+    "real_gaps": [
+      "Zero AMR or warehouse and logistics robotics domain exposure. Every robotics project is a fixed arm, a turret, or a simulated vehicle. None involve a mobile robot operating in a real facility, which is the actual center of this role.",
+      "No LiDAR experience anywhere in the profile, despite it being named repeatedly as a core sensor in the JD.",
+      "No CAN bus, no battery management system work, no OTA update mechanism experience. These are named required or preferred items with no backing.",
+      "No evidence of formal V&V practice. Every project reads as solo built and validated informally (bench tests, trial counts) rather than through unit or integration test suites, CI, or Hardware in the Loop rigs. HIL is explicitly named in the JD and has no counterpart in the profile.",
+      "The stated 3+ years of professional embedded software experience is a real gap, not a paperwork formality. All of the embedded depth above comes from internships and a masters capstone, not a full time engineering role, so seniority and production ownership scope will likely come up directly in a phone screen."
+    ],
+    "overstated_by_keywords": [
+      "\"Embedded Linux systems\" was counted as Have on keyword match, but the actual Linux exposure is application level work on Jetson (Python, ROS2, Flask), not OS level embedded Linux work like driver development, kernel customization, or board support packages. The bare metal STM32 work is real depth but it is a different skill (no OS at all) from what embedded Linux customization implies.",
+      "\"Real time systems / multithreading / concurrency\" is genuine but scoped to a single device controlling one arm or one turret. The JD implies fleet scale reliability and safety monitoring, which is a different order of complexity than a capstone project mutex.",
+      "\"Sensor fusion / navigation\" adjacency came from DH parameter kinematics and CARLA lane following, which are arm kinematics and simulated on road driving respectively, not warehouse robot localization or SLAM style navigation the JD is actually describing."
+    ],
+    "reasoning": "The embedded fundamentals are real and well evidenced, this candidate has genuinely written bare metal drivers, coordinated RTOS tasks with mutexes, and debugged real hardware software integration failures to a working end state. But the role is specifically about AMRs in warehouses, and nothing in the profile has touched a mobile robot in an operational environment, LiDAR, CAN, BMS, or formal HIL validation, and the stated 3 year professional experience bar sits on top of that domain gap rather than next to it."
+  }
+}

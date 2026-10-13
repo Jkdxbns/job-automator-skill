@@ -1,0 +1,153 @@
+{
+  "company": "Ford Motor Company",
+  "company_slug": "ford",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 81.6,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 19,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "Embedded Software",
+    "Hardware Systems",
+    "Time-Critical Software",
+    "Linux",
+    "C++",
+    "Object-Oriented Programming",
+    "SPI",
+    "UART",
+    "I2C",
+    "Ethernet",
+    "Networking Protocols",
+    "Python",
+    "Scripting"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Multi-threaded Programming",
+      "you_have": "FreeRTOS preemptive tasks, MPI, CUDA parallel kernels (no pthreads/std::thread production work)"
+    },
+    {
+      "jd_skill": "Object-Oriented Design Patterns",
+      "you_have": "OOP in C++/Python, no formal design-pattern vocabulary"
+    },
+    {
+      "jd_skill": "Hardware Testing (manufacturing test)",
+      "you_have": "bench bring-up and validation with oscilloscopes and logic analyzers"
+    }
+  ],
+  "missing_skills": [
+    "QNX",
+    "Manufacturing Software / Factory Test Systems"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded software",
+    "hardware testing",
+    "time-critical software",
+    "QNX",
+    "Linux",
+    "multi-threaded programming",
+    "object-oriented programming",
+    "design patterns",
+    "SPI",
+    "UART",
+    "I2C",
+    "Ethernet",
+    "Python",
+    "scripting",
+    "manufacturing software",
+    "device-side code"
+  ],
+  "required_skills": [
+    "C",
+    "Embedded Software",
+    "Hardware Systems",
+    "Time-Critical Software"
+  ],
+  "preferred_skills": [
+    "QNX",
+    "Linux",
+    "Multi-threaded Programming",
+    "C++",
+    "Object-Oriented Programming",
+    "Object-Oriented Design Patterns",
+    "SPI",
+    "UART",
+    "I2C",
+    "Ethernet",
+    "Networking Protocols",
+    "Python",
+    "Scripting"
+  ],
+  "required_experience_years": 0.5,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Write device-side code supporting two areas of hardware testing",
+    "Work with local and remote team members and other Ford groups on products, software architecture, implementation",
+    "Apply Design Thinking and User Experience methods to product delivery"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Sunrise, FL, United States (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "Device-side embedded C is concretely backed: STM32 bare-metal temperature monitor programming GPIO/TIM2/ADC1/I2C1 directly, 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz rate",
+      "Time-critical software is real, not claimed: interrupt-driven quadrature decoding as a 4-bit A/B transition state machine on hardware interrupts, 15 kHz PWM on Arduino Due, FreeRTOS mutex-protected shared-memory task coordination on the turret",
+      "SPI/UART/I2C/Ethernet depth across several builds: low-level bare-metal I2C driver, interrupt-driven UART command path Jetson to STM32, TCA9548A I2C mux for dual VL53L0X ToF sensors, WebSocket/TCP fabric over Ethernet with static IP config",
+      "Degree matches the hard filter exactly: JD demands EE or Computer Engineering and explicitly excludes CS/Software Engineering; his M.S. is Computer Engineering",
+      "Entry bar is trivially cleared: JD asks 6+ months of hardware or embedded experience with internships and coursework allowed, against 7 internships"
+    ],
+    "real_gaps": [
+      "Manufacturing/production test software: the role is device-side code for hardware test at factory scale; profile shows bench bring-up and debug (oscilloscopes, logic analyzers) and capstone/research scope, no end-of-line test fixture or test-station work",
+      "QNX: zero exposure anywhere in the profile",
+      "POSIX multithreading on Linux (pthreads, std::thread): concurrency evidence is FreeRTOS preemptive tasks and MPI multi-process work, which is adjacent but not the same primitive set",
+      "Embedded Linux at driver/BSP level: Linux use is systemd service deployment, static IP networking, XRDP and SLURM, all application-side",
+      "Automotive/vehicle domain: no OEM, ECU, CAN or vehicle-program exposure in the profile"
+    ],
+    "overstated_by_keywords": [
+      "Multi-threaded programming counted as Adjacent on FreeRTOS/MPI, but a Linux or QNX team will probe pthreads, mutex/condvar and race-condition debugging he has not done there",
+      "Hardware testing counted as Adjacent, but bench debug is a different job from writing manufacturing test software"
+    ],
+    "understated_by_keywords": [
+      "Object-oriented design principles and patterns scored Adjacent, but the Frame Simulator project is genuine OO design work: data model, math, visuals and UI decoupled into separate modules with a mix-in pattern centralizing transform-apply, matrix-refresh and animation logic",
+      "The keyword pass never credits the integration debugging that this role actually rewards: 11 documented integration failures resolved on COFFIN (false-positive detections, servo brown-out, stale-frame capture) to 100% pick reliability"
+    ],
+    "screening_gaps": [
+      "No US work authorization without sponsorship: the posting states plainly that the position does not support sponsorship, so an F-1 OPT application is screened out before any technical read",
+      "No manufacturing or production test software experience: the entire job is device-side code for hardware testing, and nothing in the profile is factory-test scope",
+      "No QNX and no POSIX threading on Linux: the two preferred skills a hiring manager would use to separate candidates on this team"
+    ],
+    "recommend_apply": true,
+    "reasoning": "On pure skill and domain fit this is one of the better-matched embedded roles in the pipeline: every required qualification (C, embedded/hardware experience, time-critical software, EE/CE degree) has concrete backing, and the preferred list is mostly covered except QNX and POSIX threading. The real gap is domain, not capability, since manufacturing test software is a different scope from bench bring-up. The blocker is not technical at all: the posting explicitly does not support sponsorship, which is what drives the verdict of record to No.",
+    "calibration_delta": 3.6
+  }
+}

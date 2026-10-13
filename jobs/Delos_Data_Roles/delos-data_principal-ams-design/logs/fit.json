@@ -1,0 +1,142 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Principal AMS Design",
+  "job_slug": "principal-ams-design",
+  "match_pct": 18.4,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 5,
+    "missing_count": 13,
+    "jd_ask_size": 19,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ADC / DAC analog functions"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Analog / mixed-signal IC design",
+      "you_have": "Embedded analog / bare-metal (ADC, STM32, digital electronics)"
+    },
+    {
+      "jd_skill": "IO / interface circuits",
+      "you_have": "Low-level embedded IO interfaces"
+    },
+    {
+      "jd_skill": "PCB / board co-design",
+      "you_have": "PCB design (EAGLE)"
+    },
+    {
+      "jd_skill": "Engineering Master's degree",
+      "you_have": "M.S. Computer Engineering (related engineering field)"
+    },
+    {
+      "jd_skill": "C/C++ programming for hardware",
+      "you_have": "Embedded C/C++"
+    }
+  ],
+  "missing_skills": [
+    "High-speed PHY (SerDes, DDR, HBM, UCIe, MIPI)",
+    "PLL / DLL / clocking / reference circuits",
+    "SoC floorplanning, timing / STA, low-power design, UPF, physical design",
+    "Signal and power integrity at chip/package/PCB level",
+    "Silicon lifecycle (tapeout, bring-up, post-silicon validation, mass production)",
+    "Advanced packaging / chiplets / multi-die systems",
+    "IO/ESD and latch-up design",
+    "Analog timing characterization / CAD flow infrastructure",
+    "Technical leadership / mentoring at Principal level",
+    "UCIe / proprietary die-to-die interfaces",
+    "High-speed interface (SerDes/PHY) architecture",
+    "LDO / voltage reference circuit design",
+    "Managing third-party IP vendors"
+  ],
+  "top_ats_keywords": [
+    "AMS",
+    "analog",
+    "mixed-signal",
+    "PHY",
+    "SerDes",
+    "DDR",
+    "HBM",
+    "UCIe",
+    "PLL",
+    "DLL",
+    "clock",
+    "ADC",
+    "DAC",
+    "LDO",
+    "SoC",
+    "integration",
+    "floorplanning",
+    "STA",
+    "timing",
+    "signal integrity",
+    "power integrity",
+    "silicon",
+    "tapeout",
+    "bring-up",
+    "validation",
+    "characterization",
+    "production",
+    "EE",
+    "microelectronics",
+    "PCB",
+    "package",
+    "high-speed",
+    "interface"
+  ],
+  "required_skills": [
+    "Analog and mixed-signal IC design and implementation",
+    "High-speed PHY architecture (SerDes, DDR, HBM, UCIe, MIPI)",
+    "Analog IP development (PLL/DLL, clocking, voltage/reference, ADC/DAC, LDO, IO)",
+    "SoC integration (floorplanning, clocking, timing/STA, low-power, UPF, physical design)",
+    "Signal and power integrity (chip, package, PCB)",
+    "Silicon lifecycle: architecture through tapeout, bring-up, validation, production",
+    "Cross-functional collaboration with digital, package, systems, verification teams"
+  ],
+  "preferred_skills": [
+    "Direct UCIe / proprietary die-to-die interface experience",
+    "Advanced packaging, chiplets, multi-die systems",
+    "Complete PHY subsystems (architecture through silicon validation)",
+    "IO/ESD and latch-up design and qualification",
+    "Analog timing characterization and CAD infrastructure",
+    "Managing third-party IP and design-service vendors",
+    "Building new design teams, flows, or capabilities",
+    "Technical leadership / mentoring across AMS/PHY/DV/SoC teams"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Architect analog/mixed-signal circuits and subsystems for high-speed interfaces and SoCs",
+    "Lead PHY architecture/integration (DDR, HBM, UCIe, SerDes) and analog IP (PLL/DLL, clocking, ADC/DAC)",
+    "Own AMS for PHY integration into SoCs (floorplanning, clocking, timing, power, IO, physical design)",
+    "Drive chip/package/PCB co-design for high-speed signal and power integrity",
+    "Lead silicon from architecture through tapeout, bring-up, validation, characterization, and mass production"
+  ],
+  "role_category": "other",
+  "location": "Taiwan",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

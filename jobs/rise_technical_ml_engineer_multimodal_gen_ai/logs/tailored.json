@@ -1,0 +1,157 @@
+{
+  "_meta": {
+    "company": "Rise Technical (undisclosed startup)",
+    "role": "ML Engineer (Multimodal & Gen AI)",
+    "company_slug": "rise_technical",
+    "job_slug": "ml_engineer_multimodal_gen_ai"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience building computer vision and generative AI systems in PyTorch. Built a GPT-2 style Transformer and fine-tuned DONUT (Vision Transformer) for multimodal document understanding; trained CNN pipelines with YOLOv8, U-Net, and ResNet across detection, segmentation, and high-resolution image reconstruction tasks.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch",
+      "CNNs",
+      "Vision Transformers",
+      "generative AI",
+      "multimodal",
+      "Transformer architecture",
+      "Quantization (8-bit)",
+      "Structured Pruning",
+      "model benchmarking"
+    ],
+    "Computer Vision": [
+      "computer vision",
+      "object detection",
+      "image segmentation",
+      "YOLO",
+      "U-Net",
+      "depth estimation",
+      "ResNet"
+    ],
+    "Speech & Multimodal": [
+      "ASR pipelines",
+      "mel spectrogram",
+      "cross-attention",
+      "BPE tokenizer",
+      "Cython"
+    ],
+    "ML Deployment": [
+      "ML deployment",
+      "edge deployment",
+      "model compression"
+    ],
+    "Languages & Tools": [
+      "Python",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning.",
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset for text extraction."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank for noise suppression combined with optimized stitching and concurrency, achieving PSNR of 86.",
+        "Built a custom image-stitching pipeline using bit manipulation and averaging; achieved PSNR 65 vs. homography-based stitching baseline.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b118% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net with VGG-16, VGG-19, ResNet-50 backbones; benchmarked Dice Score, IoU, and accuracy-latency trade-offs.",
+        "Built a custom data pipeline for BraTS 2020 multi-modal MRI with medical imaging augmentation and memory-efficient 3D batch loading."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained and evaluated YOLOv8 models, improving classification accuracy from 78% to 97.5%; deployed in a consumer mobile app."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented GPT-2 style Transformer from scratch in PyTorch with multi-head self-attention, MLP blocks, residual connections, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and custom training loop with early stopping and perplexity evaluation."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Achieved 15% WER on Hindi-English dataset while reducing preprocessing latency via optimized tokenization.",
+        "Built end-to-end ASR with mel spectrogram encoder and causal Transformer decoder with cross-attention; loss ~0.51 on 1,000 NPTEL samples."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced model memory footprint by ~25% via structured pruning and 8-bit quantization on TinyLlama 1.1B.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; observed ~7% accuracy drop and +6.3 perplexity increase."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Robot Perception",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

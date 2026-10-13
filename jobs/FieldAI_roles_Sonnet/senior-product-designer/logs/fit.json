@@ -1,0 +1,136 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Product Designer",
+  "job_slug": "senior-product-designer",
+  "match_pct": 17.2,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 5,
+    "missing_count": 24,
+    "jd_ask_size": 32,
+    "req_cov": 0.062,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "systems thinking (ROS2 robotic arm integration (COFFIN capstone), multi-system hardware integration (11 failures resolved))",
+    "user advocacy / HRI understanding (Some HRI context via COFFIN voice-controlled robotic arm (user interaction with robot via voice), but not design-level HRI expertise)",
+    "robotics / autonomous systems / IoT design experience (Robotics engineering experience (COFFIN arm, tracking turret, ROS2 arm), but engineering, not design)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "human-robot interaction (HRI) understanding",
+      "you_have": "COFFIN voice-controlled robotic arm \u2014 user interaction design via voice + robot, but engineering not UX/HRI design"
+    },
+    {
+      "jd_skill": "complex platform / interactive experience",
+      "you_have": "COFFIN capstone \u2014 Flutter + Flask-SocketIO + Jetson + Arduino multi-layer interactive system, but backend/engineering not product design"
+    },
+    {
+      "jd_skill": "data visualization",
+      "you_have": "BARC Python Developer Intern \u2014 PyQt/Matplotlib GUI for real-time data acquisition"
+    },
+    {
+      "jd_skill": "design ops / versioning / governance",
+      "you_have": "COFFIN capstone \u2014 systemd service management (unit files, auto-restart, non-root isolation, static IP); Git version control"
+    },
+    {
+      "jd_skill": "systems design / multi-layered applications",
+      "you_have": "COFFIN capstone \u2014 multi-layer Flutter+Flask+Jetson+Arduino architecture; ROS-Based Robotic Arm multi-DOF kinematics"
+    }
+  ],
+  "missing_skills": [
+    "5+ years design experience (candidate is new-grad, 0 full-time, 7 internships in engineering domains)",
+    "Figma (primary design tool \u2014 not in profile)",
+    "Design system from scratch (component libraries, design tokens, usage docs)",
+    "Visual identity / aesthetic craft / polished design",
+    "Data visualization design / making complex info beautiful",
+    "Strategic design thinking / design leadership",
+    "Platform-level UX / information architecture / navigation patterns",
+    "Geospatial / mapping UX",
+    "Design for multi-site / multi-environment robotic use cases (design perspective)",
+    "Prototyping interactions / micro-animations",
+    "Design culture evangelism / cross-functional design adoption",
+    "Design research / user advocacy / championing users (design-methodology level)",
+    "Industrial workflow design / customer-facing interactive experience design",
+    "visual identity / design language",
+    "design system building",
+    "design ops / governance",
+    "Figma",
+    "data visualization",
+    "design thinking / strategic design",
+    "platform-level UX / information architecture",
+    "real-time data interfaces / mapping / geospatial UX",
+    "multi-site / multi-environment use cases",
+    "prototyping / micro-animations",
+    "design culture / evangelizing design system adoption"
+  ],
+  "top_ats_keywords": [
+    "Figma",
+    "design system",
+    "design tokens",
+    "visual identity",
+    "design language",
+    "human-robot interaction",
+    "HRI",
+    "data visualization",
+    "systems design",
+    "platform UX",
+    "robotics design",
+    "design ops",
+    "user advocacy",
+    "industrial workflows"
+  ],
+  "required_skills": [
+    "visual identity / design language",
+    "design system building",
+    "design ops / governance",
+    "Figma",
+    "data visualization",
+    "systems thinking",
+    "design thinking / strategic design",
+    "user advocacy / HRI understanding"
+  ],
+  "preferred_skills": [
+    "robotics / autonomous systems / IoT design experience",
+    "platform-level UX / information architecture",
+    "real-time data interfaces / mapping / geospatial UX",
+    "multi-site / multi-environment use cases",
+    "prototyping / micro-animations",
+    "design culture / evangelizing design system adoption"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own visual identity and design language across customer interactive experience",
+    "Build and maintain comprehensive design system (tokens, style guide, component library, docs)",
+    "Translate complex robotic operations into clear industrial workflows",
+    "Design data products for customer insight",
+    "Own design ops (governance, versioning, contribution processes)",
+    "Collaborate with product, marketing, engineering from concept to production",
+    "Champion user through research and advocacy (operators, site managers, enterprise decision-makers)"
+  ],
+  "role_category": "non_technical",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship/ITAR/citizenship/clearance restriction mentioned in JD; no federal/defense signal"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

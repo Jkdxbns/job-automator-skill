@@ -1,0 +1,164 @@
+{
+  "company": "NXP Semiconductors",
+  "company_slug": "nxp",
+  "role": "Embedded System Engineer - System Innovation (Graduate) (f/m/d)",
+  "job_slug": "embedded-system-engineer-system-innovation",
+  "match_pct": 69.0,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 1,
+    "missing_count": 6,
+    "jd_ask_size": 21,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Embedded SW development",
+    "Microcontroller programming",
+    "PCB schematic & layout",
+    "Oscilloscope",
+    "Logic analyzer",
+    "Multimeter",
+    "Git",
+    "FreeRTOS",
+    "Bare metal",
+    "Linux",
+    "Python",
+    "Full SW lifecycle (prototype, test, debug, validation)",
+    "Edge AI",
+    "UI development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sensor interfacing",
+      "you_have": "I2C/SPI/ADC sensors (MPU6050, ADXL345) in COFFIN/coursework"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Android",
+    "Soldering",
+    "German",
+    "3D printing",
+    "Security certifications"
+  ],
+  "top_ats_keywords": [
+    "Embedded",
+    "Microcontroller",
+    "FreeRTOS",
+    "Bare metal",
+    "Linux",
+    "Git",
+    "Docker",
+    "Python",
+    "PCB",
+    "Oscilloscope",
+    "Logic analyzer",
+    "Edge AI",
+    "Android",
+    "Sensors"
+  ],
+  "required_skills": [
+    "Embedded SW development",
+    "Microcontroller programming",
+    "Sensor interfacing",
+    "PCB schematic & layout",
+    "Soldering",
+    "Oscilloscope",
+    "Logic analyzer",
+    "Multimeter",
+    "Git",
+    "Docker",
+    "FreeRTOS",
+    "Bare metal",
+    "Linux",
+    "Android",
+    "Full SW lifecycle (prototype, test, debug, validation)"
+  ],
+  "preferred_skills": [
+    "Python",
+    "AI tool usage",
+    "German",
+    "3D printing",
+    "UI development"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "System/application innovation industrial & medical",
+    "Requirements, architecture, PoC on NXP Edge-AI",
+    "EU research consortia",
+    "Supervise student projects"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Hamburg, Germany",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Embedded C on microcontrollers: STM32 bare-metal Cortex-M4 (GPIO/TIM2/ADC1/I2C1, 3.68 KB Flash) and Arduino Due interrupt-driven quadrature decoding",
+      "FreeRTOS with mutexes plus UART/PWM on STM32 in the Object Tracking Turret",
+      "Sensor interfacing end to end: VL53L0X ToF via TCA9548A I2C mux (COFFIN), ADXL345 gesture glove (Planctech)",
+      "Edge-AI deployment on Jetson with TensorRT YOLO 5.2x speedup, matching NXP's Edge-AI platform angle",
+      "Bench skills listed (oscilloscope, logic analyzer, multimeter) plus EAGLE PCB design at ARC",
+      "Prototype-to-validation lifecycle in COFFIN: 11 integration failures resolved, 10/10 pick reliability",
+      "Linux/Git/systemd administration on Jetson; Python throughout",
+      "Mentoring evidence: taught a Python course and ran 10+ workshops at ARC"
+    ],
+    "real_gaps": [
+      "Docker: no evidence anywhere in the profile",
+      "Android: no direct evidence (Flutter client is adjacent only)",
+      "Soldering/hardware bring-up not stated explicitly",
+      "German: none, and the role involves German and EU consortia",
+      "Security or certification-minded work: nothing in the profile",
+      "Representing a company at trade shows/consortia with external partners: only student-competition scale",
+      "Industrial/medical system-level requirements and architecture work: only capstone scope",
+      "Wireless comms beyond BLE/HC-05 classic: none"
+    ],
+    "overstated_by_keywords": [
+      "FreeRTOS: one coursework-scale project",
+      "PCB design: single-layer EAGLE boards at a student club, no multilayer or layout-review evidence"
+    ],
+    "understated_by_keywords": [
+      "Odometry/encoder localization (Robocon) maps to the localization/sensing focus",
+      "Flutter mobile client in COFFIN is the nearest thing to UI plus Android",
+      "Medical imaging work (BraTS, DONUT medical billing) touches the medical domain",
+      "ARC mentoring maps to supervising student projects"
+    ],
+    "screening_gaps": [
+      "No Docker experience, an explicit config-management requirement",
+      "No evidence of security-conscious or certification-scope work, which the posting flags",
+      "No German and no experience representing a company with external consortium partners"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded stack, bench tools, sensor interfacing and Edge-AI deployment are well backed, and the graduate level fits. The gaps are Docker, Android, German and security/consortium exposure, mostly learnable or soft requirements. Germany counts as the EU lane, so no hard blocker; no salary is stated, so the Blue Card floor cannot be checked.",
+    "calibration_delta": 3.0
+  },
+  "semantic_pending": false,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-07",
+    "channel": "application",
+    "notes": "Form rejection (NXP Talent Acquisition). Candidate file retained. No feedback."
+  }
+}

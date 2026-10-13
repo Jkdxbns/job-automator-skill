@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "company": "Badger Meter",
+    "role": "Engineer II - Electronics",
+    "company_slug": "badger-meter",
+    "job_slug": "engineer-ii-electronics"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with a B.E. in Electronics & Telecommunication and hands-on PCB hardware design experience across analog and digital circuit design, schematic capture, and embedded 8/16-bit/ARM microcontroller development. Skilled in debugging and prototyping embedded systems using oscilloscopes and logic analyzers, with direct experience fabricating and verifying production-style circuit boards.",
+  "skills": {
+    "Embedded": [
+      "PCB hardware design (analog/digital circuit design)",
+      "Schematic capture (EAGLE)",
+      "STM32 (Bare-Metal C)",
+      "ARM microcontroller development",
+      "UART/I2C/SPI",
+      "FreeRTOS"
+    ],
+    "Test & Validation": [
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "Proteus circuit simulation",
+      "Design verification testing"
+    ],
+    "Tools": [
+      "SolidWorks",
+      "Git",
+      "Linux"
+    ],
+    "Languages": [
+      "C/C++",
+      "Python"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE — schematic capture, analog circuit design, and digital circuit design — for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB hardware design, and embedded systems integration end-to-end.",
+        "Organized 10+ exhibitions and technical workshops covering Arduino, PCB design, and SolidWorks."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometer sensing technology with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning during debugging and prototyping of embedded systems.",
+        "Architected a Mixed Reality headset concept using real-time chroma keying; produced full claims documentation and BOM."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 embedded microcontroller firmware in bare-metal C with timer-synchronized ADC sensing and real-time display for embedded 8/16-bit/ARM microcontroller development.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver, programming GPIO, TIM2, ADC1, and I2C1 peripherals directly.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; applied design verification testing to industry standards via Proteus circuit simulation as part of production validation fixture and procedure development before hardware bring-up."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Designed multi-servo PWM control circuit with interrupt-driven UART commands between NVIDIA Jetson and STM32 microcontroller for real-time object tracking.",
+        "Integrated VL53L0X ToF sensing technology and OLED distance visualization; used FreeRTOS with mutexes for shared-memory task coordination."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": []
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon - National-level robotics competition among 45 universities (2022)",
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

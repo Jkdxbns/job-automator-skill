@@ -1,0 +1,100 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "AI Solutions Engineer (Fixed-Term)",
+  "job_slug": "ai-solutions-engineer-fixed-term",
+  "match_pct": 45.5,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 11,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python proficiency (Languages & Systems \u2014 Python used across all internships (PyTorch/HuggingFace, PyQt/Matplotlib GUI, Flask-SocketIO server, Cython tokenizer); 7 internships in Python)",
+    "Agentic systems / tool use / workflow orchestration (Voice-Controlled Robotic Arm (COFFIN capstone): Flutter+Flask-SocketIO+Jetson+Arduino pipeline with faster-whisper STT, Gemini intent classification, TensorRT YOLO, dual VL53L0X ToF sensors, TCA9548A I2C mux, systemd deployment \u2014 multi-component agent workflow)",
+    "Familiarity with model evaluation, quality measurement, reliability practices (YOLOv8n toothbrush detection 83% mAP@50; ZoeDepth crack-depth \u00b18% error; image stitching PSNR 86; STT custom Cython BPE tokenizer 15% WER; SLM 8-bit quantization <1% accuracy loss; 100% pick reliability (10/10) on robotic arm)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Experience shipping production-grade software",
+      "you_have": "systemd service deployment (auto-restart, non-root isolation, static IP) in Voice-Controlled Robotic Arm capstone; Python Developer Intern at BARC with GitLab; not full company-scale production software (profile notes no production-scale distributed systems experience)"
+    },
+    {
+      "jd_skill": "Hands-on experience building and operating production LLM applications",
+      "you_have": "Voice-Controlled Robotic Arm deploys faster-whisper STT + Gemini intent classification with systemd; AI/ML Intern fine-tuned DONUT OCR transformer (55%\u219293% accuracy) with PyTorch/HuggingFace VisionEncoderDecoder; GPT-2 from scratch; SLM Compression with bitsandbytes LLM.int8() \u2014 deployed LLM/ASR components in capstone, not large-scale production LLM service"
+    },
+    {
+      "jd_skill": "Built side projects or products that solve real-world workflow problems",
+      "you_have": "COFFIN Voice-Controlled Robotic Arm capstone (real pick-and-place with 100% reliability, 11 integration failures resolved); Object Tracking Turret (YOLOv8 + STM32 + FreeRTOS); STEM robotics club leadership (PCB fabrication, UART/I2C sensor comms) \u2014 real-world hardware products, not commercial workflow products"
+    },
+    {
+      "jd_skill": "field deployment",
+      "you_have": "Embedded Systems Intern wearable glove (ADXL345 + RPi + HC-05 Bluetooth, real sensor deployment); Voice-Controlled Robotic Arm deployed on Jetson/Arduino with real sensors; ROS-based robotic arms tested on hardware (AL5B/UR5e) \u2014 hardware deployment experience, not customer-site field deployment"
+    }
+  ],
+  "missing_skills": [
+    "Customer discovery and translating business requirements into technical solutions (no customer-facing discovery work in profile)",
+    "Forward deployed engineering / solutions engineering / professional services (no professional services or forward-deployment role; only internships/research/fellowships)",
+    "Travel to customer sites (~10%) \u2014 candidate has no field-service/travel experience listed",
+    "Reusable product capabilities / internal playbooks / cross-functional product delivery at company scale (profile explicitly lacks production-scale distributed-systems and company-scale experience; no mention of playbooks, product management, or reusable capability design)"
+  ],
+  "top_ats_keywords": [
+    "AI Solutions Engineer",
+    "robotics",
+    "production AI",
+    "LLM applications",
+    "agentic systems",
+    "workflow orchestration",
+    "customer discovery",
+    "Python",
+    "field deployment"
+  ],
+  "required_skills": [
+    "Python proficiency",
+    "Experience shipping production-grade software",
+    "Agentic systems / tool use / workflow orchestration",
+    "Hands-on experience building and operating production LLM applications"
+  ],
+  "preferred_skills": [
+    "Familiarity with model evaluation, quality measurement, reliability practices",
+    "Background in forward deployed engineering / solutions engineering / professional services",
+    "Built side projects or products that solve real-world workflow problems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and ship production AI features delivering measurable customer value",
+    "Work directly with customer teams to understand workflows, pain points, success criteria",
+    "Design and implement end-to-end Python + production LLM solutions",
+    "Translate customer requirements into reusable product capabilities",
+    "Partner with Product, Research, Engineering to prioritize and deliver",
+    "Identify repeatable patterns and codify into internal playbooks",
+    "Travel to customer sites (~10%)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,120 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 5.31,
+      "matched": [
+        "Python",
+        "hardware/software integration",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 4.91,
+      "matched": [
+        "Git",
+        "Python",
+        "RTOS"
+      ]
+    },
+    {
+      "label": "experience:Embedded Systems Intern",
+      "name": "Embedded Systems Intern",
+      "score": 3.21,
+      "matched": [
+        "RTOS",
+        "microcontroller firmware"
+      ]
+    },
+    {
+      "label": "experience:Research Fellowship",
+      "name": "Research Fellowship",
+      "score": 0,
+      "matched": []
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 6.94,
+      "matched": [
+        "C",
+        "RTOS",
+        "microcontroller firmware",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 4.27,
+      "matched": [
+        "C++",
+        "serial protocols",
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "score": 3.08,
+      "matched": [
+        "Python",
+        "speech and audio"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 2.78,
+      "matched": [
+        "RTOS",
+        "serial protocols"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 1.37,
+      "matched": [
+        "C++"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "DSP and microcontroller firmware",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "microcontroller",
+      "for_skill": "microcontroller firmware"
+    },
+    {
+      "use_jd_wording": "RTOS",
+      "for_skill": "RTOS"
+    },
+    {
+      "use_jd_wording": "PCB rework",
+      "for_skill": "hardware/software integration"
+    },
+    {
+      "use_jd_wording": "DSP",
+      "for_skill": "speech and audio"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "Zephyr",
+    "FFT",
+    "digital filters",
+    "re-sampling",
+    "signal generator",
+    "RS485",
+    "RS232",
+    "RGMII"
+  ]
+}

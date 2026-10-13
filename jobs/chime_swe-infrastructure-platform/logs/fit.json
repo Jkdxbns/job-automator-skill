@@ -1,0 +1,116 @@
+{
+  "company": "Chime",
+  "company_slug": "chime",
+  "role": "Software Engineer, Infrastructure Platform",
+  "job_slug": "swe-infrastructure-platform",
+  "match_pct": 15.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 16,
+    "jd_ask_size": 20,
+    "req_cov": 0.036,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "Git"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "Automation scripting",
+      "you_have": "Bash / systemd"
+    }
+  ],
+  "missing_skills": [
+    "Ruby on Rails",
+    "Go",
+    "Terraform",
+    "Kubernetes",
+    "Helm",
+    "ArgoCD",
+    "AWS",
+    "Datadog",
+    "Docker/containers",
+    "Infrastructure-as-code",
+    "DevOps/SRE experience",
+    "SQL/NoSQL databases",
+    "Message buses",
+    "Caching services",
+    "Observability platforms",
+    "12 Factor App"
+  ],
+  "top_ats_keywords": [
+    "Terraform",
+    "ArgoCD",
+    "AWS",
+    "Kubernetes",
+    "Helm",
+    "Ruby on Rails",
+    "Go",
+    "Datadog",
+    "CI/CD",
+    "Infrastructure-as-code",
+    "DevOps",
+    "SRE",
+    "containers",
+    "observability",
+    "12 Factor App"
+  ],
+  "required_skills": [
+    "Ruby on Rails",
+    "Go",
+    "Terraform",
+    "Kubernetes",
+    "Helm",
+    "Docker/containers",
+    "AWS",
+    "DevOps/SRE",
+    "Infrastructure-as-code",
+    "CI/CD",
+    "Databases (SQL/NoSQL)",
+    "Message buses",
+    "Caching services",
+    "Monitoring/logging/observability"
+  ],
+  "preferred_skills": [
+    "ArgoCD",
+    "Datadog",
+    "12 Factor App"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build self-service infra tooling in Rails and Go",
+    "Maintain Terraform modules",
+    "Manage Kubernetes Helm chart repo and continuous deployments",
+    "Automate scaling, monitoring, operations"
+  ],
+  "role_category": "ml_systems",
+  "location": "Chicago, IL; New York, NY; San Francisco, CA (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

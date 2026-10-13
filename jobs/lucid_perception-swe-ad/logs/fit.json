@@ -1,0 +1,153 @@
+{
+  "company": "Lucid Motors",
+  "company_slug": "lucid",
+  "role": "Perception Software Engineer, Autonomous Driving",
+  "job_slug": "perception-swe-ad",
+  "match_pct": 63.2,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 19,
+    "req_cov": 0.812,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "Ubuntu",
+    "Embedded C/C++",
+    "C++",
+    "Object detection",
+    "Segmentation",
+    "GPU inference (TensorRT/CUDA/ONNX)",
+    "Bash",
+    "Git",
+    "Bachelor's-equivalent degree (M.S. Computer Engineering)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object tracking",
+      "you_have": "ROS2 robot perception pipelines"
+    },
+    {
+      "jd_skill": "Large production codebase experience",
+      "you_have": "Internship-scale collaborative codebases"
+    },
+    {
+      "jd_skill": "BEV transformer models",
+      "you_have": "Transformer architecture experience (general, not BEV-specific)"
+    },
+    {
+      "jd_skill": "NVIDIA Drive Orin/Xavier",
+      "you_have": "NVIDIA Jetson (embedded GPU deployment, not automotive Drive series)"
+    }
+  ],
+  "missing_skills": [
+    "QNX",
+    "MISRA/AUTOSAR-compliant C++",
+    "Comprehensive unit/integration test authorship",
+    "Static analysis / diagnostic pipeline experience",
+    "Production ADAS deployment experience"
+  ],
+  "top_ats_keywords": [
+    "QNX",
+    "Ubuntu",
+    "C++",
+    "MISRA",
+    "AUTOSAR",
+    "BEV transformer",
+    "GPU inference",
+    "object detection",
+    "tracking",
+    "segmentation",
+    "NVIDIA Drive Orin/Xavier",
+    "Bash",
+    "Git",
+    "static analysis",
+    "ADAS"
+  ],
+  "required_skills": [
+    "QNX",
+    "Ubuntu",
+    "embedded software development",
+    "deep learning for object detection/tracking/segmentation",
+    "large production codebase experience",
+    "C++ (MISRA/AUTOSAR)",
+    "unit/integration testing",
+    "Bachelor's degree CompE/EE/Robotics"
+  ],
+  "preferred_skills": [
+    "Master's or PhD",
+    "deep learning deployment pipelines",
+    "GPU inference",
+    "BEV transformer models",
+    "NVIDIA Drive Orin/Xavier",
+    "Bash scripting",
+    "Git / collaborative workflows"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "BEV transformer perception models",
+    "ML-based prediction for production perception",
+    "unit/integration tests",
+    "deploy/optimize ML on embedded platforms",
+    "production-grade C++ (MISRA/AUTOSAR)",
+    "diagnostic pipelines",
+    "resolve static analysis violations"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Newark, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "TensorRT-optimized YOLO deployment on Jetson (COFFIN capstone, 5.2x speedup 56.7->10.9ms) directly demonstrates embedded perception deployment and GPU inference optimization",
+      "Autonomous Driving in CARLA project (YOLO11n + UFLD lane detection, semantic segmentation, closed-loop vehicle control, zero collisions across Town02 laps) is a near-direct analog to ADAS perception work",
+      "CUDA kernel optimization and 8-bit quantization work back real GPU-inference/deployment-pipeline depth"
+    ],
+    "real_gaps": [
+      "No BEV transformer or automotive-scale perception model experience \u2014 only generic Transformer background (GPT-2 from scratch, DONUT fine-tuning)",
+      "No MISRA/AUTOSAR-compliant safety-critical C++ experience",
+      "No QNX experience",
+      "No demonstrated unit/integration test authorship",
+      "No diagnostic-pipeline or static-analysis-tooling experience",
+      "No production-scale automotive codebase experience \u2014 profile is capstone/research/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "Object detection/segmentation HAVE credit is real but mostly research/hobby scale (medical MRI segmentation, toothbrush detection) rather than automotive-perception scale",
+      "Git/collaborative-workflows credit reflects basic version control, not large-codebase collaborative development"
+    ],
+    "understated_by_keywords": [
+      "The CARLA autonomous-driving project (lane-following, semantic segmentation, closed-loop control, multi-agent traffic scenario validation) is the single strongest piece of evidence for this specific role, but the keyword pass only captured it as generic 'object detection'"
+    ],
+    "screening_gaps": [
+      "No MISRA/AUTOSAR-compliant safety-critical C++ experience \u2014 the JD's core coding requirement",
+      "No BEV transformer or automotive perception model experience \u2014 the JD's headline technical ask",
+      "No unit/integration test authorship or diagnostic-pipeline/static-analysis experience shown anywhere in the profile"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin has genuine embedded perception and GPU-inference deployment experience (Jetson/TensorRT/YOLO, CARLA autonomous driving) that maps well onto Lucid's core ADAS perception work, but lacks automotive-safety coding background (MISRA/AUTOSAR), BEV-transformer exposure, and demonstrated test/diagnostic-pipeline authorship \u2014 real gaps for a production automotive role, though ones a new-grad hire is typically expected to grow into rather than arrive with.",
+    "calibration_delta": 5.2
+  }
+}

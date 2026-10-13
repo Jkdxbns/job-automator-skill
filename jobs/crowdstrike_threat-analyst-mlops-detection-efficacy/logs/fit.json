@@ -1,0 +1,47 @@
+{
+  "company": "CrowdStrike",
+  "company_slug": "crowdstrike",
+  "role": "Threat Analyst \u2013 Machine Learning Operations & Detection Efficacy",
+  "job_slug": "threat-analyst-mlops-detection-efficacy",
+  "match_pct": 33,
+  "missing_skills": [
+    "malware type/functionality exposure",
+    "reverse engineering (malware or general)",
+    "binary file analysis (imports/exports, packers)",
+    "threat/risk management and assessment",
+    "SOC / incident response experience",
+    "Windows OS internals and Windows API",
+    "exploit and vulnerability analysis",
+    "assembly",
+    "Java",
+    "ML-based threat detection experience"
+  ],
+  "adjacent_skills": [
+    "OS familiarity (Linux, not Windows internals)",
+    "AI/ML technology experience (CUDA, quantization, YOLO, ASR) - real but not applied to security/detection domain",
+    "research/analytical methods (academic/robotics research, not threat research)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "machine learning",
+    "malware",
+    "reverse engineering",
+    "binary analysis",
+    "threat detection",
+    "false positives",
+    "C/C++"
+  ],
+  "key_responsibilities": [
+    "Analyze detection data/customer reports to improve ML models",
+    "Manage false positive detections",
+    "Analyze binary files to determine legitimacy",
+    "Review product detections for quality standard",
+    "Address internal questions on customer threat detections"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

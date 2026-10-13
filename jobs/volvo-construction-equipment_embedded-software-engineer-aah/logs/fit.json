@@ -1,0 +1,150 @@
+{
+  "company": "Volvo Construction Equipment",
+  "company_slug": "volvo-construction-equipment",
+  "role": "Embedded Software Engineer (Software Systems AAH)",
+  "job_slug": "embedded-software-engineer-aah",
+  "match_pct": 53.6,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Programming",
+    "Embedded programming",
+    "University degree in relevant area",
+    "Clean code",
+    "Automation of routine tasks (Bash/Python scripting)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Automotive industry experience",
+      "you_have": "Autonomous-driving perception (CARLA, UFLD lane detection)"
+    },
+    {
+      "jd_skill": "CI/CD pipelines",
+      "you_have": "Git/GitLab version control + Bash build automation"
+    },
+    {
+      "jd_skill": "Software architecture",
+      "you_have": "Modular embedded/ROS2 node + state-machine design"
+    }
+  ],
+  "missing_skills": [
+    "Agile teams experience",
+    "Functional Safety",
+    "Product Cyber Security",
+    "Swedish language",
+    "Heavy-equipment / machine software domain"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Embedded Software",
+    "Embedded C++",
+    "Agile",
+    "CI/CD",
+    "Functional Safety",
+    "Cyber Security",
+    "Automotive",
+    "Machine Software",
+    "Software Architecture",
+    "Clean Code",
+    "Swedish"
+  ],
+  "required_skills": [
+    "C++",
+    "Programming",
+    "Agile teams experience",
+    "University degree in relevant area"
+  ],
+  "preferred_skills": [
+    "Embedded programming",
+    "CI/CD pipelines",
+    "Functional Safety",
+    "Product Cyber Security",
+    "Automotive industry experience",
+    "Swedish language",
+    "Software architecture",
+    "Clean code"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Develop machine software for Volvo Articulated Haulers",
+    "Work in one of three agile teams in a 30-person global department",
+    "Advocate clean code and software architecture",
+    "Automate routine tasks",
+    "Collaborate with teams in Bangalore and Wroclaw"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Braas, Sweden (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 51,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Genuine bare-metal firmware depth, not surface mentions: STM32 Cortex-M4 temperature monitor programmed directly at the register level (GPIO, TIM2, ADC1, I2C1) at 3.68 KB Flash / 1.58 KB RAM with a deterministic 1 Hz loop; FreeRTOS turret using mutexes for shared-memory task coordination.",
+      "Real-time motor and sensor control on a vehicle-like platform: 4-wheel holonomic Robocon robot with interrupt-driven quadrature decoding written from first principles (4-bit A/B state machine on hardware interrupts), 2400 CPR encoder odometry fed back into rotation PWM at 15 kHz, and angle-weighted joystick-to-wheel mixing derived from atan2 to kill PWM saturation.",
+      "Automating routine tasks is explicitly asked for and genuinely backed: CARLA data-generation pipeline producing ~5,000 YOLO and ~3,000 UFLD frames with zero manual annotation; Cython-accelerated BPE tokenizer backend at 4-5.5x over pure Python; Jetson arm bridge deployed as a systemd service with auto-restart backoff and non-root isolation.",
+      "Clean-code and architecture instinct is demonstrated rather than claimed: Frame Simulator deliberately decouples data model, SE(3) math, visuals and UI into separate modules with a mix-in pattern centralizing transform-apply and refresh logic; COFFIN is a three-layer distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller) over one WebSocket fabric.",
+      "Integration accountability under failure, which is what 'drive and accountability' screens for: 11 named COFFIN integration failures resolved (false-positive detections, servo brown-out, stale-frame capture) to 100% pick reliability over 10 trials at ~11.5 s end-to-end.",
+      "Cross-site team collaboration maps to a Braas/Bangalore/Wroclaw department: led a 25-member robotics team end-to-end, and took over as lead mid-project on a cross-cultural team of 7 at Teesside to restructure task distribution and still ship inside a 6-week window."
+    ],
+    "real_gaps": [
+      "No production C++ codebase experience. C++ appears only as a two-link IK routine on Arduino and as CUDA C++ compute kernels. There is no evidence anywhere in the profile of modern idiomatic C++ in a team-owned codebase: no standard version named, no STL, RAII, templates, smart pointers, move semantics or object lifetime design. This is the one skill the JD names explicitly.",
+      "No automotive or off-highway vehicle software exposure. Nothing on CAN bus, J1939, AUTOSAR, vehicle ECU networks, flashing/diagnostics, or HIL rigs, which is the substance of machine software for Articulated Haulers.",
+      "Functional Safety is entirely unevidenced as a discipline. The closest artifacts are a fail-safe state machine halting all motors on controller disconnect and a ToF range gate for contact-aware grasping. That is defensive design instinct, not ISO 25119 / ISO 26262 safety lifecycle, hazard analysis, ASIL decomposition or safety-case work.",
+      "Product Cyber Security has no backing of any kind: no secure boot, signed firmware, threat modelling, UNECE R155/ISO 21434 exposure.",
+      "CI/CD pipeline authoring is not backed. GitLab appears once, at BARC, used for version control and documentation only. CMake and Bash exist; a configured build/test/deploy pipeline does not.",
+      "No agile team experience in the profile, which is a stated required qualification rather than a nice-to-have. The leadership evidence is real (ARC, Teesside, Robocon) but it is club and research team leadership, not sprint-based delivery with a product owner and backlog.",
+      "No Swedish. Nice-to-have, and on an onsite Braas team of 30 it quietly matters more than its listing suggests.",
+      "Scope mismatch beyond seniority: the department owns all machine software for a market-leading product line, while every item in the profile is capstone, research, internship or club scope with no long-lived codebase ownership or field-failure history."
+    ],
+    "overstated_by_keywords": [
+      "C++ was counted as a flat Have. The real depth is C-with-some-C++: register-level embedded C plus CUDA kernels. For a posting that names 'senior C++ developer' twice, this is the single largest overcount in the keyword read.",
+      "Automotive industry experience scored as Adjacent via CARLA. CARLA work is simulated perception and control (YOLO11n, UFLD lane detection, waypoint fallback), which is a different job from vehicle embedded software and will not read as automotive experience to this hiring manager.",
+      "CI/CD pipelines scored as Adjacent via Git/GitLab and Bash. Version control is not a pipeline; this should be read closer to a true gap.",
+      "Software architecture scored as Adjacent on project modularity. That modularity is single-author work on small codebases, not architecture agreed and maintained across three agile teams.",
+      "Embedded programming is a strong Have but note it is a nice-to-have in this JD, so it earns less than its depth deserves."
+    ],
+    "understated_by_keywords": [
+      "'Automating routine tasks' is a named JD ask that the keyword pass reduced to one generic line. The CARLA zero-annotation generation pipeline, the Cython tokenizer backend and the systemd service deployment are three concrete, quantified instances of exactly that habit.",
+      "Fail-safe and defensive design thinking was scored as a flat zero under Functional Safety, but the controller-disconnect motor-halt state machine, the servo brown-out fix and the ToF range-gate interlock are real safety-adjacent reasoning on moving hardware, and are the right things to talk about in an interview.",
+      "Distributed-system integration across heterogeneous nodes (mobile client, edge server, Jetson, Arduino, static-IP networking, WebSocket registration) is close to how machine software spans ECUs, and no keyword captured it.",
+      "Low-level Linux deployment and administration (systemd unit design, static IP, XRDP, environment-based config separation) never string-matched but is directly useful on an embedded Linux machine-software stack.",
+      "The leadership and ownership evidence was dropped as boilerplate, yet 'drive and accountability' and 'working together as a team' are explicit required qualifications here, and the mid-project lead takeover at Teesside is the strongest single piece of evidence for both."
+    ],
+    "screening_gaps": [
+      "Zero years of full-time professional development experience against a hard 'at least five years' required qualification, with 'senior C++ developer' stated outright. A recruiter rejects on this line before reading the skills.",
+      "No production C++ to show. The one technology the posting names is the profile's thinnest defensible area: no modern C++ in a shared codebase, no standard version, no STL or RAII evidence, which collapses on the first technical probe.",
+      "No automotive or off-highway domain and no Functional Safety or Cyber Security exposure, so three of the five nice-to-haves are empty and nothing in the profile signals vehicle software."
+    ],
+    "recommend_apply": false,
+    "reasoning": "The embedded, real-time and automation evidence is genuine and specific, and the integration and leadership record answers the drive-and-accountability asks well, but the role is built around the exact thing the profile cannot defend: production-grade modern C++ owned over years inside a vehicle software organization. Roughly half the posting's substance has backing, and the half that does not is the half it names explicitly, with automotive domain, Functional Safety, Cyber Security and CI/CD all empty. Add an onsite Braas requirement, a Swedish nice-to-have and Sweden's work-permit salary floor, and this is a long shot that costs a relocation-sponsorship ask to pursue; the keyword Can Try stands as the verdict of record, but the C++ depth gap here is the same one that has already cost interviews.",
+    "calibration_delta": 2.6
+  },
+  "semantic_pending": false
+}

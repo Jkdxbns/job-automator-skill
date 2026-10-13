@@ -1,0 +1,112 @@
+{
+  "company": "SEL (Schweitzer Engineering Laboratories)",
+  "company_slug": "sel",
+  "role": "Firmware Engineer - Protection Systems Platforms",
+  "job_slug": "firmware-engineer-protection-systems",
+  "match_pct": 36.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 19,
+    "req_cov": 0.1,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Debugging (Logic Analyzers/Oscilloscopes)",
+    "RTOS",
+    "Python",
+    "Git",
+    "Embedded systems firmware development (STM32 bare-metal)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object oriented design",
+      "you_have": "C++/CUDA C++ project design"
+    },
+    {
+      "jd_skill": "Network communication protocols",
+      "you_have": "UART/I2C/SPI/websocket embedded comms"
+    }
+  ],
+  "missing_skills": [
+    "Unit testing",
+    "Test automation",
+    "Agile",
+    "Confluence",
+    "Jira",
+    "Bitbucket",
+    "Jenkins",
+    "Conan",
+    "Clearcase",
+    "Industrial controls",
+    "3-phase electric power systems"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "RTOS",
+    "Python",
+    "Git",
+    "Embedded systems",
+    "Unit testing",
+    "Object oriented design",
+    "Industrial controls",
+    "Network communication protocols"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Object oriented design",
+    "Unit testing",
+    "Debugging"
+  ],
+  "preferred_skills": [
+    "Embedded systems firmware development",
+    "RTOS",
+    "Test automation",
+    "Python",
+    "Agile",
+    "Confluence",
+    "Jira",
+    "Bitbucket",
+    "Jenkins",
+    "Conan",
+    "Git",
+    "Clearcase",
+    "Industrial controls",
+    "3-phase electric power systems",
+    "Network communication protocols"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/implement/document/test safety-critical embedded systems",
+    "Understand HW/SW interactions",
+    "Cross-discipline collaboration with HW/SW engineers"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pullman, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

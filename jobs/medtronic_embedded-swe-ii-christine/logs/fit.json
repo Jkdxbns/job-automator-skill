@@ -1,0 +1,124 @@
+{
+  "company": "Medtronic",
+  "company_slug": "medtronic",
+  "role": "Embedded Software Engineer II (Christine)",
+  "job_slug": "embedded-swe-ii-christine",
+  "match_pct": 72.2,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "embedded software development",
+    "version control",
+    "unit tests",
+    "integration tests",
+    "Python",
+    "I2C",
+    "SPI",
+    "UART",
+    "real-time software",
+    "Agile"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux-based embedded systems / driver development",
+      "you_have": "Linux/embedded C on BBB, Jetson (application + driver-adjacent work, not production Linux driver maintenance)"
+    },
+    {
+      "jd_skill": "Qt/LVGL embedded GUI",
+      "you_have": "none directly"
+    }
+  ],
+  "missing_skills": [
+    "USB protocol experience",
+    "shell scripting",
+    "test automation frameworks",
+    "IEC 62304 / ISO 14971 / ISO 13485 regulated medical device development"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "embedded software",
+    "Linux",
+    "device drivers",
+    "version control",
+    "configuration management",
+    "USB",
+    "UART",
+    "I2C",
+    "SPI",
+    "Qt",
+    "LVGL",
+    "Python",
+    "IEC 62304",
+    "ISO 14971",
+    "ISO 13485"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "embedded software development",
+    "Linux-based embedded systems",
+    "driver development",
+    "version control",
+    "configuration management",
+    "hardware-software integration debugging",
+    "schematics/technical documentation"
+  ],
+  "preferred_skills": [
+    "real-time software",
+    "microprocessor-based systems",
+    "Qt",
+    "LVGL",
+    "Python",
+    "shell scripting",
+    "test automation",
+    "USB",
+    "UART",
+    "I2C",
+    "SPI",
+    "IEC 62304",
+    "ISO 14971",
+    "ISO 13485"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Develop embedded software in C/C++ for medical devices",
+    "Integrate software with hardware, debug HW/SW interface",
+    "Unit/integration/automated testing, code review",
+    "Regulatory/quality documentation",
+    "V&V and risk management",
+    "Agile practices, configuration management"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Lafayette, Colorado, United States of America",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Sponsorship \u2014 \"U.S. work authorization sponsorship (H-1B, TN, J, etc.) is offered exclusively for Principal-level roles and above ... Roles below the Principal level require candidates to possess unrestricted U.S. work authorization at the time of hire and for the duration of employment.\" This is Level II, not Principal \u2014 sponsorship is explicitly excluded, and F-1 OPT does not constitute unrestricted work authorization for the duration of employment."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,48 @@
+{
+  "company": "Abbott",
+  "company_slug": "abbott",
+  "role": "AI Platform Engineer",
+  "job_slug": "ai_platform_engineer_31160332",
+  "match_pct": 57.1,
+  "missing_skills": [
+    "Kubernetes",
+    "GitOps",
+    "AWS",
+    "3+ years production ML/AI infra experience",
+    "Kubeflow/Argo Workflows/Airflow/MLflow/W&B",
+    "feature stores / dataset lineage tooling",
+    "progressive delivery (canary/shadow/A-B)",
+    "model monitoring / drift detection",
+    "model governance / audit trails / approval workflows",
+    "Knative / KEDA",
+    "Go or Java in production",
+    "regulated environment experience (HIPAA/CLIA/GxP/SOC2)"
+  ],
+  "adjacent_skills": [
+    "CI/CD (has GitLab, not full CI/CD+GitOps pipeline ownership)",
+    "ML model lifecycle (has train/eval/deploy on edge, not production monitor+retrain loop)",
+    "GPU infra at scale (has SLURM-managed distributed jobs + CUDA kernel work, not cloud multi-tenant autoscaling)"
+  ],
+  "top_ats_keywords": [
+    "Python", "Kubernetes", "CI/CD", "GitOps", "ML model lifecycle",
+    "GPU infrastructure", "inference optimization", "quantization",
+    "TensorRT", "ONNX", "distributed training", "fine-tuning",
+    "APIs", "model registry", "MLflow"
+  ],
+  "key_responsibilities": [
+    "Build data/feature/training pipelines for ML and LLM workloads with lineage tracking",
+    "Implement automated evaluation and promotion gates",
+    "Automate model lifecycle via CI/CD and GitOps",
+    "Build and operate production model-serving infra (LLMs + predictive models)",
+    "Architect and manage GPU infrastructure at scale",
+    "Instrument platform + models: logging, telemetry, drift detection, cost tracking",
+    "Extend model/dataset/artifact registries and versioning",
+    "Build developer-facing APIs, SDKs, docs, runbooks"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

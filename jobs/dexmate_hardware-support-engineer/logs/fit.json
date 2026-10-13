@@ -1,0 +1,44 @@
+{
+  "company": "Dexmate",
+  "company_slug": "dexmate",
+  "role": "Hardware Support Engineer",
+  "job_slug": "hardware-support-engineer",
+  "match_pct": 50,
+  "missing_skills": [
+    "Failure analysis / failure modes (fracture, solder cracking, delamination, contamination, corrosion)",
+    "2-5 years hands-on hardware failure analysis / field service / test engineering experience",
+    "Altium (PCB schematic/layout)",
+    "Instron / material testing systems",
+    "Customer-facing technical support / field service",
+    "Contract manufacturer / supplier quality management",
+    "Battery pack / connector / harness failure analysis experience"
+  ],
+  "adjacent_skills": [
+    "CAN/EtherCAT/Ethernet (has I2C/SPI/UART/TCP/WebSocket, not CAN/EtherCAT specifically)",
+    "Multimeter/power supply bench work (embedded hardware work implies but not explicit)",
+    "Schematic/block diagram reading (via EAGLE PCB design experience)",
+    "Bachelor's in EE/ME/Mechatronics (Computer Engineering is adjacent, not exact)"
+  ],
+  "top_ats_keywords": [
+    "oscilloscope", "multimeter", "logic analyzer", "power supply",
+    "CAN", "Ethernet", "EtherCAT", "I2C", "SPI", "UART",
+    "Linux", "schematics", "PCBA", "failure analysis", "root cause analysis",
+    "runbooks", "NVIDIA Jetson", "embedded Linux", "Altium", "SolidWorks"
+  ],
+  "key_responsibilities": [
+    "Troubleshoot and root-cause hardware/system failures (power distribution, embedded compute, comm buses, actuators, sensors)",
+    "Perform failure analysis at component, module, and system level",
+    "Use bench equipment to characterize signals and validate fixes",
+    "Read schematics and block diagrams",
+    "Support bring-up/testing of new hardware revisions",
+    "Act as technical point of contact for customer-reported issues",
+    "Write failure analysis reports and troubleshooting runbooks",
+    "Drive supplier failure analyses on vendor component issues"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

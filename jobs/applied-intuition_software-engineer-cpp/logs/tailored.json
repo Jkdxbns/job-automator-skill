@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "company": "Applied Intuition",
+    "role": "Software Engineer - C++",
+    "company_slug": "applied-intuition",
+    "job_slug": "software-engineer-cpp"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology, focused on C++ application software for robotics and autonomous systems. Built and shipped onboard software for a voice-controlled robotic arm\u2014implemented two-link IK in C++, coordinated 5-servo control, and achieved 100% pick reliability (10/10 trials) across live hardware runs.",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "CUDA",
+      "ROS2",
+      "Bash",
+      "CMake"
+    ],
+    "Robotics & Embedded": [
+      "ROS/ROS2",
+      "MoveIt",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "NVIDIA Jetson",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Visual servoing",
+      "Forward kinematics"
+    ],
+    "ML / AI": [
+      "PyTorch",
+      "TensorRT",
+      "OpenCV",
+      "YOLO"
+    ],
+    "Tools": [
+      "Linux",
+      "Git",
+      "SolidWorks",
+      "EAGLE PCB Design"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning end-to-end integration of mechanical design, PCB fabrication, and embedded systems.",
+        "Designed custom PCBs in EAGLE for locomotive robots; implemented closed-loop sensor feedback over UART and I2C in embedded C."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands.",
+        "Implemented a tap-detection algorithm with z-axis differential thresholding; resolved sensor jitter via software calibration."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Architected a full surface inspection pipeline for microscopic crack analysis using image stitching, wavelet denoising, and ZoeDepth depth estimation (\u00b18% error on 3D reconstruction)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link IK on Arduino in C++ and coordinated 5-servo onboard control; resolved 11 integration failures to achieve 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Built autonomy stack: Flask-SocketIO edge server + Jetson+Arduino controller over WebSocket; TensorRT YOLO visual servoing at ~18 FPS, dual ToF sensors for contact-aware grasping."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains (0T6) for 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt in ROS 2 Humble.",
+        "Planned and executed collision-free pick-and-place on physical UR5e via UR ROS2 driver; repeatability <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD on 5,000+ auto-annotated frames; integrated into ADAS-style autonomy stack with lane-following and waypoint fallback.",
+        "Validated in Town02 (30 vehicles, 10 pedestrians); zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built embedded C++ firmware on STM32 (FreeRTOS, interrupt-driven UART, multi-servo PWM) and used YOLOv8 on NVIDIA Jetson for real-time object tracking with STM32 command streaming."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

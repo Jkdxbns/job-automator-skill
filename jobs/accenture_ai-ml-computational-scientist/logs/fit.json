@@ -1,0 +1,67 @@
+{
+  "company": "Accenture",
+  "company_slug": "accenture",
+  "role": "AI/ML Computational Scientist",
+  "job_slug": "ai-ml-computational-scientist",
+  "match_pct": 50,
+  "missing_skills": [
+    "cloud deployment (AWS/Azure/GCP)",
+    "production monitoring/alerting/auditing at enterprise scale",
+    "DevOps/MLOps tooling (Docker, Kubernetes, CI/CD)",
+    "Java",
+    "R",
+    "SQL",
+    "client-facing consulting experience"
+  ],
+  "adjacent_skills": [
+    "distributed/HPC computing (SLURM, MPI) vs. cloud/grid computing",
+    "LLM fine-tuning/quantization vs. production LLM API integration"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "Deep Learning",
+    "Generative AI",
+    "LLM",
+    "MLOps",
+    "DevOps",
+    "distributed computing",
+    "cloud environment",
+    "Python",
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "key_responsibilities": [
+    "Design/build/operationalize AI/ML solutions combining custom models with cloud + third-party AI services",
+    "Deploy models to production at scale with monitoring, alerting, bug filing, auditing",
+    "Build scalable data pipelines with DevOps & MLOps",
+    "Customize Deep Learning and Gen AI/LLM models for client use cases",
+    "Client-facing consulting collaboration across business and technical teams"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 32,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Genuine model-optimization depth: TensorRT YOLO 5.2x speedup and CUDA kernel work on VGG16 (1.5-2x) show real production-style inference optimization, not just tutorial-level tuning",
+      "Distributed/HPC computing is a real strength, not just adjacent: MPI Hodgkin-Huxley sim (10.49x speedup on SLURM cluster) and parallel ray tracer (30x speedup) directly answer the JD's 'distributed computing systems... HPC... scientific compute' bullet with hard numbers",
+      "Systems-level engineering depth (bare-metal C, computer architecture coursework, building peripherals directly) is arguably stronger low-level foundation than a typical cloud-only ML engineer has",
+      "Built LLM/Transformer internals from scratch (GPT-2, custom tokenizer, ASR decoder) - deep understanding of the underlying models, even though the JD wants API-level LLM integration rather than from-scratch model building"
+    ],
+    "real_gaps": [
+      "Zero cloud platform experience anywhere in the profile (no AWS/Azure/GCP) - every 'at scale' or 'distributed' project is either an on-prem HPC cluster or an edge device, never a cloud service. The JD's core framing is 'combining custom models with cloud and third-party AI services' - this is a structural gap, not a missing keyword",
+      "No production observability: nothing resembling monitoring, alerting, automatic bug filing, or auditing pipelines - the JD lists this as a BASIC required qualification, and the profile's closest analog is manual reliability testing (10/10 trials), which is a different skill",
+      "No client-facing or consulting delivery experience anywhere - all experience is research/internship/capstone scope with no account, stakeholder, or client engagement history, despite the JD leaning hard on 'client site' delivery and non-technical stakeholder communication",
+      "'Large-scale datasets' in the JD means enterprise data volume; the profile's datasets top out around 5,000 samples (CARLA frames, YOLO training sets) - a different order of magnitude",
+      "Seniority/scope mismatch independent of any single skill: the JD reads as a role for someone who already owns production ML systems at a client site ('proven experience... at scale'), while the profile is 0 years full-time with internship and capstone-scope ownership"
+    ],
+    "overstated_by_keywords": [
+      "'LLM APIs' was credited as Adjacent in the keyword pass because the profile has GPT-2/tokenizer/quantization work, but that's building LLM internals from scratch, not integrating hosted LLM APIs into client applications - the actual overlap with what the JD wants is thinner than the keyword match suggests"
+    ],
+    "reasoning": "The keyword match understates the HPC/distributed-computing strength (it's genuinely strong, not adjacent) but overstates the LLM-API and overall readiness picture, because the profile's real gaps are structural: no cloud, no production observability, no consulting/client delivery, and a seniority/scope mismatch that a skills list alone won't surface. Net effect roughly cancels out the keyword-match number, landing lower once you also weigh the missing enterprise-scale data experience and delivery-ownership expectation."
+  },
+  "critical_flag": "Job located in Spain (Madrid/Barcelona/Valencia), hybrid. Candidate is F-1 OPT, work-authorized in the US only. No EU work authorization or citizenship on file. De facto disqualifier independent of skill fit unless Justin holds EU/Spanish work authorization not currently recorded."
+}

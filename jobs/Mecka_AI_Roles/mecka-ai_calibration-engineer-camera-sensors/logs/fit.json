@@ -1,0 +1,137 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Calibration Engineer, Camera & Sensors",
+  "job_slug": "calibration-engineer-camera-sensors",
+  "match_pct": 55.6,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 8,
+    "missing_count": 8,
+    "jd_ask_size": 27,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "OpenCV / vision framework",
+    "Calibration (general concept)",
+    "IMU / accelerometer sensor hardware",
+    "Robotics / ROS pipeline",
+    "Vision / image processing",
+    "Visual servoing / vision-based control",
+    "Embedded C / bare-metal programming",
+    "Build/tooling (CMake)",
+    "C/C++ programming",
+    "Python / ML scripting",
+    "Sensor data acquisition"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IMU calibration and tuning",
+      "you_have": "IMU-related hardware + calibration concept"
+    },
+    {
+      "jd_skill": "Camera calibration (intrinsics, extrinsics, stereo, multi-camera)",
+      "you_have": "Computer vision libraries"
+    },
+    {
+      "jd_skill": "Sensor fusion fundamentals",
+      "you_have": "Robotics perception pipeline"
+    },
+    {
+      "jd_skill": "Calibration tooling / infrastructure",
+      "you_have": "Embedded build/tooling"
+    },
+    {
+      "jd_skill": "Multi-sensor calibration (camera-IMU)",
+      "you_have": "Sensor + vision integration components"
+    },
+    {
+      "jd_skill": "Autonomous vehicles / robotics / AR/VR calibration",
+      "you_have": "Robotics perception"
+    },
+    {
+      "jd_skill": "Manufacturing / factory calibration at scale",
+      "you_have": "Hardware/manufacturing-adjacent experience"
+    },
+    {
+      "jd_skill": "Production environment calibration",
+      "you_have": "Embedded / production-adjacent hardware"
+    }
+  ],
+  "missing_skills": [
+    "intrinsics / extrinsics / stereo calibration methods",
+    "Kalibr or dedicated calibration framework",
+    "noise characterization / bias estimation (IMU tuning specifics)",
+    "uncertainty quantification",
+    "error analysis",
+    "factory/production line calibration at scale",
+    "multi-camera rig calibration",
+    "Mandarin language / work authorization in China"
+  ],
+  "top_ats_keywords": [
+    "camera calibration",
+    "IMU calibration",
+    "sensor fusion",
+    "calibration tooling",
+    "OpenCV",
+    "Kalibr",
+    "multi-sensor calibration",
+    "robotics",
+    "autonomous vehicles",
+    "AR/VR",
+    "factory calibration",
+    "uncertainty quantification",
+    "production calibration",
+    "embedded",
+    "sensor alignment"
+  ],
+  "required_skills": [
+    "camera calibration (intrinsics, extrinsics, stereo, multi-camera rigs)",
+    "IMU calibration and tuning (bias estimation, alignment, noise characterization)",
+    "sensor fusion fundamentals",
+    "calibration tooling and infrastructure for production environments",
+    "ability to speak Mandarin and obtain work allowance in China"
+  ],
+  "preferred_skills": [
+    "manufacturing/hardware deployment environment with calibration at scale",
+    "OpenCV, Kalibr, or similar calibration frameworks",
+    "multi-sensor calibration (camera-IMU, etc.)",
+    "autonomous vehicles, robotics, or AR/VR hardware calibration",
+    "factory/production line calibration processes",
+    "uncertainty quantification and error analysis"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Deliver accurate IMU and camera calibration values (intrinsic and extrinsic) for production systems",
+    "Own the entire calibration pipeline \u2014 camera intrinsics/extrinsics, IMU calibration, multi-sensor alignment",
+    "Build and maintain calibration infrastructure \u2014 tooling, fixtures, validation scripts, and documentation",
+    "Ensure factory calibration is performed properly, consistently, and on schedule",
+    "Develop automated calibration verification and QA systems; debug calibration-related issues"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

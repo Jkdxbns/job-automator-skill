@@ -1,0 +1,175 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Staff Software Engineer, Perception",
+  "job_slug": "staff-software-engineer-perception",
+  "match_pct": 78.1,
+  "score_detail": {
+    "have_count": 23,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 32,
+    "req_cov": 0.853,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "computer vision",
+    "machine learning",
+    "GPU-accelerated algorithms",
+    "edge devices (NVIDIA Jetson/AGX)",
+    "real-time systems",
+    "Python",
+    "deep learning",
+    "object detection",
+    "object tracking",
+    "robotics",
+    "embedded systems",
+    "model optimization",
+    "CUDA",
+    "TensorRT",
+    "ROS",
+    "sensor fusion",
+    "edge computing",
+    "GPU acceleration",
+    "image processing",
+    "detection",
+    "classification",
+    "perception"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "target tracking",
+      "you_have": "object tracking (computer vision)"
+    },
+    {
+      "jd_skill": "multi-sensor fusion",
+      "you_have": "sensor fusion (autonomous systems)"
+    },
+    {
+      "jd_skill": "autonomous vehicles",
+      "you_have": "autonomous systems"
+    },
+    {
+      "jd_skill": "hardware abstraction",
+      "you_have": "hardware/software integration + peripheral programming"
+    }
+  ],
+  "missing_skills": [
+    "sensor drivers",
+    "calibration",
+    "radar experience",
+    "AIS (Automatic Identification System)",
+    "maritime domain knowledge"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "sensor fusion",
+    "computer vision",
+    "machine learning",
+    "GPU acceleration",
+    "edge computing",
+    "NVIDIA Jetson",
+    "real-time",
+    "autonomous vehicles",
+    "robotics",
+    "deep learning",
+    "object detection",
+    "object tracking",
+    "CUDA",
+    "TensorRT",
+    "ROS",
+    "embedded systems",
+    "multi-modal",
+    "edge devices",
+    "model optimization",
+    "production code",
+    "hardware abstraction layers"
+  ],
+  "required_skills": [
+    "C++",
+    "computer vision",
+    "machine learning",
+    "sensor drivers",
+    "calibration",
+    "target tracking",
+    "multi-sensor fusion",
+    "GPU-accelerated algorithms",
+    "edge devices (NVIDIA Jetson/AGX)",
+    "real-time systems",
+    "Python",
+    "deep learning",
+    "object detection",
+    "object tracking",
+    "robotics",
+    "embedded systems",
+    "model optimization"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Lead end-to-end perception engineering efforts from low-level sensor HALs to high-level multi-modal sensor fusion algorithms",
+    "Jump fluidly across different layers of the perception stack",
+    "Bridge theory and execution by productionizing computer vision and machine learning research",
+    "Be accountable for high-performance C++ software pipelines on real-time edge computing platforms",
+    "Work closely with Autonomy, Machine Learning, and Hardware teams to integrate and fuse multi-modal data",
+    "Monitor for system inefficiencies, sensor degradation, or algorithmic bottlenecks",
+    "Design and maintain large-scale regression testing and simulation frameworks using Python"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Strong C++ real-time systems: COFFIN capstone demonstrates end-to-end production C++ pipeline (Jetson bridge, servo control, 11.5s end-to-end voice-to-pick latency with deterministic timing)",
+      "TensorRT & model optimization depth: 5.2\u00d7 TensorRT speedup (56.7\u219210.9ms), 55% GPU memory reduction via quantization, custom CUDA kernels for 35% convolution speedup",
+      "Jetson edge deployment expertise: COFFIN extensively covers Jetson deployment with systemd service hardening, XRDP remote admin, static IP networking, and production-grade error handling",
+      "Object tracking & YOLO proficiency: Turret project (YOLOv8), CARLA autonomous driving (mAP50~0.85), toothbrush detection (83% mAP@50); understands real-time tracking pipelines",
+      "Production latency optimization: Careful measurement and optimization across entire inference chain; prioritizes end-to-end performance over individual components"
+    ],
+    "real_gaps": [
+      "Sensor driver development: Zero demonstration of low-level HAL work or sensor driver implementation. JD's first responsibility is 'low-level sensor Hardware Abstraction Layers'\u2014this is a core systems gap.",
+      "Camera/sensor calibration: No intrinsic or extrinsic calibration work mentioned anywhere in profile. Core perception responsibility missing.",
+      "Years of professional experience: ~1 year professional experience vs. 8+ required. Staff-level role expects seniority; candidate is recent MS graduate.",
+      "Radar signal processing: Completely absent. JD explicitly requires radar+camera+AIS multi-modal fusion\u2014candidate has zero radar background."
+    ],
+    "overstated_by_keywords": [
+      "Multi-sensor fusion tagged as HAVE, but COFFIN's fusion (camera + dual ToF + gripper feedback) is basic point-cloud integration, not sophisticated multi-modal radar/camera/AIS fusion at scale",
+      "Embedded systems tagged broadly, but low-level sensor driver work is absent; Jetson-level systems are high-level compared to HAL work"
+    ],
+    "understated_by_keywords": [
+      "Cross-layer debugging discipline: COFFIN shows deep debugging from PyTorch\u2192TensorRT\u2192servo PWM, resolving 11 integration failures; understands systems from ML all the way to hardware",
+      "Production robustness mindset: 100% pick reliability, deterministic timing, systemd isolation, static IP networking; demonstrates commitment to operational stability"
+    ],
+    "screening_gaps": [
+      "Years of professional experience: 8+ required, ~1 available. Staff-level hiring gates on seniority; immediate structural blocker.",
+      "Sensor driver & calibration expertise: JD's top responsibility is low-level sensor HALs and calibration pipelines\u2014candidate has no demonstrated work here. Core technical gap requiring substantial ramp-up.",
+      "Radar & maritime domain: Zero radar signal processing or maritime autonomy context. Domain-specific knowledge critical for day-one productivity in combat-deployed autonomous USV systems."
+    ],
+    "recommend_apply": false,
+    "reasoning": "Candidate has strong algorithmic and inference foundation (TensorRT, YOLO, end-to-end production pipelines, Jetson deployment), but this is a staff-level role requiring deep systems expertise in sensor drivers, calibration, and maritime domain knowledge. The 8-year experience gap and absence of HAL/calibration work represent structural mismatches, not just keyword gaps. This role needs someone who can lead perception architecture across all layers; candidate's recent-grad profile is fundamentally unaligned with the seniority level.",
+    "calibration_delta": 30.1
+  }
+}

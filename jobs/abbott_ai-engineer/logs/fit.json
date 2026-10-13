@@ -1,0 +1,119 @@
+{
+  "company": "Abbott",
+  "company_slug": "abbott",
+  "role": "AI Engineer",
+  "job_slug": "ai-engineer",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 18,
+    "req_cov": 0.364,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Model/LLM fine-tuning",
+    "ML frameworks (PyTorch/TensorFlow/Keras)",
+    "AI-assisted dev tools",
+    "Master's/PhD degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLM prompt engineering & customization",
+      "you_have": "GPT-2/SLM from-scratch build, HuggingFace Transformers, Gemini API usage"
+    },
+    {
+      "jd_skill": "Math/stats/algorithms/data structures",
+      "you_have": "MS Computer Engineering coursework (RTOS, DSP, controls)"
+    },
+    {
+      "jd_skill": "NLP",
+      "you_have": "ASR pipelines, faster-whisper, HuggingFace Transformers"
+    },
+    {
+      "jd_skill": "Generative AI",
+      "you_have": "SLM/GPT-2 from-scratch, Gemini usage"
+    }
+  ],
+  "missing_skills": [
+    "Production AI/ML delivery experience",
+    "RAG",
+    "CI/CD pipelines",
+    "Agile/Scrum",
+    "AWS cloud deployment",
+    "SQL/database environment",
+    "Medical device/regulated environment experience",
+    "MLOps",
+    "Responsible AI / risk-aware development",
+    "Go"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "RAG",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "CI/CD",
+    "Agile",
+    "Scrum",
+    "AWS",
+    "SQL",
+    "Go",
+    "MLOps",
+    "Python",
+    "NLP"
+  ],
+  "required_skills": [
+    "Production AI/ML delivery experience",
+    "LLM prompt engineering & customization",
+    "RAG",
+    "Model/LLM fine-tuning",
+    "ML frameworks (PyTorch/TensorFlow/Keras)",
+    "CI/CD pipelines",
+    "Agile/Scrum",
+    "Math/stats/algorithms/data structures",
+    "AI-assisted dev tools",
+    "AWS cloud deployment",
+    "SQL/database environment"
+  ],
+  "preferred_skills": [
+    "Medical device/regulated environment experience",
+    "MLOps",
+    "Responsible AI / risk-aware development",
+    "Master's/PhD degree"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop AI-enabled product features (LLM, RAG, ML models, automation pipelines)",
+    "Improve internal engineering/QA processes with AI",
+    "Make implementation-level AI architecture decisions within guardrails",
+    "Evaluate tradeoffs across performance, accuracy, safety, cost",
+    "Deploy models to AWS",
+    "Collaborate in scrum activities"
+  ],
+  "role_category": "ml_systems",
+  "location": "Abbott Park, Illinois (remote within U.S.)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

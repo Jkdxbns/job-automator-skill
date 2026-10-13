@@ -1,0 +1,168 @@
+{
+  "company": "OrthoIQ",
+  "company_slug": "orthoiq",
+  "role": "Embedded Systems & Firmware Engineering Intern",
+  "job_slug": "embedded-systems-firmware-engineering-intern",
+  "match_pct": 63.6,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 22,
+    "req_cov": 0.861,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "PCB design",
+    "MCU/processor evaluation and selection",
+    "Embedded C/C++",
+    "Real-time firmware development",
+    "Sensor interfaces",
+    "ADCs",
+    "Communications",
+    "Hardware-software integration",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "Soldering",
+    "Hardware debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Power electronics",
+      "you_have": "hardware/software integration electronics (working)"
+    },
+    {
+      "jd_skill": "Signal-processing algorithm porting",
+      "you_have": "speech/audio DSP (COFFIN ASR)"
+    },
+    {
+      "jd_skill": "Real-time control systems",
+      "you_have": "RTOS (working) \u2014 Object Tracking Turret / STM32"
+    },
+    {
+      "jd_skill": "Motor/actuator control",
+      "you_have": "servo control (Object Tracking Turret)"
+    }
+  ],
+  "missing_skills": [
+    "Signal conditioning",
+    "Safety-critical system architecture",
+    "EMC",
+    "Thermal design",
+    "Reliability design",
+    "Medical-device development"
+  ],
+  "top_ats_keywords": [
+    "embedded systems",
+    "firmware",
+    "C/C++",
+    "PCB",
+    "MCU",
+    "ADC",
+    "sensors",
+    "motor control",
+    "oscilloscope",
+    "logic analyzer",
+    "real-time",
+    "microcontroller"
+  ],
+  "required_skills": [
+    "PCB design",
+    "MCU/processor evaluation and selection",
+    "Embedded C/C++",
+    "Real-time firmware development",
+    "Sensor interfaces",
+    "ADCs",
+    "Signal conditioning",
+    "Communications",
+    "Power electronics",
+    "Signal-processing algorithm porting",
+    "Real-time control systems",
+    "Safety-critical system architecture",
+    "Motor/actuator control",
+    "Hardware-software integration",
+    "Oscilloscopes",
+    "Logic analyzers",
+    "Soldering",
+    "Hardware debugging"
+  ],
+  "preferred_skills": [
+    "EMC",
+    "Thermal design",
+    "Reliability design",
+    "Medical-device development"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Embedded electronics architecture and PCB design",
+    "MCU/processor evaluation and selection",
+    "Embedded C/C++ and real-time firmware development",
+    "Sensor interfaces, ADCs, signal conditioning, communications, power electronics",
+    "Port signal-processing algorithms onto embedded hardware",
+    "Real-time control and safety-critical system architectures",
+    "Motor/actuator control and hardware-software integration",
+    "Prototype, debug, test, characterize embedded systems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cambridge, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 70,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal ARM Cortex-M4 firmware (STM32 Bare-Metal Temperature Monitor): register-level GPIO/TIM2/ADC1/I2C1, timer-triggered ADC scan conversions, interrupt-driven sampling \u2014 directly backs embedded C/C++, MCU work, and ADC responsibilities.",
+      "Multi-servo PWM motor control with interrupt-driven UART commands and FreeRTOS mutex-based task coordination (Object Tracking Turret) \u2014 backs real-time control and motor/actuator control.",
+      "Custom single-layer PCB fabrication in EAGLE with UART/I2C sensor communication and closed-loop feedback (Agnel Robotics Club) \u2014 backs PCB design and hardware-software integration.",
+      "Dual VL53L0X ToF sensor integration via I2C mux for contact-aware control (COFFIN capstone) \u2014 stronger sensor-interfacing evidence than the keyword pass credited.",
+      "Explicit hardware-debugging toolset (oscilloscope, logic analyzer, JTAG/SWD, multimeter) listed under Tools skills."
+    ],
+    "real_gaps": [
+      "No production-grade or medical-grade PCB experience \u2014 boards are hobbyist single-layer, no evidence of EMC design.",
+      "No analog signal-conditioning circuit design (op-amp stages, filtering, analog front-end) \u2014 sensor work so far is digital ADC/I2C/UART only.",
+      "No safety-critical system architecture or regulated (medical-device, IEC 62304-style) development background \u2014 all projects are academic or hobbyist scope.",
+      "No thermal or reliability design experience.",
+      "Power electronics exposure is limited to basic peripheral power handling, not converter/regulator design."
+    ],
+    "overstated_by_keywords": [
+      "Power electronics was credited via a loose electronics substring match \u2014 actual depth is peripheral power handling, not power-electronics design."
+    ],
+    "understated_by_keywords": [
+      "The turret closed-loop UART+FreeRTOS+PWM servo control is a genuinely strong real-time control demonstration that the keyword pass only credited as adjacent.",
+      "COFFIN capstone dual ToF sensor fusion via I2C mux is stronger sensor-interface evidence than the keyword layer gave credit for."
+    ],
+    "screening_gaps": [
+      "No production PCB/EMC/reliability design experience \u2014 for a medical-device startup pushing hardware toward clinical testing, this is the biggest gap versus a candidate with real board-spin history.",
+      "No safety-critical or regulated medical-device development background \u2014 everything on the resume is academic/hobbyist scope, not a regulated-process environment.",
+      "No analog signal-conditioning circuit design \u2014 sensor work so far is digital reads (I2C/UART), not analog front-end design the JD explicitly calls out."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Most core responsibilities \u2014 embedded C/C++ firmware, MCU/peripheral work, PCB fabrication, sensor interfacing, and real-time motor control \u2014 are backed by concrete, specific projects (STM32 bare-metal monitor, Object Tracking Turret, COFFIN capstone, Agnel Robotics PCB fab). The real gaps cluster around domain-specific asks this role leans on hard: medical-device/safety-critical process, analog signal conditioning, and EMC/thermal/reliability design, none of which show up anywhere in the profile. Worth applying given the intern-level bar, but those three gaps are the honest story if screened on depth.",
+    "calibration_delta": -6.4
+  },
+  "outcome": {
+    "stage": "replied",
+    "date": "2026-09-24",
+    "channel": "outreach",
+    "notes": "Meet Brahmbhatt (Mechanical Test Intern) replied same day, offered to look at resume, no gatekeeping info about embedded team beyond general collaboration overlap."
+  }
+}

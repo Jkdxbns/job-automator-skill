@@ -1,0 +1,104 @@
+{
+  "company": "T-Mobile",
+  "company_slug": "t-mobile",
+  "role": "AI Engineer (IntentCX)",
+  "job_slug": "ai-engineer-intentcx",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 12,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "Data Analysis"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Model Tuning / Fine-tuning",
+      "you_have": "Fine-tuned DONUT, GPT-2"
+    },
+    {
+      "jd_skill": "LLM",
+      "you_have": "TinyLlama/SLM benchmarking, HuggingFace Transformers"
+    },
+    {
+      "jd_skill": "Prompt Engineering",
+      "you_have": "prompt-type latency profiling on TinyLlama"
+    },
+    {
+      "jd_skill": "Embeddings",
+      "you_have": "resized decoder embedding layer (DONUT)"
+    }
+  ],
+  "missing_skills": [
+    "RAG",
+    "Vector Databases",
+    "LLM Orchestration (LangChain/ADK)",
+    "Cloud Computing",
+    "Function Calling",
+    "Agentic AI"
+  ],
+  "top_ats_keywords": [
+    "RAG",
+    "Vector Databases",
+    "Embeddings",
+    "Prompt Engineering",
+    "LangChain",
+    "Python",
+    "Fine-tuning",
+    "Function Calling",
+    "Agentic AI",
+    "LLM"
+  ],
+  "required_skills": [
+    "RAG",
+    "Vector Databases",
+    "Embeddings",
+    "Prompt Engineering",
+    "LLM Orchestration (LangChain/ADK)",
+    "Python",
+    "Cloud Computing",
+    "Data Analysis",
+    "Model Tuning / Fine-tuning"
+  ],
+  "preferred_skills": [
+    "Machine Learning Certification",
+    "Certified Analytics Professional",
+    "Certified Data Scientist"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design RAG pipelines",
+    "Prompt engineering and fine-tuning",
+    "Agentic AI / function calling",
+    "Customer service automation"
+  ],
+  "role_category": "ml_systems",
+  "location": "Bellevue, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,122 @@
+{
+  "company": "XPENG",
+  "company_slug": "xpeng",
+  "role": "Senior Machine Learning Engineer - AI Foundation",
+  "job_slug": "senior-machine-learning-engineer-ai-foundation",
+  "match_pct": 36.4,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 12,
+    "jd_ask_size": 22,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Master's Degree in CS/CE/EE (M.S. Computer Engineering, Rochester Institute of Technology)",
+    "Deep knowledge of PyTorch (skills list + multiple PyTorch projects)",
+    "In-depth knowledge of transformer architecture (GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying)",
+    "Track record profiling models and improving training/inference speed (pynvml profiling; Custom CUDA C++ kernels ~35% speedup 49.2ms vs 73.3ms; TensorRT-optimized YOLO 5.2x speedup 56.7->10.9ms 92 FPS)",
+    "CUDA language for writing custom ops (Custom CUDA C++ kernels replacing TorchScript conv layers in VGG16 with memory coalescing + constant memory)",
+    "Edge computing systems (Embedded skills: NVIDIA Jetson, Raspberry Pi; projects: Jetson+Arduino WebSocket robotics, STM32 bare-metal C, Jetson YOLO turret)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Large-scale distributed ML training (FSDP, Expert Parallel, Context Parallel)",
+      "you_have": "MPI distributed dendrite computation on SLURM cluster (10.49x speedup, 12 workers) and CUDA C++ parallel kernel optimization \u2014 HPC distributed computation closely related but not ML model-scale training"
+    },
+    {
+      "jd_skill": "Previous experience in autonomous driving industry",
+      "you_have": "CARLA autonomous driving stack project (semantic segmentation + raycast occlusion filtering, ~5000 YOLO + ~3000 UFLD frames, YOLO11n mAP50~0.85, UFLD fine-tuned, lane-following + waypoint fallback, Town02 zero collisions) \u2014 autonomous driving experience but not industry/professional"
+    },
+    {
+      "jd_skill": "Knowledge of distributed computing frameworks (Ray)",
+      "you_have": "MPI distributed computation on SLURM cluster (10.49x speedup, 12 workers) \u2014 closely related distributed framework"
+    },
+    {
+      "jd_skill": "Model inference framework (vLLM, SGLang)",
+      "you_have": "TensorRT-optimized YOLO inference, faster-whisper STT, ONNX/TFLite export, 8-bit quantization (bitsandbytes LLM.int8) \u2014 inference acceleration closely related but not vLLM/SGLang"
+    }
+  ],
+  "missing_skills": [
+    "Knowledge of vLLM",
+    "Knowledge of SGLang",
+    "FSDP",
+    "Expert Parallel",
+    "Context Parallel",
+    "Ray",
+    "Large-scale distributed ML training at petabyte/fleet scale (hundreds of PB, million-vehicle pipeline ownership)",
+    "Cloud-scale inference for closed-loop simulation / reinforcement learning / enterprise LLM/VLM",
+    "Production-scale training data pipeline ownership",
+    "VLA 2.0 / XWorld / Robotics framework experience",
+    "Previous autonomous driving industry experience (not just academic/research project)",
+    "Senior-level full-time industry ML engineering experience (candidate is new-grad, 0 years full-time, 7 internships)"
+  ],
+  "top_ats_keywords": [
+    "FSDP",
+    "Expert Parallel",
+    "Context Parallel",
+    "vLLM",
+    "SGLang",
+    "PyTorch",
+    "transformer",
+    "CUDA",
+    "Ray",
+    "autonomous driving",
+    "VLA 2.0",
+    "XWorld",
+    "robotics",
+    "foundation model",
+    "distributed training",
+    "cloud inference",
+    "reinforcement learning",
+    "simulation",
+    "petabyte"
+  ],
+  "required_skills": [
+    "Master's Degree in CS/CE/EE or equivalent",
+    "Deep knowledge of PyTorch",
+    "Knowledge of model inference framework (e.g. vLLM, SGLang)",
+    "In-depth knowledge of transformer architecture and acceleration methods",
+    "Experience performing large scale distributed training of models",
+    "Track record of profiling model and improving training/inference speed"
+  ],
+  "preferred_skills": [
+    "Previous experience in autonomous driving industry",
+    "Experience with CUDA language for writing custom ops",
+    "Experience with edge computing systems",
+    "Knowledge of distributed computing frameworks such as Ray",
+    "Track record of efficiently solving complex problems collaboratively on larger teams"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and implement training data pipeline streaming from hundreds of petabytes of labeled/unlabeled data from a fleet of over a million vehicles",
+    "Implement training framework for physical AI foundation models (VLA 2.0, XWorld, Robotics)",
+    "Accelerate training with parallelisms (FSDP, Expert Parallel, Context Parallel) and data types",
+    "Accelerate model inference on the cloud for closed-loop simulation, reinforcement learning, and enterprise LLM/VLM applications"
+  ],
+  "role_category": "ml_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

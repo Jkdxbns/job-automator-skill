@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "company": "Actalent",
+    "role": "Sr. Software Perception Engineer",
+    "company_slug": "actalent",
+    "job_slug": "sr-software-perception-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience building object detection, tracking, and classification pipelines for robotics and autonomy systems. Built YOLO-based perception stacks on NVIDIA Jetson for real-time object tracking and visual servoing, fused camera and time-of-flight sensor data for contact-aware grasping, and trained CNN classifiers (VGG-16/ResNet-50) evaluated on Dice Score and IoU. Experienced with ROS2, MoveIt, and RViz for robotic-arm kinematics, using PyTorch, CUDA, and TensorRT across the full perception-to-deployment pipeline.",
+  "skills": {
+    "Robotics & Perception": [
+      "Object Detection",
+      "Tracking",
+      "Classification",
+      "YOLO",
+      "ROS/ROS2",
+      "Visual Servoing",
+      "MoveIt",
+      "RViz",
+      "Forward Kinematics"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Deep Learning",
+      "TensorRT",
+      "Model Evaluation"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA"
+    ],
+    "Embedded": [
+      "NVIDIA Jetson",
+      "STM32",
+      "FreeRTOS",
+      "UART/I2C"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16/VGG-19/ResNet-50 backbones on the BraTS 2020 MRI dataset; evaluated on Dice Score and IoU, reporting accuracy-latency trade-offs.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student, restructuring task distribution to deliver the full segmentation pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush-detection dataset for health-level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects in real time, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and FreeRTOS-managed task coordination; integrated VL53L0X ToF sensing for closed-loop feedback."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2\u00d7 speedup, 17.6\u219292 FPS) for visual servoing, fusing dual VL53L0X ToF sensors with camera range-gating for contact-aware grasping.",
+        "Resolved 11 integration failures across a three-layer distributed perception-to-actuation pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated CARLA data-generation pipelines (semantic segmentation + raycast occlusion filtering) producing ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) for lane detection; validated in Town02 with 30 vehicles and 10 pedestrians, achieving zero collisions."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

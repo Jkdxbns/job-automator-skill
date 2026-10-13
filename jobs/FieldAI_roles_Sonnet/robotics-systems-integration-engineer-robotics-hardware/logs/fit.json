@@ -1,0 +1,168 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robotics Systems Integration Engineer, Robotics Hardware",
+  "job_slug": "robotics-systems-integration-engineer-robotics-hardware",
+  "match_pct": 42.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 20,
+    "req_cov": 0.154,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "ROS/ROS2 middleware (COFFIN MS Capstone (ROS2 Humble + ROS Noetic, UR ROS2 driver); ROS-Based Robotic Arm (AL5B & UR5e) with MoveIt/RViz)",
+    "Python (Python Developer Intern at BARC (PyQt/Matplotlib GUI); AI/ML Intern at IIT Bombay (PyTorch + HuggingFace); COFFIN (Flask-SocketIO server))",
+    "C++ (C/C++ in skills; CUDA Kernel Optimization (custom CUDA C++ kernels); STM32 bare-metal embedded C)",
+    "Robotics software generalist (controls, navigation, systems integration) (COFFIN arm (visual servoing, dual VL53L0X ToF sensors, 100% pick reliability 10/10, resolved 11 integration failures); ROS-Based Arm (DH tables, forward kinematics, MoveIt); Object Tracking Turret (YOLO + servo control))",
+    "Systems integration / platform bring-up (COFFIN (multi-board integration: Jetson + Arduino + ToF sensors + TCA9548A I2C mux; resolved 11 integration failures); wearable gesture glove (ADXL345 + Raspberry Pi + HC-05 Bluetooth); systemd deployment)",
+    "Cross-functional collaboration (Led 7-person research team (Teesside BraTS segmentation); General Secretary Agnel Robotics Club (25 members, EAGLE PCB, UART/I2C); coordinated mechanical/electrical on COFFIN capstone)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sim-to-real validation (RL/autonomy policies from Isaac, Gazebo, MuJoCo)",
+      "you_have": "CARLA autonomous driving (sim environment with semantic segmentation, YOLO11n + UFLD lane detection, zero collisions in Town02); ROS-based robot simulation experience; no RL policy validation from Isaac/Gazebo/MuJoCo"
+    },
+    {
+      "jd_skill": "CAN bus / EtherCAT / real-time robotics communication protocols",
+      "you_have": "UART/I2C/SPI (COFFIN arm, STM32 bare-metal temperature monitor, Object Tracking Turret); Bluetooth BLE/Classic (gesture glove HC-05); closest serial communication protocols, no CAN/EtherCAT"
+    },
+    {
+      "jd_skill": "Electro-mechanical integration (motors, BLDC controllers, power distribution, electrical systems)",
+      "you_have": "Multi-servo PWM control (Object Tracking Turret); EAGLE PCB fabrication (Agnel Robotics Club); TCA9548A I2C mux and sensor wiring (COFFIN); closest but no direct BLDC controller or power distribution board experience"
+    },
+    {
+      "jd_skill": "Multi-platform robot integration (legged, quadruped, humanoid, wheeled UGV)",
+      "you_have": "Manipulators/arms (COFFIN, AL5B, UR5e); wheeled (CARLA autonomous driving); closest but no quadruped, humanoid, or biped platform experience"
+    },
+    {
+      "jd_skill": "Platform abstraction layer development",
+      "you_have": "ROS2 abstraction for COFFIN (Jetson host + Arduino bridge for control and sensors); closest but not a full multi-robot abstraction layer enabling payload portability across platforms"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "SIL/HIL testing",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Functional safety (ISO 26262, ASIL) and SOTIF/ISO 21448",
+      "you_have": "Profile explicitly notes no formal functional-safety/ISO certification; only reliability work (COFFIN systemd auto-restart, non-root isolation)"
+    },
+    {
+      "jd_skill": "E-stop and redundancy/fault-tolerant safety layers",
+      "you_have": "No explicit e-stop or safety-layer implementation; closest is systemd reliability/restart in COFFIN"
+    },
+    {
+      "jd_skill": "Field deployment logistics (construction, mining, oil & gas)",
+      "you_have": "No industrial field environment deployment experience; only lab/research deployment (COFFIN, BARC, IIT Bombay)"
+    },
+    {
+      "jd_skill": "Multi-robot fleet operations / auto-docking / charging infrastructure / teleoperation",
+      "you_have": "No multi-robot fleet, docking, charging, or teleoperation experience"
+    },
+    {
+      "jd_skill": "Advanced controls (whole-body control, MPC, impedance/admittance, trajectory optimization)",
+      "you_have": "Visual servoing and forward kinematics (COFFIN, ROS Arm); no MPC, whole-body control, or trajectory optimization"
+    },
+    {
+      "jd_skill": "Specific multi-platform vendors (Unitree, Boston Dynamics, Clearpath)",
+      "you_have": "No experience with named commercial robot platforms (Unitree, Boston Dynamics, Clearpath)"
+    },
+    {
+      "jd_skill": "Specific simulators (Isaac, Gazebo, MuJoCo)",
+      "you_have": "CARLA only for simulation; no NVIDIA Isaac, Gazebo, or MuJoCo experience mentioned"
+    },
+    {
+      "jd_skill": "Experience: 3-9 years (mid-level)",
+      "you_have": "New-grad, 0 years full-time, 7 internships/research roles"
+    }
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "ROS",
+    "platform abstraction",
+    "robot control",
+    "navigation",
+    "autonomy stack",
+    "payload",
+    "sim-to-real",
+    "RL",
+    "Isaac",
+    "Gazebo",
+    "MuJoCo",
+    "SIL",
+    "HIL",
+    "ISO 26262",
+    "ASIL",
+    "SOTIF",
+    "CAN bus",
+    "EtherCAT",
+    "BLDC",
+    "power distribution",
+    "quadruped",
+    "humanoid",
+    "biped",
+    "wheeled UGV",
+    "field deployment",
+    "fleet",
+    "e-stop",
+    "redundancy",
+    "fault-tolerant",
+    "multi-robot"
+  ],
+  "required_skills": [
+    "ROS/ROS2 middleware",
+    "Python",
+    "C++",
+    "Robotics software generalist (controls, navigation, systems integration across legged and wheeled platforms)",
+    "Sim-to-real validation (RL/autonomy policies from Isaac, Gazebo, MuJoCo to physical hardware)",
+    "Multi-platform robot integration (legged, quadruped, humanoid, wheeled UGV)",
+    "SIL/HIL testing",
+    "CAN bus / EtherCAT / real-time robotics communication protocols",
+    "Electro-mechanical integration (motors, BLDC controllers, power distribution, electrical systems)",
+    "Functional safety (ISO 26262, ASIL)",
+    "E-stop and redundancy/fault-tolerant safety layers",
+    "Field deployment logistics",
+    "Platform abstraction layer development"
+  ],
+  "preferred_skills": [
+    "Multi-platform experience (Unitree, Boston Dynamics, Clearpath)",
+    "Harsh industrial field environments (construction, mining, oil & gas)",
+    "Functional safety standards (ISO 26262, ASIL, SOTIF/ISO 21448)",
+    "Advanced controls (whole-body control, MPC, impedance/admittance control, trajectory optimization)",
+    "Multi-robot fleet operations / auto-docking / charging infrastructure / teleoperation"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Platform Integration & Controls (platform abstraction, robot control/navigation, electro-mechanical integration, sim-to-real validation)",
+    "Cross-Functional Integration & Fleet Scaling (coordinate across Autonomy/RL, Manipulation, Mechanical, Electrical; SIL/HIL testing; multi-platform support; new robot integration)",
+    "Safety & Infrastructure (e-stop/redundancy layers, functional safety practices, charging/docking, field deployment logistics)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

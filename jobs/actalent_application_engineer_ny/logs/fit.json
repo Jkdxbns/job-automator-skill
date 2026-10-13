@@ -1,0 +1,74 @@
+{
+  "company": "Actalent (undisclosed client, rail signaling/Control Center Systems)",
+  "company_slug": "actalent",
+  "role": "Application Engineer",
+  "job_slug": "application_engineer_ny",
+  "match_pct": 79,
+  "missing_skills": [
+    "Rail signaling / safety-critical industry experience",
+    "SCADA systems",
+    "Modbus protocol",
+    "Interface Control Documents (ICDs) / formal requirements management",
+    "Project schedule/budget tracking"
+  ],
+  "adjacent_skills": [
+    "Control systems (embedded control loops via STM32 bare-metal, sensor/actuator integration) -> SCADA/control systems",
+    "Serial/TCP-IP communication (UART, I2C, SPI, TCP) -> industrial comms protocols",
+    "Debugging/diagnostic tools (embedded GDB-level debugging) -> GDB/Wireshark",
+    "System integration & testing (robotics integration, ML pipeline testing) -> V&V processes",
+    "Windows administration (primarily Linux-heavy background) -> Windows/Linux dual admin"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Bash",
+    "Linux",
+    "Windows",
+    "SCADA",
+    "Modbus",
+    "TCP/IP",
+    "system integration",
+    "V&V",
+    "troubleshooting",
+    "schematics",
+    "control systems",
+    "GDB",
+    "Wireshark"
+  ],
+  "key_responsibilities": [
+    "Support technical deployment of Control Center System solutions",
+    "Product testing and V&V activities in lab and project environments",
+    "Analyze customer requirements/specs to define technical solutions",
+    "Application engineering designs: schematics, system configs, interface definitions",
+    "Lab validation, troubleshooting, integration support",
+    "Test plans, integration documentation, defect analysis",
+    "Technical documentation maintenance"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Genuine embedded hardware/firmware depth: STM32 bare-metal Cortex-M4 work with direct register-level GPIO/TIM/ADC/I2C drivers, EAGLE PCB design, interrupt-driven architectures (STM32 Bare-Metal Temperature Monitor, Object Tracking Turret) -- maps well to 'application engineering designs including schematics, system configurations, interface definitions'",
+      "Real multi-layer systems integration and debugging under pressure: COFFIN capstone resolved 11 distinct integration failures (false positives, servo brown-out, stale frames) across a 3-tier distributed pipeline -- directly evidences the 'troubleshoot application-level issues... support resolution during testing and deployment' responsibility",
+      "Demonstrated validation/measurement discipline: repeatability testing (<2mm over 10 trials), reliability trials (10/10 pick success), benchmarked latency -- shows a testing mindset even without formal V&V process exposure",
+      "Scripting (Python) and Linux comfort is broad and consistent across nearly every project listed"
+    ],
+    "real_gaps": [
+      "Zero exposure to the JD's actual regulatory/industry domain: rail signaling, safety-critical certification frameworks (e.g. CENELEC/IEC-style processes implied by 'safety-critical industries'), SCADA, or Modbus -- nothing in the profile touches industrial/transportation control systems",
+      "No experience with formal systems engineering artifacts -- Interface Control Documents, requirements traceability -- academic/research projects don't produce these",
+      "All experience is internship, research, or academic-capstone scope; none of it is commercial project delivery with external customer stakeholders, contracts, or acceptance criteria, which is the framing the JD uses throughout ('customer acceptance', 'contractual requirements')",
+      "No project schedule/budget tracking experience anywhere in the profile"
+    ],
+    "overstated_by_keywords": [
+      "'Control systems' -- keyword match credits this via embedded motor/servo control (PWM, visual servoing), which is a different engineering discipline than SCADA/industrial process control the JD means",
+      "'System integration' -- profile's integration experience is single-team, personal-project software/embedded stack integration, not the multi-stakeholder commercial integration the JD describes",
+      "'TCP/IP, Serial' -- used at a low level (UART between microcontrollers, WebSocket for app comms), not as industrial SCADA network protocols",
+      "GDB/Wireshark -- no direct evidence; profile shows Proteus simulation and oscilloscope/logic-analyzer debugging instead, which is adjacent skill but not the named tools"
+    ],
+    "reasoning": "The keyword match (79%) overstates fit because many hits are Justin's ML/robotics/embedded vocabulary mapping loosely onto SCADA/rail-signaling terms rather than direct domain experience. His actual strength is hands on embedded systems troubleshooting and integration rigor, which is genuinely valuable and would transfer, but the role's core domain (rail signaling, safety-critical systems engineering, formal V&V/ICD processes) is entirely unrepresented in his background. This reads as a trainable generalist match, not a domain match -- consistent with the recruiter's own framing that they'll train motivated candidates rather than screening strictly on rail experience."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "company": "fruitcore robotics",
+  "company_slug": "fruitcore-robotics",
+  "role": "Pflichtpraktikum / Werkstudent (m/w/d) \u2013 KI & Robotik",
+  "job_slug": "pflichtpraktikum-werkstudent-ki-robotik",
+  "match_pct": 56.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 15,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Programming (good programming skills)",
+    "AI / Machine Learning",
+    "Computer Vision / Object Recognition",
+    "Robotics / Robot Hardware",
+    "Independent project ownership / responsibility",
+    "Real-time embedded / edge deployment",
+    "Intelligent interaction / HRI / voice interaction"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Intelligent interaction with humanoid robot (PLEXA)",
+      "you_have": "Voice-controlled interaction + visual servoing on physical robotic arm"
+    },
+    {
+      "jd_skill": "Software development directly on real robotics hardware",
+      "you_have": "Embedded deployment on Jetson + Arduino + STM32 with systemd/networking"
+    },
+    {
+      "jd_skill": "Computer Vision applications for humanoid perception",
+      "you_have": "Real-time object detection + depth estimation + visual servoing"
+    }
+  ],
+  "missing_skills": [
+    "Explicit enrollment as current student (required by Pflichtpraktikum / Werkstudent \u2014 profile shows M.S. completed May 2026, may need verification of current status)",
+    "German language fluency (not stated in JD as required, but company is German; no profile evidence of German)",
+    "Experience with PLEXA / humanoid robot platform specifically (new platform, not available externally)",
+    "CAD / mechanical design (SolidWorks mentioned in skills, but not highlighted for robot hardware design)",
+    "Profinet / PLC / SPS / industrial automation protocols (not mentioned in JD, but domain skills common in German industrial robotics \u2014 profile has none of these)"
+  ],
+  "top_ats_keywords": [
+    "KI",
+    "Robotik",
+    "Computer Vision",
+    "Objekterkennung",
+    "PLEXA",
+    "Softwareentwicklung",
+    "Hardware",
+    "Praktikum",
+    "Werkstudent"
+  ],
+  "required_skills": [
+    "Programming (good programming skills)",
+    "AI / Machine Learning",
+    "Computer Vision / Object Recognition",
+    "Robotics / Robot Hardware",
+    "Independent project ownership / responsibility",
+    "Current university enrollment (Pflichtpraktikum / Werkstudent)"
+  ],
+  "preferred_skills": [
+    "Software development for humanoid robot (PLEXA One)",
+    "Intelligent interaction / HRI",
+    "Computer Vision applications",
+    "Real-time embedded / edge deployment",
+    "Team collaboration in software development"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Develop intelligent applications for humanoid robot PLEXA One",
+    "Work at interface of robotics and AI",
+    "Topics in Computer Vision, object recognition, intelligent robot interaction",
+    "Own a project from idea through development to testing on real hardware"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Konstanz, Baden-W\u00fcrttemberg, Germany (Macairestra\u00dfe 3)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true,
+    "german_required": false,
+    "degree_enrollment_required": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

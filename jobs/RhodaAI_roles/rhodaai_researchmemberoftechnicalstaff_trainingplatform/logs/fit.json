@@ -1,0 +1,33 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhodaai",
+  "role": "Research Member of Technical Staff - Training Platform",
+  "job_slug": "researchmemberoftechnicalstaff_trainingplatform",
+  "match_pct": 60,
+  "missing_skills": [
+    "Distributed training frameworks (DDP, FSDP, DeepSpeed, Megatron)",
+    "Experiment tracking / artifact management systems (W&B, MLflow)",
+    "Kubernetes",
+    "Reliability engineering (monitoring, alerting, failure recovery) for training infra"
+  ],
+  "adjacent_skills": [
+    "PyTorch (has model-level PyTorch, not multi-GPU distributed training)",
+    "SLURM (has SLURM-managed GPU job experience from CUDA/HPC work, not full cluster orchestration ownership)",
+    "GPU profiling (pynvml, kernel optimization, memory coalescing -- adjacent to observability/anomaly detection asks)"
+  ],
+  "top_ats_keywords": ["SLURM", "CUDA", "PyTorch", "GPU", "MLOps", "distributed training", "Kubernetes", "experiment tracking", "reliability engineering"],
+  "key_responsibilities": [
+    "Build/maintain training orchestration for distributed model training across GPU clusters",
+    "Experiment management tooling: config, tracking, reproducibility, artifact management",
+    "Observability infra: loss curves, compute utilization, gradient stats, anomaly detection",
+    "Automate research iteration loop",
+    "Job scheduling / cluster utilization management",
+    "Internal tooling for researchers"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

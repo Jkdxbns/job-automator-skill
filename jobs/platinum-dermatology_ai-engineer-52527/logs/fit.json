@@ -1,0 +1,109 @@
+{
+  "company": "Platinum Dermatology Partners",
+  "company_slug": "platinum-dermatology-partners",
+  "role": "AI Engineer",
+  "job_slug": "ai-engineer-52527",
+  "match_pct": 45.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 20,
+    "req_cov": 0.115,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "REST API / API integration",
+    "LLM / AI experience (practical daily use via Claude, Gemini, agentic workflows in COFFIN)",
+    "Voice AI / ASR (faster-whisper, custom ASR pipeline, 15% WER)",
+    "Production software (COFFIN systemd service, deployed Jetson+Arduino pipeline, web server)",
+    "Autonomous end-to-end delivery (COFFIN: voice \u2192 intent \u2192 vision \u2192 servo from scratch; telemetry pipeline)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "AI coding agents / agentic workflows",
+      "you_have": "Used coding agents (Claude) daily; built agentic pipeline (voice \u2192 Gemini intent \u2192 YOLO \u2192 servo) in COFFIN"
+    },
+    {
+      "jd_skill": "Databricks / Spark / data platforms",
+      "you_have": "Built custom data pipelines (BraTS MRI pipeline, telemetry TCP pipeline); no Spark/Databricks experience"
+    },
+    {
+      "jd_skill": "Frontend / dashboard development",
+      "you_have": "Built Flask-SocketIO server + PyQt GUI; basic HTML/CSS; no dedicated frontend framework (React/Vue)"
+    },
+    {
+      "jd_skill": "Cloud infrastructure (Azure)",
+      "you_have": "Linux administration (systemd, static IP, XRDP, secrets/config separation); no Azure cloud experience"
+    },
+    {
+      "jd_skill": "Healthcare operations / referrals / denials / revenue cycle",
+      "you_have": "Medical imaging pipeline (BARC, BraTS) but no healthcare ops / billing / RCM domain"
+    },
+    {
+      "jd_skill": "Agentic workflows / agent design",
+      "you_have": "Built multi-agent distributed pipeline (Flutter client \u2192 Flask edge \u2192 Jetson controller via WebSocket)"
+    }
+  ],
+  "missing_skills": [
+    "SQL (no SQL keywords in profile; Python-based data handling only)",
+    "Databricks (Unity Catalog, Delta Lake, Lakeflow Connect \u2014 no exposure)",
+    "Spark / Spark-like distributed data engine (MPI experience \u2260 Spark)",
+    "Healthcare data standards (FHIR, HL7 \u2014 no exposure)",
+    "HIPAA compliance / PHI handling (no exposure)",
+    "Azure cloud infrastructure (no cloud platform experience)",
+    "Dedicated frontend framework / internal dashboard tools",
+    "Healthcare operations domain (referrals, denials, credentialing, RCM)"
+  ],
+  "top_ats_keywords": [],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "REST API integration",
+    "LLM experience",
+    "AI coding tools",
+    "Databricks / Spark / similar data platforms",
+    "Healthcare data (FHIR, HL7)",
+    "HIPAA / PHI handling",
+    "Cloud infrastructure (Azure preferred)",
+    "Voice AI technologies",
+    "Frontend / dashboard development",
+    "Production software shipping",
+    "Autonomous project management / end-to-end ownership"
+  ],
+  "preferred_skills": [
+    "Healthcare operations experience",
+    "Agentic workflows / agent design",
+    "Data pipeline design",
+    "Revenue cycle / referrals / denials domain",
+    "Security automation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "ml_systems",
+  "location": "Dallas, TX 75231",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "defense_category": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

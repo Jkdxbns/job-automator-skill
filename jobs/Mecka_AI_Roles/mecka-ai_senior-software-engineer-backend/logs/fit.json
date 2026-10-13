@@ -1,0 +1,122 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Senior Software Engineer, Backend",
+  "job_slug": "senior-software-engineer-backend",
+  "match_pct": 15.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 4,
+    "missing_count": 15,
+    "jd_ask_size": 20,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "API / service interfaces"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "video / media / vision processing",
+      "you_have": "computer vision / image processing / object detection"
+    },
+    {
+      "jd_skill": "edge / ingestion (data capture)",
+      "you_have": "edge AI deployment / sensor data acquisition"
+    },
+    {
+      "jd_skill": "distributed GPU / GPU compute coordination",
+      "you_have": "CUDA / GPU kernel optimization / TensorRT"
+    },
+    {
+      "jd_skill": "CDN / edge delivery",
+      "you_have": "Edge AI / edge deployment"
+    }
+  ],
+  "missing_skills": [
+    "backend software engineering (production-scale)",
+    "system design fundamentals",
+    "production systems operation (cloud backend)",
+    "debugging and operational judgment",
+    "video streaming / transcoding / storage backend",
+    "metadata / search APIs",
+    "observability (metrics, logs, tracing)",
+    "incident response / operational tooling",
+    "cloud networking",
+    "storage I/O",
+    "queuing / retries / idempotency / backpressure",
+    "capacity planning",
+    "reliability / uptime / latency engineering",
+    "clean interfaces / maintainable documentation",
+    "failure modes / invariants"
+  ],
+  "top_ats_keywords": [
+    "backend engineer",
+    "system design",
+    "production systems",
+    "video processing",
+    "streaming",
+    "transcoding",
+    "CDN",
+    "edge",
+    "ingestion",
+    "metadata search",
+    "observability",
+    "metrics logs tracing",
+    "distributed GPU",
+    "cloud networking",
+    "API reliability",
+    "latency uptime",
+    "capacity planning",
+    "storage I/O",
+    "failure modes invariants"
+  ],
+  "required_skills": [
+    "backend software engineering",
+    "system design fundamentals",
+    "production systems operation",
+    "debugging / operational judgment",
+    "high-throughput service design",
+    "video/media backend at scale (streaming, transcoding, storage, CDN/edge, ingestion, metadata/search)"
+  ],
+  "preferred_skills": [
+    "observability (metrics/logs/tracing)",
+    "incident response and operational tooling",
+    "distributed GPU / cloud compute coordination",
+    "network throughput / storage I/O / queuing / retries / idempotency / backpressure",
+    "clean interfaces / maintainable documentation"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build high-throughput services for upload/ingest, processing, indexing, retrieval, and access control of petabyte-scale video and sensor data",
+    "Own service quality end-to-end: correctness, latency, uptime, capacity planning, and cost",
+    "Build observability (metrics/logs/tracing), incident response, and operational tooling",
+    "Coordinate large jobs across cloud infrastructure and GPU fleets; make data movement reliable (storage I/O, network throughput, queuing, retries, idempotency, backpressure)",
+    "Design APIs and internal primitives that make large datasets usable for research, labeling, QA, and model training"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

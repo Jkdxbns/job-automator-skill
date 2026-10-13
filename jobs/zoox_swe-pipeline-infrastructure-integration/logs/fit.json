@@ -1,0 +1,124 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Software Engineer - Pipeline Infrastructure & Integration",
+  "job_slug": "swe-pipeline-infrastructure-integration",
+  "match_pct": 18.8,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 18,
+    "jd_ask_size": 24,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Bash (shell scripting)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Web servers",
+      "you_have": "Flask/Flask-SocketIO"
+    },
+    {
+      "jd_skill": "C++11/14/17 threading & memory management",
+      "you_have": "C/C++ (bare-metal, CUDA C++)"
+    },
+    {
+      "jd_skill": "RTOS",
+      "you_have": "FreeRTOS"
+    }
+  ],
+  "missing_skills": [
+    "Bazel",
+    "Databases",
+    "System design documentation",
+    "Enterprise-scale deployment",
+    "ClangTidy",
+    "ASAN",
+    "TSAN",
+    "FBInfer",
+    "CI/CD",
+    "Dashboards",
+    "KPIs",
+    "Static analysis",
+    "Root cause analysis",
+    "PipeDream",
+    "Airflow",
+    "Looker",
+    "ReactJS",
+    "TypeScript"
+  ],
+  "top_ats_keywords": [
+    "ClangTidy",
+    "ASAN",
+    "TSAN",
+    "FBInfer",
+    "CI/CD",
+    "Bazel",
+    "Python",
+    "C++",
+    "Dashboards",
+    "KPIs",
+    "Static analysis",
+    "RTOS",
+    "Safety-critical software",
+    "Root cause analysis",
+    "Shell scripts",
+    "Databases",
+    "Web servers"
+  ],
+  "required_skills": [
+    "Bazel",
+    "Python",
+    "Databases",
+    "Web servers",
+    "Shell scripting",
+    "C++",
+    "System design documentation",
+    "Automation scripting",
+    "Enterprise-scale deployment"
+  ],
+  "preferred_skills": [
+    "PipeDream",
+    "Airflow",
+    "Looker",
+    "ReactJS",
+    "TypeScript",
+    "C++11/14/17 threading & memory management"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own the SSE pipeline ecosystem (ClangTidy, ASAN/TSAN/Harden, FBInfer) across weekly/nightly/CI",
+    "Take pipelines from prototype to fully deployed CI-enforced systems",
+    "Build dashboards and KPIs from raw issue data",
+    "Root-cause cross-platform and determinism bugs",
+    "Shape new checker rollouts and testing strategy"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Foster City, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

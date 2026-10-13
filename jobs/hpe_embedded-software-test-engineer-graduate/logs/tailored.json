@@ -1,0 +1,76 @@
+{
+  "_meta": {"company": "Hewlett Packard Enterprise", "role": "Embedded Software Test Engineer Graduate", "company_slug": "hpe", "job_slug": "embedded-software-test-engineer-graduate"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on embedded systems testing and debugging experience across bare-metal C firmware and embedded Linux (NVIDIA Jetson) platforms. Designed and validated low-level I2C/SPI/UART device drivers, systematically debugged multi-sensor hardware integration to reach 100% test reliability, and led cross-functional engineering teams through complex technical validation.",
+  "skills": {
+    "Embedded & Testing": ["Bare-metal C", "Embedded Linux (Jetson)", "Device drivers (I2C/SPI/UART/ADC)", "Hardware-in-the-loop testing/debugging"],
+    "Languages": ["Python", "C/C++"],
+    "Tools": ["Git", "Proteus", "Oscilloscopes", "Logic Analyzers"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and debugging."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through systematic debugging; achieved 100% pick reliability (10/10 trials).",
+        "Deployed the Jetson-side arm bridge as a systemd service (auto-restart with backoff, non-root isolation) on embedded Linux, with static IP networking for reliable multi-device communication.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection via dual VL53L0X ToF sensors over I2C mux."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson (embedded Linux) to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override; debugged timing and jitter issues across the sensor-to-actuator pipeline.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

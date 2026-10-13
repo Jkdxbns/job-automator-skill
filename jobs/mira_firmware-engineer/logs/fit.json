@@ -1,0 +1,105 @@
+{
+  "company": "MIRA",
+  "company_slug": "mira",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 16,
+    "req_cov": 0.857,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "embedded systems",
+    "low-level debugging",
+    "RTOS",
+    "BLE",
+    "device communication stacks",
+    "wireless protocols",
+    "embedded Linux",
+    "microcontrollers",
+    "sensors",
+    "real-time systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "audio pipelines",
+      "you_have": "ASR/speech pipelines (faster-whisper, STT)"
+    },
+    {
+      "jd_skill": "consumer hardware experience",
+      "you_have": "wearable device projects"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "power optimization",
+    "startup/founding engineer experience"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Rust",
+    "embedded systems",
+    "RTOS",
+    "BLE",
+    "embedded Linux",
+    "microcontrollers",
+    "sensors",
+    "real-time systems",
+    "firmware"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Rust",
+    "embedded systems",
+    "low-level debugging",
+    "RTOS",
+    "BLE",
+    "device communication stacks"
+  ],
+  "preferred_skills": [
+    "wireless protocols",
+    "embedded Linux",
+    "microcontrollers",
+    "sensors",
+    "audio pipelines",
+    "power optimization",
+    "real-time systems",
+    "startup/founding engineer experience",
+    "consumer hardware experience"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build firmware for AI wearable glasses",
+    "Work across hardware/software boundary",
+    "Ship production systems under tight iteration cycles"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA (in-person)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

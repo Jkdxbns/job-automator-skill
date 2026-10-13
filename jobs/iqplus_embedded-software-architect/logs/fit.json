@@ -1,0 +1,94 @@
+{
+  "company": "IQ Plus AG",
+  "company_slug": "iqplus",
+  "role": "Embedded Software Architect",
+  "job_slug": "embedded-software-architect",
+  "match_pct": 40.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 1,
+    "missing_count": 6,
+    "jd_ask_size": 11,
+    "req_cov": 0.438,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "embedded software development experience",
+    "modern software engineering methods",
+    "testing and automation concepts",
+    "Zephyr RTOS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "software architecture design",
+      "you_have": "personal/capstone project architecture (inference engine, telemetry gateway)"
+    }
+  ],
+  "missing_skills": [
+    "architecture governance",
+    "development guidelines",
+    "leadership/coaching of development teams",
+    "German language proficiency",
+    "scalable and modular embedded software platforms",
+    "experience with distributed development teams"
+  ],
+  "top_ats_keywords": [
+    "embedded software",
+    "software architecture",
+    "architecture governance",
+    "development guidelines",
+    "testing and automation",
+    "Zephyr RTOS",
+    "team leadership",
+    "German"
+  ],
+  "required_skills": [
+    "embedded software development experience",
+    "software architecture design",
+    "modern software engineering methods",
+    "architecture governance",
+    "development guidelines",
+    "testing and automation concepts",
+    "leadership/coaching of development teams",
+    "German language proficiency"
+  ],
+  "preferred_skills": [
+    "Zephyr RTOS",
+    "scalable and modular embedded software platforms",
+    "experience with distributed development teams"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "architecture and strategic development of an embedded software platform",
+    "evaluate new technologies",
+    "define sustainable technology standards",
+    "architecture governance, development guidelines, testing and automation concepts",
+    "align architectural requirements with customers, management, dev teams",
+    "document technical decisions",
+    "support distributed development teams"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Frauenfeld, Switzerland",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

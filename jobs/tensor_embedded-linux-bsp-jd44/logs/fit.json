@@ -1,0 +1,118 @@
+{
+  "company": "Tensor",
+  "company_slug": "tensor",
+  "role": "Embedded Software Engineer: Linux BSP",
+  "job_slug": "embedded-linux-bsp-jd44",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 18,
+    "req_cov": 0.647,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "ARM architecture",
+    "I2C",
+    "SPI",
+    "UART",
+    "makefile",
+    "circuit schematics",
+    "oscilloscopes"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NXP/TI SoC",
+      "you_have": "STM32 Cortex-M4 / Jetson"
+    },
+    {
+      "jd_skill": "peripheral drivers",
+      "you_have": "bare-metal peripheral programming"
+    },
+    {
+      "jd_skill": "Linux kernel",
+      "you_have": "Linux (userland)"
+    }
+  ],
+  "missing_skills": [
+    "kernel modules",
+    "kernel debugging",
+    "PCIe",
+    "CAN",
+    "CANoe",
+    "kvaser",
+    "Yocto"
+  ],
+  "top_ats_keywords": [
+    "Linux kernel",
+    "BSP",
+    "device drivers",
+    "Yocto",
+    "CAN",
+    "PCIe",
+    "I2C",
+    "SPI",
+    "UART",
+    "makefile",
+    "CANoe",
+    "kvaser",
+    "ARM",
+    "NXP",
+    "TI"
+  ],
+  "required_skills": [
+    "C/C++",
+    "ARM architecture",
+    "NXP/TI SoC",
+    "Linux kernel",
+    "kernel modules",
+    "peripheral drivers",
+    "kernel debugging",
+    "I2C",
+    "SPI",
+    "PCIe",
+    "UART",
+    "CAN",
+    "makefile",
+    "CANoe",
+    "kvaser",
+    "circuit schematics",
+    "oscilloscopes"
+  ],
+  "preferred_skills": [
+    "Yocto"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "BSP driver development",
+    "kernel modules",
+    "integration test",
+    "fault analysis"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA, US (also Barcelona, Singapore, Dubai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

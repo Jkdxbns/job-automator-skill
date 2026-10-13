@@ -1,0 +1,77 @@
+{
+  "company": "OpenAI",
+  "company_slug": "openai",
+  "role": "Research Engineer / Research Scientist / AI Systems Engineer, RSI",
+  "job_slug": "research-engineer-rsi",
+  "match_pct": 65.0,
+  "missing_skills": [
+    "Agent systems / agent harnesses",
+    "Synthetic data generation",
+    "RL environments + RLHF/RL training",
+    "Sandboxed runtimes",
+    "Metrics and economic modeling of research productivity",
+    "Eval design for research judgment / hypothesis generation",
+    "Frontier-scale model training"
+  ],
+  "adjacent_skills": [
+    "LLM training -> GPT-2 from scratch, TinyLlama fine-tuning, BPE/TikToken tokenizers (small-scale, not frontier pretraining)",
+    "Large-scale distributed systems -> MPI + SLURM multi-node HPC coursework/projects (not production distributed infra)",
+    "Data pipelines -> ASR pipelines, LeRobot-structured dataset builds",
+    "Experiment orchestration -> SLURM job management",
+    "RL environments -> CARLA simulator work (simulation, not RL env design)"
+  ],
+  "have_skills": [
+    "Model evaluation (HellaSwag, GSM8K benchmarking)",
+    "Research infrastructure (SLURM, JupyterHub, HPC cluster)",
+    "Python",
+    "PyTorch",
+    "Model training + deployment lifecycle (fine-tuning, ONNX, TensorRT, quantization)",
+    "GPU / CUDA kernel optimization",
+    "Linux",
+    "Git"
+  ],
+  "top_ats_keywords": [
+    "LLM training",
+    "model evaluations",
+    "agent systems",
+    "synthetic data",
+    "RL environments",
+    "research infrastructure",
+    "large-scale distributed systems",
+    "data pipelines",
+    "experiment orchestration",
+    "sandboxed runtimes",
+    "model training",
+    "evaluation design",
+    "agent harnesses",
+    "PyTorch",
+    "Python",
+    "GPU",
+    "distributed training"
+  ],
+  "key_responsibilities": [
+    "Design evaluations for research judgment, hypothesis generation/testing, long-horizon experiment execution",
+    "Turn research workflows and model failures into data and evaluation flywheels",
+    "Improve model research capabilities via agent harnesses, synthetic data, RL environments, model training",
+    "Build safe, reliable integrations between models and OpenAI research infrastructure",
+    "Develop research agents, experiment-orchestration systems, sandboxed runtimes",
+    "Create metrics and economic models for RSI impact on research productivity and safety"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (Hybrid)",
+  "remote_ok": false,
+  "compensation": "$295K - $445K + equity",
+  "experience_level_stated": "not_stated",
+  "required_experience_years": 0,
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "clearance_required": false,
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

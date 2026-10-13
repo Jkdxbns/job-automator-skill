@@ -1,0 +1,107 @@
+{
+  "company": "ArcBest",
+  "company_slug": "arcbest",
+  "role": "Robotics Engineering Fellow - Vaux - FS/BOS",
+  "job_slug": "robotics-engineering-fellow-vaux",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Master's in Engineering (MS Computer Engineering, RIT 2024-2026, Education)",
+    "SolidWorks (Tools: SolidWorks listed in skills)",
+    "ROS/ROS2 (Languages & Systems: ROS2; Projects 1, 7, 9: COFFIN, ROS-Based Robotic Arm, Object Tracking Turret)",
+    "In-depth sensor knowledge (Project 1: VL53L0X ToF sensors; Project 9: VL53L0X; Project 14: quadrature encoders; Project 11: timer-triggered ADC/I2C; Project 4: CUDA kernel profiling)",
+    "Expert programming/systems design (Languages & Systems: Python, C/C++, CUDA, Cython; Projects 1-6, 8, 12-14)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PhD in Autonomous Systems/AI/Control Theory (preferred)",
+      "you_have": "MS Computer Engineering with coursework in Machine Intelligence, Deep Learning, Robot Perception, Principles of Robotics (Education)"
+    },
+    {
+      "jd_skill": "Demonstrated leadership at enterprise/commercial scale",
+      "you_have": "Capstone/project leadership (COFFIN MS Capstone lead; Robocon team build) \u2014 student-level, not enterprise R&D or multi-million dollar initiative leadership"
+    },
+    {
+      "jd_skill": "Commercial-scale robotic systems from R&D to high-volume deployment",
+      "you_have": "Multiple student/research-scale robotics projects (COFFIN arm, ROS AL5B/UR5e, Object Tracking Turret, Autonomous Driving in CARLA, STM32 Monitor) \u2014 no commercial/high-volume production track record"
+    },
+    {
+      "jd_skill": "Understanding of ArcBest org/business practices",
+      "you_have": "No evidence in profile"
+    }
+  ],
+  "missing_skills": [
+    "15+ years experience as high-impact Robotics Engineer (new-grad, 0 full-time years, 7 internships only)",
+    "Enterprise-level strategic technology roadmap and multi-million dollar R&D initiative experience",
+    "ArcBest organization/business practices knowledge",
+    "Commercial-scale high-volume robotic system deployment track record",
+    "Industry thought leadership / senior executive collaboration experience"
+  ],
+  "top_ats_keywords": [
+    "autonomous systems",
+    "SolidWorks",
+    "ROS",
+    "sensors",
+    "robotics engineer",
+    "R&D",
+    "high-volume deployment",
+    "leadership",
+    "strategic technology roadmap"
+  ],
+  "required_skills": [
+    "Master's in Engineering/CS/related",
+    "expert programming/systems analysis/design",
+    "in-depth knowledge of sensors used in robotics",
+    "SolidWorks",
+    "ROS experience",
+    "demonstrated leadership",
+    "understanding of ArcBest org/business practices"
+  ],
+  "preferred_skills": [
+    "PhD in Autonomous Systems/AI/Control Theory"
+  ],
+  "required_experience_years": 15,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Defines long-term strategic technology roadmap",
+    "Anticipates disruptive industry trends",
+    "Conceptualizes next-gen autonomous systems",
+    "Establishes enterprise-wide engineering standards",
+    "Works directly with senior executives",
+    "Orchestrates multi-million dollar R&D initiatives",
+    "Industry thought leader",
+    "Proven track record in commercial-scale robotic systems from early R&D to high-volume deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fort Smith, AR / Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

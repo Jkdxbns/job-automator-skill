@@ -1,0 +1,67 @@
+skill,justin_depth,evidence,ALL TARGET_jobs,ALL TARGET_pct,Firmware/Embedded_jobs,Firmware/Embedded_pct,Robotics/Perception_jobs,Robotics/Perception_pct,Edge-AI/ML-Systems_jobs,Edge-AI/ML-Systems_pct,gap_score,rating_source
+Python,strong,everywhere,414,54.8,138,41.1,122,62.2,278,68.5,0.0,skills_db
+C++,working,CUDA/COFFIN; C++ fluency = 2/3 interview losses,392,51.9,223,66.4,125,63.8,173,42.6,10.4,skills_db
+C / embedded C,strong,"STM32 bare-metal, COFFIN",233,30.9,203,60.4,21,10.7,34,8.4,0.0,skills_db
+Linux (userland / admin),strong,"Jetson, systemd, XRDP",192,25.4,138,41.1,48,24.5,62,15.3,0.0,skills_db
+Unit/HIL/SIL testing & validation,working,"CMPE test coursework, benchmarking",190,25.2,121,36.0,34,17.3,74,18.2,5.0,skills_db
+Deep learning (general),strong,,171,22.6,15,4.5,51,26.0,157,38.7,0.0,skills_db
+PyTorch,strong,,158,20.9,3,0.9,44,22.4,153,37.7,0.0,skills_db
+Computer vision (OpenCV/YOLO/detection),strong,"YOLO turret, Jetson CV",143,18.9,23,6.8,92,46.9,118,29.1,0.0,skills_db
+LLM / transformer inference,working,"GPT-2 from scratch, SLM project",141,18.7,4,1.2,16,8.2,137,33.7,3.7,agent_vs_db_disputed
+Cloud (AWS/GCP/Azure),none,,136,18.0,19,5.7,35,17.9,114,28.1,18.0,agent_judged
+CI/CD / DevOps,none,planned: telemetry_gateway,132,17.5,70,20.8,31,15.8,64,15.8,17.5,agent_judged
+Parallel / HPC (MPI/OpenMP/SLURM),working,two MPI projects,131,17.4,12,3.6,16,8.2,118,29.1,3.5,skills_db
+RTOS (any),working,"FreeRTOS in profile, ChibiOS drone, CMPE663 RTOS projects",130,17.2,123,36.6,13,6.6,12,3.0,3.4,skills_db
+CUDA / GPU kernels,strong,VGG16 CUDA project,120,15.9,13,3.9,29,14.8,109,26.8,0.0,skills_db
+Git / version control,strong,,119,15.8,73,21.7,19,9.7,45,11.1,0.0,skills_db
+Agile / SDLC / documentation,working,,113,15.0,84,25.0,13,6.6,26,6.4,3.0,agent_vs_db_disputed
+Ethernet / TCP-IP / networking,working,"telemetry_gateway LOCKED plan, static IP",111,14.7,88,26.2,18,9.2,22,5.4,2.9,skills_db
+Docker / containers / K8s,none,planned: telemetry_gateway,110,14.6,24,7.1,28,14.3,86,21.2,14.6,agent_judged
+Real-time / determinism / scheduling,working,"RTOS coursework, ToF-gated pipeline",109,14.4,61,18.2,34,17.3,51,12.6,2.9,agent_vs_db_disputed
+Data / SQL / pipelines,working,NumPy/Pandas only,109,14.4,13,3.9,14,7.1,95,23.4,2.9,agent_judged
+ARM Cortex-M / MCU,strong,STM32 L476RG/Cortex-M4,103,13.6,100,29.8,12,6.1,9,2.2,0.0,skills_db
+Profiling / benchmarking,strong,"pynvml, benchmark suites",96,12.7,19,5.7,18,9.2,80,19.7,0.0,agent_vs_db_disputed
+UART / I2C / SPI,strong,profile,95,12.6,91,27.1,10,5.1,7,1.7,0.0,skills_db
+ROS / ROS2,strong,"AL5B/UR5e, COFFIN",95,12.6,20,6.0,83,42.3,71,17.5,0.0,skills_db
+Hardware debug (scope/LA/JTAG/GDB),strong,scope/LA/multimeter,92,12.2,90,26.8,7,3.6,7,1.7,0.0,skills_db
+TensorRT / Jetson / edge deployment,strong,Jetson+TensorRT+YOLO,91,12.1,22,6.5,46,23.5,76,18.7,0.0,skills_db
+Systems design at scale / production ownership,none,capstone/internship scope,83,11.0,16,4.8,14,7.1,67,16.5,11.0,agent_judged
+Embedded Linux (kernel/drivers/Yocto),exposure,BBB plan; Jetson/RPi userland,81,10.7,78,23.2,8,4.1,8,2.0,6.4,skills_db
+Bare-metal / drivers / registers,strong,bare-metal STM32,80,10.6,77,22.9,5,2.6,8,2.0,0.0,skills_db
+Go / Java / JS,none,,77,10.2,27,8.0,8,4.1,48,11.8,10.2,agent_judged
+LiDAR / point cloud / 3D,exposure,"depth estimation, TF-Luna ToF",75,9.9,13,3.9,61,31.1,59,14.5,5.9,agent_judged
+Schematics / PCB,working,EAGLE/Proteus,74,9.8,68,20.2,10,5.1,4,1.0,2.0,agent_vs_db_disputed
+Path planning / navigation / autonomy,exposure,"CARLA, no dedicated planning project",68,9.0,11,3.3,58,29.6,55,13.5,5.4,agent_vs_db_disputed
+TensorFlow / Keras / TFLite,working,,66,8.7,3,0.9,18,9.2,63,15.5,1.7,skills_db
+MLOps / serving,none,planned: LLMOps project,65,8.6,0,0.0,6,3.1,65,16.0,8.6,agent_judged
+Gazebo / Isaac / sim,working,"CARLA, Gazebo-ish, frame sim",64,8.5,17,5.1,42,21.4,43,10.6,1.7,agent_vs_db_disputed
+Sensor fusion / Kalman / IMU,exposure,"MPU6050/GPS owned, telemetry plan",64,8.5,22,6.5,47,24.0,44,10.8,5.1,agent_vs_db_disputed
+Camera / ISP / imaging,exposure,,64,8.5,20,6.0,38,19.4,43,10.6,5.1,agent_judged
+Model optimization (quant/prune/distill),strong,"8-bit PTQ, SLM compression",64,8.5,6,1.8,17,8.7,59,14.5,0.0,skills_db
+Wireless (BLE/WiFi/LoRa/Cellular),working,BLE/Classic in profile,62,8.2,52,15.5,10,5.1,11,2.7,1.6,skills_db
+BSP / board bring-up,exposure,hardware bring-up of own boards,61,8.1,59,17.6,4,2.0,5,1.2,4.9,agent_vs_db_disputed
+CAN / CAN-FD / LIN,none,"hardware owned (CAN modules), no project",60,7.9,59,17.6,6,3.1,1,0.2,7.9,agent_judged
+Kinematics / manipulation / grasping,strong,"FK/DH, UR5e, AL5B",56,7.4,10,3.0,47,24.0,43,10.6,0.0,skills_db
+Visual servoing / VLA / robot learning,exposure,SmolVLA engine plan,56,7.4,3,0.9,31,15.8,52,12.8,4.4,agent_vs_db_disputed
+Control theory (PID/closed loop),working,closed-loop in profile,53,7.0,37,11.0,19,9.7,12,3.0,1.4,skills_db
+Functional safety / MISRA / AUTOSAR,none,,53,7.0,49,14.6,9,4.6,5,1.2,7.0,agent_judged
+Security / crypto / TrustZone,none,,53,7.0,41,12.2,4,2.0,14,3.4,7.0,agent_judged
+USB / PCIe / high-speed IO,none,,51,6.8,48,14.3,4,2.0,6,1.5,6.8,agent_judged
+FreeRTOS,working,profile lists it,42,5.6,41,12.2,4,2.0,4,1.0,1.1,skills_db
+Motor control / PWM / encoders,working,"Robocon, turret, COFFIN",42,5.6,28,8.3,17,8.7,10,2.5,1.1,skills_db
+CMake / build systems,working,CMake,42,5.6,36,10.7,9,4.6,8,2.0,1.1,skills_db
+Rust,none,,41,5.4,29,8.6,9,4.6,12,3.0,5.4,agent_judged
+SLAM / localization / odometry,exposure,odometry (dead reckoning) only,41,5.4,7,2.1,38,19.4,34,8.4,3.2,agent_vs_db_disputed
+ML compilers (TVM/MLIR/XLA/LLVM),none,,40,5.3,6,1.8,5,2.6,33,8.1,5.3,agent_vs_db_disputed
+DSP / signal processing,exposure,DSP coursework (profile keyword),39,5.2,32,9.5,7,3.6,11,2.7,3.1,agent_vs_db_disputed
+Bootloader / secure boot / OTA,none,,37,4.9,36,10.7,4,2.0,2,0.5,4.9,agent_judged
+Multithreading / concurrency (C++),working,,32,4.2,16,4.8,7,3.6,19,4.7,0.8,agent_vs_db_disputed
+MATLAB / Simulink,none,,30,4.0,27,8.0,2,1.0,2,0.5,4.0,agent_judged
+ADC/DAC / analog / sensors,strong,"STM32 ADC, smart_fan",29,3.8,28,8.3,0,0.0,1,0.2,0.0,skills_db
+Triton / CUTLASS / kernel DSLs,exposure,,25,3.3,0,0.0,0,0.0,25,6.2,2.0,agent_judged
+FPGA / Verilog / VHDL,none,,24,3.2,19,5.7,5,2.6,6,1.5,3.2,agent_judged
+ONNX / OpenVINO / TFLite runtimes,exposure,,24,3.2,1,0.3,13,6.6,24,5.9,1.9,agent_vs_db_disputed
+Assembly,none,,19,2.5,17,5.1,2,1.0,1,0.2,2.5,agent_judged
+Zephyr,none,,18,2.4,18,5.4,0,0.0,0,0.0,2.4,agent_judged
+QNX / VxWorks / safety RTOS,none,,16,2.1,13,3.9,1,0.5,3,0.7,2.1,agent_vs_db_disputed
+Speech / audio / ASR,working,COFFIN ASR,13,1.7,7,2.1,0,0.0,6,1.5,0.3,skills_db

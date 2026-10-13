@@ -1,0 +1,145 @@
+{
+  "company": "Miter",
+  "company_slug": "miter",
+  "role": "Software Engineer (New Grad)",
+  "job_slug": "software-engineer-new-grad",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 20,
+    "adjacent_count": 10,
+    "missing_count": 7,
+    "jd_ask_size": 37,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "CUDA",
+    "PyTorch",
+    "TensorFlow",
+    "ROS2",
+    "YOLO",
+    "TensorRT",
+    "OpenCV",
+    "STM32",
+    "FreeRTOS",
+    "Git",
+    "Linux",
+    "Flask",
+    "CMake",
+    "Bash",
+    "PyQt",
+    "Matplotlib",
+    "Jupyter",
+    "GitLab"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TypeScript",
+      "you_have": "Python / C++ / CUDA"
+    },
+    {
+      "jd_skill": "React / React Native",
+      "you_have": "PyQt (GUI) / Flask"
+    },
+    {
+      "jd_skill": "Node/Express",
+      "you_have": "Flask (Python web backend)"
+    },
+    {
+      "jd_skill": "MongoDB",
+      "you_have": "NoSQL-adjacent experience (data pipelines)"
+    },
+    {
+      "jd_skill": "problem-solving",
+      "you_have": "Strong analytical / algorithmic background (MPI, CUDA kernels, robotics)"
+    },
+    {
+      "jd_skill": "team-oriented / collaboration",
+      "you_have": "Cross-functional robotics / research teams (7-person team at BARC)"
+    },
+    {
+      "jd_skill": "growth mindset / curiosity",
+      "you_have": "Continuous learning across ML, embedded, robotics, HPC"
+    },
+    {
+      "jd_skill": "reliability / ownership",
+      "you_have": "Owned end-to-end capstone (COFFIN), production pipelines"
+    },
+    {
+      "jd_skill": "full-stack",
+      "you_have": "Full-stack experience (Flutter client, Flask server, WebSocket, systemd service, GitLab CI)"
+    },
+    {
+      "jd_skill": "technical documentation / blueprints",
+      "you_have": "Technical documentation, BOM, claims documentation, blueprinting for robotics systems"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript (production-level)",
+    "React / React Native (production-level)",
+    "Node.js / Express (production-level)",
+    "MongoDB (production-level)",
+    "Stripe APIs",
+    "construction / vertical SaaS domain experience",
+    "0-1 years of professional full-time SWE experience (internships only)"
+  ],
+  "top_ats_keywords": [
+    "TypeScript",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB",
+    "full-stack",
+    "problem-solving",
+    "software engineer",
+    "new grad",
+    "hybrid",
+    "NYC"
+  ],
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "Node/Express",
+    "MongoDB",
+    "problem-solving"
+  ],
+  "preferred_skills": [
+    "React Native",
+    "Stripe APIs",
+    "full-stack experience",
+    "technical documentation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "new-grad",
+  "key_responsibilities": [
+    "Design and build core platform systems",
+    "Collaborate with PMs and engineers",
+    "Blueprinting, code review, documentation",
+    "Customer-facing product work"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York City, NY",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,169 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Software Engineer, Geometric Computer Vision",
+  "job_slug": "software-engineer-geometric-computer-vision",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 9,
+    "jd_ask_size": 21,
+    "req_cov": 0.367,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "computer vision",
+    "stereo vision",
+    "sensor integration",
+    "edge computing",
+    "robotic systems",
+    "autonomous systems",
+    "depth estimation",
+    "optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "coordinate transformations",
+      "you_have": "DH parameters (kinematics-related but not camera coordinate transforms)"
+    },
+    {
+      "jd_skill": "structure from motion",
+      "you_have": "Image Mosaicing (multi-image alignment but different technique)"
+    },
+    {
+      "jd_skill": "camera integration on physical systems",
+      "you_have": "general hardware/software integration (sensor integration, but not camera-specific)"
+    }
+  ],
+  "missing_skills": [
+    "camera calibration",
+    "3D geometry (projective/camera geometry)",
+    "camera models (pinhole, distortion)",
+    "geometric estimation / pose estimation",
+    "production systems integration (at scale)",
+    "visual odometry",
+    "SLAM",
+    "multi-view geometry",
+    "embedded computing (general; edge computing yes, but traditional embedded gaps)"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "computer vision",
+    "geometric vision",
+    "camera calibration",
+    "multi-camera systems",
+    "stereo vision",
+    "visual tracking",
+    "depth estimation",
+    "visual odometry",
+    "SLAM",
+    "structure from motion",
+    "multi-view geometry",
+    "3D geometry",
+    "camera models",
+    "coordinate transformations",
+    "sensor integration",
+    "autonomous systems",
+    "edge computing",
+    "optimization",
+    "robotic systems"
+  ],
+  "required_skills": [
+    "C++",
+    "computer vision algorithms",
+    "geometric vision algorithms",
+    "camera calibration",
+    "3D geometry",
+    "camera models",
+    "coordinate transformations",
+    "estimation",
+    "optimization",
+    "sensor integration",
+    "production systems integration",
+    "multi-camera systems",
+    "visual tracking",
+    "correspondence matching",
+    "feature tracking"
+  ],
+  "preferred_skills": [
+    "stereo vision",
+    "visual odometry",
+    "SLAM",
+    "structure from motion",
+    "multi-view geometry",
+    "embedded computing",
+    "edge computing"
+  ],
+  "required_experience_years": null,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop computer vision algorithms for camera motion, vehicle pose, depth, 3D structure, and spatial relationships",
+    "Develop intrinsic, extrinsic, and multi-camera calibration systems",
+    "Build multi-camera and temporal vision systems using correspondence, feature tracking, stereo, and related techniques",
+    "Apply geometric estimation and optimization to noisy real-world imagery",
+    "Integrate vision algorithms with cameras and other vehicle sensors, including coordinate frames and synchronization",
+    "Validate and debug vision systems on autonomous vehicles",
+    "Improve vision-system performance and reliability under real-world conditions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 69,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Strong C++ software engineering: CUDA kernel optimization (VGG16, 35% speedup via memory coalescing), STM32 bare-metal firmware, COFFIN embedded codebase",
+      "Computer vision algorithms: Custom image mosaicing with homography + wavelet denoising (PSNR 86 vs 65 baseline), monocular depth estimation (ZoeDepth, \u00b18% error), YOLO detection and tracking (object tracking turret)",
+      "Sensor integration on physical systems: COFFIN integrated multiple sensors (VL53L0X ToF, cameras on Jetson, Arduino servo UART), multi-camera frame capture via multiprocessing",
+      "Real-world validation and deployment: COFFIN deployed as systemd service on Jetson with static networking; image stitching pipeline tested on real microscopic surface inspection hardware",
+      "3D geometric reasoning: DH tables + forward kinematics for 6-DoF arms (UR5e validated against MoveIt/RViz); frame simulator with SE(3) transforms and 4x4 matrix composition",
+      "Optimization under constraints: Wavelet bank design for geometric filtering, CUDA memory coalescing, TensorRT compression (55% footprint reduction)"
+    ],
+    "real_gaps": [
+      "Camera calibration: No work on intrinsic/extrinsic parameter estimation, camera matrix computation, or distortion modeling\u2014core responsibility of the role",
+      "3D projective geometry and camera models: Missing pinhole camera model, homogeneous coordinates in camera space, camera projection matrices, and camera-centric coordinate transforms",
+      "Geometric pose estimation: No PnP solvers, triangulation, bundle adjustment, or pose-from-correspondence techniques",
+      "Visual odometry and SLAM: Not in profile; these are preferred skills that signal depth in autonomous perception",
+      "Formal structure-from-motion: Image mosaicing via homography-based alignment is present, but true SfM (recovering both 3D structure and camera motion jointly) is absent"
+    ],
+    "overstated_by_keywords": [
+      "Structure from motion (image mosaicing)\u2014homography-based alignment for stitching is not equivalent to full SfM pipelines that recover 3D structure and camera poses from epipolar geometry",
+      "Coordinate transformations (DH parameters for robot arms do not transfer directly to camera coordinate systems: camera\u2192world\u2192sensor transforms are different from joint kinematics)",
+      "Camera integration (COFFIN integrated cameras for detection/segmentation tasks, not for calibration or geometric parameter estimation)"
+    ],
+    "understated_by_keywords": [
+      "Homography estimation is implicit in the mosaicing work and signals geometric reasoning transferable to camera geometry",
+      "Visual tracking is backed by YOLO + custom tracking (object tracking turret project), covering one of the multi-camera/temporal vision responsibilities",
+      "Signal processing depth (custom wavelet banks for denoising) demonstrates comfort with image-space geometric filtering concepts"
+    ],
+    "screening_gaps": [
+      "No camera calibration or intrinsic/extrinsic parameter work\u2014core JD responsibility ('Develop intrinsic, extrinsic, and multi-camera calibration systems'). Teachable but material gap.",
+      "No 3D projective geometry or formal camera models\u2014JD assumes pinhole model, camera matrices, and homogeneous coordinates in camera projection. Justin has general 3D math but not camera-specific geometry.",
+      "No visual odometry, SLAM, or formal structure-from-motion algorithms\u2014preferred skills that signal depth in geometric 3D vision. His mosaicing uses different algorithms (homography vs. epipolar geometry)."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin has solid C++ engineering, real-world computer vision deployment experience, and sensor integration skills demonstrated on production systems (COFFIN). However, the role centers on geometric camera vision\u2014intrinsic/extrinsic calibration, projective geometry, and pose estimation\u2014where his profile shows material gaps. These gaps are learnable for someone with his 3D geometric reasoning (DH kinematics, frame transforms) and optimization background, but expect a 2\u20134 week ramp on camera math and calibration workflows. This is a Partial Fit: strong systems foundation and deployment experience, but domain expertise (camera geometry) needs development.",
+    "calibration_delta": -19.0
+  }
+}

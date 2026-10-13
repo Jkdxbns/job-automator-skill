@@ -1,0 +1,83 @@
+{
+  "_meta": { "company": "AeroVect", "role": "Test Engineer, Autonomous Vehicles", "company_slug": "aerovect", "job_slug": "test-engineer-autonomous-vehicles" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Hands-on experience across robotics, embedded systems, and autonomous vehicle simulation, including root-causing integration failures from system logs and sensor data on Linux-based Jetson and STM32 platforms. Comfortable working independently through ambiguous, open-ended technical problems, from leading a 25-member robotics team to building and debugging a full autonomous pick-and-place system from scratch.",
+  "skills": {
+    "Robotics & Autonomous Systems": ["CARLA", "YOLO", "Visual servoing"],
+    "Embedded & Hardware": ["STM32 (Bare-Metal C)", "NVIDIA Jetson", "Arduino", "UART/I2C", "EAGLE PCB Design"],
+    "Languages & Systems": ["Python", "C/C++", "Linux", "Bash"],
+    "Tools": ["Git", "SolidWorks"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, sensor and PCB integration, and end-to-end system validation for locomotive robots.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE; implemented sensor communication over UART and I2C with closed-loop feedback, debugging integration issues across mechanical, electrical, and software subsystems.",
+        "Ran 10+ technical workshops (Arduino, PCB design, SolidWorks) to build team-wide hardware skills, growing the club's structured build-test-debug capability."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Integrated ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth into a wearable gesture-recognition device, validating 3-DoF hand motion sensing against HID output through iterative on-hardware testing.",
+        "Diagnosed and resolved sensor jitter through software calibration and resolution tuning, debugging a custom z-axis differential tap-detection algorithm at the hardware/firmware level."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated and validated a multi-sensor pick-and-place system (dual VL53L0X ToF + camera fused via TCA9548A I2C mux) on a distributed Jetson+Arduino controller pipeline.",
+        "Diagnosed and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through log and behavior analysis; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Implemented contact-aware grasping via range-gated ToF sensing and closed-loop visual servoing (TensorRT-optimized YOLO) on embedded hardware in C++ and Python."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated CARLA data pipelines (~5,000 YOLO, ~3,000 UFLD frames, zero manual annotation) and trained an adaptive control stack for lane-following, waypoint fallback, and obstacle avoidance.",
+        "Validated the stack in Town02 against 30 vehicles and 10 pedestrians, achieving zero collisions and correct traffic-light compliance across multiple test runs."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Built a YOLOv8-on-Jetson object detection and tracking pipeline sending real-time control commands to an STM32 over UART for closed-loop servo control.",
+        "Tuned multi-servo PWM control with interrupt-driven UART command handling and user override, validating controller response under live tracking conditions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Multiple Processor Systems", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

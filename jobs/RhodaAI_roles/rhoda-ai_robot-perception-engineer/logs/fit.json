@@ -1,0 +1,51 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhoda-ai",
+  "role": "Robot Perception Engineer",
+  "job_slug": "robot-perception-engineer",
+  "match_pct": 88,
+  "missing_skills": [
+    "Rust",
+    "LiDAR integration/calibration",
+    "Safety-certified perception (ISO 26262 / IEC 61508)",
+    "Teleoperation systems",
+    "Humanoid/legged robot platforms"
+  ],
+  "adjacent_skills": [
+    "Multi-sensor fusion and calibration (ToF + camera on turret project, no LiDAR)",
+    "Streaming/networking for low-latency data (WebSocket/Flask-SocketIO, not robotics-scale)",
+    "Early-stage hardware bring-up (embedded prototyping experience)"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "sensor integration",
+    "sensor calibration",
+    "object detection",
+    "real-time perception pipelines",
+    "edge compute",
+    "TensorRT",
+    "quantization",
+    "C++",
+    "Python",
+    "camera calibration",
+    "IMU",
+    "streaming infrastructure",
+    "fault detection",
+    "field testing"
+  ],
+  "key_responsibilities": [
+    "Develop and maintain real-time perception pipelines integrating cameras, LiDAR, IMUs, depth sensors",
+    "Build object detection, tracking, and scene understanding systems",
+    "Own streaming infrastructure delivering sensor data to foundation models and teleop",
+    "Bridge perception outputs and learned policy inputs with AI/ML team",
+    "Implement safety-certified perception components (object detection, collision avoidance)",
+    "Support bring-up and field testing of new camera hardware",
+    "Contribute to system reliability, fault detection, recovery logic"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

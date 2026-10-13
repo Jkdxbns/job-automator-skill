@@ -1,0 +1,105 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Perception Engineer, 3D Representation & Navigation",
+  "job_slug": "perception-engineer-3d-representation-navigation",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 2,
+    "missing_count": 4,
+    "jd_ask_size": 13,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "perception (YOLOv8, OpenCV, U-Net, image-stitching, crack-profiling, depth estimation)",
+    "3D representation (ZoeDepth monocular depth, ToF sensors VL53L0X, dual-sensor fusion)",
+    "navigation / localization (ROS2 Humble, MoveIt, RViz, forward kinematics, DH tables, CARLA autonomous driving with UFLD lane detection, zero collisions)",
+    "robotics / embodied AI (voice-controlled robotic arm with STT+LLM, Jetson+Arduino, ROS-based AL5B/UR5e, visual servoing)",
+    "real sensor integration (ADXL345 accelerometer, STM32 bare-metal ADC/I2C, HC-05 Bluetooth, TCA9548A mux, UART/I2C/SPI)",
+    "learning systems (PyTorch/TensorFlow/Keras, HuggingFace DONUT transformer, faster-whisper ASR, custom BPE tokenizer, 8-bit quantization, TensorRT optimization)",
+    "reliable embedded design (FreeRTOS with mutexes, interrupt-driven STM32, real-time sensor pipelines, 100% pick reliability)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "explainability and formal safety certification",
+      "you_have": "reliability-focused embedded/real-time systems; no ISO26262 or formal safety-certification experience"
+    },
+    {
+      "jd_skill": "production-scale field deployment at enterprise scale",
+      "you_have": "multiple internship/research deployments (wearable glove, crack-inspection pipeline, robotic arm) but no company-scale production rollout"
+    }
+  ],
+  "missing_skills": [
+    "full-time industry experience in production robotics/perception",
+    "formal functional-safety / ISO26262 certification",
+    "enterprise-scale distributed/cloud infrastructure for autonomy fleets",
+    "direct prior work at Tier-1 robotics/autonomy org (DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Cruise, etc.)"
+  ],
+  "top_ats_keywords": [
+    "perception engineer",
+    "3D representation",
+    "navigation",
+    "embodied AI",
+    "robotics",
+    "autonomy",
+    "YOLO",
+    "ROS",
+    "TensorRT",
+    "CUDA",
+    "real-world deployment",
+    "safety",
+    "explainability"
+  ],
+  "required_skills": [
+    "perception / computer vision",
+    "3D representation and spatial understanding",
+    "navigation / localization",
+    "robotics and embodied AI systems",
+    "real sensor integration",
+    "learning systems (non-transformer-only)",
+    "reliable / risk-aware system design",
+    "explainability and safety awareness"
+  ],
+  "preferred_skills": [
+    "production field deployment experience",
+    "hybrid rigorous-engineering + ML architecture",
+    "experience at leading robotics/autonomy organizations"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "build perception systems for real robots with real sensors",
+    "3D representation and navigation in unstructured environments",
+    "reliable field deployment of embodied AI",
+    "combine rigorous engineering with learning systems",
+    "deliver risk-aware, explainable autonomy"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship denial, no clearance/citizenship barrier, no stated experience minimum (>3 years), title is not clearly senior/staff/principal; new-grad with 7 internships is plausible for this level"
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

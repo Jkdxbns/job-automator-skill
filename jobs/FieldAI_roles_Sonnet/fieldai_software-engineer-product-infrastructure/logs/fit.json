@@ -1,0 +1,109 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Product Infrastructure",
+  "job_slug": "software-engineer-product-infrastructure",
+  "match_pct": 46.7,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 15,
+    "req_cov": 0.143,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (scripting / automation)",
+    "Linux (systemd, static IP, service management)",
+    "C/C++ (embedded/systems-level)",
+    "some Docker / personal CI exposure",
+    "Git / build tooling (CMake, Bash)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "deployment automation / CI-CD",
+      "you_have": "Python scripting + basic Docker / Git; personal project CI exposure only"
+    },
+    {
+      "jd_skill": "cloud platform engineering",
+      "you_have": "Linux admin, network config; no enterprise cloud (AWS/GCP/Azure) at scale"
+    },
+    {
+      "jd_skill": "observability / production reliability",
+      "you_have": "system-level debugging (oscilloscopes, logic analyzers, profiling); no SRE/observability tooling (Prometheus, Grafana, Datadog)"
+    },
+    {
+      "jd_skill": "scalability / operational engineering",
+      "you_have": "parallel computing (MPI, SLURM, CUDA) but not distributed systems / service scale"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes (no experience stated)",
+    "deployment automation at company scale",
+    "cloud platform engineering (AWS/GCP/Azure at production scale)",
+    "observability stack (Prometheus, Grafana, logging, tracing)",
+    "production reliability / SRE practices (incident response, SLOs, on-call)",
+    "developer-experience platform tooling at organizational scale"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "deployment automation",
+    "cloud platform engineering",
+    "observability",
+    "production reliability",
+    "developer experience",
+    "deployment velocity",
+    "operational scalability",
+    "infrastructure",
+    "platform engineering"
+  ],
+  "required_skills": [
+    "Kubernetes",
+    "deployment automation",
+    "cloud platform engineering",
+    "observability",
+    "production reliability",
+    "developer experience tooling",
+    "scalability / operational engineering"
+  ],
+  "preferred_skills": [
+    "robotics / embodied AI domain exposure",
+    "field-deployment context",
+    "Python for infrastructure automation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build and operate internal platform systems powering engineering and production workloads",
+    "Manage Kubernetes infrastructure and deployment automation",
+    "Cloud platform engineering and operational scalability",
+    "Observability and production reliability",
+    "Improve developer experience and deployment velocity"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,43 @@
+{
+  "company": "ALTEN Technology USA",
+  "company_slug": "alten",
+  "role": "Embedded Systems Security Engineer",
+  "job_slug": "embedded-systems-security-engineer",
+  "match_pct": 30,
+  "missing_skills": [
+    "Board bring-up / BSP customization",
+    "Device-level security features in production hardware",
+    "U-Boot Verified Boot / Barebox bootloader",
+    "dm-crypt / dm-verity",
+    "ARM TrustZone (ARMv7-A/ARMv8-A, EL1-EL3)",
+    "SELinux/AppArmor",
+    "cgroups/namespaces containment",
+    "Yocto Project (BitBake) / Buildroot",
+    "OP-TEE / TEE Trusted Applications",
+    "HSM / secure key vault signing pipelines",
+    "eFuse / OTP fuse burning",
+    "A/B partitioning boot resilience"
+  ],
+  "adjacent_skills": [
+    "Linux (application-level, via Jetson) -> JD wants kernel/BSP-level Embedded Linux"
+  ],
+  "top_ats_keywords": [
+    "Embedded Linux", "Secure Boot", "dm-verity", "TrustZone", "SELinux",
+    "Yocto", "BitBake", "OP-TEE", "U-Boot", "HSM", "C", "Python", "Bash"
+  ],
+  "key_responsibilities": [
+    "Hardware Root of Trust and Secure Boot from first-stage bootloader through kernel",
+    "dm-verity read-only rootfs + encryption at rest",
+    "TEE (OP-TEE) integration and Trusted Application development",
+    "SELinux/AppArmor/cgroups/namespaces/seccomp sandboxing",
+    "Cryptographic signing CI/CD pipelines with HSMs",
+    "Manufacturing eFuse/OTP provisioning scripts, EOL test software",
+    "A/B partition boot resilience architecture"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

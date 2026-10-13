@@ -1,0 +1,198 @@
+{
+  "company": "TYLsemi, Inc.",
+  "company_slug": "tylsemi",
+  "role": "Staff Embedded Firmware Engineer \u2014 Platform Controller (Zephyr RTOS)",
+  "job_slug": "staff-firmware-zephyr",
+  "match_pct": 51.4,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 2,
+    "missing_count": 17,
+    "jd_ask_size": 37,
+    "req_cov": 0.917,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C",
+    "C++",
+    "RTOS",
+    "Cortex-M",
+    "I2C",
+    "SPI",
+    "UART",
+    "Logic Analyzers",
+    "Oscilloscopes",
+    "Git",
+    "CMake",
+    "Python",
+    "Quantization",
+    "ML deployment",
+    "GPIO",
+    "PWM",
+    "ADC",
+    "interrupt"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Zephyr",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "CI",
+      "you_have": "GitLab"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "JTAG/SWD",
+    "GCC/Clang",
+    "devicetree",
+    "Kconfig",
+    "west",
+    "Twister",
+    "secure boot",
+    "boot ROM",
+    "AMBA",
+    "PMBus",
+    "SMBus",
+    "QSPI",
+    "DMA",
+    "watchdog",
+    "ETM/ITM",
+    "AI-based coding"
+  ],
+  "top_ats_keywords": [
+    "Zephyr",
+    "RTOS",
+    "Embedded C",
+    "Cortex-M",
+    "I2C",
+    "SPI",
+    "UART",
+    "JTAG",
+    "SWD",
+    "devicetree",
+    "Kconfig",
+    "PMBus",
+    "SMBus",
+    "QSPI",
+    "watchdog",
+    "secure boot",
+    "ETM",
+    "ITM",
+    "CMake",
+    "Python",
+    "quantization",
+    "Twister",
+    "CI"
+  ],
+  "required_skills": [
+    "Embedded C",
+    "C++",
+    "Rust",
+    "RTOS",
+    "Cortex-M",
+    "I2C",
+    "SPI",
+    "UART",
+    "JTAG/SWD",
+    "Logic Analyzers",
+    "Oscilloscopes",
+    "Git",
+    "GCC/Clang",
+    "CMake",
+    "Python",
+    "CI",
+    "Quantization",
+    "ML deployment"
+  ],
+  "preferred_skills": [
+    "Zephyr",
+    "devicetree",
+    "Kconfig",
+    "west",
+    "Twister",
+    "secure boot",
+    "boot ROM",
+    "AMBA",
+    "PMBus",
+    "SMBus",
+    "QSPI",
+    "DMA",
+    "GPIO",
+    "PWM",
+    "watchdog",
+    "ADC",
+    "ETM/ITM",
+    "interrupt",
+    "AI-based coding"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Zephyr driver development",
+    "post-silicon bring-up",
+    "on-target ML inference",
+    "JTAG/ETM debug",
+    "Twister/HIL CI"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Bay Area preferred; remote-friendly",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 41,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Quantization accuracy-cost judgment: 8-bit LLM.int8() on TinyLlama cut GPU memory ~55% with <1% benchmark drop and +0.09 perplexity, plus VRAM/latency profiling. Maps directly onto the JD's 'quantization and its accuracy cost' clause",
+      "Model-to-runtime path: YOLOv8n exported to ONNX and TFLite, TensorRT YOLO 56.7 to 10.9 ms. Covers trained-model-to-running-inference, though on Jetson/mobile, not MCU-class",
+      "Register-level peripheral work: STM32 Cortex-M4 bare-metal GPIO/TIM2/ADC1/I2C1, timer-triggered ADC scan, interrupt-driven capture, low-level I2C driver, 3.68 KB Flash / 1.58 KB RAM. Closest match to the ADC telemetry and timer/PWM sections",
+      "Bus and hardware debug instinct: TCA9548A I2C mux integration, resolved servo brown-out and sensor jitter, UART/I2C closed-loop feedback on custom PCBs"
+    ],
+    "real_gaps": [
+      "No Zephyr anywhere: devicetree bindings, Kconfig, west, SYS_INIT ordering, struct device driver model, Twister. This is the role's core",
+      "No silicon bring-up, boot ROM, secure boot, clock/reset validation or RTL-vs-firmware triage",
+      "No JTAG/SWD, ETM/ITM/SWO or CoreSight trace work; scope and logic analyzer appear only in the skills list with no bullet behind them",
+      "No PMBus/SMBus, QSPI/XIP flash, DMA, windowed watchdog, or AMBA fabric exposure. Platform-controller subsystems are entirely absent",
+      "RTOS depth is thin: one FreeRTOS turret with mutexes, no priority assignment, ISR-to-task design or failure-mode evidence",
+      "No CI, HIL or static-analysis gate work; no Rust; no evidence of AI-assisted coding practice",
+      "Seniority (prose only, not scored): role wants 8-10 years owning production firmware; profile is internship/capstone scope"
+    ],
+    "overstated_by_keywords": [
+      "RTOS / Cortex-M counted Have: one FreeRTOS demo plus one Cortex-M4 project verified only in Proteus simulation, not on hardware",
+      "SPI counted Have: appears only in a skills-list string, no project or bullet uses it",
+      "Logic Analyzers / Oscilloscopes / CMake counted Have: skills list only, no bullet shows use",
+      "ML deployment counted Have: real, but GPU/Jetson-class, not sub-MB microcontroller inference (no CMSIS-NN, TFLite Micro or arena memory budgeting)"
+    ],
+    "understated_by_keywords": [
+      "Quantization tradeoff evidence is stronger than a one-word 'Quantization' match suggests: it has measured accuracy, perplexity and memory numbers",
+      "Flash/RAM footprint reporting on the STM32 project is genuine memory-budgeting evidence for the JD's constrained-target clause"
+    ],
+    "screening_gaps": [
+      "Zero Zephyr experience (devicetree, Kconfig, west, driver model) for a role titled and built around Zephyr",
+      "No bring-up, JTAG/SWD/ETM trace debug, secure boot or PMBus/QSPI/watchdog platform-controller work to back a Staff-level owner claim",
+      "RTOS and serial-bus depth stops at a single FreeRTOS demo and one simulated STM32 project, with no failure-mode or wire-level (arbitration, clock stretching) evidence"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile has real, measured ML-on-constrained-hardware and quantization evidence and honest register-level STM32 work, but the role's core is Zephyr platform-controller firmware, silicon bring-up and trace-level debug, and none of that is evidenced. A screener searching Zephyr, devicetree, JTAG/SWD or PMBus finds nothing. The hiring team would also weigh the ML clause less than these gaps.",
+    "calibration_delta": 10.4
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "company": "Tensor",
+  "company_slug": "tensor",
+  "role": "Software Engineer: Embedded Linux",
+  "job_slug": "embedded-linux-jd30",
+  "match_pct": 55.6,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 18,
+    "req_cov": 0.692,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "embedded software debugging",
+    "SPI",
+    "UART",
+    "I2C",
+    "board bring up",
+    "system-level debugging",
+    "microcontroller fundamentals"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "networking / Ethernet (TCP/IP)"
+    },
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal peripheral programming"
+    },
+    {
+      "jd_skill": "Nvidia DriveOS",
+      "you_have": "NVIDIA Jetson"
+    },
+    {
+      "jd_skill": "camera",
+      "you_have": "computer vision / OpenCV"
+    }
+  ],
+  "missing_skills": [
+    "Linux kernel configuration",
+    "board-support packages",
+    "PCIe",
+    "USB",
+    "DMA",
+    "hardware testing"
+  ],
+  "top_ats_keywords": [
+    "board bring up",
+    "Linux kernel",
+    "device drivers",
+    "BSP",
+    "PCIe",
+    "USB",
+    "Ethernet",
+    "SPI",
+    "I2C",
+    "UART",
+    "DriveOS",
+    "DMA"
+  ],
+  "required_skills": [
+    "board bring up",
+    "Linux kernel configuration",
+    "device drivers",
+    "hardware testing",
+    "C/C++",
+    "embedded software debugging",
+    "PCIe",
+    "SPI",
+    "UART",
+    "I2C",
+    "USB",
+    "Ethernet",
+    "board-support packages"
+  ],
+  "preferred_skills": [
+    "Nvidia DriveOS",
+    "system-level debugging",
+    "microcontroller fundamentals",
+    "DMA",
+    "camera",
+    "display",
+    "audio"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "board bring up",
+    "kernel configuration",
+    "driver updates",
+    "road test debugging"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA, US (also Barcelona, Singapore, Dubai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

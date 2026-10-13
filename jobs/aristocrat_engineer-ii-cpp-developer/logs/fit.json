@@ -1,0 +1,91 @@
+{
+  "company": "Aristocrat",
+  "company_slug": "aristocrat",
+  "role": "Engineer II - C++ Developer",
+  "job_slug": "engineer-ii-cpp-developer",
+  "match_pct": 38.9,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 9,
+    "req_cov": 0.889,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Object-Oriented Programming",
+      "you_have": "C++"
+    },
+    {
+      "jd_skill": "Memory Profiling",
+      "you_have": "pynvml profiling / CUDA memory coalescing"
+    },
+    {
+      "jd_skill": "Algorithms",
+      "you_have": "CUDA kernel optimization"
+    }
+  ],
+  "missing_skills": [
+    "Data Structures",
+    "Unit Testing",
+    "Code Review",
+    "SDLC"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Linux",
+    "Object-Oriented",
+    "Algorithms",
+    "Data Structures",
+    "Unit Testing",
+    "Memory Profiling",
+    "SDLC"
+  ],
+  "required_skills": [
+    "C++",
+    "Linux",
+    "Object-Oriented Programming",
+    "Algorithms",
+    "Data Structures",
+    "Unit Testing",
+    "Memory Profiling",
+    "Code Review",
+    "SDLC"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Develop slot games for cabinets/markets",
+    "Game math and art integration",
+    "Coding, code reviews, unit testing, memory profiling"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Gurugram / Noida, India (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

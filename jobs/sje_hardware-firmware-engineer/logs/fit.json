@@ -1,0 +1,50 @@
+{
+  "company": "SJE (SJE Rhombus)",
+  "company_slug": "sje",
+  "role": "Hardware Firmware Engineer",
+  "job_slug": "hardware-firmware-engineer",
+  "match_pct": 100,
+  "missing_skills": [],
+  "adjacent_skills": [
+    "Designing control panels with embedded control devices (has embedded control device integration, not industrial panel-level design)",
+    "Manufacturing integration step of the design lifecycle (has prototyping/testing/validation/documentation, not production/manufacturing handoff)"
+  ],
+  "top_ats_keywords": [
+    "embedded firmware", "C/C++", "embedded electronics", "circuit design",
+    "schematic generation", "BOM generation", "parts sourcing", "PCB",
+    "control panels", "prototyping", "validation testing", "manufacturing integration"
+  ],
+  "key_responsibilities": [
+    "Design embedded controller applications end to end: spec, schematic, BOM, sourcing, prototyping, V&V testing, manufacturing integration, documentation",
+    "Sustaining engineering support for existing designs, parts obsolescence",
+    "Develop embedded firmware in C/C++: functional specs, architecture, coding, debugging, validation",
+    "Design control panels incorporating embedded control devices",
+    "Lead project teams, plan/quote projects, communicate status"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal register-level C on STM32 (GPIO/TIM2/ADC1/I2C1, interrupt-driven ADC capture) from the STM32 Bare-Metal Temperature Monitor project directly backs 'writing embedded firmware in C' and 'designing and troubleshooting embedded electronics'",
+      "Object Tracking Turret (STM32 UART control from Jetson, interrupt-driven PWM servo control, FreeRTOS with mutexes) backs 'working across hardware and firmware development' and 'integrating embedded products into control solutions' at the board level",
+      "EAGLE PCB single-layer board fabrication (robotics club) plus BOM and claims documentation (Planctech internship) give real, if small-scale, backing for the preferred circuit design/schematic/BOM skills",
+      "Oscilloscopes, Logic Analyzers, and Proteus simulation verification back the 'troubleshooting embedded systems' and validation-testing requirements"
+    ],
+    "real_gaps": [
+      "Zero direct backing for 'designing control panels with embedded control devices' — SJE Rhombus's core product is industrial pump control panels (enclosures, relays, contactors, terminal blocks); nothing in the profile is panel-level, all of it is board/firmware-level",
+      "No manufacturing integration, DFM, parts obsolescence, or sustaining-engineering experience on a shipped commercial product — every hardware project in the profile is academic, personal, or internship-scale prototype work that never reached volume manufacturing or a PCA production team",
+      "No project quoting or cost-estimation experience, which the JD calls out under project leadership",
+      "Firmware 'design reviews' and formal revision-control standards at company scale aren't backed beyond personal Git/GitLab use"
+    ],
+    "overstated_by_keywords": [
+      "'Integrating embedded products into larger control solutions' was scored HAVE by keyword match on the strength of the turret project, but that's board-to-board embedded integration, not the industrial control-panel integration SJE means",
+      "'Control panel design with embedded control devices' was scored Adjacent by keyword match, but on a closer read it's closer to Missing — there is no panel-level design anywhere in the profile"
+    ],
+    "reasoning": "The core embedded C/C++ firmware skills the JD leads with are genuinely strong and well backed by real register-level STM32 work. The gap is on the commercial productization side this specific employer cares about: control-panel-level design and taking a board from prototype into volume manufacturing with a production team. That gap is normal for a new grad and likely acceptable at the entry level this posting targets (1-3 yrs preferred), but it means the 100% keyword match overstates actual readiness — this reads closer to a genuine 60-65% holistic fit."
+  }
+}

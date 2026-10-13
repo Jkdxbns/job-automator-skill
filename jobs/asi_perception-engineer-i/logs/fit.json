@@ -1,0 +1,46 @@
+{
+  "company": "Autonomous Solutions, Inc. (ASI)",
+  "company_slug": "asi",
+  "role": "Perception Engineer I - Project Based",
+  "job_slug": "perception-engineer-i",
+  "match_pct": 78,
+  "missing_skills": [
+    "LiDAR",
+    "radar",
+    "GPS/GNSS",
+    "Point Cloud Library (PCL)",
+    "GNC"
+  ],
+  "adjacent_skills": [
+    "inertial sensors (have ADXL345 accelerometer/IMU experience)",
+    "sensor calibration (have ToF/I2C sensor work)",
+    "point cloud / 3D data (have RViz/URDF robotics, no direct PCL)"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "OpenCV",
+    "PyTorch",
+    "TensorFlow",
+    "computer vision",
+    "C++",
+    "Python",
+    "Linux",
+    "Git",
+    "embedded systems",
+    "sensor processing",
+    "YOLO",
+    "simulation"
+  ],
+  "key_responsibilities": [
+    "Develop/test perception software for autonomous compactor platforms",
+    "Process camera, LiDAR, radar, GPS/GNSS, inertial sensor data",
+    "Obstacle detection, object classification, terrain understanding",
+    "Integrate perception software into embedded computing systems",
+    "Evaluate features via recorded datasets, simulation, field testing"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  }
+}

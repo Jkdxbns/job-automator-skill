@@ -1,0 +1,80 @@
+{
+  "_meta": {"company": "Hewlett Packard Enterprise", "role": "HPC & AI Performance Engineer", "company_slug": "hpe", "job_slug": "hpc-ai-performance-engineer"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience in high-performance and parallel computing: CUDA kernel optimization, MPI distributed systems on SLURM-managed clusters, and Linux-based performance profiling. Delivered up to 30× speedup in MPI-parallelized workloads and ~35% speedup in custom CUDA kernels through memory coalescing and load-imbalance analysis.",
+  "skills": {
+    "HPC / Parallel Computing": ["CUDA C++", "MPI", "SLURM", "Memory coalescing", "Kernel optimization", "Parallel processing"],
+    "Languages": ["Python", "C/C++"],
+    "Profiling & Tools": ["pynvml Profiling", "Linux", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; reported accuracy-latency trade-offs for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU TorchScript) — ~35% speedup over naive GPU with identical classification accuracy.",
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing and constant memory, eliminating per-layer allocation overhead."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Achieved up to 10.49× speedup with 12 slave processes; identified load-imbalance effects showing up to 65% performance degradation under uneven work distribution.",
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Achieved up to 30× speedup with static strip partitioning (55 processes); demonstrated dynamic task queue outperformed all static methods under unpredictable workloads.",
+        "Implemented and benchmarked four parallel work-distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000×5000 pixel scenes using MPI."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Profiled peak VRAM and inference latency across prompt types using pynvml and psutil on Linux.",
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization on TinyLlama 1.1B with <1% accuracy degradation — near-lossless compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

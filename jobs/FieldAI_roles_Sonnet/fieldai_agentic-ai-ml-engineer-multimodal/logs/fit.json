@@ -1,0 +1,136 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Agentic AI/ML Engineer, Multimodal",
+  "job_slug": "agentic-ai-ml-engineer-multimodal",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 7,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.2,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Computer vision (YOLOv8, OpenCV, U-Net, image stitching, crack inspection, visual servoing)",
+    "Fine-tune and evaluate ML models (DONUT, YOLO, BraTS U-Net, TinyLlama quantization, evaluation with mAP/PSNR/accuracy)",
+    "Inference optimization and edge deploy (TensorRT, 5.2x speedup, ONNX export, TFLite export, 8-bit bitsandbytes LLM.int8(), CUDA kernel optimization, pynvml profiling)",
+    "Multimodal / robotics dataset experience (custom glove datasets, BraTS MRI, metal surface inspection, YOLO toothbrush, robot sensor data)",
+    "Embedded production-like deployment (Jetson Nano/Orin, STM32 bare-metal, Arduino, FreeRTOS, UART/I2C/SPI)",
+    "ROS2 / robotics perception (MoveIt, RViz, forward kinematics, DH tables, visual servoing, dual ToF sensors, YOLO tracking turret)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Vision-language models (VLMs)",
+      "you_have": "VisionEncoderDecoder (DONUT document transformer) fine-tuning, vision-encoder + decoder pipeline with HuggingFace; closest to VLM but document-focused not scene-level VLM"
+    },
+    {
+      "jd_skill": "Agentic AI (tool use, memory, agent frameworks)",
+      "you_have": "Agent-like full-stack robotics pipeline: Flutter UI + Flask-SocketIO + Jetson + Arduino + Gemini intent classification; has tool-integration and decision flow but no formal agent framework (LangChain/AutoGen/tool-use library)"
+    },
+    {
+      "jd_skill": "Multimodal retrieval-augmented generation (RAG)",
+      "you_have": "No direct RAG or retrieval system built; closest is multimodal data processing from sensors (video + text + depth) but no retrieval-augmented generation pipeline implemented"
+    },
+    {
+      "jd_skill": "Long-memory video analysis and search",
+      "you_have": "YOLOv8 real-time detection, video stream processing, object tracking, but no long-memory (hours/days) archival video search or temporal memory system"
+    },
+    {
+      "jd_skill": "Dataset curation for multimodal/robotics data",
+      "you_have": "Created custom datasets for glove gesture, crack-depth profiling, metal inspection, toothbrush YOLO; curated but not at large-scale production/robot-fleet scale"
+    },
+    {
+      "jd_skill": "Production deployment at company scale",
+      "you_have": "Embedded deployments (Jetson, STM32, Arduino) with real-time pipelines; no distributed/cloud production infrastructure or company-scale fleet deployment experience"
+    },
+    {
+      "jd_skill": "Risk-aware / safety-aware AI systems",
+      "you_have": "Built real-time robotics control with sensor feedback (ToF, I2C mux) and visual servoing; awareness of reliability but no formal safety-certification (ISO26262, functional safety) background"
+    }
+  ],
+  "missing_skills": [
+    "Vision-language model experience at scale (CLIP-style, scene-level VLM, multimodal LLM fine-tuning)",
+    "Multimodal RAG / retrieval-augmented generation system implementation",
+    "Long-memory video analysis and temporal search architecture (hours/days of video memory/retrieval)",
+    "Agentic AI framework/tool-use implementation (formal agent libraries, multi-step tool execution, planning loops)",
+    "Production-scale distributed/cloud ML deployment (k8s/Docker at company scale; only personal Docker/k3s/CI-CD exposure mentioned)",
+    "Full-time industry production engineering experience (candidate has 0 years full-time, 7 internships/projects only)"
+  ],
+  "top_ats_keywords": [
+    "Agentic AI",
+    "Multimodal",
+    "Vision-language model",
+    "VLM",
+    "Multimodal scene understanding",
+    "Video analysis",
+    "Retrieval-augmented generation",
+    "RAG",
+    "Embodied AI",
+    "Robotics",
+    "Perception",
+    "Inference optimization",
+    "TensorRT",
+    "ONNX",
+    "Production ML",
+    "Field AI",
+    "FiFM",
+    "FFM"
+  ],
+  "required_skills": [
+    "Computer vision (CV models, YOLO, visual perception)",
+    "Vision-language models (VLMs)",
+    "Multimodal scene understanding",
+    "Long-memory video analysis and search",
+    "Agentic AI / agent tool use / memory",
+    "Multimodal retrieval-augmented generation (RAG)",
+    "Fine-tune and evaluate ML models",
+    "Inference optimization (TensorRT, quantization, ONNX, edge deploy)",
+    "Dataset curation for multimodal/robotics data",
+    "Production deployment of ML pipelines"
+  ],
+  "preferred_skills": [
+    "Embodied AI / robotics perception pipelines",
+    "Real-time sensor fusion",
+    "Risk-aware / safety-aware AI systems",
+    "Field deployment on autonomous robot fleets"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Curate multimodal robot-captured datasets",
+    "Fine-tune and evaluate vision / VLM / multimodal models",
+    "Optimize inference for deployment",
+    "Deploy ML models into production",
+    "Build computer vision and vision-language systems",
+    "Multimodal scene understanding and long-memory video analysis/search",
+    "Agentic AI (tool use, memory, multimodal RAG)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "clearance_flag": false,
+    "citizenship_flag": false,
+    "itar_flag": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No senior/staff/principal/lead/director level signal in title; no explicit sponsorship denial, no ITAR/clearance/citizenship block; required_experience_years is 0; role is engineer-level not staff, so new-grad profile is not automatically blocked, though significant agentic-AI/multimodal-RAG gaps exist."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

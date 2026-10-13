@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Software Engineer - Test & Automation",
+    "company_slug": "hpe",
+    "job_slug": "swe-test-automation"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on Python test automation and systems-debugging experience across embedded and ML pipelines. Built and validated multi-component distributed systems end-to-end, applying software testing and validation methodologies and root cause analysis to resolve integration failures. Comfortable working independently in Linux environments, configuring TCP/IP networking, and collaborating across cross-functional, globally distributed teams.",
+  "skills": {
+    "Testing & Debugging": [
+      "Software Testing & Validation Methodologies",
+      "Test Automation Development & Debugging",
+      "Automation Frameworks / Automated Testing Solutions",
+      "Root-Cause Analysis",
+      "Regression Testing"
+    ],
+    "Programming & Scripting": [
+      "Python"
+    ],
+    "Systems & Networking": [
+      "Linux",
+      "TCP/IP / Static Networking Configuration",
+      "systemd Service Management",
+      "Git",
+      "GitLab"
+    ],
+    "ML & Data Tools": [
+      "PyTorch",
+      "HuggingFace Transformers",
+      "PyQt",
+      "Cython"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI (PyQt, Matplotlib) for real-time data acquisition and experimental validation, applying structured software testing and validation methodologies in a laboratory test environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Improved model validation accuracy from 55% to 93% through iterative test automation development and debugging, preprocessing refinement, and model tuning.",
+        "Built and validated PyTorch preprocessing/training pipelines (HuggingFace VisionEncoderDecoder) for structured document field extraction."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained and validated a YOLOv8n object-detection model (83% mAP@50 on held-out validation set) using automated evaluation scripts; exported to ONNX/TFLite for deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) on a voice-controlled, vision-guided robotic system after resolving 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through systematic root cause analysis and debugging.",
+        "Built and validated a three-layer distributed system (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller) unified over a TCP/IP-based WebSocket fabric, with static IP networking configuration for reliable multi-device communication.",
+        "Deployed the Jetson-side service via systemd (auto-restart, non-root isolation, environment-based config) in a headless Linux environment, administered remotely via XRDP."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Benchmarked an 8-bit quantized TinyLlama 1.1B model against HellaSwag, GSM8K, and ARC test suites, running regression testing against baseline results to confirm <1% accuracy degradation."
+      ]
+    },
+    {
+      "name": "COFFIN \u2013 Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built a custom BPE tokenizer with a Cython-accelerated backend achieving 4\u20135.5\u00d7 speedup over pure Python, validated against a 15% WER benchmark on the NPTEL 2020 dataset."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": []
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "company": "Zone 5 Technologies",
+    "role": "Embedded Software Engineer I/II",
+    "company_slug": "zone5-technologies",
+    "job_slug": "embedded-software-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering from Rochester Institute of Technology (RIT) with hands-on firmware experience across STM32 Cortex-M4, Raspberry Pi, and NVIDIA Jetson platforms. Developed real-time embedded systems using FreeRTOS, bare-metal C, and UART/I2C/SPI protocols \u2014 from PCB design through hardware-in-the-loop debugging with oscilloscopes and logic analyzers.",
+  "skills": {
+    "Embedded Systems": [
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "UART/I2C/SPI",
+      "GPIO/PWM/ADC",
+      "Arduino",
+      "Raspberry Pi",
+      "NVIDIA Jetson",
+      "EAGLE PCB Design"
+    ],
+    "Languages & Tools": [
+      "C/C++",
+      "Python",
+      "Bash",
+      "Linux",
+      "Git",
+      "CMake",
+      "Proteus",
+      "SolidWorks",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ],
+    "Robotics & Perception": [
+      "ROS/ROS2",
+      "MoveIt",
+      "OpenCV",
+      "YOLO",
+      "TensorRT"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member team across national-level competitions, owning mechanical design, PCB fabrication, and firmware integration end-to-end."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi Pico and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Built a PyQt + Matplotlib GUI for real-time data acquisition and experimental visualization in a laboratory environment; used GitLab for version control."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 on NVIDIA Jetson for object detection; sent real-time control commands to STM32 over UART for multi-servo PWM tracking with interrupt-driven override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensor and OLED display over I2C."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 firmware in bare-metal C: timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C display driver.",
+        "Programmed GPIO, TIM2, ADC1, and I2C1 peripherals directly; achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Implemented two-link IK on Arduino in C++; drove five servos with PWM and range-gated contact detection via TCA9548A I2C multiplexer and dual VL53L0X ToF sensors.",
+        "Resolved 11 hardware integration failures (servo crosstalk, I2C bus conflicts, sensor false positives); achieved 100% pick reliability across 10 trials."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via ROS 2 driver; derived DH tables and validated forward kinematic chains for 6-DoF UR5e and 5-DoF AL5B (<2mm repeatability)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Robot Perception"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

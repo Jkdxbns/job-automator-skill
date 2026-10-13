@@ -1,0 +1,32 @@
+{
+  "company": "ALTEN Technology USA",
+  "company_slug": "alten",
+  "role": "Embedded Software Engineer I",
+  "job_slug": "embedded-software-engineer-i",
+  "match_pct": 50,
+  "have_skills": ["embedded software engineering", "C/C++"],
+  "adjacent_skills": [
+    {"jd_term": "software architecture", "you_have": "system/pipeline architecture (COFFIN, BARC, Planctech)"},
+    {"jd_term": "unit testing / integration testing", "you_have": "testing & validation across projects; resolved 11 integration failures in COFFIN"},
+    {"jd_term": "hardware-in-the-loop", "you_have": "hardware-software co-integration (Jetson+Arduino, STM32+sensor stack)"},
+    {"jd_term": "technical documentation", "you_have": "lab GUI documentation (BARC), RIT capstone docs, claims documentation (Planctech)"}
+  ],
+  "missing_skills": ["IBM DOORS", "DO-178C", "MIL-STD-498", "requirements traceability", "ICD / interface control documents", "formal requirements management"],
+  "top_ats_keywords": ["embedded software", "software architecture", "requirements management", "IBM DOORS", "DO-178C", "hardware-in-the-loop", "verification and validation", "traceability", "unit testing", "integration testing", "ICD", "safety-critical"],
+  "key_responsibilities": [
+    "requirements development and management throughout SDLC",
+    "software architecture documentation",
+    "IBM DOORS requirements with traceability",
+    "unit/integration testing in HIL and simulation environments",
+    "DO-178C / safety-critical standards compliance",
+    "formal technical reviews (SRR, PDR, CDR, TRR)",
+    "interface control documentation",
+    "technical documentation (ICDs, design descriptions, test procedures)",
+    "verification and validation with test-to-requirements traceability"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "company": "Abaka AI",
+  "company_slug": "abaka-ai",
+  "role": "Multimodal Data Engineer",
+  "job_slug": "multimodal-data-engineer",
+  "match_pct": 26.8,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 18,
+    "jd_ask_size": 28,
+    "req_cov": 0.184,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "GPU",
+    "Multimodal data",
+    "Robotics data",
+    "LLM datasets"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Containerized batch compute",
+      "you_have": "SLURM"
+    },
+    {
+      "jd_skill": "Data quality gates",
+      "you_have": "Model evaluation"
+    },
+    {
+      "jd_skill": "GPU pipeline cost optimization",
+      "you_have": "CUDA/pynvml profiling"
+    },
+    {
+      "jd_skill": "Autonomous driving data",
+      "you_have": "CARLA"
+    },
+    {
+      "jd_skill": "Data engineering",
+      "you_have": "Pandas/NumPy, data acquisition"
+    }
+  ],
+  "missing_skills": [
+    "Spark",
+    "Ray",
+    "Flink",
+    "Airflow",
+    "Dagster",
+    "Argo",
+    "Cloud object storage",
+    "Cloud permissions",
+    "Cost monitoring",
+    "Sampling plans",
+    "Data privacy",
+    "Access control",
+    "Encryption",
+    "Provenance tracking",
+    "SFT",
+    "RLHF",
+    "Deduplication",
+    "Annotation platforms"
+  ],
+  "top_ats_keywords": [
+    "Spark",
+    "Ray",
+    "Airflow",
+    "Dagster",
+    "Argo",
+    "object storage",
+    "batch processing",
+    "GPU",
+    "annotation",
+    "data quality",
+    "deduplication",
+    "multimodal",
+    "RLHF",
+    "SFT",
+    "robotics",
+    "autonomous driving"
+  ],
+  "required_skills": [
+    "Data engineering",
+    "Spark",
+    "Ray",
+    "Flink",
+    "Airflow",
+    "Dagster",
+    "Argo",
+    "Cloud object storage",
+    "Containerized batch compute",
+    "Cloud permissions",
+    "Cost monitoring",
+    "Data quality gates",
+    "Sampling plans",
+    "Data privacy",
+    "Access control",
+    "Encryption",
+    "Provenance tracking",
+    "Multimodal data",
+    "Python"
+  ],
+  "preferred_skills": [
+    "LLM datasets",
+    "SFT",
+    "RLHF",
+    "Robotics data",
+    "Autonomous driving data",
+    "Deduplication",
+    "Annotation platforms",
+    "GPU pipeline cost optimization"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Scope client data requirements",
+    "Own dataset delivery",
+    "Build multimodal pipelines",
+    "Quality gates",
+    "Infra and cost tracking"
+  ],
+  "role_category": "ml_systems",
+  "location": "Mountain View, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

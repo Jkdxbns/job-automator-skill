@@ -1,0 +1,99 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Developer Infrastructure",
+  "job_slug": "software-engineer-developer-infrastructure",
+  "match_pct": 46.4,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 1,
+    "missing_count": 7,
+    "jd_ask_size": 14,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python programming and scripting",
+    "Linux systems and development environment administration",
+    "ROS / robotics software stacks",
+    "Sensor / embedded / real-time systems",
+    "CMake / build tooling",
+    "Git / version control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Build systems (Bazel or Nx requested)",
+      "you_have": "CMake in profile skills; embedded C/C++ and ROS build experience (COFFIN, STM32, CUDA kernels) \u2014 same domain (build tooling) but different tool (CMake, not Bazel/Nx)"
+    }
+  ],
+  "missing_skills": [
+    "Docker / containerization technologies (no Docker, Kubernetes, cloud platforms anywhere in profile; explicitly excluded by profile notes)",
+    "Bazel or Nx build systems (not in skills, no project backing)",
+    "CI/CD pipelines / automated code quality-style checks (profile explicitly states no CI/CD tooling; no automated lint/style pipeline work)",
+    "Internal CLI tools and developer workflow tooling (no explicit CLI/tooling build in profile bullets)",
+    "Monorepo build systems, file structure, and documentation (no monorepo experience backed)",
+    "Containerized development environments (requires Docker/containerization, which is missing)",
+    "Automated code quality / style enforcement pipelines (explicitly no CI/CD backing)"
+  ],
+  "top_ats_keywords": [
+    "Docker",
+    "containerization",
+    "Linux",
+    "Python",
+    "Bazel",
+    "Nx",
+    "monorepo",
+    "ROS",
+    "robotics",
+    "CI/CD",
+    "GitHub Actions",
+    "internal CLI",
+    "build systems",
+    "developer infrastructure",
+    "code quality"
+  ],
+  "required_skills": [
+    "Hands-on experience with Docker or other containerization technologies",
+    "Solid understanding of Linux systems and development environments",
+    "Strong programming or scripting skills (Python or similar)",
+    "Bachelor's degree in Computer Science, Engineering, or related field (or equivalent experience)"
+  ],
+  "preferred_skills": [
+    "Experience with build systems such as Bazel or Nx",
+    "Experience supporting robotics software stacks (e.g., ROS, real-time systems, sensor integration)",
+    "Hands-on experience designing or maintaining CI/CD pipelines (e.g., GitHub Actions)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Build and maintain containerized development environments",
+    "Develop and enforce automated code quality and style checks",
+    "Design and maintain internal CLI tools and developer workflows",
+    "Own and improve monorepo build systems, file structure, and documentation",
+    "Partner with robotics, web, data, and ML teams to support their development needs",
+    "Improve developer velocity, reliability, and consistency across the codebase"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

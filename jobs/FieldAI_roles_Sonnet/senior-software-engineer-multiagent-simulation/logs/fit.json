@@ -1,0 +1,146 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Software Engineer, Multiagent Simulation",
+  "job_slug": "senior-software-engineer-multiagent-simulation",
+  "match_pct": 53.1,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 9,
+    "missing_count": 3,
+    "jd_ask_size": 16,
+    "req_cov": 0.083,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (Python listed; COFFIN MS Capstone (Flutter+Flask-SocketIO+Jetson+Python), BARC Python Developer Intern (PyQt/Matplotlib), IIT Bombay AI/ML Intern (PyTorch/HuggingFace))",
+    "C++ (C/C++ listed; CUDA Kernel Optimization for VGG16 (custom CUDA C++ kernels, memory coalescing))",
+    "standard robotics middleware (ROS2 Humble + ROS Noetic (AL5B & UR5e ROS-Based Robotic Arm; COFFIN capstone with ROS2 integration))",
+    "translate research into practical, field-deployable systems (COFFIN MS Capstone (systemd deployment, auto-restart, non-root isolation, static IP, 100% pick reliability); BARC Research Intern (image-stitching pipeline with PSNR 86, ZoeDepth depth profiling \u00b18% error))"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multi-robot/multi-agent systems (task allocation, distributed planning, swarm coordination, fleet management)",
+      "you_have": "ROS-Based Robotic Arm (AL5B & UR5e) with ROS2 Humble / ROS Noetic, MoveIt, RViz; Voice-Controlled Robotic Arm (COFFIN capstone) coordinates Jetson+Arduino+dual VL53L0X ToF sensors via TCA9548A I2C mux \u2014 multi-sensor integration but no fleet-level task allocation or distributed planning"
+    },
+    {
+      "jd_skill": "publications/open-source contributions in multiagent systems, multi-robot planning, or fleet coordination",
+      "you_have": "None \u2014 profile lists no publications or open-source releases; closest is research fellowship (Teesside Univ, U-Net/BraTS 2020) and research intern (BARC, image stitching/depth estimation) but no multiagent/fleet pub"
+    },
+    {
+      "jd_skill": "domain randomization, synthetic data generation, or sim-to-real transfer at scale",
+      "you_have": "COFFIN capstone calibrates real VL53L0X ToF sensors and deploys to Jetson/Arduino with systemd; no explicit domain randomization or synthetic data pipeline mentioned"
+    },
+    {
+      "jd_skill": "hands-on work with real robot fleets in field environments (construction, mining, logistics, defense)",
+      "you_have": "Only lab/research robots: AL5B, UR5e, Jetson+Arduino arm (COFFIN), STM32 turret; no field deployment in construction/mining/logistics/defense mentioned"
+    },
+    {
+      "jd_skill": "contributions to open-source robotics or simulation frameworks",
+      "you_have": "Profile mentions no open-source releases; closest is ROS2/ROS Noetic usage and GitLab collaboration but no framework contribution"
+    },
+    {
+      "jd_skill": "physics, perception, and comms integration at fleet scale",
+      "you_have": "YOLO perception (COFFIN, Tusk, Object Tracking Turret, Autonomous Driving in CARLA); UART/I2C/SPI, Bluetooth (BLE/Classic) comms; physics modeling not explicitly present (no MuJoCo/Isaac Sim/Genesis experience)"
+    },
+    {
+      "jd_skill": "calibrate simulation to real-world telemetry / reduce sim-to-real gap",
+      "you_have": "COFFIN capstone includes sensor calibration (VL53L0X ToF) and real-world deployment; no explicit simulation-to-telemetry calibration pipeline"
+    },
+    {
+      "jd_skill": "logging, metrics, and visualization for fleet KPIs (throughput, collisions, comms overhead, idle time)",
+      "you_have": "COFFIN capstone resolves 11 integration failures and includes systemd logging; BARC Python Developer Intern built PyQt/Matplotlib real-time data-acquisition GUI; no fleet-scale KPI metrics mentioned"
+    },
+    {
+      "jd_skill": "reproducible experiment infrastructure with versioned scenes, configs, and results",
+      "you_have": "Git and GitLab usage (BARC Python Developer Intern, COFFIN); versioned scenes/configs not mentioned in profile"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "robotics simulation engines (MuJoCo, NVIDIA Isaac Sim, Genesis)",
+      "you_have": "Profile has no mention of MuJoCo, NVIDIA Isaac Sim, or Genesis; closest is ROS2/ROS Noetic + RViz visualization and YOLO perception, but no simulation-engine experience"
+    },
+    {
+      "jd_skill": "distributed systems or cloud-based simulation orchestration",
+      "you_have": "Profile explicitly excludes Docker, Kubernetes, cloud (AWS/GCP/Azure), CI/CD \u2014 no distributed/cloud orchestration skills"
+    },
+    {
+      "jd_skill": "multi-robot / fleet-level orchestration at scale (thousands of experiments, fleet scenarios)",
+      "you_have": "COFFIN is single-arm, single-agent; no multi-robot fleet orchestration at scale"
+    }
+  ],
+  "top_ats_keywords": [
+    "multi-robot",
+    "simulation",
+    "fleet orchestration",
+    "multiagent",
+    "swarm",
+    "coordination",
+    "domain randomization",
+    "sim-to-real",
+    "physics",
+    "perception",
+    "comms",
+    "calibration",
+    "task allocation",
+    "distributed planning",
+    "robotics middleware",
+    "ROS",
+    "ROS2",
+    "metrics",
+    "visualization",
+    "reproducible experiment infrastructure"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "robotics simulation engines (MuJoCo, NVIDIA Isaac Sim, Genesis)",
+    "multi-robot/multi-agent systems (task allocation, distributed planning, swarm coordination, fleet management)",
+    "standard robotics middleware",
+    "translate research into practical, field-deployable systems"
+  ],
+  "preferred_skills": [
+    "publications/open-source contributions in multiagent systems, multi-robot planning, or fleet coordination",
+    "domain randomization, synthetic data generation, or sim-to-real transfer at scale",
+    "background in distributed systems or cloud-based simulation orchestration",
+    "hands-on work with real robot fleets in field environments (construction, mining, logistics, defense)",
+    "contributions to open-source robotics or simulation frameworks"
+  ],
+  "required_experience_years": 7,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Architect high-fidelity multi-robot simulation scenes (terrain, sensors, dynamic obstacles) and scale from single-agent tests to fleet scenarios",
+    "Integrate physics, perception, and comms models so agents behave realistically at fleet scale",
+    "Implement and evaluate fleet-level task allocation, coordination, and planning inside simulation",
+    "Build declarative mission tooling to run thousands of orchestration experiments and profile performance",
+    "Calibrate simulation to real-world telemetry with field teams and reduce the sim-to-real gap",
+    "Build domain randomization, scenario generation, and automated regression/benchmark gates",
+    "Design logging, metrics, and visualization for fleet KPIs",
+    "Maintain reproducible experiment infrastructure with versioned scenes, configs, and results",
+    "Partner with perception, planning, learning, DevOps, and infrastructure teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship/ITAR/citizenship/clearance language in JD. Company mentions DARPA and defense as domain examples but role is private R&D (not a federal/defense/government-contractor position). No explicit no-sponsorship or authorization-required clause."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

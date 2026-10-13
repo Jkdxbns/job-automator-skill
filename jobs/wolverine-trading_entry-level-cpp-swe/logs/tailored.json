@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "company": "Wolverine Trading",
+    "role": "Entry Level C++ Software Engineer",
+    "company_slug": "wolverine-trading",
+    "job_slug": "entry-level-cpp-swe"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built performance-critical C++ and embedded C systems, including a 5.2× TensorRT inference speedup and a 30× parallel ray tracer speedup across 55 processes. Experienced in real-time systems, FreeRTOS concurrency, profiling, and performance tuning.",
+  "skills": {
+    "Languages & Systems": [
+      "C++",
+      "C",
+      "CUDA C++",
+      "Python",
+      "Bash",
+      "Linux"
+    ],
+    "Performance & Profiling": [
+      "performance tuning",
+      "profiling",
+      "benchmarking",
+      "memory coalescing",
+      "pynvml"
+    ],
+    "Real-Time & Concurrency": [
+      "real-time systems",
+      "FreeRTOS",
+      "mutexes",
+      "interrupt-driven firmware",
+      "MPI",
+      "multiprocessing"
+    ],
+    "Tools & Validation": [
+      "Git",
+      "GitLab",
+      "troubleshooting",
+      "testing and validation",
+      "systemd",
+      "WebSocket"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) with optimized homography stitching and concurrency, raising PSNR to 86 from a 65 baseline.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding on ADXL345 data; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization; used GitLab for version control."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Coalesced kernel ran at 49.2 ms vs 73.3 ms uncoalesced and 77.5 ms CPU TorchScript (~35% speedup over naive GPU) with identical accuracy.",
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory, and preallocated global buffers."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Achieved up to 30× speedup with static strip partitioning (55 processes); dynamic task queue outperformed all static methods under unpredictable workloads.",
+        "Benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) rendering 5000×5000 pixel scenes with MPI."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 firmware in embedded C for real-time temperature monitoring at a deterministic 1 Hz update rate within 3.68 KB Flash / 1.58 KB RAM; verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver, programming GPIO, TIM2, ADC1, and I2C1 directly in bare-metal C."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Optimized YOLO inference with TensorRT for a 5.2× speedup (56.7→10.9 ms, 17.6→92 FPS vs eager PyTorch) in a voice-to-pick pipeline running at ~11.5 s end-to-end latency.",
+        "Troubleshot and resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability (10/10 trials).",
+        "Wrote two-link IK in C++ on Arduino; built a multiprocessing multi-camera frame-capture pipeline; deployed the Jetson bridge as a systemd service."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination alongside interrupt-driven UART commands and multi-servo PWM control, tracking YOLOv8 detections from an NVIDIA Jetson."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": [
+        "Digital Electronics",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

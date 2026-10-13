@@ -1,0 +1,219 @@
+{
+ "jd": {
+  "company_name": "Etched",
+  "company_slug": "etched",
+  "job_title": "Kernel Driver Software Engineer",
+  "job_slug": "etched_00_kernel-driver-software-engineer",
+  "required_skills": [
+   "C/C++",
+   "kernel-mode driver development",
+   "Linux OS internals",
+   "device drivers",
+   "hardware/software interfacing",
+   "memory management (kernel mapping / page tables / NUMA / IOMMU)",
+   "synchronization (kernel concurrent access)",
+   "PCIe and hardware interfaces",
+   "device virtualization (SR-IOV / VFIO / para-virtualization)",
+   "kernel debugging (ftrace / dmesg / gdb / kgdb)",
+   "security / device attestation",
+   "production / manufacturing validation",
+   "hardware-software co-design"
+  ],
+  "preferred_skills": [
+   "GPU / accelerator driver experience",
+   "performance profiling (perf / VTune)",
+   "ML workload optimization",
+   "CUDA / OpenCL",
+   "Rust",
+   "CI/CD",
+   "Kubernetes / Docker / containerized environments",
+   "para-virtualization optimization"
+  ],
+  "all_keywords": [
+   "kernel driver",
+   "C",
+   "C++",
+   "Linux",
+   "kernel-mode",
+   "device driver",
+   "memory management",
+   "kernel memory mapping",
+   "page tables",
+   "NUMA",
+   "IOMMU",
+   "PCIe",
+   "SR-IOV",
+   "VFIO",
+   "para-virtualization",
+   "synchronization",
+   "concurrent access",
+   "ftrace",
+   "dmesg",
+   "gdb",
+   "kgdb",
+   "hardware-software co-design",
+   "ML accelerator",
+   "production",
+   "manufacturing",
+   "virtualization",
+   "security",
+   "device attestation",
+   "performance benchmark",
+   "CUDA",
+   "OpenCL",
+   "Rust",
+   "CI/CD",
+   "Kubernetes",
+   "Docker"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Design/develop kernel-mode drivers",
+   "Optimize driver performance for AI workloads",
+   "Collaborate with hardware engineers on ASIC design",
+   "Implement SR-IOV / VFIO / para-virtualization",
+   "Configure kernel memory mapping / page tables / NUMA / IOMMU",
+   "Build security-focused drivers (attestation, physical memory isolation)",
+   "Diagnose complex driver issues with ftrace/dmesg",
+   "Design synchronization for concurrent accelerator access",
+   "Validate drivers in production/manufacturing",
+   "Integrate ML accelerators into containerized/virtualized environments"
+  ],
+  "ats_keywords": [
+   "kernel driver",
+   "C/C++",
+   "Linux kernel",
+   "PCIe",
+   "SR-IOV",
+   "VFIO",
+   "IOMMU",
+   "memory management",
+   "device virtualization",
+   "hardware co-design",
+   "accelerator",
+   "production"
+  ],
+  "role_category": "embedded_systems"
+ },
+ "have": [
+  "C/C++",
+  "hardware-software co-design",
+  "Python",
+  "Git",
+  "debugging / profiling",
+  "embedded / embedded C",
+  "ROS / ROS2",
+  "CUDA / CUDA C++",
+  "ML inference / edge AI"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "kernel-mode driver development / Linux internals",
+   "you_have": "embedded Linux / embedded C / Linux admin"
+  },
+  {
+   "jd_skill": "device drivers (general)",
+   "you_have": "embedded device interfacing (UART/I2C/SPI, ADC/DAC, BLE, PWM, encoders)"
+  },
+  {
+   "jd_skill": "memory management (kernel mapping / page tables / NUMA / IOMMU)",
+   "you_have": "embedded memory / CUDA memory optimization"
+  },
+  {
+   "jd_skill": "PCIe",
+   "you_have": "none close"
+  },
+  {
+   "jd_skill": "SR-IOV / VFIO / device virtualization",
+   "you_have": "none"
+  },
+  {
+   "jd_skill": "synchronization (kernel concurrent access)",
+   "you_have": "FreeRTOS mutexes / concurrent embedded tasks"
+  },
+  {
+   "jd_skill": "kernel debugging (ftrace / dmesg / gdb / kgdb)",
+   "you_have": "debugging / profiling tools"
+  },
+  {
+   "jd_skill": "security / device attestation / physical memory isolation",
+   "you_have": "none"
+  },
+  {
+   "jd_skill": "production / manufacturing validation",
+   "you_have": "manufacturing-adjacent validation (COFFIN 10/10 pick reliability; STM32 Proteus verification)"
+  },
+  {
+   "jd_skill": "GPU / accelerator driver experience",
+   "you_have": "CUDA inference optimization / TensorRT deployment on Jetson"
+  },
+  {
+   "jd_skill": "performance profiling (perf / VTune)",
+   "you_have": "pynvml + psutil profiling"
+  },
+  {
+   "jd_skill": "Rust",
+   "you_have": "none"
+  },
+  {
+   "jd_skill": "CI/CD pipelines",
+   "you_have": "none"
+  },
+  {
+   "jd_skill": "Kubernetes / Docker / containerized environments",
+   "you_have": "none for K8s/Docker; basic container-adjacent (systemd service on Jetson)"
+  },
+  {
+   "jd_skill": "para-virtualization",
+   "you_have": "none"
+  },
+  {
+   "jd_skill": "ML workload optimization",
+   "you_have": "TensorRT optimization / inference profiling / quantization"
+  }
+ ],
+ "missing": [
+  "kernel-mode driver development",
+  "Linux kernel internals",
+  "kernel memory mapping",
+  "page table configuration",
+  "NUMA awareness (kernel-level)",
+  "IOMMU configuration",
+  "PCIe interfaces",
+  "SR-IOV",
+  "VFIO",
+  "para-virtualization",
+  "kernel-level synchronization",
+  "ftrace",
+  "dmesg",
+  "kgdb",
+  "device attestation",
+  "physical memory space isolation",
+  "production/manufacturing-scale driver validation",
+  "GPU/accelerator kernel driver development",
+  "perf",
+  "VTune",
+  "Rust",
+  "CI/CD (pipeline)",
+  "Kubernetes",
+  "Docker",
+  "hardware virtualization techniques (beyond user-space)"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": false
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

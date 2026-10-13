@@ -1,0 +1,144 @@
+{
+ "jd": {
+  "company_name": "Etched",
+  "company_slug": "etched",
+  "job_title": "Design Verification Engineer - SoC",
+  "job_slug": "etched_17_design-verification-engineer-soc",
+  "required_skills": [
+   "SystemVerilog",
+   "RTL / digital design",
+   "ASIC design flows",
+   "Performance verification (simulation / modeling / correlation)",
+   "Python scripts (automation / data analysis / performance modeling)",
+   "Checkers / coverage monitors / testbenches",
+   "Performance model development / maintenance (chip subsystems)",
+   "Memory hierarchies / pipelines / interconnects / compute accelerators",
+   "Performance bottleneck analysis / compiler optimization / workload tuning",
+   "Kernel-level performance metrics / profiling tools"
+  ],
+  "preferred_skills": [
+   "Pre-silicon / post-silicon correlation",
+   "Systolic arrays / DMA / NoC experience",
+   "Performance tuning on silicon"
+  ],
+  "all_keywords": [
+   "SystemVerilog",
+   "RTL",
+   "ASIC",
+   "digital design",
+   "performance verification",
+   "simulation",
+   "modeling",
+   "performance correlation",
+   "pre-silicon",
+   "post-silicon",
+   "Python",
+   "testbench",
+   "checker",
+   "coverage monitor",
+   "performance model",
+   "chip subsystem",
+   "memory hierarchy",
+   "pipeline",
+   "interconnect",
+   "compute accelerator",
+   "performance bottleneck",
+   "compiler optimization",
+   "workload tuning",
+   "kernel performance metrics",
+   "profiling",
+   "silicon",
+   "silicon-ready",
+   "systolic array",
+   "DMA",
+   "NoC"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose (in-person, Santana Row)",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Verify performance features of design and correlate with performance models (pre/post-silicon)",
+   "Identify performance bottlenecks and tune software with developers",
+   "Develop test plans / infrastructure / tools for performance tuning and correlation",
+   "Build and maintain architectural performance models",
+   "Write SystemVerilog / Python checkers for performance features",
+   "Develop coverage monitors and analyze coverage",
+   "Debug performance issues and tune on silicon",
+   "Drive end-to-end performance tuning across ASIC lifecycle"
+  ],
+  "ats_keywords": [
+   "SystemVerilog",
+   "RTL",
+   "ASIC",
+   "performance verification",
+   "simulation",
+   "performance modeling",
+   "Python",
+   "testbench",
+   "checker",
+   "coverage",
+   "chip",
+   "silicon",
+   "memory hierarchy",
+   "pipeline",
+   "interconnect",
+   "compute accelerator",
+   "bottleneck",
+   "compiler optimization",
+   "workload tuning",
+   "profiling",
+   "systolic array",
+   "DMA",
+   "NoC"
+  ],
+  "role_category": "embedded_systems"
+ },
+ "have": [
+  "Python (scripting, automation, data analysis, ML pipelines)",
+  "Performance profiling / benchmarking / profiling tools"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "Simulation / modeling (pre/post-silicon, performance correlation)",
+   "you_have": "Software simulation and performance-model benchmarking (not chip-level pre/post-silicon verification)"
+  },
+  {
+   "jd_skill": "Performance bottleneck analysis, compiler optimization, workload tuning",
+   "you_have": "CUDA kernel optimization and inference-performance trade-off analysis"
+  },
+  {
+   "jd_skill": "Memory hierarchies, pipelines, interconnects, compute accelerators",
+   "you_have": "Embedded / GPU memory, pipeline, and accelerator experience (not chip-level interconnect / NoC)"
+  },
+  {
+   "jd_skill": "Digital design / embedded electronics",
+   "you_have": "Embedded electronics / bare-metal C / PCB design (not RTL / ASIC design flows)"
+  }
+ ],
+ "missing": [
+  "SystemVerilog",
+  "RTL (Register Transfer Level)",
+  "ASIC design flows",
+  "Performance verification discipline (testbenches, checkers, coverage for ASIC)",
+  "Checkers / coverage monitors / testbenches in SystemVerilog",
+  "Performance model development and maintenance for chip subsystems (pre/post-silicon correlation)",
+  "Kernel-level performance metrics / profiling (OS kernel profiling specifically)",
+  "Systolic arrays / DMA engines / NoC-specific experience",
+  "Silicon-ready verification / post-silicon debug experience"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": false
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

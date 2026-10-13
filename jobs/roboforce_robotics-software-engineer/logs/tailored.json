@@ -1,0 +1,92 @@
+{
+  "_meta": { "company": "RoboForce", "role": "Robotics Software Engineer", "company_slug": "roboforce", "job_slug": "robotics-software-engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience building and debugging production-style robotics software in C++ and Python across perception, embedded controls, and system integration. Deployed a multi-component pick-and-place robot integrating TensorRT-optimized perception, closed-loop servo control, and sensor fusion, resolving 11 integration failures through systematic root-cause debugging to reach 100% pick reliability. Comfortable working end-to-end on Linux across hardware interfacing, real-time debugging, and on-robot validation.",
+  "skills": {
+    "Robotics & Controls": ["Robotics", "ROS/ROS2", "RViz", "MoveIt", "Closed-Loop Feedback Control", "PWM Motor Control", "Quadrature Encoders", "Visual Servoing", "Forward Kinematics", "Odometry"],
+    "Embedded & Sensors": ["STM32 (Bare-Metal C)", "UART/I2C/SPI", "Sensor Integration (ToF)", "NVIDIA Jetson"],
+    "Perception": ["YOLO", "TensorRT", "OpenCV"],
+    "Languages & Systems": ["C++", "Python", "Linux", "Bash", "Git", "CMake"],
+    "Deployment": ["systemd Service Management", "Static IP / Network Configuration"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free control, integrating ADXL345 accelerometer sensors with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF motion into real-time control commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; debugged and resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback control."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system as a three-layer distributed pipeline (mobile client, edge server, Jetson+Arduino controller) over a unified WebSocket fabric — system integration across perception, planning, and controls.",
+        "Integrated TensorRT-optimized YOLO perception (5.2x speedup: 56.7->10.9ms, 17.6->92 FPS) for visual servoing and dual ToF sensors for contact-aware grasping via I2C multiplexing.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through systematic root-cause debugging and testing; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Deployed the Jetson-side controller as a systemd service (auto-restart, non-root isolation, static-IP networking) for reliable on-robot validation across devices."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson for real-time object detection and tracking, sending control commands to an STM32 microcontroller over UART for embedded systems integration.",
+        "Implemented multi-servo PWM closed-loop control with interrupt-driven UART command handling and user override for safe operation."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot — Holonomic Drive & Encoder Odometry",
+      "date": "2022 – 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a 4-wheel holonomic robot: derived heading from dual-axis quadrature encoder odometry and fed angular error back into rotation control, holding course during translation.",
+        "Implemented interrupt-driven quadrature decoding from first principles (4-bit A/B transition state machine) and drove four motor channels at 15kHz PWM."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS2 Humble and ROS Noetic."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["Robot Perception", "Principles of Robotics", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,153 @@
+{
+  "company": "Ring (Amazon)",
+  "company_slug": "ring",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 72.5,
+  "score_detail": {
+    "have_count": 14,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 20,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "RTOS",
+    "low-level drivers",
+    "interrupt service routines",
+    "testing discipline in embedded context",
+    "own component end-to-end",
+    "BLE",
+    "Wi-Fi",
+    "battery-powered firmware",
+    "SPI",
+    "I2C",
+    "UART",
+    "Python",
+    "AI/ML in embedded/IoT"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "IAR/Keil dev tools",
+      "you_have": "STM32CubeIDE / CMake build systems"
+    }
+  ],
+  "missing_skills": [
+    "Embedded Linux",
+    "Yocto/BSP",
+    "AWS IoT/cloud-connected devices",
+    "software libraries/interfaces for other teams",
+    "CI/CD pipelines"
+  ],
+  "top_ats_keywords": [
+    "RTOS",
+    "C++",
+    "ISR",
+    "SPI",
+    "I2C",
+    "UART",
+    "BLE",
+    "Wi-Fi",
+    "Python",
+    "microcontroller",
+    "firmware",
+    "CI/CD"
+  ],
+  "required_skills": [
+    "C++ (OOP)",
+    "RTOS production experience",
+    "low-level drivers",
+    "interrupt service routines",
+    "testing discipline in embedded context",
+    "own component end-to-end"
+  ],
+  "preferred_skills": [
+    "BLE",
+    "Wi-Fi",
+    "battery-powered firmware",
+    "SPI",
+    "I2C",
+    "UART",
+    "Embedded Linux",
+    "Yocto/BSP",
+    "IAR/Keil dev tools",
+    "Python scripting",
+    "AI/ML in embedded/IoT",
+    "AWS IoT/cloud-connected devices",
+    "software libraries/interfaces for other teams"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/implement firmware for battery-powered and wired IoT devices on MCU/RTOS",
+    "Own components end to end across product generations",
+    "Define software interfaces for other teams",
+    "Debug full stack from hardware bring-up to field defects",
+    "Maintain CI pipelines and build systems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated (team sites in Europe/Asia, stakeholders in US)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 61,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "RTOS task/sync primitives: FreeRTOS with mutexes for shared-memory task coordination (Object Tracking Turret)",
+      "Low-level drivers/ISR: bare-metal GPIO/TIM2/ADC1/I2C1 register-level programming, interrupt-driven ADC and UART capture (STM32 Bare-Metal Temperature Monitor, Object Tracking Turret)",
+      "Bus protocols SPI/I2C/UART: TCA9548A I2C mux, VL53L0X ToF sensors, custom PCB UART/I2C sensor comms (COFFIN, Agnel Robotics Club)",
+      "Full-stack hardware-to-field debugging: resolved 11 integration failures across sensor/servo/networking layers in COFFIN",
+      "AI/ML on embedded/IoT: TensorRT-optimized YOLO (5.2x speedup) deployed on Jetson driving a real-time control loop"
+    ],
+    "real_gaps": [
+      "Production-scale, multi-generation component ownership \u2014 all projects are capstone/personal scope, none shipped or maintained as a product across releases",
+      "Non-internship professional software development experience \u2014 0 full-time years, only internships, and the JD states this requirement twice",
+      "Battery-powered product firmware (power budgeting, low-power/sleep modes) \u2014 no evidence in the profile",
+      "CI/CD pipelines and automated test infrastructure \u2014 no CI/CD tooling anywhere in the profile, only CMake",
+      "Designing software interfaces/libraries consumed by other teams \u2014 no evidence of API/library design for external consumers",
+      "Embedded Linux / Yocto / BSP development \u2014 Jetson experience is systemd/networking administration, not kernel/BSP work",
+      "Formal unit/integration testing discipline \u2014 validation shown is empirical (trial counts, latency numbers), not structured test suites"
+    ],
+    "overstated_by_keywords": [
+      "RTOS production experience \u2014 real FreeRTOS use exists but scoped to one academic project with a single mutex pattern, not production-scale task architecture",
+      "Own component end-to-end \u2014 true within project scope, but not the multi-generation product ownership the JD means"
+    ],
+    "understated_by_keywords": [
+      "Debugging real integration failures (COFFIN's 11 resolved failures: false-positive detections, servo brown-out, stale-frame capture) is stronger evidence of full-stack hardware-to-software debugging than a bare testing-discipline keyword match suggests"
+    ],
+    "screening_gaps": [
+      "\"Non-internship professional software development experience\" is stated twice as a basic qualification \u2014 0 years full-time is the single most likely auto-reject trigger",
+      "No evidence of owning a shipped, production-scale firmware component across multiple product generations \u2014 everything is capstone/personal scope",
+      "No CI/CD or automated embedded test infrastructure experience \u2014 a named basic-qualification option with zero backing"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded chops (RTOS, ISRs, bus protocols, hardware debugging, AI/ML-on-device) are genuinely strong and match Ring's stack well. The real risk is the basic-qualification line requiring non-internship professional experience, stated twice, against 0 full-time years \u2014 that is the most likely screen-out, independent of the skill overlap.",
+    "calibration_delta": 11.5
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-25",
+    "channel": "application",
+    "notes": "Form rejection (req 10553940). No feedback."
+  }
+}

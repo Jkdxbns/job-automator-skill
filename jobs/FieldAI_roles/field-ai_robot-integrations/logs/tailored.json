@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "company": "Field AI",
+    "role": "Robotics Software Engineer \u2013 Robot Integrations",
+    "company_slug": "field-ai",
+    "job_slug": "robot-integrations"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Brought up and integrated ROS2 robot drivers across state, sensing, and actuation for a 6-DoF UR5e and a voice-controlled robotic arm, resolving 11 cross-boundary integration failures (networking, timing, sensor sync) to reach 100% pick reliability on physical hardware. Experienced tuning real-time actuation and control loops (interrupt-driven UART/I2C/TCP comms, FreeRTOS task coordination) across Jetson, Arduino, and STM32 platforms, with hardware-in-the-loop validation in ROS2 and CARLA.",
+  "skills": {
+    "Robotics & Integration": [
+      "ROS/ROS2",
+      "Robot Drivers / SDK Integration",
+      "Forward Kinematics",
+      "DH Parameters",
+      "Visual Servoing",
+      "Hardware-in-the-Loop Testing"
+    ],
+    "Comms & Control": [
+      "UART/I2C/SPI",
+      "TCP/Socket Comms",
+      "Interrupt-Driven Control",
+      "FreeRTOS"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "Linux",
+      "Git"
+    ],
+    "Embedded Platforms": [
+      "NVIDIA Jetson",
+      "Arduino",
+      "STM32"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline: Flutter client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO for visual servoing and dual VL53L0X ToF sensors via a TCA9548A I2C mux for contact-aware grasping.",
+        "Resolved 11 cross-boundary integration failures (false-positive detections, servo brown-out, stale-frame capture, networking/timing drift); achieved 100% pick reliability (10/10 trials)."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Brought up and integrated the UR ROS 2 driver for collision-free pick-and-place trajectory execution; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM actuation control with interrupt-driven UART command handling and user override on an STM32 target.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Designed and simulated a full ABB RobotStudio workcell for an end-to-end press-to-packing assembly pipeline including CAD-modeled fixtures.",
+        "Programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic; validated full-cycle repeatability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

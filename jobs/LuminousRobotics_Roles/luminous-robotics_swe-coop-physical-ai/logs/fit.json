@@ -1,0 +1,141 @@
+{
+  "company": "Luminous Robotics",
+  "company_slug": "luminous-robotics",
+  "role": "Software Co-op/Intern, Physical AI",
+  "job_slug": "swe-coop-physical-ai",
+  "match_pct": 58.7,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 5,
+    "missing_count": 7,
+    "jd_ask_size": 23,
+    "req_cov": 0.767,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "ROS / ROS2",
+    "Robotics algorithm on actual robot",
+    "Deep Learning / ML architectures",
+    "Perception / Computer Vision",
+    "Visualization / debugging (3D / GUI)",
+    "Git",
+    "Sensor data analysis",
+    "ML optimization / edge deployment",
+    "Embedded real-time systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Deep Reinforcement Learning (DRL)",
+      "you_have": "Deep Learning / PyTorch ML (general, no RL)"
+    },
+    {
+      "jd_skill": "Imitation Learning (IL)",
+      "you_have": "Supervised ML training / fine-tuning pipelines"
+    },
+    {
+      "jd_skill": "MLOps infrastructure (training pipelines, annotation-tool integration)",
+      "you_have": "Research/intern-scale data pipeline construction"
+    },
+    {
+      "jd_skill": "Visualization / debugging tools for model performance evaluation",
+      "you_have": "3D coordinate / robotics visualization (Frame Simulator, RViz)"
+    },
+    {
+      "jd_skill": "Docker",
+      "you_have": "Linux service deployment (systemd) but no containerization"
+    }
+  ],
+  "missing_skills": [
+    "Annotation tools",
+    "Cloud infrastructure (bonus preference)",
+    "AI coding assistants (Claude Code / OpenAI developer tools) \u2014 not mentioned in profile",
+    "Agile methods / Jira \u2014 not mentioned",
+    "Published conference paper at ICRA/IROS/AAAI/IJCAI/ICLR/NeurIPS/ICML/RLC \u2014 no publications listed",
+    "Clean tech / renewable energy / solar domain interest \u2014 not in experience or skills",
+    "Startup operations experience \u2014 not in profile"
+  ],
+  "top_ats_keywords": [
+    "DRL",
+    "imitation learning",
+    "ROS",
+    "C++",
+    "Python",
+    "Docker",
+    "perception",
+    "deep RL",
+    "VLA",
+    "ML architectures",
+    "MLOps",
+    "annotation",
+    "visualization",
+    "debugging",
+    "field conditions",
+    "simulated",
+    "Claude Code",
+    "Git",
+    "Agile",
+    "Jira",
+    "clean tech",
+    "renewable energy",
+    "solar"
+  ],
+  "required_skills": [
+    "Deep reinforcement learning (DRL)",
+    "Imitation learning (IL)",
+    "Robotics algorithm implemented on actual robot (not class)",
+    "C++",
+    "Python",
+    "ROS",
+    "Docker",
+    "Deep learning / ML architecture integration",
+    "Perception algorithms",
+    "Sensor data analysis",
+    "Visualization / debugging tools",
+    "Git",
+    "Agile / Jira",
+    "AI coding assistants (e.g. Claude Code)",
+    "Demonstrated interest in robotics / renewable energy / clean tech"
+  ],
+  "preferred_skills": [
+    "Published paper at ICRA, IROS, AAAI, IJCAI, ICLR, NeurIPS, ICML, RLC",
+    "Prior experience with perception algorithms",
+    "Cloud infrastructure experience",
+    "Startup operations experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Contribute to perception and learning-based autonomy components of LUMI robotics stack",
+    "Evaluate and integrate state-of-the-art ML architectures (deep RL policies, VLAs) into LUMI autonomy stack",
+    "Expand MLOps infrastructure: training pipelines, architecture evaluation, annotation-tool integration",
+    "Write production code; participate in code reviews, documentation, cross-functional meetings",
+    "Analyze sensor data and build visualization/debugging tools for model performance in real/simulated environments",
+    "Benchmark learned policies vs classical approaches under real field conditions"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "South Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

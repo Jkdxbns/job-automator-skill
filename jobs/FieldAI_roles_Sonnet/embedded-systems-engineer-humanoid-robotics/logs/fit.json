@@ -1,0 +1,196 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Embedded Systems Engineer, Humanoid Robotics",
+  "job_slug": "embedded-systems-engineer-humanoid-robotics",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 10,
+    "jd_ask_size": 26,
+    "req_cov": 0.083,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "ARM / SoC / microcontroller compute platform design (STM32 (ARM Cortex-M4) bare-metal in 'STM32 Bare-Metal Temperature Monitor'; NVIDIA Jetson (ARM-based SoC) used in COFFIN voice-controlled arm, Object Tracking Turret, and Autonomous Driving (CARLA); Raspberry Pi + Arduino embedded in multiple projects)",
+    "Firmware and BSP bring-up (bare-metal, RTOS, bootloaders) (Bare-metal C on STM32 Cortex-M4 (timer-triggered ADC, interrupt-driven I2C driver) in 'STM32 Bare-Metal Temperature Monitor'; FreeRTOS with mutexes on STM32 in 'Object Tracking Turret'; wearable gesture-glove firmware (ADXL345 + HC-05 Bluetooth + Pi) at Planctech Innovations)",
+    "Embedded sensor drivers: cameras, LiDAR, IMUs (Camera perception: OpenCV + YOLOv8 on Jetson (COFFIN arm, Object Tracking Turret, CARLA); ToF distance sensors (VL53L0X) + I2C mux (TCA9548A) in COFFIN; ADXL345 accelerometer (IMU-class) in wearable gesture-glove at Planctech)",
+    "Motor / joint actuator and tactile sensor drivers (Servo/motor control: multi-servo PWM on STM32 in 'Object Tracking Turret'; ROS-based robotic arm (AL5B & UR5e) with MoveIt / forward kinematics / DH parameters in 'ROS-Based Robotic Arm'; joint manipulation pipeline in COFFIN capstone)",
+    "Wired interfaces (Ethernet, CAN, GMSL, SPI, I2C) + wireless + deterministic timing (PTP, PPS) (UART / I2C / SPI embedded comms explicitly in profile; TCA9548A I2C mux in COFFIN; HC-05 Bluetooth (BLE/Classic) in wearable glove; UART STM32-comm in Object Tracking Turret)",
+    "ML compute-platform integration (latency, memory, throughput) (COFFIN capstone: TensorRT-optimized YOLO (5.2x speedup), faster-whisper STT, Gemini intent classification, systemd deployment on Jetson; 'SLM Compression' (bitsandbytes 8-bit quant, ~55% VRAM reduction, <1% loss); 'CUDA Kernel Optimization' for VGG16 (35% speedup))",
+    "ROS / ROS2 / DDS middleware exposure (ROS2 Humble + ROS Noetic, MoveIt, RViz, UR ROS2 driver in 'ROS-Based Robotic Arm' project; ROS/ROS2 listed explicitly in skills)",
+    "Edge ML / accelerated inference support (TensorRT-optimized YOLO (COFFIN), faster-whisper ASR, 8-bit quantization (TinyLlama), YOLOv8n toothbrush detection (ONNX/TFLite export at Tusk), custom Cython BPE tokenizer)",
+    "Cross-platform compute architecture (generalizes across robot platforms) (Multiple platforms: Jetson, STM32 (bare-metal), Arduino, Raspberry Pi; AL5B and UR5e robotic arms; COFFIN designed for humanoid-style arm payload)",
+    "Safety / e-stop circuitry / functional-safety groundwork (Systemd deployment with auto-restart, non-root isolation, static IP in COFFIN; 100% pick reliability (10/10) with 11 integration-failure resolutions; no formal ISO26262 or e-stop circuitry work)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Linux kernel-level development (real-time, reliable operation)",
+      "you_have": "Profile has Linux user-space (systemd service management: unit files, auto-restart, non-root isolation, static IP) in COFFIN; no kernel-module or PREEMPT_RT work backed by a bullet \u2014 systemd only"
+    },
+    {
+      "jd_skill": "Sensor drivers: cameras / LiDAR / IMUs (exact driver-level)",
+      "you_have": "Profile has perception (OpenCV/YOLO) and ToF (VL53L0X) sensor integration, plus ADXL345 accelerometer; does not include LiDAR at all (explicitly listed as missing in profile); not low-level camera-driver development (e.g., V4L2/MIPI)"
+    },
+    {
+      "jd_skill": "Wired + wireless interfaces: Ethernet, CAN, GMSL, PTP, PPS",
+      "you_have": "Profile has UART/I2C/SPI and Bluetooth (BLE/Classic) backed by STM32 and wearable-glove bullets; Ethernet, CAN bus, GMSL, PTP, PPS are not in the profile at all"
+    },
+    {
+      "jd_skill": "Thermal profiling, power-draw analysis, latency measurement, watchdogs, health checks",
+      "you_have": "Profile has latency-sensitive real-time control (FreeRTOS + COFFIN) and systemd health-monitoring concepts; no backed bullet for thermal profiling, explicit power-draw measurement, or watchdog implementation"
+    },
+    {
+      "jd_skill": "Tactile sensor drivers",
+      "you_have": "Profile has motor/servo and joint-control work (Object Tracking Turret, ROS arm); no tactile-sensor work (profile explicitly excludes motion-capture / tactile systems)"
+    },
+    {
+      "jd_skill": "Field-deployed humanoid / real-world robotics deployment at scale",
+      "you_have": "COFFIN capstone is a deployed humanoid-style arm with 100% pick reliability and systemd deployment; other robotics work is lab/research-scale (CARLA simulation, AL5B bench); no multi-unit fleet deployment backed"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "Linux kernel-level development (real-time, reliable operation)",
+      "you_have": null
+    },
+    {
+      "jd_skill": "LiDAR sensor drivers (explicit JD ask; profile explicitly excludes LiDAR)",
+      "you_have": null
+    },
+    {
+      "jd_skill": "CAN bus / GMSL interface drivers",
+      "you_have": null
+    },
+    {
+      "jd_skill": "PTP / PPS deterministic-timing interfaces",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Tactile sensor drivers",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Formal functional-safety / ISO26262 / e-stop circuitry implementation",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Thermal profiling and power-draw analysis (explicit diagnostics)",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Watchdog and health-check implementation (explicit)",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Production-scale distributed embedded systems / fleet deployment experience",
+      "you_have": null
+    },
+    {
+      "jd_skill": "Cloud infrastructure / container orchestration (not in profile; excluded by instruction)",
+      "you_have": null
+    }
+  ],
+  "top_ats_keywords": [
+    "Embedded Systems Engineer",
+    "Humanoid Robotics",
+    "ARM",
+    "SoC",
+    "Microcontroller",
+    "Firmware",
+    "BSP",
+    "Bootloader",
+    "Bare-Metal",
+    "RTOS",
+    "Linux Kernel",
+    "Real-Time",
+    "LiDAR",
+    "Camera",
+    "IMU",
+    "Tactile Sensor",
+    "Motor Driver",
+    "Joint Actuator",
+    "Ethernet",
+    "CAN Bus",
+    "GMSL",
+    "SPI",
+    "I2C",
+    "Wireless",
+    "PTP",
+    "PPS",
+    "Edge ML",
+    "Accelerated Inference",
+    "TensorRT",
+    "ROS2",
+    "ROS",
+    "DDS",
+    "Compute Platform",
+    "SWaP",
+    "Watchdog",
+    "E-Stop",
+    "Functional Safety",
+    "Thermal Profiling",
+    "Power Analysis",
+    "Latency Measurement"
+  ],
+  "required_skills": [
+    "ARM / SoC / microcontroller compute platform design",
+    "Firmware and BSP bring-up (bare-metal, RTOS, bootloaders)",
+    "Linux kernel-level development (real-time, reliable operation)",
+    "Embedded sensor drivers: cameras, LiDAR, IMUs",
+    "Motor / joint actuator and tactile sensor drivers",
+    "Wired interfaces (Ethernet, CAN, GMSL, SPI, I2C) + wireless + deterministic timing (PTP, PPS)",
+    "ML compute-platform integration (latency, memory, throughput)",
+    "ROS / ROS2 / DDS middleware exposure",
+    "Edge ML / accelerated inference support",
+    "Cross-platform compute architecture (generalizes across robot platforms)",
+    "Safety / e-stop circuitry / functional-safety groundwork",
+    "Thermal profiling, power-draw analysis, latency measurement, watchdogs, health checks"
+  ],
+  "preferred_skills": [
+    "Real-time embedded systems experience",
+    "Field-deployed robotics / humanoid platforms",
+    "Safety-conscious embedded design",
+    "Cross-disciplinary collaboration (mechanical, electrical, ML)"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Backpack compute platform design (ARM, SoC, microcontrollers)",
+    "Firmware & BSP bring-up (bare-metal, RTOS, bootloaders)",
+    "Kernel-level Linux development for real-time reliable operation",
+    "Sensor & actuator driver integration (camera, LiDAR, IMU, tactile, motor, joint)",
+    "Wired + wireless interfaces with deterministic timing (PTP, PPS)",
+    "ML team partnership on compute latency / memory / throughput",
+    "Manipulation data pipeline from raw sensor capture through to actuator control",
+    "Edge ML acceleration (TensorRT-style inference support)",
+    "ROS/ROS2 + DDS middleware interfaces",
+    "Cross-platform architecture generalizing across humanoid platforms",
+    "Safety / e-stop / health-monitoring / watchdog implementation",
+    "Thermal, power, and latency diagnostics"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

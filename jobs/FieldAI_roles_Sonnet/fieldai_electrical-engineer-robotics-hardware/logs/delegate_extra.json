@@ -1,0 +1,22 @@
+{
+  "strengths": [
+    "Embedded C/C++ bare-metal (STM32 Cortex-M4) \u2014 strong alignment with robotics embedded compute",
+    "PCB design (EAGLE) \u2014 direct technical overlap",
+    "ROS2 / embedded Linux / sensor integration \u2014 fits hardware/compute integration role",
+    "Testing/debug with electrical tools (oscilloscopes) \u2014 matches required skills",
+    "Cross-functional robotics systems \u2014 aligns with team culture and integrated delivery model",
+    "Full embedded project lifecycle \u2014 design to deployment"
+  ],
+  "real_gaps": [
+    "This is an Electrical Engineering role; candidate is M.S. Computer Engineering with embedded/ML focus \u2014 not EE degree or formal electrical design training",
+    "No CAN/GMSL/Ethernet protocol experience (only UART/I2C/SPI/Bluetooth)",
+    "No formal wire-harness CAD/documentation experience",
+    "No formal EMI/EMC or signal-integrity design/testing",
+    "No production/vendor/manufacturing scaling experience (JD explicitly requires it)",
+    "No full-time industry experience; all experience is internships/research/projects"
+  ],
+  "reasoning": "Role is entry-to-senior Electrical Engineer for robotics hardware at Field AI. Candidate (Justin Mascarenhas) is a new-grad M.S. Computer Engineering with 7 internships/research roles, strong in embedded systems (STM32 bare-metal, EAGLE PCB, ROS2, embedded testing with oscilloscopes/logic analyzers, cross-functional robotics integration, ToF/camera sensors), but NOT an Electrical Engineer by training. Key gaps: formal power-system design (DC/DC, regulated rails, grounding, fault analysis), wire harness design, CAN/GMSL protocol experience, EMI/EMC formal design, and production/vendor/manufacturing scaling. JD recruits across experience levels (entry to staff) and mentions cross-functional skills; embedded/compute overlap makes this an adjacent/partial fit, not a strong match. Sponsorship (F-1 OPT, EAD pending, needs long-term sponsorship) not addressed in JD \u2014 no restriction mentioned, so no hard blocker from JD language. No clearance/citizenship/ITAR requirements. Role requires production scope (vendor/procurement/QA/manufacturing) which candidate lacks. Recommendation: partial/weak fit; could apply at entry level with significant gap acknowledgment, but core EE design skills (power, harness, CAN, EMI) are missing.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/e6717cef-ac78-4e67-a8de-33e195490ac8",
+  "team": "Hardware Engineering",
+  "location": "Irvine, CA"
+}

@@ -1,0 +1,102 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Software Engineer in Test",
+  "job_slug": "senior-software-engineer-in-test",
+  "match_pct": 10.0,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 8,
+    "jd_ask_size": 10,
+    "req_cov": 0.0,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Robotics / IoT / hardware-adjacent software spaces (physical devices, hardware emulators, simulation)",
+      "you_have": "COFFIN Voice-Controlled Robotic Arm (MS Capstone) \u2014 ROS2 Humble + Arduino + Jetson + faster-whisper + YOLO + dual ToF sensors, systemd deployment; Object Tracking Turret \u2014 YOLOv8 on Jetson with STM32 (UART/FreeRTOS) and VL53L0X ToF; ROS-Based Robotic Arm (AL5B & UR5e) \u2014 DH tables, forward kinematics, MoveIt/RViz; embedded STM32 bare-metal temperature monitor (Cortex-M4, I2C driver, timer ADC)"
+    },
+    {
+      "jd_skill": "Modern web APIs (REST / GraphQL) \u2014 debugging / automated test context",
+      "you_have": "Python Developer Intern (BARC) \u2014 Flask-SocketIO server (COFFIN capstone) for real-time command relay; PyQt/Matplotlib GUI for real-time data acquisition; no direct REST/GraphQL test experience"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript / JavaScript / modern OO-functional language (professional)",
+    "Playwright (Page Object Models, network interception, custom fixtures, multi-auth state)",
+    "Shift-left mindset (embedding with devs, PR review for testability, automated-coverage advocacy \u2014 no QA/test engineering experience in profile)",
+    "Modern web architectures / REST or GraphQL automated testing (no web/API testing background)",
+    "CI/CD pipeline management (GitHub Actions / GitLab CI / CircleCI \u2014 profile explicitly has none; only GitLab as VCS, not CI)",
+    "Playwright infrastructure for complex products (microfrontends, streaming, high-frequency dashboards)",
+    "Docker and cloud infrastructure (AWS/GCP \u2014 profile explicitly excludes Docker, Kubernetes, AWS/GCP/Azure)",
+    "Observability / aligning test quality with production quality (no evidence in profile)"
+  ],
+  "top_ats_keywords": [
+    "Playwright",
+    "TypeScript",
+    "JavaScript",
+    "CI/CD",
+    "REST",
+    "GraphQL",
+    "Page Object Model",
+    "network interception",
+    "custom fixtures",
+    "multi-auth",
+    "automated coverage",
+    "testability",
+    "microfrontend",
+    "robotics",
+    "IoT",
+    "Docker",
+    "AWS",
+    "GCP",
+    "observability"
+  ],
+  "required_skills": [
+    "TypeScript or JavaScript or modern object-oriented/functional language (professional experience)",
+    "Playwright (advanced patterns: Page Object Models, network interception/mocking, custom fixtures, multi-auth state handling)",
+    "Shift-left engineering mindset (embedding with developers, PR review for testability, advocating automated coverage over manual QA)",
+    "Modern web architectures and APIs (REST or GraphQL automated tests, network debugging, DOM inspection)",
+    "CI/CD pipeline management (GitHub Actions, GitLab CI, CircleCI) integrating automated test execution"
+  ],
+  "preferred_skills": [
+    "Playwright infrastructure for large/complex products (microfrontends, real-time streaming, high-frequency dashboards)",
+    "Robotics / IoT / hardware-adjacent software (automated UI/API tests interacting with physical devices, hardware emulators, simulation environments)",
+    "Docker and cloud infrastructure (AWS/GCP) for scaling test agents or isolated end-to-end environments",
+    "Test quality / production quality alignment (observability, identifying testing gaps)"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Embed with developers and review PRs for testability",
+    "Build and maintain Playwright-based automated test suites",
+    "Integrate automated tests into CI/CD delivery workflows",
+    "Write automated tests against REST/GraphQL APIs and modern web apps",
+    "Advocate for automated coverage over manual QA"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

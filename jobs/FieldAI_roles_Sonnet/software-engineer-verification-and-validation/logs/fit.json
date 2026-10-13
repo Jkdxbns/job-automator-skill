@@ -1,0 +1,141 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Software Engineer, Verification and Validation",
+  "job_slug": "software-engineer-verification-and-validation",
+  "match_pct": 60.0,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 8,
+    "missing_count": 3,
+    "jd_ask_size": 19,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++ and Python programming for robotic systems (Python Developer Intern at BARC (PyQt, GitLab); STM32 bare-metal C embedded; CUDA C++ kernel optimization (VGG16, 35% speedup); Cython BPE tokenizer (COFFIN ASR))",
+    "ROS 2 and distributed message-passing architectures (ROS-Based Robotic Arm (ROS2 Humble + ROS Noetic, UR ROS2 driver, MoveIt/RViz); ROS2 message-passing across arm and turret systems)",
+    "Linux environments (systemd service management (unit files, auto-restart, non-root isolation, static IP/network config); embedded Linux on Jetson / Raspberry Pi; Linux admin skills listed)",
+    "Git and modern collaborative software practices (Python Developer Intern (BARC) using GitLab; version-controlled university/research projects (ROS arm, CUDA kernels, ASR pipeline))",
+    "Physical robotic / autonomous system experience (Voice-Controlled Robotic Arm capstone (COFFIN: Jetson + Arduino + ToF + I2C mux + YOLO + faster-whisper); Object Tracking Turret (YOLOv8 on Jetson + STM32 + UART + FreeRTOS); Autonomous Driving in CARLA (YOLO + lane detection, zero collisions Town02); ROS Arm (AL5B & UR5e))",
+    "System-level failure diagnosis spanning software, middleware, networking, compute, sensors, hardware (Voice-Controlled Robotic Arm: resolved 11 integration failures spanning Flutter/Flask-SocketIO/Jetson/Arduino/I2C/YOLO/STT/sensors)",
+    "Quantitative experiments, performance metrics, telemetry analysis (YOLOv8n toothbrush detection (83% mAP@50); U-Net BraTS 2020 MRI segmentation (led 7-person team); ZoeDepth crack-depth profiling (\u00b18% error); CUDA VGG16 kernel (35% speedup); SLM compression (~55% VRAM, <1% loss); Voice Arm (100% pick reliability, 10/10); PSNR 86 stitching pipeline)",
+    "Testability, observability, reproducibility, systematic debugging (Voice-Controlled Arm systemd deployment (auto-restart, non-root isolation, static IP) for reproducible operation; telemetry/root-cause isolation on 11 integration failures; deterministic regression approach on arm and turret)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Real-time systems / RT-patched Linux kernels",
+      "you_have": "Embedded real-time experience (FreeRTOS on STM32, timer-triggered ADC, interrupt-driven I2C, mutexes); systemd timing and service isolation; no explicit RT-patched Linux kernel project bullet"
+    },
+    {
+      "jd_skill": "Simulation, hardware-in-the-loop, fault injection, scenario-based testing",
+      "you_have": "CARLA autonomous driving simulation (semantic segmentation + YOLO11n + UFLD, zero collisions Town02); hardware-coupled turret (Jetson + STM32 + UART + ToF + multi-servo PWM) approximates HIL interaction; no explicit fault injection framework"
+    },
+    {
+      "jd_skill": "Automated regression testing or large-scale evaluation infrastructure",
+      "you_have": "Closest is reproducible systemd deployment and quantitative reliability measurement (10/10 pick reliability); no dedicated automated regression framework or continuously-running scalable evaluation infrastructure bullet"
+    },
+    {
+      "jd_skill": "Telemetry analysis / experiment management / fleet-level performance evaluation",
+      "you_have": "Telemetry-based root-cause debugging and metric tracking (83% mAP, 100% reliability, \u00b18% error); no fleet-level evaluation or experiment-management tooling bullet"
+    },
+    {
+      "jd_skill": "Testing in unstructured/dynamic or safety-critical environments",
+      "you_have": "CARLA Town02 driving in dynamic traffic; real-world arm deployment with ToF/I2C/servo variability; no formal safety-critical or ISO-certification experience"
+    },
+    {
+      "jd_skill": "New capability through production deployment",
+      "you_have": "Voice-Controlled Arm deployed with systemd (auto-restart, isolation, static IP) and 100% pick reliability; closest to production deployment among projects; no formal release-gate process"
+    },
+    {
+      "jd_skill": "Finding subtle cross-subsystem problems",
+      "you_have": "Resolved 11 integration failures on Voice-Controlled Arm spanning Flutter/Flask/Jetson/Arduino/ToF/I2C/YOLO/STT; cross-subsystem debugging demonstrated"
+    },
+    {
+      "jd_skill": "Hands-on with physical robots, going wherever the problem leads",
+      "you_have": "Built and deployed Voice-Controlled Arm, Object Tracking Turret, ROS Arm; embedded C on STM32; hands-on sensor/servo integration"
+    }
+  ],
+  "missing_skills": [
+    "Dedicated automated regression framework or continuously-running scalable system evaluation infrastructure (JD asks for moving from one-off to continuously running evaluation)",
+    "Explicit fault injection tooling or deterministic regression-test conversion from field failures (JD: 'Convert field failures... into deterministic regression tests')",
+    "Dashboard / scorecard / automated evaluation tooling for system health and capability maturity (JD: 'Build dashboards, scorecards, and automated evaluations')"
+  ],
+  "top_ats_keywords": [
+    "Verification",
+    "Validation",
+    "V&V",
+    "robotics",
+    "autonomous",
+    "ROS 2",
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "telemetry",
+    "regression testing",
+    "simulation",
+    "hardware-in-the-loop",
+    "deployment-ready",
+    "system-level",
+    "reliability",
+    "performance metrics"
+  ],
+  "required_skills": [
+    "C/C++ programming",
+    "Python programming",
+    "ROS 2 development",
+    "distributed message-passing architectures",
+    "Linux environments",
+    "real-time systems / RT-patched Linux familiarity",
+    "Git and collaborative development",
+    "physical robotic or autonomous system experience",
+    "system-level failure diagnosis (cross software/hardware/network/sensor/compute)",
+    "quantitative experiments and performance metrics",
+    "telemetry and test data analysis",
+    "testability, observability, reproducibility, systematic debugging"
+  ],
+  "preferred_skills": [
+    "system-level V&V / qualification / release processes",
+    "automated regression testing or evaluation infrastructure",
+    "simulation, hardware-in-the-loop, fault injection, scenario-based testing",
+    "reliability metrics, performance envelopes, quantitative release criteria",
+    "automated telemetry analysis, experiment management, fleet-level evaluation",
+    "testing in unstructured/dynamic/safety-critical environments",
+    "new capability integration to production deployment",
+    "finding subtle cross-subsystem problems",
+    "hands-on with physical robots"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own end-to-end robot V&V from capabilities to full autonomous missions",
+    "Build scalable test infrastructure across simulation, HIL, lab, and full robot operation",
+    "Validate real-world robot behavior under uncertainty and variability",
+    "Turn failures into engineering signal with root-cause isolation",
+    "Drive system reliability and release readiness with quantitative gates"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

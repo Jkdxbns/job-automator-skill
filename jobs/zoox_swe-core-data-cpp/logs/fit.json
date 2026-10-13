@@ -1,0 +1,19 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Software Engineer - C++ Core Data",
+  "job_slug": "swe-core-data-cpp",
+  "match_pct": 60,
+  "missing_skills": ["multithreading", "concurrency", "filesystems", "storage hardware", "high-throughput data systems"],
+  "adjacent_skills": ["inter-process communication (UART/I2C/SPI, MPI)", "networking (TCP, WebSocket)"],
+  "top_ats_keywords": ["C++", "multithreading", "concurrency", "inter-process communication", "networking", "real-time systems", "distributed systems", "robotics", "autonomous vehicles", "performance analysis", "profiling"],
+  "key_responsibilities": [
+    "Design and develop high-performance systems for capturing, storing, retrieving, and transmitting vehicle data under real-time and resource constraints",
+    "Own complex technical problems end to end: investigation, design, implementation, validation, rollout",
+    "Collaborate cross-functionally through requirements definition, design reviews, and code reviews",
+    "Influence long-term architecture of vehicle data systems across multi-host, fault-tolerant infrastructure"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

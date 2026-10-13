@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "company": "Zipline",
+    "role": "Software Engineer - Embedded Firmware",
+    "company_slug": "zipline",
+    "job_slug": "embedded-firmware"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on firmware experience building and debugging embedded systems from bare-metal C to RTOS. Programmed STM32 microcontrollers directly against datasheets (GPIO, ADC, timers, I2C) and built FreeRTOS-based real-time control with interrupt-driven peripherals, alongside Jetson-plus-Arduino systems that pair microcontrollers with Linux edge compute over I2C and serial links. Comfortable moving between hardware bring-up, protocol-level debugging (UART/I2C/SPI), and PCB-level electronics work.",
+  "skills": {
+    "Embedded / Firmware": ["STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "GPIO/ADC/PWM/Timers", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "Bluetooth (BLE/Classic)", "EAGLE PCB Design"],
+    "Languages": ["C/C++", "Python"],
+    "Tools": ["Linux", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided pick-and-place system linking a Jetson embedded Linux edge computer to an Arduino microcontroller over a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO (5.2× speedup) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false positives, servo brown-out, stale frames); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on STM32; implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Integrated VL53L0X ToF sensing over I2C and OLED distance visualization; sent control commands from a Jetson-based YOLOv8 detector to the STM32 over UART."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 temperature monitoring firmware in bare-metal C with timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver written directly against the reference manual.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Robot Perception", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis", "Artificial Neural Networks & Fuzzy Logic", "Image Processing"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,228 @@
+{
+ "jd": {
+  "company_name": "Etched",
+  "company_slug": "etched",
+  "job_title": "Infrastructure Software Engineer",
+  "job_slug": "etched_03_infrastructure-software-engineer",
+  "required_skills": [
+   "Python",
+   "Go",
+   "Rust",
+   "C++",
+   "Linux",
+   "virtualization",
+   "containerization",
+   "CI/CD",
+   "SLURM",
+   "Kubernetes",
+   "Terraform",
+   "Ansible",
+   "Puppet",
+   "OpenTofu",
+   "MaaS",
+   "Prometheus",
+   "Grafana",
+   "VictoriaMetrics",
+   "Loki",
+   "PromQL",
+   "LLM",
+   "bare-metal servers",
+   "network hardware",
+   "high-performance storage"
+  ],
+  "preferred_skills": [
+   "Bazel",
+   "AWS",
+   "GCP",
+   "Azure",
+   "Synopsys",
+   "Cadence",
+   "Verilator",
+   "EDA flows",
+   "synthetic testing",
+   "fault injection",
+   "workload migration",
+   "hybrid on-prem/cloud",
+   "single-threaded latency profiling",
+   "memory-bound optimization",
+   "I/O throughput profiling"
+  ],
+  "all_keywords": [
+   "infrastructure",
+   "HPC",
+   "hybrid cluster",
+   "simulation",
+   "synthesis",
+   "EDA",
+   "CI",
+   "observability",
+   "telemetry",
+   "tracing",
+   "log aggregation",
+   "alerting",
+   "synthetic testing",
+   "fault injection",
+   "infrastructure-as-code",
+   "reproducible deployment",
+   "workload orchestration",
+   "workload migration",
+   "on-premise",
+   "cloud",
+   "bare-metal",
+   "network",
+   "storage",
+   "GPU nodes",
+   "high-memory nodes",
+   "zero-trust",
+   "Jupyter",
+   "VS Code",
+   "GPU",
+   "distributed tracing",
+   "streaming health",
+   "performance telemetry"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose (fully in-person, Santana Row)",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Design/build orchestration layers for hybrid HPC clusters for ASIC simulation/synthesis/CI",
+   "Build programmable infrastructure control plane (reproducible, auditable)",
+   "Create parallelism abstractions for engineers",
+   "Prototype workload migration between on-premise and cloud",
+   "Implement real-time telemetry/tracing for millions of metrics",
+   "Build full observability stack (dashboards, alerting, automated responses, synthetic testing)"
+  ],
+  "ats_keywords": [
+   "infrastructure software",
+   "systems programming",
+   "backend software",
+   "Linux",
+   "containerization",
+   "virtualization",
+   "CI/CD",
+   "SLURM",
+   "Kubernetes",
+   "Terraform",
+   "Ansible",
+   "Puppet",
+   "OpenTofu",
+   "Prometheus",
+   "Grafana",
+   "VictoriaMetrics",
+   "Loki",
+   "telemetry",
+   "observability",
+   "synthetic testing",
+   "fault injection",
+   "bare-metal",
+   "network hardware",
+   "storage",
+   "hybrid cloud",
+   "workload migration",
+   "EDA",
+   "ASIC",
+   "Bazel"
+  ],
+  "role_category": "hpc_cuda"
+ },
+ "have": [
+  "Python",
+  "C/C++",
+  "Linux",
+  "SLURM",
+  "CUDA",
+  "MPI"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "Go / Rust",
+   "you_have": "C/C++"
+  },
+  {
+   "jd_skill": "Containerization / Kubernetes",
+   "you_have": "Python deployment / systemd services"
+  },
+  {
+   "jd_skill": "Infrastructure automation (Terraform / Ansible / Puppet / OpenTofu)",
+   "you_have": "System-level deployment / embedded config"
+  },
+  {
+   "jd_skill": "Observability / Prometheus / Grafana / VictoriaMetrics / Loki / PromQL",
+   "you_have": "Performance profiling / measurement"
+  },
+  {
+   "jd_skill": "CI/CD pipelines",
+   "you_have": "Version control (Git / GitLab)"
+  },
+  {
+   "jd_skill": "Bare-metal / server / network / storage at rack scale",
+   "you_have": "Embedded bare-metal (STM32) / hardware interfacing"
+  },
+  {
+   "jd_skill": "Cloud (AWS / GCP / Azure) / hybrid migration",
+   "you_have": "Local/on-device deployment only"
+  },
+  {
+   "jd_skill": "EDA / ASIC / Synopsys / Cadence / Verilator",
+   "you_have": "Embedded PCB / hardware design"
+  },
+  {
+   "jd_skill": "Bazel build system",
+   "you_have": "CMake"
+  },
+  {
+   "jd_skill": "Synthetic testing / fault injection framework",
+   "you_have": "Closed-loop validation / reliability testing"
+  },
+  {
+   "jd_skill": "LLM-integrated metrics insight",
+   "you_have": "LLM usage (Gemini intent classification in COFFIN)"
+  }
+ ],
+ "missing": [
+  "Go",
+  "Rust",
+  "Docker",
+  "Kubernetes",
+  "Terraform",
+  "Ansible",
+  "Puppet",
+  "OpenTofu",
+  "MaaS",
+  "Bazel",
+  "AWS",
+  "GCP",
+  "Azure",
+  "Prometheus",
+  "Grafana",
+  "VictoriaMetrics",
+  "Loki",
+  "PromQL",
+  "Synopsys",
+  "Cadence",
+  "Verilator",
+  "EDA tool flows",
+  "rack-scale bare-metal server/network/storage management",
+  "virtualization",
+  "synthetic infrastructure testing framework",
+  "fault injection framework",
+  "workload migration strategies",
+  "telemetry/log aggregation at scale",
+  "LLM-driven observability/insight generation"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": "No sponsorship refusal, no ITAR/EAR/export control language, no US citizenship/permanent residency requirement, no security clearance requirement found in posting. The role is fully in-person in San Jose with 8+ years experience, which is a seniority/experience mismatch, not a hard blocker."
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": true
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

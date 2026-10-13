@@ -1,0 +1,165 @@
+{
+  "company": "Roche",
+  "company_slug": "roche",
+  "role": "AI/ML Imaging Data Scientist - Personalized Healthcare (Medical Imaging)",
+  "job_slug": "imaging-data-scientist",
+  "match_pct": 56.0,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 25,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "medical imaging",
+    "image analysis",
+    "machine learning",
+    "computer vision",
+    "Python",
+    "foundation models",
+    "Git",
+    "GitLab",
+    "shell scripting",
+    "Slurm",
+    "benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "statistics",
+      "you_have": "random signal analysis"
+    },
+    {
+      "jd_skill": "uncertainty and error analysis",
+      "you_have": "model evaluation"
+    },
+    {
+      "jd_skill": "leakage prevention",
+      "you_have": "train/val/test evaluation on BraTS"
+    },
+    {
+      "jd_skill": "pattern recognition",
+      "you_have": "deep learning / segmentation"
+    },
+    {
+      "jd_skill": "LSF",
+      "you_have": "Slurm"
+    },
+    {
+      "jd_skill": "reproducible pipelines",
+      "you_have": "custom data pipelines"
+    }
+  ],
+  "missing_skills": [
+    "experiment tracking",
+    "external validation",
+    "Docker",
+    "data mining",
+    "probabilistic modeling",
+    "MLOps",
+    "regulated environments",
+    "publications"
+  ],
+  "top_ats_keywords": [
+    "medical imaging",
+    "image analysis",
+    "pattern recognition",
+    "data mining",
+    "probabilistic modeling",
+    "MLOps",
+    "HPC",
+    "benchmarking"
+  ],
+  "required_skills": [
+    "medical imaging",
+    "image analysis",
+    "machine learning",
+    "computer vision",
+    "Python",
+    "foundation models",
+    "statistics",
+    "experiment tracking",
+    "reproducible pipelines",
+    "leakage prevention",
+    "uncertainty and error analysis",
+    "external validation"
+  ],
+  "preferred_skills": [
+    "Git",
+    "GitLab",
+    "Docker",
+    "shell scripting",
+    "Slurm",
+    "LSF",
+    "regulated environments",
+    "publications"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "build ML image analysis for clinical trials",
+    "integrate models into Roche platforms with MLOps",
+    "present to clinical and non-technical audiences"
+  ],
+  "role_category": "ml_systems",
+  "location": "South San Francisco, CA (on site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 51,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Medical imaging pipeline: BraTS 2020 multi-modal MRI data pipeline with 3D volumetric batching, U-Net with VGG/ResNet backbones, Dice and IoU evaluation (Teesside fellowship)",
+      "Classical image analysis depth: BARC stitching pipeline (PSNR 65 to 86), custom wavelet bank, ZoeDepth crack-depth profiling at +-8% error",
+      "Applied vision and transformers: DONUT fine-tune on medical billing data (55% to 93% val accuracy), YOLO/UFLD training, GPT-2 and ASR transformers built from scratch",
+      "Benchmarking habit: SLM quantization across HellaSwag/GSM8K/ARC with perplexity delta; TensorRT before/after latency",
+      "Tooling overlap: Python, PyTorch, Git, GitLab, JupyterHub, Slurm cluster runs, Bash"
+    ],
+    "real_gaps": [
+      "No clinical trial, pharma or regulated-environment work; medical imaging exposure is one 6-week fellowship from 2023",
+      "No statistics, probabilistic modeling or uncertainty quantification anywhere in the profile",
+      "No experiment tracking (MLflow, W&B), Docker, or MLOps handoff; no evidence of deploying into a shared platform",
+      "No external validation or leakage-prevention design shown; BraTS work reports single-dataset Dice/IoU",
+      "No publications or open-source healthcare AI; role also expects 2+ years post-grad experience (seniority note, not scored)",
+      "Vision foundation models (SAM, DINOv2, MedSAM, CLIP-style) not in profile; LLM work is compression, not application"
+    ],
+    "overstated_by_keywords": [
+      "medical imaging counted Have, but it is one short fellowship; not the sustained domain work the JD implies",
+      "foundation models counted Have, but the profile shows Hugging Face fine-tuning and quantization, not vision foundation model adaptation",
+      "benchmarking counted Have; it is latency and accuracy benchmarking, not rigorous cross-cohort model benchmarking",
+      "Slurm counted Have; it is a coursework MPI run, not multi-GPU training job management"
+    ],
+    "understated_by_keywords": [
+      "Classical image analysis (wavelet denoising, stitching, PSNR-driven design, depth estimation) is real depth that maps to 'standard image analysis techniques' but never string-matched",
+      "Segmentation evaluation with Dice and IoU on MRI maps directly to imaging endpoint work",
+      "Domain-specific token and decoder resizing on DONUT shows model adaptation skill the keyword pass did not credit"
+    ],
+    "screening_gaps": [
+      "No pharma, clinical or regulated-environment experience, and only 6 weeks of medical imaging against a '2+ years in medical imaging' ask",
+      "No statistics or probabilistic modeling in a role that lists them as core expertise",
+      "No experiment tracking, Docker or MLOps, which the JD names as how the role ships models"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Real, defensible medical imaging and classical image analysis work exists (BraTS U-Net, BARC pipeline), and the ML and Python base is solid. The role's center of gravity is rigorous clinical-trial ML practice: statistics, validation design, experiment tracking, MLOps. None of that is evidenced, and the domain time is thin. A stretch worth a tailored application given the short deadline, but a small chance of clearing screening against candidates with pharma imaging experience.",
+    "calibration_delta": 5.0
+  }
+}

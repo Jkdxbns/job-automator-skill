@@ -1,0 +1,105 @@
+{
+  "company": "Fortastra",
+  "company_slug": "fortastra",
+  "role": "Sr. Thermal & Propulsion Engineer",
+  "job_slug": "sr-thermal-propulsion-engineer",
+  "match_pct": 2.8,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 1,
+    "missing_count": 17,
+    "jd_ask_size": 18,
+    "req_cov": 0.286,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAD",
+      "you_have": "SolidWorks / EAGLE PCB Design"
+    }
+  ],
+  "missing_skills": [
+    "propulsion",
+    "bipropellant",
+    "thermal-fluid systems",
+    "spacecraft",
+    "thrusters",
+    "feed systems",
+    "valves",
+    "tanks",
+    "regulators",
+    "thermodynamics",
+    "heat transfer",
+    "mechanical design (hardware)",
+    "fabrication",
+    "assembly",
+    "integration (hardware)",
+    "test planning (propulsion)",
+    "fluid dynamics"
+  ],
+  "top_ats_keywords": [
+    "propulsion",
+    "thermal control",
+    "bipropellant",
+    "thrusters",
+    "feed systems",
+    "CAD",
+    "fluid dynamics",
+    "thermodynamics",
+    "spacecraft",
+    "hardware design",
+    "fabrication",
+    "assembly",
+    "integration",
+    "test planning"
+  ],
+  "required_skills": [
+    "bipropellant propulsion hardware design",
+    "thermal-fluid systems",
+    "mechanical design / CAD",
+    "fluid dynamics",
+    "thermodynamics / heat transfer",
+    "spacecraft systems integration",
+    "test planning for propulsion"
+  ],
+  "preferred_skills": [
+    "hands-on propulsion build experience",
+    "hardware-focused (not analysis/simulation)",
+    "CAD (unspecified)",
+    "supplier engagement / design-for-manufacture"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own end-to-end bipropellant propulsion hardware design (thrusters, tanks, valves, regulators, filters, feed plumbing)",
+    "Architect Thermal Control Systems (TCS) for propulsion and spacecraft subsystems",
+    "Create detailed CAD models, assemblies, drawings for propulsion and thermal hardware",
+    "Select/qualify propulsion and thermal components; drive supplier engagement and DFM",
+    "Work hands-on with technicians/manufacturing to build, assemble, and integrate propulsion and TCS hardware into spacecraft"
+  ],
+  "role_category": "other",
+  "location": "Torrance, CA",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "U.S. Citizenship required \u2014 category (c) citizenship/permanent residency required. Also 5 days on-site Torrance CA. Exact phrase: \"U.S. Citizenship required\" and \"5 days on-site in Torrance, CA\"."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

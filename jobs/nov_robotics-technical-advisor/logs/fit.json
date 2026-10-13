@@ -1,0 +1,120 @@
+{
+  "company": "NOV",
+  "company_slug": "nov",
+  "role": "Robotics Technical Advisor",
+  "job_slug": "robotics-technical-advisor",
+  "match_pct": 11.8,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 4,
+    "missing_count": 13,
+    "jd_ask_size": 17,
+    "req_cov": 0.25,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "FANUC/Yaskawa/ABB industrial robotics",
+      "you_have": "UR5e cobot, ROS/MoveIt, forward kinematics"
+    },
+    {
+      "jd_skill": "Reading electrical drawings",
+      "you_have": "EAGLE PCB design, Proteus"
+    },
+    {
+      "jd_skill": "Reading mechanical drawings",
+      "you_have": "SolidWorks"
+    },
+    {
+      "jd_skill": "Instrumentation & Controls",
+      "you_have": "Embedded sensor/actuator control (PWM, ADC, I2C)"
+    }
+  ],
+  "missing_skills": [
+    "Field Service",
+    "Technical Support (4 yrs)",
+    "RCA 5 Whys/Fishbone",
+    "Hydraulic drawings/systems",
+    "ISO 9001",
+    "RigOffice",
+    "Glovia",
+    "Oracle ERP",
+    "FAT",
+    "Product Notifications PIB/PIN",
+    "MS Project",
+    "Spare parts / stocking",
+    "Damage assessment"
+  ],
+  "top_ats_keywords": [
+    "FANUC",
+    "Yaskawa",
+    "ABB",
+    "robotics",
+    "Field Service",
+    "Instrumentation & Controls",
+    "Technical Support",
+    "RCA",
+    "5 Whys",
+    "Fishbone",
+    "ISO 9001",
+    "FAT",
+    "RigOffice",
+    "Glovia",
+    "Oracle",
+    "hydraulic",
+    "electrical drawings",
+    "mechanical drawings",
+    "technical report writing",
+    "MS Office"
+  ],
+  "required_skills": [
+    "FANUC/Yaskawa/ABB industrial robotics",
+    "Field Service / I&C / Technical Support",
+    "Root cause analysis (5 Whys, Fishbone)",
+    "Reading mechanical/electrical/hydraulic drawings",
+    "Technical report writing",
+    "Multinational team collaboration",
+    "Hydraulic systems",
+    "MS Office"
+  ],
+  "preferred_skills": [
+    "ISO 9001",
+    "RigOffice/Glovia/Oracle",
+    "Factory acceptance testing (FAT)",
+    "Training content development",
+    "Spare parts / reliability analysis"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Tier 2 technical escalation",
+    "Product performance/reliability analysis",
+    "Work scopes and FATs",
+    "Training",
+    "PIBs/PINs, damage assessments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Houston, TX (Hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

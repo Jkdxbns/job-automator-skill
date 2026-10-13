@@ -1,0 +1,68 @@
+{
+  "company": "Scale AI",
+  "company_slug": "scale",
+  "role": "Solutions Engineer - Robotics & Autonomous Driving",
+  "job_slug": "solutions-engineer-robotics",
+  "match_pct": 100,
+  "missing_skills": [
+    "Sales / solutions engineering experience with quota attainment",
+    "Enterprise selling ($500K-$5M+ deal experience)",
+    "GPS/INS systems",
+    "World Models",
+    "Java"
+  ],
+  "adjacent_skills": [
+    "Project management / interpersonal skills (via club leadership + capstone, not commercial accounts)",
+    "Presentation / stakeholder credibility (academic/research context, not sales)",
+    "Multi-sensor fusion",
+    "2D/3D imaging",
+    "VLMs"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Robotics",
+    "Autonomous Driving",
+    "Physical AI",
+    "Computer Vision",
+    "VLA",
+    "ROS",
+    "Multi-sensor fusion",
+    "GPS/INS"
+  ],
+  "key_responsibilities": [
+    "Partner with Account Executives on new customer pilots and existing client relationships",
+    "Develop expertise in robotics, physical AI, VLMs, VLAs, and World Models",
+    "Master 2D/3D imaging, multi-sensor fusion, GPS/INS, computer vision",
+    "Manage technical customer experience and commercial growth",
+    "Design demos, playbooks, and pilot tools",
+    "Evangelize Scale at industry events"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 40,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Autonomous Driving in CARLA project \u2014 direct domain overlap with the team's core focus",
+      "Inference Engine for SmolVLA (from-scratch C++/CUDA) \u2014 direct backing for the 'VLAs' domain the JD wants mastered",
+      "COFFIN Voice-Controlled Robotic Arm capstone + ROS-Based Robotic Arm project \u2014 hands-on robotics matching ROS/physical AI",
+      "CUDA/edge AI/computer vision background backs the '2D/3D imaging' and 'computer vision' domains",
+      "Python/C++ depth backs the coding requirement"
+    ],
+    "real_gaps": [
+      "Zero sales, account management, or quota-carrying experience anywhere in the profile \u2014 this is core to the role (partnering with AEs, closing $500K-$5M+ deals, hitting quota)",
+      "No professional (non-internship) years; the profile is 100% research/internship/individual-project scope, not commercial GTM",
+      "No experience managing a customer relationship or commercial pilot budget",
+      "GPS/INS systems and World Models have no backing anywhere in the profile"
+    ],
+    "overstated_by_keywords": [
+      "'Project management / interpersonal skills' \u2014 counted ADJACENT via student club leadership and capstone work, but materially different from managing a paying customer's technical evaluation",
+      "'Presentation skills / technical credibility for diverse stakeholders' \u2014 counted ADJACENT but backed only by academic and research presentations, not sales-context stakeholder management"
+    ],
+    "reasoning": "This is a technical pre-sales role wrapped in robotics and AI vocabulary. The keyword match looks strong because the domain terms overlap heavily with Justin's real project work, but the job's actual function, quota-carrying enterprise sales and closing $500K-$5M deals alongside Account Executives, has zero backing anywhere in the profile. Strong technical fit, weak functional fit for what the role is actually hired to do."
+  }
+}

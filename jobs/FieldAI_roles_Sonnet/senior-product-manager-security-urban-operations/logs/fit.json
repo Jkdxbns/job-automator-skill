@@ -1,0 +1,120 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Product Manager, Security & Urban Operations",
+  "job_slug": "senior-product-manager-security-urban-operations",
+  "match_pct": 29.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 1,
+    "missing_count": 20,
+    "jd_ask_size": 29,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Robotics (ROS-Based Robotic Arm (AL5B & UR5e) with DH tables, forward kinematics, MoveIt/RViz; Voice-Controlled Robotic Arm COFFIN capstone (Flutter+Flask-SocketIO+Jetson+Arduino); Object Tracking Turret (YOLOv8 + STM32 UART + FreeRTOS))",
+    "autonomy (Autonomous Driving in CARLA \u2014 semantic segmentation + YOLO11n + UFLD lane detection, zero collisions in Town02)",
+    "computer vision (YOLOv8n toothbrush detection (83% mAP@50, ONNX/TFLite); YOLO-based tracking turret; ZoeDepth monocular depth estimation (\u00b18% error); image-stitching pipeline (PSNR 86); BraTS 2020 MRI U-Net segmentation (VGG/ResNet backbones))",
+    "hardware experience (Embedded Systems Intern wearable glove (ADXL345 + Raspberry Pi + HC-05 Bluetooth); PCB fabrication (EAGLE); STM32 bare-metal temperature monitor (Cortex-M4, interrupt-driven ADC, I2C driver); Arduino + Jetson + ToF sensor integrations)",
+    "Familiarity with computer vision (YOLOv8/YOLO11n, OpenCV, TensorRT-optimized YOLO (5.2x speedup), faster-whisper STT, ASR pipelines (COFFIN), tokenization, model evaluation)",
+    "edge inference (TensorRT-optimized YOLO on Jetson (COFFIN capstone, 5.2x speedup); ONNX/TFLite export (Tusk internship); faster-whisper STT on Jetson; 8-bit quantization (TinyLlama) with bitsandbytes)",
+    "real-time detection (Real-time YOLO detection on Jetson (COFFIN arm 10/10 pick reliability; tracking turret); real-time PyQt/Matplotlib data acquisition GUI (BARC); faster-whisper real-time speech-to-text)",
+    "Perception (YOLO detection pipelines, visual servoing, depth profiling (ZoeDepth), forward kinematics, dual VL53L0X ToF sensors, TCA9548A I2C mux)"
+  ],
+  "adjacent_skills": [
+    ""
+  ],
+  "missing_skills": [
+    "Proven product management experience (5+ years)",
+    "Shipping SaaS or software products end to end",
+    "Security or urban-operations industry experience",
+    "Deep customer empathy and discovery skills",
+    "Own scope \u2014 define, sequence, commit",
+    "Drive crisp technical discussions with engineers",
+    "Shape go-to-market narrative",
+    "Enable sales team",
+    "Product Manager (as practiced skill)",
+    "Security",
+    "Urban Operations",
+    "Intelligence",
+    "Reporting",
+    "Dashboards",
+    "Insights UI",
+    "SaaS",
+    "Customer discovery",
+    "Roadmap",
+    "Go-to-market",
+    "Sales enablement"
+  ],
+  "top_ats_keywords": [
+    "Product Manager",
+    "Security",
+    "Urban Operations",
+    "Perception",
+    "Intelligence",
+    "Edge",
+    "Real-time",
+    "Detection",
+    "Reporting",
+    "Dashboards",
+    "SaaS",
+    "Software",
+    "Customer discovery",
+    "Roadmap",
+    "Go-to-market",
+    "Sales",
+    "Physical security",
+    "Surveillance",
+    "Facility operations"
+  ],
+  "required_skills": [
+    "Proven product management experience (5+ years)",
+    "Shipping SaaS or software products end to end",
+    "Security or urban-operations industry experience",
+    "Deep customer empathy and discovery skills",
+    "Own scope \u2014 define, sequence, commit",
+    "Drive crisp technical discussions with engineers",
+    "Shape go-to-market narrative and enable sales team"
+  ],
+  "preferred_skills": [
+    "Robotics, autonomy, computer vision, or hardware experience",
+    "Familiarity with computer vision, edge inference, or real-time detection and alerting systems"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own the detection and intelligence product line (real-time perception + reporting UI)",
+    "Own full customer journey for security/urban-operations accounts",
+    "Run customer discovery and turn it into prioritized, evidence-backed problem lists",
+    "Own roadmap and scope with crisp acceptance criteria",
+    "Partner with engineering on technical solution design",
+    "Run disciplined intake (customer > field/deploy > dev)",
+    "Shape GTM positioning/narrative and build sales-enablement materials",
+    "Calibrate with usage data and field feedback; retire or double down",
+    "Build on core platform for generalization across customers/sites"
+  ],
+  "role_category": "non_technical",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,122 @@
+{
+  "company": "Lila Sciences",
+  "company_slug": "lila-sciences",
+  "role": "Senior II / Staff Robotics Platform Evaluation Engineer (Team Lead)",
+  "job_slug": "robotics-platform-evaluation-lead",
+  "match_pct": 34.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 19,
+    "req_cov": 0.567,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS2",
+    "Controls",
+    "6-7 DoF arms",
+    "Camera/lidar perception"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Motion planning",
+      "you_have": "MoveIt"
+    },
+    {
+      "jd_skill": "Isaac Sim",
+      "you_have": "CARLA"
+    },
+    {
+      "jd_skill": "Calibration",
+      "you_have": "Calibrated"
+    },
+    {
+      "jd_skill": "Manipulation",
+      "you_have": "Forward kinematics / IK"
+    },
+    {
+      "jd_skill": "Test tooling",
+      "you_have": "Benchmarked / Model evaluation"
+    }
+  ],
+  "missing_skills": [
+    "Nav2",
+    "AMR/AGV",
+    "Grasp execution",
+    "Pick-and-place",
+    "Grippers",
+    "Production deployment",
+    "Leading engineers",
+    "Multi-platform evaluation",
+    "Mobile manipulators",
+    "Warehouse automation"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "Nav2",
+    "Isaac Sim",
+    "pick-and-place",
+    "motion planning",
+    "AMR",
+    "AGV",
+    "lidar",
+    "calibration",
+    "mobile manipulator"
+  ],
+  "required_skills": [
+    "ROS2",
+    "Nav2",
+    "Manipulation",
+    "Pick-and-place",
+    "Motion planning",
+    "Grasp execution",
+    "Controls",
+    "AMR/AGV",
+    "6-7 DoF arms",
+    "Grippers",
+    "Camera/lidar perception",
+    "Calibration",
+    "Isaac Sim",
+    "Production deployment",
+    "Leading engineers"
+  ],
+  "preferred_skills": [
+    "Multi-platform evaluation",
+    "Mobile manipulators",
+    "Test tooling",
+    "Warehouse automation"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead 2-3 engineers",
+    "Commission robot platforms",
+    "ROS2/Nav2 integration",
+    "Isaac Sim validation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Cambridge, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,105 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Integration/Deployment Engineer II or III",
+  "job_slug": "integration-deployment-engineer-ii-iii",
+  "match_pct": 35.7,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 14,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Linux",
+    "Python",
+    "SolidWorks"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "computer networking",
+      "you_have": "Static IP / network configuration, WebSocket"
+    },
+    {
+      "jd_skill": "electrical schematics",
+      "you_have": "EAGLE PCB design, Proteus"
+    },
+    {
+      "jd_skill": "six-axis robot arm",
+      "you_have": "UR5e / ROS 2"
+    },
+    {
+      "jd_skill": "troubleshooting",
+      "you_have": "oscilloscope / logic analyzer debugging"
+    }
+  ],
+  "missing_skills": [
+    "EPLAN",
+    "AutoCAD",
+    "PLC",
+    "AGV",
+    "commissioning",
+    "industrial safety",
+    "material handling integration"
+  ],
+  "top_ats_keywords": [
+    "Linux",
+    "Python",
+    "networking",
+    "EPLAN",
+    "AutoCAD",
+    "PLC",
+    "robot arm",
+    "AGV",
+    "commissioning",
+    "SolidWorks"
+  ],
+  "required_skills": [
+    "Linux",
+    "Python",
+    "computer networking",
+    "electrical schematics",
+    "troubleshooting",
+    "root cause analysis",
+    "robotics integration"
+  ],
+  "preferred_skills": [
+    "six-axis robot arm",
+    "AutoCAD",
+    "SolidWorks",
+    "PLC",
+    "industrial safety"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Integrate/commission robots, AGVs, vision at customer sites",
+    "remote maintenance via Mujin controller",
+    "test plans and documentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

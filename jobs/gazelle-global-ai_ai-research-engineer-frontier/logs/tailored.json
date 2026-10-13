@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "company": "Unnamed AI Research Organisation (via Gazelle Global)",
+    "role": "AI Research Engineer - Frontier Models",
+    "company_slug": "gazelle-global-ai",
+    "job_slug": "ai-research-engineer-frontier"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience training, fine-tuning, and evaluating transformer-based language models. Compressed TinyLlama 1.1B via structured pruning and 8-bit quantization, benchmarked across HellaSwag, GSM8K, and ARC; built a GPT-2 style LLM from scratch; and ran distributed training on SLURM-managed clusters.",
+  "skills": {
+    "ML / Deep Learning": [
+      "PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers",
+      "Fine-tuning", "Structured Pruning", "Quantization (8-bit)",
+      "Model evaluation", "Benchmarking"
+    ],
+    "Languages & Systems": [
+      "Python", "CUDA C++", "C/C++", "Cython", "Bash"
+    ],
+    "HPC / Distributed": [
+      "MPI", "SLURM", "Memory coalescing", "Kernel optimization"
+    ],
+    "Tools & Infra": [
+      "Linux", "Git", "TensorRT", "Flask", "JupyterHub"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset, improving validation accuracy from 55% to 93% via preprocessing improvements and model tuning.",
+        "Built PyTorch training and evaluation pipelines with modular data loaders reusable across transformer model variants."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom detection dataset; trained and evaluated YOLOv8 models improving classification accuracy from 78% to 97.5%; deployed in a consumer mobile app."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 multi-modal MRI data; benchmarked on Dice Score and IoU with accuracy-latency trade-off reporting.",
+        "Engineered custom data pipeline with medical imaging augmentation and batch-loading memory management; led team of 7 to deliver full pipeline within a 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced model memory footprint by ~25% via structured pruning and 8-bit quantization on TinyLlama 1.1B; benchmarked across HellaSwag, GSM8K, and ARC — ~7% accuracy drop, +6.3 perplexity increase.",
+        "Quantified model efficiency vs. task performance trade-offs to characterize compression impact across downstream benchmarks."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer in PyTorch (multi-head self-attention, MLP blocks, residual connections, layer norm, weight tying) with TikToken tokenizer and training loop with perplexity evaluation."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built end-to-end ASR: 80-channel mel encoder, 6-block causal Transformer decoder with cross-attention; 15% WER on Hindi-English corpus (1,000 samples), training loss ~0.51.",
+        "Designed Cython-accelerated BPE tokenizer achieving 4–5.5× speedup over pure Python on 6M characters."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Distributed dendrite computations across MPI workers on a SLURM-managed cluster; achieved 10.49× speedup with 12 processes and characterized load-imbalance causing up to 65% performance degradation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Image Processing",
+        "Digital Signal Processing"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

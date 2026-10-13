@@ -1,0 +1,104 @@
+{
+  "date_analyzed": "2026-07-09",
+  "url": "https://www.linkedin.com/jobs/view/4437556937/",
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer II, Early Career, Google Cloud AI Career Catalyst Program",
+  "job_slug": "swe-ii-early-career-ai-career-catalyst",
+  "location": "Sunnyvale, CA",
+  "remote_ok": false,
+  "compensation": "$123,000 - $175,000 + 15% bonus + equity",
+  "application_deadline": "2026-07-14",
+  "start_date_required": "2027-06",
+  "match_pct": 100,
+  "have_skills": [
+    "M.S. Computer Engineering (exceeds BS requirement)",
+    "Data structures & algorithms (CUDA kernels, custom BPE tokenizer, image stitching, inverse kinematics)",
+    "Python",
+    "C/C++",
+    "CUDA C++",
+    "AI/ML domain (PyTorch, TensorRT, quantization, transformers, YOLO, ASR)"
+  ],
+  "adjacent_skills": [
+    "Infrastructure -> has MPI, SLURM, JupyterHub (HPC cluster usage, not cloud infra engineering)",
+    "Distributed computing -> has MPI + 3-node WebSocket pipeline",
+    "Large-scale system design -> has multi-stage edge pipeline, prototype scale"
+  ],
+  "missing_skills": [
+    "Google Cloud Platform / Vertex AI",
+    "Kubernetes / Docker / containers",
+    "Java",
+    "JavaScript",
+    "Go",
+    "Large-scale distributed systems design",
+    "Networking",
+    "Data storage systems",
+    "Information retrieval",
+    "Production service ownership / on-call"
+  ],
+  "preferred_have": [
+    "Master's degree in a related technical field",
+    "Demonstrated problem-solving",
+    "Ability to learn new technologies"
+  ],
+  "top_ats_keywords": [
+    "software development",
+    "data structures",
+    "algorithms",
+    "Python",
+    "C++",
+    "Java",
+    "AI/ML",
+    "infrastructure",
+    "distributed computing",
+    "large-scale system design",
+    "machine learning",
+    "full-stack",
+    "artificial intelligence",
+    "Google Cloud",
+    "Vertex AI"
+  ],
+  "key_responsibilities": [
+    "Rotate across up to three AI and Infrastructure organizations over a 13-month period",
+    "Deliver on high-impact projects from day one, rapidly upskilling to contribute to core business goals",
+    "Execute on key business initiatives while navigating highly ambiguous systems",
+    "Build a broad cross-organizational network across Google's AI and Infrastructure org"
+  ],
+  "role_category": "ml_systems",
+  "constraint_flags": {
+    "sponsorship": "OK - Google is a known H-1B sponsor; no restrictive language in JD",
+    "experience": "OK - entry level, 0 years required",
+    "location": "OK - Sunnyvale CA, willing to relocate = true",
+    "clearance": "OK - none required",
+    "start_date": "FLAG - requires start June 2027, ~11 months out; Justin graduated May 2026",
+    "deadline": "URGENT - applications close July 14, 2026 (5 days from analysis date)"
+  },
+  "hard_blocker_triggered": false,
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "CUDA kernel engineering with real depth \u2014 'Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory... 49.2ms vs 73.3ms uncoalesced' \u2014 maps directly onto the AI+Infrastructure org's custom-silicon and accelerator side.",
+      "Model efficiency / inference optimization \u2014 'TensorRT-optimized YOLO (5.2x speedup: 56.7 -> 10.9 ms)' and '~55% GPU memory reduction via 8-bit quantization on TinyLlama with <1% accuracy degradation'. This is exactly the Vertex-AI-adjacent efficiency work the org names.",
+      "From-scratch transformer literacy \u2014 GPT-2 built from scratch (multi-head attention, MLP, residuals, weight tying) and a Whisper-style ASR encoder/decoder with a Cython-accelerated BPE tokenizer (4-5.5x speedup). Signals he understands models, not just calls APIs.",
+      "Preferred qual satisfied outright: M.S. Computer Engineering, RIT."
+    ],
+    "real_gaps": [
+      "Zero cloud platform experience anywhere in the profile \u2014 no GCP, AWS, Kubernetes, Docker, or any managed-service work. For a program explicitly named 'Google Cloud AI', this is the single largest gap.",
+      "No large-scale distributed systems design. The JD's org description centers on hyperscale: Global Networking, data storage, distributed computing. The closest thing in the profile is a three-node WebSocket pipeline (Flutter -> Flask -> Jetson), which is prototype scale.",
+      "No production software engineering ownership. All 7 entries are research or internship scope: no service ownership, no on-call, no CI/CD, no code review at scale, no large existing codebase.",
+      "No Java, JavaScript, or Go. The JD's 'one or more' phrasing means he passes the letter of the min qual on Python/C/C++, but Google Infra teams run heavily on C++/Java/Go.",
+      "No visible DSA/algorithms preparation signal. Google's loop is 4-5 algorithms interviews; the profile shows applied ML and systems work, not competitive-programming depth. The min qual is easy to claim, the interview is where it is actually tested."
+    ],
+    "overstated_by_keywords": [
+      "'Infrastructure' \u2014 counted as Adjacent on MPI + SLURM + JupyterHub, but that is HPC cluster *usage* for coursework, not infrastructure *engineering*. Google means the thing that serves billions of users.",
+      "'Distributed computing' \u2014 MPI at coursework scale is not distributed systems design.",
+      "'C++' \u2014 his C++ is CUDA kernels and Arduino two-link IK, not large-scale systems C++."
+    ],
+    "reasoning": "Google wrote these minimum qualifications deliberately broad (a BS, coursework-level DSA, one language, some AI/ML exposure), so Justin clears every one of them on paper and the keyword score of 100% is real but not informative. The signal that matters is what separates him from the other 200+ applicants: his CUDA kernel optimization and inference-compression work is genuinely above the early-career bar and lands squarely on the AI+Infrastructure org's accelerator and model-efficiency rotations. What is missing is the Cloud half of Cloud AI. Nothing in the profile touches GCP, containers, orchestration, or systems that serve real traffic, and every role he has held is research scope rather than production ownership."
+  }
+}

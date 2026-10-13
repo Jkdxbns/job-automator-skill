@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "company": "NVIDIA",
+    "role": "Developer Technology Engineer, AI - New College Graduate 2026",
+    "company_slug": "nvidia",
+    "job_slug": "devtech_ai_ncg2026"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on experience in CUDA kernel optimization and parallel computing performance engineering. Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing and constant memory and experience with 8-bit quantization for edge deployment. Strong background in C/C++, deep learning model optimization, and computer architecture from coursework in High Performance Architecture and Multiple Processor Systems.",
+  "skills": {
+    "HPC / Parallel": [
+      "MPI",
+      "SLURM",
+      "Memory coalescing",
+      "Kernel optimization"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "Quantization (8-bit)",
+      "pynvml Profiling",
+      "Model evaluation",
+      "Transformers",
+      "Whisper"
+    ],
+    "Edge AI / CV / Speech": [
+      "YOLO",
+      "Jetson",
+      "Raspberry Pi",
+      "Microcontrollers",
+      "OpenCV",
+      "MediaPipe"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 multi-modal MRI dataset; evaluated on Dice Score and IoU, reporting accuracy-latency trade-offs for deployment.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; took over as team lead mid-project to restructure task distribution and deliver the full pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free visual document understanding Transformer, on a custom medical billing dataset for structured field extraction using PyTorch and HuggingFace's VisionEncoderDecoder API.",
+        "Improved validation accuracy from 55% to 93% through improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for optimized deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript convolution layers in VGG16 with custom CUDA C++ kernels using memory coalescing and constant memory for weights and biases, eliminating per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs. 73.3ms uncoalesced and 77.5ms CPU TorchScript baseline, a ~35% speedup with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49x speedup with 12 slave processes; characterized scaling behavior across dendrite counts and compartment depths."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work distribution strategies (static strip/block/cyclic, dynamic task queue) for rendering 5000x5000 pixel scenes using MPI.",
+        "Achieved up to 30x speedup with static strip partitioning across 55 processes; demonstrated dynamic task queue outperformed all static methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with <1% accuracy degradation, demonstrating near-lossless compression for edge deployment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems",
+        "Deep Learning",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

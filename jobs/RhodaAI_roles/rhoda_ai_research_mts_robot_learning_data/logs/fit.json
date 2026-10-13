@@ -1,0 +1,22 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhoda_ai",
+  "role": "Research Member of Technical Staff - Robot Learning Data",
+  "job_slug": "research_mts_robot_learning_data",
+  "match_pct": 83,
+  "missing_skills": ["Open X-Embodiment / DROID cross-embodiment datasets", "VR teleoperation / motion capture", "imitation learning / policy generalization theory", "PhD or dedicated research background"],
+  "adjacent_skills": ["data quality curation/filtering for robotic data (have it for CV/perception data via CARLA, not manipulation/teleop data)", "teleoperation systems (have multi-camera data collection pipeline, not a live teleop control system)"],
+  "top_ats_keywords": ["teleoperation", "demonstration collection", "data curation", "data quality metrics", "cross-embodiment", "sim-to-real", "synthetic data", "LeRobot", "imitation learning", "robotic hardware"],
+  "key_responsibilities": [
+    "Design/implement teleoperation and demonstration collection systems",
+    "Develop data quality metrics, curation pipelines, filtering strategies for robotic data",
+    "Augment real robot data with synthetic/simulated/cross-embodiment sources",
+    "Source external robotic datasets",
+    "Build researcher tooling for exploring/annotating robotic datasets",
+    "Translate model data needs into collection strategies with pre/post-training teams",
+    "Measure downstream impact of data decisions on model/policy performance"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

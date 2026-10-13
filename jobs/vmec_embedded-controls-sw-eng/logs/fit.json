@@ -1,0 +1,102 @@
+{
+  "company": "VMEC",
+  "company_slug": "vmec",
+  "role": "Embedded Controls Software Engineer",
+  "job_slug": "embedded-controls-sw-eng",
+  "match_pct": 38.5,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 7,
+    "jd_ask_size": 13,
+    "req_cov": 0.591,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Embedded controls software"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Controller communication",
+      "you_have": "UART/I2C/SPI"
+    },
+    {
+      "jd_skill": "Mechatronic controls",
+      "you_have": "Closed-Loop Feedback Control / PWM motor control"
+    }
+  ],
+  "missing_skills": [
+    "Auto Code Generation",
+    "MATLAB",
+    "Simulink",
+    "Diagnostics",
+    "Requirements-to-test traceability",
+    "Automated test tools",
+    "Agile Scrum"
+  ],
+  "top_ats_keywords": [
+    "Embedded controls software",
+    "C",
+    "C++",
+    "Auto Code Generation",
+    "MATLAB",
+    "Simulink",
+    "Python",
+    "Agile Scrum",
+    "diagnostics",
+    "controller communication"
+  ],
+  "required_skills": [
+    "Embedded controls software",
+    "C",
+    "C++",
+    "Auto Code Generation",
+    "MATLAB",
+    "Simulink",
+    "Python",
+    "Controller communication",
+    "Diagnostics",
+    "Requirements-to-test traceability",
+    "Automated test tools"
+  ],
+  "preferred_skills": [
+    "Agile Scrum"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "controls software for electrification/autonomous/engine/transmission/chassis",
+    "diagnostics strategies",
+    "controller communication",
+    "requirements linked to test cases",
+    "automated test on benches/vehicles",
+    "Agile Scrum"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Milford, Michigan (hybrid, 3 days in-office)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

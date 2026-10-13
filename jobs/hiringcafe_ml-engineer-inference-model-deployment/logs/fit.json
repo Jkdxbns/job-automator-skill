@@ -1,0 +1,84 @@
+{
+  "company": "HiringCafe",
+  "company_slug": "hiringcafe",
+  "role": "ML Engineer - Inference & Model Deployment",
+  "job_slug": "ml-engineer-inference-model-deployment",
+  "match_pct": 57.4,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 7,
+    "missing_count": 8,
+    "jd_ask_size": 27,
+    "req_cov": 0.5625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "inference latency/throughput optimization",
+    "profiling & benchmarking",
+    "quantization (8-bit / LLM.int8)",
+    "CUDA / GPU kernel optimization",
+    "TensorRT",
+    "Python",
+    "C/C++ production code",
+    "PyTorch",
+    "ONNX / TorchScript / TFLite compilation",
+    "memory optimization",
+    "fine-tuning workflows",
+    "Linux"
+  ],
+  "adjacent_skills": [
+    "production model deployment (edge/Jetson, not cloud)",
+    "efficient attention (transformer work, no FlashAttention)",
+    "mixed precision",
+    "multi-GPU inference (MPI/SLURM HPC only)",
+    "distributed training",
+    "LLM/transformer infra (GPT-2 from scratch, TinyLlama)",
+    "backend integration (Flask/WebSocket)"
+  ],
+  "missing_skills": [
+    "pruning",
+    "continuous/dynamic batching",
+    "KV caching",
+    "model serving at millions-of-users scale",
+    "SGLang / vLLM",
+    "cloud platforms (AWS/GCP)",
+    "distributed systems",
+    "storage systems"
+  ],
+  "top_ats_keywords": [
+    "inference optimization",
+    "quantization",
+    "multi-GPU inference",
+    "vLLM",
+    "SGLang",
+    "TensorRT",
+    "model serving",
+    "batching",
+    "KV cache",
+    "efficient attention",
+    "mixed precision",
+    "distributed training",
+    "GPU profiling",
+    "PyTorch",
+    "CUDA",
+    "production ML"
+  ],
+  "key_responsibilities": [
+    "Deploy researcher checkpoints into cloud production pipelines",
+    "Profile/benchmark latency, throughput, memory bottlenecks",
+    "Quantization, pruning, batching, caching, efficient attention",
+    "Build scalable multi-GPU inference systems",
+    "Design serving architecture for millions of users",
+    "Distributed training, mixed precision, parallelism"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

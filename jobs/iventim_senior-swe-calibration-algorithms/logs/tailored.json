@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "IventIM",
+    "role": "Senior Software Engineer — Calibration & Algorithms",
+    "company_slug": "iventim",
+    "job_slug": "senior-swe-calibration-algorithms"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT with hands-on experience building signal processing pipelines, computer vision algorithms, and sensor integration systems in Python3 and C++. Developed surface inspection and calibration pipelines at BARC using wavelet denoising (PSNR 86); deployed OpenCV visual servoing on NVIDIA Jetson with 100% pick reliability.",
+  "skills": {
+    "Languages": ["Python3", "C/C++", "CUDA", "ROS2", "Bash"],
+    "Computer Vision / Signal Processing": ["OpenCV", "YOLO", "numpy", "matplotlib", "wavelet analysis"],
+    "Robotics & Embedded": ["ROS/ROS2", "Visual servoing", "NVIDIA Jetson", "Arduino", "UART/I2C/SPI"],
+    "Tools": ["Linux", "Git", "CMake", "JupyterHub", "Flask"]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline using custom image stitching, wavelet denoising, and monocular depth estimation — improving PSNR from 65 to 86 over the homography baseline.",
+        "Designed a custom wavelet bank for signal noise suppression with concurrent processing; validated algorithm accuracy through iterative PSNR-based quantitative evaluation."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Built a Python3 data acquisition GUI (PyQt + Matplotlib + numpy) for real-time laboratory sensor data visualization and experimental analysis.",
+        "Maintained version control workflows on GitLab; managed collaborative analysis notebooks on JupyterHub for tabular data processing and technical documentation."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom Python3 data pipeline for BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16 and ResNet-50 backbones; evaluated on Dice Score and IoU; documented accuracy-latency trade-offs across backbone configurations."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led 25-member robotics team across national competitions; owned PCB fabrication and sensor integration end-to-end.",
+        "Implemented sensor communication over UART and I2C with closed-loop feedback on custom PCBs designed in EAGLE.",
+        "Authored onboarding documentation and ran 10+ technical workshops covering Arduino, PCB design, and robotics frameworks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT YOLO visual servoing at ~18 FPS on NVIDIA Jetson; integrated dual VL53L0X ToF sensors via TCA9548A I2C mux — 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency.",
+        "Implemented two-link IK in C++ on Arduino; drove five servos with range-gated contact detection and sensor-calibrated motion thresholds."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Machine Intelligence", "Deep Learning", "High Performance Architecture", "Multiple Processor Systems"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Image Processing", "Random Signal Analysis", "Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "Ranked 10th, Robocon — National-level robotics competition among 45 universities (2022)"
+  ]
+}

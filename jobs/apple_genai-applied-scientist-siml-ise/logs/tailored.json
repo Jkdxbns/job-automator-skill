@@ -1,0 +1,95 @@
+{
+  "_meta": {"company": "Apple", "role": "Generative AI Applied Scientist, SIML - ISE", "company_slug": "apple", "job_slug": "generative-ai-applied-scientist-siml-ise"},
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering from Rochester Institute of Technology, with hands on experience building generative and multimodal transformer models end to end, from a GPT-2 style language model implemented from scratch to a fine-tuned VisionEncoderDecoder transformer for OCR-free document understanding. Built a voice-controlled, vision-guided robotic system integrating an LLM for intent classification with real-time perception, demonstrating human-centric multimodal interaction under real-time constraints. Comfortable owning the full model lifecycle in Python, from architecture and training to quantization and deployment for production and resource-constrained environments.",
+  "skills": {
+    "ML / Generative AI": ["Hugging Face Transformers", "PyTorch", "Transformer architecture (self-attention, multi-head attention)", "Multimodal encoders (VisionEncoderDecoder)", "Quantization (8-bit)", "Tokenization (BPE, TikToken)", "Model evaluation (perplexity, benchmark suites)", "TensorRT"],
+    "Languages & Tools": ["Python", "C/C++", "CUDA", "Linux", "Git", "Flask", "CMake"],
+    "Systems & Deployment": ["NVIDIA Jetson", "ONNX", "TFLite", "YOLO", "Visual servoing", "I2C"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized decoder embedding layer accordingly.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with medical imaging augmentation and batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation (VGG-16, VGG-19, ResNet-50 backbones), evaluated on Dice Score and IoU; led a cross-cultural team of 7 as the sole ML-experienced student to deliver the full pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50; exported to ONNX and TFLite for resource-constrained mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2× speedup) for visual servoing, achieving 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch (multi-head self-attention, MLP blocks, residual connections, weight tying) with a TikToken-based tokenizer and perplexity-based evaluation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase — near-lossless compression for resource-constrained deployment."
+      ]
+    },
+    {
+      "name": "COFFIN – Whisper-Style ASR from Scratch",
+      "date": null,
+      "bullets": [
+        "Built an end-to-end ASR pipeline (80-channel mel spectrogram encoder, 4-block causal Transformer decoder with cross-attention) with a custom Cython-accelerated BPE tokenizer, achieving 15% WER on a Hindi-English evaluation set."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Deep Learning", "Machine Intelligence", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

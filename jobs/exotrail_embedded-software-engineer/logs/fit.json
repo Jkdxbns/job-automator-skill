@@ -1,0 +1,132 @@
+{
+  "company": "Exotrail",
+  "company_slug": "exotrail",
+  "role": "Embedded Software Engineer (F/H)",
+  "job_slug": "embedded-software-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 22,
+    "req_cov": 0.633,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Embedded Software",
+    "Python",
+    "RTOS",
+    "Drivers",
+    "Hardware Interfaces",
+    "Communication Protocols",
+    "Debugging",
+    "HW/SW Integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Automated Testing",
+      "you_have": "Python scripting / benchmarking"
+    },
+    {
+      "jd_skill": "Distributed Systems",
+      "you_have": "MPI / ROS2"
+    },
+    {
+      "jd_skill": "Agile",
+      "you_have": "Git / GitLab team workflow"
+    },
+    {
+      "jd_skill": "Real-time performance optimisation (CPU/memory)",
+      "you_have": "CUDA / quantization optimisation"
+    }
+  ],
+  "missing_skills": [
+    "Critical Software Processes",
+    "Static Analysis",
+    "Code Coverage",
+    "Systems Engineering",
+    "Requirements Traceability",
+    "ECSS",
+    "DO-178C",
+    "MISRA",
+    "Space/Aerospace/Defense Experience"
+  ],
+  "top_ats_keywords": [
+    "Embedded C/C++",
+    "Python",
+    "RTOS",
+    "Drivers",
+    "Communication Protocols",
+    "Static Analysis",
+    "Code Coverage",
+    "MISRA",
+    "DO-178C",
+    "ECSS",
+    "Requirements Traceability",
+    "Systems Engineering",
+    "Agile",
+    "HW/SW Integration",
+    "Unit Testing",
+    "Integration Testing"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Embedded Software",
+    "Python",
+    "RTOS",
+    "Drivers",
+    "Hardware Interfaces",
+    "Communication Protocols",
+    "Critical Software Processes",
+    "Static Analysis",
+    "Code Coverage",
+    "Debugging",
+    "Agile",
+    "Systems Engineering",
+    "Requirements Traceability",
+    "Automated Testing"
+  ],
+  "preferred_skills": [
+    "ECSS",
+    "DO-178C",
+    "MISRA",
+    "HW/SW Integration",
+    "Distributed Systems",
+    "Space/Aerospace/Defense Experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Real-time embedded flight software",
+    "Test tools and ground ops software",
+    "Requirements traceability",
+    "Unit/integration/functional test campaigns",
+    "Secure software update",
+    "SRR/PDR/CDR/TRR reviews"
+  ],
+  "role_category": "embedded_systems",
+  "location": "France (not stated in JD)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

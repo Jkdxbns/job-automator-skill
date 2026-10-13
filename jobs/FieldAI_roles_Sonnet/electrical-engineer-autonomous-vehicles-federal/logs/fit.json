@@ -1,0 +1,169 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Electrical Engineer, Autonomous Vehicles - Federal",
+  "job_slug": "electrical-engineer-autonomous-vehicles-federal",
+  "match_pct": 41.4,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 12,
+    "missing_count": 11,
+    "jd_ask_size": 29,
+    "req_cov": 0.231,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Communication protocols \u2014 UART/I2C/SPI (embedded skills list UART/I2C/SPI; STM32 Bare-Metal Temperature Monitor uses I2C driver; Voice-Controlled Robotic Arm uses TCA9548A I2C mux + VL53L0X ToF over I2C; Object Tracking Turret uses STM32 UART; Agnel Robotics Club UART/I2C sensor comms)",
+    "Embedded control / microcontrollers (embedded skills: STM32 bare-metal C + FreeRTOS; STM32 Bare-Metal Temperature Monitor: Cortex-M4, timer-triggered ADC, interrupt-driven, I2C driver; Object Tracking Turret: STM32 over UART with FreeRTOS mutexes)",
+    "PCB schematic/layout \u2014 EAGLE (embedded skills: EAGLE PCB design; Agnel Robotics Club led 25-member team with PCB fabrication in EAGLE)",
+    "Robotics / autonomous integration (ROS-Based Robotic Arm AL5B & UR5e with DH/kinematics; Voice-Controlled Robotic Arm COFFIN capstone; Object Tracking Turret; Autonomous Driving in CARLA with YOLO11n + UFLD lane detection, zero collisions in Town02)",
+    "Sensor integration \u2014 ToF / accelerometer / I2C devices (COFFIN arm: dual VL53L0X ToF sensors + TCA9548A I2C mux; Tracking Turret: VL53L0X ToF; Wearable gesture glove: ADXL345 accelerometer)",
+    "Wireless \u2014 Bluetooth BLE/Classic (embedded skills list BLE/Classic; wearable glove uses HC-05 Bluetooth module for data transmission)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "PCB schematic/layout (KiCAD / Altium)",
+      "you_have": "EAGLE PCB design (embedded skills; Agnel Robotics Club PCB fabrication) \u2014 same PCB domain, different CAD tool; no KiCAD/Altium experience"
+    },
+    {
+      "jd_skill": "Wire harness design / harnessing",
+      "you_have": "Wearable gesture glove wiring (ADXL345 + RPi + HC-05 Bluetooth integration); Agnel Robotics Club UART/I2C sensor wiring; no formal harness documentation, shielding, strain relief, or automotive-style harness design"
+    },
+    {
+      "jd_skill": "Low-voltage regulated power systems (DC/DC, voltage rails, fuses, grounding)",
+      "you_have": "Embedded projects use STM32, Jetson, Raspberry Pi, Arduino boards (powered externally or via board regulators); no design of DC/DC converters, voltage rails, fuses, or grounding schemes mentioned"
+    },
+    {
+      "jd_skill": "Communication protocol \u2014 CAN",
+      "you_have": "No CAN bus mentioned anywhere in profile; UART/I2C/SPI present only"
+    },
+    {
+      "jd_skill": "Communication protocol \u2014 Ethernet",
+      "you_have": "Linux admin includes static IP/network config; no Ethernet hardware/protocol design or networking stack work mentioned"
+    },
+    {
+      "jd_skill": "Communication protocol \u2014 USB",
+      "you_have": "Not explicitly listed; Raspberry Pi / Jetson boards implicitly use USB but no USB protocol/hardware design described"
+    },
+    {
+      "jd_skill": "Power calculations / budgets / signal integrity",
+      "you_have": "No electrical calculations (current draw, peak power, signal integrity) or system-level budget maintenance mentioned; tools include oscilloscopes/logic analyzers"
+    },
+    {
+      "jd_skill": "EMI/EMC / noise / vibration robustness",
+      "you_have": "Not mentioned in any project bullet or skill; profile lists oscilloscopes and logic analyzers as tools only"
+    },
+    {
+      "jd_skill": "Testing / validation \u2014 power, EMI, communication",
+      "you_have": "Profile lists oscilloscopes and logic analyzers; COFFIN capstone resolved 11 integration failures; no structured electrical validation (noise/load transients, EMI evaluation, bandwidth/latency testing) described"
+    },
+    {
+      "jd_skill": "Robotics/automotive-style harness integration",
+      "you_have": "Multiple robotics wiring/integration tasks (COFFIN, Tracking Turret, wearable glove, Agnel Club sensors); not automotive-style harness with shielding, strain relief, or connector standards"
+    },
+    {
+      "jd_skill": "Mechanical collaboration / CAD (SolidWorks)",
+      "you_have": "SolidWorks listed in tools; robotics arm projects involve DH tables/kinematics/MoveIt; no mechanical CAD for harness routing or PCB enclosure design mentioned"
+    },
+    {
+      "jd_skill": "Field deployment, debugging, and electrical servicing",
+      "you_have": "COFFIN capstone deployed with systemd (auto-restart, non-root isolation, static IP/network) and 100% pick reliability (10/10); 11 integration failures resolved hands-on; deployment is software/robotics-focused, not electrical field servicing of PCBs/harnesses"
+    }
+  ],
+  "missing_skills": [
+    "Low-voltage regulated power systems design (DC/DC converters, voltage rails, fuses, grounding schemes) \u2014 no backing bullet; only board-level usage",
+    "Wire harness documentation / automotive-style harness (shielding, strain relief, standard connectors) \u2014 no backing bullet",
+    "PCB schematic/layout in KiCAD or Altium \u2014 profile uses EAGLE only",
+    "CAN bus protocol \u2014 not in profile",
+    "Ethernet hardware/protocol design \u2014 not in profile (only Linux network admin)",
+    "USB protocol/hardware design \u2014 not explicitly in profile",
+    "Power budgets / current-draw / peak-power / signal-integrity calculations \u2014 no backing bullet",
+    "EMI/EMC / thermal-resilience / vibration-tolerance engineering \u2014 no backing bullet",
+    "Structured electrical testing (power noise, EMI evaluation, communication bandwidth/latency) \u2014 tools listed but no described execution",
+    "Vendor / contract-manufacturer procurement and incoming QA for PCBs/harnesses \u2014 not in profile",
+    "Formal safety/regulatory certification (functional safety / ISO / defense compliance) \u2014 not in profile"
+  ],
+  "top_ats_keywords": [
+    "Electrical Engineer",
+    "PCB design",
+    "KiCAD",
+    "Altium",
+    "wire harness",
+    "CAN",
+    "I2C",
+    "Ethernet",
+    "USB",
+    "power systems",
+    "EMI/EMC",
+    "autonomous vehicles",
+    "robotics",
+    "federal",
+    "embedded control",
+    "sensing systems",
+    "low-voltage",
+    "DC/DC",
+    "schematic",
+    "layout",
+    "integration",
+    "validation",
+    "testing"
+  ],
+  "required_skills": [
+    "low-voltage regulated power systems",
+    "wire harness design / harnessing",
+    "PCB schematic/layout (KiCAD / Altium)",
+    "electrical CAD (KiCAD / Altium)",
+    "communication protocols (Ethernet, USB, CAN, I2C)",
+    "power calculations / budgets / signal integrity",
+    "EMI/EMC / noise / vibration robustness",
+    "testing / validation (power, EMI, communication)",
+    "robotics/automotive-style harness integration",
+    "embedded control / microcontroller programming",
+    "sensor integration",
+    "mechanical collaboration / CAD",
+    "field deployment / debugging / support"
+  ],
+  "preferred_skills": [
+    "embedded control / microcontroller programming",
+    "sensor integration",
+    "mechanical collaboration / CAD",
+    "field deployment / support experience"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Power architecture (DC/DC, rails, fuses, grounding)",
+    "Wire harness design and documentation",
+    "PCB schematic and layout (KiCAD / Altium)",
+    "Wired/wireless comms (Ethernet, USB, CAN, I2C)",
+    "System-level power and bandwidth budgets",
+    "EMI/EMC / thermal / field-condition design",
+    "Power / communication / EMI testing and validation",
+    "Integration with sensor / mechanical / compute teams",
+    "Vendor / CM procurement and QA for PCBs / harnesses",
+    "Field deployment, debugging, and electrical servicing"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Federal team / government-contractor role ('Federal' in job title; federal program context); candidate on F-1 OPT (EAD pending, requires sponsorship long-term). F-1 OPT holders are routinely excluded from federal/defense-related positions due to sponsorship and potential ITAR/export-control/citizenship restrictions even when no explicit clearance phrase appears in the JD."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

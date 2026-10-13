@@ -1,0 +1,71 @@
+{
+  "company": "Gather AI",
+  "company_slug": "gatherai",
+  "role": "Robotics Engineer",
+  "job_slug": "robotics-engineer",
+  "match_pct": 92,
+  "missing_skills": [
+    "CI/CD production pipeline ownership",
+    "drone/aerial autonomy (GPS-denied flight)",
+    "warehouse/customer-site production deployment experience"
+  ],
+  "adjacent_skills": [
+    "Git/GitLab (adjacent to CI/CD with PR review)",
+    "Object Tracking Turret indoor tracking (adjacent to GPS-denied indoor navigation)",
+    "AI tools for system analysis (LLM/ML background broadly)"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "ROS",
+    "C++",
+    "Python",
+    "Linux",
+    "hardware/software integration",
+    "root cause analysis",
+    "field data analysis",
+    "MoveIt",
+    "RViz",
+    "embedded systems",
+    "Jetson",
+    "STM32",
+    "sensor integration"
+  ],
+  "key_responsibilities": [
+    "Ramp up on drone or MHEV platform, understanding full hardware/software system",
+    "Write production software for tooling, observability, and data analysis",
+    "Analyze field data and write reports that drive engineering decisions",
+    "Travel to customer sites for debug, deployment support, and hands-on problem solving",
+    "Collaborate with pod team and cross-functional partners to ship features and resolve production issues",
+    "Contribute to product portfolio expansion into new platforms"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 80,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "ROS2 depth is real and hands on: COFFIN Robotic Arm project used ROS 2 Humble and ROS Noetic with MoveIt/RViz validation and a physical UR5e pick-and-place, not just tutorial-level ROS exposure",
+      "Integrated hardware/software systems is the strongest overlap: Object Tracking Turret (Jetson running YOLOv8 commanding an STM32 over UART, FreeRTOS task coordination, ToF sensing) is structurally close to an MHE Vision style perception-plus-actuation stack",
+      "Debugging/root-cause skill is demonstrated concretely: COFFIN bullet 'resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' is the kind of system-level debugging the JD asks for",
+      "JD explicitly states 'strong internship or lab/project experience is valued for early-career candidates' \u2014 this directly matches a 0-years-full-time, 6-internship-plus-capstone profile rather than penalizing it"
+    ],
+    "real_gaps": [
+      "No drone or aerial autonomy experience anywhere in the profile \u2014 if placed on the Drone platform track rather than MHEV, flight autonomy/GPS-denied navigation would be a genuine cold start",
+      "No warehouse-scale or customer-site production deployment experience \u2014 every project is lab, capstone, or internship scope with no fielded system carrying real operational uptime pressure, which is central to 'travel to customer sites to debug and improve real systems in the field'",
+      "CI/CD ownership is thin \u2014 GitLab/Git usage shown is version control and collaboration, not owning a CI/CD pipeline with code review gates as JD's nice-to-have describes"
+    ],
+    "overstated_by_keywords": [
+      "'Hardware/software integration' keyword-matches cleanly but the JD's bar is a fielded product with active customer deployments; the profile's integration work is all lab-built systems, so the match is real but shallower on production rigor than the keyword suggests"
+    ],
+    "reasoning": "This is one of the better keyword-to-reality matches seen so far: ROS2 and embedded-vision integration are backed by real hands-on project depth, not surface mentions, and the JD explicitly welcomes early-career/lab-project backgrounds. The honest gap is production and field-deployment scope \u2014 nothing in the profile has shipped to a customer site or run in a GPS-denied outdoor/warehouse environment, so expect depth-probing on 'have you supported a live system' to be the harder part of an interview."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-18",
+    "channel": "application",
+    "notes": "Position filled; profile kept on file."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "company": "Pure Storage",
+  "company_slug": "pure-storage",
+  "role": "Senior Firmware Engineer - PCIe",
+  "job_slug": "firmware-engineer-pcie",
+  "match_pct": 31.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 2,
+    "missing_count": 10,
+    "jd_ask_size": 16,
+    "req_cov": 0.227,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Firmware development (embedded systems)",
+    "Register-level programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Debugging firmware/hardware/driver boundary",
+      "you_have": "Embedded hardware/firmware debugging (oscilloscopes, logic analyzers) on STM32/sensor platforms"
+    },
+    {
+      "jd_skill": "Hardware bring-up on new platforms",
+      "you_have": "Hardware bring-up on STM32/PCB/sensor platforms (non-PCIe)"
+    }
+  ],
+  "missing_skills": [
+    "PCIe architecture/protocols",
+    "LTSSM bring-up/debugging",
+    "Link training",
+    "Error recovery (PCIe)",
+    "PCIe compliance tools/protocol analyzers",
+    "Power management (PCIe)",
+    "Hot-plug support",
+    "PHY integration/signal integrity",
+    "Driver development",
+    "PCIe register-level programming"
+  ],
+  "top_ats_keywords": [
+    "PCIe",
+    "LTSSM",
+    "Firmware",
+    "C/C++",
+    "Python",
+    "Power management",
+    "Hot-plug",
+    "Error handling",
+    "Protocol analyzer",
+    "Register-level programming",
+    "Link training",
+    "Signal integrity",
+    "Hardware bring-up",
+    "Driver"
+  ],
+  "required_skills": [
+    "PCIe architecture/protocols",
+    "Firmware development for embedded systems",
+    "C/C++",
+    "Python (test automation/tooling)",
+    "PCIe firmware development (LTSSM bring-up/debugging)",
+    "Link training",
+    "Error recovery",
+    "Register-level programming",
+    "Debugging across firmware/hardware/driver boundaries",
+    "Hardware bring-up on new platforms",
+    "PCIe compliance tools/protocol analyzers"
+  ],
+  "preferred_skills": [
+    "PCIe PHY integration",
+    "Signal integrity",
+    "Diagnostics tooling"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/deliver PCIe firmware for DirectFlash SSD Modules",
+    "Lead PCIe hardware bring-up and integration",
+    "Develop LTSSM, power management, hot-plug, error handling",
+    "Debug system-level firmware/driver/hardware issues, build diagnostics tools",
+    "Collaborate with hardware teams on PHY integration/signal integrity"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Santa Clara, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

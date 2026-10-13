@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "company": "Cambium Learning Group",
+    "role": "Software Engineer Intern - AI Applications",
+    "company_slug": "cambium_learning_group",
+    "job_slug": "software_engineer_intern_ai_applications"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT). Built Large Language Models and generative AI systems end to end in Python and PyTorch, including a GPT-2 style Transformer and tokenizer written from scratch and an 8-bit quantized LLM benchmarked on HellaSwag, GSM8K, and ARC. Integrated LLM APIs into a live multi-service application over a Flask-SocketIO backend, evaluating model quality and latency trade-offs.",
+  "skills": {
+    "AI / LLM": [
+      "Large Language Models",
+      "Generative AI",
+      "NLP",
+      "Transformers",
+      "Hugging Face Transformers",
+      "LLM API integration",
+      "Prompt design",
+      "Tokenization (BPE)",
+      "Model evaluation & benchmarking"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "Cython",
+      "Bash"
+    ],
+    "ML / Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "ONNX",
+      "TFLite",
+      "YOLOv8",
+      "U-Net / ResNet / VGG"
+    ],
+    "Backend Systems, APIs & Tools": [
+      "Flask",
+      "Flask-SocketIO",
+      "WebSocket APIs",
+      "REST APIs",
+      "Git",
+      "GitLab",
+      "Linux",
+      "JupyterHub",
+      "PyQt",
+      "Matplotlib"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 - Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free vision-language Transformer, on a custom medical billing dataset for structured field extraction, improving validation accuracy from 55% to 93%.",
+        "Built preprocessing and training pipelines in PyTorch using the Hugging Face VisionEncoderDecoder API; added domain-specific special tokens and resized the decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images to 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16 and ResNet-50 backbones on the BraTS 2020 MRI dataset; evaluated on Dice Score and IoU to report accuracy-latency trade-offs.",
+        "Led a cross-functional team of 7 as the sole ML-experienced student, restructuring task distribution to deliver the full pipeline in 6 weeks."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI in PyQt and Matplotlib for real-time laboratory data acquisition and visualization; used GitLab and JupyterHub for version control and collaborative analysis."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer in PyTorch from scratch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and a custom training loop with early stopping and perplexity-based evaluation of generated text."
+      ]
+    },
+    {
+      "name": "LLM Compression and Benchmarking",
+      "date": null,
+      "bullets": [
+        "Benchmarked TinyLlama 1.1B on HellaSwag, GSM8K, and ARC after 8-bit quantization, holding accuracy degradation under 1% at +0.09 perplexity.",
+        "Cut GPU memory footprint by ~55% with bitsandbytes LLM.int8(); profiled peak VRAM and inference latency with pynvml to quantify the quality-versus-efficiency trade-off."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Assistant Pipeline (COFFIN), M.S. Capstone",
+      "date": null,
+      "bullets": [
+        "Integrated the Gemini API for natural-language intent classification under 500 ms, routing free-form user speech to the correct downstream tool call in a live three-layer application.",
+        "Built the backend as a Flask-SocketIO server bridging a Flutter client and an edge controller over a unified WebSocket API; resolved 11 integration failures to reach 100% task reliability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": [
+        "Machine Intelligence",
+        "Deep Learning",
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,142 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "PLM/ PDM Systems Architect ",
+  "job_slug": "plm-pdm-systems-architect",
+  "match_pct": 33.3,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 18,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python / scripting",
+    "API integration",
+    "Manufacturing data / BOM",
+    "Git / version control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Scripting / light development (Python, C#/.NET, SQL)",
+      "you_have": "Python / Bash"
+    },
+    {
+      "jd_skill": "REST / XML-RPC APIs",
+      "you_have": "General API work"
+    },
+    {
+      "jd_skill": "CAD / hardware product data",
+      "you_have": "PCB / hardware design"
+    },
+    {
+      "jd_skill": "IT infrastructure / system administration",
+      "you_have": "Linux / systemd services"
+    }
+  ],
+  "missing_skills": [
+    "SOLIDWORKS PDM Professional administration",
+    "CAD / product data management (part numbering, templates, data cards, workflows)",
+    "PDM / PLM system administration (vault, archive, replication, backup, licenses)",
+    "Engineering release / change control (ECR/ECO, effectivity, revision control)",
+    "ERP / MRP manufacturing data (Odoo, item masters, routings, BOM release)",
+    "Manufacturing systems (MES, quality management, serialized traceability)",
+    "Configuration control for production-scale fleets",
+    "C# / .NET / SQL development",
+    "5+ years PDM / PLM / manufacturing systems experience",
+    "Deep hands-on CAD / SOLIDWORKS environment experience"
+  ],
+  "top_ats_keywords": [
+    "PLM",
+    "PDM",
+    "SOLIDWORKS",
+    "PDM Professional",
+    "CAD",
+    "manufacturing",
+    "engineering release",
+    "ECR",
+    "ECO",
+    "BOM",
+    "ERP",
+    "MRP",
+    "Odoo",
+    "MES",
+    "eQMS",
+    "serialized traceability",
+    "configuration control",
+    "Dispatch",
+    "scripting",
+    "Python",
+    "C#",
+    ".NET",
+    "SQL",
+    "REST API",
+    "XML-RPC",
+    "hardware",
+    "production",
+    "vault",
+    "archive",
+    "database",
+    "replication",
+    "backup",
+    "license",
+    "data cards",
+    "workflows",
+    "revision control",
+    "item masters",
+    "routings",
+    "engineering BOM"
+  ],
+  "required_skills": [
+    "SOLIDWORKS PDM Professional administration (archive, database, vault config, replication, backup/restore, upgrades, licenses)",
+    "Engineering release / change control process design (ECR/ECO, released-state protection, effectivity, revision control)",
+    "CAD / product data governance (part numbering, file naming, templates, data cards, workflows, state-driven permissions)",
+    "ERP/MRP manufacturing data (item masters, BOMs, routings, engineering BOM handoff)",
+    "Scripting / light development for integrations (Python / C#/.NET / SQL / REST / XML-RPC APIs)",
+    "Hands-on work with engineers and production staff translating process requirements into system config",
+    "Manufacturing / production systems knowledge (MES, quality management, serialized traceability, configuration control)"
+  ],
+  "preferred_skills": [
+    "Odoo (ERP/MRP) experience or integration",
+    "MES or eQMS deployment / evaluation",
+    "Background in rail / aerospace / automotive (serialized traceability, config control)",
+    "SOLIDWORKS Manage / PDM-to-PLM migration",
+    "IT infrastructure (SSO, Windows Server, virtualization, backup, license management)",
+    "Startup / small-team experience building process and documentation from scratch"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own administration of SOLIDWORKS PDM Professional environment",
+    "Design engineering release / change control and data governance standards",
+    "Maintain PDM-to-Odoo integration for BOM/revision/drawing handoff",
+    "Automate administration and data movement via Dispatch / scripting / APIs",
+    "Evaluate and deploy additional production systems (MES, quality, traceability) as production scales"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "company": "Micron Technology",
+    "role": "New College Grad - Embedded Firmware Engineer",
+    "company_slug": "micron",
+    "job_slug": "embedded-firmware-ncg"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands on experience writing bare metal C and C++ firmware at the register level, including GPIO, ADC, timers, and I2C on STM32 microcontrollers, and designing the PCBs that firmware runs on in EAGLE. Comfortable working across the full stack of a physical system, from sensor interfacing over UART and I2C to the mechanical and electrical integration around it, and has led cross discipline hardware teams from schematic to working prototype. Proficient in Linux and Python, with experience building lab tooling for real time data acquisition.",
+  "skills": {
+    "Embedded & Firmware": ["STM32 (Bare-Metal C)", "GPIO", "I2C", "UART", "ADC", "PWM", "Timers & Interrupts", "FreeRTOS", "EAGLE PCB Design", "Proteus"],
+    "Languages & Tools": ["C/C++", "Python", "Bash", "Linux", "Git", "CMake"],
+    "Hardware Platforms": ["Raspberry Pi", "NVIDIA Jetson", "Arduino", "Bluetooth (BLE/Classic)"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member cross-discipline robotics team spanning mechanical, electrical, and software engineering, owning PCB fabrication and hardware integration end-to-end."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1) on a Cortex-M4 microcontroller with no HAL or RTOS abstraction, achieving 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver for real-time temperature sensing; verified timing behavior in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to an STM32 microcontroller over UART for multi-servo PWM control.",
+        "Implemented interrupt-driven UART command handling with user override, and integrated FreeRTOS with mutexes for shared-memory task coordination across sensing and control tasks.",
+        "Integrated VL53L0X time-of-flight sensing over I2C with OLED distance visualization for closed-loop range feedback."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system across a mobile client, edge server, and a Jetson and Arduino hardware controller.",
+        "Resolved 11 hardware and software integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability across 10 of 10 trials.",
+        "Implemented two-link inverse kinematics on Arduino in C++, driving five servos with range-gated contact detection over an I2C multiplexer."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,151 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Firmware Engineer - Actuation",
+  "job_slug": "firmware-engineer-actuation",
+  "match_pct": 41.1,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 7,
+    "missing_count": 13,
+    "jd_ask_size": 28,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Git",
+    "Hard real-time embedded firmware",
+    "Oscilloscopes / Logic analyzers",
+    "SPI / UART / I2C embedded protocols",
+    "Robotics / actuator systems / servo control",
+    "PWM / closed-loop motor control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "System identification / controller tuning",
+      "you_have": "Closed-loop feedback, kinematic modeling, angle-weighted joystick mixing"
+    },
+    {
+      "jd_skill": "Electrical schematics / hardware datasheets interpretation",
+      "you_have": "EAGLE PCB design and PCB fabrication"
+    },
+    {
+      "jd_skill": "Field deployment / telemetry / diagnostics",
+      "you_have": "Systemd service deployment with auto-restart and static IP networking"
+    },
+    {
+      "jd_skill": "Fault detection and recovery",
+      "you_have": "Fail-safe state machine for actuator halt"
+    },
+    {
+      "jd_skill": "Encoder / current sensing / gate drivers",
+      "you_have": "Quadrature encoders, PWM motor control"
+    },
+    {
+      "jd_skill": "RS485 / CAN",
+      "you_have": "UART/I2C/SPI protocols"
+    },
+    {
+      "jd_skill": "Humanoid / high-performance servo experience",
+      "you_have": "Robotics arm, humanoid-adjacent actuator work"
+    }
+  ],
+  "missing_skills": [
+    "EtherCAT",
+    "FOC (field-oriented control) specifically for BLDC",
+    "BLDC / brushless motor topology experience",
+    "Docker",
+    "CAN protocol",
+    "RS485 protocol",
+    "TI C2000 microcontrollers",
+    "MISRA C",
+    "ISO 26262",
+    "MATLAB / Simulink",
+    "Telemetry / diagnostics / root-cause analysis at production scale",
+    "HIL / SIL testing strategy experience",
+    "Explicit production-grade embedded software with 3+ years industry deployment"
+  ],
+  "top_ats_keywords": [
+    "Firmware Engineer",
+    "Actuation",
+    "Motor control",
+    "FOC",
+    "BLDC",
+    "Brushless",
+    "Embedded",
+    "Real-time",
+    "EtherCAT",
+    "C/C++",
+    "Python",
+    "Oscilloscope",
+    "Logic analyzer",
+    "SPI",
+    "UART",
+    "CAN",
+    "System identification",
+    "Controller tuning",
+    "HIL",
+    "SIL",
+    "Telemetry"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Git",
+    "Motor control firmware (FOC, current/torque) for BLDC/brushless motors",
+    "Hard real-time embedded firmware (production)",
+    "Firmware field deployment / telemetry / diagnostics",
+    "EtherCAT",
+    "Hardware debugging (oscilloscopes, logic analyzers)",
+    "Electrical schematics / hardware datasheets interpretation",
+    "Embedded communication protocols (SPI, UART, RS485, CAN)",
+    "Fault detection and recovery for motor control",
+    "System identification / controller tuning"
+  ],
+  "preferred_skills": [
+    "Humanoid / industrial robotics experience",
+    "Classical / modern control theory",
+    "TI C2000 microcontrollers",
+    "MISRA C / ISO 26262",
+    "MATLAB / Simulink",
+    "Encoder / current sensing / gate driver ICs (DRV8353)",
+    "Firmware tooling / build systems / developer infrastructure"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Collaborate on humanoid actuator architecture",
+    "Develop/deploy BLDC motor control firmware (FOC, current, torque)",
+    "System identification and controller tuning",
+    "HIL/SIL testing strategy",
+    "Design fault detection/recovery for motor control",
+    "Own firmware quality/reliability for production fleets",
+    "Hardware bring-up prototype to production",
+    "Code/design reviews and architectural direction"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

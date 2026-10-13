@@ -1,0 +1,110 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Scientist \u2013 Neural 3D Objects",
+  "job_slug": "research-scientist-neural-3d-objects",
+  "match_pct": 23.1,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 9,
+    "jd_ask_size": 13,
+    "req_cov": 0.5,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Deep-learning model design and training in Python / PyTorch",
+    "Fast Python prototyping and vision pipelines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "3D / spatial-reconstruction domain",
+      "you_have": "2D-to-3D vision and robot perception (not mesh/reconstruction)"
+    },
+    {
+      "jd_skill": "Robotics / embodied-AI interaction context",
+      "you_have": "ROS2 robotics and embedded manipulation systems"
+    }
+  ],
+  "missing_skills": [
+    "Neural implicit / explicit 3D representation",
+    "4D / dynamic-scene reconstruction",
+    "Generative 3D (diffusion / feed-forward 3D)",
+    "Structure-from-motion / multi-view geometry / meshes / differentiable rendering",
+    "Generative-3D toolkits and mesh processing (Open3D, trimesh)",
+    "Physics simulation and rigging",
+    "Hand-object interaction research / publications",
+    "Publications at top vision / graphics venues",
+    "3D deep-learning engineering (neural 3D, NeRF, Gaussian splatting)"
+  ],
+  "top_ats_keywords": [
+    "Neural 3D",
+    "3D reconstruction",
+    "generative 3D",
+    "differentiable rendering",
+    "NeRF",
+    "Gaussian splatting",
+    "physics simulation",
+    "mesh processing",
+    "Open3D",
+    "trimesh",
+    "Python",
+    "PyTorch",
+    "egocentric video",
+    "occlusion",
+    "deformable objects",
+    "hand-object interaction",
+    "research prototypes",
+    "monocular video",
+    "multi-view geometry"
+  ],
+  "required_skills": [
+    "Neural implicit / explicit 3D, 4D reconstruction, or generative 3D",
+    "Deep-learning model design and training; read/reproduce frontier papers",
+    "3D geometry foundation (structure-from-motion / multi-view geometry, meshes, differentiable rendering)",
+    "Research taste: tractable decomposition of open problems",
+    "Engineering: fast Python / PyTorch prototyping on real data",
+    "3D and deep-learning foundation (prerequisite)"
+  ],
+  "preferred_skills": [
+    "Generative 3D (diffusion / feed-forward 3D-generation families)",
+    "Differentiable rendering, NeRF, or Gaussian splatting",
+    "4D / dynamic-scene reconstruction from video",
+    "Physics simulation and rigging \u2014 simulatable assets",
+    "Hand-object interaction",
+    "Publications at top vision or graphics venues"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Neural 3D reconstruction from monocular / egocentric video (sequential, multi-view, robust to occlusion/low resolution)",
+    "Generative refinement to complete/clean partial reconstructions while rejecting hallucinated geometry",
+    "Move toward simulatable objects: geometry + physical properties + rigging",
+    "Contact-aware reconstruction: use hand contact to constrain object shape and pose",
+    "Handle deformable objects and prototype/handoff to integrations researcher"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

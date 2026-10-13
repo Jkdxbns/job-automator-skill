@@ -1,0 +1,87 @@
+{
+  "_meta": { "company": "NXP Semiconductors", "role": "Entry Level - Systems & Applications Engineer", "company_slug": "nxp", "job_slug": "entry-level-systems-applications-engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on embedded Systems on Chip experience across ARM Cortex architecture microcontrollers, writing bare-metal firmware in the C programming language and using software debugging tools to view and program processor registers. Built and documented real-time firmware and device drivers for sensor-driven control systems, producing technical writing and documentation throughout. Comfortable across the full board bring-up cycle: PCB reference design, device drivers, and hardware/software integration testing.",
+  "skills": {
+    "Embedded Systems": ["ARM Cortex-M", "STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "Bluetooth (BLE/Classic)", "EAGLE PCB Design", "OpenGL"],
+    "Languages": ["C/C++", "Python"],
+    "Linux": ["Linux", "systemd service management", "Static IP / network configuration", "XRDP remote desktop administration"],
+    "Tools": ["Oscilloscopes"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition device integrating an ADXL345 accelerometer and HC-05 Bluetooth device driver with a Raspberry Pi, translating 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and register-level resolution tuning.",
+        "Produced full technical documentation and a bill of materials for a Mixed Reality headset concept using AI-based real-time chroma keying."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCB reference designs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback during board bring-up.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and embedded systems integration end-to-end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed ARM Cortex-M4 peripherals directly via processor registers in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate, verified with an oscilloscope for register-level debugging.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C device driver for real-time temperature sensing and display."
+      ]
+    },
+    {
+      "name": "Frame Simulator — Desktop 3D Coordinate-Frame Visualizer",
+      "date": "Oct 2025",
+      "bullets": [
+        "Built a PySide6/Qt desktop GUI with an OpenGL-backed 3D viewport to visualize coordinate-frame hierarchies, parent-child transform chains, and SE(3) poses in real time."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed a Jetson-based embedded Linux service as a systemd unit (auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable device registration.",
+        "Configured XRDP remote desktop administration for headless Linux system management."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": ["Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop — Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

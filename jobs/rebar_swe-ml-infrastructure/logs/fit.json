@@ -1,0 +1,138 @@
+{
+  "company": "Rebar",
+  "company_slug": "rebar",
+  "role": "Software Engineer, ML Infrastructure (Senior ML Infrastructure Engineer)",
+  "job_slug": "swe-ml-infrastructure",
+  "match_pct": 37.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 2,
+    "missing_count": 16,
+    "jd_ask_size": 27,
+    "req_cov": 0.605,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "CUDA",
+    "GPU",
+    "quantization",
+    "TensorRT",
+    "ONNX",
+    "detection",
+    "segmentation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "torch.compile",
+      "you_have": "TorchScript"
+    },
+    {
+      "jd_skill": "cloud infrastructure (AWS)",
+      "you_have": "SLURM-managed HPC cluster ops"
+    }
+  ],
+  "missing_skills": [
+    "AWS",
+    "production backend systems (6+ yrs)",
+    "internal developer platforms",
+    "model registry / model zoo governance",
+    "DataDog",
+    "Modal",
+    "W&B",
+    "MLflow",
+    "feature stores",
+    "Temporal",
+    "Prefect",
+    "Airflow",
+    "Backstage-style internal developer portal",
+    "LLM/VLM inference at production scale",
+    "mixed precision production optimization",
+    "batching (production serving)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "AWS",
+    "GPU inference",
+    "TensorRT",
+    "ONNX Runtime",
+    "model registry",
+    "DataDog",
+    "Modal",
+    "torch.compile",
+    "quantization"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "AWS",
+    "cloud infrastructure",
+    "GPU inference optimization",
+    "production backend systems",
+    "internal developer platforms",
+    "model registry",
+    "model zoo governance",
+    "batching",
+    "mixed precision",
+    "quantization",
+    "ONNX Runtime",
+    "TensorRT",
+    "torch.compile",
+    "LLM/VLM inference at scale",
+    "detection",
+    "segmentation",
+    "recognition"
+  ],
+  "preferred_skills": [
+    "W&B",
+    "MLflow",
+    "feature stores",
+    "Temporal",
+    "Prefect",
+    "Apache Airflow",
+    "Backstage",
+    "internal developer portal",
+    "Lambda Labs",
+    "CoreWeave",
+    "RunPod",
+    "DataDog",
+    "Modal",
+    "deployment monitoring pipelines"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "own ML infrastructure platform",
+    "feature pipelines, training infra, evaluation, deployment, monitoring",
+    "GPU performance / MFU",
+    "model registry and governance",
+    "GPU inference infra consolidation",
+    "DataDog/Modal observability",
+    "developer-facing APIs/SDKs"
+  ],
+  "role_category": "ml_systems",
+  "location": "New York City, NY (Flatiron)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

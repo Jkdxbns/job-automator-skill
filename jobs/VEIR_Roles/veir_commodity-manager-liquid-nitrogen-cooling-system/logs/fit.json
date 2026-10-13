@@ -1,0 +1,117 @@
+{
+  "company": "VEIR",
+  "company_slug": "veir",
+  "role": "Commodity Manager - Liquid Nitrogen Cooling System",
+  "job_slug": "commodity-manager-liquid-nitrogen-cooling-system",
+  "match_pct": 7.1,
+  "score_detail": {
+    "have_count": 0,
+    "adjacent_count": 2,
+    "missing_count": 12,
+    "jd_ask_size": 14,
+    "req_cov": 0.125,
+    "cap_applied": "zero_have+low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [],
+  "adjacent_skills": [
+    {
+      "jd_skill": "technical engineering background (cryo/mech/chem preferred)",
+      "you_have": "Embedded C / C++ hardware (STM32 Cortex-M4 bare-metal, ROS2, PCB / EAGLE)"
+    },
+    {
+      "jd_skill": "hardware / manufacturing environment",
+      "you_have": "Embedded systems / robotics hardware experience"
+    }
+  ],
+  "missing_skills": [
+    "commodity management / strategic sourcing",
+    "supplier development / qualification / audits",
+    "RFQ / RFI development with engineering",
+    "PPAP (Production Part Approval Process)",
+    "multi-sourcing strategy",
+    "supplier agreement negotiation",
+    "process validation / run-at-rate studies",
+    "NPI stage-gate sourcing deliverables",
+    "cryogenics / liquid nitrogen domain knowledge",
+    "fabricator / contract manufacturer management",
+    "5+ years supply-chain / sourcing experience (candidate: 0 years full-time, new grad M.S. May 2026)",
+    "production-scale commodity ownership"
+  ],
+  "top_ats_keywords": [
+    "commodity management",
+    "strategic sourcing",
+    "supplier management",
+    "supplier qualification",
+    "RFQ",
+    "RFI",
+    "PPAP",
+    "multi-sourcing",
+    "supplier audits",
+    "process validation",
+    "NPI",
+    "stage-gate",
+    "supplier agreements",
+    "negotiation",
+    "fabricators",
+    "contract manufacturers",
+    "cryogenics",
+    "liquid nitrogen",
+    "LIN",
+    "hard tech",
+    "manufacturing",
+    "hardware"
+  ],
+  "required_skills": [
+    "supply chain / commodity management",
+    "strategic sourcing",
+    "supplier development",
+    "supplier qualification / audits",
+    "RFQ / RFI development",
+    "PPAP (Production Part Approval Process)",
+    "multi-sourcing strategy",
+    "supplier agreement negotiation",
+    "process validation / run-at-rate",
+    "NPI stage-gate process",
+    "technical engineering background (cryo/mech/chem preferred)",
+    "hardware / hard tech manufacturing"
+  ],
+  "preferred_skills": [
+    "cryogenics experience",
+    "fabricator / contract manufacturer experience",
+    "startup / scale-up experience",
+    "willingness to travel for supplier audits"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Own sourcing / supplier base for LIN Cooling System (pumps, skids, vessels, cryogenic components)",
+    "Reduce long lead times via multi-sourcing and supplier development",
+    "Own sourcing deliverables through NPI stage-gate (RFI/RFQ, supplier audits, PPAP, process validation)",
+    "Negotiate supplier agreements, pricing, commercial terms",
+    "Build supplier scorecards and multi-year sourcing roadmap"
+  ],
+  "role_category": "other",
+  "location": "Woburn, Massachusetts, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

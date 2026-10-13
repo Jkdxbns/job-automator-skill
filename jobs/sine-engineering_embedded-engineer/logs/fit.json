@@ -1,0 +1,140 @@
+{
+  "company": "Sine Engineering",
+  "company_slug": "sine-engineering",
+  "role": "Embedded Engineer",
+  "job_slug": "embedded-engineer",
+  "match_pct": 63.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 15,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "bare-metal",
+    "microcontrollers",
+    "SPI",
+    "I2C",
+    "UART",
+    "real-time embedded",
+    "debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "circuit schematics",
+      "you_have": "EAGLE PCB Design"
+    },
+    {
+      "jd_skill": "TCP/IP",
+      "you_have": "Static IP / network configuration, WebSocket"
+    },
+    {
+      "jd_skill": "ARM assembly",
+      "you_have": "Cortex-M4 bare-metal C"
+    }
+  ],
+  "missing_skills": [
+    "cryptography",
+    "UDP",
+    "RTP",
+    "RF circuit design"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "bare-metal",
+    "microcontroller",
+    "SPI",
+    "I2C",
+    "UART",
+    "schematics",
+    "TCP/IP",
+    "UDP",
+    "RTP",
+    "cryptography",
+    "ARM assembly",
+    "RF"
+  ],
+  "required_skills": [
+    "C/C++",
+    "bare-metal",
+    "microcontrollers",
+    "SPI",
+    "I2C",
+    "UART",
+    "circuit schematics",
+    "real-time embedded",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "cryptography",
+    "TCP/IP",
+    "UDP",
+    "RTP",
+    "RF circuit design",
+    "ARM assembly"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "real-time embedded software",
+    "hardware integration",
+    "optimization"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Tampere, Finland (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4 with interrupt-driven UART and multi-servo PWM",
+      "UART and I2C sensor links on custom EAGLE-designed PCBs with closed-loop feedback",
+      "Jetson to STM32 UART command path integrating ML inference into a real-time pipeline",
+      "Bench debug tooling: oscilloscopes, logic analyzers, multimeters"
+    ],
+    "real_gaps": [
+      "No cryptography or cybersecurity work anywhere in the profile",
+      "No UDP or RTP, and TCP/IP only at configuration level",
+      "No RF design and no ARM assembly",
+      "Schematic reading is backed only by own PCB work, not third-party schematics",
+      "Drone comms, navigation and control stack is not evidenced beyond the COFFIN drone project"
+    ],
+    "overstated_by_keywords": [
+      "TCP/IP counted Adjacent from static IP config; no socket-level embedded networking built yet"
+    ],
+    "understated_by_keywords": [
+      "Drone flight-controller work on ChibiOS may demonstrate real-time control relevant to this role"
+    ],
+    "screening_gaps": [
+      "5+ years professional experience required, 0 full-time",
+      "No cryptography or network protocol (UDP/RTP) depth",
+      "On-site in Finland requires employer work permit; the all-preferred-skills set (RF, ARM assembly, crypto) is also unevidenced"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core required stack (C/C++, bare-metal, SPI/I2C/UART, debugging) is genuinely backed by STM32 work. The preferred list is almost entirely unevidenced, and the 5-year bar is the real screen-out risk.",
+    "calibration_delta": 5.3
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,59 @@
+{
+  "company": "XP Power",
+  "company_slug": "xppower",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer-irvine",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 12,
+    "jd_ask_size": 28,
+    "req_cov": 0.46,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "production_scope_required": true,
+  "have_skills": [
+    "ST microcontrollers (STM32)", "embedded debugging", "PWM", "ADC",
+    "DSP / signal processing algorithms", "I2C", "SPI", "TCP/IP", "WebSocket",
+    "FreeRTOS", "oscilloscopes / multimeters", "hardware schematics & datasheets"
+  ],
+  "adjacent_skills": [
+    "GUI (has PyQt/Flask/Flutter, not C#/.NET)",
+    "digital filter (has DSP coursework, not power-electronics filter design)",
+    "SVN (has Git, not SVN specifically)",
+    "analog/digital circuitry (has PCB design in EAGLE/Proteus, not power circuit analog design)"
+  ],
+  "missing_skills": [
+    "C# (Microsoft C#/.NET GUI development)",
+    "Microchip microcontrollers",
+    "TI microcontrollers",
+    "DSP chips (TI/Microchip DSP hardware)",
+    "RS-485",
+    "PMBus",
+    "Modbus",
+    "Ethernet stack",
+    "LWIP stack",
+    "MISRA coding standard",
+    "IEC62304",
+    "power supply topologies / switching mode power supply (SMPS)"
+  ],
+  "top_ats_keywords": ["C#", "PMBus", "Modbus", "RS-485", "power supply topologies", "PWM", "ADC", "I2C", "SPI", "FreeRTOS"],
+  "key_responsibilities": [
+    "Firmware development, verification, and auto test programs for switching mode power supplies",
+    "Firmware architecture for wired and wireless networks",
+    "Digital control firmware for power conversion systems (PWM, ADC, digital filters)",
+    "Communication stack drivers (I2C, SPI, RS-485, PMBus, Modbus, Ethernet)",
+    "Coaching junior firmware engineers, technical direction to the team",
+    "Factory/manufacturing support for BETA runs and production"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No",
+    "apply_before_semantic": "No",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": null
+}

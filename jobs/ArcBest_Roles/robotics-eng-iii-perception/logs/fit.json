@@ -1,0 +1,168 @@
+{
+  "company": "ArcBest",
+  "company_slug": "arcbest",
+  "role": "Robotics Engineer III - Perception - FS/BOS",
+  "job_slug": "robotics-engineer-iii-perception",
+  "match_pct": 59.1,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 7,
+    "missing_count": 10,
+    "jd_ask_size": 33,
+    "req_cov": 0.714,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++ (Languages & Systems; CUDA Kernel Optimization for VGG16 project; STM32 Bare-Metal; Embedded skills)",
+    "Python (Languages & Systems; used in 11 of 14 listed projects)",
+    "CUDA / CUDA C++ (Languages & Systems; HPC/Parallel skills; CUDA Kernel Optimization project, 1.5-2x speedup)",
+    "ROS2 / ROS (Robotics & Perception skills; Voice-Controlled Robotic Arm capstone; ROS-Based Robotic Arm with MoveIt/RViz; ROS2 Humble)",
+    "Computer vision / image processing (Edge AI / CV skills; YOLO in Object Tracking Turret, Voice-Controlled Arm, Autonomous Driving in CARLA; OpenCV skills)",
+    "Object detection / YOLO (Edge AI / CV skills; Voice-Controlled Arm 5.2x speedup, 92 FPS; Autonomous Driving YOLO11n mAP50~0.85; Object Tracking Turret)",
+    "Real-world CV deployment (Voice-Controlled Robotic Arm deployed on Jetson+Arduino with faster-whisper, Gemini, TensorRT-optimized YOLO; 100% pick reliability)",
+    "Embedded / low-latency / GPU-accelerated (Embedded skills STM32/Jetson/Arduino; Voice-Controlled Arm TensorRT optimization; CUDA Kernel Optimization)",
+    "PyTorch (ML/Deep Learning skills; SLM Compression with bitsandbytes; QAT for MNIST; GPT-2 from scratch; used in 10+ projects)",
+    "OpenCV (Edge AI / CV skills; multiple vision projects)",
+    "NumPy (ML/Deep Learning skills)",
+    "Fast prototype iteration / rapid development (evidenced across 14 real projects including ASR, QAT, CUDA kernels, robot simulation)",
+    "Multi-camera / multi-sensor perception (Voice-Controlled Arm: dual VL53L0X ToF via TCA9548A I2C mux; visual servoing; robot arm vision-guided pick-and-place)",
+    "Robot perception / kinematics / control (Robotics & Perception skills: DH tables, forward kinematics, visual servoing, MoveIt, RViz, dead reckoning, odometry)",
+    "Embedded hardware / microcontrollers (Embedded skills: STM32 bare-metal C, FreeRTOS, Jetson, Arduino, PWM, I2C/SPI/UART, quadrature encoders)",
+    "Prototype data pipelines (Voice-Controlled Arm LeRobot-structured data collection with multiprocessing multi-camera capture)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "4 years production C++/Python",
+      "you_have": "C/C++ and Python strong at project/internship depth (CUDA Kernel, STM32 bare-metal, 14 verified projects, 7 internships), but 0 full-time production years \u2014 MS just completed May 2026"
+    },
+    {
+      "jd_skill": "Large-scale vision datasets",
+      "you_have": "Benchmarked/evaluated on standard ML datasets (HellaSwag, GSM8K, ARC, MNIST, NPTEL 2020) and built custom YOLO training data for CARLA/autonomous driving; no evidence of production-scale vision dataset curation/mining at organizational scale"
+    },
+    {
+      "jd_skill": "AMRs (Autonomous Mobile Robots)",
+      "you_have": "Autonomous Driving in CARLA (lane-following, collision-free), ROS robotic arm trajectory planning, frame simulator \u2014 robotics/perception experience but not specifically AMR platform experience"
+    },
+    {
+      "jd_skill": "Docker / containerization (required)",
+      "you_have": "Linux administration (systemd, networking, XRDP, environment secrets) listed in Tools; no Docker, Kubernetes, or containerization experience documented \u2014 explicitly not in background"
+    },
+    {
+      "jd_skill": "GitHub / production version control at scale",
+      "you_have": "Git listed in Tools; multiple collaborative/project repos implied, but no documented production GitHub workflow (PRs, CI, large-repo collaboration) specifically named"
+    },
+    {
+      "jd_skill": "GStreamer / networking (plus)",
+      "you_have": "WebSocket-based edge-server (Flask-SocketIO), UART/I2C/SPI communication, BLE, networking basics \u2014 related embedded/networking exposure but not GStreamer or production networking pipelines"
+    },
+    {
+      "jd_skill": "Segmentation / data augmentation (preferred)",
+      "you_have": "Object detection / YOLO experience present; segmentation mentioned in CARLA (semantic segmentation data generation) \u2014 partial; data augmentation not specifically documented"
+    }
+  ],
+  "missing_skills": [
+    "4 years of production C++ and Python coding (candidate: new-grad MS May 2026, 0 full-time years, 7 internships \u2014 strong project-level evidence but not 4-year production-level)",
+    "Experience leading large-scale technical projects at production scale (candidate projects are capstone/research/internship scope, not org-scale production ownership)",
+    "Production Docker / containerization experience (explicitly not in candidate background)",
+    "Large-scale production vision dataset experience (mining, curation, labeling at organizational scale \u2014 not evidenced)",
+    "AMR (autonomous mobile robot) platform experience (related autonomous-driving / robotics work present, but not AMR-specific)",
+    "Cloud computing / databases / storage production experience (explicitly not in background)",
+    "GStreamer experience (not in background)",
+    "Mentoring / leading junior engineers (candidate is new-grad, no management/lead experience in profile)",
+    "Agile / CI at production team scale (Git mentioned but no CI/CI-CD production experience \u2014 explicitly excluded)",
+    "Startup-ready production engineering mentality at senior-level (profile is research/capstone scope, not multi-year production robotics engineering)"
+  ],
+  "top_ats_keywords": [
+    "Robotics Engineer III",
+    "Perception",
+    "C++",
+    "Python",
+    "ROS2",
+    "Docker",
+    "GitHub",
+    "CV",
+    "ML",
+    "computer vision",
+    "image processing",
+    "multi-sensor",
+    "camera",
+    "lidar",
+    "PyTorch",
+    "OpenCV",
+    "NumPy",
+    "deployment",
+    "embedded",
+    "low latency",
+    "GPU",
+    "CUDA",
+    "segmentation",
+    "object detection",
+    "data augmentation",
+    "AMR",
+    "vision datasets",
+    "lead",
+    "mentor"
+  ],
+  "required_skills": [
+    "C++ production coding (4+ years)",
+    "Python production coding (4+ years)",
+    "Computer vision / image processing",
+    "Multi-sensor imaging (camera, 3D/2D lidar)",
+    "Real-world CV/ML model deployment",
+    "Strong software engineering (design, containerization, testing, debugging)",
+    "ROS2",
+    "PyTorch",
+    "OpenCV",
+    "NumPy",
+    "Fast prototype iteration",
+    "Experience with AMRs",
+    "GitHub",
+    "Large-scale vision datasets"
+  ],
+  "preferred_skills": [
+    "Segmentation",
+    "Object detection",
+    "Data augmentation",
+    "Cloud computing / databases / storage",
+    "GStreamer / networking",
+    "CUDA"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Architect full-stack vision solutions",
+    "Investigate novel CV approaches",
+    "Leverage real-world video/sensor data for mining, curation, labeling, training, evaluation",
+    "Enhance CV training sets",
+    "Optimize models for low latency on embedded hardware",
+    "GPU-accelerated applications",
+    "Models/data pipelines/active learning driven by customer demands",
+    "Lead/mentor junior engineers",
+    "Agile/CI"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Fort Smith, AR / Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

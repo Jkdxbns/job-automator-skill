@@ -1,0 +1,75 @@
+{
+  "company": "Electric Hydrogen",
+  "company_slug": "electric-hydrogen",
+  "role": "Embedded Firmware Engineer",
+  "job_slug": "embedded-firmware-engineer",
+  "match_pct": 74.0,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 7,
+    "missing_count": 3,
+    "jd_ask_size": 25,
+    "req_cov": 0.773,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": ["Embedded C", "Real-time/low-latency firmware", "Device drivers", "Embedded dev tools (compilers, debuggers, IDEs)", "Git", "ADC", "GPIO", "PWM", "UART", "SPI", "I2C", "Oscilloscopes", "Logic analyzers", "Code optimization", "Linux"],
+  "adjacent_skills": ["Board bring-up -> PCB design/fab in EAGLE, dev-board firmware", "Jira -> GitLab issue tracking", "Ethernet -> TCP/WebSocket networking", "Control algorithms -> IK, visual servoing, closed-loop sensor feedback", "Comms protocol design -> three-layer WebSocket fabric (COFFIN)", "Technical documentation -> claims docs/BOM, JupyterHub docs", "Automated build systems -> CMake"],
+  "missing_skills": ["CAN", "Modbus", "Power electronics control loops"],
+  "top_ats_keywords": ["embedded C", "real-time firmware", "low-latency", "board bring-up", "device drivers", "ADC", "GPIO", "PWM", "UART", "SPI", "I2C", "CAN", "Modbus", "Ethernet", "oscilloscope", "logic analyzer", "control algorithms", "power electronics", "Git", "Jira", "Linux", "build systems", "debugging", "code optimization"],
+  "key_responsibilities": [
+    "Develop and debug low-level, real-time, low-latency firmware in C",
+    "Board bring-up, debugging, testing, code optimization",
+    "Develop and maintain device drivers and hardware interfaces",
+    "Implement control algorithms for power electronics and auxiliary electronics",
+    "Design and implement protocols for system communications",
+    "Troubleshoot firmware/hardware with oscilloscopes and logic analyzers",
+    "Write and maintain software specifications and technical documentation"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 61,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal peripheral driver work is concretely backed: STM32 Cortex-M4 temperature monitor programmed directly at register level (GPIO, TIM2, ADC1, I2C1) with timer-triggered ADC scan conversion, interrupt-driven capture, and a hand-written low-level I2C driver at a deterministic 1 Hz.",
+      "Real-time embedded C under latency constraints: Object Tracking Turret runs multi-servo PWM with interrupt-driven UART command handling and RTOS task coordination via mutexes.",
+      "Multi-sensor hardware interfacing at driver level: dual VL53L0X ToF over a TCA9548A I2C mux with a 25 mm range-gated contact trigger (COFFIN), ADXL345 accelerometer + HC-05 over Bluetooth (Planctech).",
+      "System communications design: three-layer distributed pipeline (Flutter client / Flask-SocketIO server / Jetson+Arduino controller) unified over a WebSocket fabric, with 11 integration failures debugged to 100% pick reliability.",
+      "Code optimization is a genuine strength, not a keyword: custom CUDA kernels with memory coalescing (35% over naive GPU), TensorRT 5.2x YOLO speedup, Cython tokenizer backend 4-5.5x.",
+      "Hardware-adjacent fabrication: designed and fabricated single-layer PCBs in EAGLE with UART/I2C sensor comms and closed-loop feedback."
+    ],
+    "real_gaps": [
+      "CAN: no exposure anywhere in the profile. This is the primary bus for the class of product being described.",
+      "Modbus: no exposure. Standard in industrial/power equipment.",
+      "Power electronics control loops: nothing in the profile touches converters, inverters, motor drives, or switching control. Robotics IK and visual servoing are a different kind of control and do not transfer.",
+      "Board bring-up of new custom hardware: all firmware work is on dev boards (STM32 Nucleo, Arduino, Jetson, Raspberry Pi) or in Proteus simulation. No evidence of bringing up a fresh PCB from power-on.",
+      "Embedded Ethernet: TCP/WebSocket work is at application level on Linux, not a MAC/PHY or lwIP stack on an MCU.",
+      "Jira: only GitLab is in the profile.",
+      "Seniority note (not scored here): the JD frames 3+ years as mid-level and explicitly opens the door to junior candidates on strong project experience, which is the band this profile sits in."
+    ],
+    "overstated_by_keywords": [
+      "Oscilloscopes and logic analyzers appear in the skills list but no experience or project bullet describes using them to debug a firmware/hardware interaction. The JD makes this a named responsibility.",
+      "STM32 and FreeRTOS: the strongest STM32 artifact was verified in Proteus rather than on hardware, and the RTOS claim rests on one project. Both are known depth-probe weak points.",
+      "'Real-time' in the COFFIN capstone is soft real time (11.5s end-to-end voice-to-pick), not the low-latency deterministic control the JD means."
+    ],
+    "understated_by_keywords": [
+      "Debugging integration failures across firmware/hardware boundaries (servo brown-out, stale-frame capture, false-positive detections) is exactly the troubleshooting the JD describes, and no keyword captures it.",
+      "Documentation is better evidenced than the keyword pass showed: claims documentation and BOM at Planctech, technical documentation via GitLab/JupyterHub at BARC."
+    ],
+    "screening_gaps": [
+      "No CAN or Modbus experience, the two protocols the JD names by name for system communications",
+      "No power electronics control loop work of any kind, which is the core domain of the role",
+      "No board bring-up on custom hardware and no evidenced scope/logic-analyzer debugging, which is half of the day-to-day job"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The peripheral-driver and bare-metal C half of this role is genuinely backed by register-level STM32 work, interrupt-driven UART/PWM, and multi-sensor I2C driver code. The power electronics half is entirely unevidenced: no CAN, no Modbus, no converter or control loop work. The JD explicitly considers junior candidates on strong project experience, so it is worth applying, but expect the interview to probe control loops and bus experience where there is nothing to defend.",
+    "calibration_delta": 13.0
+  }
+}

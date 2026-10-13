@@ -1,0 +1,36 @@
+{
+  "company": "Mill",
+  "company_slug": "mill",
+  "role": "Computer Vision Engineer",
+  "job_slug": "computer-vision-engineer",
+  "match_pct": 70.6,
+  "missing_skills": [
+    "Agentic systems / agent frameworks",
+    "MLOps pipeline tooling (W&B, MLflow, SageMaker, ClearML)",
+    "Mass-estimation modeling",
+    "Annotation tooling / ground-truth workflow builds"
+  ],
+  "adjacent_skills": [
+    "Tracking (robot perception / visual servoing background, not object tracking specifically)",
+    "Product shipping experience (edge deployment research vs. sustained production ownership)"
+  ],
+  "top_ats_keywords": [
+    "Python", "PyTorch", "OpenCV", "segmentation", "classification", "mass estimation",
+    "VLMs", "LLMs", "foundation models", "agentic systems", "eval harness",
+    "MLOps", "edge models", "annotation tooling", "ground truth", "model lineage"
+  ],
+  "key_responsibilities": [
+    "Train and evaluate segmentation, classification, and mass-estimation models",
+    "Optimize edge models for production performance and operationalize the ML pipeline with model lineage tracking",
+    "Create and curate datasets per customer/vertical",
+    "Analyze failure cases systematically to close accuracy gaps",
+    "Build annotation tooling and ground-truth generation workflows including foundation-model-assisted labeling",
+    "Partner with MLOps and edge engineers on training practices, versioning, deployment tradeoffs"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": null
+}

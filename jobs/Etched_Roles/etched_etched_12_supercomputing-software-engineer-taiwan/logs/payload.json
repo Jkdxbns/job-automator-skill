@@ -1,0 +1,180 @@
+{
+ "jd": {
+  "company_name": "Etched",
+  "company_slug": "etched",
+  "job_title": "Supercomputing Software Engineer (Taiwan)",
+  "job_slug": "etched_12_supercomputing-software-engineer-taiwan",
+  "required_skills": [
+   "C/C++",
+   "Python",
+   "BIOS",
+   "BMC firmware",
+   "server boot processes",
+   "NetBoot",
+   "root of trust",
+   "security principles",
+   "Linux",
+   "server hardware",
+   "system logging",
+   "diagnostic tools",
+   "kernel-mode drivers",
+   "PCIe configurations",
+   "DRAM timing",
+   "data center orchestration",
+   "Kubernetes",
+   "Docker"
+  ],
+  "preferred_skills": [
+   "Rust",
+   "perf",
+   "eBPF",
+   "ftrace",
+   "gProf",
+   "vTune",
+   "Wireshark",
+   "CI/CD pipelines"
+  ],
+  "all_keywords": [
+   "C/C++",
+   "Python",
+   "BIOS",
+   "BMC",
+   "firmware",
+   "boot",
+   "NetBoot",
+   "root of trust",
+   "security",
+   "Linux",
+   "server hardware",
+   "DRAM",
+   "PCIe",
+   "power state",
+   "system logging",
+   "diagnostic",
+   "Kubernetes",
+   "Docker",
+   "orchestration",
+   "test plans",
+   "perf",
+   "eBPF",
+   "ftrace",
+   "gProf",
+   "vTune",
+   "Wireshark",
+   "CI/CD",
+   "Rust",
+   "kernel-mode driver"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "Taipei",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Integrate and maintain BIOS and BMC firmware",
+   "Analyze DRAM timings, PCIe configurations, power state transitions",
+   "Validate root-of-trust security features",
+   "Design system logging and diagnostic capabilities",
+   "Integrate Kubernetes/Docker node-level orchestration",
+   "Develop comprehensive test plans",
+   "Collaborate with hardware and software teams on system-level issues"
+  ],
+  "ats_keywords": [
+   "BIOS",
+   "BMC",
+   "firmware",
+   "boot",
+   "NetBoot",
+   "root of trust",
+   "security",
+   "Linux",
+   "DRAM",
+   "PCIe",
+   "kernel-mode driver",
+   "system logging",
+   "Kubernetes",
+   "Docker",
+   "C/C++",
+   "Python"
+  ],
+  "role_category": "embedded_systems"
+ },
+ "have": [
+  "C/C++",
+  "Python",
+  "Linux",
+  "system logging / diagnostics",
+  "embedded firmware / bare-metal C",
+  "test plans / validation",
+  "Git",
+  "hardware interfaces / UART/I2C/SPI"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "BIOS / BMC firmware",
+   "you_have": "embedded firmware (bare-metal C / STM32 / FreeRTOS)"
+  },
+  {
+   "jd_skill": "server boot processes / NetBoot",
+   "you_have": "embedded boot / initialization"
+  },
+  {
+   "jd_skill": "root of trust / security principles",
+   "you_have": "embedded security / access isolation"
+  },
+  {
+   "jd_skill": "DRAM timing / PCIe configurations",
+   "you_have": "embedded memory/peripheral interfaces"
+  },
+  {
+   "jd_skill": "data center orchestration (Kubernetes / Docker)",
+   "you_have": "node-level deployment and service management"
+  },
+  {
+   "jd_skill": "kernel-mode driver development",
+   "you_have": "low-level embedded drivers"
+  },
+  {
+   "jd_skill": "performance testing / benchmarking",
+   "you_have": "benchmarking and profiling"
+  },
+  {
+   "jd_skill": "tracing (perf / eBPF / ftrace)",
+   "you_have": "performance profiling"
+  },
+  {
+   "jd_skill": "Rust",
+   "you_have": "none"
+  }
+ ],
+ "missing": [
+  "BIOS architecture (deep, server-specific)",
+  "BMC firmware architecture (deep)",
+  "NetBoot",
+  "DRAM timing analysis",
+  "PCIe configuration/analysis",
+  "root-of-trust verification implementation",
+  "secure boot processes",
+  "advanced server-system logging (not embedded display)",
+  "Linux kernel-mode driver development",
+  "Kubernetes",
+  "Docker",
+  "Rust",
+  "perf / eBPF / ftrace",
+  "gProf / vTune / Wireshark",
+  "CI/CD pipelines (no mention in profile)"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": true
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

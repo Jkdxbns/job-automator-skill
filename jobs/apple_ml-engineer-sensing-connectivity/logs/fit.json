@@ -1,0 +1,134 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Machine Learning Engineer - Sensing & Connectivity",
+  "job_slug": "ml-engineer-sensing-connectivity",
+  "match_pct": 61.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 13,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Machine learning / deep learning model development",
+    "Distributed compute/storage models",
+    "Validation & tooling discipline for pipelines"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Time series data experience",
+      "you_have": "ASR pipelines / Digital Signal Processing / Random Signal Analysis"
+    },
+    {
+      "jd_skill": "Quantitative data science discipline (statistics/biostatistics/epidemiology/CS)",
+      "you_have": "M.S. Computer Engineering (CS-adjacent, not stats/biostat/epi)"
+    },
+    {
+      "jd_skill": "Large dataset computational/storage complexity awareness",
+      "you_have": "SLURM-managed cluster / quantization work, smaller scale"
+    },
+    {
+      "jd_skill": "Sensor fusion for health/fitness",
+      "you_have": "IMU sensor fusion (ADXL345) in robotics/embedded context, not health domain"
+    }
+  ],
+  "missing_skills": [
+    "Statistical hypothesis testing / applying statistical approaches",
+    "PhD or 5+ years quantitative data science experience",
+    "Health & fitness domain experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Machine Learning",
+    "Deep Learning",
+    "Time Series",
+    "Statistics",
+    "Data Science",
+    "Sensor Fusion",
+    "Distributed Compute"
+  ],
+  "required_skills": [
+    "Quantitative data science discipline (statistics/biostatistics/epidemiology/CS)",
+    "Machine learning / deep learning model development",
+    "Time series data experience",
+    "Python",
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "preferred_skills": [
+    "PhD or 5+ years quantitative data science experience",
+    "Statistical hypothesis testing / applying statistical approaches",
+    "Large dataset computational/storage complexity awareness",
+    "Distributed compute/storage models",
+    "Validation & tooling discipline for pipelines"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Scope, design and implement models for Health and Fitness algorithms",
+    "Validate algorithms with synthetic data flows and real datasets with generative AI",
+    "Coordinate with multi-disciplinary teams across software lifecycle",
+    "Ship features impacting millions of users"
+  ],
+  "role_category": "ml_systems",
+  "location": "Cupertino, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Wearable IMU gesture-recognition glove (ADXL345 accelerometer + Raspberry Pi, 3-DoF motion translation) is a direct analog to consumer motion-sensing/fitness hardware, not just an adjacent keyword match",
+      "Multi-sensor fusion depth: dual VL53L0X ToF + camera range-gating in COFFIN capstone, IMU+UART sensor fusion in Object Tracking Turret",
+      "Synthetic data pipeline generation experience (CARLA semantic-segmentation + raycast occlusion, zero manual annotation) maps to 'validating algorithms with synthetic data flows'",
+      "Strong PyTorch/TensorFlow-adjacent model development and evaluation track record across 10+ projects (quantization, benchmarking, accuracy/latency trade-offs)"
+    ],
+    "real_gaps": [
+      "No formal statistics/biostatistics/epidemiology coursework or applied hypothesis-testing work anywhere in the profile",
+      "Zero health/fitness domain experience \u2014 closest analog (BraTS medical MRI segmentation) is imaging, not physiological/motion time-series data",
+      "No demonstrated experience with distributed storage/compute at the scale implied by 'large datasets' beyond a SLURM cluster class project",
+      "No direct time-series modeling experience (ASR is sequence data but not framed as time-series statistics)"
+    ],
+    "overstated_by_keywords": [
+      "Distributed compute/storage models \u2014 counted HAVE from SLURM/MPI coursework projects, but those are HPC parallelism exercises, not production-scale data storage systems"
+    ],
+    "understated_by_keywords": [
+      "Wearable IMU sensor fusion (ADXL345 gesture glove) \u2014 keyword pass only caught 'wearable' and 'ADXL345' as loose terms, missed that this is a near-literal match for motion-sensing fitness hardware",
+      "Synthetic data generation pipeline (CARLA) \u2014 never keyword-matched against 'validating algorithms with synthetic data flows' in the JD"
+    ],
+    "screening_gaps": [
+      "No formal statistics/biostatistics/epidemiology background \u2014 the JD's stated minimum-qualification discipline, and the resume reads as CS/CE, not quantitative data science",
+      "No health & fitness domain experience \u2014 zero physiological or wearable-health datasets, only adjacent motion-sensing hardware work",
+      "No evidenced hypothesis-testing or formal statistical-inference methodology \u2014 projects show engineering benchmarking (speedup/accuracy), not statistical proof"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Real, non-keyword-matched depth exists in sensor fusion and synthetic data generation that maps closely to this role's mechanics, and the ML engineering fundamentals are solid. But the JD explicitly anchors on a quantitative data science discipline (stats/biostat/epi) and health domain grounding that this CS/CE-trained, embedded-and-robotics-focused profile does not evidence, so screening risk is real.",
+    "calibration_delta": 3.5
+  }
+}

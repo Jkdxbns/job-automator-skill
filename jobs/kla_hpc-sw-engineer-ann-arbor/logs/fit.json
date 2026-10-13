@@ -1,0 +1,130 @@
+{
+  "company": "KLA",
+  "company_slug": "kla",
+  "role": "High Performance Compute (HPC) Software Engineer \u2013 HPC SW Systems",
+  "job_slug": "hpc-sw-engineer-ann-arbor",
+  "match_pct": 47.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 5,
+    "missing_count": 10,
+    "jd_ask_size": 24,
+    "req_cov": 0.792,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "HPC",
+    "Linux",
+    "C++",
+    "MPI",
+    "CUDA",
+    "GPU",
+    "cluster",
+    "debugging",
+    "benchmarking"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multithreading",
+      "you_have": "RTOS/FreeRTOS concurrency"
+    },
+    {
+      "jd_skill": "memory hierarchies",
+      "you_have": "CUDA memory coalescing"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "static IP/network config on Jetson"
+    },
+    {
+      "jd_skill": "ROCm",
+      "you_have": "CUDA"
+    },
+    {
+      "jd_skill": "power monitoring",
+      "you_have": "pynvml profiling"
+    }
+  ],
+  "missing_skills": [
+    "OpenMP",
+    "InfiniBand",
+    "NUMA",
+    "PCIe",
+    "Docker",
+    "Singularity",
+    "Kubernetes",
+    "Java",
+    "rack integration",
+    "MTBF"
+  ],
+  "top_ats_keywords": [
+    "HPC",
+    "MPI",
+    "OpenMP",
+    "CUDA",
+    "Linux",
+    "C++",
+    "InfiniBand",
+    "NUMA",
+    "Docker",
+    "Kubernetes",
+    "Singularity",
+    "cluster",
+    "benchmarking"
+  ],
+  "required_skills": [
+    "HPC",
+    "Linux",
+    "C++",
+    "MPI",
+    "OpenMP",
+    "multithreading",
+    "CUDA",
+    "memory hierarchies",
+    "Ethernet",
+    "InfiniBand",
+    "cluster",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "Singularity",
+    "Kubernetes",
+    "benchmarking",
+    "interconnects",
+    "storage architectures",
+    "reliability"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "HPC software on Linux clusters",
+    "performance and power optimization",
+    "cluster diagnostics tooling",
+    "HW/SW co-debug",
+    "rack integration"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Ann Arbor, MI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

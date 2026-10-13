@@ -1,0 +1,123 @@
+{
+  "company": "KLA",
+  "company_slug": "kla",
+  "role": "HPC Linux Systems Engineer",
+  "job_slug": "hpc-linux-systems-engineer",
+  "match_pct": 28.1,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 16,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Shell scripting",
+    "SystemD"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Enterprise Linux administration",
+      "you_have": "Linux systemd service management, static IP/network configuration, XRDP admin"
+    },
+    {
+      "jd_skill": "HPC architecture (GPU platforms, cluster infra)",
+      "you_have": "CUDA C++, MPI, SLURM-managed HPC coursework/projects"
+    },
+    {
+      "jd_skill": "Networking fundamentals",
+      "you_have": "Static IP / network configuration"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes cluster deployment and production support",
+    "Server networking infrastructure and high-speed interconnects",
+    "DNS, DHCP, LDAP, SMTP",
+    "BIOS/BMC technologies",
+    "PXE/NetBoot",
+    "Linux High Availability",
+    "Scalable and resilient storage platforms",
+    "Infrastructure as Code / config management (Ansible, Salt, Chef, Puppet)",
+    "Containerized and cloud-native workloads (Docker, container orchestration)",
+    "Red Hat / Rocky / SUSE enterprise distro production experience"
+  ],
+  "top_ats_keywords": [
+    "Kubernetes",
+    "Linux",
+    "Red Hat",
+    "Rocky Linux",
+    "Ubuntu",
+    "SUSE",
+    "TCP/IP",
+    "DNS",
+    "DHCP",
+    "LDAP",
+    "HPC",
+    "GPU",
+    "BIOS",
+    "BMC",
+    "SystemD",
+    "PXE",
+    "Ansible",
+    "Python",
+    "Shell scripting",
+    "Storage",
+    "Infrastructure as Code",
+    "High Availability"
+  ],
+  "required_skills": [
+    "Enterprise Linux administration (Red Hat, Rocky, Ubuntu, SUSE)",
+    "Kubernetes cluster deployment and production support",
+    "Networking fundamentals (TCP/IP, DNS, DHCP, HTTP, LDAP, SMTP, routing, switching)",
+    "Server networking infrastructure and high-speed interconnects",
+    "HPC architecture (compute servers, GPU platforms, storage, BIOS/BMC, cluster infra)",
+    "Linux services (SystemD, PXE/NetBoot, Linux High Availability)",
+    "Scalable and resilient storage platforms",
+    "Shell and Python scripting for automation",
+    "Infrastructure as Code / config management (Ansible, Salt, Chef, Puppet)",
+    "Containerized and cloud-native workloads"
+  ],
+  "preferred_skills": [
+    "Kubernetes for HPC/AI/ML/GPU workloads",
+    "Cloud-based and hybrid compute architectures",
+    "Networking and storage performance optimization for distributed compute"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Architect, deploy and support Kubernetes clusters on enterprise Linux HPC platforms",
+    "Design and optimize Linux-based compute infrastructure",
+    "Lead networking architecture and troubleshooting",
+    "Support HPC compute clusters (CPU and GPU)",
+    "Configure and maintain enterprise Linux distros",
+    "Automate infrastructure deployment and lifecycle management",
+    "Collaborate with hardware vendors, generate BOMs",
+    "Support scalable storage and high-bandwidth interconnects",
+    "Create golden images and deployment documentation"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Milpitas, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

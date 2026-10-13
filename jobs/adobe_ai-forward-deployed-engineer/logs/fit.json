@@ -1,0 +1,90 @@
+{
+  "company": "Adobe",
+  "company_slug": "adobe",
+  "role": "2027 University Graduate - AI Forward Deployed Engineer",
+  "job_slug": "ai-forward-deployed-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 1,
+    "missing_count": 4,
+    "jd_ask_size": 9,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "API integration",
+    "version control (Git)",
+    "generative AI / LLM experience (GPT-2 from scratch, SLM work)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "lightweight agents / prompt workflows",
+      "you_have": "LLM inference engine + GPT-2 build experience"
+    }
+  ],
+  "missing_skills": [
+    "JavaScript",
+    "frontend development",
+    "full stack web development",
+    "HCI"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "JavaScript",
+    "full stack",
+    "frontend",
+    "backend",
+    "API",
+    "version control",
+    "generative AI",
+    "GPT",
+    "Claude",
+    "Copilot",
+    "agents"
+  ],
+  "required_skills": [
+    "Full stack software (frontend and backend)",
+    "Python and/or JavaScript",
+    "API integration",
+    "version control",
+    "generative AI tools/APIs (Claude, GPT, Copilot)",
+    "prompt/workflow/agent design"
+  ],
+  "preferred_skills": [
+    "Human Computer Interaction background",
+    "presenting to leadership/collaborators"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Turn EX process bottlenecks into AI solutions, prototype to production",
+    "Design/build/deploy full stack systems (frontend to backend to AI integration)",
+    "Pilot Adobe AI products internally",
+    "Present findings/demos to leadership"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco / San Jose",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

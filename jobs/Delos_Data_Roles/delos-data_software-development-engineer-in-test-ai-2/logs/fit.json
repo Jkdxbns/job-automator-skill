@@ -1,0 +1,122 @@
+{
+  "company": "Delos Data",
+  "company_slug": "delos-data",
+  "role": "Software Development Engineer in Test - AI",
+  "job_slug": "software-development-engineer-in-test-ai",
+  "match_pct": 38.2,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 5,
+    "missing_count": 8,
+    "jd_ask_size": 17,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python automation / scripting",
+    "GPU / CUDA kernel optimization",
+    "Embedded C / bare-metal / drivers / firmware interaction",
+    "AI / ML / deep learning frameworks"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Build/extend test automation frameworks",
+      "you_have": "Framework building (Flask)"
+    },
+    {
+      "jd_skill": "Troubleshoot failures in distributed systems",
+      "you_have": "Distributed/perception robotics (ROS2)"
+    },
+    {
+      "jd_skill": "Containerization / CI-CD / cluster orchestration",
+      "you_have": "Cluster job scheduling (SLURM)"
+    },
+    {
+      "jd_skill": "Testing high-performance networking protocols",
+      "you_have": "Embedded serial/network protocols"
+    },
+    {
+      "jd_skill": "Testing drivers/firmware interaction",
+      "you_have": "Embedded driver/firmware experience (not in testing context)"
+    }
+  ],
+  "missing_skills": [
+    "Test automation framework (complex back-end - no testing evidence)",
+    "Troubleshoot automated test failures within large-scale distributed systems (no distributed testing/debugging)",
+    "Containerization: Docker / Kubernetes (not in keyword list)",
+    "Modern CI/CD: GitHub Actions / GitLab CI / Jenkins (not present)",
+    "Kubernetes / Terraform / Ansible for test-bed environments (not present)",
+    "Testing high-performance networking protocols (only embedded UART/I2C/SPI)",
+    "Testing distributed file systems (not present)",
+    "Testing drivers/firmware specifically (embedded interaction exists but no testing angle)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "test automation framework",
+    "distributed AI training",
+    "inference workloads",
+    "GPU kernels",
+    "AI frameworks",
+    "containerization",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "GitHub Actions",
+    "GitLab CI",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "telemetry",
+    "profiling",
+    "stress testing",
+    "end-to-end integration",
+    "hardware-software boundary",
+    "SDET",
+    "back-end"
+  ],
+  "required_skills": [
+    "Python (automation and orchestration)",
+    "Build/extend test automation frameworks for complex back-end systems",
+    "Troubleshoot automated test failures in large-scale distributed systems",
+    "Containerization (Docker/Kubernetes)",
+    "Modern CI/CD tools (GitHub Actions/GitLab CI/Jenkins)"
+  ],
+  "preferred_skills": [
+    "Kubernetes/Terraform/Ansible for test-bed management",
+    "Testing high-performance networking protocols or distributed file systems",
+    "Testing software that interacts with drivers/firmware"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Design/develop automated testing framework for distributed AI training and inference workloads",
+    "Develop complex end-to-end/stress test plans covering hardware-software boundary conditions",
+    "Partner with System Engineers to debug distributed cluster issues using telemetry/profiling",
+    "Validate GPU kernels / distributed systems / AI framework intersection",
+    "Build scalable automation ensuring performance-critical primitives work at scale"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Charlottesville",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

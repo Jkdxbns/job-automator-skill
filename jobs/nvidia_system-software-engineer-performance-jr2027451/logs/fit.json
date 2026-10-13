@@ -1,0 +1,171 @@
+{
+  "company": "NVIDIA",
+  "company_slug": "nvidia",
+  "role": "System Software Engineer - Performance",
+  "job_slug": "system-software-engineer-performance-jr2027451",
+  "match_pct": 73.1,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 8,
+    "missing_count": 3,
+    "jd_ask_size": 26,
+    "req_cov": 0.846,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Computer Architecture",
+    "Multicore Hardware",
+    "Concurrency",
+    "Interrupts",
+    "Real-Time Programming",
+    "Performance Analysis",
+    "Data Analysis",
+    "Performance Optimization",
+    "CUDA",
+    "GPU",
+    "HPC",
+    "Benchmarking",
+    "Linux",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Operating Systems Design",
+      "you_have": "FreeRTOS / bare-metal STM32 scheduling"
+    },
+    {
+      "jd_skill": "Caching",
+      "you_have": "CUDA shared memory / memory coalescing"
+    },
+    {
+      "jd_skill": "Device Drivers",
+      "you_have": "Bare-metal STM32 UART/I2C/SPI peripheral code"
+    },
+    {
+      "jd_skill": "ARM Architecture",
+      "you_have": "ARM Cortex-M4 (STM32) + Jetson (ARM SoC)"
+    },
+    {
+      "jd_skill": "SoC",
+      "you_have": "NVIDIA Jetson SoC deployment"
+    },
+    {
+      "jd_skill": "Debugging/Tuning System Software Stacks",
+      "you_have": "Jetson TensorRT pipeline tuning"
+    },
+    {
+      "jd_skill": "Profiling Tools",
+      "you_have": "pynvml profiling"
+    },
+    {
+      "jd_skill": "Microarchitecture",
+      "you_have": "High Performance Architecture coursework"
+    }
+  ],
+  "missing_skills": [
+    "Virtual Memory",
+    "CPU Server Workloads",
+    "Pre-silicon/Post-silicon"
+  ],
+  "top_ats_keywords": [
+    "SoC",
+    "ARM",
+    "Pre-silicon/Post-silicon",
+    "Benchmarking",
+    "Microarchitecture",
+    "Linux",
+    "Profiling Tools",
+    "Python"
+  ],
+  "required_skills": [
+    "Computer Architecture",
+    "C/C++",
+    "Multicore Hardware",
+    "Operating Systems Design",
+    "Concurrency",
+    "Virtual Memory",
+    "Caching",
+    "Interrupts",
+    "Device Drivers",
+    "Real-Time Programming",
+    "Performance Analysis",
+    "Data Analysis",
+    "Performance Optimization"
+  ],
+  "preferred_skills": [
+    "ARM Architecture",
+    "Debugging/Tuning System Software Stacks",
+    "CPU Server Workloads",
+    "CUDA",
+    "GPU",
+    "HPC"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design, develop, test and optimize SW for next-gen SoCs pre- and post-silicon",
+    "Identify performance bottlenecks in the SoC",
+    "Competitive uArch and workload performance analysis vs other silicon vendors",
+    "Develop tools and use benchmarks to analyze performance",
+    "Write analysis documents for internal/external audiences"
+  ],
+  "role_category": "hpc_cuda",
+  "location": "Santa Clara CA / Austin TX / Hillsboro OR / Boulder CO / Remote US (6 locations)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 56,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Benchmarking and bottleneck analysis: MPI ray tracer (4 scheduling strategies, 30x at 55 procs) and Hodgkin-Huxley sim (10.49x, 65% load-imbalance degradation characterized)",
+      "Performance optimization with measured before/after: CUDA VGG16 coalescing (73.3 to 49.2 ms) and TensorRT YOLO 5.2x on Jetson",
+      "Interrupts, concurrency, real-time: bare-metal Cortex-M4 interrupt-driven ADC/I2C, FreeRTOS mutex task coordination, interrupt-driven quadrature decoding",
+      "Stand-out items covered: CUDA/GPUs, HPC (SLURM cluster, MPI), High Performance Architecture + Multiple Processor Systems coursework"
+    ],
+    "real_gaps": [
+      "No CPU-side performance analysis on Linux (perf, PMU/hardware counters, top-down uArch analysis); all perf work is GPU or MPI scaling",
+      "No SoC pre-silicon or post-silicon work (emulation, bring-up, simulators)",
+      "No competitive microarchitecture or server workload benchmarking (SPEC CPU, STREAM, database/web workloads)",
+      "OS internals (virtual memory, page tables, kernel scheduling) and Linux device drivers are unbacked; driver work is bare-metal MCU only",
+      "ARM exposure is Cortex-M microcontroller, not ARMv8/v9 application-class (Neoverse/Grace) ecosystem",
+      "JD asks 2+ years relevant experience; profile is internships, research and coursework"
+    ],
+    "overstated_by_keywords": [
+      "Multicore Hardware: backed by MPI across processes and coursework, not shared-memory multicore CPU tuning",
+      "Computer Architecture: coursework only, no project bullet exercises caches or pipelines directly",
+      "ARM Architecture / SoC adjacency: Cortex-M4 and Jetson usage, not architecture-level work"
+    ],
+    "understated_by_keywords": [
+      "MPI load-imbalance characterization is genuine bottleneck-identification methodology that maps to 'analyze performance bottlenecks'",
+      "Jetson Orin is an NVIDIA Tegra ARM SoC, the same org's product line; TensorRT profiling on it is relevant platform familiarity"
+    ],
+    "screening_gaps": [
+      "No CPU/system-level Linux perf analysis (perf, PMU counters, uArch bottlenecks); perf story is GPU-kernel and MPI only",
+      "Under 2 years industry systems software experience against a stated 2+ year ask",
+      "No OS internals or Linux kernel/device-driver work (virtual memory, caching, scheduling) beyond bare-metal MCU firmware"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The perf-methodology half of the role (benchmark, find bottleneck, optimize, measure) is well backed by the CUDA, TensorRT and MPI projects, and the CUDA/HPC stand-outs land. The CPU-side half (server workloads, uArch competitive analysis, OS internals, ARM application-class ecosystem, silicon bring-up) has no real backing, so this is a reach at the 2+ year bar but a reasonable shot at NVIDIA, which sponsors.",
+    "calibration_delta": 17.1
+  },
+  "semantic_pending": false
+}

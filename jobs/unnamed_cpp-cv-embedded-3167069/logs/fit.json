@@ -1,0 +1,164 @@
+{
+  "company": "Unnamed (req 3167069)",
+  "company_slug": "unnamed",
+  "role": "C++ Engineer (Computer Vision/Embedded Systems)",
+  "job_slug": "cpp-cv-embedded-3167069",
+  "match_pct": 57.9,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 19,
+    "req_cov": 0.808,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "CMake",
+    "Linux",
+    "Bash",
+    "Python",
+    "Computer Vision",
+    "Image Processing",
+    "Edge AI",
+    "object-oriented design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "multithreading",
+      "you_have": "FreeRTOS mutexes / MPI"
+    },
+    {
+      "jd_skill": "performance profiling",
+      "you_have": "CUDA kernel optimization"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "memory management",
+      "you_have": "CUDA/embedded C"
+    }
+  ],
+  "missing_skills": [
+    "Docker",
+    "Android NDK",
+    "gdb",
+    "valgrind",
+    "unit/integration testing",
+    "legacy code"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "CMake",
+    "Linux",
+    "Android",
+    "NDK",
+    "gdb",
+    "valgrind",
+    "Docker",
+    "Python",
+    "computer vision",
+    "multithreading",
+    "STL",
+    "unit testing",
+    "CI/CD",
+    "edge inference"
+  ],
+  "required_skills": [
+    "C++",
+    "memory management",
+    "multithreading",
+    "STL",
+    "object-oriented design",
+    "CMake",
+    "Linux",
+    "shell scripting",
+    "gdb",
+    "valgrind",
+    "Android NDK",
+    "unit testing",
+    "integration testing"
+  ],
+  "preferred_skills": [
+    "performance profiling",
+    "Docker",
+    "CI/CD",
+    "Python",
+    "computer vision",
+    "image processing",
+    "edge ML inference"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "production C++ in vision/AI pipelines",
+    "Linux/Android builds with CMake",
+    "automated builds/tests/containers",
+    "perf and memory defects"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Vision/edge-ML domain is real: COFFIN TensorRT-optimized YOLO on Jetson, 5.2x speedup (56.7 to 10.9 ms), visual servoing",
+      "Image processing depth: custom stitching + wavelet denoising + homography (PSNR 65 to 86), ZoeDepth crack-depth pipeline",
+      "Performance work on constrained hardware: CUDA coalescing kernels 49.2 vs 73.3 ms, 3.68 KB Flash / 1.58 KB RAM bare-metal firmware, pynvml/psutil VRAM+latency profiling",
+      "Linux service deployment: systemd unit with auto-restart and non-root isolation; multiprocessing multi-camera capture",
+      "Edge model export: YOLOv8n to ONNX and TFLite for mobile deployment"
+    ],
+    "real_gaps": [
+      "No production or multi-person C++ codebase; C++ evidence is CUDA kernels and Arduino IK, no STL/RAII/modern-C++ work shown",
+      "No Android NDK or JNI work anywhere",
+      "No gdb/valgrind/sanitizer debugging evidence",
+      "No unit/integration test frameworks (GoogleTest, CTest) evidenced",
+      "No Docker or reproducible container builds",
+      "No CI/CD pipeline, only GitLab as version control",
+      "Threading evidence is thin: MPI is process-level, one FreeRTOS mutex bullet, no std::thread/atomics",
+      "CMake appears only as a skills-list entry with no build-system project behind it",
+      "2+ years professional C++ asked; profile is internship and capstone scope"
+    ],
+    "overstated_by_keywords": [
+      "CMake (Have): a listed skill, no bullet backs it",
+      "C++ (Have): CUDA C++ kernels and Arduino C++ are narrow next to a production C++ vision stack",
+      "CI/CD (Adjacent): GitLab was used for version control, not pipelines",
+      "multithreading (Adjacent): MPI is distributed processes, not shared-memory threading"
+    ],
+    "understated_by_keywords": [
+      "ONNX/TFLite export for mobile is the closest thing to Android-target deployment",
+      "Cross-target thinking: Jetson, STM32, Arduino, x86 in one system (COFFIN)",
+      "Profiling under memory limits (pynvml/psutil VRAM, Flash/RAM budgets) fits 'diagnose performance and memory usage'"
+    ],
+    "screening_gaps": [
+      "No professional or production C++ experience against a 2+ year ask",
+      "No gdb/valgrind/testing-framework evidence for a role centered on debugging and test infrastructure",
+      "No Android NDK or Docker, both named in the day-to-day workflow"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The vision and edge-inference half of the role is well backed with specific, measured work. The C++ engineering half (modern C++, threading, CMake at scale, debug tools, tests, containers) is largely unevidenced. It's a domain fit with a craft gap, worth an application only with a tailored resume that puts the TensorRT, CUDA and image-processing work first.",
+    "calibration_delta": 5.9
+  }
+}

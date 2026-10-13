@@ -1,0 +1,158 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior Electrical Engineer - Sensor FPGA and PCB (Aggregator)",
+  "job_slug": "senior-electrical-engineer-sensor-fpga-and-pcb-a",
+  "match_pct": 40.3,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 5,
+    "missing_count": 19,
+    "jd_ask_size": 36,
+    "req_cov": 0.267,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++ programming",
+    "Embedded C / bare-metal firmware development",
+    "PCB design with EAGLE (low-complexity, single-layer)",
+    "Sensor / hardware integration over UART/I2C/SPI",
+    "Prototyping and lab instrumentation (oscilloscopes, logic analyzers)",
+    "Real-time data acquisition and experimental visualization",
+    "Debugging / root-cause analysis / integration troubleshooting",
+    "Computer vision / camera-based detection (YOLO, OpenCV)",
+    "Real-time multi-device / multi-layer system integration",
+    "Linux / systemd / static IP / remote desktop administration",
+    "Robotics / ROS2 / motion control / servo / PWM",
+    "Design documentation / BOM / claims documentation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sensor / camera hardware integration (software-level vision)",
+      "you_have": "YOLO + OpenCV computer vision and visual servoing with camera range-gating"
+    },
+    {
+      "jd_skill": "Embedded hardware debugging with instruments",
+      "you_have": "Oscilloscopes, Logic Analyzers listed in Tools; multi-system integration failure resolution"
+    },
+    {
+      "jd_skill": "Real-time networking / data streaming concepts",
+      "you_have": "Real-time data acquisition (PyQt/Matplotlib) and static IP/network config; WebSocket multi-device pipeline"
+    },
+    {
+      "jd_skill": "Power / thermal / embedded sensor control",
+      "you_have": "STM32 bare-metal temperature monitoring with timer-synchronized ADC and interrupt-driven sampling; PWM motor control"
+    },
+    {
+      "jd_skill": "Robotics / humanoid-robot-adjacent perception and motion systems",
+      "you_have": "ROS2 motion planning, visual servoing, multi-DoF arm kinematics, closed-loop feedback, multi-camera frame capture"
+    }
+  ],
+  "missing_skills": [
+    "FPGA architecture definition / device selection",
+    "RTL development (VHDL / Verilog)",
+    "High-speed digital interfaces (CSI-2, GMSL2, FPD-Link, 10GbE, PCIe) design and validation",
+    "MIPI CSI-2 / SerDes / ISP integration (hardware-level)",
+    "Signal integrity / impedance-controlled routing / differential pairs / stack-up / timing analysis across board-to-FPGA boundary",
+    "Timing closure / clock-domain crossing / resource and power budgeting",
+    "FPGA tool flows (Vivado, Quartus, Lattice Radiant)",
+    "FPGA simulation (ModelSim / Questa or equivalent)",
+    "Integration of high-speed transceivers and external PHY devices",
+    "Ethernet packetization / timestamp and metadata insertion RTL",
+    "Multi-camera / multi-IMU deterministic synchronization RTL logic",
+    "Mixed-signal multi-Gbps PCBA schematic capture and professional layout guidance",
+    "Board-level power tree design for sequencing and low-power consumption",
+    "EMC / ESD / thermal constraint design for board-level mixed-signal systems",
+    "Component lifecycle management through PLM systems",
+    "Third-party vendor and contract-manufacturer (CM) alignment for production scaling",
+    "Design-for-manufacturability (DFM) and design-for-assembly (DFA) for manufacturing release",
+    "Mentoring junior electrical engineers on hardware best practices",
+    "5+ years of professional electrical engineering experience"
+  ],
+  "top_ats_keywords": [
+    "FPGA",
+    "RTL",
+    "VHDL",
+    "Verilog",
+    "CSI-2",
+    "MIPI",
+    "GMSL",
+    "SerDes",
+    "FPD-Link",
+    "Ethernet",
+    "PCIe",
+    "signal integrity",
+    "PCB",
+    "schematic",
+    "layout",
+    "timing closure",
+    "Vivado",
+    "Quartus",
+    "ModelSim",
+    "camera synchronization",
+    "sensor bridge",
+    "embedded",
+    "robotics",
+    "hardware validation",
+    "manufacturing"
+  ],
+  "required_skills": [
+    "FPGA architecture design / device selection",
+    "RTL development (VHDL / Verilog)",
+    "High-speed digital interface design (CSI-2, GMSL/SerDes, FPD-Link, 10GbE, PCIe)",
+    "MIPI CSI-2 / camera sensor hardware / ISP integration",
+    "Signal integrity / impedance-controlled routing / differential pairs / stack-up / timing analysis",
+    "Timing closure / clock-domain crossing / resource optimization",
+    "FPGA tool flows (Vivado, Quartus, Lattice Radiant)",
+    "FPGA simulation (ModelSim / Questa)",
+    "High-speed transceivers / external PHY integration",
+    "Mixed-signal multi-Gbps PCBA schematic capture / layout guidance",
+    "Power sequencing / power tree design / low-power consumption",
+    "EMC / ESD / thermal design",
+    "Component lifecycle management / PLM / vendor and contract-manufacturer relationships",
+    "Hardware bring-up / validation / debugging with oscilloscopes / protocol analyzers / logic analyzers",
+    "Design documentation (schematics, RTL docs, test plans, fab/assembly drawings)"
+  ],
+  "preferred_skills": [
+    "Ethernet packetization / timestamp and metadata insertion for multi-camera sync",
+    "Multi-camera and multi-IMU deterministic synchronization logic",
+    "Automotive or robotics vision systems experience",
+    "Mentoring junior engineers / guiding hardware best practices"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Own schematic capture, layout guidance, and RTL for subsystems of a multi-Gbps mixed-signal PCBA aggregating camera sensor data",
+    "Design and validate high-speed interfaces (CSI-2, GMSL, 10GbE) with signal integrity, impedance control, and length-matching",
+    "Develop FPGA RTL (VHDL/Verilog) for CSI-2 ingest, Ethernet packetization, timestamp/metadata insertion, and multi-camera / multi-IMU synchronization",
+    "Contribute to board power tree for sequencing and low-power consumption; design for EMC, ESD, and thermal constraints",
+    "Support timing closure, clock-domain crossing, resource/power budgeting, and high-speed transceiver/PHY integration",
+    "Build validation plans and fixtures; use high-bandwidth scopes, protocol analyzers, logic analyzers to validate latency, bandwidth, sync",
+    "Debug across hardware/RTL boundary (link training, timing violations, ISP misconfiguration, power sequencing) with first-principles root-cause analysis",
+    "Carry design through prototype, validation, manufacturing release; manage component lifecycle through PLM and CM/vendor relationships",
+    "Collaborate cross-functionally and mentor junior engineers; provide work estimates and raise risks proactively"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

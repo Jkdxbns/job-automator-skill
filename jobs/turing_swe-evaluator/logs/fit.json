@@ -1,0 +1,54 @@
+{
+  "company": "Turing",
+  "company_slug": "turing",
+  "role": "Software Engineering Evaluator",
+  "job_slug": "swe-evaluator",
+  "match_pct": 70,
+  "have_skills": [
+    "python",
+    "c/c++",
+    "systems programming",
+    "software architecture",
+    "infrastructure"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_term": "backend development",
+      "candidate_has": "Python, REST APIs, pipelines"
+    },
+    {
+      "jd_term": "production software",
+      "candidate_has": "ASR pipelines, inference deployment"
+    }
+  ],
+  "missing_skills": [
+    "rust",
+    "go (preferred)",
+    "code review formal experience"
+  ],
+  "top_ats_keywords": [
+    "python",
+    "c/c++",
+    "systems programming",
+    "llm",
+    "ai evaluation",
+    "software architecture",
+    "performance optimization",
+    "agent"
+  ],
+  "key_responsibilities": [
+    "Curate code examples and build solutions for LLM training datasets",
+    "Evaluate and refine AI-generated code for correctness and performance",
+    "Build agents to verify systems-level code quality",
+    "Design verification mechanisms for software engineering tasks"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "No"
+  },
+  "sponsorship_flag": "UNKNOWN \u2014 Turing is known sponsor but this is CONTRACTOR role",
+  "engagement_type": "Contractor, 1 month, 10-40 hrs/week",
+  "experience_flag": "3+ years required \u2014 Justin has 0 FT (7 internships)",
+  "visa_flag": "F-1 OPT contractor work has authorization complexity"
+}

@@ -1,0 +1,92 @@
+{
+  "_meta": { "company": "Caterpillar Inc.", "role": "Autonomy Development Engineer", "company_slug": "caterpillar", "job_slug": "autonomy-development-engineer" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands-on experience building and testing robotic and autonomous-vehicle software systems in C++ and Python. Designed and validated a collision-avoidance control stack for a simulated autonomous vehicle, achieving zero collisions across multi-agent traffic scenarios, and debugged multi-sensor robotic hardware integrations end-to-end. Comfortable across the software development life cycle -- design, verification, and validation -- coordinating with hardware component teams to resolve integration issues.",
+  "skills": {
+    "Autonomy & Robotics": ["Collision-avoidance control stacks", "ROS/ROS2", "YOLO camera perception", "Forward kinematics", "MoveIt", "RViz"],
+    "Languages & Systems": ["C/C++", "Python", "Bash"],
+    "Embedded & Hardware": ["NVIDIA Jetson", "Arduino", "Bluetooth (BLE/Classic)"],
+    "Testing & Verification": ["Software Testing", "Verification and Validation", "Problem Solving", "Debugging"],
+    "Tools": ["Git", "Linux", "CMake", "GitLab"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and Bluetooth to translate hand motion into hardware control commands via Python, debugging and resolving sensor jitter through calibration."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI application using PyQt and Matplotlib for real-time data acquisition and experimental visualization, using GitLab for version control within a structured software development workflow."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Built preprocessing and training pipelines in PyTorch for a document-understanding transformer, improving validation accuracy from 55% to 93% through structured software testing, problem solving, and iteration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system integrating Jetson-deployed, TensorRT-optimized YOLO perception (5.2x speedup) and dual ToF range sensors for contact-aware, collision-safe grasping.",
+        "Resolved 11 hardware/software integration failures (false-positive camera detections, servo brown-out, stale-frame capture), achieving 100% pick reliability (10/10 trials) through end-to-end debugging and verification of a real-time robotic system.",
+        "Implemented two-link inverse kinematics in C++ on Arduino, driving five servos with range-gated contact detection for safe object handling."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built an adaptive autonomous-vehicle control stack with lane-following and waypoint fallback, integrating camera-based YOLO object detection and lane-segmentation perception models.",
+        "Validated the collision-avoidance control stack in a simulated town with 30 vehicles and 10 pedestrians, achieving zero collisions and correct traffic-signal compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B, validating results against MoveIt and RViz URDF models in ROS 2.",
+        "Planned collision-free pick-and-place trajectories on a physical UR5e; verified AL5B repeatability at under 2mm over 10 trials through systematic testing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Principles of Robotics", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

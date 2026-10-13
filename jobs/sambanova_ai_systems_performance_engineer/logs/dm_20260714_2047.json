@@ -1,0 +1,21 @@
+{
+  "draft": {
+    "type": "dm",
+    "subject": null,
+    "greeting": "Hi David,",
+    "body": "My name is Justin Mascarenhas and I recently finished my M.S. in Computer Engineering at RIT. I came across the AI Systems Performance Engineer opening for new graduates at SambaNova and wanted to reach out to you directly. Your work on performance across the whole hardware and software stack, from the AI models down to the kernel and the drivers, is the exact kind of engineering I have been trying to build toward.\n\nA lot of my own projects sit right where this role does. I rewrote convolution kernels in CUDA so memory access lined up better and the model ran faster, quantized a small language model to shrink its memory use while keeping accuracy close to the original, and built transformer models from scratch to really understand how they execute. A good chunk of that work was profiling memory and latency to find where the real bottlenecks were.\n\nI would love to hear how your team thinks about performance on the SambaNova platform, and whether you might be open to a short conversation about the work. Thanks for reading either way.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: https://www.linkedin.com/in/justinmascarenhas/",
+    "word_count": 168,
+    "hook_used": "David full-stack performance R&D overlaps CUDA + inference profiling work",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "David Lutz",
+    "current_title": "Performance Architect",
+    "current_company": "SambaNova Systems"
+  },
+  "meta": {
+    "company": "SambaNova",
+    "role": "AI Systems Performance Engineer - New Graduate"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "company": "REGENT Craft Inc.",
+  "company_slug": "regent",
+  "role": "Software Engineer II, Sensor Fusion & Autonomy",
+  "job_slug": "swe-ii-sensor-fusion-autonomy",
+  "match_pct": 36.4,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 8,
+    "missing_count": 10,
+    "jd_ask_size": 22,
+    "req_cov": 0.679,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C",
+    "C++",
+    "Computer Vision"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Aerospace/Robotics/Automotive experience",
+      "you_have": "Robotics coursework/projects (RTOS, robotic arm, turret)"
+    },
+    {
+      "jd_skill": "Debugging distributed vehicle software",
+      "you_have": "Embedded/hardware debugging + distributed telemetry systems"
+    },
+    {
+      "jd_skill": "Sensor selection/evaluation/integration",
+      "you_have": "Sensor selection tradeoffs in embedded projects"
+    },
+    {
+      "jd_skill": "Autonomy system design (path planning)",
+      "you_have": "Robotic arm path planning (COFFIN, turret)"
+    },
+    {
+      "jd_skill": "Multi-modal sensor fusion",
+      "you_have": "Single-sensor accelerometer signal processing"
+    },
+    {
+      "jd_skill": "IMU integration",
+      "you_have": "ADXL345 accelerometer integration"
+    },
+    {
+      "jd_skill": "Environmental sensors",
+      "you_have": "GPS/TF-Luna sensor work"
+    },
+    {
+      "jd_skill": "Data collection for iterative improvement",
+      "you_have": "ML/ASR data collection experience"
+    }
+  ],
+  "missing_skills": [
+    "SLAM algorithms",
+    "State estimation",
+    "Publish-subscribe messaging architectures",
+    "Mapping",
+    "Semantic labelling",
+    "Sonar",
+    "Radar",
+    "EO/IR",
+    "Production avionics/certification",
+    "High-fidelity simulation & sea trials validation"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "SLAM",
+    "state estimation",
+    "sensor fusion",
+    "publish-subscribe",
+    "computer vision",
+    "sonar",
+    "radar",
+    "IMU",
+    "autonomy"
+  ],
+  "required_skills": [
+    "Python",
+    "C or C++",
+    "Aerospace/Robotics/Automotive experience",
+    "Debugging distributed vehicle software",
+    "Sensor selection/evaluation/integration",
+    "SLAM algorithms",
+    "State estimation",
+    "Publish-subscribe messaging architectures",
+    "Autonomy system design",
+    "Multi-modal sensor fusion",
+    "Perception algorithms",
+    "Computer vision",
+    "Mapping",
+    "Semantic labelling"
+  ],
+  "preferred_skills": [
+    "Sonar",
+    "Radar",
+    "EO/IR",
+    "IMU",
+    "Environmental sensors",
+    "Production avionics/certification",
+    "High-fidelity simulation",
+    "Sea trials",
+    "Data collection"
+  ],
+  "required_experience_years": 1,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Design perception system for external environment, vehicle state, operator intent",
+    "Integrate multi-modal sensor suites (sonar, radar, EO/IR, IMU, environmental)",
+    "Architect build environments transitioning prototypes to certified production avionics",
+    "Lead data collection for iterative software improvement",
+    "Validate via simulation and live sea trials",
+    "SME for state estimation across engineering disciplines"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "North Kingstown, Rhode Island, USA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

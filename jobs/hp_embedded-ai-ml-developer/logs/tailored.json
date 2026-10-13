@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "company": "HP Inc.",
+    "role": "Embedded AI/ML Developer",
+    "company_slug": "hp",
+    "job_slug": "embedded-ai-ml-developer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology. I build embedded AI/ML software for edge devices, optimizing inference latency and memory footprint with TensorRT, ONNX and 8-bit quantization across NVIDIA Jetson and Cortex-M4 MCU targets. My firmware work spans bare-metal embedded C, RTOS task design and UART/I2C device drivers, connecting model runtimes to sensors and host applications in C/C++ and Python.",
+  "skills": {
+    "Embedded AI & Edge Deployment": [
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "8-bit Quantization",
+      "Model Compression",
+      "Edge Inference",
+      "Latency & Memory Footprint Optimization",
+      "Model Benchmarking",
+      "YOLO"
+    ],
+    "Embedded & Firmware": [
+      "STM32 Bare-Metal C",
+      "Cortex-M4 MCU",
+      "FreeRTOS / RTOS",
+      "Device Drivers",
+      "UART",
+      "I2C",
+      "Interrupt Handling",
+      "PWM Motor Control",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Languages": [
+      "C/C++",
+      "Python"
+    ],
+    "ML Frameworks": [
+      "PyTorch",
+      "Hugging Face Transformers"
+    ],
+    "Platforms & Tools": [
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "Linux",
+      "systemd"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document-understanding transformer, on a custom medical billing dataset, improving validation accuracy from 55% to 93%.",
+        "Built preprocessing and training pipelines in PyTorch on the HuggingFace VisionEncoderDecoder API with domain-specific tokens and a resized decoder embedding layer."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images to 83% mAP@50 on held-out validation, then exported to ONNX and TFLite for edge deployment on constrained mobile hardware."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Built a wearable gesture-recognition glove integrating ADXL345 accelerometers with a Raspberry Pi and an HC-05 Bluetooth module, translating 3-DoF motion into HID commands on the host."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO for embedded AI/ML inference on NVIDIA Jetson, cutting per-frame latency from 56.7 ms to 10.9 ms (17.6 to 92 FPS, 5.2x over eager PyTorch) for real-time visual servoing.",
+        "Wrote the software interface between the AI/ML stack, firmware and sensors: Jetson-to-Arduino control over UART, dual VL53L0X ToF device drivers behind an I2C mux, and two-link inverse kinematics in C++ on the MCU.",
+        "Debugged 11 system-level integration failures across detection, firmware and sensor layers to reach 100% pick reliability over 10 trials; shipped the Jetson bridge as a systemd service."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Cut GPU memory footprint by ~55% via 8-bit quantization (LLM.int8()) on TinyLlama 1.1B, profiling peak VRAM and inference latency across prompt types with pynvml.",
+        "Benchmarked the compressed model on HellaSwag, GSM8K and ARC at under 1% accuracy degradation and +0.09 perplexity increase."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Ran YOLOv8 detection on NVIDIA Jetson and streamed tracking commands to STM32 firmware over interrupt-driven UART, coordinating RTOS tasks with FreeRTOS mutexes while driving multi-servo PWM control and VL53L0X ToF range sensing."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 MCU peripherals from the datasheet in bare-metal embedded C (GPIO, TIM2, ADC1, I2C1) with timer-triggered ADC scans, interrupt-driven capture and a low-level I2C device driver, at 3.68 KB Flash / 1.58 KB RAM and a deterministic 1 Hz rate."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

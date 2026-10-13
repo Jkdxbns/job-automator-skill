@@ -1,0 +1,80 @@
+{
+  "_meta": { "company": "Amazon Development Center U.S., Inc. (AWS Hardware Engineering)", "role": "Embedded Software Dev Engineer, AWS Hardware Engineering (PSC)", "company_slug": "amazon", "job_slug": "embedded-sde-aws-psc" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering candidate at Rochester Institute of Technology, NY, graduating May 2026, with embedded software and firmware experience in C/C++ on ARM CPUs. Built bare-metal embedded C firmware on STM32 microcontrollers with register-level GPIO, timer, and ADC control plus low-level I2C/SPI/UART drivers, and FreeRTOS-based real-time task coordination with interrupt-driven peripheral handling. Uses Git and GitLab for source control across embedded and software projects, with hands-on testing and validation on physical hardware.",
+  "skills": {
+    "Embedded & Firmware": ["C/C++", "Embedded software development", "ARM CPUs (Cortex-M/Cortex-A)", "STM32 (Bare-Metal C)", "FreeRTOS", "UART/I2C/SPI", "Low-level drivers", "NVIDIA Jetson", "Raspberry Pi", "Arduino", "Bluetooth (BLE/Classic)"],
+    "Software Architecture & Practices": ["Software architecture", "Design patterns", "Code review", "Source control (Git, GitLab)", "CI/CD-style continuous deployment"],
+    "Systems & Deployment": ["Linux", "systemd service management", "Static IP / network configuration"],
+    "Tools": ["Oscilloscopes", "Logic Analyzers", "Proteus"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "",
+      "bullets": [
+        "Architected a Mixed Reality headset concept applying software architecture and design patterns to an AI-based real-time chroma keying pipeline without a green screen; produced full claims documentation and BOM.",
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via embedded software development in Python."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "",
+      "bullets": [
+        "Used GitLab for source control management and code review, and JupyterHub for collaborative data analysis and technical documentation in a laboratory environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 ARM CPU embedded firmware in bare-metal C with timer-synchronized sensing and real-time display; achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate, verified in Proteus.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a custom low-level I2C driver against GPIO, TIM2, ADC1, and I2C1 registers with no HAL/RTOS abstraction layer."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used FreeRTOS with mutexes for shared-memory task coordination on an STM32 microcontroller, integrating VL53L0X ToF sensing and OLED distance visualization.",
+        "Implemented multi-servo PWM control with interrupt-driven UART command handling and user override.",
+        "Interfaced an NVIDIA Jetson running YOLOv8 object detection to the STM32 firmware over UART for real-time tracking commands."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Deployed the Jetson-side (ARM CPU) arm bridge as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) enabling CI/CD-style continuous deployment and self-recovery without manual intervention, with static IP networking for reliable multi-device communication."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Digital Signal Processing", "Digital Electronics"]
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,70 @@
+{
+  "company": "ByteDance",
+  "company_slug": "bytedance",
+  "role": "Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start",
+  "job_slug": "llm-inference-system-engineer-graduate",
+  "match_pct": 100.0,
+  "missing_skills": [
+    "PD disaggregation",
+    "KV Cache systems",
+    "multi-node inference",
+    "distributed network communication optimization",
+    "RDMA",
+    "Kubernetes",
+    "Ray",
+    "large-scale heterogeneous inference clusters"
+  ],
+  "adjacent_skills": [
+    "algorithms/data structures/design patterns (coursework, not evidenced via specific project keyword)",
+    "operating systems/computer architecture (High Performance Architecture, Multiple Processor Systems coursework)",
+    "distributed systems (MPI, SLURM used in HPC coursework, not production-scale)",
+    "GPU hardware architecture (inferred from CUDA kernel work, not explicit)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "C++",
+    "Python",
+    "GPU performance analysis",
+    "GPU architecture",
+    "distributed systems",
+    "Kubernetes",
+    "Ray",
+    "RDMA",
+    "KV Cache",
+    "PD disaggregation",
+    "multi-node inference"
+  ],
+  "key_responsibilities": [
+    "Engineering development of the Volcano Ark MaaS inference system",
+    "Optimize large model inference performance, cost, and stability in ultra-large-scale heterogeneous inference clusters",
+    "Reduce inference costs via disaggregated multi-role inference, distributed KV Cache systems, heterogeneous inference, elastic computing, multi-tenant co-located inference"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 58,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hands-on custom CUDA C++ kernel work (memory coalescing, constant memory, preallocated buffers) on VGG16 achieving 35% speedup over uncoalesced baseline \u2014 this is real low-level GPU performance engineering, not framework-level tuning ('CUDA Kernel Optimization for VGG16 Inference')",
+      "8-bit quantization + VRAM/latency profiling with pynvml/psutil on TinyLlama 1.1B, with accuracy-vs-efficiency tradeoff analysis across HellaSwag/GSM8K/ARC \u2014 genuine LLM inference optimization instinct, just at single-GPU/single-model scale ('SLM Compression and Benchmarking for Edge Deployment')",
+      "Multi-node distributed computing with MPI on a SLURM-managed cluster, including load-imbalance characterization (up to 65% degradation) and scaling analysis up to 30x speedup \u2014 real distributed-systems experience, though scientific-computing style rather than inference-serving style ('MPI Hodgkin-Huxley Neuron Simulation', 'Parallel Ray Tracer with MPI Task Scheduling')",
+      "Built a Transformer and attention mechanism from scratch (GPT-2 style) and a custom ASR transformer decoder \u2014 gives real conceptual grounding in what a KV cache actually is architecturally, even without systems-level KV-cache-service experience ('GPT-2 Style Language Model from Scratch', 'COFFIN Whisper-Style ASR')",
+      "TensorRT-optimized YOLO inference (5.2x speedup) integrated into a live three-layer distributed pipeline (Flutter/Flask-SocketIO/Jetson) \u2014 shows systems integration and latency-engineering instinct end to end, just in edge/robotics rather than datacenter serving ('Voice-Controlled Robotic Arm (COFFIN)')"
+    ],
+    "real_gaps": [
+      "Zero exposure to LLM-serving-specific systems or techniques: no vLLM/TensorRT-LLM/SGLang, no continuous batching, no PagedAttention-style KV cache management at the systems level \u2014 the TinyLlama project is offline benchmarking, not a serving system",
+      "No production or cluster-scale inference experience anywhere in the profile \u2014 everything tops out at a single GPU or a handful of Jetson devices; the JD's 'ultra-large-scale heterogeneous inference clusters' and 'multi-tenant co-located inference' are an order-of-magnitude scale jump with no evidenced precedent",
+      "No Kubernetes, Ray, or container/resource-orchestration experience anywhere",
+      "No RDMA or distributed network communication optimization experience \u2014 the MPI work is message-passing over standard cluster interconnect for scientific compute, not network-fabric optimization for ML serving",
+      "PD (prefill/decode) disaggregation has no analog anywhere in the profile \u2014 this is a fairly specific, recent LLM-serving technique with nothing adjacent to point to"
+    ],
+    "overstated_by_keywords": [
+      "'distributed systems' \u2014 keyword match counted MPI/SLURM as Adjacent, but the JD's ask (network communication optimization, RDMA, multi-node inference orchestration) is a different flavor of distributed systems than MPI scientific computing; the label matches, the substance is a stretch",
+      "'GPU hardware architecture' \u2014 CUDA kernel work is real and gives genuine single-GPU memory-hierarchy depth, but the JD implies cluster-topology awareness (NVLink/NVSwitch/interconnect-level) that the profile doesn't demonstrate at all"
+    ],
+    "reasoning": "The fundamentals ByteDance screens hardest for in a new grad, real CUDA depth, C++/Python fluency, and a track record of hands-on performance engineering, are genuinely strong and well evidenced. But this specific team (Volcano Ark MaaS inference) wants a very particular specialization: multi-node, multi-tenant, disaggregated LLM serving at datacenter scale, and nothing in the profile touches that scale or those specific techniques (PD disaggregation, distributed KV cache, RDMA, Ray/Kubernetes). The resume's strongest legible narrative right now is 'edge AI / robotics GPU systems engineer,' not 'inference-serving systems engineer' \u2014 those are adjacent but distinct stories, and closing that gap in the tailored resume/cover letter will take deliberate reframing (lead with the CUDA kernel and MPI distributed-systems work, de-emphasize robotics/edge framing) rather than just keyword insertion."
+  }
+}

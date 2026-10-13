@@ -1,0 +1,159 @@
+{
+  "company": "Agility Robotics",
+  "company_slug": "agility-robotics",
+  "role": "Robotics Software Engineer I/II",
+  "job_slug": "robotics-software-engineer",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 17,
+    "req_cov": 0.778,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "Linux",
+    "state machines",
+    "MoveIt",
+    "kinematics",
+    "robot manipulation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning",
+      "you_have": "MoveIt collision-free pick-and-place trajectories on UR5e"
+    },
+    {
+      "jd_skill": "simulation and hardware validation",
+      "you_have": "RViz/URDF validation then physical UR5e; CARLA"
+    },
+    {
+      "jd_skill": "robot skill API workflows",
+      "you_have": "ROS 2 / Jetson arm bridge over WebSocket"
+    },
+    {
+      "jd_skill": "mobile manipulation",
+      "you_have": "UR5e/AL5B arm manipulation, Robocon mobile robot"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "Git / GitLab"
+    }
+  ],
+  "missing_skills": [
+    "behavior trees",
+    "task planners",
+    "test-driven development",
+    "regression testing",
+    "test plans and infrastructure",
+    "customer deployments"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "Linux",
+    "behavior trees",
+    "state machines",
+    "task planners",
+    "MoveIt",
+    "kinematics",
+    "motion planning",
+    "CI/CD",
+    "test-driven development",
+    "regression testing",
+    "simulation",
+    "mobile manipulation",
+    "customer deployments"
+  ],
+  "required_skills": [
+    "Python",
+    "Linux",
+    "state machines",
+    "behavior trees",
+    "task planners",
+    "robot skill API workflows",
+    "simulation and hardware validation",
+    "test plans and infrastructure",
+    "regression testing"
+  ],
+  "preferred_skills": [
+    "MoveIt",
+    "motion planning",
+    "kinematics",
+    "robot manipulation",
+    "test-driven development",
+    "CI/CD",
+    "mobile manipulation",
+    "customer deployments"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "develop production robot skills",
+    "script behaviors with behavior trees/state machines/task planners",
+    "build workflows on skill API",
+    "define test plans and validate in sim and on hardware",
+    "recreate failures from logs as repeatable tests",
+    "occasional customer-site deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Salem, OR (onsite, min 4 days/week)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Hands-on hardware iteration on a real arm: COFFIN capstone (Jetson+Arduino, 10/10 pick reliability, ToF-gated contact-aware grasp) and physical UR5e pick-and-place via UR ROS 2 driver",
+      "Manipulation fundamentals: hand-derived DH/FK for 6-DoF UR5e and 5-DoF AL5B validated against MoveIt/RViz; two-link IK in C++ on Arduino",
+      "Root-cause debugging on hardware: 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)'",
+      "Python and Linux are solid: Flask-SocketIO server, multiprocessing capture pipeline, systemd service with restart backoff on headless Jetson"
+    ],
+    "real_gaps": [
+      "No behavior-tree or task-planner authoring anywhere in the profile",
+      "No test-plan, regression-suite, TDD or CI/CD work; only Git/GitLab for version control",
+      "No customer-site or production deployment, no fleet reliability ownership",
+      "No mobile manipulation or humanoid exposure; arm and holonomic base never combined",
+      "No reusable skill-library or skill-API design; the WebSocket arm bridge is a one-off system",
+      "Seniority: role asks 2+ years; profile is capstone/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "CI/CD counted Adjacent via Git/GitLab, but that is version control only, no pipelines",
+      "simulation validation counted Adjacent via RViz/CARLA, but RViz is visualization and CARLA was training-data generation, not sim-gating of robot skills before hardware",
+      "state machines counted Have, but the evidence is low-level (encoder transition decoding, motor fail-safe), not behavior-level sequencing",
+      "motion planning counted Adjacent, but MoveIt was used to plan and validate; no planner or constraint work of your own"
+    ],
+    "understated_by_keywords": [
+      "COFFIN ToF range-gate then gripper-ToF-triggered close at 25 mm is a sensor-gated grasp sequence, the closest thing to a skill with preconditions and failure handling",
+      "COFFIN failure log (11 integration failures root-caused and fixed) maps directly to 'root-cause failures and improve behaviors'",
+      "10/10 trial reliability and AL5B <2 mm repeatability over 10 trials show a measure-it-on-hardware habit that matches 'validate behaviors meet performance requirements'"
+    ],
+    "screening_gaps": [
+      "No behavior tree, state machine or task planner used to script robot behaviors at skill level; this is the core of the Skills team job",
+      "No test infrastructure: no automated regression tests, TDD, or CI, and no practice of turning logged failures into repeatable tests",
+      "No production or customer-site deployment experience and no mobile manipulation, against a 2+ year ask"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The hardware and manipulation half of the role is well backed: real arms, MoveIt/kinematics, and documented failure root-causing. The scripting-framework half (behavior trees, task planners, skill API) and the test-infrastructure half (regression, TDD, CI) have no direct backing. Reachable at the I level if the hardware debugging story leads, but expect a screen on behavior-tree and testing depth.",
+    "calibration_delta": -7.0
+  }
+}

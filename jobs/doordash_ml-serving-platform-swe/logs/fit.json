@@ -1,0 +1,142 @@
+{
+  "company": "DoorDash",
+  "company_slug": "doordash",
+  "role": "Software Engineer, ML Serving Platform",
+  "job_slug": "ml-serving-platform-swe",
+  "match_pct": 52.0,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 25,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C++",
+    "GPU",
+    "CPU",
+    "Inference Runtimes",
+    "Model Deployment",
+    "CPU/GPU Profiling",
+    "Benchmarking",
+    "Open Source Model Integration",
+    "Computer Science Degree"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Concurrency",
+      "you_have": "FreeRTOS / MPI"
+    },
+    {
+      "jd_skill": "Networking",
+      "you_have": "WebSocket / Flask services"
+    },
+    {
+      "jd_skill": "Distributed Systems",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "ML Inference Infrastructure",
+      "you_have": "TensorRT on Jetson"
+    },
+    {
+      "jd_skill": "Self-serve Developer Platforms",
+      "you_have": "Flask API"
+    },
+    {
+      "jd_skill": "API",
+      "you_have": "Flask API"
+    }
+  ],
+  "missing_skills": [
+    "Kubernetes",
+    "Online Feature Retrieval",
+    "Autoscaling",
+    "Distributed Tracing",
+    "Request Routing",
+    "On-call",
+    "Production Services",
+    "Debugging Production Systems",
+    "Java/Kotlin/Go"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Kubernetes",
+    "GPU",
+    "CPU",
+    "distributed systems",
+    "concurrency",
+    "networking",
+    "inference",
+    "model deployment",
+    "feature retrieval",
+    "autoscaling",
+    "profiling",
+    "benchmarking",
+    "tracing",
+    "metrics",
+    "on-call",
+    "open source",
+    "self-serve",
+    "API",
+    "request routing",
+    "latency"
+  ],
+  "required_skills": [
+    "Python",
+    "C++",
+    "Distributed Systems",
+    "Concurrency",
+    "Networking",
+    "Production Services",
+    "Debugging Production Systems",
+    "Computer Science Degree"
+  ],
+  "preferred_skills": [
+    "ML Inference Infrastructure",
+    "Online Feature Retrieval",
+    "Kubernetes",
+    "Self-serve Developer Platforms",
+    "Open Source Model Integration",
+    "CPU/GPU Profiling",
+    "Inference Runtimes",
+    "Model Deployment"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Self-serve model deployment tooling",
+    "Request routing and online feature retrieval",
+    "CPU/GPU inference",
+    "Kubernetes deployment and autoscaling",
+    "Benchmarking, profiling, tracing",
+    "On-call and runbooks"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

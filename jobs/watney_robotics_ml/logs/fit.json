@@ -1,0 +1,161 @@
+{
+  "company": "Watney Robotics",
+  "company_slug": "watney-robotics",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 84.0,
+  "score_detail": {
+    "have_count": 18,
+    "adjacent_count": 6,
+    "missing_count": 1,
+    "jd_ask_size": 25,
+    "req_cov": 0.833,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "real-world data",
+    "control",
+    "data curation",
+    "data cleaning",
+    "robotics",
+    "video data",
+    "Computer Vision",
+    "Model Training",
+    "Machine Learning",
+    "CUDA",
+    "TensorRT",
+    "ROS2",
+    "Edge AI",
+    "C/C++",
+    "YOLO",
+    "OpenCV"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "imitation learning",
+      "you_have": "robotics/perception/visual servoing"
+    },
+    {
+      "jd_skill": "reinforcement learning",
+      "you_have": "CARLA autonomous driving / robotics"
+    },
+    {
+      "jd_skill": "production ML code",
+      "you_have": "research/capstone ML deployment"
+    },
+    {
+      "jd_skill": "teleoperations",
+      "you_have": "voice-controlled robotic arm (COFFIN)"
+    },
+    {
+      "jd_skill": "Production ML",
+      "you_have": "ML model optimization & edge deployment"
+    },
+    {
+      "jd_skill": "fleet data pipeline",
+      "you_have": "LeRobot data collection pipeline"
+    }
+  ],
+  "missing_skills": [
+    "fleet data pipeline"
+  ],
+  "top_ats_keywords": [
+    "Machine Learning",
+    "PyTorch",
+    "Python",
+    "Imitation Learning",
+    "Reinforcement Learning",
+    "Robotics",
+    "Computer Vision",
+    "Data Curation",
+    "Model Training",
+    "Production ML"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "real-world data",
+    "imitation learning",
+    "reinforcement learning",
+    "control",
+    "data curation",
+    "data cleaning",
+    "production ML code"
+  ],
+  "preferred_skills": [
+    "video data",
+    "fleet data pipeline",
+    "teleoperations",
+    "robotics"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "new-grad",
+  "key_responsibilities": [
+    "Run and evaluate training experiments as we scale our models",
+    "Curate and clean the data those experiments train on",
+    "Help evolve how we label and structure new data",
+    "Track the metrics that separate a model that helps from one that doesn't",
+    "Work with Teleoperations to understand and improve the data at its source"
+  ],
+  "role_category": "ML Engineering / Robotics",
+  "location": "San Francisco",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 78,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Training experiment design & evaluation across 7+ projects: custom CUDA kernels (VGG16, 35% speedup), SLM quantization benchmarking (HellaSwag/GSM8K/ARC), CARLA YOLO11n/UFLD (mAP50~0.85), BraTS U-Net (Dice/IoU), COFFIN ASR Transformer (15% WER), GPT-2 from scratch (perplexity), Tusk YOLOv8n (83% mAP)",
+      "Real-world data curation & cleaning at scale: CARLA auto-generation pipeline (8000 frames, zero manual annotation), COFFIN LeRobot multi-camera multiprocessing collection, BARC wavelet denoising + image stitching (PSNR 86), IIT Bombay DONUT preprocessing (55%\u219293%), Tusk 1133-image annotation, Teesside BraTS 3D volumetric augmentation",
+      "Metrics-driven model evaluation: consistent use of domain-appropriate metrics (mAP, Dice, IoU, PSNR, WER, perplexity, latency, collision rate) across every ML project; COFFIN 100% pick reliability (10/10), CARLA zero collisions across laps, SLM <1% accuracy drop"
+    ],
+    "real_gaps": [
+      "No fleet-scale data pipeline \u2014 LeRobot collection is single-robot research, not multi-robot fleet ingestion",
+      "No explicit imitation learning for robotics control \u2014 CARLA autonomous driving uses behavioral cloning adjacent, but not IL for manipulation/teleop",
+      "No reinforcement learning for control \u2014 adjacent via CARLA/control stacks but no RL policy training",
+      "Production ML code scope is capstone/research, not fleet production deployment"
+    ],
+    "overstated_by_keywords": [
+      "production ML code \u2014 research/capstone deployment only",
+      "fleet data pipeline \u2014 single-robot LeRobot only",
+      "imitation learning \u2014 adjacent via CARLA behavioral cloning, not explicit",
+      "reinforcement learning \u2014 not directly evidenced"
+    ],
+    "understated_by_keywords": [
+      "Custom CUDA kernel engineering (memory coalescing, constant memory, preallocated buffers) \u2014 significant for ML systems performance",
+      "Transformer architecture from scratch (GPT-2, ASR decoder with cross-attention) \u2014 deep modeling understanding",
+      "Custom Cython-accelerated BPE tokenizer (4-5.5x speedup) \u2014 data pipeline engineering",
+      "Systemd service deployment, XRDP, static IP networking on headless Jetson \u2014 production Linux/embedded ops",
+      "Multi-camera LeRobot-structured data collection with multiprocessing \u2014 modern robotics data format",
+      "End-to-end integration: resolved 11 failures, achieved 100% reliability \u2014 systems debugging"
+    ],
+    "screening_gaps": [
+      "No fleet-scale data pipeline experience \u2014 core to the role's 'live fleet produces large volumes of video'",
+      "No explicit imitation learning or RL for robotics control \u2014 JD centers on 'imitation learning toward broader generalization'",
+      "Production scope gap \u2014 profile is capstone/research/internship; role expects production ownership"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Strong evidence for training experimentation, data curation, and metrics-driven evaluation \u2014 the three largest day-to-day responsibilities. The gaps (fleet scale, explicit IL/RL, production scope) are real but learnable for a new-grad; the profile shows deep systems integration ability (COFFIN 11-fix integration, CUDA kernels, custom tokenizers) that transfers to scaling pipelines. Recommend apply with interview prep focused on fleet-data architecture and IL/RL theory.",
+    "calibration_delta": 6.0
+  }
+}

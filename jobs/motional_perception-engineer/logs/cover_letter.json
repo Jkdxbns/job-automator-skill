@@ -1,0 +1,15 @@
+{
+  "name": "Justin Mascarenhas",
+  "email": "jmascarenhas1998@gmail.com",
+  "linkedin": "linkedin.com/in/justinmascarenhas",
+  "company": "Motional",
+  "role": "Perception Engineer",
+  "greeting": "Dear Hiring Team,",
+  "body": [
+    "I recently graduated with an M.S. in Computer Engineering from the Rochester Institute of Technology, where my work centered on training perception models and then making them fast enough to run on the vehicle. That combination is what draws me to this role: the posting asks for model deployment, inference optimization with TensorRT and CUDA, and integration and validation for robotics, and those are the three things my last two years have actually consisted of.",
+    "My closest work to what this team does is an autonomous driving stack I built in CARLA. I trained YOLO11n to roughly 0.85 mAP@50 for object detection and fine-tuned a UFLD lane detection model on a ResNet-18 backbone using SoftmaxFocalLoss and ParsingRelationLoss, then integrated both into an adaptive lane-following control stack with waypoint fallback. To get the training data I built an automated generation pipeline off CARLA's semantic segmentation and raycast occlusion filtering, which produced about 5,000 detection frames and 3,000 lane frames with zero manual annotation. I validated the result in Town02 against 30 vehicles and 10 pedestrians and got zero collisions with correct traffic light compliance across multiple laps. That covers the full loop this role describes: formulate the problem, train the model, integrate it, and prove it holds up in closed loop.",
+    "On acceleration, my M.S. capstone at RIT put a TensorRT-optimized YOLO model into a real-time visual servoing pipeline on Jetson and cut inference from 56.7 ms to 10.9 ms, a 5.2x speedup over eager PyTorch that moved the pipeline from 17.6 to 92 FPS. I then debugged it through 11 distinct integration failures, including false-positive detections and stale-frame capture, to reach 100% pick reliability across 10 trials. I have also gone a level below the framework: for a VGG16 inference project I replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing, constant memory, and preallocated buffers, bringing inference to 49.2 ms against 73.3 ms uncoalesced and 77.5 ms on CPU with identical classification accuracy. Analyzing where a model is actually losing time, and fixing it in the kernel rather than around it, is the part of this work I am best at.",
+    "I would welcome the chance to talk through any of this with your team, and I am happy to walk through the CARLA stack or the TensorRT profiling work in more detail."
+  ],
+  "sign_off": "Sincerely,"
+}

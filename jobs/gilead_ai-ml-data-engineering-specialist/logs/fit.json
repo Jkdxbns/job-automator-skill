@@ -1,0 +1,114 @@
+{
+  "company": "Gilead Sciences",
+  "company_slug": "gilead",
+  "role": "IT AI/ML Data Engineering Specialist, US Commercial",
+  "job_slug": "ai-ml-data-engineering-specialist",
+  "match_pct": 46.9,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 6,
+    "jd_ask_size": 16,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Machine Learning",
+    "LLM Testing",
+    "AI Model Experimentation",
+    "Python",
+    "Root Cause Analysis"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Prompt Engineering",
+      "you_have": "LLM fine-tuning / Gemini use"
+    },
+    {
+      "jd_skill": "Feature Engineering",
+      "you_have": "scikit-learn / Pandas"
+    },
+    {
+      "jd_skill": "Data Engineering",
+      "you_have": "Pandas / NumPy pipelines"
+    },
+    {
+      "jd_skill": "Executive Dashboards",
+      "you_have": "Matplotlib / Flask GUIs"
+    },
+    {
+      "jd_skill": "Statistics",
+      "you_have": "Random Signal Analysis"
+    }
+  ],
+  "missing_skills": [
+    "Harness Engineering",
+    "Process Discovery / Process Design",
+    "Workflow Documentation",
+    "Vendor Management",
+    "Commercial Domain",
+    "Portfolio Tracking"
+  ],
+  "top_ats_keywords": [
+    "AI/ML",
+    "LLM",
+    "prompt engineering",
+    "data engineering",
+    "feature engineering",
+    "experimentation",
+    "dashboards",
+    "process design",
+    "root cause analysis",
+    "data science",
+    "statistics"
+  ],
+  "required_skills": [
+    "Machine Learning",
+    "Prompt Engineering",
+    "LLM Testing",
+    "AI Model Experimentation",
+    "Feature Engineering",
+    "Process Design",
+    "Workflow Documentation",
+    "Executive Dashboards",
+    "Vendor Management",
+    "Statistics"
+  ],
+  "preferred_skills": [
+    "Commercial Operations"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "prompt/context/harness engineering",
+    "process discovery",
+    "commercial SME",
+    "future-state AI workflows",
+    "validate vs regulatory requirements",
+    "troubleshooting and RCA",
+    "portfolio tracking and executive dashboards"
+  ],
+  "role_category": "ml_systems",
+  "location": "Raleigh, NC (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

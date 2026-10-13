@@ -1,0 +1,47 @@
+{
+  "company": "micro1",
+  "company_slug": "micro1",
+  "role": "Hardware Engineer, Robotics Lab",
+  "job_slug": "hardware-engineer-robotics-lab",
+  "match_pct": 66.7,
+  "missing_skills": [
+    "C#",
+    "Docker",
+    "teleoperation systems",
+    "real-time video streaming (WebRTC/RTSP/FFmpeg/GStreamer/HLS)",
+    "cloud storage (AWS S3 / Cloudflare R2)"
+  ],
+  "adjacent_skills": [
+    "vendor SDK / hardware API integration",
+    "networking fundamentals (TCP/IP, SSH, VPNs, REST/gRPC, WebSockets)",
+    "multimodal sensor integration & calibration (RGB/depth/stereo/IMU)"
+  ],
+  "top_ats_keywords": [
+    "ROS 2",
+    "teleoperation",
+    "WebRTC",
+    "GStreamer",
+    "real-time video streaming",
+    "multimodal sensor calibration",
+    "Docker",
+    "TCP/IP",
+    "AWS S3",
+    "C++"
+  ],
+  "key_responsibilities": [
+    "Bring up and maintain robotic platforms (humanoids, manipulators, mobile robots, custom end effectors)",
+    "Build ROS 2 / hardware SDK / custom control interface integrations",
+    "Design multimodal data collection pipelines (RGB, depth, IMU, force/torque, joint telemetry)",
+    "Build low-latency teleoperation systems",
+    "Build/optimize real-time video streaming infra (WebRTC, RTSP, FFmpeg, GStreamer, HLS)",
+    "Integrate, synchronize, calibrate perception hardware (RealSense, OAK-D, ZED, FLIR, GigE, USB)",
+    "Diagnose hardware/networking/system issues across lab and remote deployments",
+    "Improve developer tooling, automation, documentation"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

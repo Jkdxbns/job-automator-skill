@@ -1,0 +1,46 @@
+{
+  "company": "Vokram",
+  "company_slug": "vokram",
+  "role": "AI Forward Deployment Engineer",
+  "job_slug": "ai-forward-deployment-engineer",
+  "match_pct": 75,
+  "missing_skills": [
+    "Customer-facing / on-site client interaction and requirements gathering",
+    "Production ML deployment with containerization or orchestration (Docker/Kubernetes)",
+    "Monitoring & incident response tooling / formal runbook authoring"
+  ],
+  "adjacent_skills": [
+    "Troubleshooting (deep embedded/CUDA debugging) -> not the same as live customer technical support",
+    "Networking/API integration (TCP, WebSocket, REST/Flask) -> adjacent to secure service integration",
+    "Edge AI deployment (Jetson + TensorRT) -> adjacent to 'production ML deployment' but not containerized/cloud"
+  ],
+  "top_ats_keywords": [
+    "Linux",
+    "API",
+    "deployment",
+    "containerization",
+    "orchestration",
+    "troubleshooting",
+    "customer-facing",
+    "documentation",
+    "monitoring",
+    "incident response",
+    "AI safety",
+    "multi-agent systems"
+  ],
+  "key_responsibilities": [
+    "Deploy, configure, and maintain AI systems in production-like environments",
+    "Diagnose and resolve technical issues directly alongside customers",
+    "Integrate AI components with existing customer infrastructure",
+    "Create documentation and runbooks",
+    "Implement monitoring and incident response procedures",
+    "Iterate on deployment pipelines for reliability and scalability",
+    "Relay customer feedback to development teams"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

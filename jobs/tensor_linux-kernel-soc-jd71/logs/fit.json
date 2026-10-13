@@ -1,0 +1,109 @@
+{
+  "company": "Tensor",
+  "company_slug": "tensor",
+  "role": "Linux Kernel Engineer - SoC Optimization",
+  "job_slug": "linux-kernel-soc-jd71",
+  "match_pct": 17.6,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 13,
+    "jd_ask_size": 17,
+    "req_cov": 0.444,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "computer architecture",
+    "low-level software debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "perf",
+      "you_have": "profiling and benchmarking (Nsight)"
+    },
+    {
+      "jd_skill": "operating system principles",
+      "you_have": "RTOS"
+    }
+  ],
+  "missing_skills": [
+    "Linux kernel subsystems",
+    "hypervisor",
+    "systemtap",
+    "eBPF",
+    "power optimization",
+    "upstream kernel patches",
+    "KVM",
+    "QEMU",
+    "Xen",
+    "virtIO",
+    "QNX Hypervisor BSP",
+    "containers",
+    "virtualization"
+  ],
+  "top_ats_keywords": [
+    "Linux kernel",
+    "hypervisor",
+    "BSP",
+    "perf",
+    "eBPF",
+    "systemtap",
+    "KVM",
+    "QEMU",
+    "Xen",
+    "virtIO",
+    "QNX",
+    "Android"
+  ],
+  "required_skills": [
+    "computer architecture",
+    "operating system principles",
+    "Linux kernel subsystems",
+    "hypervisor",
+    "low-level software debugging",
+    "perf",
+    "systemtap",
+    "eBPF",
+    "power optimization"
+  ],
+  "preferred_skills": [
+    "upstream kernel patches",
+    "Xen",
+    "KVM",
+    "QEMU",
+    "virtIO",
+    "QNX Hypervisor BSP",
+    "containers",
+    "virtualization"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "domain controller hypervisor",
+    "kernel performance analysis",
+    "power optimization"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Jose, CA, US (also Barcelona, Singapore, Dubai)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

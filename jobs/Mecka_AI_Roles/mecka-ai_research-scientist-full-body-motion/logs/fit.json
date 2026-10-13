@@ -1,0 +1,134 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Scientist \u2013 Full Body Motion",
+  "job_slug": "research-scientist-full-body-motion",
+  "match_pct": 52.2,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 23,
+    "req_cov": 0.4,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python / PyTorch",
+    "ROS / ROS2",
+    "C/C++",
+    "CUDA / GPU",
+    "NVIDIA Jetson / Edge AI",
+    "TensorRT",
+    "OpenCV",
+    "YOLO / object detection",
+    "Quantization / 8-bit",
+    "Embedded / bare-metal"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Generative motion / generative controllers / tokenisation",
+      "you_have": "Transformer / attention / generative ML (not motion-specific)"
+    },
+    {
+      "jd_skill": "Physics-based control / RL / simulation tracking",
+      "you_have": "Closed-loop control / robotics control (not humanoid simulation RL)"
+    },
+    {
+      "jd_skill": "Body kinematics / retargeting",
+      "you_have": "Basic robotics kinematics"
+    },
+    {
+      "jd_skill": "Noisy real-world data / benchmarking",
+      "you_have": "Model evaluation / benchmarking experience"
+    }
+  ],
+  "missing_skills": [
+    "PhD or equivalent published research record (SIGGRAPH / CVPR / NeurIPS / ICLR / CoRL publications)",
+    "Diffusion / autoregressive / masked motion models on mocap-scale data",
+    "Isaac Gym / Isaac Lab / MuJoCo experience",
+    "DeepMimic / AMP / MaskedMimic physics-based humanoid control",
+    "SMPL-X / MHR / SOMA-X body model expertise",
+    "Contact-aware solver / ground-contact physics modeling",
+    "Motion cleanup / denoising of motion capture",
+    "Large-scale motion tokenisation / reusable generative motion priors",
+    "Shipped research model into production / MHR tooling familiarity"
+  ],
+  "top_ats_keywords": [
+    "SIGGRAPH",
+    "CVPR",
+    "ICCV",
+    "ECCV",
+    "NeurIPS",
+    "ICLR",
+    "CoRL",
+    "diffusion",
+    "autoregressive",
+    "masked",
+    "mocap",
+    "Isaac Gym",
+    "Isaac Lab",
+    "MuJoCo",
+    "DeepMimic",
+    "AMP",
+    "MaskedMimic",
+    "SMPL-X",
+    "MHR",
+    "SOMA-X",
+    "PyTorch",
+    "reinforcement learning",
+    "physics-based",
+    "contact",
+    "ground plane",
+    "generative motion",
+    "full-body pose",
+    "egocentric",
+    "ego-exo"
+  ],
+  "required_skills": [
+    "Physics-based character animation / human motion generation / 3D human pose and shape (PhD or equivalent body of work, publications at SIGGRAPH / SIGGRAPH Asia / CVPR / ICCV / ECCV / NeurIPS / ICLR / CoRL)",
+    "Generative motion models (trained diffusion, autoregressive or masked motion models on mocap-scale data, conditioned on constraints)",
+    "Physics-based control (motion imitation and tracking for simulated humanoids in DeepMimic / AMP / MaskedMimic lineage; comfortable in Isaac Gym / Isaac Lab or MuJoCo; reinforcement learning at scale)",
+    "Body models and kinematics (SMPL-X, MHR or SOMA-X; retargeting; contact and collision modelling)",
+    "Clean PyTorch research code and ability to work on noisy, real, large-scale data"
+  ],
+  "preferred_skills": [
+    "Egocentric or partial-observation full-body estimation (head- and hand-tracking to body)",
+    "Human\u2013scene interaction and contact: scene-aware motion synthesis, volumetric body models",
+    "Motion cleanup or denoising of estimated or corrupted motion",
+    "Reusable motion priors for control, generative controllers, or large-scale motion tokenisation",
+    "Shipped a research model into a product or a game engine; familiarity with Momentum / MHR tooling"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Build a generative full-body motion prior conditioned on partial egocentric evidence (metric camera trajectory, hand/wrist poses, upper-body keypoints, 2D leg detections)",
+    "Make the output physically consistent via physics-based tracking/imitation in simulation or contact-aware optimisation (ground contact, no penetration, no foot skate, plausible balance, floor work)",
+    "Report per-frame foot/body contact and ground plane with calibrated confidence",
+    "Deliver MHR / SOMA-X native output with pose priors/constraints for the production solver",
+    "Define lower-body/feet/contact metrics, commission captures, and hand off a runnable model to the production pod"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "company": "Entrust",
+    "role": "Firmware Engineer II",
+    "company_slug": "entrust",
+    "job_slug": "firmware_engineer_ii"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "email": "jmascarenhas1998@gmail.com",
+    "phone": "585-303-1045",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with strong embedded systems and real-time firmware experience. Developed production-grade embedded systems using C/C++, FreeRTOS, and real-time control on STM32 and NVIDIA Jetson platforms. Proficient in motor control, sensor integration (UART/I2C/SPI), and hardware-software integration with demonstrated expertise in debugging complex embedded systems.",
+  "skills": {
+    "Embedded Systems & Firmware": [
+      "C/C++",
+      "embedded",
+      "firmware",
+      "STM32 Bare-Metal C",
+      "FreeRTOS",
+      "real-time",
+      "RTOS"
+    ],
+    "Hardware Integration & Control": [
+      "motor control",
+      "sensors",
+      "UART/I2C/SPI",
+      "PWM control",
+      "GPIO",
+      "ADC",
+      "servo control"
+    ],
+    "Tools & Platforms": [
+      "git",
+      "Arduino",
+      "Raspberry Pi",
+      "Proteus",
+      "EAGLE PCB Design",
+      "Linux",
+      "CMake"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via real-time signal processing.",
+        "Implemented custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning for robust real-time operation."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led 25-member robotics team owning mechanical design, PCB fabrication, and firmware integration; designed and fabricated custom single-layer PCBs in EAGLE for 10+ robot platforms.",
+        "Implemented sensor communication protocols (UART, I2C) with closed-loop feedback on Arduino-based motor control systems for real-time locomotive robot operation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2013 MS Capstone",
+      "date": null,
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) through hardware-software integration debugging on Jetson+Arduino distributed system.",
+        "Built real-time vision-guided pick-and-place system: Implemented two-link inverse kinematics in Arduino C++, drove five servos via PWM with range-gated contact detection using dual VL53L0X ToF sensors via TCA9548A I2C mux.",
+        "Integrated real-time sensor fusion pipeline (faster-whisper STT, Gemini classification, TensorRT-optimized YOLO 5.2\u00d7 speedup) with servo control achieving 11.5s end-to-end voice-to-pick latency."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control on STM32 with interrupt-driven UART command handling and real-time sensor coordination using FreeRTOS mutexes for shared-memory task synchronization.",
+        "Integrated YOLOv8 object detection on NVIDIA Jetson with real-time servo motor feedback control and VL53L0X ToF distance sensing for autonomous tracking."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Programmed Cortex-M4 peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM footprint with deterministic 1 Hz real-time update rate.",
+        "Implemented timer-triggered ADC conversions with interrupt-driven sample capture and low-level I2C driver for temperature sensor communication; verified functionality in Proteus simulation and on hardware."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Multiple Processor Systems",
+        "Robot Perception",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection (2023)"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "company": "Mevion Medical Systems",
+    "role": "Software Engineering Support Specialist",
+    "company_slug": "mevion",
+    "job_slug": "software-engineering-support-specialist"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on experience building and maintaining Linux based systems, embedded hardware, and engineering documentation, including a medical imaging research project on MRI data. Deployed and maintained a production Linux service with signal handling and automatic recovery, used Git for version control and technical documentation, and produced BOMs and claims documentation during hardware focused internships. Comfortable working in Python and C/C++ from the command line to configure, test, and troubleshoot software and hardware platforms.",
+  "skills": {
+    "Languages & Systems": ["Python", "C/C++", "Linux"],
+    "Embedded & Hardware": ["STM32 (Bare-Metal C)", "GPIO/I2C/UART", "Proteus", "Jetson", "Arduino"],
+    "ML / Data": ["Medical Imaging (MRI)", "YOLOv8", "ONNX/TFLite"],
+    "Tools & Documentation": ["Git/GitLab", "Technical Documentation", "Bill of Materials (BOM)"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Architected a Mixed Reality headset concept using AI based real time chroma keying without a green screen; produced full claims documentation and Bill of Materials (BOM).",
+        "Developed a wearable gesture recognition glove for hands free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 - May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 - Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi modal MRI dataset with medical imaging augmentation and batch loading memory management for large scale 3D volumetric inputs.",
+        "Led a cross cultural team of seven as the sole ML experienced student; took over as team lead mid project to restructure task distribution and deliver the full pipeline within the six week window."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom toothbrush detection dataset for health level classification using YOLOv8.",
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP at 50 on held out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a voice-controlled, vision-guided robotic pick-and-place system across a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Resolved 11 integration failures spanning false positive detections, servo brown-out, and stale frame capture; achieved 100% pick reliability (10/10 trials) at approximately 11.5 seconds end to end voice to picked latency.",
+        "Implemented two-link inverse kinematics on Arduino in C++; drove five servos with range gated contact detection."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 temperature monitoring firmware in embedded C with timer synchronized sensing and real time display.",
+        "Programmed peripherals directly in bare metal C (GPIO, TIM2, ADC1, I2C1); achieved a deterministic 1 Hz update rate and verified functionality in Proteus."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

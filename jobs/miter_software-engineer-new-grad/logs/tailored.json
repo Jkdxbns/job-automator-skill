@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "company": "Miter",
+    "role": "Software Engineer (New Grad)",
+    "company_slug": "miter",
+    "job_slug": "software-engineer-new-grad"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "location": "Arlington, TX 76015",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns"
+  },
+  "summary": "M.S. Computer Engineering, RIT. Built full-stack systems (Flutter/Flask/WebSocket, systemd, CI/CD) and high-performance inference pipelines; strong Python/C++/CUDA foundation applied to collaborative engineering projects.",
+  "skills": {
+    "Full-Stack & Web Engineering": [
+      "Python",
+      "C/C++",
+      "Flask",
+      "WebSocket / real-time communication",
+      "Systemd deployment",
+      "GitLab CI",
+      "Frontend / UI (PyQt, Flutter)",
+      "Full-stack architecture"
+    ],
+    "Engineering & Problem Solving": [
+      "Problem-solving",
+      "Algorithm design",
+      "Performance optimization",
+      "Real-time data pipelines",
+      "System design",
+      "Technical documentation"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Built a Python GUI with PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment (full-stack Python).",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation (documentation, collaboration, CI-adjacent)."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Architected wearable gesture glove with ADXL345 + Raspberry Pi + HC-05 Bluetooth, translating motion to HID commands via Python (real-time sensor pipeline, embedded/full-stack integration)."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Improved validation accuracy 55% \u2192 93% through preprocessing and model tuning (metric: 38-point gain, problem-solving)."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Led a cross-cultural team of 7 as the sole ML-experienced student, restructuring task distribution to deliver a full MRI segmentation pipeline within a 6-week window (team leadership, collaboration, ownership).",
+        "Engineered data pipeline with memory management for 3D volumetric MRI inputs; evaluated U-Net and ResNet backbones on Dice/IoU (pipeline, evaluation, documentation)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built full-stack distributed pipeline: Flutter client, Flask-SocketIO server, Jetson+Arduino controller via WebSocket fabric (TypeScript-adjacent full-stack, real-time).",
+        "STT + intent classification + TensorRT vision with dual ToF sensors and range-gated grasping (real-time, performance optimization).",
+        "Deployed with systemd service, static IP, non-root isolation; GitLab CI for version control (deployment reliability, DevOps-adjacent)."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (LLM.int8) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil (performance optimization, profiling).",
+        "Benchmarked across HellaSwag, GSM8K, and ARC with <1% accuracy degradation \u2014 near-lossless compression demonstrating engineering trade-off analysis (metric: 55% memory reduction, metric: <1% accuracy loss)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

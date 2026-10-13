@@ -1,0 +1,134 @@
+{
+  "company": "NBCUniversal (Universal Creative / Universal United Kingdom Resort)",
+  "company_slug": "nbcuniversal",
+  "role": "Controls Engineer",
+  "job_slug": "controls-engineer",
+  "match_pct": 39.5,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 5,
+    "missing_count": 9,
+    "jd_ask_size": 19,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Bachelor's degree in technical field",
+    "Technical diagram and specification interpretation",
+    "Problem definition, data collection and analysis",
+    "Engineering drafting / CAD (SolidWorks, EAGLE PCB)",
+    "Component selection / BOM"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Ride Control Systems",
+      "you_have": "Closed-loop feedback control on STM32 (PWM, quadrature encoders)"
+    },
+    {
+      "jd_skill": "Show Control Systems",
+      "you_have": "Real-time embedded systems (FreeRTOS, state machines)"
+    },
+    {
+      "jd_skill": "Acceptance testing",
+      "you_have": "Benchmarking and bench validation of embedded/ML systems"
+    },
+    {
+      "jd_skill": "Test protocol / procedure development",
+      "you_have": "Validation test scripts and benchmark protocols"
+    },
+    {
+      "jd_skill": "Engineering and Safety / EHS compliance",
+      "you_have": "Safety interlock design (ToF-triggered gating, COFFIN)"
+    }
+  ],
+  "missing_skills": [
+    "Vendor management",
+    "Contract management / vendor contract establishment",
+    "Schedule analysis",
+    "Budget management",
+    "Bid/award process and scope generation",
+    "Change order processing",
+    "Commissioning and start-up (field)",
+    "Vendor design review document review process",
+    "Theme park / attractions ride and show industry experience"
+  ],
+  "top_ats_keywords": [
+    "Ride Control",
+    "Show Control",
+    "controls engineer",
+    "vendor management",
+    "contract management",
+    "schedule analysis",
+    "acceptance testing",
+    "commissioning",
+    "design review",
+    "test protocols",
+    "test plans",
+    "specification",
+    "bid/award",
+    "scope generation",
+    "change order",
+    "drafting",
+    "engineering calculation",
+    "Engineering and Safety",
+    "EHS",
+    "theme park attractions"
+  ],
+  "required_skills": [
+    "Bachelor's degree in technical field",
+    "Technical diagram and specification interpretation",
+    "Problem definition, data collection and analysis",
+    "Vendor management",
+    "Contract management",
+    "Schedule analysis",
+    "Organising and managing a complex series of tasks",
+    "Ride Control Systems",
+    "Show Control Systems"
+  ],
+  "preferred_skills": [
+    "Acceptance testing",
+    "Test protocol / procedure development",
+    "Vendor design review document review",
+    "Commissioning and start-up",
+    "Engineering calculation, design and drafting",
+    "Component selection review",
+    "Environmental Health & Safety compliance",
+    "Theme park / attractions ride and show engineering"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Technical support including budget and schedule for a contract or scope of work",
+    "Support specification, bid/award, design, production, installation and acceptance testing of Ride and/or Show systems",
+    "Manage vendors through bidding, design, manufacturing, testing, shipping, installation, start up and commissioning",
+    "Technical and project/contract management: scope generation, vendor contract establishment, directives, change orders",
+    "Translate creative intent into technical documents for bids and schedule lock-in",
+    "Engineering technical support: calculation, design, drafting, research",
+    "Review vendor design review documents: drawings, component selection, calculations, test plans and results",
+    "Review, edit or develop test protocols, procedures and plans; witness and approve testing",
+    "Participate in Environmental, Health & Safety responsibilities per UDX policy"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Bedford, United Kingdom (138 Cauldwell Street) - on-site",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

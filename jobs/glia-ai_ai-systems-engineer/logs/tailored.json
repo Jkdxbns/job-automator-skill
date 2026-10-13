@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "company": "Glia AI",
+    "role": "AI Systems Engineer",
+    "company_slug": "glia-ai",
+    "job_slug": "ai-systems-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology with hands-on experience in CUDA kernel optimization, GPU memory coalescing, and distributed computing on MPI and SLURM clusters. Built custom CUDA kernels that cut inference time by 35% versus a PyTorch baseline and applied 8-bit quantization to shrink LLM memory footprint by 55% with under 1% accuracy loss. Comfortable working the full stack from low-level kernel design to TensorRT-based inference deployment on edge hardware.",
+  "skills": {
+    "Languages & Systems": ["Python", "C/C++", "CUDA", "Cython", "Bash"],
+    "ML / Deep Learning": ["PyTorch", "TensorRT", "Quantization (8-bit)", "pynvml Profiling", "Hugging Face Transformers"],
+    "Edge AI / CV / Speech": ["YOLO", "TensorRT", "faster-whisper", "ASR pipelines"],
+    "HPC / Parallel": ["CUDA C++", "MPI", "SLURM", "Memory coalescing", "Kernel optimization"],
+    "Tools": ["Linux", "Git", "Flask", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Improved validation accuracy from 55% to 93% by fine-tuning DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API; added domain-specific special tokens and resized the decoder embedding layer accordingly."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for edge inference deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Achieved 49.2ms inference versus 73.3ms uncoalesced and 77.5ms CPU TorchScript, a ~35% speedup, via custom CUDA C++ kernels using memory coalescing and constant memory for weights and biases.",
+        "Achieved 1.5–2× speedup in convolution operations through efficient global memory utilization with identical classification accuracy."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B, with under 1% accuracy degradation across HellaSwag, GSM8K, and ARC benchmarks.",
+        "Profiled peak VRAM and inference latency across prompt types using pynvml and psutil to evaluate efficiency versus task-performance trade-offs for edge deployment."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Achieved up to 10.49× speedup with 12 slave processes on a SLURM-managed cluster by distributing dendrite computations across MPI workers with synchronous soma updates.",
+        "Identified load imbalance effects showing up to 65% performance degradation under uneven work distribution; characterized scaling behavior across dendrite counts and compartment depths."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Achieved up to 30× speedup with static strip partitioning across 55 processes, benchmarking four parallel work distribution strategies for rendering 5000×5000 pixel scenes with MPI.",
+        "Showed dynamic task queue scheduling outperformed all static partitioning methods under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved a 5.2× inference speedup (56.7→10.9 ms, 17.6→92 FPS) via TensorRT-optimized YOLO for visual servoing versus an eager PyTorch baseline.",
+        "Built a three-layer distributed pipeline (Flutter client, Flask-SocketIO edge server, Jetson+Arduino controller) linked by a unified WebSocket fabric routing voice, vision, and control data in real time.",
+        "Resolved 11 integration failures; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Deep Learning", "Machine Intelligence"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

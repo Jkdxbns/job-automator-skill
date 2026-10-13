@@ -1,0 +1,133 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Research Engineer, Simulation & World Models",
+  "job_slug": "research-engineer-simulation-world-models",
+  "match_pct": 34.8,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 8,
+    "missing_count": 11,
+    "jd_ask_size": 23,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "GPU / CUDA",
+    "Embedded / robotics / perception"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Physics-based simulation (MuJoCo / Isaac Sim)",
+      "you_have": "Simulator and robotics environment experience"
+    },
+    {
+      "jd_skill": "Reinforcement learning / embodied AI",
+      "you_have": "Robotics and edge-AI deployment"
+    },
+    {
+      "jd_skill": "Learned dynamics / world models / hybrid physics-learning",
+      "you_have": "Deep-learning and model-optimization skills"
+    },
+    {
+      "jd_skill": "Simulation / training infrastructure at scale",
+      "you_have": "GPU pipeline and system-building"
+    },
+    {
+      "jd_skill": "Sim-to-real transfer",
+      "you_have": "None directly related"
+    },
+    {
+      "jd_skill": "GPU-accelerated simulation",
+      "you_have": "GPU kernel and inference optimization"
+    },
+    {
+      "jd_skill": "Sensors / robotics hardware",
+      "you_have": "Embedded sensor and actuator work"
+    },
+    {
+      "jd_skill": "Embodied AI / robotics",
+      "you_have": "Edge-AI and perception pipeline work"
+    }
+  ],
+  "missing_skills": [
+    "MuJoCo",
+    "Isaac Sim (or comparable physics engine keywords)",
+    "Reinforcement learning (RL, policy, reward, PPO, SAC) keywords",
+    "Learned dynamics / latent dynamics keywords",
+    "World-model / hybrid physics-learning keywords",
+    "System identification keywords",
+    "Domain randomization keywords",
+    "Sim-to-real transfer keywords",
+    "Differentiable simulation keywords",
+    "Synthetic data / policy-training pipeline keywords",
+    "Sensor dynamics / contact-modeling keywords"
+  ],
+  "top_ats_keywords": [
+    "MuJoCo",
+    "Isaac Sim",
+    "physics-based simulation",
+    "reinforcement learning",
+    "embodied AI",
+    "world models",
+    "Python",
+    "C++",
+    "simulation",
+    "sim-to-real",
+    "system identification",
+    "domain randomization",
+    "GPU-accelerated simulation",
+    "model-based reinforcement learning",
+    "robotics",
+    "sensors",
+    "dynamics",
+    "synthetic data",
+    "policy training"
+  ],
+  "required_skills": [
+    "Deep experience building physics-based simulation (MuJoCo, Isaac Sim)",
+    "Strong reinforcement learning and embodied AI fundamentals",
+    "Experience with learned dynamics / latent world models / hybrid physics-learning",
+    "Strong Python and C++ systems skills"
+  ],
+  "preferred_skills": [
+    "Simulation/training infrastructure used at scale",
+    "Demonstrated sim-to-real transfer (manipulation, locomotion, navigation)",
+    "Published/open-source work in world models, differentiable simulation, GPU-accelerated simulation, model-based RL"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build simulation environments (robots, sensors, contacts, dynamics)",
+    "Scale training workloads (parallel rollouts, synthetic data, policy training)",
+    "Improve physical fidelity / calibrate against measured data",
+    "Drive sim-to-real (system identification, domain randomization)",
+    "Develop world models (learned dynamics, hybrid physics-learning)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "New York",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

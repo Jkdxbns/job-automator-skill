@@ -1,0 +1,104 @@
+{
+  "company": "Column",
+  "company_slug": "column",
+  "role": "Software Engineer",
+  "job_slug": "swe",
+  "match_pct": 14.3,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 14,
+    "req_cov": 0.385,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "API"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Distributed systems",
+      "you_have": "MPI / SLURM (HPC)"
+    },
+    {
+      "jd_skill": "API design",
+      "you_have": "Flask / Flask-SocketIO"
+    }
+  ],
+  "missing_skills": [
+    "Payments processing",
+    "Real-time ledgering",
+    "Federal Reserve / real-time payment network integration",
+    "Event streaming",
+    "Change data capture",
+    "Authentication/authorization",
+    "Data pipelines",
+    "Observability",
+    "Backend engineering (production services)",
+    "SQL / relational databases",
+    "Financial infrastructure / regulated environment"
+  ],
+  "top_ats_keywords": [
+    "backend",
+    "distributed systems",
+    "payments",
+    "ledger",
+    "API",
+    "event streaming",
+    "change data capture",
+    "authentication",
+    "authorization",
+    "observability",
+    "fault tolerance",
+    "data pipelines",
+    "Federal Reserve"
+  ],
+  "required_skills": [
+    "Backend engineering",
+    "Distributed systems",
+    "Payments processing",
+    "Real-time ledgering",
+    "Federal Reserve / real-time payment network integration",
+    "API design",
+    "Data pipelines",
+    "Event streaming",
+    "Change data capture",
+    "Authentication/authorization",
+    "Observability",
+    "Fault tolerance / resiliency",
+    "Scalability"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Payments processing and real-time ledgering backend",
+    "Federal Reserve and real-time payment network integrations",
+    "APIs, services, data pipelines",
+    "Resiliency, scalability, observability",
+    "Auth, event streaming, CDC platform initiatives"
+  ],
+  "role_category": "ml_systems",
+  "location": "San Francisco, CA (Presidio, hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,146 @@
+{
+  "company": "Owl Autonomous Imaging",
+  "company_slug": "owl-ai",
+  "role": "Machine Learning System Engineer",
+  "job_slug": "machine-learning-system-engineer",
+  "match_pct": 53.3,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 10,
+    "missing_count": 9,
+    "jd_ask_size": 30,
+    "req_cov": 0.6,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "CUDA / GPU development",
+    "TensorRT / ONNX / edge optimization",
+    "Jetson / NVIDIA edge deployment",
+    "YOLO / object detection / CV",
+    "Transformer / vision models",
+    "Python / C++ programming",
+    "8-bit quantization / QAT",
+    "Embedded bare-metal C (STM32, FreeRTOS)",
+    "System profiling / benchmarking",
+    "ROS2 / robotics perception",
+    "PyTorch / deep learning framework"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CNN / transformer perception pipelines for real-time",
+      "you_have": "Transformer, YOLO, OpenCV, PyTorch"
+    },
+    {
+      "jd_skill": "Systems architecture / Agile execution",
+      "you_have": "ROS2 / multi-processor systems / SLURM-managed"
+    },
+    {
+      "jd_skill": "Configuration management multi-system",
+      "you_have": "Environment-based secrets/config separation"
+    },
+    {
+      "jd_skill": "Edge inference runtime / serving",
+      "you_have": "Edge AI deployment and optimization experience"
+    },
+    {
+      "jd_skill": "Production optimization / evaluation",
+      "you_have": "Benchmarking / profiling / model evaluation experience"
+    },
+    {
+      "jd_skill": "Multi-rate scheduling / robotics scheduling",
+      "you_have": "ROS2 robotics stack experience"
+    },
+    {
+      "jd_skill": "NVIDIA TensorRT / CUDA / Jetson SDK deep experience",
+      "you_have": "TensorRT, CUDA, Jetson SDK-level deployment"
+    },
+    {
+      "jd_skill": "FP16/INT8 quantization tradeoffs and calibration workflows",
+      "you_have": "Quantization (8-bit) and QAT experience"
+    },
+    {
+      "jd_skill": "Profiling (nsys / nvprof)",
+      "you_have": "GPU profiling / benchmarking"
+    },
+    {
+      "jd_skill": "Jetson Orin Nano hardware constraints",
+      "you_have": "General Jetson / NVIDIA embedded experience"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "3D/stereo vision and point-cloud processing (explicit)",
+    "DeepStream / GStreamer / VPI / libargus / V4L2 camera ingestion",
+    "nsys / nvprof profiling (explicit)",
+    "Multi-rate scheduling (perception / SLAM / tracking at different frequencies)",
+    "Team leadership / management experience",
+    "Thermal imaging experience",
+    "Production-scale CI/CD and performance guardrail design (explicit)",
+    "Driver's license / travel / physical lift requirements (non-technical)"
+  ],
+  "top_ats_keywords": [
+    "Bachelor's degree in CS/SE/CE or equivalent",
+    "5+ years software development experience",
+    "Translate complex technical concepts for non-technical stakeholders",
+    "Deep learning (CNNs and transformers)",
+    "Computer vision and video processing (detection, classification, 3D/stereo vision, point clouds)",
+    "Python, C++, PyTorch, OpenCV, MATLAB",
+    "Imaging systems / image processing / GPU-accelerated computing",
+    "Systems engineering and architecture across complex stacks",
+    "Translate product requirements into technical solutions and drive Agile execution",
+    "Configuration management in multi-system environments"
+  ],
+  "required_skills": [
+    "Bachelor's degree in CS/SE/CE or equivalent",
+    "5+ years software development experience",
+    "Translate complex technical concepts for non-technical stakeholders",
+    "Deep learning (CNNs and transformers)",
+    "Computer vision and video processing (detection, classification, 3D/stereo vision, point clouds)",
+    "Python, C++, PyTorch, OpenCV, MATLAB",
+    "Imaging systems / image processing / GPU-accelerated computing",
+    "Systems engineering and architecture across complex stacks",
+    "Translate product requirements into technical solutions and drive Agile execution",
+    "Configuration management in multi-system environments"
+  ],
+  "preferred_skills": [
+    "Leading/managing software engineering teams",
+    "Thermal imaging experience or familiarity",
+    "Optimizing/evaluating neural network performance in production",
+    "Valid driver's license / ability to obtain within 6 months",
+    "R&D to production/commercialization background",
+    "NVIDIA TensorRT, CUDA, Jetson SDK",
+    "Profiling with nsys / nvprof",
+    "FP16/INT8 quantization tradeoffs and calibration (including QAT)",
+    "Edge inference runtime / serving systems",
+    "Systems programming (C++/Python, memory management, multi-process orchestration)",
+    "Multi-rate scheduling systems (perception, SLAM, tracking)",
+    "Familiarity with Jetson Orin Nano hardware constraints (no DLA, no encoder, unified memory, zero-copy, 4-8 GB budget)"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [],
+  "role_category": "edge_ai_robotics",
+  "location": "Remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": true,
+    "hard_blocker_reason": "Posting states position could require successful candidate to be a U.S. Citizen (contractual / ITAR-like citizenship blocker); candidate is on F-1 OPT and needs work authorization/sponsorship."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

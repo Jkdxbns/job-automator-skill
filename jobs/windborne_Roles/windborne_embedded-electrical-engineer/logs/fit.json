@@ -1,0 +1,44 @@
+{
+  "company": "WindBorne Systems",
+  "company_slug": "windborne",
+  "role": "Embedded Electrical Engineer",
+  "job_slug": "embedded-electrical-engineer",
+  "match_pct": 71,
+  "missing_skills": [
+    "Altium (PCB tool \u2014 candidate has EAGLE/Proteus)",
+    "UART (not explicit, only SPI/I2C confirmed)",
+    "RF/antenna design",
+    "Power management circuit design"
+  ],
+  "adjacent_skills": [
+    "PCB layout tools: EAGLE/Proteus instead of Altium",
+    "Schematics/datasheets: implied via PCB design experience, not explicit"
+  ],
+  "top_ats_keywords": [
+    "PCB",
+    "STM32",
+    "SPI",
+    "I2C",
+    "C/C++",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "GPIO",
+    "embedded firmware",
+    "bare-metal"
+  ],
+  "key_responsibilities": [
+    "Design, prototype, and test PCBs for flight and ground systems",
+    "Develop firmware for board bringup and testing",
+    "Troubleshoot hardware issues",
+    "Bench and environmental testing under extreme conditions",
+    "Integrate with mechanical engineers",
+    "Support flight ops via telemetry",
+    "Coordinate PCBA manufacturing"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

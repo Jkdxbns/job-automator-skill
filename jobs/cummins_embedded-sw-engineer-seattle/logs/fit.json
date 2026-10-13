@@ -1,0 +1,78 @@
+{
+  "company": "Cummins Inc.",
+  "company_slug": "cummins",
+  "role": "Embedded Software Engineer",
+  "job_slug": "embedded-sw-engineer-seattle",
+  "match_pct": 46,
+  "have_skills": [
+    "C",
+    "C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd": "embedded software",
+      "have": "bare-metal / STM32 Cortex-M4"
+    },
+    {
+      "jd": "ECU",
+      "have": "STM32 microcontroller"
+    },
+    {
+      "jd": "real-time systems",
+      "have": "FreeRTOS"
+    },
+    {
+      "jd": "code reviews",
+      "have": "Git / pull requests"
+    }
+  ],
+  "missing_skills": [
+    "debugging",
+    "root-cause analysis",
+    "software integration",
+    "unit testing",
+    "SIL testing",
+    "HIL testing",
+    "software development lifecycle"
+  ],
+  "preferred_have": [
+    "Python",
+    "Git",
+    "CAN",
+    "RTOS",
+    "safety-critical systems"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded software",
+    "ECU",
+    "RTOS",
+    "SIL/HIL",
+    "CAN",
+    "debugging",
+    "root-cause analysis",
+    "static analysis",
+    "automotive"
+  ],
+  "key_responsibilities": [
+    "Design, develop, integrate, and maintain embedded C/C++ software for automotive ECUs and real-time systems",
+    "Investigate and resolve software issues through debugging and root-cause analysis",
+    "Participate in SIL, HIL, and system-level testing",
+    "Support diagnostics, fault handling, calibration, and software flashing",
+    "Participate in code reviews and apply software engineering best practices"
+  ],
+  "role_category": "embedded_systems",
+  "constraint_flags": {
+    "sponsorship": "UNKNOWN \u2014 Cummins not in known sponsors list; no explicit denial. Export controls language is a soft flag.",
+    "experience": "MISMATCH \u2014 requires Prior Senior or Lead Engineer equivalent (3-5 yrs full-time); Justin has 0 FT years + 7 internships",
+    "location": "OK \u2014 Seattle, WA on-site; Justin willing to relocate",
+    "clearance": "CLEAR \u2014 no clearance required",
+    "export_controls": "SOFT FLAG \u2014 \"may require licensing for compliance with export controls or sanctions regulations\""
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "hard_blocker_triggered": false,
+  "date": "2026-06-03"
+}

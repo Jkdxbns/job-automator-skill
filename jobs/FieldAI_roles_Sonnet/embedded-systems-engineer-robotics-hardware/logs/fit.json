@@ -1,0 +1,175 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Embedded Systems Engineer, Robotics Hardware",
+  "job_slug": "embedded-systems-engineer-robotics-hardware",
+  "match_pct": 53.8,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 26,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded platforms (Jetson, Raspberry Pi, x86 NUCs, custom SBCs) (Voice-Controlled Robotic Arm capstone: Jetson Nano + Arduino; Embedded Intern (Planctech): Raspberry Pi + HC-05; STM32/Arduino embedded projects; NVIDIA Jetson platform experience)",
+    "Linux system configuration, scripting, headless deployment (Capstone: systemd deployment (auto-restart, non-root isolation, static IP/network config); Profile: Linux admin, systemd service management, headless deployment)",
+    "Firmware development (bare-metal and RTOS) (STM32 Bare-Metal Temperature Monitor: Cortex-M4 embedded C, timer-triggered ADC, I2C driver; Object Tracking Turret: FreeRTOS with mutexes; embedded intern with bare-metal sensor interfaces)",
+    "Programming in C++ and Python for embedded/application (Profile: Python, C/C++, CUDA C++; Capstone uses Python + Flask-SocketIO + TensorRT; CUDA C++ kernel optimization project)",
+    "Communication protocols: I2C (Capstone: TCA9548A I2C mux + VL53L0X ToF over I2C; Temperature Monitor: I2C driver; Profile lists I2C explicitly)",
+    "Communication protocols: SPI (Profile explicitly lists SPI in embedded skills; embedded sensor interface work)",
+    "ROS ecosystem (device drivers, TF, data streaming/publishing) (ROS-Based Robotic Arm (AL5B & UR5e): ROS2 Humble + ROS Noetic, MoveIt, RViz; Capstone includes ROS nodes for sensor data streams; profile lists ROS2)",
+    "Hardware/software debugging tools (oscilloscopes, logs, analyzers) (Profile: oscilloscopes, logic analyzers in tools; Capstone resolved 11 integration failures using debug/analysis approach)",
+    "Education: B.S./M.S./Ph.D. in Computer Engineering, Robotics, Electrical Engineering, or related (M.S. Computer Engineering, Rochester Institute of Technology (RIT), graduated May 2026)",
+    "NVIDIA JetPack / CUDA experience (preferred) (Capstone: TensorRT-optimized YOLO on Jetson; CUDA Kernel Optimization for VGG16 (custom CUDA C++, memory coalescing); profile lists CUDA, TensorRT)",
+    "Watchdogs, health checks, system monitoring (preferred) (Capstone: systemd auto-restart (watchdog-like behavior), non-root isolation; profile mentions health/debug monitoring concepts)",
+    "Sensor integration: TOF / Camera / Vision (Capstone: dual VL53L0X ToF sensors; Object Tracking Turret: VL53L0X ToF; multiple YOLO/OpenCV vision projects (toothbrush detection, autonomous driving, robotic arm))"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Sensor integration: IMU / Accelerometer (preferred)",
+      "you_have": "Embedded Intern (Planctech): ADXL345 accelerometer on wearable gesture glove (3-axis accelerometer, not full IMU); related but not IMU with gyro/magnetometer"
+    },
+    {
+      "jd_skill": "USB / Ethernet / CAN / GMSL protocols (required)",
+      "you_have": "Profile lists UART/I2C/SPI; embedded sensor communication via UART/I2C implies low-level interface familiarity, but USB/Ethernet/CAN/GMSL are not explicitly backed by any bullet"
+    },
+    {
+      "jd_skill": "System-level cross-domain integration (electrical, mechanical, compute) (preferred)",
+      "you_have": "Capstone integrates mechanical arm, electrical sensors (ToF, I2C mux), embedded compute (Jetson/Arduino), software stack (Flask, TensorRT, STT); covers integration but not formal electrical/mechanical engineering design"
+    },
+    {
+      "jd_skill": "Data acquisition pipelines / ROS nodes / drivers (required)",
+      "you_have": "Python Developer Intern (BARC): PyQt/Matplotlib GUI for real-time data acquisition; Capstone: ROS nodes and sensor data pipelines; embedded sensor driver work"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "USB protocol development (required)"
+    },
+    {
+      "jd_skill": "Ethernet protocol development (required)"
+    },
+    {
+      "jd_skill": "CAN protocol experience (required)"
+    },
+    {
+      "jd_skill": "GMSL interface experience (required)"
+    },
+    {
+      "jd_skill": "Yocto Linux experience (preferred)"
+    },
+    {
+      "jd_skill": "Thermal profiling / latency measurement / power draw analysis (preferred)"
+    },
+    {
+      "jd_skill": "Production / QA / vendor procurement and scaling (preferred)"
+    },
+    {
+      "jd_skill": "Sensor integration: LiDAR (preferred)"
+    },
+    {
+      "jd_skill": "Sensor integration: GPS-based navigation (preferred)"
+    },
+    {
+      "jd_skill": "Formal production-scale distributed systems experience at company scale"
+    }
+  ],
+  "top_ats_keywords": [
+    "Embedded Systems Engineer",
+    "Robotics Hardware",
+    "Hardware Engineering",
+    "Embedded Compute",
+    "ARM",
+    "x86",
+    "SBC",
+    "Microcontroller",
+    "Linux",
+    "Ubuntu",
+    "Yocto",
+    "JetPack",
+    "ROS",
+    "ROS2",
+    "C++",
+    "Python",
+    "I2C",
+    "SPI",
+    "CAN",
+    "GMSL",
+    "USB",
+    "Ethernet",
+    "Sensors",
+    "LiDAR",
+    "Camera",
+    "TOF",
+    "IMU",
+    "GPS",
+    "NVIDIA",
+    "TensorRT",
+    "CUDA",
+    "Thermal",
+    "Power",
+    "Debugging",
+    "Oscilloscope",
+    "Watchdog",
+    "Data pipeline",
+    "Drivers",
+    "System integration"
+  ],
+  "required_skills": [
+    "Embedded platforms (Jetson, Raspberry Pi, x86 NUCs, custom SBCs)",
+    "Linux system configuration, scripting, headless deployment",
+    "Firmware development (bare-metal and RTOS)",
+    "Programming in C++ and Python for embedded/application",
+    "Communication protocols (I2C, SPI, USB, Ethernet, CAN, GMSL)",
+    "ROS ecosystem (device drivers, TF, data streaming/publishing)",
+    "Hardware/software debugging tools (oscilloscopes, logs, analyzers)",
+    "Education: B.S./M.S./Ph.D. in Computer Engineering, Robotics, Electrical Engineering, or related"
+  ],
+  "preferred_skills": [
+    "NVIDIA JetPack / CUDA experience",
+    "Yocto Linux experience",
+    "Thermal profiling, latency measurement, power draw analysis",
+    "Production / QA / vendor procurement",
+    "Watchdogs, health checks, system monitoring",
+    "Sensor integration (LiDAR, camera, TOF, IMU, GPS)",
+    "Cross-domain system integration (electrical, mechanical, compute)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Architect and configure embedded compute platforms (ARM/x86 SBCs)",
+    "Set up/customize Linux (Ubuntu, Yocto, JetPack) and middleware (ROS)",
+    "Integrate compute with sensing and robotic systems; analyze thermal, power, bandwidth constraints",
+    "Bring up sensors/peripherals via USB, Ethernet, GMSL, I2C, SPI, CAN",
+    "Build drivers, ROS nodes, and data acquisition pipelines",
+    "Conduct system-level tests: thermal profiling, latency measurement, power draw",
+    "Support production/QA, vendor procurement, payload scaling",
+    "Implement watchdogs, health checks, and performance monitoring",
+    "Root-cause debugging for boot, connectivity, throughput issues"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

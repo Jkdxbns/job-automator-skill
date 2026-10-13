@@ -1,0 +1,138 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Software Engineer, MLOps",
+  "job_slug": "senior-software-engineer-mlops",
+  "match_pct": 58.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 5,
+    "missing_count": 5,
+    "jd_ask_size": 18,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python / strong programming in Python (COFFIN capstone (Flask-SocketIO server in Python), BARC Python Developer Intern (PyQt/Matplotlib GUI), all ML intern projects in Python)",
+    "Experience building and maintaining ML pipelines (IIT Bombay AI/ML Intern: fine-tuned DONUT OCR pipeline; Tusk Deep Learning Intern: YOLOv8n training/export (ONNX/TFLite); Teesside Research: U-Net BraTS 2020 segmentation pipeline; COFFIN: faster-whisper STT + Gemini intent + TensorRT YOLO inference pipeline)",
+    "Linux systems (COFFIN capstone: systemd service deployment (auto-restart, non-root isolation, static IP), Linux admin (unit files); embedded Linux on Raspberry Pi and Jetson)",
+    "Distributed computing / HPC environments (Teesside/MPI Hodgkin-Huxley neuron simulation (10.49x speedup, SLURM cluster); parallel ray tracer with MPI (30x speedup); CUDA kernel optimization work)",
+    "GPU workload and CUDA optimization (Custom CUDA C++ kernel optimization for VGG16 (35% speedup, memory coalescing); TensorRT-optimized YOLO on Jetson (5.2x speedup); 8-bit quantization (TinyLlama); pynvml profiling experience listed)",
+    "Robotics / embedded ML / edge deployment for physical systems (COFFIN voice-controlled robotic arm (ROS2 Humble + Jetson + Arduino, faster-whisper, Gemini, YOLO, dual ToF sensors, 100% pick reliability); Object Tracking Turret (YOLOv8 + STM32 + FreeRTOS + UART); ROS AL5B & UR5e (DH tables, MoveIt, RViz, ROS Noetic + ROS2 Humble))",
+    "Model evaluation and performance monitoring (YOLOv8n 83% mAP@50; image stitching PSNR 86; crack-depth profiling \u00b18% error; ASR WER 15%; 100% pick reliability (10/10); quantization accuracy <1% loss)",
+    "Bachelor's degree in CS/Engineering (or equivalent) (M.S. Computer Engineering, Rochester Institute of Technology (RIT), graduated May 2026 \u2014 exceeds Bachelor's requirement)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GPU-based infrastructure design for ML pipelines",
+      "you_have": "CUDA kernel optimization (VGG16, 35% speedup) + TensorRT-optimized YOLO deployment + COFFIN system-level pipeline integration (Flask + Jetson + Arduino + systemd) \u2014 knows GPU/ML pipeline construction but not at company-scale infrastructure design"
+    },
+    {
+      "jd_skill": "Model serving infrastructure for edge/robot deployment",
+      "you_have": "COFFIN deployed inference service: TensorRT YOLO + faster-whisper STT + Gemini intent classifier running on Jetson with systemd; embedded pipeline deployment experience \u2014 close to serving but not multi-node service infrastructure"
+    },
+    {
+      "jd_skill": "Exposure to ROS-based robotics data formats and pipelines",
+      "you_have": "ROS2 Humble + ROS Noetic, MoveIt, RViz, visual servoing, YOLO detection, AL5B & UR5e arm control \u2014 strong ROS robotics background; specific formats (rosbags, point clouds) not mentioned in profile"
+    },
+    {
+      "jd_skill": "Experience working closely with research / applied ML teams",
+      "you_have": "BARC Research Intern (metal surface inspection, ZoeDepth); IIT Bombay (DONUT OCR with HuggingFace); Teesside (led 7-person U-Net team); COFFIN capstone \u2014 repeated research/applied ML collaboration"
+    },
+    {
+      "jd_skill": "Improving efficiency/reliability of ML workflows",
+      "you_have": "8-bit quantization (~55% VRAM reduction), CUDA kernel 35% speedup, TensorRT 5.2x speedup, systemd auto-restart/non-root isolation, resolved 11 integration failures in COFFIN \u2014 workflow/reliability optimization demonstrated"
+    }
+  ],
+  "missing_skills": [
+    {
+      "jd_skill": "Cloud/cloud-native tools: AWS (SageMaker, S3), Kubernetes, containerized environments \u2014 profile explicitly lacks these; candidate has no Docker, Kubernetes, AWS/GCP/Azure, or CI/CD experience anywhere"
+    },
+    {
+      "jd_skill": "GPU workload scheduling and orchestration across multi-region cloud environments \u2014 no cloud scheduling or multi-region orchestration experience; closest is local CUDA/Jetson optimization and SLURM cluster use (research, not production multi-region)"
+    },
+    {
+      "jd_skill": "Containerized deployment (Docker) for ML services \u2014 profile explicitly has no Docker or Kubernetes; closest analog is systemd service deployment with isolation (COFFIN)"
+    },
+    {
+      "jd_skill": "Model versioning / dataset versioning tools (MLflow, Weights & Biases, etc.) \u2014 not mentioned in profile; closest analog is Git/GitLab use (BARC) and reproducible pipeline design (COFFIN, JupyterHub)"
+    },
+    {
+      "jd_skill": "Large-scale training pipeline optimization at infrastructure scale \u2014 candidate has optimization skills (CUDA, quantization, TensorRT) but no experience with company-scale distributed training infrastructure, multi-node GPU clusters for production ML, or cloud-scale scheduling"
+    }
+  ],
+  "top_ats_keywords": [
+    "MLOps",
+    "Senior Software Engineer",
+    "GPU infrastructure",
+    "machine learning pipelines",
+    "model serving",
+    "edge deployment",
+    "robotics",
+    "containerized",
+    "Kubernetes",
+    "AWS",
+    "SageMaker",
+    "S3",
+    "Python",
+    "Linux",
+    "distributed computing",
+    "GPU workload scheduling",
+    "model versioning",
+    "dataset management",
+    "ROS",
+    "rosbags",
+    "inference deployment"
+  ],
+  "required_skills": [
+    "Bachelor's degree in CS/Engineering or equivalent work experience",
+    "3-7 years experience in MLOps / ML infrastructure",
+    "Strong programming in Python",
+    "Experience building and maintaining ML pipelines",
+    "Solid understanding of Linux systems and distributed computing environments",
+    "Hands-on experience with GPU workload scheduling and orchestration across multi-region cloud environments",
+    "Hands-on experience with cloud/cloud-native tools such as AWS (SageMaker, S3 or similar), Kubernetes, containerized environments"
+  ],
+  "preferred_skills": [
+    "Experience deploying and operating ML systems for robotics or real-world physical systems",
+    "Experience with scaling AI, ML, and inference workloads on Kubernetes",
+    "Exposure to ROS-based robotics data formats and pipelines (rosbags, point clouds)",
+    "Experience with experiment tracking, model versioning, or dataset versioning tools",
+    "Experience optimizing ML pipelines for large-scale training and data processing",
+    "Experience working closely with research or applied machine learning teams"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design/build GPU-based infrastructure for ML pipelines (training, evaluation, inference, deployment)",
+    "Collaborate with robotics teams on model serving infrastructure for edge/robot deployment",
+    "Build automation for reproducible experiments, model versioning, dataset management",
+    "Deploy/manage ML services and inference pipelines using containerized environments for scaling/scheduling heterogeneous compute",
+    "Monitor model performance and system reliability across dev/prod",
+    "Improve efficiency, scalability, reliability of ML workflows",
+    "Integrate ML components into robotics software systems"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": "No sponsorship restriction stated in JD; not a federal/defense/government-contractor role; no ITAR/export-control or citizenship/clearance language found. Seniority/experience mismatch (3-7 years required vs. new-grad) is NOT a hard blocker \u2014 handled by experience fields."
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

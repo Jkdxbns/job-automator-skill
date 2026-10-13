@@ -1,0 +1,143 @@
+{
+  "company": "NDimensions Labs",
+  "company_slug": "ndimensions-labs",
+  "role": "Hardware & Electronics Intern, Robotics",
+  "job_slug": "hardware-intern",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 3,
+    "jd_ask_size": 12,
+    "req_cov": 0.917,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Currently pursuing a degree in Electrical Engineering, Mechanical Engineering, Mechatronics, Robotics, or a related field",
+    "Basic circuit design",
+    "Familiarity with CAD tools for mechanical or PCB design (e.g., SolidWorks, Fusion 360, KiCad, Altium)",
+    "Experience with embedded systems or microcontrollers (e.g., Arduino, STM32, ESP32, Raspberry Pi)",
+    "Familiarity with ROS or robotics middleware",
+    "Coursework or projects involving robot arm design, sensor integration, or motor control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Ability to read and interpret schematics, datasheets, and technical drawings",
+      "you_have": "PCB design experience (EAGLE) implying schematic/technical drawing use"
+    },
+    {
+      "jd_skill": "Comfortable working in a lab environment with physical hardware and tools",
+      "you_have": "Lab-based research internships and hands-on embedded/robotics builds"
+    },
+    {
+      "jd_skill": "Strong attention to detail and a methodical approach to testing and documentation",
+      "you_have": "Benchmarking, calibration, and systematic evaluation practices"
+    }
+  ],
+  "missing_skills": [
+    "Soldering",
+    "Breadboarding",
+    "Prior experience with 3D printing, laser cutting, or other rapid prototyping methods"
+  ],
+  "top_ats_keywords": [
+    "PCB",
+    "soldering",
+    "CAD",
+    "SolidWorks",
+    "embedded",
+    "Arduino",
+    "STM32",
+    "ROS",
+    "robotics",
+    "sensor",
+    "motor",
+    "testing",
+    "validation",
+    "hardware",
+    "electronics"
+  ],
+  "required_skills": [
+    "Currently pursuing a degree in Electrical Engineering, Mechanical Engineering, Mechatronics, Robotics, or a related field",
+    "Hands-on experience with electronics (soldering, breadboarding, basic circuit design)",
+    "Familiarity with CAD tools for mechanical or PCB design (e.g., SolidWorks, Fusion 360, KiCad, Altium)",
+    "Ability to read and interpret schematics, datasheets, and technical drawings",
+    "Comfortable working in a lab environment with physical hardware and tools",
+    "Strong attention to detail and a methodical approach to testing and documentation"
+  ],
+  "preferred_skills": [
+    "Experience with embedded systems or microcontrollers (e.g., Arduino, STM32, ESP32, Raspberry Pi)",
+    "Familiarity with ROS or robotics middleware",
+    "Prior experience with 3D printing, laser cutting, or other rapid prototyping methods",
+    "Coursework or projects involving robot arm design, sensor integration, or motor control"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Assist with design/prototyping of mechanical and electromechanical components for robotic systems",
+    "Assemble, solder, and test custom electronics boards (PCBs, sensor arrays, motor drivers, power systems)",
+    "Integrate sensors, actuators, and compute modules into robotic platforms",
+    "Run hardware validation and testing procedures, documenting results and failure modes",
+    "Help debug and troubleshoot electrical and mechanical issues in robotic assemblies",
+    "Collaborate with AI and systems teams to ensure hardware meets requirements for data collection and experimentation"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67.3,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Sensor/actuator/compute integration is the strongest match: COFFIN capstone integrates Jetson + Arduino + five servos + dual VL53L0X ToF sensors behind a TCA9548A I2C mux, with contact-aware grasping and a 10/10 pick reliability result.",
+      "Hardware validation and failure-mode documentation: COFFIN 'Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture)' is direct evidence of the debug-and-document loop the JD describes.",
+      "Collaboration with AI/systems teams for data collection: COFFIN 'LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture' maps almost exactly to the hardware-for-data-collection responsibility.",
+      "Motor/drive hardware depth: Robocon robot has 4x Cytron motor drivers, 15 kHz PWM, interrupt-driven quadrature decoding, and 'owned wiring, interfacing, and integration across mechanical and design teams'.",
+      "Bonus items are genuinely covered: Arduino, STM32, Raspberry Pi, Jetson, ROS 2 (UR5e/AL5B with MoveIt), robot arm kinematics, sensor integration, motor control.",
+      "Bench instruments are listed (oscilloscopes, logic analyzers, multimeters) and backed by an EAGLE PCB fabrication line in the Agnel Robotics Club entry."
+    ],
+    "real_gaps": [
+      "Soldering and breadboarding are never stated anywhere in the profile, though they are the JD's first hands-on requirement.",
+      "No stated 3D printing, laser cutting or rapid-prototyping experience.",
+      "Mechanical and electromechanical design/prototyping (first listed responsibility) is thin: SolidWorks appears only as a tool and a workshop topic, with no mechanical part or assembly the candidate designed.",
+      "Schematic and datasheet reading is implied by PCB work but no bullet shows it explicitly.",
+      "Currently-pursuing-a-degree requirement: candidate graduated May 2026, so enrollment status for a Spring 2027 internship is unclear.",
+      "Role is Boston-based on site and lab-based; candidate is in Arlington TX (relocation is open, so this is logistics, not skill)."
+    ],
+    "overstated_by_keywords": [
+      "'Currently pursuing a degree' was counted as Have, but M.S. completed May 2026; the degree field matches, the enrollment status does not.",
+      "'Familiarity with CAD tools' counted as Have on the strength of SolidWorks/EAGLE listings, but only EAGLE has a concrete artifact (single-layer PCBs); SolidWorks has no backing project.",
+      "'Basic circuit design' counted as Have from EAGLE alone; it shows single-layer board layout, not demonstrated circuit design of power or motor-driver stages."
+    ],
+    "understated_by_keywords": [
+      "Soldering/breadboarding was marked Missing, but custom PCBs were 'designed and fabricated' for robots, and a Robocon robot was wired and integrated with motor drivers and shields. Hands-on assembly almost certainly happened, though no bullet says soldering, so this is worth stating on the application only if true.",
+      "Lab comfort and methodical testing were only Adjacent, but the COFFIN 11-failure log, 10-trial repeatability measurements (AL5B <2 mm) and 100 golden test vectors in the QAT project show a real documented-testing habit."
+    ],
+    "screening_gaps": [
+      "Student-status eligibility: JD says 'currently pursuing a degree'; a May 2026 graduate may be filtered out for a Spring 2027 internship unless the program accepts recent graduates.",
+      "No soldering or breadboarding on the resume: the first hands-on requirement is not evidenced anywhere a screener would look.",
+      "No mechanical or rapid-prototyping hardware work shown (no 3D printing, laser cutting or designed mechanical part), against a role that lists mechanical/electromechanical prototyping first."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Candidate's integration, validation, sensor and actuator work lines up well with four of the six responsibilities, and the bonus list is nearly fully covered. The real risks are eligibility (graduated vs currently pursuing) and the absence of any stated soldering or mechanical prototyping, so apply only after confirming the role accepts recent graduates.",
+    "calibration_delta": -4.8
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "company": "Alcon",
+    "role": "Electrical & Computer Engineering Intern (2027 Summer)",
+    "company_slug": "alcon",
+    "job_slug": "eceng_intern_2027"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology specializing in embedded systems and real-time firmware development. Experienced in designing and debugging microcontroller-based systems using C/C++, RTOS, and real-time operating systems, with a proven track record of integrating computer vision and robotics control into resource-constrained embedded platforms. Strong hands-on experience with oscilloscopes and logic analyzers for hardware debugging.",
+  "skills": {
+    "Embedded": [
+      "STM32 (Bare-Metal C, Cortex-M4)",
+      "FreeRTOS",
+      "UART/I2C/SPI",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ],
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "RAPID (ABB)",
+      "Bash",
+      "Git"
+    ],
+    "Robotics & Control": [
+      "ROS2",
+      "Kinematics (DH Parameters, Forward IK)",
+      "Real-time Control Systems",
+      "Servo Control (PWM)",
+      "Trajectory Planning"
+    ],
+    "ML / Computer Vision": [
+      "YOLO (YOLOv8)",
+      "OpenCV",
+      "TensorRT",
+      "PyTorch",
+      "Model Deployment (ONNX, TFLite)"
+    ],
+    "Tools": [
+      "SolidWorks (CAD)",
+      "EAGLE (PCB Design)",
+      "Proteus",
+      "ROS 2 Humble / Noetic",
+      "CMake",
+      "Linux"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 – May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback control.",
+        "Organized 10+ technical workshops covering Arduino programming, PCB design in EAGLE, and CAD-based mechanical design in SolidWorks."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth, translating 3-DoF hand motion into HID commands via real-time Python algorithms.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning.",
+        "Architected an AI-based real-time chroma keying system for a Mixed Reality headset concept without a green screen."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and collaborative analysis across a distributed team."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency on a voice-controlled, vision-guided pick-and-place system with Jetson+Arduino controller and dual VL53L0X ToF sensors.",
+        "Integrated TensorRT-optimized YOLO (5.2× speedup: 10.9 ms latency) with Arduino C++ servo control and I2C multiplexer for contact-aware grasping; implemented two-link inverse kinematics."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Deployed YOLOv8 real-time object detection on NVIDIA Jetson, sending control commands to STM32 microcontroller over UART with interrupt-driven handling and FreeRTOS task coordination."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built Cortex-M4 firmware in bare-metal C with timer-triggered ADC conversions, interrupt-driven sample capture, and low-level I2C driver; achieved 3.68 KB Flash at deterministic 1 Hz update rate."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Digital Electronics",
+        "Artificial Neural Networks & Fuzzy Logic",
+        "Random Signal Analysis",
+        "Image Processing"
+      ]
+    }
+  ],
+  "awards": []
+}

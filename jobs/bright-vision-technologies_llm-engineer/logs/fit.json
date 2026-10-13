@@ -1,0 +1,127 @@
+{
+  "company": "Bright Vision Technologies",
+  "company_slug": "bright-vision-technologies",
+  "role": "LLM Engineer",
+  "job_slug": "llm-engineer",
+  "match_pct": 42.1,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 6,
+    "missing_count": 8,
+    "jd_ask_size": 19,
+    "req_cov": 0.567,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "Master's degree",
+    "Benchmarks"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "LLM fine-tuning",
+      "you_have": "Fine-tuned DONUT (single-model, small scale)"
+    },
+    {
+      "jd_skill": "Distributed training (FSDP/ZeRO/pipeline parallelism)",
+      "you_have": "MPI + SLURM distributed workloads"
+    },
+    {
+      "jd_skill": "GPU clusters",
+      "you_have": "SLURM-managed cluster jobs"
+    },
+    {
+      "jd_skill": "Evaluation methodology",
+      "you_have": "HellaSwag/GSM8K/ARC benchmarking of compressed SLM"
+    },
+    {
+      "jd_skill": "Synthetic data generation",
+      "you_have": "CARLA auto-generated YOLO/UFLD training data"
+    },
+    {
+      "jd_skill": "Multimodal fine-tuning",
+      "you_have": "DONUT VisionEncoderDecoder fine-tune"
+    }
+  ],
+  "missing_skills": [
+    "RLHF",
+    "DPO",
+    "preference optimization",
+    "human evaluation design",
+    "dataset distillation",
+    "open-source LLM training contributions",
+    "red-teaming",
+    "publications"
+  ],
+  "top_ats_keywords": [
+    "LLM",
+    "fine-tuning",
+    "PyTorch",
+    "RLHF",
+    "DPO",
+    "FSDP",
+    "ZeRO",
+    "GPU clusters",
+    "evaluation",
+    "distributed training"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "LLM fine-tuning",
+    "FSDP",
+    "ZeRO",
+    "pipeline parallelism",
+    "RLHF",
+    "DPO",
+    "preference optimization",
+    "evaluation methodology",
+    "benchmarks",
+    "human evaluation design",
+    "GPU clusters",
+    "training pipeline reliability",
+    "Master's degree"
+  ],
+  "preferred_skills": [
+    "multimodal fine-tuning",
+    "synthetic data generation",
+    "dataset distillation",
+    "open-source LLM training contributions",
+    "red-teaming",
+    "responsible AI evaluation",
+    "publications"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and operate LLM fine-tuning workflows (SFT, preference, RL)",
+    "Construct datasets and evaluation",
+    "Run training jobs on GPU clusters",
+    "Mentor junior engineers"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote (U.S.)",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

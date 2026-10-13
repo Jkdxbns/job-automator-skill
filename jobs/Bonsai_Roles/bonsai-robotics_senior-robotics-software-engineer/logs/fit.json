@@ -1,0 +1,124 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "role": "Senior Robotics Software Engineer",
+  "job_slug": "senior-robotics-software-engineer",
+  "match_pct": 47.6,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 9,
+    "jd_ask_size": 21,
+    "req_cov": 0.8,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "ROS2",
+    "Python",
+    "Linux",
+    "robotics experience",
+    "BS/MS/PhD in related field",
+    "vision-based autonomy / perception",
+    "edge AI / embedded deployment"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "path planning / optimization",
+      "you_have": "MoveIt"
+    },
+    {
+      "jd_skill": "low latency constrained compute",
+      "you_have": "TensorRT-optimized"
+    },
+    {
+      "jd_skill": "debugging across hardware/software boundary",
+      "you_have": "bare-metal"
+    },
+    {
+      "jd_skill": "optimization",
+      "you_have": "Kernel optimization"
+    }
+  ],
+  "missing_skills": [
+    "tested/documented production software",
+    "4+ years relevant experience",
+    "shipped real production robots",
+    "Rust in production",
+    "CI/CD pipelines",
+    "testing best practices",
+    "autonomous tractor",
+    "safety",
+    "reliability"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "ROS2",
+    "Python",
+    "Rust",
+    "Linux",
+    "testing",
+    "CI/CD",
+    "production robots",
+    "robotics",
+    "autonomous tractor",
+    "vision-based autonomy",
+    "perception",
+    "debugging",
+    "hardware/software",
+    "low latency",
+    "optimization"
+  ],
+  "required_skills": [
+    "C++",
+    "ROS2",
+    "tested/documented production software",
+    "Python",
+    "Linux",
+    "debugging across hardware/software boundary",
+    "robotics experience",
+    "BS/MS/PhD in related field",
+    "4+ years relevant experience",
+    "shipped real production robots"
+  ],
+  "preferred_skills": [
+    "path planning / optimization",
+    "low latency constrained compute",
+    "Rust in production",
+    "CI/CD pipelines",
+    "testing best practices"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and build autonomous software for tractor fleet",
+    "Write production C++, Python, Rust in ROS2",
+    "Code/design review",
+    "Support/debug growing global fleet",
+    "Data-driven development",
+    "Safety/reliability/extensibility focus"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Jose, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

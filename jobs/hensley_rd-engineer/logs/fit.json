@@ -1,0 +1,63 @@
+{
+  "company": "Hensley Industries (Komatsu)",
+  "company_slug": "hensley",
+  "role": "R&D Engineer",
+  "job_slug": "rd-engineer",
+  "match_pct": 85.7,
+  "missing_skills": [
+    "Bachelor's degree in Mechanical Engineering",
+    "Creo Parametric (specific CAD tool)"
+  ],
+  "adjacent_skills": [
+    "R&D / product development / mechatronics (3+ yrs, Justin has 0 FTE yrs but 6 relevant internships)",
+    "Design of experiments / lab / field testing",
+    "3D CAD modeling (general, not Creo-specific)"
+  ],
+  "top_ats_keywords": [
+    "Vision Transformers",
+    "CNN",
+    "Python",
+    "Git",
+    "GitHub",
+    "image processing",
+    "computer vision",
+    "sensor data",
+    "machine learning",
+    "version control"
+  ],
+  "key_responsibilities": [
+    "Support development of Electro-Mechanical GET (Ground Engaging Tool) detection/monitoring systems",
+    "Research and advise on ViT and CNN implementation for visual data processing",
+    "Write, review, debug, maintain code for data collection, analysis, image processing, prototype testing",
+    "Use Git/GitHub for version control and code review",
+    "Create and revise 3D models, assemblies, drawings using CAD software",
+    "Plan and execute design of experiments, lab testing, and field testing"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "ViT/CNN implementation depth beyond keyword presence: YOLOv8 (83% mAP@50, ONNX/TFLite export), U-Net segmentation with VGG-16/19/ResNet-50 backbones, DONUT vision transformer fine-tuning, and a from-scratch GPT-2 style Transformer \u2014 this is exactly the research-and-implement CNN/ViT work the JD asks for",
+      "Electro-mechanical detection/monitoring system experience directly analogous to GET monitoring: Object Tracking Turret (YOLOv8 on Jetson driving STM32 servo control over UART) and COFFIN (dual VL53L0X ToF sensors for contact-aware grasping) both pair CV detection with physical/electromechanical actuation",
+      "Real CAD and mechanical design exposure: SolidWorks, EAGLE PCB design, CAD-modeled fixtures in the ABB RobotStudio project, and owned mechanical design end-to-end as General Secretary of a 25-member robotics team",
+      "Testing and validation rigor: AL5B repeatability under 2mm over 10 trials, COFFIN 10/10 pick reliability, MPI/quantization benchmarking discipline \u2014 shows the lab/field validation mindset even without formal DOE methodology"
+    ],
+    "real_gaps": [
+      "Bachelors degree is B.E. Electronics and Telecommunication, not Mechanical Engineering \u2014 the JD wants ME or equal/similar, and Justins degree and coursework are electronics/CS-adjacent, not mechanical design fundamentals (statics, materials, thermo)",
+      "No customer complaint resolution or product support experience anywhere in the profile \u2014 this is a stated responsibility with zero backing",
+      "CAD experience is auxiliary to robotics/AI projects (fixtures, enclosures, PCB layouts), not production engineering drawings/assemblies for a manufactured physical product like a Ground Engaging Tool \u2014 different discipline than what Hensley needs",
+      "3+ years of R&D/product-development professional experience is explicitly required; Justin has 0 FTE years, and none of his 6 internships were inside a formal product-development function at a manufacturing company shipping a physical product line",
+      "Domain distance: Hensley/Komatsu builds heavy industrial mining and construction wear parts \u2014 a manufacturing R&D culture. Justins entire portfolio is AI/robotics research and edge inference, a genuinely different engineering culture and day-to-day job"
+    ],
+    "overstated_by_keywords": [
+      "3D design/CAD counted as Adjacent by keyword match, but the real gap is bigger \u2014 Justins CAD work is hobbyist/research-project level (fixtures, brackets), not mechanical product design and manufacturing drawings for a shipped hardware line",
+      "R&D/product-development/mechatronics (3+ yrs) counted as Adjacent via internship count, but none of those internships were a formal product-development role at a company sustaining a manufactured product \u2014 the years-on-paper framing overstates the actual overlap"
+    ],
+    "reasoning": "The CV/ML axis is a genuine strength that goes deeper than keyword presence, and the sensor-plus-actuation project work (turret, COFFIN) maps surprisingly well onto an electro-mechanical detection system. But the roles center of gravity is Mechanical Engineering product development for a physical wear-part manufacturer, and there Justin is offering a Computer Engineering degree, project-level CAD, and zero full-time product-dev experience against a role that explicitly wants a ME degree, Creo Parametric, and 3+ years of hands-on hardware product work. Keyword matching is generous here because it cannot tell hobbyist CAD from production CAD or research internships from product-dev experience."
+  }
+}

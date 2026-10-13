@@ -1,0 +1,127 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Senior Mechanical Engineer",
+  "job_slug": "senior-mechanical-engineer",
+  "match_pct": 17.5,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 1,
+    "missing_count": 16,
+    "jd_ask_size": 20,
+    "req_cov": 0.214,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "SolidWorks",
+    "Python",
+    "C/C++"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "CAD software / CAD design",
+      "you_have": "SolidWorks (CAD keyword)"
+    }
+  ],
+  "missing_skills": [
+    "dynamics",
+    "simulation",
+    "machine design",
+    "multibody dynamics (MBD)",
+    "FEA / computational simulation",
+    "mechanical vibrations",
+    "fatigue analysis",
+    "structural mechanics",
+    "transportation / railway / automotive mechanical systems",
+    "engineering standards / safety regulations",
+    "railway vehicle dynamics",
+    "bogie design",
+    "track interaction",
+    "railway industry standards",
+    "prototyping / manufacturing / DFM",
+    "MATLAB / scripting automation"
+  ],
+  "top_ats_keywords": [
+    "CAD",
+    "dynamics",
+    "simulation",
+    "FEA",
+    "mechanical vibrations",
+    "fatigue",
+    "structural",
+    "SolidWorks",
+    "CATIA",
+    "Simpack",
+    "Adams",
+    "railway",
+    "rail vehicle",
+    "transportation",
+    "automotive",
+    "machine design",
+    "multibody dynamics",
+    "structural analysis",
+    "Python",
+    "MATLAB"
+  ],
+  "required_skills": [
+    "dynamics",
+    "simulation",
+    "CAD design",
+    "structures",
+    "machine design",
+    "CAD software (SolidWorks, CATIA, Siemens NX)",
+    "multibody dynamics (MBD) simulation (Simpack, Adams)",
+    "finite element analysis (FEA)",
+    "computational simulation",
+    "mechanical vibrations",
+    "fatigue analysis",
+    "structural mechanics",
+    "mechanical systems in transportation/automotive/railway",
+    "engineering standards and safety regulations"
+  ],
+  "preferred_skills": [
+    "railway vehicle dynamics",
+    "bogie design",
+    "track interaction",
+    "railway industry standards (EN, UIC, APTA, FRA)",
+    "prototyping",
+    "manufacturing processes",
+    "DFM",
+    "Python",
+    "MATLAB",
+    "scripting tools"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design and analyze vehicle structures, mechanisms, and actuated systems focusing on dynamics, kinematics, and structural integrity",
+    "Develop, optimize, and maintain CAD models for mechanical components",
+    "Conduct multibody dynamics simulations to assess system performance",
+    "Perform FEA for structural, fatigue, and modal performance",
+    "Investigate mechanical failures and support prototype development/testing"
+  ],
+  "role_category": "other",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

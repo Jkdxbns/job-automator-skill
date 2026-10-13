@@ -1,0 +1,135 @@
+{
+  "company": "Snap Inc",
+  "company_slug": "snap",
+  "role": "Machine Learning Engineer",
+  "job_slug": "machine-learning-engineer",
+  "match_pct": 57.7,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 13,
+    "req_cov": 0.55,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "machine learning algorithms",
+    "model training",
+    "model evaluation",
+    "data analysis",
+    "advanced degree in computer science",
+    "cross-functional collaboration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "content understanding",
+      "you_have": "image processing / ASR / VisionEncoderDecoder work"
+    },
+    {
+      "jd_skill": "production deployment",
+      "you_have": "edge deployment (Jetson + TensorRT) production pipelines"
+    },
+    {
+      "jd_skill": "AI tools / high velocity engineering workflows",
+      "you_have": "general AI-assisted engineering workflow experience"
+    }
+  ],
+  "missing_skills": [
+    "ranking",
+    "recommendations",
+    "search",
+    "image generation"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "ranking",
+    "recommendations",
+    "search",
+    "content understanding",
+    "image generation",
+    "model training",
+    "evaluation",
+    "production deployment",
+    "data analysis",
+    "cross-functional collaboration"
+  ],
+  "required_skills": [
+    "machine learning algorithms",
+    "ranking",
+    "recommendations",
+    "search",
+    "content understanding",
+    "image generation",
+    "model training",
+    "model evaluation",
+    "production deployment",
+    "data analysis"
+  ],
+  "preferred_skills": [
+    "advanced degree in computer science"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "Build and deploy ML models for core Snapchat products",
+    "Apply established ML techniques to well-defined problems",
+    "Data analysis, model training, evaluation, production deployment",
+    "Collaborate cross-functionally to launch ML-driven features",
+    "Use AI tools and high velocity workflows to ship scalable services"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 46,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Deep ML training/evaluation experience with measured before/after gains \u2014 DONUT visual-document-understanding transformer fine-tuning (55%->93% validation accuracy), U-Net medical segmentation (Dice/IoU), YOLOv8 detection (83% mAP@50)",
+      "Genuine content-understanding depth via DONUT/VisionEncoderDecoder (structured field extraction from documents) \u2014 real backing for the \"content understanding\" ask, just never string-matched",
+      "Cross-functional collaboration and delivery under pressure \u2014 took over as team lead mid-project on the Teesside BraTS segmentation project, restructured a 7-person team, delivered in a 6-week window",
+      "Comfortable applying established ML techniques to well-defined problems across many short projects (transfer learning, fine-tuning, quantization)"
+    ],
+    "real_gaps": [
+      "No ranking system experience of any kind (learning-to-rank, relevance scoring, feed ranking)",
+      "No recommendation system experience (collaborative filtering, embeddings-based retrieval, candidate generation)",
+      "No search/retrieval system experience",
+      "No generative image modeling experience (GANs, diffusion, text-to-image) \u2014 profile work is discriminative/perception (detection, segmentation, depth), not generative",
+      "No large-scale backend/service ML deployment \u2014 \"production deployment\" in the profile means single-device edge inference (Jetson + TensorRT), not the scalable, high-velocity backend services Snap describes",
+      "No experience with a social-media-scale product surface or its data characteristics (engagement signals, feed dynamics, content moderation)"
+    ],
+    "overstated_by_keywords": [
+      "production deployment \u2014 counted Adjacent by the keyword pass, but the actual depth is edge/embedded single-device deployment, a meaningfully different discipline from scalable backend ML services"
+    ],
+    "understated_by_keywords": [
+      "DONUT/VisionEncoderDecoder document understanding work is stronger real backing for \"content understanding\" than the keyword pass gave credit for",
+      "Team-lead delivery under a hard deadline (Teesside) is concrete evidence for the \"collaborate cross-functionally to launch features\" responsibility, not just a generic soft-skill checkbox"
+    ],
+    "screening_gaps": [
+      "Zero backing for ranking/recommendations/search \u2014 the three responsibilities most central to what Snap actually builds (feed ranking, content recs, search) with no adjacent evidence at all",
+      "No generative image modeling experience for the explicit \"image generation\" ask",
+      "Production deployment experience is edge/single-device, not the scalable backend services the JD centers on \u2014 a recruiter reading \"Snapchat-scale ML service\" against an edge-AI resume will read this as a domain mismatch, not a stretch"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The ML fundamentals are real \u2014 training, evaluation, and applying established techniques are well evidenced across multiple projects with measured results. But the role is defined by ranking, recommendations, search, and content understanding at social-app scale, and the profile has zero backing for the first three and only edge-scale, not service-scale, deployment experience. This reads as a strong ML generalist applying into a domain (large-scale recommender/ranking systems) it has never touched.",
+    "calibration_delta": 11.7
+  }
+}

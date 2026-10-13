@@ -1,0 +1,115 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Software Engineer, Android",
+  "job_slug": "software-engineer-android",
+  "match_pct": 10.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 1,
+    "missing_count": 13,
+    "jd_ask_size": 15,
+    "req_cov": 0.429,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "native C++ integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "clear user interfaces / UI",
+      "you_have": "GUI / PyQt / Flutter"
+    }
+  ],
+  "missing_skills": [
+    "native Android applications with connected hardware or media features",
+    "Kotlin or Java",
+    "Android lifecycle, concurrency, permissions, background execution and networking",
+    "reliable app state preservation through interruptions",
+    "profiling and debugging performance, memory and connectivity on real Android devices",
+    "automated tests",
+    "USB host APIs",
+    "UVC cameras",
+    "MediaCodec",
+    "Camera2",
+    "device provisioning",
+    "recording apps",
+    "large file transfers"
+  ],
+  "top_ats_keywords": [
+    "Android",
+    "Kotlin",
+    "Java",
+    "native Android",
+    "connected hardware",
+    "media features",
+    "lifecycle",
+    "concurrency",
+    "permissions",
+    "background execution",
+    "networking",
+    "performance profiling",
+    "memory debugging",
+    "connectivity",
+    "UI",
+    "automated tests",
+    "USB host",
+    "UVC",
+    "MediaCodec",
+    "Camera2",
+    "C++",
+    "device provisioning"
+  ],
+  "required_skills": [
+    "native Android applications with connected hardware or media features",
+    "Kotlin or Java",
+    "Android lifecycle, concurrency, permissions, background execution and networking",
+    "reliable app state preservation through interruptions",
+    "profiling and debugging performance, memory and connectivity on real Android devices",
+    "clear user interfaces",
+    "automated tests"
+  ],
+  "preferred_skills": [
+    "USB host APIs",
+    "UVC cameras",
+    "MediaCodec",
+    "Camera2",
+    "native C++ integration",
+    "device provisioning",
+    "recording apps",
+    "large file transfers"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Build clear app workflows for connecting hardware and capturing data",
+    "Integrate device interfaces and media capabilities into native Android software",
+    "Design status displays and recovery flows for disconnections, permission changes and interrupted transfers",
+    "Improve responsiveness, video performance, memory use and battery consumption",
+    "Add diagnostics and work with firmware engineers to reproduce issues"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

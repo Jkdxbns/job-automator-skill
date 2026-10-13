@@ -1,0 +1,59 @@
+{
+  "company": "Qualcomm Technologies, Inc.",
+  "company_slug": "qualcomm",
+  "role": "Embedded Real Time Operating System Senior Software Engineer (QuRT OS, Zephyr)",
+  "job_slug": "rtos-senior-swe-qurt-zephyr",
+  "match_pct": 33.3,
+  "missing_skills": [
+    "Assembly language (RISC-V, ARM, Hexagon)",
+    "Multi-Core Computer Architecture",
+    "Off-target dev/test (Instruction Set Simulation, QEMU)",
+    "Embedded debugging (JTAG, Trace32, OpenOCD, Segger J-Link, LLDB)",
+    "Embedded Software Security",
+    "CI/test (Jenkins, Github Actions)",
+    "Automotive software dev (ASPICE, ISO-26262, ISO-21434)",
+    "Hexagon DSP processor architecture"
+  ],
+  "adjacent_skills": [
+    "RTOS development (has FreeRTOS on STM32, not Zephyr/QuRT)"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "C++",
+    "Assembly",
+    "RISC-V",
+    "ARM",
+    "Hexagon",
+    "RTOS",
+    "Zephyr",
+    "QuRT",
+    "Multi-Core Computer Architecture",
+    "QEMU",
+    "Python",
+    "JTAG",
+    "Trace32",
+    "OpenOCD",
+    "Segger J-Link",
+    "LLDB",
+    "Jenkins",
+    "Github Actions",
+    "Gerrit",
+    "ASPICE",
+    "ISO-26262",
+    "ISO-21434",
+    "DSP"
+  ],
+  "key_responsibilities": [
+    "Develop and deploy QuRT OS features on Hexagon DSP subsystems",
+    "Customize and deploy Zephyr RTOS across multiple Qualcomm SoC subsystems",
+    "Maintain/enhance CI and test systems for RTOS deployment",
+    "Design new RTOS features end to end: requirements, design, unit test, docs, integration, deployment, support",
+    "Contribute upstream to the Zephyr open source community"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

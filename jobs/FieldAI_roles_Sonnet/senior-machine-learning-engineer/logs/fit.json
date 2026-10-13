@@ -1,0 +1,115 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Senior Machine Learning Engineer",
+  "job_slug": "senior-machine-learning-engineer",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 4,
+    "missing_count": 6,
+    "jd_ask_size": 14,
+    "req_cov": 0.071,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (Used in every internship/project: IIT Bombay DONUT (PyTorch+HF), Tusk YOLOv8n, COFFIN Flask-SocketIO+Jetson+Arduino, BARC OpenCV/stitching, ROS2/MoveIt robotic arm, CUDA kernel optimization)",
+    "PyTorch / TensorFlow / modern ML frameworks (PyTorch + HuggingFace VisionEncoderDecoder fine-tuned DONUT at IIT Bombay (55%->93%); profile lists TensorFlow/Keras; YOLOv8n training at Tusk)",
+    "C++ (Custom CUDA C++ kernels for VGG16 optimization (35% speedup); STM32 bare-metal embedded C; C/C++ explicitly listed in skills)",
+    "Deep learning architectures (transformers, CNNs) (Custom GPT-2 transformer from scratch (multi-head attention, custom tokenizer); U-Net segmentation (Teesside, BraTS 2020); VGG-16/19/ResNet-50 backbones; YOLOv8; faster-whisper STT; 8-bit quantization; TensorRT)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "End-to-end navigation stack components (perception / prediction / planning)",
+      "you_have": "Perception covered: YOLOv8 (Tusk), OpenCV/image stitching (BARC), U-Net (Teesside), CARLA semantic segmentation + YOLO11n lane detection (zero collisions Town02). Planning covered partially: MoveIt + ROS2 + DH tables + forward kinematics (ROS robotic arm AL5B/UR5e). Prediction not explicitly demonstrated; full navigation stack is partial/capstone-level (COFFIN, CARLA) rather than production-scale."
+    },
+    {
+      "jd_skill": "Deep learning optimization and evaluation",
+      "you_have": "8-bit quantization TinyLlama 1.1B (~55% VRAM reduction, <1% loss); CUDA memory coalescing custom kernels (35% VGG16 speedup); TensorRT YOLO optimization (5.2x); PSNR 86 image stitching; ZoeDepth \u00b18% depth error profiling; model evaluation in all ML internships."
+    },
+    {
+      "jd_skill": "Production ML deployment in robotics / deployment + system integration",
+      "you_have": "COFFIN capstone: exported TensorRT-optimized YOLO, ONNX/TFLite, deployed on Jetson with Flask-SocketIO + Arduino + systemd (auto-restart, non-root isolation, static IP); ROS2 + UART/I2C sensor integration across multiple robotics projects. Not company-scale production systems \u2014 profile explicitly lacks production-scale distributed experience."
+    },
+    {
+      "jd_skill": "Path / motion planning",
+      "you_have": "MoveIt + RViz + ROS2 Humble / ROS Noetic + DH parameters + forward kinematics for AL5B and UR5e robotic arms; autonomous CARLA driving (lane detection + semantic segmentation). Robotic arm planning, not autonomous-vehicle motion-planning at production scale."
+    }
+  ],
+  "missing_skills": [
+    "JAX (profile has PyTorch/TF only; no JAX usage mentioned)",
+    "Production-scale industry ML deployment at company scale (profile explicitly states no production-scale distributed systems experience)",
+    "Production model drift monitoring",
+    "Automated retraining pipeline (no evidence of automated retraining or drift detection in profile)",
+    "Full navigation prediction module (no explicit trajectory/state-prediction model demonstrated)",
+    "Publications in top-tier ML or robotics conferences (research present but no publication cited)"
+  ],
+  "top_ats_keywords": [
+    "machine learning",
+    "end-to-end navigation",
+    "perception",
+    "prediction",
+    "planning",
+    "production deployment",
+    "model monitoring",
+    "model drift",
+    "retraining",
+    "transformers",
+    "CNN",
+    "robotics",
+    "autonomous driving",
+    "PyTorch",
+    "TensorFlow",
+    "JAX",
+    "C++",
+    "deployment",
+    "system integration",
+    "performance"
+  ],
+  "required_skills": [
+    "Python",
+    "Modern ML frameworks (PyTorch, TensorFlow, JAX)",
+    "C++ (deployment/system integration)",
+    "Deep understanding of deep learning architectures, optimization, evaluation",
+    "End-to-end navigation stack components (perception, prediction, planning)",
+    "Production ML deployment (robotics/self-driving/NLP)",
+    "Production model monitoring, drift detection, automated retraining"
+  ],
+  "preferred_skills": [
+    "Publications in top-tier ML or robotics conferences"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Design, train, deploy ML models for end-to-end navigation",
+    "Work with transformers/CNNs for complex decision making",
+    "Architect full-stack navigation (perception, prediction, planning)",
+    "Explore data generation/collection pipelines",
+    "Assist with production ML deployment",
+    "Monitor production models (drift detection, retraining automation)",
+    "Troubleshoot deployment/performance/system integration"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

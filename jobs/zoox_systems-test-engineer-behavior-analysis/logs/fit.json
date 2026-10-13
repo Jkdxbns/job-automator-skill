@@ -1,0 +1,98 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Systems Test Engineer, System Behavior Analysis",
+  "job_slug": "systems-test-engineer-behavior-analysis",
+  "match_pct": 22.7,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 11,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Systems troubleshooting and diagnostics",
+      "you_have": "Embedded hardware/firmware debugging (STM32, oscilloscopes, logic analyzers)"
+    },
+    {
+      "jd_skill": "Root cause analysis",
+      "you_have": "Debugging embedded/ML pipelines (bare-metal, CUDA, ROS2)"
+    },
+    {
+      "jd_skill": "Perception / AI software fault analysis",
+      "you_have": "ROS2 robot perception pipelines"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Databricks",
+    "Data analytics / dashboards / queries",
+    "QA/Triage role for Autonomous Driving",
+    "Project management with cross-functional/offshore teams",
+    "Automotive industry experience",
+    "5 years systems troubleshooting experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "Databricks",
+    "data analytics",
+    "root cause analysis",
+    "systems troubleshooting",
+    "triage",
+    "quality assurance",
+    "autonomous vehicle",
+    "dashboards"
+  ],
+  "required_skills": [
+    "Systems troubleshooting and diagnostics",
+    "Python (or similar) for automation/scripting",
+    "Root cause analysis",
+    "Data analytics"
+  ],
+  "preferred_skills": [
+    "QA/Triage experience for Autonomous Driving",
+    "Project management with cross-functional/offshore teams",
+    "SQL",
+    "Databricks",
+    "Dashboards/queries"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Analyze/diagnose system faults (perception, planner, AI software) from on-road testing and simulations",
+    "Categorize/prioritize issues by severity/urgency/impact",
+    "Root cause analysis and reporting",
+    "Develop tools/workflows for triage improvements",
+    "Operational agility across changing priorities"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "San Diego, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

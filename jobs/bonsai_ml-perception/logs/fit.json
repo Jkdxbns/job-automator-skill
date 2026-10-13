@@ -1,0 +1,24 @@
+{
+  "company": "Bonsai Robotics",
+  "company_slug": "bonsai",
+  "role": "Senior Machine Learning Engineer - Perception (Sr. CV Engineer)",
+  "job_slug": "ml-perception",
+  "match_pct": 88.9,
+  "missing_skills": ["multi-head DL architecture training"],
+  "adjacent_skills": [
+    "classical CV algorithms -> visual servoing, image mosaicing",
+    "multi-view geometry -> image mosaicing (homography/stitching), forward kinematics/DH parameters",
+    "3D vision DL architectures -> ZoeDepth monocular depth estimation",
+    "scalable cloud training pipelines -> SLURM-managed HPC training"
+  ],
+  "top_ats_keywords": ["PyTorch", "C++", "Python", "ROS2", "TensorRT", "object detection", "segmentation", "multi-view geometry", "3D vision"],
+  "key_responsibilities": [
+    "Develop, implement, and optimize CV/ML algorithms for robotics systems",
+    "Train, test, and deploy custom ML models on embedded systems",
+    "Devise custom algorithms informed by latest CV research",
+    "Develop scalable training pipelines in the cloud"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {"matches": "Partial", "apply": "Can Try"},
+  "llm_analysis": null
+}

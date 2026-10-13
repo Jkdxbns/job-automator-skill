@@ -1,0 +1,107 @@
+{
+  "company": "Fuse Energy",
+  "company_slug": "fuse-energy",
+  "role": "AI Inference Engineer",
+  "job_slug": "ai-inference-engineer",
+  "match_pct": 20.0,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 2,
+    "missing_count": 11,
+    "jd_ask_size": 15,
+    "req_cov": 0.278,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "quantization",
+    "Slurm"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "TensorRT-LLM",
+      "you_have": "TensorRT"
+    },
+    {
+      "jd_skill": "inference serving",
+      "you_have": "Edge AI deployment"
+    }
+  ],
+  "missing_skills": [
+    "vLLM",
+    "SGLang",
+    "Triton Inference Server",
+    "batching",
+    "KV cache",
+    "speculative decoding",
+    "distillation",
+    "autoscaling",
+    "Kubernetes",
+    "capacity planning",
+    "multi-tenant serving"
+  ],
+  "top_ats_keywords": [
+    "inference serving",
+    "vLLM",
+    "TensorRT-LLM",
+    "SGLang",
+    "Triton Inference Server",
+    "batching",
+    "KV cache",
+    "quantization",
+    "speculative decoding",
+    "distillation",
+    "autoscaling",
+    "Kubernetes",
+    "Slurm"
+  ],
+  "required_skills": [
+    "inference serving",
+    "vLLM",
+    "TensorRT-LLM",
+    "batching",
+    "KV cache",
+    "quantization",
+    "speculative decoding",
+    "autoscaling",
+    "systems architecture"
+  ],
+  "preferred_skills": [
+    "Triton",
+    "Kubernetes",
+    "Slurm",
+    "multi-tenant serving",
+    "capacity planning"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Define serving architecture",
+    "Build serving stack",
+    "Model-level optimisation",
+    "Own inference performance and reliability"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK (full remote)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,145 @@
+{
+  "company": "Wise",
+  "company_slug": "wise",
+  "role": "Staff Applied ML Engineer - Financial Crime",
+  "job_slug": "staff-applied-ml-fincrime",
+  "match_pct": 40.7,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 6,
+    "missing_count": 13,
+    "jd_ask_size": 27,
+    "req_cov": 0.567,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Attention Mechanisms",
+    "Quantization",
+    "Model Evaluation",
+    "Foundation Model Fine-tuning",
+    "LLM Evaluation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Low-latency Model Serving",
+      "you_have": "TensorRT / Jetson edge inference"
+    },
+    {
+      "jd_skill": "Sequence Modelling",
+      "you_have": "Transformer / GPT-2 / ASR"
+    },
+    {
+      "jd_skill": "Distributed Training",
+      "you_have": "MPI / SLURM"
+    },
+    {
+      "jd_skill": "Gradient Dynamics",
+      "you_have": "QAT / deep learning coursework"
+    },
+    {
+      "jd_skill": "Batching",
+      "you_have": "CUDA kernel / inference batching"
+    },
+    {
+      "jd_skill": "Real-time Inference",
+      "you_have": "Edge AI real-time pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Graph Message-Passing",
+    "GNN",
+    "Graph Neural Networks",
+    "Pre-computed Embeddings",
+    "ML Pipeline Orchestration",
+    "Production Deep Learning at Scale",
+    "Technical Strategy",
+    "FinCrime / Fraud / AML",
+    "Entity Resolution",
+    "A/B Testing",
+    "Causal Inference",
+    "Feature Platform",
+    "Mentoring"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Attention",
+    "Quantization",
+    "Batching",
+    "Embeddings",
+    "GNN",
+    "Graph Neural Networks",
+    "Distributed Training",
+    "Foundation Models",
+    "LLM Evaluation",
+    "Fraud Detection",
+    "AML",
+    "Entity Resolution",
+    "A/B Testing",
+    "Causal Inference",
+    "Model Evaluation",
+    "Feature Platform",
+    "Real-time Inference"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Deep Learning",
+    "Attention Mechanisms",
+    "Sequence Modelling",
+    "Graph Message-Passing",
+    "Gradient Dynamics",
+    "Distributed Training",
+    "ML Pipeline Orchestration",
+    "Low-latency Model Serving",
+    "Quantization",
+    "Batching",
+    "Pre-computed Embeddings",
+    "Production Deep Learning at Scale",
+    "Technical Strategy"
+  ],
+  "preferred_skills": [
+    "FinCrime / Fraud / AML",
+    "GNNs",
+    "Entity Resolution",
+    "Foundation Model Fine-tuning",
+    "LLM Evaluation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Design and ship sequence/graph/attention models for real-time financial crime detection",
+    "Define ML architecture strategy",
+    "Build reusable end-to-end pipeline pattern",
+    "Prototype foundation model / embedding approaches for transactions",
+    "Experimentation design and causal measurement",
+    "Mentor engineers and data scientists"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, UK (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

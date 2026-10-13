@@ -1,0 +1,62 @@
+{
+  "company": "Infosys",
+  "company_slug": "infosys",
+  "role": "GenAI Platform / LLM Inference Optimization Engineer (Cloud)",
+  "job_slug": "genai-inference-optimization-cloud",
+  "match_pct": 9,
+  "missing_skills": [
+    "vLLM",
+    "SGLang",
+    "Triton Inference Server",
+    "tensor parallelism",
+    "Kubernetes",
+    "GKE",
+    "KServe",
+    "Helm",
+    "Operators",
+    "GPU orchestration/scheduling",
+    "GCP",
+    "Azure",
+    "Terraform",
+    "cloud networking/landing zones/governance",
+    "HashiCorp Vault",
+    "Prometheus",
+    "Grafana",
+    "logging/tracing",
+    "SRE/SLO",
+    "reliability engineering",
+    "performance benchmarking (inference serving)"
+  ],
+  "adjacent_skills": [
+    "TensorRT (adjacent to TensorRT-LLM)",
+    "Quantization (8-bit; JD wants FP8/AWQ/GPTQ)"
+  ],
+  "top_ats_keywords": [
+    "vLLM",
+    "TensorRT-LLM",
+    "Triton",
+    "SGLang",
+    "Kubernetes",
+    "GKE",
+    "KServe",
+    "Terraform",
+    "GCP",
+    "Azure",
+    "Prometheus",
+    "Grafana",
+    "SRE"
+  ],
+  "key_responsibilities": [
+    "Design/implement LLM inference serving stacks (vLLM, TensorRT-LLM, Triton, SGLang)",
+    "Build Kubernetes-based serving platforms (KServe, GKE, OCP)",
+    "Inference optimization: continuous batching, speculative decoding, KV/prefix caching, quantization tuning",
+    "Cloud infra: GCP/Azure, Terraform, landing zones, governance",
+    "SRE/observability: Prometheus/Grafana, logging, tracing, SLOs"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "No",
+    "apply": "No"
+  },
+  "llm_analysis": null
+}

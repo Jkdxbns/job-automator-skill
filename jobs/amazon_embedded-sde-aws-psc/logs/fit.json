@@ -1,0 +1,152 @@
+{
+  "company": "Amazon Development Center U.S., Inc. (AWS Hardware Engineering)",
+  "company_slug": "amazon",
+  "role": "Embedded Software Dev Engineer, AWS Hardware Engineering (PSC)",
+  "job_slug": "embedded-sde-aws-psc",
+  "match_pct": 64.7,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 2,
+    "missing_count": 5,
+    "jd_ask_size": 17,
+    "req_cov": 0.7,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "Embedded software development (STM32 bare-metal C)",
+    "I2C",
+    "SPI",
+    "UART",
+    "ARM CPUs (STM32 Cortex-M)",
+    "Low-level drivers",
+    "Source control (Git, GitLab)",
+    "Testing (embedded, on RTOS/turret projects)",
+    "Bachelor's-equivalent CS background (M.S. Computer Engineering)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Code reviews",
+      "you_have": "Peer/coursework code review on RTOS + robotics projects, not professional team code review"
+    },
+    {
+      "jd_skill": "USB",
+      "you_have": "I2C/SPI/UART low-level protocol drivers, no direct USB driver work"
+    }
+  ],
+  "missing_skills": [
+    "3+ years non-internship professional software development experience",
+    "2+ years non-internship design/architecture experience at production scale",
+    "Operational excellence at fleet/production scale",
+    "Firmware deployment strategy at scale (millions of units)",
+    "CI/CD pipeline experience (no completed project or professional evidence yet)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "embedded software",
+    "firmware",
+    "ARM",
+    "low-level drivers",
+    "I2C",
+    "SPI",
+    "UART",
+    "USB",
+    "source control",
+    "CI/CD",
+    "code review",
+    "testing",
+    "operational excellence",
+    "software architecture",
+    "design patterns"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Embedded software development",
+    "Software architecture and design patterns",
+    "Reliability and scaling of systems",
+    "Coding standards",
+    "Code reviews",
+    "Source control management",
+    "Continuous deployment/CI-CD",
+    "Testing",
+    "Operational excellence"
+  ],
+  "preferred_skills": [
+    "ARM CPUs",
+    "Low-level drivers",
+    "I2C",
+    "SPI",
+    "USB",
+    "UART",
+    "Bachelor's degree in CS or equivalent"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Design and develop firmware for AWS servers",
+    "Own full dev lifecycle from conception to production deployment",
+    "Architect firmware deployment strategies minimizing customer impact",
+    "Collaborate with hardware, validation, and software services teams",
+    "Evaluate emerging tech for firmware stack",
+    "Mentor teammates"
+  ],
+  "role_category": "embedded_systems",
+  "location": "not stated in JD (Amazon US data center engineering, likely US-based)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Direct ARM Cortex-M4 bare-metal C firmware: STM32 Bare-Metal Temperature Monitor \u2014 register-level GPIO/TIM2/ADC1/I2C1 programming, interrupt-driven sampling, custom low-level I2C driver",
+      "Object Tracking Turret \u2014 STM32 + FreeRTOS with mutexes for shared-memory task coordination, interrupt-driven UART command handling, multi-servo PWM control \u2014 shows RTOS-level embedded systems thinking, not just scripting",
+      "Cross-layer systems integration and deployment discipline: COFFIN Jetson arm bridge shipped as a systemd service with auto-restart/backoff and env-file config \u2014 production-adjacent deployment hygiene, even if not at Amazon fleet scale",
+      "Demonstrated technical leadership/mentoring: led 25-member robotics club end-to-end (mechanical, PCB, firmware) and took over as team lead mid-project during the Teesside fellowship"
+    ],
+    "real_gaps": [
+      "No fleet-scale/production server firmware experience \u2014 every embedded project is single-device or small-team prototype scope, not millions-of-units deployment",
+      "No formal professional SDLC evidence: no code review process, no CI/CD pipeline, no coding-standards enforcement in a team/employer setting (Git/GitLab usage is academic/personal)",
+      "No firmware OTA/deployment-strategy experience minimizing customer impact at scale",
+      "No USB protocol experience (I2C/SPI/UART all present, USB is not)",
+      "No security-in-firmware or operational-excellence-at-scale evidence"
+    ],
+    "overstated_by_keywords": [
+      "Source control counted as HAVE from keyword match, but the underlying evidence is solo/academic Git+GitLab use, not team code-review workflow"
+    ],
+    "understated_by_keywords": [
+      "FreeRTOS + mutex-based shared-memory coordination on the Object Tracking Turret is a genuine RTOS/concurrency skill the keyword pass undersells relative to how directly it maps to critical-firmware development"
+    ],
+    "screening_gaps": [
+      "Zero years of non-internship professional software experience against an explicit 3+ year requirement \u2014 this is an experienced-hire req, and years-of-experience is usually the first automated/recruiter screen",
+      "No production or fleet-scale firmware deployment experience \u2014 all embedded work is prototype/single-device scope, not the millions-of-servers scale the role centers on",
+      "No demonstrated professional SDLC practice (formal code review, CI/CD pipeline, coding standards) in a team/employer setting \u2014 only academic and personal-project source control use"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The embedded fundamentals are genuinely strong and well-matched \u2014 ARM Cortex-M bare-metal C, register-level drivers, RTOS/concurrency, I2C/SPI/UART \u2014 but this posting reads as an experienced-hire req (3+ yrs professional, architecture ownership, fleet-scale production firmware) rather than a new-grad one. The years-of-experience and production-scope gaps are structural, not skill gaps, and are the kind of thing that gets a resume screened out before the technical depth is even evaluated.",
+    "calibration_delta": 2.7
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-24",
+    "channel": "application",
+    "notes": "Form rejection (req 10556875). No feedback."
+  }
+}

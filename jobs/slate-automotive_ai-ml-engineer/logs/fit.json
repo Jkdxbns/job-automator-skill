@@ -1,0 +1,147 @@
+{
+  "company": "Slate Automotive",
+  "company_slug": "slate-automotive",
+  "role": "AI/ML Engineer",
+  "job_slug": "ai-ml-engineer",
+  "match_pct": 55.8,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 7,
+    "missing_count": 8,
+    "jd_ask_size": 26,
+    "req_cov": 0.706,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Hugging Face",
+    "pandas",
+    "scikit-learn",
+    "computer vision",
+    "supervised learning",
+    "model evaluation",
+    "Git",
+    "LLM APIs",
+    "fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NLP",
+      "you_have": "Transformers, GPT-2 from scratch, ASR"
+    },
+    {
+      "jd_skill": "embeddings",
+      "you_have": "decoder embedding resize in DONUT"
+    },
+    {
+      "jd_skill": "time-series modeling",
+      "you_have": "DSP, sensor data acquisition"
+    },
+    {
+      "jd_skill": "agentic workflows",
+      "you_have": "Gemini intent classification in COFFIN"
+    },
+    {
+      "jd_skill": "data pipelines",
+      "you_have": "PyTorch preprocessing/training pipelines"
+    },
+    {
+      "jd_skill": "predictive maintenance",
+      "you_have": "sensor data acquisition"
+    },
+    {
+      "jd_skill": "manufacturing AI",
+      "you_have": "metal surface inspection pipeline"
+    }
+  ],
+  "missing_skills": [
+    "RAG",
+    "cloud (AWS/GCP/Azure)",
+    "experiment tracking",
+    "MLOps",
+    "OpenAI/Anthropic APIs",
+    "labeling workflows",
+    "demand forecasting",
+    "supply chain"
+  ],
+  "top_ats_keywords": [
+    "RAG",
+    "LLM",
+    "embeddings",
+    "PyTorch",
+    "Hugging Face",
+    "pandas",
+    "scikit-learn",
+    "time-series",
+    "NLP",
+    "computer vision",
+    "AWS",
+    "MLOps",
+    "experiment tracking",
+    "evaluation",
+    "data pipelines",
+    "Python",
+    "Git",
+    "agentic"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Hugging Face",
+    "pandas",
+    "scikit-learn",
+    "supervised learning",
+    "NLP",
+    "computer vision",
+    "time-series modeling",
+    "LLM APIs",
+    "RAG",
+    "embeddings",
+    "model evaluation",
+    "cloud (AWS/GCP/Azure)",
+    "version control",
+    "experiment tracking",
+    "MLOps"
+  ],
+  "preferred_skills": [
+    "manufacturing AI",
+    "supply chain forecasting",
+    "predictive maintenance",
+    "agentic workflows",
+    "data pipelines",
+    "labeling workflows"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "ship ML/GenAI features end to end",
+    "RAG pipelines and agentic workflows",
+    "data and eval infrastructure",
+    "manufacturing and supply chain AI"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote WA / Troy, MI",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

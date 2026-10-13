@@ -1,0 +1,21 @@
+{
+  "draft": {
+    "type": "email",
+    "subject": "Robotics Engineer opening at Gather AI",
+    "greeting": "Hi Rohit,",
+    "body": "My name is Justin Mascarenhas. I have an M.S. in Computer Engineering from Rochester Institute of Technology. I came across the Robotics Engineer opening on the Autonomy team at Gather AI and wanted to reach out directly since you are already on that team.\n\nMy background is full stack robotics work that lines up closely with the drone and MHE Vision split you all work across. I built a turret that runs vision on a Jetson and hands control off to an STM32 over UART with FreeRTOS coordinating the embedded side, which is close to the perception feeding embedded control pattern an MHE Vision system runs on. I have also worked directly in ROS2, deriving the kinematics for a UR5e and an AL5B by hand and validating them against MoveIt and RViz before running pick and place trajectories on the physical arm.\n\nI would really value a short chat about what the Autonomy team is working on and a little more about the company, if you're open to it.",
+    "sign_off": "Best,\nJustin Mascarenhas\nLinkedIn: https://www.linkedin.com/in/justinmascarenhas/",
+    "word_count": 124,
+    "hook_used": "Same technical domain: Rohit is an Autonomy Engineer on the exact team the role sits on",
+    "followup_days": 5
+  },
+  "target": {
+    "full_name": "Rohit Garg",
+    "current_title": "Autonomy Engineer",
+    "current_company": "Gather AI"
+  },
+  "meta": {
+    "company": "Gather AI",
+    "role": "Robotics Engineer"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "company": "Mujin",
+  "company_slug": "mujin",
+  "role": "Robotics Software Engineer II/III - Integration",
+  "job_slug": "robotics-swe-ii-iii-integration",
+  "match_pct": 41.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 6,
+    "missing_count": 11,
+    "jd_ask_size": 24,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "Python",
+    "Linux",
+    "ROS",
+    "linear algebra",
+    "3D geometry",
+    "six-axis robot arm"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "networking stack",
+      "you_have": "WebSocket, Flask-SocketIO"
+    },
+    {
+      "jd_skill": "digital twin",
+      "you_have": "URDF / RViz models"
+    },
+    {
+      "jd_skill": "CI/CD",
+      "you_have": "GitLab"
+    },
+    {
+      "jd_skill": "web application APIs",
+      "you_have": "Flask REST/SocketIO"
+    },
+    {
+      "jd_skill": "data structures",
+      "you_have": "algorithm coursework"
+    },
+    {
+      "jd_skill": "debugging",
+      "you_have": "embedded + Jetson debugging"
+    }
+  ],
+  "missing_skills": [
+    "industrial robotics deployment",
+    "AGV/AMR",
+    "WMS",
+    "industrial communication protocols",
+    "capital projects",
+    "FAT/SAT",
+    "GraphQL",
+    "Grafana",
+    "3D packing",
+    "industrial safety",
+    "validation testing"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "Python",
+    "Linux",
+    "ROS",
+    "AGV",
+    "AMR",
+    "GraphQL",
+    "Grafana",
+    "WMS",
+    "CI/CD",
+    "digital twin",
+    "FAT",
+    "SAT"
+  ],
+  "required_skills": [
+    "industrial robotics software deployment",
+    "C++",
+    "Python",
+    "Linux",
+    "validation testing",
+    "linear algebra",
+    "3D geometry",
+    "data structures",
+    "algorithms",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "AGV/AMR",
+    "ROS",
+    "networking stack",
+    "WMS",
+    "six-axis robot arm",
+    "web application APIs",
+    "industrial communication protocols",
+    "capital projects",
+    "root cause analysis",
+    "industrial safety",
+    "GraphQL",
+    "Grafana",
+    "digital twin",
+    "3D packing",
+    "CI/CD",
+    "FAT/SAT"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "lead commissioning and integration testing",
+    "FAT/SAT",
+    "GraphQL/Grafana",
+    "75% travel"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Suwanee, Georgia (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,156 @@
+{
+  "company": "Apptronik",
+  "company_slug": "apptronik",
+  "role": "Senior System Integration Engineer (Soft Goods/Gloves/Grip)",
+  "job_slug": "senior-system-integration-engineer-soft-goods-gl",
+  "match_pct": 42.9,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 21,
+    "req_cov": 0.217,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded sensor integration (ToF, accelerometer, encoders, IR)",
+    "Wearable / glove-style electromechanical design",
+    "Cross-functional technical leadership",
+    "Prototype bring-up & multi-domain troubleshooting",
+    "System-level architecture / interface design",
+    "Oscilloscopes / hardware test equipment",
+    "PCB / embedded circuit design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Flexible printed circuits (FPC) / delicate wiring in moving joints",
+      "you_have": "Custom PCB design + UART/I2C wiring in embedded robotics"
+    },
+    {
+      "jd_skill": "Data analysis / calibration scripting (Python/MATLAB/C++)",
+      "you_have": "Python data acquisition and visualization (PyQt + Matplotlib)"
+    },
+    {
+      "jd_skill": "Serviceability / modular service interfaces",
+      "you_have": "Modular system architecture (COFFIN three-layer pipeline, systemd service deployment)"
+    },
+    {
+      "jd_skill": "Wearable / flexible assembly integration",
+      "you_have": "Wearable gesture glove (Planctech) and embedded wearable concept"
+    }
+  ],
+  "missing_skills": [
+    "Flexible Printed Circuits (FPC) \u2014 profile has rigid PCB (EAGLE) only",
+    "Tactile/pressure/force sensor arrays \u2014 profile has ToF/proximity/temperature only",
+    "Ingress Protection (IP) architecture / environmental sealing validation",
+    "Formal Verification & Validation (V&V) plans for flexible assemblies",
+    "Interface Control Documents (ICD) experience (formal systems-engineering documentation)",
+    "Materials collaboration \u2014 elastomers (silicone, urethane), technical textiles, UHMWPE, Kevlar, grip coatings",
+    "Manufacturing scale-up / mass production line experience (profile is prototype/research/intern only)",
+    "MATLAB (not listed in profile skills)",
+    "Instron / cycle tester / mechanical test fixtures (not mentioned)",
+    "6+ years of experience in systems integration / mechatronics with wearables, robotics, soft goods, or flexible electromechanical systems \u2014 profile shows 0 full-time years, 7 internships/research roles total (~2.5 years aggregate)"
+  ],
+  "top_ats_keywords": [
+    "Mechatronics",
+    "Systems Integration",
+    "Robotics Hardware",
+    "Embedded Sensors",
+    "Tactile Sensors",
+    "Flexible Printed Circuits",
+    "Ingress Protection",
+    "IP Ratings",
+    "Environmental Sealing",
+    "Verification & Validation",
+    "V&V",
+    "Prototype Bring-Up",
+    "Electromechanical Debugging",
+    "Root Cause Analysis",
+    "Calibration",
+    "Python",
+    "MATLAB",
+    "C++",
+    "Manufacturing",
+    "Production Scale",
+    "Cross-Functional Leadership",
+    "Soft Goods",
+    "Gloves",
+    "Grip",
+    "Elastomers",
+    "Textiles"
+  ],
+  "required_skills": [
+    "Mechatronics",
+    "Systems Integration",
+    "Embedded Sensors (tactile/force/pressure/temperature)",
+    "Flexible Printed Circuits (FPC)",
+    "Wiring Integration in Compliant Structures",
+    "Ingress Protection (IP) Architecture",
+    "Environmental Sealing",
+    "Interface Control Documents",
+    "Verification & Validation (V&V)",
+    "Prototype Bring-Up",
+    "Multi-Domain Debugging",
+    "Root Cause Analysis",
+    "Data Analysis & Sensor Calibration",
+    "Manufacturing Scale-Up",
+    "Mass Production",
+    "Field Serviceability",
+    "Cross-Functional Engineering Leadership",
+    "Textiles & Technical Fabrics",
+    "Elastomers (silicone/urethane)",
+    "Grip Surfaces",
+    "ESD Validation",
+    "Thermal Testing",
+    "Water/IP Compliance"
+  ],
+  "preferred_skills": [
+    "Python Scripting",
+    "MATLAB",
+    "C++ Data Analysis",
+    "Oscilloscopes / DAQs / Multimeters",
+    "Instron / Mechanical Test Fixtures",
+    "Flexible Electromechanical Systems",
+    "Wearable Technology Design",
+    "Robotics Hardware Integration"
+  ],
+  "required_experience_years": 6,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Lead integration of compliant mechanical systems with sensing/electrical/control for humanoid robot Apollo",
+    "Define ingress-protection architecture and sealing interfaces for flexible/rigid boundaries",
+    "Manage mechanical/electrical/data interfaces between textiles/elastomers, embedded sensors, and rigid structure",
+    "Integrate tactile/pressure/force/temperature sensors into gloves/grip surfaces; ensure signal integrity and strain relief",
+    "Lead electromechanical bring-up and multi-domain troubleshooting of glove prototypes",
+    "Architect and execute V&V test plans; characterize sensor feedback, grip performance, friction, reliability",
+    "Collaborate with ME/Materials to validate flexible materials (UHMWPE, Kevlar, elastomers, technical textiles) for environmental/ESD/durability requirements",
+    "Develop calibration scripts and data-analysis methods for flexible sensor arrays",
+    "Design serviceable/modular integration strategies for field installation, repair, and replacement",
+    "Partner with Manufacturing/Quality/suppliers to ensure repeatable, scalable, testable production",
+    "Serve as primary technical adjudicator for trade-offs involving hands/protective skins",
+    "Investigate field failures with rigorous root-cause analysis and drive corrective actions"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, TX",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,144 @@
+{
+  "company": "Eko Health",
+  "company_slug": "eko-health",
+  "role": "General Interest Application - Software & Hardware Engineering (Algorithm Engineer track)",
+  "job_slug": "software-hardware-general-interest",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 2,
+    "jd_ask_size": 14,
+    "req_cov": 0.938,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "NumPy",
+    "PyTorch",
+    "TensorFlow",
+    "Digital Signal Processing",
+    "Data analysis",
+    "Algorithm development",
+    "Machine learning",
+    "Deep learning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "SciPy",
+      "you_have": "NumPy / Pandas / scikit-learn"
+    },
+    {
+      "jd_skill": "Production deployment of algorithms",
+      "you_have": "Jetson + TensorRT edge deployment (capstone/internship scope)"
+    },
+    {
+      "jd_skill": "Biosignal processing (ECG / heart and lung sounds)",
+      "you_have": "ASR audio pipeline + BraTS MRI medical imaging"
+    }
+  ],
+  "missing_skills": [
+    "Medical device / FDA-regulated software",
+    "Clinical data validation"
+  ],
+  "top_ats_keywords": [
+    "signal processing",
+    "Python",
+    "NumPy",
+    "SciPy",
+    "PyTorch",
+    "TensorFlow",
+    "algorithm development",
+    "data analysis",
+    "machine learning",
+    "deep learning",
+    "production systems",
+    "medical device",
+    "FDA"
+  ],
+  "required_skills": [
+    "Signal processing algorithms",
+    "Production deployment of algorithms",
+    "Python",
+    "NumPy",
+    "SciPy",
+    "PyTorch",
+    "TensorFlow",
+    "Data analysis"
+  ],
+  "preferred_skills": [
+    "Machine learning",
+    "Deep learning",
+    "Medical device / FDA-regulated software",
+    "Biosignal processing (ECG / heart and lung sounds)",
+    "Clinical data validation"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop and deploy signal processing algorithms in production systems",
+    "Algorithm development and data analysis in Python (NumPy, SciPy, PyTorch/TensorFlow)",
+    "Contribute to FDA-cleared AI products for cardiac and pulmonary disease detection"
+  ],
+  "role_category": "ml_systems",
+  "location": "Emeryville, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 67,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python/NumPy/PyTorch/TensorFlow depth is real, not surface: GPT-2 from scratch, QAT int8 MLP with EMA observer, DONUT fine-tune raising validation accuracy 55% -> 93%, YOLOv8n at 83% mAP@50 exported to ONNX/TFLite",
+      "Genuine audio signal-processing front end built from first principles: 80-channel mel spectrogram encoder plus Cython BPE tokenizer (4-5.5x speedup), 15% WER on NPTEL Indian-English - the closest analogue to Eko's heart/lung sound pipeline",
+      "Classical DSP beyond coursework: custom alpha-blended sym6+bior3.5 wavelet bank at BARC to suppress low-frequency noise, PSNR 65 -> 86, plus ZoeDepth depth profiling at +/-8% error",
+      "Healthcare-adjacent ML data experience twice over: BraTS 2020 multi-modal MRI U-Net segmentation (Dice/IoU, accuracy-latency trade-offs) and a medical-billing document extraction model at IIT Bombay",
+      "Model-efficiency work that maps to on-device algorithm deployment: 8-bit quantization cutting GPU memory ~55% with <1% accuracy loss, TensorRT YOLO at 5.2x speedup (56.7 -> 10.9 ms)",
+      "Sensor-level signal conditioning on embedded hardware: ADXL345 z-axis differential tap detection with jitter resolved through software calibration, and Bluetooth (BLE/Classic) integration"
+    ],
+    "real_gaps": [
+      "No medical device development under design controls - no QMS, IEC 62304, 510(k)/V&V, or algorithm documentation for an FDA submission, which is how every Eko algorithm actually ships",
+      "No physiological biosignal experience - no ECG, phonocardiogram, auscultation, PPG or any 1D time-series from a human body; the DSP evidence is images and speech",
+      "No algorithm owned in a live production system serving real users - every deployment is a capstone, internship or single-device demo with no release, monitoring or on-call surface",
+      "No clinical data validation experience - no study design, no reader/clinician ground truth, no sensitivity/specificity reporting against a clinical reference standard",
+      "SciPy itself never appears in the profile (NumPy/Pandas/scikit-learn do) - trivial to close but it is an explicit named ask",
+      "Seniority context: the Algorithm Engineer track asks for production deployment experience that implies a track record; 0 years full-time means this lands as a new-grad pool entry"
+    ],
+    "overstated_by_keywords": [
+      "Production deployment of algorithms - counted Adjacent on Jetson/TensorRT work, but that is one device on a bench, not a production system",
+      "TensorFlow - appears in the skills list and TFLite export, but every substantive model in the profile is PyTorch",
+      "Digital Signal Processing as a named skill - the keyword pass reads it as a course title; the defensible depth is the mel-spectrogram and wavelet work, not the class"
+    ],
+    "understated_by_keywords": [
+      "Wavelet-based denoising designed by hand (sym6+bior3.5 alpha blend) is real DSP algorithm development that the keyword pass scored only as a course name",
+      "The from-scratch ASR encoder is a complete 1D signal-to-prediction pipeline - mel filterbank, causal Transformer decoder, cross-attention - which is structurally what heart/lung sound classification needs",
+      "Two independent medical-data projects (BraTS MRI, medical billing extraction) give him more healthcare-domain exposure than any keyword in the JD would surface"
+    ],
+    "screening_gaps": [
+      "Zero medical device / FDA-regulated algorithm experience - Eko has 8+ FDA clearances and a screener for the Algorithm team will look for design-control and submission exposure first",
+      "Zero physiological biosignal work - no ECG or heart/lung sound algorithms anywhere in the profile, which is the specific domain the team hires into",
+      "No signal-processing algorithm deployed and maintained in a real production system, which the JD names explicitly as a key requirement"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The Algorithm Engineer track is the only one of the four Eko lists that he can credibly enter, and against it the tooling stack (Python, NumPy, PyTorch, TF, quantization, edge deployment) and the from-scratch audio pipeline are strong, defensible evidence. What is absent is the domain itself: no biosignals, no FDA design controls, no production-owned algorithm. This is a general-interest resume pool rather than a live opening, so it is cheap to enter and worth doing, but it should be treated as a low-probability, long-horizon submission backed by outreach rather than a targeted application.",
+    "calibration_delta": 8.0
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": { "company": "Nuro", "role": "Software Engineer, AI Platform - New Grad", "company_slug": "nuro", "job_slug": "swe-ai-platform-new-grad" },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from the Rochester Institute of Technology (RIT) with hands-on experience writing performance-critical C++ and Python across GPU, CPU, and distributed (MPI) systems. Builds and optimizes machine learning and perception pipelines end to end, from custom CUDA kernels and TensorRT inference to ROS2 robotics stacks and large-scale data pipelines.",
+  "skills": {
+    "Languages & Core": ["Python", "C/C++", "CUDA", "Bash"],
+    "Performance & Parallel Computing": ["CUDA C++", "MPI", "Multithreading", "Memory coalescing", "Kernel optimization"],
+    "Machine Learning": ["PyTorch", "TensorRT", "Hugging Face Transformers", "YOLO", "Model evaluation"],
+    "Robotics & Perception": ["ROS2", "MoveIt", "RViz", "Visual servoing", "Forward kinematics", "OpenCV"],
+    "Systems & Tools": ["Linux", "Git", "CMake", "Flask", "NVIDIA Jetson"]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data pipeline for the BraTS 2020 multi-modal MRI dataset with batch-loading memory management for large-scale 3D volumetric inputs.",
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones in PyTorch; evaluated Dice Score and IoU and reported accuracy-latency trade-offs for deployment."
+      ]
+    },
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free document-understanding transformer) on a custom dataset, improving validation accuracy from 55% to 93% via preprocessing and model tuning.",
+        "Built preprocessing and training pipelines in PyTorch using the HuggingFace VisionEncoderDecoder API with domain-specific tokens and resized decoder embeddings."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing and constant memory, reaching 49.2ms vs 77.5ms CPU baseline (~35% speedup over naive GPU) at identical accuracy."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work-distribution strategies (static strip/block/cyclic, dynamic task queue) for 5000×5000 scenes using MPI, reaching up to 30× speedup at 55 processes; the dynamic task queue outperformed all static schemes under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — M.S. Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Built a vision-guided pick-and-place system over a three-layer distributed pipeline (Flutter client, Flask-SocketIO server, Jetson+Arduino controller) linked by a unified WebSocket fabric.",
+        "Integrated TensorRT-optimized YOLO for visual servoing (5.2× speedup vs eager PyTorch) with multiprocessing multi-camera capture; achieved 100% pick reliability over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data-generation pipelines using CARLA semantic segmentation and raycast occlusion filtering to produce ~8,000 YOLO/UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and UFLD into an adaptive control stack; validated in Town02 at zero collisions across 30 vehicles and 10 pedestrians."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and forward kinematic chains for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble.",
+        "Executed collision-free pick-and-place trajectories on a physical UR5e via the UR ROS 2 driver; AL5B repeatability <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Machine Intelligence", "Deep Learning", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,218 @@
+{
+  "company": "AtkinsR\u00e9alis Nuclear",
+  "company_slug": "atkinsrealis",
+  "role": "Senior Robotics Engineer",
+  "job_slug": "senior-robotics-engineer",
+  "match_pct": 57.1,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 10,
+    "missing_count": 10,
+    "jd_ask_size": 35,
+    "req_cov": 0.706,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "ROS2",
+    "Linux",
+    "Python",
+    "C++",
+    "PyTorch",
+    "OpenCV",
+    "Computer Vision",
+    "Object Detection",
+    "Git",
+    "CUDA",
+    "TensorRT",
+    "Edge Deployment",
+    "Automated Testing",
+    "Deep Learning",
+    "Sensor Integration"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Nav2",
+      "you_have": "ROS2 + MoveIt + CARLA autonomous driving"
+    },
+    {
+      "jd_skill": "Localisation / Mapping",
+      "you_have": "Odometry (dead reckoning)"
+    },
+    {
+      "jd_skill": "Path Planning",
+      "you_have": "MoveIt motion planning"
+    },
+    {
+      "jd_skill": "LiDAR / depth sensors",
+      "you_have": "ToF + ZoeDepth depth estimation"
+    },
+    {
+      "jd_skill": "Sensor Fusion",
+      "you_have": "CARLA perception pipeline"
+    },
+    {
+      "jd_skill": "Obstacle Avoidance",
+      "you_have": "ToF-triggered gating"
+    },
+    {
+      "jd_skill": "DDS",
+      "you_have": "ROS2 communication"
+    },
+    {
+      "jd_skill": "Telemetry",
+      "you_have": "WebSocket / Flask streaming"
+    },
+    {
+      "jd_skill": "Segmentation",
+      "you_have": "BraTS Dice"
+    },
+    {
+      "jd_skill": "3D Perception",
+      "you_have": "Depth estimation"
+    }
+  ],
+  "missing_skills": [
+    "Open3D",
+    "Scene Reconstruction / SLAM",
+    "Containerisation (Docker)",
+    "CI/CD",
+    "JavaScript",
+    "Cloud-connected Robotics",
+    "NeRF",
+    "Gaussian Splatting",
+    "Omniverse",
+    "Unity/Unreal"
+  ],
+  "top_ats_keywords": [
+    "ROS2",
+    "Nav2",
+    "LiDAR",
+    "OpenCV",
+    "PyTorch",
+    "Open3D",
+    "Docker",
+    "CI/CD",
+    "CUDA",
+    "TensorRT",
+    "DDS",
+    "Python",
+    "C++",
+    "Linux"
+  ],
+  "required_skills": [
+    "ROS2",
+    "Linux",
+    "Nav2",
+    "Python",
+    "C++",
+    "OpenCV",
+    "PyTorch",
+    "Computer Vision",
+    "Sensor Integration",
+    "Git",
+    "Containerisation",
+    "CI/CD",
+    "Automated Testing",
+    "Obstacle Avoidance",
+    "Localisation",
+    "Mapping",
+    "Path Planning"
+  ],
+  "preferred_skills": [
+    "DDS",
+    "CUDA",
+    "TensorRT",
+    "Open3D",
+    "3D Perception",
+    "Sensor Fusion",
+    "JavaScript",
+    "Telemetry",
+    "Cloud-connected Robotics",
+    "NeRF",
+    "Gaussian Splatting",
+    "Omniverse",
+    "Unity",
+    "Unreal"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "ROS2 mobile robotics",
+    "Nav2 autonomous navigation",
+    "safe operation",
+    "CV/perception",
+    "multimodal data",
+    "containerised edge deployment",
+    "testing/CI-CD",
+    "field trials"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "UK (Epsom, Whitehaven, London, Bristol, Manchester)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Edge perception stack is genuinely deep: TensorRT-optimized YOLO on Jetson, 5.2x speedup (56.7 to 10.9 ms), visual servoing in COFFIN",
+      "CUDA / inference optimization: custom VGG16 conv kernels, ~35% over naive GPU, plus int8 quantization work",
+      "ROS2 Humble + MoveIt/RViz + UR ROS 2 driver on a physical UR5e with collision-free trajectories",
+      "CARLA pipeline: auto-generated ~5,000 YOLO and ~3,000 lane frames from semantic segmentation, zero collisions in Town02 with 30 vehicles and 10 pedestrians",
+      "Segmentation and 3D-ish vision: U-Net on BraTS 3D volumes (Dice/IoU), ZoeDepth crack-depth profiling with +/-8% error on 3D surface reconstruction"
+    ],
+    "real_gaps": [
+      "No mobile-robot navigation anywhere: no Nav2, SLAM, costmaps, localisation or mapping on a ROS2 mobile base. ROS evidence is arm manipulation only",
+      "No LiDAR, point clouds, Open3D or true multimodal 2D+3D fusion",
+      "No Docker/containerisation, CI/CD pipeline or automated test suite on a robotics stack",
+      "No field deployment or client-facing trials; deployment is a single systemd service on a lab Jetson",
+      "No DDS/QoS tuning, no JavaScript, no NeRF/Gaussian Splatting/Omniverse/Unity/Unreal",
+      "Seniority: role expects owning and mentoring across the full robotics lifecycle; profile is capstone/research/internship scope"
+    ],
+    "overstated_by_keywords": [
+      "Nav2 adjacent: MoveIt arm planning is manipulation, not mobile navigation",
+      "Sensor Fusion adjacent: CARLA pipeline is single-camera detection plus lane following, not fusion",
+      "Obstacle Avoidance adjacent: ToF gating is a grasp trigger, not collision avoidance or rerouting for a mobile platform",
+      "Sensor Integration / Automated Testing counted Have: ToF over I2C and bench trials, no LiDAR/camera-on-mobile-base integration and no automated test or CI evidence",
+      "ROS2 Have: real but arm-centric, not mobile-robot ROS2 with Nav2 stack"
+    ],
+    "understated_by_keywords": [
+      "ZoeDepth crack-depth profiling (BARC) is real 3D surface reconstruction work, closest thing to scene reconstruction in the profile",
+      "Frame Simulator: SE(3) transform-chain math and visualization maps to TF / spatial reasoning",
+      "COFFIN: Flutter client plus Flask-SocketIO edge server over WebSocket is operator-facing tooling with telemetry-like streaming, closest to the JS dashboards ask",
+      "Fail-safe state machine halting all motors on controller disconnect (Robocon) plus ToF range-gating supports the safe-operation theme",
+      "Robot Perception and Principles of Robotics coursework (RIT) not captured as keywords"
+    ],
+    "screening_gaps": [
+      "No Nav2 / SLAM / localisation / mapping on a mobile robot, the core of the role",
+      "No LiDAR or 3D point-cloud perception (Open3D) and no real multimodal sensor fusion",
+      "No containerised, CI/CD-tested, field-deployed robotics work at senior ownership scope"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The perception and edge-inference half of the role is strongly evidenced (TensorRT/YOLO on Jetson, CUDA, depth estimation, ROS2 on a UR5e). The navigation half, which is the centre of the posting, has no real backing: ROS experience is manipulator-only and there is no LiDAR, SLAM or Nav2. Treat it as a stretch where the perception and edge-AI story has to carry the application.",
+    "calibration_delta": 5.1
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-05",
+    "channel": "application",
+    "notes": "Form rejection (R-165344); resume kept in database. No feedback."
+  }
+}

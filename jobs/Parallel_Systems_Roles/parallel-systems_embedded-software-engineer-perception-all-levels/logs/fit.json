@@ -1,0 +1,162 @@
+{
+  "company": "Parallel Systems",
+  "company_slug": "parallel-systems",
+  "role": "Embedded Software Engineer, Perception (All Levels)",
+  "job_slug": "embedded-software-engineer-perception-all-levels",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 6,
+    "missing_count": 9,
+    "jd_ask_size": 24,
+    "req_cov": 0.571,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "CUDA / GPU optimization",
+    "NVIDIA Jetson / embedded NVIDIA platforms",
+    "TensorRT",
+    "ROS / ROS2",
+    "perception / vision / image processing",
+    "embedded / bare-metal / Linux drivers",
+    "real-time / performance",
+    "PyTorch / ML optimization"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Rust (systems-level)",
+      "you_have": "C/C++ / embedded C"
+    },
+    {
+      "jd_skill": "Linux kernel / driver development",
+      "you_have": "embedded Linux / driver-adjacent"
+    },
+    {
+      "jd_skill": "ARM platforms",
+      "you_have": "Cortex-M4 / embedded ARM-adjacent"
+    },
+    {
+      "jd_skill": "high-throughput camera / sensor capture",
+      "you_have": "OpenCV / vision / camera-adjacent"
+    },
+    {
+      "jd_skill": "GStreamer / V4L2 / MIPI CSI-2",
+      "you_have": "none in keyword list"
+    },
+    {
+      "jd_skill": "sensor fusion / SLAM",
+      "you_have": "ROS2 / perception pipelines"
+    }
+  ],
+  "missing_skills": [
+    "Rust",
+    "ARM (platform-specific driver experience)",
+    "GStreamer",
+    "V4L2",
+    "MIPI CSI-2 camera stacks",
+    "Yocto-based builds",
+    "lidar-specific drivers",
+    "kernel module / device tree development (explicit)",
+    "4+ years hands-on embedded/firmware/systems experience"
+  ],
+  "top_ats_keywords": [
+    "Embedded Software Engineer",
+    "Perception",
+    "firmware",
+    "low-level",
+    "Linux",
+    "ARM",
+    "NVIDIA",
+    "Jetson",
+    "Tegra",
+    "Rust",
+    "C/C++",
+    "drivers",
+    "kernel",
+    "camera",
+    "lidar",
+    "IMU",
+    "buffer management",
+    "timesync",
+    "latency",
+    "jitter",
+    "real-time",
+    "production",
+    "CUDA",
+    "TensorRT",
+    "GPU",
+    "scheduling",
+    "memory",
+    "IO",
+    "V4L2",
+    "GStreamer",
+    "MIPI CSI-2",
+    "Yocto",
+    "ROS2",
+    "SLAM"
+  ],
+  "required_skills": [
+    "Rust",
+    "C/C++",
+    "Linux internals",
+    "ARM-based platforms",
+    "NVIDIA Jetson/Tegra",
+    "driver development",
+    "high-throughput sensors (camera/lidar)",
+    "data capture",
+    "buffering",
+    "timestamp synchronization",
+    "V4L2",
+    "GStreamer",
+    "MIPI CSI-2",
+    "CUDA",
+    "TensorRT",
+    "GPU and kernel-level optimization",
+    "real-time optimization",
+    "sensor fusion",
+    "SLAM",
+    "ROS2",
+    "Yocto-based builds"
+  ],
+  "preferred_skills": [
+    "autonomous vehicles",
+    "robotics",
+    "safety-critical domains",
+    "GStreamer media pipelines",
+    "ROS2 / sensor fusion / SLAM"
+  ],
+  "required_experience_years": 4,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Develop and maintain drivers, kernel modules, and firmware for embedded Linux on ARM/NVIDIA platforms",
+    "Write low-level systems software in Rust and C/C++ for perception-critical components",
+    "Build and optimize drivers for high-throughput sensors (camera, lidar, IMU) with capture, buffering, and data integrity",
+    "Own real-time performance of sensing hardware \u2014 timesync, latency/jitter reduction, dropped frames, deterministic multi-sensor pipelines",
+    "Profile and optimize GPU/kernel-level performance on NVIDIA platforms (CUDA, TensorRT, scheduling, memory/IO)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Los Angeles, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

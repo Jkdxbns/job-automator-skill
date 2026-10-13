@@ -1,0 +1,21 @@
+{
+  "company": "Intel",
+  "company_slug": "intel",
+  "role": "GPU Design Verification Engineer",
+  "job_slug": "gpu-design-verification-engineer",
+  "match_pct": 20.0,
+  "missing_skills": ["SystemVerilog", "UVM", "ASIC Design and Verification", "Debug experience with RTL/gate-level simulation models"],
+  "adjacent_skills": ["Computer architecture (coursework: High Performance Architecture, Multiple Processor Systems)", "GPU architecture (CUDA kernel/software side, not RTL/microarchitecture)", "Memory architecture (CUDA memory coalescing, not RTL memory subsystem)", "AI/ML tools applied to EDA/verification (has general AI/ML depth, not applied to design verification)"],
+  "top_ats_keywords": ["SystemVerilog", "UVM", "ASIC Design and Verification", "computer architecture", "GPU architecture", "test plan", "coverage plan", "simulation models", "RTL"],
+  "key_responsibilities": [
+    "Functional verification of GPU graphics logic (3D, media, display)",
+    "Develop reusable IP verification plans, testbenches, verification architecture",
+    "Run system simulation models to verify design, analyze power/timing, uncover bugs",
+    "Root cause and debug issues in pre-silicon environment",
+    "Collaborate with GPU architects, RTL developers, physical design teams",
+    "Document test plans, drive technical reviews"
+  ],
+  "role_category": "asic_design_verification",
+  "verdicts": {"matches": "No", "apply": "No"},
+  "llm_analysis": null
+}

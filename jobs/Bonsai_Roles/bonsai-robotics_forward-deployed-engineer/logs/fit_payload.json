@@ -1,0 +1,144 @@
+{
+ "jd": {
+  "company_name": "Bonsai Robotics",
+  "company_slug": "bonsai-robotics",
+  "job_title": "Forward Deployed Engineer",
+  "job_slug": "forward-deployed-engineer",
+  "required_skills": [
+   "ROS2",
+   "C++",
+   "Python",
+   "Linux environment",
+   "Software development best practices",
+   "Debugging outside area of expertise",
+   "Customer-facing support / field travel",
+   "Documentation / SOPs / runbooks",
+   "Robotics with production systems",
+   "Production robot experience with real customers"
+  ],
+  "preferred_skills": [
+   "Applied robotics and software engineering experience",
+   "Agricultural robotics",
+   "Wiring and electrical diagrams",
+   "RTK/GNSS",
+   "CAN and serial communication frameworks"
+  ],
+  "all_keywords": [
+   "ROS2",
+   "C++",
+   "Python",
+   "Linux",
+   "Software best practices",
+   "Debugging",
+   "Customer support",
+   "SOP/runbook",
+   "Production robotics",
+   "Applied robotics",
+   "Agricultural robotics",
+   "Wiring/electrical",
+   "RTK/GNSS",
+   "CAN",
+   "Serial communication",
+   "Vision autonomy",
+   "Perception",
+   "Embedded",
+   "AI/ML"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "sponsorship_mentioned": false,
+  "sponsorship_offered": null,
+  "sponsorship_raw_text": null,
+  "location": "San Jose, CA",
+  "remote_ok": false,
+  "clearance_required": false,
+  "key_responsibilities": [
+   "Resolve urgent customer issues using ROS2, C++, Python",
+   "Document bugs and escalate; triage logs and feature requests",
+   "Write SOPs, runbooks, troubleshooting guides; train operators/dealers",
+   "Travel to customer sites for hard deployments",
+   "Collaborate on robotics/software feature design"
+  ],
+  "ats_keywords": [
+   "ROS2",
+   "C++",
+   "Python",
+   "Linux",
+   "Robotics",
+   "Perception",
+   "Vision-based autonomy",
+   "Embedded",
+   "CAN",
+   "Serial",
+   "GNSS",
+   "RTK",
+   "Field operations",
+   "SOP",
+   "Runbook",
+   "Troubleshooting",
+   "Production robot",
+   "Customer-facing",
+   "AI",
+   "ML"
+  ],
+  "role_category": "edge_ai_robotics"
+ },
+ "have": [
+  "ROS2",
+  "C++",
+  "Python",
+  "Linux",
+  "Robotics / perception",
+  "Edge AI / vision autonomy",
+  "Embedded / bare-metal hardware",
+  "PCB / electronics wiring",
+  "Serial / UART communication",
+  "AI / ML"
+ ],
+ "adjacent": [
+  {
+   "jd_skill": "Software development best practices",
+   "you_have": "CMake",
+   "evidence": "CMake and git in keyword list indicate build/version practices"
+  },
+  {
+   "jd_skill": "Debugging outside expertise",
+   "you_have": "Calibrated",
+   "evidence": "Calibrated / Benchmarked / Fine-tuned show diagnostic/test rigor but not explicit cross-domain debugging"
+  },
+  {
+   "jd_skill": "Applied robotics + software engineering",
+   "you_have": "ROS2",
+   "evidence": "ROS2 + C/C++ + Python cover both domains, but no evidence of applied robotics job role"
+  },
+  {
+   "jd_skill": "Wiring and electrical diagrams",
+   "you_have": "EAGLE PCB Design",
+   "evidence": "EAGLE PCB Design and UART/I2C/SPI show electrical/circuit familiarity, not full diagram reading"
+  },
+  {
+   "jd_skill": "Serial communication frameworks",
+   "you_have": "UART/I2C/SPI",
+   "evidence": "UART/I2C/SPI covers serial interfaces; CAN specifically absent"
+  }
+ ],
+ "missing": [
+  "Customer-facing support / travel to sites",
+  "Documentation / SOP / runbook creation",
+  "Production robot experience in real customer hands",
+  "Agricultural robotics",
+  "RTK/GNSS",
+  "CAN (explicit CAN framework)",
+  "Debugging problems outside area (no explicit debug keyword)"
+ ],
+ "hard_blocker": {
+  "triggered": false,
+  "reason": null
+ },
+ "flags": {
+  "no_sponsorship": false,
+  "location_conflict": false
+ },
+ "production_scope_required": true,
+ "semantic": null
+}

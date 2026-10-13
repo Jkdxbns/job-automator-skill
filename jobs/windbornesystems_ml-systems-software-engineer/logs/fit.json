@@ -1,0 +1,144 @@
+{
+  "company": "WindBorne Systems",
+  "company_slug": "windbornesystems",
+  "role": "Software Engineer, Machine Learning Systems",
+  "job_slug": "ml-systems-software-engineer",
+  "match_pct": 61.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 3,
+    "jd_ask_size": 13,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "GPU computing",
+    "ML inference",
+    "data visualization tools",
+    "debugging multi-component systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "failure detection and recovery",
+      "you_have": "systemd auto-restart with backoff (Jetson arm bridge)"
+    },
+    {
+      "jd_skill": "real-time data pipelines",
+      "you_have": "WebSocket Flutter/Flask/Jetson pipeline, sensor pipelines"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI, SLURM-managed jobs"
+    },
+    {
+      "jd_skill": "scientific computing",
+      "you_have": "NumPy, MPI, DSP coursework"
+    }
+  ],
+  "missing_skills": [
+    "production ownership, monitoring and on-call",
+    "cloud infrastructure",
+    "weather and geospatial data"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "GPU computing",
+    "ML inference",
+    "data pipelines",
+    "distributed systems",
+    "infrastructure",
+    "monitoring",
+    "reliability",
+    "scientific computing",
+    "weather data",
+    "geospatial",
+    "visualization",
+    "real-time"
+  ],
+  "required_skills": [
+    "Python",
+    "production software ownership and monitoring",
+    "failure detection and recovery",
+    "real-time data pipelines",
+    "data visualization tools",
+    "debugging multi-component systems"
+  ],
+  "preferred_skills": [
+    "distributed systems",
+    "cloud infrastructure",
+    "scientific computing",
+    "weather and geospatial data",
+    "ML inference",
+    "GPU computing",
+    "PyTorch"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Keep WeatherMesh forecasts running: tooling that runs models, detects failures, recovers from cloud node loss",
+    "Real-time atmospheric data pipelines handling late or missing data, with alerting",
+    "Visualization tools for data processing and model inference runs"
+  ],
+  "role_category": "ml_systems",
+  "location": "Redwood Shores, CA (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 52,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Python, PyTorch and GPU/ML inference depth: TensorRT-optimized YOLO 56.7 to 10.9 ms (COFFIN), 8-bit quantization with pynvml VRAM profiling, custom CUDA conv kernels",
+      "Cross-component debugging: resolved 11 integration failures across Flutter, Flask-SocketIO and Jetson+Arduino over a WebSocket fabric (COFFIN)",
+      "Visualization tooling: PyQt + Matplotlib real-time data acquisition GUI (BARC), PySide6/VisPy 3D viewer (Frame Simulator)",
+      "Service hygiene: systemd unit with auto-restart and backoff, non-root isolation, env-file config (COFFIN Jetson bridge)"
+    ],
+    "real_gaps": [
+      "No production system owned after launch: no on-call, uptime or incident history",
+      "No cloud node or container experience (no AWS/GCP, Docker, orchestration), so node-loss recovery has no backing",
+      "No streaming ingestion of external data with late/missing handling or alerting",
+      "No observability work: run-progress dashboards, tracing, slowdown diagnosis for a long-running job",
+      "No weather, geospatial or atmospheric forecasting data experience",
+      "Seniority note: JD wants substantial owned software; profile is capstone, research and internship scope"
+    ],
+    "overstated_by_keywords": [
+      "distributed systems: MPI/SLURM is HPC compute speedup, not fault-tolerant services",
+      "failure detection and recovery: one systemd restart policy on one Jetson, not cross-node recovery",
+      "real-time data pipelines: COFFIN WebSocket and LeRobot capture are device pipelines, not ingestion of unreliable feeds"
+    ],
+    "understated_by_keywords": [
+      "CanSat Workshop 1st prize: Arduino Nano atmospheric data collection during free fall, a real atmospheric-sensing hook that never string-matched",
+      "BARC real-time data acquisition plus live visualization maps directly onto the show-us-what-is-happening responsibility",
+      "BraTS custom data pipeline with batch-loading memory management is real data-pipeline engineering, if small scale"
+    ],
+    "screening_gaps": [
+      "No owned production system with monitoring and recovery responsibility, the JD's first fit criterion",
+      "No cloud or infrastructure experience for the cloud-node failure recovery core of the role",
+      "No ingestion pipeline handling late or missing data, and no run-observability tooling beyond local GUIs"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The role does not require ML, which removes the profile's strongest area as a differentiator, and the three owned responsibilities (reliability on cloud nodes, real-time ingestion with gaps, run observability) have only partial or adjacent backing. The JD is explicitly flexible on years and stresses learning ability and buildable software, and COFFIN plus the visualization tools give a credible portfolio, so applying is reasonable but the screen risk is production-ownership and cloud depth.",
+    "calibration_delta": 9.5
+  }
+}

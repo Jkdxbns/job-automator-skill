@@ -1,0 +1,59 @@
+{
+  "company": "Zipline",
+  "company_slug": "zipline",
+  "role": "Senior Embedded Platform Engineer",
+  "job_slug": "senior-embedded-platform-engineer",
+  "match_pct": 55,
+  "have_skills": [
+    "C++ strongly typed",
+    "Python",
+    "HW-SW bridge/sensor integration (UART/I2C/SPI)",
+    "mission state machines (COFFIN WebSocket orchestration, systemd service)"
+  ],
+  "adjacent_skills": [
+    "Linux/Jetson (userspace, not kernel mods)",
+    "embedded Linux (no kernel modification experience)",
+    "software architecture (distributed pipeline design)"
+  ],
+  "missing_skills": [
+    "Rust",
+    "3+ years robotics production",
+    "SIL/HIL validation",
+    "kernel modifications",
+    "technical leadership"
+  ],
+  "top_ats_keywords": [
+    "embedded Linux",
+    "Jetson",
+    "C++",
+    "Python",
+    "real-time",
+    "state machine",
+    "SIL/HIL",
+    "observability",
+    "health monitoring",
+    "mission orchestration",
+    "fault-tolerant",
+    "robotics",
+    "autonomy stack"
+  ],
+  "key_responsibilities": [
+    "hardware bring-up/validation",
+    "logging/health monitoring/replay tooling",
+    "embedded Rust/C++ on Linux",
+    "mission state machines",
+    "SIL/HIL safety validation"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "flags": {
+    "hard_blocker": false,
+    "sponsorship": "not_mentioned",
+    "experience_gap": "3+ years required, 0 years actual \u2014 main risk",
+    "level_mismatch": "Senior \u2014 overleveled but technical skills partially bridge gap",
+    "clearance": false
+  }
+}

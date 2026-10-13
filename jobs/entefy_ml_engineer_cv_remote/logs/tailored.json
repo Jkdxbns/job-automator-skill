@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "company": "Entefy",
+    "role": "ML Engineer \u2013 Computer Vision",
+    "company_slug": "entefy",
+    "job_slug": "ml_engineer_cv_remote"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from RIT specializing in computer vision, deep learning, and GPU-accelerated inference. Shipped image segmentation, object detection, and depth estimation systems using PyTorch, TensorFlow, and CUDA C++.",
+  "skills": {
+    "Computer Vision": [
+      "OpenCV",
+      "YOLOv8/v11",
+      "U-Net",
+      "DONUT",
+      "TensorRT",
+      "Segmentation",
+      "Object Detection",
+      "Depth Estimation"
+    ],
+    "Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "CNNs",
+      "Residual Networks",
+      "Attention Models",
+      "Transformers"
+    ],
+    "Languages & Parallel": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "MPI",
+      "SLURM"
+    ],
+    "Tools": [
+      "NVIDIA Jetson",
+      "ROS2",
+      "Flask",
+      "Git",
+      "Google Colab"
+    ]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "dates": "Jan 2024 \u2013 Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom dataset; improved validation accuracy from 55% to 93% via preprocessing improvements and model tuning."
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net image segmentation with VGG-16, VGG-19, and ResNet-50 backbones on BraTS 2020 MRI dataset; evaluated on Dice Score and IoU.",
+        "Engineered a data pipeline with medical imaging augmentation and batch-loading for large-scale 3D volumetric inputs; delivered within a 6-week window."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with \u00b18% error on 3D surface reconstruction.",
+        "Built a custom image-stitching pipeline achieving PSNR 65 vs homography baseline; improved to PSNR 86 with wavelet denoising."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8 object detection model for image classification; improved accuracy from 78% to 97.5% and deployed in consumer mobile app."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers in VGG16 with custom CUDA C++ kernels using memory coalescing, constant memory, and preallocated global buffers.",
+        "Coalesced kernel: 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU) \u2014 ~35% speedup over naive GPU with identical accuracy."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); integrated into adaptive control stack with lane-following.",
+        "Generated ~8,000 annotated frames via semantic segmentation pipelines with zero manual annotation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Deployed TensorRT YOLO visual servoing at ~18 FPS on Jetson; achieved 100% pick reliability (10/10 trials) in vision-guided pick-and-place."
+      ]
+    },
+    {
+      "name": "MPI Parallel Computing \u2014 Neuron Simulation & Ray Tracer",
+      "date": null,
+      "bullets": [
+        "Achieved 10.49\u00d7 speedup (Hodgkin-Huxley, 12 MPI workers) and 30\u00d7 speedup (ray tracer, 55 processes) on SLURM-managed HPC cluster."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Deep Learning",
+        "Machine Intelligence",
+        "Robot Perception",
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

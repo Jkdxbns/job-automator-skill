@@ -1,0 +1,95 @@
+{
+  "company": "Google",
+  "company_slug": "google",
+  "role": "Software Engineer, GPU Performance",
+  "job_slug": "software_engineer_gpu_performance",
+  "location": "Sunnyvale, CA",
+  "salary": "$147,000 - $211,000 + 15% bonus + equity",
+  "match_pct": 100,
+  "missing_skills": [
+    "OpenXLA",
+    "MLIR",
+    "compiler optimization",
+    "code generation",
+    "GPU runtime systems",
+    "ROCm",
+    "AMD GPUs",
+    "Nsight Compute",
+    "tensor cores",
+    "multi-GPU / cross-node serving"
+  ],
+  "adjacent_skills": [
+    "Triton -> CUDA C++ kernel authoring",
+    "CUTLASS -> hand-written CUDA conv/GEMM optimization",
+    "AI accelerators -> NVIDIA Jetson + TensorRT",
+    "runtime systems -> TensorRT, ONNX, TorchScript"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "GPU performance",
+    "kernel optimization",
+    "performance engineering",
+    "GPU architecture",
+    "memory hierarchy",
+    "performance bottlenecks",
+    "Triton",
+    "CUTLASS",
+    "NVIDIA",
+    "AI accelerators",
+    "Large Language Models",
+    "TensorRT",
+    "quantization",
+    "compiler optimization",
+    "C++",
+    "Python",
+    "data structures and algorithms"
+  ],
+  "key_responsibilities": [
+    "Build optimizations for latest-generation GPUs powering Google's critical products",
+    "Address performance bottlenecks using latest GPUs and tooling",
+    "Drive optimizations across the GPU software stack: ML compiler cost model design, high-performance GPU kernels, cross-node model serving configurations",
+    "Influence technical direction of Google's GPU software ecosystem with ML, compiler design, systems architecture",
+    "Influence deployment of Google's GPU fleet with product teams"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "constraint_flags": {
+    "sponsorship": "OK - Google is a known H1B sponsor; no no-sponsorship language in JD",
+    "experience": "Soft flag - JD asks 1 yr with advanced degree; 0 FT years, 7 internships (none GPU-performance specific)",
+    "location": "OK - Sunnyvale CA onsite; willing_to_relocate = true",
+    "clearance": "None required",
+    "notice_weeks": 4,
+    "ead_pending": true
+  },
+  "hard_blocker_triggered": false,
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "CUDA kernel optimization with real memory-hierarchy work - VGG16 project: replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, preallocated global buffers; 49.2ms coalesced vs 73.3ms uncoalesced (~35% speedup), 1.5-2x on convolutions",
+      "GPU memory profiling and quantization - TinyLlama 1.1B 8-bit (LLM.int8) cut VRAM ~55% with <1% accuracy loss, profiled peak VRAM/latency with pynvml",
+      "LLM internals + accelerator deployment - GPT-2 built from scratch (multi-head attention, MLP, layer norm, weight tying); TensorRT-optimized YOLO on Jetson at 5.2x speedup (56.7 -> 10.9ms)",
+      "Parallel performance reasoning at scale - MPI ray tracer, 4 work-distribution strategies, 30x speedup; Hodgkin-Huxley 10.49x with load-imbalance characterization (65% degradation under uneven distribution)",
+      "Coursework backs it: High Performance Architecture, Multiple Processor Systems"
+    ],
+    "real_gaps": [
+      "Compiler stack is entirely absent - JD names OpenXLA, MLIR, Triton, code generation, runtime systems, and lists 'ML compiler cost model design' as a core responsibility. No IR-level or compiler-development work anywhere in the profile.",
+      "Triton and CUTLASS are named in the MINIMUM quals, not preferred. Hand-written CUDA C++ is the same family but not the same toolchain.",
+      "CUDA depth stops below the level this role lives at - no shared-memory tiling, bank conflicts, tensor cores/WMMA, warp-level primitives, occupancy tuning, or double buffering evident. Coalescing + constant memory is the entry tier.",
+      "Profiling tooling gap - pynvml is a coarse device-query API, not a kernel profiler. No Nsight Compute, nvprof, or CUPTI. GPU performance work is roofline and warp-stall analysis.",
+      "Scale mismatch - all GPU work is single-GPU, single-author academic/personal projects. JD is fleet-scale, cross-node model serving, billions of users. No multi-GPU, NCCL, or distributed inference.",
+      "GPU-specific experience is project-scoped, not employment-scoped - none of the 7 internships were GPU performance roles (they were ML research, CV, embedded)."
+    ],
+    "overstated_by_keywords": [
+      "'Kernel optimization' and 'memory coalescing' as skill-list entries - both trace to one course project, at the introductory optimization tier",
+      "Triton / CUTLASS counted Adjacent via CUDA C++ - genuinely weaker; each has its own idioms and the JD names them explicitly",
+      "'AI accelerators' via Jetson - Jetson is edge inference; the JD means datacenter GPUs (A100/H100-class). Different performance regime.",
+      "TensorRT/ONNX/TorchScript counted toward 'compiler optimization and runtime systems' - these are consumed as black boxes, not developed",
+      "'Memory hierarchies' - one technique (global-memory coalescing), not shared memory / L2 / register-file reasoning"
+    ],
+    "reasoning": "The core minimum qual (low-level GPU programming plus performance engineering) is genuinely met, with a real CUDA project carrying honest before/after numbers, and the LLM preferred qual is a real strength. But the keyword score of 100% is inflated: it credits CUDA C++ for Triton and CUTLASS, Jetson for datacenter accelerators, and TensorRT for compiler work. The two responsibilities Google weights most (ML compiler cost model design, cross-node serving) have no backing in the profile at all. This is a legitimate application that clears the bar on paper, but it will compete against candidates with production Triton/CUTLASS and MLIR experience."
+  }
+}

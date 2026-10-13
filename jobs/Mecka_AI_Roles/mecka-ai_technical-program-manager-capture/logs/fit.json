@@ -1,0 +1,105 @@
+{
+  "company": "Mecka AI",
+  "company_slug": "mecka-ai",
+  "role": "Technical Program Manager, Capture",
+  "job_slug": "technical-program-manager-capture",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 3,
+    "missing_count": 6,
+    "jd_ask_size": 10,
+    "req_cov": 0.167,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "robotics datasets / multi-sensor recording (preferred)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "sensor data, calibration, synchronization",
+      "you_have": "embedded sensor / calibration / communication interface skills"
+    },
+    {
+      "jd_skill": "hardware + software + field operations (must-have delivery context)",
+      "you_have": "embedded and edge-AI hardware/software skills (not program-delivery scope)"
+    },
+    {
+      "jd_skill": "robotics / embodied AI domain context",
+      "you_have": "robotics perception and edge-deployment skills"
+    }
+  ],
+  "missing_skills": [
+    "Delivering technical programs / cross-functional program delivery (hardware + software + field ops) \u2014 no project-management or operations-delivery keywords present",
+    "Building practical schedules, mapping dependencies, resolving blockers across teams \u2014 no scheduling/project-management evidence",
+    "Analyzing throughput, quality, capacity, and cost using spreadsheets/queries/scripts (analytics/forecasting) \u2014 no spreadsheet/query/capacity-analysis keywords",
+    "Inspecting recordings and diagnostic logs; verifying engineering fixes \u2014 no logging/data-inspection/quality-review keywords",
+    "Clear written communication for operating procedures, forecasts, and technical decisions \u2014 no technical-writing or documentation keywords",
+    "Improving operator workflows or automating data-quality checks (preferred) \u2014 no workflow-automation or quality-check automation keywords"
+  ],
+  "top_ats_keywords": [
+    "program manager",
+    "capture programs",
+    "data quality",
+    "sensor data",
+    "calibration",
+    "synchronization",
+    "recording",
+    "hardware",
+    "software",
+    "field operations",
+    "operator training",
+    "capacity planning",
+    "delivery forecasting",
+    "recording failures",
+    "diagnostic logs",
+    "spreadsheets",
+    "scripts",
+    "quality standards"
+  ],
+  "required_skills": [
+    "Experience delivering technical programs combining hardware, software, and field operations",
+    "Ability to build practical schedules, map dependencies, and resolve technical blockers",
+    "Understanding of sensor data, calibration, synchronization, and common recording failures",
+    "Analyzing throughput, quality, capacity, and cost via spreadsheets, queries, or scripts",
+    "Inspecting recordings and diagnostic logs and verifying fixes work",
+    "Clear written communication (procedures, forecasts, technical decisions)"
+  ],
+  "preferred_skills": [
+    "Experience with robotics datasets or multi-sensor recording programs",
+    "Improving operator workflows or automating data-quality checks"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Turn dataset requirements into capture programs with quality standards, capacity plans, and delivery milestones",
+    "Coordinate device availability, operator training, recording capacity, and data review across a program",
+    "Plan and validate pilot captures before expanding operations",
+    "Investigate data-quality issues with engineering and operations teams and verify corrective actions",
+    "Forecast delivery, identify risks, and adjust plans using measured capacity and data acceptance rates"
+  ],
+  "role_category": "other",
+  "location": "Toronto GTA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

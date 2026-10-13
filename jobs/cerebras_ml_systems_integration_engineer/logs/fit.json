@@ -1,0 +1,72 @@
+{
+  "company": "Cerebras Systems",
+  "company_slug": "cerebras",
+  "role": "ML Systems Integration Engineer",
+  "job_slug": "ml_systems_integration_engineer",
+  "match_pct": 100,
+  "missing_skills": [
+    "debugging large-scale/distributed systems",
+    "production systems validation / infra reliability (SRE)",
+    "system telemetry & log analysis at scale",
+    "formal test infrastructure / automation frameworks"
+  ],
+  "adjacent_skills": [
+    "OS fundamentals (processes/threads/memory/IPC) \u2014 via FreeRTOS + multiprocessing, not desktop OS internals",
+    "distributed systems \u2014 via MPI/SLURM academic + 3-node robot pipeline",
+    "networking fundamentals \u2014 via TCP/WebSocket app-level",
+    "internal tooling \u2014 via benchmarking/data-collection pipelines"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C++",
+    "Linux",
+    "debugging",
+    "computer architecture",
+    "operating systems",
+    "concurrency",
+    "automation frameworks",
+    "test infrastructure",
+    "distributed systems",
+    "hardware/software integration",
+    "system validation",
+    "telemetry",
+    "log analysis"
+  ],
+  "key_responsibilities": [
+    "Bring-up of next-gen AI hardware + supporting software",
+    "Debug HW/SW system-level issues",
+    "Root-cause failures using logs, telemetry, diagnostics",
+    "Build automation frameworks and internal tooling",
+    "Develop software to test/validate/stress distributed hardware",
+    "Collaborate with hardware engineers on integration",
+    "Improve system observability"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 80,
+    "llm_verdict": "Strong Fit",
+    "strengths": [
+      "HW/SW integration debugging \u2014 COFFIN capstone: resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) across a Jetson+Arduino system. This is a near-exact match for 'debug complex system-level issues spanning hardware and software interactions'.",
+      "Hardware-adjacent software + bench debugging \u2014 STM32 bare-metal C, UART/I2C/SPI drivers, oscilloscopes, logic analyzers. Direct backing for 'hardware-adjacent software / system integration environments' and diagnostic-tool debugging.",
+      "Python + C++ + CUDA C++ \u2014 genuine strong programming across the two languages the JD names.",
+      "Linux + cluster experience \u2014 Jetson deployment, SLURM-managed cluster workloads back 'Linux development environments'.",
+      "Computer architecture + performance analysis \u2014 High Performance Architecture & Multiple Processor Systems coursework; CUDA memory-coalescing kernels; pynvml profiling and MPI load-imbalance characterization back 'computer architecture' and 'performance analysis / telemetry'."
+    ],
+    "real_gaps": [
+      "OS-internals depth: JD explicitly wants processes/threads/memory management/concurrency/IPC. Justin's concurrency is FreeRTOS mutexes + Python multiprocessing/MPI, not desktop/server OS internals (scheduling, virtual memory, IPC primitives). Likely a depth-probe risk.",
+      "Distributed systems at scale: Cerebras runs wafer-scale supercomputers; Justin's distributed work is academic MPI on small SLURM clusters + a 3-node robot pipeline, not production distributed infra.",
+      "No production systems validation / SRE / reliability engineering experience.",
+      "No formal test-infrastructure / automation-framework ownership \u2014 has benchmarking scripts and data pipelines, not validation frameworks."
+    ],
+    "overstated_by_keywords": [
+      "'distributed systems' \u2014 MPI/SLURM academic counted as adjacent, but not the distributed-systems concept the JD means.",
+      "'operating systems fundamentals' \u2014 RTOS + multiprocessing is thinner than desktop OS/IPC depth.",
+      "'networking fundamentals' \u2014 TCP/WebSocket is app-level, not networking between distributed systems."
+    ],
+    "reasoning": "The required section maps very well: the core ask is HW/SW integration debugging, tooling in Python/C++, Linux, and computer architecture \u2014 all of which Justin backs with real capstone and embedded work (COFFIN's 11 integration-failure debug story is almost tailor-made for this role). The gaps are concentrated in the preferred bucket (scaled distributed systems, production validation, SRE) plus OS-internals interview depth. For an entry-level bring-up/validation role this is a genuine Strong-to-Partial fit worth applying to."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "company": "ArcBest / Vaux",
+  "company_slug": "arcbest",
+  "role": "Principal Product Manager - Robotics Safety and Compliance",
+  "job_slug": "principal-product-manager-robotics-safety-compliance-vaux",
+  "match_pct": 55.4,
+  "score_detail": {
+    "have_count": 16,
+    "adjacent_count": 9,
+    "missing_count": 12,
+    "jd_ask_size": 37,
+    "req_cov": 0.389,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python (Languages & Systems; used in SLM Compression, QAT, GPT-2, COFFIN ASR, Autonomous Driving)",
+    "Robotics / perception / embedded control (COFFIN Voice-Controlled Robotic Arm; ROS-Based Robotic Arm AL5B/UR5e; Object Tracking Turret; Autonomous Driving in CARLA)",
+    "ROS / ROS2 (COFFIN Voice-Controlled Arm; ROS-Based Robotic Arm with MoveIt/RViz in ROS2 Humble)",
+    "CUDA / C++ (CUDA Kernel Optimization for VGG16 Inference; HPC/Parallel skills)",
+    "PyTorch / ML evaluation (SLM Compression and Benchmarking; Quantization-Aware Training; GPT-2 from scratch)",
+    "TensorRT / edge optimization (COFFIN Voice-Controlled Arm: TensorRT-optimized YOLO 5.2x speedup)",
+    "Embedded / STM32 / Arduino / Jetson (Object Tracking Turret; STM32 Bare-Metal Temperature Monitor; Voice-Controlled Arm uses Jetson + Arduino)",
+    "OpenCV / YOLO / CV (COFFIN Voice-Controlled Arm; Autonomous Driving; Object Tracking Turret)",
+    "Cython (COFFIN Whisper-Style ASR custom BPE tokenizer, 4-5.5x speedup)",
+    "Flask / web sockets / Linux (COFFIN Voice-Controlled Arm uses Flask-SocketIO edge server; Linux Administration skills)",
+    "C / embedded systems (STM32 Bare-Metal Temperature Monitor; embedded C, FreeRTOS, UART/I2C)",
+    "NLP / ASR / speech pipelines (COFFIN Whisper-Style ASR 15% WER; faster-whisper STT in Voice-Controlled Arm)",
+    "Robotics kinematics / forward kinematics (ROS-Based Robotic Arm: hand-computed DH tables for 6-DoF UR5e)",
+    "Data collection pipeline / multiprocessing (COFFIN LeRobot-structured multi-camera capture with multiprocessing)",
+    "Git / CMake / Bash (Tools list; Voice-Controlled Arm pipeline)",
+    "Education: M.S. Computer Engineering, RIT (graduated May 2026, preferred Master's met)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Functional safety / ISO/IEC standard compliance (ISO 3691-4, 10218, 13849, IEC 61508, ANSI/RIA)",
+      "you_have": "Robotics/perception/control system building (COFFIN arm, ROS Arm, Object Tracking Turret) but zero functional-safety-standard or ISO/IEC exposure (explicitly NOT part of background)"
+    },
+    {
+      "jd_skill": "Product management / commercial strategy / portfolio ownership",
+      "you_have": "No PM, business strategy, or product portfolio evidence; background is capstone/research/internship technical scope only"
+    },
+    {
+      "jd_skill": "Robotics system architecture (production-scale ownership)",
+      "you_have": "Built integrated robotic systems (COFFIN: Flutter + Flask + Jetson + Arduino + YOLO + ASR; ROS Arm: MoveIt/RViz/ROS2) but at capstone/research scale, not production org-scale"
+    },
+    {
+      "jd_skill": "Analytics stack (Excel, SQL, Python, Tableau)",
+      "you_have": "Python analytics/benchmarking (pynvml, psutil, accuracy metrics in SLM/QAT) but no SQL, Tableau, or Excel experience listed"
+    },
+    {
+      "jd_skill": "Business/pricing/financial modeling",
+      "you_have": "No business modeling, pricing, or financial analysis experience in profile"
+    },
+    {
+      "jd_skill": "Customer-facing / client-facing / startup scaling",
+      "you_have": "No customer-facing, account, or startup-scaling experience; only technical/research/internship work"
+    },
+    {
+      "jd_skill": "Confluence / Jira / Miro",
+      "you_have": "No collaboration/project-management tool experience listed"
+    },
+    {
+      "jd_skill": "8 years relevant experience (preferred)",
+      "you_have": "New-grad MS (May 2026, 0 full-time years, 7 internships) \u2014 seniority mismatch"
+    },
+    {
+      "jd_skill": "TUV Rheinland Functional Safety Engineer / PMP certifications",
+      "you_have": "No certifications listed in profile"
+    }
+  ],
+  "missing_skills": [
+    "Product management experience or skills (zero evidence \u2014 role category is wrong)",
+    "Functional safety engineering / ISO 3691-4 / ISO 10218 / ISO 13849 / IEC 61508 / ANSI/RIA (explicitly NOT in background)",
+    "UL / CE / FCC compliance familiarity",
+    "Business/pricing/financial modeling (explicitly no PM/business experience)",
+    "Customer-facing / client-facing skills",
+    "Startup scaling experience",
+    "MS Office / Excel analytics",
+    "SQL / Tableau analytics experience",
+    "Confluence / Jira / Miro",
+    "PMP or TUV Rheinland Functional Safety Engineer certification",
+    "8 years relevant full-time experience (candidate: 0 full-time years, 7 internships)",
+    "Full-time industry production experience (profile notes: no full-time industry experience)"
+  ],
+  "top_ats_keywords": [
+    "product manager",
+    "robotics",
+    "functional safety",
+    "ISO 3691-4",
+    "ISO 10218",
+    "ISO 13849",
+    "IEC 61508",
+    "UL",
+    "CE",
+    "FCC",
+    "autonomy",
+    "intralogistics",
+    "system architecture",
+    "business modeling",
+    "customer-facing"
+  ],
+  "required_skills": [
+    "Product management",
+    "Robotics/autonomy/industrial automation product experience",
+    "Functional safety engineering (ISO 3691-4, ISO 10218, ISO 13849, IEC 61508, ANSI/RIA)",
+    "UL/CE/FCC compliance familiarity",
+    "Robotics system architecture understanding",
+    "Business/pricing/financial modeling",
+    "Customer-facing skills",
+    "MS Office",
+    "Analytics (Excel, SQL, Python, Tableau)"
+  ],
+  "preferred_skills": [
+    "Master's/MBA",
+    "TUV Rheinland Functional Safety Engineer certification",
+    "PMP certification",
+    "Confluence",
+    "Jira",
+    "Miro",
+    "Startup scaling experience",
+    "Working with robotics engineering teams across hardware/perception/autonomy software/control systems"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "principal",
+  "key_responsibilities": [
+    "Drives execution and value creation across Vaux's autonomous intralogistics portfolio",
+    "Bridges commercial strategy, product management, and functional safety engineering"
+  ],
+  "role_category": "product_management",
+  "location": "Fort Smith, AR (also Boston, MA)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "seniority_mismatch": true
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

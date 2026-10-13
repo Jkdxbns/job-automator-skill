@@ -1,0 +1,151 @@
+{
+  "company": "SingleStore",
+  "company_slug": "singlestore",
+  "role": "MIT-Software Engineer-New Grad |Engine|",
+  "job_slug": "swe-new-grad-engine",
+  "match_pct": 39.1,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 10,
+    "missing_count": 9,
+    "jd_ask_size": 23,
+    "req_cov": 0.955,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "C",
+    "Linux",
+    "low-level programming"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "concurrency",
+      "you_have": "FreeRTOS mutexes, MPI, CUDA"
+    },
+    {
+      "jd_skill": "multithreading",
+      "you_have": "FreeRTOS tasks, CUDA parallelism"
+    },
+    {
+      "jd_skill": "operating systems",
+      "you_have": "FreeRTOS/RTOS, Linux admin"
+    },
+    {
+      "jd_skill": "computer architecture",
+      "you_have": "High Performance Architecture coursework"
+    },
+    {
+      "jd_skill": "distributed systems",
+      "you_have": "MPI, SLURM, WebSocket pipeline"
+    },
+    {
+      "jd_skill": "networking",
+      "you_have": "WebSocket, static IP config"
+    },
+    {
+      "jd_skill": "performance profiling",
+      "you_have": "pynvml profiling, TensorRT inference profiling"
+    },
+    {
+      "jd_skill": "memory management",
+      "you_have": "CUDA memory coalescing, batch-loading memory"
+    },
+    {
+      "jd_skill": "Unix",
+      "you_have": "Linux"
+    },
+    {
+      "jd_skill": "debugging",
+      "you_have": "logic analyzers, oscilloscopes"
+    }
+  ],
+  "missing_skills": [
+    "data structures",
+    "algorithms",
+    "databases",
+    "storage systems",
+    "compilers",
+    "database internals",
+    "query processing",
+    "indexing",
+    "transactions"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "C",
+    "Linux",
+    "concurrency",
+    "multithreading",
+    "operating systems",
+    "data structures",
+    "algorithms",
+    "distributed systems",
+    "database internals",
+    "query processing",
+    "indexing",
+    "storage",
+    "performance profiling",
+    "memory management"
+  ],
+  "required_skills": [
+    "C++",
+    "C",
+    "data structures",
+    "algorithms",
+    "software design",
+    "operating systems",
+    "concurrency",
+    "multithreading",
+    "computer architecture",
+    "Linux",
+    "Unix"
+  ],
+  "preferred_skills": [
+    "databases",
+    "distributed systems",
+    "storage systems",
+    "compilers",
+    "networking",
+    "database internals",
+    "query processing",
+    "indexing",
+    "transactions",
+    "debugging",
+    "performance profiling",
+    "memory management",
+    "low-level programming"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "database engine features",
+    "query execution and optimization",
+    "storage engine, indexing, transactions",
+    "distributed-system components",
+    "performance and correctness investigations"
+  ],
+  "role_category": "ml_systems",
+  "location": "United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

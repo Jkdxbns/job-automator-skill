@@ -1,0 +1,127 @@
+{
+  "company": "Sony Interactive Entertainment",
+  "company_slug": "sony-interactive-entertainment",
+  "role": "Staff Software Engineer, Console GPU Inference",
+  "job_slug": "staff-swe-console-gpu-inference",
+  "match_pct": 50.0,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 11,
+    "req_cov": 0.786,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C/C++",
+    "GPU programming",
+    "machine learning",
+    "low-level computing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "shader languages",
+      "you_have": "CUDA C++ kernels, OpenGL-backed viz"
+    },
+    {
+      "jd_skill": "GPU architecture",
+      "you_have": "CUDA memory coalescing, kernel optimization"
+    },
+    {
+      "jd_skill": "ML inference runtime",
+      "you_have": "TensorRT, ONNX, quantization on Jetson"
+    }
+  ],
+  "missing_skills": [
+    "game console software development",
+    "technical leadership at staff level",
+    "10+ years senior experience",
+    "ray tracing / graphics APIs"
+  ],
+  "top_ats_keywords": [
+    "GPU programming",
+    "C/C++",
+    "shader languages",
+    "game console",
+    "machine learning",
+    "inference",
+    "low-level"
+  ],
+  "required_skills": [
+    "GPU programming",
+    "C/C++",
+    "shader languages",
+    "game console software development",
+    "low-level computing",
+    "GPU architecture",
+    "technical leadership"
+  ],
+  "preferred_skills": [
+    "machine learning"
+  ],
+  "required_experience_years": 10,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Design and deliver runtime ML inference components on PlayStation consoles",
+    "Technical leadership",
+    "Hands-on implementation",
+    "Cross-org and vendor collaboration"
+  ],
+  "role_category": "ml_systems",
+  "location": "London, United Kingdom",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 43,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Custom CUDA C++ conv kernels for VGG16 using memory coalescing, constant memory and preallocated buffers: 49.2 ms vs 73.3 ms uncoalesced (CUDA Kernel Optimization project). Closest evidence to hands-on GPU inference kernel work.",
+      "Inference runtime optimisation: TensorRT-optimised YOLO, 5.2x speedup (56.7 to 10.9 ms) in COFFIN; 8-bit LLM.int8() on TinyLlama with ~55% VRAM cut, profiled with pynvml.",
+      "Integer-only inference from scratch: QAT with fixed-point requantisation matched to float reference on 99.996% of hidden values, which shows understanding of low-precision inference numerics.",
+      "C/C++ in both embedded (Arduino IK, STM32) and CUDA contexts, plus systems-level deployment work (systemd, multi-device WebSocket fabric)."
+    ],
+    "real_gaps": [
+      "No shader language work (HLSL, GLSL, PSSL, compute shaders). VisPy/OpenGL was only a consumer of a viewport, not shader authoring.",
+      "No graphics or low-level GPU API experience (Vulkan, DX12, GNM, command buffers, descriptors, barriers, async compute, wave/wavefront-level tuning).",
+      "No console or game engine development, no console SDKs, no GPU tools or profilers beyond pynvml and basic benchmarking.",
+      "GPU experience is one CUDA kernel project and TensorRT usage, not 5 years; no GPU architecture-level reasoning (occupancy, LDS, cache hierarchy, tensor core / matrix-unit use).",
+      "No production runtime ownership across a full lifecycle, no staff-level technical leadership, no vendor or cross-org strategy work (seniority noted, not scored).",
+      "No custom ML runtime or graph compiler work (operator fusion, scheduling, memory planning) that a console inference stack would need."
+    ],
+    "overstated_by_keywords": [
+      "GPU programming (Have): one VGG16 conv kernel project and library-level TensorRT use, not production GPU programming.",
+      "Machine learning (Have): the ML is mostly model training and deployment, not the engine-side runtime work the role centres on."
+    ],
+    "understated_by_keywords": [
+      "Low-precision inference: QAT plus integer-only fixed-point requantisation and LLM.int8() profiling is directly relevant to console inference where fp16/int8 throughput matters.",
+      "Real-time constrained pipelines: COFFIN's measured latency budget (STT 1.0 to 1.4 s, intent under 500 ms, detection 10.9 ms) shows a latency-driven profiling habit."
+    ],
+    "screening_gaps": [
+      "No shader languages or graphics-API/console GPU experience, which the JD names as essential alongside GPU programming",
+      "No game console software or tools background",
+      "No production-scale GPU runtime ownership across a full lifecycle (5+ years GPU, 10+ years senior)"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The profile has real, measured depth in CUDA kernel optimisation, TensorRT and low-precision inference, so the ML-inference half of the role has genuine backing. The graphics half (shader languages, console GPU architecture, GPU tooling) is essentially unevidenced, and that half is what the JD calls essential. Treat as a long shot; the skill overlap is real but narrow.",
+    "calibration_delta": 7.0
+  },
+  "semantic_pending": false
+}

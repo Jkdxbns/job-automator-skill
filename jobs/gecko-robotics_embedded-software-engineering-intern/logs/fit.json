@@ -1,0 +1,137 @@
+{
+  "company": "Gecko Robotics",
+  "company_slug": "gecko-robotics",
+  "role": "Embedded Software Engineering Intern",
+  "job_slug": "embedded-software-engineering-intern",
+  "match_pct": 65.6,
+  "score_detail": {
+    "have_count": 10,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 16,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "Python",
+    "Git",
+    "Linux",
+    "basic computer networking",
+    "ROS 2",
+    "NVIDIA Jetson Orin",
+    "embedded communication protocols",
+    "microcontrollers",
+    "RTOS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "basic electronics / lab equipment",
+      "you_have": "Oscilloscopes, PCB design (EAGLE), Digital Electronics \u2014 multimeter/programmable PSU not confirmed"
+    }
+  ],
+  "missing_skills": [
+    "Yocto Project",
+    "cloud infrastructure (GCP)",
+    "Electron",
+    "React",
+    "TypeScript"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "Git",
+    "Linux",
+    "networking",
+    "ROS 2",
+    "Yocto Project",
+    "NVIDIA Jetson Orin",
+    "GCP",
+    "Electron",
+    "React",
+    "TypeScript",
+    "RTOS",
+    "microcontrollers",
+    "oscilloscopes",
+    "multimeters"
+  ],
+  "required_skills": [
+    "C/C++",
+    "Python",
+    "Git",
+    "basic computer networking"
+  ],
+  "preferred_skills": [
+    "ROS 2",
+    "Yocto Project",
+    "NVIDIA Jetson Orin",
+    "cloud infrastructure (GCP)",
+    "Electron",
+    "React",
+    "TypeScript",
+    "embedded communication protocols",
+    "microcontrollers",
+    "RTOS",
+    "basic electronics / lab equipment"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Develop C/C++ and Python for defined embedded project",
+    "Build/improve tooling, diagnostics, tests, workflows for robot hardware",
+    "Integrate services or hardware-facing interfaces",
+    "Use version control, code review, structured debugging",
+    "Deliver final demo and handoff"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Pittsburgh, PA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 72,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN (Jetson+Arduino robotic arm): systemd service deployment with auto-restart/backoff, static-IP networking for multi-device WebSocket registration, XRDP remote admin of a headless Jetson \u2014 direct match for diagnostics, testing, deploying software on robot hardware",
+      "Object Tracking Turret: Jetson-to-STM32 UART comms, interrupt-driven PWM control, FreeRTOS with mutex-based task coordination \u2014 backs the preferred embedded comm protocols / microcontrollers / RTOS asks with real depth, not a string match",
+      "ROS-Based Robotic Arm (UR5e/AL5B): hand-derived DH/forward-kinematics validated against MoveIt/RViz in ROS 2 Humble and ROS Noetic \u2014 genuine ROS 2 depth, not just a keyword hit",
+      "Git and GitLab used across multiple projects/internships for version control"
+    ],
+    "real_gaps": [
+      "No Yocto Project or embedded-Linux build-system experience anywhere in the profile",
+      "No cloud infrastructure (GCP) experience",
+      "No Electron / React / TypeScript \u2014 Flutter is the only client-app framework used",
+      "All backing projects are capstone/personal-project scale, not the team-workflow tooling scale the JD describes"
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "Hands-on hardware debugging depth (11 resolved integration failures on COFFIN, systemd auto-restart/backoff design) reads stronger than a keyword match for structured debugging practices suggests",
+      "FreeRTOS mutex-based task coordination on the turret project is real RTOS work, not just a listed keyword"
+    ],
+    "screening_gaps": [
+      "Graduation timeline: JD requires expected graduation between Dec 2027 and May 2028; Justin graduates May 2026 - over a year before that window opens. This is a hard ATS/recruiter filter field, not a skill gap, and keyword scoring cannot see it.",
+      "No Yocto Project / embedded-Linux build-system experience, named explicitly as a core tech-stack item",
+      "No cloud infrastructure (GCP) or frontend (Electron/React/TypeScript) exposure - two of the four named depending-on-project stacks have zero backing"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Skill and domain fit is genuinely solid - Jetson/embedded Linux deployment, ROS 2, UART/RTOS work on STM32 all have concrete project backing beyond the keyword match. But the posting is explicitly scoped to students with an expected graduation date of Dec 2027-May 2028, and Justin graduates May 2026 - a structural eligibility mismatch a skill-fit score cannot fix.",
+    "calibration_delta": -6.4
+  }
+}

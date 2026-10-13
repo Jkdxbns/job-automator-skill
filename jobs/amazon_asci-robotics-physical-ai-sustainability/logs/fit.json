@@ -1,0 +1,54 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Applied Scientist III \u2014 Robotics & Physical AI, Autonomous Lab, WW Sustainability",
+  "job_slug": "asci-robotics-physical-ai-sustainability",
+  "match_pct": 75,
+  "missing_skills": [
+    "VLA / robot policy architectures (OpenVLA, pi0, RT-2)",
+    "diffusion policies",
+    "explicit sim-to-real transfer (domain randomization, physics parameter tuning)",
+    "SiLA 2 / lab instrument integration APIs",
+    "agentic runtime systems (failure detection, retry logic, human-handoff)",
+    "active learning / Bayesian optimization",
+    "materials discovery / chemistry domain",
+    "self-driving laboratory (SDL) systems",
+    "publications in top-tier venues (NeurIPS, ICML, ICLR, ICRA, CoRL, RSS)",
+    "3+ years industry or academic research experience"
+  ],
+  "adjacent_skills": [
+    "CARLA simulation experience -> sim-to-real adjacent",
+    "UR5e / MoveIt / DH parameters / forward-inverse kinematics -> collaborative robot platform adjacent",
+    "PyTorch -> MxNet adjacent",
+    "COFFIN drone firmware fault handling -> agentic failure-recovery adjacent (weak)"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "C/C++",
+    "TensorFlow",
+    "ROS/ROS2",
+    "motion planning",
+    "manipulation",
+    "visual servoing",
+    "reinforcement learning",
+    "sim-to-real transfer",
+    "VLA",
+    "robotics",
+    "Jetson"
+  ],
+  "key_responsibilities": [
+    "Train/benchmark robotic manipulation policies (VLA, diffusion policies)",
+    "Sim-to-real transfer strategies for lab robots",
+    "Integrate robots + lab instruments via APIs (SiLA 2), real-time data pipelines",
+    "Policy training pipelines: teleoperation, synthetic demos, RL, imitation learning",
+    "Agentic runtime systems for unattended experimental sessions",
+    "Autonomous experimental campaigns via active learning / Bayesian optimization",
+    "Drive technical design reviews, set scientific direction"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

@@ -1,0 +1,140 @@
+{
+  "company": "Snorkel AI",
+  "company_slug": "snorkel-ai",
+  "role": "Staff Applied AI Engineer - Enterprise AI Solutions",
+  "job_slug": "staff-applied-ai-engineer",
+  "match_pct": 26.8,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 19,
+    "jd_ask_size": 28,
+    "req_cov": 0.615,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "Hugging Face Transformers",
+    "scikit-learn",
+    "pandas",
+    "fine-tuning"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "evaluation workflows",
+      "you_have": "Model evaluation (WER, GSM8K, HellaSwag)"
+    },
+    {
+      "jd_skill": "FastAPI",
+      "you_have": "Flask"
+    },
+    {
+      "jd_skill": "prompt engineering",
+      "you_have": "LLM/SLM work"
+    }
+  ],
+  "missing_skills": [
+    "RAG",
+    "agentic workflows",
+    "pytest",
+    "pydantic",
+    "mypy",
+    "poetry",
+    "msgspec",
+    "Ray",
+    "Airflow",
+    "Spark",
+    "FAISS",
+    "Chroma",
+    "Weaviate",
+    "synthetic dataset curation",
+    "LlamaIndex",
+    "LangGraph",
+    "CrewAI",
+    "customer-facing AI/ML delivery",
+    "executive presentation"
+  ],
+  "top_ats_keywords": [
+    "RAG",
+    "LLM",
+    "fine-tuning",
+    "agentic",
+    "evaluation",
+    "Python",
+    "PyTorch",
+    "Hugging Face",
+    "FAISS",
+    "LangGraph",
+    "FastAPI",
+    "pydantic",
+    "Airflow",
+    "Ray",
+    "Spark"
+  ],
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "Hugging Face Transformers",
+    "scikit-learn",
+    "pandas",
+    "RAG",
+    "fine-tuning",
+    "agentic workflows",
+    "evaluation workflows",
+    "FastAPI",
+    "pytest",
+    "pydantic",
+    "customer-facing AI/ML delivery"
+  ],
+  "preferred_skills": [
+    "mypy",
+    "poetry",
+    "msgspec",
+    "Ray",
+    "Airflow",
+    "Spark",
+    "FAISS",
+    "Chroma",
+    "Weaviate",
+    "synthetic dataset curation",
+    "LlamaIndex",
+    "LangGraph",
+    "CrewAI",
+    "prompt engineering",
+    "executive presentation"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "customer-facing Gen AI/ML solutions",
+    "RAG and fine-tuning pipelines",
+    "eval workflows",
+    "stakeholder management",
+    "enablement workshops"
+  ],
+  "role_category": "ml_systems",
+  "location": "NYC/SF hybrid or US remote",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

@@ -1,0 +1,126 @@
+{
+  "company": "Interclypse",
+  "company_slug": "interclypse",
+  "role": "Embedded / Low-Level Software Engineer",
+  "job_slug": "embedded-low-level-swe",
+  "match_pct": 75.0,
+  "score_detail": {
+    "have_count": 5,
+    "adjacent_count": 2,
+    "missing_count": 1,
+    "jd_ask_size": 8,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C/C++",
+    "RTOS",
+    "Python",
+    "Embedded Software Development",
+    "Low-Level Software Development"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Low Level Linux",
+      "you_have": "Linux administration + embedded Linux on BeagleBone/Jetson (no kernel/driver work)"
+    },
+    {
+      "jd_skill": "x86",
+      "you_have": "ARM Cortex-M4 bare-metal + computer architecture coursework (no x86 ISA/asm)"
+    }
+  ],
+  "missing_skills": [
+    "Low Level Windows"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "RTOS",
+    "Python",
+    "Low Level Linux",
+    "Low Level Windows",
+    "x86",
+    "Embedded Software Development",
+    "Low-Level Software Development"
+  ],
+  "required_skills": [
+    "Embedded Software Development",
+    "Low-Level Software Development"
+  ],
+  "preferred_skills": [
+    "C/C++",
+    "RTOS",
+    "Python",
+    "Low Level Linux",
+    "Low Level Windows",
+    "x86"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Low-level and embedded software development across multiple open requisitions",
+    "Build software solutions for customers",
+    "Work in team environments",
+    "Grow toward technical expert or management track via mentorship"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Not stated in posting (Interclypse HQ: Columbia / Annapolis Junction, MD)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal C on STM32 Cortex-M4 at true register level - timer-triggered ADC scan conversions, interrupt-driven sample capture, and a hand-written low-level I2C driver",
+      "RTOS is real, not nominal - FreeRTOS with mutexes for shared-memory task coordination plus ToF sensing and OLED visualisation, backed by seven CMPE 663 RTOS coursework projects",
+      "Python across ML, perception, ASR and tooling work - the strongest single language in the profile",
+      "C/C++ spans both embedded firmware and CUDA C++ kernel work, so the language claim survives a depth probe in two directions"
+    ],
+    "real_gaps": [
+      "No Windows low-level work anywhere - no Win32, kernel-mode drivers, WDM/KMDF or Windows internals",
+      "No x86 ISA, assembly, calling conventions or reverse-engineering experience; all architecture depth is ARM Cortex-M4 and GPU",
+      "Linux depth is administration (systemd units, static IP, XRDP), not kernel - no device drivers, syscall work, kernel modules or /proc interfaces",
+      "Zero years full-time against a posting aimed at engineers looking to take an existing career to the next level",
+      "No stated experience shipping software to an external customer under contract, which is the one thing the Requirements section actually asks for"
+    ],
+    "overstated_by_keywords": [
+      "Low Level Linux - counted Adjacent, but the backing is Linux administration rather than anything kernel-side",
+      "RTOS - coursework and personal-project scope, not production scheduling, priority inversion or timing analysis"
+    ],
+    "understated_by_keywords": [
+      "CUDA kernel optimisation (memory coalescing, constant memory for weights, preallocated global buffers to kill per-layer allocation) is genuine low-level performance engineering and evidences exactly the mental model this role wants, even though x86 never string-matched",
+      "The register-level peripheral driver work sits closer to low-level software engineering than the generic Embedded keyword implies"
+    ],
+    "screening_gaps": [
+      "Clearance and citizenship: Interclypse's embedded and low-level work is overwhelmingly DoD/IC out of the Annapolis Junction / Columbia MD corridor. This evergreen posting omits it, but the specific requisition it routes to will very likely require an active clearance and US citizenship, which ends an F-1 OPT application at screen",
+      "Half the stated stack is unevidenced: low-level Windows and x86 together are two of the five listed technologies, and nothing in the profile touches either",
+      "Low-level Linux is claimed only through administration, so a hiring manager probing kernel, driver or syscall work finds nothing behind it"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The half of this stack Justin owns he owns well - bare-metal C, register-level peripheral drivers, FreeRTOS and Python all survive a depth probe, and the CUDA kernel work quietly proves the low-level instinct the posting is selecting for. The other half is untouched: no x86, no Windows internals, and Linux only at the administration layer. The posting explicitly says the stack is not a requirement and is mentorship-framed, so it is worth the application slot; the real risk is not skills but that Interclypse's low-level work sits behind a clearance this posting never mentions.",
+    "calibration_delta": 7.0
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-05",
+    "channel": "application",
+    "notes": "Form rejection from Interclypse for \"Embedded Software Engineer\": qualifications did not closely match. Matched to the 2026-09-30 application because the 2026-10-06 one postdates the email. Resume kept on file."
+  }
+}

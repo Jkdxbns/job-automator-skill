@@ -1,0 +1,142 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Software Engineer, Cloud",
+  "job_slug": "software-engineer-cloud",
+  "match_pct": 63.3,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 15,
+    "req_cov": 0.562,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "API design and services",
+    "Distributed systems",
+    "Systems thinking",
+    "Production software ownership",
+    "Robotics",
+    "Autonomous vehicles",
+    "Sensor data processing"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Production cloud or distributed systems experience",
+      "you_have": "Linux administration, systemd deployment, networking (TCP/IP, SSH)"
+    },
+    {
+      "jd_skill": "Database fundamentals and data modeling",
+      "you_have": "Software engineering fundamentals, data structures"
+    },
+    {
+      "jd_skill": "Real-time or streaming data systems",
+      "you_have": "RTOS and real-time systems knowledge"
+    }
+  ],
+  "missing_skills": [
+    "TypeScript",
+    "AWS or other major cloud platform",
+    "Streaming data systems",
+    "Geospatial data processing"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "TypeScript",
+    "AWS",
+    "API",
+    "backend",
+    "database",
+    "cloud",
+    "distributed systems",
+    "sensor data",
+    "streaming",
+    "real-time"
+  ],
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "Production cloud or distributed systems experience",
+    "Database fundamentals and data modeling",
+    "API design and services for distributed systems",
+    "AWS or another major cloud platform",
+    "Systems thinking (reliability, performance, failure modes)",
+    "Production software ownership"
+  ],
+  "preferred_skills": [
+    "Real-time or streaming data systems",
+    "Robotics, autonomous vehicles, IoT, aerospace, defense, or distributed physical systems",
+    "Sensor, telemetry, video, or geospatial data processing"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "junior",
+  "key_responsibilities": [
+    "Design, build, and operate production cloud services",
+    "Develop backend services and APIs in Python and TypeScript",
+    "Design data models and database systems",
+    "Build data ingestion and processing services from distributed vehicles",
+    "Expose detection and operational information to downstream applications",
+    "Design for reliability, scalability, observability, graceful degradation",
+    "Deploy, monitor, debug, improve services in AWS"
+  ],
+  "role_category": "ml_systems",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 62,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Strong Python across multiple internships and projects (Flask web servers, PyQt GUIs, training pipelines, BPE tokenizers); demonstrates production-grade Python engineering",
+      "Exceptional production software ownership via COFFIN capstone: systemd service deployment with auto-restart, environment-based config separation, non-root user isolation, static IP networking, XRDP remote administration\u2014shows end-to-end operational thinking",
+      "Strong systems thinking demonstrated through COFFIN reliability engineering (resolved 11 integration failures, achieved 100% pick success), MPI projects (load-balancing analysis showing 65% degradation under imbalance), and consistent benchmarking discipline across projects",
+      "Extensive robotics and autonomous systems domain expertise (ROS2 with forward kinematics on UR5e/AL5B, CARLA autonomous driving with zero collisions, object tracking turret with FreeRTOS + sensor coordination, gesture recognition wearable IoT)\u2014a major domain match for Saildrone's USV fleet infrastructure",
+      "Real-time systems fundamentals via RTOS (FreeRTOS, bare-metal STM32, interrupt-driven design, deterministic timing); COFFIN's WebSocket event-driven architecture and sensor multiplexing (I2C mux, ToF triggers) shows event-based real-time thinking",
+      "Sensor data processing expertise (YOLO object detection, VL53L0X ToF sensor integration, telemetry streaming, image stitching, monocular depth estimation); understands sensor fusion and multi-stream data coordination",
+      "API design via Flask-SocketIO edge server and unified WebSocket fabric; understands REST/event-driven service integration patterns",
+      "Distributed systems thinking demonstrated through MPI work distribution algorithms (static strip/cyclic/dynamic task queue), Hodgkin-Huxley dendrite synchronization, and understanding of failure modes under load imbalance"
+    ],
+    "real_gaps": [
+      "TypeScript: zero demonstrated experience despite being an explicit requirement; no backend JavaScript/TypeScript projects shown in profile",
+      "AWS or major cloud platform: no explicit experience shown with EC2, RDS, Lambda, CloudFormation, VPCs, CloudWatch, or any managed cloud services; systemd on Jetson is foundational but not cloud infrastructure",
+      "Database design and operations: profile shows data structures knowledge and software fundamentals, but no concrete evidence of schema design, SQL/NoSQL database management, or scaling database operations; COFFIN and other projects handle data but not in a DB context"
+    ],
+    "overstated_by_keywords": [
+      "Production cloud or distributed systems experience: keyword pass lists 'Linux administration, systemd deployment, networking' as adjacent. While solid systems knowledge, systemd on embedded Jetson is not equivalent to AWS infrastructure design, service scaling, or cloud-native architecture patterns.",
+      "Database fundamentals and data modeling: listed as 'Software engineering fundamentals, data structures.' This is adjacent but not the same as schema design, relational/NoSQL operations, or architectural database decisions for production systems."
+    ],
+    "understated_by_keywords": [
+      "Robotics, autonomous vehicles, IoT, defense domain: JD lists as 'nice to have,' but candidate has exceptional depth\u2014ROS2, UR5e/AL5B kinematics, CARLA autonomous driving with validation, object tracking turret with FreeRTOS, gesture recognition wearable. This is a major strength for Saildrone's distributed USV fleet operations.",
+      "Real-time and distributed physical systems thinking: RTOS background (FreeRTOS, bare-metal timing, synchronization) and COFFIN's WebSocket streaming + sensor multiplexing show event-driven real-time architectural thinking; Jetson+Arduino+I2C mux coordination is directly applicable to distributed vehicle command/control.",
+      "Edge computing and distributed vehicle coordination: COFFIN's Jetson edge server coordinating multiple sensors (YOLO GPU, ToF I2C, servo UART) and remote clients (Flutter, browser) demonstrates edge ML infrastructure thinking applicable to USV fleet edge computing."
+    ],
+    "screening_gaps": [
+      "TypeScript not demonstrated despite being explicit requirement: JD requires 'backend services and APIs in Python and TypeScript'; zero TypeScript projects shown. Limits day-1 backend API development velocity in a team expecting both languages.",
+      "AWS or major cloud platform operations not evidenced: JD requires 'Deploy, monitor, debug, and improve services running in AWS'; candidate shows Linux sysadmin and systemd but not AWS (EC2, RDS, Lambda, CloudFormation, monitoring). Learnable but not a known quantity.",
+      "Database design and operations not shown: JD requires 'Design data models and database systems for operational and sensor-derived data'; candidate has data structures knowledge but no demonstrated schema design, SQL/NoSQL operations, or scaling database decisions."
+    ],
+    "recommend_apply": true,
+    "reasoning": "Candidate demonstrates strong Python, production ops rigor (systemd, remote admin, networking), and systems thinking with exceptional domain depth in robotics and autonomous systems\u2014a perfect fit for Saildrone's distributed USV fleet infrastructure. TypeScript and AWS are learnable gaps given solid software fundamentals; the robotics/autonomous domain expertise is a standout match that should heavily influence hiring, as it shows deep understanding of distributed, intermittently-connected systems operating under real-time constraints\u2014the exact problem Saildrone solves.",
+    "calibration_delta": 1.3
+  }
+}

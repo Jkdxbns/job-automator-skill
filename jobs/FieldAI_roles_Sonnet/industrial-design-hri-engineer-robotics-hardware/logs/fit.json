@@ -1,0 +1,128 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Industrial Design & HRI Engineer, Robotics Hardware",
+  "job_slug": "industrial-design-hri-engineer-robotics-hardware",
+  "match_pct": 40.0,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 4,
+    "missing_count": 10,
+    "jd_ask_size": 20,
+    "req_cov": 0.0,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Python programming (AI/ML Intern (IIT Bombay) \u2014 PyTorch + HuggingFace VisionEncoderDecoder; Python Developer Intern (BARC) \u2014 PyQt/Matplotlib GUI; COFFIN capstone \u2014 Flask-SocketIO backend, faster-whisper STT integration)",
+    "Cross-functional collaboration (hardware + product/UX) (General Secretary, Agnel Robotics Club \u2014 led 25-member team, coordinated PCB fabrication; Teesside Univ Research Fellowship \u2014 led 7-person team; multiple internships requiring coordination across disciplines)",
+    "Robotics / robot motion / kinematics / expressiveness concepts (ROS-Based Robotic Arm (AL5B & UR5e) \u2014 DH tables, forward kinematics, MoveIt, RViz, ROS2 Humble + Noetic; COFFIN Voice-Controlled Robotic Arm \u2014 Arduino-controlled arm with visual servoing; Object Tracking Turret \u2014 multi-servo PWM, YOLO tracking)",
+    "CAD / 3D-print prototyping tools (Tools list includes SolidWorks; Embedded Systems Intern \u2014 EAGLE PCB design; General Secretary \u2014 PCB fabrication (EAGLE); embedded projects with physical hardware builds)",
+    "Embedded / electromechanical hardware integration (COFFIN \u2014 integrated Jetson Nano + Arduino + dual VL53L0X ToF + TCA9548A I2C mux + servos; Object Tracking Turret \u2014 Jetson + STM32 (UART) + FreeRTOS + PWM servos + VL53L0X ToF; STM32 Bare-Metal Temperature Monitor \u2014 Cortex-M4 embedded C, timer ADC, I2C driver)",
+    "Firmware scripting / service management (COFFIN \u2014 systemd service deployment (auto-restart, non-root isolation, static IP); Python Developer Intern (BARC) \u2014 real-time data acquisition scripts; embedded C firmware for STM32 and FreeRTOS)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Robot behavior / HRI / interaction and expressiveness",
+      "you_have": "COFFIN \u2014 faster-whisper STT + Gemini intent classification for interactive voice control; robot arm motion via kinematics/servo; but no gaze/attention tracking, emotion libraries, or expressive design work"
+    },
+    {
+      "jd_skill": "Firmware validation scripts (display/connectivity/rendering)",
+      "you_have": "COFFIN \u2014 systemd scripts for service health and network config; Python Dev Intern \u2014 validation/acquisition scripts; but no display-boot, rendering, or screen-connectivity validation experience"
+    },
+    {
+      "jd_skill": "Vision / camera / sensor hardware integration",
+      "you_have": "COFFIN \u2014 YOLO (TensorRT-optimized) + dual VL53L0X ToF sensors + I2C mux; Tusk Deep Learning Intern \u2014 YOLOv8n; multiple YOLO/OpenCV vision pipelines; but not display/screen/LED/projection hardware selection"
+    },
+    {
+      "jd_skill": "Embedded hardware / microcontroller programming",
+      "you_have": "STM32 Bare-Metal Monitor \u2014 Cortex-M4 C, timer-triggered ADC, interrupt-driven I2C; Embedded Intern \u2014 ADXL345, RPi, HC-05 Bluetooth; Object Tracking Turret \u2014 FreeRTOS with mutexes; closely related to electromechanical but not AV/display/audio"
+    }
+  ],
+  "missing_skills": [
+    "Industrial design / CMF (form, color, material, finish) \u2014 no design/project bullet",
+    "AV hardware selection: OLED/LCD/LED displays, LED strips, ambient/projection lighting \u2014 no display or lighting component work",
+    "Speaker and microphone selection / audio hardware \u2014 no audio component experience",
+    "Durability and outdoor daylight readability testing \u2014 no display durability/readability work",
+    "SWaP tradeoffs explicitly for AV/electromechanical payload \u2014 no SWaP analysis bullet",
+    "Acoustic performance evaluation (loudness, voice pickup) \u2014 no audio/acoustic evaluation",
+    "User research / user studies on robot design preferences \u2014 no user-study work",
+    "Animation / expression tools (Blender, Maya) or behavior/emotion libraries \u2014 none in profile",
+    "Functional safety / regulatory compliance (SIL, CE, FCC, UL) \u2014 no safety or compliance work",
+    "Volume manufacturing / DFM / DFA / contract manufacturer experience \u2014 no manufacturing-scale bullet"
+  ],
+  "top_ats_keywords": [
+    "Human-Robot Interaction",
+    "Industrial Design",
+    "CMF",
+    "Electromechanical",
+    "Audio-visual systems",
+    "Display",
+    "OLED",
+    "LCD",
+    "LED",
+    "Lighting",
+    "Projection interface",
+    "Speaker",
+    "Microphone",
+    "SWaP",
+    "Firmware validation",
+    "Durability",
+    "Readability",
+    "Cross-functional",
+    "Robot motion",
+    "Expressiveness",
+    "SolidWorks",
+    "Python",
+    "Robotics Hardware"
+  ],
+  "required_skills": [
+    "Industrial design / CMF (form, color, material, finish) decisions",
+    "Audio-visual hardware selection: displays (OLED/LCD/LED), LED strips, ambient/projection lighting, speakers, microphones",
+    "Durability and outdoor readability testing for displays and lighting",
+    "SWaP tradeoffs (size, weight, power) for AV and electromechanical integration",
+    "Firmware and validation scripts for display boot-up, compute connectivity, rendering",
+    "Robot behavior / expressiveness / motion design and HRI interaction concepts",
+    "Cross-functional collaboration with Electrical, Mechanical, Computing, Product and UX teams"
+  ],
+  "preferred_skills": [
+    "End-to-end industrial design: concept sketching, CMF systems, rapid prototyping",
+    "User research / user studies (robot design preferences, expressive features)",
+    "Animation and expression tools (Blender, Maya) or behavior/emotion libraries",
+    "Functional safety (SIL) and regulatory compliance (CE, FCC, UL)",
+    "Volume manufacturing: prototype to CM production, DFM/DFA practices"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Form, aesthetics and CMF for robot appearance",
+    "Interaction, expressiveness and robot motion design",
+    "Cross-team collaboration with Electrical, Mechanical, Computing, Product, UX",
+    "Display and lighting selection, programming and durability/readability validation",
+    "Audio systems: speaker/microphone selection and acoustic performance evaluation",
+    "SWaP tradeoffs for AV/electromechanical payload integration",
+    "Firmware validation scripts to catch display/connectivity failures before deployment"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

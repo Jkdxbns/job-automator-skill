@@ -1,0 +1,118 @@
+{
+  "company": "Saildrone",
+  "company_slug": "saildrone",
+  "role": "Principal Software Engineer, Perception",
+  "job_slug": "principal-software-engineer-perception",
+  "match_pct": 39.5,
+  "score_detail": {
+    "have_count": 6,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 19,
+    "req_cov": 0.567,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "robotics",
+    "computer vision",
+    "machine learning",
+    "autonomous systems",
+    "tracking",
+    "algorithms"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "perception",
+      "you_have": "computer vision + autonomous systems (basic CV-based perception, not sensor fusion)"
+    },
+    {
+      "jd_skill": "sensor fusion",
+      "you_have": "autonomous systems (basic integration, not advanced fusion)"
+    },
+    {
+      "jd_skill": "system architecture",
+      "you_have": "software engineering fundamentals + deployed systems (Docker, k3s, microservices in capstone)"
+    }
+  ],
+  "missing_skills": [
+    "sensor fusion (advanced)",
+    "probabilistic estimation",
+    "uncertainty modeling",
+    "localization",
+    "state estimation",
+    "mapping",
+    "SLAM",
+    "production software engineering",
+    "technical leadership",
+    "research experience"
+  ],
+  "top_ats_keywords": [
+    "perception",
+    "robotics",
+    "sensor fusion",
+    "localization",
+    "state estimation",
+    "tracking",
+    "mapping",
+    "computer vision",
+    "machine learning",
+    "autonomous systems",
+    "technical direction",
+    "architecture",
+    "algorithms"
+  ],
+  "required_skills": [
+    "perception",
+    "robotics",
+    "sensor fusion",
+    "probabilistic estimation",
+    "uncertainty modeling",
+    "computer vision",
+    "localization",
+    "state estimation",
+    "tracking",
+    "mapping",
+    "machine learning",
+    "autonomous vehicles",
+    "production software engineering",
+    "technical leadership",
+    "system architecture"
+  ],
+  "preferred_skills": [
+    "research or applied-research experience in perception or robotics",
+    "experience deploying and maintaining autonomous systems in challenging or constrained environments",
+    "experience across multiple generations of an autonomous platform"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "Define the architecture and technical direction for Saildrone's perception systems",
+    "Lead the hardest problems in sensor fusion, probabilistic estimation, localization, tracking, mapping, and uncertainty estimation",
+    "Determine how heterogeneous sensors and perception algorithms combine to produce reliable information",
+    "Translate research and algorithms into robust production capabilities within real-world constraints",
+    "Provide technical direction to senior and staff engineers through architecture, technical review, and problem solving"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Alameda, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

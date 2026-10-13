@@ -1,0 +1,136 @@
+{
+  "company": "Advanced Energy",
+  "company_slug": "advanced-energy",
+  "role": "Embedded Firmware Engineer II (C++)",
+  "job_slug": "embedded-firmware-engineer-ii",
+  "match_pct": 58.9,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 28,
+    "req_cov": 0.804,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C++",
+    "RTOS",
+    "SPI",
+    "I2C",
+    "USB",
+    "UART",
+    "timers",
+    "interrupt controllers",
+    "oscilloscopes",
+    "logic analyzers",
+    "spectrum analyzers",
+    "Git",
+    "CMake",
+    "Python",
+    "embedded firmware"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "WebSocket/static IP networking"
+    },
+    {
+      "jd_skill": "multicore",
+      "you_have": "Multiple Processor Systems coursework, MPI"
+    },
+    {
+      "jd_skill": "digital hardware design",
+      "you_have": "Digital Electronics coursework"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "JTAG",
+    "Jira",
+    "Confluence",
+    "Ninja",
+    "GNU toolchain",
+    "VHDL",
+    "unit testing",
+    "Agile",
+    "plasma/power electronics domain"
+  ],
+  "top_ats_keywords": [
+    "embedded firmware",
+    "C++",
+    "RTOS",
+    "multicore",
+    "SPI",
+    "I2C",
+    "UART",
+    "CAN",
+    "Ethernet",
+    "JTAG",
+    "CMake",
+    "Python",
+    "Git"
+  ],
+  "required_skills": [
+    "C++",
+    "RTOS",
+    "multicore",
+    "SPI",
+    "I2C",
+    "USB",
+    "UART",
+    "CAN",
+    "Ethernet",
+    "timers",
+    "interrupt controllers",
+    "oscilloscopes",
+    "logic analyzers",
+    "spectrum analyzers",
+    "JTAG",
+    "Git",
+    "Jira",
+    "Confluence",
+    "CMake",
+    "Ninja",
+    "GNU toolchain",
+    "Python",
+    "unit testing"
+  ],
+  "preferred_skills": [
+    "VHDL",
+    "digital hardware design",
+    "semiconductor/plasma/industrial power"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "firmware for DC power supplies",
+    "custom hardware and multicore",
+    "unit tests and docs",
+    "code reviews",
+    "Agile estimates"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Fort Collins, CO (on-site)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

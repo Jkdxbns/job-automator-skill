@@ -1,0 +1,135 @@
+{
+  "company": "Micron Technology",
+  "company_slug": "micron",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware-engineer-longmont",
+  "match_pct": 60.7,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 14,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded firmware development (C)",
+    "Debugging / bench testing",
+    "Design verification",
+    "Product testing",
+    "Code reviews",
+    "Test tools development",
+    "Documentation",
+    "Version control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Simulation",
+      "you_have": "CARLA / robotics simulation"
+    }
+  ],
+  "missing_skills": [
+    "Memory controller / SSD firmware",
+    "NVMe protocol",
+    "SoC complexity optimization",
+    "Failure analysis",
+    "SCRUM/Agile"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded",
+    "C",
+    "memory controller",
+    "SSD",
+    "NVMe",
+    "SoC",
+    "debugging",
+    "failure analysis",
+    "design verification",
+    "simulation",
+    "SCRUM",
+    "Agile",
+    "code review",
+    "documentation"
+  ],
+  "required_skills": [
+    "Embedded firmware development (C)",
+    "Memory controller / SSD firmware",
+    "NVMe protocol",
+    "SoC complexity optimization",
+    "Debugging / bench testing",
+    "Failure analysis",
+    "Design verification",
+    "Simulation",
+    "Product testing",
+    "SCRUM/Agile",
+    "Code reviews",
+    "Test tools development",
+    "Documentation",
+    "Version control"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Develop controller firmware for volatile/non-volatile memory systems",
+    "Bench test, debug, and failure-analyze firmware for memory controllers and SSDs",
+    "Work cross-functionally with test/hardware/product engineers",
+    "Design verification via simulation and product testing",
+    "Participate in SCRUM/Agile and distributed code reviews",
+    "Develop new test tools and methods",
+    "Craft documentation meeting internal and SSD industry specs",
+    "Work on NVMe protocol firmware for Enterprise SSD products"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Longmont, Colorado",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C firmware development (STM32 Cortex-M4): timer/ADC/I2C peripheral-level programming, interrupt-driven sampling (STM32 Temperature Monitor)",
+      "Hardware debugging and bench validation practice across multiple projects (oscilloscopes, logic analyzers per skills list; COFFIN's 11 resolved integration failures)",
+      "Design verification / testing methodology demonstrated repeatedly (Proteus simulation verification, repeatability trials, reliability trial counts)",
+      "Technical documentation habit shown across internships (BARC claims/BOM docs, Planctech documentation)"
+    ],
+    "real_gaps": [
+      "No SSD, flash, or memory-controller firmware experience anywhere in the profile",
+      "No NVMe protocol or storage-interface firmware work",
+      "No formal SCRUM/Agile team-process experience (all projects are solo or small ad hoc teams)",
+      "No production-scale firmware org experience (silicon company scale, distributed code review across large teams)",
+      "No memory-yield or silicon-level failure analysis experience"
+    ],
+    "overstated_by_keywords": [
+      "\"Design verification\" and \"product testing\" matched on generic testing-and-validation depth, but Justin's testing is student-project scale (Proteus sim, 10-trial repeatability), not industrial DV/qual flows"
+    ],
+    "understated_by_keywords": [],
+    "screening_gaps": [
+      "No SSD/flash/memory-controller domain experience \u2014 the specific product this req is for is entirely absent from the profile",
+      "No NVMe protocol experience \u2014 explicitly called out for the Enterprise SSD front-end team, nothing in the profile touches protocol-stack firmware",
+      "No demonstrated SCRUM/Agile process experience at any team scale beyond small student projects"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Justin's embedded C firmware fundamentals (bare-metal peripheral programming, interrupt-driven design, bench debugging and verification discipline) transfer to this role, but the entire product domain this req exists for \u2014 SSD/memory-controller firmware and NVMe protocol \u2014 has zero backing in the profile. This is a real, learnable-on-the-job gap rather than a fundamentals gap, but a resume screener at a storage company will notice the absence immediately.",
+    "calibration_delta": 12.7
+  }
+}

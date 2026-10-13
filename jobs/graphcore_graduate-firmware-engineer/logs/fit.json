@@ -1,0 +1,144 @@
+{
+  "company": "Graphcore",
+  "company_slug": "graphcore",
+  "role": "Graduate Firmware Engineer",
+  "job_slug": "graduate-firmware-engineer",
+  "match_pct": 77.8,
+  "score_detail": {
+    "have_count": 13,
+    "adjacent_count": 2,
+    "missing_count": 3,
+    "jd_ask_size": 18,
+    "req_cov": 0.944,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "embedded systems",
+    "firmware",
+    "version control",
+    "structured debugging",
+    "microcontrollers",
+    "embedded processors",
+    "hardware bring-up",
+    "lab equipment",
+    "real-time systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "computer architecture",
+      "you_have": "M.S. Computer Engineering coursework (no explicit project bullet)"
+    },
+    {
+      "jd_skill": "automated testing",
+      "you_have": "manual/scripted trial validation (COFFIN 10/10 trials), not a CI test framework"
+    }
+  ],
+  "missing_skills": [
+    "CI/CD",
+    "baseboard management controllers",
+    "data center hardware / high-speed compute platform exposure"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "debugging",
+    "hardware bring-up",
+    "CI/CD",
+    "BMC",
+    "baseboard management controller",
+    "version control",
+    "automated testing",
+    "computer architecture",
+    "real-time systems"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "embedded systems",
+    "firmware",
+    "computer architecture",
+    "version control",
+    "structured debugging"
+  ],
+  "preferred_skills": [
+    "microcontrollers",
+    "embedded processors",
+    "hardware bring-up",
+    "lab equipment",
+    "automated testing",
+    "CI/CD",
+    "baseboard management controllers",
+    "data center hardware",
+    "hardware-software interface debugging",
+    "real-time systems"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "entry",
+  "key_responsibilities": [
+    "develop low-level/embedded firmware for BMC systems",
+    "automated testing and CI/CD for firmware",
+    "hardware bring-up and lab debugging",
+    "root-cause firmware/hardware-software issues",
+    "write design notes and test procedures"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Austin, Texas, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 60,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor: direct register-level firmware (GPIO, TIM2, ADC1, I2C1) in bare-metal C with timer-triggered ADC scans and interrupt-driven capture \u2014 matches 'low-level embedded firmware' and 'hardware bring-up' directly.",
+      "Object Tracking Turret: interrupt-driven UART command handling, multi-servo PWM, FreeRTOS with mutexes for shared-memory coordination \u2014 matches structured firmware feature ownership and RTOS-level concurrency.",
+      "COFFIN capstone: resolved 11 distinct integration failures (servo brown-out, stale-frame capture, false-positive detections) and deployed a Jetson service as a supervised systemd unit with auto-restart, non-root isolation, static IP config \u2014 matches 'debug firmware/hardware-software interactions' and 'Linux-based engineering environment' concretely.",
+      "Version control and collaborative documentation (Git, GitLab, JupyterHub) from BARC internship \u2014 matches version-control and design-notes/documentation asks."
+    ],
+    "real_gaps": [
+      "No BMC, platform-management, or data-center-hardware exposure anywhere in the profile \u2014 the role's specific domain (BMC firmware) has zero direct precedent.",
+      "No CI/CD pipeline work \u2014 no GitHub Actions, Jenkins, or automated build/test pipeline bullet anywhere in the profile.",
+      "No automated test framework or test-harness bullet \u2014 validation described is manual trial counting (10/10 trials), not scripted regression/automated coverage.",
+      "No explicit computer-architecture bullet (ISA, memory hierarchy, cache) beyond what an M.S. Computer Engineering degree implies."
+    ],
+    "overstated_by_keywords": [],
+    "understated_by_keywords": [
+      "The STM32 project's register-level bring-up (bare-metal GPIO/timer/ADC/I2C programming, verified against real hardware constraints of 3.68 KB Flash / 1.58 KB RAM) is a stronger firmware-fundamentals signal than a single keyword match conveys.",
+      "The systemd/Linux administration depth (auto-restart, non-root isolation, static IP, env-based config) on the COFFIN Jetson deployment is genuine ops-adjacent Linux engineering, not just 'familiarity with Linux'."
+    ],
+    "screening_gaps": [
+      "Zero BMC / platform-management / data-center-hardware experience \u2014 the role's actual subject matter has no precedent in the profile.",
+      "No CI/CD or automated testing pipeline experience \u2014 explicitly called out twice in the JD (What You Will Do + Preferred).",
+      "All embedded work is coursework/capstone/personal-project scale, not an industry firmware role \u2014 a hiring manager may weight this against 6 ML-heavy internships that don't touch firmware at all."
+    ],
+    "recommend_apply": true,
+    "reasoning": "The core ask \u2014 C/C++ firmware on embedded hardware, Linux-based debugging, structured root-causing of hardware-software issues \u2014 has genuine, concrete backing in two from-scratch STM32/RTOS projects and a capstone with real integration debugging. The specific BMC/data-center domain and CI/CD tooling are real gaps, but the JD frames this as a new-grad role with on-the-job ramp-up, so the fundamentals fit outweighs the domain-specific ceiling.",
+    "calibration_delta": 17.8
+  }
+}

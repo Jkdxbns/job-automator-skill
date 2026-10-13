@@ -1,0 +1,122 @@
+{
+  "company": "Diversified Services Network (DSN) / Caterpillar",
+  "company_slug": "dsn-caterpillar",
+  "role": "Embedded Software Engineer \u2013 Engine Controls",
+  "job_slug": "embedded-sw-engine-controls",
+  "match_pct": 30.6,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "C",
+    "Python",
+    "Embedded control software",
+    "Embedded OS"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Bench testing",
+      "you_have": "Oscilloscopes, logic analyzers, multimeters"
+    },
+    {
+      "jd_skill": "Electrical troubleshooting",
+      "you_have": "Oscilloscopes, multimeters, PCB design"
+    },
+    {
+      "jd_skill": "Debugging and troubleshooting",
+      "you_have": "Logic analyzers, STM32 bare-metal bring-up"
+    }
+  ],
+  "missing_skills": [
+    "Model-Based Development",
+    "Debuggers",
+    "CAN",
+    "SAE J1939",
+    "Ethernet",
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "Engine controls",
+    "Test plans",
+    "Requirements analysis"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "Model-Based Development",
+    "CAN",
+    "J1939",
+    "Ethernet",
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "Python",
+    "Embedded OS",
+    "debuggers",
+    "engine controls",
+    "test plans",
+    "bench testing"
+  ],
+  "required_skills": [
+    "C",
+    "Model-Based Development",
+    "Embedded control software",
+    "Debuggers",
+    "Debugging and troubleshooting",
+    "Requirements analysis",
+    "Test plans",
+    "Bench testing"
+  ],
+  "preferred_skills": [
+    "CAN",
+    "SAE J1939",
+    "Ethernet",
+    "Embedded OS",
+    "MATLAB",
+    "Simulink",
+    "Stateflow",
+    "Python",
+    "Engine controls",
+    "Electrical troubleshooting",
+    "Application software integration"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Analyze requirements and verification criteria",
+    "Embedded software library",
+    "Configure/build flash files",
+    "Test plans",
+    "Bench setup",
+    "Manual and automated testing",
+    "Troubleshoot defects"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mossville, IL (onsite)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

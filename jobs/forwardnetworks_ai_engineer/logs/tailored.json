@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "company": "Forward Networks",
+    "role": "AI Engineer",
+    "company_slug": "forwardnetworks",
+    "job_slug": "ai_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY, with hands on experience building and evaluating LLM systems from the ground up. Built and benchmarked transformer language models under real evaluation suites (HellaSwag, GSM8K, perplexity) and integrated an LLM into a real time, multi component pipeline, resolving integration failures through systematic error analysis until it reached full reliability. Comfortable moving between model internals, evaluation design, and systems engineering in Python and C++.",
+  "skills": {
+    "ML / LLM": ["PyTorch", "Hugging Face Transformers", "Transformer architecture (self-attention)", "Model evaluation & benchmarking", "Quantization (8-bit)"],
+    "Speech & NLP": ["ASR pipelines", "faster-whisper", "Tokenization (BPE)"],
+    "Languages": ["Python", "C/C++"],
+    "Tools": ["Git", "Flask / Flask-SocketIO", "WebSocket", "Linux"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT, an OCR-free document understanding Transformer, on a custom medical billing dataset for structured field extraction, using PyTorch and the HuggingFace VisionEncoderDecoder API.",
+        "Improved validation accuracy from 55% to 93% through iterative error analysis and targeted preprocessing and tuning changes, owning the full pipeline end to end."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation models with VGG-16, VGG-19, and ResNet-50 backbones on the BraTS 2020 MRI dataset; evaluated results on Dice Score and IoU, reporting accuracy-latency trade-offs for deployment.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student, taking over as team lead mid-project to restructure task distribution and deliver the pipeline within a 6-week window."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated a custom detection dataset and trained a YOLOv8n model on 1,133 annotated images, achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil.",
+        "Benchmarked the compressed model across HellaSwag, GSM8K, and ARC, holding accuracy degradation under 1% with only a +0.09 perplexity increase, informing the final deployment configuration against eval results rather than intuition."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying.",
+        "Built a TikToken-based tokenizer wrapper and a custom training loop with early stopping and perplexity evaluation, validating generation quality against the metric and manual output review."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Achieved 100% pick reliability (10/10 trials) at roughly 11.5s end-to-end voice-to-picked latency in a voice controlled, vision guided robotic pick-and-place system spanning a Flutter client, Flask-SocketIO edge server, and a Jetson+Arduino controller over a unified WebSocket fabric.",
+        "Integrated an LLM (Gemini) as the real-time intent classification layer of the pipeline (<500ms), alongside a faster-whisper speech-to-text stage (1.0-1.4s) and a C++ Arduino controller for closed-loop servo motion.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) through systematic error analysis of failing trajectories."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic"]
+    }
+  ],
+  "awards": []
+}

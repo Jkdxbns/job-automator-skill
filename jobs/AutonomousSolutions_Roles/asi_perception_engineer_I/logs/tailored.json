@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "company": "Autonomous Solutions Inc (ASI Robots)",
+    "role": "Perception Engineer I - Project Based",
+    "company_slug": "asi",
+    "job_slug": "perception_engineer_I"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate (May 2026) from Rochester Institute of Technology (RIT) focused on real-time perception and computer vision for robotics. Built YOLO-based obstacle and object detection, depth estimation, and camera+ToF sensor fusion deployed on embedded/Jetson platforms, plus ROS2-based robotic control and simulation pipelines (CARLA, MoveIt/RViz) for autonomous navigation. Proficient in Python/C++, Git, and Linux development workflows.",
+  "skills": {
+    "Computer Vision & Perception": ["OpenCV", "YOLO", "TensorRT", "Visual servoing", "Depth estimation (ZoeDepth)", "Semantic segmentation"],
+    "ML / Deep Learning": ["PyTorch", "TensorFlow", "Keras", "Model evaluation"],
+    "Robotics & Sensor Processing": ["ROS/ROS2", "MoveIt", "RViz", "Forward kinematics", "DH parameters", "ToF sensing (VL53L0X)"],
+    "Embedded": ["NVIDIA Jetson", "STM32 (Bare-Metal C)", "FreeRTOS", "Arduino", "UART/I2C"],
+    "Tools": ["Linux", "Git", "CMake"]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction.",
+        "Architected a full metal surface inspection pipeline for microscopic crack analysis using custom image stitching, wavelet denoising, and depth estimation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18); integrated into an adaptive control stack with lane-following and waypoint fallback.",
+        "Built automated data pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~8,000 zero-annotation training frames.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2x speedup: 56.7→10.9ms) for visual servoing and dual VL53L0X ToF sensors for contact-aware grasping; achieved 100% pick reliability (10/10 trials)."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Robot Perception", "Machine Intelligence", "Deep Learning", "Principles of Robotics"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Image Processing", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation — 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

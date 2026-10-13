@@ -1,0 +1,24 @@
+{
+  "company": "Glia AI",
+  "company_slug": "glia-ai",
+  "role": "AI Systems Engineer",
+  "job_slug": "ai-systems-engineer",
+  "match_pct": 55,
+  "missing_skills": ["vLLM", "Triton inference server", "Ray Serve", "distributed serving at scale", "large-scale distributed systems production experience"],
+  "adjacent_skills": ["AI inference / model serving (has model optimization + ASR deployment, not serving infra)"],
+  "top_ats_keywords": ["CUDA", "GPU optimization", "kernel design", "PyTorch", "Python", "model optimization", "distributed systems", "inference engine"],
+  "key_responsibilities": [
+    "Design, build, and deploy core components of Glia's AI-driven optimization stack",
+    "Own routing, scheduling, autoscaling, hardware selection, inference engine integrations",
+    "Build prototypes quickly, validate, and iterate",
+    "Establish technical architecture, coding standards, best practices",
+    "Set up dev workflows, infra, tooling, deployment pipelines",
+    "Evaluate build vs buy decisions"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

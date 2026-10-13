@@ -1,0 +1,123 @@
+{
+  "company": "NDimensions Labs",
+  "company_slug": "ndimensions-labs",
+  "role": "Mechanical Engineer, Robotics",
+  "job_slug": "mechanical-engineer",
+  "match_pct": 25.0,
+  "score_detail": {
+    "have_count": 1,
+    "adjacent_count": 4,
+    "missing_count": 7,
+    "jd_ask_size": 12,
+    "req_cov": 0.25,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": false,
+  "have_skills": [
+    "Strong proficiency with 3D CAD (SolidWorks)"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hands-on motor and actuator integration and mechanical packaging",
+      "you_have": "Servo/PWM motor control and robotic arm actuator integration (not industrial mechanical packaging)"
+    },
+    {
+      "jd_skill": "Mechanism design, tolerance analysis, materials selection, and design for manufacturability",
+      "you_have": "Mechanism / kinematic design present (DH parameters, IK, forward kinematics); tolerance/GD&T, materials selection, and DFM/DFA not shown"
+    },
+    {
+      "jd_skill": "Experience with robotic manipulators, actuators, or force/torque-controlled mechanisms",
+      "you_have": "Robotic arm/manipulator and actuator experience (no force/torque sensor evidence)"
+    },
+    {
+      "jd_skill": "Familiarity with motor control and electromechanical integration alongside electrical and firmware teams",
+      "you_have": "Motor control + electromechanical integration shown; explicit collaboration with electrical/firmware teams not clearly evidenced"
+    }
+  ],
+  "missing_skills": [
+    "5+ years professional mechanical engineering experience",
+    "Prototype-to-manufacturing / production transition experience",
+    "Plastic molding design (cast urethane / injection molding) including cosmetic surfaces",
+    "Lab fabrication, assembly, and hands-on hardware debugging (as mechanical engineer)",
+    "Bachelor's or Master's in Mechanical Engineering or related field",
+    "Track record shipping premium consumer / hardware products (fit, finish, reliability)",
+    "Prior work in a startup or fast-paced hardware prototyping environment"
+  ],
+  "top_ats_keywords": [
+    "mechanical engineer",
+    "robotics",
+    "SolidWorks",
+    "3D CAD",
+    "DFM",
+    "DFA",
+    "GD&T",
+    "tolerance analysis",
+    "prototype to production",
+    "manufacturing",
+    "injection molding",
+    "cast urethane",
+    "plastic parts",
+    "motor integration",
+    "actuator",
+    "mechanism design",
+    "materials selection",
+    "fabrication",
+    "assembly",
+    "hardware debugging",
+    "robotic",
+    "electromechanical",
+    "FEA",
+    "vendor",
+    "contract manufacturer"
+  ],
+  "required_skills": [
+    "5+ years professional mechanical engineering experience",
+    "Strong proficiency with 3D CAD (SolidWorks)",
+    "Hands-on motor and actuator integration + mechanical packaging",
+    "Prototype-to-manufacturing / production transition experience",
+    "Plastic molding design (cast urethane / injection molding) including cosmetic surfaces",
+    "Mechanism design, tolerance analysis, materials selection, DFM/DFA",
+    "Lab fabrication, assembly, and hands-on hardware debugging",
+    "Bachelor's or Master's in Mechanical Engineering or related field"
+  ],
+  "preferred_skills": [
+    "Experience with robotic manipulators, actuators, or force/torque-controlled mechanisms",
+    "Familiarity with motor control and electromechanical integration alongside electrical and firmware teams",
+    "Track record shipping premium consumer / hardware products (fit, finish, reliability)",
+    "Prior work in startup or fast-paced hardware prototyping environment"
+  ],
+  "required_experience_years": 5,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Drive prototype-to-production transition with vendors/contract manufacturers",
+    "Design for manufacturing/assembly (DFM/DFA), especially cosmetic plastic parts",
+    "Design robotic mechanical systems end-to-end (manipulators, joints, drivetrains, chassis, enclosures)",
+    "Own 3D CAD lifecycle: modeling, GD&T tolerance analysis, drawings, prototyping, bring-up",
+    "Build/test/iterate hardware in lab (fabrication, assembly, debugging)",
+    "Collaborate with electrical, firmware, AI engineers to integrate motors, sensors, compute",
+    "Run structural, thermal, mechanical analysis (FEA where appropriate)"
+  ],
+  "role_category": "edge_ai_robotics",
+  "location": "Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

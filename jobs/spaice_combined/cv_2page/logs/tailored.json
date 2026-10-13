@@ -1,0 +1,214 @@
+{
+  "_meta": {
+    "company": "SPAICE",
+    "role": "Forward Deployed Engineer + Robotics & Embedded Systems Engineer (combined) (2-page CV, BYPASS)",
+    "company_slug": "spaice",
+    "job_slug": "combined"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY building the embedded hardware, software and integration layer that edge AI robotics runs on. Deployed a vision-guided robotic system end to end on NVIDIA Jetson, STM32 and Arduino: C++, Python, bare-metal C firmware, Linux systemd services and networking across 3 devices, 5.2\u00d7 TensorRT speedup, and 11 integration failures debugged across software, sensors, power and network. Comfortable with oscilloscopes, logic analyzers and EAGLE PCB design.",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "C",
+      "Bash",
+      "CMake",
+      "Cython",
+      "CUDA"
+    ],
+    "Embedded & Hardware": [
+      "Microcontroller firmware",
+      "STM32 (Bare-Metal C)",
+      "FreeRTOS",
+      "UART/I2C/SPI",
+      "Sensor integration",
+      "PWM Motor Control",
+      "Quadrature Encoders",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "EAGLE PCB Design",
+      "Oscilloscopes",
+      "Logic Analyzers"
+    ],
+    "Linux & Integration": [
+      "Linux",
+      "systemd service management",
+      "Linux networking (static IP)",
+      "WebSocket APIs",
+      "XRDP",
+      "hardware integration",
+      "embedded systems",
+      "Git"
+    ],
+    "Edge AI": [
+      "edge AI",
+      "TensorRT",
+      "YOLO",
+      "PyTorch",
+      "OpenCV",
+      "Quantization (8-bit)",
+      "faster-whisper"
+    ],
+    "Robotics & Simulation": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "CARLA simulation",
+      "Forward kinematics",
+      "Closed-Loop Feedback Control",
+      "Odometry (Dead Reckoning)",
+      "Visual servoing"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 \u2013 Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 \u2013 May 2024",
+      "bullets": [
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end.",
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Organized 10+ exhibitions and technical workshops covering Arduino, PCB design, and SolidWorks."
+      ],
+      "note": "SELECTION GUIDANCE, not resume text. Student club leadership, not professional experience. Keep below the BARC, IIT Bombay and Planctech entries. Include when the JD values leadership, mentoring or cross-team ownership; trim first when the page is tight."
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 \u2013 Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "location": "Middlesbrough, United Kingdom",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Trained U-Net segmentation with VGG-16, VGG-19, and ResNet-50 backbones; evaluated on Dice Score and IoU; reported accuracy-latency trade-offs for deployment.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; took over as team lead mid-project to restructure task distribution and deliver the full pipeline within the 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Integrated faster-whisper STT (1.0\u20131.4s), Gemini intent classification (<500ms), TensorRT-optimized YOLO (5.2\u00d7 speedup: 56.7\u219210.9 ms, 17.6\u219292 FPS vs eager PyTorch) for visual servoing, and dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) for contact-aware grasping via TCA9548A I2C mux.",
+        "Deployed the Jetson-side arm bridge as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable multi-device WebSocket registration; configured XRDP for remote desktop administration of the headless Jetson.",
+        "Built a voice-controlled, vision-guided robotic pick-and-place system over a three-layer distributed pipeline: Flutter mobile client, Flask-SocketIO edge server, and Jetson+Arduino controller linked by a unified WebSocket fabric.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection.",
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Robocon Competition Robot \u2014 Holonomic Drive & Encoder Odometry",
+      "date": "2022 \u2013 2024",
+      "bullets": [
+        "Built closed-loop heading correction for a 4-wheel holonomic robot on Arduino Due: derived actual heading from dual-axis quadrature encoder odometry (2400 CPR, 2.9 cm wheels) and fed angular error back into rotation PWM, holding course during translation.",
+        "Implemented interrupt-driven quadrature decoding from first principles \u2014 a 4-bit A/B transition state machine on hardware interrupts \u2014 and drove four motor channels at 15 kHz PWM via DuePWM.",
+        "Integrated Xbox 360 control over USB Host Shield with 4x Cytron motor drivers, dual claw subsystems with per-claw IR sensing, and a catapult thrower; added a fail-safe state machine halting all motors on controller disconnect.",
+        "Led the coding team to Stage 3 of DD Robocon 2023, scoring 99/100 in Stage 1; owned wiring, interfacing, and integration across mechanical and design teams."
+      ],
+      "note": "SELECTION GUIDANCE, not resume text. Undergraduate robotics-club work at FCRIT, not professional experience. Include when the JD asks for motor control, encoders, odometry or closed-loop feedback \u2014 this is the only evidence for those. Otherwise prefer 'STM32 Bare-Metal Temperature Monitor' and the COFFIN capstone, which are stronger work. Never place it first, and never let it crowd out COFFIN on an edge-AI role."
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and a 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps.",
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency across prompt types using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase \u2014 near-lossless compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Multiple Processor Systems",
+        "High Performance Architecture",
+        "Machine Intelligence"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)",
+    "1st Prize, CanSat Workshop \u2014 Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon \u2014 National-level robotics competition among 45 universities (2022)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "company": "Rhoda AI",
+  "company_slug": "rhoda_ai",
+  "role": "Firmware Engineer",
+  "job_slug": "firmware_engineer",
+  "match_pct": 78,
+  "missing_skills": [
+    "EtherCAT (masters/slaves, PDO mapping, distributed clocks)",
+    "Ethernet",
+    "USB",
+    "CAN bus",
+    "JTAG",
+    "Zephyr RTOS",
+    "Field-Oriented Control (FOC) for BLDC"
+  ],
+  "adjacent_skills": [
+    "FreeRTOS (have) -> Zephyr (asked, not have)",
+    "STM32 bare-metal safety-relevant code -> safety-critical certification evidence",
+    "internship-scale real-time firmware -> shipped real-time-critical product"
+  ],
+  "top_ats_keywords": [
+    "EtherCAT",
+    "RTOS",
+    "FreeRTOS",
+    "Zephyr",
+    "ARM Cortex-M",
+    "I2C",
+    "SPI",
+    "UART",
+    "PWM",
+    "ADC",
+    "JTAG",
+    "DMA",
+    "watchdog",
+    "HAL",
+    "real-time control",
+    "C/C++"
+  ],
+  "key_responsibilities": [
+    "Select/tune RTOS, scheduling, interrupt/DMA optimization, watchdogs",
+    "Low-level firmware for real-time motion control over EtherCAT",
+    "Deterministic sub-millisecond cycle times",
+    "EtherCAT master/slave config (distributed clocks, mailbox, PDO mapping)",
+    "Safety mechanisms: Safe Torque Off, watchdogs, heartbeat monitoring",
+    "HAL and firmware API architecture for actuator control",
+    "Unit/HIL/integration testing",
+    "ISR/DMA profiling and latency/jitter optimization"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-25",
+    "channel": "application",
+    "notes": "Form rejection (email names Senior Firmware Engineer): not an ideal fit. No feedback."
+  }
+}

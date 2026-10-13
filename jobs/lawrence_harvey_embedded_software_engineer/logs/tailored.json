@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "company": "Lawrence Harvey",
+    "role": "Embedded Software Engineer",
+    "company_slug": "lawrence_harvey",
+    "job_slug": "embedded_software_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Builds embedded and edge software in Python and C++ that streams high-throughput image data through NVIDIA GPUs and runs machine learning inference on device, including a Jetson pipeline where TensorRT delivered a 5.2x detection speedup. Prior work spans an automated metal surface inspection pipeline and Linux-based distributed systems over WebSocket streaming.",
+  "skills": {
+    "Embedded & Edge Platforms": [
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Arduino",
+      "UART/I2C/SPI",
+      "Bluetooth (BLE/Classic)"
+    ],
+    "Languages": [
+      "Python",
+      "C/C++",
+      "CUDA C++",
+      "RAPID"
+    ],
+    "ML Inference & Optimization": [
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "PyTorch",
+      "TorchScript",
+      "CUDA kernel optimization",
+      "Model benchmarking"
+    ],
+    "Machine Vision": [
+      "OpenCV",
+      "YOLOv8 / YOLO11",
+      "Image stitching",
+      "Monocular depth estimation",
+      "Semantic segmentation",
+      "U-Net"
+    ],
+    "Systems & Networking": [
+      "Linux",
+      "WebSocket",
+      "TCP sockets",
+      "Flask-SocketIO",
+      "Multi-camera streaming",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jul 2023 - Apr 2024",
+      "bullets": [
+        "Architected a metal surface inspection pipeline for microscopic crack analysis, combining image stitching, wavelet denoising, and depth estimation into one automated machine vision workflow.",
+        "Designed a custom wavelet bank (sym6+bior3.5) to suppress low-frequency noise; with optimized homography stitching and concurrency, raised stitched-image PSNR from 65 to 86.",
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling at +/-8% error on 3D surface reconstruction."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "location": "Mumbai, India",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a gesture-recognition glove integrating ADXL345 accelerometers with a Raspberry Pi over I2C and HC-05 Bluetooth, translating 3-DoF motion into HID commands in Python."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "location": "Mumbai, India",
+      "dates": "Dec 2023 - Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n on 1,133 annotated images achieving 83% mAP@50 on held-out validation; exported to ONNX and TFLite for on-device inference."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a three-layer distributed edge system (Flutter client, Flask-SocketIO server, Jetson+Arduino controller) over a WebSocket fabric, with multiprocessing multi-camera capture feeding real-time image and command streaming.",
+        "Optimized YOLO detection on Jetson with TensorRT for a 5.2x speedup (56.7 to 10.9 ms, 17.6 to 92 FPS vs eager PyTorch), alongside faster-whisper STT and Gemini intent classification.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture) to reach 100% pick reliability across 10 trials at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Cut inference from 77.5ms (CPU TorchScript) and 73.3ms (uncoalesced GPU) to 49.2ms, ~35% faster than naive GPU with identical classification accuracy.",
+        "Replaced TorchScript convolution layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights, and preallocated buffers to remove per-layer allocation overhead."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Built automated data pipelines using semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation."
+      ]
+    },
+    {
+      "name": "ABB RobotStudio Automation Simulation",
+      "date": null,
+      "bullets": [
+        "Simulated a full ABB workcell for a press-to-packing assembly line, programmed in RAPID with TCP socket-based pose acquisition and interrupt-driven press-bench logic."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "High Performance Architecture",
+        "Machine Intelligence",
+        "Deep Learning",
+        "Robot Perception",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Image Processing",
+        "Digital Signal Processing",
+        "Digital Electronics"
+      ]
+    }
+  ],
+  "awards": []
+}

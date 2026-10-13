@@ -1,0 +1,126 @@
+{
+  "experience": [
+    {
+      "label": "experience:General Secretary",
+      "name": "General Secretary",
+      "score": 4.24,
+      "matched": [
+        "Python",
+        "computer vision",
+        "machine learning"
+      ]
+    },
+    {
+      "label": "experience:AI/ML Intern",
+      "name": "AI/ML Intern",
+      "score": 2.85,
+      "matched": [
+        "PyTorch",
+        "machine learning"
+      ]
+    },
+    {
+      "label": "experience:Deep Learning Intern",
+      "name": "Deep Learning Intern",
+      "score": 2.71,
+      "matched": [
+        "machine learning",
+        "model optimization"
+      ]
+    },
+    {
+      "label": "experience:Python Developer Intern",
+      "name": "Python Developer Intern",
+      "score": 1.83,
+      "matched": [
+        "Python"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "project:Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "score": 5.46,
+      "matched": [
+        "C++",
+        "PyTorch",
+        "computer vision",
+        "model optimization"
+      ]
+    },
+    {
+      "label": "project:SLM Compression and Benchmarking for Edge Deployment",
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "score": 4.62,
+      "matched": [
+        "GPU optimization",
+        "model optimization",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "project:CUDA Kernel Optimization for VGG16 Inference",
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "score": 4.21,
+      "matched": [
+        "C++",
+        "GPU optimization",
+        "profiling and benchmarking"
+      ]
+    },
+    {
+      "label": "project:Object Tracking Turret",
+      "name": "Object Tracking Turret",
+      "score": 4.14,
+      "matched": [
+        "GPU optimization",
+        "computer vision",
+        "peripheral programming"
+      ]
+    },
+    {
+      "label": "project:STM32 Bare-Metal Temperature Monitor",
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "score": 3.55,
+      "matched": [
+        "C",
+        "peripheral programming"
+      ]
+    }
+  ],
+  "keyword_fill_hints": [
+    {
+      "use_jd_wording": "Python programming",
+      "for_skill": "Python"
+    },
+    {
+      "use_jd_wording": "C/C++ programming",
+      "for_skill": "C"
+    },
+    {
+      "use_jd_wording": "debugging and performance profiling",
+      "for_skill": "profiling and benchmarking"
+    },
+    {
+      "use_jd_wording": "training and evaluating CV models (PyTorch)",
+      "for_skill": "PyTorch"
+    },
+    {
+      "use_jd_wording": "quantization, model conversion, inference optimization (CPU/GPU/NPU)",
+      "for_skill": "model optimization"
+    },
+    {
+      "use_jd_wording": "inference optimization",
+      "for_skill": "model optimization"
+    },
+    {
+      "use_jd_wording": "Computer Vision",
+      "for_skill": "computer vision"
+    }
+  ],
+  "unbacked_jd_terms": [
+    "embedded Linux deployment on resource-constrained hardware",
+    "evaluate accuracy / false positives / missed detections across conditions"
+  ]
+}

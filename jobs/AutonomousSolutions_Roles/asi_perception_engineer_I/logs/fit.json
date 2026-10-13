@@ -1,0 +1,55 @@
+{
+  "company": "Autonomous Solutions Inc (ASI Robots)",
+  "company_slug": "asi",
+  "role": "Perception Engineer I - Project Based",
+  "job_slug": "perception_engineer_I",
+  "match_pct": 79,
+  "missing_skills": [
+    "LiDAR",
+    "Radar",
+    "GPS/GNSS",
+    "Point Cloud Library",
+    "Point clouds",
+    "Construction equipment/compactors",
+    "Terrain analysis/soil compaction",
+    "Outdoor field testing"
+  ],
+  "adjacent_skills": [
+    "Sensor processing (ToF/IMU vs LiDAR/radar/GPS)",
+    "Geometric algorithms (DH parameters, forward kinematics, IK vs sensor calibration/transformations)",
+    "Simulation (CARLA vs SIL/HIL replay)"
+  ],
+  "top_ats_keywords": [
+    "Computer Vision",
+    "Robotics",
+    "ROS2",
+    "Python",
+    "C++",
+    "Linux",
+    "Git",
+    "Machine Learning",
+    "Obstacle Detection",
+    "OpenCV",
+    "PyTorch",
+    "TensorFlow",
+    "Sensor Processing",
+    "Embedded Systems",
+    "GNC"
+  ],
+  "key_responsibilities": [
+    "Develop/test perception software for autonomous compactors",
+    "Obstacle detection, object classification, terrain understanding",
+    "Process camera, LiDAR, radar, GPS/GNSS, IMU data",
+    "Integrate perception software into embedded compute platforms",
+    "Evaluate features via recorded data, simulation, lab and field testing",
+    "Sensor installation, configuration, calibration, validation",
+    "Unit/regression testing and documentation",
+    "Cross-functional work with GNC, embedded, systems, test, field teams"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "llm_analysis": "Solid real fit for entry-level perception. Sensor gaps (LiDAR/radar/GPS/GNSS/PCL) reflect a camera+ToF+IMU background rather than off-road autonomy sensor suites -- normal and expected to be trained at Level I, not a disqualifier. Strong genuine overlap in CV/ROS2/embedded fundamentals (YOLO, OpenCV, PyTorch, sensor processing). Recommend: apply, second-highest-confidence ASI role."
+}

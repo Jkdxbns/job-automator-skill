@@ -1,0 +1,150 @@
+{
+  "company": "HARMAN (Bowers & Wilkins)",
+  "company_slug": "harman",
+  "role": "Headphones Embedded Software Engineer",
+  "job_slug": "headphones-embedded-swe",
+  "match_pct": 62.5,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 4,
+    "missing_count": 4,
+    "jd_ask_size": 16,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "Python",
+    "embedded systems",
+    "Bluetooth Classic",
+    "Bluetooth LE",
+    "GitHub",
+    "build systems",
+    "AI tool familiarity"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "device drivers",
+      "you_have": "bare-metal STM32 I2C/SPI/ADC peripheral code"
+    },
+    {
+      "jd_skill": "automated testing",
+      "you_have": "benchmarking/validation scripts"
+    },
+    {
+      "jd_skill": "mobile applications",
+      "you_have": "Flutter"
+    },
+    {
+      "jd_skill": "embedded software testing",
+      "you_have": "logic analyzer/oscilloscope bring-up"
+    }
+  ],
+  "missing_skills": [
+    "Jira",
+    "Confluence",
+    "audio",
+    "cloud services"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "Python",
+    "embedded firmware",
+    "device drivers",
+    "Bluetooth",
+    "Bluetooth LE",
+    "Jira",
+    "Confluence",
+    "GitHub",
+    "automated testing",
+    "build systems",
+    "audio",
+    "mobile applications",
+    "cloud services"
+  ],
+  "required_skills": [
+    "C",
+    "Python",
+    "embedded systems",
+    "device drivers",
+    "embedded software testing",
+    "AI tool familiarity"
+  ],
+  "preferred_skills": [
+    "Jira",
+    "Confluence",
+    "build systems",
+    "GitHub",
+    "automated testing",
+    "audio",
+    "Bluetooth Classic",
+    "Bluetooth LE"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "software strategy and technical vision for headphones",
+    "embedded firmware + mobile/cloud interfaces",
+    "cross-functional delivery",
+    "manage external engineering resources",
+    "software quality"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Cambridge, UK (text says Barcelona, Spain)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": true
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 51,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "C and Python embedded: STM32 Bare-Metal Temperature Monitor (timer-triggered ADC, interrupt-driven capture, hand-written I2C driver in C) plus Robocon quadrature decoding on hardware interrupts",
+      "Cross-stack system: COFFIN spans Flutter mobile client, Flask-SocketIO edge server and Arduino/Jetson firmware over WebSocket, mirroring the firmware + app + cloud interface theme",
+      "Bluetooth data path exists: Planctech glove used HC-05 Bluetooth with ADXL345 into HID commands in Python",
+      "Debug tooling: logic analyzer and oscilloscope use, 11 integration failures resolved in COFFIN",
+      "Adjacent audio signal work: mel-spectrogram ASR encoder, DSP coursework, faster-whisper STT integration"
+    ],
+    "real_gaps": [
+      "No commercial-standard, long-lived firmware: all embedded work is capstone, coursework or club scope, so 'highly experienced' in C is not evidenced",
+      "No BLE stack work (GATT, pairing, profiles); Bluetooth Classic is only an HC-05 serial module",
+      "No formal embedded test practice: no unit tests, HIL, CI or automated verification",
+      "No audio product or codec/DSP-on-device firmware; audio is only ASR-side",
+      "No software strategy, technical vision or external-vendor resource management",
+      "No Jira or Confluence, no cloud service ownership"
+    ],
+    "overstated_by_keywords": [
+      "Bluetooth Classic and Bluetooth LE counted Have but backed only by an HC-05 UART bridge",
+      "build systems counted Have on CMake and Git alone, no embedded toolchain or release pipeline",
+      "AI tool familiarity is credible but generic"
+    ],
+    "understated_by_keywords": [
+      "Device drivers scored Adjacent, but the hand-written I2C1 driver and TIM2/ADC1 register-level code is real driver-level work",
+      "Cross-functional integration across mobile, edge and firmware layers is real depth no keyword captured"
+    ],
+    "screening_gaps": [
+      "Role asks for 'highly experienced' C and Python delivering commercial-standard code, and the profile is student and internship scope with no shipped product",
+      "Strategy, technical vision and managing external engineering resources are the leadership half of the role and have no backing",
+      "Bluetooth LE and audio product domain: no BLE stack or audio firmware evidence, which is the product's whole context"
+    ],
+    "recommend_apply": true,
+    "reasoning": "Core embedded C and Python plus driver-level peripheral work are genuinely backed, and COFFIN shows firmware-to-mobile integration. Roughly half the role is backed; the rest is commercial-grade experience, Bluetooth LE/audio domain depth and strategy/vendor ownership, none of which is evidenced. Also a fixed-term maternity cover abroad, so the visa and relocation question matters more than the skills.",
+    "calibration_delta": 11.5
+  }
+}

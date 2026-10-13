@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "company": "Field AI",
+    "role": "Robotics Research Intern, Robot Learning (Fall 2026) | PhD Part-time Internship",
+    "company_slug": "field-ai",
+    "job_slug": "robotics-research-intern"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built a LeRobot-structured multi-camera data collection pipeline and a flow-matching-inspired policy stack for a physical voice-controlled robotic arm, validating perception, planning, and control end to end on real hardware (UR5e, Jetson, Arduino) with 100% pick reliability across 10 trials. Research background spans distributed training on SLURM-managed clusters, ROS2-based robotic arm kinematics and planning, and from-scratch foundation model implementation (GPT-2-style Transformer), with experience leading a cross-institutional research team from experiment design through evaluation.",
+  "skills": {
+    "Robot Learning / Foundation Models": [
+      "LeRobot-structured data pipelines",
+      "Flow-matching policy design",
+      "Transformer architectures",
+      "Imitation learning data collection"
+    ],
+    "Robotics & Planning": [
+      "ROS/ROS2",
+      "MoveIt",
+      "RViz",
+      "Forward Kinematics",
+      "Visual Servoing",
+      "Path Planning"
+    ],
+    "HPC / Distributed Training": [
+      "SLURM",
+      "MPI",
+      "Kernel optimization"
+    ],
+    "Languages & Systems": [
+      "Python",
+      "C/C++",
+      "CUDA",
+      "Linux",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 \u2013 Jul 2023",
+      "bullets": [
+        "Engineered a data pipeline for the BraTS 2020 multi-modal MRI dataset with augmentation and batch-loading for large-scale 3D volumetric inputs.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student; took over as team lead mid-project to restructure task distribution and deliver the full research pipeline within the 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a LeRobot-structured data collection pipeline using multiprocessing for multi-camera frame capture on a physical robot platform (Jetson + Arduino).",
+        "Integrated faster-whisper STT, Gemini intent classification, and TensorRT-optimized YOLO (5.2x speedup) for visual servoing with dual ToF-sensor contact-aware grasping.",
+        "Resolved 11 integration failures across the real-robot pipeline; achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Derived DH tables and hand-computed full forward kinematic chains (0T6) for a 6-DoF UR5e and 5-DoF AL5B; validated against MoveIt and RViz URDF models in ROS 2 Humble and ROS Noetic.",
+        "Planned and executed collision-free pick-and-place trajectories on physical UR5e via UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed dendrite computations across MPI workers with synchronous soma updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49x speedup with 12 slave processes; characterized scaling behavior across dendrite counts and compartment depths."
+      ]
+    },
+    {
+      "name": "GPT-2 Style Language Model from Scratch",
+      "date": null,
+      "bullets": [
+        "Implemented a GPT-2 style Transformer from scratch in PyTorch: multi-head self-attention, MLP blocks, residual connections, layer norm, and weight tying."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "Robot Perception",
+        "Principles of Robotics",
+        "Machine Intelligence",
+        "Multiple Processor Systems",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": [
+        "Digital Signal Processing",
+        "Artificial Neural Networks & Fuzzy Logic"
+      ]
+    }
+  ],
+  "awards": [
+    "1st Prize, Poster Presentation \u2014 2D and 3D Image Mosaicing of Microscopic Images, F.C.R.I.T. (2024)"
+  ]
+}

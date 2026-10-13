@@ -1,0 +1,147 @@
+{
+  "company": "Revolut",
+  "company_slug": "revolut",
+  "role": "Applied AI Engineer",
+  "job_slug": "applied-ai-engineer",
+  "match_pct": 65.6,
+  "score_detail": {
+    "have_count": 9,
+    "adjacent_count": 3,
+    "missing_count": 4,
+    "jd_ask_size": 16,
+    "req_cov": 0.731,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "LLMs",
+    "Machine Learning",
+    "Deep Learning",
+    "Model Deployment",
+    "Version Control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "NLP",
+      "you_have": "Transformers, tokenization, ASR, GPT-2/TinyLlama"
+    },
+    {
+      "jd_skill": "Statistics",
+      "you_have": "Random Signal Analysis, model evaluation"
+    },
+    {
+      "jd_skill": "AI Assistants",
+      "you_have": "ASR pipelines / SLM work"
+    }
+  ],
+  "missing_skills": [
+    "SQL",
+    "Product Roadmap",
+    "AI Automation Platforms",
+    "Launching AI products from scratch"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "LLMs",
+    "NLP",
+    "Machine Learning",
+    "Model Deployment",
+    "Version Control",
+    "Statistics",
+    "AI Assistants",
+    "AI Automation Platforms",
+    "Product Roadmap"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "LLMs",
+    "NLP",
+    "Machine Learning",
+    "Model Deployment",
+    "Version Control",
+    "Statistics",
+    "Product Roadmap Ownership",
+    "AI Product Launch"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Own product vision/strategy/roadmap for AI solutions",
+    "Lead cross-functional teams building NLP/AI assistants and automation platforms",
+    "Set team goals and success metrics"
+  ],
+  "role_category": "ml_systems",
+  "location": "Remote: Austria, Cyprus, Czech Republic, Germany, Hungary, Poland, Portugal, Spain +3",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 57,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "End-to-end ML ownership, design to iteration: COFFIN capstone (voice to STT to Gemini intent to TensorRT YOLO, 10/10 picks, 11 integration failures resolved) and IIT Bombay DONUT fine-tune (55% to 93% val accuracy)",
+      "LLM/NLP depth: GPT-2 style Transformer from scratch, Whisper-style ASR with custom BPE tokenizer (15% WER), TinyLlama 8-bit quantization (~55% VRAM cut, <1% accuracy loss), Gemini intent classification in a deployed assistant",
+      "Model deployment: TensorRT (5.2x speedup), ONNX/TFLite export, systemd-deployed inference service, Git/GitLab/JupyterHub",
+      "Team leadership: took over as lead of a 7-person team mid-project (Teesside), led a 25-member robotics club"
+    ],
+    "real_gaps": [
+      "No product ownership: no roadmap, strategy, success-metric setting or stakeholder/senior-management communication anywhere in the profile",
+      "No SQL at all",
+      "Nothing launched to real users: AI assistants and automation platforms exist only as a capstone prototype, not a shipped product",
+      "Statistics is coursework-level (Random Signal Analysis, model evaluation); no experimentation, A/B testing or applied stats work",
+      "Fintech/business-metrics sense is unevidenced; seniority concern: JD reads as a senior product-owner role (note only, not scored)"
+    ],
+    "overstated_by_keywords": [
+      "AI Assistants (adjacent): the COFFIN voice pipeline is a robotics control interface, not a conversational assistant or automation platform",
+      "Version Control: Git/GitLab usage is real but surface-level"
+    ],
+    "understated_by_keywords": [
+      "Applied LLM work: GPT-2 from scratch and Gemini intent classification back the 'LLMs and NLP' responsibility more strongly than a bare string match suggests",
+      "ML project ownership from design to iteration: the capstone's failure-resolution log and benchmarked iteration are real evidence"
+    ],
+    "screening_gaps": [
+      "No product roadmap/strategy ownership or stakeholder communication, the core of the role",
+      "No SQL / data-analysis stack",
+      "No AI product shipped to real users, so 'launched from scratch' is unmet"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The technical half of the role (Python, PyTorch/TF/Keras, LLMs and NLP, deployment) is backed by concrete project work, but the defining half is owning the product roadmap, metrics and cross-functional delivery, and that has no real backing. Treat it as a stretch where the engineering evidence carries the application.",
+    "calibration_delta": 8.6
+  },
+  "semantic_pending": false,
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-10-07",
+    "channel": "application",
+    "notes": "Form rejection (Revolut). No personal feedback offered."
+  }
+}

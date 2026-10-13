@@ -1,0 +1,84 @@
+{
+  "company": "Zoox",
+  "company_slug": "zoox",
+  "role": "Embedded Software Engineer - Drive Systems",
+  "job_slug": "embedded-swe-drive-systems",
+  "match_pct": 70,
+  "missing_skills": [
+    "CAN",
+    "LIN",
+    "CAN/LIN analysis tools (PCAN, CANalyzer, CANape)",
+    "ISO-26262",
+    "MISRA C/C++",
+    "Polarion",
+    "QNX",
+    "SafeRTOS"
+  ],
+  "adjacent_skills": [
+    "real-time embedded software for distributed electro-mechanical systems (internship-scope only, no full-time)",
+    "hardware bring-up / SIL / HIL infra (has bring-up, not named SIL/HIL)",
+    "sensor/actuator integration (robotics domain, not automotive ECU)"
+  ],
+  "top_ats_keywords": [
+    "C/C++",
+    "Python",
+    "FreeRTOS",
+    "RTOS",
+    "CAN",
+    "LIN",
+    "embedded software",
+    "real-time",
+    "SIL",
+    "HIL",
+    "safety-critical",
+    "ECU",
+    "actuator",
+    "sensor integration",
+    "automotive",
+    "MISRA",
+    "ISO-26262",
+    "hardware bring-up"
+  ],
+  "key_responsibilities": [
+    "Build/contribute to simulation, emulation, SIL, and HIL infrastructure for drive control validation",
+    "Design/develop/test embedded software for autonomous trajectory execution into actuator commands (motor torque, brake torque, steering angle)",
+    "Contribute to control source arbitration and safety monitoring across trajectory execution and drive control ECUs",
+    "Integrate supplier sub-systems (steering, motoring, braking, active suspension) into the Zoox software stack",
+    "Cross-functional work with Motion & Controls, Vehicle Dynamics, Safety Systems, Validation teams"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 45,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Object Tracking Turret: YOLOv8-on-Jetson detection driving STM32 over UART, multi-servo PWM control with interrupt-driven commands and user override, FreeRTOS with mutexes for shared-memory task coordination \u2014 the user-override path is a real, if small-scale, analog to the arbitration-between-control-sources concept in the JD",
+      "STM32 Bare-Metal Temperature Monitor: peripheral-level bare-metal C, timer-triggered ADC, interrupt-driven sampling, deterministic 1Hz loop, verified in Proteus \u2014 shows real embedded rigor and simulation-before-hardware discipline",
+      "COFFIN robotic arm: resolved 11 integration failures (servo brown-out, stale-frame capture, false positives) across a Jetson+Arduino distributed pipeline, plus dual ToF sensor gating before the gripper closes \u2014 genuine hands-on bring-up/debug experience and a safety-gate-before-actuation pattern",
+      "Autonomous Driving in CARLA: adaptive control stack with lane-following and waypoint fallback validated across multiple laps with traffic \u2014 the closest thing in the profile to an actual AV software stack, even though it is simulation-only"
+    ],
+    "real_gaps": [
+      "No exposure to vehicle networks at all \u2014 CAN and LIN are not just missing keywords, the whole mental model of a distributed automotive ECU network is unbuilt; all his multi-device comms is UART/I2C/SPI on hobbyist boards",
+      "No actual torque/force-based actuator control \u2014 his actuator experience is servo PWM position control (turret, robotic arm), not the motor torque / brake torque / steering angle control loops the JD is built around",
+      "No SIL/HIL in the industrial sense the JD means \u2014 Proteus and CARLA are real but hobbyist/research-scale simulation, not hardware-in-the-loop rigs validating against real supplier hardware",
+      "No safety-critical process experience \u2014 ISO-26262 lifecycle, MISRA static analysis, requirements traceability (Polarion) are all absent; every project is personal/capstone scope with no certification process behind it",
+      "No supplier-subsystem integration experience \u2014 the JD explicitly wants integrating third-party steering/motor/brake/suspension modules as black boxes with their own protocols; his hardware integration is always self-owned/self-designed",
+      "Zero full-time industry experience, and none of the 7 internships touch automotive"
+    ],
+    "overstated_by_keywords": [
+      "FreeRTOS counted as satisfying the RTOS requirement, but it is hobbyist-scale (turret project) \u2014 a different tier from the certified/safety-rated RTOS usage (QNX, SafeRTOS) a safety-critical automotive JD implies",
+      "sensor/actuator integration counted as a Have, but it is servo/PWM/GPIO-level integration of self-owned hardware, not the supplier black-box integration the JD describes",
+      "hardware bring-up credited as a partial preferred-have, but it is breadboard/single-board scale, not full-vehicle ECU bring-up"
+    ],
+    "reasoning": "The embedded fundamentals (C/C++, FreeRTOS, real-time interrupt-driven design, hardware bring-up) are genuinely there and transferable, which is what keeps this from being a clean reject. But the role is built around automotive vehicle networks, torque-based actuator control, and a safety-certified development process, and none of that exists anywhere in the profile even adjacently, so the real distance is bigger than the 70% keyword match suggests."
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-15",
+    "channel": "application",
+    "notes": "Hiring manager passed after Sep 9 recruiter screen with Mikel Pounds (Zoox technical recruiter, firmware roles). Recruiter redirected to the Body Systems team req instead."
+  }
+}

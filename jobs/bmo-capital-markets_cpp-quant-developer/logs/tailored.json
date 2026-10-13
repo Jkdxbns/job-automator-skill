@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "company": "BMO Capital Markets",
+    "role": "C++ Quant Developer",
+    "company_slug": "bmo-capital-markets",
+    "job_slug": "cpp-quant-developer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) building high-performance C++ software for real-time, latency-sensitive systems. Experience with CUDA C++ kernel optimization, MPI distributed computing on SLURM-managed clusters, and Linux service deployment across networked, multi-device pipelines. Comfortable moving fast in small, focused engineering teams on high-visibility technical problems.",
+  "skills": {
+    "Languages & Systems": [
+      "C/C++",
+      "Python",
+      "CUDA"
+    ],
+    "HPC / Parallel": [
+      "CUDA C++",
+      "MPI",
+      "SLURM",
+      "Memory coalescing",
+      "Kernel optimization"
+    ],
+    "Tools": [
+      "Linux"
+    ],
+    "Linux Administration": [
+      "Static IP / network configuration",
+      "systemd service management"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "location": "Mumbai, India",
+      "dates": "Jan 2023 \u2013 May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) \u2014 MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a distributed real-time pipeline across three layers \u2014 mobile client, Flask-SocketIO edge server, and embedded controller \u2014 linked over a unified WebSocket fabric on the network.",
+        "Deployed the edge-side service as a systemd service (Type=simple, auto-restart with backoff, non-root user/group isolation, environment-file-based config) with static IP networking for reliable multi-device registration.",
+        "Implemented two-link inverse kinematics in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "CUDA Kernel Optimization for VGG16 Inference",
+      "date": null,
+      "bullets": [
+        "Replaced TorchScript conv layers with custom CUDA C++ kernels using memory coalescing, constant memory for weights/biases, and preallocated global buffers to eliminate per-layer allocation overhead.",
+        "Coalesced kernel ran at 49.2ms vs 73.3ms (uncoalesced) and 77.5ms (CPU baseline) \u2014 ~35% speedup over naive GPU implementation with identical output accuracy."
+      ]
+    },
+    {
+      "name": "Parallel Ray Tracer with MPI Task Scheduling",
+      "date": null,
+      "bullets": [
+        "Implemented and benchmarked four parallel work-distribution strategies in C++ (static strip/block/cyclic, dynamic task queue) using MPI for large-scale scene rendering.",
+        "Achieved up to 30\u00d7 speedup with static strip partitioning (55 processes); showed dynamic task queueing outperformed all static strategies under unpredictable workloads."
+      ]
+    },
+    {
+      "name": "MPI Hodgkin-Huxley Neuron Simulation",
+      "date": null,
+      "bullets": [
+        "Implemented distributed compute in C++ across MPI worker processes with synchronous state updates on a SLURM-managed cluster.",
+        "Achieved up to 10.49\u00d7 speedup with 12 slave processes; characterized scaling behavior and identified load-imbalance effects causing up to 65% performance degradation under uneven work distribution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 \u2013 May 2026",
+      "courses": [
+        "High Performance Architecture",
+        "Multiple Processor Systems"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 \u2013 2024",
+      "courses": []
+    }
+  ],
+  "awards": []
+}

@@ -1,0 +1,67 @@
+{
+  "company": "Maclivaro Limited",
+  "company_slug": "maclivaro",
+  "role": "Embedded Software Engineer - Surgical Robotics",
+  "job_slug": "embedded-swe-surgical-robotics",
+  "match_pct": 100,
+  "missing_skills": [
+    "CTest",
+    "Google Test",
+    "ARM64/x86_64",
+    "Elmo controllers",
+    "Beckhoff controllers",
+    "Ethernet",
+    "EtherCAT",
+    "TCP/IP",
+    "DDS",
+    "medical device experience"
+  ],
+  "adjacent_skills": [
+    "Qt (have PyQt)",
+    "ARM (have Cortex-M4 STM32, not ARM64/x86)"
+  ],
+  "top_ats_keywords": [
+    "C++11",
+    "embedded software",
+    "RTOS",
+    "FreeRTOS",
+    "real-time",
+    "safety-critical",
+    "I2C",
+    "SPI",
+    "UART",
+    "GPIO"
+  ],
+  "key_responsibilities": [
+    "Design/develop/optimize embedded software for real-time robotic surgical systems",
+    "Hands-on hardware/sensor/actuator integration",
+    "Cross-functional collaboration in a regulated environment",
+    "Testing, validation, continuous improvement for safety-critical applications"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": {
+    "llm_match_pct": 55,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "STM32 Bare-Metal Temperature Monitor: direct peripheral programming (GPIO, TIM2, ADC1, I2C1) in bare-metal C on Cortex-M4, deterministic real-time update rate",
+      "Object Tracking Turret: FreeRTOS with mutexes for shared-memory task coordination on STM32, plus UART sensor/actuator integration",
+      "Voice-Controlled Robotic Arm (COFFIN): C++ real-time control of servos with sensor-gated contact detection, cross-disciplinary mechanical/electrical/software integration"
+    ],
+    "real_gaps": [
+      "JD requires 3+ years PROFESSIONAL embedded software experience; candidate has 0 full-time years, all embedded work is academic projects or internships",
+      "Role is Mid-Senior in a safety-critical regulated (medical device) environment; candidate has no regulated-industry or safety-critical production experience",
+      "RTOS use is project-scale (FreeRTOS on a hobby-grade STM32 project), not production-scale on QNX/VxWorks/ThreadX in a certified system",
+      "No experience with Qt (C++ framework, distinct from PyQt used in one internship), CTest, or Google Test",
+      "No exposure to industrial motion control hardware (Elmo, Beckhoff) or protocols (EtherCAT, DDS, TCP/IP) named in the JD"
+    ],
+    "overstated_by_keywords": [
+      "RTOS/FreeRTOS counted as Have, but it's from a personal project, not a production or professional deployment",
+      "'embedded software platforms' counted as Have, but JD implies production-grade platforms in a regulated medical device context, not hobbyist STM32 boards"
+    ],
+    "reasoning": "The core technical building blocks (bare-metal C, FreeRTOS, real-time sensor/actuator integration) are genuinely present, but only at project/internship scale. The JD's 3+ years professional experience requirement and its safety-critical, regulated medical device framing point to a seniority and domain gap that keyword matching alone doesn't surface."
+  }
+}

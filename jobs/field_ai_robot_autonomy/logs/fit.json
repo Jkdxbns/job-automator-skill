@@ -1,0 +1,116 @@
+{
+  "company": "Field AI",
+  "company_slug": "field_ai",
+  "role": "Robot Autonomy Engineer - Software",
+  "job_slug": "robot_autonomy_engineer",
+  "match_pct": 52.8,
+  "score_detail": {
+    "have_count": 8,
+    "adjacent_count": 3,
+    "missing_count": 7,
+    "jd_ask_size": 18,
+    "req_cov": 0.643,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "ROS",
+    "ROS 2",
+    "distributed systems",
+    "embedded systems",
+    "C++",
+    "C",
+    "software engineering",
+    "system design"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "real-time comms",
+      "you_have": "FreeRTOS"
+    },
+    {
+      "jd_skill": "agile",
+      "you_have": "Git/GitLab version control"
+    },
+    {
+      "jd_skill": "on-site deployment",
+      "you_have": "Jetson/embedded deployment"
+    }
+  ],
+  "missing_skills": [
+    "program management",
+    "Jira",
+    "Confluence",
+    "Wrike",
+    "mission-critical systems",
+    "customer-facing",
+    "travel"
+  ],
+  "top_ats_keywords": [
+    "robotics",
+    "autonomy",
+    "ROS",
+    "ROS 2",
+    "distributed systems",
+    "embedded",
+    "C++",
+    "C",
+    "real-time",
+    "software integration",
+    "testing",
+    "deployment",
+    "federal",
+    "commercial"
+  ],
+  "required_skills": [
+    "ROS",
+    "ROS 2",
+    "distributed systems",
+    "real-time comms",
+    "embedded systems",
+    "C++",
+    "C",
+    "software engineering",
+    "system design",
+    "program management",
+    "agile",
+    "Jira",
+    "Confluence",
+    "Wrike"
+  ],
+  "preferred_skills": [
+    "mission-critical systems",
+    "customer-facing",
+    "travel",
+    "on-site deployment"
+  ],
+  "required_experience_years": 2,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Drive strategic integration, debugging, and rapid capability development",
+    "Build robust utilities and tools to facilitate integration and automated testing",
+    "Provide high-level technical expertise and analytical insights"
+  ],
+  "role_category": "robotics_software",
+  "location": "Irvine, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

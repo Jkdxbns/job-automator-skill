@@ -1,0 +1,49 @@
+{
+  "company": "Renesas Electronics",
+  "company_slug": "renesas",
+  "role": "AI Compiler Engineer (Entry-Level / New College Graduate)",
+  "job_slug": "ai-compiler-engineer",
+  "match_pct": 62.5,
+  "missing_skills": [
+    "LLVM",
+    "MLIR",
+    "TVM",
+    "machine learning inference concepts",
+    "CNNs (exposure)",
+    "heterogeneous systems (CPU/GPU/NPU/DSP)"
+  ],
+  "adjacent_skills": [
+    "CUDA (adjacent to compiler/low-level optimization)",
+    "transformers (have via inference engine project)"
+  ],
+  "top_ats_keywords": [
+    "AI compiler",
+    "LLVM",
+    "MLIR",
+    "TVM",
+    "C/C++",
+    "Python",
+    "compiler optimization",
+    "operator fusion",
+    "graph transformations",
+    "code generation",
+    "automotive SoC",
+    "heterogeneous systems",
+    "performance benchmarking"
+  ],
+  "key_responsibilities": [
+    "AI compiler development: model ingestion, graph transformations, code generation",
+    "Implement/test compiler optimizations: operator fusion, scheduling, memory optimization",
+    "Performance analysis and benchmarking of AI workloads on simulators/silicon",
+    "Debug correctness/performance issues in compiler pipelines",
+    "Cross-functional collaboration with SoC architecture, AI software, systems teams"
+  ],
+  "role_category": "hpc_cuda",
+  "verdicts": {
+    "matches": "No",
+    "apply": "HARD BLOCK"
+  },
+  "llm_analysis": null,
+  "hard_blocker_triggered": true,
+  "hard_blocker_reason": "ITAR/EAR export control language: JD states Renesas 'deals with dual-use technology that is subject to U.S. export controls regulations' and 'it may be necessary for Renesas to obtain U.S. government export license prior to release of technology to certain persons' \u2014 deemed export / release-to-foreign-person language."
+}

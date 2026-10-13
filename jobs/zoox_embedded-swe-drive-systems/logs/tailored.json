@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "company": "Zoox",
+    "role": "Embedded Software Engineer - Drive Systems",
+    "company_slug": "zoox",
+    "job_slug": "embedded-swe-drive-systems"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Graduated with an M.S. in Computer Engineering from Rochester Institute of Technology (RIT), NY, with hands-on experience building real-time embedded software in bare-metal C and FreeRTOS that translates sensor and command inputs into actuator outputs. Built interrupt-driven, safety-gated actuation systems across STM32 and Jetson platforms, including closed-loop UART/I2C sensor feedback, multi-servo PWM actuator control, and a user-override path for control-source arbitration. Comfortable across the full embedded stack, from peripheral-level C to system-level hardware bring-up and debugging.",
+  "skills": {
+    "Embedded Systems & RTOS": ["FreeRTOS", "STM32 (Bare-Metal C)", "Real-Time Interrupt-Driven Design", "UART/I2C/SPI", "PWM", "ADC", "GPIO"],
+    "Languages & Tools": ["C/C++", "Python", "ROS/ROS2", "Git/GitLab", "CMake", "Proteus"],
+    "Hardware & Platforms": ["NVIDIA Jetson", "Raspberry Pi", "Arduino", "EAGLE PCB Design", "Bluetooth (BLE/Classic)"]
+  },
+  "experience": [
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands via Python."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, translating detections into real-time actuator commands sent to an STM32 controller over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override for control-source arbitration.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver.",
+        "Programmed peripherals directly in bare-metal C (GPIO, TIM2, ADC1, I2C1); achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified in Proteus."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors (camera range-gate plus gripper-ToF-triggered close at 25 mm) for contact-aware, safety-gated grasping via TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end latency."
+      ]
+    },
+    {
+      "name": "ROS-Based Robotic Arm (AL5B & UR5e)",
+      "date": null,
+      "bullets": [
+        "Planned and executed collision-free pick-and-place trajectories on a physical UR5e, translating planned motion into joint actuator commands via the UR ROS 2 driver; AL5B repeatability measured at <2mm over 10 trials."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["High Performance Architecture", "Multiple Processor Systems", "Principles of Robotics", "Robot Perception"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing"]
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)"
+  ]
+}

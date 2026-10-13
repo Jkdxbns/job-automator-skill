@@ -1,0 +1,124 @@
+{
+  "company": "Skydio",
+  "company_slug": "skydio",
+  "role": "Imaging / ISP Engineer (Camera Subsystems)",
+  "job_slug": "imaging-isp-engineer",
+  "match_pct": 52.1,
+  "score_detail": {
+    "have_count": 11,
+    "adjacent_count": 3,
+    "missing_count": 10,
+    "jd_ask_size": 24,
+    "req_cov": 0.559,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C/C++",
+    "Embedded firmware",
+    "Linux",
+    "GPU",
+    "CPU",
+    "Hardware bring-up",
+    "Low-level debugging",
+    "Performance optimization",
+    "Image Processing",
+    "ARM Linux SoC"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "GPU shader image processing",
+      "you_have": "CUDA / OpenGL-backed VisPy"
+    },
+    {
+      "jd_skill": "V4L2",
+      "you_have": "Linux + Jetson/USB camera"
+    },
+    {
+      "jd_skill": "DSP",
+      "you_have": "Digital Signal Processing coursework"
+    }
+  ],
+  "missing_skills": [
+    "ISP pipeline architecture",
+    "Bayer processing",
+    "Qualcomm ISP",
+    "Real-time 3A algorithms",
+    "Android Camera HAL3",
+    "AVC",
+    "HEVC",
+    "GStreamer",
+    "Debayering",
+    "Lens shading"
+  ],
+  "top_ats_keywords": [
+    "ISP",
+    "Bayer",
+    "3A",
+    "HAL3",
+    "V4L2",
+    "AVC",
+    "HEVC",
+    "GStreamer",
+    "Debayering",
+    "Lens shading",
+    "Qualcomm",
+    "C++",
+    "Python",
+    "Embedded",
+    "Bring-up",
+    "GPU",
+    "DSP"
+  ],
+  "required_skills": [
+    "ISP pipeline architecture",
+    "Bayer processing",
+    "Qualcomm ISP",
+    "ARM Linux SoC",
+    "Real-time 3A algorithms",
+    "Android Camera HAL3",
+    "V4L2",
+    "AVC",
+    "HEVC",
+    "GStreamer",
+    "GPU shader image processing",
+    "Embedded firmware",
+    "C++",
+    "Python",
+    "Hardware bring-up",
+    "Low-level debugging",
+    "Performance optimization"
+  ],
+  "preferred_skills": [],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Lead camera subsystem development",
+    "ISP and camera bring-up",
+    "Configure ISP and encoder pipelines",
+    "Next-gen image processing algorithms"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Finland (on-site, per Finnish-law benefits text)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

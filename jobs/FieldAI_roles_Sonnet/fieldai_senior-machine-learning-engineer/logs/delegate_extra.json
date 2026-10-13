@@ -1,0 +1,19 @@
+{
+  "strengths": [
+    "Edge AI deployment (Jetson + TensorRT + YOLO) directly aligns with autonomy/perception",
+    "ROS2 robotics pipeline experience (MoveIt, RViz, kinematics, visual servoing) fits embodied AI team",
+    "CUDA/GPU optimization and embedded STM32 bare-metal C match 'real sensors/real hardware' engineering",
+    "Vision pipeline experience (OpenCV, stitching, depth, YOLO) matches perception/localization requirements",
+    "Rapid model optimization skills (quantization, pruning, TensorRT export) support field-ready deployment"
+  ],
+  "real_gaps": [
+    "0 full-time years; role is Senior (3+ years implied)",
+    "No production-scale field deployment experience at company scale",
+    "No formal functional-safety / explainable-AI certification mentioned",
+    "No enterprise cloud/distributed systems at scale (only personal Docker/k3s/CI-CD exposure)"
+  ],
+  "reasoning": "Role category is edge_ai_robotics (Field AI autonomy team, real robots/sensors). The JD emphasizes embodied AI, field deployment, perception/planning/manipulation with Field Foundational Models, and real-world operation in unstructured environments. Candidate has strong adjacent skills: CUDA/GPU, Jetson/TensorRT/YOLO edge deployment, ROS2/robotics, embedded STM32, ASR, vision pipelines \u2014 all highly relevant to the team's work. However the role is explicitly titled 'Senior ML Engineer' and implies 3+ years professional experience with leadership of production field systems; candidate is new-grad (0 full-time, May 2026 graduation) with excellent internship/research portfolio but no full-time senior-level production experience. Sponsorship not mentioned in JD so not a blocker, but F-1 OPT/EAD pending is a practical concern unmentioned in JD. No ITAR/clearance/citizenship flags. Location conflict: role is on-site in Irvine CA; candidate is in Arlington TX but willing to relocate / remote OK \u2014 since remote is not stated as OK in JD, flagged as potential conflict. Production scope required is true for this role (field deployment, real hardware, company-scale). Key strengths: edge AI on Jetson, TensorRT optimization, ROS2 robotics pipeline, CUDA/GPU kernel work, embedded C, vision/ASR. Real gaps: no full-time industry experience, no senior-level leadership at production scale, no formal functional-safety/explainable-AI certification, no enterprise-scale cloud infra. Hard blocker triggered due to senior-level experience mismatch.",
+  "hostedUrl": "https://jobs.lever.co/field-ai/470926cb-38a1-4db8-b939-8ae8bde3b139",
+  "team": "Autonomy",
+  "location": "Irvine, CA"
+}

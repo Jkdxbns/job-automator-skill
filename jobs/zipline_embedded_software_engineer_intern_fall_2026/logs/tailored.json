@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "company": "Zipline",
+    "role": "Embedded Software Engineer Intern (Fall 2026)",
+    "company_slug": "zipline",
+    "job_slug": "embedded_software_engineer_intern_fall_2026"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology. Firmware experience across STM32 Cortex-M4 bare-metal C, FreeRTOS, and embedded Linux on NVIDIA Jetson, spanning timer-triggered ADC sampling, interrupt-driven UART, and hand-written I2C drivers. Built electromechanical systems from EAGLE PCB fabrication through real-time control and hardware debugging.",
+  "skills": {
+    "Embedded & Firmware": [
+      "STM32 (Bare-Metal C)",
+      "ARM Cortex-M4",
+      "FreeRTOS",
+      "Embedded Linux",
+      "NVIDIA Jetson",
+      "Arduino",
+      "Raspberry Pi",
+      "UART",
+      "I2C",
+      "GPIO",
+      "ADC",
+      "PWM",
+      "Timers & Interrupts"
+    ],
+    "Languages": [
+      "C",
+      "C++",
+      "Python"
+    ],
+    "Hardware & Debug": [
+      "Reading Schematics",
+      "Oscilloscopes",
+      "Logic Analyzers",
+      "EAGLE PCB Design",
+      "Proteus",
+      "SolidWorks"
+    ],
+    "Sensors & Actuators": [
+      "VL53L0X ToF",
+      "ADXL345 IMU",
+      "SSD1306 OLED",
+      "Servo Control",
+      "Bluetooth (BLE/Classic)"
+    ]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design and PCB fabrication."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "location": "Mumbai, India",
+      "bullets": [
+        "Built a gesture-recognition glove integrating ADXL345 accelerometers with Raspberry Pi over HC-05 Bluetooth, translating 3-DoF hand motion into HID cursor commands in Python.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter via software calibration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in embedded C with timer-synchronized sensing and real-time display; achieved 3.68 KB Flash / 1.58 KB RAM at a deterministic 1 Hz update rate.",
+        "Implemented timer-triggered ADC scan conversions, interrupt-driven sample capture, and a hand-written low-level I2C driver.",
+        "Programmed peripherals directly at the register level in bare-metal C (GPIO, TIM2, ADC1, I2C1); verified peripheral timing in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) - M.S. Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a vision-guided pick-and-place system across a distributed pipeline: mobile client, edge server, and a Jetson embedded-Linux plus Arduino controller over WebSockets.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability across 10/10 trials at ~11.5s end-to-end latency.",
+        "Integrated dual VL53L0X ToF sensors through a TCA9548A I2C mux for contact-aware grasping, using a camera range-gate and a gripper-ToF-triggered close at 25 mm."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Principles of Robotics",
+        "Robot Perception",
+        "Multiple Processor Systems",
+        "High Performance Architecture"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "gpa": "7.9/10.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    "1st Prize, CanSat Workshop - Arduino Nano atmospheric data collection during free fall (2023)",
+    "Ranked 10th, Robocon - National-level robotics competition among 45 universities (2022)"
+  ]
+}

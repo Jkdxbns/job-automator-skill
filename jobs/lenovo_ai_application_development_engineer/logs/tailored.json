@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "company": "Lenovo",
+    "role": "AI Application Development Engineer",
+    "company_slug": "lenovo",
+    "job_slug": "ai_application_development_engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Strong Python programmer with hands-on AI application development experience: fine-tuned transformer models in PyTorch and Hugging Face, integrated an LLM API into a real-time voice-controlled application served over a Flask-SocketIO backend, and compressed TinyLlama 1.1B by ~55% GPU memory with under 1% accuracy loss. Experienced in data preprocessing, model performance monitoring, and deployment pipelines (ONNX, TFLite, TensorRT).",
+  "skills": {
+    "Languages & Tools": ["Python", "Linux", "Git", "GitLab", "JupyterHub"],
+    "AI / Machine Learning": ["PyTorch", "Hugging Face Transformers", "LLMs", "Transformer Fine-tuning", "8-bit Quantization", "Model Evaluation"],
+    "APIs & Deployment": ["Flask", "Flask-SocketIO", "WebSocket", "Gemini API", "ONNX", "TFLite", "TensorRT"],
+    "Data & Analysis": ["Data Preprocessing Pipelines", "Dataset Annotation", "Exploratory Data Analysis", "Matplotlib", "PyQt"]
+  },
+  "experience": [
+    {
+      "title": "AI/ML Intern",
+      "company": "Indian Institute of Technology Bombay",
+      "dates": "Jan 2024 – Mar 2024",
+      "bullets": [
+        "Fine-tuned DONUT (OCR-free visual document understanding transformer) on a custom medical billing dataset for structured field extraction.",
+        "Built preprocessing and training pipelines in PyTorch using HuggingFace VisionEncoderDecoder API with domain-specific special tokens.",
+        "Improved validation accuracy from 55% to 93% via improved preprocessing and model tuning."
+      ]
+    },
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Curated and annotated a custom detection dataset; trained YOLOv8n on 1,133 images achieving 83% mAP@50 on held-out validation, exported to ONNX and TFLite for mobile deployment."
+      ]
+    },
+    {
+      "title": "Python Developer Intern",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jan 2023 – May 2023",
+      "bullets": [
+        "Developed a Python GUI using PyQt and Matplotlib for real-time data acquisition and experimental visualization in a laboratory environment.",
+        "Used GitLab for version control and JupyterHub for collaborative data analysis and technical documentation."
+      ]
+    },
+    {
+      "title": "Research Fellowship",
+      "company": "Teesside University",
+      "dates": "Jun 2023 – Jul 2023",
+      "bullets": [
+        "Engineered a custom data preprocessing pipeline for the BraTS 2020 multi-modal MRI dataset with imaging augmentation and batch-loading memory management.",
+        "Led a cross-cultural team of 7 as the sole ML-experienced student, delivering the full pipeline within the 6-week window."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled AI Application (COFFIN) — MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Built a three-layer distributed AI application: Flutter client, Flask-SocketIO backend, and Jetson edge controller linked by a unified WebSocket API fabric.",
+        "Integrated Gemini LLM intent classification (<500ms) for natural-language command understanding and TensorRT-optimized inference (5.2x speedup) into the live serving path.",
+        "Resolved 11 integration failures; achieved 100% task reliability (10/10 trials) at ~11.5s end-to-end latency through systematic testing and validation."
+      ]
+    },
+    {
+      "name": "SLM Compression and Benchmarking for Edge Deployment",
+      "date": null,
+      "bullets": [
+        "Reduced GPU memory footprint by ~55% via 8-bit quantization (bitsandbytes LLM.int8()) on TinyLlama 1.1B; profiled peak VRAM and inference latency using pynvml and psutil.",
+        "Benchmarked across HellaSwag, GSM8K, and ARC; <1% accuracy degradation with +0.09 perplexity increase, demonstrating near-lossless compression."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "courses": ["Machine Intelligence", "Deep Learning", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "courses": ["Artificial Neural Networks & Fuzzy Logic", "Image Processing", "Digital Signal Processing"]
+    }
+  ],
+  "awards": []
+}

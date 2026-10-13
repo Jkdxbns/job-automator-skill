@@ -1,0 +1,117 @@
+{
+  "company": "Eversource",
+  "company_slug": "eversource",
+  "role": "Distribution System Modeling and Automation Engineer (Hybrid)",
+  "job_slug": "distribution-modeling-automation-engineer",
+  "match_pct": 27.8,
+  "score_detail": {
+    "have_count": 3,
+    "adjacent_count": 4,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.179,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Git / version control",
+    "Technical documentation",
+    "Testing and validation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Postprocessing and visualization",
+      "you_have": "Python"
+    },
+    {
+      "jd_skill": "Batch processing / automation",
+      "you_have": "Python / Bash scripting"
+    },
+    {
+      "jd_skill": "Time series processing",
+      "you_have": "Digital Signal Processing"
+    },
+    {
+      "jd_skill": "AI agentic workflows",
+      "you_have": "Machine learning / LLMs"
+    }
+  ],
+  "missing_skills": [
+    "Synergi Electric",
+    "MATLAB",
+    "Simulink",
+    "8760-hour simulation",
+    "Fault current / protection studies",
+    "N-1 contingency",
+    "Distribution system planning",
+    "PSCAD / EMT",
+    "SQL",
+    "Jira",
+    "DER integration"
+  ],
+  "top_ats_keywords": [
+    "Synergi Electric",
+    "MATLAB",
+    "Simulink",
+    "PSCAD",
+    "8760",
+    "N-1 contingency",
+    "fault current",
+    "SQL",
+    "Jira",
+    "DER",
+    "EMT",
+    "version control",
+    "time series"
+  ],
+  "required_skills": [
+    "Synergi Electric",
+    "MATLAB",
+    "Simulink",
+    "8760-hour simulation",
+    "Time series processing",
+    "Fault current / protection studies",
+    "N-1 contingency",
+    "Distribution system planning",
+    "PSCAD / EMT",
+    "SQL",
+    "Batch processing / automation",
+    "Postprocessing and visualization",
+    "Version-controlled tested code",
+    "Technical writing"
+  ],
+  "preferred_skills": [
+    "Model management automation",
+    "Jira",
+    "AI agentic workflows in MATLAB"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "mid",
+  "key_responsibilities": [
+    "Synergi special studies",
+    "MATLAB solver automation",
+    "model governance"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Berlin, CT / Westwood, MA",
+  "constraint_flags": {
+    "no_sponsorship": true,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

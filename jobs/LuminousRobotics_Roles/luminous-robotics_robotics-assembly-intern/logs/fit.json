@@ -1,0 +1,95 @@
+{
+  "company": "Luminous Robotics",
+  "company_slug": "luminous-robotics",
+  "role": "Assembly Fall Internship",
+  "job_slug": "robotics-assembly-intern",
+  "match_pct": 45.8,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 5,
+    "jd_ask_size": 12,
+    "req_cov": 0.625,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": false,
+  "have_skills": [
+    "Prototype / robotics design and development",
+    "Embedded electrical / PCB design",
+    "Embedded C / STM32 firmware",
+    "Robotics integration / closed-loop control"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Interpret technical drawings, electrical schematics, and build documentation",
+      "you_have": "PCB design (EAGLE) and schematic-level embedded work; no explicit technical-drawing or build-doc reading experience"
+    },
+    {
+      "jd_skill": "Troubleshoot mechanical and electrical issues",
+      "you_have": "Embedded electrical troubleshooting (PCB, STM32, sensor calibration) and mechanical control integration; no manufacturing assembly troubleshooting"
+    },
+    {
+      "jd_skill": "Process improvements / automation",
+      "you_have": "Process automation via automated data generation pipelines; not manufacturing process optimization"
+    }
+  ],
+  "missing_skills": [
+    "Robotic component assembly / manufacturing assembly line work",
+    "Hand tools and assembly equipment (physical assembly/manufacturing context)",
+    "Manufacturing / production assembly experience",
+    "Build documentation interpretation (formal)",
+    "Mechanical troubleshooting in manufacturing/assembly context"
+  ],
+  "top_ats_keywords": [
+    "Robotics assembly",
+    "Manufacturing",
+    "Prototype development",
+    "Mechanical",
+    "Electrical",
+    "Technical drawings",
+    "Electrical schematics",
+    "Hand tools",
+    "Assembly equipment"
+  ],
+  "required_skills": [
+    "Interpret technical drawings, electrical schematics, and build documentation",
+    "Assemble and test robotic components",
+    "Troubleshoot mechanical and electrical issues",
+    "Hand tools and assembly equipment"
+  ],
+  "preferred_skills": [
+    "Process improvements for prototype development",
+    "Hand tools and assembly equipment (preferred)"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "intern",
+  "key_responsibilities": [
+    "Assemble and test robotic components",
+    "Troubleshoot mechanical and electrical issues",
+    "Maintain tools and equipment",
+    "Contribute to process improvements for prototype development"
+  ],
+  "role_category": "embedded_systems",
+  "location": "South Boston, MA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null,
+  "semantic_pending": false
+}

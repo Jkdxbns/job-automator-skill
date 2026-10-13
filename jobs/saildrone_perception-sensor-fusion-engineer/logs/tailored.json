@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "company": "Saildrone",
+    "role": "Perception & Sensor Fusion Engineer",
+    "company_slug": "saildrone",
+    "job_slug": "perception-sensor-fusion-engineer"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Arlington, TX 76015"
+  },
+  "summary": "Recent M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT), NY. Built perception systems that detect, track and act on objects: TensorRT-optimized YOLO on NVIDIA Jetson driving visual servoing and a pan-tilt tracking turret, and a CARLA pipeline that trained YOLO11n to mAP50 ~0.85. Writes Python and C++ with PyTorch, trains and deploys machine learning models, and debugs multi-sensor (camera + ToF) hardware to reliable results on real edge computing platforms.",
+  "skills": {
+    "Perception & Machine Learning": [
+      "Machine learning",
+      "Computer vision",
+      "Object detection (YOLOv8, YOLO11n)",
+      "Object tracking",
+      "Visual servoing",
+      "Depth estimation",
+      "PyTorch",
+      "TensorRT",
+      "ONNX",
+      "TFLite",
+      "Model evaluation",
+      "CARLA"
+    ],
+    "Languages": [
+      "Python",
+      "C++",
+      "C"
+    ],
+    "Edge & Sensors": [
+      "NVIDIA Jetson",
+      "Edge computing",
+      "STM32",
+      "FreeRTOS",
+      "Arduino",
+      "Raspberry Pi",
+      "ADXL345",
+      "VL53L0X ToF",
+      "UART/I2C/PWM"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Deep Learning Intern",
+      "company": "Tusk",
+      "dates": "Dec 2023 – Feb 2024",
+      "bullets": [
+        "Trained YOLOv8n object detection on 1,133 annotated images, reaching 83% mAP@50 on held-out validation; exported to ONNX and TFLite for mobile deployment.",
+        "Curated and annotated a custom toothbrush detection dataset for health-level classification using YOLOv8."
+      ]
+    },
+    {
+      "title": "Research Intern (Capstone)",
+      "company": "Bhabha Atomic Research Centre (BARC)",
+      "dates": "Jul 2023 – Apr 2024",
+      "bullets": [
+        "Deployed ZoeDepth monocular depth estimation for crack-depth profiling with ±8% error on 3D surface reconstruction.",
+        "Designed a custom wavelet bank (alpha-blended sym6+bior3.5) to suppress low-frequency noise; with optimized homography stitching and concurrency, reached a PSNR of 86."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 – Nov 2022",
+      "bullets": [
+        "Implemented a custom tap-detection algorithm on ADXL345 accelerometer data using z-axis differential thresholding; resolved sensor jitter through software calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) — MS Capstone, RIT",
+      "date": null,
+      "bullets": [
+        "Integrated TensorRT-optimized YOLO (5.2× speedup: 56.7→10.9 ms, 17.6→92 FPS vs eager PyTorch) for visual servoing, with dual VL53L0X ToF sensors for camera range-gating and contact-triggered grasp at 25 mm via a TCA9548A I2C mux.",
+        "Resolved 11 integration failures (false-positive detections, servo brown-out, stale-frame capture); achieved 100% pick reliability (10/10 trials) at ~11.5s end-to-end voice-to-picked latency.",
+        "Implemented two-link IK on Arduino in C++; drove five servos with range-gated contact detection."
+      ]
+    },
+    {
+      "name": "Autonomous Driving in CARLA",
+      "date": null,
+      "bullets": [
+        "Trained YOLO11n (mAP50~0.85) and fine-tuned UFLD (ResNet-18) with SoftmaxFocalLoss + ParsingRelationLoss; integrated into an adaptive control stack with lane-following and waypoint fallback.",
+        "Built automated data generation pipelines using CARLA's semantic segmentation and raycast occlusion filtering to produce ~5,000 YOLO and ~3,000 UFLD training frames with zero manual annotation.",
+        "Validated in Town02 with 30 vehicles and 10 pedestrians; achieved zero collisions and correct traffic light compliance across multiple laps."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Used YOLOv8 on NVIDIA Jetson to detect and track objects, sending control commands to STM32 over UART.",
+        "Implemented multi-servo PWM control with interrupt-driven UART commands and user override.",
+        "Used FreeRTOS with mutexes for shared-memory task coordination; integrated VL53L0X ToF sensing and OLED distance visualization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 – May 2026",
+      "gpa": "3.3/4.0",
+      "courses": [
+        "Robot Perception",
+        "Deep Learning",
+        "Machine Intelligence",
+        "Principles of Robotics"
+      ]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 – 2024",
+      "gpa": "7.9/10.0",
+      "courses": [
+        "Digital Signal Processing",
+        "Image Processing",
+        "Random Signal Analysis"
+      ]
+    }
+  ],
+  "awards": []
+}

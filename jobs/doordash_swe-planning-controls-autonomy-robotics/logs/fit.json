@@ -1,0 +1,122 @@
+{
+  "company": "DoorDash",
+  "company_slug": "doordash",
+  "role": "Software Engineer, Planning & Controls - Autonomy & Robotics, DoorDash Air",
+  "job_slug": "swe-planning-controls-autonomy-robotics",
+  "match_pct": 21.9,
+  "score_detail": {
+    "have_count": 2,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 16,
+    "req_cov": 0.421,
+    "cap_applied": "low_required_cov"
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C++",
+    "embedded systems"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "motion planning algorithms",
+      "you_have": "ROS2 / robotics perception pipelines (turret project)"
+    },
+    {
+      "jd_skill": "robot control stack end-to-end",
+      "you_have": "custom RTOS build + robotics projects (design through hardware test)"
+    },
+    {
+      "jd_skill": "linear algebra / optimization",
+      "you_have": "CUDA kernel optimization, ML model optimization"
+    }
+  ],
+  "missing_skills": [
+    "linear and nonlinear control systems / stability analysis / controller synthesis",
+    "frequency domain analysis",
+    "dynamics modeling and aerodynamics",
+    "flight controller development, interfacing with state estimation",
+    "trajectory optimization / A*/D*/RRT motion planning",
+    "sensorless BLDC motor control",
+    "PX4 internals",
+    "hybrid VTOL transition control",
+    "tethered/suspended payload dynamics",
+    "published papers in controls/motion planning/aerial robotics",
+    "MPC formulation/solver/deployment"
+  ],
+  "top_ats_keywords": [
+    "C++",
+    "embedded systems",
+    "flight control",
+    "motion planning",
+    "trajectory optimization",
+    "A*",
+    "RRT",
+    "state estimation",
+    "PX4",
+    "MPC",
+    "aerodynamics",
+    "BLDC motor control"
+  ],
+  "required_skills": [
+    "linear and nonlinear control systems",
+    "stability analysis",
+    "controller synthesis and tuning",
+    "frequency domain analysis",
+    "optimization",
+    "linear algebra",
+    "C++",
+    "embedded systems",
+    "dynamics modeling and simulation",
+    "aerodynamics",
+    "flight controller development and tuning",
+    "state estimation interfacing",
+    "motion planning algorithms",
+    "trajectory optimization",
+    "nonlinear optimization",
+    "A*/D*/RRT variants",
+    "sensorless brushless DC motor control",
+    "robot control stack end-to-end (design, implementation, hardware testing)",
+    "MS/PhD in EE, ME, CS, Robotics, or related technical field"
+  ],
+  "preferred_skills": [
+    "PX4 internals (mixer, rate controller, position controller)",
+    "hybrid VTOL transition control",
+    "tethered or suspended payload dynamics",
+    "open-source flight stack contributions",
+    "published papers in controls, motion planning, or aerial robotics",
+    "Model Predictive Controller (MPC) formulation, solver, deployment"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "develop and tune low-level flight control algorithms for overactuated multirotor/hybrid aircraft",
+    "own dynamics simulation and aerodynamics modeling",
+    "bring up and tune flight controllers on new drone platforms",
+    "develop fault-tolerant control (motor loss, safe landing, emergency behaviors)",
+    "build a trajectory motion planner for smooth flight and obstacle avoidance",
+    "help develop high-level mission route planner"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Francisco, CA",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

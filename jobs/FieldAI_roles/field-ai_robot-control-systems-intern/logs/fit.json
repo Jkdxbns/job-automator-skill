@@ -1,0 +1,59 @@
+{
+  "company": "Field AI",
+  "company_slug": "field-ai",
+  "role": "Robot Control Systems Intern (Fall 2026)",
+  "job_slug": "robot-control-systems-intern",
+  "match_pct": 83.3,
+  "missing_skills": [
+    "MPPI/MPC (predictive and sampling-based control theory)",
+    "Docker",
+    "Kubernetes / DevOps",
+    "Off-road or high-speed autonomous vehicle experience",
+    "Open-source robotics control library contributions"
+  ],
+  "adjacent_skills": [
+    "Sim-to-real robot deployment (ROS2 arm/robot projects, not off-road vehicle control)",
+    "System dynamics / kinematics modeling (DH parameters, forward/inverse kinematics) as a proxy for system dynamics modeling and system ID",
+    "ROS1/2 and Linux experience present; Docker not evidenced in profile",
+    "Low-latency safety layer design (adjacent via embedded real-time/interrupt-driven work, not a direct match)"
+  ],
+  "top_ats_keywords": [
+    "CUDA",
+    "MPPI",
+    "MPC",
+    "C++",
+    "Python",
+    "Linux",
+    "ROS1/2",
+    "Docker",
+    "Kubernetes",
+    "GPU programming",
+    "control systems",
+    "system dynamics modeling",
+    "system identification",
+    "safety layers",
+    "real-time execution",
+    "off-road autonomous vehicles"
+  ],
+  "key_responsibilities": [
+    "Bridge advanced control theory and field-deployable products",
+    "System dynamics modeling for heterogeneous robotic platforms",
+    "Optimize GPU-accelerated control libraries (CUDA)",
+    "Develop computationally constrained control schemes for large off-road vehicles down to resource-limited robots",
+    "Design and implement low-latency safety layers for tele-operated and autonomous modes",
+    "Deploy code onto real vehicles operating in extreme, unstructured environments"
+  ],
+  "role_category": "edge_ai_robotics",
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes"
+  },
+  "hard_blocker_triggered": false,
+  "hard_blocker_reason": null,
+  "notes": {
+    "eligibility_flag": "JD requires 'currently pursuing' a PhD or Master's degree. Justin graduated May 2026, before this Fall 2026 internship window opens -- likely no longer enrolled/eligible under the stated academic-status requirement even though the keyword match is strong. This is not one of the defined hard-blocker categories (sponsorship/citizenship/clearance/ITAR) so it does not force a HARD BLOCK verdict, but it is a real eligibility risk worth confirming before applying.",
+    "sponsorship_flag": "No explicit no-sponsorship phrase found in JD. Field AI is not on the known_sponsors list (small/mid-size robotics startup) -- sponsorship posture unknown/unverified.",
+    "location_flag": "On-site in Irvine, CA; candidate is willing to relocate, so no mismatch.",
+    "experience_flag": "No numeric years-of-experience requirement stated (student internship); no threshold mismatch by the numeric rule, but see eligibility_flag above."
+  }
+}

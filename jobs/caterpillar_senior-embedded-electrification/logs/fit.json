@@ -1,0 +1,114 @@
+{
+  "company": "Caterpillar Inc.",
+  "company_slug": "caterpillar",
+  "role": "Senior Embedded Software Engineer - Electrification",
+  "job_slug": "senior-embedded-electrification",
+  "match_pct": 30.6,
+  "score_detail": {
+    "have_count": 4,
+    "adjacent_count": 3,
+    "missing_count": 11,
+    "jd_ask_size": 18,
+    "req_cov": 0.556,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "Embedded C",
+    "Git",
+    "RTOS",
+    "Python"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded debugging tools",
+      "you_have": "Oscilloscopes, Logic Analyzers"
+    },
+    {
+      "jd_skill": "Motor controllers",
+      "you_have": "PWM Motor Control"
+    },
+    {
+      "jd_skill": "Ethernet",
+      "you_have": "Static IP / network configuration"
+    }
+  ],
+  "missing_skills": [
+    "MATLAB",
+    "Simulink",
+    "Model-based design",
+    "CAN",
+    "CAN FD",
+    "J1939",
+    "BMS",
+    "Inverters",
+    "HIL/SIL/MIL",
+    "FMEA",
+    "Powertrain controls"
+  ],
+  "top_ats_keywords": [
+    "Embedded C",
+    "MATLAB",
+    "Simulink",
+    "Model-based design",
+    "CAN",
+    "CAN FD",
+    "J1939",
+    "Ethernet",
+    "Git",
+    "RTOS",
+    "BMS",
+    "HIL",
+    "SIL",
+    "MIL",
+    "FMEA",
+    "Python",
+    "Debugging"
+  ],
+  "required_skills": [
+    "MATLAB/Simulink model-based development",
+    "Embedded C",
+    "CAN",
+    "CAN FD",
+    "J1939",
+    "Ethernet",
+    "Git",
+    "RTOS",
+    "Embedded debugging tools"
+  ],
+  "preferred_skills": [
+    "Powertrain/battery controls",
+    "Python",
+    "FMEA"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "senior",
+  "key_responsibilities": [
+    "Real-time BMS/inverter/motor-controller software",
+    "Integrate Simulink auto-generated code",
+    "HIL/SIL/MIL testing",
+    "Root cause analysis"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Mossville, Illinois",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "No",
+    "apply": "No",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": null
+}

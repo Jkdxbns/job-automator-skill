@@ -1,0 +1,30 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Robotics Prototyping Engineer (Special Projects)",
+  "job_slug": "robotics-prototyping-engineer",
+  "match_pct": 86,
+  "missing_skills": [
+    "3D printing / CNC machining fabrication",
+    "Lab / hardware inventory management",
+    "Force/torque sensing",
+    "LiDAR",
+    "Reinforcement learning / motion planning"
+  ],
+  "adjacent_skills": [
+    "Fusion 360 (have SolidWorks)",
+    "Sensor fusion (have kinematics, IK, DH derivation, ToF/IMU-adjacent sensors)",
+    "Simulation tools (have RViz/MoveIt/CARLA/ABB RobotStudio, not robot-specific fab sim)"
+  ],
+  "top_ats_keywords": ["SolidWorks", "PCB", "STM32", "Python", "C/C++", "ROS2", "sensor integration", "embedded systems", "actuation", "CAD"],
+  "key_responsibilities": [
+    "Build/integrate/manage robotic and mechatronic systems in a research lab",
+    "Stand up robot platforms",
+    "Design and fabricate custom mechanisms and electronics",
+    "Write low-level software tying hardware together",
+    "Contribute to algorithmic/research work as systems mature"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {"matches": "Yes", "apply": "Yes"},
+  "llm_analysis": null
+}

@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "company": "Pronoia Energy",
+    "role": "Embedded Systems Engineer, Quantum Energy Systems",
+    "company_slug": "pronoia",
+    "job_slug": "embedded-systems-engineer-quantum-energy"
+  },
+  "personal_info": {
+    "name": "Justin Mascarenhas",
+    "phone": "585-303-1045",
+    "email": "jmascarenhas1998@gmail.com",
+    "linkedin": "linkedin.com/in/justinmascarenhas",
+    "github": "github.com/Jkdxbns",
+    "location": "Rochester, NY"
+  },
+  "summary": "M.S. Computer Engineering graduate from Rochester Institute of Technology (RIT) with hands-on embedded systems experience building real-time firmware on STM32 and Arduino microcontrollers. Designed interrupt-driven sensor and actuation pipelines -- closed-loop UART/I2C sensor communication, PWM motor control, and ToF-triggered safety logic -- validated through custom PCB board bring-up in EAGLE and hardware debugging with oscilloscopes and logic analyzers. Comfortable owning firmware end-to-end, from datasheet-driven driver development to deterministic real-time control loops.",
+  "skills": {
+    "Embedded / Firmware": ["STM32 (Bare-Metal C)", "Arduino", "FreeRTOS", "UART/I2C/SPI", "PWM", "Interrupt-driven design", "Bluetooth (BLE/Classic)"],
+    "Hardware Debugging": ["Oscilloscopes", "Logic Analyzers", "EAGLE PCB Design", "Proteus", "Datasheet-driven driver development"],
+    "Languages": ["C/C++", "Bash"],
+    "Sensors & Actuation": ["ADXL345 (IMU)", "VL53L0X (ToF)", "TCA9548A I2C Mux", "ESC/Motor Control", "GPIO/ADC/TIM"],
+    "Tools": ["Linux", "Git", "CMake", "SolidWorks"]
+  },
+  "experience": [
+    {
+      "title": "General Secretary",
+      "company": "Agnel Robotics Club (ARC), F.C.R.I.T.",
+      "dates": "Jul 2023 - May 2024",
+      "bullets": [
+        "Designed and fabricated custom single-layer PCBs in EAGLE for locomotive robots, owning board bring-up end-to-end; implemented sensor communication over UART and I2C with closed-loop feedback.",
+        "Led a 25-member robotics team across national-level competitions, owning mechanical design, PCB fabrication, and AI/ML integration end-to-end."
+      ]
+    },
+    {
+      "title": "Embedded Systems Intern",
+      "company": "Planctech Innovations",
+      "dates": "Jul 2022 - Nov 2022",
+      "bullets": [
+        "Developed a wearable gesture-recognition glove for hands-free cursor control, integrating ADXL345 accelerometers with Raspberry Pi and HC-05 Bluetooth to translate 3-DoF hand motion into HID commands.",
+        "Implemented a custom tap-detection algorithm using z-axis differential thresholding; resolved sensor jitter through hardware-in-the-loop calibration and resolution tuning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "STM32 Bare-Metal Temperature Monitor",
+      "date": null,
+      "bullets": [
+        "Built a Cortex-M4 temperature monitoring firmware in bare-metal C with timer-triggered ADC scan conversions, interrupt-driven sample capture, and a low-level I2C driver; programmed GPIO, TIM2, ADC1, I2C1 peripherals directly.",
+        "Achieved 3.68 KB Flash / 1.58 KB RAM at deterministic 1 Hz update rate; verified timing and signal integrity in Proteus."
+      ]
+    },
+    {
+      "name": "Object Tracking Turret",
+      "date": null,
+      "bullets": [
+        "Implemented multi-servo PWM control with interrupt-driven UART commands under FreeRTOS with mutexes for shared-memory task coordination on STM32.",
+        "Integrated VL53L0X ToF sensing and OLED distance visualization for closed-loop actuation."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Delivery Drone",
+      "date": null,
+      "bullets": [
+        "Built an Arduino flight controller in C++: clamped PWM throttle mapping to 4x 30A SimonK ESCs with a safety-gated arming sequence and per-motor override."
+      ]
+    },
+    {
+      "name": "Voice-Controlled Robotic Arm (COFFIN) -- MS Capstone, RIT",
+      "date": "Apr 2026",
+      "bullets": [
+        "Integrated dual VL53L0X ToF sensors (camera range-gate + gripper-ToF-triggered close at 25 mm) via TCA9548A I2C mux for a contact-aware grasping safety interlock.",
+        "Resolved 11 hardware-software integration failures (servo brown-out, stale-frame capture, false-positive detections); achieved 100% pick reliability (10/10 trials)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S., Computer Engineering",
+      "school": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "dates": "Aug 2024 - May 2026",
+      "courses": ["Principles of Robotics", "Multiple Processor Systems", "High Performance Architecture"]
+    },
+    {
+      "degree": "B.E., Electronics & Telecommunication",
+      "school": "University of Mumbai (F.C.R.I.T.)",
+      "location": "Mumbai, India",
+      "dates": "2020 - 2024",
+      "courses": ["Digital Electronics", "Digital Signal Processing", "Random Signal Analysis"]
+    }
+  ],
+  "awards": []
+}

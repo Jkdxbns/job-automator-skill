@@ -1,0 +1,160 @@
+{
+  "company": "Johnson Controls",
+  "company_slug": "johnson-controls",
+  "role": "Principal Embedded Software Engineer",
+  "job_slug": "principal-embedded-swe",
+  "match_pct": 59.1,
+  "score_detail": {
+    "have_count": 12,
+    "adjacent_count": 2,
+    "missing_count": 8,
+    "jd_ask_size": 22,
+    "req_cov": 0.794,
+    "cap_applied": null
+  },
+  "seniority_fit": "Mismatch",
+  "experience_mismatch": true,
+  "senior_title_signal": true,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "RTOS",
+    "SPI",
+    "I2C",
+    "UART",
+    "Git",
+    "Ethernet",
+    "TCP/IP",
+    "hardware/software interfaces",
+    "debugging"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Embedded Linux",
+      "you_have": "BeagleBone Black / Linux (exposure)"
+    },
+    {
+      "jd_skill": "embedded software architecture",
+      "you_have": "STM32 RTOS + COFFIN firmware project-scope design"
+    }
+  ],
+  "missing_skills": [
+    "CAN",
+    "USB",
+    "Agile",
+    "safety-critical",
+    "embedded cybersecurity",
+    "IoT / cloud-connected devices",
+    "multi-platform architecture",
+    "globally distributed teams"
+  ],
+  "top_ats_keywords": [
+    "embedded",
+    "RTOS",
+    "Embedded Linux",
+    "C",
+    "C++",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "Ethernet",
+    "TCP/IP",
+    "Git",
+    "Agile",
+    "cybersecurity",
+    "IoT",
+    "safety-critical"
+  ],
+  "required_skills": [
+    "C",
+    "C++",
+    "microcontrollers",
+    "RTOS",
+    "Embedded Linux",
+    "Ethernet",
+    "TCP/IP",
+    "CAN",
+    "SPI",
+    "I2C",
+    "UART",
+    "USB",
+    "Git",
+    "Agile",
+    "embedded software architecture",
+    "hardware/software interfaces",
+    "debugging"
+  ],
+  "preferred_skills": [
+    "safety-critical",
+    "embedded cybersecurity",
+    "IoT / cloud-connected devices",
+    "multi-platform architecture",
+    "globally distributed teams"
+  ],
+  "required_experience_years": 8,
+  "experience_level_stated": "staff",
+  "key_responsibilities": [
+    "define embedded architecture",
+    "technical leadership/mentoring",
+    "architecture & code reviews",
+    "cybersecurity",
+    "IoT"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Westford, MA (hybrid)",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 44,
+    "llm_verdict": "Weak Fit",
+    "strengths": [
+      "Hands-on C/C++ firmware on STM32 and Arduino with UART/I2C/SPI (COFFIN: two-link IK in C++, TCA9548A I2C mux, VL53L0X ToF); RTOS exposure via CMPE 663 coursework projects",
+      "Linux deployment skills: systemd services with non-root isolation, static IP networking, remote administration on Jetson",
+      "Git/GitLab version control and technical documentation at BARC",
+      "Master's degree meets the preferred qualification"
+    ],
+    "real_gaps": [
+      "No CAN, USB or Ethernet driver-level work on a product; networking is application-level WebSocket/SSH",
+      "Embedded Linux is deployment-level only: no Yocto/Buildroot, kernel, device tree or BSP work",
+      "No safety-critical or regulated product work, no embedded cybersecurity (secure boot, crypto, threat modeling)",
+      "No evidence of architecting across multiple product platforms or leading design standards, architecture reviews or roadmaps",
+      "No Agile team process, no IoT or cloud-connected device lifecycle (OTA, MQTT), no globally distributed team experience; the principal role centres on org-scale ownership and mentoring, which is a seniority concern noted here as prose and not scored"
+    ],
+    "overstated_by_keywords": [
+      "C++ counted as Have: evidence is capstone and coursework scale, not expert-level C++",
+      "RTOS counted as Have: coursework-level scheduling, not product RTOS architecture",
+      "Ethernet/TCP/IP counted as Have: application-level sockets and SSH, not stack or driver work"
+    ],
+    "understated_by_keywords": [
+      "Debugging of hardware/software integration is well evidenced: 11 integration failures resolved in COFFIN (servo brown-out, stale frames), plus logic analyzer and oscilloscope use",
+      "Systems-level Linux service hardening partly maps to the secure software development preference"
+    ],
+    "screening_gaps": [
+      "Principal-level scope: 8+ years of embedded architecture and technical leadership, versus 0 years full-time",
+      "No CAN or USB, both named required protocols, and no Embedded Linux platform work (Yocto/BSP/kernel)",
+      "No safety-critical or regulated product experience and no embedded cybersecurity, central to a fire-detection life-safety product"
+    ],
+    "recommend_apply": false,
+    "reasoning": "The embedded fundamentals are real, but the role is a principal architect position in life-safety firmware, and the profile evidences project-scope work with no CAN/USB, no Embedded Linux platform work and no regulated-product exposure. Skill fit alone is below half of the core responsibilities, and the seniority gap compounds it. Keyword score (59.1) overstates the fit.",
+    "calibration_delta": 15.1
+  },
+  "semantic_pending": false
+}

@@ -1,0 +1,162 @@
+{
+  "company": "Apple",
+  "company_slug": "apple",
+  "role": "Embedded Firmware Verification Engineer",
+  "job_slug": "embedded-firmware-verification-engineer",
+  "match_pct": 88.9,
+  "score_detail": {
+    "have_count": 15,
+    "adjacent_count": 2,
+    "missing_count": 1,
+    "jd_ask_size": 18,
+    "req_cov": 0.875,
+    "cap_applied": null
+  },
+  "seniority_fit": "Aligned",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "C",
+    "Python",
+    "Microcontrollers",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "JTAG",
+    "SWD",
+    "I2C",
+    "UART",
+    "SPI",
+    "RTOS",
+    "ARM architecture",
+    "Embedded firmware",
+    "Debugging (firmware/system)",
+    "Test automation"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Pytest",
+      "you_have": "Python test scripting / unit testing"
+    },
+    {
+      "jd_skill": "CI/CD pipelines",
+      "you_have": "GitLab version control + systemd deployment"
+    }
+  ],
+  "missing_skills": [
+    "Jenkins"
+  ],
+  "top_ats_keywords": [
+    "C",
+    "Python",
+    "microcontrollers",
+    "JTAG",
+    "SWD",
+    "oscilloscope",
+    "logic analyzer",
+    "Pytest",
+    "CI/CD",
+    "Jenkins",
+    "I2C",
+    "UART",
+    "SPI",
+    "RTOS",
+    "ARM",
+    "embedded firmware",
+    "test automation",
+    "verification",
+    "debug"
+  ],
+  "required_skills": [
+    "C",
+    "Python",
+    "Microcontrollers",
+    "JTAG",
+    "SWD",
+    "Oscilloscopes",
+    "Logic Analyzers",
+    "BS degree"
+  ],
+  "preferred_skills": [
+    "Pytest",
+    "Test framework design",
+    "CI/CD pipelines",
+    "Jenkins",
+    "I2C",
+    "UART",
+    "SPI",
+    "RTOS",
+    "ARM architecture"
+  ],
+  "required_experience_years": 0,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "Architect, implement and maintain a verification system for complex firmware/software",
+    "Write clean, robust, testable, reusable code for embedded test systems",
+    "Develop and maintain automated engineering tools to debug, analyze and test embedded products",
+    "Define assignments, schedules and quality expectations with project leaders",
+    "Present results and recommendations",
+    "Debug and close out system issues in product firmware, software and systems"
+  ],
+  "role_category": "embedded_systems",
+  "location": "San Diego, California, United States",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false
+  },
+  "verdicts": {
+    "matches": "Yes",
+    "apply": "Yes",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 73,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Every language/platform minimum qual has real depth: embedded C on Cortex-M4 bare-metal (STM32 Temperature Monitor - direct GPIO/TIM2/ADC1/I2C1 register programming, 3.68 KB Flash / 1.58 KB RAM, deterministic 1 Hz) and Python across ML, GUI and pipeline work",
+      "Bench instrumentation is first-hand, not listed-only: Oscilloscopes, Logic Analyzers, Multimeters, Spectrum Analyzers in Tools, and the JD accepts 'oscilloscopes OR logic analyzers' for that minimum qual",
+      "Debug-and-close-out is the single best-backed responsibility: COFFIN resolved 11 named integration failures (false-positive detections, servo brown-out, stale-frame capture) to 100% pick reliability over 10 trials; Robocon fixed PWM saturation at 45 degree diagonals and sensor jitter via encoder-odometry feedback",
+      "Low-pin-count buses are load-bearing in multiple builds, not keyword filler: low-level I2C driver written on STM32, interrupt-driven UART command path to the Object Tracking Turret, TCA9548A I2C mux for dual VL53L0X ToF sensors in COFFIN",
+      "RTOS is real at task-coordination level - FreeRTOS with mutexes for shared-memory coordination on the Object Tracking Turret, backed by CMPE 663 RTOS coursework",
+      "Verification methodology exists in one place and is strong there: the QAT project built a pure-integer reference model, exported 100 golden test vectors and a 17,024-entry hex weight file, then proved fixed-point requantization matched the float reference on 99.996% of hidden values at identical accuracy - that is golden-vector firmware verification in all but name",
+      "Automated engineering tooling has precedent: PyQt + Matplotlib real-time data-acquisition and visualization GUI built for a live lab environment at BARC, and CARLA automated data-generation pipelines producing ~8,000 labelled frames with zero manual annotation",
+      "Clean, modular, reusable code is demonstrable: Frame Simulator decoupled data model, math, visuals and UI into separate modules with a mix-in pattern centralizing transform-apply and refresh logic"
+    ],
+    "real_gaps": [
+      "No Pytest and no formal test framework anywhere in the profile - no unit, regression or parametrized test suite, which is the preferred qual sitting closest to the job's core deliverable",
+      "No CI/CD pipeline experience - GitLab appears only as version control, systemd only as single-service deployment; Jenkins, GitHub Actions, build/test automation on commit are absent",
+      "Never architected or maintained a verification SYSTEM - testing in the profile is per-project and ad hoc (10-trial reliability runs, <2mm repeatability checks, golden vectors for one MLP), not a reusable framework other engineers run against many firmware builds",
+      "No instrument automation stack - no SCPI/VISA/PyVISA, no programmable power supply, DAQ or electronic load control, no HIL rig; Apple test systems are built on exactly this",
+      "No battery or power-electronics domain exposure - nothing on BMS, cell characterization, charge/discharge cycling, coulomb counting or power measurement, and this req sits inside Battery Engineering",
+      "No JTAG/SWD probe workflow named explicitly (OpenOCD, ST-Link, gdb-on-target, trace) even though the hardware he used implies SWD flashing",
+      "No test-result reporting or data-infrastructure work - no log parsing/dashboarding of automated test output, which the 'present results and recommendations' responsibility implies at scale"
+    ],
+    "overstated_by_keywords": [
+      "Test automation - counted HAVE, but the backing is manual trial runs and one golden-vector exercise, not an automated suite",
+      "CI/CD pipelines - counted ADJACENT off GitLab and systemd; neither is a pipeline",
+      "JTAG / SWD - matched through the hardware-debugging alias; the specific probe tooling is never named in the profile"
+    ],
+    "understated_by_keywords": [
+      "QAT golden-vector verification (pure-integer reference model, 100 test vectors, 99.996% bit-level agreement) is firmware verification work that no JD keyword string-matched",
+      "BARC PyQt data-acquisition GUI is precisely an 'automated engineering tool used to debug and analyze' hardware, scored as nothing",
+      "COFFIN's documented 11-failure root-cause-and-fix sequence directly evidences 'quickly debug and effectively close out system issues' and never matched a keyword",
+      "Robocon interrupt-driven quadrature decoding written as a 4-bit A/B transition state machine from first principles shows the low-level reasoning a firmware test engineer needs"
+    ],
+    "screening_gaps": [
+      "Zero test-framework experience (no Pytest, no suite he owns) in a role whose whole output is a verification system - the first thing a hiring manager for this req checks",
+      "No CI/CD pipeline work at all; 'setting up, integrating or maintaining' Jenkins pipelines is a preferred qual he cannot speak to",
+      "No battery, power or cell-characterization domain exposure for a Battery Engineering team, and no instrument-automation (SCPI/DAQ/power supply) layer that test rigs are built on"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The firmware half of this role is genuinely his: bare-metal C on Cortex-M4, I2C/UART/SPI drivers, FreeRTOS, scopes and logic analyzers, and the best-evidenced debugging record in the profile. The verification half is the gap - he has verification instincts (golden vectors, reference models, reliability trials) but has never built a test framework, never used Pytest, and never touched CI, which is the exact axis a verification-engineer screener probes. Worth applying because the minimum quals are fully cleared and the gaps are all preferred quals, but the Pytest and CI story has to be built before an interview, not during one.",
+    "calibration_delta": 15.9
+  },
+  "semantic_pending": false
+}

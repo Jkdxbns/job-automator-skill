@@ -1,0 +1,113 @@
+{
+  "company": "PathAI",
+  "company_slug": "pathai",
+  "role": "Machine Learning Engineer II (Applied Research & Model Development)",
+  "job_slug": "ml_engineer_ii_applied_research",
+  "match_pct": 58.3,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 7,
+    "missing_count": 4,
+    "jd_ask_size": 18,
+    "req_cov": 0.75,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow/Keras",
+    "Deep learning",
+    "Computer vision & image processing",
+    "Model evaluation & benchmarking",
+    "ML model development and deployment (research applications)"
+  ],
+  "adjacent_skills": [
+    "Data pipeline development",
+    "Experimental design & analysis",
+    "Cross-functional scientific collaboration",
+    "MLOps / ML infrastructure",
+    "Histopathology / digital pathology imaging",
+    "Statistics / applied mathematics",
+    "Scientific publishing & presentation"
+  ],
+  "missing_skills": [
+    "Biomedical / clinical domain knowledge",
+    "Translating biological and clinical requirements into ML solutions",
+    "Scalable production ML systems at org scale",
+    "ML governance, design reviews, ML best-practice programs"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "PyTorch",
+    "machine learning",
+    "deep learning",
+    "model deployment",
+    "data pipelines",
+    "experimental design",
+    "ML pipelines",
+    "computer vision",
+    "model evaluation",
+    "MLOps",
+    "cross-functional collaboration",
+    "image segmentation",
+    "scalable ML"
+  ],
+  "key_responsibilities": [
+    "Design, develop and deploy ML models for research and product development",
+    "Translate biological and clinical requirements into scalable ML solutions",
+    "Contribute to experimental design, analysis, documentation and reporting",
+    "Improve ML pipelines and infrastructure with MLOps and platform teams",
+    "Publish and present scientific work (abstracts, manuscripts, conferences)"
+  ],
+  "role_category": "ml_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "apply_before_semantic": "Can Try",
+    "semantic_override_applied": false
+  },
+  "llm_analysis": {
+    "llm_match_pct": 68,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Medical image segmentation end to end: BraTS 2020 multi-modal MRI, U-Net with VGG-16/VGG-19/ResNet-50 backbones, evaluated on Dice and IoU with accuracy-latency tradeoffs reported (Teesside Research Fellowship)",
+      "Data pipeline development on large-scale medical data: custom pipeline for 3D volumetric MRI with medical imaging augmentation and batch-loading memory management (Teesside) \u2014 this is the JD's required 'data pipeline development', not an adjacency",
+      "High-resolution microscopy image processing: custom stitching, alpha-blended sym6+bior3.5 wavelet denoising to PSNR 86, ZoeDepth depth profiling for microscopic crack analysis (BARC); 1st Prize poster on 2D/3D mosaicing of microscopic images",
+      "Transformer fine-tuning on medical-domain data: DONUT via HuggingFace VisionEncoderDecoder on a medical billing dataset, 55% to 93% validation accuracy (IIT Bombay)",
+      "Experimental design and rigorous analysis: SLM quantization benchmarked on HellaSwag/GSM8K/ARC with perplexity delta, CUDA kernel ablations, MPI load-imbalance characterization",
+      "Cross-functional collaboration and leadership: sole ML-experienced member leading a 7-person cross-cultural team; 25-member robotics org"
+    ],
+    "real_gaps": [
+      "No clinical or translational context \u2014 never worked with pathologists, clinical trial endpoints, or regulatory-grade model validation. BraTS is a public benchmark and medical billing is administrative data, not biology.",
+      "No whole-slide imaging specifics: tiling of gigapixel slides, multiple-instance learning / attention-based aggregation, stain normalization",
+      "No production ML deployment at company scale \u2014 all work is capstone, internship or research scope; JD wants models shipped into AI products and services alongside MLOps and platform teams",
+      "No publication record \u2014 JD explicitly asks for abstracts, manuscripts and conference contributions; an undergrad poster prize will not read as one",
+      "No MLOps tooling depth (experiment tracking, model registry, CI for models); SLURM and JupyterHub are the closest",
+      "0 full-time years against the 2-4 years the Master's path asks for (scored separately as seniority, noted here as prose only)"
+    ],
+    "overstated_by_keywords": [
+      "'Scientific publishing' counted as Adjacent on the strength of a single poster presentation",
+      "'MLOps / ML infrastructure' counted as Adjacent on SLURM and JupyterHub, which is cluster usage rather than ML platform work"
+    ],
+    "understated_by_keywords": [
+      "'Biomedical / clinical domain knowledge' was scored Missing, but three separate engagements are medical: BraTS MRI segmentation, microscopic surface inspection, and DONUT on medical billing documents",
+      "'Data pipeline development' was scored Adjacent, but the Teesside bullet is a literal custom data pipeline for a medical imaging dataset",
+      "Histopathology adjacency is stronger than credited: whole-slide imaging is fundamentally high-resolution microscopy stitching and tiling, which is exactly the award-winning BARC work"
+    ],
+    "screening_gaps": [
+      "No computational pathology or whole-slide imaging experience (tiling, MIL, stain normalization) against a team that does only that",
+      "No publications, abstracts or conference contributions, against a JD bullet that explicitly requires supporting them",
+      "0 full-time years against a 2-4 year Engineer II bar, with no production-scale ML deployment to offset it"
+    ],
+    "recommend_apply": true,
+    "reasoning": "The core ML engineering is genuinely backed \u2014 Python, PyTorch, segmentation, data pipelines on medical imaging, and unusually disciplined benchmarking. The keyword pass wrongly marked biomedical domain as missing when three engagements are medical, including a custom BraTS data pipeline that directly answers a required qualification. What is not backed is the half of the job that is pathology-specific and scientific-community-facing: whole-slide imaging, clinical translation, and publishing. Worth applying, with the medical imaging work leading the resume.",
+    "calibration_delta": -9.7
+  },
+  "flags": {
+    "sponsorship": "not mentioned in JD; PathAI not in known_sponsors \u2014 verify before applying",
+    "location": "Remote listed \u2014 OK; no relocation benefits",
+    "experience": "2-4 yrs required (M.S. path) vs 0 full-time yrs"
+  }
+}

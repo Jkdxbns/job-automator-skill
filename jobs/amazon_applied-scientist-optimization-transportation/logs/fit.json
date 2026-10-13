@@ -1,0 +1,32 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Applied Scientist - Optimization, Amazon Transportation",
+  "job_slug": "applied-scientist-optimization-transportation",
+  "match_pct": 67,
+  "missing_skills": [
+    "Optimization mathematics (linear programming, nonlinear optimization)",
+    "Column generation / cuts / Benders decomposition",
+    "Meta-heuristic optimization (iterative local search, genetic algorithms)",
+    "Network flow / shortest path algorithms",
+    "Classical statistical modeling (random forests, GBM, LASSO, logistic regression)",
+    "Optimization under uncertainty"
+  ],
+  "adjacent_skills": [
+    "ML model building (deep learning / edge AI, not classical OR or business forecasting)",
+    "Algorithm development (robotics/embedded focus, not network/routing optimization)"
+  ],
+  "top_ats_keywords": ["optimization", "linear programming", "nonlinear optimization", "Python", "C++", "Java", "machine learning", "operations research"],
+  "key_responsibilities": [
+    "Design and develop optimization models and algorithms for transportation network planning",
+    "Build models from prototype to production-level systems",
+    "Translate ambiguous business problems into modeling approaches",
+    "Driver capacity optimization"
+  ],
+  "role_category": "general",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "llm_analysis": null
+}

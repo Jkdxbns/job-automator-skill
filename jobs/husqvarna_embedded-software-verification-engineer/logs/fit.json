@@ -1,0 +1,135 @@
+{
+  "company": "Husqvarna Group",
+  "company_slug": "husqvarna",
+  "role": "Embedded Software Verification Engineer",
+  "job_slug": "embedded-software-verification-engineer",
+  "match_pct": 57.7,
+  "score_detail": {
+    "have_count": 7,
+    "adjacent_count": 1,
+    "missing_count": 5,
+    "jd_ask_size": 13,
+    "req_cov": 1.0,
+    "cap_applied": null
+  },
+  "seniority_fit": "Stretch",
+  "experience_mismatch": false,
+  "senior_title_signal": false,
+  "production_scope_required": true,
+  "have_skills": [
+    "Python",
+    "C",
+    "C++",
+    "Linux",
+    "embedded software",
+    "root cause analysis",
+    "robotics"
+  ],
+  "adjacent_skills": [
+    {
+      "jd_skill": "Hardware-in-the-Loop",
+      "you_have": "embedded hardware bring-up/testing"
+    }
+  ],
+  "missing_skills": [
+    "test automation frameworks (formal QA role experience)",
+    "Azure DevOps",
+    "CI/CD",
+    "Swedish language",
+    "3+ years professional verification/QA experience"
+  ],
+  "top_ats_keywords": [
+    "Python",
+    "test automation",
+    "CI",
+    "Azure DevOps",
+    "Linux",
+    "C/C++",
+    "HIL",
+    "verification",
+    "validation",
+    "robotics"
+  ],
+  "required_skills": [
+    "Python scripting",
+    "software verification/test automation/QA/validation (3+ yrs)"
+  ],
+  "preferred_skills": [
+    "Azure DevOps",
+    "Linux",
+    "C/C++",
+    "embedded software dev/verification",
+    "HIL environments",
+    "robotics/automotive embedded systems",
+    "Swedish"
+  ],
+  "required_experience_years": 3,
+  "experience_level_stated": "not_stated",
+  "key_responsibilities": [
+    "automated test suites/verification frameworks/CI",
+    "HIL test environments",
+    "nightly build monitoring",
+    "failure investigation/RCA",
+    "field validation of robotic mowers",
+    "software QA support"
+  ],
+  "role_category": "embedded_systems",
+  "location": "Huskvarna, Sweden",
+  "constraint_flags": {
+    "no_sponsorship": false,
+    "location_conflict": false,
+    "eu_uk_visa_note": "Sweden: no salary stated in posting, per policy no salary-floor flag raised; sweden_work_permit floor (~401k-413.6k SEK/yr) is the binding risk for junior embedded pay generally - confirm compensation before accepting if offered."
+  },
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try",
+    "decided_by": "keyword",
+    "hard_blocker_triggered": false,
+    "hard_blocker_reason": null
+  },
+  "thresholds_used": {
+    "min_match_for_apply": 60,
+    "min_match_for_can_try": 40,
+    "experience_threshold_years": 3
+  },
+  "llm_analysis": {
+    "llm_match_pct": 48,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "COFFIN capstone: resolved 11 real integration failures (false-positive detections, servo brown-out, stale-frame capture) on physical hardware -- direct root-cause-analysis and hardware-debugging experience",
+      "Extensive physical hardware bring-up and instrumented debugging (oscilloscopes, logic analyzers, Proteus simulation-vs-hardware verification on the STM32 temperature monitor) -- transferable to HIL-style verification work",
+      "Deployed and validated a multi-device robotic system end-to-end (Jetson + Arduino + mobile client) with measured reliability (100% pick success, 10/10 trials) -- shows field-validation-style rigor",
+      "Solid Python and C/C++ across embedded and robotics projects, meeting the one hard required skill"
+    ],
+    "real_gaps": [
+      "No professional software verification, QA, or test-automation role experience -- all hardware/debugging work sits inside build-it projects, not a dedicated verification function",
+      "No test automation framework experience (pytest, Robot Framework, or similar) -- nothing in the profile demonstrates writing/maintaining automated test suites as a discipline",
+      "No CI/CD or Azure DevOps experience -- nothing in the profile evidences this at all",
+      "No formal Hardware-in-the-Loop rig experience -- the debugging work is real but informal, not a structured HIL test environment",
+      "No Swedish language ability",
+      "3+ years professional experience requirement vs 0 years full-time (internships only)"
+    ],
+    "overstated_by_keywords": [
+      "root cause analysis -- real but from ad-hoc project debugging, not a formal verification process",
+      "embedded software -- strong on the build side, unevidenced on the verify side"
+    ],
+    "understated_by_keywords": [
+      "Hands-on instrumented debugging (oscilloscope, logic analyzer, Proteus cross-checks) reads like informal HIL work but never string-matched to 'Hardware-in-the-Loop'",
+      "systemd deployment with auto-restart/backoff on COFFIN shows operational reliability thinking relevant to nightly-build monitoring"
+    ],
+    "screening_gaps": [
+      "No professional verification/QA/test-automation experience against a 3+ year requirement -- the single biggest likely screen-out",
+      "No CI/CD or Azure DevOps experience -- a named meritorious tool with zero profile evidence",
+      "No Swedish fluency for an on-site Sweden HQ role"
+    ],
+    "recommend_apply": false,
+    "reasoning": "Justin's embedded and hardware-debugging fundamentals are genuinely strong, and the one hard requirement (Python) is met, but the role's actual core -- a dedicated verification/test-automation discipline -- has no real backing in the profile; everything transferable comes from building systems, not verifying them, which is a real domain gap a recruiter would likely catch.",
+    "calibration_delta": 9.7
+  },
+  "outcome": {
+    "stage": "rejected",
+    "date": "2026-09-23",
+    "channel": "application",
+    "notes": "Form rejection: pursued another candidate. No feedback."
+  }
+}

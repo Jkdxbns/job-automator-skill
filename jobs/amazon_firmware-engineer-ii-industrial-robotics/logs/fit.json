@@ -1,0 +1,79 @@
+{
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "role": "Firmware Engineer II, Amazon Industrial Robotics",
+  "job_slug": "firmware-engineer-ii-industrial-robotics",
+  "match_pct": 92,
+  "have_skills": [
+    "Embedded C (bare-metal, Cortex-M4)",
+    "Linux",
+    "C/C++",
+    "Image/visual processing (OpenCV, YOLO, ZoeDepth)",
+    "Sensing devices (cameras, ToF, depth)",
+    "Firmware (STM32 bare-metal)",
+    "Robotics (ROS2, MoveIt, PWM servo control)"
+  ],
+  "adjacent_skills": [
+    "Wireless (Bluetooth HC-05/BLE, TCP/WebSocket)",
+    "Electro-mechanical control (multi-servo PWM, closed-loop feedback, visual servoing)",
+    "Automated metrics (benchmarking, pynvml/latency profiling)",
+    "RTOS (FreeRTOS keyword; real work is bare-metal)"
+  ],
+  "missing_skills": [
+    "IEC 61508 functional safety certification",
+    "Production-quality products at scale / big data",
+    "3+ years production embedded experience",
+    "Safety-critical systems ownership",
+    "Leading firmware teams (Mid-Senior)"
+  ],
+  "top_ats_keywords": [
+    "firmware",
+    "embedded",
+    "Linux",
+    "C",
+    "RTOS",
+    "image processing",
+    "cameras",
+    "lidars",
+    "robotics",
+    "safety systems",
+    "wireless",
+    "networking"
+  ],
+  "key_responsibilities": [
+    "Develop/maintain firmware for robotic fleet and safety systems",
+    "Master firmware components: cameras, WiFi, security, navigation, sensors",
+    "Lead teams of firmware developers on critical products",
+    "Best engineering practices, documentation, ownership"
+  ],
+  "role_category": "embedded_systems",
+  "verdicts": {
+    "matches": "Partial",
+    "apply": "Can Try"
+  },
+  "hard_blocker_triggered": false,
+  "sponsorship_flag": "ok (Amazon is a known H1B sponsor)",
+  "experience_flag": "mismatch (JD wants 3+ yrs production embedded, Mid-Senior; Justin has 0 FT years, internship/academic scope)",
+  "location_flag": "ok (Middlesex County MA, onsite; willing to relocate)",
+  "clearance_flag": "not required",
+  "llm_analysis": {
+    "llm_match_pct": 66,
+    "llm_verdict": "Partial Fit",
+    "strengths": [
+      "Bare-metal embedded C on Cortex-M4 (STM32 Temperature Monitor: timer-triggered ADC, interrupt-driven capture, low-level I2C driver; Object Tracking Turret: interrupt-driven UART + multi-servo PWM)",
+      "Image/visual processing + sensing devices, a core JD requirement (YOLO on Jetson, ZoeDepth depth estimation, OpenCV, ToF sensors)",
+      "Linux + robotics stack (ROS2, MoveIt, UR5e driver) matches the robotic-platform context"
+    ],
+    "real_gaps": [
+      "3+ years PRODUCTION embedded experience \u2014 Justin has 0 full-time years; all embedded work is internship/academic/hobby scale, not production firmware at fleet scale",
+      "IEC 61508 functional safety (or medical/automotive/avionic) certification \u2014 no exposure",
+      "Building solutions that SCALE / 'big data' \u2014 profile is research and single-device scope",
+      "Leading firmware teams \u2014 this is a Mid-Senior level II role expecting team leadership on critical products"
+    ],
+    "overstated_by_keywords": [
+      "RTOS/FreeRTOS \u2014 keyword matches, but the actual STM32 work is bare-metal, not RTOS-based; this is a known depth-probe weakness",
+      "'Firmware' at production quality \u2014 real work is bare-metal demos, not shipped firmware"
+    ],
+    "reasoning": "Keyword coverage is high because the JD's technical skill list (embedded C, Linux, image/visual processing, sensors, robotics) maps cleanly onto Justin's projects. But this is a Mid-Senior level II role gated on 3+ years of PRODUCTION embedded work, safety-critical certification, and team leadership \u2014 none of which the profile backs. His genuine depth is ML/CUDA/edge-AI, adjacent to but not the same as core safety-firmware ownership."
+  }
+}
