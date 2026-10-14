@@ -13,11 +13,18 @@ say the resume did not build, and stop. Never hand Justin a lone `.tex` as if it
 ## B0 — Resume cache check
 
 ```bash
-RESULT=$(python3 ~/.claude/skills/job-automator/scripts/resume_cache.py check $JOB_DIR/logs/fit.json); EXIT=$?
+python3 ~/.claude/skills/job-automator/scripts/resume_cache.py check $JOB_DIR/logs/fit.json; EXIT=$?; echo "CACHE_EXIT=$EXIT"
+if [ $EXIT -eq 1 ]; then   # CACHE_MISS: B1 runs in this same call
+  python3 ~/.claude/skills/job-automator/scripts/select_content.py $JOB_DIR/logs/fit.json --json \
+    > $JOB_DIR/logs/selection.json && cat $JOB_DIR/logs/selection.json
+fi
 ```
 `EXIT=0` (CACHE_HIT) → show the previous company/role, date, PDF and TEX paths, and the identical-keyword
 count, then offer `reuse` (copy PDF and TEX into `$JOB_DIR` with a new timestamp, skip B1–B4, go to B5) or
 `fresh` (continue to B1). `EXIT=1` (CACHE_MISS) → continue to B1.
+
+On CACHE_MISS that same call has already run B1's `select_content.py` and printed `selection.json`;
+don't run it again. After `fresh` on a hit, run B1's command from tailoring_prompt.md.
 
 The cache key is the sorted ATS keyword set **salted with a SHA-256 hash of `master_profile.json`**, so any
 profile edit invalidates every cached resume — without it, removing an undefendable claim would keep serving
@@ -38,8 +45,23 @@ reasoning, wait.
 ```bash
 python3 -c "import json,sys; open('$JOB_DIR/logs/tailored.json','w').write(
   json.dumps(json.loads(sys.argv[1]),indent=2))" '<tailored_json>'
-python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py $JOB_DIR/logs/tailored.json $JOB_DIR
+python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py $JOB_DIR/logs/tailored.json $JOB_DIR; GEN=$?; echo "GENERATE_EXIT=$GEN"
+if [ $GEN -eq 0 ]; then   # B4-VERIFY, then B4.5, in this same call
+  PDF=$(ls -t $JOB_DIR/resume_*.pdf 2>/dev/null | head -1)
+  if [ -z "$PDF" ] || [ ! -s "$PDF" ]; then
+    echo "NO PDF — resume did not build"
+  else
+    PAGES=$(pdfinfo "$PDF" | grep -i Pages); echo "$PAGES"     # must read "Pages: 1"
+    case "$PAGES" in *" 1")
+      python3 ~/.claude/skills/job-automator/scripts/verify_coverage.py $JOB_DIR/logs/fit.json $JOB_DIR/logs/tailored.json
+      echo "COVERAGE_EXIT=$?";;
+    esac
+  fi
+fi
 ```
+On exit 0 this one call also runs B4-VERIFY and, for a real single-page PDF, B4.5 — don't run them again.
+Their rules below still apply in full: paste the coverage output, FIXABLE vs CEILING.
+
 - Exit 0 → single page. Writes `resume_{ts}.pdf` and `main_{ts}.tex` into `$JOB_DIR`.
 - Exit 2 → overflow. Read `OVERFLOW_LINES=N` from stdout.
 - Exit 1 → **compile FAILED.** The script prints the pdflatex log tail to stderr and writes NO pdf. Do NOT

@@ -159,6 +159,18 @@ EXPECTED_TEXT_EDITS = [
              "**[workflow_b_tailoring.md](references/workflow_b_tailoring.md)**: the"),
      "new": "**B0 – B4 — cache check, tailor, generate.** Mechanics below: the",
      "why": "B0–B4 summary moved to the top of workflow_b_tailoring.md, so it points below, not at itself"},
+    {"file": "references/workflow_b_tailoring.md",
+     "old": '```bash\nRESULT=$(python3 ~/.claude/skills/job-automator/scripts/resume_cache.py check $JOB_DIR/logs/fit.json); EXIT=$?\n```\n',
+     "new": '```bash\npython3 ~/.claude/skills/job-automator/scripts/resume_cache.py check $JOB_DIR/logs/fit.json; EXIT=$?; echo "CACHE_EXIT=$EXIT"\nif [ $EXIT -eq 1 ]; then   # CACHE_MISS: B1 runs in this same call\n  python3 ~/.claude/skills/job-automator/scripts/select_content.py $JOB_DIR/logs/fit.json --json \\\n    > $JOB_DIR/logs/selection.json && cat $JOB_DIR/logs/selection.json\nfi\n```\n',
+     "why": "B0 runs B1's select_content.py in the same call on a cache miss and prints selection.json"},
+    {"file": "references/workflow_b_tailoring.md",
+     "old": '`fresh` (continue to B1). `EXIT=1` (CACHE_MISS) → continue to B1.\n',
+     "new": "`fresh` (continue to B1). `EXIT=1` (CACHE_MISS) → continue to B1.\n\nOn CACHE_MISS that same call has already run B1's `select_content.py` and printed `selection.json`;\ndon't run it again. After `fresh` on a hit, run B1's command from tailoring_prompt.md.\n",
+     "why": 'B0: says B1 already ran on a miss, and when to run it after `fresh`'},
+    {"file": "references/workflow_b_tailoring.md",
+     "old": 'python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py $JOB_DIR/logs/tailored.json $JOB_DIR\n```\n',
+     "new": 'python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py $JOB_DIR/logs/tailored.json $JOB_DIR; GEN=$?; echo "GENERATE_EXIT=$GEN"\nif [ $GEN -eq 0 ]; then   # B4-VERIFY, then B4.5, in this same call\n  PDF=$(ls -t $JOB_DIR/resume_*.pdf 2>/dev/null | head -1)\n  if [ -z "$PDF" ] || [ ! -s "$PDF" ]; then\n    echo "NO PDF — resume did not build"\n  else\n    PAGES=$(pdfinfo "$PDF" | grep -i Pages); echo "$PAGES"     # must read "Pages: 1"\n    case "$PAGES" in *" 1")\n      python3 ~/.claude/skills/job-automator/scripts/verify_coverage.py $JOB_DIR/logs/fit.json $JOB_DIR/logs/tailored.json\n      echo "COVERAGE_EXIT=$?";;\n    esac\n  fi\nfi\n```\nOn exit 0 this one call also runs B4-VERIFY and, for a real single-page PDF, B4.5 — don\'t run them again.\nTheir rules below still apply in full: paste the coverage output, FIXABLE vs CEILING.\n\n',
+     "why": 'B4 runs B4-VERIFY and, for a real single-page PDF, B4.5 in the same call'},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).

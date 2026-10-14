@@ -109,6 +109,8 @@ python3 ~/.claude/skills/job-automator/scripts/select_content.py \
         $JOB_DIR/logs/fit.json --json > $JOB_DIR/logs/selection.json
 ```
 
+On a cache miss, B0's command already ran this and printed `selection.json`; don't run it again.
+
 Returns the top experience entries and projects **ranked by canonical skill
 coverage** (`skills_db.json`), weighted by JD emphasis (required > ATS >
 preferred) and by how discriminative each skill is. Also returns:
