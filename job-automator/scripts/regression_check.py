@@ -135,6 +135,27 @@ EXPECTED_TEXT_EDITS = [
              " step's\n"
              "   first commands (for A: A0 and `print_refs.py fit`), so it costs no extra round trip.\n"),
      "why": "S1 runs in the same turn as the first step's commands instead of a turn of its own"},
+    {"file": "SKILL.md",
+     "old": '| "tailor" / "tailor my resume" | **B** on the current job | below |',
+     "new": ('| "tailor" / "tailor my resume" | **B** on the current job |'
+             ' B-GATE below, then `references/workflow_b_tailoring.md` |'),
+     "why": "B0–B5 text moved to workflow_b_tailoring.md; the routing table names it"},
+    {"file": "SKILL.md",
+     "old": "**Read the named file in full before acting on a C / D / F route.** A and B are inline below.",
+     "new": ("**Read the named file in full before acting on a B (after B-GATE) / C / D / F route.**"
+             " A and B-GATE are\ninline below."),
+     "why": "B joins the read-in-full routes; B-GATE itself stays inline"},
+    {"file": "SKILL.md",
+     "old": "Command in\n[workflow_b_tailoring.md](references/workflow_b_tailoring.md).\n",
+     "new": "Command above.\n",
+     "why": "B5 paragraph moved into workflow_b_tailoring.md, right after the command it names"},
+    {"file": "references/workflow_b_tailoring.md",
+     "old": ("Loaded during B, after B-GATE has cleared. The three rules that stay in SKILL.md itself — **B-GATE**,\n"
+             "**B4-VERIFY**, and **B4.5's FIXABLE vs CEILING** — are enforcement and are not repeated here.\n"),
+     "new": ("Loaded during B, after B-GATE has cleared. **B-GATE** stays in SKILL.md because it runs before this"
+             " file is\nread. **B4-VERIFY** and **B4.5's FIXABLE vs CEILING** moved here from SKILL.md word for"
+             " word; they are\nenforcement, not optional.\n"),
+     "why": "header note: B4-VERIFY and B4.5 now live in this file"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).

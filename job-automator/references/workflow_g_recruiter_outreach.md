@@ -66,6 +66,11 @@ banned phrases. Three differences, because this is a recruiter after an applicat
 
 Per the standing rule, never mention visa, OPT, EAD or sponsorship.
 
+**Portfolio link — every outreach message too.** Email and DM both close with the fixed sign-off `Best, /
+Justin Mascarenhas / justinmascarenhas.com`, which **replaces** the old LinkedIn URL. Root domain only in
+outreach: the `/embedded` and `/edge-ai` track pages belong to the resume and their hyphen breaks the no-dash
+body rule. Full rule: [outreach_rules.md § Substance](outreach_rules.md).
+
 ## G5 — Draft directly to Gmail, never send
 
 **Standing rule: "draft emails" means create the Gmail drafts directly — do not ask permission first.**

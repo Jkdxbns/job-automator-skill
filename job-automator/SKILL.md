@@ -34,7 +34,6 @@ backtests and audit history; read it only when changing a rule.
 argument the step does not show, run the script with `--help` (every script answers it, with no side effects)
 instead of opening its source.
 
-
 ---
 
 ## S1 — Session start sweep (runs BEFORE any routing)
@@ -70,7 +69,7 @@ Run exactly the step asked for, then stop.
 |---|---|---|
 | a pasted JD block (role + responsibilities/qualifications), **no verb** | **A** (default — never ask "what do you want?") | below |
 | "analyze" / "check fit" / "should I apply" / a job URL | A | below |
-| "tailor" / "tailor my resume" | **B** on the current job | below |
+| "tailor" / "tailor my resume" | **B** on the current job | B-GATE below, then `references/workflow_b_tailoring.md` |
 | "draft cold email" / "draft LinkedIn DM" / "draft outreach" | C | `references/workflow_c_outreach.md` |
 | "follow up with X" / "mark X sent" | C1.5 / C6.5 | `references/workflow_c_outreach.md` |
 | "mark submitted" / "submitted" / "done" | D | `references/workflow_d_submitted.md` |
@@ -78,7 +77,8 @@ Run exactly the step asked for, then stop.
 | "X replied" / "got an interview" / "rejected by X" / "offer from X" | F1 | `references/workflow_f_outcomes.md` |
 | "how's my funnel" / "what's converting" | F2 | `references/workflow_f_outcomes.md` |
 
-**Read the named file in full before acting on a C / D / F route.** A and B are inline below.
+**Read the named file in full before acting on a B (after B-GATE) / C / D / F route.** A and B-GATE are
+inline below.
 
 **Rules**
 - **Stop after the requested step. Never chain to the next unasked.** Standing preference; it overrides any
@@ -228,7 +228,6 @@ Set `production_scope_required = true` when the JD centres on owning a productio
 profile is capstone/research/internship scope, so that is a real gap even when keywords match. Reported, never
 scored.
 
-
 **A6 — Score + verdict + write fit.json (one script call).** A4's math, the verdict thresholds and the
 fit.json write are **one deterministic script**. They were once pseudocode the model re-executed by hand,
 which is how a role got recorded as `seniority_fit: "Mismatch"` *and* `apply: "Can Try"`. **Do not reimplement
@@ -372,54 +371,14 @@ the B1 pre-filter, B2 summary pick, the B3 prompt (in `tailoring_prompt.md`), an
 with its exit codes. **Exit 1 means the compile FAILED and no PDF was written — show the pdflatex log tail,
 say the resume did not build, and stop. Never hand Justin a lone `.tex` as if it were the deliverable.**
 
-**Portfolio link — every resume.** The header is `phone | email | portfolio | location`; LinkedIn is
-deliberately left off. `generate_pdf.py` picks the URL from `role_category`, printing `PORTFOLIO=<url>`:
-embedded/firmware/hardware roles get `justinmascarenhas.com/embedded`, every other role gets
-`justinmascarenhas.com/edge-ai`. Name the URL used when reporting the PDF in B5. Details and the one-job
-override: [resume_format.md § Header](references/resume_format.md).
+**After B-GATE clears, read [workflow_b_tailoring.md](references/workflow_b_tailoring.md) in full before
+acting.** It holds B0–B5: the cache check, tailoring, the PDF build, **B4-VERIFY** (a real, single-page PDF
+before anything is reported done), the overflow redraft, **B4.5** (paste the coverage report; FIXABLE vs
+CEILING) and the B5 report with the portfolio URL.
 
 ⚠️ **Never edit `master_profile.json` without Justin's explicit in-the-moment permission** — it is the source
 of truth for every tailored resume, so a silent edit propagates into live applications. Propose, state the
 reasoning, wait.
-
-**B4-VERIFY — assert the PDF exists before reporting done (mandatory).** Never trust the exit code alone:
-```bash
-PDF=$(ls -t $JOB_DIR/resume_*.pdf 2>/dev/null | head -1)
-if [ -z "$PDF" ] || [ ! -s "$PDF" ]; then
-  echo "NO PDF — resume did not build"
-else
-  pdfinfo "$PDF" | grep -i Pages     # must read "Pages: 1"
-fi
-```
-If no non-empty `resume_*.pdf` exists, the build failed regardless of what any earlier message implied — stop
-and say so. If `pdfinfo` reports more than one page, treat it as the exit-2 overflow path and redraft. Only a
-real, existing, single-page PDF may be reported as done in B5.
-
-**On overflow (exit 2)** — read `OVERFLOW_LINES=N` and shorten the tailored JSON with the redraft prompt in
-[tailoring_prompt.md](references/tailoring_prompt.md): longest bullets first, then the weakest bullet of the
-least-relevant entry, then the least-relevant project. **Never** cut the summary, skills, education, or a
-bullet carrying an ATS keyword. Max 2 attempts, then save as-is and warn.
-
-**B4.5 — Verify ATS keyword coverage (always run)**
-```bash
-python3 ~/.claude/skills/job-automator/scripts/verify_coverage.py $JOB_DIR/logs/fit.json $JOB_DIR/logs/tailored.json
-```
-Exit 0 = covered · 1 = gaps (expected and fine) · 2 = error. The B3 prompt *instructs* the model to mirror ATS
-keywords; nothing ever confirmed they landed. **Reproduce the output in your reply** (A7 hard rule — Bash
-output never reaches Justin). It splits what is missing into two very different things:
-
-- **🔧 FIXABLE** — the master profile backs this skill but *this* resume dropped it. Offer to surface it by
-  reordering or reselecting a bullet, or adding to skills. **Never invent a bullet — only surface what already
-  exists.**
-- **🚧 CEILING** — nothing in the master profile backs it. This is the honest ceiling for the role. **Do not
-  invent it, and do not quietly add it to skills.** Knowing this *before* applying is the point.
-
-If FIXABLE items exist, ask once whether to redraft. If only CEILING items remain, state the true coverage and
-move on — that is the realistic ATS score for this application.
-
-**B5 — Index + report.** Index for reuse (`resume_cache.py index`), then report the PDF and TEX paths, logs
-dir, reuse hash, top 5 ATS keywords injected, and `Pages: 1`. Command in
-[workflow_b_tailoring.md](references/workflow_b_tailoring.md).
 
 ## Sub-workflows C, D, F, G · hooks · errors
 
@@ -427,18 +386,6 @@ Each is one self-contained step. **Read its file (named in the routing table) in
 outranking those files: **never auto-send** outreach (email → Gmail draft, DM → pasted inline); a follow-up
 reminder only after Justin confirms it went out; **always** run `mark_submitted.py`, never hand-append a CSV
 row; **never infer an outcome**.
-
-**Portfolio link — every outreach message too.** Email and DM both close with the fixed sign-off `Best, /
-Justin Mascarenhas / justinmascarenhas.com`, which **replaces** the old LinkedIn URL. Root domain only in
-outreach: the `/embedded` and `/edge-ai` track pages belong to the resume and their hyphen breaks the no-dash
-body rule. Full rule: [outreach_rules.md § Substance](references/outreach_rules.md).
-
-**After D4 confirms a submission, offer Sub-workflow G — once, then stop.** Match ≥ 80 → 10 recruiter
-emails, 60–79 → 5, < 60 → do not offer. Ask *"Draft outreach for {company}? Match is {n}%, so that's {n}
-emails. Yes / No / a number."* — a number in the answer ("yes but 20") wins. Only on a yes does
-`hunt_contacts.py` run, and it refuses outright unless the role is already in the submitted log. Recruiters
-only, never a referral ask, drafts shown in the reply and **never sent**:
-[workflow_g_recruiter_outreach.md](references/workflow_g_recruiter_outreach.md).
 
 `protect_resumes.py`, `lint_skill_on_edit.py` and `gate_resume_build.py` (which makes B-GATE structural) are
 all wired in `~/.claude/hooks/`. Details, error table, output-file map and the `validate_skill.py` check:
