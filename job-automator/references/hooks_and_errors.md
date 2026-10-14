@@ -13,7 +13,7 @@ Two live hooks wired in `~/.claude/settings.json` apply here. Do not bypass them
   edited SKILL.md and injects the report on errors. Generic: it resolves the skill dir from the edited path,
   so it covers this skill automatically.
 
-A third hook, installed from this skill's `hooks/` dir and **wired** in settings.json:
+A third hook, kept in `~/.claude/hooks/` with the other two and **wired** in settings.json:
 **`~/.claude/hooks/gate_resume_build.py`** (PreToolUse/Bash) makes B-GATE structural — denies
 `generate_pdf.py` / `resume_cache.py index` when the resolved job's fit.json says `apply == "No"` and no
 `logs/.tailor_override` marker exists. A hard blocker is denied unconditionally, marker ignored. Fails open on

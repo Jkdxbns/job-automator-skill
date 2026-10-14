@@ -110,6 +110,10 @@ EXPECTED_TEXT_EDITS = [
      "new": ("**A1 — Load candidate keywords.** Load `references/keywords_only.json`"
              " (`print_refs.py fit` prints it), not the full profile"),
      "why": "A1: keywords_only.json now arrives via print_refs.py fit (same bytes, no Read gutter)"},
+    {"file": "references/hooks_and_errors.md",
+     "old": "A third hook, installed from this skill's `hooks/` dir and **wired** in settings.json:",
+     "new": "A third hook, kept in `~/.claude/hooks/` with the other two and **wired** in settings.json:",
+     "why": "the duplicate hook copies in job-automator/hooks/ were removed; claude/hooks/ is the one copy"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).
