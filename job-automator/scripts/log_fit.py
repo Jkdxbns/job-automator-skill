@@ -69,22 +69,9 @@ def row_from_fit(fit: dict, job_dir: str, when: str) -> dict:
     }
 
 
-def main() -> int:
-    args = sys.argv[1:]
-    log_path = DEFAULT_LOG
-    if "--log" in args:
-        i = args.index("--log")
-        try:
-            log_path = os.path.expanduser(args[i + 1])
-        except IndexError:
-            print("ERROR: --log needs a path", file=sys.stderr)
-            return 2
-        del args[i:i + 2]
-
-    if not args:
-        print(__doc__, file=sys.stderr)
-        return 2
-
+def log_fits(args: list, log_path: str = DEFAULT_LOG) -> int:
+    """Log every fit.json / job dir in args. Shared by main() and score_fit.py --log,
+    so the one-call A6 form writes and prints exactly what this CLI does."""
     log = load_log(log_path)
     by_dir = {r.get("job_dir"): i for i, r in enumerate(log) if r.get("job_dir")}
 
@@ -128,6 +115,25 @@ def main() -> int:
 
     print(f"\n{added} added, {updated} updated, {failed} failed — {len(log)} rows total")
     return 1 if failed else 0
+
+
+def main() -> int:
+    args = sys.argv[1:]
+    log_path = DEFAULT_LOG
+    if "--log" in args:
+        i = args.index("--log")
+        try:
+            log_path = os.path.expanduser(args[i + 1])
+        except IndexError:
+            print("ERROR: --log needs a path", file=sys.stderr)
+            return 2
+        del args[i:i + 2]
+
+    if not args:
+        print(__doc__, file=sys.stderr)
+        return 2
+
+    return log_fits(args, log_path)
 
 
 if __name__ == "__main__":

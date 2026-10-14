@@ -190,7 +190,7 @@ which is how a role got recorded as `seniority_fit: "Mismatch"` *and* `apply: "C
 any of it inline.** Build the payload from A3–A5 (shape in [fit_payload.md](references/fit_payload.md)) and
 run:
 ```bash
-python3 ~/.claude/skills/job-automator/scripts/score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR"
+python3 ~/.claude/skills/job-automator/scripts/score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR" --report --log
 ```
 It computes `match_pct`, `seniority_fit`, `experience_mismatch` and both verdicts, and writes
 `$JOB_DIR/logs/fit.json` atomically. Verdict logic, first match wins:
@@ -202,6 +202,11 @@ match_pct ≥ min_match_for_can_try         → MATCHES Partial, APPLY Can Try
 below min_match_for_can_try               → MATCHES No,      APPLY No
 ```
 Thresholds come from `references/candidate_context.md`.
+
+**`--report --log` (single role) fold A7 and A9 into this same call, but only once fit.json is final.** The
+script prints render_report.py's exact output between the `=== A7 REPORT` marker lines and writes the
+log_fit.py row. While `SEMANTIC    : REQUIRED` it does neither and says so; they run on the A6.5 merge
+instead. For a batch, leave both flags off and run A7 and A9 once each over every role's fit.json.
 
 **There is no semantic branch here, by construction** — `score_fit.py` has no code path from `llm_analysis` to
 `verdicts.apply`. The semantic read is merged into the existing fit.json (A6.5) — it never triggers a second
@@ -230,6 +235,10 @@ stay here because they are what went wrong before: **do not deflate `llm_match_p
 the B-GATE conversation, never the number.
 
 **A7 — Display report** — **runs AFTER A6 has written fit.json.**
+
+Single role: the `--report` flag on A6 or on the A6.5 merge has already run this renderer. Its stdout is the
+block between the `=== A7 REPORT` marker lines; that block is what you paste. Do not run render_report.py again
+for the same fit.json. Run the command below for a batch, or to re-render on request.
 
 > **HARD RULE — the report is script-rendered, then COPIED INTO YOUR REPLY.**
 > ```bash
@@ -268,6 +277,9 @@ python3 ~/.claude/skills/job-automator/scripts/log_fit.py $JOB_DIR/logs/fit.json
 **In BATCH mode pass every role's fit.json in one call** — each gets its own row. Idempotent per `job_dir` (a
 re-run updates, never duplicates) and atomic. Writes `~/job_search/fit_analysis_log.json`; F2's funnel reads
 it, so a skipped row is lost funnel data ([scoring_rationale.md §4](references/scoring_rationale.md)).
+
+Single role: the `--log` flag on A6 or on the A6.5 merge has already written this row (its `LOGGED` /
+`UPDATED` line). Run log_fit.py yourself only in batch mode, or when the flag was not used.
 
 Stop here unless this is part of a larger requested flow.
 

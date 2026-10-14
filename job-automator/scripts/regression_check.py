@@ -69,10 +69,17 @@ NEW = os.path.dirname(SCRIPTS)                      # job-automator/
 ROOT = os.path.dirname(NEW)                         # repo root
 PY = sys.executable or "python3"
 
-# Paragraphs of the OLD skill text that were deliberately edited rather than moved verbatim.
-# Key: the start of the old paragraph (whitespace-normalized). Value: why it changed.
-# Any old paragraph missing from the new text and NOT listed here fails the check.
-EXPECTED_TEXT_EDITS = {}
+# Every deliberate wording edit to the OLD skill text, as an exact substring replacement applied to
+# the old file before comparing paragraphs. So the check proves that nothing else in the paragraph
+# changed. Moved text needs no entry (it is found verbatim in its new file). An entry whose `old`
+# no longer occurs in the old file fails the check (stale), and so does any old paragraph still
+# missing after the replacements.
+EXPECTED_TEXT_EDITS = [
+    {"file": "SKILL.md",
+     "old": 'score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR"\n```\nIt computes',
+     "new": 'score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR" --report --log\n```\nIt computes',
+     "why": "A6 command gains --report --log: A7 + A9 run in the same call once fit.json is final"},
+]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).
 EMPLOIVE_RES = {
@@ -297,27 +304,24 @@ def text_corpus(skill_dir):
 
 
 def check_text(old_dir):
-    """Every old paragraph must survive verbatim somewhere in the new skill text."""
+    """Every old paragraph must survive verbatim somewhere in the new skill text, after applying
+    only the substitutions listed in EXPECTED_TEXT_EDITS."""
     old = text_corpus(old_dir)
     new = text_corpus(NEW)
+    applied, stale = [], []
+    for e in EXPECTED_TEXT_EDITS:
+        if e["file"] in old and e["old"] in old[e["file"]]:
+            old[e["file"]] = old[e["file"]].replace(e["old"], e["new"])
+            applied.append(e)
+        else:
+            stale.append(e)
     new_blob = "\n\x00\n".join(norm_para(p) for t in new.values() for p in paragraphs(t))
     old_blob = "\n\x00\n".join(norm_para(p) for t in old.values() for p in paragraphs(t))
-    missing, expected, used = [], [], set()
-    for f, t in old.items():
-        for p in paragraphs(t):
-            n = norm_para(p)
-            if n in new_blob:
-                continue
-            key = next((k for k in EXPECTED_TEXT_EDITS if n.startswith(k)), None)
-            if key:
-                expected.append((f, key, EXPECTED_TEXT_EDITS[key]))
-                used.add(key)
-            else:
-                missing.append((f, n[:160]))
+    missing = [(f, norm_para(p)[:160]) for f, t in old.items() for p in paragraphs(t)
+               if norm_para(p) not in new_blob]
     added = [(f, norm_para(p)[:160]) for f, t in new.items() for p in paragraphs(t)
              if norm_para(p) not in old_blob]
-    stale = sorted(set(EXPECTED_TEXT_EDITS) - used)
-    return missing, expected, added, stale
+    return missing, applied, added, stale
 
 
 def check_print_refs():
@@ -469,15 +473,16 @@ def main():
             print(f"print_refs: {checked} files compared byte-for-byte")
             failures += [f"[print_refs] {p}" for p in pr_problems]
 
-        missing, expected, added, stale = check_text(old_code)
-        print(f"skill text: {len(missing)} old paragraphs missing · {len(expected)} expected edits · "
+        missing, applied, added, stale = check_text(old_code)
+        print(f"skill text: {len(missing)} old paragraphs missing · {len(applied)} listed wording edits · "
               f"{len(added)} new paragraphs")
-        for f_, key, why in expected:
-            print(f"   edited  {f_}: \"{key[:70]}…\" — {why}")
+        for e in applied:
+            print(f"   edited  {e['file']}: {e['why']}")
         for f_, p in added:
             print(f"   added   {f_}: {p[:110]}")
-        for k in stale:
-            failures.append(f"[text] EXPECTED_TEXT_EDITS entry no longer matches anything: {k[:80]}")
+        for e in stale:
+            failures.append(f"[text] EXPECTED_TEXT_EDITS entry not found in old {e['file']}: "
+                            f"{e['old'][:80]!r}")
         for f_, p in missing:
             failures.append(f"[text] {f_}: old paragraph missing from the new skill text:\n   {p}")
 

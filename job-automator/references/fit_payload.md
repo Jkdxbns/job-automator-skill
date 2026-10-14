@@ -86,6 +86,9 @@ JSON
 python3 ~/.claude/skills/job-automator/scripts/score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR"
 ```
 
+Single role in the main session: SKILL.md A6 runs this with `--report --log` appended. Batch and delegate runs
+keep the command exactly as written above.
+
 - `have` / `missing` are lists of strings. `adjacent` accepts either `{"jd_skill": ..., "you_have": ...}`
   dicts (preferred — the report renders the arrow) or plain `"JAX -> PyTorch"` strings.
 - `hard_blocker.reason` is the exact matched phrase plus its category (ITAR / Clearance / Citizenship / No Sponsorship). `flags.no_sponsorship = true` (explicit refusal) is promoted to a hard blocker by the script — it is not a soft flag.
