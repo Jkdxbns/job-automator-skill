@@ -467,6 +467,93 @@ def check_help():
     return ran, static, problems
 
 
+GATE_HOOK = os.path.join(ROOT, "claude", "hooks", "gate_resume_build.py")
+GEN = "python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py"
+
+
+def gate_cases(d):
+    """(label, command, hook-input extras, expected decision) for the B-GATE hook.
+    d maps: no (APPLY No, no marker), ovr (APPLY No + .tailor_override), yes (APPLY Yes),
+    blk (HARD BLOCK + a marker, which must be ignored)."""
+    no, ovr, yes, blk = d["no"], d["ovr"], d["yes"], d["blk"]
+    write = ("python3 -c \"import json,sys; open('$JOB_DIR/logs/tailored.json','w').write(\n"
+             "  json.dumps(json.loads(sys.argv[1]),indent=2))\" '{\"a\": 1}'\n")
+    chain = (f"export JOB_DIR={no}\n{write}{GEN} $JOB_DIR/logs/tailored.json $JOB_DIR; GEN=$?;"
+             " echo \"GENERATE_EXIT=$GEN\"\nif [ $GEN -eq 0 ]; then\n  PDF=$(ls -t $JOB_DIR/resume_*.pdf | head -1)\n"
+             "  pdfinfo \"$PDF\" | grep -i Pages\nfi\n")
+    return [
+        ("generate, absolute paths", f"{GEN} {no}/logs/tailored.json {no}", {}, "deny"),
+        ("documented B4 block: write, then generate on the next line",
+         write.replace("$JOB_DIR", no) + f"{GEN} {no}/logs/tailored.json {no}", {}, "deny"),
+        ("write; generate on one line", f"python3 -c \"print(1)\" '{{\"a\":1}}'; {GEN} {no}/logs/tailored.json {no}",
+         {}, "deny"),
+        ("export JOB_DIR=… && generate $JOB_DIR", f"export JOB_DIR={no} && {GEN} $JOB_DIR/logs/tailored.json $JOB_DIR",
+         {}, "deny"),
+        ("B4 chain with if/then", chain, {}, "deny"),
+        ("if/then wrapper", f"if true; then {GEN} {no}/logs/tailored.json {no}; fi", {}, "deny"),
+        ("bash -c payload", f"bash -c \"{GEN} {no}/logs/tailored.json {no}\"", {}, "deny"),
+        ("resume_cache index with line continuation",
+         f"python3 ~/.claude/skills/job-automator/scripts/resume_cache.py index {no}/logs/fit.json {no} \\\n"
+         f"  {no}/resume_1.pdf {no}/main_1.tex", {}, "deny"),
+        ("relative paths, session cwd = job dir", f"{GEN} logs/tailored.json .", {"cwd": no}, "deny"),
+        ("$JOB_DIR set only in an earlier Bash call (transcript)", f"{GEN} $JOB_DIR/logs/tailored.json $JOB_DIR",
+         {"transcript": no}, "deny"),
+        ("HARD BLOCK ignores the override marker", f"{GEN} {blk}/logs/tailored.json {blk}", {}, "deny"),
+        ("APPLY Yes", f"{GEN} {yes}/logs/tailored.json {yes}", {}, "allow"),
+        ("APPLY Yes, B4 chain", chain.replace(no, yes), {}, "allow"),
+        ("APPLY No + Tailor-anyway marker", f"{GEN} {ovr}/logs/tailored.json {ovr}", {}, "allow"),
+        ("grep that names the script", "grep -rn generate_pdf.py .", {"cwd": no}, "allow"),
+        ("echo that names the script", f"echo \"next: {GEN} {no}/logs/tailored.json {no}\"", {}, "allow"),
+        ("heredoc that quotes the build", f"cat <<'EOF'\n{GEN} {no}/logs/tailored.json {no}\nEOF", {}, "allow"),
+        ("comment that names the build", f"ls {no}  # then {GEN} {no}/logs/tailored.json {no}", {}, "allow"),
+        ("resume_cache check (not index)",
+         f"python3 ~/.claude/skills/job-automator/scripts/resume_cache.py check {no}/logs/fit.json", {}, "allow"),
+        ("A6.5 heredoc + merge", f"cat > {no}/logs/semantic.json <<'JSON'\n{{\"llm_match_pct\": 50}}\nJSON\n"
+         f"python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic {no}/logs/semantic.json"
+         f" --job-dir {no} --report --log", {}, "allow"),
+    ]
+
+
+def check_gate_hook(old_hook, tmp):
+    """New hook must match every expected decision; it must also allow everything
+    expected-allow that the old hook allowed (no new false denials)."""
+    base = os.path.join(tmp, "gate")
+    d = {}
+    for key, apply_v, marker in (("no", "No", False), ("ovr", "No", True), ("yes", "Yes", False),
+                                 ("blk", "HARD BLOCK", True)):
+        jd = os.path.join(base, key)
+        os.makedirs(os.path.join(jd, "logs"), exist_ok=True)
+        json.dump({"company": "X", "role": key, "match_pct": 50,
+                   "verdicts": {"apply": apply_v, "hard_blocker_triggered": key == "blk",
+                                "hard_blocker_reason": "ITAR" if key == "blk" else None}},
+                  open(os.path.join(jd, "logs", "fit.json"), "w"))
+        if marker:
+            open(os.path.join(jd, "logs", ".tailor_override"), "w").close()
+        d[key] = jd
+    rows, problems = [], []
+    env = {k: v for k, v in os.environ.items() if k != "JOB_DIR"}
+    for label, cmd, extra, want in gate_cases(d):
+        inp = {"tool_name": "Bash", "tool_input": {"command": cmd}, "cwd": extra.get("cwd", tmp)}
+        if "transcript" in extra:
+            tp = os.path.join(base, "transcript.jsonl")
+            rec = {"type": "assistant", "message": {"content": [
+                {"type": "tool_use", "name": "Bash",
+                 "input": {"command": f"export JOB_DIR={extra['transcript']} && mkdir -p $JOB_DIR/logs"}}]}}
+            open(tp, "w").write(json.dumps(rec) + "\n")
+            inp["transcript_path"] = tp
+        got = {}
+        for side, hook in (("old", old_hook), ("new", GATE_HOOK)):
+            p = subprocess.run([PY, hook], input=json.dumps(inp), capture_output=True, text=True,
+                               env=env, cwd=tmp)
+            got[side] = "deny" if '"deny"' in p.stdout else "allow"
+        rows.append((label, got["old"], got["new"], want))
+        if got["new"] != want:
+            problems.append(f"{label}: new hook says {got['new']}, expected {want}")
+        if want == "allow" and got["old"] == "allow" and got["new"] != "allow":
+            problems.append(f"{label}: newly denied")
+    return rows, problems
+
+
 def build_postings(items):
     posts = []
     for i, it in enumerate(items):
@@ -618,6 +705,22 @@ def main():
                 failures.append("[prefilter] shortlist / scores / seniority flags changed")
             if pf["comment_phrases"]:
                 failures.append(f"[prefilter] comment text parsed as phrases: {pf['comment_phrases'][:5]}")
+
+        old_hook = os.path.join(tmp, "old_gate_resume_build.py")
+        try:
+            src = subprocess.run(["git", "-C", ROOT, "show", f"{a.base}:claude/hooks/gate_resume_build.py"],
+                                 capture_output=True, check=True).stdout
+            open(old_hook, "wb").write(src)
+        except (subprocess.CalledProcessError, OSError):
+            old_hook = GATE_HOOK
+        rows, gate_problems = check_gate_hook(old_hook, tmp)
+        closed = sum(1 for _, o, n, w in rows if o != w and n == w)
+        print(f"gate hook : {len(rows)} commands · {sum(1 for r in rows if r[2] == r[3])} as expected · "
+              f"{closed} gap(s) the old hook let through now closed")
+        for label, o, n, w in rows:
+            if o != n:
+                print(f"   {label}: old {o} → new {n} (expected {w})")
+        failures += [f"[gate hook] {p}" for p in gate_problems]
 
         ran, static, help_problems = check_help()
         print(f"--help    : {ran} scripts run with --help, {static} checked statically (never run), "
