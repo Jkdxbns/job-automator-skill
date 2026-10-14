@@ -66,6 +66,7 @@ PAYLOAD SHAPE (the model produces this; every key optional except jd/have/...)
 
 EXIT CODES
   0 — scored and written
+  1 — --log could not log the row (log_fit.py's own exit 1)
   2 — bad input / unwritable job dir
 """
 

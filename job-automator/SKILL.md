@@ -107,8 +107,8 @@ Inputs: job URL or pasted JD text · `references/candidate_context.md` · `refer
 **A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** The commands are below.
 **[fit_payload.md](references/fit_payload.md)** holds the A3 `jd` schema and the A6 payload.
 
-**First A turn, as parallel calls:** S1, A0, and
-`python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit`, which prints `fit_payload.md`,
+**First A turn, as parallel calls:** S1, and ONE Bash call that runs A0's two cache builds and then
+`python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit` (after them, so the keywords are fresh), which prints `fit_payload.md`,
 `keywords_only.json` and `candidate_context.md` verbatim (no Read line numbers). Read any file it lists as
 NOT PRINTED.
 
@@ -281,8 +281,8 @@ the B-GATE conversation, never the number.
 
 **A7 — Display report** — **runs AFTER A6 has written fit.json.**
 
-Single role: `--report` already ran this renderer; paste the block between the `=== A7 REPORT` markers and
-don't re-run it. The command below is for a batch or a re-render.
+Single role: if the output shows the `=== A7 REPORT` markers, `--report` already ran this renderer; paste that
+block and don't re-run it. Otherwise (batch, re-render, or a call without the flag) run the command below.
 
 > **HARD RULE — the report is script-rendered, then COPIED INTO YOUR REPLY.**
 > ```bash
@@ -322,7 +322,7 @@ python3 ~/.claude/skills/job-automator/scripts/log_fit.py $JOB_DIR/logs/fit.json
 re-run updates, never duplicates) and atomic. Writes `~/job_search/fit_analysis_log.json`; F2's funnel reads
 it, so a skipped row is lost funnel data ([scoring_rationale.md §4](references/scoring_rationale.md)).
 
-Single role: `--log` already wrote this row (`LOGGED`/`UPDATED`); don't re-run it.
+Single role: if the output shows a `LOGGED`/`UPDATED` line, `--log` already wrote this row; otherwise run it.
 
 Stop here unless this is part of a larger requested flow.
 
@@ -356,7 +356,7 @@ verdict**, not the semantic read.
 - No `llm_analysis` though `match_pct` cleared the trigger → the semantic read should have run; offer it
   first.
 
-`hooks/gate_resume_build.py` enforces this at the Bash layer too, so a forgotten check is denied rather than
+`~/.claude/hooks/gate_resume_build.py` enforces this at the Bash layer too, so a forgotten check is denied rather than
 silently tailoring a rejected role.
 
 **After B-GATE clears, read [workflow_b_tailoring.md](references/workflow_b_tailoring.md) in full before

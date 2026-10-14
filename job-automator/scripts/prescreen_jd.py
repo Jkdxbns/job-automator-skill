@@ -82,7 +82,13 @@ def _load():
         return json.load(f)
 
 
-_DATA = _load()
+try:
+    _DATA = _load()
+except (OSError, ValueError) as _e:
+    if __name__ == "__main__":
+        print(f"ERROR: cannot load {BLOCKERS_PATH}: {_e}", file=sys.stderr)
+        sys.exit(2)   # never 1: 1 means BLOCK
+    raise
 EU_UK_HINTS = list(_DATA["eu_uk_hints"])
 US_HINTS = list(_DATA["us_hints"])
 # Patterns skipped when the posting is EU/UK. Must match HARD_BLOCKERS verbatim.

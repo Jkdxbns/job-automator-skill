@@ -54,8 +54,8 @@ JSON
 python3 ~/.claude/skills/job-automator/scripts/score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR"
 ```
 
-Single role in the main session: SKILL.md A6 runs this with `--report --log` appended. Batch and delegate runs
-keep the command exactly as written above.
+Single role in the main session: SKILL.md A6 runs this, and the A6.5 `--add-semantic` merge, with `--report --log`
+appended. Batch and delegate runs keep the commands exactly as written.
 
 - `have` / `missing` are lists of strings. `adjacent` accepts either `{"jd_skill": ..., "you_have": ...}`
   dicts (preferred — the report renders the arrow) or plain `"JAX -> PyTorch"` strings.
