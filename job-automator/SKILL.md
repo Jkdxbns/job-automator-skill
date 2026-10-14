@@ -223,8 +223,9 @@ scoring run. Never hand-edit fit.json.
 >    a prose opinion. Pasted JD text and URLs alike.
 > 4. **REQUIRED not printed (match < 60, or hard blocker) → the semantic read MUST NOT be run.** Never run it
 >    "to be thorough".
-> 5. Save the read as JSON and merge it — **never re-run scoring** and never rebuild the payload:
->    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic <semantic.json> --job-dir "$JOB_DIR"`
+> 5. Save the read as JSON and merge it — **never re-run scoring** and never rebuild the payload. Both in ONE
+>    Bash call: `cat > "$JOB_DIR/logs/semantic.json" <<'JSON'` … the read … `JSON`, then on the next line
+>    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic "$JOB_DIR/logs/semantic.json" --job-dir "$JOB_DIR" --report --log`
 > 6. Render A7 **only after** that merge (or immediately, if the read was not required). Never render A7 while
 >    `semantic_pending` is true.
 

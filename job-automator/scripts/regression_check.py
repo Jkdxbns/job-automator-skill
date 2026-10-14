@@ -79,6 +79,30 @@ EXPECTED_TEXT_EDITS = [
      "old": 'score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR"\n```\nIt computes',
      "new": 'score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR" --report --log\n```\nIt computes',
      "why": "A6 command gains --report --log: A7 + A9 run in the same call once fit.json is final"},
+    {"file": "SKILL.md",
+     "old": ("never rebuild the payload:\n"
+             ">    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic <semantic.json>"
+             " --job-dir \"$JOB_DIR\"`\n"),
+     "new": ("never rebuild the payload. Both in ONE\n"
+             ">    Bash call: `cat > \"$JOB_DIR/logs/semantic.json\" <<'JSON'` … the read … `JSON`, then on the"
+             " next line\n"
+             ">    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic"
+             " \"$JOB_DIR/logs/semantic.json\" --job-dir \"$JOB_DIR\" --report --log`\n"),
+     "why": "A6.5 rule 5: write the read and merge it in one Bash call, with --report --log"},
+    {"file": "references/semantic_read.md",
+     "old": ("**do not re-run scoring**:\n"
+             "`python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic <semantic.json>"
+             " --job-dir \"$JOB_DIR\"`.\n"),
+     "new": ("**do not re-run scoring**. One Bash\n"
+             "call does both, and with `--report --log` it also prints the A7 report and writes the A9 log row:\n"
+             "```bash\n"
+             "cat > \"$JOB_DIR/logs/semantic.json\" <<'JSON'\n"
+             "{ \"llm_match_pct\": 0, \"llm_verdict\": \"...\", \"...\": \"the full read, shape above\" }\n"
+             "JSON\n"
+             "python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic"
+             " \"$JOB_DIR/logs/semantic.json\" --job-dir \"$JOB_DIR\" --report --log\n"
+             "```\n"),
+     "why": "A6.5 hand-back: same one-call write + merge (+ A7/A9) as SKILL.md rule 5"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).
