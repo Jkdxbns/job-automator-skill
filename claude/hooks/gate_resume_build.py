@@ -61,8 +61,8 @@ marker is ignored in that case, matching the HARD BLOCKER RULE.
 
 WIRING (live in ~/.claude/settings.json under PreToolUse/Bash, alongside
 protect_resumes.py). This is the only copy: the byte-identical duplicate that
-used to sit in ~/.claude/skills/job-automator/hooks/ was removed so the two
-cannot drift. In the repo it lives at claude/hooks/.
+used to sit in the skill's own hooks dir was removed so the two cannot
+drift. In the repo it lives at claude/hooks/.
 
     {
       "type": "command",

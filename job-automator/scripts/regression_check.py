@@ -599,6 +599,65 @@ def check_blockers(old_code, items, tmp):
     return len(texts), blocked, problems
 
 
+# Local install path -> repo path (README "Repo path -> local path" table).
+PATH_MAP = [
+    ("~/.claude/skills/job-automator/", "job-automator/"),
+    ("~/.claude/skills/emploive-analysis/", "skills/emploive-analysis/"),
+    ("~/.claude/skills/batch-delegate/", "skills/batch-delegate/"),
+    ("~/.claude/hooks/", "claude/hooks/"),
+    ("~/.claude/settings.json", "claude/settings.json"),
+    ("~/.claude/CLAUDE.md", "claude/CLAUDE.md"),
+    ("~/job_search/", "job_search/"),
+]
+PATH_RE = re.compile(r"~/(?:\.claude|job_search)[A-Za-z0-9_./-]*")
+PATH_SOURCES = ["job-automator/SKILL.md", "job-automator/references/*.md", "job-automator/scripts/*.py",
+                "skills/*/SKILL.md", "skills/*/scripts/*", "skills/*/references/*.md", "claude/hooks/*.py",
+                "claude/settings.json", "claude/CLAUDE.md", "README.md", "sync.sh"]
+
+
+def local_paths(read_file, list_files):
+    """Every concrete ~/.claude/... or ~/job_search/... path the skill text and code mention,
+    mapped to its repo path. Placeholders (<...>, $VAR, *) are skipped."""
+    found = {}
+    for pat in PATH_SOURCES:
+        for f in list_files(pat):
+            for p in PATH_RE.findall(read_file(f) or ""):
+                p = p.rstrip(".,)`'\"")
+                for local, repo in PATH_MAP:
+                    if p == local.rstrip("/") or p.startswith(local):
+                        found.setdefault(repo + p[len(local):] if p.startswith(local) else repo.rstrip("/"),
+                                         set()).add(f)
+                        break
+    return found
+
+
+def check_paths(base):
+    """Every local path mentioned on `base` that existed in the repo must still exist, and every
+    path the new text mentions must exist too (so nothing a local run calls can be missing)."""
+    def git_ls(pat):
+        out = subprocess.run(["git", "-C", ROOT, "ls-tree", "-r", "--name-only", base],
+                             capture_output=True, text=True).stdout.split()
+        import fnmatch
+        return [f for f in out if fnmatch.fnmatch(f, pat)]
+    git_files = set(subprocess.run(["git", "-C", ROOT, "ls-tree", "-r", "--name-only", base],
+                                   capture_output=True, text=True).stdout.split())
+    git_dirs = {os.path.dirname(f) for f in git_files} | {d.rsplit("/", i)[0] for f in git_files
+                                                          for d in [f] for i in range(1, f.count("/") + 1)}
+    old = local_paths(lambda f: subprocess.run(["git", "-C", ROOT, "show", f"{base}:{f}"],
+                                               capture_output=True, text=True).stdout, git_ls)
+    new = local_paths(lambda f: open(os.path.join(ROOT, f), encoding="utf-8", errors="replace").read(),
+                      lambda pat: sorted(os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, pat))
+                                         if os.path.isfile(p)))
+    exists_old = lambda p: p.rstrip("/") in git_files or p.rstrip("/") in git_dirs
+    exists_new = lambda p: os.path.exists(os.path.join(ROOT, p))
+    problems = [f"{p} (mentioned on {base}, existed there) is gone" for p in sorted(old)
+                if exists_old(p) and not exists_new(p) and p in new]
+    problems += [f"{p} is mentioned in {sorted(new[p])[0]} but does not exist" for p in sorted(new)
+                 if not exists_new(p) and not (p in old and not exists_old(p))]
+    preexisting = sorted(p for p in new if not exists_new(p) and p in old and not exists_old(p))
+    return len(new), problems, preexisting
+
+
 GATE_HOOK = os.path.join(ROOT, "claude", "hooks", "gate_resume_build.py")
 GEN = "python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py"
 
@@ -743,6 +802,10 @@ def main():
     ap.add_argument("--keep", action="store_true", help="keep the temp dir")
     a = ap.parse_args()
 
+    if not os.path.isdir(os.path.join(ROOT, "jobs")) or not (a.old or os.path.exists(os.path.join(ROOT, ".git"))):
+        print(f"ERROR: run this from the job-automator-skill repo clone (it needs jobs/ for fixtures and git "
+              f"for the old code), not from the installed skill. Looked in {ROOT}.", file=sys.stderr)
+        return 2
     tmp = tempfile.mkdtemp(prefix="ja_regress_")
     try:
         old_code = os.path.abspath(a.old) if a.old else extract_old(a.base, os.path.join(tmp, "old_src"))
@@ -837,6 +900,13 @@ def main():
                 failures.append("[prefilter] shortlist / scores / seniority flags changed")
             if pf["comment_phrases"]:
                 failures.append(f"[prefilter] comment text parsed as phrases: {pf['comment_phrases'][:5]}")
+
+        n_paths, path_problems, preexisting = check_paths(a.base)
+        print(f"paths     : {n_paths} local paths (~/.claude/..., ~/job_search/...) mentioned, "
+              f"{len(path_problems)} broken by this branch"
+              + (f" · {len(preexisting)} already missing on {a.base}: {', '.join(preexisting)}"
+                 if preexisting else ""))
+        failures += [f"[paths] {p}" for p in path_problems]
 
         n_texts, n_blocked, blk_problems = check_blockers(old_code, items, tmp)
         print(f"blockers  : {n_texts} texts × 3 region modes scanned old vs new ({n_blocked} block) · "
