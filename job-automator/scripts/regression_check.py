@@ -198,7 +198,10 @@ def extract_old(base, dest):
         sys.exit(f"ERROR: cannot extract old code from git ref '{base}': "
                  f"{err.decode(errors='replace').strip() or e}")
     with tarfile.open(fileobj=io.BytesIO(tar)) as t:
-        t.extractall(dest, filter="data")
+        try:
+            t.extractall(dest, filter="data")
+        except TypeError:          # Python < 3.11.4 has no extraction filters
+            t.extractall(dest)
     return os.path.join(dest, "job-automator")
 
 
