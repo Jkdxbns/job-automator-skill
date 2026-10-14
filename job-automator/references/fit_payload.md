@@ -16,7 +16,7 @@ mkdir -p ${JOB_DIR}/logs
 `$JOB_DIR` is an exported env var, available to every later bash/Python step. Parallel sessions each get their
 own — separate shell processes.
 
-**A1 — Load candidate keywords.** Read `references/keywords_only.json`, not the full profile — A only needs
+**A1 — Load candidate keywords.** Load `references/keywords_only.json` (`print_refs.py fit` prints it), not the full profile — A only needs
 keywords. `profile.all_keywords` feeds A4; `master_profile.json` is loaded only in B and A6.5.
 
 **A2 — Get JD text.** `python3 ~/.claude/skills/job-automator/scripts/scrape_jd.py "<url>"` — exit 2 or 3 →

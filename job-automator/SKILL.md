@@ -105,6 +105,12 @@ Inputs: job URL or pasted JD text · `references/candidate_context.md` · `refer
 **[fit_payload.md](references/fit_payload.md)**: `build_keywords.py`, `build_skills_db.py`, `$JOB_CWD`/`$JOB_DIR`,
 `keywords_only.json`, `skills_db.json`, `scrape_jd.py`, `prescreen_jd.py`.
 
+**Reference files: print them in one call instead of Reading them one by one.**
+`python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit` prints `fit_payload.md`, `keywords_only.json`
+and `candidate_context.md` exactly as they are on disk, without the Read tool's line numbers. A6.5 uses
+`print_refs.py semantic` for `semantic_read.md` and the full `master_profile.json`. Read any file it lists as
+NOT PRINTED. Edit needs a prior Read, so Read `candidate_context.md` before appending a wording to it in A5.
+
 **Skill vocabulary is centralised.** `scripts/skill_match.py` is the ONE place that answers "does Justin
 have this JD skill?" — `score_fit.py` (req_cov), `select_content.py` (B1 ranking) and `verify_coverage.py`
 all call it. It resolves JD prose ("microcontrollers", "version control (Git)") to canonical skills and
@@ -228,6 +234,9 @@ scoring run. Never hand-edit fit.json.
 >    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic "$JOB_DIR/logs/semantic.json" --job-dir "$JOB_DIR" --report --log`
 > 6. Render A7 **only after** that merge (or immediately, if the read was not required). Never render A7 while
 >    `semantic_pending` is true.
+
+Inputs for the read, in one call: `python3 ~/.claude/skills/job-automator/scripts/print_refs.py semantic`
+prints `semantic_read.md` and the FULL `master_profile.json`, verbatim.
 
 Procedure, anchors and output shape: **[semantic_read.md](references/semantic_read.md)**, read before
 writing the read. Two constraints

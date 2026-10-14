@@ -103,6 +103,11 @@ EXPECTED_TEXT_EDITS = [
              " \"$JOB_DIR/logs/semantic.json\" --job-dir \"$JOB_DIR\" --report --log\n"
              "```\n"),
      "why": "A6.5 hand-back: same one-call write + merge (+ A7/A9) as SKILL.md rule 5"},
+    {"file": "references/fit_payload.md",
+     "old": "**A1 — Load candidate keywords.** Read `references/keywords_only.json`, not the full profile",
+     "new": ("**A1 — Load candidate keywords.** Load `references/keywords_only.json`"
+             " (`print_refs.py fit` prints it), not the full profile"),
+     "why": "A1: keywords_only.json now arrives via print_refs.py fit (same bytes, no Read gutter)"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).
