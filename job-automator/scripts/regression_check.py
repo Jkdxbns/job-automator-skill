@@ -534,24 +534,28 @@ def check_blockers(old_code, items, tmp):
     problems = []
     old = load_module(os.path.join(old_code, "scripts", "prescreen_jd.py"), "old_prescreen")
     new = load_module(os.path.join(SCRIPTS, "prescreen_jd.py"), "new_prescreen")
-    for attr in ("HARD_BLOCKERS", "EU_UK_HINTS", "US_HINTS", "RELAXED_IN_EU_UK"):
-        o, n = getattr(old, attr), getattr(new, attr)
-        if o != n or (isinstance(o, dict) and list(o) != list(n)):
+    for attr in ("EU_UK_HINTS", "US_HINTS", "RELAXED_IN_EU_UK"):
+        if getattr(old, attr) != getattr(new, attr):
             problems.append(f"{attr} differs between old and new")
+    # Patterns may only be APPENDED (prescreen_jd.py add): every old list must be a prefix of the new one.
+    if list(old.HARD_BLOCKERS) != list(new.HARD_BLOCKERS) or any(
+            new.HARD_BLOCKERS[c][:len(v)] != v for c, v in old.HARD_BLOCKERS.items()):
+        problems.append("HARD_BLOCKERS: an existing pattern was changed, removed or reordered")
+    added = {p for c, v in new.HARD_BLOCKERS.items() for p in v[len(old.HARD_BLOCKERS.get(c, [])):]}
     context = open(os.path.join(NEW, "references", "candidate_context.md"), encoding="utf-8").read()
     texts = blocker_corpus(items, context)
     blocked = 0
     for t in texts:
         for region in (None, "us", "eu_uk"):
             o, n = old.scan(t, region), new.scan(t, region)
-            if o != n:
+            if o != n and not (o[0] is None and n[1] in added):   # newly caught by an added pattern: expected
                 problems.append(f"scan differs (region={region}): {t[:80]!r}: {o} != {n}")
             blocked += bool(n[0]) and region is None
     cli_texts = texts[-40:] + ["", "   "]
     for t in cli_texts:
         o = run([PY, os.path.join(old_code, "scripts", "prescreen_jd.py")] + ([t] if t.strip() else []))
         n = run([PY, os.path.join(SCRIPTS, "prescreen_jd.py")] + ([t] if t.strip() else []))
-        if o != n:
+        if o != n and not (o[0] == 0 and new.scan(t)[1] in added):
             problems.append(f"CLI output differs for {t[:60]!r}")
 
     # add — on a copy, never on the real references

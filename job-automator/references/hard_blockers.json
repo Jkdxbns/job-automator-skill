@@ -169,6 +169,22 @@
       {
         "regex": "\\bu\\.?s\\.?\\s+citizenship\\s+with\\s+ability\\s+to\\s+(?:successfully\\s+)?complete\\s+a\\s+federal\\s+background\\s+investigation\\b",
         "note": "Caught live: Niyam IT \"US Citizenship with ability to successfully complete a federal background investigation.\" — bare noun-phrase bullet, no \"requires\"/\"must be\" verb."
+      },
+      {
+        "regex": "\\bu\\.?s\\.?\\s+citizen\\.",
+        "note": "Caught manually in A5: UT Austin Applied Research Laboratories, Robotics Engineering Scientist Associate, R_00048689, 2026-09-24 (backfilled 2026-10-14 from candidate_context.md audit note) — \"US Citizen.\" Backfill: was only in the candidate_context.md list, which no scanner reads; A2.5 returned CLEAR."
+      },
+      {
+        "regex": "\\brequires\\s+u\\.?s\\.?\\s+citizenship\\b",
+        "note": "Caught manually in A5: Nautilus Defense LLC, Embedded Software Engineer, Pawtucket RI, 2026-09-24 (backfilled 2026-10-14 from candidate_context.md audit note) — \"This position requires US Citizenship.\" Backfill: was only in the candidate_context.md list, which no scanner reads; A2.5 returned CLEAR."
+      },
+      {
+        "regex": "\\bu\\.?s\\.?\\s+citizenship\\s+or\\s+(?:green\\s+card|permanent\\s+residen)",
+        "note": "Caught manually in A5: Analog Devices, Embedded Systems Applications Engineer, R265602, 2026-09-24 (backfilled 2026-10-14 from candidate_context.md audit note) — \"US citizenship or Green Card\" Backfill: was only in the candidate_context.md list, which no scanner reads; A2.5 returned CLEAR."
+      },
+      {
+        "regex": "\\bu\\.?s\\.?\\s+citizen\\s*/\\s*visa\\s+only\\b",
+        "note": "Caught manually in A5: Andson Biotech, Embedded Systems Engineer, Atlanta GA, 2026-09-23 (backfilled 2026-10-14 from candidate_context.md audit note) — \"Visa: US citizen/visa only.\" Backfill: was only in the candidate_context.md list, which no scanner reads; A2.5 returned CLEAR."
       }
     ],
     "No Sponsorship": [
@@ -265,6 +281,14 @@
       {
         "regex": "\\bunable\\s+to\\s+sponsor\\s+(?:new\\s+)?(?:h-?1b|visa|work)\\b",
         "note": "Caught manually in A5: Bright Vision Technologies (Embedded AI Engineer, Remote US), 2026-10-08 — \"We are unable to sponsor new H-1B visa petitions for this position.\" Verb is bare \"sponsor\" + H-1B object, not the noun \"sponsorship\"."
+      },
+      {
+        "regex": "\\bnot\\s+able\\s+to\\s+provide\\b[^.]{0,40}\\bvisa\\s+sponsorship\\b",
+        "note": "Caught manually in A5: Copeland, Teamcenter Developer, Sidney OH, JR117566, 2026-10-05 (backfilled 2026-10-14 from candidate_context.md audit note) — \"We are not able to provide relocation assistance or visa sponsorship for this role at this time.\" Backfill: was only in the candidate_context.md list, which no scanner reads; A2.5 returned CLEAR."
+      },
+      {
+        "regex": "\\bdo(?:es)?\\s+not\\s+sponsor\\s+(?:visas?|work\\s+visas?|h-?1b)\\b",
+        "note": "Caught manually in A5: Voltus, found by the 2026-10-14 review (wording not yet in candidate_context.md) — \"We do not sponsor visas or transfers for new hires.\" Backfill: was only in the candidate_context.md list, which no scanner reads; A2.5 returned CLEAR."
       }
     ]
   }
