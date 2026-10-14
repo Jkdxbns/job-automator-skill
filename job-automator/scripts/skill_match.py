@@ -180,6 +180,9 @@ def canonical_set():
 
 if __name__ == "__main__":
     import sys
+    if sys.argv[1:2] in (['-h'], ['--help']):   # usage, no side effects
+        print(__doc__)
+        sys.exit(0)
     for a in sys.argv[1:]:
         r = match(a)
         print(f"{a!r:<42} -> {r}")

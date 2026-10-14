@@ -30,7 +30,9 @@ Across fixtures:
  10. keyword_prefilter.py: same shortlist, scores and seniority flags; reports sponsorship_flag
      flips (expected: that is the comment-swallowing bug fix) and checks no comment text is parsed
      as a phrase.
- 11. validate_skill.py passes on the new skill.
+ 11. Every script answers --help (exit 0, usage on stdout) and writes nothing. mark_submitted.py,
+     hunt_contacts.py and save_and_print_draft.py are never executed, only inspected.
+ 12. validate_skill.py passes on the new skill.
 
 USAGE
 -----
@@ -375,6 +377,47 @@ def check_print_refs():
     return checked, problems
 
 
+# Never executed by this harness, not even with --help (user rule): checked statically instead.
+NEVER_RUN = {"mark_submitted.py", "hunt_contacts.py", "save_and_print_draft.py"}
+
+
+def tree_state(dirs):
+    state = {}
+    for d in dirs:
+        for dp, _, fs in os.walk(d):
+            if "__pycache__" in dp:
+                continue
+            for f in fs:
+                p = os.path.join(dp, f)
+                st = os.stat(p)
+                state[p] = (st.st_size, st.st_mtime_ns)
+    return state
+
+
+def check_help():
+    """Every script answers -h/--help with exit 0 and usage text, and writes nothing."""
+    watched = [os.path.join(NEW, "references"), os.path.join(ROOT, "job_search"),
+               os.path.join(NEW, "scripts")]
+    before = tree_state(watched)
+    problems, ran, static = [], 0, 0
+    for path in sorted(glob.glob(os.path.join(SCRIPTS, "*.py"))):
+        name = os.path.basename(path)
+        if name in NEVER_RUN:
+            src = open(path).read()
+            if "argparse" not in src and "['-h'], ['--help']" not in src:
+                problems.append(f"{name}: no --help handling")
+            static += 1
+            continue
+        rc, out, err = run([PY, path, "--help"], cwd=tempfile.gettempdir())
+        ran += 1
+        if rc != 0 or not out.strip():
+            problems.append(f"{name} --help: exit {rc}, {len(out)} chars of stdout {err.strip()[:120]}")
+    after = tree_state(watched)
+    changed = sorted(p for p in set(before) | set(after) if before.get(p) != after.get(p))
+    problems += [f"--help wrote {os.path.relpath(p, ROOT)}" for p in changed]
+    return ran, static, problems
+
+
 def build_postings(items):
     posts = []
     for i, it in enumerate(items):
@@ -526,6 +569,11 @@ def main():
                 failures.append("[prefilter] shortlist / scores / seniority flags changed")
             if pf["comment_phrases"]:
                 failures.append(f"[prefilter] comment text parsed as phrases: {pf['comment_phrases'][:5]}")
+
+        ran, static, help_problems = check_help()
+        print(f"--help    : {ran} scripts run with --help, {static} checked statically (never run), "
+              f"{len(help_problems)} problem(s)")
+        failures += [f"[--help] {p}" for p in help_problems]
 
         rc, out, _ = run([PY, os.path.join(NEW, "scripts", "validate_skill.py")])
         print(f"validate  : {out.strip().splitlines()[-1] if out.strip() else 'no output'}")

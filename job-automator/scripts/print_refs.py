@@ -64,6 +64,9 @@ def frame(rel, text):
 
 
 def main():
+    if sys.argv[1:2] in (["-h"], ["--help"]):
+        print(__doc__)
+        return 0
     if len(sys.argv) != 2 or sys.argv[1] not in PACKS:
         print(__doc__, file=sys.stderr)
         return 2

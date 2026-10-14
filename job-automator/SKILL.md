@@ -30,6 +30,10 @@ about a tool result.
 **References load on demand** — each step names the file it needs. `scoring_rationale.md` holds the formulas,
 backtests and audit history; read it only when changing a rule.
 
+**Scripts are run, not read.** Every command a step needs is written out at that step. If you need an
+argument the step does not show, run the script with `--help` (every script answers it, with no side effects)
+instead of opening its source.
+
 
 ---
 
