@@ -1,32 +1,62 @@
 #!/usr/bin/env python3
 """
-prescreen_jd.py — Scans JD text for hard disqualifiers using regex.
-Zero LLM calls. Zero tokens. Runs before any API call.
+prescreen_jd.py — the hard-blocker module: scan a JD for disqualifiers (A2.5),
+record a blocker the regexes missed (A5), list the patterns.
+Zero LLM calls. Zero tokens. The patterns live in references/hard_blockers.json,
+never in this file, so neither the model nor a person edits code to teach it.
 
 Usage:
-  echo "<jd text>" | python prescreen_jd.py
-  python prescreen_jd.py < jd.txt
-  python prescreen_jd.py "<jd text as arg>"
+  echo "<jd text>" | python3 prescreen_jd.py [--region auto|us|eu]     # check (A2.5)
+  python3 prescreen_jd.py < jd.txt
+  python3 prescreen_jd.py "<jd text as arg>"
+  python3 prescreen_jd.py add --category <itar|clearance|citizenship|sponsorship>
+          --regex '<python regex, matched on the lowercased JD>'
+          --example '<the exact JD sentence it must catch>'
+          --source '<Company, "Role", place, req id, YYYY-MM-DD>'
+          [--note '<why the existing regexes missed it>']
+          [--phrase '<wording to append to the candidate_context.md list>']
+          [--dry-run]                                                    # record (A5)
+  python3 prescreen_jd.py list [--notes]                                 # show patterns
 
-Exit codes:
+Check exit codes:
   0 — clean, no blockers found, proceed with analysis
   1 — hard blocker found, print reason, STOP everything
+  2 — no JD text
 
-Output on exit 1:
+Check output on exit 1:
   BLOCK:<category>:<exact_match>
   e.g. BLOCK:Security Clearance:secret clearance
 
-MAINTAINER NOTE — update this script, not the analysis workflow:
+add — one call does what used to take a Read and an Edit of this script plus a
+Read and an Edit of candidate_context.md:
+  1. checks the regex compiles and matches --example (lowercased), and that no
+     existing pattern already blocks --example (exit 3, nothing written);
+  2. appends the regex, with a provenance note, to its category in
+     hard_blockers.json;
+  3. with --phrase, appends the phrase to that category's list in
+     candidate_context.md (no_sponsorship_phrases, itar_ear_phrases,
+     clearance_phrases, citizenship_phrases) and an "# Also caught manually:"
+     note under the list, in the same style as the existing ones;
+  4. re-scans --example and prints the BLOCK line it now produces.
+Both files are written atomically, and only after every check passes.
+add exit codes: 0 added (or would add, with --dry-run) · 2 bad input · 3 already blocked / duplicate
+
+MAINTAINER NOTE — teach the scanner with `add`, not the analysis workflow:
   If a job slips through and is later found to be disqualifying (wrong visa,
-  clearance, citizenship, or no-sponsorship), add the exact phrase or a regex
-  pattern to the relevant HARD_BLOCKERS category below. This script runs before
-  any LLM call — every phrase caught here saves a full analysis run.
-  Example: found "continuous work authorization" slipped through → add it to
-  "No Sponsorship" and commit. Do not handle new patterns inline in the workflow.
+  clearance, citizenship, or no-sponsorship), record it with `add`. This script
+  runs before any LLM call — every phrase caught here saves a full analysis run.
 """
 
+import argparse
+import json
+import os
 import re
 import sys
+import textwrap
+
+SKILL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BLOCKERS_PATH = os.path.join(SKILL, "references", "hard_blockers.json")
+CONTEXT_PATH = os.path.join(SKILL, "references", "candidate_context.md")
 
 
 # ── Region detection (added 2026-09-23) ───────────────────────────────────────
@@ -47,45 +77,17 @@ import sys
 # Detection fails SAFE: relaxation applies only when there is positive EU/UK
 # evidence AND no US marker. Anything ambiguous keeps the old strict behaviour.
 
-EU_UK_HINTS = [
-    r"\bunited kingdom\b", r"\bengland\b", r"\bscotland\b", r"\bwales\b",
-    r"\bireland\b", r"\bnetherlands\b", r"\bgermany\b", r"\bsweden\b",
-    r"\bdenmark\b", r"\bnorway\b", r"\bfinland\b", r"\bbelgium\b",
-    r"\bczech\b", r"\bczechia\b", r"\bpoland\b", r"\bportugal\b",
-    r"\bspain\b", r"\bfrance\b", r"\bitaly\b", r"\baustria\b",
-    r"\bswitzerland\b", r"\bhungary\b", r"\bromania\b", r"\bestonia\b",
-    r"\blithuania\b", r"\beuropean union\b", r"\beu/eea\b", r"\beea\b",
-    # cities that carry his target employers
-    r"\blondon\b", r"\bbristol\b", r"\bedinburgh\b", r"\bglasgow\b",
-    r"\bmanchester\b", r"\bkings langley\b",
-    r"\bdublin\b", r"\bcork\b", r"\blimerick\b", r"\bleixlip\b",
-    r"\beindhoven\b", r"\bveldhoven\b", r"\bamsterdam\b", r"\bnijmegen\b",
-    r"\bdelft\b", r"\benschede\b", r"\brotterdam\b", r"\butrecht\b",
-    r"\bmunich\b", r"\bm(?:u|ue|\u00fc)nchen\b", r"\bstuttgart\b",
-    r"\bberlin\b", r"\bhamburg\b", r"\bdresden\b", r"\bnuremberg\b",
-    r"\blund\b", r"\bgothenburg\b", r"\bg(?:o|oe|\u00f6)teborg\b",
-    r"\bstockholm\b", r"\bmalm(?:o|oe|\u00f6)\b", r"\bcopenhagen\b",
-    r"\bbrno\b", r"\bprague\b", r"\bro(?:z|\u017e)nov\b",
-    r"\bkrak(?:o|\u00f3)w\b", r"\bcracow\b", r"\bgda(?:n|\u0144)sk\b",
-    r"\bwarsaw\b", r"\bwroc(?:l|\u0142)aw\b",
-    r"\bporto\b", r"\blisbon\b", r"\bbraga\b", r"\bleuven\b",
-    r"\bgrenoble\b", r"\bcambridge,\s*(?:uk|england|cambridgeshire)\b",
-]
+def _load():
+    with open(BLOCKERS_PATH, encoding="utf-8") as f:
+        return json.load(f)
 
-# Strong US markers only. State abbreviations are deliberately NOT used — ", in"
-# and ", or" match ordinary prose and would silently re-strict EU postings.
-US_HINTS = [
-    r"\bunited states\b", r"\bu\.?s\.?a\.?\b", r"\bu\.?s\.?\s+person\b",
-    r"\bus\s+work\s+authorization\b", r"\bin\s+the\s+u\.?s\.?\b",
-    r"\bstem\s+opt\b", r"\bh-?1b\b", r"\bgreen\s+card\b",
-]
 
+_DATA = _load()
+EU_UK_HINTS = list(_DATA["eu_uk_hints"])
+US_HINTS = list(_DATA["us_hints"])
 # Patterns skipped when the posting is EU/UK. Must match HARD_BLOCKERS verbatim.
-RELAXED_IN_EU_UK = {
-    r"\bmust\s+be\s+(?:legally\s+)?authorized\s+to\s+work\b",
-    r"\bmust\s+have\s+(?:and\s+maintain\s+)?(?:continuous\s+)?work\s+authorization\b",
-    r"\bcontinuous\s+work\s+authorization\b",
-}
+RELAXED_IN_EU_UK = set(_DATA["relaxed_in_eu_uk"])
+HARD_BLOCKERS = {cat: [p["regex"] for p in pats] for cat, pats in _DATA["categories"].items()}
 
 
 def detect_region(lowered: str) -> str:
@@ -95,106 +97,6 @@ def detect_region(lowered: str) -> str:
     if any(re.search(p, lowered) for p in EU_UK_HINTS):
         return "eu_uk"
     return "us"
-
-
-HARD_BLOCKERS = {
-    "ITAR / US Person": [
-        r"\bu\.?s\.?\s+person\b",
-        r"\bitar\b",
-        r"\bear\s+compliance\b",
-        r"\bexport\s+control\b",
-        r"\bdeemed\s+export\b",
-        r"\bitar[\/\s]ear\b",
-        # Caught manually in A5: ASML J-00352651 "legally authorized to access such
-        # controlled technology" citing the Export Administration Regulations (15 C.F.R. § 730)
-        r"\bexport\s+administration\s+regulations\b",
-        r"\bcontrolled\s+technology\b",
-    ],
-    "Security Clearance": [
-        r"\bsecurity\s+clearance\b",
-        r"\bsecret\s+clearance\b",
-        r"\btop\s+secret\b",
-        r"\bts\/sci\b",
-        r"\bdod\s+clearance\b",
-        r"\bclearance\s+required\b",
-        r"\bactive\s+clearance\b",
-        r"\bobtain\s+(?:a\s+)?clearance\b",
-        r"\bpublic\s+trust\s+clearance\b",
-        r"\bmust\s+(?:hold|have|obtain)\s+(?:a\s+)?(?:security\s+)?clearance\b",
-    ],
-    "US Citizenship / PR Required": [
-        r"\bmust\s+be\s+a\s+u\.?s\.?\s+citizen\b",
-        r"\bu\.?s\.?\s+citizens?\s+only\b",
-        r"\bcitizens?\s+only\b",
-        r"\bpermanent\s+residents?\s+only\b",
-        r"\bu\.?s\.?\s+citizen\s+or\s+(?:permanent\s+resident|green\s+card|pr)\b",
-        # Caught live: Niyam IT "US Citizenship with ability to successfully complete a federal
-        # background investigation." — bare noun-phrase bullet, no "requires"/"must be" verb.
-        r"\bu\.?s\.?\s+citizenship\s+with\s+ability\s+to\s+(?:successfully\s+)?complete\s+a\s+federal\s+background\s+investigation\b",
-    ],
-    "No Sponsorship": [
-        r"\bno\s+sponsorship\s+(?:available|offered|provided)\b",
-        r"\bwill\s+not\s+(?:sponsor|provide\s+sponsorship)\b",
-        r"\bauthorized\s+to\s+work\s+(?:in\s+the\s+u\.?s\.?|without\s+sponsorship)\b",
-        # Caught live: TP-Link "continuous work authorization in the US without the need for visa sponsorships"
-        r"\bcontinuous\s+work\s+authorization\b",
-        r"\bwithout\s+the\s+need\s+for\s+(?:visa\s+)?sponsorship",
-        r"\bmust\s+have\s+(?:and\s+maintain\s+)?(?:continuous\s+)?work\s+authorization\b",
-        r"\bno\s+visa\s+sponsorship\b",
-        # Bare forms. candidate_context.md lists these and the regex layer must
-        # agree with it, or A2.5 passes a JD that A5 would then have to catch.
-        r"\bno\s+sponsorship\b",
-        r"\bmust\s+be\s+(?:legally\s+)?authorized\s+to\s+work\b",
-        r"\bwithout\s+(?:current\s+or\s+future\s+)?(?:visa\s+)?sponsorship\b",
-        r"\bnot\s+(?:able|able\s+to|in\s+a\s+position)\s+to\s+(?:offer|provide)\s+(?:visa\s+)?sponsorship\b",
-        # Caught live: Motorola "Employer work permit sponsorship is not available for this position"
-        r"\bsponsorship\s+is\s+not\s+available\b",
-        # Caught live: Caterpillar "Visa sponsorship is NOT provided for this position"
-        r"\bsponsorship\s+is\s+not\s+(?:provided|offered)\b",
-        # Caught live: Eaton "will not consider applicants for employment immigration
-        # sponsorship or support... will not support any CPT, OPT, or STEM OPT plans"
-        r"\bwill\s+not\s+consider\s+applicants\s+for\s+employment\s+immigration\s+sponsorship\b",
-        r"\bwill\s+not\s+support\s+any\s+cpt,?\s*opt,?\s*(?:or\s+)?stem\s+opt\b",
-        r"\bnot\s+support\s+(?:any\s+)?(?:cpt|opt|stem\s+opt)\s+plans?\b",
-        # Caught manually in A5: Vertiv (all US reqs on egup.fa.us2.oraclecloud.com), 2026-09-21 —
-        # "This is not a position for which sponsorship will be provided. Individuals with temporary
-        # visas such as E, F-1, H-1... are not eligible for hire."
-        r"\bnot\s+a\s+position\s+for\s+which\s+sponsorship\s+will\s+be\s+provided\b",
-        r"\btemporary\s+visas?\s+such\s+as\b[^.]{0,60}\bf-?1\b[^.]{0,120}\bnot\s+eligible\b",
-        # Caught manually in A5: Grainger Businesses (Embedded Systems Engineer, req 335303),
-        # 2026-09-24 — "This position is not eligible for any form of sponsorship now or in
-        # the future. Individuals requiring sponsorship (e.g. OPT or H1B visa status) should
-        # not apply."
-        r"\bnot\s+eligible\s+for\s+any\s+form\s+of\s+sponsorship\b",
-        r"\bindividuals\s+requiring\s+sponsorship\b[^.]{0,60}\bshould\s+not\s+apply\b",
-        # Caught manually in A5: Ford Motor Company (Embedded Software Engineer, Sunrise FL,
-        # hybrid), 2026-09-30 — "This position does not support sponsorship." Bare
-        # "does not support" phrasing; every prior pattern used offer/provide/available/eligible.
-        r"\b(?:does|do|will)\s+not\s+support\s+(?:visa\s+|employment\s+|immigration\s+)?sponsorship\b",
-        # Caught manually in A5: Blue River Technology / John Deere (Software Engineer, See & Spray,
-        # Santa Clara CA), 2026-10-01 — "Visa sponsorship: Not available." Label-colon form, with
-        # the negation AFTER "sponsorship"; earlier patterns all put the negation first or used "is".
-        r"\bsponsorship\s*:\s*(?:not\s+available|none|no|not\s+(?:offered|provided))\b",
-        # Caught manually in A5: IDEX / Advanced Flow Solutions (Software Engineer - Embedded
-        # Systems, Oklahoma City OK / Remote USA, R-10076), 2026-10-08 — "This role is not
-        # available for employment visa sponsorship." Subject is the ROLE, not sponsorship, so
-        # every prior "sponsorship is not available" pattern missed it.
-        r"\b(?:this\s+)?(?:role|position|job|opening|req(?:uisition)?)\s+is\s+not\s+available\s+for\b[^.]{0,60}\bsponsorship\b",
-        r"\bnot\s+available\s+for\s+(?:employment\s+|work\s+|immigration\s+)?visa\s+sponsorship\b",
-        # Caught manually in A5: CRABI (Robotics GNC Engineer, Medford MA), 2026-10-05 — "The company
-        # will not consider candidates who require sponsorship for a work-authorized visa, now or in
-        # the future." Verb is "will not consider ... who require sponsorship".
-        r"\bwill\s+not\s+consider\s+(?:candidates|applicants)\s+who\s+require\s+sponsorship\b",
-        # Caught manually in A5: Optimove (Machine Learning Engineer, Dundee, Scotland), 2026-10-04 —
-        # "Must be eligible to work in the UK - we are unable to provide sponsorship at this time."
-        # Existing pattern only matched "not able to provide"; "unable to" slipped through.
-        r"\bunable\s+to\s+(?:offer\s+or\s+)?(?:offer|provide)\s+(?:visa\s+)?sponsorship\b",
-        # Caught manually in A5: Bright Vision Technologies (Embedded AI Engineer, Remote US),
-        # 2026-10-08 — "We are unable to sponsor new H-1B visa petitions for this position."
-        # Verb is bare "sponsor" + H-1B object, not the noun "sponsorship".
-        r"\bunable\s+to\s+sponsor\s+(?:new\s+)?(?:h-?1b|visa|work)\b",
-    ],
-}
 
 
 def scan(text: str, region: str | None = None) -> tuple[str | None, str | None, str | None]:
@@ -218,7 +120,153 @@ def scan(text: str, region: str | None = None) -> tuple[str | None, str | None, 
     return None, None, None
 
 
+# ── add / list ────────────────────────────────────────────────────────────────
+
+CATEGORY_ALIASES = {
+    "itar": "ITAR / US Person",
+    "clearance": "Security Clearance",
+    "citizenship": "US Citizenship / PR Required",
+    "sponsorship": "No Sponsorship",
+}
+CONTEXT_LIST = {
+    "ITAR / US Person": "itar_ear_phrases",
+    "Security Clearance": "clearance_phrases",
+    "US Citizenship / PR Required": "citizenship_phrases",
+    "No Sponsorship": "no_sponsorship_phrases",
+}
+KEY_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*\s*=")
+
+
+def _resolve_category(name):
+    if name in HARD_BLOCKERS:
+        return name
+    return CATEGORY_ALIASES.get((name or "").strip().lower())
+
+
+def _context_with_catch(text, list_key, phrase, note_lines):
+    """candidate_context.md with `phrase` appended to `list_key`'s comma list and
+    `note_lines` inserted after the comment lines that follow that list. The list
+    ends where keyword_prefilter.py's extract_list() ends it: at a blank line, a
+    `#` line, a [section] or the next `key =` line."""
+    lines = text.split("\n")
+    start = next((i for i, l in enumerate(lines) if re.match(rf"^{re.escape(list_key)}\s*=", l)), None)
+    if start is None:
+        raise ValueError(f"{list_key} not found in candidate_context.md")
+    end = start
+    j = start + 1
+    while (j < len(lines) and lines[j].strip() and not lines[j].lstrip().startswith("#")
+           and not lines[j].startswith("[") and not KEY_RE.match(lines[j])):
+        end = j
+        j += 1
+    if phrase:
+        lines[end] = lines[end].rstrip() + ", " + phrase
+    k = end + 1
+    while k < len(lines) and lines[k].lstrip().startswith("#"):
+        k += 1
+    lines[k:k] = note_lines
+    return "\n".join(lines)
+
+
+def _write_atomic(path, text):
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write(text)
+    os.replace(tmp, path)
+
+
+def cmd_add(a):
+    global _DATA, HARD_BLOCKERS
+    cat = _resolve_category(a.category)
+    if not cat:
+        print(f"ERROR: unknown --category {a.category!r}; use one of "
+              f"{', '.join(CATEGORY_ALIASES)} or a full name: {', '.join(HARD_BLOCKERS)}", file=sys.stderr)
+        return 2
+    try:
+        rx = re.compile(a.regex)
+    except re.error as e:
+        print(f"ERROR: --regex does not compile: {e}", file=sys.stderr)
+        return 2
+    example = " ".join(a.example.split())
+    if not rx.search(example.lower()):
+        print("ERROR: --regex does not match --example (it is matched against the lowercased text)",
+              file=sys.stderr)
+        return 2
+    if a.regex in HARD_BLOCKERS[cat]:
+        print(f"ALREADY PRESENT: that exact regex is already in {cat}; nothing written")
+        return 3
+    hit_cat, hit_pat, hit = scan(example)
+    if hit_cat:
+        print(f"ALREADY BLOCKED: BLOCK:{hit_cat}:{hit} (pattern {hit_pat}); nothing written")
+        return 3
+    phrase = " ".join((a.phrase or "").lower().split())
+    if phrase and ("," in phrase or "#" in phrase):
+        print("ERROR: --phrase cannot contain a comma or # (the list is comma-separated)", file=sys.stderr)
+        return 2
+    note = f"Caught manually in A5: {a.source} — \"{example}\"" + (f" {a.note.strip()}" if a.note else "")
+
+    data = _load()
+    data["categories"][cat].append({"regex": a.regex, "note": note})
+    new_json = json.dumps(data, indent=2, ensure_ascii=False) + "\n"
+
+    list_key = CONTEXT_LIST[cat]
+    context = open(CONTEXT_PATH, encoding="utf-8").read()
+    new_context = None
+    if phrase:
+        listed = re.search(rf"^{re.escape(list_key)}\s*=(.*?)(?=\n\s*\n|\n\s*#|\n\[|\n[A-Za-z_]\w*\s*=|\Z)",
+                           context, re.M | re.S)
+        current = [p.strip().lower() for p in " ".join(listed.group(1).split()).split(",")] if listed else []
+        text = (f"Also caught manually: {a.source} — \"{example}\""
+                + (f" {a.note.strip()}" if a.note else "")
+                + " Regex added to hard_blockers.json with prescreen_jd.py add.")
+        note_lines = ["# " + w for w in textwrap.wrap(text, width=106, break_long_words=False,
+                                                      break_on_hyphens=False)]
+        new_context = _context_with_catch(context, list_key, "" if phrase in current else phrase, note_lines)
+
+    print(f"category : {cat} (pattern #{len(data['categories'][cat])})")
+    print(f"regex    : {a.regex}")
+    if new_context is not None:
+        print(f"context  : {list_key} += {phrase!r}" + (" (already listed; note only)" if phrase in current else ""))
+    if a.dry_run:
+        print("DRY RUN — nothing written")
+        return 0
+    _write_atomic(BLOCKERS_PATH, new_json)
+    if new_context is not None:
+        _write_atomic(CONTEXT_PATH, new_context)
+    # reload and prove the new pattern catches the sentence
+    _DATA = _load()
+    HARD_BLOCKERS = {c: [p["regex"] for p in pats] for c, pats in _DATA["categories"].items()}
+    c2, _, hit2 = scan(example)
+    print(f"check    : BLOCK:{c2}:{hit2}" if c2 else "check    : NOT BLOCKED — investigate")
+    return 0 if c2 else 1
+
+
+def cmd_list(a):
+    for cat, pats in _DATA["categories"].items():
+        print(f"{cat} ({len(pats)})")
+        for i, p in enumerate(pats, 1):
+            relaxed = "  [skipped on EU/UK postings]" if p["regex"] in RELAXED_IN_EU_UK else ""
+            print(f"  {i:>2}. {p['regex']}{relaxed}")
+            if a.notes and p.get("note"):
+                for w in textwrap.wrap(p["note"], width=100):
+                    print(f"        {w}")
+    return 0
+
+
 def main():
+    if sys.argv[1:2] in (["add"], ["list"]):
+        ap = argparse.ArgumentParser(prog=f"prescreen_jd.py {sys.argv[1]}")
+        if sys.argv[1] == "add":
+            ap.add_argument("--category", required=True)
+            ap.add_argument("--regex", required=True)
+            ap.add_argument("--example", required=True)
+            ap.add_argument("--source", required=True)
+            ap.add_argument("--note")
+            ap.add_argument("--phrase")
+            ap.add_argument("--dry-run", action="store_true")
+            sys.exit(cmd_add(ap.parse_args(sys.argv[2:])))
+        ap.add_argument("--notes", action="store_true")
+        sys.exit(cmd_list(ap.parse_args(sys.argv[2:])))
+
     # Accept JD text from stdin or as first argument.
     # --region auto|us|eu overrides detection; auto is the default.
     argv = sys.argv[1:]

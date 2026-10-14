@@ -171,6 +171,10 @@ EXPECTED_TEXT_EDITS = [
      "old": 'python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py $JOB_DIR/logs/tailored.json $JOB_DIR\n```\n',
      "new": 'python3 ~/.claude/skills/job-automator/scripts/generate_pdf.py $JOB_DIR/logs/tailored.json $JOB_DIR; GEN=$?; echo "GENERATE_EXIT=$GEN"\nif [ $GEN -eq 0 ]; then   # B4-VERIFY, then B4.5, in this same call\n  PDF=$(ls -t $JOB_DIR/resume_*.pdf 2>/dev/null | head -1)\n  if [ -z "$PDF" ] || [ ! -s "$PDF" ]; then\n    echo "NO PDF — resume did not build"\n  else\n    PAGES=$(pdfinfo "$PDF" | grep -i Pages); echo "$PAGES"     # must read "Pages: 1"\n    case "$PAGES" in *" 1")\n      python3 ~/.claude/skills/job-automator/scripts/verify_coverage.py $JOB_DIR/logs/fit.json $JOB_DIR/logs/tailored.json\n      echo "COVERAGE_EXIT=$?";;\n    esac\n  fi\nfi\n```\nOn exit 0 this one call also runs B4-VERIFY and, for a real single-page PDF, B4.5 — don\'t run them again.\nTheir rules below still apply in full: paste the coverage output, FIXABLE vs CEILING.\n\n',
      "why": 'B4 runs B4-VERIFY and, for a real single-page PDF, B4.5 in the same call'},
+    {"file": "SKILL.md",
+     "old": 'category`, **and** append the wording to the matching list in `candidate_context.md` so the regex layer learns\nit.\n',
+     "new": 'category`, **and** record it so the regex layer learns it (one call, no file reads or edits):\n```bash\npython3 ~/.claude/skills/job-automator/scripts/prescreen_jd.py add --category <itar|clearance|citizenship|sponsorship> \\\n  --regex \'<regex>\' --example \'<the exact sentence>\' --source \'<Company, "Role", place, req, date>\' \\\n  --note \'<why the regex missed it>\' --phrase \'<wording for the candidate_context.md list>\'\n```\nIt adds the regex to `hard_blockers.json`, appends the wording and an "Also caught" note to\n`candidate_context.md`, and re-scans.\n',
+     "why": "A5 records a newly caught blocker with `prescreen_jd.py add` (regex + candidate_context.md wording) instead of hand-editing the script and the file"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).
@@ -255,8 +259,10 @@ def collect_fixtures(limit):
 
 # ── one side of one fixture ───────────────────────────────────────────────────
 
-def run(cmd, cwd=None):
-    p = subprocess.run(cmd, capture_output=True, text=True, cwd=cwd)
+def run(cmd, cwd=None, stdin=""):
+    """stdin defaults to empty, so a script that falls back to reading stdin (prescreen_jd.py with no
+    JD argument) gets EOF instead of hanging on the harness's own stdin."""
+    p = subprocess.run(cmd, capture_output=True, text=True, cwd=cwd, input=stdin, timeout=120)
     return p.returncode, p.stdout, p.stderr
 
 
@@ -477,6 +483,120 @@ def check_help():
     changed = sorted(p for p in set(before) | set(after) if before.get(p) != after.get(p))
     problems += [f"--help wrote {os.path.relpath(p, ROOT)}" for p in changed]
     return ran, static, problems
+
+
+def load_module(path, name):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def blocker_corpus(items, context_text):
+    texts = []
+    for it in items:
+        jd = it["payload"].get("jd") or {}
+        parts = [str(jd.get("job_title") or "")]
+        for k in ("key_responsibilities", "required_skills", "preferred_skills", "ats_keywords"):
+            v = jd.get(k)
+            if isinstance(v, list):
+                parts += [str(x) for x in v]
+        parts.append(str(jd.get("location") or ""))
+        texts.append("\n".join(parts))
+    quotes = re.findall(r"[\"“]([^\"”]{12,400})[\"”]", " ".join(
+        l.lstrip("# ") for l in context_text.splitlines() if l.lstrip().startswith("#")))
+    phrases = []
+    for key in ("no_sponsorship_phrases", "itar_ear_phrases", "clearance_phrases", "citizenship_phrases",
+                "defense_category_keywords"):
+        m = re.search(rf"^{key}\s*=(.*?)(?=\n\s*\n|\n\s*#|\n\[|\n[A-Za-z_]\w*\s*=|\Z)", context_text, re.M | re.S)
+        if m:
+            phrases += [p.strip() for p in " ".join(m.group(1).split()).split(",") if p.strip()]
+    probes = quotes + phrases
+    for loc in ("", " Location: Dublin, Ireland.", " Location: Austin, Texas, United States.",
+                " Based in Munich, Germany (hybrid)."):
+        texts += [p + loc for p in probes]
+    return texts
+
+
+def check_blockers(old_code, items, tmp):
+    """prescreen_jd.py now loads its patterns from references/hard_blockers.json and gains `add`/`list`.
+    Old and new must scan every text identically; `add` is exercised on a temp copy of the skill."""
+    problems = []
+    old = load_module(os.path.join(old_code, "scripts", "prescreen_jd.py"), "old_prescreen")
+    new = load_module(os.path.join(SCRIPTS, "prescreen_jd.py"), "new_prescreen")
+    for attr in ("HARD_BLOCKERS", "EU_UK_HINTS", "US_HINTS", "RELAXED_IN_EU_UK"):
+        o, n = getattr(old, attr), getattr(new, attr)
+        if o != n or (isinstance(o, dict) and list(o) != list(n)):
+            problems.append(f"{attr} differs between old and new")
+    context = open(os.path.join(NEW, "references", "candidate_context.md"), encoding="utf-8").read()
+    texts = blocker_corpus(items, context)
+    blocked = 0
+    for t in texts:
+        for region in (None, "us", "eu_uk"):
+            o, n = old.scan(t, region), new.scan(t, region)
+            if o != n:
+                problems.append(f"scan differs (region={region}): {t[:80]!r}: {o} != {n}")
+            blocked += bool(n[0]) and region is None
+    cli_texts = texts[-40:] + ["", "   "]
+    for t in cli_texts:
+        o = run([PY, os.path.join(old_code, "scripts", "prescreen_jd.py")] + ([t] if t.strip() else []))
+        n = run([PY, os.path.join(SCRIPTS, "prescreen_jd.py")] + ([t] if t.strip() else []))
+        if o != n:
+            problems.append(f"CLI output differs for {t[:60]!r}")
+
+    # add — on a copy, never on the real references
+    copy = os.path.join(tmp, "addtest", "job-automator")
+    shutil.copytree(NEW, copy, ignore=shutil.ignore_patterns("__pycache__"))
+    pj = os.path.join(copy, "scripts", "prescreen_jd.py")
+    jpath = os.path.join(copy, "references", "hard_blockers.json")
+    cpath = os.path.join(copy, "references", "candidate_context.md")
+    snap = lambda: (open(jpath, "rb").read(), open(cpath, "rb").read())
+    before = snap()
+    src = 'Acme Robotics, "Embedded Engineer", Austin TX, R-1, 2026-10-14'
+    for label, args, want_rc in (
+        ("invalid regex", ["--regex", "(", "--example", "x"], 2),
+        ("regex misses example", ["--regex", r"\bfoo\b", "--example", "We are not in a position to sponsor."], 2),
+        ("already blocked", ["--regex", r"\bwill\s+not\s+sponsor\s+visas\b", "--example",
+                             "We will not sponsor visas."], 3),
+        ("dry run", ["--regex", r"\bnot\s+in\s+a\s+position\s+to\s+sponsor\b", "--example",
+                     "We are not in a position to sponsor work visas.", "--dry-run"], 0),
+    ):
+        rc = run([PY, pj, "add", "--category", "sponsorship", "--source", src] + args)[0]
+        if rc != want_rc or snap() != before:
+            problems.append(f"add/{label}: exit {rc} (want {want_rc}), files changed: {snap() != before}")
+    rc, out, err = run([PY, pj, "add", "--category", "sponsorship", "--source", src,
+                        "--regex", r"\bnot\s+in\s+a\s+position\s+to\s+sponsor\b",
+                        "--example", "We are not in a position to sponsor work visas.",
+                        "--note", 'Regex missed it: "not in a position to sponsor" uses the verb.',
+                        "--phrase", "not in a position to sponsor"])
+    if rc != 0 or "BLOCK:No Sponsorship:not in a position to sponsor" not in out:
+        problems.append(f"add/valid: exit {rc}: {out.strip()[-200:]} {err.strip()[-200:]}")
+    old_ctx, new_ctx = before[1].decode(), open(cpath, encoding="utf-8").read()
+    old_lines, new_lines = old_ctx.split("\n"), new_ctx.split("\n")
+    changed = [l for l in old_lines if l not in new_lines]
+    if len(changed) != 1 or not new_ctx.count("not in a position to sponsor"):
+        problems.append(f"add/valid: candidate_context.md changed {len(changed)} existing line(s)")
+    pf = load_module(os.path.join(copy, "scripts", "keyword_prefilter.py"), "copy_prefilter")
+    phrases = pf.load_sponsorship_context(cpath)["no_sponsorship_phrases"]
+    if "not in a position to sponsor" not in phrases or any("#" in p for p in phrases) \
+            or len(phrases) != len(pf.load_sponsorship_context(os.path.join(NEW, "references",
+                                                                          "candidate_context.md"))
+                                   ["no_sponsorship_phrases"]) + 1:
+        problems.append("add/valid: keyword_prefilter no longer parses no_sponsorship_phrases cleanly")
+    sf = load_module(os.path.join(copy, "scripts", "score_fit.py"), "copy_score_fit")
+    if sf.load_thresholds() != load_module(os.path.join(SCRIPTS, "score_fit.py"), "new_sf").load_thresholds():
+        problems.append("add/valid: score_fit.py thresholds changed")
+    rc = run([PY, pj, "We are not in a position to sponsor work visas."])[0]
+    if rc != 1:
+        problems.append("add/valid: a fresh scan does not block the new sentence")
+    rc, out, _ = run([PY, pj, "add", "--category", "itar", "--source", src, "--regex",
+                      r"\bsubject\s+to\s+u\.?s\.?\s+export\s+laws\b", "--example",
+                      "This role is subject to U.S. export laws.", "--phrase", "subject to u.s. export laws"])
+    itar_ok = rc == 0 and re.search(r"controlled technology, subject to u\.s\. export laws\n", open(cpath).read())
+    if not itar_ok:
+        problems.append(f"add/itar: exit {rc} or phrase not appended to itar_ear_phrases")
+    return len(texts), blocked, problems
 
 
 GATE_HOOK = os.path.join(ROOT, "claude", "hooks", "gate_resume_build.py")
@@ -717,6 +837,11 @@ def main():
                 failures.append("[prefilter] shortlist / scores / seniority flags changed")
             if pf["comment_phrases"]:
                 failures.append(f"[prefilter] comment text parsed as phrases: {pf['comment_phrases'][:5]}")
+
+        n_texts, n_blocked, blk_problems = check_blockers(old_code, items, tmp)
+        print(f"blockers  : {n_texts} texts × 3 region modes scanned old vs new ({n_blocked} block) · "
+              f"CLI compared on 42 · `add` exercised on a temp copy · {len(blk_problems)} problem(s)")
+        failures += [f"[blockers] {p}" for p in blk_problems]
 
         old_hook = os.path.join(tmp, "old_gate_resume_build.py")
         try:

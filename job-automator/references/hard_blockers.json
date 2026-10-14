@@ -1,0 +1,271 @@
+{
+  "_about": "Single source of the A2.5 hard-blocker regexes, read by scripts/prescreen_jd.py (and through it keyword_prefilter.py). Patterns are Python regexes matched against the lowercased JD. Categories and patterns are checked in order and the first match wins. Add a pattern only with `prescreen_jd.py add` (it validates the regex against the JD sentence and records the catch in candidate_context.md); never edit this file or the script by hand.",
+  "eu_uk_hints": [
+    "\\bunited kingdom\\b",
+    "\\bengland\\b",
+    "\\bscotland\\b",
+    "\\bwales\\b",
+    "\\bireland\\b",
+    "\\bnetherlands\\b",
+    "\\bgermany\\b",
+    "\\bsweden\\b",
+    "\\bdenmark\\b",
+    "\\bnorway\\b",
+    "\\bfinland\\b",
+    "\\bbelgium\\b",
+    "\\bczech\\b",
+    "\\bczechia\\b",
+    "\\bpoland\\b",
+    "\\bportugal\\b",
+    "\\bspain\\b",
+    "\\bfrance\\b",
+    "\\bitaly\\b",
+    "\\baustria\\b",
+    "\\bswitzerland\\b",
+    "\\bhungary\\b",
+    "\\bromania\\b",
+    "\\bestonia\\b",
+    "\\blithuania\\b",
+    "\\beuropean union\\b",
+    "\\beu/eea\\b",
+    "\\beea\\b",
+    "\\blondon\\b",
+    "\\bbristol\\b",
+    "\\bedinburgh\\b",
+    "\\bglasgow\\b",
+    "\\bmanchester\\b",
+    "\\bkings langley\\b",
+    "\\bdublin\\b",
+    "\\bcork\\b",
+    "\\blimerick\\b",
+    "\\bleixlip\\b",
+    "\\beindhoven\\b",
+    "\\bveldhoven\\b",
+    "\\bamsterdam\\b",
+    "\\bnijmegen\\b",
+    "\\bdelft\\b",
+    "\\benschede\\b",
+    "\\brotterdam\\b",
+    "\\butrecht\\b",
+    "\\bmunich\\b",
+    "\\bm(?:u|ue|\\u00fc)nchen\\b",
+    "\\bstuttgart\\b",
+    "\\bberlin\\b",
+    "\\bhamburg\\b",
+    "\\bdresden\\b",
+    "\\bnuremberg\\b",
+    "\\blund\\b",
+    "\\bgothenburg\\b",
+    "\\bg(?:o|oe|\\u00f6)teborg\\b",
+    "\\bstockholm\\b",
+    "\\bmalm(?:o|oe|\\u00f6)\\b",
+    "\\bcopenhagen\\b",
+    "\\bbrno\\b",
+    "\\bprague\\b",
+    "\\bro(?:z|\\u017e)nov\\b",
+    "\\bkrak(?:o|\\u00f3)w\\b",
+    "\\bcracow\\b",
+    "\\bgda(?:n|\\u0144)sk\\b",
+    "\\bwarsaw\\b",
+    "\\bwroc(?:l|\\u0142)aw\\b",
+    "\\bporto\\b",
+    "\\blisbon\\b",
+    "\\bbraga\\b",
+    "\\bleuven\\b",
+    "\\bgrenoble\\b",
+    "\\bcambridge,\\s*(?:uk|england|cambridgeshire)\\b"
+  ],
+  "us_hints": [
+    "\\bunited states\\b",
+    "\\bu\\.?s\\.?a\\.?\\b",
+    "\\bu\\.?s\\.?\\s+person\\b",
+    "\\bus\\s+work\\s+authorization\\b",
+    "\\bin\\s+the\\s+u\\.?s\\.?\\b",
+    "\\bstem\\s+opt\\b",
+    "\\bh-?1b\\b",
+    "\\bgreen\\s+card\\b"
+  ],
+  "relaxed_in_eu_uk": [
+    "\\bcontinuous\\s+work\\s+authorization\\b",
+    "\\bmust\\s+have\\s+(?:and\\s+maintain\\s+)?(?:continuous\\s+)?work\\s+authorization\\b",
+    "\\bmust\\s+be\\s+(?:legally\\s+)?authorized\\s+to\\s+work\\b"
+  ],
+  "categories": {
+    "ITAR / US Person": [
+      {
+        "regex": "\\bu\\.?s\\.?\\s+person\\b"
+      },
+      {
+        "regex": "\\bitar\\b"
+      },
+      {
+        "regex": "\\bear\\s+compliance\\b"
+      },
+      {
+        "regex": "\\bexport\\s+control\\b"
+      },
+      {
+        "regex": "\\bdeemed\\s+export\\b"
+      },
+      {
+        "regex": "\\bitar[\\/\\s]ear\\b"
+      },
+      {
+        "regex": "\\bexport\\s+administration\\s+regulations\\b",
+        "note": "Caught manually in A5: ASML J-00352651 \"legally authorized to access such controlled technology\" citing the Export Administration Regulations (15 C.F.R. § 730)"
+      },
+      {
+        "regex": "\\bcontrolled\\s+technology\\b"
+      }
+    ],
+    "Security Clearance": [
+      {
+        "regex": "\\bsecurity\\s+clearance\\b"
+      },
+      {
+        "regex": "\\bsecret\\s+clearance\\b"
+      },
+      {
+        "regex": "\\btop\\s+secret\\b"
+      },
+      {
+        "regex": "\\bts\\/sci\\b"
+      },
+      {
+        "regex": "\\bdod\\s+clearance\\b"
+      },
+      {
+        "regex": "\\bclearance\\s+required\\b"
+      },
+      {
+        "regex": "\\bactive\\s+clearance\\b"
+      },
+      {
+        "regex": "\\bobtain\\s+(?:a\\s+)?clearance\\b"
+      },
+      {
+        "regex": "\\bpublic\\s+trust\\s+clearance\\b"
+      },
+      {
+        "regex": "\\bmust\\s+(?:hold|have|obtain)\\s+(?:a\\s+)?(?:security\\s+)?clearance\\b"
+      }
+    ],
+    "US Citizenship / PR Required": [
+      {
+        "regex": "\\bmust\\s+be\\s+a\\s+u\\.?s\\.?\\s+citizen\\b"
+      },
+      {
+        "regex": "\\bu\\.?s\\.?\\s+citizens?\\s+only\\b"
+      },
+      {
+        "regex": "\\bcitizens?\\s+only\\b"
+      },
+      {
+        "regex": "\\bpermanent\\s+residents?\\s+only\\b"
+      },
+      {
+        "regex": "\\bu\\.?s\\.?\\s+citizen\\s+or\\s+(?:permanent\\s+resident|green\\s+card|pr)\\b"
+      },
+      {
+        "regex": "\\bu\\.?s\\.?\\s+citizenship\\s+with\\s+ability\\s+to\\s+(?:successfully\\s+)?complete\\s+a\\s+federal\\s+background\\s+investigation\\b",
+        "note": "Caught live: Niyam IT \"US Citizenship with ability to successfully complete a federal background investigation.\" — bare noun-phrase bullet, no \"requires\"/\"must be\" verb."
+      }
+    ],
+    "No Sponsorship": [
+      {
+        "regex": "\\bno\\s+sponsorship\\s+(?:available|offered|provided)\\b"
+      },
+      {
+        "regex": "\\bwill\\s+not\\s+(?:sponsor|provide\\s+sponsorship)\\b"
+      },
+      {
+        "regex": "\\bauthorized\\s+to\\s+work\\s+(?:in\\s+the\\s+u\\.?s\\.?|without\\s+sponsorship)\\b"
+      },
+      {
+        "regex": "\\bcontinuous\\s+work\\s+authorization\\b",
+        "note": "Caught live: TP-Link \"continuous work authorization in the US without the need for visa sponsorships\""
+      },
+      {
+        "regex": "\\bwithout\\s+the\\s+need\\s+for\\s+(?:visa\\s+)?sponsorship"
+      },
+      {
+        "regex": "\\bmust\\s+have\\s+(?:and\\s+maintain\\s+)?(?:continuous\\s+)?work\\s+authorization\\b"
+      },
+      {
+        "regex": "\\bno\\s+visa\\s+sponsorship\\b"
+      },
+      {
+        "regex": "\\bno\\s+sponsorship\\b",
+        "note": "Bare forms. candidate_context.md lists these and the regex layer must agree with it, or A2.5 passes a JD that A5 would then have to catch."
+      },
+      {
+        "regex": "\\bmust\\s+be\\s+(?:legally\\s+)?authorized\\s+to\\s+work\\b"
+      },
+      {
+        "regex": "\\bwithout\\s+(?:current\\s+or\\s+future\\s+)?(?:visa\\s+)?sponsorship\\b"
+      },
+      {
+        "regex": "\\bnot\\s+(?:able|able\\s+to|in\\s+a\\s+position)\\s+to\\s+(?:offer|provide)\\s+(?:visa\\s+)?sponsorship\\b"
+      },
+      {
+        "regex": "\\bsponsorship\\s+is\\s+not\\s+available\\b",
+        "note": "Caught live: Motorola \"Employer work permit sponsorship is not available for this position\""
+      },
+      {
+        "regex": "\\bsponsorship\\s+is\\s+not\\s+(?:provided|offered)\\b",
+        "note": "Caught live: Caterpillar \"Visa sponsorship is NOT provided for this position\""
+      },
+      {
+        "regex": "\\bwill\\s+not\\s+consider\\s+applicants\\s+for\\s+employment\\s+immigration\\s+sponsorship\\b",
+        "note": "Caught live: Eaton \"will not consider applicants for employment immigration sponsorship or support... will not support any CPT, OPT, or STEM OPT plans\""
+      },
+      {
+        "regex": "\\bwill\\s+not\\s+support\\s+any\\s+cpt,?\\s*opt,?\\s*(?:or\\s+)?stem\\s+opt\\b"
+      },
+      {
+        "regex": "\\bnot\\s+support\\s+(?:any\\s+)?(?:cpt|opt|stem\\s+opt)\\s+plans?\\b"
+      },
+      {
+        "regex": "\\bnot\\s+a\\s+position\\s+for\\s+which\\s+sponsorship\\s+will\\s+be\\s+provided\\b",
+        "note": "Caught manually in A5: Vertiv (all US reqs on egup.fa.us2.oraclecloud.com), 2026-09-21 — \"This is not a position for which sponsorship will be provided. Individuals with temporary visas such as E, F-1, H-1... are not eligible for hire.\""
+      },
+      {
+        "regex": "\\btemporary\\s+visas?\\s+such\\s+as\\b[^.]{0,60}\\bf-?1\\b[^.]{0,120}\\bnot\\s+eligible\\b"
+      },
+      {
+        "regex": "\\bnot\\s+eligible\\s+for\\s+any\\s+form\\s+of\\s+sponsorship\\b",
+        "note": "Caught manually in A5: Grainger Businesses (Embedded Systems Engineer, req 335303), 2026-09-24 — \"This position is not eligible for any form of sponsorship now or in the future. Individuals requiring sponsorship (e.g. OPT or H1B visa status) should not apply.\""
+      },
+      {
+        "regex": "\\bindividuals\\s+requiring\\s+sponsorship\\b[^.]{0,60}\\bshould\\s+not\\s+apply\\b"
+      },
+      {
+        "regex": "\\b(?:does|do|will)\\s+not\\s+support\\s+(?:visa\\s+|employment\\s+|immigration\\s+)?sponsorship\\b",
+        "note": "Caught manually in A5: Ford Motor Company (Embedded Software Engineer, Sunrise FL, hybrid), 2026-09-30 — \"This position does not support sponsorship.\" Bare \"does not support\" phrasing; every prior pattern used offer/provide/available/eligible."
+      },
+      {
+        "regex": "\\bsponsorship\\s*:\\s*(?:not\\s+available|none|no|not\\s+(?:offered|provided))\\b",
+        "note": "Caught manually in A5: Blue River Technology / John Deere (Software Engineer, See & Spray, Santa Clara CA), 2026-10-01 — \"Visa sponsorship: Not available.\" Label-colon form, with the negation AFTER \"sponsorship\"; earlier patterns all put the negation first or used \"is\"."
+      },
+      {
+        "regex": "\\b(?:this\\s+)?(?:role|position|job|opening|req(?:uisition)?)\\s+is\\s+not\\s+available\\s+for\\b[^.]{0,60}\\bsponsorship\\b",
+        "note": "Caught manually in A5: IDEX / Advanced Flow Solutions (Software Engineer - Embedded Systems, Oklahoma City OK / Remote USA, R-10076), 2026-10-08 — \"This role is not available for employment visa sponsorship.\" Subject is the ROLE, not sponsorship, so every prior \"sponsorship is not available\" pattern missed it."
+      },
+      {
+        "regex": "\\bnot\\s+available\\s+for\\s+(?:employment\\s+|work\\s+|immigration\\s+)?visa\\s+sponsorship\\b"
+      },
+      {
+        "regex": "\\bwill\\s+not\\s+consider\\s+(?:candidates|applicants)\\s+who\\s+require\\s+sponsorship\\b",
+        "note": "Caught manually in A5: CRABI (Robotics GNC Engineer, Medford MA), 2026-10-05 — \"The company will not consider candidates who require sponsorship for a work-authorized visa, now or in the future.\" Verb is \"will not consider ... who require sponsorship\"."
+      },
+      {
+        "regex": "\\bunable\\s+to\\s+(?:offer\\s+or\\s+)?(?:offer|provide)\\s+(?:visa\\s+)?sponsorship\\b",
+        "note": "Caught manually in A5: Optimove (Machine Learning Engineer, Dundee, Scotland), 2026-10-04 — \"Must be eligible to work in the UK - we are unable to provide sponsorship at this time.\" Existing pattern only matched \"not able to provide\"; \"unable to\" slipped through."
+      },
+      {
+        "regex": "\\bunable\\s+to\\s+sponsor\\s+(?:new\\s+)?(?:h-?1b|visa|work)\\b",
+        "note": "Caught manually in A5: Bright Vision Technologies (Embedded AI Engineer, Remote US), 2026-10-08 — \"We are unable to sponsor new H-1B visa petitions for this position.\" Verb is bare \"sponsor\" + H-1B object, not the noun \"sponsorship\"."
+      }
+    ]
+  }
+}

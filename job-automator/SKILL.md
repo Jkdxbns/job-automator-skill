@@ -110,7 +110,7 @@ Inputs: job URL or pasted JD text · `references/candidate_context.md` · `refer
 **First A turn, as parallel calls:** S1, A0, and
 `python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit`, which prints `fit_payload.md`,
 `keywords_only.json` and `candidate_context.md` verbatim (no Read line numbers). Read any file it lists as
-NOT PRINTED, and Read `candidate_context.md` before an A5 Edit.
+NOT PRINTED.
 
 **A0 — Job directory + keyword cache**
 ```bash
@@ -194,8 +194,14 @@ Employers phrase these four endlessly differently, but one is almost always pres
 sponsorship** (ever, incl. CPT/OPT/STEM-OPT) · **ITAR / export control** (US Person, EAR, deemed export) ·
 **citizenship or PR required** · **security clearance** (any, active or obtainable — Secret/TS/SCI/DoD/public
 trust). If you catch one A2.5 missed, set `hard_blocker.triggered = true`, `reason = exact sentence +
-category`, **and** append the wording to the matching list in `candidate_context.md` so the regex layer learns
-it.
+category`, **and** record it so the regex layer learns it (one call, no file reads or edits):
+```bash
+python3 ~/.claude/skills/job-automator/scripts/prescreen_jd.py add --category <itar|clearance|citizenship|sponsorship> \
+  --regex '<regex>' --example '<the exact sentence>' --source '<Company, "Role", place, req, date>' \
+  --note '<why the regex missed it>' --phrase '<wording for the candidate_context.md list>'
+```
+It adds the regex to `hard_blockers.json`, appends the wording and an "Also caught" note to
+`candidate_context.md`, and re-scans.
 - `defense_category_keywords` — 2+ matches AND sponsorship unknown → flag `⚠️ DEFENSE CATEGORY — verify
   citizenship requirement before applying`.
 
