@@ -136,4 +136,7 @@ def main():
 
 
 if __name__ == "__main__":
+    if sys.argv[1:2] in (['-h'], ['--help']):   # usage, no side effects
+        print(__doc__)
+        sys.exit(0)
     sys.exit(main())

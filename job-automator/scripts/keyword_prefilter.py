@@ -55,11 +55,17 @@ def load_sponsorship_context(path: str) -> dict:
     until tested end-to-end here). score_fit.py sidesteps this with its own
     regex line-scan; this does the equivalent for a comma-list value that may
     wrap across an unindented line, by capturing from the key up to the next
-    blank line, `[section]` header, or new `key =` line."""
+    blank line, `#` comment line, `[section]` header, or new `key =` line.
+
+    The comment stop matters: the "# Also caught manually: ..." audit notes sit
+    directly under the list with no blank line, and without it their fragments
+    ("ma", "co", "ca", "oh", "hybrid"...) were read as phrases, which set
+    sponsorship_flag on almost every posting and glued the last real phrase to
+    a comment so it never matched."""
     text = open(path).read()
     def extract_list(key):
         m = re.search(
-            rf"^{re.escape(key)}\s*=\s*(.+?)(?=\n\s*\n|\n\[|\n[A-Za-z_][A-Za-z0-9_]*\s*=|\Z)",
+            rf"^{re.escape(key)}\s*=\s*(.+?)(?=\n\s*\n|\n\s*#|\n\[|\n[A-Za-z_][A-Za-z0-9_]*\s*=|\Z)",
             text, re.MULTILINE | re.DOTALL,
         )
         if not m:

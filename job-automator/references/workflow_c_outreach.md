@@ -60,6 +60,11 @@ non-negotiable body formatting (no hyphens or dashes anywhere, no numbers in the
 language, no mid-paragraph line breaks, plain uneven rhythm, a one-line self-identification opener, and never
 mentioning visa/OPT/EAD unless Justin asks).
 
+**Portfolio link — every outreach message too.** Email and DM both close with the fixed sign-off `Best, /
+Justin Mascarenhas / justinmascarenhas.com`, which **replaces** the old LinkedIn URL. Root domain only in
+outreach: the `/embedded` and `/edge-ai` track pages belong to the resume and their hyphen breaks the no-dash
+body rule. Full rule: [outreach_rules.md § Substance](outreach_rules.md).
+
 **C5 / C5b / C6 / C6.5 — Deliver, save, log, remind**
 
 Full procedure in [outreach_delivery.md](outreach_delivery.md). The decisions and standing corrections that

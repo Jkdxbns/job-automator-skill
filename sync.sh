@@ -19,7 +19,7 @@ case "${1:-}" in
     echo "pulled code + config. job_search/ and jobs/ are snapshots only — not copied back."
     ;;
   push)
-    rsync -a "${X[@]}" ~/.claude/skills/job-automator/            "$R/job-automator/"
+    rsync -a "${X[@]}" --exclude=/hooks/ ~/.claude/skills/job-automator/ "$R/job-automator/"   # hooks live in claude/hooks only
     rsync -a "${X[@]}" ~/.claude/skills/emploive-analysis/        "$R/skills/emploive-analysis/"
     rsync -a "${X[@]}" ~/.claude/skills/batch-delegate/           "$R/skills/batch-delegate/"
     cp -p ~/.claude/hooks/*.py "$R/claude/hooks/"

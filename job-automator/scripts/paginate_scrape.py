@@ -25,11 +25,11 @@ import json
 import sys
 from urllib.parse import urljoin
 
-from playwright.sync_api import sync_playwright
-
 
 def scrape(url: str, link_selector: str, next_selector: str | None,
            max_pages: int, wait_ms: int) -> list:
+    # Imported here, not at module load, so --help works where Playwright isn't installed.
+    from playwright.sync_api import sync_playwright
     postings = []
     seen_urls = set()
 

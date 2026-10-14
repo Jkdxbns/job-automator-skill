@@ -68,6 +68,9 @@ def scrape(url: str) -> str:
 
 
 if __name__ == "__main__":
+    if sys.argv[1:2] in (['-h'], ['--help']):   # usage, no side effects
+        print(__doc__)
+        sys.exit(0)
     if len(sys.argv) < 2:
         print("Usage: python scrape_jd.py <url>")
         sys.exit(1)

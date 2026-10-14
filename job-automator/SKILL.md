@@ -30,6 +30,8 @@ about a tool result.
 **References load on demand** — each step names the file it needs. `scoring_rationale.md` holds the formulas,
 backtests and audit history; read it only when changing a rule.
 
+**Scripts are run, not read.** Need an argument a step doesn't show? Run the script with `--help`, not its
+source.
 
 ---
 
@@ -42,7 +44,7 @@ C it fired for ~5% of sessions and 21 of 22 drafts went past due.
    ```bash
    python3 ~/.claude/skills/job-automator/scripts/process_followups.py --count
    ```
-   → `FOLLOWUPS=<n> DRAFTS=<n>`
+   → `FOLLOWUPS=<n> DRAFTS=<n>`. Send it alongside the first step's commands, as a parallel call.
 2. If `FOLLOWUPS` > 0, print **one line**, then immediately continue with what was asked:
    > `note: {N} outreach messages past follow-up date — say "followups" to triage`
 
@@ -65,7 +67,7 @@ Run exactly the step asked for, then stop.
 |---|---|---|
 | a pasted JD block (role + responsibilities/qualifications), **no verb** | **A** (default — never ask "what do you want?") | below |
 | "analyze" / "check fit" / "should I apply" / a job URL | A | below |
-| "tailor" / "tailor my resume" | **B** on the current job | below |
+| "tailor" / "tailor my resume" | **B** on the current job | B-GATE below, then `references/workflow_b_tailoring.md` |
 | "draft cold email" / "draft LinkedIn DM" / "draft outreach" | C | `references/workflow_c_outreach.md` |
 | "follow up with X" / "mark X sent" | C1.5 / C6.5 | `references/workflow_c_outreach.md` |
 | "mark submitted" / "submitted" / "done" | D | `references/workflow_d_submitted.md` |
@@ -73,7 +75,8 @@ Run exactly the step asked for, then stop.
 | "X replied" / "got an interview" / "rejected by X" / "offer from X" | F1 | `references/workflow_f_outcomes.md` |
 | "how's my funnel" / "what's converting" | F2 | `references/workflow_f_outcomes.md` |
 
-**Read the named file in full before acting on a C / D / F route.** A and B are inline below.
+**Read the named file in full before acting on a B (after B-GATE) / C / D / F route.** A and B-GATE are
+inline below.
 
 **Rules**
 - **Stop after the requested step. Never chain to the next unasked.** Standing preference; it overrides any
@@ -101,9 +104,44 @@ Inputs: job URL or pasted JD text · `references/candidate_context.md` · `refer
 `references/skills_db.json` (canonical skills + aliases + depth; built by `build_skills_db.py` from
 `master_profile.json` + the curated `references/skill_aliases.json`).
 
-**A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** Commands in
-**[fit_payload.md](references/fit_payload.md)**: `build_keywords.py`, `build_skills_db.py`, `$JOB_CWD`/`$JOB_DIR`,
-`keywords_only.json`, `skills_db.json`, `scrape_jd.py`, `prescreen_jd.py`.
+**A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** The commands are below.
+**[fit_payload.md](references/fit_payload.md)** holds the A3 `jd` schema and the A6 payload.
+
+**First A turn, as parallel calls:** S1, and ONE Bash call that runs A0's two cache builds and then
+`python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit` (after them, so the keywords are fresh), which prints `fit_payload.md`,
+`keywords_only.json` and `candidate_context.md` verbatim (no Read line numbers). Read any file it lists as
+NOT PRINTED.
+
+**A0 — Job directory + keyword cache**
+```bash
+python3 ~/.claude/skills/job-automator/scripts/build_keywords.py
+python3 ~/.claude/skills/job-automator/scripts/build_skills_db.py
+export JOB_CWD=$(pwd)
+```
+After A3 sets the slugs:
+```bash
+export JOB_DIR=${JOB_CWD}/${company_slug}_${job_slug}
+mkdir -p ${JOB_DIR}/logs
+```
+`$JOB_DIR` is an exported env var, available to every later bash/Python step. Parallel sessions each get their
+own — separate shell processes.
+
+**A1 — Load candidate keywords.** Load `references/keywords_only.json` (`print_refs.py fit` prints it), not
+the full profile — A only needs keywords. `profile.all_keywords` feeds A4; `master_profile.json` is loaded only in B and A6.5.
+
+**A2 — Get JD text.** `python3 ~/.claude/skills/job-automator/scripts/scrape_jd.py "<url>"` — exit 2 or 3 →
+ask the user to paste the JD. Most target career sites (Apple, Tesla, Rivian, Greenhouse/Workday/Lever) are
+JS-rendered: do not spend turns on static scrapes — go straight to browser extraction using page-text
+extraction, and if that returns only nav/footer boilerplate, ask for a paste (global CLAUDE.md).
+
+**A2.5 — Hard blocker pre-screen** (regex, zero tokens)
+```bash
+RESULT=$(echo "$jd_text" | python3 ~/.claude/skills/job-automator/scripts/prescreen_jd.py); EXIT=$?
+```
+`EXIT=1` → parse `BLOCK:<category>:<matched_phrase>`, print the ⛔ HARD BLOCK banner with the matched phrase,
+MATCHES/APPLY = No, and "F-1 OPT holders do not qualify." **STOP. Do not run A3–A9, B, or C.** Not
+overridable. `EXIT=0` (CLEAR) → continue. Sponsorship regexes include the Eaton-derived CPT/OPT/STEM-OPT
+phrasings — do not remove them.
 
 **Skill vocabulary is centralised.** `scripts/skill_match.py` is the ONE place that answers "does Justin
 have this JD skill?" — `score_fit.py` (req_cov), `select_content.py` (B1 ranking) and `verify_coverage.py`
@@ -156,8 +194,14 @@ Employers phrase these four endlessly differently, but one is almost always pres
 sponsorship** (ever, incl. CPT/OPT/STEM-OPT) · **ITAR / export control** (US Person, EAR, deemed export) ·
 **citizenship or PR required** · **security clearance** (any, active or obtainable — Secret/TS/SCI/DoD/public
 trust). If you catch one A2.5 missed, set `hard_blocker.triggered = true`, `reason = exact sentence +
-category`, **and** append the wording to the matching list in `candidate_context.md` so the regex layer learns
-it.
+category`, **and** record it so the regex layer learns it (one call, no file reads or edits):
+```bash
+python3 ~/.claude/skills/job-automator/scripts/prescreen_jd.py add --category <itar|clearance|citizenship|sponsorship> \
+  --regex '<regex>' --example '<the exact sentence>' --source '<Company, "Role", place, req, date>' \
+  --note '<why the regex missed it>' --phrase '<wording for the candidate_context.md list>'
+```
+It adds the regex to `hard_blockers.json`, appends the wording and an "Also caught" note to
+`candidate_context.md`, and re-scans.
 - `defense_category_keywords` — 2+ matches AND sponsorship unknown → flag `⚠️ DEFENSE CATEGORY — verify
   citizenship requirement before applying`.
 
@@ -183,14 +227,13 @@ Set `production_scope_required = true` when the JD centres on owning a productio
 profile is capstone/research/internship scope, so that is a real gap even when keywords match. Reported, never
 scored.
 
-
 **A6 — Score + verdict + write fit.json (one script call).** A4's math, the verdict thresholds and the
 fit.json write are **one deterministic script**. They were once pseudocode the model re-executed by hand,
 which is how a role got recorded as `seniority_fit: "Mismatch"` *and* `apply: "Can Try"`. **Do not reimplement
 any of it inline.** Build the payload from A3–A5 (shape in [fit_payload.md](references/fit_payload.md)) and
 run:
 ```bash
-python3 ~/.claude/skills/job-automator/scripts/score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR"
+python3 ~/.claude/skills/job-automator/scripts/score_fit.py /tmp/fit_payload.json --job-dir "$JOB_DIR" --report --log
 ```
 It computes `match_pct`, `seniority_fit`, `experience_mismatch` and both verdicts, and writes
 `$JOB_DIR/logs/fit.json` atomically. Verdict logic, first match wins:
@@ -202,6 +245,10 @@ match_pct ≥ min_match_for_can_try         → MATCHES Partial, APPLY Can Try
 below min_match_for_can_try               → MATCHES No,      APPLY No
 ```
 Thresholds come from `references/candidate_context.md`.
+
+**`--report --log` = A7 + A9 in the same call** (single role), once fit.json is final: the report prints
+between `=== A7 REPORT` markers and the log row is written. While SEMANTIC is REQUIRED they wait for the A6.5
+merge. Batch: no flags; run A7 and A9 once over every fit.json.
 
 **There is no semantic branch here, by construction** — `score_fit.py` has no code path from `llm_analysis` to
 `verdicts.apply`. The semantic read is merged into the existing fit.json (A6.5) — it never triggers a second
@@ -218,10 +265,13 @@ scoring run. Never hand-edit fit.json.
 >    a prose opinion. Pasted JD text and URLs alike.
 > 4. **REQUIRED not printed (match < 60, or hard blocker) → the semantic read MUST NOT be run.** Never run it
 >    "to be thorough".
-> 5. Save the read as JSON and merge it — **never re-run scoring** and never rebuild the payload:
->    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic <semantic.json> --job-dir "$JOB_DIR"`
+> 5. Save the read as JSON and merge it — **never re-run scoring** and never rebuild the payload. Both in ONE
+>    Bash call: `cat > "$JOB_DIR/logs/semantic.json" <<'JSON'` … the read … `JSON`, then on the next line
+>    `python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic "$JOB_DIR/logs/semantic.json" --job-dir "$JOB_DIR" --report --log`
 > 6. Render A7 **only after** that merge (or immediately, if the read was not required). Never render A7 while
 >    `semantic_pending` is true.
+
+Inputs, one call: `print_refs.py semantic` (`semantic_read.md` + the FULL `master_profile.json`, verbatim).
 
 Procedure, anchors and output shape: **[semantic_read.md](references/semantic_read.md)**, read before
 writing the read. Two constraints
@@ -230,6 +280,9 @@ stay here because they are what went wrong before: **do not deflate `llm_match_p
 the B-GATE conversation, never the number.
 
 **A7 — Display report** — **runs AFTER A6 has written fit.json.**
+
+Single role: if the output shows the `=== A7 REPORT` markers, `--report` already ran this renderer; paste that
+block and don't re-run it. Otherwise (batch, re-render, or a call without the flag) run the command below.
 
 > **HARD RULE — the report is script-rendered, then COPIED INTO YOUR REPLY.**
 > ```bash
@@ -269,6 +322,8 @@ python3 ~/.claude/skills/job-automator/scripts/log_fit.py $JOB_DIR/logs/fit.json
 re-run updates, never duplicates) and atomic. Writes `~/job_search/fit_analysis_log.json`; F2's funnel reads
 it, so a skipped row is lost funnel data ([scoring_rationale.md §4](references/scoring_rationale.md)).
 
+Single role: if the output shows a `LOGGED`/`UPDATED` line, `--log` already wrote this row; otherwise run it.
+
 Stop here unless this is part of a larger requested flow.
 
 ---
@@ -301,64 +356,15 @@ verdict**, not the semantic read.
 - No `llm_analysis` though `match_pct` cleared the trigger → the semantic read should have run; offer it
   first.
 
-`hooks/gate_resume_build.py` enforces this at the Bash layer too, so a forgotten check is denied rather than
+`~/.claude/hooks/gate_resume_build.py` enforces this at the Bash layer too, so a forgotten check is denied rather than
 silently tailoring a rejected role.
 
-**B0 – B4 — cache check, tailor, generate.** Mechanics in
-**[workflow_b_tailoring.md](references/workflow_b_tailoring.md)**: the `resume_cache.py check` reuse offer
-(its key is salted with a hash of `master_profile.json`, so a profile edit invalidates every cached resume),
-the B1 pre-filter, B2 summary pick, the B3 prompt (in `tailoring_prompt.md`), and the `generate_pdf.py` call
-with its exit codes. **Exit 1 means the compile FAILED and no PDF was written — show the pdflatex log tail,
-say the resume did not build, and stop. Never hand Justin a lone `.tex` as if it were the deliverable.**
-
-**Portfolio link — every resume.** The header is `phone | email | portfolio | location`; LinkedIn is
-deliberately left off. `generate_pdf.py` picks the URL from `role_category`, printing `PORTFOLIO=<url>`:
-embedded/firmware/hardware roles get `justinmascarenhas.com/embedded`, every other role gets
-`justinmascarenhas.com/edge-ai`. Name the URL used when reporting the PDF in B5. Details and the one-job
-override: [resume_format.md § Header](references/resume_format.md).
+**After B-GATE clears, read [workflow_b_tailoring.md](references/workflow_b_tailoring.md) in full before
+acting:** B0–B5, including **B4-VERIFY** and **B4.5**.
 
 ⚠️ **Never edit `master_profile.json` without Justin's explicit in-the-moment permission** — it is the source
 of truth for every tailored resume, so a silent edit propagates into live applications. Propose, state the
 reasoning, wait.
-
-**B4-VERIFY — assert the PDF exists before reporting done (mandatory).** Never trust the exit code alone:
-```bash
-PDF=$(ls -t $JOB_DIR/resume_*.pdf 2>/dev/null | head -1)
-if [ -z "$PDF" ] || [ ! -s "$PDF" ]; then
-  echo "NO PDF — resume did not build"
-else
-  pdfinfo "$PDF" | grep -i Pages     # must read "Pages: 1"
-fi
-```
-If no non-empty `resume_*.pdf` exists, the build failed regardless of what any earlier message implied — stop
-and say so. If `pdfinfo` reports more than one page, treat it as the exit-2 overflow path and redraft. Only a
-real, existing, single-page PDF may be reported as done in B5.
-
-**On overflow (exit 2)** — read `OVERFLOW_LINES=N` and shorten the tailored JSON with the redraft prompt in
-[tailoring_prompt.md](references/tailoring_prompt.md): longest bullets first, then the weakest bullet of the
-least-relevant entry, then the least-relevant project. **Never** cut the summary, skills, education, or a
-bullet carrying an ATS keyword. Max 2 attempts, then save as-is and warn.
-
-**B4.5 — Verify ATS keyword coverage (always run)**
-```bash
-python3 ~/.claude/skills/job-automator/scripts/verify_coverage.py $JOB_DIR/logs/fit.json $JOB_DIR/logs/tailored.json
-```
-Exit 0 = covered · 1 = gaps (expected and fine) · 2 = error. The B3 prompt *instructs* the model to mirror ATS
-keywords; nothing ever confirmed they landed. **Reproduce the output in your reply** (A7 hard rule — Bash
-output never reaches Justin). It splits what is missing into two very different things:
-
-- **🔧 FIXABLE** — the master profile backs this skill but *this* resume dropped it. Offer to surface it by
-  reordering or reselecting a bullet, or adding to skills. **Never invent a bullet — only surface what already
-  exists.**
-- **🚧 CEILING** — nothing in the master profile backs it. This is the honest ceiling for the role. **Do not
-  invent it, and do not quietly add it to skills.** Knowing this *before* applying is the point.
-
-If FIXABLE items exist, ask once whether to redraft. If only CEILING items remain, state the true coverage and
-move on — that is the realistic ATS score for this application.
-
-**B5 — Index + report.** Index for reuse (`resume_cache.py index`), then report the PDF and TEX paths, logs
-dir, reuse hash, top 5 ATS keywords injected, and `Pages: 1`. Command in
-[workflow_b_tailoring.md](references/workflow_b_tailoring.md).
 
 ## Sub-workflows C, D, F, G · hooks · errors
 
@@ -366,18 +372,6 @@ Each is one self-contained step. **Read its file (named in the routing table) in
 outranking those files: **never auto-send** outreach (email → Gmail draft, DM → pasted inline); a follow-up
 reminder only after Justin confirms it went out; **always** run `mark_submitted.py`, never hand-append a CSV
 row; **never infer an outcome**.
-
-**Portfolio link — every outreach message too.** Email and DM both close with the fixed sign-off `Best, /
-Justin Mascarenhas / justinmascarenhas.com`, which **replaces** the old LinkedIn URL. Root domain only in
-outreach: the `/embedded` and `/edge-ai` track pages belong to the resume and their hyphen breaks the no-dash
-body rule. Full rule: [outreach_rules.md § Substance](references/outreach_rules.md).
-
-**After D4 confirms a submission, offer Sub-workflow G — once, then stop.** Match ≥ 80 → 10 recruiter
-emails, 60–79 → 5, < 60 → do not offer. Ask *"Draft outreach for {company}? Match is {n}%, so that's {n}
-emails. Yes / No / a number."* — a number in the answer ("yes but 20") wins. Only on a yes does
-`hunt_contacts.py` run, and it refuses outright unless the role is already in the submitted log. Recruiters
-only, never a referral ask, drafts shown in the reply and **never sent**:
-[workflow_g_recruiter_outreach.md](references/workflow_g_recruiter_outreach.md).
 
 `protect_resumes.py`, `lint_skill_on_edit.py` and `gate_resume_build.py` (which makes B-GATE structural) are
 all wired in `~/.claude/hooks/`. Details, error table, output-file map and the `validate_skill.py` check:

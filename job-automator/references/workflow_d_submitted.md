@@ -43,3 +43,10 @@ emails, 60–79 → 5, < 60 → do not offer at all. Ask once — *"Draft outrea
 is spent.
 ---
 
+**After D4 confirms a submission, offer Sub-workflow G — once, then stop.** Match ≥ 80 → 10 recruiter
+emails, 60–79 → 5, < 60 → do not offer. Ask *"Draft outreach for {company}? Match is {n}%, so that's {n}
+emails. Yes / No / a number."* — a number in the answer ("yes but 20") wins. Only on a yes does
+`hunt_contacts.py` run, and it refuses outright unless the role is already in the submitted log. Recruiters
+only, never a referral ask, drafts shown in the reply and **never sent**:
+[workflow_g_recruiter_outreach.md](workflow_g_recruiter_outreach.md).
+

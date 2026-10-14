@@ -7,7 +7,7 @@ whole system can be edited from Claude Code on the web.
 
 | Repo path | Local path | What it is |
 |---|---|---|
-| `job-automator/` | `~/.claude/skills/job-automator/` | The skill: `SKILL.md`, `scripts/`, `references/`, `hooks/` |
+| `job-automator/` | `~/.claude/skills/job-automator/` | The skill: `SKILL.md`, `scripts/`, `references/` (its hooks live in `claude/hooks/` only) |
 | `skills/emploive-analysis/` | `~/.claude/skills/emploive-analysis/` | Skill that runs job-automator per Emploive job |
 | `skills/batch-delegate/` | `~/.claude/skills/batch-delegate/` | Batch layer used by job-automator's batch variant |
 | `claude/hooks/` | `~/.claude/hooks/` | Live hooks: `protect_resumes.py`, `gate_resume_build.py`, `lint_skill_on_edit.py` |

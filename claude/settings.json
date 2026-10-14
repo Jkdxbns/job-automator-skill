@@ -3,11 +3,7 @@
   "permissions": {
     "allow": [
       "Read(//home/jkdxbns/.claude/skills/job-automator/**)",
-      "Bash(python scripts/extract_profile.py references/resume.docx)",
-      "Bash(python scripts/generate_pdf.py ~/job_search/motorola-solutions_embedded-software-engineer_tailored.json ~/resumes/)",
-      "Bash(python scripts/scrape_linkedin.py \"https://www.linkedin.com/in/aneesh-gurram-a20227165/\")",
       "Bash(echo \"EXIT:$?\")",
-      "Bash(python scripts/print_draft.py ~/job_search/motorola-solutions_embedded-software-engineer_outreach.json)",
       "Read(//home/jkdxbns/resumes/**)",
       "Bash(pwd)",
       "Read(//tmp/**)"

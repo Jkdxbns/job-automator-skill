@@ -30,10 +30,19 @@ APPLY = No. Giving it that standalone power is exactly what broke.
 
 USAGE
 -----
-  python3 score_fit.py <payload.json> [--job-dir DIR] [--print]
+  python3 score_fit.py <payload.json> [--job-dir DIR] [--print] [--report] [--log [PATH]]
   cat payload.json | python3 score_fit.py - --job-dir "$JOB_DIR"
+  python3 score_fit.py --add-semantic <semantic.json> --job-dir DIR [--report] [--log [PATH]]
 
 Writes <job_dir>/logs/fit.json and prints the resolved verdict to stdout.
+
+--report / --log fold A7 and A9 into this call for a single role, ONLY once
+fit.json is final (no semantic read pending): --report prints exactly what
+render_report.py prints, between the REPORT_BEGIN / REPORT_END marker lines;
+--log writes exactly the row log_fit.py writes (default ~/job_search log, or
+PATH). While SEMANTIC is REQUIRED they print REPORT_PENDING and do nothing
+else; the --add-semantic merge is where they run. Without the flags the
+output is byte-identical to before they existed (regression_check.py).
 
 PAYLOAD SHAPE (the model produces this; every key optional except jd/have/...)
 ------------------------------------------------------------------------------
@@ -57,6 +66,7 @@ PAYLOAD SHAPE (the model produces this; every key optional except jd/have/...)
 
 EXIT CODES
   0 — scored and written
+  1 — --log could not log the row (log_fit.py's own exit 1)
   2 — bad input / unwritable job dir
 """
 
@@ -77,6 +87,11 @@ DEFAULTS = {
     "min_match_for_can_try": 40,
     "experience_threshold_years": 3,
 }
+
+REPORT_BEGIN = "=== A7 REPORT · paste everything between these two lines into your reply, unchanged ==="
+REPORT_END = "=== END A7 REPORT ==="
+REPORT_PENDING = ("REPORT      : not rendered and not logged yet — semantic read pending. Run A6.5; "
+                  "the --add-semantic merge with --report --log renders the report and writes the row.")
 
 SENIOR_TITLE_RE = re.compile(
     r"\b(senior|sr\.?|staff|principal|lead|architect|manager|head\s+of|"
@@ -342,6 +357,30 @@ def build(payload, thresholds):
     }
 
 
+def finish(fit_path, report, log_path):
+    """A7 + A9 in the same call, and only once fit.json is final.
+
+    Calls the same functions render_report.py and log_fit.py run from their own
+    CLIs, so the report text and the log row cannot drift from the standalone
+    scripts. Returns the log step's exit code (0 when not logging)."""
+    if not (report or log_path):
+        return 0
+    with open(fit_path) as f:
+        fit = json.load(f)
+    if fit.get("semantic_pending"):
+        print(REPORT_PENDING)
+        return 0
+    if report:
+        import render_report
+        print(REPORT_BEGIN)
+        print(render_report.render_single(render_report.load(fit_path)))
+        print(REPORT_END)
+    if log_path:
+        import log_fit
+        return log_fit.log_fits([fit_path], log_path)
+    return 0
+
+
 def merge_semantic(job_dir, sem_path):
     """A6.5 one-pass merge: attach the semantic read to an existing fit.json.
 
@@ -391,13 +430,26 @@ def main():
                          "(no re-scoring)")
     ap.add_argument("--print", action="store_true",
                     help="also print the fit.json to stdout")
+    ap.add_argument("--report", action="store_true",
+                    help="single role: also print the A7 report once fit.json is final")
+    ap.add_argument("--log", nargs="?", const="default", metavar="PATH",
+                    help="single role: also write the A9 global-log row once fit.json is "
+                         "final (default log, or PATH)")
     a = ap.parse_args()
+    log_path = None
+    if a.log:
+        import log_fit
+        log_path = log_fit.DEFAULT_LOG if a.log == "default" else os.path.expanduser(a.log)
 
     if a.add_semantic:
         if not a.job_dir:
             print("ERROR: no --job-dir and $JOB_DIR unset", file=sys.stderr)
             return 2
-        return merge_semantic(a.job_dir, a.add_semantic)
+        rc = merge_semantic(a.job_dir, a.add_semantic)
+        if rc != 0:
+            return rc
+        return finish(os.path.join(os.path.expanduser(a.job_dir), "logs", "fit.json"),
+                      a.report, log_path)
     if not a.payload:
         ap.error("payload is required unless --add-semantic is given")
 
@@ -453,7 +505,7 @@ def main():
     if a.print:
         print()
         print(json.dumps(fit, indent=2))
-    return 0
+    return finish(out, a.report, log_path)
 
 
 if __name__ == "__main__":

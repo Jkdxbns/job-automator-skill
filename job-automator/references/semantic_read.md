@@ -77,8 +77,14 @@ prints it as the "Would screen you out" list in the semantic block, and B-GATE p
 
 ## Handing it back
 
-Write the dict to a JSON file and merge it into the existing fit.json — **do not re-run scoring**:
-`python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic <semantic.json> --job-dir "$JOB_DIR"`.
+Write the dict to a JSON file and merge it into the existing fit.json — **do not re-run scoring**. One Bash
+call does both, and with `--report --log` it also prints the A7 report and writes the A9 log row:
+```bash
+cat > "$JOB_DIR/logs/semantic.json" <<'JSON'
+{ "llm_match_pct": 0, "llm_verdict": "...", "...": "the full read, shape above" }
+JSON
+python3 ~/.claude/skills/job-automator/scripts/score_fit.py --add-semantic "$JOB_DIR/logs/semantic.json" --job-dir "$JOB_DIR" --report --log
+```
 It stores the block verbatim, computes `calibration_delta = match_pct − llm_match_pct` (keeps the keyword-vs-
 semantic gap visible, historically ≈ +30, without letting it move the verdict) and clears `semantic_pending`.
 Scoring runs once per job. **Do not hand-edit fit.json to
