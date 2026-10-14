@@ -114,6 +114,27 @@ EXPECTED_TEXT_EDITS = [
      "old": "A third hook, installed from this skill's `hooks/` dir and **wired** in settings.json:",
      "new": "A third hook, kept in `~/.claude/hooks/` with the other two and **wired** in settings.json:",
      "why": "the duplicate hook copies in job-automator/hooks/ were removed; claude/hooks/ is the one copy"},
+    {"file": "references/fit_payload.md",
+     "old": ("# A0–A3 — setup, JD retrieval, and the score_fit.py payload\n\n"
+             "## A0 – A2.5 — job dir, keywords, JD text, hard-blocker pre-screen\n"),
+     "new": ("# A3 + A6 — the `jd` object and the score_fit.py payload\n\n"
+             "The A0 – A2.5 commands (job dir, keywords, JD text, hard-blocker pre-screen) moved to SKILL.md,"
+             " unchanged.\n"),
+     "why": "A0–A2.5 moved verbatim into SKILL.md, so A0 no longer waits on reading this file; title updated"},
+    {"file": "SKILL.md",
+     "old": ("**A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** Commands in\n"
+             "**[fit_payload.md](references/fit_payload.md)**: `build_keywords.py`, `build_skills_db.py`,"
+             " `$JOB_CWD`/`$JOB_DIR`,\n"
+             "`keywords_only.json`, `skills_db.json`, `scrape_jd.py`, `prescreen_jd.py`.\n"),
+     "new": ("**A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** The commands are below.\n"
+             "**[fit_payload.md](references/fit_payload.md)** holds the A3 `jd` schema and the A6 payload.\n"),
+     "why": "pointer to fit_payload.md replaced: the A0–A2.5 commands now sit right below it"},
+    {"file": "SKILL.md",
+     "old": "   → `FOLLOWUPS=<n> DRAFTS=<n>`\n",
+     "new": ("   → `FOLLOWUPS=<n> DRAFTS=<n>`. Issue it as a parallel call in the same turn as the routed"
+             " step's\n"
+             "   first commands (for A: A0 and `print_refs.py fit`), so it costs no extra round trip.\n"),
+     "why": "S1 runs in the same turn as the first step's commands instead of a turn of its own"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).

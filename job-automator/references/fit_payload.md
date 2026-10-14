@@ -1,38 +1,6 @@
-# A0–A3 — setup, JD retrieval, and the score_fit.py payload
+# A3 + A6 — the `jd` object and the score_fit.py payload
 
-## A0 – A2.5 — job dir, keywords, JD text, hard-blocker pre-screen
-
-**A0 — Job directory + keyword cache**
-```bash
-python3 ~/.claude/skills/job-automator/scripts/build_keywords.py
-python3 ~/.claude/skills/job-automator/scripts/build_skills_db.py
-export JOB_CWD=$(pwd)
-```
-After A3 sets the slugs:
-```bash
-export JOB_DIR=${JOB_CWD}/${company_slug}_${job_slug}
-mkdir -p ${JOB_DIR}/logs
-```
-`$JOB_DIR` is an exported env var, available to every later bash/Python step. Parallel sessions each get their
-own — separate shell processes.
-
-**A1 — Load candidate keywords.** Load `references/keywords_only.json` (`print_refs.py fit` prints it), not the full profile — A only needs
-keywords. `profile.all_keywords` feeds A4; `master_profile.json` is loaded only in B and A6.5.
-
-**A2 — Get JD text.** `python3 ~/.claude/skills/job-automator/scripts/scrape_jd.py "<url>"` — exit 2 or 3 →
-ask the user to paste the JD. Most target career sites (Apple, Tesla, Rivian, Greenhouse/Workday/Lever) are
-JS-rendered: do not spend turns on static scrapes — go straight to browser extraction using page-text
-extraction, and if that returns only nav/footer boilerplate, ask for a paste (global CLAUDE.md).
-
-**A2.5 — Hard blocker pre-screen** (regex, zero tokens)
-```bash
-RESULT=$(echo "$jd_text" | python3 ~/.claude/skills/job-automator/scripts/prescreen_jd.py); EXIT=$?
-```
-`EXIT=1` → parse `BLOCK:<category>:<matched_phrase>`, print the ⛔ HARD BLOCK banner with the matched phrase,
-MATCHES/APPLY = No, and "F-1 OPT holders do not qualify." **STOP. Do not run A3–A9, B, or C.** Not
-overridable. `EXIT=0` (CLEAR) → continue. Sponsorship regexes include the Eaton-derived CPT/OPT/STEM-OPT
-phrasings — do not remove them.
-
+The A0 – A2.5 commands (job dir, keywords, JD text, hard-blocker pre-screen) moved to SKILL.md, unchanged.
 
 ---
 

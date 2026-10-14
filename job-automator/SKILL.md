@@ -46,7 +46,8 @@ C it fired for ~5% of sessions and 21 of 22 drafts went past due.
    ```bash
    python3 ~/.claude/skills/job-automator/scripts/process_followups.py --count
    ```
-   → `FOLLOWUPS=<n> DRAFTS=<n>`
+   → `FOLLOWUPS=<n> DRAFTS=<n>`. Issue it as a parallel call in the same turn as the routed step's
+   first commands (for A: A0 and `print_refs.py fit`), so it costs no extra round trip.
 2. If `FOLLOWUPS` > 0, print **one line**, then immediately continue with what was asked:
    > `note: {N} outreach messages past follow-up date — say "followups" to triage`
 
@@ -105,15 +106,49 @@ Inputs: job URL or pasted JD text · `references/candidate_context.md` · `refer
 `references/skills_db.json` (canonical skills + aliases + depth; built by `build_skills_db.py` from
 `master_profile.json` + the curated `references/skill_aliases.json`).
 
-**A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** Commands in
-**[fit_payload.md](references/fit_payload.md)**: `build_keywords.py`, `build_skills_db.py`, `$JOB_CWD`/`$JOB_DIR`,
-`keywords_only.json`, `skills_db.json`, `scrape_jd.py`, `prescreen_jd.py`.
+**A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** The commands are below.
+**[fit_payload.md](references/fit_payload.md)** holds the A3 `jd` schema and the A6 payload.
 
 **Reference files: print them in one call instead of Reading them one by one.**
 `python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit` prints `fit_payload.md`, `keywords_only.json`
 and `candidate_context.md` exactly as they are on disk, without the Read tool's line numbers. A6.5 uses
 `print_refs.py semantic` for `semantic_read.md` and the full `master_profile.json`. Read any file it lists as
 NOT PRINTED. Edit needs a prior Read, so Read `candidate_context.md` before appending a wording to it in A5.
+
+**First A turn: one turn of parallel calls.** S1, A0's two cache builds with `export JOB_CWD=$(pwd)`,
+and `print_refs.py fit` depend neither on each other nor on the JD. Issue them together as parallel tool
+calls in the first turn after loading this skill.
+
+**A0 — Job directory + keyword cache**
+```bash
+python3 ~/.claude/skills/job-automator/scripts/build_keywords.py
+python3 ~/.claude/skills/job-automator/scripts/build_skills_db.py
+export JOB_CWD=$(pwd)
+```
+After A3 sets the slugs:
+```bash
+export JOB_DIR=${JOB_CWD}/${company_slug}_${job_slug}
+mkdir -p ${JOB_DIR}/logs
+```
+`$JOB_DIR` is an exported env var, available to every later bash/Python step. Parallel sessions each get their
+own — separate shell processes.
+
+**A1 — Load candidate keywords.** Load `references/keywords_only.json` (`print_refs.py fit` prints it), not
+the full profile — A only needs keywords. `profile.all_keywords` feeds A4; `master_profile.json` is loaded only in B and A6.5.
+
+**A2 — Get JD text.** `python3 ~/.claude/skills/job-automator/scripts/scrape_jd.py "<url>"` — exit 2 or 3 →
+ask the user to paste the JD. Most target career sites (Apple, Tesla, Rivian, Greenhouse/Workday/Lever) are
+JS-rendered: do not spend turns on static scrapes — go straight to browser extraction using page-text
+extraction, and if that returns only nav/footer boilerplate, ask for a paste (global CLAUDE.md).
+
+**A2.5 — Hard blocker pre-screen** (regex, zero tokens)
+```bash
+RESULT=$(echo "$jd_text" | python3 ~/.claude/skills/job-automator/scripts/prescreen_jd.py); EXIT=$?
+```
+`EXIT=1` → parse `BLOCK:<category>:<matched_phrase>`, print the ⛔ HARD BLOCK banner with the matched phrase,
+MATCHES/APPLY = No, and "F-1 OPT holders do not qualify." **STOP. Do not run A3–A9, B, or C.** Not
+overridable. `EXIT=0` (CLEAR) → continue. Sponsorship regexes include the Eaton-derived CPT/OPT/STEM-OPT
+phrasings — do not remove them.
 
 **Skill vocabulary is centralised.** `scripts/skill_match.py` is the ONE place that answers "does Justin
 have this JD skill?" — `score_fit.py` (req_cov), `select_content.py` (B1 ranking) and `verify_coverage.py`
