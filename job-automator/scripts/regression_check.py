@@ -716,7 +716,7 @@ def check_prefilter(old_code, items, tmp):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
-    ap.add_argument("--base", default="main")
+    ap.add_argument("--base", default=None, help="git ref with the old code (default: main, else origin/main)")
     ap.add_argument("--old")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--min", type=int, default=30)
@@ -728,6 +728,14 @@ def main():
         print(f"ERROR: run this from the job-automator-skill repo clone (it needs jobs/ for fixtures and git "
               f"for the old code), not from the installed skill. Looked in {ROOT}.", file=sys.stderr)
         return 2
+    if not a.base:
+        for ref in ("main", "origin/main"):
+            if subprocess.run(["git", "-C", ROOT, "rev-parse", "--verify", "-q", ref],
+                              capture_output=True).returncode == 0:
+                a.base = ref
+                break
+        else:
+            a.base = "main"
     tmp = tempfile.mkdtemp(prefix="ja_regress_")
     try:
         old_code = os.path.abspath(a.old) if a.old else extract_old(a.base, os.path.join(tmp, "old_src"))
