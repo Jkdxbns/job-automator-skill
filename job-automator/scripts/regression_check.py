@@ -131,9 +131,7 @@ EXPECTED_TEXT_EDITS = [
      "why": "pointer to fit_payload.md replaced: the A0–A2.5 commands now sit right below it"},
     {"file": "SKILL.md",
      "old": "   → `FOLLOWUPS=<n> DRAFTS=<n>`\n",
-     "new": ("   → `FOLLOWUPS=<n> DRAFTS=<n>`. Issue it as a parallel call in the same turn as the routed"
-             " step's\n"
-             "   first commands (for A: A0 and `print_refs.py fit`), so it costs no extra round trip.\n"),
+     "new": "   → `FOLLOWUPS=<n> DRAFTS=<n>`. Send it alongside the first step's commands, as a parallel call.\n",
      "why": "S1 runs in the same turn as the first step's commands instead of a turn of its own"},
     {"file": "SKILL.md",
      "old": '| "tailor" / "tailor my resume" | **B** on the current job | below |',
@@ -156,6 +154,11 @@ EXPECTED_TEXT_EDITS = [
              " file is\nread. **B4-VERIFY** and **B4.5's FIXABLE vs CEILING** moved here from SKILL.md word for"
              " word; they are\nenforcement, not optional.\n"),
      "why": "header note: B4-VERIFY and B4.5 now live in this file"},
+    {"file": "SKILL.md",
+     "old": ("**B0 – B4 — cache check, tailor, generate.** Mechanics in\n"
+             "**[workflow_b_tailoring.md](references/workflow_b_tailoring.md)**: the"),
+     "new": "**B0 – B4 — cache check, tailor, generate.** Mechanics below: the",
+     "why": "B0–B4 summary moved to the top of workflow_b_tailoring.md, so it points below, not at itself"},
 ]
 
 # emploive-analysis/scripts/results_table.py parses transcripts with these (copied verbatim).

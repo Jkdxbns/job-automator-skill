@@ -30,9 +30,8 @@ about a tool result.
 **References load on demand** — each step names the file it needs. `scoring_rationale.md` holds the formulas,
 backtests and audit history; read it only when changing a rule.
 
-**Scripts are run, not read.** Every command a step needs is written out at that step. If you need an
-argument the step does not show, run the script with `--help` (every script answers it, with no side effects)
-instead of opening its source.
+**Scripts are run, not read.** Need an argument a step doesn't show? Run the script with `--help`, not its
+source.
 
 ---
 
@@ -45,8 +44,7 @@ C it fired for ~5% of sessions and 21 of 22 drafts went past due.
    ```bash
    python3 ~/.claude/skills/job-automator/scripts/process_followups.py --count
    ```
-   → `FOLLOWUPS=<n> DRAFTS=<n>`. Issue it as a parallel call in the same turn as the routed step's
-   first commands (for A: A0 and `print_refs.py fit`), so it costs no extra round trip.
+   → `FOLLOWUPS=<n> DRAFTS=<n>`. Send it alongside the first step's commands, as a parallel call.
 2. If `FOLLOWUPS` > 0, print **one line**, then immediately continue with what was asked:
    > `note: {N} outreach messages past follow-up date — say "followups" to triage`
 
@@ -109,15 +107,10 @@ Inputs: job URL or pasted JD text · `references/candidate_context.md` · `refer
 **A0 – A2.5 — setup, JD text, hard-blocker pre-screen.** The commands are below.
 **[fit_payload.md](references/fit_payload.md)** holds the A3 `jd` schema and the A6 payload.
 
-**Reference files: print them in one call instead of Reading them one by one.**
-`python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit` prints `fit_payload.md`, `keywords_only.json`
-and `candidate_context.md` exactly as they are on disk, without the Read tool's line numbers. A6.5 uses
-`print_refs.py semantic` for `semantic_read.md` and the full `master_profile.json`. Read any file it lists as
-NOT PRINTED. Edit needs a prior Read, so Read `candidate_context.md` before appending a wording to it in A5.
-
-**First A turn: one turn of parallel calls.** S1, A0's two cache builds with `export JOB_CWD=$(pwd)`,
-and `print_refs.py fit` depend neither on each other nor on the JD. Issue them together as parallel tool
-calls in the first turn after loading this skill.
+**First A turn, as parallel calls:** S1, A0, and
+`python3 ~/.claude/skills/job-automator/scripts/print_refs.py fit`, which prints `fit_payload.md`,
+`keywords_only.json` and `candidate_context.md` verbatim (no Read line numbers). Read any file it lists as
+NOT PRINTED, and Read `candidate_context.md` before an A5 Edit.
 
 **A0 — Job directory + keyword cache**
 ```bash
@@ -247,10 +240,9 @@ below min_match_for_can_try               → MATCHES No,      APPLY No
 ```
 Thresholds come from `references/candidate_context.md`.
 
-**`--report --log` (single role) fold A7 and A9 into this same call, but only once fit.json is final.** The
-script prints render_report.py's exact output between the `=== A7 REPORT` marker lines and writes the
-log_fit.py row. While `SEMANTIC    : REQUIRED` it does neither and says so; they run on the A6.5 merge
-instead. For a batch, leave both flags off and run A7 and A9 once each over every role's fit.json.
+**`--report --log` = A7 + A9 in the same call** (single role), once fit.json is final: the report prints
+between `=== A7 REPORT` markers and the log row is written. While SEMANTIC is REQUIRED they wait for the A6.5
+merge. Batch: no flags; run A7 and A9 once over every fit.json.
 
 **There is no semantic branch here, by construction** — `score_fit.py` has no code path from `llm_analysis` to
 `verdicts.apply`. The semantic read is merged into the existing fit.json (A6.5) — it never triggers a second
@@ -273,8 +265,7 @@ scoring run. Never hand-edit fit.json.
 > 6. Render A7 **only after** that merge (or immediately, if the read was not required). Never render A7 while
 >    `semantic_pending` is true.
 
-Inputs for the read, in one call: `python3 ~/.claude/skills/job-automator/scripts/print_refs.py semantic`
-prints `semantic_read.md` and the FULL `master_profile.json`, verbatim.
+Inputs, one call: `print_refs.py semantic` (`semantic_read.md` + the FULL `master_profile.json`, verbatim).
 
 Procedure, anchors and output shape: **[semantic_read.md](references/semantic_read.md)**, read before
 writing the read. Two constraints
@@ -284,9 +275,8 @@ the B-GATE conversation, never the number.
 
 **A7 — Display report** — **runs AFTER A6 has written fit.json.**
 
-Single role: the `--report` flag on A6 or on the A6.5 merge has already run this renderer. Its stdout is the
-block between the `=== A7 REPORT` marker lines; that block is what you paste. Do not run render_report.py again
-for the same fit.json. Run the command below for a batch, or to re-render on request.
+Single role: `--report` already ran this renderer; paste the block between the `=== A7 REPORT` markers and
+don't re-run it. The command below is for a batch or a re-render.
 
 > **HARD RULE — the report is script-rendered, then COPIED INTO YOUR REPLY.**
 > ```bash
@@ -326,8 +316,7 @@ python3 ~/.claude/skills/job-automator/scripts/log_fit.py $JOB_DIR/logs/fit.json
 re-run updates, never duplicates) and atomic. Writes `~/job_search/fit_analysis_log.json`; F2's funnel reads
 it, so a skipped row is lost funnel data ([scoring_rationale.md §4](references/scoring_rationale.md)).
 
-Single role: the `--log` flag on A6 or on the A6.5 merge has already written this row (its `LOGGED` /
-`UPDATED` line). Run log_fit.py yourself only in batch mode, or when the flag was not used.
+Single role: `--log` already wrote this row (`LOGGED`/`UPDATED`); don't re-run it.
 
 Stop here unless this is part of a larger requested flow.
 
@@ -364,17 +353,8 @@ verdict**, not the semantic read.
 `hooks/gate_resume_build.py` enforces this at the Bash layer too, so a forgotten check is denied rather than
 silently tailoring a rejected role.
 
-**B0 – B4 — cache check, tailor, generate.** Mechanics in
-**[workflow_b_tailoring.md](references/workflow_b_tailoring.md)**: the `resume_cache.py check` reuse offer
-(its key is salted with a hash of `master_profile.json`, so a profile edit invalidates every cached resume),
-the B1 pre-filter, B2 summary pick, the B3 prompt (in `tailoring_prompt.md`), and the `generate_pdf.py` call
-with its exit codes. **Exit 1 means the compile FAILED and no PDF was written — show the pdflatex log tail,
-say the resume did not build, and stop. Never hand Justin a lone `.tex` as if it were the deliverable.**
-
 **After B-GATE clears, read [workflow_b_tailoring.md](references/workflow_b_tailoring.md) in full before
-acting.** It holds B0–B5: the cache check, tailoring, the PDF build, **B4-VERIFY** (a real, single-page PDF
-before anything is reported done), the overflow redraft, **B4.5** (paste the coverage report; FIXABLE vs
-CEILING) and the B5 report with the portfolio URL.
+acting:** B0–B5, including **B4-VERIFY** and **B4.5**.
 
 ⚠️ **Never edit `master_profile.json` without Justin's explicit in-the-moment permission** — it is the source
 of truth for every tailored resume, so a silent edit propagates into live applications. Propose, state the

@@ -4,6 +4,12 @@ Loaded during B, after B-GATE has cleared. **B-GATE** stays in SKILL.md because 
 read. **B4-VERIFY** and **B4.5's FIXABLE vs CEILING** moved here from SKILL.md word for word; they are
 enforcement, not optional.
 
+**B0 – B4 — cache check, tailor, generate.** Mechanics below: the `resume_cache.py check` reuse offer
+(its key is salted with a hash of `master_profile.json`, so a profile edit invalidates every cached resume),
+the B1 pre-filter, B2 summary pick, the B3 prompt (in `tailoring_prompt.md`), and the `generate_pdf.py` call
+with its exit codes. **Exit 1 means the compile FAILED and no PDF was written — show the pdflatex log tail,
+say the resume did not build, and stop. Never hand Justin a lone `.tex` as if it were the deliverable.**
+
 ## B0 — Resume cache check
 
 ```bash
